@@ -1,0 +1,15 @@
+{
+  "$id": "blockchain-address.json",
+  "title": "Blockchain address",
+  "type": "object",
+  "description": "An address on a blockchain",
+  "properties": {
+    "address": {
+      "type": "string"
+    },
+    "type": {
+      "enum": ["eoa", "safe", "creator", "factory", "contract"]
+    }
+  },
+  "required": ["address", "type"]
+}

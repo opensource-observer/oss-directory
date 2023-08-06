@@ -1,0 +1,13 @@
+{
+  "$id": "url.json",
+  "title": "URL",
+  "type": "object",
+  "description": "A generic URL",
+  "properties": {
+    "url": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": ["url"]
+}

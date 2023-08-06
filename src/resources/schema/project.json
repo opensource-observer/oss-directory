@@ -1,0 +1,33 @@
+{
+  "$id": "project.json",
+  "title": "Project",
+  "type": "object",
+  "description": "A project is a collection of artifacts",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "github": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json"
+      }
+    },
+    "npm": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json"
+      }
+    },
+    "optimism": {
+      "type": "array",
+      "items": {
+        "$ref": "blockchain-address.json"
+      }
+    }
+  },
+  "required": ["name", "slug"]
+}
