@@ -1,0 +1,16 @@
+{
+  "$id": "collection.json",
+  "title": "Collection",
+  "type": "object",
+  "description": "A collection of projects",
+  "properties": {
+    "projects": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": ["projects"]
+}
