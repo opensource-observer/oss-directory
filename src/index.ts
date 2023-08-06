@@ -1,5 +1,20 @@
 import {
-  validateCollectionFile,
-  validateProjectFile,
+  validateProject,
+  validateCollection,
+  safeCastProject,
+  safeCastCollection,
+  readProjectFile,
+  readCollectionFile,
 } from "./validator/index.js";
-export { validateCollectionFile, validateProjectFile };
+export {
+  validateProject,
+  validateCollection,
+  safeCastProject,
+  safeCastCollection,
+  readProjectFile,
+  readCollectionFile,
+};
+
+import { Project } from "./types/project.js";
+import { Collection } from "./types/collection.js";
+export { Project, Collection };

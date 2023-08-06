@@ -13,19 +13,19 @@
     "github": {
       "type": "array",
       "items": {
-        "$ref": "url.json"
+        "$ref": "url.json#"
       }
     },
     "npm": {
       "type": "array",
       "items": {
-        "$ref": "url.json"
+        "$ref": "url.json#"
       }
     },
     "optimism": {
       "type": "array",
       "items": {
-        "$ref": "blockchain-address.json"
+        "$ref": "blockchain-address.json#"
       }
     }
   },
