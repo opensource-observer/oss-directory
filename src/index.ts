@@ -1,3 +1,7 @@
+import { Project } from "./types/project.js";
+import { Collection } from "./types/collection.js";
+export { Project, Collection };
+
 import {
   validateProject,
   validateCollection,
@@ -15,6 +19,5 @@ export {
   readCollectionFile,
 };
 
-import { Project } from "./types/project.js";
-import { Collection } from "./types/collection.js";
-export { Project, Collection };
+import { fetchData } from "./fetchData.js";
+export { fetchData };
