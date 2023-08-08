@@ -1,16 +1,16 @@
 #!/usr/bin/env node
 
 import fs from "fs";
-import path from "path";
 import _ from "lodash";
+import { dirname } from "path";
 import YAML from "yaml";
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 import { safeCastProject, safeCastCollection } from "../index.js";
+import { getCollectionPath, getProjectPath } from "../utils/format.js";
 
 type Args = {
   in: string;
-  out: string;
 };
 
 /**
@@ -20,10 +20,6 @@ yargs(hideBin(process.argv))
   .option("in", {
     type: "string",
     describe: "Input file",
-  })
-  .option("out", {
-    type: "string",
-    describe: "Output",
   })
   .command<Args>(
     "projects",
@@ -35,18 +31,14 @@ yargs(hideBin(process.argv))
       const jsonStr = fs.readFileSync(argv.in, "utf8");
       const json = JSON.parse(jsonStr);
 
-      if (!fs.lstatSync(argv.out).isDirectory()) {
-        throw new Error("Output must be a directory");
-      }
-
       for (const [key, value] of Object.entries(json)) {
         const v = value as any;
         const name = key;
         const slug = _.kebabCase(name).toLowerCase();
-        const firstChar = slug.charAt(0);
-        const dir = path.resolve(argv.out, firstChar);
-        if (!fs.existsSync(dir)) {
-          fs.mkdirSync(dir);
+        const outFile = getProjectPath(slug);
+        const outDir = dirname(outFile);
+        if (!fs.existsSync(outDir)) {
+          fs.mkdirSync(outDir);
         }
         const project = safeCastProject({
           name,
@@ -68,7 +60,7 @@ yargs(hideBin(process.argv))
           ],
         });
         const yaml = YAML.stringify(project);
-        fs.writeFileSync(path.resolve(dir, `${slug}.yaml`), yaml);
+        fs.writeFileSync(outFile, yaml);
         console.log(slug);
       }
     },
@@ -86,7 +78,8 @@ yargs(hideBin(process.argv))
         projects: _.keys(json).map(_.kebabCase).sort(),
       });
       const yaml = YAML.stringify(collection);
-      fs.writeFileSync(argv.out, yaml);
+      const outFile = getCollectionPath("optimism");
+      fs.writeFileSync(outFile, yaml);
     },
   )
   .demandCommand()
