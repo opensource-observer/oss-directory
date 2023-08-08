@@ -4,6 +4,7 @@ import { readCollectionFile, readProjectFile } from "../index.js";
 import { FileFormat } from "../types/files.js";
 import { UserError } from "../utils/error.js";
 import { assertNever } from "../utils/common.js";
+import { getProjectPath } from "../utils/format.js";
 
 export type ValidateArgs = {
   dir: string;
@@ -39,7 +40,13 @@ export async function validateCollections(args: ValidateArgs) {
   const { fileFormat, files } = await getFiles(args);
   console.log(`Validating collections in ${args.dir}`);
   for (const file of files) {
-    await readCollectionFile(file, { format: fileFormat });
+    // Check each file conforms to `Collection` schema
+    const collection = await readCollectionFile(file, { format: fileFormat });
+    // Make sure that all projects in the collection exist
+    for (const projectSlug of [...collection.projects]) {
+      const projectFile = getProjectPath(projectSlug);
+      await readProjectFile(projectFile, { format: fileFormat });
+    }
   }
   console.log(`Success! Validated ${files.length} files`);
 }
@@ -52,6 +59,7 @@ export async function validateProjects(args: ValidateArgs) {
   const { fileFormat, files } = await getFiles(args);
   console.log(`Validating projects in ${args.dir}`);
   for (const file of files) {
+    // Check each file conforms to `Project` schema
     await readProjectFile(file, { format: fileFormat });
   }
   console.log(`Success! Validated ${files.length} files`);
