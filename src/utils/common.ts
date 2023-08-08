@@ -1,4 +1,3 @@
-
 import { AssertionError } from "./error.js";
 
 /**
