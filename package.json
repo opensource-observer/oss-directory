@@ -1,6 +1,6 @@
 {
   "name": "oss-directory",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Open source software directory",
   "repository": "git@github.com:hypercerts-org/oss-directory.git",
   "author": "Hypercerts Foundation",
@@ -60,6 +60,8 @@
     "dotenv": "^16.3.1",
     "glob": "^10.3.3",
     "lodash": "^4.17.21",
+    "simple-git": "^3.19.1",
+    "tmp-promise": "^3.0.3",
     "ts-adt": "^2.1.2",
     "winston": "^3.10.0",
     "yaml": "^2.3.1",
