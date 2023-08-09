@@ -4,10 +4,13 @@
   "type": "object",
   "description": "A project is a collection of artifacts",
   "properties": {
-    "name": {
-      "type": "string"
+    "version": {
+      "type": "number"
     },
     "slug": {
+      "type": "string"
+    },
+    "name": {
       "type": "string"
     },
     "github": {
@@ -29,5 +32,5 @@
       }
     }
   },
-  "required": ["name", "slug"]
+  "required": ["version", "slug", "name"]
 }

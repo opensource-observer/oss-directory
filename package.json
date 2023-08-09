@@ -1,6 +1,6 @@
 {
   "name": "oss-directory",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Open source software directory",
   "repository": "git@github.com:hypercerts-org/oss-directory.git",
   "author": "Hypercerts Foundation",
@@ -18,18 +18,17 @@
     "node": ">=16"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "pnpm types:json && tsc",
     "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
     "format:staged": "lint-staged",
     "lint": "tsc --noEmit && pnpm lint:eslint && pnpm lint:prettier",
     "lint:eslint": "eslint --ignore-path ./.gitignore --max-warnings 0 --cache .",
     "lint:prettier": "prettier --ignore-path ./.gitignore --log-level warn --check **/*.ts",
-    "prebuild": "pnpm types:json",
     "prepack": "pnpm build",
     "prepare": "husky install",
     "start": "ts-node --esm src/cli.ts",
     "test": "NODE_OPTIONS=\"--no-warnings --experimental-vm-modules\" jest --passWithNoTests",
-    "types:json": "pnpm run json2ts -i './src/resources/schema/' -o 'src/types' --cwd './src/resources/schema'",
+    "types:json": "pnpm json2ts -i './src/resources/schema/' -o 'src/types' --cwd './src/resources/schema'",
     "validate:collections": "pnpm start validate-collections",
     "validate:projects": "pnpm start validate-projects"
   },
