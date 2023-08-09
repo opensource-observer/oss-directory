@@ -9,8 +9,9 @@
  * A project is a collection of artifacts
  */
 export interface Project {
-  name: string;
+  version: number;
   slug: string;
+  name: string;
   github?: URL[];
   npm?: URL[];
   optimism?: BlockchainAddress[];

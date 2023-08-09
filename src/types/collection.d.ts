@@ -9,6 +9,9 @@
  * A collection of projects
  */
 export interface Collection {
+  version: number;
+  slug: string;
+  name: string;
   /**
    * @minItems 1
    */

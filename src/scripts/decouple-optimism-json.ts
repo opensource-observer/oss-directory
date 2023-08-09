@@ -8,6 +8,7 @@ import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 import { safeCastProject, safeCastCollection } from "../index.js";
 import { getCollectionPath, getProjectPath } from "../utils/format.js";
+import { currentVersion } from "../utils/migration.js";
 
 type Args = {
   in: string;
@@ -41,8 +42,9 @@ yargs(hideBin(process.argv))
           fs.mkdirSync(outDir);
         }
         const project = safeCastProject({
-          name,
+          version: currentVersion,
           slug,
+          name,
           github: [{ url: v.github }],
           optimism: [
             ...(v["creator_addresses"] ?? []).map((addr: string) => ({
@@ -74,16 +76,21 @@ yargs(hideBin(process.argv))
     (argv) => {
       const jsonStr = fs.readFileSync(argv.in, "utf8");
       const json = JSON.parse(jsonStr);
+      const slug = "optimism";
+      const name = "Optimism";
       const collection = safeCastCollection({
+        version: currentVersion,
+        slug,
+        name,
         projects: _.keys(json).map(_.kebabCase).sort(),
       });
       const yaml = YAML.stringify(collection);
-      const outFile = getCollectionPath("optimism");
+      const outFile = getCollectionPath(slug);
       fs.writeFileSync(outFile, yaml);
     },
   )
   .demandCommand()
-  .demandOption(["in", "out"])
+  .demandOption(["in"])
   .strict()
   .help("h")
   .alias("h", "help")

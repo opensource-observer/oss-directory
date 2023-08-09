@@ -4,6 +4,15 @@
   "type": "object",
   "description": "A collection of projects",
   "properties": {
+    "version": {
+      "type": "number"
+    },
+    "slug": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
     "projects": {
       "type": "array",
       "minItems": 1,
@@ -12,5 +21,5 @@
       }
     }
   },
-  "required": ["projects"]
+  "required": ["version", "slug", "name", "projects"]
 }
