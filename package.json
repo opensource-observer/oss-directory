@@ -1,6 +1,6 @@
 {
   "name": "oss-directory",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Open source software directory",
   "repository": "git@github.com:hypercerts-org/oss-directory.git",
   "author": "Hypercerts Foundation",
@@ -18,7 +18,7 @@
     "node": ">=16"
   },
   "scripts": {
-    "build": "pnpm types:json && tsc",
+    "build": "pnpm types && tsc",
     "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
     "format:staged": "lint-staged",
     "lint": "tsc --noEmit && pnpm lint:eslint && pnpm lint:prettier",
@@ -28,7 +28,9 @@
     "prepare": "husky install",
     "start": "ts-node --esm src/cli.ts",
     "test": "NODE_OPTIONS=\"--no-warnings --experimental-vm-modules\" jest --passWithNoTests",
+    "types": "pnpm types:json && pnpm types:mv",
     "types:json": "pnpm json2ts -i './src/resources/schema/' -o 'src/types' --cwd './src/resources/schema'",
+    "types:mv": "find src/types/ -name '*.d.ts' -type f | sed s/\\.d.ts$// | xargs -I _ bash -c 'mv _.d.ts _.ts'",
     "validate:collections": "pnpm start validate-collections",
     "validate:projects": "pnpm start validate-projects"
   },

@@ -1,6 +1,6 @@
-import { Project } from "./types/project.js";
+import { Project, URL, BlockchainAddress } from "./types/project.js";
 import { Collection } from "./types/collection.js";
-export { Project, Collection };
+export { Project, Collection, URL, BlockchainAddress };
 
 import {
   validateProject,
