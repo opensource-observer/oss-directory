@@ -14,7 +14,8 @@ const addresses: any = {
   },
   optimism: {
     EASContractAddress: "0x4200000000000000000000000000000000000021",
-    schemaUID: "", // TODO: update once the schema has been deployed on OP Mainnet
+    schemaUID:
+      "0x739257b1bf8533a29a5c59a6dda5905c50f7c2bf436d709cd9ea7bfabbe5172b",
   },
 };
 
@@ -111,6 +112,7 @@ export async function attest(input: AttestInput) {
 
 async function getData(
   filePath: string,
+  network: string,
 ): Promise<{ network: string; attestations: AttestInput[] }> {
   const project = await readProjectFile(filePath);
 
@@ -136,27 +138,36 @@ async function getData(
   });
 
   return {
-    network: "optimism", // Currently hardcoded
+    network,
     attestations,
   };
 }
 
 async function main() {
   const args = process.argv.slice(2);
-  if (args.length !== 1) {
-    console.error("Please provide a path to the YAML input file.");
+  if (args.length !== 2) {
+    console.error(
+      "Please provide a path to the YAML input file and the network ('optimism' or 'optimism-goerli').",
+    );
     process.exit(1);
   }
   const filePath = args[0];
+  const network = args[1];
 
-  const inputData = await getData(filePath);
+  if (network !== "optimism" && network !== "optimism-goerli") {
+    console.error(
+      "Invalid network. Please use 'optimism' or 'optimism-goerli'.",
+    );
+    process.exit(1);
+  }
+
+  const inputData = await getData(filePath, network);
   for (const attestation of inputData.attestations) {
     const result = await attest({
       ...attestation,
       privateKey: process.env.PRIVATE_KEY,
-      network: inputData.network,
+      network: network,
     });
     console.log("result:", result);
   }
 }
-main();
