@@ -1,6 +1,6 @@
 # oss-directory
 
-Open source projects often consist of many different artifacts (e.g. git repositories, npm packages, Open Collective collectives).
+Open source projects often consist of many different artifacts (e.g. git repositories, npm packages, smart contracts, Open Collective collectives).
 With this repository, we'd love to crowdsource these artifacts so that we can better analyze their impact in the open.
 
 In this repository, you'll find schemas for defining artifacts, as well as the crowd-sourced data for open source projects.
@@ -42,6 +42,28 @@ We also include functions for casting and validating data:
 - `validateCollection`
 - `safeCastProject`
 - `safeCastCollection`
+
+## Making onchain attestations about projects
+
+### EAS schemas
+
+We've created a schema for making project attestations with [EAS](https://attest.sh/). These attestations create an onchain link between a GitHub repo and its blockchain addresses (ie, that smart contracts and contract factories under its control).
+
+You can view the schemas here:
+
+- optimism-goerli: [Schema 168](https://optimism-goerli-bedrock.easscan.org/schema/view/0x739257b1bf8533a29a5c59a6dda5905c50f7c2bf436d709cd9ea7bfabbe5172b)
+
+- optimism: [Schema 86](https://optimism.easscan.org/schema/view/0x739257b1bf8533a29a5c59a6dda5905c50f7c2bf436d709cd9ea7bfabbe5172b)
+
+### EAS attestations
+
+You can make a series of attestations about a project by running the following:
+
+```bash
+ts-node src/scripts/optimism-attestation.ts data/projects/P/PROJECT.yaml optimism # OR optimism-goerli
+```
+
+Make sure you have `.env` file that contains your `PRIVATE_KEY` for an account with some ETH on the appropriate network.
 
 ## How to contribute
 
