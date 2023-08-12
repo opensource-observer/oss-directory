@@ -13,7 +13,7 @@ const addresses: any = {
       "0x739257b1bf8533a29a5c59a6dda5905c50f7c2bf436d709cd9ea7bfabbe5172b",
   },
   optimism: {
-    EASContractAddress: "0x4200000000000000000000000000000000000020",
+    EASContractAddress: "0x4200000000000000000000000000000000000021",
     schemaUID:
       "0x739257b1bf8533a29a5c59a6dda5905c50f7c2bf436d709cd9ea7bfabbe5172b",
   },
