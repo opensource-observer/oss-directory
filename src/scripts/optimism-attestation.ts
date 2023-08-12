@@ -8,12 +8,12 @@ dotenv.config();
 
 const addresses: any = {
   "optimism-goerli": {
-    EASContractAddress: "0x1a5650d0ecbca349dd84bafa85790e3e6955eb84",
+    EASContractAddress: "0x4200000000000000000000000000000000000021",
     schemaUID:
       "0x739257b1bf8533a29a5c59a6dda5905c50f7c2bf436d709cd9ea7bfabbe5172b",
   },
   optimism: {
-    EASContractAddress: "0x4200000000000000000000000000000000000021",
+    EASContractAddress: "0x4200000000000000000000000000000000000020",
     schemaUID:
       "0x739257b1bf8533a29a5c59a6dda5905c50f7c2bf436d709cd9ea7bfabbe5172b",
   },
@@ -93,15 +93,20 @@ export async function attest(input: AttestInput) {
     { name: "addressType", value: addressType, type: "bytes32" },
   ]);
 
-  const res = await eas.attest({
-    schema: schemaUID,
-    data: {
-      recipient: "0x0000000000000000000000000000000000000000",
-      expirationTime: 0,
-      revocable: true,
-      data: encodedData,
+  const res = await eas.attest(
+    {
+      schema: schemaUID,
+      data: {
+        recipient: "0x0000000000000000000000000000000000000000",
+        expirationTime: 0,
+        revocable: true,
+        data: encodedData,
+      },
     },
-  });
+    {
+      gasLimit: 500000,
+    },
+  );
 
   const hash = res.tx.hash;
   const newAttestationUID = await res.wait();
