@@ -49,11 +49,13 @@ export async function attest(input: AttestInput) {
     throw new Error("repoUrl is required");
   }
 
+  /*
   const githubRepoUrlPattern =
     /^(https:\/\/)?(www\.)?github\.com\/[a-zA-Z0-9_-]+\/[a-zA-Z0-9_-]+(\/)?$/;
   if (!githubRepoUrlPattern.test(repoUrl)) {
     throw new Error("repoUrl is not a valid GitHub URL");
   }
+  */
 
   if (!address) {
     throw new Error("address is required");
@@ -174,3 +176,8 @@ async function main() {
     console.log("result:", result);
   }
 }
+
+main().catch((error) => {
+  console.error("Error occurred:", error);
+  process.exit(1);
+});
