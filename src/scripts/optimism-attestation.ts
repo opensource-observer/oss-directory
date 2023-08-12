@@ -163,6 +163,9 @@ async function main() {
 
   const inputData = await getData(filePath, network);
   for (const attestation of inputData.attestations) {
+    console.log(
+      `Creating attestation for repo ${attestation.repoUrl} and address ${attestation.address} of type ${attestation.addressType}`,
+    );
     const result = await attest({
       ...attestation,
       privateKey: process.env.PRIVATE_KEY,
