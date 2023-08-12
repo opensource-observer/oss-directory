@@ -63,7 +63,7 @@ const processFiles = (err: Error | null, files?: string[]) => {
       markdownRows.push(
         `| [${
           data.name || projectName
-        }](https://github.com/hypercerts-org/oss-directory/${relativePath.replace(
+        }](https://github.com/hypercerts-org/oss-directory/tree/main/${relativePath.replace(
           /\\/g,
           "/",
         )}) | ${githubRepos} | ${blockchainAddresses} |`,
