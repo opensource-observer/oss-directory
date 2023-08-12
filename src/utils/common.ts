@@ -1,4 +1,4 @@
-import { AssertionError } from "./error.js";
+import { AssertionError, NullOrUndefinedValueError } from "./error.js";
 
 /**
  * Asserts that a condition is true.
@@ -20,4 +20,22 @@ export function assert<T>(cond: T, msg: string): asserts cond {
  */
 export function assertNever(_x: never): never {
   throw new Error("unexpected branch taken");
+}
+
+/**
+ * Asserts that a value is not null or undefined.
+ * @param x
+ * @param msg
+ * @returns
+ */
+export function ensure<T>(x: T | null | undefined, msg: string): T {
+  if (x === null || x === undefined) {
+    // eslint-disable-next-line no-debugger
+    debugger;
+    throw new NullOrUndefinedValueError(
+      `Value must not be undefined or null${msg ? `- ${msg}` : ""}`,
+    );
+  } else {
+    return x;
+  }
 }
