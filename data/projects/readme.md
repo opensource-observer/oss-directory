@@ -58,6 +58,7 @@
 | [Eden Network](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/e/eden-network.yaml)                                                                 | 1            | 23                   |
 | [Elk Finance](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/e/elk-finance.yaml)                                                                   | 1            | 12                   |
 | [EtherOrcs](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/e/ether-orcs.yaml)                                                                      | 1            | 1                    |
+| [Ethereum Attestation Service](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/e/ethereum-attestation-service.yaml)                                 | 1            | 2                    |
 | [Exactly](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/e/exactly.yaml)                                                                           | 1            | 100                  |
 | [Extra Finance](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/e/extra-finance.yaml)                                                               | 1            | 53                   |
 | [Flashstake](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/f/flashstake.yaml)                                                                     | 1            | 18                   |
@@ -68,7 +69,7 @@
 | [Galxe](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/galxe.yaml)                                                                               | 1            | 10                   |
 | [Gelato](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/gelato.yaml)                                                                             | 1            | 39                   |
 | [Geo Web](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/geo-web.yaml)                                                                           | 1            | 20                   |
-| [Gnosis Safe](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/gnosis-safe.yaml)                                                                   | 1            | 8                    |
+| [Gnosis Safe](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/gnosis-safe.yaml)                                                                   | 1            | 3                    |
 | [Granary](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/granary.yaml)                                                                           | 1            | 66                   |
 | [Gysr](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/gysr.yaml)                                                                                 | 1            | 44                   |
 | [Hashflow](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/h/hashflow.yaml)                                                                         | 1            | 30                   |

@@ -1,0 +1,10 @@
+version: 1
+slug: ethereum-attestation-service
+name: Ethereum Attestation Service
+github:
+  - url: https://github.com/ethereum-attestation-service
+optimism:
+  - address: "0x4200000000000000000000000000000000000020"
+    type: contract
+  - address: "0x4200000000000000000000000000000000000021"
+    type: contract
