@@ -159,7 +159,7 @@
 | [Tipcc](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/t/tipcc.yaml)                                                                               | 1            | 3                    |
 | [Transit Finance](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/t/transit-finance.yaml)                                                           | 1            | 3                    |
 | [Umbra](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/u/umbra.yaml)                                                                               | 1            | 3                    |
-| [Uniswap](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/u/uniswap.yaml)                                                                           | 1            | 35                   |
+| [Uniswap](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/u/uniswap.yaml)                                                                           | 1            | 16                   |
 | [universexyz](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/u/universexyz.yaml)                                                                   | 1            | 1                    |
 | [Unlock Protocol](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/u/unlock-protocol.yaml)                                                           | 1            | 6                    |
 | [Velodrome](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/v/velodrome.yaml)                                                                       | 1            | 951                  |
