@@ -1,6 +1,6 @@
 | Project                                                                                                                                                                     | Github Repos | Blockchain Addresses |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------- |
-| [0xSplits](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/0/0-x-splits.yaml)                                                                       | 1            | 9                    |
+| [0xSplits](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/0/0-x-splits.yaml)                                                                       | 1            | 6                    |
 | [1Inch](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/1/1-inch.yaml)                                                                              | 1            | 64                   |
 | [2Pi Network](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/2/2-pi-network.yaml)                                                                  | 1            | 44                   |
 | [88mph](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/8/88-mph.yaml)                                                                              | 1            | 1                    |
@@ -66,10 +66,9 @@
 | [Flux Protocol](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/f/flux-protocol.yaml)                                                               | 1            | 1                    |
 | [Fraxswap](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/f/fraxswap.yaml)                                                                         | 1            | 16                   |
 | [Fuji Finance](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/f/fuji-finance.yaml)                                                                 | 1            | 87                   |
-| [Galxe](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/galxe.yaml)                                                                               | 1            | 10                   |
+| [Galxe](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/galxe.yaml)                                                                               | 1            | 9                    |
 | [Gelato](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/gelato.yaml)                                                                             | 1            | 39                   |
 | [Geo Web](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/geo-web.yaml)                                                                           | 1            | 20                   |
-| [Gnosis Safe](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/gnosis-safe.yaml)                                                                   | 1            | 3                    |
 | [Granary](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/granary.yaml)                                                                           | 1            | 66                   |
 | [Gysr](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/g/gysr.yaml)                                                                                 | 1            | 44                   |
 | [Hashflow](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/h/hashflow.yaml)                                                                         | 1            | 30                   |
@@ -133,6 +132,7 @@
 | [Sabiler](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/sabiler.yaml)                                                                           | 1            | 3                    |
 | [Sablier](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/sablier.yaml)                                                                           | 1            | 2                    |
 | [Saddle Finance](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/saddle-finance.yaml)                                                             | 1            | 37                   |
+| [Safe](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/safe.yaml)                                                                                 | 1            | 4                    |
 | [Scion Finance](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/scion-finance.yaml)                                                               | 1            | 83                   |
 | [ScopeLift](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/scope-lift.yaml)                                                                      | 1            | 23                   |
 | [Set Protocol](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/set-protocol.yaml)                                                                 | 1            | 135                  |
@@ -159,7 +159,7 @@
 | [Tipcc](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/t/tipcc.yaml)                                                                               | 1            | 3                    |
 | [Transit Finance](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/t/transit-finance.yaml)                                                           | 1            | 3                    |
 | [Umbra](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/u/umbra.yaml)                                                                               | 1            | 3                    |
-| [Uniswap](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/u/uniswap.yaml)                                                                           | 1            | 35                   |
+| [Uniswap](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/u/uniswap.yaml)                                                                           | 1            | 16                   |
 | [universexyz](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/u/universexyz.yaml)                                                                   | 1            | 1                    |
 | [Unlock Protocol](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/u/unlock-protocol.yaml)                                                           | 1            | 6                    |
 | [Velodrome](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/v/velodrome.yaml)                                                                       | 1            | 951                  |
@@ -176,4 +176,4 @@
 | [Zerion](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/z/zerion.yaml)                                                                             | 1            | 6                    |
 | [Zeroex (0x)](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/z/zeroex-0-x.yaml)                                                                    | 1            | 3                    |
 | [zeroex](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/z/zeroex.yaml)                                                                             | 1            | 35                   |
-| [Zora](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/z/zora.yaml)                                                                                 | 1            | 18                   |
+| [Zora](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/z/zora.yaml)                                                                                 | 1            | 16                   |
