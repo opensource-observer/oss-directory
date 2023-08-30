@@ -58,8 +58,8 @@ yargs(hideBin(process.argv))
           slug,
           name,
           github: Array.isArray(project.projectGithub)
-            ? project.projectGithub
-            : [project.projectGithub],
+            ? project.projectGithub.map((url) => ({ url }))
+            : [{ url: project.projectGithub }],
         };
 
         const yaml = YAML.stringify(projectData);
