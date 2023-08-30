@@ -51,29 +51,42 @@ optimism:
     type: creator
   - address: "0x946e9c780f3c79d80e51e68d259d0d7e794f2124"
     type: creator
-  - address: "0x1f98431c8ad98523631ae4a59f267346ea31f984" # UniswapV3Factory'
+  - address: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
     type: factory
-  - address: "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad" # UniversalRouter'
+    name: UniswapV3Factory
+  - address: "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad"
     type: contract
-  - address: "0xb555edf5dcf85f42ceef1f3630a52a108e55a654" # UniversalRouter
+    name: UniversalRouter
+  - address: "0xb555edf5dcf85f42ceef1f3630a52a108e55a654"
     type: contract
-  - address: "0x560da69ef841e1272c65ef9eba538870f8c0c484" # UniversalRouter
+    name: UniversalRouter
+  - address: "0x560da69ef841e1272c65ef9eba538870f8c0c484"
     type: contract
-  - address: "0xc36442b4a4522e871399cd717abdd847ab11fe88" # NonfungiblePositionManager'
+    name: UniversalRouter
+  - address: "0xc36442b4a4522e871399cd717abdd847ab11fe88"
     type: contract
-  - address: "0x91ae842a5ffd8d12023116943e72a606179294f3" # NonfungibleTokenPositionDescriptor'
+    name: NonfungiblePositionManager
+  - address: "0x91ae842a5ffd8d12023116943e72a606179294f3"
     type: contract
-  - address: "0xbfd8137f7d1516d3ea5ca83523914859ec47f573" # TickLens
+    name: NonfungibleTokenPositionDescriptor
+  - address: "0xbfd8137f7d1516d3ea5ca83523914859ec47f573"
     type: contract
-  - address: "0x61ffe014ba17989e743c5f6cb21bf9697530b21e" # QuoterV2'
+    name: TickLens
+  - address: "0x61ffe014ba17989e743c5f6cb21bf9697530b21e"
     type: contract
-  - address: "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45" # SwapRouter02'
+    name: QuoterV2
+  - address: "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
     type: contract
-  - address: "0x075b36de1bd11cb361c5b3b1e80a9ab0e7aa8a60" # SwapRouter02
+    name: SwapRouter02
+  - address: "0x075b36de1bd11cb361c5b3b1e80a9ab0e7aa8a60"
     type: contract
-  - address: "0xe34139463ba50bd61336e0c446bd8c0867c6fe65" # UniswapV3Staker
+    name: SwapRouter02
+  - address: "0xe34139463ba50bd61336e0c446bd8c0867c6fe65"
     type: contract
-  - address: "0x62094cda36dd8945a2c158a4c6c8865c5b34fef9" # UniswapV3Staker'
+    name: UniswapV3Staker
+  - address: "0x62094cda36dd8945a2c158a4c6c8865c5b34fef9"
     type: contract
-  # - address: "0x4e59b44847b379578588920ca78fbf26c0b4956c" # deterministic-deployment-proxy
+    name: UniswapV3Staker
+  # - address: "0x4e59b44847b379578588920ca78fbf26c0b4956c"
   #   type: factory
+  #   name: DeterministicDeploymentProxy
