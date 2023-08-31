@@ -9,6 +9,9 @@
     },
     "type": {
       "enum": ["eoa", "safe", "creator", "factory", "contract"]
+    },
+    "name": {
+      "type": "string"
     }
   },
   "required": ["address", "type"]
