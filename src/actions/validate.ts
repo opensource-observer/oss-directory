@@ -1,5 +1,6 @@
-import path from "path";
+import _ from "lodash";
 import { glob } from "glob";
+import path from "path";
 import { readCollectionFile, readProjectFile } from "../validator/index.js";
 import { assert } from "../utils/common.js";
 import { getProjectPath } from "../utils/format.js";
@@ -49,6 +50,14 @@ export async function validateProjects(args: ValidateArgs) {
   const fileFormat = getFileFormat(args.format);
   const extension = getFileExtension(fileFormat);
   const files = await glob(path.resolve(args.dir, `**/*${extension}`));
+
+  // Keep track of which keys we've seen to make sure they're unique
+  const keyToFilename: Record<string, string[]> = {};
+  const addKey = (key: string, val: string) =>
+    keyToFilename[key]
+      ? keyToFilename[key].push(val)
+      : (keyToFilename[key] = [val]);
+
   console.log(`Validating projects in ${args.dir}`);
   for (const file of files) {
     // Check each file conforms to `Project` schema
@@ -62,6 +71,17 @@ export async function validateProjects(args: ValidateArgs) {
       project.version === currentVersion,
       `Project version(${project.version}) must be ${currentVersion}: ${file}`,
     );
+    project.github?.forEach((x) => addKey(x.url, file));
+    project.npm?.forEach((x) => addKey(x.url, file));
+    project.optimism?.forEach((x) => addKey(`optimism:${x.address}`, file));
   }
+
+  // Make sure that there's only 1 project per key
+  const withDuplicates = _.pickBy(keyToFilename, (val) => val.length > 1);
+  assert(
+    _.keys(withDuplicates).length <= 0,
+    `Duplicates found: ${JSON.stringify(withDuplicates, null, 2)}`,
+  );
+
   console.log(`Success! Validated ${files.length} files`);
 }
