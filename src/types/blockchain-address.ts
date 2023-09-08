@@ -11,6 +11,6 @@
 export interface BlockchainAddress {
   address: string;
   type: "eoa" | "safe" | "creator" | "factory" | "contract";
-  name: string;
+  name?: string;
   [k: string]: unknown;
 }
