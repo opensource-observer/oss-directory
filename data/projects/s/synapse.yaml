@@ -8,20 +8,17 @@ optimism:
     tags:
       - creator
   - address: "0x22cdc93f53ee3f6b8ad66fad6f98915a5349950e"
-    name:
-      - SynapseERC20Factory
+    name: SynapseERC20Factory
     tags:
       - factory
       - contract
   - address: "0xa67b7147dce20d6f25fd9abfbcb1c3ca74e11f0b"
-    name:
-      - SwapDeployer
+    name: SwapDeployer
     tags:
       - factory
       - contract
   - address: "0xa9e90579eb086bcda910dd94041ffe041fb4ac89"
-    name:
-      - SwapFlashLoan
+    name: SwapFlashLoan
     tags:
       - factory
       - contract
@@ -32,11 +29,11 @@ optimism:
     tags:
       - creator
   - address: "0xf44938b0125a6662f9536281ad2cd6c499f22004"
+    name: SwapFlashLoan
     tags:
       - factory
   - address: "0xe27bff97ce92c3e1ff7aa9f86781fdd6d48f5ee9"
-    name:
-      - SwapFlashLoan
+    name: SwapFlashLoan
     tags:
       - factory
       - contract
