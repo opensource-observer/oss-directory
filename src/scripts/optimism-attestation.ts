@@ -140,7 +140,8 @@ async function getData(
     return {
       repoUrl: githubRepoUrl,
       address: item.address,
-      addressType: item.type,
+      // NOTE: The EAS schema and oss-directory schemas are not aligned.
+      addressType: item.tags.join(","),
     };
   });
 

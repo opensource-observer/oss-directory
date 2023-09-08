@@ -1,58 +1,80 @@
-version: 1
+version: 2
 slug: wormhole
 name: Wormhole
 github:
   - url: https://github.com/wormhole-foundation
 optimism:
   - address: "0xe2e2d9e31d7e1cc1178fe0d1c5950f6c809816a3"
-    type: creator
+    tags:
+      - creator
   - address: "0x1d68124e65fafc907325e3edbf8c4d84499daa8b"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0xfe8cd454b4a1ca468b57d79c0cc77ef5b6f64585"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0xee91c335eab126df5fdb3797ea9d6ad93aec9722"
-    type: contract
-  - address: "0xfe8cd454b4a1ca468b57d79c0cc77ef5b6f64585"
-    type: contract
+    tags:
+      - contract
   - address: "0x0b3e006a6af5126e625c0e228adf31ea494246a3"
-    type: contract
+    tags:
+      - contract
   - address: "0xfbc2f62b6a366a177d44706f04b74ae2d60bd556"
-    type: contract
+    tags:
+      - contract
   - address: "0xa5f208e072434bc67592e4c49c1b991ba79bca46"
-    type: contract
-  - address: "0x1d68124e65fafc907325e3edbf8c4d84499daa8b"
-    type: contract
+    tags:
+      - contract
   - address: "0xc0946f51ddd63e12c51b23f5814b43c9bc8aa700"
-    type: contract
+    tags:
+      - contract
   - address: "0x51b5123a7b0f9b2ba265f9c4c8de7d78d52f510f"
-    type: contract
+    tags:
+      - contract
   - address: "0x6cbdd436210e19621efaa15db5c730038166b2f3"
-    type: contract
+    tags:
+      - contract
   - address: "0x126783a6cb203a3e35344528b26ca3a0489a1485"
-    type: contract
+    tags:
+      - contract
   - address: "0x796dff6d74f3e27060b71255fe517bfb23c93eed"
-    type: contract
+    tags:
+      - contract
   - address: "0xe69fe4b24e6288df707b68bcc2ad15c42ae50f04"
-    type: contract
+    tags:
+      - contract
   - address: "0x7c9fc5741288cdfdd83ceb07f3ea7e22618d79d2"
-    type: contract
+    tags:
+      - contract
   - address: "0xa6a377d75ca5c9052c9a77ed1e865cc25bd97bf3"
-    type: contract
+    tags:
+      - contract
   - address: "0xb91e3638f82a1facb28690b37e3aae45d2c33808"
-    type: contract
+    tags:
+      - contract
   - address: "0xa321448d90d4e5b0a732867c18ea198e75cac48e"
-    type: contract
+    tags:
+      - contract
   - address: "0x91175aee6dac41b9c1f749ded077568ad93b84ca"
-    type: contract
+    tags:
+      - contract
   - address: "0x1aafb0d5aab9ffbe09d4d30c9fd90d695c4f0881"
-    type: contract
+    tags:
+      - contract
   - address: "0x6dcc0484472523ed9cdc017f711bcbf909789284"
-    type: contract
+    tags:
+      - contract
   - address: "0x53b56de645b9de6e5a40ace047d1c74e8b42eccb"
-    type: contract
+    tags:
+      - contract
   - address: "0xae9d7fe007b3327aa64a32824aaac52c42a6e624"
-    type: contract
+    tags:
+      - contract
   - address: "0x0b2402144bb366a632d14b83f244d2e0e21bd39c"
-    type: contract
+    tags:
+      - contract
   - address: "0x4a330d059b67e1b4fc575500cd805d70725ea1f3"
-    type: contract
+    tags:
+      - contract

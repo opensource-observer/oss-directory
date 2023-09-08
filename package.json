@@ -24,6 +24,9 @@
     "lint": "tsc --noEmit && pnpm lint:eslint && pnpm lint:prettier",
     "lint:eslint": "eslint --ignore-path ./.gitignore --max-warnings 0 --cache .",
     "lint:prettier": "prettier --ignore-path ./.gitignore --log-level warn --check **/*.ts",
+    "migrate": "pnpm migrate:collections && pnpm migrate:projects",
+    "migrate:collections": "pnpm start migrate-collections",
+    "migrate:projects": "pnpm start migrate-projects",
     "prepack": "pnpm build",
     "prepare": "husky install",
     "start": "ts-node --esm src/cli.ts",
@@ -31,6 +34,7 @@
     "types": "pnpm types:json && pnpm types:mv",
     "types:json": "pnpm json2ts -i './src/resources/schema/' -o 'src/types' --cwd './src/resources/schema'",
     "types:mv": "find src/types/ -name '*.d.ts' -type f | sed s/\\.d.ts$// | xargs -I _ bash -c 'mv _.d.ts _.ts'",
+    "validate": "pnpm validate:collections && pnpm validate:projects",
     "validate:collections": "pnpm start validate-collections",
     "validate:projects": "pnpm start validate-projects"
   },

@@ -1,74 +1,108 @@
-version: 1
+version: 2
 slug: worldcoin
 name: Worldcoin
 github:
   - url: https://github.com/worldcoin
 optimism:
   - address: "0x86c5608362b3fbbeb721140472229392f754ef87"
-    type: creator
+    tags:
+      - creator
   - address: "0x7d896339a80dd38bc3bbb04383894c62b2ef2585"
-    type: creator
+    tags:
+      - creator
   - address: "0x36bde71c97b33cc4729cf772ae268934f7ab70b2"
-    type: creator
+    tags:
+      - creator
   - address: "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc"
-    type: factory
+    tags:
+      - factory
   - address: "0x8656583094ad52aaccecf23336f08d9d6f716d8c"
-    type: contract
+    tags:
+      - contract
   - address: "0x73ca6abf09f636bbd3f5838e7e4fd3ae1da838ec"
-    type: contract
+    tags:
+      - contract
   - address: "0xd6ea754b26b73e2196d02285e1ac8e1afedb5c38"
-    type: contract
+    tags:
+      - contract
   - address: "0x402cf55cd702711320e83382c786996d0fbf81ec"
-    type: contract
+    tags:
+      - contract
   - address: "0x30815c496af3b9d0c148f49b847081e4685ca12f"
-    type: contract
+    tags:
+      - contract
   - address: "0xfd28148c5e245b8878b47251a15b08715c9b23b0"
-    type: contract
+    tags:
+      - contract
   - address: "0x2fccf897309f15be6627ede1691ef34eb54d1d57"
-    type: contract
+    tags:
+      - contract
   - address: "0x138a8fe6537b0f287c085519d54c2063fc05f200"
-    type: contract
+    tags:
+      - contract
   - address: "0xe773335550b63eed23a6e60dcc4709106a1f653c"
-    type: contract
+    tags:
+      - contract
   - address: "0x1b6a6f5b6815b87ba3ed3f022870750f9c57f5ca"
-    type: contract
+    tags:
+      - contract
   - address: "0x1be0861e15316618872e2000e564ab1df1b3006a"
-    type: contract
+    tags:
+      - contract
   - address: "0x43c476939ad8217693a6c1e4d4655f8a7b2feef8"
-    type: contract
+    tags:
+      - contract
   - address: "0x06621dff1d667e464145c29e3c90a52b172bc422"
-    type: contract
+    tags:
+      - contract
   - address: "0xe89fa795611a1da4cf5e4c7ec908f4244f13aad1"
-    type: contract
+    tags:
+      - contract
   - address: "0xd237f0ccfbb0f4fbb8cb8c16e59487f80ed3fe94"
-    type: contract
+    tags:
+      - contract
   - address: "0xae88c4e320c284aed8c89c45946e895cb262f55e"
-    type: contract
+    tags:
+      - contract
   - address: "0xb6a6dd4f6eed46f71bc581f69d4c96e6c2c0a70c"
-    type: contract
+    tags:
+      - contract
   - address: "0x8f0ab8a75d6e7c762c11bbc63df4ba3b268fadf8"
-    type: contract
+    tags:
+      - contract
   - address: "0x88221c5fdaa5266e7ff54eb7f2751003313a5226"
-    type: contract
+    tags:
+      - contract
   - address: "0xc460e23914e425be5512ee6bc2c2e0e7e09b57a2"
-    type: contract
+    tags:
+      - contract
   - address: "0xe29bd1215729cb4dfdc7baf3f763391ffdf148b0"
-    type: contract
+    tags:
+      - contract
   - address: "0x90927c982c4c657c3065a7c3070bd05a0d0d9a75"
-    type: contract
+    tags:
+      - contract
   - address: "0x1a86bb2bb53b778e8f0d6000e56424ac3253cbba"
-    type: contract
+    tags:
+      - contract
   - address: "0x300b5be28cd30e6cf580b9eafaeecbc0e11528cf"
-    type: contract
+    tags:
+      - contract
   - address: "0xb5fbfeba9848664fd1a49dc2a250d9b5d1294f2a"
-    type: contract
+    tags:
+      - contract
   - address: "0x924481dd36f80e4c124d0018d941add526f5aff5"
-    type: contract
+    tags:
+      - contract
   - address: "0xdc6ff44d5d932cbd77b52e5612ba0529dc6226f1"
-    type: contract
+    tags:
+      - contract
   - address: "0xc26146969607b37e578a590db12b3aa885710f56"
-    type: contract
+    tags:
+      - contract
   - address: "0x7d8ee5298bd0b4857c245be223d9ba5a64faeb0a"
-    type: contract
+    tags:
+      - contract
   - address: "0x3bed4d42859593a1f16934b8c24792e781052348"
-    type: contract
+    tags:
+      - contract

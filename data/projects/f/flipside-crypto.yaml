@@ -1,10 +1,12 @@
-version: 1
+version: 2
 slug: flipside-crypto
 name: Flipside Crypto
 github:
   - url: https://github.com/FlipsideCrypto
 optimism:
   - address: "0x75ee82787c548daeac58af6cba5bd2a9ff863d28"
-    type: creator
+    tags:
+      - creator
   - address: "0xd870a73a32d0b8c34ccf1e6098e9a26977cb605b"
-    type: contract
+    tags:
+      - contract

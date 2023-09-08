@@ -7,12 +7,16 @@
     "address": {
       "type": "string"
     },
-    "type": {
-      "enum": ["eoa", "safe", "creator", "factory", "contract"]
+    "tags": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": ["eoa", "safe", "creator", "factory", "proxy", "contract"]
+      }
     },
     "name": {
       "type": "string"
     }
   },
-  "required": ["address", "type"]
+  "required": ["address", "tags"]
 }

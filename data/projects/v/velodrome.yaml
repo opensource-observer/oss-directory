@@ -1,1908 +1,2833 @@
-version: 1
+version: 2
 slug: velodrome
 name: Velodrome
 github:
   - url: https://github.com/velodrome-finance
 optimism:
   - address: "0xc0de1436c4e247f8652476a0b9ff55699801e1d0"
-    type: creator
+    tags:
+      - creator
   - address: "0x725bd51dccd08272c63efdc1a5112002da0c5540"
-    type: creator
+    tags:
+      - creator
   - address: "0x8321926c8aae281ef9d8520a772eb1d94a9ec6dd"
-    type: creator
+    tags:
+      - creator
   - address: "0x07537d4360af2489fc1ca086ea9741c054d804de"
-    type: creator
+    tags:
+      - creator
   - address: "0x1fda4dc765f1ef0f0f197db13c81d3d50af61e00"
-    type: factory
+    tags:
+      - factory
   - address: "0x6f6280b44ffc08d37ac38dc0d067251791277396"
-    type: factory
+    tags:
+      - factory
   - address: "0x0f53a89642c91b2d6df95828fd840877a414a381"
-    type: factory
+    tags:
+      - factory
   - address: "0xd2aa6348c321d4c6ac9857face5bb4317b87c959"
-    type: factory
+    tags:
+      - factory
   - address: "0xb891d99290a861c80a88c74afbcda0c1b78bc697"
-    type: factory
+    tags:
+      - factory
   - address: "0x9fe66aef626b3304cf736c71cc6077e03a285b45"
-    type: factory
+    tags:
+      - factory
   - address: "0x41dc4a9e7ef51c9d55200d502db4531c6ddb7fa0"
-    type: factory
+    tags:
+      - factory
   - address: "0x7762f502cc1731355d3ce3c1787a11065ca4ca79"
-    type: factory
+    tags:
+      - factory
   - address: "0xc34df074502194fb89bb9f72c5fddb2e08d43c6c"
-    type: factory
+    tags:
+      - factory
   - address: "0xcd345fca03b42b8e232c31f47212f26d23f24c06"
-    type: factory
+    tags:
+      - factory
   - address: "0x6c48e4abe860a4b067206b92f2dbf221e884b82d"
-    type: factory
+    tags:
+      - factory
   - address: "0x6fd5bee1ddb4dbbb0b7368b080ab99b8ba765902"
-    type: factory
+    tags:
+      - factory
   - address: "0x5e5a37445fadeb71f23514ae7d675ffc644e5e5a"
-    type: factory
+    tags:
+      - factory
   - address: "0x457fd55a2d4b159679379861b470c846cff946eb"
-    type: factory
+    tags:
+      - factory
   - address: "0xe4b9c137230c6c1ff78d82e4b14482dc090a41ed"
-    type: factory
+    tags:
+      - factory
   - address: "0xf7cd01f2feade496b7770e8078cde17bf5e52b1d"
-    type: factory
+    tags:
+      - factory
   - address: "0xab9abf97fad2d169104c9a0f69f7aac37e81d97e"
-    type: factory
+    tags:
+      - factory
   - address: "0x6387765ffa609ab9a1da1b16c455548bfed7cbea"
-    type: factory
+    tags:
+      - factory
   - address: "0x5d0a9190aced4f930470f15078c378193027eb5a"
-    type: factory
+    tags:
+      - factory
   - address: "0x58d50f195c11c708a7d3f12e57a0a08625407a7d"
-    type: factory
+    tags:
+      - factory
   - address: "0x0680a285dbb887efce41c1fde31002bd4fbd6378"
-    type: factory
+    tags:
+      - factory
   - address: "0x45fb928929bbcc703eb8309e455b26454f42b905"
-    type: factory
+    tags:
+      - factory
   - address: "0x6c23fa7ec9eea627261c4a0978664ea592ca0e19"
-    type: factory
+    tags:
+      - factory
   - address: "0x21629c823e80365487f2ca06a0aa85bbb64c0875"
-    type: factory
+    tags:
+      - factory
   - address: "0x0b4d552d8349f9a52103e2074cef80d2ffa73292"
-    type: factory
+    tags:
+      - factory
   - address: "0xdc2b136a9c1fd2a0b9497bb8b11823c2fbf47ac4"
-    type: factory
+    tags:
+      - factory
   - address: "0x0bc1d20a6888f1c146792206ca747e6691972234"
-    type: factory
+    tags:
+      - factory
   - address: "0xb2a6ac16d776bcdcc12320b5408556805fcff8fc"
-    type: factory
+    tags:
+      - factory
   - address: "0x6949f7936cce56a77e30ab1526eb9720f1d98c1e"
-    type: factory
+    tags:
+      - factory
   - address: "0xfd7fddfc0a729ecf45fb6b12fa3b71a575e1966f"
-    type: factory
+    tags:
+      - factory
   - address: "0x59b04228501ff8d33e49e18be6a418c004029ac4"
-    type: factory
+    tags:
+      - factory
   - address: "0xeea82dcab12c855e3736558d80500ed52c8598cd"
-    type: factory
+    tags:
+      - factory
   - address: "0xccd38157460c050d1bc10ddf5bacd6db15e027b3"
-    type: factory
+    tags:
+      - factory
   - address: "0x0e88a5bff34d39da66bdd32b82dc89a32d7bb6c9"
-    type: factory
+    tags:
+      - factory
   - address: "0x9e3e52649210dd8864649e4d1308e8e2864857fc"
-    type: factory
+    tags:
+      - factory
   - address: "0x17547215d96696de1e1c8a9791d6da18f92045af"
-    type: factory
+    tags:
+      - factory
   - address: "0xd7508a9b351c7c7d2754eee236bdfd56870693fc"
-    type: factory
+    tags:
+      - factory
   - address: "0xfea18c039f4fd4e4afa95851750a1310ce9ff34a"
-    type: factory
+    tags:
+      - factory
   - address: "0xd5466f6b8cc38dd01983b6289f77943bfc763c85"
-    type: factory
+    tags:
+      - factory
   - address: "0x22b7396cc0d7b25a2b66245e7834eff38f230abd"
-    type: factory
+    tags:
+      - factory
   - address: "0xeb26f2016f5efffc7deca398d0d034e30c443a89"
-    type: factory
+    tags:
+      - factory
   - address: "0xcac4a6c1bbbf766843d6fdcd95950e6f27f98e9b"
-    type: factory
+    tags:
+      - factory
   - address: "0xc333ae408f62ad4c7f6f15ad4dcfa544b4c0286e"
-    type: factory
+    tags:
+      - factory
   - address: "0x720d336bf42d63d9b953f1ef5e2376813773e364"
-    type: factory
+    tags:
+      - factory
   - address: "0x533b22a3015e60944799c2c46d6c08e7535686ab"
-    type: factory
+    tags:
+      - factory
   - address: "0xc9a10217c3762d43c8123b92af350508aeafccb7"
-    type: factory
+    tags:
+      - factory
   - address: "0x20a068f6940b28338363e8b01b07c21c1d5f197b"
-    type: factory
+    tags:
+      - factory
   - address: "0xe650f3719854c26647f051a1a21055d13e017671"
-    type: factory
+    tags:
+      - factory
   - address: "0xea9e6730d15d899b166e992956b6dcaedb4afda8"
-    type: factory
+    tags:
+      - factory
   - address: "0x47f06237ea82d7ba336dc9c5024f38df7e605270"
-    type: factory
+    tags:
+      - factory
   - address: "0xbe418771bc91f75c4d2bce1d5e2b7286f50992da"
-    type: factory
+    tags:
+      - factory
   - address: "0x9a1b075afb0de5e587f9689003f827dd18fe6f8d"
-    type: factory
+    tags:
+      - factory
   - address: "0xa94028257de11cce82052a68b2704742226385f0"
-    type: factory
+    tags:
+      - factory
   - address: "0x27e229eb55c74f0276cac94629352a1821fc82b8"
-    type: factory
+    tags:
+      - factory
   - address: "0x16e7e0960a74b0ea3e61118a0c0eae8f83d43d7c"
-    type: factory
+    tags:
+      - factory
   - address: "0x65b59136505072614b0290934027414fc6202228"
-    type: factory
+    tags:
+      - factory
   - address: "0x5b10c0b951e6bf236555d118794dcf4d9216bf99"
-    type: factory
+    tags:
+      - factory
   - address: "0x42800ea5d10de19669fcba7b54ae33d00262c4c1"
-    type: factory
+    tags:
+      - factory
   - address: "0xec11026cb1ed987ac18573d57ba978b2f91221ca"
-    type: factory
+    tags:
+      - factory
   - address: "0xea5fcbc6f35341d4b720d2a66353a2e185a10eb9"
-    type: factory
+    tags:
+      - factory
   - address: "0x7e980ae832d3dee8d16bde065c930e890fa16d84"
-    type: factory
+    tags:
+      - factory
   - address: "0xf7cb547ea115d93b6e6d8a01c3e3670d14a8e3e7"
-    type: factory
+    tags:
+      - factory
   - address: "0xc6c1e8399c1c33a3f1959f2f77349d74a373345c"
-    type: factory
+    tags:
+      - factory
   - address: "0xc93f7825523ee5cea2d659843297002542732824"
-    type: factory
+    tags:
+      - factory
   - address: "0xf4df8564c10da7ca5da4d462a8a21605e117d9c2"
-    type: factory
+    tags:
+      - factory
   - address: "0xdea8424d498fed4befcd11bd35c3f1b50f6507e8"
-    type: factory
+    tags:
+      - factory
   - address: "0x03adc372d9d24e98983358a1561a0f2aaefa59e9"
-    type: factory
+    tags:
+      - factory
   - address: "0xf086a79885e4f18ab9803a0a521b1608574958ee"
-    type: factory
+    tags:
+      - factory
   - address: "0xb2adb87f301b75035ec61e87c63ef3fbddf2b1d9"
-    type: factory
+    tags:
+      - factory
   - address: "0x5ccd4584bca3dce9e23f2ba0fd36cf328fc314f6"
-    type: factory
+    tags:
+      - factory
   - address: "0x61b5efa18c9c73fe708f01e2fc558c35e23da885"
-    type: factory
+    tags:
+      - factory
   - address: "0xa84ea94aa705f7d009cddf2a60f65c0d446b748e"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0x87383ec35af6f0d58db242960898ac4d8c9f83a6"
-    type: factory
+    tags:
+      - factory
   - address: "0xf40517f3cac8bdc2ef1d26ca5a89b711a444ba31"
-    type: factory
+    tags:
+      - factory
   - address: "0xf9ad452a52eeedcc29a26fd6380b76c49e837d42"
-    type: factory
+    tags:
+      - factory
   - address: "0x7818d8acefdd1a47d6c9094aa413f24d9593973e"
-    type: factory
+    tags:
+      - factory
   - address: "0xb4df5ada43c40611fdf59395c4f314c4a676209a"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0x274612aadc5cfd9db654983f1b6377b03de1e1e9"
-    type: factory
+    tags:
+      - factory
   - address: "0x2245459deb0e2fd8b6e4695b5c236b1e0726db2a"
-    type: factory
+    tags:
+      - factory
   - address: "0xf2d42c46528116362aca448837a0236459b53c63"
-    type: factory
+    tags:
+      - factory
   - address: "0x19715771e30c93915a5bbda134d782b81a820076"
-    type: factory
+    tags:
+      - factory
   - address: "0xe9581d0f1a628b038fc8b2a7f5a7d904f0e2f937"
-    type: factory
+    tags:
+      - factory
   - address: "0x60d880c0cb7f105656c611b51af6d3cf18bcef36"
-    type: factory
+    tags:
+      - factory
   - address: "0xd6ac2264a19812632f942e4daa9b1f95ec69de38"
-    type: factory
+    tags:
+      - factory
   - address: "0x7386ac24ae27991e6b04c0c712cdc969a86b9e03"
-    type: factory
+    tags:
+      - factory
   - address: "0x815d7937aec2fda936201b51e18e0cc66080ce17"
-    type: factory
+    tags:
+      - factory
   - address: "0x80626088ff143fe0eca1946b86cf41a035e235e8"
-    type: factory
+    tags:
+      - factory
   - address: "0x763cbb83cb837114fded11d562bcbf3d58a682ac"
-    type: factory
+    tags:
+      - factory
   - address: "0xe5f28fc43bb40cdf7202ebe406793815b6f07fbd"
-    type: factory
+    tags:
+      - factory
   - address: "0x2d7cfb303045cfcb2195c29c92714654415e091f"
-    type: factory
+    tags:
+      - factory
   - address: "0x9bcf753956196321dc75760295bb9a88d243ecad"
-    type: factory
+    tags:
+      - factory
   - address: "0x7719cad77e2d37bc2a8bc891aa6363f1d50e316d"
-    type: factory
+    tags:
+      - factory
   - address: "0x50d9b0afcaf8d62c93d248a57a14f5a0b9cb0541"
-    type: factory
+    tags:
+      - factory
   - address: "0x95f5879b6da25cb56aeceb6c28e30ef1208ee1af"
-    type: factory
+    tags:
+      - factory
   - address: "0x657e6eebd71ac90a91173b786c099e71e37a75ff"
-    type: factory
+    tags:
+      - factory
   - address: "0x3e5b814cda46765e2fe250f2421fbddf4b879021"
-    type: factory
+    tags:
+      - factory
   - address: "0xe0d3c840c9e58ef1631079b978ea6bd801e9c5c3"
-    type: factory
+    tags:
+      - factory
   - address: "0x2f03cc854c19942ff6bd218aa1b5636fde4a6c0a"
-    type: factory
+    tags:
+      - factory
   - address: "0xdeb56d1826f20fcf50a91d73c154cc5572908dc2"
-    type: factory
+    tags:
+      - factory
   - address: "0x62191c893df8d26ac295ba1274a00975dc07190c"
-    type: factory
+    tags:
+      - factory
   - address: "0x17d11d91564f58c68e7e8e0d2604cb7e63db8585"
-    type: factory
+    tags:
+      - factory
   - address: "0x5d1e82af6ad9c1d05d616f4675eccfcca5fe1cfe"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0xb4e49f2e6f5c823a5562bf03ccd62c6bdad64fb6"
-    type: factory
+    tags:
+      - factory
   - address: "0x9a8f32c7ae599bab840c206dbaf99f1d4c75b6f6"
-    type: factory
+    tags:
+      - factory
   - address: "0x103f2556cb47eaf2161e700f15716f65711ed983"
-    type: factory
+    tags:
+      - factory
   - address: "0x5954e5b20260c0cdd35c93bbda98d1f2c5abecaf"
-    type: factory
+    tags:
+      - factory
   - address: "0xd4be1faf8bf4436fb3405fb8d4dae6b882fab718"
-    type: factory
+    tags:
+      - factory
   - address: "0xfedd5a17d009dcb28deac39094a2aa5b601dc4a3"
-    type: factory
+    tags:
+      - factory
   - address: "0x1ad7a6e549172179f230b6d770faa8da06739181"
-    type: factory
+    tags:
+      - factory
   - address: "0x78fa29412998acedd7728b4cf5623ee5e2f8f589"
-    type: factory
+    tags:
+      - factory
   - address: "0xce9accfbb25eddce91845c3a7c3d1613d1d7081f"
-    type: factory
+    tags:
+      - factory
   - address: "0x03c186608fe3d93a7c0b6a80fdcb571da373ee35"
-    type: factory
+    tags:
+      - factory
   - address: "0xdb6ea1774ba9e474ee5ab93b7c45b48801e0ba12"
-    type: factory
+    tags:
+      - factory
   - address: "0x709f238bbf1c1b07a8b2274716562e3ce11d034e"
-    type: factory
+    tags:
+      - factory
   - address: "0x9ab28b077e249d82d7339543c8c71b271f882eb3"
-    type: factory
+    tags:
+      - factory
   - address: "0xec24eb97cec2f0f6a2d61254990b0f163bbbfe1d"
-    type: factory
+    tags:
+      - factory
   - address: "0x3eec44e94ee86ce79f34bb26dc3cdbbee18d6d17"
-    type: factory
+    tags:
+      - factory
   - address: "0x1f8b46abe1eabf5a60cbbb5fb2e4a6a46fa0b6e6"
-    type: factory
+    tags:
+      - factory
   - address: "0x37e7d30cc180a750c83d68ed0c2511da10694d63"
-    type: factory
+    tags:
+      - factory
   - address: "0x8ccf13e84953437429647a13e1fb597ac3cfdee4"
-    type: factory
+    tags:
+      - factory
   - address: "0x3e2882ef90fafab1894bec08f57745a0dd63950a"
-    type: factory
+    tags:
+      - factory
   - address: "0xe188c32a2aa8e65f9ab141f5e96f8fa96b1b7757"
-    type: factory
+    tags:
+      - factory
   - address: "0xa8e4fa96327c5a93e159bd781f3ccfd860519d82"
-    type: factory
+    tags:
+      - factory
   - address: "0x21c736d55bd882d3211432bde2e721529fd07b81"
-    type: factory
+    tags:
+      - factory
   - address: "0xffb6c35960b23989037c8c391facebc8a17de970"
-    type: factory
+    tags:
+      - factory
   - address: "0x475c92f613dbe3bd5d1a4f5fcafa0725cad57256"
-    type: factory
+    tags:
+      - factory
   - address: "0xaa7a44d696ca5033e6f7a2d3fbcf8d0913f018b7"
-    type: factory
+    tags:
+      - factory
   - address: "0x7e1357fa56c0ecfe69daf22e08489ae8de56d86c"
-    type: factory
+    tags:
+      - factory
   - address: "0x8a9cd3dce710e90177b4332c108e159a15736a0f"
-    type: factory
+    tags:
+      - factory
   - address: "0x40e966b08041a0f37963deeb44f3f6e456352cf5"
-    type: factory
+    tags:
+      - factory
   - address: "0x600cba6f28d233e0c6f42b88b8ee5a74e34abcc5"
-    type: factory
+    tags:
+      - factory
   - address: "0x838d1957e27a5e51016ab635dd6e38e1911bd805"
-    type: factory
+    tags:
+      - factory
   - address: "0x8fbc13969b03b58e0ac50b19e4aedd4dff8554a1"
-    type: factory
+    tags:
+      - factory
   - address: "0xcc441718f7f50d55f497fd37e3f3f3fe4789cf6b"
-    type: factory
+    tags:
+      - factory
   - address: "0xb90da30758b00e5f08e6c0b71bff122712d830cb"
-    type: factory
+    tags:
+      - factory
   - address: "0x0f5616fa278c4379bb426a9d5096582d0b7cb1de"
-    type: factory
+    tags:
+      - factory
   - address: "0x82188e761ce171d64a82c1fa7f650e1e645bf1dc"
-    type: factory
+    tags:
+      - factory
   - address: "0x9bbe04f4b57119f6fb2892d91692be177d8d8043"
-    type: factory
+    tags:
+      - factory
   - address: "0x4d8b739114309e4dae98362c447099b671d12eca"
-    type: factory
+    tags:
+      - factory
   - address: "0xaf03f51de7a0e62bf061f6fc3931cf79166b0a29"
-    type: factory
+    tags:
+      - factory
   - address: "0xd04f675127d37bf7b009453116c17b7ef088cceb"
-    type: factory
+    tags:
+      - factory
   - address: "0xb6e18e7e5c15f5c0f486da6360c7748e5825be25"
-    type: factory
+    tags:
+      - factory
   - address: "0x3f95e57c7ce7ca478d7a4f0ee6072f39120e3689"
-    type: factory
+    tags:
+      - factory
   - address: "0x4cb325b8a3f04a2fdbb839a8e11c892436a5e41e"
-    type: factory
+    tags:
+      - factory
   - address: "0x8f7a987217d5883b8e0081fc4a6869ae6208c17e"
-    type: factory
+    tags:
+      - factory
   - address: "0x76ca22557dc983ac70432aa1e616972f883b832e"
-    type: factory
+    tags:
+      - factory
   - address: "0xf8ae1a9ff9f853a7837c251f09befd43abebcf90"
-    type: factory
+    tags:
+      - factory
   - address: "0xf1046053aa5682b4f9a81b5481394da16be5ff5a"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0xdcad52616e2689a5f14861300a5db91813a6c0e5"
-    type: factory
+    tags:
+      - factory
   - address: "0x70afb28f6499982f7aa0a52b191665c7f84bcac2"
-    type: factory
+    tags:
+      - factory
   - address: "0x49b5c691685aaeeaaaff57ab6ccef081a165f5bb"
-    type: factory
+    tags:
+      - factory
   - address: "0x69f795e2d9249021798645d784229e5bec2a5a25"
-    type: factory
+    tags:
+      - factory
   - address: "0x4e9e62e2a8d2c35ab4679f9bb932bbc2d063c9eb"
-    type: factory
+    tags:
+      - factory
   - address: "0x5e4a183fa83c52b1c55b11f2682f6a8421206633"
-    type: factory
+    tags:
+      - factory
   - address: "0x1cdfae29a66b39c30eb2b090a2dbba562026e9ff"
-    type: factory
+    tags:
+      - factory
   - address: "0xf3d7932eabb92bb951304e1a1134076345a97ecc"
-    type: factory
+    tags:
+      - factory
   - address: "0xeb0e795a7657b378d6e98393288c99532d8799fe"
-    type: factory
+    tags:
+      - factory
   - address: "0x794299137282e5d3af56616624ab918d1b2becf3"
-    type: factory
+    tags:
+      - factory
   - address: "0xe9b168fa9409eaffa07679196c7568317baf80ed"
-    type: factory
+    tags:
+      - factory
   - address: "0xa36850eaacacbe69f2ba7f82612d40d708cad168"
-    type: factory
+    tags:
+      - factory
   - address: "0xd175676a0915e367863104a9a9ebdf65677b3b26"
-    type: factory
+    tags:
+      - factory
   - address: "0xbfee76f45e02027dad81f1dcf5bcbff28ccd7ef0"
-    type: factory
+    tags:
+      - factory
   - address: "0xb39c47e75177b580ead9940ab4f7cf8b765af01b"
-    type: factory
+    tags:
+      - factory
   - address: "0xd68ce09a74cd2ee9ec749144a0d6f0404adb78d7"
-    type: factory
+    tags:
+      - factory
   - address: "0x93a5d06045b7e788f2eb432b191fea9f8425a2a6"
-    type: factory
+    tags:
+      - factory
   - address: "0xdee1856d7b75abf4c1bdf986da4e1c6c7864d640"
-    type: factory
+    tags:
+      - factory
   - address: "0x44a5a25a0a73c2fc1a2bfa148dc8441f3118b289"
-    type: factory
+    tags:
+      - factory
   - address: "0x587233ce63d7c1e081ce9d94d9940544758f6d01"
-    type: factory
+    tags:
+      - factory
   - address: "0xd4929a10a10ea11b768bfac92541fe5a26c794ce"
-    type: factory
+    tags:
+      - factory
   - address: "0x45ac026c7394b213ec896d892259a6dbf0cbc012"
-    type: factory
+    tags:
+      - factory
   - address: "0x39fbeef6f094e366de326b5de87829deef57ddd6"
-    type: factory
+    tags:
+      - factory
   - address: "0x904f14f9ed81d0b0a40d8169b28592aac5687158"
-    type: factory
+    tags:
+      - factory
   - address: "0xe8b8bff1e415258eb3d5fa8deee9c38406e609cd"
-    type: factory
+    tags:
+      - factory
   - address: "0x66892c5b79d4cde4349d3207e8fcc463a538323a"
-    type: factory
+    tags:
+      - factory
   - address: "0xf798b505f6a017364894ae117c32184c27c22675"
-    type: factory
+    tags:
+      - factory
   - address: "0x71d53b5b7141e1ec9a3fc9cc48b4766102d14a4a"
-    type: factory
+    tags:
+      - factory
   - address: "0x687f7f8106bbd85224480d15d86cf8de31b6a3d1"
-    type: factory
+    tags:
+      - factory
   - address: "0x4867ff5867599a437ffd303a8e544b373ccf5a30"
-    type: factory
+    tags:
+      - factory
   - address: "0x94e55fc6be3e6bb3f01fb5e99af442029df99389"
-    type: factory
+    tags:
+      - factory
   - address: "0xb3134105db6d3a243436df7fb5f3aea7609f0dc5"
-    type: factory
+    tags:
+      - factory
   - address: "0xbbcbdd3abefc0095e1bc92820c6fb56d91ba796b"
-    type: factory
+    tags:
+      - factory
   - address: "0x18b94165808fbd8ea0840d057a60b7dc6302f9a7"
-    type: factory
+    tags:
+      - factory
   - address: "0x43c3f2d0aa0ebc433d654bb6ebf67f0c03f8d8d9"
-    type: factory
+    tags:
+      - factory
   - address: "0x2486cf7c6e94449f08488c8dfc7ee89063426df6"
-    type: factory
+    tags:
+      - factory
   - address: "0xf548faed827a59a32df6d9834178ea1328a7de03"
-    type: factory
+    tags:
+      - factory
   - address: "0x0d55c507b6123633ff73a546752e964d012d28a7"
-    type: factory
+    tags:
+      - factory
   - address: "0x94b731ac9c363fd797529f0c4f303c34d9a4829d"
-    type: factory
+    tags:
+      - factory
   - address: "0xc158dafdf2ca1bd1200a5b199157d0b42c8448e2"
-    type: factory
+    tags:
+      - factory
   - address: "0x51cbeae00cf9b0897584f9841b28f35eadf4d39c"
-    type: factory
+    tags:
+      - factory
   - address: "0x2b6c15b11022c245ed1a0d38a9821aad94db7b64"
-    type: factory
+    tags:
+      - factory
   - address: "0x8542dd4744edea38b8a9306268b08f4d26d38581"
-    type: factory
+    tags:
+      - factory
   - address: "0x9f611290d537840bdab9f32c408acbebe83b07b5"
-    type: factory
+    tags:
+      - factory
   - address: "0x02a130b6d35611bc2d90e20f2cea45431c0a9a8d"
-    type: factory
+    tags:
+      - factory
   - address: "0x1e51282ec1476ec44b88ff720b87878e2934775c"
-    type: factory
+    tags:
+      - factory
   - address: "0xdae6d2e3472d780c6e6a3dbf053514451bdacc2d"
-    type: factory
+    tags:
+      - factory
   - address: "0xeb5ddd6941910f929a112c271bd6927677acaffd"
-    type: factory
+    tags:
+      - factory
   - address: "0x3dd9556a521d6e57be480c94da102fedf0429aba"
-    type: factory
+    tags:
+      - factory
   - address: "0xa254d1b93cacb6a7e3a04cd2eeeb669d94c37f9d"
-    type: factory
+    tags:
+      - factory
   - address: "0x7a849c0f70cfd9f8bf226ef7e7d0fc74d3a35d29"
-    type: factory
+    tags:
+      - factory
   - address: "0xf547a913aac6acc722a66bef3b72c256360a3d09"
-    type: factory
+    tags:
+      - factory
   - address: "0xe89fba6b17456a3aa60e39a93c8eebdf3ee9c790"
-    type: factory
+    tags:
+      - factory
   - address: "0xcd5e72017400e337af8299c7fe5ff164709a21dd"
-    type: factory
+    tags:
+      - factory
   - address: "0x1e29eceafa5abd6f45c8bf72f1ffdfc2342d2591"
-    type: factory
+    tags:
+      - factory
   - address: "0x6f239f5119dfe3277c888dace11ba33f5749ee07"
-    type: factory
+    tags:
+      - factory
   - address: "0x635ef3ec6d348fe6ac5c6f6b3711dd605026abc5"
-    type: factory
+    tags:
+      - factory
   - address: "0x47bc0bdc420475f713ce099647f967f636b1cf70"
-    type: factory
+    tags:
+      - factory
   - address: "0x558b59b997ecd3719c0f3bc98ab7331f28dc3ff6"
-    type: factory
+    tags:
+      - factory
   - address: "0x1bafb8120f6faaa72465f828ba536a828a89475d"
-    type: factory
+    tags:
+      - factory
   - address: "0x1b785113e3c1f7453f9cc59202529a6f80a68af1"
-    type: factory
+    tags:
+      - factory
   - address: "0x2441a0952a74994890f3326143032736ec7aada4"
-    type: factory
+    tags:
+      - factory
   - address: "0x992b6518a0336dbb4aa59a2d8ca223f3c63e325b"
-    type: factory
+    tags:
+      - factory
   - address: "0x9c8a59934fba9af82674eff5d13a24e7c7e7a1f1"
-    type: factory
+    tags:
+      - factory
   - address: "0x985612ff2c9409174fedcff23d4f4761af124f88"
-    type: factory
+    tags:
+      - factory
   - address: "0x83e782c52cc0b834464c4a560c82610150f0850e"
-    type: factory
+    tags:
+      - factory
   - address: "0x6b24b159c3705573a719848c83065d4c8c020b9b"
-    type: factory
+    tags:
+      - factory
   - address: "0x6d5ba400640226e24b50214d2bbb3d4db8e6e15a"
-    type: factory
+    tags:
+      - factory
   - address: "0x835220aa6c2667eca1e68a269a99f78c280a2d5d"
-    type: factory
+    tags:
+      - factory
   - address: "0xffd2b192305e8207f52a48e859d5b4e99ad0bea1"
-    type: factory
+    tags:
+      - factory
   - address: "0x92fb369363498d8bfefc4eb705d8c91a51d22c45"
-    type: factory
+    tags:
+      - factory
   - address: "0x3e4eccad2ebb0e2e59bf9ff9aed42c486e884451"
-    type: factory
+    tags:
+      - factory
   - address: "0x97203c53daf858ce36d95997fbfafa8e29122230"
-    type: factory
+    tags:
+      - factory
   - address: "0x6e74fd411e7c3e858678e5385b922f0a2e288fe5"
-    type: factory
+    tags:
+      - factory
   - address: "0x93b30f5a03eedf6059a8de6e657e1db27d1a756d"
-    type: factory
+    tags:
+      - factory
   - address: "0x58e6433a6903886e440ddf519ecc573c4046a6b2"
-    type: factory
+    tags:
+      - factory
   - address: "0xb6e616e72928672f9b053c9d58365b570467d527"
-    type: factory
+    tags:
+      - factory
   - address: "0xfaf222c39dd7ec1cea060353ec0d2148692dae85"
-    type: factory
+    tags:
+      - factory
   - address: "0xc22a4cc48f20eb52e273fb08a5bf04879d8fc8e9"
-    type: factory
+    tags:
+      - factory
   - address: "0xfd060b034b182f823ad69bf38272367b762ae276"
-    type: factory
+    tags:
+      - factory
   - address: "0xe6d5415aee8ffe66d31db7db8560469ac38f40e9"
-    type: factory
+    tags:
+      - factory
   - address: "0x25638ddda5ad255308accd17d5f225837a36b9ab"
-    type: factory
+    tags:
+      - factory
   - address: "0x3ff55a113b35b91ffbafe91532711ab0cd972ae3"
-    type: factory
+    tags:
+      - factory
   - address: "0xbda45a58bac8b327d02798a9184a850ceed9a477"
-    type: factory
+    tags:
+      - factory
   - address: "0x91a74ca1d283281023c0885873aec2611f7af73d"
-    type: factory
+    tags:
+      - factory
   - address: "0x0001922d5c4ef6475124778ff68288523e3dcab3"
-    type: factory
+    tags:
+      - factory
   - address: "0x9be8a6ca3019783062ef68c65c7b4bef087b227e"
-    type: factory
+    tags:
+      - factory
   - address: "0x2481b55498af79b6277a322d9294b72fa89abb49"
-    type: factory
+    tags:
+      - factory
   - address: "0xf1c89b2f2a74676c0ea908d3e98bece604bcb00e"
-    type: factory
+    tags:
+      - factory
   - address: "0xd984fd341389f12ace5fd262baa7829fe43dd080"
-    type: factory
+    tags:
+      - factory
   - address: "0x4d7959d17b9710be87e3657e69d946914221bb88"
-    type: factory
+    tags:
+      - factory
   - address: "0x77b6d0279c9cef559ef7c32c31d9a5d8acb664fe"
-    type: factory
+    tags:
+      - factory
   - address: "0xb720fbc32d60bb6dcc955be86b98d8fd3c4ba645"
-    type: factory
+    tags:
+      - factory
   - address: "0x4c8b195d33c6f95a8262d56ede793611ee7b5aad"
-    type: factory
+    tags:
+      - factory
   - address: "0x3b375ba61920551217f5944f4f5d8a63989a438e"
-    type: factory
+    tags:
+      - factory
   - address: "0x8c1e84bb9dc26d3b2b14c191c075135b0371d31b"
-    type: factory
+    tags:
+      - factory
   - address: "0x6e26660ce7182e463a64333c185c72e2c27555fb"
-    type: factory
+    tags:
+      - factory
   - address: "0x6f05b0f404618387e473af6df1132f4979000d55"
-    type: factory
+    tags:
+      - factory
   - address: "0x7242bbf79fd3cf4022789cc07a5e210db240ae9f"
-    type: factory
+    tags:
+      - factory
   - address: "0x4ec77c33bd56d2151ace9f28f6ca27601410e858"
-    type: factory
+    tags:
+      - factory
   - address: "0x79c912fef520be002c2b6e57ec4324e260f38e50"
-    type: factory
+    tags:
+      - factory
   - address: "0x1634dbb96ba34679681ed81a6c0e7952e1bc7a01"
-    type: factory
+    tags:
+      - factory
   - address: "0x8648ac7a8f5971f146ad8867228181884a7919ba"
-    type: factory
+    tags:
+      - factory
   - address: "0x2da7c1c002e754fc9c9ab7a4835c3dad29b00c74"
-    type: factory
+    tags:
+      - factory
   - address: "0x477fa18b063b7728409570d274f7a055e3da0d6e"
-    type: factory
+    tags:
+      - factory
   - address: "0x56770b94279539416855fe29ef14b26438b5e421"
-    type: factory
+    tags:
+      - factory
   - address: "0x662f16652a242aad3c938c80864688e4d9b26a5e"
-    type: factory
+    tags:
+      - factory
   - address: "0x4f0ca4daeabb0f38c1746d0fccffe919fe0a2789"
-    type: factory
+    tags:
+      - factory
   - address: "0x74f66d886f85f424bdd8045c5772c98af84340ff"
-    type: factory
+    tags:
+      - factory
   - address: "0x534c78346eba5c7c2d24c2376343e0c57f0681df"
-    type: factory
+    tags:
+      - factory
   - address: "0x04730579f1468c06530ae3a84b7d5c233f3a130d"
-    type: factory
+    tags:
+      - factory
   - address: "0x73767121046569f801cb988e9b227542bbcfde63"
-    type: factory
+    tags:
+      - factory
   - address: "0xd59bcd890875386c0781236b809f1631ce1cd5bd"
-    type: factory
+    tags:
+      - factory
   - address: "0xed47e3ce6d9c05f562c469ab1bf1244cc697aa73"
-    type: factory
+    tags:
+      - factory
   - address: "0xfdad8f85c0f3895c85301f549d124ce526479bf8"
-    type: factory
+    tags:
+      - factory
   - address: "0xefa74728dbda583b16622e17937f4577e2846c0f"
-    type: factory
+    tags:
+      - factory
   - address: "0xf23265c15c83e84e32cc6be55c9df0c414956704"
-    type: factory
+    tags:
+      - factory
   - address: "0x83407210dbb8a2ca5796449a70776df63d34333d"
-    type: factory
+    tags:
+      - factory
   - address: "0x53bea2d15efe344b054e73209455d2b6aa1c9462"
-    type: factory
+    tags:
+      - factory
   - address: "0x67124355cce2ad7a8ea283e990612ebe12730175"
-    type: factory
+    tags:
+      - factory
   - address: "0xb470e7ce5ef74c0f54bf4784291c9f870c65be2d"
-    type: factory
+    tags:
+      - factory
   - address: "0xa5bac216148e0bf1e707e63013a5761c9a8ec2f0"
-    type: factory
+    tags:
+      - factory
   - address: "0x54e46cff5e72f034f5bdd065021b4cf3df6242de"
-    type: factory
+    tags:
+      - factory
   - address: "0x44ef8461b982f4f4f3efb0f344704f1b244239d1"
-    type: factory
+    tags:
+      - factory
   - address: "0x13fcece51a571516a0e7723905b22a618de98570"
-    type: factory
+    tags:
+      - factory
   - address: "0xc08a890aaecd8f99ae9f09cd34fdb995d5efb08a"
-    type: factory
+    tags:
+      - factory
   - address: "0xd9940f2fc832e48edcd24df16b99b1f737329c2e"
-    type: factory
+    tags:
+      - factory
   - address: "0xffa052ad37d6e460ff0ea99d7282b68ddb4ed4f2"
-    type: factory
+    tags:
+      - factory
   - address: "0x4be2cbe40521279b8fc561e65bb842bf73ec3a80"
-    type: factory
+    tags:
+      - factory
   - address: "0x615b9dd61f1f9a80f5bcd33a53eb79c37b20addc"
-    type: factory
+    tags:
+      - factory
   - address: "0xfecc8874b6e82cc51016b92a9d622aa945478efa"
-    type: factory
+    tags:
+      - factory
   - address: "0x503e82b4b771d81d30060545db0133770227757b"
-    type: factory
+    tags:
+      - factory
   - address: "0xa80ad5c1f8c21b34b427ea432530ae7ff36e3926"
-    type: factory
+    tags:
+      - factory
   - address: "0x62270f70c750d66cf10bc8cbe12390b120498097"
-    type: factory
+    tags:
+      - factory
   - address: "0xdfdd0b190adf296bb0162d19c2e0206db68fe475"
-    type: factory
+    tags:
+      - factory
   - address: "0xd1f87e26797ce4cd1d5b37f5e6a9ee589865644e"
-    type: factory
+    tags:
+      - factory
   - address: "0xdc3e1a8d4bd5d97e7bba2bee6d6465fea6998141"
-    type: factory
+    tags:
+      - factory
   - address: "0x805494fa2670b1f42bf4be53db825f27b29cc3e1"
-    type: factory
+    tags:
+      - factory
   - address: "0x55f49e0af7321e593924c84a037ae326890545e3"
-    type: factory
+    tags:
+      - factory
   - address: "0x14ad16b5ef4bcc5418e27aa3064d72fbd52abc0b"
-    type: factory
+    tags:
+      - factory
   - address: "0x21f75b66fe2e3a18ebcd6d7524733e9c70362373"
-    type: factory
+    tags:
+      - factory
   - address: "0xbf205335de602ac38244f112d712ab04cb59a498"
-    type: factory
+    tags:
+      - factory
   - address: "0xc875b07b96b53b80557354a170edd483d24c3ba0"
-    type: factory
+    tags:
+      - factory
   - address: "0x23cc7fd21690e244ed83fb06034cb16ca2aa68d3"
-    type: factory
+    tags:
+      - factory
   - address: "0xdff90e4a6c229565f25337b1db9fa12f6d8cb118"
-    type: factory
+    tags:
+      - factory
   - address: "0x439c8a3704bdf52fec25bc271d67baa2bd204104"
-    type: factory
+    tags:
+      - factory
   - address: "0x7b38c757678579bcea8b8c6fffc9b26625b82fe8"
-    type: factory
+    tags:
+      - factory
   - address: "0xe8633ce5d216ebfdddf6875067dfb8397dedcaf3"
-    type: factory
+    tags:
+      - factory
   - address: "0xe6c892656ebd71457c509201edd00417f2f79f89"
-    type: factory
+    tags:
+      - factory
   - address: "0x7959eb3ad41ddaaf114e0be9833e9b4f79db3081"
-    type: factory
+    tags:
+      - factory
   - address: "0xc6479545c4093d37c37b7944ef530688f34a1fa4"
-    type: factory
+    tags:
+      - factory
   - address: "0x4fb8ccdbe8c6e51e8d7d62d0db784f2a4ea612b7"
-    type: factory
+    tags:
+      - factory
   - address: "0xacf1eb944ec28f519d58181d47ab49cbdea2c979"
-    type: factory
+    tags:
+      - factory
   - address: "0x2f9eda02e29a35a558e37fe377c8f985f1e8e16b"
-    type: factory
+    tags:
+      - factory
   - address: "0xbfca79f9841cfb3f5472027f76bf144e89433a45"
-    type: factory
+    tags:
+      - factory
   - address: "0xc793a184ee376eb2931d1d1fb9a899250e4c5ac4"
-    type: factory
+    tags:
+      - factory
   - address: "0x5e87600ffb39129d421d34e4801f697963538e0e"
-    type: factory
+    tags:
+      - factory
   - address: "0x78557263429ad67c33978544e7157881e3ba27bb"
-    type: factory
+    tags:
+      - factory
   - address: "0x63642a192bab08b09a70a997bb35b36b9286b01e"
-    type: factory
+    tags:
+      - factory
   - address: "0x47927cd30987696e1998ba78d0142b943b99406e"
-    type: factory
+    tags:
+      - factory
   - address: "0x3085d792f181e8d6c2b9f7ef7c5af9a76300800d"
-    type: factory
+    tags:
+      - factory
   - address: "0xbe3f667cf812fc1530def8873aef3a1a81f4072f"
-    type: factory
+    tags:
+      - factory
   - address: "0x763541b7646d90fca15482fc33121d412426d096"
-    type: factory
+    tags:
+      - factory
   - address: "0x4797c296d4ba977aebb2f6bf4eed239da79ca742"
-    type: factory
+    tags:
+      - factory
   - address: "0xebcfdad0015036fc99691d145127df1764d50a6f"
-    type: factory
+    tags:
+      - factory
   - address: "0x051a9a47920a913914a9e6e961a230a2a464eeb2"
-    type: factory
+    tags:
+      - factory
   - address: "0xd62c9d8a3d4fd98b27caaefe3571782a3af0a737"
-    type: factory
+    tags:
+      - factory
   - address: "0xe41d6ffc6ca900c063463209e5684f3af6a2bd44"
-    type: factory
+    tags:
+      - factory
   - address: "0xe5a8d9ff4a2464fcdb08db64d027b8651af07e6a"
-    type: factory
+    tags:
+      - factory
   - address: "0xf495a9535aa9c91d4e754f22912447c9f1b15c62"
-    type: factory
+    tags:
+      - factory
   - address: "0x5d3150ca6ff66a77ee77ea110424037440b3ef44"
-    type: factory
+    tags:
+      - factory
   - address: "0x6d27db16175741717543135ae1f27308d2909be8"
-    type: factory
+    tags:
+      - factory
   - address: "0xf3c45b45223df6071a478851b9c17e0630fdf535"
-    type: factory
+    tags:
+      - factory
   - address: "0x9f95af94518694c212394977cacaf43313981835"
-    type: factory
+    tags:
+      - factory
   - address: "0xfa73fdcee758cf7fa335a9beaf13f661fb3c6598"
-    type: factory
+    tags:
+      - factory
   - address: "0x85f096eba10fc87769d042e37df3dcd1b51cf8c7"
-    type: factory
+    tags:
+      - factory
   - address: "0x389d9aea762fd5f9fbd4434d8e11295f15097b67"
-    type: factory
+    tags:
+      - factory
   - address: "0x2b47c794c3789f499d8a54ec12f949eecce8ba16"
-    type: factory
+    tags:
+      - factory
   - address: "0xf168700c246c4efb412bbb65d71df5ab96cde72e"
-    type: factory
+    tags:
+      - factory
   - address: "0x66a8bd7ccfd52bfb5bc838d149fba78e6920303f"
-    type: factory
+    tags:
+      - factory
   - address: "0xc152d297284b5b6b60e5bbdcf6007632d7485443"
-    type: factory
+    tags:
+      - factory
   - address: "0xc899c4d73ed8df2ead1543ab915888b0bf7d57a2"
-    type: factory
+    tags:
+      - factory
   - address: "0x48a87deb78df86601c9f91ed383c2b4de9adb680"
-    type: factory
+    tags:
+      - factory
   - address: "0x7178f61694ba9109205b8d6f686282307625e62d"
-    type: factory
+    tags:
+      - factory
   - address: "0x130d9a45ef4ed5341aedb9830b9fa14e037727e7"
-    type: factory
+    tags:
+      - factory
   - address: "0x579e50e381a3129893ebcf979cf0d9edc3d46dc9"
-    type: factory
+    tags:
+      - factory
   - address: "0xe08d427724d8a2673fe0be3a81b7db17be835b36"
-    type: factory
+    tags:
+      - factory
   - address: "0xffb4fd14e840abd3ebd6cd026332b2302948a3fc"
-    type: factory
+    tags:
+      - factory
   - address: "0x98dc12979a34ee2f7099b1cbd65f9080c5a3284f"
-    type: factory
+    tags:
+      - factory
   - address: "0x2fff0f3c99c82385d698e1dc78786c08bf9cefd2"
-    type: factory
+    tags:
+      - factory
   - address: "0xd60be40234c90d8b1694f1ff7c73443b0ac57f8b"
-    type: factory
+    tags:
+      - factory
   - address: "0xa3031d9fd5010496a2baf8afce27ef6f3849fb10"
-    type: factory
+    tags:
+      - factory
   - address: "0x30db561826b820299f0bef9b8bd8946127b9d89a"
-    type: factory
+    tags:
+      - factory
   - address: "0x4dff91c0c564e7333f2268c60d8516928c10bd85"
-    type: factory
+    tags:
+      - factory
   - address: "0x2b1840b832315a1da0ca580a6985ac87235bee34"
-    type: factory
+    tags:
+      - factory
   - address: "0x5abeb63a103aebd25c1eb1d8bc2b96a571853f51"
-    type: factory
+    tags:
+      - factory
   - address: "0xe54e4020d1c3afdb312095d90054103e68fe34b0"
-    type: factory
+    tags:
+      - factory
   - address: "0xc732165cace012f84b9086bbc74bb8768a5c8a62"
-    type: factory
+    tags:
+      - factory
   - address: "0x74d936553405ccae09f87558d1f4e8d9b6c1b42b"
-    type: factory
+    tags:
+      - factory
   - address: "0xbcdaba81fb44cc5b175d96e83890ebb04423d3d8"
-    type: factory
+    tags:
+      - factory
   - address: "0x07da3587332026ab3e841c5c0e435e157a14a072"
-    type: factory
+    tags:
+      - factory
   - address: "0x6ecbc612006da4e2f6429919e4673f06de943ae3"
-    type: factory
+    tags:
+      - factory
   - address: "0x6dd153c14c9f4417c786b35ef9c870d8d3465565"
-    type: factory
+    tags:
+      - factory
   - address: "0x4ed90ca704f4f6f3955169f202ea35365e41b424"
-    type: factory
+    tags:
+      - factory
   - address: "0xb4fcd74d4060ebf8201a9194fe60eab37101657a"
-    type: factory
+    tags:
+      - factory
   - address: "0x534f3135757db41c4f705b0eac697659f68c4014"
-    type: factory
+    tags:
+      - factory
   - address: "0x050d6dbc73f6993a29e1327846117c4f5fc7d68e"
-    type: factory
+    tags:
+      - factory
   - address: "0x788e51200195cad24c8a5952cd258825f9b235d9"
-    type: factory
+    tags:
+      - factory
   - address: "0xf7c1d62c9a906ce93a46bdac1e9e3bc17fe06e19"
-    type: factory
+    tags:
+      - factory
   - address: "0xc8f51393fe595f3f3a3caad164d781b7f4a596dd"
-    type: factory
+    tags:
+      - factory
   - address: "0x93fbef8f9709327f3be90fc7322c163756d5a883"
-    type: factory
+    tags:
+      - factory
   - address: "0xfc1aa395ebd27664b11fc093c07e10ff00f0122c"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0x8cd53f11bbd01224b7e8a6e58e4280cfea497da4"
-    type: factory
+    tags:
+      - factory
   - address: "0xc4270d957c218d263e7fae5a3beedc1e98b6012d"
-    type: factory
+    tags:
+      - factory
   - address: "0xe6ec71834df170f05665a5a4ee3d1ace12650438"
-    type: factory
+    tags:
+      - factory
   - address: "0x4207c31ccdfdb595ddc4ff795156931e9702088e"
-    type: factory
+    tags:
+      - factory
   - address: "0x00621fed08cdc546ccf6179ec1f527bad0ed444d"
-    type: factory
+    tags:
+      - factory
   - address: "0xac57f288493fccec2b37e26fd9d9f399db9fef6c"
-    type: factory
+    tags:
+      - factory
   - address: "0xcf803ea54642aed9bfbc3aa324c3657bcad20c61"
-    type: factory
+    tags:
+      - factory
   - address: "0x3627b41b977df29417a46f2e1ff67a29dca99f2c"
-    type: factory
+    tags:
+      - factory
   - address: "0x7c754ce8190945dc6f83e2062906e248996d2a6f"
-    type: factory
+    tags:
+      - factory
   - address: "0xcdd41009e74bd1ae4f7b2eecf892e4bc718b9302"
-    type: factory
+    tags:
+      - factory
   - address: "0x21950a0ca249a0ef3d182338c86c8c066b24d801"
-    type: factory
+    tags:
+      - factory
   - address: "0x7cd6208f0e1ae8f9bffd003fda2a3f7a1f3a30e4"
-    type: factory
+    tags:
+      - factory
   - address: "0x48e18e3d1efa7f0e15f1b2bf01b232534c30a3ef"
-    type: factory
+    tags:
+      - factory
   - address: "0x947a96b025c70497dbc0d095d966f3b59a675a70"
-    type: factory
+    tags:
+      - factory
   - address: "0x503592aecd61fa7cd5c7361c4625ce1858559998"
-    type: factory
+    tags:
+      - factory
   - address: "0x5d7046c26ff3cd171c4fa2e48982391d1b6c83ee"
-    type: factory
+    tags:
+      - factory
   - address: "0x966e6059a8ec0bdb03eb2bd21f34f7cef75a63fc"
-    type: factory
+    tags:
+      - factory
   - address: "0xefe139aa71b674168f5823360a824b3714f2718d"
-    type: factory
+    tags:
+      - factory
   - address: "0x22bc9c46b72b2e92f0539d18d1f2273ee0e7f3fc"
-    type: factory
+    tags:
+      - factory
   - address: "0xb343dae0e7fe28c16ec5dca64cb0c1ac5f4690ac"
-    type: factory
+    tags:
+      - factory
   - address: "0x9269f5199b01b7b7dd38321b85c3f34ee3f28f7f"
-    type: factory
+    tags:
+      - factory
   - address: "0x45f714d89b383f213b32a89003c2d6f813b3cda3"
-    type: factory
+    tags:
+      - factory
   - address: "0xe509944e8c26051286d8c294a3dfc08df31c8497"
-    type: factory
+    tags:
+      - factory
   - address: "0x5675c7dd1708cdbc6124c05e988b0def9cdf3dff"
-    type: factory
+    tags:
+      - factory
   - address: "0x53e7550c06c6de1f5b05804c4c29850236eaea31"
-    type: factory
+    tags:
+      - factory
   - address: "0x6580c6ee0bb96651be0aa8db382b48ea7acd077d"
-    type: factory
+    tags:
+      - factory
   - address: "0xf31cbe21bbbb8056b75d6ca21e8ffd2cd38bd5c5"
-    type: factory
+    tags:
+      - factory
   - address: "0x7e0f65fab1524da9e2e5711d160541cf1199912e"
-    type: factory
+    tags:
+      - factory
   - address: "0x0556fbbaed699cf4825e50b852e20f5cd1bf7d5b"
-    type: factory
+    tags:
+      - factory
   - address: "0xae0a19dda1a42fa7ca2edd0cf9f8f2a489d72d2a"
-    type: factory
+    tags:
+      - factory
   - address: "0x6c5019d345ec05004a7e7b0623a91a0d9b8d590d"
-    type: factory
+    tags:
+      - factory
   - address: "0x2890b76b1e629641026957accca9f6ef6215d64e"
-    type: factory
+    tags:
+      - factory
   - address: "0x4baea65c4646459b3574424bc4f2513526b6794a"
-    type: factory
+    tags:
+      - factory
   - address: "0xf79131f7669b559728e220f6bb13d2e4f6d2c95c"
-    type: factory
+    tags:
+      - factory
   - address: "0x8552e52cdf8d22a677307fc70cc25d7949a0da37"
-    type: factory
+    tags:
+      - factory
   - address: "0x652b38d5a6b8f7f08e3bc86275bdebb9803973f2"
-    type: factory
+    tags:
+      - factory
   - address: "0x9251514625f4fd4aec6c0bce89c95ec247e9e6f0"
-    type: factory
+    tags:
+      - factory
   - address: "0xf813538cd3b3c6195f78353507a16e46f14f1567"
-    type: factory
+    tags:
+      - factory
   - address: "0x00cb51b1e8b30fe74c659e41779b1360cbf91d97"
-    type: factory
+    tags:
+      - factory
   - address: "0x651ea5496b6e36120f9bf020ec0ea5cfd31c529c"
-    type: factory
+    tags:
+      - factory
   - address: "0xbf231b545c9c18a0e7b6544aa174eb27e5c7066b"
-    type: factory
+    tags:
+      - factory
   - address: "0xb1786ddd79752969660e2d8f1faa9df2c88f5a3e"
-    type: factory
+    tags:
+      - factory
   - address: "0xbbec8b042b88d720bf12ef1684a280daa3bb73ea"
-    type: factory
+    tags:
+      - factory
   - address: "0xc2fa4497dad817c633868a05c2809e493f09f572"
-    type: factory
+    tags:
+      - factory
   - address: "0x99168248efb2d0ab3e1fc5c58d72e5755214efc8"
-    type: factory
+    tags:
+      - factory
   - address: "0xb3597ce8538b3d0c0c72014f04fc335e97ee7720"
-    type: factory
+    tags:
+      - factory
   - address: "0x7f5ff1492596fb219c844a298f69bb9d2700aac7"
-    type: factory
+    tags:
+      - factory
   - address: "0x3784e902a194c368ffd31e805e68f114255b5e5c"
-    type: factory
+    tags:
+      - factory
   - address: "0xa1055762336f92b4b8d2edc032a0ce45ead6280a"
-    type: factory
+    tags:
+      - factory
   - address: "0x0c3a7aa27a6e14b7a92e09456b0970ab71cc0598"
-    type: factory
+    tags:
+      - factory
   - address: "0x83b6f73ca05826b402343bc61d3c180e1597ae50"
-    type: factory
+    tags:
+      - factory
   - address: "0xe39120b27e5bfec953524402c2e261763c76519e"
-    type: factory
+    tags:
+      - factory
   - address: "0xfebc950d11423f0109cb045cfc41311b595afc9a"
-    type: factory
+    tags:
+      - factory
   - address: "0xe7b3ec12d058993d899b9646b8a1108c9ece8210"
-    type: factory
+    tags:
+      - factory
   - address: "0x1600798250cf9a53e3d71f31681e527edd55cd02"
-    type: factory
+    tags:
+      - factory
   - address: "0x84769834efa174fe1836e7396dab3393eaa27666"
-    type: factory
+    tags:
+      - factory
   - address: "0x123624d23fb30b5a92c0c95b1a46a342a0aa1454"
-    type: factory
+    tags:
+      - factory
   - address: "0x4f7ebc19844259386dbddb7b2eb759eefc6f8353"
-    type: factory
+    tags:
+      - factory
   - address: "0xd77c17b41409043cf92659ccf97f706947fca6c2"
-    type: factory
+    tags:
+      - factory
   - address: "0x75a6df663a208c5b3f0d4a174f8c15df3087ee46"
-    type: factory
+    tags:
+      - factory
   - address: "0x238e83d767f3f909c4e2ebb6a0d761b6c255cee9"
-    type: factory
+    tags:
+      - factory
   - address: "0x0a98968224ef07908437012cd8b4200db610e093"
-    type: factory
+    tags:
+      - factory
   - address: "0x8eb27a08d14a29442f41d9b0236759b219cc3446"
-    type: factory
+    tags:
+      - factory
   - address: "0xa4fe3a91244e782ab9ea689b19a2f3526ed84357"
-    type: factory
+    tags:
+      - factory
   - address: "0x3905870e647c97cb9c8d99db24384f480531b5b9"
-    type: factory
+    tags:
+      - factory
   - address: "0xb84688ee6f11135064a7dcc12ca0cd599a3e5594"
-    type: factory
+    tags:
+      - factory
   - address: "0x226c48ab4986e60f216dd9bff0d784ac2f10a003"
-    type: factory
+    tags:
+      - factory
   - address: "0x7d0f7471b32c365ea9a2157055b26cfa1e867c62"
-    type: factory
+    tags:
+      - factory
   - address: "0xce57d093bf2ce0bd02e83c364c9bd766be2212b2"
-    type: factory
+    tags:
+      - factory
   - address: "0x8f485522e7fab623306e11a26101d7afafc9ff16"
-    type: factory
+    tags:
+      - factory
   - address: "0x1c8d7fc2eaa85af18188f7619b99f939db34836d"
-    type: factory
+    tags:
+      - factory
   - address: "0xcae12ae55ba603d24b1980ccf644817c385809fb"
-    type: factory
+    tags:
+      - factory
   - address: "0xe793250a94b6f7821f91e09c5dd9bc59b300515e"
-    type: factory
+    tags:
+      - factory
   - address: "0x93fc04cd6d108588ecd844c7d60f46635037b5a3"
-    type: factory
+    tags:
+      - factory
   - address: "0x34a32b75dc1691bc46eb96d50dbbeb103c903871"
-    type: factory
+    tags:
+      - factory
   - address: "0xfa35f3c53682a0c0171f20bc5eca54d140c986dd"
-    type: factory
+    tags:
+      - factory
   - address: "0xdefcac75247c6a3e09f1a72fdca311dc883f7573"
-    type: factory
+    tags:
+      - factory
   - address: "0xd16232ad60188b68076a235c65d692090caba155"
-    type: factory
+    tags:
+      - factory
   - address: "0xc4409a4cb1a39a434c6c46584f7a0ddce9fa90a2"
-    type: factory
+    tags:
+      - factory
   - address: "0x19af02e5ed524c789e20394588756ee45896d1a7"
-    type: factory
+    tags:
+      - factory
   - address: "0x34760cc14b3bb2baa6fa9261e533f1fa2f4c80a1"
-    type: factory
+    tags:
+      - factory
   - address: "0xd90725382320a0dc8b9ff6ad10dcc3e0cbaa2116"
-    type: factory
+    tags:
+      - factory
   - address: "0xd330841ef9527e3bd0abc28a230c7ca8dec9423b"
-    type: factory
+    tags:
+      - factory
   - address: "0x296182104612ba8303326e1204a57f3407308242"
-    type: factory
+    tags:
+      - factory
   - address: "0xb426ae40e43be57215ba7daa06cbc5d48ed35dcf"
-    type: factory
+    tags:
+      - factory
   - address: "0xba31aa854d28422dd188ab1e33c936489603ea7b"
-    type: factory
+    tags:
+      - factory
   - address: "0x1cf0c771e3f8c94a4df45703f6b42ab937f23db0"
-    type: factory
+    tags:
+      - factory
   - address: "0xb545592e38b603f4a904a5260a6ffc538bfcb424"
-    type: factory
+    tags:
+      - factory
   - address: "0xca0083bfcf3706d0b315066e1ba0e1fc0b420645"
-    type: factory
+    tags:
+      - factory
   - address: "0xe1224c055c057cb71e41dac936ba946f6f500ed1"
-    type: factory
+    tags:
+      - factory
   - address: "0x70bc0ae81e3b3c9a0123c57777c8a327747dfb27"
-    type: factory
+    tags:
+      - factory
   - address: "0xe4c442df98a6d99ce0a18b7710f44af4eb5ba990"
-    type: factory
+    tags:
+      - factory
   - address: "0xe79b7dbdd5838d150a7ad0af8d8b165197b31f79"
-    type: factory
+    tags:
+      - factory
   - address: "0x1a6d1bc398fc234a218faaba63f06398e35336f9"
-    type: factory
+    tags:
+      - factory
   - address: "0xeb7c9b1ec9ce769ac9b673654fa01b0bc59f5259"
-    type: factory
+    tags:
+      - factory
   - address: "0x140a1fdaf5800028ce0ed0855477fe4bab5b4871"
-    type: factory
+    tags:
+      - factory
   - address: "0xf8edf2da8fcf610cf77235d3f90cc110723159aa"
-    type: factory
+    tags:
+      - factory
   - address: "0xc1e5b706d5b5fec9aaca710fc03dcbd4356fb247"
-    type: factory
+    tags:
+      - factory
   - address: "0xcecc5dacc7b09d35e19b1c5c47a65bc822a9c559"
-    type: factory
+    tags:
+      - factory
   - address: "0x602ef41cf4f6a112f8e3dcbb7660287310a9fb51"
-    type: factory
+    tags:
+      - factory
   - address: "0x8ba113fc0e227b7263bf6b7ccda2902792fe318b"
-    type: factory
+    tags:
+      - factory
   - address: "0x3d4319f633b7d5a90e5b542feeb3f6888ec790fa"
-    type: factory
+    tags:
+      - factory
   - address: "0xa5ee7dfef90310f4444323be3b3505c85ab67755"
-    type: factory
+    tags:
+      - factory
   - address: "0x3db685cebc1ed12bb76748113214d389077533f5"
-    type: factory
+    tags:
+      - factory
   - address: "0x66758008b6473251f3bf4c8c383556c80f9b28a9"
-    type: factory
+    tags:
+      - factory
   - address: "0x0493bf8b6dbb159ce2db2e0e8403e753abd1235b"
-    type: factory
+    tags:
+      - factory
   - address: "0x6798dc2f6530923eb630256f57cf83cb06c3cc61"
-    type: factory
+    tags:
+      - factory
   - address: "0xfd728d04199e505af1462e21a4b03b448a0f47c7"
-    type: factory
+    tags:
+      - factory
   - address: "0x7955519e14fdf498e28831f4cc06af4b8e3086a8"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0xa0528293d14366adac1b86c58ee314b9adeb2843"
-    type: factory
+    tags:
+      - factory
   - address: "0xc3f773fd67c2ddf1bd2ffbb8746e3b8340df286c"
-    type: factory
+    tags:
+      - factory
   - address: "0x86e94f12c4fac90fc5a686545193120ddaf3a58b"
-    type: factory
+    tags:
+      - factory
   - address: "0x496cfd4b70a8f6e04699d89770753119c337a730"
-    type: factory
+    tags:
+      - factory
   - address: "0x9975c982239c5c46f8de1b1105aacf9baa5bb454"
-    type: factory
+    tags:
+      - factory
   - address: "0x06141423dcf1a5a4c137039063ac873cdc1e363a"
-    type: factory
+    tags:
+      - factory
   - address: "0x29a20ca4968d756c7d0922a7064a1a56f4624e9a"
-    type: factory
+    tags:
+      - factory
   - address: "0xe47d437252fe9cb5e74396eee63360d8647df25d"
-    type: factory
+    tags:
+      - factory
   - address: "0x1ebe6427f037385ddcb95aa688c18272415e3f46"
-    type: factory
+    tags:
+      - factory
   - address: "0x5da5e8a46d435d619a12086620bc77bf7fb043e5"
-    type: factory
+    tags:
+      - factory
   - address: "0xd29de64c1a9dd3e829a7345be1e9c32a9414541f"
-    type: factory
+    tags:
+      - factory
   - address: "0x46b8a98d72820e28465a172687af920cc167e587"
-    type: factory
+    tags:
+      - factory
   - address: "0x5d420b93fa49902a5496873bf391d9d7484f1ce7"
-    type: factory
+    tags:
+      - factory
   - address: "0x97f6f219f1fa24f586072e9860935014bb81c6ad"
-    type: factory
+    tags:
+      - factory
   - address: "0xd52fb3366c5eecf1115784659ce464b08fbf34c0"
-    type: factory
+    tags:
+      - factory
   - address: "0xe99bcf1e443cad8d2b1ebb261969f7a99ec11ad5"
-    type: factory
+    tags:
+      - factory
   - address: "0x917aa69d539d6518440dd0bea2eaac142a8d5610"
-    type: factory
+    tags:
+      - factory
   - address: "0xc5c247580a4a6e4d3811c0da6215057aac480bac"
-    type: factory
+    tags:
+      - factory
   - address: "0xd6b864d4621cfd15f4ba3e999ad6bc8c512f132f"
-    type: factory
+    tags:
+      - factory
   - address: "0xd956aab64cc3f9e2a9a4bcb2bcb9de565a404b71"
-    type: factory
+    tags:
+      - factory
   - address: "0xb762df5893a137d730d588f05ace1166974e0429"
-    type: factory
+    tags:
+      - factory
   - address: "0x2adac2bce06f441efe071c7b2b5f8fb23d00e90d"
-    type: factory
+    tags:
+      - factory
   - address: "0x6e57b9e54ea043a829584b22182ad22bf446926c"
-    type: factory
+    tags:
+      - factory
   - address: "0x5404c61f5337d5a06522ca686dc388e0fc50fd32"
-    type: factory
+    tags:
+      - factory
   - address: "0xb1165c8d035b91683e343f7526703ce42feab490"
-    type: factory
+    tags:
+      - factory
   - address: "0xf0b082e86227dcb53df7a6439a9c90a11d2abc1e"
-    type: factory
+    tags:
+      - factory
   - address: "0xcef93cd08e76bf04d072fba360a136012c0a4599"
-    type: factory
+    tags:
+      - factory
   - address: "0x69c08af966789d973a08675ed1e14e92f60e8a1d"
-    type: factory
+    tags:
+      - factory
   - address: "0xffd74ef185989bff8752c818a53a47fc45388f08"
-    type: factory
+    tags:
+      - factory
   - address: "0xd2d631d8d887e3d18a623e8eb9e4f9ca97b3372a"
-    type: factory
+    tags:
+      - factory
   - address: "0x62f4a1b6dba1ea7964bebf4ae4005b7d197885ea"
-    type: factory
+    tags:
+      - factory
   - address: "0x5a0af1afe96e7f1a0693bba5b97189f3af12eeba"
-    type: factory
+    tags:
+      - factory
   - address: "0x578424213aad7f099e302e126e8f6b6fa1ead4eb"
-    type: factory
+    tags:
+      - factory
   - address: "0xf984d3e3420784a38c1884c3d63e373cf2d2de1c"
-    type: factory
+    tags:
+      - factory
   - address: "0x5921a9fdee51c0711b2b8e21ddb48354a8e91558"
-    type: factory
+    tags:
+      - factory
   - address: "0xfc233ad094c8c9c245bdea891dfee2d7f9e632c4"
-    type: factory
+    tags:
+      - factory
   - address: "0xa5b0cb4094fa331e76a90b518c61eb288ba43907"
-    type: factory
+    tags:
+      - factory
   - address: "0x2e0d976be09bf480153dcfe4468b9a6836ea1969"
-    type: factory
+    tags:
+      - factory
   - address: "0x9b016bfb86b5ce7fa0f974c81bf8c6a3d33b6e9a"
-    type: factory
+    tags:
+      - factory
   - address: "0xfe95120af843ebc758e1974c3cab556257a9f333"
-    type: factory
+    tags:
+      - factory
   - address: "0x57b0aa68751e6f6471690ee6f3c2923ffad47ade"
-    type: factory
+    tags:
+      - factory
   - address: "0x95d20298c5a9f9510435b644e7b1c0b80b42d724"
-    type: factory
+    tags:
+      - factory
   - address: "0x2dccb1a6c9f10ed830162c5199fab336fedd7823"
-    type: factory
+    tags:
+      - factory
   - address: "0x7c36678befc1350d3558beed396c3371b49537aa"
-    type: factory
+    tags:
+      - factory
   - address: "0x88835af27c7a22bded54033c5fad482a913981bc"
-    type: factory
+    tags:
+      - factory
   - address: "0xb220503db292a4d01fdb1725b95c0bdd734a6ce3"
-    type: factory
+    tags:
+      - factory
   - address: "0xfc5684f159dbd5a415eb75b75993e1f4192aac89"
-    type: factory
+    tags:
+      - factory
   - address: "0xc37a0a37664aeb3848f98c5dd5d7ae286a1e9ebd"
-    type: factory
+    tags:
+      - factory
   - address: "0x4c025f87c577c06fd7ebc11f954a4b38f3ee6d44"
-    type: factory
+    tags:
+      - factory
   - address: "0x10df8a154c806f74c589466214b1c831c2315173"
-    type: factory
+    tags:
+      - factory
   - address: "0x7caba4d27098bdaabb545e21ca5d865519492a25"
-    type: factory
+    tags:
+      - factory
   - address: "0xc6c7b143295b2920da41369e9627245fab8c1cce"
-    type: factory
+    tags:
+      - factory
   - address: "0xf3ed43635c1883083f5ca989bedea2a509246140"
-    type: factory
+    tags:
+      - factory
   - address: "0xe957ac5fc6b93227bf7fe0b32798e58b7a044252"
-    type: factory
+    tags:
+      - factory
   - address: "0x335bd4ffa921160fc86ce3843f80a9941e7456c6"
-    type: factory
+    tags:
+      - factory
   - address: "0xc5e32abd521b47b5333c7011d142cf22dba9f147"
-    type: factory
+    tags:
+      - factory
   - address: "0x43ce87a1ad20277b78cae52c7bcd5fc82a297551"
-    type: factory
+    tags:
+      - factory
   - address: "0x577dc9efd5b86aa2e625577abda10d89f0c1fbaf"
-    type: factory
+    tags:
+      - factory
   - address: "0xab004e185954e84bd7bb176bf21ea09897118ddb"
-    type: factory
+    tags:
+      - factory
   - address: "0xadf902b11e4ad36b227b84d856b229258b0b0465"
-    type: factory
+    tags:
+      - factory
   - address: "0x3e237351e3afdb367bb0f45d792b0204846fbbbc"
-    type: factory
+    tags:
+      - factory
   - address: "0x0b28c2e41058edc7d66c516c617b664ea86eec5d"
-    type: factory
+    tags:
+      - factory
   - address: "0x588443c932b45f47e936b969eb5aa6b5fd4f3369"
-    type: factory
+    tags:
+      - factory
   - address: "0x28e867168895c6500755141ccd4d32eff410d915"
-    type: factory
+    tags:
+      - factory
   - address: "0xb7d1b5a725f7f1977aae752ba1fae29341f1d7f9"
-    type: factory
+    tags:
+      - factory
   - address: "0x4e60495550071693bc8bdffc40033d278157eac7"
-    type: factory
+    tags:
+      - factory
   - address: "0xfae40c4c71002499e037756612c48e51de6974c1"
-    type: factory
+    tags:
+      - factory
   - address: "0xff19d5a7dff7aa6bcc3e43810a5995cf6e7c4ede"
-    type: factory
+    tags:
+      - factory
   - address: "0xec6d150dbd2ef444d5181ddf864a260ea448a85c"
-    type: factory
+    tags:
+      - factory
   - address: "0xd65c1120ddf79f827b925c505949e02c5a0d6236"
-    type: factory
+    tags:
+      - factory
   - address: "0x6b6e7bdf2e6e4beede621b6c0c212676b9c5a5af"
-    type: factory
+    tags:
+      - factory
   - address: "0x2ddfe835f61ae4aabb1ebe4e0db9115f079d2385"
-    type: factory
+    tags:
+      - factory
   - address: "0x82cdd997fd9912c99133d1f8af9d2bf9296d5518"
-    type: factory
+    tags:
+      - factory
   - address: "0x41cc89b91d0abe260f2cb53c1abda07b321e71df"
-    type: factory
+    tags:
+      - factory
   - address: "0x49f63569ab33e68b3c9e91cc5350e7519543d97c"
-    type: factory
+    tags:
+      - factory
   - address: "0x817a07a21aaaeb709c9e2165e4058c5f969f8c92"
-    type: factory
+    tags:
+      - factory
   - address: "0xd6ebf99cbc2d5f8ad29e8c777be58dbe4a72fa7e"
-    type: factory
+    tags:
+      - factory
   - address: "0x6e6046e9b5e3d90eac2abba610bca725834ca5b3"
-    type: factory
+    tags:
+      - factory
   - address: "0xd1aa1e9db7dc2ac93d9d11436e9fabf1ab8dde61"
-    type: factory
+    tags:
+      - factory
   - address: "0x9875638296d62fa5da64fea1b82520fcf528114f"
-    type: factory
+    tags:
+      - factory
   - address: "0xf3e60d4805569287a47813c79541b7ed400ee4be"
-    type: factory
+    tags:
+      - factory
   - address: "0x747ec810d42262f5725c0441d6b693774e6c079a"
-    type: factory
+    tags:
+      - factory
   - address: "0xd15db10d134d137f17695129a3f8e30c55226150"
-    type: factory
+    tags:
+      - factory
   - address: "0xe56386ac00d80cc9a89c4fe5e6e24eebc7c28f75"
-    type: factory
+    tags:
+      - factory
   - address: "0xdd2a8158f1df0e364d9006b399946b3aec2c8c2d"
-    type: factory
+    tags:
+      - factory
   - address: "0xd0fe32daa3e44be3bf2e63d411d2f4f5795f1ce3"
-    type: factory
+    tags:
+      - factory
   - address: "0xc366434aa5c2fdd1a6ebc69d51c33404c76eb86b"
-    type: factory
+    tags:
+      - factory
   - address: "0x7baaf752baa99332e9b04332a5214e84d08c6a75"
-    type: factory
+    tags:
+      - factory
   - address: "0x32b0f475267284be932594dc24e6ad6f02a3a9a5"
-    type: factory
+    tags:
+      - factory
   - address: "0x1cf93e71906dd5b836a37a3059c91bbfd6030348"
-    type: factory
+    tags:
+      - factory
   - address: "0xe8537b6ff1039cb9ed0b71713f697ddbadbb717d"
-    type: factory
+    tags:
+      - factory
   - address: "0xd8c603ed5786fa502c4721eb8712bc9cd1807a76"
-    type: factory
+    tags:
+      - factory
   - address: "0x347484eda9c6144171cf23abf1b7ee39cd6a1ed0"
-    type: factory
+    tags:
+      - factory
   - address: "0x397b87e62ea601d9f0f0ec773e2e9c2ca64d5b9a"
-    type: factory
+    tags:
+      - factory
   - address: "0x72aba20779797904bd395b7c69b4f9fb29cbb653"
-    type: factory
+    tags:
+      - factory
   - address: "0x90fd3c02c0b26163135a87de9a0f15a4d0525508"
-    type: factory
+    tags:
+      - factory
   - address: "0x9db7539097be1ad118235d1b8a3cd69d95eabb5c"
-    type: factory
+    tags:
+      - factory
   - address: "0x0a53f5ede53f4d75a5df9d8f1e3c23e2672ebda7"
-    type: factory
+    tags:
+      - factory
   - address: "0x42bd50afa4149f4a7bdf1fca4d265538206ace66"
-    type: factory
+    tags:
+      - factory
   - address: "0xa7e9cb5f33f6934d1359fd64c54cc748ec25f136"
-    type: factory
+    tags:
+      - factory
   - address: "0xc0f8a2e72f6cc864780746fb28edfb44ff1ac11e"
-    type: factory
+    tags:
+      - factory
   - address: "0x66fca486a5162bea4ac73796e1dfe97edec74ac9"
-    type: factory
+    tags:
+      - factory
   - address: "0x566c8fe71d5549e36db29c60a27325db12a32d0a"
-    type: factory
+    tags:
+      - factory
   - address: "0xd40eac7b4f03f944f5ce3ef25119907683fdad13"
-    type: factory
+    tags:
+      - factory
   - address: "0xfa701c7b2800daeb75d6e4cf382f1944c439b88b"
-    type: factory
+    tags:
+      - factory
   - address: "0xe61c318e63cc8bc65fa004890c6c87beb458edd0"
-    type: factory
+    tags:
+      - factory
   - address: "0x25c488e5f69ac334ac1e8f786d890a97ec1bf713"
-    type: factory
+    tags:
+      - factory
   - address: "0xe2ea57fdf87624f4384ef6da5f3844e8e9e5d878"
-    type: factory
+    tags:
+      - factory
   - address: "0x292243fbfe156b097705ef666cac9f06964e63e4"
-    type: factory
+    tags:
+      - factory
   - address: "0xb703af698388ccd95a471d4c86f24cc9b7f5fa9a"
-    type: factory
+    tags:
+      - factory
   - address: "0xadbb23bcc3c1b9810491897cb0690cf645b858b1"
-    type: factory
+    tags:
+      - factory
   - address: "0x3dd963f72b52182ec2894a07b85b00977d40d048"
-    type: factory
+    tags:
+      - factory
   - address: "0xb1a05f31e73ba85b21ac8e9309db643cd545c443"
-    type: factory
+    tags:
+      - factory
   - address: "0xe40e0c5045b9e44bdf437a03bcf58f82f9cd3a2e"
-    type: factory
+    tags:
+      - factory
   - address: "0x6299e349a574314768e5be2ffc8c96d622b253c9"
-    type: factory
+    tags:
+      - factory
   - address: "0x3bbde95b1ed19f8d76252d0b48854d9eaaec3cef"
-    type: factory
+    tags:
+      - factory
   - address: "0xac49498b97312a6716ef312f389b7e4d183a2a7c"
-    type: factory
+    tags:
+      - factory
   - address: "0x6ea71d6ef05aff4b503a924f2c5d76dfe5b85225"
-    type: factory
+    tags:
+      - factory
   - address: "0x56cabc4e34981d6f8957b577df747c15f9dba28a"
-    type: factory
+    tags:
+      - factory
   - address: "0x0ec18d9a32d6320d7793a4c003993fef8f2b1205"
-    type: factory
+    tags:
+      - factory
   - address: "0x104d0312f95a1b3056435d19668f2272ab1e7df2"
-    type: factory
+    tags:
+      - factory
   - address: "0xc03f2de88be8f00af441534df5428ee14a3cf87e"
-    type: factory
+    tags:
+      - factory
   - address: "0xbc002657b3642be7fb607d31aaba8479ea8662d6"
-    type: factory
+    tags:
+      - factory
   - address: "0x931bbce80d7403b11fbf51f27cfcaf8c4069787c"
-    type: factory
+    tags:
+      - factory
   - address: "0x6fe665f19517cd6076866db0548177d0e628156a"
-    type: factory
+    tags:
+      - factory
   - address: "0x2ee67c42b247d18e283840a40448667326688130"
-    type: factory
+    tags:
+      - factory
   - address: "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc"
-    type: factory
+    tags:
+      - factory
   - address: "0x55624dc97289a19045b4739627beaeb1e70ab64c"
-    type: factory
+    tags:
+      - factory
   - address: "0x5948ac1b301d1ed9dfaba02897e8f19ef56a8091"
-    type: factory
+    tags:
+      - factory
   - address: "0xcd897440484280c5e0d574cf8e61a67c7e6981ac"
-    type: factory
+    tags:
+      - factory
   - address: "0x8a7037cdaaed9a7924368e57183edc718a77ff6f"
-    type: factory
+    tags:
+      - factory
   - address: "0x0d0f6a4ef191beff11b18aedd58d66c682aad83e"
-    type: factory
+    tags:
+      - factory
   - address: "0xa46eb1370e9a0bb457d4ff34ba11b709656ce0d6"
-    type: factory
+    tags:
+      - factory
   - address: "0x7866c6072b09539fc0fde82963846b80203d7beb"
-    type: factory
+    tags:
+      - factory
   - address: "0xfac581337e01a28457334c61176d4bf150ed2e2c"
-    type: factory
+    tags:
+      - factory
   - address: "0x83fc89bda2914b740d389f0549c60bd808541c99"
-    type: factory
+    tags:
+      - factory
   - address: "0x38a3341627d1230ee95364d214202387e4bceb86"
-    type: factory
+    tags:
+      - factory
   - address: "0xc0970d8e2e6c1fb26401c405aa49a05fab69f378"
-    type: factory
+    tags:
+      - factory
   - address: "0xdabc34da8aa2e902d63733afbcab6d85bcb7415b"
-    type: factory
+    tags:
+      - factory
   - address: "0x52bb1cb95efc052c4995af3a47d1fda4365a5ccb"
-    type: factory
+    tags:
+      - factory
   - address: "0x2b1ade186bf3c6ac846662aac05fb102a2839798"
-    type: factory
+    tags:
+      - factory
   - address: "0xd1ad5c3d9ce030e466dcd24ae8cc5c2906a06a8e"
-    type: factory
+    tags:
+      - factory
   - address: "0x9355292f66552ea5717b274d27eefc8254011d83"
-    type: factory
+    tags:
+      - factory
   - address: "0xc0d2e721d3d93578f3528d3bedac9a42120aeef7"
-    type: factory
+    tags:
+      - factory
   - address: "0x0b5581d5db524eaf0006a0bafd1e8d206c70cc0d"
-    type: factory
+    tags:
+      - factory
   - address: "0x49ce68a4cd43f3a9278ac7dba7b5619731cf52dd"
-    type: factory
+    tags:
+      - factory
   - address: "0xe75a3f4bf99882ad9f8aebab2115873315425d00"
-    type: factory
+    tags:
+      - factory
   - address: "0x5aee5f0e6c2055ebd776db25f48f6c9a68abcdae"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0xe0a166b3514831cfc7a6263e1af4e909524ddf0b"
-    type: factory
+    tags:
+      - factory
   - address: "0x832a6141710fcda30f4e88305d20fe1603c61cab"
-    type: factory
+    tags:
+      - factory
   - address: "0x69c28d5bbe392ef48c0dc347c575023daf0cd243"
-    type: factory
+    tags:
+      - factory
   - address: "0x25cbddb98b35ab1ff77413456b31ec81a6b6b746"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0xa08fb94a933eaea787f8191a5a980c4403dc015c"
-    type: factory
+    tags:
+      - factory
   - address: "0xea3a5f56014b146a39d026fc459304378c2ea24f"
-    type: factory
+    tags:
+      - factory
   - address: "0x0a67810ae38a61d6c68c46f8dfe60c8f4819abc4"
-    type: factory
+    tags:
+      - factory
   - address: "0x9629a694c041f3b10ce974dc37ef4dd4596c4f54"
-    type: factory
+    tags:
+      - factory
   - address: "0xbf9dd15a88fd489b92373bfb71db101d286d6ba3"
-    type: factory
+    tags:
+      - factory
   - address: "0xbe61c199d356d205b3beba3634a7992af5e28631"
-    type: factory
+    tags:
+      - factory
   - address: "0x96e8e07e414a8a12fe2ad7943aa4b094aa39c793"
-    type: factory
+    tags:
+      - factory
   - address: "0xf04458f7b21265b80fc340de7ee598e24485c5bb"
-    type: factory
+    tags:
+      - factory
   - address: "0xee93ebe83b4d883ce902dbd0491f44d3bf90a256"
-    type: factory
+    tags:
+      - factory
   - address: "0x667002f9dc61ebcba8ee1cbeb2ad04060388f223"
-    type: factory
+    tags:
+      - factory
   - address: "0x279b59bc9c89c023d0f9b2984678b12909ef762d"
-    type: factory
+    tags:
+      - factory
   - address: "0x0f5099faa20cae3aa0795210c812bd073ac2e518"
-    type: factory
+    tags:
+      - factory
   - address: "0x7892d498f22c9393385f4a798788126f7090d2cc"
-    type: factory
+    tags:
+      - factory
   - address: "0xddb59139c8f4f9b10aa42234d5f4e68ac54bec37"
-    type: factory
+    tags:
+      - factory
   - address: "0x0f0509443b7fca172f5428580468a403b2924504"
-    type: factory
+    tags:
+      - factory
   - address: "0xff5318f81dd791e92d51b8a54fa3538832d2890d"
-    type: factory
+    tags:
+      - factory
   - address: "0x5bdb2add185fdbd985b5578a1331a171627a189c"
-    type: factory
+    tags:
+      - factory
   - address: "0x6d1a334ef70b65a2d39ce04c3f916df93b3a2952"
-    type: factory
+    tags:
+      - factory
   - address: "0x4e316557f63c2156eafdfec08f31df4957136203"
-    type: factory
+    tags:
+      - factory
   - address: "0xb52b8cfbcf5c177feb99870d3e2dd02933553933"
-    type: factory
+    tags:
+      - factory
   - address: "0x756e7c245c69d351fffbfb88ba234aa395ada8ec"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0x21ac9950850c377ff8f76bc05dfe5d2284465e12"
-    type: factory
+    tags:
+      - factory
   - address: "0xf43e34d8360bf00375f89ca25f7a92669c055f3b"
-    type: factory
+    tags:
+      - factory
   - address: "0x49df697bb18222287d1cefeef508a9860028a76d"
-    type: factory
+    tags:
+      - factory
   - address: "0x6443907df3eb515dcb53f157c078c8ec7263a7f4"
-    type: factory
+    tags:
+      - factory
   - address: "0xeb676ae691df237ac09a0f7410123a714d84afb3"
-    type: factory
+    tags:
+      - factory
   - address: "0x15aa76465a8df85361a8d79a42f9dbbb23f1a5a5"
-    type: factory
+    tags:
+      - factory
   - address: "0x13e41d76bddcba5ee3dd812127c6ba6bdb0a32a0"
-    type: factory
+    tags:
+      - factory
   - address: "0x265013a5915cebb9344c9e259d531e55855da45d"
-    type: factory
+    tags:
+      - factory
   - address: "0x03c188a43b3deea4426599f2e582aab6e76417d3"
-    type: factory
+    tags:
+      - factory
   - address: "0x47029bc8f5cbe3b464004e87ef9c9419a48018cd"
-    type: factory
+    tags:
+      - factory
   - address: "0xee0d6241bfbe9b1aa39fe3df7962a85c8bcdf94f"
-    type: factory
+    tags:
+      - factory
   - address: "0x557949dde71e88cc2f41d33d341ff42417a35a2d"
-    type: factory
+    tags:
+      - factory
   - address: "0xa4549b89a39f76d9d28415474aed7d06ec9935fe"
-    type: factory
+    tags:
+      - factory
   - address: "0x00df002a3994a56d539d184c15d1c18ab32ea2df"
-    type: factory
+    tags:
+      - factory
   - address: "0x6c12049f1ed1a72d81b6d5f72c0b738d1364e86c"
-    type: factory
+    tags:
+      - factory
   - address: "0x66a7b4ab6148ae5c83200c35cac145218b23391c"
-    type: factory
+    tags:
+      - factory
   - address: "0x463c992b56a032960ad031b3fba608512c25aa74"
-    type: factory
+    tags:
+      - factory
   - address: "0x82b809da1f265f79e9b41cb61743fb675e591c06"
-    type: factory
+    tags:
+      - factory
   - address: "0xae0682bea63a8efbf85bc3ff336d931db962da32"
-    type: factory
+    tags:
+      - factory
   - address: "0xdf4bb088b1f02881ad4497b6fa7c1e4f81b61c0a"
-    type: factory
+    tags:
+      - factory
   - address: "0xbd29257ca8d0f2153141c4e21bc1da187ce6287e"
-    type: factory
+    tags:
+      - factory
   - address: "0x142c88db1d8b596025ab390d6d2d10da717e508f"
-    type: factory
+    tags:
+      - factory
   - address: "0x383573178ba5b9dbbd6b322728c24aa0cbb289de"
-    type: factory
+    tags:
+      - factory
   - address: "0x60c8fc7f8332f5563f2b1408b83d464365212af9"
-    type: factory
+    tags:
+      - factory
   - address: "0x9056eb7ca982a5dd65a584189994e6a27318067d"
-    type: factory
+    tags:
+      - factory
   - address: "0x7f496c4601ca3606283866a7c48c58e8d754dbef"
-    type: factory
+    tags:
+      - factory
   - address: "0xf2438edf9d5db2dbc6866ef01c9eb7ca1ca8ad13"
-    type: factory
+    tags:
+      - factory
   - address: "0xbb23011d84628eed352614fd71cc5325ba8d9878"
-    type: factory
+    tags:
+      - factory
   - address: "0x74f454b810f05b87c90481e181030b8ee0f1a6d3"
-    type: factory
+    tags:
+      - factory
   - address: "0x95d479db34daca73334d66a8c476519b9f007327"
-    type: factory
+    tags:
+      - factory
   - address: "0xf7a73e1995030b0198f8d6e528a1c42acef90a4c"
-    type: factory
+    tags:
+      - factory
   - address: "0x078f65c0e854ab7fa3baa2cff62a4f9cb4031382"
-    type: factory
+    tags:
+      - factory
   - address: "0x9005c76474948af6aca879a112b2e0ffd333128e"
-    type: factory
+    tags:
+      - factory
   - address: "0x45922ae4b90297a2d8655ba1ed354adbc489dc94"
-    type: factory
+    tags:
+      - factory
   - address: "0x7d92196e7ba255d9601b5495b5b49d49bd06c5a8"
-    type: factory
+    tags:
+      - factory
   - address: "0xd32b41c1313cc383f9d1b65c59bc2829b6d3ee81"
-    type: factory
+    tags:
+      - factory
   - address: "0x91f3fce37992d608673140034a134f4612b82118"
-    type: factory
+    tags:
+      - factory
   - address: "0x3374014a675ec56f98e1910e9fa5a6bceca985de"
-    type: factory
+    tags:
+      - factory
   - address: "0x27fcbf9832d9a23b595169d0c5a4a090ba55b634"
-    type: factory
+    tags:
+      - factory
   - address: "0x2b97ed5784fca82b90c8998b7ca01fbb8a6715fa"
-    type: factory
+    tags:
+      - factory
   - address: "0x2baa263d9bd757d587d8cb78dc3034dcea3e0b72"
-    type: factory
+    tags:
+      - factory
   - address: "0x3f42dc59dc4df5cd607163bc620168f7ff7ab970"
-    type: factory
+    tags:
+      - factory
   - address: "0xfc77e39de40e54f820e313039207dc850e4c9e60"
-    type: factory
+    tags:
+      - factory
   - address: "0x986d353a3700530be4e75794830f57e657bc68cb"
-    type: factory
+    tags:
+      - factory
   - address: "0xd79bdbde1b927a159be19ba6bc1db4edb22369e8"
-    type: factory
+    tags:
+      - factory
   - address: "0x537cb4d4fe1a9df1e295872f2b82c1da9df7500f"
-    type: factory
+    tags:
+      - factory
   - address: "0x96b144d4cec2d3c2ee89ea7a7ef2fa931b1d50cc"
-    type: factory
+    tags:
+      - factory
   - address: "0xd3650ab80545c31088f89fb6d16930796758f3c1"
-    type: factory
+    tags:
+      - factory
   - address: "0x2ee01d5c1ea06567ea8526c0859a95b278354634"
-    type: factory
+    tags:
+      - factory
   - address: "0x83e33607e808a0693df2f803b41291cac5a51e58"
-    type: factory
+    tags:
+      - factory
   - address: "0x2cbb4db09949d8da9096afcfe3f08f2fae92d39d"
-    type: factory
+    tags:
+      - factory
   - address: "0x6115e20a60b587bcdaf4705a2f0f6a42ae51e785"
-    type: factory
+    tags:
+      - factory
   - address: "0x81f638e5d063618fc5f6a976e48e9b803b3240c0"
-    type: factory
+    tags:
+      - factory
   - address: "0x088081455d7672d1b05241263f3edabc62e3471e"
-    type: factory
+    tags:
+      - factory
   - address: "0xdaf93cf10cdc86f962ef35a967440befac36bf7d"
-    type: factory
+    tags:
+      - factory
   - address: "0x297b38e38c7bb385a93564a52873af60aa40fb65"
-    type: factory
+    tags:
+      - factory
   - address: "0x7ebd4e14769d5c31f68b524889a303d7dae147ce"
-    type: factory
+    tags:
+      - factory
   - address: "0x5e6e17f745ff620e87324b7c6ec672b5743bd0b4"
-    type: factory
+    tags:
+      - factory
   - address: "0x0d0f65c63e379263f7ce2713dd012180681d0dc5"
-    type: factory
+    tags:
+      - factory
   - address: "0x8134a2fdc127549480865fb8e5a9e8a8a95a54c5"
-    type: factory
+    tags:
+      - factory
   - address: "0xff82cee664d861bae459b5c2b20be7aad004abf6"
-    type: factory
+    tags:
+      - factory
   - address: "0x61eba8151880ea81743795faf3e4042b38e8638c"
-    type: factory
+    tags:
+      - factory
   - address: "0x8453cc52f2108ff9d1636b6a108db06ac137b72f"
-    type: factory
+    tags:
+      - factory
   - address: "0x0af32614eea68b8d2232b9592fbdb6512ab6da73"
-    type: factory
+    tags:
+      - factory
   - address: "0x5044f5bd611643aa6a65b0f67d307f7aaf691e98"
-    type: factory
+    tags:
+      - factory
   - address: "0xb22b5e96dc4df36da09bb1f6b9ce45ded532a70c"
-    type: factory
+    tags:
+      - factory
   - address: "0x1e49abc7552680ab8ff5dbb7c93189e24b06b4b7"
-    type: factory
+    tags:
+      - factory
   - address: "0x640acc52e2466aeaffc50ee46cde04716b3b2377"
-    type: factory
+    tags:
+      - factory
   - address: "0x53b14bf8608e39abee89e6ecc7df12b8f604403f"
-    type: factory
+    tags:
+      - factory
   - address: "0xd52b3eac7ef128b879db10ffbd94e29fe65a34d8"
-    type: factory
+    tags:
+      - factory
   - address: "0x468b4a7007f292af82f6abb4fa2e4c1218e1299b"
-    type: factory
+    tags:
+      - factory
   - address: "0x7420ecca055f6513e08889284e7326940b22dbf5"
-    type: factory
+    tags:
+      - factory
   - address: "0x3133cefb57bafbff2826fd09d4792a2b3f6ac00e"
-    type: factory
+    tags:
+      - factory
   - address: "0x6508d6c62519342f5ffbe28443bc7a6918fb0b59"
-    type: factory
+    tags:
+      - factory
   - address: "0x43e8e67a6e59b372be0d8af48742991b2ae7a2a2"
-    type: factory
+    tags:
+      - factory
   - address: "0xcd7ac23229982ae3d6a102ff89012d0146820955"
-    type: factory
+    tags:
+      - factory
   - address: "0x6fa7c90749627fbc0b73309387afda816f75d9b3"
-    type: factory
+    tags:
+      - factory
   - address: "0xbe96502c9baa5aec7e4c810c13d80f75e2d669e0"
-    type: factory
+    tags:
+      - factory
   - address: "0x4ffcfbf4c01746dafc3fe0719ab3a83814130f22"
-    type: factory
+    tags:
+      - factory
   - address: "0x0a8f50d8a22e2a36f46f3931a3086e6662b48bf5"
-    type: factory
+    tags:
+      - factory
   - address: "0xa0ed4625966b7f01169298edd987cb1271ed23ec"
-    type: factory
+    tags:
+      - factory
   - address: "0x0802cf4c3ddaa120073ecaa94dc9f19bd25c4c02"
-    type: factory
+    tags:
+      - factory
   - address: "0x8e6bf020d11e641511bd8b24ee0fab2034e224e5"
-    type: factory
+    tags:
+      - factory
   - address: "0x8f47041adbef5bf321c9f63a0660326614ab6b60"
-    type: factory
+    tags:
+      - factory
   - address: "0x7a7f1187c4710010db17d0a9ad3fce85e6ecd90a"
-    type: factory
+    tags:
+      - factory
   - address: "0x31a56bc24b24f5e570a9a01b315a31fd43cb9c4a"
-    type: factory
+    tags:
+      - factory
   - address: "0x1bf31a0932a0035c532a7b1dcb94ffe0b35aed14"
-    type: factory
+    tags:
+      - factory
   - address: "0xf12ba676f9045bd76f8280bf249cbe8d209276e2"
-    type: factory
+    tags:
+      - factory
   - address: "0x9905f635c656208f4725f3eb51fb762d8041fd50"
-    type: factory
+    tags:
+      - factory
   - address: "0xcfcf4bb472aa2ad6c82ebef2377a20829b6356ad"
-    type: factory
+    tags:
+      - factory
   - address: "0xacde89bcfc54ec2237ed3693edb8c51f74dd2252"
-    type: factory
+    tags:
+      - factory
   - address: "0x87a0e4e59da9b0866de61163626fa73a2b71f2a9"
-    type: factory
+    tags:
+      - factory
   - address: "0x7f62e874e6502ae8c80f1b7754ccf02b4193816b"
-    type: factory
+    tags:
+      - factory
   - address: "0xb2791477da69dde9cd2986349f8855b8e2da7245"
-    type: factory
+    tags:
+      - factory
   - address: "0x9c78da24f2843ccdd02085bdec2484106554ca48"
-    type: factory
+    tags:
+      - factory
   - address: "0x9a166c75587f30d2b9207b53960e9dc6b37e1235"
-    type: factory
+    tags:
+      - factory
   - address: "0x462805d1a4dca867bb384619d2f58c78d1be11dc"
-    type: factory
+    tags:
+      - factory
   - address: "0x815357cac24319a269304e45a5a56e6c2abb0cc8"
-    type: factory
+    tags:
+      - factory
   - address: "0xbbb67d7bbc64c625d973cdf8f3567809ffcc1df2"
-    type: factory
+    tags:
+      - factory
   - address: "0xa8fedb4a8194e21cf775ce868a865242e4e45151"
-    type: factory
+    tags:
+      - factory
   - address: "0xfa09479d72e2b3f8b6df63399772237ad6658d76"
-    type: factory
+    tags:
+      - factory
   - address: "0xea3ac9a53f9092517daa43572c7f2caee0b50ca3"
-    type: factory
+    tags:
+      - factory
   - address: "0x5397416c84f96edd41a916a02e34755594b5a4f8"
-    type: factory
+    tags:
+      - factory
   - address: "0x21a60a0e93782bfa547fe1ef1718099913e72704"
-    type: factory
+    tags:
+      - factory
   - address: "0xda0253a7cdccc4b4defbbef863dba1294bf5e3b1"
-    type: factory
+    tags:
+      - factory
   - address: "0xc3dd967fa78cdc6d373abef1053cb6eafc37c36c"
-    type: factory
+    tags:
+      - factory
   - address: "0xb04a0744f55463a78a44ff851b1749924f39f5e9"
-    type: factory
+    tags:
+      - factory
   - address: "0x42e889c0730daed1034c7e9f8a49b9ab8fc426a4"
-    type: factory
+    tags:
+      - factory
   - address: "0xc23ab0245e23c22bf306a62dc9fe2958cdcf37b0"
-    type: factory
+    tags:
+      - factory
   - address: "0x814e2d6e8f7477329bb6c196111a08464abe11dd"
-    type: factory
+    tags:
+      - factory
   - address: "0x8fa4632b0bd325e6582cb4304ca9fbcc08e74cda"
-    type: factory
+    tags:
+      - factory
   - address: "0x36ce1f34a6e4ffa0ee2a601604cb42f7ee07e10e"
-    type: factory
+    tags:
+      - factory
   - address: "0x2fe304b407c7fab2a3c10962f14db751468a4f5b"
-    type: factory
+    tags:
+      - factory
   - address: "0x8ef7c78fc5a33128e3047eeb831be2617fa8c183"
-    type: factory
+    tags:
+      - factory
   - address: "0xa46ccbd334a1b6cd789a0c0ef0d9d35b4e9e8a07"
-    type: factory
+    tags:
+      - factory
   - address: "0x60be3fb22ddf30c17604b86ec005f6173b1170aa"
-    type: factory
+    tags:
+      - factory
   - address: "0xd0b8c1aec6a24bc7c7729794306a0439f8386bf2"
-    type: factory
+    tags:
+      - factory
   - address: "0x39b6291c64d024c65ae795611cb3dd806cbfc600"
-    type: factory
+    tags:
+      - factory
   - address: "0x6fe429de4284b7625cac1fcaacfa1d705ac9ec28"
-    type: factory
+    tags:
+      - factory
   - address: "0x258509cf4985026b63fbf4530876daf623771aa0"
-    type: factory
+    tags:
+      - factory
   - address: "0x85ff5b70de43fee34f3fa632addd9f76a0f6baa9"
-    type: factory
+    tags:
+      - factory
   - address: "0x2e931de1fcb2681dc98601e0b513308da9c5ceae"
-    type: factory
+    tags:
+      - factory
   - address: "0xd02b238c78e324d4fa832566297fe3a0f45de39c"
-    type: factory
+    tags:
+      - factory
   - address: "0x0df083de449f75691fc5a36477a6f3284c269108"
-    type: factory
+    tags:
+      - factory
   - address: "0xdb61f9b480f0a8b817811cfaa89a1c219c355224"
-    type: factory
+    tags:
+      - factory
   - address: "0x20d33ff7880f65a3554bbee9c4e9bf79812c6ef6"
-    type: factory
+    tags:
+      - factory
   - address: "0xa3f69bb9935d028ecc435e18f8282548e5d3b141"
-    type: factory
+    tags:
+      - factory
   - address: "0xa87f036bcf4454b5fa1e2e5e5989a825e0822a8a"
-    type: factory
+    tags:
+      - factory
   - address: "0x7764f2cbb8f165eb430af14568e6970a4e23369f"
-    type: factory
+    tags:
+      - factory
   - address: "0xc035eb8b5a5ec5bc43f65441077801e0fa89e9d8"
-    type: factory
+    tags:
+      - factory
   - address: "0xac5ae207c55d5a90b2e3cc175a50af959daa6262"
-    type: factory
+    tags:
+      - factory
   - address: "0xfb65a99210966813e98594233fbfbcf18cd013e4"
-    type: factory
+    tags:
+      - factory
   - address: "0xf28e7cc2faa88ed25b2b0123835b0203dfeed2ed"
-    type: factory
+    tags:
+      - factory
   - address: "0x3a1d8dcf39b25df874b9617f97a92258f5efb90a"
-    type: factory
+    tags:
+      - factory
   - address: "0xb22cd502a49e90e4e6200921a41a7f065e9a1b9e"
-    type: factory
+    tags:
+      - factory
   - address: "0xd95e98fc33670dc033424e7aa0578d742d00f9c7"
-    type: factory
+    tags:
+      - factory
   - address: "0xaaa3faee7df1f2fed614fc21504accb12925d362"
-    type: factory
+    tags:
+      - factory
   - address: "0x3a8fb7054f7906baa97b24a46cecda23d8c518ae"
-    type: factory
+    tags:
+      - factory
   - address: "0x207addb05c548f262219f6bfc6e11c02d0f7fdbe"
-    type: factory
+    tags:
+      - factory
   - address: "0xcf5927b8798c09e2f663d2b7cd7a0637b3e8be5a"
-    type: factory
+    tags:
+      - factory
   - address: "0x54db26639ff803622847310ab5bfae097533502d"
-    type: factory
+    tags:
+      - factory
   - address: "0x2ddfe1214b7fed8510a1985d4ddf36e73c8f3ba4"
-    type: factory
+    tags:
+      - factory
   - address: "0xd0223f10f3e71ba8af6861f39272f2ac21b5aba5"
-    type: factory
+    tags:
+      - factory
   - address: "0x0996870d9e8e55259cb427ef95b418776374c550"
-    type: factory
+    tags:
+      - factory
   - address: "0xb840adae1a31b52778188b9e948fc79a4bc99d44"
-    type: factory
+    tags:
+      - factory
   - address: "0x91e0fc1e4d32cc62c4f9bc11aca5f3a159483d31"
-    type: factory
+    tags:
+      - factory
   - address: "0xd7d3da7388755e437944c3d95e08da53c5dda9df"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0x11fe68d9f9d951e2ae8758d8a5134a2ff6258397"
-    type: factory
+    tags:
+      - factory
   - address: "0x1c5d8126b50d9b42d6568bb33869066d94367cf3"
-    type: factory
+    tags:
+      - factory
   - address: "0x501c43f2c1e32b8e6f3785ed978c44b83e38684a"
-    type: factory
+    tags:
+      - factory
   - address: "0xa99817d2d286c894f8f3888096a5616d06f20d46"
-    type: factory
+    tags:
+      - factory
   - address: "0xdb1fe6da83698885104da02a6e0b3b65c0b0de80"
-    type: factory
+    tags:
+      - factory
   - address: "0x25fcfcef502af94e0fd182d0a5f5031ad4d1907d"
-    type: factory
+    tags:
+      - factory
   - address: "0x9a03ff68a9654b56ad9f2fa0d26dbd18383ad97e"
-    type: factory
+    tags:
+      - factory
   - address: "0x715bd9f06acd70a3788ab3f01a528364018944a5"
-    type: factory
+    tags:
+      - factory
   - address: "0xa725e69aa3eaf8dc062056d6571aac92f877d666"
-    type: factory
+    tags:
+      - factory
   - address: "0x9c0347719619191ac0d1d58a39d6b5d3943828c8"
-    type: factory
+    tags:
+      - factory
   - address: "0x827ecd158b76f63010e8f129b19fe64a85e97e95"
-    type: factory
+    tags:
+      - factory
   - address: "0x7103ffa2b4a647010785abff75c5132129e3b499"
-    type: factory
+    tags:
+      - factory
   - address: "0xc61ee9fdad73f4809bb4c7ba0951098e57a1dd19"
-    type: factory
+    tags:
+      - factory
   - address: "0x08da5205e832a2d2c5d88153e2ec1d176e0aab06"
-    type: factory
+    tags:
+      - factory
   - address: "0xc0a0adf5e3b07e383c2c1533b2f0878a3195c622"
-    type: factory
+    tags:
+      - factory
   - address: "0x95e5adbe98b359f41f10f718dcc758bec80461af"
-    type: factory
+    tags:
+      - factory
   - address: "0xb714dd4f8bd6dc0fc955ff0ab4e717af2539bd3f"
-    type: factory
+    tags:
+      - factory
   - address: "0x127c8c6f3f3b30f51aad60b0e7ac87e50005d2cc"
-    type: factory
+    tags:
+      - factory
   - address: "0xaf3190c7c1398904dd71e111c349985e6032410c"
-    type: factory
+    tags:
+      - factory
   - address: "0x35ad6aaa0441acb1d5e9b26c2922ecbfaf92f0f3"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0xb93c74834a6f186ac38df508a33e7783b81e2c86"
-    type: factory
+    tags:
+      - factory
   - address: "0x206c3be51e36a329b92adc126c0a3897f031cb65"
-    type: factory
+    tags:
+      - factory
   - address: "0x9df6c21644e22861e046c04edc8b862d534d38e7"
-    type: factory
+    tags:
+      - factory
   - address: "0x19d7dfa42303e03b3c3e3a043d17bb893fb19385"
-    type: factory
+    tags:
+      - factory
   - address: "0x0d693efd716021878d5979fab4cf8f6c1b7ce450"
-    type: factory
+    tags:
+      - factory
   - address: "0x5edac6b8ea08d535c01981d75b3361481c0ee999"
-    type: factory
+    tags:
+      - factory
   - address: "0xe0a0e60d7e5c84cc1c98a07d9d1950272c1899c5"
-    type: factory
+    tags:
+      - factory
   - address: "0x6da98bde0068d10ddd11b468b197ea97d96f96bc"
-    type: factory
+    tags:
+      - factory
   - address: "0xf531832cf0b21efb63203a1a51f60efbbc0cc677"
-    type: factory
+    tags:
+      - factory
   - address: "0xe35ab07e311d0d8d5a2f39744959e6f907ba11fe"
-    type: factory
+    tags:
+      - factory
   - address: "0x35d80eb1605f72274c5d1ac51bb22af98b0c7e55"
-    type: factory
+    tags:
+      - factory
   - address: "0xf857dbbfc840e8f59f6a3d42e82ce476040a7fae"
-    type: factory
+    tags:
+      - factory
   - address: "0x4ecafe1a9798e4e874f5df212377615ae357b566"
-    type: factory
+    tags:
+      - factory
   - address: "0xcc212eacc4b0ae102b9c0e277057dd365e11e0d7"
-    type: factory
+    tags:
+      - factory
   - address: "0x17d99c78f1aa7870ab30fb3e93b2fe9f6502d192"
-    type: factory
+    tags:
+      - factory
   - address: "0xda60b0f325c0ed633dfc9368acc1a7827a3eba3d"
-    type: factory
+    tags:
+      - factory
   - address: "0x08d24a39beaa952529c6562ee537e03df127e78d"
-    type: factory
+    tags:
+      - factory
   - address: "0x6102ca7475464553ac5d9360ae563a9852986406"
-    type: factory
+    tags:
+      - factory
   - address: "0x2ae3b3d51b51c347ad63e494eb4d5dd0250f8741"
-    type: factory
+    tags:
+      - factory
   - address: "0xf50dabc7a32596bdef0cb5eca0ae88c3474e992e"
-    type: factory
+    tags:
+      - factory
   - address: "0x247ae1347349815453cabf5e4745ce679d102cd3"
-    type: factory
+    tags:
+      - factory
   - address: "0x3d6657999d3eea1365af595f740e0834c815fb6b"
-    type: factory
+    tags:
+      - factory
   - address: "0x4e1cf47161e7bd024798fd875415aeed21013b88"
-    type: factory
+    tags:
+      - factory
   - address: "0xe0a1467a9d86d9f433496c48c6831c0142464ce6"
-    type: factory
+    tags:
+      - factory
   - address: "0x6450a23dc646d65aff8cf7120a421d394f4e136b"
-    type: factory
+    tags:
+      - factory
   - address: "0x9e0fed4f8284b5b81601b4c7fa50f68dbf958a86"
-    type: factory
+    tags:
+      - factory
   - address: "0x85bb876cbb202bd77704a4fb7e4ecbecebd4cdf7"
-    type: factory
+    tags:
+      - factory
   - address: "0x8d14adc3aaae473975982fc938f97b87de975feb"
-    type: factory
+    tags:
+      - factory
   - address: "0xc0e8701424bb251995cfd399f45a389e755c8352"
-    type: factory
+    tags:
+      - factory
   - address: "0xb81df7a1e7404c6c1dbcac503a9412b7a926f62e"
-    type: factory
+    tags:
+      - factory
   - address: "0x352717910966dbac3f0c17ca1c1aae269cf85036"
-    type: factory
+    tags:
+      - factory
   - address: "0x6a938eddf290ca29a0865ae613d52c160ce4554b"
-    type: factory
+    tags:
+      - factory
   - address: "0xbca9f4edfc223b211e1cab5a376f1874873ba357"
-    type: factory
+    tags:
+      - factory
   - address: "0xa5edb0ef932f7c2f37b8fc75cb01948f6258a4f8"
-    type: factory
+    tags:
+      - factory
   - address: "0x8391fe399640e7228a059f8fa104b8a7b4835071"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0x993423f1d8b33f6e9e847703413eefd6d6f94db4"
-    type: factory
+    tags:
+      - factory
   - address: "0x415c6f07757ab86d902eeca5055fcb3ca974b880"
-    type: factory
+    tags:
+      - factory
   - address: "0x1ad06ca54de04dbe9e2817f4c13ecb406dcbeaf0"
-    type: factory
+    tags:
+      - factory
   - address: "0xaee6477fab80a73abfdab05dab59761fddc0e826"
-    type: factory
+    tags:
+      - factory
   - address: "0xd25711edfbf747efce181442cc1d8f5f8fc8a0d3"
-    type: factory
+    tags:
+      - factory
   - address: "0x71b08cc5e0326c4634079c1cc4f88e62376109fa"
-    type: factory
+    tags:
+      - factory
   - address: "0x50244607ea4d21c71cd8d55da393d7a3189b8e7a"
-    type: factory
+    tags:
+      - factory
   - address: "0x4854ff81309d31ed56507c58f229c5833b05cc84"
-    type: factory
+    tags:
+      - factory
   - address: "0x4ab66eed0b39f9d229a1281468a4482515db0709"
-    type: factory
+    tags:
+      - factory
   - address: "0xc5be2c918eb04b091962fdf095a217a55cfa42c5"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0x0bda97b6f063d40b7795f380e2d88f107dc3506b"
-    type: factory
+    tags:
+      - factory
   - address: "0x6b95147a8d2c7f480c0cf7288fcf268400ce9970"
-    type: factory
+    tags:
+      - factory
   - address: "0x376dadcec30287c6841c4d0d1e61d88e84630752"
-    type: factory
+    tags:
+      - factory
   - address: "0x3a4f4694b4a05d12415d04753e1b7c558f544e15"
-    type: factory
+    tags:
+      - factory
   - address: "0x701b0b7588d202d41d76d2b2efafd4204c7818d5"
-    type: factory
+    tags:
+      - factory
   - address: "0xb0a8194dc73fc6b2aa52757c514bc788b84b9163"
-    type: factory
+    tags:
+      - factory
   - address: "0x278631efe7e7b4c2ec49927b255c2ca42be2c1b1"
-    type: factory
+    tags:
+      - factory
   - address: "0xbde6031f6e66f0d2dd9e6e367a0125d6924758c2"
-    type: factory
+    tags:
+      - factory
   - address: "0x87bdf9ba91f353777fb1fe7cf4b7dfecf80d714e"
-    type: factory
+    tags:
+      - factory
   - address: "0x8475ab2a846ea967c1b9c78f31b5f8e2f854bd7c"
-    type: factory
+    tags:
+      - factory
   - address: "0x6df72d8043ec1d347e123138be4eeb2ab4c1d8f5"
-    type: factory
+    tags:
+      - factory
   - address: "0x58f98be02c4ffb675af8857013a9c0dfa5750d04"
-    type: factory
+    tags:
+      - factory
   - address: "0xb5f1550be7576c0cfbad6ea8d5f3cf03fc1e3350"
-    type: factory
+    tags:
+      - factory
   - address: "0xbba3e26e473be09de05645fa3a4a2aed7d99f15d"
-    type: factory
+    tags:
+      - factory
   - address: "0xeb19322225d6afd396c6798568ca78344ebbd617"
-    type: factory
+    tags:
+      - factory
   - address: "0xdb960dcaa75fc881b4615c3633057eec25a7ca5c"
-    type: factory
+    tags:
+      - factory
   - address: "0xa4acbc92595dcbbfd18cea433fbe63713d5192d5"
-    type: factory
+    tags:
+      - factory
   - address: "0x48dce63bacf1c7c839cfa7d4f871ad17c0d30d38"
-    type: factory
+    tags:
+      - factory
   - address: "0x64ce824db5c82a7f50f07d6a65a050543ffa7463"
-    type: factory
+    tags:
+      - factory
   - address: "0x3d0f2f80333f5047a20c21b1891b18553951b94d"
-    type: factory
+    tags:
+      - factory
   - address: "0x2ff4285752e4e4fb7adcac9a3d341242cee32c10"
-    type: factory
+    tags:
+      - factory
   - address: "0x5376d960f984ea2422b4e3cce8cfe377a46fbb2d"
-    type: factory
+    tags:
+      - factory
   - address: "0x9336a4223c945c5a1d292be5adf59d65bbbe4687"
-    type: factory
+    tags:
+      - factory
   - address: "0x331d19cd079c78bc4c9e8730106d42ecc04757a5"
-    type: factory
+    tags:
+      - factory
   - address: "0x0fb402252441082646d7df18550e4036b8f20d7e"
-    type: factory
+    tags:
+      - factory
   - address: "0xc9abba8558ebffde62fe8cd0cade04b6d265e401"
-    type: factory
+    tags:
+      - factory
   - address: "0xfa15c67b637c31bcc208af7504a549f094e16ff3"
-    type: factory
+    tags:
+      - factory
   - address: "0x8920d8bbb0d39c29bc1d289b2494a805e9a99c09"
-    type: factory
+    tags:
+      - factory
   - address: "0x22c1a03012479f4f1f78df8e28d3bca97e711def"
-    type: factory
+    tags:
+      - factory
   - address: "0x88391365c225973032275db256b9d15f845d2c72"
-    type: factory
+    tags:
+      - factory
   - address: "0xa9eb4fccc8041051ccb0035eea970917e5318f0e"
-    type: factory
+    tags:
+      - factory
   - address: "0x91c389b8b21e24d273424102e1c68516e8ce4128"
-    type: factory
+    tags:
+      - factory
   - address: "0x9e30c84eafd6e539ce6c14fb017602292d728aa8"
-    type: factory
+    tags:
+      - factory
   - address: "0x81454c5684a3bed8af0dd58a2195d23c7e094efe"
-    type: factory
+    tags:
+      - factory
   - address: "0xecd7a44bf22d28839164debd1de3df78f17cf155"
-    type: factory
+    tags:
+      - factory
   - address: "0x651ccfdca662f6d9f0c03f8392656e17f6a703cb"
-    type: factory
+    tags:
+      - factory
   - address: "0x93ffa0cbe0df26d87cb174da2e01cc3f4d5a3af5"
-    type: factory
+    tags:
+      - factory
   - address: "0x34bb604e97604533ab9e42a756c3790910caac87"
-    type: factory
+    tags:
+      - factory
   - address: "0xc2058aa3b3f96075cc33946bcd1963bfa660315b"
-    type: factory
+    tags:
+      - factory
   - address: "0xc4e7cfc1db28fa7d729fdb3617b48dfdd45a4511"
-    type: factory
+    tags:
+      - factory
   - address: "0x9c12939390052919af3155f41bf4160fd3666a6f"
-    type: contract
+    tags:
+      - contract
   - address: "0x5f2f6721ca0c5ac522bc875fa3f09bf693dcfa1d"
-    type: contract
+    tags:
+      - contract
   - address: "0x64dd805aa894dc001f8505e000c7535179d96c9e"
-    type: contract
-  - address: "0xd7d3da7388755e437944c3d95e08da53c5dda9df"
-    type: contract
+    tags:
+      - contract
   - address: "0x9560e827af36c94d2ac33a39bce1fe78631088db"
-    type: contract
+    tags:
+      - contract
   - address: "0x06824df38d1d77eadeb6bafcb03904e27429ab74"
-    type: contract
-  - address: "0xb4df5ada43c40611fdf59395c4f314c4a676209a"
-    type: contract
+    tags:
+      - contract
   - address: "0x3c8b650257cfb5f272f799f5e2b4e65093a11a05"
-    type: contract
+    tags:
+      - contract
   - address: "0x08947e304064b3f3ef2b99fca7e549c5fc3f75d4"
-    type: contract
+    tags:
+      - contract
   - address: "0x6666b2df7a328cf775778ebad368f5f13e39ec4c"
-    type: contract
+    tags:
+      - contract
   - address: "0x9d4736ec60715e71afe72973f7885dcbc21ea99b"
-    type: contract
+    tags:
+      - contract
   - address: "0x4a9ea0dd5649ec4b6745c60d1769e2184c1782dd"
-    type: contract
+    tags:
+      - contract
   - address: "0xf4c67cdeaab8360370f41514d06e32ccd8aa1d7b"
-    type: contract
-  - address: "0x5d1e82af6ad9c1d05d616f4675eccfcca5fe1cfe"
-    type: contract
+    tags:
+      - contract
   - address: "0xbdd6f9662e904a9176aafcbdded45d076b5170ef"
-    type: contract
+    tags:
+      - contract
   - address: "0x45ff00822e8235b86cb605ac8295c14628ce78a4"
-    type: contract
+    tags:
+      - contract
   - address: "0x9e8676f76696524eb49d9d7f3aee97bc52b7c8a5"
-    type: contract
-  - address: "0xfc1aa395ebd27664b11fc093c07e10ff00f0122c"
-    type: contract
+    tags:
+      - contract
   - address: "0x5d5bea9f0fc13d967511668a60a3369fd53f784f"
-    type: contract
-  - address: "0x8391fe399640e7228a059f8fa104b8a7b4835071"
-    type: contract
+    tags:
+      - contract
   - address: "0x6dc9e1c04ee59ed3531d73a72256c0da46d10982"
-    type: contract
-  - address: "0xf1046053aa5682b4f9a81b5481394da16be5ff5a"
-    type: contract
+    tags:
+      - contract
   - address: "0xcdd9585005095ac7447d1fdbc990c5cfb805cff0"
-    type: contract
+    tags:
+      - contract
   - address: "0x20ffdb7d91544f8befd4f7a85e13bb9d773655ec"
-    type: contract
+    tags:
+      - contract
   - address: "0xf74741f2184929c988009abc6c758ab3f2318cb8"
-    type: contract
+    tags:
+      - contract
   - address: "0xa062ae8a9c5e11aaa026fc2670b0d65ccc8b2858"
-    type: contract
+    tags:
+      - contract
   - address: "0x58f62efb1528d006d22771623c3c3e7953cbfca2"
-    type: contract
-  - address: "0x5aee5f0e6c2055ebd776db25f48f6c9a68abcdae"
-    type: contract
+    tags:
+      - contract
   - address: "0xda03dc399af3f1545748243aafbc5050a63b17ec"
-    type: contract
+    tags:
+      - contract
   - address: "0xa132dab612db5cb9fc9ac426a0cc215a3423f9c9"
-    type: contract
+    tags:
+      - contract
   - address: "0x09236cff45047dbee6b921e00704bed6d6b8cf7e"
-    type: contract
+    tags:
+      - contract
   - address: "0x0a16cb36b553ba2bb2339f3b206a965e9841d305"
-    type: contract
-  - address: "0xa84ea94aa705f7d009cddf2a60f65c0d446b748e"
-    type: contract
+    tags:
+      - contract
   - address: "0x73746410b0dd4526e1fa00d0854e99ba54aefd30"
-    type: contract
-  - address: "0x25cbddb98b35ab1ff77413456b31ec81a6b6b746"
-    type: contract
+    tags:
+      - contract
   - address: "0x9c7305eb78a432ced5c4d14cac27e8ed569a2e26"
-    type: contract
+    tags:
+      - contract
   - address: "0x00d59bc35174c3b250dd92a363495d38c8777a49"
-    type: contract
-  - address: "0x35ad6aaa0441acb1d5e9b26c2922ecbfaf92f0f3"
-    type: contract
+    tags:
+      - contract
   - address: "0x79bca9bcc19e157cb5f8c5a2f4d6cb951b1f8dce"
-    type: contract
-  - address: "0x756e7c245c69d351fffbfb88ba234aa395ada8ec"
-    type: contract
+    tags:
+      - contract
   - address: "0x41c914ee0c7e1a5edcd0295623e6dc557b5abf3c"
-    type: contract
+    tags:
+      - contract
   - address: "0xfaf8fd17d9840595845582fcb047df13f006787d"
-    type: contract
+    tags:
+      - contract
   - address: "0x82b83a0df68aaedbd187eeca8f242e9d4880cc68"
-    type: contract
+    tags:
+      - contract
   - address: "0x95885af5492195f0754be71ad1545fe81364e531"
-    type: contract
-  - address: "0xc5be2c918eb04b091962fdf095a217a55cfa42c5"
-    type: contract
+    tags:
+      - contract
   - address: "0x585af0b397ac42dbef7f18395426bf878634f18d"
-    type: contract
+    tags:
+      - contract
   - address: "0x3460dc71a8863710d1c907b8d9d5dbc053a4102d"
-    type: contract
-  - address: "0x7955519e14fdf498e28831f4cc06af4b8e3086a8"
-    type: contract
+    tags:
+      - contract
   - address: "0x07f544813e9fb63d57a92f28fbd3ff0f7136f5ce"
-    type: contract
+    tags:
+      - contract
   - address: "0x6b5d62915266d859aef91f826b6acf17fad2d033"
-    type: contract
+    tags:
+      - contract
   - address: "0xe3c5e29ea198e617ebc707718707beff9393fa51"
-    type: contract
+    tags:
+      - contract
   - address: "0xfb1fc21d2937bf5a49d480189e7fed42bf8282ad"
-    type: contract
+    tags:
+      - contract
   - address: "0x846e822e9a00669dcc647079d7d625d2cd25a951"
-    type: contract
+    tags:
+      - contract

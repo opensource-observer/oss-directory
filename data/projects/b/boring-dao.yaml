@@ -1,46 +1,66 @@
-version: 1
+version: 2
 slug: boring-dao
 name: BoringDAO
 github:
   - url: https://github.com/boringdao
 optimism:
   - address: "0xf7c1daf7443d7307df13c81f5f0328d4c7803e7b"
-    type: creator
+    tags:
+      - creator
   - address: "0x017ff87ab312301ade54f7cf9cc5aea28c9de024"
-    type: contract
+    tags:
+      - contract
   - address: "0xd01a5051253007ae0b7123b50410e3b5a3f6cf95"
-    type: contract
+    tags:
+      - contract
   - address: "0xea5fed6adb6ea4c8a2e2622de720f9ced0b22a17"
-    type: contract
+    tags:
+      - contract
   - address: "0x29414ec76d79ff238e5e773322799d1c7ca2443f"
-    type: contract
+    tags:
+      - contract
   - address: "0x77b3aa18d89ea24e4af7bb9bc221d49fd5534c19"
-    type: contract
+    tags:
+      - contract
   - address: "0xa39e3d97df5ccc9e42ee1897bcb23a550afa5b65"
-    type: contract
+    tags:
+      - contract
   - address: "0x91854b4a3c8379d5baa39f1c0917332e58bfbc7b"
-    type: contract
+    tags:
+      - contract
   - address: "0x87dd4a7ad23b95cd9ff9c26b5cf325905caf8663"
-    type: contract
+    tags:
+      - contract
   - address: "0x020bc28df8904bba7f432519d5fc86d494e708dd"
-    type: contract
+    tags:
+      - contract
   - address: "0x1f5330323b12c62eb1258fa227d88c8e63fdb855"
-    type: contract
+    tags:
+      - contract
   - address: "0x4685d436ad9c7c7fc21e600c6dba6b6bb5693dc5"
-    type: contract
+    tags:
+      - contract
   - address: "0x6b2b2349d5da2d260f5819cbff767ae090e9a600"
-    type: contract
+    tags:
+      - contract
   - address: "0xbe4a5438ad89311d8c67882175d0ffcc65dc9c03"
-    type: contract
+    tags:
+      - contract
   - address: "0x226d8bfb4da78ddc5bd8fd6c1532c58e88f9fd34"
-    type: contract
+    tags:
+      - contract
   - address: "0x11e4bed429b239a1a0c594adeb71b99e8fa1011a"
-    type: contract
+    tags:
+      - contract
   - address: "0xa6b2d37b171e626ee5227322fead4272682fbf89"
-    type: contract
+    tags:
+      - contract
   - address: "0x68d97b7a961a5239b9f911da8deb57f6ef6e5e28"
-    type: contract
+    tags:
+      - contract
   - address: "0x9d1853a4d36bc5b0a0c4a852f3f4e439541e7cc3"
-    type: contract
+    tags:
+      - contract
   - address: "0x57c37416c853c2703bbbf7eabb382a9cedb523d8"
-    type: contract
+    tags:
+      - contract

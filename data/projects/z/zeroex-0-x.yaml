@@ -1,12 +1,13 @@
-version: 1
+version: 2
 slug: zeroex-0-x
 name: Zeroex (0x)
 github:
   - url: https://github.com/0xproject
 optimism:
   - address: "0xedcd79f34db8b78cd7a55e04dbf991ecd1a5c0f4"
-    type: creator
+    tags:
+      - creator
   - address: "0xdef1abe32c034e558cdd535791643c58a13acc10"
-    type: factory
-  - address: "0xdef1abe32c034e558cdd535791643c58a13acc10"
-    type: contract
+    tags:
+      - factory
+      - contract

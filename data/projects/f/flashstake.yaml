@@ -1,42 +1,54 @@
-version: 1
+version: 2
 slug: flashstake
 name: Flashstake
 github:
   - url: https://github.com/BlockzeroLabs/flashv3-contracts
 optimism:
   - address: "0x4b9f696c998f9549485a3a85dca692fd6cce491f"
-    type: creator
+    tags:
+      - creator
   - address: "0x2ba1f7e899948153d8377f77dbb9af25443ff728"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0x05736a8d6bc208b9e3c9a7e20e7f53674aea6ab1"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0xbce67cd3a2b97c17bda92764ea81b3ef5f06ccfc"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0x86bea60374f220de9769b2fef2db725bc1cdd335"
-    type: contract
-  - address: "0xbce67cd3a2b97c17bda92764ea81b3ef5f06ccfc"
-    type: contract
+    tags:
+      - contract
   - address: "0x28b413f9f09fba829a4c0b43783541373ee3f6c3"
-    type: contract
+    tags:
+      - contract
   - address: "0x78b2d65dd1d3d9fb2972d7ef467261ca101ec2b9"
-    type: contract
-  - address: "0x2ba1f7e899948153d8377f77dbb9af25443ff728"
-    type: contract
+    tags:
+      - contract
   - address: "0xcb1205ac28693beda01e0b66e9b4d06231609bfd"
-    type: contract
+    tags:
+      - contract
   - address: "0xfd49a007d9fadf8904849edbef1b3344e42142ff"
-    type: contract
+    tags:
+      - contract
   - address: "0x720face4d24018cbe1d68b1df64a730890598f47"
-    type: contract
+    tags:
+      - contract
   - address: "0x15c32f81df9b00b97b68148b6bdeb72d57f24845"
-    type: contract
+    tags:
+      - contract
   - address: "0x3b090839c26fe3b2bdfa2f4cd7f3ab001ccdf73f"
-    type: contract
+    tags:
+      - contract
   - address: "0x7efcd4c1ff21ffcba1b6a245a9e385b4ff45d6dd"
-    type: contract
+    tags:
+      - contract
   - address: "0x541a7b5a8a6bb28ec44fab9d41cc2b4aaf4f9a33"
-    type: contract
+    tags:
+      - contract
   - address: "0x8ef21e9bfe8f40eddd9bf7828707da47d5536c4c"
-    type: contract
-  - address: "0x05736a8d6bc208b9e3c9a7e20e7f53674aea6ab1"
-    type: contract
+    tags:
+      - contract

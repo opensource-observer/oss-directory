@@ -1,45 +1,24 @@
-import { glob } from "glob";
 import path from "path";
-import { readCollectionFile, readProjectFile } from "../index.js";
-import { FileFormat } from "../types/files.js";
-import { UserError } from "../utils/error.js";
-import { assert, assertNever } from "../utils/common.js";
+import { glob } from "glob";
+import { readCollectionFile, readProjectFile } from "../validator/index.js";
+import { assert } from "../utils/common.js";
 import { getProjectPath } from "../utils/format.js";
-import { currentVersion } from "../utils/migration.js";
+import { currentVersion } from "../migrations/index.js";
+import { CommonArgs } from "../types/cli.js";
+import { getFileExtension, getFileFormat } from "../types/files.js";
 
-export type ValidateArgs = {
+export type ValidateArgs = CommonArgs & {
   dir: string;
-  format: string;
 };
-
-/**
- * Uses glob to retrieve all files in a directory with the given format/extension
- * @param args ValidateArgs
- * @returns
- */
-async function getFiles(args: ValidateArgs) {
-  const { dir, format } = args;
-  if (format !== "yaml" && format !== "json") {
-    throw new UserError(`Invalid format: ${format}`);
-  }
-
-  const fileFormat: FileFormat =
-    format === "yaml"
-      ? "YAML"
-      : format === "json"
-      ? "JSON"
-      : assertNever(format);
-  const extension = `.${format}`;
-  const files = await glob(path.resolve(dir, `**/*${extension}`));
-  return { files, fileFormat, extension };
-}
 
 /**
  * Validates all collections in a directory
  * @param args
  */
 export async function validateCollections(args: ValidateArgs) {
-  const { files, fileFormat, extension } = await getFiles(args);
+  const fileFormat = getFileFormat(args.format);
+  const extension = getFileExtension(fileFormat);
+  const files = await glob(path.resolve(args.dir, `**/*${extension}`));
   console.log(`Validating collections in ${args.dir}`);
   for (const file of files) {
     // Check each file conforms to `Collection` schema
@@ -67,7 +46,9 @@ export async function validateCollections(args: ValidateArgs) {
  * @param args
  */
 export async function validateProjects(args: ValidateArgs) {
-  const { files, fileFormat, extension } = await getFiles(args);
+  const fileFormat = getFileFormat(args.format);
+  const extension = getFileExtension(fileFormat);
+  const files = await glob(path.resolve(args.dir, `**/*${extension}`));
   console.log(`Validating projects in ${args.dir}`);
   for (const file of files) {
     // Check each file conforms to `Project` schema

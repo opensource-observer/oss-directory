@@ -1,20 +1,25 @@
-version: 1
+version: 2
 slug: axelar
 name: Axelar
 github:
   - url: https://github.com/axelarnetwork
 optimism:
   - address: "0xb8cd93c83a974649d76b1c19f311f639e62272bc"
-    type: creator
+    tags:
+      - creator
   - address: "0x98b2920d53612483f91f12ed7754e51b4a77919e"
-    type: creator
+    tags:
+      - creator
   - address: "0xe432150cce91c13a887f7d836923d5597add8e31"
-    type: factory
-  - address: "0xe432150cce91c13a887f7d836923d5597add8e31"
-    type: contract
+    tags:
+      - factory
+      - contract
   - address: "0x8a156bca562fb75385c4d41ea6903e270a34b727"
-    type: contract
+    tags:
+      - contract
   - address: "0x1a920b29ebd437074225caee44f78fc700b27a5d"
-    type: contract
+    tags:
+      - contract
   - address: "0x05823c334150a48acd5d325fba16147c21ba3653"
-    type: contract
+    tags:
+      - contract

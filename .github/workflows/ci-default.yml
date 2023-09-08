@@ -71,13 +71,8 @@ jobs:
           pnpm test
         # Always run this step so that all linting errors can be seen at once.
         if: always()
-      - name: Validate collections
+      - name: Validate data
         run: |
-          pnpm validate:collections
-        # Always run this step so that all linting errors can be seen at once.
-        if: always()
-      - name: Validate projects
-        run: |
-          pnpm validate:projects
+          pnpm validate
         # Always run this step so that all linting errors can be seen at once.
         if: always()

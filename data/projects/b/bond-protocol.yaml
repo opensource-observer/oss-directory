@@ -1,28 +1,39 @@
-version: 1
+version: 2
 slug: bond-protocol
 name: Bond Protocol
 github:
   - url: https://github.com/bond-protocol
 optimism:
   - address: "0x1a5309f208f161a393e8b5a253de8ab894a67188"
-    type: creator
+    tags:
+      - creator
   - address: "0x007fe70dc9797c4198528ae43d8195fff82bdc95"
-    type: factory
+    tags:
+      - factory
   - address: "0x4e59b44847b379578588920ca78fbf26c0b4956c"
-    type: factory
+    tags:
+      - factory
   - address: "0xa6b71e26c5e0845f74c812102ca7114b6a896ab2"
-    type: factory
+    tags:
+      - factory
   - address: "0x18878df23e2a36f81e820e4b47b4a40576d3159c"
-    type: contract
+    tags:
+      - contract
   - address: "0x623164a9ee2556d524b08f34f1d2389d7b4e1a1c"
-    type: contract
+    tags:
+      - contract
   - address: "0x22ae99d07584a2ae1af748de573c83f1b9cdb4c0"
-    type: contract
+    tags:
+      - contract
   - address: "0xbc9ee0d911739cbc72cd094ada26f56e0c49eeae"
-    type: contract
+    tags:
+      - contract
   - address: "0x060cb087a9730e13aa191f31a6d86bff8dfcdcc0"
-    type: contract
+    tags:
+      - contract
   - address: "0xb1fa0ac44d399b778b14af0aaf4bcf8af3437ad1"
-    type: contract
+    tags:
+      - contract
   - address: "0x13dfeff85779118136bb9826dcad8f3bd25153a3"
-    type: contract
+    tags:
+      - contract

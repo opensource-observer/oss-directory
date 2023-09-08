@@ -1,144 +1,213 @@
-version: 1
+version: 2
 slug: rabbithole
 name: Rabbithole
 github:
   - url: https://github.com/rabbitholegg
 optimism:
   - address: "0x221a8da83f675f1fd97105a5b2b3bb65916a5101"
-    type: creator
+    tags:
+      - creator
   - address: "0x017f8ad14a2e745ea0f756bd57cd4852400be78c"
-    type: creator
+    tags:
+      - creator
   - address: "0x4e59b44847b379578588920ca78fbf26c0b4956c"
-    type: factory
+    tags:
+      - factory
   - address: "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc"
-    type: factory
+    tags:
+      - factory
   - address: "0x52629961f71c1c2564c5aa22372cb1b9fa9eba3e"
-    type: factory
+    tags:
+      - factory
   - address: "0xabc2f529a40a1a337e0c1da12c004b61bcbe2189"
-    type: contract
+    tags:
+      - contract
   - address: "0x116886bd236e65d1ca1ea896743aeac7cabc34b7"
-    type: contract
+    tags:
+      - contract
   - address: "0x92d1ed7eeed154a01196ed32f56ec8336be1e25d"
-    type: contract
+    tags:
+      - contract
   - address: "0x77c015719603aacc2a617fa861fb2c1a894099b4"
-    type: contract
+    tags:
+      - contract
   - address: "0xd01716fd8fd62749cde6761e64d36f76d03d52d9"
-    type: contract
+    tags:
+      - contract
   - address: "0xd8de990f679878f2ac3bba2d35e905a641b0bf0a"
-    type: contract
+    tags:
+      - contract
   - address: "0xc504cf3b7730774515b2c2ce8228a38e20ca062f"
-    type: contract
+    tags:
+      - contract
   - address: "0x86ee25f6f0b4a568dd134b78207c6c7b196c5eea"
-    type: contract
+    tags:
+      - contract
   - address: "0x76829bd875a06ddbe41aaf5ddbf5087dd17ddbed"
-    type: contract
+    tags:
+      - contract
   - address: "0x8a9c590f89a0807bfa93cb1cbdd491295a097ee6"
-    type: contract
+    tags:
+      - contract
   - address: "0x24e215a6dbb81de5903eb1e7cb890546727f75be"
-    type: contract
+    tags:
+      - contract
   - address: "0x594d2e3101aad23e9d27be3b8d9127c753309162"
-    type: contract
+    tags:
+      - contract
   - address: "0x5e0af2ded0fd10b0990c0b57af0d7f2af877285b"
-    type: contract
+    tags:
+      - contract
   - address: "0xc9a42690912f6bd134dbc4e2493158b3d72cad21"
-    type: contract
+    tags:
+      - contract
   - address: "0x85ee14294d67c40a9911a63d4dd445433c219389"
-    type: contract
+    tags:
+      - contract
   - address: "0x497cf78c31151228ce7e5929dc9dd146e0cc8a64"
-    type: contract
+    tags:
+      - contract
   - address: "0x866724e06f787f45028f4f10eb0de195a75a99fd"
-    type: contract
+    tags:
+      - contract
   - address: "0x209db142306a5be44fc6e1ea65aab49c258ae2f6"
-    type: contract
+    tags:
+      - contract
   - address: "0xa6d7e5c7f7799bdae196f8bbefa4846ebc98061f"
-    type: contract
+    tags:
+      - contract
   - address: "0xa881276209fc2b52a2d5637f218a03c5476c452d"
-    type: contract
+    tags:
+      - contract
   - address: "0x8e95c2d5a4aa296c9d905d38362394cf7f91c165"
-    type: contract
+    tags:
+      - contract
   - address: "0xb98b90d76fca614f31f8c677beb36e92c8f2e886"
-    type: contract
+    tags:
+      - contract
   - address: "0xd574fae75dedbbb6697077bb39186b12ba384895"
-    type: contract
+    tags:
+      - contract
   - address: "0xb8830f6f23dfca3a3b2f29f5a1e5449abd3dde80"
-    type: contract
+    tags:
+      - contract
   - address: "0xa232cf1ac685eb46eb3aef2f2c2db30313472c15"
-    type: contract
+    tags:
+      - contract
   - address: "0xc1594af4c8e13a11f92ce3c887ff417be72fe6d3"
-    type: contract
+    tags:
+      - contract
   - address: "0x2c7de1f2cb771b5fa5d128a8d197e492dbe76920"
-    type: contract
+    tags:
+      - contract
   - address: "0x563b244a67aec9eb2cef5509ae633a22448cd02f"
-    type: contract
+    tags:
+      - contract
   - address: "0x2a4a4f6330b30f257146bb0bc6e57019b8ddbe78"
-    type: contract
+    tags:
+      - contract
   - address: "0x89865676cbc34a530393ed2eca6619f75856edc8"
-    type: contract
+    tags:
+      - contract
   - address: "0x54e986cbe464e243700083ba4f2da64f6648343f"
-    type: contract
+    tags:
+      - contract
   - address: "0x77ff820dda15107879d8118cf801be05838d4625"
-    type: contract
+    tags:
+      - contract
   - address: "0xd70e8b2c85c82882e0594ee076c9d6c57f9c8371"
-    type: contract
+    tags:
+      - contract
   - address: "0xdb48afcb76242e63b8ac7c048973ae4272add973"
-    type: contract
+    tags:
+      - contract
   - address: "0x0483e8b3a7d005b6c6e1e9581fda0742299b882f"
-    type: contract
+    tags:
+      - contract
   - address: "0xf5a70eb5c9455a17f2a4622ef35b0067bcb5b802"
-    type: contract
+    tags:
+      - contract
   - address: "0x0cb52fbdf21d1cf32c48b0a4143b47a852125ac8"
-    type: contract
+    tags:
+      - contract
   - address: "0x53f1e2cfbbd04368b270c179fcc8468479b8c945"
-    type: contract
+    tags:
+      - contract
   - address: "0xa5ff63489c195b4e44727c36df7e0f61c2d457c3"
-    type: contract
+    tags:
+      - contract
   - address: "0x4c72a641858e9fd0782a409908d2a3905cc28e5f"
-    type: contract
+    tags:
+      - contract
   - address: "0x7c7d496250a4de2c423a7462b71276658d6b483b"
-    type: contract
+    tags:
+      - contract
   - address: "0xb039c73a193931fcd9ab1929de43bc96889f2cc0"
-    type: contract
+    tags:
+      - contract
   - address: "0xee8369a567af599e7ae75cf19dd815c7f3350a54"
-    type: contract
+    tags:
+      - contract
   - address: "0x269f993c0920d91f54395157e5f8393e733ffc85"
-    type: contract
+    tags:
+      - contract
   - address: "0x1ee88aa687051e7de94d3bf68c410c61619bba6a"
-    type: contract
+    tags:
+      - contract
   - address: "0x623edfe9c2975f7cb4cd8a84b992b34414331d48"
-    type: contract
+    tags:
+      - contract
   - address: "0x72e5ef6f2ec88f826e694efb8cd8831c565b2ab6"
-    type: contract
+    tags:
+      - contract
   - address: "0xf23f40ed993c03d44d5b8817390cb7804e502695"
-    type: contract
+    tags:
+      - contract
   - address: "0x49fbb218d6a85ef1683cc8b45f1c8ac6c19a263a"
-    type: contract
+    tags:
+      - contract
   - address: "0xd730aef2379e8e0e5ad44a1d2e836bf7ec5e33b9"
-    type: contract
+    tags:
+      - contract
   - address: "0xd8e8d3ab0ec8c42b850694a3f7f80ba909956313"
-    type: contract
+    tags:
+      - contract
   - address: "0x090e4125781f6fe88a08908975546d01ec9b03e7"
-    type: contract
+    tags:
+      - contract
   - address: "0xc9c8fabc17cf597530ff3a2b7c1be1761ac9e123"
-    type: contract
+    tags:
+      - contract
   - address: "0x53431b13e9d353676658e6da81186301fee31526"
-    type: contract
+    tags:
+      - contract
   - address: "0xb7b4e96dcfdf51d3c35aa22c18092530daed5038"
-    type: contract
+    tags:
+      - contract
   - address: "0x7fbc1453e2b5905cdf62d1d1e2b1cf2c4937c07a"
-    type: contract
+    tags:
+      - contract
   - address: "0x21239e2a5e70f4c7ced03566e841e6ed6f16b616"
-    type: contract
+    tags:
+      - contract
   - address: "0x10cb0a95dce1d5e0f8796f80c8f08c31a9af9b5d"
-    type: contract
+    tags:
+      - contract
   - address: "0x7ceeed1a89cac2cd3521484723353778eeb29c2c"
-    type: contract
+    tags:
+      - contract
   - address: "0x8d8c1461b86dfea1f98fbf149c7f42c9217eb66b"
-    type: contract
+    tags:
+      - contract
   - address: "0x94c1ff1951c38fc3df189c8f4edf01e3bf4d1e5b"
-    type: contract
+    tags:
+      - contract
   - address: "0xad34f39893896fb4925e1364178805aece2d43e5"
-    type: contract
+    tags:
+      - contract
   - address: "0x9571927ed09c3591b834a80b889ab2d277ee22dc"
-    type: contract
+    tags:
+      - contract
   - address: "0x80e13ffe9be0a9b79923f5ad9f29c72cc2f2d9fa"
-    type: contract
+    tags:
+      - contract
