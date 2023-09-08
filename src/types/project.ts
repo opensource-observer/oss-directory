@@ -30,5 +30,6 @@ export interface URL {
 export interface BlockchainAddress {
   address: string;
   type: "eoa" | "safe" | "creator" | "factory" | "contract";
+  name?: string;
   [k: string]: unknown;
 }

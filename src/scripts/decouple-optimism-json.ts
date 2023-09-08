@@ -8,7 +8,7 @@ import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 import { safeCastProject, safeCastCollection } from "../index.js";
 import { getCollectionPath, getProjectPath } from "../utils/format.js";
-import { currentVersion } from "../utils/migration.js";
+import { currentVersion } from "../migrations/index.js";
 
 type Args = {
   in: string;

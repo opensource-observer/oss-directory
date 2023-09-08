@@ -1,15 +1,15 @@
 import Ajv from "ajv";
 import addFormats from "ajv-formats";
-import { readFile } from "fs/promises";
-import YAML from "yaml";
 import projectSchema from "../resources/schema/project.json" assert { type: "json" };
 import collectionSchema from "../resources/schema/collection.json" assert { type: "json" };
 import urlSchema from "../resources/schema/url.json" assert { type: "json" };
 import blockchainAddressSchema from "../resources/schema/blockchain-address.json" assert { type: "json" };
 import { Project } from "../types/project.js";
 import { Collection } from "../types/collection.js";
-import { assertNever } from "../utils/common.js";
+import { URL } from "../types/url.js";
+import { BlockchainAddress } from "../types/blockchain-address.js";
 import { DEFAULT_FORMAT, FileFormat } from "../types/files.js";
+import { readFileParse } from "../utils/files.js";
 
 // Initialize Ajv
 type Schema =
@@ -67,6 +67,7 @@ function validateObject<T>(obj: any, schemaName: Schema): ValidationResult {
 function safeCastObject<T>(obj: any, schemaName: Schema): T {
   const result = validateObject<T>(obj, schemaName);
   if (!result.valid) {
+    console.log(obj);
     console.warn(result.errors);
     throw new Error(`Invalid ${schemaName}`);
   }
@@ -85,18 +86,7 @@ async function readFileToObject<T>(
   format: FileFormat,
   schemaName: Schema,
 ): Promise<T> {
-  const fileContents = await readFile(filename, { encoding: "utf-8" });
-  let obj;
-
-  // Parse JSON
-  if (format === "JSON") {
-    obj = JSON.parse(fileContents);
-  } else if (format === "YAML") {
-    obj = YAML.parse(fileContents);
-  } else {
-    assertNever(format);
-  }
-
+  const obj = await readFileParse(filename, format);
   return safeCastObject<T>(obj, schemaName);
 }
 
@@ -119,6 +109,24 @@ function validateCollection(obj: any): ValidationResult {
 }
 
 /**
+ * Validates the data for a url
+ * @param obj - JSON object
+ * @returns A `ValidationResult` object indicating whether the data is valid and any errors that were found.
+ */
+function validateUrl(obj: any): ValidationResult {
+  return validateObject<URL>(obj, URL_SCHEMA);
+}
+
+/**
+ * Validates the data for a blockchain address
+ * @param obj - JSON object
+ * @returns A `ValidationResult` object indicating whether the data is valid and any errors that were found.
+ */
+function validateBlockchainAddress(obj: any): ValidationResult {
+  return validateObject<BlockchainAddress>(obj, BLOCKCHAIN_ADDRESS_SCHEMA);
+}
+
+/**
  * Casts an object into a Project
  * @param obj - JSON object
  * @returns Project
@@ -136,6 +144,26 @@ function safeCastProject(obj: any): Project {
  */
 function safeCastCollection(obj: any): Collection {
   return safeCastObject<Collection>(obj, COLLECTION_SCHEMA);
+}
+
+/**
+ * Casts an object into a URL
+ * @param obj - JSON object
+ * @returns URL
+ * @throws if not a valid URL
+ */
+function safeCastUrl(obj: any): URL {
+  return safeCastObject<URL>(obj, URL_SCHEMA);
+}
+
+/**
+ * Casts an object into a BlockchainAddress
+ * @param obj - JSON object
+ * @returns BlockchainAddress
+ * @throws if not a valid BlockchainAddress
+ */
+function safeCastBlockchainAddress(obj: any): BlockchainAddress {
+  return safeCastObject<BlockchainAddress>(obj, BLOCKCHAIN_ADDRESS_SCHEMA);
 }
 
 type ReadOptions = {
@@ -179,8 +207,12 @@ async function readCollectionFile(
 export {
   validateProject,
   validateCollection,
+  validateUrl,
+  validateBlockchainAddress,
   safeCastProject,
   safeCastCollection,
+  safeCastUrl,
+  safeCastBlockchainAddress,
   readProjectFile,
   readCollectionFile,
 };

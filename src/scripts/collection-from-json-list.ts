@@ -7,7 +7,7 @@ import YAML from "yaml";
 import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 import { getCollectionPath, getProjectPath } from "../utils/format.js";
-import { currentVersion } from "../utils/migration.js";
+import { currentVersion } from "../migrations/index.js";
 
 type Project = {
   projectName: string;
