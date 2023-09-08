@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: nested
 name: Nested
 github:
@@ -16,13 +16,9 @@ optimism:
     type: factory
   - address: "0x9ee92a94a8ace98f36f19b35091c34e9d9bccd54"
     type: factory
-  - address: "0x25fd6e8940b6fd0a5ec3b1c45216a3eb2dcd707e"
-    type: contract
   - address: "0x6692de0c00dbb510ecb569700a423f2668f308a4"
     type: contract
   - address: "0x6bdc58d3287176b40ad2243ec0cf35f33f2119da"
-    type: contract
-  - address: "0x9ee92a94a8ace98f36f19b35091c34e9d9bccd54"
     type: contract
   - address: "0xd75af988b2282c1b466c7640b01e4b89239a72d8"
     type: contract
@@ -31,8 +27,6 @@ optimism:
   - address: "0x743fdf479b8894fc6dd24f92823659934dd30d3f"
     type: contract
   - address: "0x3a506575bf5202ef846ce4c88eea8adfba63f760"
-    type: contract
-  - address: "0x74afada131db545df782d196c8736d97593fd330"
     type: contract
   - address: "0x0fff7f99d2b32849848e31cb48090c5268e06f65"
     type: contract
@@ -77,8 +71,6 @@ optimism:
   - address: "0x86027f965539279cc3ac752ca5940b6cac6ebc99"
     type: contract
   - address: "0x61634a46e6e58581253452844bc0c82bda7d46a5"
-    type: contract
-  - address: "0x319acbcbf087f0ee74e5feffa10567c7d83f7683"
     type: contract
   - address: "0x150fb0cfa5bf3d4023ba198c725b6dcbc1577f21"
     type: contract

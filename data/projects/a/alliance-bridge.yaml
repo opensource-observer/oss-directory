@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: alliance-bridge
 name: AllianceBridge
 github:
@@ -9,8 +9,6 @@ optimism:
   - address: "0x3a1c5dd9735d39e961205ac57f95c1b5b1bb9626"
     type: factory
   - address: "0x7db0dc65dfd8cd6aa5100418dd7da38aac786123"
-    type: contract
-  - address: "0x3a1c5dd9735d39e961205ac57f95c1b5b1bb9626"
     type: contract
   - address: "0x4a0c2d99d2b8028f0d8facde9ac0e631614f4293"
     type: contract

@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: zeroex
 name: zeroex
 github:
@@ -28,10 +28,6 @@ optimism:
     type: factory
   - address: "0xd16ae399f561265d895e0e2703cb34f8e47a9754"
     type: contract
-  - address: "0x80a36559ab9a497fb658325ed771a584eb0f13da"
-    type: contract
-  - address: "0x843c1ae003a7217a122e9e2a7336377ee51b660f"
-    type: contract
   - address: "0x62c0077baa246ab15cacc4e3f9c04f7467cb4593"
     type: contract
   - address: "0xee9aa6ce83ef6aac5cd66115d2f2aa2fb011b164"
@@ -48,19 +44,13 @@ optimism:
     type: contract
   - address: "0x75f68002fd99c700160f4287d76c2fa8b9603b58"
     type: contract
-  - address: "0x3899b63bfcf85e5fedc2cda43e3153e19f976aed"
-    type: contract
   - address: "0x23e1fcf553a7db590562f8a47bd76a28e358455e"
     type: contract
   - address: "0x254d39d6e8b40f31d104ccb8d00dab5dcfeb79d5"
     type: contract
   - address: "0xbb2dd92567cd3308bb0dcd5a9d2430e1e7420428"
     type: contract
-  - address: "0xf8ebddd333b3ab285906fd5eb603b17ecd18266f"
-    type: contract
   - address: "0x6c0459bdfb9352a1d4cb8e80310b3e4d957ab132"
-    type: contract
-  - address: "0x3a539ed6bd42de8fbaf3899fb490c792e153d647"
     type: contract
   - address: "0x78b853dd3dd3271fa5edd2944155fc907f411819"
     type: contract
@@ -69,8 +59,6 @@ optimism:
   - address: "0x38a613beedc82571de21f9dfc3a688275fb30ee5"
     type: contract
   - address: "0x4292e4a3418e5908b88194e724e72fc2bac747e3"
-    type: contract
-  - address: "0x1e9b8208081b47e76b6d6803832e14a5adb94fbc"
     type: contract
   - address: "0x6cfbc77ba5ec023a03b2f5c3a4c367e7519ae786"
     type: contract

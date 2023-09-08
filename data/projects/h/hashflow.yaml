@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: hashflow
 name: Hashflow
 github:
@@ -24,8 +24,6 @@ optimism:
     type: factory
   - address: "0x246d44b1221e44930b207a1a7e235b616c465158"
     type: factory
-  - address: "0xbf0f7012060fa8dca53fe8042256389b24763057"
-    type: contract
   - address: "0x260c1a016c5708d96096ad2f653cce4b40092f28"
     type: contract
   - address: "0xbcf096cd593f656fee04f54df955ebcf6e21d6d9"
@@ -46,13 +44,9 @@ optimism:
     type: contract
   - address: "0x4e0a63c5146c90bf9eb172255d4d4125ced8e4e3"
     type: contract
-  - address: "0x246d44b1221e44930b207a1a7e235b616c465158"
-    type: contract
   - address: "0x37ab5e12d9bef0daa4399eae9cac62c6ba9e904b"
     type: contract
   - address: "0x54a06197130e02aa0244c4a413f70c52348c3610"
-    type: contract
-  - address: "0x63ae536fec0b57bdeb1fd6a893191b4239f61bff"
     type: contract
   - address: "0xc3ae72e62359bdc8cf063c26b75966924e89a27b"
     type: contract

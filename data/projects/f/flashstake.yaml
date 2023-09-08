@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: flashstake
 name: Flashstake
 github:
@@ -14,13 +14,9 @@ optimism:
     type: factory
   - address: "0x86bea60374f220de9769b2fef2db725bc1cdd335"
     type: contract
-  - address: "0xbce67cd3a2b97c17bda92764ea81b3ef5f06ccfc"
-    type: contract
   - address: "0x28b413f9f09fba829a4c0b43783541373ee3f6c3"
     type: contract
   - address: "0x78b2d65dd1d3d9fb2972d7ef467261ca101ec2b9"
-    type: contract
-  - address: "0x2ba1f7e899948153d8377f77dbb9af25443ff728"
     type: contract
   - address: "0xcb1205ac28693beda01e0b66e9b4d06231609bfd"
     type: contract
@@ -37,6 +33,4 @@ optimism:
   - address: "0x541a7b5a8a6bb28ec44fab9d41cc2b4aaf4f9a33"
     type: contract
   - address: "0x8ef21e9bfe8f40eddd9bf7828707da47d5536c4c"
-    type: contract
-  - address: "0x05736a8d6bc208b9e3c9a7e20e7f53674aea6ab1"
     type: contract

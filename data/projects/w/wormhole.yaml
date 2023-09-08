@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: wormhole
 name: Wormhole
 github:
@@ -12,15 +12,11 @@ optimism:
     type: factory
   - address: "0xee91c335eab126df5fdb3797ea9d6ad93aec9722"
     type: contract
-  - address: "0xfe8cd454b4a1ca468b57d79c0cc77ef5b6f64585"
-    type: contract
   - address: "0x0b3e006a6af5126e625c0e228adf31ea494246a3"
     type: contract
   - address: "0xfbc2f62b6a366a177d44706f04b74ae2d60bd556"
     type: contract
   - address: "0xa5f208e072434bc67592e4c49c1b991ba79bca46"
-    type: contract
-  - address: "0x1d68124e65fafc907325e3edbf8c4d84499daa8b"
     type: contract
   - address: "0xc0946f51ddd63e12c51b23f5814b43c9bc8aa700"
     type: contract

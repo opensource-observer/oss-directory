@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: aave
 name: Aave
 github:
@@ -18,8 +18,6 @@ optimism:
     type: factory
   - address: "0xa97684ead0e402dc232d5a977953df7ecbab3cdb"
     type: factory
-  - address: "0x2401ae9bbef67458362710f90302eb52b5ce835a"
-    type: contract
   - address: "0x9b18398a9bea8bd4c86722c3f467809842aa241c"
     type: contract
   - address: "0x1301ad350fdcf82ba0441279b197cd7d9682b0d2"

@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: thales
 name: Thales
 github:
@@ -15,8 +15,6 @@ optimism:
   - address: "0x9a51524422ddf1b8afec04cba6451a6c50320998"
     type: factory
   - address: "0x795ba11d575e6703282b1db0cb849a15e304115d"
-    type: factory
-  - address: "0x2d356b114cbca8deff2d8783eac2a5a5324fe1df"
     type: factory
   - address: "0xdb5a5475002f3a09a033dcf21327c81e5cdd86fb"
     type: factory
@@ -172,13 +170,9 @@ optimism:
     type: contract
   - address: "0x6acc550248f0ef1a99f2b39af530197fce7c3184"
     type: contract
-  - address: "0xdb5a5475002f3a09a033dcf21327c81e5cdd86fb"
-    type: contract
   - address: "0x5830e9e30b55cb5fd6102805fea2cf951f6afb49"
     type: contract
   - address: "0x84f6cdb2b94a0a943bfc66bac5861b141e5605be"
-    type: contract
-  - address: "0x842e89b7a7ef8ce099540b3613264c933ce0eba5"
     type: contract
   - address: "0x43d19841d818b2ccc63a8b44ce8c7def8616d98e"
     type: contract
@@ -195,8 +189,6 @@ optimism:
   - address: "0x07a06ff3ac30ccb592598bd880a36fe50d42e2de"
     type: contract
   - address: "0xe6947368ddacde47cc7fe64303125ab9d8421530"
-    type: contract
-  - address: "0x9a51524422ddf1b8afec04cba6451a6c50320998"
     type: contract
   - address: "0x76711e9f14254071ac8767ae675fecf793c22beb"
     type: contract
@@ -320,13 +312,9 @@ optimism:
     type: contract
   - address: "0x57ddc52fe5967b7a82e69aa9b8925b30f2531032"
     type: contract
-  - address: "0x2d356b114cbca8deff2d8783eac2a5a5324fe1df"
-    type: contract
   - address: "0xfeb75318ea0a838c0c8b694e84602cfdc5b8030c"
     type: contract
   - address: "0x8481fb8f367941774435bb4922972c0369c8908c"
-    type: contract
-  - address: "0xe0b31640b07e4bcfafc190d7dde951ba3286dd63"
     type: contract
   - address: "0xe8e022405505a9f2b0b7452c844f1e64423849fc"
     type: contract
@@ -446,8 +434,6 @@ optimism:
     type: contract
   - address: "0x99a63e20e6f78dbbbd3a07d9f9330a860ef2b4d9"
     type: contract
-  - address: "0x82b3634c0518507d5d817be6dab6233ebe4d68d9"
-    type: contract
   - address: "0xb3bc321759ec7203d18f179142b9548a2c2e4007"
     type: contract
   - address: "0xd550bd32b434ba870642f94710eb220f542ed3f3"
@@ -525,8 +511,6 @@ optimism:
   - address: "0x565ce8cf5ae8e2adc6849eecc6c3ba07ba56c4a2"
     type: contract
   - address: "0x741ad22a9444d1b5e6606a3587effa5b8995321c"
-    type: contract
-  - address: "0x64cb6ef981e5e432d4362f6a561a31b22e328cc5"
     type: contract
   - address: "0xfa2a9d305f2009f2a7a2a95ba501b51f9a06b815"
     type: contract
@@ -610,8 +594,6 @@ optimism:
     type: contract
   - address: "0x42792efed59f628495dd9f5e2190819468ce0934"
     type: contract
-  - address: "0xeaedb23b6c1719ace0825c315235f09699dae6ae"
-    type: contract
   - address: "0xa01ad492b19314befbce4891b927a030d660ffa5"
     type: contract
   - address: "0xe6dd36180cb089810d5fe11bb766cbbc51d7d23b"
@@ -633,8 +615,6 @@ optimism:
   - address: "0xbac6c6e28bd000a72fa18735cc24ceee49f51069"
     type: contract
   - address: "0xfe323c6a4ec6e12bf55552fd939768e4cba7db60"
-    type: contract
-  - address: "0x795ba11d575e6703282b1db0cb849a15e304115d"
     type: contract
   - address: "0xaca11c093bf6d22528bfca298ae5aecfef68f9ba"
     type: contract
@@ -1012,8 +992,6 @@ optimism:
     type: contract
   - address: "0x42af0890d254387110555a46d261b9e4f6e327ac"
     type: contract
-  - address: "0xc10a0a6ff6496e0bd896f9f6da5a7b640b85ea40"
-    type: contract
   - address: "0xc07520843239c2caa28101d8241d9132669b4271"
     type: contract
   - address: "0x16012ef3eec79db8f002a05c7a8102786e5c6c38"
@@ -1063,8 +1041,6 @@ optimism:
   - address: "0x02668a6d9b8c9d4c8aef7916270e945c3bfbbbae"
     type: contract
   - address: "0xf0ff8a5d04fa5189dc51604b51d76954ab1c7467"
-    type: contract
-  - address: "0xbe4c7750bf54ed9f83b189b6a4daeffc760f6882"
     type: contract
   - address: "0xb37da39a77e334befb9b66bbe5d13f62c58195b5"
     type: contract
@@ -1129,8 +1105,6 @@ optimism:
   - address: "0xb6bec915bd5188acd8b30da8d9ecb2ba83b9f86e"
     type: contract
   - address: "0x78e9354077a65672eb2bcb546c8a5ee749f83806"
-    type: contract
-  - address: "0x2dc1fe64afa2281ff38df998be029e94c561937f"
     type: contract
   - address: "0xf1b35fac306cd6fb0008c229f056314c139a3c66"
     type: contract
@@ -1281,8 +1255,6 @@ optimism:
   - address: "0x0886e6bea150ed770b2ee3341332339c5c08d9cd"
     type: contract
   - address: "0x2db7789c691e4d086ba167f34923bbbc9d844703"
-    type: contract
-  - address: "0x0d3dd2ab36a9a6174559f24db59b45a73737bd19"
     type: contract
   - address: "0x47691bca9f8f24baffd1115ffcdeb137badae1e5"
     type: contract
