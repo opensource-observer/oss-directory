@@ -1,5 +1,5 @@
 import fs from "fs";
-import { join, dirname } from "path";
+import { join } from "path";
 import YAML from "yaml";
 
 const contract_owners: { [address: string]: string } = {
