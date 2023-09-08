@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: 0-x-splits
 name: 0xSplits
 github:
@@ -23,6 +23,3 @@ optimism:
   - address: "0x0a2841630f198745a55c4dab3fe98f77271949e5"
     type: factory
     name: VestingModuleFactory
-  # - address: "0x4e59b44847b379578588920ca78fbf26c0b4956c"
-  #   type: factory
-  #   name: DeterministicDeploymentProxy

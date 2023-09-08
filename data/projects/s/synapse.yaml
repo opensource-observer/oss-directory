@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: synapse
 name: Synapse
 github:
@@ -18,13 +18,7 @@ optimism:
     type: creator
   - address: "0xf44938b0125a6662f9536281ad2cd6c499f22004"
     type: factory
-  - address: "0xa9e90579eb086bcda910dd94041ffe041fb4ac89"
-    type: factory
   - address: "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc"
-    type: factory
-  - address: "0x22cdc93f53ee3f6b8ad66fad6f98915a5349950e"
-    type: factory
-  - address: "0xa67b7147dce20d6f25fd9abfbcb1c3ca74e11f0b"
     type: factory
   - address: "0xe27bff97ce92c3e1ff7aa9f86781fdd6d48f5ee9"
     type: factory
@@ -41,8 +35,6 @@ optimism:
   - address: "0xaf41a65f786339e7911f4acdad6bd49426f2dc6b"
     type: contract
   - address: "0x2d8ee8d6951cb4eecfe4a79eb9c2f973c02596ed"
-    type: contract
-  - address: "0x22cdc93f53ee3f6b8ad66fad6f98915a5349950e"
     type: contract
   - address: "0x470f9522ff620ee45df86c58e54e6a645fe3b4a7"
     type: contract
@@ -63,8 +55,6 @@ optimism:
   - address: "0x84a420459cd31c3c34583f67e0f0fb191067d32f"
     type: contract
   - address: "0x84ea83b6e88c471a446ae7007c252574e715711e"
-    type: contract
-  - address: "0xa9e90579eb086bcda910dd94041ffe041fb4ac89"
     type: contract
   - address: "0xc8315587e688d1d8d08986f5d49720c2404fc438"
     type: contract
@@ -92,8 +82,6 @@ optimism:
     type: contract
   - address: "0x20b587484e75752adac381ae577a7562e7f358c5"
     type: contract
-  - address: "0xa67b7147dce20d6f25fd9abfbcb1c3ca74e11f0b"
-    type: contract
   - address: "0x809dc529f07651bd43a172e8db6f4a7a0d771036"
     type: contract
   - address: "0x3192ae73315c3634ffa217f71cf6cbc30fee349a"
@@ -105,8 +93,6 @@ optimism:
   - address: "0xe8c610fcb63a4974f02da52f0b4523937012aaa0"
     type: contract
   - address: "0x266557a864680a1401a3506c0eb72934bd13bf59"
-    type: contract
-  - address: "0xe27bff97ce92c3e1ff7aa9f86781fdd6d48f5ee9"
     type: contract
   - address: "0x7ef7560789ee2cb301ec38c3c8b91ba8a94cd1e4"
     type: contract

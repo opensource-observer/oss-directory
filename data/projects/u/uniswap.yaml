@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: uniswap
 name: Uniswap
 github:
@@ -87,6 +87,3 @@ optimism:
   - address: "0x62094cda36dd8945a2c158a4c6c8865c5b34fef9"
     type: contract
     name: UniswapV3Staker
-  # - address: "0x4e59b44847b379578588920ca78fbf26c0b4956c"
-  #   type: factory
-  #   name: DeterministicDeploymentProxy

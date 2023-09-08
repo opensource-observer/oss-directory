@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: kyber-swap
 name: KyberSwap
 github:
@@ -24,23 +24,17 @@ optimism:
     type: factory
   - address: "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc"
     type: factory
-  - address: "0x5f1dddbf348ac2fbe22a163e30f99f9ece3dd50a"
-    type: contract
   - address: "0x10f6fb1a8b495a972bdce5bf86f2969f64359b00"
     type: contract
   - address: "0x54d6709db7cda47e5461a7fbd2126f081c4b539e"
     type: contract
   - address: "0xd7ab1699280980e756c446769b4c0f04550f88c9"
     type: contract
-  - address: "0x715cc6c0d591ca3fa8ea6e4cb445ada0dc79069a"
-    type: contract
   - address: "0x41684b361557e9282e0373ca51260d9331e518c9"
     type: contract
   - address: "0xdc4382353a007fcefadf0609920c256173f7d210"
     type: contract
   - address: "0x617dee16b86534a5d792a4d7a62fb491b544111e"
-    type: contract
-  - address: "0x1c758af0688502e49140230f6b0ebd376d429be5"
     type: contract
   - address: "0xe3ac3fd66eb31caf4ee0831b262d837c479ffce5"
     type: contract

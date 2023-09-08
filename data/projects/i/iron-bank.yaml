@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: iron-bank
 name: Iron Bank
 github:
@@ -38,8 +38,6 @@ optimism:
     type: contract
   - address: "0xcac4e73f528fcf354645122d62fd2a70c23b6b90"
     type: contract
-  - address: "0x35f70ce60f049a8c21721c53a1dfccb5bf4a1ea8"
-    type: contract
   - address: "0x9c8264cb356377bb1d263f6e0ee03e977b3cadab"
     type: contract
   - address: "0xe724ffa5d30782499086682c8362cb3673bf69ae"
@@ -72,11 +70,7 @@ optimism:
     type: contract
   - address: "0xeeb3981d5587c185bd809d74b3ddb6c3b0363099"
     type: contract
-  - address: "0xc782dbc08daaca58f612085335f8f521e15a92a7"
-    type: contract
   - address: "0x8f3ab2be32da1f5b1db934946fdc5f5415140f8b"
-    type: contract
-  - address: "0x47dae646612818d190e745faef8b72c278aab4f6"
     type: contract
   - address: "0x04f0fd3cd03b17a3e5921c0170ca6dd3952841ca"
     type: contract
@@ -85,8 +79,6 @@ optimism:
   - address: "0x874c01c2d1767efa01fa54b2ac16be96fad5a742"
     type: contract
   - address: "0x19fe4a2ada33bd690c66a99df3de6c0899b6bd8f"
-    type: contract
-  - address: "0xc358d3ea954e39caeabc9c2fd80dce21a920387b"
     type: contract
   - address: "0xe867bee9e05866e2d7a01d376dc6ea07706cb703"
     type: contract
@@ -113,8 +105,6 @@ optimism:
   - address: "0x4eda3e4f9e42a7dd5c853e8b857271fae88e7209"
     type: contract
   - address: "0xd5734c42e2e593933231be61bac2b94acdc44dc4"
-    type: contract
-  - address: "0x15ab2cc164d7817ac2a5b2a6362abee088b7f2df"
     type: contract
   - address: "0x2ac63723a576f89b628d514ff671300801dc1702"
     type: contract

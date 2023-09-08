@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: mummy-finance
 name: Mummy Finance
 github:
@@ -14,8 +14,6 @@ optimism:
     type: factory
   - address: "0x508a85c04351a3c1870ac5b76555dfd192938f0c"
     type: contract
-  - address: "0xb471865c97a271e1572ecca838b971e710498e4c"
-    type: contract
   - address: "0x3c5764cfe68d2b8b76971c8c2211e59f6c5746ab"
     type: contract
   - address: "0xb54abe3fec8e1ae64620185a1e111aa0c3a81542"
@@ -29,8 +27,6 @@ optimism:
   - address: "0x198634d01a8e1646fae8676904343c33b1d2c6b9"
     type: contract
   - address: "0x8ad880a11172235c6800ae882cd699ffe0172fba"
-    type: contract
-  - address: "0x3c05ad1ba92906db8b9f3db03c4c4d5119ce4110"
     type: contract
   - address: "0x676d9fd3908112dca14b89503d6d95bf25d85831"
     type: contract

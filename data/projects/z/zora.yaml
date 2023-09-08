@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: zora
 name: Zora
 github:
@@ -14,10 +14,6 @@ optimism:
     type: factory
   - address: "0x7d1a46c6e614a0091c39e102f2798c27c1fa8892"
     type: factory
-  # - address: "0x78b524931e9d847c40bcbf225c25e154a7b05fda"
-  #   type: contract
-  # - address: "0x7d1a46c6e614a0091c39e102f2798c27c1fa8892"
-  #   type: contract
   - address: "0x899ce31df6c6af81203acaad285bf539234ef4b8"
     type: contract
   - address: "0x46e772210f01647fa573b915be287ff9b65ad4b0"
@@ -33,8 +29,6 @@ optimism:
   - address: "0xa02fc0fc9b0b3e23ac26eb0f2d392fd5cda58514"
     type: contract
   - address: "0x2fbdbc34b6015e7b40638179aa05a2d2267452c7"
-    type: contract
-  - address: "0x1b28a04b7eb7b93f920ddf2021aa3fae065395f2"
     type: contract
   - address: "0xa2a7d8bce0bf58d177137ecb94f3fa6aa06aa7a1"
     type: contract

@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: bit-btc-protocol
 name: BitBTC Protocol
 github:
@@ -16,8 +16,6 @@ optimism:
     type: factory
   - address: "0x4977a7f017d317e0cbc837f0f0ecaab01932e052"
     type: factory
-  - address: "0x4977a7f017d317e0cbc837f0f0ecaab01932e052"
-    type: contract
   - address: "0xc98b98d17435aa00830c87ea02474c5007e1f272"
     type: contract
   - address: "0x30ee8faef6772b62cd595ccf7749683cfd2d0d9f"
@@ -25,8 +23,6 @@ optimism:
   - address: "0x158f513096923ff2d3aab2bcf4478536de6725e2"
     type: contract
   - address: "0x5029c236320b8f15ef0a657054b84d90bfbeded3"
-    type: contract
-  - address: "0x77f0ff590c6867c79519d539a47a8614798dbf59"
     type: contract
   - address: "0x03bba86e68c7dd733703cbcd44072082af702d85"
     type: contract

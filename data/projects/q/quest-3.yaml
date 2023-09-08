@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: quest-3
 name: Quest3
 github:
@@ -10,8 +10,6 @@ optimism:
     type: factory
   - address: "0x7d21c86b04d8203fc9c14741014c86d5bd365dfe"
     type: factory
-  - address: "0x7d21c86b04d8203fc9c14741014c86d5bd365dfe"
-    type: contract
   - address: "0x69318316a6a6b8c62d92736e67819d1fc037c135"
     type: contract
   - address: "0x8aab3bdee6bbbef06293bcb7c48d22015d2f86dc"
@@ -37,6 +35,4 @@ optimism:
   - address: "0x6c3f41c2d712dc1701009561af5580efed574c92"
     type: contract
   - address: "0x36b0017aa6d08f8d663223d56aac9148a3268a6b"
-    type: contract
-  - address: "0x9270b79d24d8eb1bba8cf7774ad6c23f2e8eac0e"
     type: contract
