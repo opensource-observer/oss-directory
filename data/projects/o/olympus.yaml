@@ -1,20 +1,25 @@
-version: 1
+version: 2
 slug: olympus
 name: Olympus
 github:
   - url: https://github.com/olympusdao
 optimism:
   - address: "0x5ce7d83f7aaac17a0ad40540b37fc7a0b688ff44"
-    type: creator
+    tags:
+      - creator
   - address: "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc"
-    type: factory
+    tags:
+      - factory
   - address: "0x9858e1eff7b00c43f6e8cf6b91ca7893ce70cc60"
-    type: factory
-  - address: "0x9858e1eff7b00c43f6e8cf6b91ca7893ce70cc60"
-    type: contract
+    tags:
+      - factory
+      - contract
   - address: "0x95176b826cfbc16fb6e3beade8c885c60e19d3b3"
-    type: contract
+    tags:
+      - contract
   - address: "0xf7d50c5a75514c6a2cbf6dd03a80ee35c31c8f1a"
-    type: contract
+    tags:
+      - contract
   - address: "0x6407e4b12089d8eca3c85616df0440f769c1da4a"
-    type: contract
+    tags:
+      - contract

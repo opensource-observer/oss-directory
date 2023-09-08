@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: safe-global
 name: Safe
 github:
@@ -32,12 +32,16 @@ npm:
   - url: https://www.npmjs.com/package/@safe-global/cra-template-safe-app
 optimism:
   - address: "0xe1cb04a0fa36ddd16a06ea828007e35e1a3cbc37"
-    type: creator
+    tags:
+      - creator
   - address: "0x3EDf6868d7c42863E44072DaEcC16eCA280"
-    type: safe
+    tags:
+      - safe
   - address: "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc"
-    type: factory
     name: GnosisSafeProxyFactory v1.3.0
+    tags:
+      - factory
   - address: "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
-    type: contract
     name: GnosisSafeL2 v1.3.0
+    tags:
+      - contract

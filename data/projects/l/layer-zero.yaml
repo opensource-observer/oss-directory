@@ -1,10 +1,12 @@
-version: 1
+version: 2
 slug: layer-zero
 name: LayerZero
 github:
   - url: https://github.com/layerzero-labs
 optimism:
   - address: "0xc9424ba7e09a46f50f8aa89203c61149091adbcd"
-    type: creator
+    tags:
+      - creator
   - address: "0x50500ccd11e29f14008c7778a6ced655727a21c3"
-    type: contract
+    tags:
+      - contract

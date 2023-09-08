@@ -1,48 +1,69 @@
-version: 1
+version: 2
 slug: warden-swap
 name: WardenSwap
 github:
   - url: https://github.com/wardenswap
 optimism:
   - address: "0xbe9228ce3b7ed30c8646143d0e56ee16fec6c07c"
-    type: creator
+    tags:
+      - creator
   - address: "0x7ea8c22e6dcd7bd69eb180664da68e1f1f11d696"
-    type: contract
+    tags:
+      - contract
   - address: "0x8860dc637a513027e4883a77a5567cfeaa718ae2"
-    type: contract
+    tags:
+      - contract
   - address: "0x2208705b6f232ef498d46514b5130192789e9dc8"
-    type: contract
+    tags:
+      - contract
   - address: "0x493f1b81b05e29e86d9a4762944ed8b5fd2924a5"
-    type: contract
+    tags:
+      - contract
   - address: "0x338f48b6c18a49fc7dd7137498617d06a5e089c7"
-    type: contract
+    tags:
+      - contract
   - address: "0xe2f50042766bdea8bcbfa0ff6a94bab65f897826"
-    type: contract
+    tags:
+      - contract
   - address: "0x2c49bdff3acb931491d1c0231952d9718c516539"
-    type: contract
+    tags:
+      - contract
   - address: "0x755db0a2c1041b20ad123792181c55a3d6e2ffde"
-    type: contract
+    tags:
+      - contract
   - address: "0xf220408d5f8cf3a2d43126d3413fe3acbdf94363"
-    type: contract
+    tags:
+      - contract
   - address: "0x978e214ce2e34d14cf80ee6c0951909cab18abb8"
-    type: contract
+    tags:
+      - contract
   - address: "0xffbd0e92861b9cb4b7ae17361786868e6f2f9324"
-    type: contract
+    tags:
+      - contract
   - address: "0x02800d3d33e7e9d32c586fcaaea0412e5a57792d"
-    type: contract
+    tags:
+      - contract
   - address: "0x2c7a8122a1b512adc848024ce72e837001ecb586"
-    type: contract
+    tags:
+      - contract
   - address: "0x71762f1fdc36afc769a25dcd73226c6edca6832a"
-    type: contract
+    tags:
+      - contract
   - address: "0x703d57164ca270b0b330a87fd159cfef1490c0a5"
-    type: contract
+    tags:
+      - contract
   - address: "0x81d10cbea2b7e2ce9589cfe48442a83f013885ab"
-    type: contract
+    tags:
+      - contract
   - address: "0x815f667a542653d89d44ff9d09b11dd7d4d78004"
-    type: contract
+    tags:
+      - contract
   - address: "0x158a3bf73c07a64225c1568d4c85a1d78480c0ec"
-    type: contract
+    tags:
+      - contract
   - address: "0xdcc3a56e97a7448c64341e38867241f65168817d"
-    type: contract
+    tags:
+      - contract
   - address: "0xc6433cd73071bb5fd607a0bd3cdc15487590825b"
-    type: contract
+    tags:
+      - contract

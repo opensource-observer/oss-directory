@@ -1,14 +1,16 @@
-version: 1
+version: 2
 slug: bitkeep
 name: Bitkeep
 github:
   - url: https://github.com/bitkeepwallet
 optimism:
   - address: "0xc522c16e88b6bf457389566d22550bce157d3875"
-    type: creator
+    tags:
+      - creator
   - address: "0x0d314e0fd9530486b13e5fed092b4bdf6f95d01c"
-    type: factory
+    tags:
+      - factory
   - address: "0x4d176ac0caaa85fc2fd0594573e06458c62a1465"
-    type: factory
-  - address: "0x4d176ac0caaa85fc2fd0594573e06458c62a1465"
-    type: contract
+    tags:
+      - factory
+      - contract

@@ -1,38 +1,44 @@
-version: 1
+version: 2
 slug: fraxswap
 name: Fraxswap
 github:
   - url: https://github.com/FraxFinance
 optimism:
   - address: "0x26ce2091749059a66703cd4b998156d94ec393ef"
-    type: creator
+    tags:
+      - creator
   - address: "0x59985d79e1e69f659f4ab97db07a35ce73d9174b"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0xf42111014f27f8d84f93966f7eaf96edc297afab"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0x5ca135cb8527d76e932f34b5145575f9d8cbe08e"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0xa007a9716dba05289df85a90d0fd9d39bee808de"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0xbe90fd3cddaf0d3b8576ffb5e51adbfd304d0437"
-    type: factory
-  - address: "0xa007a9716dba05289df85a90d0fd9d39bee808de"
-    type: contract
+    tags:
+      - factory
+      - contract
   - address: "0x341836e0c5741527c5a1898307e690ab84e53d2f"
-    type: contract
-  - address: "0x5ca135cb8527d76e932f34b5145575f9d8cbe08e"
-    type: contract
+    tags:
+      - contract
   - address: "0x94cff60496c71a0302ababa0da1a1f21626f9613"
-    type: contract
+    tags:
+      - contract
   - address: "0x0ae84c1a6e142ed90f8a35a7e7b216cb25469e37"
-    type: contract
+    tags:
+      - contract
   - address: "0xffe66a866b249f5d7c97b4a4c84742a393bc9354"
-    type: contract
+    tags:
+      - contract
   - address: "0xc2544a32872a91f4a553b404c6950e89de901fdb"
-    type: contract
-  - address: "0xbe90fd3cddaf0d3b8576ffb5e51adbfd304d0437"
-    type: contract
-  - address: "0xf42111014f27f8d84f93966f7eaf96edc297afab"
-    type: contract
-  - address: "0x59985d79e1e69f659f4ab97db07a35ce73d9174b"
-    type: contract
+    tags:
+      - contract

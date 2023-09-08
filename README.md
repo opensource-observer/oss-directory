@@ -33,6 +33,7 @@ const collections: Collection[] = data.collections;
 We don't store the entire dataset with the npm package.
 Under the hood, this will clone the repository into a temporary directory,
 read all the data files, validate the schema, and return the objects.
+This way, you know you're getting the latest data, even if the npm package hasn't been updated in a while.
 
 ### Utility functions
 
@@ -89,7 +90,11 @@ Our continuous integration system will reject any pull requests that do not vali
 
 If you want to change the schema, you'll need to write a migration:
 
-1. Update the appropriate schemas in
-2. Write a migration script (TODO: not implemented yet)
-3. Run your migration with `yarn migrate` (TODO: not implemented yet)
-4. Submit the pull request with all changes.
+1. Update the schema in `src/resources/schema/`
+2. Add a [version]-[desc].ts file to the `src/migrations/` folder, exporting functions that migrate each file type.
+3. Add the migration functions to the MIGRATIONS array in `src/migrations/index.ts`.
+4. You can run the migration by running `pnpm migrate`
+5. Make sure to commit and submit a pull request with all of the resulting changes. We will not accept any PRs where the data does not conform to the schemas.
+
+The framework will run migrations in sequence, so you are guaranteed that your data is valid as of the previous version.
+Note: we only currently support migrating in one direction (and not reverting)

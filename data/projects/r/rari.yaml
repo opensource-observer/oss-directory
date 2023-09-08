@@ -1,12 +1,15 @@
-version: 1
+version: 2
 slug: rari
 name: Rari
 github:
   - url: https://github.com/rari-capital
 optimism:
   - address: "0x7ed52863829ab99354f3a0503a622e82acd5f7d3"
-    type: creator
+    tags:
+      - creator
   - address: "0x441c2841acc46db0b2c06c022c4db97a6b205312"
-    type: contract
+    tags:
+      - contract
   - address: "0x5421e2b1349b33ac17fb611cca538fc2c03a023d"
-    type: contract
+    tags:
+      - contract

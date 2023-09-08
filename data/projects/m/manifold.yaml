@@ -1,36 +1,51 @@
-version: 1
+version: 2
 slug: manifold
 name: Manifold
 github:
   - url: https://github.com/manifoldxyz
 optimism:
   - address: "0xa8863bf1c8933f649e7b03eb72109e5e187505ea"
-    type: creator
+    tags:
+      - creator
   - address: "0xbd9d5319691922e2e1f9dc69ce0fd0b0ded51656"
-    type: creator
+    tags:
+      - creator
   - address: "0x3b52ad533687ce908ba0485ac177c5fb42972962"
-    type: creator
+    tags:
+      - creator
   - address: "0x7a0d94f55792c434d74a40883c6ed8545e406d12"
-    type: factory
+    tags:
+      - factory
   - address: "0x0000000000ffe8b47b3e2130213b802212439497"
-    type: factory
+    tags:
+      - factory
   - address: "0x4e59b44847b379578588920ca78fbf26c0b4956c"
-    type: factory
+    tags:
+      - factory
   - address: "0x00000000f9490004c11cef243f5400493c00ad63"
-    type: factory
+    tags:
+      - factory
   - address: "0xcfa3a7637547094ff06246817a35b8333c315196"
-    type: factory
+    tags:
+      - factory
   - address: "0x0e8bd9f16728912c441bb42f075bdc5593a1cce3"
-    type: contract
+    tags:
+      - contract
   - address: "0x64271fbe13b8eb41cfdc063ca92bbc1105441b10"
-    type: contract
+    tags:
+      - contract
   - address: "0x28a72d7e0f1fab1d78f3c4cdd7880c3b01b8a519"
-    type: contract
+    tags:
+      - contract
   - address: "0x6a752159fb2d4450b2cbe003ad108f21299aa642"
-    type: contract
+    tags:
+      - contract
   - address: "0x664649b2f36506512b3a75dd4a1bac7c883a3203"
-    type: contract
+    tags:
+      - contract
   - address: "0xc027ce27fe1505bccfaf23c5802d4cd2fc607e76"
-    type: contract
+    tags:
+      - contract
   - address: "0xd23d6f5d5386cb6b6521f50b7a8d40abb6d9e4c3"
-    type: contract
+    tags:
+      - contract

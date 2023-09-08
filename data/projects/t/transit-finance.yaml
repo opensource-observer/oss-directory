@@ -1,12 +1,15 @@
-version: 1
+version: 2
 slug: transit-finance
 name: Transit Finance
 github:
   - url: https://github.com/transit-finance
 optimism:
   - address: "0x280333c41a9302448ebc070ed0300ad2ed4b8244"
-    type: creator
+    tags:
+      - creator
   - address: "0xb45a2dda996c32e93b8c47098e90ed0e7ab18e39"
-    type: contract
+    tags:
+      - contract
   - address: "0x3f5af9cab221dc6bc776a329493e070a3b5adcb0"
-    type: contract
+    tags:
+      - contract

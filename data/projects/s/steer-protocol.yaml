@@ -1,68 +1,97 @@
-version: 1
+version: 2
 slug: steer-protocol
 name: Steer Protocol
 github:
   - url: https://github.com/steerprotocol
 optimism:
   - address: "0x0776752096bafc4e86e5aa46cf8620c2e3fb67cc"
-    type: creator
+    tags:
+      - creator
   - address: "0xc1ecd10398a6d7036ccee1f50551ff169715081c"
-    type: factory
+    tags:
+      - factory
+      - contract
   - address: "0xe6c78a5bb134f00a3111f34b5ee863c82041292f"
-    type: contract
+    tags:
+      - contract
   - address: "0xb944789b5c962f1096ce8674456e68fb0f2e3bb7"
-    type: contract
+    tags:
+      - contract
   - address: "0xf4de4180829272ae5f69acacf820f4f7d547513b"
-    type: contract
+    tags:
+      - contract
   - address: "0x2822ee30383eabcba817ab4a7a592f4a194e14b5"
-    type: contract
+    tags:
+      - contract
   - address: "0xa1dd21fbd9e1f0bf28d41f18bdc22326e50c02e9"
-    type: contract
+    tags:
+      - contract
   - address: "0x116dba5dce9ccda828218b7eb46406810632014c"
-    type: contract
+    tags:
+      - contract
   - address: "0x8fb2cd40046b08f155d06c3a31b69c1bd2c971e2"
-    type: contract
+    tags:
+      - contract
   - address: "0x7c31a819a36e29939058b61fdaea28bc3cfb66b8"
-    type: contract
+    tags:
+      - contract
   - address: "0x38a07152ee64c7067feeba904d72abc9a9da0c77"
-    type: contract
+    tags:
+      - contract
   - address: "0x09eb271b444d1db7163c8555919de85b20be7d1d"
-    type: contract
+    tags:
+      - contract
   - address: "0xdaeed7da964b212963ce207660633758fc6ecfec"
-    type: contract
+    tags:
+      - contract
   - address: "0xd90c8970708ffdfc403bdb56636621e3e9cce921"
-    type: contract
+    tags:
+      - contract
   - address: "0x64f9a121ccbb8956249ed52c4f63d0f759da53ce"
-    type: contract
+    tags:
+      - contract
   - address: "0x9f5b097ad23e2cf4f34e502a3e41d941678877dc"
-    type: contract
+    tags:
+      - contract
   - address: "0xab36d30c1a1c683037bd7aac67f29b2e3ecc6576"
-    type: contract
+    tags:
+      - contract
   - address: "0x806c2240793b3738000fcb62c66bf462764b903f"
-    type: contract
+    tags:
+      - contract
   - address: "0xe240b9a2936f6fb8860219bc059349e50f03492e"
-    type: contract
+    tags:
+      - contract
   - address: "0x36c796bca1e8e4031d3fdfa1ff0fa5ef429e0ed2"
-    type: contract
+    tags:
+      - contract
   - address: "0x0c5c5beb833fd382b04e039f151942dc3d9a60ce"
-    type: contract
+    tags:
+      - contract
   - address: "0xd5532a58e4abb6485ff4e7bcf5bed278e32a516e"
-    type: contract
+    tags:
+      - contract
   - address: "0x7c464a0ab1f5ebf3e2dcccfec7ef41d02ed7a2f4"
-    type: contract
+    tags:
+      - contract
   - address: "0xd964811233b8a0185d3c93664df82136c80d1bb2"
-    type: contract
-  - address: "0xc1ecd10398a6d7036ccee1f50551ff169715081c"
-    type: contract
+    tags:
+      - contract
   - address: "0x279228aafd13bb4642abb772a248c78555dc39c4"
-    type: contract
+    tags:
+      - contract
   - address: "0xb27a61faf33d2f6ad7af8cc2512c3b58901f779b"
-    type: contract
+    tags:
+      - contract
   - address: "0x5d8249e3f5f702e1fd720167b40424fc2dadcd1e"
-    type: contract
+    tags:
+      - contract
   - address: "0xaa4448aef5f5967693751bfb67197946bb6d1dc0"
-    type: contract
+    tags:
+      - contract
   - address: "0x27c6b12cc14a498e0e252bd7f3e7af060ebab048"
-    type: contract
+    tags:
+      - contract
   - address: "0x925c4454820b2b88c2f70f2621e6890b451266dd"
-    type: contract
+    tags:
+      - contract

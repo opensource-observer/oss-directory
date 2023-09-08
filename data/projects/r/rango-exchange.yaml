@@ -1,38 +1,54 @@
-version: 1
+version: 2
 slug: rango-exchange
 name: Rango Exchange
 github:
   - url: https://github.com/rango-exchange
 optimism:
   - address: "0x7e8a8b130272430008eca062419acd8b423d339d"
-    type: creator
+    tags:
+      - creator
   - address: "0xb22841ef2ec2c820c0d0fc5370f765791668f50c"
-    type: contract
+    tags:
+      - contract
   - address: "0x75c9d9a49c62a31e307794d5b9959daac22aab0b"
-    type: contract
+    tags:
+      - contract
   - address: "0xddefaf643fe8b3b1ed7dee0f751408cea5d5bdac"
-    type: contract
+    tags:
+      - contract
   - address: "0xa4bb709b56901e8e1d7c51605a46f75983fb39e1"
-    type: contract
+    tags:
+      - contract
   - address: "0xe48f23956bd88f68399a72f996364d9b50bbdd18"
-    type: contract
+    tags:
+      - contract
   - address: "0xe569d45803c76a6651f466f6b16da4c8705d4257"
-    type: contract
+    tags:
+      - contract
   - address: "0x688a62d79aab9628783383b9fabb46c2dc6c2faf"
-    type: contract
+    tags:
+      - contract
   - address: "0x17c33cd997d8a3eb3f7945486b47c456b1f02d87"
-    type: contract
+    tags:
+      - contract
   - address: "0x97163345c51db2f3508cafb7483cb639706e15db"
-    type: contract
+    tags:
+      - contract
   - address: "0x72aa25d1c70ab1423a6d65bf2cc6e4270a6e0224"
-    type: contract
+    tags:
+      - contract
   - address: "0xc4300be7878f42b39bdfb6a57d0f88eb87b842c3"
-    type: contract
+    tags:
+      - contract
   - address: "0xa8abc049b7e0ee79014e12111ecb28727fcddd2d"
-    type: contract
+    tags:
+      - contract
   - address: "0x0e3eb2eab0e524b69c79e24910f4318db46baa9c"
-    type: contract
+    tags:
+      - contract
   - address: "0x49ca35468148a3ca4737c397d918834b790c1aef"
-    type: contract
+    tags:
+      - contract
   - address: "0x6e47adf8a0bb4e3f4252f87beefc373752869b17"
-    type: contract
+    tags:
+      - contract

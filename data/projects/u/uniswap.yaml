@@ -1,4 +1,4 @@
-version: 1
+version: 2
 slug: uniswap
 name: Uniswap
 github:
@@ -44,49 +44,62 @@ npm:
   - url: https://www.npmjs.com/package/@uniswap/swap-router-react
 optimism:
   - address: "0x6c9fc64a53c1b71fb3f9af64d1ae3a4931a5f4e9"
-    type: creator
+    tags:
+      - creator
   - address: "0x1b5caa1d3a1582a438e4cd93ee7a7e0e4d5624fb"
-    type: creator
+    tags:
+      - creator
   - address: "0xd8fa8f87129c654a6dd7f34eedaf58379e176eb1"
-    type: creator
+    tags:
+      - creator
   - address: "0x946e9c780f3c79d80e51e68d259d0d7e794f2124"
-    type: creator
+    tags:
+      - creator
   - address: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
-    type: factory
     name: UniswapV3Factory
+    tags:
+      - factory
   - address: "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad"
-    type: contract
     name: UniversalRouter
+    tags:
+      - contract
   - address: "0xb555edf5dcf85f42ceef1f3630a52a108e55a654"
-    type: contract
     name: UniversalRouter
+    tags:
+      - contract
   - address: "0x560da69ef841e1272c65ef9eba538870f8c0c484"
-    type: contract
     name: UniversalRouter
+    tags:
+      - contract
   - address: "0xc36442b4a4522e871399cd717abdd847ab11fe88"
-    type: contract
     name: NonfungiblePositionManager
+    tags:
+      - contract
   - address: "0x91ae842a5ffd8d12023116943e72a606179294f3"
-    type: contract
     name: NonfungibleTokenPositionDescriptor
+    tags:
+      - contract
   - address: "0xbfd8137f7d1516d3ea5ca83523914859ec47f573"
-    type: contract
     name: TickLens
+    tags:
+      - contract
   - address: "0x61ffe014ba17989e743c5f6cb21bf9697530b21e"
-    type: contract
     name: QuoterV2
+    tags:
+      - contract
   - address: "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
-    type: contract
     name: SwapRouter02
+    tags:
+      - contract
   - address: "0x075b36de1bd11cb361c5b3b1e80a9ab0e7aa8a60"
-    type: contract
     name: SwapRouter02
+    tags:
+      - contract
   - address: "0xe34139463ba50bd61336e0c446bd8c0867c6fe65"
-    type: contract
     name: UniswapV3Staker
+    tags:
+      - contract
   - address: "0x62094cda36dd8945a2c158a4c6c8865c5b34fef9"
-    type: contract
     name: UniswapV3Staker
-  # - address: "0x4e59b44847b379578588920ca78fbf26c0b4956c"
-  #   type: factory
-  #   name: DeterministicDeploymentProxy
+    tags:
+      - contract

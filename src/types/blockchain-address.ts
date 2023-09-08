@@ -10,7 +10,13 @@
  */
 export interface BlockchainAddress {
   address: string;
-  type: "eoa" | "safe" | "creator" | "factory" | "contract";
-  name: string;
+  /**
+   * @minItems 1
+   */
+  tags: [
+    "eoa" | "safe" | "creator" | "factory" | "proxy" | "contract",
+    ...("eoa" | "safe" | "creator" | "factory" | "proxy" | "contract")[],
+  ];
+  name?: string;
   [k: string]: unknown;
 }
