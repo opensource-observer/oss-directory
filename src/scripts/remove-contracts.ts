@@ -21,7 +21,7 @@ function walkAndRemove() {
         try {
           const fileContents = fs.readFileSync(res, "utf8");
           const project = YAML.parse(fileContents);
-          const name = project.name;
+          const name = project.slug;
           if (project.optimism) {
             let modified = false;
             project.optimism = project.optimism.filter((contract: any) => {
