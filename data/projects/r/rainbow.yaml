@@ -6,20 +6,24 @@ github:
 optimism:
   - address: "0x7a3d05c70581bd345fe117c06e45f9669205384f"
     tags:
+      - eoa
       - creator
   - address: "0x0c36a5b01e1668c867a5e58f23bb6cb4d83a4cc8"
     tags:
+      - eoa
       - creator
   - address: "0x12a39421c23f4d3f788c33f0f9281652ac4f909a"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xceec95425de041b8c83dd9e019f7597b7a356d4a"
     tags:
+      - contract
       - factory
   - address: "0x400a9f1bb1db80643c33710c2232a0d74ef5cff1"
     tags:
       - contract
+    name: NftChecker
   - address: "0x1c8cfde3ba6efc4ff8dd5c93044b9a690b6cff36"
     tags:
       - contract
