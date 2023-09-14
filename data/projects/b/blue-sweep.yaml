@@ -6,6 +6,7 @@ github:
 optimism:
   - address: "0xf8bf80beb4cee030d8c60e5942ca3749ae6bedf1"
     tags:
+      - eoa
       - creator
   - address: "0xdebdacd6957db199d8b47b361ea4f651667cf5eb"
     tags:
@@ -13,3 +14,4 @@ optimism:
   - address: "0xdcfeaa47272738d10f88f3d80bb28212b1fa9c1a"
     tags:
       - contract
+    name: BlueSweepDataDecoder

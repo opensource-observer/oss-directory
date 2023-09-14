@@ -6,19 +6,23 @@ github:
 optimism:
   - address: "0x763b9dba40c3d03507df454823fe03517f84a5ab"
     tags:
+      - eoa
       - creator
   - address: "0xf2cafb99992ce6a49f948b452c783614808612d1"
     tags:
+      - eoa
       - creator
   - address: "0x621ce6596e0b9ccf635316bfe7fdbc80c3029bec"
     tags:
       - contract
+    name: PEther
   - address: "0x48a5322c3021d5ed5ce4293112141045d12c7efc"
     tags:
       - contract
   - address: "0x209ee6f924a39bddc9a57c0e263dd5e29ceac78a"
     tags:
       - contract
+    name: WePiggyPriceOracleV1
   - address: "0x7a603d06007fc09f896fb75644365ab091a7b91a"
     tags:
       - contract
@@ -28,18 +32,22 @@ optimism:
   - address: "0x811cd5cb4cc43f44600cfa5ee3f37a402c82aec2"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x8e1e582879cb8bac6283368e8ede458b63f499a5"
     tags:
       - contract
   - address: "0x4d083d94520a6cf295a039aca39e0df09998a053"
     tags:
       - contract
+    name: PauseGuardian
   - address: "0x3ce5af2d1455c581d95b979ab7e64b1a7d1b5537"
     tags:
       - contract
+    name: LockDrop
   - address: "0xd58fb16eace4693b2c641cae6850a82763c00a34"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xffceacfd39117030314a07b2c86da36e51787948"
     tags:
       - contract
@@ -52,27 +60,33 @@ optimism:
   - address: "0x894c9fb45aecc4f757c2d07a692504e8e29a5747"
     tags:
       - contract
+    name: DefaultTokenRouter
   - address: "0x8f00a5e13b3f2aaaddc9708ad5c77fbcc300b0ee"
     tags:
       - contract
   - address: "0x5ea2321abff78e81702ce877319cd775e0dc865b"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x7327f67674d9bb0fada7fa93a52f6182d2be55bb"
     tags:
       - contract
+    name: LockDrop
   - address: "0x8c14a40c488e16b055bc4e250563b5480047f01e"
     tags:
       - contract
+    name: Timelock
   - address: "0x68389d5c1ecf72750ddd274e2c59b77e28284fcc"
     tags:
       - contract
   - address: "0x2b7f68170a598e507b19bca41ed745eabc936b3f"
     tags:
       - contract
+    name: Maximillion
   - address: "0xd2b75447a9e1f7d26fb063779f519db170b0e62c"
     tags:
       - contract
+    name: LockDrop
   - address: "0xc9e53bb96a8923051326b189bbf93ee9ed87888b"
     tags:
       - contract
@@ -85,9 +99,11 @@ optimism:
   - address: "0xb205d0aef84c666fbbe441c61dc04feb844444e6"
     tags:
       - contract
+    name: WePiggyPriceProviderV1
   - address: "0xe6320460aca9e4a4385058eefd7d4d70123fc9c9"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xcde2d0988f3bda4a956be9cbf5d23573958a6c15"
     tags:
       - contract
@@ -103,42 +119,53 @@ optimism:
   - address: "0x3a9cad689a510a7c410ee1be17929cdf78efac8c"
     tags:
       - contract
+    name: WePiggyLensV2
   - address: "0x8158b34ff8a36dd9e4519d62c52913c24ad5554b"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xfdc398d782200333047b3bcc81cbf0482c65dc81"
     tags:
       - contract
+    name: DefaultTokenRouter
   - address: "0xa672384aa77d1566a915770f5987b7d4c3ba6f68"
     tags:
       - contract
+    name: WePiggyLens
   - address: "0xd6a78766514cdfc1a1fa188a7782b52313133705"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xd342c153f7a58dbe6cd458424c831ab0c2629e49"
     tags:
       - contract
   - address: "0x2dd8ffa7923a17739f70c34759af7650e44ea3be"
     tags:
       - contract
+    name: PERC20
   - address: "0xa43bf6193a89d28edb529ab5ca9ad7506798f9f1"
     tags:
       - contract
+    name: JumpRateModel
   - address: "0x690aa2591e57180cba5a6123e9d462907a5e1c95"
     tags:
       - contract
+    name: PiggyDistributionOwner
   - address: "0x451032c55f813338b6e73c1c4b24217614165454"
     tags:
       - contract
   - address: "0x16b321c99ab31a84d565ea484f035693718c3e71"
     tags:
       - contract
+    name: Comptroller
   - address: "0xeb0908806595d06643e15ad9af62dfd0653b570c"
     tags:
       - contract
+    name: LockDrop
   - address: "0x4351bda490d386c363832e3fe06ef0329e4efcfa"
     tags:
       - contract
+    name: PiggyDistribution
   - address: "0x6f620ec89b8479e97a6985792d0c64f237566746"
     tags:
       - contract

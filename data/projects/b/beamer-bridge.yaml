@@ -6,6 +6,7 @@ github:
 optimism:
   - address: "0x42405d66fda09dbdac90ff25fc5a4c2353f43e70"
     tags:
+      - eoa
       - creator
   - address: "0x62249fcb288f0a4734072ab899b926ef9845bc8f"
     tags:
@@ -28,6 +29,7 @@ optimism:
   - address: "0xb392a4a5d72b3dc8d0ce15e9280eab57da9a05a0"
     tags:
       - contract
+    name: FillManager
   - address: "0x85267688ce7677d69d75f288ff3064431030af9f"
     tags:
       - contract
@@ -70,15 +72,18 @@ optimism:
   - address: "0x889aa3c5b5298d70613373f25ef66fede25b4de1"
     tags:
       - contract
+    name: FillManager
   - address: "0xc2cec743b5ebc2ce356e2cbca65d0abe4e13c248"
     tags:
       - contract
   - address: "0xddf87c859c713e1bdfdc95baf1cabb5fbc83c1f8"
     tags:
       - contract
+    name: OptimismL2Messenger
   - address: "0xb4daeeabc1ace2129072dd616bc0458d62b53280"
     tags:
       - contract
+    name: RequestManager
   - address: "0x2f3e888dd299a1043fad007091d3712a58d49696"
     tags:
       - contract
@@ -118,18 +123,21 @@ optimism:
   - address: "0x9d528fec94c7d0411f56dabaf7fb11f5db3d45b9"
     tags:
       - contract
+    name: OptimismL2Messenger
   - address: "0xae97b9848a577612fa40012bcd6d14e7c291ed64"
     tags:
       - contract
   - address: "0x124198789ef8d82050e620de2b73332c3c6c2ed4"
     tags:
       - contract
+    name: RequestManager
   - address: "0xa72af4f380d5bc1fb5c7935099bec6b5051ea124"
     tags:
       - contract
   - address: "0xe236d136ad9f6db125e9ba95edc1d1a19423ff0f"
     tags:
       - contract
+    name: RequestManager
   - address: "0xf96e06e8fe532338d9252e7bc72980694f98cc09"
     tags:
       - contract
@@ -199,6 +207,7 @@ optimism:
   - address: "0x4f208866005e1f6c8dc169461506a0a973211ee9"
     tags:
       - contract
+    name: RequestManager
   - address: "0x2856a18c94fd252bf3901e2d12b7f3ef419145aa"
     tags:
       - contract

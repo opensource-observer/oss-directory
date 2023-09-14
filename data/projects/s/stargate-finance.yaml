@@ -6,44 +6,55 @@ github:
 optimism:
   - address: "0x1d7c6783328c145393e84fb47a7f7c548f5ee28d"
     tags:
+      - eoa
       - creator
   - address: "0x6ece61d29b90642941c41240da924690da145696"
     tags:
+      - eoa
       - creator
   - address: "0xe3b53af74a4bf62ae5511055290838050bf764df"
     tags:
-      - factory
       - contract
+      - factory
+    name: Factory
   - address: "0x296f55f8fb28e498b858d0bcda06d955b2cb3f97"
     tags:
       - contract
+    name: StargateToken
   - address: "0x505ecdf2f14cd4f1f413d04624b009a449d38d7e"
     tags:
       - contract
+    name: StargateFeeLibraryV07
   - address: "0xb49c4e680174e331cb0a7ff3ab58afc9738d5f8b"
     tags:
       - contract
+    name: RouterETH
   - address: "0xaf54be5b6eec24d6bfacf1cce4eaf680a8239398"
     tags:
       - contract
   - address: "0x7a045193ade1e7013d8d19f3edd3f6cb8ae61275"
     tags:
       - contract
+    name: StargateFeeLibraryV04
   - address: "0x4a364f8c717caad9a442737eb7b8a55cc6cf18d8"
     tags:
       - contract
   - address: "0xb0d502e938ed5f4df2e681fe6e419ff29631d62b"
     tags:
       - contract
+    name: Router
   - address: "0x4dea9e918c6289a52cd469cac652727b7b412cd2"
     tags:
       - contract
+    name: LPStakingTime
   - address: "0x53678e62af4dcdfc3bb5b72c9826ca9b60f28f80"
     tags:
       - contract
+    name: StargateFeeLibraryV03
   - address: "0x46bc16f76b0ae14abb820d3410843ba54d8ef6f0"
     tags:
       - contract
+    name: WidgetSwap
   - address: "0x224d8fd7ab6ad4c6eb4611ce56ef35dec2277f03"
     tags:
       - contract
@@ -59,12 +70,14 @@ optimism:
   - address: "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"
     tags:
       - contract
+    name: StargateToken
   - address: "0x8731d54e9d02c286767d56ac03e8037c07e01e98"
     tags:
       - contract
   - address: "0xcbffca36cdc13c646f8391db55e4c13a7ce05f0a"
     tags:
       - contract
+    name: StargateFeeLibraryV04
   - address: "0x6fd8dd2d7ac59e41c3907f6ae4717b08d5b407cf"
     tags:
       - contract
@@ -74,12 +87,14 @@ optimism:
   - address: "0x701a95707a0290ac8b90b3719e8ee5b210360883"
     tags:
       - contract
+    name: Bridge
   - address: "0x43d2761ed16c89a2c4342e2b16a3c61ccf88f05b"
     tags:
       - contract
   - address: "0x18ae6d4becae6cb6d2536ecce89871f27a8c1bb0"
     tags:
       - contract
+    name: StargateFeeLibraryV04
   - address: "0x5c1a97c144a97e9b370f833a06c70ca8f2f30de5"
     tags:
       - contract
@@ -95,12 +110,15 @@ optimism:
   - address: "0xb69c8cbcd90a39d8d3d3ccf0a3e968511c3856a0"
     tags:
       - contract
+    name: StargateEthVault
   - address: "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6"
     tags:
       - contract
+    name: Router
   - address: "0xd47711f0aa5f34ad0a17fea6599f45664dd201b5"
     tags:
       - contract
+    name: ProxyAdmin
   - address: "0x712a326b7c0dd4d1c319dedaf0122330de25dd44"
     tags:
       - contract
@@ -116,6 +134,7 @@ optimism:
   - address: "0xae8d00e43adb49d14fa07c93b27cdb3ee94c4675"
     tags:
       - contract
+    name: StargateFeeLibraryV05
   - address: "0x959d0037a71e8d1a1a369a417910dd05dfe22366"
     tags:
       - contract

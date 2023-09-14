@@ -6,15 +6,16 @@ github:
 optimism:
   - address: "0x30b12942912cee5a719edec2dd147224fcc373a0"
     tags:
+      - eoa
       - creator
   - address: "0xb471865c97a271e1572ecca838b971e710498e4c"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x3c05ad1ba92906db8b9f3db03c4c4d5119ce4110"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x508a85c04351a3c1870ac5b76555dfd192938f0c"
     tags:
       - contract
@@ -30,9 +31,11 @@ optimism:
   - address: "0x0d8393cea30df4fafa7f00f333a62dee451935c1"
     tags:
       - contract
+    name: EsGMX
   - address: "0xc5129208cb1dc2b3c916011c9d94632e602b9811"
     tags:
       - contract
+    name: PositionRouter
   - address: "0x198634d01a8e1646fae8676904343c33b1d2c6b9"
     tags:
       - contract
@@ -48,12 +51,15 @@ optimism:
   - address: "0xc37ad9d78fb001a2429b2401e91c2dd849595798"
     tags:
       - contract
+    name: VaultPriceFeed
   - address: "0xcebc8a8b66de9b3f4393966eab86fc9de26b2529"
     tags:
       - contract
+    name: BonusDistributor
   - address: "0x0ce61aaf89500e4f007884fbbf62642618def5dd"
     tags:
       - contract
+    name: EsGMX
   - address: "0x4c4d81aa29fbb7fe90172ad70a72f00fb1ee46c6"
     tags:
       - contract
@@ -63,45 +69,54 @@ optimism:
   - address: "0xf75d3c6f20fb65cc0b8f84687e5cbac3d7f4221e"
     tags:
       - contract
+    name: BatchSender
   - address: "0x41cd8cafc24a771031b9eb9c57cfc94d86045eb6"
     tags:
       - contract
+    name: OrderBook
   - address: "0xa48996d94322f740dcc5b182827cc66a9faae9da"
     tags:
       - contract
   - address: "0x8cbc45d772d2f127693abb8942d46fadef198b4a"
     tags:
       - contract
+    name: PriceFeedTimelock
   - address: "0x04f23404553fcc388ec73110a0206dd2e76a6d95"
     tags:
       - contract
+    name: RewardTracker
   - address: "0xf90bbc59dc4698be69a7b98bbb4bc1628bcec4b7"
     tags:
       - contract
   - address: "0xa6d7d0e650aa40ffa42d845a354c12c2bc0ab15f"
     tags:
       - contract
+    name: Vault
   - address: "0x2d270f66fee6ac9e27ff6551af5a8cfb5c8a7493"
     tags:
       - contract
+    name: PositionManager
   - address: "0x01e9b35785ef3f7ef2677c371442976bd550f320"
     tags:
       - contract
   - address: "0xaca582a0422881cd3aa8bc371e8817a5cbd0161a"
     tags:
       - contract
+    name: RewardRouterV2
   - address: "0xa28d4c3709136eb4d07058b321a000c7ff634f40"
     tags:
       - contract
   - address: "0x01e77288b38b416f972428d562454fb329350bac"
     tags:
       - contract
+    name: USDG
   - address: "0xc2c5968e16ec9fabc39e27f9abfc07c8cfba6f16"
     tags:
       - contract
   - address: "0xb280d03909cc18640621955cb3bc30948df2fa9a"
     tags:
       - contract
+    name: StakedGlp
   - address: "0x641ff5d17178c3b9498133ebc264bb4170a04668"
     tags:
       - contract
@@ -111,15 +126,19 @@ optimism:
   - address: "0x064b59619727b5e712155eb27504e9c9a62dec27"
     tags:
       - contract
+    name: EpochRewardDistributor
   - address: "0xc592b3add24ea30c030978e5e7f5d02e123b4263"
     tags:
       - contract
+    name: VaultReader
   - address: "0x727db8fa7861340d49d13ea78321d0c9a1a79cd5"
     tags:
       - contract
+    name: ReferralStorage
   - address: "0xc504cb49bcadfc8fd56f1de5674ba216aeafef01"
     tags:
       - contract
+    name: RewardRouterV2
   - address: "0xc1d4e4743dde709831e1cb485dcdbd44def893b0"
     tags:
       - contract
@@ -132,12 +151,14 @@ optimism:
   - address: "0xb2823674bb50a370d22dd8b26663f61e38822d13"
     tags:
       - contract
+    name: MintableOFTUpgradeable
   - address: "0x0ee3fd031d45bdd0e8ef58d5514e2312f5a74a0f"
     tags:
       - contract
   - address: "0x65dcb38637b526305be55f14b24a4ab2bd177780"
     tags:
       - contract
+    name: VaultErrorController
   - address: "0x2aef1bc2f13118009df8663705f736f77efafd5c"
     tags:
       - contract
@@ -159,6 +180,7 @@ optimism:
   - address: "0x28cfd8e1e83bec8ee879d21634e7dc3d93102ced"
     tags:
       - contract
+    name: ReferralReader
   - address: "0xe717a032f5400731a42540a958d2e3177ae9fe4a"
     tags:
       - contract
@@ -168,30 +190,37 @@ optimism:
   - address: "0xa25d432ae720e57e85778905935a9a0b9284114a"
     tags:
       - contract
+    name: Vester
   - address: "0x68d1ca32aee9a73534429d8376743bf222ff1870"
     tags:
       - contract
+    name: Router
   - address: "0x7b26207457a9f8ff4fd21a7a0434066935f1d8e7"
     tags:
       - contract
   - address: "0x8082b086a8cd851a9690a03070e82737f37a548a"
     tags:
       - contract
+    name: MMYMigration
   - address: "0x7b9e962dd8aed0db9a1d8a2d7a962ad8b871ce4f"
     tags:
       - contract
+    name: PriceFeed
   - address: "0xad96d9736484e35985773bdf7dba5750dc830042"
     tags:
       - contract
+    name: RewardDistributor
   - address: "0x3662875bf9c4614bc5d2a615f19517c2d0039f04"
     tags:
       - contract
   - address: "0xd94452957bc47bc59985013bc087ad5a55f251ac"
     tags:
       - contract
+    name: MummyClubStaking
   - address: "0xd451ffd204906c1a725c65efe570ad8a6e2b08bd"
     tags:
       - contract
+    name: RewardRouterV2
   - address: "0x5f57143604fe1a940deb5f95bf1c78a252791437"
     tags:
       - contract
@@ -201,12 +230,14 @@ optimism:
   - address: "0xe149164d8eca659e8912dbdec35e3f7e71fb5789"
     tags:
       - contract
+    name: RewardTracker
   - address: "0x2a3e489f713ab6f652af930555b5bb3422711ac1"
     tags:
       - contract
   - address: "0xa0207802b0953b17421bf9cb10b3acf5823496ab"
     tags:
       - contract
+    name: RewardDistributor
   - address: "0x88dee1b0ae1c9f93fd4cfb3b2f02fa54d2e09d2d"
     tags:
       - contract
@@ -219,18 +250,25 @@ optimism:
   - address: "0xcab2c0a41556149330f4223c9b76d93c610dafe6"
     tags:
       - contract
+    name: GLP
   - address: "0xa1a65d3639a1efbfb18c82003330a4b1fb620c5a"
     tags:
       - contract
+    name: GlpBalance
   - address: "0x27f59c92e26ea651370a4f18ab6da5b7c3458586"
     tags:
       - contract
   - address: "0x3b2732c1e5a248bbdd0315e9e8845c64f5a6faf5"
     tags:
       - contract
+    name: FastPriceFeed
   - address: "0xb2a477c6ba5e96f6decbced836cb7d3d32ef9ecd"
     tags:
       - contract
   - address: "0xa30b1c3c8ede3841de05f9cdd4d0e097ac4c6d92"
+    tags:
+      - contract
+    name: RewardDistributor
+  - address: "0x99901e6e6ac72b9f3da4c82af1f86d8be51d09d1"
     tags:
       - contract

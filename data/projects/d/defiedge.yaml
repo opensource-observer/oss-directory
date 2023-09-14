@@ -6,82 +6,85 @@ github:
 optimism:
   - address: "0x001530e763fe9de4dcfe31bbd8548bcb579ebf3a"
     tags:
+      - eoa
       - creator
   - address: "0x86b86c24c7b1f404ada8b4000acbe04158e096bd"
     tags:
+      - eoa
       - creator
   - address: "0x0811b78b74db67f7e4f60883f6ff16358a0aa0a6"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xccbe9b3141ce9c28cd987f95556e72ffbb81609f"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x2dfa59576583f1dc2df3f8d9e375af8d47bb846e"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xb11bc3c2e43adb013e99c4a5662caf6f1384889b"
     tags:
-      - factory
       - contract
+      - factory
+    name: DefiEdgeStrategyDeployer
   - address: "0x8acc13002cbeaa31339b792b8f554842b88da7f1"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x9cd4159dfd2df765f711dc377e1d81d55c4357ae"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xe1fd038cbe37475faab39c9d676d9daeaa47da0c"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x6ed18424236977f137ba96af7e7e0ee26b17f52a"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xf9654b734bf76069b04d7efd9bf2268691a0ff00"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x64054718b35ac2ad11786665c4f3031b01880e14"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xb76545af1fd4c34f86efd5ecdf944102dfc25883"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x106a524c49b924a92194f6fe4f3da81c2d42e607"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x96123f8480d565c8946023892831bf4bb40dcc87"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x1f5ec2fa88d2d28dcf1dcdbd192bae5df8dff736"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x3f2186f1057cec50b52238490b71ae5ce95441ef"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xe4ecd6e9896100f50c787ba7b4b5f7b0948c07eb"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xf1a01a418d037b293636cb1834fccb71f8af1d9d"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xd45c7cbb1b8339420b53372223fc2cd4fac05f1e"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xe43b4cde662165ba1f646022e7d41aade8993b11"
     tags:
       - contract
@@ -97,6 +100,7 @@ optimism:
   - address: "0xedc5ebe9fe347497703ae595baec028a34e315a8"
     tags:
       - contract
+    name: MiniChefV2
   - address: "0x7e31d7964984eff45642e3351b5775a2eae266aa"
     tags:
       - contract
@@ -106,6 +110,7 @@ optimism:
   - address: "0xbd76c5fed25dfaf228bfda6619e7220c3cf348b3"
     tags:
       - contract
+    name: MiniChefV2
   - address: "0x5bb95d1b824bddd1e7fbf6e011ed3bc21dcbcf11"
     tags:
       - contract
@@ -121,15 +126,18 @@ optimism:
   - address: "0xb17ee17c0b21a11ceea4378eaa235df86d82ba18"
     tags:
       - contract
+    name: MiniChefV2
   - address: "0xe3ec812a2ae6c10a59fc8186e880542d4cf0fcd1"
     tags:
       - contract
   - address: "0xa845cadfea9c5e00c04e5631debe8819cbfceeb1"
     tags:
       - contract
+    name: MiniChefV2
   - address: "0xc0d6a410ed141c1369f64adb061851f28c112ad2"
     tags:
       - contract
+    name: MiniChefV2
   - address: "0x98b9b1903f14c59b9f86041512ea9284b63205f8"
     tags:
       - contract
@@ -151,6 +159,7 @@ optimism:
   - address: "0xdcf476df1165d85477be841f4907569cf1413745"
     tags:
       - contract
+    name: MiniChefV2
   - address: "0x92b3294584a374e076955ce05070a573b98b1130"
     tags:
       - contract
@@ -178,6 +187,7 @@ optimism:
   - address: "0xa3a2904d0726a1a039568365006dc830234e7105"
     tags:
       - contract
+    name: MiniChefV2
   - address: "0xa07646a5aeff5f11b011e22e7423c568f8eca8f4"
     tags:
       - contract
@@ -190,3 +200,4 @@ optimism:
   - address: "0x6069dcc91376b1628d244c4799db092af205fa38"
     tags:
       - contract
+    name: MiniChefV2

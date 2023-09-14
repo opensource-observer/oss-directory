@@ -6,12 +6,15 @@ github:
 optimism:
   - address: "0xd9cbe784df2ae03ea0e22335bb5cd7fcb42a0e32"
     tags:
+      - eoa
       - creator
   - address: "0xcdf41a135c65d0013393b3793f92b4faf31032d0"
     tags:
+      - eoa
       - creator
   - address: "0x6a0a93cd6d6fb7a36bf6234ef4650bf9474e7682"
     tags:
+      - eoa
       - creator
   - address: "0x33bf81bdd8185fd1798c493f6937e15d88f89fb0"
     tags:
@@ -19,60 +22,73 @@ optimism:
   - address: "0x1d1cb3baff5455defb49146f6b29e12d1ad4ee91"
     tags:
       - contract
+    name: OwnershipFacet
   - address: "0x04462c8ad55a3d970fd9b4944a2f4c7c15700883"
     tags:
       - contract
   - address: "0xb3f5503f93d5ef84b06993a1975b9d21b962892f"
     tags:
       - contract
+    name: EIP173ProxyWithCustomReceive
   - address: "0x74c1f8ce8f2c6d6c8946d8eec15374f9a9c57f3a"
     tags:
       - contract
   - address: "0xc8ae2a55bc4bf3280a38c76077a43d4d4a086272"
     tags:
       - contract
+    name: CoingeckoOracle
   - address: "0x340759c8346a1e6ed92035fb8b6ec57ce1d82c2c"
     tags:
       - contract
   - address: "0xf97e8f7bc4f69666b517b415c16a7a1c0de5d057"
     tags:
       - contract
+    name: SnxResolver
   - address: "0x63c51b1d80b209cf336bec5a3e17d3523b088cdb"
     tags:
       - contract
+    name: IceCreamNFT
   - address: "0x4055cb250ec8d539c5222eaa71fa7e30fe94f8e9"
     tags:
       - contract
+    name: Counter
   - address: "0x01051113d81d7d6da508462f2ad6d7fd96cf42ef"
     tags:
       - contract
+    name: Gelato
   - address: "0x96d05a93c83340a45492eb81fad540951ed62eed"
     tags:
       - contract
   - address: "0x7c5c4af1618220c090a6863175de47afb20fa9df"
     tags:
       - contract
+    name: MockGasPriceOracle
   - address: "0xeced284da71818dd95779260cd55833a6f44cd93"
     tags:
       - contract
   - address: "0x95f4538c3950ce0ef5821f2049ae2ac5ccade68d"
     tags:
       - contract
+    name: Forwarder
   - address: "0x527a819db1eb0e34426297b03bae11f2f8b3a19e"
     tags:
       - contract
+    name: TaskTreasuryL2
   - address: "0x33faf125fc531a99cd764129bd2769a7e4c4daa9"
     tags:
       - contract
   - address: "0x27ee02084023fd171e9798d33c8bba4255b24775"
     tags:
       - contract
+    name: ExecFacet
   - address: "0xfcbe47b22457363988c9f5c06ac71571874f8194"
     tags:
       - contract
+    name: SnxResolver
   - address: "0x71c2b9c9708c19a816e8e652f7c4cfe3f3a3d6a5"
     tags:
       - contract
+    name: ExecAccessFacet
   - address: "0x4f43aad55a21bb8661147208d61fb96ce0467f66"
     tags:
       - contract
@@ -82,30 +98,37 @@ optimism:
   - address: "0x7abbf5a42b425abf775d26bef7c3c0878a2937df"
     tags:
       - contract
+    name: MockGasPriceOracle
   - address: "0x2625afbb3e63f885bc4de0f289571d81cf228b0c"
     tags:
       - contract
+    name: TransferFacet
   - address: "0xec13d90a14b0310a679cbeab8d5804f5840009cc"
     tags:
       - contract
+    name: AddressFacet
   - address: "0xa89ec25e75096379fe3ef4f0c4b7023a30a2f41b"
     tags:
       - contract
+    name: ConcurrentCanExecFacet
   - address: "0xe196330228cde3bb6b29413f32a95c45accf4952"
     tags:
       - contract
   - address: "0x8e0d2df14178b4f1b2907e566127006c80738810"
     tags:
       - contract
+    name: ExecAccessFacet
   - address: "0x8ab6adbc1fec4f18617c9b889f5ce7f28401b8db"
     tags:
       - contract
+    name: TaskTreasuryUpgradable
   - address: "0xf8c08e9626293bec226cfec1b4684fa9598f17d0"
     tags:
       - contract
   - address: "0x52677d053fe817c40556ed1f4178aac360619115"
     tags:
       - contract
+    name: TaskTreasuryUpgradable
   - address: "0x0322a0441c5663280d0443b34bc4b4c477d6d29f"
     tags:
       - contract
@@ -115,9 +138,55 @@ optimism:
   - address: "0xec5dd455bfa2436491b0f580bb017d7ef79a845f"
     tags:
       - contract
+    name: UniswapV2SwapFacet
   - address: "0x9193477b8085e1cdceb50792fcf303e3b41d7ac5"
     tags:
       - contract
   - address: "0x86198dac220d960d1ffe72acab541798bf7df2af"
+    tags:
+      - contract
+    name: DiamondLoupeFacet
+  - address: "0x5401fe33559a355638b9b37c9640a04a182feff2"
+    tags:
+      - eoa
+      - creator
+  - address: "0xc815db16d4be6ddf2685c201937905abf338f5d7"
+    tags:
+      - contract
+      - factory
+    name: EIP173Proxy
+  - address: "0x926a40b485b8bebf8f739fca5c45f7cc683890a2"
+    tags:
+      - contract
+  - address: "0x8341f96bd961146023e38ebffe3f2905b1bd9fb6"
+    tags:
+      - contract
+    name: OpsProxyFactory
+  - address: "0xde13771af71efb856bc070319e3c14e827b56584"
+    tags:
+      - contract
+    name: ResolverModule
+  - address: "0xa2cb32faa843bdeebc89c26868ee45085c854fa1"
+    tags:
+      - contract
+    name: TimeModule
+  - address: "0xe8e0873f12d7e04630989401bc7b54a67e403df9"
+    tags:
+      - contract
+    name: ProxyModule
+  - address: "0xf76f764bf04a64c70ea5cbd01b366af1c26a0f83"
+    tags:
+      - contract
+    name: SingleExecModule
+  - address: "0x88682f3d90ae60f65763f4f3a46044f620f948ab"
+    tags:
+      - contract
+  - address: "0x5a70e998be2bb781af0e33cab598ec2c0b2bbbb5"
+    tags:
+      - contract
+  - address: "0xc28aba27c97a7fb345da3b1012cd526383ef3b0b"
+    tags:
+      - contract
+  - address: "0x1064d40bad88574d1bd6c844d1e6bd4c84506172"
     tags:
       - contract

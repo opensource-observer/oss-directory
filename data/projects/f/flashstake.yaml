@@ -6,49 +6,60 @@ github:
 optimism:
   - address: "0x4b9f696c998f9549485a3a85dca692fd6cce491f"
     tags:
+      - eoa
       - creator
   - address: "0x2ba1f7e899948153d8377f77dbb9af25443ff728"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x05736a8d6bc208b9e3c9a7e20e7f53674aea6ab1"
     tags:
-      - factory
       - contract
+      - factory
+    name: FlashFTokenFactory
   - address: "0xbce67cd3a2b97c17bda92764ea81b3ef5f06ccfc"
     tags:
-      - factory
       - contract
+      - factory
+    name: LiquidStake
   - address: "0x86bea60374f220de9769b2fef2db725bc1cdd335"
     tags:
       - contract
   - address: "0x28b413f9f09fba829a4c0b43783541373ee3f6c3"
     tags:
       - contract
+    name: FlashStrategyAAVEv3
   - address: "0x78b2d65dd1d3d9fb2972d7ef467261ca101ec2b9"
     tags:
       - contract
+    name: FlashProtocol
   - address: "0xcb1205ac28693beda01e0b66e9b4d06231609bfd"
     tags:
       - contract
+    name: FTokenAccumulatorV3
   - address: "0xfd49a007d9fadf8904849edbef1b3344e42142ff"
     tags:
       - contract
+    name: FTokenAccumulatorV2
   - address: "0x720face4d24018cbe1d68b1df64a730890598f47"
     tags:
       - contract
   - address: "0x15c32f81df9b00b97b68148b6bdeb72d57f24845"
     tags:
       - contract
+    name: FTokenAccumulator
   - address: "0x3b090839c26fe3b2bdfa2f4cd7f3ab001ccdf73f"
     tags:
       - contract
+    name: FlashNFT
   - address: "0x7efcd4c1ff21ffcba1b6a245a9e385b4ff45d6dd"
     tags:
       - contract
+    name: FlashProtocolProxyV2
   - address: "0x541a7b5a8a6bb28ec44fab9d41cc2b4aaf4f9a33"
     tags:
       - contract
+    name: UserIncentiveV3
   - address: "0x8ef21e9bfe8f40eddd9bf7828707da47d5536c4c"
     tags:
       - contract

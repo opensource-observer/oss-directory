@@ -6,25 +6,32 @@ github:
 optimism:
   - address: "0x1a5309f208f161a393e8b5a253de8ab894a67188"
     tags:
+      - eoa
       - creator
   - address: "0x007fe70dc9797c4198528ae43d8195fff82bdc95"
     tags:
+      - contract
       - factory
   - address: "0x18878df23e2a36f81e820e4b47b4a40576d3159c"
     tags:
       - contract
+    name: Kernel
   - address: "0x623164a9ee2556d524b08f34f1d2389d7b4e1a1c"
     tags:
       - contract
+    name: OlympusMinter
   - address: "0x22ae99d07584a2ae1af748de573c83f1b9cdb4c0"
     tags:
       - contract
+    name: CrossChainBridge
   - address: "0xbc9ee0d911739cbc72cd094ada26f56e0c49eeae"
     tags:
       - contract
+    name: OlympusRoles
   - address: "0x060cb087a9730e13aa191f31a6d86bff8dfcdcc0"
     tags:
       - contract
+    name: OlympusERC20Token
   - address: "0xb1fa0ac44d399b778b14af0aaf4bcf8af3437ad1"
     tags:
       - contract

@@ -6,12 +6,15 @@ github:
 optimism:
   - address: "0x992ebe8be326ea0cd7d30a98740d9899612330bb"
     tags:
+      - eoa
       - creator
   - address: "0x6a885bd0086368b56dbf2005bb72bbcc5fd7e2b9"
     tags:
+      - eoa
       - creator
   - address: "0x97b62cd23a04be0e0dc4a5f03ddbd0addc8ba29a"
     tags:
+      - eoa
       - creator
   - address: "0xcd17365310e8daa951b589f00230a8c6ea3293ae"
     tags:
@@ -22,6 +25,7 @@ optimism:
   - address: "0x5217f41b133b8459858eb62952e8c74a3b5a6c16"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xbd6d68b1ee84296a31eb1c9557c95731f20f315a"
     tags:
       - contract
@@ -31,30 +35,38 @@ optimism:
   - address: "0xe5de53af06f5f0aaadbf66e726eae8a9367d4060"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x2feb1b039c5ebe697c5cadc83deef9de3c4b3e7b"
     tags:
       - contract
+    name: PerpPositionManager
   - address: "0x2f5c048de21f6367558c70fa364eb1df8a4ac118"
     tags:
       - contract
   - address: "0xfea9fb84b5f18f29440ae2bd01ae07cfd2cb1749"
     tags:
       - contract
+    name: VaultConfig
   - address: "0xf953ce7b47b7c7a285e6219a8705844b61a8e0ff"
     tags:
       - contract
+    name: QuoteVault
   - address: "0x2b90a1c91f5b4c3ebd5bfcbfd94853f7bf30a908"
     tags:
       - contract
+    name: InsuranceFund
   - address: "0x91622a73b84911ec0fe4458fc5091e2616fe9f32"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xede9886d064b3e09cb753362fae2a4ce1fde8fa5"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xb8c46a8266b691419828c33c9f563c6278231895"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xe8da4b8e3477a9342dceae969f338baadffa211b"
     tags:
       - contract
@@ -67,6 +79,7 @@ optimism:
   - address: "0x2a0bde4cb3b3aed07f50d744dd257893f4a7bb6e"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xe24e6c31c71286de2784a05e6669fc12ce0bde41"
     tags:
       - contract
@@ -79,9 +92,11 @@ optimism:
   - address: "0x2067b49189d94f04a890b51bacf1f248db697bad"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x89a9879e8832880072b66c2b283017385c908421"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x05042c3a25f956133bb9bdab453fbaa6ff07b6dd"
     tags:
       - contract
@@ -103,6 +118,7 @@ optimism:
   - address: "0xe5c8b851b0c8c50acb57413b9f4c07b91ca8d5a2"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xb83efe72aba43a0a0a5bc59314312d036a347fe6"
     tags:
       - contract
@@ -115,21 +131,26 @@ optimism:
   - address: "0xb5311a83959b589876ebb364206a13d998f6c9eb"
     tags:
       - contract
+    name: PerpPositionManager
   - address: "0x77d0864f979f3eccb656a7ce31166e4e3febd7ba"
     tags:
       - contract
+    name: KtbArbitrageur
   - address: "0xdc4300d741798c3e652b5bd46917e86b99e6efa6"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xfebfc6c79c6f4f91407640f97e193001c7585b5e"
     tags:
       - contract
+    name: AccountBalance
   - address: "0xb8cdccef6d187c3c64ce849ca79bafd675161849"
     tags:
       - contract
   - address: "0x16768875a4a15c60a73bafa90549ce48d4fb1026"
     tags:
       - contract
+    name: VaultToken
   - address: "0x05498e3aa45ce63f47164804732248c19cca6f22"
     tags:
       - contract
@@ -142,27 +163,33 @@ optimism:
   - address: "0xd82a4963eb17867500d93ff1e7aa61df50d39029"
     tags:
       - contract
+    name: OrderBook
   - address: "0x17c314100609cf81f513346191993ba56aa2a18f"
     tags:
       - contract
   - address: "0x168dc3d3f82e458889d3d09f1258b42884a64329"
     tags:
       - contract
+    name: BaseVault
   - address: "0xbd0ea4901352053ba23ae5193d2d5c84de04c35c"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x58fbaafa806598c8e5dcd78118aaad4a6c3dc6f6"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xd2b8ac05d56d3572995f6331fad8431a2de04568"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x1de21618b788dd55d8ecfd3c6512fca8c7a84cd5"
     tags:
       - contract
   - address: "0x72fffffe05f7916a1504da78a79f31e196d734eb"
     tags:
       - contract
+    name: ProxyAdmin
   - address: "0x1cff78b33efb6b11fc5af1ab0ac0e34ec46db037"
     tags:
       - contract
@@ -172,39 +199,48 @@ optimism:
   - address: "0x73959adce16fb8b68dde190f05840f0645f538ea"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x7d072b631ed6fbaf9d65b807e1645282445f0d84"
     tags:
       - contract
+    name: PerpPositionManager
   - address: "0xe9137e8c2f99d5472b286676effb714e636ab131"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xcf4bd13555336065b14210b9c0466f3afefbf1a1"
     tags:
       - contract
   - address: "0x09e56476f4b03191d75f5582bfb2e8e3360dd9c3"
     tags:
       - contract
+    name: OrderBook
   - address: "0x41ea61d3c2977fa941f82d2930a3d1d8125088ad"
     tags:
       - contract
   - address: "0xe4dd52593be31924dffe66aa74b430a1ef291ca7"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xbae5e485884cb5e961c8489ecc78b3842b322159"
     tags:
       - contract
+    name: ClearingHouseConfig
   - address: "0xf794da1f795e8fbfec211fc799b5fb3d205b3a81"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x7cbc2a1b25b530b84cfb7643c9ae15e3926381f7"
     tags:
       - contract
+    name: BaseVault
   - address: "0x32fa2a000d5eabf36034c71de8363a7e90e0e119"
     tags:
       - contract
   - address: "0x4140674748e4a0361a5dc2a53528f8c08c9e041a"
     tags:
       - contract
+    name: Vault
   - address: "0xbe03759b60ce30301ef70cf12448679a9f10f6f7"
     tags:
       - contract
@@ -214,9 +250,11 @@ optimism:
   - address: "0x926efd744284644a8ce3acea765c6340e99a18ba"
     tags:
       - contract
+    name: QuoteToken
   - address: "0x982959d320bd462a011bb5eaf0833697d030bcaa"
     tags:
       - contract
+    name: ProxyAdmin
   - address: "0x8f22c9b054fa4f89084d895790ea2d6b818bd80e"
     tags:
       - contract
@@ -229,12 +267,14 @@ optimism:
   - address: "0x381de316d44e7c8b641365c666379158e0e95803"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x0da4509514efa804b766ed67ea73b261f743ee56"
     tags:
       - contract
   - address: "0x207067b039161cb50e58b1758e0e5c4cf74f0f49"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x963bf81b7977766764902f63fb3b3e44b03873d6"
     tags:
       - contract
@@ -250,6 +290,7 @@ optimism:
   - address: "0x044df4c89bde232cd75bf62c1f5b24984bae3869"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xd85beeca2df41d2bf5d8e815a8127b06c8c3c0c5"
     tags:
       - contract
@@ -259,6 +300,7 @@ optimism:
   - address: "0x3090751612b041910bf2811d499e89d59464f655"
     tags:
       - contract
+    name: PerpPositionManager
   - address: "0xfd2ef498e21610f9ee443523978ce9e1373c2b23"
     tags:
       - contract
@@ -268,9 +310,11 @@ optimism:
   - address: "0xdeec0209de597af6c1c9de7a579cc7af5498e9df"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x4788043595c5da285ff01d3e9295610f02fc593b"
     tags:
       - contract
+    name: Vault
   - address: "0x5a779fd07349983c6aac1fea9a22e562d8bf6e78"
     tags:
       - contract
@@ -280,15 +324,18 @@ optimism:
   - address: "0x6171cf9ad8a6569c91a34fc2c7f8bb6074955152"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x913af0ee4d9f7a4114fc347744b62f04cd6c7b92"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xceebaa671617a58731ab2ae3852e573e6aeee641"
     tags:
       - contract
   - address: "0xddd9650330210683a1015e8f527f662ef1d05747"
     tags:
       - contract
+    name: VaultConfig
   - address: "0x44e6525499fea4a8b62ef7cce6dd3202f9372137"
     tags:
       - contract
@@ -301,42 +348,52 @@ optimism:
   - address: "0x9f256ab14872167bad2fa600c13408128c4d1699"
     tags:
       - contract
+    name: Exchange
   - address: "0x306b08e0a3ecd78e2c5633129ffb6f96714d6606"
     tags:
       - contract
   - address: "0x737d8391bd0e68140a71157937af336f84fd8b5d"
     tags:
       - contract
+    name: ClearingHouse
   - address: "0x2b2b164392541632f96b3c6590fa44dc5a4f4190"
     tags:
       - contract
+    name: KtbArbitrageur
   - address: "0xc856f79354cc446aea09d5f439785329400f6774"
     tags:
       - contract
+    name: VaultConfig
   - address: "0xb124fff44cdacb3dc5f0beba0f8d56f8f5f05edd"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x87067e92ef70194ab6587169dace46a6a85bf0a9"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x2d05b2b25db42ec0bb2d0fbf0e814798f0b313a2"
     tags:
       - contract
+    name: VaultToken
   - address: "0x6c3ca8dabb57779816fb10024557615579f083f2"
     tags:
       - contract
   - address: "0xccd9df4bea0eb111aa6610905029ec5f6da0dbd2"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xab96459e5c3e6e43ad42131d0c84203d00ad5789"
     tags:
       - contract
   - address: "0xf36147b6c5559073aa6f5858b97c15ecf258451a"
     tags:
       - contract
+    name: BandPriceFeed
   - address: "0xf38e82ba4a16b3fb34839757ed3fcab23e68838a"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x75b48fb79b9a27c0b427e4a4e7211bbe965e1ecb"
     tags:
       - contract
@@ -346,51 +403,63 @@ optimism:
   - address: "0xa40b41b3fb78af356c5b660bdbc1306b13fe0124"
     tags:
       - contract
+    name: ProxyAdmin
   - address: "0x9f6f2645b1fb5fce6854b2b229f9509336c37cac"
     tags:
       - contract
   - address: "0x86033092913d14a898ecba70c147659485f8ea1a"
     tags:
       - contract
+    name: QuoteVault
   - address: "0x2cb25061c6745fd7a7cc4369831ab630193d69a3"
     tags:
       - contract
+    name: BaseVault
   - address: "0x3916f90936af7a7be65059df905d7d6e2a2e8cca"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x3876a22b17ad3c77c3a7fe74ff7104582699623f"
     tags:
       - contract
   - address: "0x7f7cb62279b4156d9ddefe37751df2c3bf774c3e"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xc4d80346e9d30aa2bb608a9dc994677bf9b77d16"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xb30da082af0dcd59bead4b2c8cc74508b11a2e5c"
     tags:
       - contract
+    name: PerpPositionManager
   - address: "0x6bce9b12df0b18be43ce47b23ef5a04a2934ad3b"
     tags:
       - contract
+    name: QuoteToken
   - address: "0x2af168f225693fe7a1c6fe5f87ae315fea121eef"
     tags:
       - contract
+    name: BandPriceFeed
   - address: "0x9fea75bda4e828ceed5ebec7b112824cfec89b22"
     tags:
       - contract
   - address: "0x2fd9089f03b9ba5a2f5edf2af7e3e09f062d6698"
     tags:
       - contract
+    name: KtbUniArbitrageur
   - address: "0x216af315204380e14b055e130e6e7877f89959c6"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x05ac722eadbb916a859a656db12543a1f8942f2c"
     tags:
       - contract
   - address: "0xfcb927db6f43112f40855f6e4bbc1a69cee2d8ec"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xeeda167d0841d06d720e8c0c01ffcd2509d8d2f1"
     tags:
       - contract
@@ -406,15 +475,19 @@ optimism:
   - address: "0xda2e757c49ed44d99b782cab1d747ab003933597"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x07295d3780aaa4bb495dcc6e1273dd3e666cd2fc"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x13d0f0f58fa4a1da0c5bccc8c7dc1d0f68e6d8ef"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xad09dd6afbc8080aac660b7536b5e63cce1373ac"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xa1dbd4eb721357c571f98d87a529ae13b1351048"
     tags:
       - contract
@@ -427,27 +500,33 @@ optimism:
   - address: "0x5d873472d463bdd6650a4cb70eba2d13408ea09c"
     tags:
       - contract
+    name: MarketRegistry
   - address: "0x74e8c3aa1a12a67aebaa25c0b5415c9e56b659e7"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x8137ef89cf4e427f87d582eb041158c25c7f1526"
     tags:
       - contract
   - address: "0x602195a9b44711f19c3d6a17674245deb8bc0e2d"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xdcc0ce9ccdf295240e136a279d14e2ead5f87609"
     tags:
       - contract
+    name: BaseToken
   - address: "0x0aab634878e44c151f17c583ea57923d30fc6362"
     tags:
       - contract
   - address: "0xacf71a4df489876863b09c9a15c4b88a160b9030"
     tags:
       - contract
+    name: PerpPositionManager
   - address: "0xa9722d7e6bd2d2a2b6526ce2a12de4d6b737a263"
     tags:
       - contract
+    name: InsuranceFund
   - address: "0x0f3c9ded32ec5592e46b7fa5fabe60b818269a6b"
     tags:
       - contract
@@ -457,6 +536,7 @@ optimism:
   - address: "0x099e0a0fe3f86d32731bd18c9d46dad4c096b782"
     tags:
       - contract
+    name: PerpPositionManager
   - address: "0x93b118125d8e1d2449bad512ecf7d8a6cffa1283"
     tags:
       - contract

@@ -6,17 +6,20 @@ github:
 optimism:
   - address: "0xe5cd62ac8d2ca2a62a04958f07dd239c1ffe1a9e"
     tags:
+      - eoa
       - creator
   - address: "0x99b1348a9129ac49c6de7f11245773de2f51fb0c"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x4064206b0a1f5ba603dd8016ee36141f54506051"
     tags:
       - contract
   - address: "0x225a86073c75f704bffc177d6d71cb2df5648393"
     tags:
       - contract
+    name: ProxyAdmin
   - address: "0xe60cfcef001312aab2548fb19a508efed7370ceb"
     tags:
       - contract
+    name: Unlock

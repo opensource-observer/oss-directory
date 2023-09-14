@@ -6,6 +6,7 @@ github:
 optimism:
   - address: "0x5cb01385d3097b6a189d1ac8ba3364d900666445"
     tags:
+      - eoa
       - creator
   - address: "0xb3285706c1b8b11fb5bc0de4be380066d2cb26d0"
     tags:
@@ -13,6 +14,7 @@ optimism:
   - address: "0x2c12f1d0404080f65c5352b55de3cacb3ff9c360"
     tags:
       - contract
+    name: StrategyAaveDai
   - address: "0xea39c4961db40f2272bd2f3a2f9898aadb419d11"
     tags:
       - contract
@@ -37,12 +39,15 @@ optimism:
   - address: "0x270df474f4bd2b92a45a46228683c971765e81a7"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xe4e59fc6a475cdbf12299513461f0f52644ee16d"
     tags:
       - contract
+    name: StrategyEtsUsdcDai
   - address: "0xea1b7153af7d63e0574cb6b63ccf52428fb33f83"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x7828976aa0ba24dd227329eefe3e770255024e34"
     tags:
       - contract
@@ -64,6 +69,7 @@ optimism:
   - address: "0x03afe3617e5251b976b9d20a3efb68eab7799479"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x1ac4cea131e1479903011fa14e0da499bf239896"
     tags:
       - contract
@@ -73,9 +79,11 @@ optimism:
   - address: "0xcd23ef9d3f47a49480abf2cb7e829c0bd0779497"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x4b34af19c2413239b529aecf420a77c6859bb0cf"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xd95916b7bb470f666c4bda0f5afdaf3d89a2dac3"
     tags:
       - contract
@@ -88,15 +96,19 @@ optimism:
   - address: "0x1f4947cd5a5c058dd5ea6fd1ccd5c311ada9e6fb"
     tags:
       - contract
+    name: PortfolioManager
   - address: "0xa3936ecf31f6583d0e4d36ad10d10112b77468ec"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xfac722133a19d38833cc105b1349715717cf050e"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x29664f19ea2fdadfe262c6057cdc8bc3bad44299"
     tags:
       - contract
+    name: StrategyPikaV4
   - address: "0x18dfd867a29fa57d5cf23ad0eb9f2cf477b488df"
     tags:
       - contract
@@ -109,12 +121,15 @@ optimism:
   - address: "0x58e1c54820048acba5f83515f6bce8468ab5a2f0"
     tags:
       - contract
+    name: StrategyEts
   - address: "0xce071209db0188989a9e5d58eca5493e67713eb7"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xf59c9a5110852a82434e02d1a43169b5fd9897be"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xbc2a7af37bfaddd8be6a08982300c86a9f541742"
     tags:
       - contract
@@ -130,6 +145,7 @@ optimism:
   - address: "0x4aa2172b7c6359e0f5050b16e0fc815419220cf4"
     tags:
       - contract
+    name: StrategyReaperSonneUsdc
   - address: "0x2533a096f9716c9403a59d7a1877581d1cfc8ac9"
     tags:
       - contract
@@ -145,6 +161,7 @@ optimism:
   - address: "0x6f5cea8464a72c5a50dd211478c8363db380a6cd"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65"
     tags:
       - contract
@@ -154,6 +171,7 @@ optimism:
   - address: "0xc3368d934929c03727f32a1e8d5c39b241919cde"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x188ebde9b486b8e4f4cd1a60af64d6efe5f80762"
     tags:
       - contract
@@ -193,9 +211,11 @@ optimism:
   - address: "0x40d993afa2f4ec9db718bcb8476bb1cb69c70af2"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xa348700745d249c3b49d2c2acac9a5ae8155f826"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x511c845346a7bb344bcdd7f5a032c536d0675bd4"
     tags:
       - contract
@@ -208,6 +228,7 @@ optimism:
   - address: "0x3a3ae3313959e102fb1a66678b0b3fcfc40d8742"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x894bca255f25471aa507fec0a6a116434b72cc1f"
     tags:
       - contract
@@ -220,15 +241,18 @@ optimism:
   - address: "0x44a07ee2cd11d16ff65a79132745ebc06180bfea"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x7da99ba6df2972fdb988c9fc007d0fc6068094d5"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xb3f20ddc81b215b0fe1a7d11dbcd3e6b4575375b"
     tags:
       - contract
   - address: "0xc62a6b6048657b9e86a2b3ff21197d079c8b85d8"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x9489d4769d3abd3483421fbff41bd6c7fe8541ca"
     tags:
       - contract
@@ -238,6 +262,7 @@ optimism:
   - address: "0x9813724faf14a35faafc6cd61723a99e97d77807"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x4a909528563ec3494c1acae3abef68f6d281e455"
     tags:
       - contract
@@ -247,6 +272,7 @@ optimism:
   - address: "0x6b4313a412d2cdef9317aaadc0fd518f60889443"
     tags:
       - contract
+    name: Exchange
   - address: "0xa5aa0ee5b202039635e876ed4e5ddb47dbbad0b0"
     tags:
       - contract
@@ -301,6 +327,7 @@ optimism:
   - address: "0x07b8a053cc6ca00a54f8175b1742860470a57332"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x50048c396e821e5f881c6d0e0b616945826124bc"
     tags:
       - contract
@@ -316,21 +343,25 @@ optimism:
   - address: "0xbe6d7b85788d56ba35669f8c7727b578594157d2"
     tags:
       - contract
+    name: StrategyUsdPlusDai
   - address: "0x83af0f6beb6520defe654516faaae0e88d659a90"
     tags:
       - contract
   - address: "0xc8261dc93428f0d2dc04d675b7852cdcdc19d4fd"
     tags:
       - contract
+    name: StrategyRubiconDai
   - address: "0x7568209bfb6faf70bcc595de233c8cbab909c691"
     tags:
       - contract
   - address: "0xdbab307f2f19a678f90ad309c8b34dad3da8d334"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x8deae4e487af7df7e3f12fb39e4c81884c4598bf"
     tags:
       - contract
+    name: PortfolioManager
   - address: "0xd48f25ec821b3ae3e11b53fe1795abdd2e2d1578"
     tags:
       - contract
@@ -343,21 +374,26 @@ optimism:
   - address: "0x314768ad11925aab3fbd5755169086c6afff9e0c"
     tags:
       - contract
+    name: StrategyRubiconDai
   - address: "0x9af655c4dbe940962f776b685d6700f538b90fcf"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xa8411f3061b19059def416e37498d54e5e829a09"
     tags:
       - contract
   - address: "0x9f764d00c3c75ec266380179c5e2a88fa304bdf2"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x36ed49c698747f4f6b12880dc4e8083b112469be"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x291120ffa233285f82a741a2970faf246fe5e88c"
     tags:
       - contract
+    name: StrategyUsdPlusDai
   - address: "0x09d05ffdd9ab48bb397e4a49299a29b66d1f7cff"
     tags:
       - contract
@@ -385,6 +421,7 @@ optimism:
   - address: "0x662b8ba72476494009f9596275abf974d5d327f0"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xc816cc6a0841ce679d168ce6ad100d771d54433b"
     tags:
       - contract
@@ -394,6 +431,7 @@ optimism:
   - address: "0xbf21cbe292b40347b3691c3187645501fc0e5f97"
     tags:
       - contract
+    name: StrategyBeethovenxSonne
   - address: "0x9b5eec7c4e848892c16a5e76f43e8a943c7a9880"
     tags:
       - contract
@@ -415,18 +453,21 @@ optimism:
   - address: "0xd50553944abf29bf5653083489b88dcffc73e14a"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xc356e0c69bad729c9cc157ee3d833dfcace481dc"
     tags:
       - contract
   - address: "0xc9495a07e04cbbedb242b6d73514a3e96368ab14"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x0fe7aa84db235656d09c5b41dead2784efda3b39"
     tags:
       - contract
   - address: "0x2b60ffd309929af6be194b1f9428b63980f9edcf"
     tags:
       - contract
+    name: StrategyUs3UsdcWethOp
   - address: "0x240ed84185f56c45b72601c758f6861451b052b7"
     tags:
       - contract
@@ -436,6 +477,7 @@ optimism:
   - address: "0xb9f54e42bbf3b5f7b318bf90e8f8f755077bbd6a"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xff34aad62aea14e1da04e90967b36c188ac9a770"
     tags:
       - contract
@@ -445,12 +487,14 @@ optimism:
   - address: "0x0f6c2c868b94ca6f00f77674009b34e0c9e67db8"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x0b8aff85d63c77fdfdc5a0ec93db691d506366b0"
     tags:
       - contract
   - address: "0xaa86c0f5f655ef5888551abdc7cc92096c9dc267"
     tags:
       - contract
+    name: StrategyGammaUsdcDai
   - address: "0x90d910532d49ff0de079423817ead88384bee3a1"
     tags:
       - contract
@@ -466,6 +510,7 @@ optimism:
   - address: "0xecf6309e0b47c6e9a3e8b5f7d7d9f6126c5dce3a"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xd547ffb583934425d84829b8c73a3cacb4efd5f2"
     tags:
       - contract
@@ -499,21 +544,25 @@ optimism:
   - address: "0x05a997d46aab1888ecfc965434170df7019fdc56"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x9bd68df6617bcff5ee475554c08b511e09c33bbd"
     tags:
       - contract
+    name: StrategyRubiconUsdc
   - address: "0x304d04acf5637d01588e51100c6b6fdee1b1f4ef"
     tags:
       - contract
   - address: "0x0f25f66138b5c9e1c6f532e83f5dcd10068e8967"
     tags:
       - contract
+    name: RebaseToken
   - address: "0x6d1dd0e9f8961121b9a936dbc3f79383c7605b56"
     tags:
       - contract
   - address: "0x4ce19c33b477250fe9c50172f6125cf480259372"
     tags:
       - contract
+    name: OptimismPayoutListener
   - address: "0x52b2ccddabe5c346c1a0c929a31a153125f251ea"
     tags:
       - contract
@@ -526,9 +575,11 @@ optimism:
   - address: "0x3271371d5ad147140bf321b6ed859cc02afce973"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x52c7cccd0554f8001fd68d579c00f362de0d3e29"
     tags:
       - contract
+    name: OvnGovernor
   - address: "0xcb4d907c8cad49c5e9ad77014935839b3b9edb57"
     tags:
       - contract
@@ -541,12 +592,14 @@ optimism:
   - address: "0x701e4b49497098080ce99545b4277819529f573e"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xe8deea3769f4dbc6046276c7d6076c33ff56442d"
     tags:
       - contract
   - address: "0xf06fdbf0793fee3728e01c5119bf4a67f02869e9"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x7e3bcbc83893e35444cb742350c6d005179bed65"
     tags:
       - contract
@@ -628,18 +681,23 @@ optimism:
   - address: "0x6614ab4e6c02dc88fd6bb161a55524ecb4f6393d"
     tags:
       - contract
+    name: StrategyUsdPlusDai
   - address: "0x230701ebf285371ebef31b39083bcb88a6886b1d"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x815e309df4bf6957e8ebd99106e5fd50af084a0f"
     tags:
       - contract
+    name: HedgeExchanger
   - address: "0x5904847b6040e95fc6c5a9f165c7c2dabbe1df7d"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xef5783eda995560b72baf3852105499dd64eb9eb"
     tags:
       - contract
+    name: InsuranceEtsOpUsdc
   - address: "0x0e2b2e48d5d10a5ac71c6d468cd7f92a962a5679"
     tags:
       - contract
@@ -652,12 +710,14 @@ optimism:
   - address: "0xd976106896678ff615a9525e9954775e52f2fdf7"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x9c7f5154b3cf261c7b6dcf61318652e000a38641"
     tags:
       - contract
   - address: "0x420b3da53ff4c66d818af07fac867cd5b0d2cf33"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xb92fd7abc8da44e122ed9b01b474d61678312037"
     tags:
       - contract
@@ -715,15 +775,18 @@ optimism:
   - address: "0xf71121b4d0692a1f9d90eb1bc44b4ae917d4f2f1"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xd69fab1ff729aa352feb722bcae753ca84ca5827"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x691e330721cec17e8a3addbee2252d0ddd5b0f00"
     tags:
       - contract
   - address: "0x34e5fa15ae262d6d95b58b0a307afcc9faa23268"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x5cd76144e9c95c43e4d1a7f897889f60802a6295"
     tags:
       - contract
@@ -742,6 +805,7 @@ optimism:
   - address: "0x84ebe28f2796d0b61a73a6161bdac64ee3edf52b"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x28f16c9674671e2d6915518c67c99f93e4afe9ee"
     tags:
       - contract
@@ -769,6 +833,7 @@ optimism:
   - address: "0x849b45d86c24bf8d33bc3cf7c6e37e9f83e2351f"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xb2ac124cbd47a1fd38a0ab1ef493291cc3bcb5f5"
     tags:
       - contract
@@ -784,21 +849,26 @@ optimism:
   - address: "0x54c4e51e699335e2b00597e0d89410c1f2eccce5"
     tags:
       - contract
+    name: StrategyRubiconUsdt
   - address: "0xc24c8dc3a40d92940fd9b9b0570589564fe755bb"
     tags:
       - contract
   - address: "0xab1c9e022eb0aa2c946500d8c50727e5aa897fbf"
     tags:
       - contract
+    name: Exchange
   - address: "0x680fc24418b905a7450d720121aa621fe2b20bc4"
     tags:
       - contract
+    name: StrategyRubiconUsdt
   - address: "0xe69ab306134dfab8d434b1100ea4cefd2ba4f00b"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xc81ba5fba11c0249bdf3637acaebee4d0ea6dcff"
     tags:
       - contract
+    name: OptimismPayoutListener
   - address: "0xe07d376e0f132cd1a72e5125b6dace7f2a0ba106"
     tags:
       - contract
@@ -820,12 +890,14 @@ optimism:
   - address: "0x8855e27abe0c121c5b9e1d1572b40cab184daf21"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x5de3cb7d633f747e8ecd5c00be84ba9c6e0d1698"
     tags:
       - contract
   - address: "0x080e46dbab07e9d0356af6a6d91168e4c42d8ec9"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x77af00b971f06671c8feac070df6205cbb43ba97"
     tags:
       - contract
@@ -841,15 +913,18 @@ optimism:
   - address: "0x4de6bc3934d3b86a183e857c3c8cdd3e5b3013c3"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x0c4d1201edda4656b68553294e3193e368bc8bf3"
     tags:
       - contract
   - address: "0x18ec79b8b78a196704d60bbf9af9ba9899679e5a"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xb9a141545295c26d78e3c87e804befe69d029de5"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xdd1bf80d88076c51ff56d2ac19cf93243aeef111"
     tags:
       - contract
@@ -862,9 +937,11 @@ optimism:
   - address: "0x062d8e9189230601329a0ca09fe8de691a3e92d0"
     tags:
       - contract
+    name: StrategyKyberSwapUsdcUsdt
   - address: "0x340372e89ba6e021a93716944dc2de36e360f346"
     tags:
       - contract
+    name: HedgeExchanger
   - address: "0x4594b02860c3f4738c7c863faaffd6f41ee3e50f"
     tags:
       - contract
@@ -892,6 +969,7 @@ optimism:
   - address: "0x1b3b7b72e0bbff68c1311459218aef5de5716c53"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xb013be825f93d05616f9d71348584136101db09e"
     tags:
       - contract
@@ -901,12 +979,14 @@ optimism:
   - address: "0x9c97eb920f88a927ef3b0a89650104744910a641"
     tags:
       - contract
+    name: OptimismGlobalPayoutListener
   - address: "0xda9556c3cfc0d716181bc9545a23dcce85d19b9e"
     tags:
       - contract
   - address: "0xc24e60bbc4f7dbfd8076d8ac87896e14499a13ca"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x5359781abf0362d7b259136751e718192a7763f7"
     tags:
       - contract
@@ -922,18 +1002,21 @@ optimism:
   - address: "0xcaaf507138ca294473018cd0182a3a534284aaa3"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x6017b35b34617f9acd2635c76e35ee06e068cbe4"
     tags:
       - contract
   - address: "0x383a9c5f124be993852435074169a418b7aac182"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xc9accce002ba7f88d18e181f92b65b144d601573"
     tags:
       - contract
   - address: "0x039d778af09e9b71a39f1ba09609b529131090bc"
     tags:
       - contract
+    name: PortfolioManager
   - address: "0xe9c41417cd625a8a4336d17c6034a110f171ac97"
     tags:
       - contract
@@ -976,9 +1059,11 @@ optimism:
   - address: "0xcf8ec04d6b69cee2ea39695e475bd73253395938"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x210d2a3e81853fc5f12c8439184eb635055c5104"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x80c9ad8e6946059c1f5cbb8c230d8d92c9210cc1"
     tags:
       - contract
@@ -994,9 +1079,11 @@ optimism:
   - address: "0xdc82184d8cba9389daec232a8dc37af7915bfcf0"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xfc9f6a01f0e8b26c8f12e214be7e6311153eb9f3"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xc2de28aeac3d4ca04091468cfe5d6cab88977694"
     tags:
       - contract
@@ -1006,6 +1093,7 @@ optimism:
   - address: "0x397f553495d8f7fe21b43b5aa0030e1d1cc6b0f1"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xd80de511048957413100c5390c5e5626972d0296"
     tags:
       - contract
@@ -1048,9 +1136,11 @@ optimism:
   - address: "0xfae5ebfc4a97b17a16c6666966ad2a27b4037211"
     tags:
       - contract
+    name: StrategyRubiconUsdc
   - address: "0x1136e80d0fee7ed17d9dfcdd681174e8c6f8514a"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xbf6665b1c4d9752d727dfd11208350548e4a0131"
     tags:
       - contract
@@ -1075,12 +1165,14 @@ optimism:
   - address: "0x6b2303bbb4f872fd26add9e42543fd5903eba332"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x98f8c6b22abda9a54d3d4f0f6200b4e4d4c4080b"
     tags:
       - contract
   - address: "0x0fbba9778386eb874dd937feee98ab9cff2802bc"
     tags:
       - contract
+    name: StrategyRubiconUsdt
   - address: "0x14172babb0cba753fc3aafd0f5b92d7373ff546f"
     tags:
       - contract
@@ -1096,6 +1188,7 @@ optimism:
   - address: "0xad0456098e5f5f3ac758331e13ea661cea7fd02f"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x2b8b1f84ecd146f709b8b869cbb03fe190f6fa1a"
     tags:
       - contract
@@ -1105,9 +1198,11 @@ optimism:
   - address: "0x03df70538334f98a5fb71dd6341d3bc6dd104b9e"
     tags:
       - contract
+    name: StrategyPikaV4
   - address: "0xac0d6c1ae37747322096f871f41cd92017d3d534"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x1c5888e286672bfb50977445ad5e41eb081f7dd4"
     tags:
       - contract
@@ -1144,12 +1239,14 @@ optimism:
   - address: "0x6b43ed9671a6ba327354a349bacb22e294ff1b2a"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x4aecd2473ecb676353d40fcbed929b2a92b9982b"
     tags:
       - contract
   - address: "0x73cb180bf0521828d8849bc8cf2b920918e23032"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xb7ff28a21b9daf2f9f0136601098e66c49d32510"
     tags:
       - contract
@@ -1159,12 +1256,14 @@ optimism:
   - address: "0xa484e394c9ae2af31f0c06089c30a9adca8666f0"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x4cd5d0ce882b391bb6ab35c7e530ba9d4c4666fa"
     tags:
       - contract
   - address: "0xf73b0d870836b0914b7fa24d44231f5a7f54c304"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xd0a3b90abf3d5ce3a9adb1aa810ebb66a1215845"
     tags:
       - contract
@@ -1180,9 +1279,11 @@ optimism:
   - address: "0xfe1ddd9b89e5ec5edf14ce2bba861774cf70c53e"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xb7b9addfcc137b536a8f4aa76ba409f5597b6609"
     tags:
       - contract
+    name: StrategyEts
   - address: "0xf298d5e3d14dc1c20f86a7073983ae851ed087f4"
     tags:
       - contract
@@ -1192,6 +1293,7 @@ optimism:
   - address: "0xdfa3b20211ade73002aff9d94fef4c811df9351f"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xb7481aa50486df7c38a4f1e2c5b9c650e29bec0b"
     tags:
       - contract
@@ -1201,12 +1303,15 @@ optimism:
   - address: "0xd45165e76132fc8e94921932775fd9519eded6da"
     tags:
       - contract
+    name: StrategyEts
   - address: "0x4332b77f3c8c5b5a650555b01a404f8b4bc272a7"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xf8928f9118f9719d5f1b2aa5e7697bee6381fc7d"
     tags:
       - contract
+    name: KyberSwapRewardUsdcUsdtLibrary
   - address: "0xa517b8da3bf2eeaf0bab43d2c9a56e09131e4e97"
     tags:
       - contract
@@ -1234,6 +1339,7 @@ optimism:
   - address: "0xb79dd08ea68a908a97220c76d19a6aa9cbde4376"
     tags:
       - contract
+    name: UsdPlusToken
   - address: "0xbdf139cc161eb93e8ce95c58af98027478d803c7"
     tags:
       - contract
@@ -1255,6 +1361,7 @@ optimism:
   - address: "0x005980270c2ad8728e8479ac3b1b25d8671f46b2"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x2ba4cc675f2d80aa812cc465c13ff0e5484e629f"
     tags:
       - contract
@@ -1273,12 +1380,14 @@ optimism:
   - address: "0xae97dfd8e2112c5b526871a6d8eb497210e7e208"
     tags:
       - contract
+    name: StrategyArrakisUsdcDai
   - address: "0xcca3bffed069771c7ed6dd3227c26b1800f71c69"
     tags:
       - contract
   - address: "0x832f18e921375d9dc60ed0239698ccbb0f274248"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x85d01fc822b83f70a16350afe82b8a5ac0dbe765"
     tags:
       - contract
@@ -1291,6 +1400,7 @@ optimism:
   - address: "0xbce871e9623f22d6d199a65dfda9516b5652be45"
     tags:
       - contract
+    name: StrategySushiswapUsdcUsdt
   - address: "0x3198ebc019adfdb23ab60876767c9113c6a5d862"
     tags:
       - contract
@@ -1312,6 +1422,7 @@ optimism:
   - address: "0x39a6ca4bbe0906e7ad4ebfc2d264a57420d54312"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x7beb951ad60f36142738ad3e4248229037dfff48"
     tags:
       - contract
@@ -1330,18 +1441,22 @@ optimism:
   - address: "0x7d8d66020cd461798a86e550e1d56a982042b515"
     tags:
       - contract
+    name: RebaseToken
   - address: "0x58ca697e2e58a56c79b30971ac3c60b9b2c5cc97"
     tags:
       - contract
   - address: "0x9074a17d65e87ed43e3436cf032a272557008989"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x7cb1b38591021309c64f451859d79312d8ca2789"
     tags:
       - contract
+    name: Mark2Market
   - address: "0x77020e5b2f9a77667db39712408cb86c172aeae9"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xe1e36e93d31702019d38d2b0f6ab926f15008409"
     tags:
       - contract
@@ -1351,12 +1466,15 @@ optimism:
   - address: "0x6d2eaec2f07358e50133002b112e9e9ca5c8314f"
     tags:
       - contract
+    name: StrategyAave
   - address: "0xf3a75b6dd1a60526755a370afab48ff3501e0d15"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x4de1a5746be0b5df757fa2b14c4125cd9c828023"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x3a3cb24603138fa89f030192b8b364113f81408d"
     tags:
       - contract
@@ -1372,12 +1490,14 @@ optimism:
   - address: "0x544c09424dfc2865c05dedcadf5801e09a1f8dcc"
     tags:
       - contract
+    name: StrategyReaperSonneUsdc
   - address: "0x6c6f25f2727351eb244fdcae24a68f3b8bea01ee"
     tags:
       - contract
   - address: "0xe982a4cc1fb328654e2b3347e00a8c55e297d8d6"
     tags:
       - contract
+    name: StrategyReaperSonneUsdt
   - address: "0xecf86af2359954d5163636a944ae7e9c625f5b4a"
     tags:
       - contract
@@ -1387,12 +1507,14 @@ optimism:
   - address: "0xc33d93abcb103edb8a3368d78b4739a9d0dbf4d8"
     tags:
       - contract
+    name: StrategyUsdPlusDai
   - address: "0x3fb98bf8c413914e796a09583fb90f9317a11fc9"
     tags:
       - contract
   - address: "0xa944c8c44b54b591e170bd543ba7483db488813a"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xa457a6aed9679eb3018bed7ff7209192aa841084"
     tags:
       - contract
@@ -1411,6 +1533,7 @@ optimism:
   - address: "0x52fa472b1cecd98cdabe02181fad811e4f9b675f"
     tags:
       - contract
+    name: StrategyUsdPlusDai
   - address: "0x419a6fe3caca968785ab6611335a283da9815e9e"
     tags:
       - contract
@@ -1429,6 +1552,7 @@ optimism:
   - address: "0xda8bb2a1c1b31fa6d75608685fcdfada1e134ae6"
     tags:
       - contract
+    name: HedgeExchanger
   - address: "0x5fb01a44421022442661ead20d58996c232f2e06"
     tags:
       - contract
@@ -1450,12 +1574,14 @@ optimism:
   - address: "0xafbcb41c5d5a388440eb11fa59d45d09a5d3c212"
     tags:
       - contract
+    name: StrategyRubiconUsdt
   - address: "0x29045d62b0ca66d4bd99c72c6f3170387a82f4a1"
     tags:
       - contract
   - address: "0x4395ab761ebaa01ec22940f32568845c2a8baf3e"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x3d363e188949d53ff900e8927a7e0fa8dad2e5a9"
     tags:
       - contract
@@ -1468,6 +1594,7 @@ optimism:
   - address: "0xa4f9d2107e5a7a8a512cfb01170dd4d456adf0f1"
     tags:
       - contract
+    name: StrategySushiswapUsdcUsdt
   - address: "0xe1487c93c84054a5052760a0ab29a51582c63035"
     tags:
       - contract
@@ -1483,9 +1610,11 @@ optimism:
   - address: "0xb4aa1de9b87cb65c31dc9711fcb400c20008e14e"
     tags:
       - contract
+    name: StrategyGammaUsdcDai
   - address: "0x8010b679c929212adb3f07bb9bd6e91204bd6b94"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xde13eba3109336e43533cbca0f3817928f40734e"
     tags:
       - contract
@@ -1495,6 +1624,7 @@ optimism:
   - address: "0x33227153345c71dc3552af7cba3af07c7b7b762b"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x06468f03c7eed2507936d1e90d9a3359d91d9cd8"
     tags:
       - contract
@@ -1537,12 +1667,15 @@ optimism:
   - address: "0x52a8f84672b9778632f98478b4dcfa2efb7e3247"
     tags:
       - contract
+    name: WrappedUsdPlusToken
   - address: "0xb6dee27f7cfd546a44a894b3d37cb668408a43c6"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x3de411bcd6bd435f717178e88ceb01a1f097664e"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x6f330902465b7e8ef7ef2d340e84d67aed4a0558"
     tags:
       - contract
@@ -1579,6 +1712,7 @@ optimism:
   - address: "0x695368a1a3b2acc6b9ac3c84ef8881cab6b5a58d"
     tags:
       - contract
+    name: StrategyRubiconDai
   - address: "0x22209d0c5e95161328851f28293fdb6b192dc6fd"
     tags:
       - contract
@@ -1591,6 +1725,7 @@ optimism:
   - address: "0xbed45d30b6a20d77621965e42c855e1060b4a7af"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x7dbdb1a139f58b43ddd3f7a56edad6cab2708a58"
     tags:
       - contract
@@ -1603,6 +1738,7 @@ optimism:
   - address: "0x44c8704896de8e011b8fce33cdc610d863e0bfde"
     tags:
       - contract
+    name: StrategyEts
   - address: "0x006a0f4ca319363c668c639fb999a170fa5808e8"
     tags:
       - contract
@@ -1618,6 +1754,7 @@ optimism:
   - address: "0x6cd26db69ebe1334173b035dc2148b2a00dba7a2"
     tags:
       - contract
+    name: WrappedUsdPlusToken
   - address: "0xd232bb8804e749da251ee4d509b1751cd062c2a2"
     tags:
       - contract
@@ -1630,6 +1767,7 @@ optimism:
   - address: "0x7fcc5d4ac5e27a9f6d9bc0b87d57e4e82b9d42b9"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xf4c58b78ab5da37f9cd8556875720569720e2fb3"
     tags:
       - contract
@@ -1699,9 +1837,11 @@ optimism:
   - address: "0x78cc4ef71b6b06773ebe7de68d4ee556333cc03b"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x7d28555ef6d0ae1a1683f854df394818fe679393"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x8767a49d90f6fd60295083eade854f3a67a67516"
     tags:
       - contract
@@ -1723,6 +1863,7 @@ optimism:
   - address: "0x6e406b69f99fdb0c67667ee82d9dbf7c02f43482"
     tags:
       - contract
+    name: StrategyArrakisUsdcDai
   - address: "0x6c15d7a3218ed11b7ff8f47c2c752b569e5f4389"
     tags:
       - contract
@@ -1738,6 +1879,7 @@ optimism:
   - address: "0x2a382ce0dd0e667724bdeeca72a96a96337fcdd3"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x00c89522f416602d16c98e73c8573d4fadc385a7"
     tags:
       - contract
@@ -1747,9 +1889,11 @@ optimism:
   - address: "0xa3c35dcd2ae4abe412715b1283293527e35a9b59"
     tags:
       - contract
+    name: StrategyReaperSonneDai
   - address: "0x33780001580ebed03362dc07372047523eaaf0fd"
     tags:
       - contract
+    name: StrategyKyberSwapUsdcDai
   - address: "0xedcaa8fc4407a062a8fd490117f8174c3e97d8d3"
     tags:
       - contract
@@ -1771,12 +1915,15 @@ optimism:
   - address: "0xb090afe2aac35778706bf447a52ad5c69604180f"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x9e88f7cf6c9fc2895dfaa1b7c21d446ec1749f89"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x601475413fe7570e9c1b13bc95d7410c6e6ccb75"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x2b65fb73a3fb0e738bbe0726754801bb422fad6d"
     tags:
       - contract
@@ -1786,15 +1933,18 @@ optimism:
   - address: "0x1b797450434e0deda4d2c3198eee1d677d3dce4c"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x50f3aa4c396bb3ebcbe9c494219c2368882f7d51"
     tags:
       - contract
   - address: "0x0c13ca908cdf6a49cf3d17f2aff419d45fc590b6"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xd4d441021e3f142cb6c6bcbcc8f27b0c3dd71e13"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xf845cc752b7e7fea359585a3ec9c0cfe525bda8a"
     tags:
       - contract
@@ -1804,9 +1954,11 @@ optimism:
   - address: "0x5cea15f9a98f86cbca9cb3262c8f49ca45089fc9"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xa88f8c02ebde678de623c6bcfc886de82e18ad00"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xe3ad82e330bd51b4ade60bc772b13fc9a879d66b"
     tags:
       - contract
@@ -1840,15 +1992,18 @@ optimism:
   - address: "0x861738ffd9bb61157e446a1cc352cd512c17b034"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x33b15a1b4e7bbecfa2e67318d661ece53421d72a"
     tags:
       - contract
+    name: OptimismPayoutListener
   - address: "0xf0c7c75b61ed7029319bf7273dd2b690d6302c0b"
     tags:
       - contract
   - address: "0x784f498944b7477682e4058d98cccdc3f8c0bad1"
     tags:
       - contract
+    name: StrategyVesperUsdc
   - address: "0x2170b16087f0a54dc9744ec4c2124674fee7cbcf"
     tags:
       - contract
@@ -1876,6 +2031,7 @@ optimism:
   - address: "0x63989ee46a2e6c538151ec7f41b9406686278a26"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x8988fb2747e518c74f940951eaa7f7a498c65027"
     tags:
       - contract
@@ -1894,12 +2050,14 @@ optimism:
   - address: "0x7b11560b1b29e68f53e4c87dc149ea2b579762bd"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xb8f671b84992e5506a8c383fa74851f1d22ee8df"
     tags:
       - contract
   - address: "0x6389d1f4b50f06c19a63a8f80bc67804f5d77e5d"
     tags:
       - contract
+    name: StrategyAave
   - address: "0x3f0225051e0145b27a38c8ba36427a1daab4c0a4"
     tags:
       - contract
@@ -1915,6 +2073,7 @@ optimism:
   - address: "0x5b41b3b03f5af12f64c88b19ddcddcb7dcac958f"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x3765ef51c4291e15a07b398a0b45d3c54329eacd"
     tags:
       - contract
@@ -1939,6 +2098,7 @@ optimism:
   - address: "0x5518ed1dd612742e3369336ecc0fb22d94942725"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x61eff9dbf8d7722a26caadef7c2b65757d01cbf7"
     tags:
       - contract
@@ -1951,15 +2111,18 @@ optimism:
   - address: "0x75d5db90cd909bd074c0174d11ccfefc8057e8df"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x237acbdc9e0739f155c62290c44e9b878ee1dd7d"
     tags:
       - contract
   - address: "0xced6f77e0e7e39b98e7b1747fd90286812644e90"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x1a8bf92abe1de4bdbf5fb8af223ec5fedceffb76"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xc3e0d1adeaabe5df13c2f7768af485f14c66e87c"
     tags:
       - contract
@@ -1984,9 +2147,11 @@ optimism:
   - address: "0x41b7237436a3f55fd383c1848c6d5ee94cce6135"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x092ab9b8897dc38b7c3f472e372c3ce81b9b51ea"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x054ea6e84c4ab0017b210dfadb34dfd6d36eea22"
     tags:
       - contract
@@ -2002,6 +2167,7 @@ optimism:
   - address: "0x982ee057b633fce7fe7c8fc31bd556fccb81fb92"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xb25ce65105a349c6cbdc26903cda1f83c12ea84f"
     tags:
       - contract
@@ -2035,9 +2201,11 @@ optimism:
   - address: "0x2e80122b1a095c25aa5717b2be8dc1eafe9c8850"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x8d2126e13d4fb57b4dd1e37cb0e74ac270528298"
     tags:
       - contract
+    name: StrategyReaperSonneUsdt
   - address: "0x4957653e0fdd3ea8a76577b81e12e89dd3e56f8e"
     tags:
       - contract
@@ -2047,6 +2215,7 @@ optimism:
   - address: "0xccb9bc61794263748df0f73ae92465dd0ade8c6a"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x196f418ec6ede5ee06497191c1e9d06c55d9f797"
     tags:
       - contract
@@ -2086,6 +2255,7 @@ optimism:
   - address: "0x9adecfc95e1322e87a92d6e107e33b7de750d90f"
     tags:
       - contract
+    name: StrategyUsdPlusDai
   - address: "0x7af61188d005bfff0ac0c5ac02bce4b17d639ba3"
     tags:
       - contract
@@ -2098,6 +2268,7 @@ optimism:
   - address: "0x5e040e824d48d7759dfe2d6c6de6998407e9bd32"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x943cf572962429852c96c1624d2a898db3f55ae5"
     tags:
       - contract
@@ -2113,6 +2284,7 @@ optimism:
   - address: "0xfa5328a029575f460d9fb499b1cdce25b69b1038"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x6380309a2b623eb4580850f4cdd3b1ed4087deaf"
     tags:
       - contract
@@ -2125,6 +2297,7 @@ optimism:
   - address: "0x18df2ead431595da94d75b0d1d444e771de6c90a"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xe58fb719ef52e1a502116d201c3e86bfbafd182e"
     tags:
       - contract
@@ -2137,12 +2310,15 @@ optimism:
   - address: "0x67f4d2332b2985816e95cfe0179d885d119aa5df"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xd33aba7d93fd4c15bbade1b2f50fb4b6cedd0cea"
     tags:
       - contract
+    name: StrategyReaperSonneUsdc
   - address: "0x9ea35c918978d28b28325495b30e0c856abc14c0"
     tags:
       - contract
+    name: Market
   - address: "0x4d90512709935461f41c01db60267c9a4ac9c924"
     tags:
       - contract
@@ -2152,6 +2328,7 @@ optimism:
   - address: "0xad1164afd0753fc55fba4b46a5d338b7acad6060"
     tags:
       - contract
+    name: StrategyArrakisDaiUsdc
   - address: "0x2f7eca37123f70fd60d9339c622b14dd0e515b7e"
     tags:
       - contract
@@ -2164,6 +2341,7 @@ optimism:
   - address: "0xc328cfe603934d4796721f505dd4ae8b6791e0b0"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x154e2d188c5c9a25dd66dc268a578affc72f188d"
     tags:
       - contract
@@ -2176,18 +2354,21 @@ optimism:
   - address: "0x9fd56b853c73888b0b3d1b41e6695c4eee12a344"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xe23bec5b8c411d64e7af7d6cf95e5d66fc03eaa5"
     tags:
       - contract
   - address: "0x2c80d9ee6f42a9af2f681fe569ab409df3aa46f7"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xcc68d5fd4203397c92197d86f58dc476b53adeb7"
     tags:
       - contract
   - address: "0xa45df21a497e3e31a7e0fbde52c10d8158cb13e8"
     tags:
       - contract
+    name: StrategyReaperSonneDai
   - address: "0xbac1b1c50ec975858ee467a006b21cf9dc8ecfce"
     tags:
       - contract
@@ -2215,6 +2396,7 @@ optimism:
   - address: "0xd3da26165a1d8a89f02a09d51940e9e8777b800a"
     tags:
       - contract
+    name: StrategyTest
   - address: "0xc5e02222e019727cc9b3cd1ec2c73d766e7eefc3"
     tags:
       - contract
@@ -2230,6 +2412,7 @@ optimism:
   - address: "0x0296b27c2041d55c7220b05aa2079ef1e8e3b60a"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x794fb31e55d3583c94b8f3344b8e2aa19ade7ad1"
     tags:
       - contract
@@ -2257,12 +2440,14 @@ optimism:
   - address: "0x30e5f417f9a4c2bfeee6c29b94303533ab57e7a3"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x39cb0f37cdc83d2478d10dadec362bf3e8468c46"
     tags:
       - contract
   - address: "0x71e8b8c242fee8cb8fdffaf4894f7840ee2c69ea"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xd159de275ebea6bbafec96f452389a33b573f017"
     tags:
       - contract
@@ -2278,6 +2463,7 @@ optimism:
   - address: "0x32b57ecf47ce8534b0cfd450fd78a1bc1140d8b1"
     tags:
       - contract
+    name: StrategyUsdPlusDai
   - address: "0xf7b085aadbfb2c0321a438ec750e413cf6c57666"
     tags:
       - contract
@@ -2287,12 +2473,15 @@ optimism:
   - address: "0xa98ca663cbeeb5758886e76d7e26f2ca369e5753"
     tags:
       - contract
+    name: HedgeExchanger
   - address: "0xc69f69c6165314b9d658e5345dadea7956145f02"
     tags:
       - contract
+    name: StrategyAave
   - address: "0x7f4f84c02e63a83e52e48b60eec33c1fe6700e57"
     tags:
       - contract
+    name: StrategyReaperSonneDai
   - address: "0x19c0f0388521f68ca73dd02622943202f9e6b461"
     tags:
       - contract
@@ -2302,9 +2491,11 @@ optimism:
   - address: "0x1459e45794f5a784613682af42f86793038eeab1"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x99601e024709ce31b59aeb5a80a9de2795d98351"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x05c07b7462cad6250aa8cfcd5da43ec90c9244f2"
     tags:
       - contract
@@ -2329,6 +2520,7 @@ optimism:
   - address: "0xc86c13b7ec3a812f30214c759646ccee5e368955"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xeb30a23b89a76c98f10fb0790ba620c91ccb8ea0"
     tags:
       - contract
@@ -2347,24 +2539,28 @@ optimism:
   - address: "0xc43e10375573eef024863c72cec5e0e752bffc00"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x7e74b80d7e3fb48273d89293ce4a4e7f25fb72a6"
     tags:
       - contract
   - address: "0x91843a478c8c4226224a11689cdc831e7e3c0f21"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x780890fc9e34c96692d7a338f6ad3f89604d8f7a"
     tags:
       - contract
   - address: "0xac57cd23a3dbf14a76a7d9ff06c5c0ce035a20ce"
     tags:
       - contract
+    name: StrategyEts
   - address: "0xbe77573c2465371371c486514d42658b0fa09aab"
     tags:
       - contract
   - address: "0x2f72b885eca39fe8eee67b25791944e024c8a66c"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x5a5c6aa6164750b530b8f7658b827163b3549a4d"
     tags:
       - contract
@@ -2392,9 +2588,11 @@ optimism:
   - address: "0x1fe9842d55558312f20c9d9732272d2584146c7d"
     tags:
       - contract
+    name: StrategyKyberSwapUsdcUsdt
   - address: "0xdcbf5a96452638488edbda18449b6245b065ebea"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x5c8758966d0877851dcf0ddaa924f50892cb0c3d"
     tags:
       - contract
@@ -2407,6 +2605,7 @@ optimism:
   - address: "0x3afba15c076e5c393315c2dd957f3f336163037b"
     tags:
       - contract
+    name: HedgeExchanger
   - address: "0x159f28f598b5c5340d6a902d34eb373d30499660"
     tags:
       - contract
@@ -2434,15 +2633,18 @@ optimism:
   - address: "0x0b8f31480249cc717081928b8af733f45f6915bb"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xe04d714381762db13c59d0cad873fb2db3a964fd"
     tags:
       - contract
   - address: "0x62f76af974afab69baa4bc8b4d00156a72568b41"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x256175dcd8ed54e5e5a31a8692736b0a64a52234"
     tags:
       - contract
+    name: HedgeExchanger
   - address: "0xed36a68a58ac53c3af26ba1d7364c8b6633d233d"
     tags:
       - contract
@@ -2479,6 +2681,7 @@ optimism:
   - address: "0xdd2e9873e4c1402fd81c62b69aacd4a28112ed5a"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x5fa864c6a281db4ba36f8aaabc56265b13b547f5"
     tags:
       - contract
@@ -2500,6 +2703,7 @@ optimism:
   - address: "0x54403d59e8856d0fb4763ed92aa843f0cac6aa88"
     tags:
       - contract
+    name: OptimismPayoutListener
   - address: "0x088b22502d3df4a55c73e341f6990114b629d074"
     tags:
       - contract
@@ -2518,18 +2722,44 @@ optimism:
   - address: "0x9c65423da6d9b481cd756eb9f9f79f902e08acfb"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x909cc74fa5fc832cc1c5c7d2d9ddd1574127d231"
     tags:
       - contract
   - address: "0xde682e72c52b726e27e2c65ee90a79563780d33e"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x0914663038b0c15d92f3bec226bd13880c25cb63"
     tags:
       - contract
   - address: "0x5226e549371d2a376a58c142c0f389e3093070cf"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xbdd1a0ee987f118336e50054db761cebe47d626a"
     tags:
       - contract
+  - address: "0x44bb1f5eea87cd910505eea6ad7eac6e14eee1bb"
+    tags:
+      - contract
+    name: StrategyKyberSwapUsdcDai
+  - address: "0xb21350049eeef54ffb1bcaf8c7848acc631e6d6f"
+    tags:
+      - contract
+    name: StrategyKyberSwapUsdcUsdt
+  - address: "0xe46c41d78d2115a61b0a898175dc25db8210b8ec"
+    tags:
+      - contract
+    name: StrategyPikaV4
+  - address: "0x7067903fb5501102442bb5cc0a8e6f5ceb391be0"
+    tags:
+      - contract
+  - address: "0x3a18062f12939658ac8c020a0443a388db00ea42"
+    tags:
+      - contract
+    name: Ovn
+  - address: "0x3b08fcd15280e7b5a6e404c4abb87f7c774d1b2e"
+    tags:
+      - contract
+    name: ERC1967Proxy

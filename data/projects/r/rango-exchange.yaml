@@ -6,10 +6,12 @@ github:
 optimism:
   - address: "0x7e8a8b130272430008eca062419acd8b423d339d"
     tags:
+      - eoa
       - creator
   - address: "0xb22841ef2ec2c820c0d0fc5370f765791668f50c"
     tags:
       - contract
+    name: RangoCBridge
   - address: "0x75c9d9a49c62a31e307794d5b9959daac22aab0b"
     tags:
       - contract
@@ -19,6 +21,7 @@ optimism:
   - address: "0xa4bb709b56901e8e1d7c51605a46f75983fb39e1"
     tags:
       - contract
+    name: RangoV1
   - address: "0xe48f23956bd88f68399a72f996364d9b50bbdd18"
     tags:
       - contract
@@ -28,6 +31,7 @@ optimism:
   - address: "0x688a62d79aab9628783383b9fabb46c2dc6c2faf"
     tags:
       - contract
+    name: RangoCBridge
   - address: "0x17c33cd997d8a3eb3f7945486b47c456b1f02d87"
     tags:
       - contract
@@ -37,6 +41,7 @@ optimism:
   - address: "0x72aa25d1c70ab1423a6d65bf2cc6e4270a6e0224"
     tags:
       - contract
+    name: RangoMultichain
   - address: "0xc4300be7878f42b39bdfb6a57d0f88eb87b842c3"
     tags:
       - contract
@@ -46,9 +51,11 @@ optimism:
   - address: "0x0e3eb2eab0e524b69c79e24910f4318db46baa9c"
     tags:
       - contract
+    name: OptimizedTransparentUpgradeableProxy
   - address: "0x49ca35468148a3ca4737c397d918834b790c1aef"
     tags:
       - contract
   - address: "0x6e47adf8a0bb4e3f4252f87beefc373752869b17"
     tags:
       - contract
+    name: ProxyAdmin

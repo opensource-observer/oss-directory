@@ -6,7 +6,252 @@ github:
 optimism:
   - address: "0xc9424ba7e09a46f50f8aa89203c61149091adbcd"
     tags:
+      - eoa
       - creator
   - address: "0x50500ccd11e29f14008c7778a6ced655727a21c3"
+    tags:
+      - contract
+    name: EVMValidatorStgV3
+  - address: "0x9f403140bc0574d7d36ea472b82daa1bbd4ef327"
+    tags:
+      - eoa
+      - creator
+  - address: "0x45208e8d6d09d6bfce5094083ab36f22bdfc8456"
+    tags:
+      - eoa
+      - creator
+  - address: "0x18606e2abaa0ba15cc1d0d3b55521bd2247e4d2e"
+    tags:
+      - eoa
+      - creator
+  - address: "0x01c28a1b29098175fd5c74f6dd9225b0853325fe"
+    tags:
+      - eoa
+      - creator
+  - address: "0xed20c81dc8a28769ea14e3ffbd782967cc53bb28"
+    tags:
+      - eoa
+      - creator
+  - address: "0x5e9bf1dd74b4d25b7009af11582f537b08ea3d3c"
+    tags:
+      - eoa
+      - creator
+  - address: "0x9740ff91f1985d8d2b71494ae1a2f723bb3ed9e4"
+    tags:
+      - contract
+  - address: "0x3c2269811836af69497e5f486a85d7316753cf62"
+    tags:
+      - contract
+    name: Endpoint
+  - address: "0x4ee2f9b7cf3a68966c370f3eb2c16613d3235245"
+    tags:
+      - contract
+  - address: "0xb6319cc6c8c27a8f5daf0dd3df91ea35c4720dd7"
+    tags:
+      - contract
+  - address: "0xc1b15d3b262beec0e3565c11c9e0f6134bdacb36"
+    tags:
+      - contract
+  - address: "0x2d61dcdd36f10b22176e0433b86f74567d529aaa"
+    tags:
+      - contract
+  - address: "0x66a71dcef29a0ffbdbe3c6a460a3b5bc225cd675"
+    tags:
+      - contract
+  - address: "0x38de71124f7a447a01d67945a51edce9ff491251"
+    tags:
+      - contract
+  - address: "0x980205d352f198748b626f6f7c38a8a5663ec981"
+    tags:
+      - contract
+  - address: "0xfe7c30860d01e28371d40434806f4a8fcdd3a098"
+    tags:
+      - contract
+  - address: "0xae78956593dec9add13b4b892625a62a415dff4f"
+    tags:
+      - contract
+  - address: "0xb328c2c62e83d3a179646b5c7284a99182735241"
+    tags:
+      - contract
+    name: Treasury
+  - address: "0xb3cb073ade360e9faaaac8f8de935858da3ef62c"
+    tags:
+      - contract
+  - address: "0x4d91d0bd09d634a7f5a99b5eeef3af6241e9fe07"
+    tags:
+      - contract
+  - address: "0xedf930cd8095548f97b21ec4e2de5455a7382f04"
+    tags:
+      - contract
+  - address: "0x5b23e2bae5c5f00e804ea2c4c9abe601604378fa"
+    tags:
+      - contract
+    name: MPTValidatorV2
+  - address: "0x763bfce1ed335885d0eec1f182fe6e6b85babc92"
+    tags:
+      - contract
+  - address: "0x15feea944a7f4ee4835c59abc488c1935f2301b4"
+    tags:
+      - contract
+  - address: "0x6c73c7a416d96d9c6fa57671aa1ed7ed0fdf5127"
+    tags:
+      - contract
+  - address: "0x4740469750ce90fdb73f5fd0a062fff0b1e4be5d"
+    tags:
+      - contract
+  - address: "0x5c824c516ba5fa8db75738ef5bdac4efdca691f1"
+    tags:
+      - contract
+    name: MPTValidatorV5
+  - address: "0xb98d764d25d53f803f05d451225612e4a9a3b712"
+    tags:
+      - contract
+  - address: "0x3b01dee1733697b954a7648f7b0bf91acff1eab9"
+    tags:
+      - contract
+  - address: "0xe04f26f3f47b6054aeb15796ac4af3c61f08e832"
+    tags:
+      - contract
+  - address: "0xcbd35a9b849342ad34a71e072d9947d4afb4e164"
+    tags:
+      - contract
+  - address: "0xf665989b02709006448dd7ebd20b6ed25f0828c5"
+    tags:
+      - contract
+  - address: "0xb360a579dc6f77d6a3e8710a9d983811129c428d"
+    tags:
+      - contract
+  - address: "0x16cc4ef7c128d7fea96cf46ffd9dd20f76170347"
+    tags:
+      - contract
+  - address: "0x5b905fe05f81f3a8ad8b28c6e17779cfabf76068"
+    tags:
+      - contract
+  - address: "0x1eb362b4af5eb4477d6dd5966a6953d9cd57832e"
+    tags:
+      - contract
+  - address: "0x48c28a1f73d4ef73e62ee24c1af6644cc0d9ad17"
+    tags:
+      - contract
+  - address: "0xd7f9e780d1e6254afe4d57d9de8449756b6122d7"
+    tags:
+      - contract
+  - address: "0x187d4dca18652677428d6a9b1978945a0b978631"
+    tags:
+      - contract
+  - address: "0x967baf657ec4d4b1cb00b06f7cc6e8ba604e3ac8"
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0xa6bf2be6c60175601bf88217c75dd4b14abb5fbb"
+    tags:
+      - contract
+  - address: "0xfff96b173d824a96e99bc66ea31446b60f672325"
+    tags:
+      - contract
+  - address: "0x2c57904d328deda322a2d60c46f864793e87ec29"
+    tags:
+      - contract
+  - address: "0x462f7ec57c6492b983a8c8322b4369a7f149b859"
+    tags:
+      - contract
+    name: MPTValidator01
+  - address: "0x3773e1e9deb273fcdf9f80bc88bb387b1e6ce34d"
+    tags:
+      - contract
+    name: TreasuryV2
+  - address: "0x4d73adb72bc3dd368966edd0f0b2148401a178e2"
+    tags:
+      - contract
+    name: UltraLightNodeV2
+  - address: "0x75dc8e5f50c8221a82ca6af64af811caa983b65f"
+    tags:
+      - contract
+  - address: "0x81e792e5a9003cc1c8bf5569a00f34b65d75b017"
+    tags:
+      - contract
+  - address: "0xd52c8cbef4ec47d88c2004f90dbc1da1a6a61378"
+    tags:
+      - contract
+  - address: "0xa0cc33dd6f4819d473226257792afe230ec3c67f"
+    tags:
+      - contract
+  - address: "0x4e341b9cf90514a5b7dfec2c9a1f20aa4514c260"
+    tags:
+      - contract
+  - address: "0x23ec43e2b8f9ae21d895eea5a1a9c444fe301044"
+    tags:
+      - contract
+    name: FPValidator
+  - address: "0x86bb63148d17d445ed5398ef26aa05bf76dd5b59"
+    tags:
+      - contract
+  - address: "0x2297aebd383787a160dd0d9f71508148769342e3"
+    tags:
+      - contract
+    name: BTCbOFT
+  - address: "0xc1b85974f7c2f0ccb01d763f4a34bfb41a33d612"
+    tags:
+      - contract
+  - address: "0xdf50cd348b018d955bd08d7a3fe6121be14beaa9"
+    tags:
+      - contract
+    name: OFTWrapper
+  - address: "0x03bd2e719b6ec02927eeffdfbffe90c2cb274ba2"
+    tags:
+      - contract
+    name: OFTWrapper
+  - address: "0xef32f931ac53808e695b7ef3d1b6c5016024a68f"
+    tags:
+      - contract
+  - address: "0xe894620b411e4bad99f59cddf1d42414136c6815"
+    tags:
+      - contract
+  - address: "0x00e7306e591c04e72867644df141e250acaf175b"
+    tags:
+      - contract
+  - address: "0x154c7b3eee18abcfaede98fae00e58e7737d96de"
+    tags:
+      - contract
+  - address: "0x31dc7bd74c0172b83b2a142b2476b8c694d9787c"
+    tags:
+      - contract
+  - address: "0x3b4df7233d2d9ae4062b996a9694d0dfc556181e"
+    tags:
+      - contract
+    name: OFTWrapper
+  - address: "0x2ef002aa0ab6761b6aea8d639dcdaa20d79b768c"
+    tags:
+      - contract
+    name: OFTWrapper
+  - address: "0xdd69db25f6d620a7bad3023c5d32761d353d3de9"
+    tags:
+      - contract
+  - address: "0x0a9f824c05a74f577a536a8a0c673183a872dff4"
+    tags:
+      - contract
+  - address: "0x2f4c6eea955e95e6d65e08620d980c0e0e92211f"
+    tags:
+      - contract
+  - address: "0xfc358f532d474b3f47c98f2af5654a813db1a1cc"
+    tags:
+      - contract
+  - address: "0x81855cd82374c3700ee579ad1ff0760ae039a19b"
+    tags:
+      - contract
+  - address: "0x86355f02119bdbc28ed6a4d5e0ca327ca7730fff"
+    tags:
+      - contract
+  - address: "0x3a01cfb9831e7c9a30917bd78c2a5c0243ab4b4f"
+    tags:
+      - contract
+  - address: "0xf51caabe877c28655ce881f3b08482ab82255e49"
+    tags:
+      - contract
+  - address: "0x6d65a44bd6cfe1a8b2e816c918dd83a6b04c8dee"
+    tags:
+      - contract
+    name: OptimizedTransparentUpgradeableProxy
+  - address: "0x8042425b53dc6a475cb4e62778a5e17f55f2188d"
     tags:
       - contract

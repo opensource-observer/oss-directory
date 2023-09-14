@@ -6,71 +6,85 @@ github:
 optimism:
   - address: "0x155b15a7e9ff0e34ceaf2439589d5c661adc9493"
     tags:
+      - eoa
       - creator
   - address: "0xfd8c6ebe0d284f9d2c9665f17bba47032259e907"
     tags:
+      - eoa
       - creator
   - address: "0xade09131c6f43fe22c2cbabb759636c43cfc181e"
     tags:
+      - eoa
       - creator
   - address: "0xdcde7a069deee7b73a795a76f97eb9dca7f812d4"
     tags:
+      - eoa
       - creator
   - address: "0x31efc4aeaa7c39e54a33fdc3c46ee2bd70ae0a09"
     tags:
-      - factory
       - contract
+      - factory
+    name: TransactionManager
   - address: "0x8f7492de823025b4cfaab1d34c58963f2af5deda"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x17ab9b14ac7659390b3994f9e67bf833e60ec1bd"
     tags:
-      - factory
       - contract
+      - factory
+    name: ConnextDiamond
   - address: "0x73a37b3eb030cc3f9739ca5c16b7e6802f294122"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x4d6ddaf1637b7cff03dcd509a269a42e982aec5a"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x1bcdbf11f9eb8ddac1725bb346890e45f14dcbd5"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x9963a1e4fd60ba4a89e92930c8d8686514705bb6"
     tags:
-      - factory
       - contract
+      - factory
+    name: Diamond
   - address: "0xdfa5fafac70a610e4224b85b7fc4764a0b90d2ea"
     tags:
       - contract
+    name: UpgradeBeaconController
   - address: "0x11984dc4465481512eb5b777e44061c158cf2259"
     tags:
       - contract
+    name: UpgradeBeacon
   - address: "0x262bcedd20b6223cbb807a0be3900ab87316c671"
     tags:
       - contract
   - address: "0xa28de94d2e6f84659c2c32df14334daa08dd6461"
     tags:
       - contract
+    name: UpgradeBeaconController
   - address: "0xc162d91eba9cdf57f6c1d82b10deaee2bf233c50"
     tags:
       - contract
+    name: RelayerProxy
   - address: "0xec2140eb4a23e36ff676e18626a8652ea2be47fb"
     tags:
       - contract
+    name: DiamondCutFacet
   - address: "0x924e679c3c23017aef214c9ea1fbc22e97ff9e2e"
     tags:
       - contract
+    name: WatcherManager
   - address: "0xf659a7b83fd9f69b52f4bcf9389991515acf4fd0"
     tags:
       - contract
   - address: "0x59d908fbbbe670388eb1bd5caf30af47cecb25b8"
     tags:
       - contract
+    name: OptimismSpokeConnector
   - address: "0xa93c4a6e19bee415cab341d19046c799a80a1496"
     tags:
       - contract
@@ -80,15 +94,18 @@ optimism:
   - address: "0xafb88881e53589f5e6eb1cc27e9207cc7f03023f"
     tags:
       - contract
+    name: OptimismSpokeConnector
   - address: "0x035aba93c18d407dec788ca2fdc77b90feba836b"
     tags:
       - contract
   - address: "0x7fe09d217d646a6213e51b237670bc326188cb93"
     tags:
       - contract
+    name: Unwrapper
   - address: "0x729a17a6802a7348eebefbe54146eda98b121656"
     tags:
       - contract
+    name: OptimismSpokeConnector
   - address: "0x35a6cdb2c9ad4a45112df4a04147eb07dfa01ab7"
     tags:
       - contract
@@ -98,33 +115,41 @@ optimism:
   - address: "0x6acbf8d58f785541438e979305a59636e729df9c"
     tags:
       - contract
+    name: UpgradeBeaconProxy
   - address: "0x3da402d5cd4bf0a7c6003c0b9c3c19fdf1e90fd0"
     tags:
       - contract
   - address: "0x0296da2ce82eb3b98eb05925bc5777c7da0d0f09"
     tags:
       - contract
+    name: DiamondLoupeFacet
   - address: "0x9bacb5dea769867d610df21f04eb612ae3b7242a"
     tags:
       - contract
+    name: UpgradeBeacon
   - address: "0xe9ddd1963d302d1e13239a3c25254efd39c2da91"
     tags:
       - contract
+    name: MerkleTreeManager
   - address: "0xa05ef29e9ac8c75c530c2795fa6a800e188de0a9"
     tags:
       - contract
+    name: ProposedOwnableFacet
   - address: "0x5bb83e95f63217cda6ae3d181ba580ef377d2109"
     tags:
       - contract
+    name: RelayerProxy
   - address: "0x50ef4b4436faf884afb95e7d5560f4c6eaed2a1c"
     tags:
       - contract
+    name: MerkleTreeManager
   - address: "0xffe0821f1f088b16e6760edb5d537eb2551a3a0b"
     tags:
       - contract
   - address: "0xface86b9f34230624cf48eb582aff4bba970edcd"
     tags:
       - contract
+    name: MeanFinanceSource
   - address: "0x0f219898699b3f8008d9f05fac10bd08d4d6c65d"
     tags:
       - contract
@@ -134,60 +159,74 @@ optimism:
   - address: "0x8888759373137b84e9f0ef13ecb13e321c251ee3"
     tags:
       - contract
+    name: xDonate
   - address: "0x785a4c7ee79778e9670a6a02c60c1bd148bcd525"
     tags:
       - contract
   - address: "0x72c393d9ae5e352877b4adc585b1939b670213d8"
     tags:
       - contract
+    name: WatcherManager
   - address: "0x1135cc96a7e9d8f161be8b6bdb74f896a9658a08"
     tags:
       - contract
+    name: UniV3Swapper
   - address: "0xffa5e2df76b9cc453609de4c1da551926110a4af"
     tags:
       - contract
+    name: UpgradeBeacon
   - address: "0xfd9b8b1b7e44b39dfa04d66159ac21b68141ed38"
     tags:
       - contract
   - address: "0x683151d43758bb7a37e9d47386154d5ae9b8ac48"
     tags:
       - contract
+    name: RelayerFacet
   - address: "0xafe0a0302134df664f0ee212609ca8fb89255be4"
     tags:
       - contract
+    name: Multicall
   - address: "0x200fdcf7ed3d856a70380d1d88778ebca9ec6959"
     tags:
       - contract
   - address: "0x172f55db1ec560ea877fec0b4afe9a780e5fd52a"
     tags:
       - contract
+    name: RelayerProxy
   - address: "0x60dcbc3bb9eac7264a2d279f790969ccde61f4cf"
     tags:
       - contract
+    name: LPToken
   - address: "0xceb49aea4faec437bf1b82ea4a76940df9323273"
     tags:
       - contract
+    name: InboxFacet
   - address: "0xe54d6a0af692f949622dada01ed1d64a1acc9c76"
     tags:
       - contract
+    name: TokenFacet
   - address: "0xf5be67922914c0b933d13802e834be9e532c09a5"
     tags:
       - contract
+    name: UpgradeBeacon
   - address: "0xce157927222cd68b9c7057e84344ce6f0cee89b2"
     tags:
       - contract
+    name: BridgeFacet
   - address: "0x67528e1e4394225c322919a87d9e8d6c688a783f"
     tags:
       - contract
   - address: "0x32155c9d39084f040ba17890fe8134dbe2a0453f"
     tags:
       - contract
+    name: OptimismSpokeConnector
   - address: "0x63377166e406ee6a992b8e20961f047bb12e4d81"
     tags:
       - contract
   - address: "0xa3e91aefadecb8919180f581f5be897c763be593"
     tags:
       - contract
+    name: UpgradeBeaconProxy
   - address: "0x745837468a6a4f7ef5eb3fee18fc6e74376443c6"
     tags:
       - contract
@@ -197,6 +236,7 @@ optimism:
   - address: "0x6b5aeb8d272039154d0df19cf60b5e5226ff9dbd"
     tags:
       - contract
+    name: UpgradeBeaconProxy
   - address: "0xb0eef3e1de973d045c3858e072c540299585252d"
     tags:
       - contract
@@ -212,6 +252,7 @@ optimism:
   - address: "0xeb35e251b29166acd5652e00892aadeb2b45f5d3"
     tags:
       - contract
+    name: SwapAndXCall
   - address: "0x51058d7bda2661e134cc40137fc04cf3a9087e53"
     tags:
       - contract
@@ -224,9 +265,25 @@ optimism:
   - address: "0xf7de5aceeee6091d1103209c337fa00d0b4b9092"
     tags:
       - contract
+    name: WatcherManager
   - address: "0x72c51564ecfa2344cf168bfc4dfa7e64a560aef4"
     tags:
       - contract
+    name: SwapAdminFacet
   - address: "0xd47bd37deaa7d960659f5ddab98f4e4729165d3f"
+    tags:
+      - contract
+    name: xDonate
+  - address: "0x9f8bd11b264132def2a605091b8cd0ee036804f6"
+    tags:
+      - contract
+      - factory
+  - address: "0x92cfe86d3e760302c4822f54d9d3d08fd71703c8"
+    tags:
+      - contract
+  - address: "0xe733ee1358a8cea317351a89f98a8a042297a878"
+    tags:
+      - contract
+  - address: "0x60e391dbb9b3a324d8fe1e7d8047a98d0619cd2b"
     tags:
       - contract

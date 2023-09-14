@@ -6,28 +6,35 @@ github:
 optimism:
   - address: "0x4b327372a347ad97e45881428af26a4c28840c66"
     tags:
+      - eoa
       - creator
   - address: "0xcbe0edd07345a98542d779e1f6b897103eea0ab5"
     tags:
+      - eoa
       - creator
   - address: "0x2252e2407e61efa6e6ab3a7d33ac6f033486c700"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x82e0b8cdd80af5930c4452c684e71c861148ec8a"
     tags:
+      - contract
       - factory
+    name: MetaBridge
   - address: "0x9dda6ef3d919c9bc8885d5560999a3640431e8e6"
     tags:
+      - contract
       - factory
   - address: "0x6d485a96533c47c12ef5bccacfbd726c1d239db7"
     tags:
+      - contract
       - factory
+    name: Create2Factory
   - address: "0x432d6ff079a3073b9076e8ff16ef71d7071e1a9e"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xbc59f7bdd506011cc6848d50ebef849466ea4fae"
     tags:
-      - factory
       - contract
+      - factory

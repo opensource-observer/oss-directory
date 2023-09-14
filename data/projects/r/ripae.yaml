@@ -6,11 +6,13 @@ github:
 optimism:
   - address: "0xda2d96eadab3671d9dfc6b2901aa85e99f8f0eb3"
     tags:
+      - eoa
       - creator
   - address: "0xbdcef39286fb0c038494ebde5fcd0f41416834cc"
     tags:
-      - factory
       - contract
+      - factory
+    name: VeloStaker
   - address: "0x072d88b9525803056fc3a461b310ec1947eccdaa"
     tags:
       - contract
@@ -20,18 +22,23 @@ optimism:
   - address: "0xb23d99339265d776f582e40c850f43105020a12c"
     tags:
       - contract
+    name: TreasuryExtraMasonry
   - address: "0xa5e6a847f79ba19aaf41b8e1b2e6c4741234c6b7"
     tags:
       - contract
+    name: GenesisRewardPool
   - address: "0xa60b1b4b4518b2eb719742e66d64821a5bd07e18"
     tags:
       - contract
+    name: Bond
   - address: "0x6ca558bd3eab53da1b25ab97916dd14bf6cfee4e"
     tags:
       - contract
+    name: PegToken
   - address: "0xdba1eb2c3abc62dfce544cfb17fcc4661b794778"
     tags:
       - contract
+    name: RipaeDoubleSolidlyLpVault
   - address: "0x73814dfbe55528e9e91a3962e1414cda9b604b25"
     tags:
       - contract
@@ -41,12 +48,14 @@ optimism:
   - address: "0x5bde4e21bf5487becbe98881e977fdc220010b4a"
     tags:
       - contract
+    name: RipaeDoubleSolidlyLpVault
   - address: "0x1d02a8ae79e60f50b43d7a6d594251a2dc5a20ad"
     tags:
       - contract
   - address: "0x053ba886857dbfae1fb0ee91ea1a17555ecfbaa6"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x9f6cf3c50e031607bf4531a02f6987a64eeb6175"
     tags:
       - contract
@@ -62,18 +71,22 @@ optimism:
   - address: "0x014bb189673c18c921b29f32dd78c1ac3987153b"
     tags:
       - contract
+    name: RipaeSolidlyLpVault
   - address: "0x2950b8792beec6b0d5fc11725b2e1664eea60b0d"
     tags:
       - contract
+    name: Masonry
   - address: "0xf5e49b0a960459799f1e9b3f313dfa81d2ce553c"
     tags:
       - contract
+    name: ShareRewardPool
   - address: "0xeeeadc382b44e610c8e3b9d76a3269b4f5f94f42"
     tags:
       - contract
   - address: "0x09448876068907827ec15f49a8f1a58c70b04d45"
     tags:
       - contract
+    name: Share
   - address: "0x7ad867c08b668af40e4ea30c18158dcb8a2baa4d"
     tags:
       - contract
@@ -81,5 +94,9 @@ optimism:
     tags:
       - contract
   - address: "0x95f73fc89f62b42410fc4a4a60edefc51de0b7b0"
+    tags:
+      - contract
+    name: Masonry
+  - address: "0x5aed117fc68208b1b98a49d235922084217ba0db"
     tags:
       - contract

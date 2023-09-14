@@ -6,12 +6,15 @@ github:
 optimism:
   - address: "0xbac4edfab0ffbd3344b163fad587f07261c6cd7e"
     tags:
+      - eoa
       - creator
   - address: "0x4a27c059fd7e383854ea7de6be9c390a795f6ee3"
     tags:
-      - creator
+      - contract
+      - factory
   - address: "0xe89cb2053a04daf86abaa1f4bc6d50744e57d39e"
     tags:
+      - eoa
       - creator
   - address: "0xa6f8bf368c4fa8d6a7462d3533a5072d1179d879"
     tags:
@@ -34,6 +37,7 @@ optimism:
   - address: "0xc37a73e2ce90ee073e70d95cd73cd7ac8f8ff1b1"
     tags:
       - contract
+    name: BorrowTicketSVGHelper
   - address: "0xb8f22031f1ace02da4a047950dff71a28a3d1816"
     tags:
       - contract
@@ -115,6 +119,7 @@ optimism:
   - address: "0x007ff7eb7a45be057192d8b7f660bea70f3e141c"
     tags:
       - contract
+    name: LendTicketDescriptor
   - address: "0x445002490eef92e707c1647c54dbea62f68e9407"
     tags:
       - contract
@@ -172,6 +177,7 @@ optimism:
   - address: "0x4c6822204ee5e13b4281942ff231314bf05f2d3d"
     tags:
       - contract
+    name: LendTicket
   - address: "0xc088b09104a57f912ffe5da31d11e8e2e27ad017"
     tags:
       - contract
@@ -190,9 +196,11 @@ optimism:
   - address: "0xdac8316f24364ffeea73a190ee7e332eaa04b8f2"
     tags:
       - contract
+    name: BorrowTicketDescriptor
   - address: "0xe01194534169dc6f38c9aefea4917c623a99e7ec"
     tags:
       - contract
+    name: BorrowTicket
   - address: "0xf1a20491d72798f009bb2ec782d28bdba2d8c27d"
     tags:
       - contract

@@ -6,28 +6,34 @@ github:
 optimism:
   - address: "0xfb59ce8986943163f14c590755b29db2998f2322"
     tags:
+      - eoa
       - creator
   - address: "0x5ff29e4470799b982408130efaabdeeae7f66a10"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0x90c28b6ecfb7312d361756711055665598a3f125"
     tags:
       - contract
   - address: "0x37ff10390f22fabdc2137e428a6e6965960d60b6"
     tags:
       - contract
+    name: TimelockController
   - address: "0xfc69af1700e35ac67807652fb1957239805ee772"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0x8cd6b19a07d754bf36adeee79edf4f2134a8f571"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0x2b5fd19124359b7e72c08d44d3ced472d181beed"
     tags:
       - contract
   - address: "0x8d5d5bfd51df03a8f65ae20cdcff20cd9db8346d"
     tags:
       - contract
+    name: ProxyAdmin
   - address: "0x05e532c94cc6210d66b3fb0683d58943735ad243"
     tags:
       - contract
@@ -40,6 +46,7 @@ optimism:
   - address: "0x6b38c561366a939ea8711a7311c8e5aab0a71df9"
     tags:
       - contract
+    name: MerkleAirdrop
   - address: "0xc0a2b72f912af5a0831b8acf87b69ed7070e021c"
     tags:
       - contract
@@ -49,39 +56,47 @@ optimism:
   - address: "0x938ed674a5580c9217612de99da8b5d476dcf13f"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xdb0c52f1f3892e179a69b19aa25da2aece5006ac"
     tags:
       - contract
+    name: Comptroller
   - address: "0xfa2ecffc6dc11e1e6466bda293ff4a5f6d5a6dff"
     tags:
       - contract
   - address: "0x285cb1faca9184132c7ee99964a15549e6cc9c4c"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0xb68d9ad0a7f2e870fc19c71a4fde4146dab00368"
     tags:
       - contract
   - address: "0x8d0db2bd9111e35554b8152e172451c80dff22b7"
     tags:
       - contract
+    name: ChainlinkPriceOracle
   - address: "0xd7daabd899d1fabbc3a9ac162568939cec0393cc"
     tags:
       - contract
   - address: "0xf6cba3c440eb70489d4fa0bd9dcf0cdf799f9f3c"
     tags:
       - contract
+    name: TimelockController
   - address: "0x58333b7d0644b52e0e56cc3803ca94af9e0b52c3"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0xbe4db588a6d60b29acd6b9da5c8502bff8da2d67"
     tags:
       - contract
   - address: "0x036d9cb816f382d947dfbc26a13d2ac8cdb13d34"
     tags:
       - contract
+    name: ChainlinkPriceOracle
   - address: "0x7d69692389cda1ed99fd04d3081d7ac9368d6778"
     tags:
       - contract
+    name: Unitroller
   - address: "0x41279e29586eb20f9a4f65e031af09fced171166"
     tags:
       - contract
@@ -91,6 +106,7 @@ optimism:
   - address: "0x26aab17f27cd1c8d06a0ad8e4a1af8b1032171d5"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0x5b89789fb230d17c4b0ae1461f26828554f81e5f"
     tags:
       - contract
@@ -103,15 +119,18 @@ optimism:
   - address: "0x32cb367378d0b1ddbc81f259a8445bb88ddd9a0a"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0x91579f47f7826471c08b0008ee9c778aab2989fd"
     tags:
       - contract
+    name: ChainlinkPriceOracle
   - address: "0xce3c96fa5cc543936a7f1f8e405516ca2159f0c6"
     tags:
       - contract
   - address: "0x9eff321ddf8ab509c8c65f7e57289258e9c169b1"
     tags:
       - contract
+    name: OwnedDistributor
   - address: "0x1812aac123b6a3881688adaf3954c832bf5a743f"
     tags:
       - contract
@@ -121,6 +140,7 @@ optimism:
   - address: "0x30fe862f1d4c2c7e1b006d9325256130fbb55e46"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0x066c98e48238e8d77006a5fa14ec3b080fd2848d"
     tags:
       - contract
@@ -133,30 +153,37 @@ optimism:
   - address: "0xa714aa2c155edb64dad72cd568a43784137a24d8"
     tags:
       - contract
+    name: Comptroller
   - address: "0x30f433dc05eb80ae3ff678102de12a5758ee2f0b"
     tags:
       - contract
   - address: "0x24149e2d0d3f79ebb7fc464b09e3628de395b39d"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0xec4b282dc8b1732890338785fb75bcfab9838f84"
     tags:
       - contract
+    name: TimelockController
   - address: "0xbbbd75383f6a61d5eb5b43e94e6372df6f7f13c6"
     tags:
       - contract
   - address: "0x4b245547590d2274bb3ffb67ce448369167b353d"
     tags:
       - contract
+    name: ProxyAdmin
   - address: "0xb19bd9fc8fa8f00599a04115193b915e1929bc5f"
     tags:
       - contract
+    name: VesterSale
   - address: "0x92e17fd2da50775fbd423702e4717ccd7fb2a6bb"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0x7320bd5fa56f8a7ea959a425f0c0b8cac56f741e"
     tags:
       - contract
+    name: JumpRateModelV4
   - address: "0x4804357ace69330524ceb18f2a647c3c162e1f95"
     tags:
       - contract
@@ -175,12 +202,14 @@ optimism:
   - address: "0x168901193a72e82c00110c799c9c22f3ae6fd311"
     tags:
       - contract
+    name: BasicLens
   - address: "0x6ee38828bdabfed9ddf16c5819446774354c5634"
     tags:
       - contract
   - address: "0x9f543b3f1eb37b2540749df537e83d29309ecc02"
     tags:
       - contract
+    name: OwnedDistributor
   - address: "0xdc05d85069dc4aba65954008ff99f2d73ff12618"
     tags:
       - contract
@@ -193,27 +222,33 @@ optimism:
   - address: "0xe7de932d50efc9ea0a7a409fc015b4f71443528e"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0x1c327ecfe87ab0428d74720ee1f33238c10b5834"
     tags:
       - contract
   - address: "0xd14451e0fa44b18f08aeb1e4a4d092b823caca68"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0x20b488ddaf6fea0e9e645fd277cb897f6475c603"
     tags:
       - contract
+    name: ChainlinkPriceOracle
   - address: "0xc793f56f74b0e3e78fb3a6d55b75e2ca636e5340"
     tags:
       - contract
+    name: ExternalRewardDistributor
   - address: "0x17063ad4e83b0aba4ca0f3fc3a9794e807a00ed7"
     tags:
       - contract
   - address: "0x2b1d11f82fc70e2693ab19c4c3da23da75ae2597"
     tags:
       - contract
+    name: ExternalRewardDistributor
   - address: "0x3b8075483e51ab78d81caa5300f7f20a5386d04c"
     tags:
       - contract
+    name: ExternalRewardDistributor
   - address: "0xd50c9ec0cb2bc848fa3df8205e6d093e68e041c1"
     tags:
       - contract
@@ -223,9 +258,11 @@ optimism:
   - address: "0x236ed9cce4c2423572b9453da3abb5b72e2eb91b"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0xbf4a907ac15c60c070fbbc7221f9fc21e02e9890"
     tags:
       - contract
+    name: ChainlinkPriceOracle
   - address: "0xec8fea79026ffed168ccf5c627c7f486d77b765f"
     tags:
       - contract
@@ -235,6 +272,7 @@ optimism:
   - address: "0x60cf091cd3f50420d50fd7f707414d0df4751c58"
     tags:
       - contract
+    name: Unitroller
   - address: "0xfc9a6ce944f14517447bcccd89cdba33e4b43435"
     tags:
       - contract
@@ -244,12 +282,71 @@ optimism:
   - address: "0x2ba86032e601e001aeb0069efff824bcf699ffc5"
     tags:
       - contract
+    name: OwnedDistributor
   - address: "0x2c2c8fd6ff697302809a39619dfae4f4f76d325d"
     tags:
       - contract
   - address: "0x5569b83de187375d43fbd747598bfe64fc8f6436"
     tags:
       - contract
+    name: CErc20Immutable
   - address: "0xad23cfb8b5d2a662f2acafdcbbfcd0795e60b04e"
+    tags:
+      - contract
+    name: CErc20Immutable
+  - address: "0x3dc9fa7759ca2769982bf7ebd36362e52d54f3bb"
+    tags:
+      - contract
+  - address: "0x4c988e12c38fea0a4018605aaa5349d3495ef341"
+    tags:
+      - contract
+  - address: "0x5479de16d06526e6792a722242f2bcb589c49582"
+    tags:
+      - contract
+  - address: "0x4b3ee1628f0d5e19337b104fb7d776c5ce5238cf"
+    tags:
+      - contract
+  - address: "0x06f98cb1090afb2a923f21ab37ca9e1a7cf8532b"
+    tags:
+      - contract
+  - address: "0x2778d99a0897a8a43d8d0f30f9f61bfec1b0a7ea"
+    tags:
+      - contract
+  - address: "0xedb12d0b9e4ee75b2bc28d86bc291e7810de0299"
+    tags:
+      - contract
+  - address: "0xc5ba10b609e8500c04884e1bcfc935b2c22654cd"
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x5da3ea9167e159de0d3003c21c86db1334c3f5c2"
+    tags:
+      - contract
+    name: RewardManager
+  - address: "0x0c791a2377981149ece2596e73b173164dd19c27"
+    tags:
+      - contract
+  - address: "0xd257c933b2e55ddd796fbe3e29260c952e1763e9"
+    tags:
+      - contract
+  - address: "0x6baa135acd661b93401c726f4c9fd2cc0be374ea"
+    tags:
+      - contract
+  - address: "0xe2cfad8763bf901cc05e9f498b7813ff2054e1fb"
+    tags:
+      - contract
+    name: SonneTimelockController
+  - address: "0xe39ccd6ce1af169f9e4311cfe7788f152d9370a3"
+    tags:
+      - contract
+    name: ReserveManager
+  - address: "0x93d9e5f11182e6025a839af2b792e2200d3b7469"
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x5b22bd2fc485afe2deaf1ac9e2fad316dde163b0"
+    tags:
+      - contract
+  - address: "0xb112e4cc83f0df154fe3fb088109be2ac5bfb110"
     tags:
       - contract

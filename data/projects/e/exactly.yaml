@@ -6,37 +6,47 @@ github:
 optimism:
   - address: "0xe61bdef3fff4c3cf7a07996dcb8802b5c85b665a"
     tags:
+      - eoa
       - creator
   - address: "0x86f6d8b717d49527db3126f31bdd3b0047694bf9"
     tags:
       - contract
+    name: Previewer
   - address: "0x3179265d20d13ce507157b8087de48759eb21006"
     tags:
       - contract
+    name: InterestRateModel
   - address: "0x1586c0aea22b2a7a943d7af5a097bdab3f809409"
     tags:
       - contract
+    name: Swapper
   - address: "0x810221fc9ec7d0ee775983ade221d302e4ad9392"
     tags:
       - contract
+    name: Swapper
   - address: "0x675d410dcf6f343219aae8d1dde0bfab46f52106"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x70b475ceae83e0572a35f65cf45694de47617928"
     tags:
       - contract
+    name: ProtoStaker
   - address: "0xaec84eac74981ab22905919cb282b78c7ca782df"
     tags:
       - contract
+    name: Market
   - address: "0xe4f8ec6d400d99b83133985601afb97b8e554d42"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xa7bffcf681be7ce32e6e6c17c240ed68ee6e16e2"
     tags:
       - contract
   - address: "0x3f55a319d2fd003f87a96c1c3484121936243c46"
     tags:
       - contract
+    name: Auditor
   - address: "0x2ec9c8ab2ed93189d5998f53929a13450fc00971"
     tags:
       - contract
@@ -46,9 +56,11 @@ optimism:
   - address: "0x323ef62d6ddbd2a971d347299bb68e212af702f0"
     tags:
       - contract
+    name: ProtoStaker
   - address: "0x28f3d029da71d9d53ffff921d5ab6e41c3ffddb3"
     tags:
       - contract
+    name: Swapper
   - address: "0x6c51c1718dc482b8001fbec5649174c9fb7d41bb"
     tags:
       - contract
@@ -61,27 +73,33 @@ optimism:
   - address: "0x3a31a7e94b30bd92151b4711522f118902977c3c"
     tags:
       - contract
+    name: RewardsController
   - address: "0x03859fa7549449a7dde7663e5c06a38c5b0d4489"
     tags:
       - contract
+    name: InterestRateModel
   - address: "0xa4cc12ba6848d3f2ee35db293891d95d9fbcba66"
     tags:
       - contract
   - address: "0x22ab31cd55130435b5efbf9224b6a9d5ec36533f"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x338c7b1c8f0d78d872502186253430258b007083"
     tags:
       - contract
   - address: "0x19d00f1cd36770c283b0ed62794f02a78db928f1"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x8c2f35c8076bcb5d4b696bae11aca0ac0dd873e4"
     tags:
       - contract
+    name: InterestRateModel
   - address: "0x52274fbf893d5e05372cb05a8a8c3835f1eacf96"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x004d1bf176c59890e11e487d1270d809df188c07"
     tags:
       - contract
@@ -91,9 +109,11 @@ optimism:
   - address: "0xfff4fe4af99dd3a1c9ac637c71ae2685a5358818"
     tags:
       - contract
+    name: Previewer
   - address: "0x8cfc1c9279bad831261aa6bab111fed097c7805d"
     tags:
       - contract
+    name: DebtPreviewer
   - address: "0xedc5689308b3a5704803165d509df9d6d3dd4f66"
     tags:
       - contract
@@ -103,21 +123,26 @@ optimism:
   - address: "0xa6b60fb117809b05263c126691c707fb19713825"
     tags:
       - contract
+    name: DebtPreviewer
   - address: "0xc4d4500326981eacd020e20a81b1c479c161c7ef"
     tags:
       - contract
   - address: "0xd46a3d7cb5d004dbde04015b11204745c78acf47"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xf6da0e129fdc6e8fda49d8b2b33a6d4ba43c677b"
     tags:
       - contract
+    name: Market
   - address: "0x60e543f802d6417894bf653b64e2a08f01a5c146"
     tags:
       - contract
+    name: Forwarder
   - address: "0x16748cb753a68329ca2117a7647aa590317ebf41"
     tags:
       - contract
+    name: DebtManager
   - address: "0xd6aa0254c488662427d508e8c2e43ca80a436201"
     tags:
       - contract
@@ -127,51 +152,63 @@ optimism:
   - address: "0x0b9d4ab484f95090074008ae59db1fab6606bc7a"
     tags:
       - contract
+    name: RewardsController
   - address: "0x0e7eb3feeae852126dec868505961a0a43823b6b"
     tags:
       - contract
   - address: "0x98f4df6736aa6c5d26f0f9678102376ac06b55d4"
     tags:
       - contract
+    name: Market
   - address: "0xbd1ba78a3976cab420a9203e6ef14d18c2b2e031"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x92024c4bda9da602b711b9abb610d072018eb58b"
     tags:
       - contract
   - address: "0x5e454beff7378781376dcf5cb733fb4259e1c7e9"
     tags:
       - contract
+    name: Leverager
   - address: "0xe94e0068ea2b8ed9490d29bb534d1ba996412567"
     tags:
       - contract
   - address: "0x60d92e570d096f8e5c99a600bd130d71295aaf38"
     tags:
       - contract
+    name: InterestRateModel
   - address: "0x3744877f596db480c52aa89d8c8b1c67678feb93"
     tags:
       - contract
+    name: DebtPreviewer
   - address: "0xc91dc7a797cd5fbcf6f334c792a2b24eff55292c"
     tags:
       - contract
   - address: "0x2dda32b8e9ee8ef2b4e64825373d007cf222747d"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x6b111f8602c51690215a4b7964d91d354ad45519"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x29babff3eba7b517a75109ea8fd6d1eab4a10258"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xf9b612ffe3fab24e74026d2b5d13cbcead6380f2"
     tags:
       - contract
+    name: Market
   - address: "0xe296e3ae5e1db00f1b9710e6ad885215873cee83"
     tags:
       - contract
+    name: Swapper
   - address: "0x9c36ff0412ab4c03606eb1fefb8cac177b1577c6"
     tags:
       - contract
+    name: Swapper
   - address: "0xf880bb912b652a594abac1a9d79c968754d09ac0"
     tags:
       - contract
@@ -181,57 +218,71 @@ optimism:
   - address: "0xfeb73a16d452549c7849cf04f3f8e7f09ac59ff0"
     tags:
       - contract
+    name: Market
   - address: "0xfac96a321f79642015d32bbcfda4b9d1867d49f4"
     tags:
       - contract
+    name: InterestRateModel
   - address: "0x16d76f0bf4b39dd2de7bcb112ffbc0c8e78e4560"
     tags:
       - contract
   - address: "0x52ee5238e5676598551c8d2bbccb62c72fc3a0c4"
     tags:
       - contract
+    name: Market
   - address: "0x3fd0a9afae344000c53e5862b350a17775b39afc"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x1a68b97d70bc7470fe9a981f2960f2583fd37f3d"
     tags:
       - contract
   - address: "0x2c04733cdf38c1883e9cb7142632adcd5c5b79da"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xbd60dea86ebc79aa294ad856ac104b34771a09b2"
     tags:
       - contract
+    name: InterestRateModel
   - address: "0x389a7161b5ff4d57e23bd90186bb8204f7f12d4a"
     tags:
       - contract
+    name: ProtoStaker
   - address: "0x54c5b9ae9c06faf8c55962a7212e1e69799764f9"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x81c9a7b55a4df39a9b7b5f781ec0e53539694873"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x0dbd485f80136bdeb4b1d69d294d6793b6cf83b2"
     tags:
       - contract
   - address: "0xfba759bcd1a99a7724c5068feddb4f5b844b941a"
     tags:
       - contract
+    name: ProxyAdmin
   - address: "0xb27113b72135942065e0fa09984fe2bf008d5f3c"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xc3cfa122e6067c520e2477e82ab97ba64495d120"
     tags:
       - contract
+    name: Market
   - address: "0x3cecea7ef91b6f6d3760f6b5845c3332dc00a420"
     tags:
       - contract
   - address: "0x950bf56757264941d7bc7b9110a1c965ae1b498d"
     tags:
       - contract
+    name: DebtPreviewer
   - address: "0x5fe09baaa75fd107a8df8565813f66b3603a13d3"
     tags:
       - contract
+    name: PriceFeedPool
   - address: "0x97881f5f59ef58f6735de243ef44c084c91dfd50"
     tags:
       - contract
@@ -241,6 +292,7 @@ optimism:
   - address: "0xf972f71332af1b7967ad21921b8ef4de84c94e72"
     tags:
       - contract
+    name: RewardsController
   - address: "0x310a2694521f75c7b2b64b5937c16ce65c3efe01"
     tags:
       - contract
@@ -250,6 +302,7 @@ optimism:
   - address: "0x1dcf89dfa88363ef33d49dd591b1ee5e84dd0f75"
     tags:
       - contract
+    name: Market
   - address: "0x3f6cd7982b83e10eb1a41c4c8c1ae27d0cfbe07a"
     tags:
       - contract
@@ -259,36 +312,44 @@ optimism:
   - address: "0xb045acf3e2c3de6aeb4428fd6625e4f53c7ad2cf"
     tags:
       - contract
+    name: Market
   - address: "0x1ec842425a674d1a6af6bb3ef80aeb7ed02930da"
     tags:
       - contract
   - address: "0xa15566e9cf856f3780706715a1b1efb2918304af"
     tags:
       - contract
+    name: Previewer
   - address: "0xaeb62e6f27bc103702e7bc879ae98bcea56f027e"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x93d386f247ba146201d4c72da1521f0b03ed40fa"
     tags:
       - contract
+    name: Swapper
   - address: "0xa00e0bac10e4019765235ae0a4d882849e8367da"
     tags:
       - contract
   - address: "0x8a9bbec5d90e2f7e25afe4620be66771bdbd2a6c"
     tags:
       - contract
+    name: ProtoStaker
   - address: "0xb6083c415d22a6e9fafc9ba5ce491ebc46070b28"
     tags:
       - contract
   - address: "0x1ee401f9ae4e834ab4a8d02499f23a40ae7a4dd2"
     tags:
       - contract
+    name: Market
   - address: "0xb8b1f590272b541b263a49b28bf52f8774b0e6c9"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x37ac9c4a26db589ee35215c7053009ee645585bb"
     tags:
       - contract
+    name: DebtManager
   - address: "0xa0d96f92abfb65330aa21550cd334455b5236f16"
     tags:
       - contract
@@ -298,9 +359,61 @@ optimism:
   - address: "0xb3b542ab7ad269bdcf722cfbd2f02051a17d9bf1"
     tags:
       - contract
+    name: ProtoStaker
   - address: "0xbd9c70db872fdd9029ee5fa2a0ea30eabf7a1583"
     tags:
       - contract
+    name: Market
   - address: "0x3f0f47c274a8264695eb047c5e73bef531409e5a"
     tags:
       - contract
+  - address: "0xce454b42f142b779b9c9453955d8ea660c230d52"
+    tags:
+      - contract
+    name: ProtoStaker
+  - address: "0xa6fca9d9f2c2daa0c16f09ec33ad0b064a6160ae"
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x1e5efdf50e47176e062770d5c0eab5a2f196c012"
+    tags:
+      - contract
+    name: ProtoStaker
+  - address: "0x9a9baa66bd7239e14f900aed6124446626accfc5"
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x80ee33816077a79e6b369a8055829eee815e1b0a"
+    tags:
+      - contract
+    name: ProtoStaker
+  - address: "0x7f8421fe6c09b02eaf6905a27863be66268c6601"
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xb5396df393b5c7b3d7b0c3c7288414e877366d3c"
+    tags:
+      - contract
+    name: DebtPreviewer
+  - address: "0xa76fd3efea52575fe84294a92518f92810d18ca5"
+    tags:
+      - contract
+    name: ProtoStaker
+  - address: "0xf05385bc0b38e941f65d3031e1695bfbf8d60c90"
+    tags:
+      - contract
+  - address: "0x3b44f6da5958ccb16b30f3dc433920f151a51c50"
+    tags:
+      - contract
+    name: DebtPreviewer
+  - address: "0xeb054e3390fdbaa7a510f601be8f149095b91411"
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xe09b4f61bcf2ed5e8315693e205fa079b9935fb3"
+    tags:
+      - contract
+  - address: "0x910e91d24a948c3e36b71b505fb45fe80e95adb3"
+    tags:
+      - contract
+    name: DebtManager

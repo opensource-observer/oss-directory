@@ -6,11 +6,12 @@ github:
 optimism:
   - address: "0x1e7b390149abb3b891e0a7027e111188032d4540"
     tags:
+      - eoa
       - creator
   - address: "0x5ef0153590d4a762f129dcf3c59186d91365e4e1"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x40f294615a264ef53062805d60eff3d93763650c"
     tags:
       - contract
@@ -20,6 +21,7 @@ optimism:
   - address: "0xf899e3909b4492859d44260e1de41a9e663e70f5"
     tags:
       - contract
+    name: RadioToken
   - address: "0x05d4d700e04dccb0bef8b8fcb54a6cdd5c9518bc"
     tags:
       - contract
@@ -68,6 +70,7 @@ optimism:
   - address: "0x68797130d8e63745761c524c33121fdd7290cb72"
     tags:
       - contract
+    name: UniswapV2Router02
   - address: "0x13111a7150614af6809c2b42849701d9b84bdb31"
     tags:
       - contract
@@ -128,18 +131,21 @@ optimism:
   - address: "0x66e8617d1df7ab523a316a6c01d16aa5bed93681"
     tags:
       - contract
+    name: ShackToken
   - address: "0x822be0563b923dabffcd1080c762722336bcdfd8"
     tags:
       - contract
   - address: "0xd0a8822202ad830dd1a6c8afe1e343151714c5b6"
     tags:
       - contract
+    name: Multicall2
   - address: "0x0404084e0e63eb98766a4540a0ac6b0fbf17d155"
     tags:
       - contract
   - address: "0xe4de4b87345815c71aa843ea4841bcdc682637bb"
     tags:
       - contract
+    name: BuildToken
   - address: "0xc0bb819b0acdeb933a58b32a4bff43af4cac1aea"
     tags:
       - contract
@@ -152,3 +158,4 @@ optimism:
   - address: "0x99bfdee8d6abba65acc70d1b96b457b38a78affd"
     tags:
       - contract
+    name: LaunchToken

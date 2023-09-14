@@ -6,6 +6,7 @@ github:
 optimism:
   - address: "0xf7c1daf7443d7307df13c81f5f0328d4c7803e7b"
     tags:
+      - eoa
       - creator
   - address: "0x017ff87ab312301ade54f7cf9cc5aea28c9de024"
     tags:
@@ -13,12 +14,15 @@ optimism:
   - address: "0xd01a5051253007ae0b7123b50410e3b5a3f6cf95"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0xea5fed6adb6ea4c8a2e2622de720f9ced0b22a17"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x29414ec76d79ff238e5e773322799d1c7ca2443f"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x77b3aa18d89ea24e4af7bb9bc221d49fd5534c19"
     tags:
       - contract
@@ -46,6 +50,7 @@ optimism:
   - address: "0xbe4a5438ad89311d8c67882175d0ffcc65dc9c03"
     tags:
       - contract
+    name: Token
   - address: "0x226d8bfb4da78ddc5bd8fd6c1532c58e88f9fd34"
     tags:
       - contract
@@ -58,6 +63,7 @@ optimism:
   - address: "0x68d97b7a961a5239b9f911da8deb57f6ef6e5e28"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x9d1853a4d36bc5b0a0c4a852f3f4e439541e7cc3"
     tags:
       - contract

@@ -6,15 +6,16 @@ github:
 optimism:
   - address: "0x44045fd5d3840fec51b76fb6a87cbcda735a8629"
     tags:
+      - eoa
       - creator
   - address: "0xedd118e091eee0e7fa9eeb9b4db717518f56cb15"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x00c0184c0b5d42fba6b7ca914b31239b419ab80b"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x71c9ac784513fd58ee174ee851e993afeda1a0b1"
     tags:
       - contract
@@ -24,6 +25,7 @@ optimism:
   - address: "0x3dea6da7cdad789e6d947c3e983ab4f996a7bbc1"
     tags:
       - contract
+    name: MerkleDistributor
   - address: "0xa3c5ed39b8665854212ee0b508a806105e249935"
     tags:
       - contract
@@ -72,6 +74,7 @@ optimism:
   - address: "0x8f12491f3f067b8570cfb75f95f8c79b62bea438"
     tags:
       - contract
+    name: UniswapV3HelperExt
   - address: "0xa22b348ffd337f1e46fb054ad48f2feeaf55e75c"
     tags:
       - contract
@@ -139,5 +142,55 @@ optimism:
     tags:
       - contract
   - address: "0xa46fd59672434d1917972f1469565baeb57ed204"
+    tags:
+      - contract
+  - address: "0x46050982f32286c68a1a7b129b7c6a4db9e119ec"
+    tags:
+      - contract
+      - factory
+  - address: "0x9629c505ed89111530a0766a4ff4b20cab535d04"
+    tags:
+      - contract
+      - factory
+  - address: "0x05aed0c7646d9a1e5a55f06fd057e098dd8f4b70"
+    tags:
+      - contract
+      - factory
+  - address: "0x965a25cfbbe8185246f4d96b80cc4dc860546f1a"
+    tags:
+      - contract
+  - address: "0x1105f513257c0ced9f4adc099d9b96ea8b78f50c"
+    tags:
+      - contract
+    name: MerkleDistributor
+  - address: "0xa049a043441de9d52c190fe792f5efb4d475c6dd"
+    tags:
+      - contract
+  - address: "0xad5b3ebb7e4aff721676e1731a10ccefd60e1589"
+    tags:
+      - contract
+  - address: "0x3169cda6574f291726206f442f253b85b41fd9c3"
+    tags:
+      - contract
+  - address: "0x357754fa82b746d91087e5d49c522c82541af837"
+    tags:
+      - contract
+  - address: "0x59b344fdb56887b91ac2e6c3cd820f26cfb6d128"
+    tags:
+      - contract
+  - address: "0x0909256fd0f4f450fb2cb770ed4bec23d36c163c"
+    tags:
+      - contract
+  - address: "0xab954db48b9f348247e10d4d3d1f185e7424b3fa"
+    tags:
+      - contract
+  - address: "0x9739e02b9c9872498a3c7324ce48673e83d9188c"
+    tags:
+      - contract
+  - address: "0x56cce1ebe7b640fc7bd56710cc0c453d282ff927"
+    tags:
+      - contract
+    name: MerkleDistributor
+  - address: "0xfd555512d1e5eceb74335521dd696555ea81ea93"
     tags:
       - contract

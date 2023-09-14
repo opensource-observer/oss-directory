@@ -6,6 +6,7 @@ github:
 optimism:
   - address: "0xd22044706dea3c342f68396bedbcf6a2536d951d"
     tags:
+      - eoa
       - creator
   - address: "0xfcfa6855b3e79f1c3ae4314cc0e85f37dfa14b3f"
     tags:
@@ -31,6 +32,7 @@ optimism:
   - address: "0x50f9f913590e1dc0efc822e0552ebcba5882e5dc"
     tags:
       - contract
+    name: KyberStaticQuoter
   - address: "0x5f030dc08eea2abfcc497f3c5351746dac971ad2"
     tags:
       - contract
@@ -43,6 +45,7 @@ optimism:
   - address: "0xf2acd5f10e16bcd2b436701647513bb6c20cf62f"
     tags:
       - contract
+    name: KyberStaticQuoter
   - address: "0x1d3e01bd14214fe3cd10904690dfa908c23b37a1"
     tags:
       - contract

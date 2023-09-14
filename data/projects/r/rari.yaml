@@ -6,6 +6,7 @@ github:
 optimism:
   - address: "0x7ed52863829ab99354f3a0503a622e82acd5f7d3"
     tags:
+      - eoa
       - creator
   - address: "0x441c2841acc46db0b2c06c022c4db97a6b205312"
     tags:
@@ -13,3 +14,4 @@ optimism:
   - address: "0x5421e2b1349b33ac17fb611cca538fc2c03a023d"
     tags:
       - contract
+    name: L2_NovaRegistry

@@ -6,42 +6,52 @@ github:
 optimism:
   - address: "0x9a8f92a830a5cb89a3816e3d267cb7791c16b04d"
     tags:
+      - eoa
       - creator
   - address: "0xb44c433d2b071b95184cf25e1113cc2f1a903cb1"
     tags:
-      - factory
       - contract
+      - factory
+    name: LongShortPairCreator
   - address: "0x2d509190ed0172ba588407d4c2df918f955cc6e1"
     tags:
-      - factory
       - contract
+      - factory
+    name: TokenFactory
   - address: "0xf2be21c20e1be52697d02afe4270644bcb1f9aa5"
     tags:
       - contract
+    name: BinaryOptionLongShortPairFinancialProductLibrary
   - address: "0xad7c5516b25661e0a204646b08024cd82ffe6c48"
     tags:
       - contract
+    name: AddressWhitelist
   - address: "0xcd5fe81278febf3a9323efc9f68aeccaeae8be2c"
     tags:
       - contract
+    name: OptimisticAsserter
   - address: "0xa420b2d1c0841415a695b81e5b867bcd07dff8c9"
     tags:
       - contract
+    name: Optimism_SpokePool
   - address: "0x09afd24acc170c16f4ff64bdf2a4818c515440e8"
     tags:
       - contract
   - address: "0x9fac5d01c78d290f974b30fbb84016dfd526c529"
     tags:
       - contract
+    name: OptimismWrapper
   - address: "0x56e2d1b8c7de8d11b282e1b4c924c32d91f9102b"
     tags:
       - contract
+    name: OptimisticOracle
   - address: "0x278d6b1aa37d09769e519f05fcc5923161a8536d"
     tags:
       - contract
   - address: "0xffb14e4c6f5917586e8eaa509d3504f5722f678c"
     tags:
       - contract
+    name: Optimism_SpokePool
   - address: "0x255483434aba5a75dc60c1391bb162bcd9de2882"
     tags:
       - contract
@@ -51,12 +61,14 @@ optimism:
   - address: "0xec88d3c08e2939562ff8188b4e30a52236c3ff09"
     tags:
       - contract
+    name: Optimism_SpokePool
   - address: "0x7cc13c5c3a38718af2a7c36d8311f80ad47ef0ab"
     tags:
       - contract
   - address: "0x59485d57eecc4058f7831f46ee83a7078276b4ae"
     tags:
       - contract
+    name: Optimism_SpokePool
   - address: "0x55743451b0921b555b4aeaf878c2f3e37aa41755"
     tags:
       - contract
@@ -69,18 +81,22 @@ optimism:
   - address: "0xa4199d73ae206d49c966cf16c58436851f87d47f"
     tags:
       - contract
+    name: Registry
   - address: "0xe04487c1a3d3a100464be87482be941816bb94ca"
     tags:
       - contract
   - address: "0x235fa7590749c0c7240926e4cd0bb8eaecdbd3f3"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x5be04e53b465c6fd89ecff3d36ddf666d198e31a"
     tags:
       - contract
+    name: Store
   - address: "0xa7cbbadcf7d95b34fafe317d023d4635f6cd1c58"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x6f26bf09b1c792e3228e5467807a900a503c0281"
     tags:
       - contract
@@ -90,9 +106,11 @@ optimism:
   - address: "0x89d63bb8add89d7da589cb2a677411dedce659a2"
     tags:
       - contract
+    name: Optimism_SpokePool
   - address: "0xef8b46765ae805537053c59f826c3ad61924db45"
     tags:
       - contract
+    name: GovernorSpoke
   - address: "0x79e5462a3544d122152595cba5eefc617c875190"
     tags:
       - contract
@@ -102,6 +120,7 @@ optimism:
   - address: "0x072819bb43b50e7a251c64411e7aa362ce82803b"
     tags:
       - contract
+    name: OptimisticOracleV3
   - address: "0x618c854204834e110eb77f092e7063d7ae2855d8"
     tags:
       - contract
@@ -114,18 +133,26 @@ optimism:
   - address: "0xd90a27eaf88c81f50e30e0e0333036838814181e"
     tags:
       - contract
+    name: IdentifierWhitelist
   - address: "0xa5b9d8a0b0fa04ba71bdd68069661ed5c0848884"
     tags:
       - contract
   - address: "0x3bad7ad0728f9917d1bf08af5782dcbd516cdd96"
     tags:
       - contract
+    name: OVM_OETH_BridgeDepositBox
   - address: "0xce8641af1d5de04d8b252db42cc2600e33fe5980"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x168144503bfda917657a6ccd079d1b7d2e6bf0e2"
     tags:
       - contract
   - address: "0xa75c77dc60eb0f3d8ab422287656e76d83d55f34"
     tags:
       - contract
+    name: Optimism_SpokePool
+  - address: "0xfd7f000c26b7205c1a3f9b846f44dc11ff5e6eb8"
+    tags:
+      - contract
+    name: Optimism_SpokePool

@@ -6,27 +6,32 @@ github:
 optimism:
   - address: "0xbc577bddeb479eeabadf5303a1221cf84c074ea7"
     tags:
+      - eoa
       - creator
   - address: "0x2aa5853d2d934c3a239d83f56dc26ebb25084163"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x66944cb5b334a8a48399b8f0bf0891382f2be3d7"
     tags:
-      - factory
       - contract
+      - factory
+    name: CLRDeployer
   - address: "0xcd8fbbea2f2b49304545aa997ceef1efeba2b25f"
     tags:
       - contract
+    name: NonRewardPoolDeployer
   - address: "0x89b81e6ae2faeb168e0837cfaf8a4e6f29d9e660"
     tags:
       - contract
+    name: LMTerminal
   - address: "0x9c49633535806beb2f26b0b0491dd3553536cb23"
     tags:
       - contract
   - address: "0x9f176000f69e78ae398636d964c4441308d9fcf1"
     tags:
       - contract
+    name: CLR
   - address: "0xc9e46b48c47fe6a807ad61912bcf278b24a43b53"
     tags:
       - contract
@@ -36,6 +41,7 @@ optimism:
   - address: "0x3b11cea427a3c96ed9771335f2567f80f4226ab6"
     tags:
       - contract
+    name: LMTerminal
   - address: "0x98764589f3e94a94e4b171a4d6902deb5543676e"
     tags:
       - contract
@@ -48,21 +54,27 @@ optimism:
   - address: "0x4027b4e4cc1e4004bdf50b91f4377375b0658cd4"
     tags:
       - contract
+    name: LMTerminal
   - address: "0xad797f6472bc29cebb7db950465f821157d9dae4"
     tags:
       - contract
+    name: NonRewardPool
   - address: "0xfebc87e4a9a4c1a44daec949a15171462ca8ed61"
     tags:
       - contract
+    name: LMTerminal
   - address: "0x40e8cb3440c0b05eb20522d1f63397e5b36efcf2"
     tags:
       - contract
+    name: RewardEscrowProxy
   - address: "0x08b129a7e3105bba38387ab940d5546991b209c2"
     tags:
       - contract
+    name: StakedCLRToken
   - address: "0x43919b6b8eff5563984353ffea349fb395129b6b"
     tags:
       - contract
+    name: ProxyAdmin
   - address: "0x0485954f55efda230f9027ffde40466467965610"
     tags:
       - contract
@@ -72,9 +84,11 @@ optimism:
   - address: "0x594af86dd3b18944360589db73ba84c1d6951eb3"
     tags:
       - contract
+    name: CLR
   - address: "0x64c288f59360f7e081ec9558f5b91650b4a9e5c8"
     tags:
       - contract
+    name: LMTerminal
   - address: "0x21a3ed04b3f5e17bd158aa30a75c7429bcb03169"
     tags:
       - contract
@@ -87,36 +101,45 @@ optimism:
   - address: "0xf6f4f00317f772233d0ca487f2f94331d760f12e"
     tags:
       - contract
+    name: NonRewardPool
   - address: "0xb9dd61dd3b905fa0c899a708bd135f04efba5f7e"
     tags:
       - contract
+    name: RewardEscrow
   - address: "0x6094b6ac9ec50a4ab541d7451857e4ebb33dc2ee"
     tags:
       - contract
   - address: "0xe01eec69a943dcc5cb8aa51d96e3f2eea76f2789"
     tags:
       - contract
+    name: CLR
   - address: "0xfe63667ead82ae168782e80492393f8d4d6ada7c"
     tags:
       - contract
+    name: UniswapLibrary
   - address: "0xd322f4e5fa3ec65739d9605faa100b7d5ef36f51"
     tags:
       - contract
   - address: "0x613982643f4c97dddf9aaf4cb2e8a02ff99c92ba"
     tags:
       - contract
+    name: StakedCLRToken
   - address: "0x9f5c792c4d11e67e5fac82f22395d1d50e75eb40"
     tags:
       - contract
+    name: LMTerminal
   - address: "0x246ebb0514c69767547213e2ff56223062628ef9"
     tags:
       - contract
+    name: CLR
   - address: "0xf9ad07eba7cd32774f35000a16de52b9ee71e05a"
     tags:
       - contract
+    name: LMTerminal
   - address: "0x090559d58aab8828c27ee7a7eab18efd5bb90374"
     tags:
       - contract
+    name: LMTerminalProxy
   - address: "0x0f58dbeae68161450587b6e2b521b545b695f3ab"
     tags:
       - contract
@@ -126,3 +149,4 @@ optimism:
   - address: "0x607b309dec0b5f03bcede2aa5a04b126950b9986"
     tags:
       - contract
+    name: RewardEscrowProxy

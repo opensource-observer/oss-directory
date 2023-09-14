@@ -6,29 +6,34 @@ github:
 optimism:
   - address: "0xee4f7b6c39e7e87af01fb9e4cee0c893ff4d63f2"
     tags:
+      - eoa
       - creator
-      - contract
   - address: "0x11799622f4d98a24514011e8527b969f7488ef47"
     tags:
+      - eoa
       - creator
-      - contract
   - address: "0x74886e43273e66da073d26d91cdb4f0eb91fc420"
     tags:
+      - eoa
       - creator
   - address: "0xccbdbd9b0309a77fc6a56e087ff2765ff394012e"
     tags:
+      - eoa
       - creator
   - address: "0x7d0831e0469e8b48e0f280459bc2cc44f23ca7e4"
     tags:
+      - eoa
       - creator
   - address: "0x40cbec31059aba7af761407af9bbdaf78f25117c"
     tags:
-      - factory
       - contract
+      - factory
+    name: Settlement
   - address: "0xd89adc20c400b6c45086a7f6ab2dca19745b89c2"
     tags:
-      - factory
       - contract
+      - factory
+    name: Settlement
   - address: "0xf0694acc9e941b176e17b9ef923e71e7b8b2477a"
     tags:
       - contract
@@ -50,15 +55,18 @@ optimism:
   - address: "0xe295ad71242373c37c5fda7b57f26f9ea1088afe"
     tags:
       - contract
+    name: MultiCall
   - address: "0x0f85a912448279111694f4ba4f85dc641c54b594"
     tags:
       - contract
   - address: "0xa0446d8804611944f1b527ecd37d7dcbe442caba"
     tags:
       - contract
+    name: MultiWrapper
   - address: "0x32d12a25f539e341089050e2d26794f041fc9df8"
     tags:
       - contract
+    name: SeriesNonceManager
   - address: "0xb54c7216189b5dce3a389ff12f82e5c96d93d54a"
     tags:
       - contract
@@ -83,6 +91,7 @@ optimism:
   - address: "0xcbdb7490968d4dbf183c60fc899c2e9fbd445308"
     tags:
       - contract
+    name: SeriesNonceManager
   - address: "0x670988ba70f9433438d1d35b53a5d83a4731a473"
     tags:
       - contract
@@ -95,15 +104,18 @@ optimism:
   - address: "0x11dee30e710b8d4a8630392781cc3c0046365d4c"
     tags:
       - contract
+    name: OffchainOracle
   - address: "0x54431918cec22932fcf97e54769f4e00f646690f"
     tags:
       - contract
+    name: UniswapV3Oracle
   - address: "0xcb06df7f0be5b8bb261d294cf87c794eb9da85b1"
     tags:
       - contract
   - address: "0x29bc86ad68bb3bd3d54841a8522e0020c1882c22"
     tags:
       - contract
+    name: WethUnwrapper
   - address: "0xea1e11e3d448f31c565d685115899a11fd98e40e"
     tags:
       - contract
@@ -116,6 +128,7 @@ optimism:
   - address: "0xd41b24bba51fac0e4827b6f94c0d6ddeb183cd64"
     tags:
       - contract
+    name: FixedRateSwap
   - address: "0xfb45fcb8428ea6487b2c5f1474d82c32c65a3e31"
     tags:
       - contract
@@ -134,9 +147,11 @@ optimism:
   - address: "0x93131efee501d5721737c32576238f619548edda"
     tags:
       - contract
+    name: EvmHelpers
   - address: "0x2ec255797fef7669fa243509b7a599121148ffba"
     tags:
       - contract
+    name: LeftoverExchanger
   - address: "0x8266c553f269b2eeb2370539193bcd0eff8cc2de"
     tags:
       - contract
@@ -155,18 +170,21 @@ optimism:
   - address: "0x57da811a9ef9b79dbc2ea6f6dc39368a8da1cf07"
     tags:
       - contract
+    name: LimitOrderProtocol
   - address: "0x11431a89893025d2a48dca4eddc396f8c8117187"
     tags:
       - contract
   - address: "0x1111111254760f7ab3f16433eea9304126dcd199"
     tags:
       - contract
+    name: AggregationRouterV4
   - address: "0xc2df1f9c2f99262bd9b88a36bbdb64412d6041ba"
     tags:
       - contract
   - address: "0x851de4ae771483bff6790f79ee78a92daf400e76"
     tags:
       - contract
+    name: WethUnwrapper
   - address: "0xff3cdca6db902617e6ae4133cb45df41c38222b1"
     tags:
       - contract
@@ -186,5 +204,12 @@ optimism:
     tags:
       - contract
   - address: "0xb707d89d29c189421163515c59e42147371d6857"
+    tags:
+      - contract
+    name: LimitOrderProtocol
+  - address: "0xb63aae6c353636d66df13b89ba4425cfe13d10ba"
+    tags:
+      - contract
+  - address: "0xbaf9a5d4b0052359326a6cdab54babaa3a3a9643"
     tags:
       - contract

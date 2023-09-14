@@ -6,20 +6,27 @@ github:
 optimism:
   - address: "0x9c5a87452d4fac0cbd53bdca580b20a45526b3ab"
     tags:
+      - eoa
       - creator
   - address: "0xe13f6925b0a648dc7546ea71b7115470a8e34f75"
     tags:
+      - contract
       - factory
+    name: FunderFactory
   - address: "0xc55f260cdb66b9145f7fa378a29bc78b042ca2a2"
     tags:
+      - contract
       - factory
   - address: "0x1b926fbb24a9f78dcdd3272f2d86f5d0660e59c0"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xf9d09d634fb818b05149329c1dccfaea53639d96"
     tags:
+      - contract
       - factory
+    name: Factory
   - address: "0x8a5bc19e22d6ad55a2c763b93a75d09f321fe764"
     tags:
+      - contract
       - factory

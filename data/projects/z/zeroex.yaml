@@ -4,48 +4,49 @@ name: zeroex
 github:
   - url: https://github.com/zeroexchange
 optimism:
-  - address: "0x7a68685e4d5d67322a26db639c62ac1460823905"
-    tags:
-      - creator
-  - address: "0xdef1c0ded9bec7f1a1670819833240f027b25eff"
-    tags:
-      - creator
   - address: "0xe750ad66de350f8110e305fb78ec6a9f594445e3"
     tags:
+      - eoa
       - creator
   - address: "0xf8ebddd333b3ab285906fd5eb603b17ecd18266f"
     tags:
-      - creator
       - contract
   - address: "0x60908c4037cbb8f3aa040d9fb668ab36280eb871"
     tags:
+      - eoa
       - creator
   - address: "0x6879fab591ed0d62537a3cac9d7cd41218445a84"
     tags:
+      - eoa
       - creator
   - address: "0x1e9b8208081b47e76b6d6803832e14a5adb94fbc"
     tags:
-      - factory
       - contract
+      - factory
+    name: TransformerDeployer
   - address: "0x3a539ed6bd42de8fbaf3899fb490c792e153d647"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x3899b63bfcf85e5fedc2cda43e3153e19f976aed"
     tags:
-      - factory
       - contract
+      - factory
+    name: TransformerDeployer
   - address: "0x843c1ae003a7217a122e9e2a7336377ee51b660f"
     tags:
-      - factory
       - contract
+      - factory
+    name: ZeroEx
   - address: "0x80a36559ab9a497fb658325ed771a584eb0f13da"
     tags:
-      - factory
       - contract
+      - factory
+    name: ZeroEx
   - address: "0xd16ae399f561265d895e0e2703cb34f8e47a9754"
     tags:
       - contract
+    name: BridgeAdapter
   - address: "0x62c0077baa246ab15cacc4e3f9c04f7467cb4593"
     tags:
       - contract
@@ -61,27 +62,32 @@ optimism:
   - address: "0x6d506b2847df0c6f04d2628da1adaf4d8fb2e81b"
     tags:
       - contract
+    name: ZeroExGovernor
   - address: "0xdd4a12da198b367751481db286bce99717bed11f"
     tags:
       - contract
   - address: "0x0dd99980a85dba5cc03afef716926ce5471bde23"
     tags:
       - contract
+    name: BridgeAdapter
   - address: "0x75f68002fd99c700160f4287d76c2fa8b9603b58"
     tags:
       - contract
   - address: "0x23e1fcf553a7db590562f8a47bd76a28e358455e"
     tags:
       - contract
+    name: TransformERC20Feature
   - address: "0x254d39d6e8b40f31d104ccb8d00dab5dcfeb79d5"
     tags:
       - contract
+    name: OwnableFeature
   - address: "0xbb2dd92567cd3308bb0dcd5a9d2430e1e7420428"
     tags:
       - contract
   - address: "0x6c0459bdfb9352a1d4cb8e80310b3e4d957ab132"
     tags:
       - contract
+    name: SimpleFunctionRegistryFeature
   - address: "0x78b853dd3dd3271fa5edd2944155fc907f411819"
     tags:
       - contract
@@ -95,5 +101,16 @@ optimism:
     tags:
       - contract
   - address: "0x6cfbc77ba5ec023a03b2f5c3a4c367e7519ae786"
+    tags:
+      - contract
+  - address: "0xedcd79f34db8b78cd7a55e04dbf991ecd1a5c0f4"
+    tags:
+      - eoa
+      - creator
+  - address: "0xdef1abe32c034e558cdd535791643c58a13acc10"
+    tags:
+      - contract
+      - factory
+  - address: "0xdf756c9cbb0d9fce050a1b5d04d893c9b5406886"
     tags:
       - contract

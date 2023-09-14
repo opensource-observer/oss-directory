@@ -6,27 +6,31 @@ github:
 optimism:
   - address: "0xae75b29ade678372d77a8b41225654138a7e6ff1"
     tags:
+      - eoa
       - creator
   - address: "0xa23b66eb226c609f5ccb2394c0874cb828a35344"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xeb02a14704353a678b559829ff9969f5b1db0db4"
     tags:
-      - factory
       - contract
+      - factory
+    name: LyraPositionHandlerL2
   - address: "0x709a5a2a61a05ea417ab3b3643ffea241ee7cdeb"
     tags:
-      - factory
       - contract
+      - factory
+    name: LyraPositionHandlerL2
   - address: "0xdf47d2784b67693a283c7ef9bae51d8593908a42"
     tags:
-      - factory
       - contract
+      - factory
+    name: LyraPositionHandlerL2
   - address: "0x0a9a47f9c19b486237a398c27bafc60cac2cb15c"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xdf1a0846921c7ff01e5b3f56c06f50fb0d843e38"
     tags:
       - contract
@@ -36,9 +40,11 @@ optimism:
   - address: "0xb79f25e8a6a3864937baeb82bc3aad16b4f57dc7"
     tags:
       - contract
+    name: Recover
   - address: "0x1b6bf7ab4163f9a7c1d4ecb36299525048083b5e"
     tags:
       - contract
+    name: PerpPositionHandlerL2
   - address: "0x3c4fe0db16c9b521480c43856ba3196a9fa50e08"
     tags:
       - contract
@@ -54,6 +60,7 @@ optimism:
   - address: "0xad64b3fdbe3a5f9143a27b5c4d6368aa1985d20d"
     tags:
       - contract
+    name: Recover
   - address: "0x8ea6f0576ac7ee21f6b3a45c257fa35c796715ab"
     tags:
       - contract
@@ -66,6 +73,7 @@ optimism:
   - address: "0x0b2c4041d3453af54fe94cca505075f21334ff7e"
     tags:
       - contract
+    name: Recover
   - address: "0x2e6e76df432c2217e5f9a31a4303744181fdfe14"
     tags:
       - contract
