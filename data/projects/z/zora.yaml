@@ -6,20 +6,25 @@ github:
 optimism:
   - address: "0xad031eee55f595df6dbd61e9ef3b908fad1b3671"
     tags:
+      - eoa
       - creator
   - address: "0x1b28a04b7eb7b93f920ddf2021aa3fae065395f2"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x78b524931e9d847c40bcbf225c25e154a7b05fda"
     tags:
+      - contract
       - factory
+    name: Zora1155Factory
   - address: "0x7d1a46c6e614a0091c39e102f2798c27c1fa8892"
     tags:
+      - contract
       - factory
   - address: "0x899ce31df6c6af81203acaad285bf539234ef4b8"
     tags:
       - contract
+    name: ZoraCreatorMerkleMinterStrategy
   - address: "0x46e772210f01647fa573b915be287ff9b65ad4b0"
     tags:
       - contract
@@ -29,21 +34,45 @@ optimism:
   - address: "0xd1cba36d92b052079523f471eb891563f2e5df5c"
     tags:
       - contract
+    name: ZoraNFTCreatorV1
   - address: "0x3678862f04290e565cca2ef163baeb92bb76790c"
     tags:
       - contract
+    name: ZoraCreatorFixedPriceSaleStrategy
   - address: "0x192d663c3d6813a24a24582a76b8d872c4f6f7f9"
     tags:
       - contract
   - address: "0xa02fc0fc9b0b3e23ac26eb0f2d392fd5cda58514"
     tags:
       - contract
+    name: ProxyShim
   - address: "0x2fbdbc34b6015e7b40638179aa05a2d2267452c7"
     tags:
       - contract
+    name: ZoraCreator1155Impl
   - address: "0xa2a7d8bce0bf58d177137ecb94f3fa6aa06aa7a1"
     tags:
       - contract
   - address: "0x96ccf205a366e15e261d77b14586389f80a029e9"
     tags:
       - contract
+  - address: "0x12125c8a52b8e4ed1a28e1f964023b4477f11300"
+    tags:
+      - eoa
+      - creator
+  - address: "0x3e8524770add176be381a0529e09f1c6c3502a5a"
+    tags:
+      - contract
+    name: ERC721Drop
+  - address: "0x805e0a08de70f85c01f7848370d5e3fc08aad0ea"
+    tags:
+      - contract
+    name: ZoraNFTCreatorV1
+  - address: "0x8ca5e648c5dfefcdda06d627f4b490b719ccfd98"
+    tags:
+      - contract
+    name: ZoraCreator1155FactoryImpl
+  - address: "0xeb29a4e5b84fef428c072deba2444e93c080ce87"
+    tags:
+      - contract
+    name: ZoraCreator1155Impl

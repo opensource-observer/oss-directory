@@ -6,17 +6,21 @@ github:
 optimism:
   - address: "0x41ba3387e1a5a592e27b9ee33935957ce5f872c1"
     tags:
+      - eoa
       - creator
   - address: "0xbce212ea0474f464488e963e793010205175f123"
     tags:
-      - factory
       - contract
+      - factory
+    name: AVaultForAaveFactory
   - address: "0x8fcbe72710185dd34a8bbba1cc05eb2628945fec"
     tags:
       - contract
+    name: UOExecutorL2
   - address: "0x03065e84748a9e4a1aebef15ac89da1cdf18b202"
     tags:
       - contract
+    name: UOExecutorL2
   - address: "0xaf4286e5e9eabc0142efc529652fd05335b23dd6"
     tags:
       - contract
@@ -32,6 +36,7 @@ optimism:
   - address: "0x7745d489dc858d07313bc18ba48930066c019590"
     tags:
       - contract
+    name: SigValidationModule
   - address: "0xe24f9d529cf71075e0a33c45a8a66ad99a11dde2"
     tags:
       - contract
@@ -47,6 +52,7 @@ optimism:
   - address: "0x5eca1457ef6531c6a0a4a9a4054789acae303db6"
     tags:
       - contract
+    name: AddressesProvider
   - address: "0x51808263e311782071670a9a693936da04b7870e"
     tags:
       - contract
@@ -62,12 +68,16 @@ optimism:
   - address: "0xf1ae0d98c31b1b7b784c05cb5e5bcefe6208fe1c"
     tags:
       - contract
+    name: AvaultRouter_OPTIMISM
   - address: "0x16c26133e747374bbd594f214ccd2f2e252aabf9"
     tags:
       - contract
+    name: UOExecutorL2
   - address: "0x38325f901a698af88d855f061d0fea70825856c5"
     tags:
       - contract
+    name: AvaultRouter_OPTIMISM
   - address: "0x6ec6084e09f5afb8dcb4e45c2e36f2ca0bbcdf7d"
     tags:
       - contract
+    name: UOExecutorL2

@@ -6,10 +6,12 @@ github:
 optimism:
   - address: "0xbe9228ce3b7ed30c8646143d0e56ee16fec6c07c"
     tags:
+      - eoa
       - creator
   - address: "0x7ea8c22e6dcd7bd69eb180664da68e1f1f11d696"
     tags:
       - contract
+    name: WardenRouterV2_L2
   - address: "0x8860dc637a513027e4883a77a5567cfeaa718ae2"
     tags:
       - contract
@@ -22,6 +24,7 @@ optimism:
   - address: "0x338f48b6c18a49fc7dd7137498617d06a5e089c7"
     tags:
       - contract
+    name: TopOptiPunk
   - address: "0xe2f50042766bdea8bcbfa0ff6a94bab65f897826"
     tags:
       - contract
@@ -52,6 +55,7 @@ optimism:
   - address: "0x703d57164ca270b0b330a87fd159cfef1490c0a5"
     tags:
       - contract
+    name: L2StandardERC20
   - address: "0x81d10cbea2b7e2ce9589cfe48442a83f013885ab"
     tags:
       - contract

@@ -6,64 +6,75 @@ github:
 optimism:
   - address: "0xd15d5d0f5b1b56a4daef75cfe108cb825e97d015"
     tags:
+      - eoa
       - creator
   - address: "0xd82fbd545f8205f67006309773b2e065c6764ee5"
     tags:
+      - eoa
       - creator
   - address: "0x83a15cb9781458b421ad11def469586242cd06cb"
     tags:
+      - eoa
       - creator
   - address: "0x8b1727d9322e7bb82e87018f0a4f0d60a3d0866d"
     tags:
+      - eoa
       - creator
   - address: "0xcd6596071e9cb8fc358796f2839a5704496795f9"
     tags:
+      - eoa
       - creator
   - address: "0xe1c7ece25c1f7dbbddfe13b764873e29f409850a"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x1b16d87ed061d08132af1461f32c9bc065bd18ea"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x0b6f95cd515e3c2d5ac5b890ea8d8ccc602cde18"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xe64f81d5ddda1c7172e5c6d964e8ef1bd82d8704"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x0fb7694c990cf19001127391dbe53924dd7a61c7"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x567c4b141ed61923967ca25ef4906c8781069a10"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x8276469a443d5c6b7146bed45e2abcad3b6adad9"
     tags:
+      - contract
       - factory
+    name: UUPSProxy
   - address: "0x97efe74c88bbbc78c688107e6f88105a05d4ac37"
     tags:
       - contract
   - address: "0x8a63b9b37487477a8cbfa7a5a91a3720d9152daa"
     tags:
       - contract
+    name: UUPSProxy
   - address: "0x109412e3c84f0539b43d39db691b08c90f58dc7c"
     tags:
       - contract
   - address: "0x0c6d90a98426bfd572a5c5be572a7f6bd1c5ed76"
     tags:
       - contract
+    name: UUPSProxy
   - address: "0x5735c32c38f5af0fb04a7c77c832ba4d7abffec8"
     tags:
       - contract
+    name: Superfluid
   - address: "0x95b9f4a244dba7aaadb8f7c837ee681811b9e73d"
     tags:
       - contract
+    name: Superfluid
   - address: "0x88ab2cbd7976dbb4cbc253dabb89a5a2fe5c4a20"
     tags:
       - contract
@@ -76,6 +87,7 @@ optimism:
   - address: "0x554a8acef6c689a74b25b1c41f58fa2e678162b5"
     tags:
       - contract
+    name: ConstantOutflowNFT
   - address: "0x2e15b3cd0ec91ccf925e030a1f25c3422b7b5f43"
     tags:
       - contract
@@ -85,6 +97,7 @@ optimism:
   - address: "0x4ac8bd1bdae47beef2d1c6aa62229509b962aa0d"
     tags:
       - contract
+    name: SETHProxy
   - address: "0x9e6c7fb511090e9a0de0bf6a0e5358dd90ec0432"
     tags:
       - contract
@@ -97,21 +110,25 @@ optimism:
   - address: "0x609b9d9d6ee9c3200745a79b9d3398dbd63d509f"
     tags:
       - contract
+    name: Resolver
   - address: "0xfbe332e001d6b54e1f4b63c2343b8e7746d99ece"
     tags:
       - contract
   - address: "0x6b0dacea6a72e759243c99eaed840dee9564c194"
     tags:
       - contract
+    name: ConstantFlowAgreementV1
   - address: "0x16826ecdd359f8d3b1b3078a16fe09eac5d26d8f"
     tags:
       - contract
   - address: "0xf04f2c525819691ed9abd3d2b7109e1633795e68"
     tags:
       - contract
+    name: ConstantFlowAgreementV1
   - address: "0x6c66e5c5d201a753ff497f2e9ec5d545631854d0"
     tags:
       - contract
+    name: SuperTokenFactory
   - address: "0x15f0ca26781c3852f8166ed2ebce5d18265cceb7"
     tags:
       - contract
@@ -127,12 +144,15 @@ optimism:
   - address: "0x72e92c548fbc7066a108f641715850bc94dd4931"
     tags:
       - contract
+    name: UUPSProxy
   - address: "0x1eece78f76843001039f5f4de41d68ec9a80a1f7"
     tags:
       - contract
+    name: ConstantInflowNFT
   - address: "0x5d3230f182ae16ef5b6f6e9dae5732d3c3324f0f"
     tags:
       - contract
+    name: SuperTokenFactory
   - address: "0xdf3f4b9e4e67a21c868d043a92ae921ff0ebadbb"
     tags:
       - contract
@@ -145,9 +165,11 @@ optimism:
   - address: "0x04515b6c0bf314efbdedece646432357deb3cbb7"
     tags:
       - contract
+    name: Superfluid
   - address: "0xa3c8502187fd7a7118ead59dc811281448946c8f"
     tags:
       - contract
+    name: TOGA
   - address: "0xf8d8f02b788de5191ecd20f7bdb07d80963410b5"
     tags:
       - contract
@@ -163,6 +185,7 @@ optimism:
   - address: "0x5f001c3915084186b9109fb9dc1e978c98f854b0"
     tags:
       - contract
+    name: Superfluid
   - address: "0xbf7bcce8d60a9c3f6bfaec9346aa85b9f781a4e9"
     tags:
       - contract
@@ -172,24 +195,30 @@ optimism:
   - address: "0xcc64973238cf06a164982146ff2dcdc7f977420b"
     tags:
       - contract
+    name: UUPSProxy
   - address: "0xd0de1486f69495d49c02d8f541b7dadf9cf5cd91"
     tags:
       - contract
   - address: "0xbe0ff75a59e32d1ec686e79542612f33c318f57a"
     tags:
       - contract
+    name: ConstantFlowAgreementV1
   - address: "0x94a8358e313044bc5bc4a615da4e59acaf3e1101"
     tags:
       - contract
+    name: SuperTokenFactory
   - address: "0x507c3a7c6ccc253884a2e3a3ee2a211cc7e796a6"
     tags:
       - contract
+    name: SlotsBitmapLibrary
   - address: "0x5a9ba2a62b2c802ff22f54b01b403dd4bb4a049c"
     tags:
       - contract
+    name: ConstantFlowAgreementV1
   - address: "0xc50a1cd958b3ca29af9ee4730f69616e47dc693f"
     tags:
       - contract
+    name: Superfluid
   - address: "0x259abf1e6de9a4db62632c63ff7b91d4565434d4"
     tags:
       - contract
@@ -220,9 +249,11 @@ optimism:
   - address: "0x2d2a2ab9188f7dac02686003b5282988a6693be6"
     tags:
       - contract
+    name: Resolver
   - address: "0x2aa431706dc48805d7c73f12210254da5eb7eebf"
     tags:
       - contract
+    name: SlotsBitmapLibrary
   - address: "0x89b4518dda51077c51e7853941c7dd3ac70d10f1"
     tags:
       - contract
@@ -232,15 +263,18 @@ optimism:
   - address: "0x621d9ca96c2d4fd559c191ec5dbdeb180eddd4c1"
     tags:
       - contract
+    name: Resolver
   - address: "0x09d7d1391f7e12a1e6add8b119248e355883d74f"
     tags:
       - contract
   - address: "0xbe20bac0dcf6f01834f51ccdab2dd72707c6e9b6"
     tags:
       - contract
+    name: Superfluid
   - address: "0xdf2f3a7e116575478b72a7a4cc80c219ece4ca5b"
     tags:
       - contract
+    name: SuperTokenFactory
   - address: "0xc5093f78c91351a6b4b6bc5f8f89bdcf88920393"
     tags:
       - contract
@@ -250,15 +284,18 @@ optimism:
   - address: "0x5b3f7d29379a9569d61da92ac6a70a19faaff618"
     tags:
       - contract
+    name: UUPSProxy
   - address: "0xbf42d2f5ca96715a808801d73f34dc6554a7e62b"
     tags:
       - contract
+    name: Superfluid
   - address: "0x8e310ce29ab7fa2878944a65bb0eaf97b1853d40"
     tags:
       - contract
   - address: "0x143ea239159155b408e71cdbe836e8cfd6766732"
     tags:
       - contract
+    name: ConstantFlowAgreementV1
   - address: "0x3aa4d04111955dfdfa285e32dd9624105c6d84b4"
     tags:
       - contract
@@ -271,21 +308,25 @@ optimism:
   - address: "0xd19e9a80bad127ca6d26647f7c0bc27d3c690e72"
     tags:
       - contract
+    name: SlotsBitmapLibrary
   - address: "0x992805ed822c786bcdba4cb1f07b5cada3bc3cba"
     tags:
       - contract
   - address: "0x7a889bb2846f79d485fb3ce5959efc29a13a0a6f"
     tags:
       - contract
+    name: Superfluid
   - address: "0x18f9e9c72c8dd094792446c2a195ed6843c5ec2e"
     tags:
       - contract
+    name: Superfluid
   - address: "0x75d30bef12650239243eed131ae6a321a81df427"
     tags:
       - contract
   - address: "0x85f30c14485d1e5708c3726cb4f780590402f0ba"
     tags:
       - contract
+    name: Superfluid
   - address: "0x30a6933ca9230361972e413a15dc8114c952414e"
     tags:
       - contract
@@ -295,24 +336,70 @@ optimism:
   - address: "0x35aed9e37fc7b8030d4b643139bfe63f15d12ead"
     tags:
       - contract
+    name: SuperToken
   - address: "0x0e8611a5c8d2591bec62c6ff50ca0324501ed62b"
     tags:
       - contract
+    name: Resolver
   - address: "0xadcf0ac9f2aa04a79fc64a1fdf0a0c9f3ae0556a"
     tags:
       - contract
+    name: Superfluid
   - address: "0x997b37fb47c489cf067421aeeaf7be0543fa5362"
     tags:
       - contract
+    name: Superfluid
   - address: "0xcfa132e353cb4e398080b9700609bb008eceb125"
     tags:
       - contract
+    name: CFAv1Forwarder
   - address: "0x137d1053cb9bb6a32a90e092cbe9ed23c1e86358"
     tags:
       - contract
   - address: "0x36df169dbf5ce3c6f58d46f0addef58f01381232"
     tags:
       - contract
+    name: BatchLiquidator
   - address: "0xfb2b126660be2fdeba254b1f6e4348644e8482e7"
     tags:
       - contract
+  - address: "0xdaa54c18ce99b84ce718f56f7e6f70e243550c70"
+    tags:
+      - contract
+  - address: "0xc8dcf0cbb0f02475ebadabe7daebc5b8b6b81f57"
+    tags:
+      - contract
+    name: ExistentialNFT
+  - address: "0x42b709822f18595443c308c1be5e63cbfef06481"
+    tags:
+      - contract
+    name: ExistentialNFTCloneFactory
+  - address: "0xf353978890204756fc5fa6dfbd16a91eac9e6f4d"
+    tags:
+      - contract
+    name: Superfluid
+  - address: "0xe5e2421c5b9488c17e9e58e26a17b4f4bb3f84a1"
+    tags:
+      - contract
+    name: ConstantFlowAgreementV1
+  - address: "0xf4bae246462166ad35bb11fc9831953664195531"
+    tags:
+      - contract
+  - address: "0x5255b9a8d06af60688bc8a967b5b6049e3de3ac6"
+    tags:
+      - contract
+  - address: "0x385439d9063cad130e4786feab5a17ed79e648d5"
+    tags:
+      - contract
+  - address: "0xf759c2ee9d7107e83f9c0dbe6645fbd54ea92644"
+    tags:
+      - contract
+    name: ConstantInflowNFT
+  - address: "0x60f89041bf199a112980ad221971fc47c5d7be1e"
+    tags:
+      - contract
+    name: SuperToken
+  - address: "0x8405c5bb7292f5e181d0870ddcb4a51efaf7e074"
+    tags:
+      - contract
+    name: SuperTokenFactory

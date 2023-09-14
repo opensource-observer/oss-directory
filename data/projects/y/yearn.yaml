@@ -6,25 +6,28 @@ github:
 optimism:
   - address: "0xc6387e937bcef8de3334f80edc623275d42457ff"
     tags:
+      - eoa
       - creator
   - address: "0x81291ceb9bb265185a9d07b91b5b50df94f005bf"
     tags:
-      - factory
       - contract
+      - factory
+    name: ReleaseRegistry
   - address: "0xe92045fad15d719d7b3126585c23b7c0d70e881d"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x1ba4eb0f44ab82541e56669e18972b0d6037dfe0"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xa99ad11a59ab3f47bc163c033535a26892236ff6"
     tags:
       - contract
   - address: "0x454f953ca4a4c6ab3f2dbb158158de55e4195abc"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x7f2073af8f422a94a41df58ed6d9da0ed92c378d"
     tags:
       - contract
@@ -37,12 +40,14 @@ optimism:
   - address: "0x7e9756e1427b3c38f001f9d272d8d62bef63d619"
     tags:
       - contract
+    name: ManagementList
   - address: "0x121f77beb2d9b575d53b6fe33ef97fcc20c5fdf6"
     tags:
       - contract
   - address: "0xaf19c8404b5fb377e97f3c1b9eb595b61a42d621"
     tags:
       - contract
+    name: StakingRewards
   - address: "0xc91d959071091d58d601b291e43ea1f8e4f0c8f3"
     tags:
       - contract
@@ -52,33 +57,42 @@ optimism:
   - address: "0xd155f5bf8a475007fa369e6314c3673e4bb1e292"
     tags:
       - contract
+    name: StakingRewardsZap
   - address: "0x5fd3815dcb668200a662114fbc9af13ac0a55b4d"
     tags:
       - contract
+    name: CalculationsChainlinkRegistry
   - address: "0x9ce0115381f009e382acd52761127eff61061482"
     tags:
       - contract
+    name: KeeperWrapper
   - address: "0x7ca5b3b707475fa977b10fb4fa217983fc8e32cf"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x3e9c848f5b352083470e8906a4ec78c601f98ccc"
     tags:
       - contract
   - address: "0xd63ab09ac2048a7ecac92f0ffad5f104edd0e032"
     tags:
       - contract
+    name: AddressesGeneratorV2Vaults
   - address: "0xb62f6b72d974a5e3253c6d29630f591251ce6b10"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x54fcb3b792e19d9ba07ee61a71e93deb124cb957"
     tags:
       - contract
+    name: StakingRewards
   - address: "0xba8559dfa1f2b767cea440fb1ede9bfb4a9f518e"
     tags:
       - contract
+    name: StakingRewardsZap
   - address: "0x1f895d9e8b0830cb3bbda739fa8afb186b7fbdb4"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x0ec3473a72cad0281a224a64773c9fe414e458a7"
     tags:
       - contract
@@ -88,12 +102,14 @@ optimism:
   - address: "0x9021edfca93a0f83b013097d68be81ae4bde30d7"
     tags:
       - contract
+    name: StrategyVelodromeFactoryClonable
   - address: "0x8273217252254ad7353f227aaecd2b1c4a326fa2"
     tags:
       - contract
   - address: "0xb54d1833aca99b0e50dfcc7f55a9165c6805bb9f"
     tags:
       - contract
+    name: StakingRewardsRegistry
   - address: "0x156bab355e81b498072c9ce3cf655e9844a12529"
     tags:
       - contract
@@ -103,6 +119,7 @@ optimism:
   - address: "0x3d8a5eb67a7841e00ffae8f0764a58322ca02c66"
     tags:
       - contract
+    name: StakingRewards
   - address: "0xbf4a735f123a9666574ff32158ce2f7b7027de9a"
     tags:
       - contract
@@ -115,9 +132,11 @@ optimism:
   - address: "0x0e4e9914ecf0f7177ef999774d46218614555159"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x1ec8baab7dbd6f5a02efcab711e765bf796d091c"
     tags:
       - contract
+    name: StakingRewards
   - address: "0xb082d9f4734c535d9d80536f7e87a6f4f471bf65"
     tags:
       - contract
@@ -136,12 +155,14 @@ optimism:
   - address: "0x3f8d557fd1e9043d4577af6a230579e4ac1c4cc7"
     tags:
       - contract
+    name: Vyper_contract
   - address: "0x02ff746d8cb62709aeec611cec9b17d7dd1d3480"
     tags:
       - contract
   - address: "0x776c1e69b858f1b9622085052fb7b64a196ac602"
     tags:
       - contract
+    name: Helper
   - address: "0x916b9d7c1f5b66e42d4e4ce69c739f70b55ae6d8"
     tags:
       - contract
@@ -151,12 +172,15 @@ optimism:
   - address: "0xf66932f225ca48856b7f97b6f060f4c0d244af8e"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x84654e35e504452769757aae5a8c7c6599cbf954"
     tags:
       - contract
+    name: Treasury
   - address: "0xb666abf97f0a2ea624a6fa0d3fb92121f3fb591b"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x478cce2fc43db8ff314181815f2c588296284148"
     tags:
       - contract
@@ -166,6 +190,7 @@ optimism:
   - address: "0xc7c145e5ec1e811b1149fd4527a23c9bcab330d0"
     tags:
       - contract
+    name: StakingRewards
   - address: "0xd3434df0cdf7bb81a94e499895f93de57288ee9e"
     tags:
       - contract
@@ -175,39 +200,46 @@ optimism:
   - address: "0xdb8bbf2b0e28721f9bac603e687e39bcf52201f8"
     tags:
       - contract
+    name: Vyper_contract
   - address: "0x24a03b8d77671df7308e818d75a753a125b250e9"
     tags:
       - contract
   - address: "0xf8126ef025651e1b313a6893fcf4034f4f4bd2aa"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x8ed9f6343f057870f1def47aae7cd88dfaa049a8"
     tags:
       - contract
   - address: "0x0e54e555714c7eeabc54e7c270fbca8295ba1fe8"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x692287540111a8a9b3323427e729073d9aaeee83"
     tags:
       - contract
   - address: "0x05aec4bd3446c60eba98f6d8eb5443f25d7f15f6"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x182f09a75a8190f111c1762ecc904e8727d6d6d5"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x009c05bfb6d51fa0439d1473681b472019bf8dfe"
     tags:
       - contract
   - address: "0xda345746cd1bfceb2b5e5e35581e2519e0003578"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x298bd23e25c01440d68d4d2708bff6a7e10a1db5"
     tags:
       - contract
   - address: "0xb9835152a8a0b56094a9c83a2849002a325dafc1"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x3d8f58774611676fd196d26149c71a9142c45296"
     tags:
       - contract
@@ -220,63 +252,201 @@ optimism:
   - address: "0x78c5c7aeb5f768dbaa0e729525981d3f710737be"
     tags:
       - contract
+    name: Yearn Token Vault
   - address: "0x9b26e8bd7ebc0177b06e3168410947a5db6fdb12"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x7110d7a3331d0919808339705642553df9b0b52d"
     tags:
       - contract
+    name: StakingRewards
   - address: "0xf81ad33a29c7a85cd9fbe4f3e96dfde50c7565ff"
     tags:
       - contract
   - address: "0x77a0914310dd8c5ec2813a0deab498aeab2c8f42"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x061ea85f0f2936d382cad1861d7bcefd986d79e1"
     tags:
       - contract
   - address: "0xb2c04c55979b6ca7eb10e666933de5ed84e6876b"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x94141d7bff3d04d61ce65b917bdd37b655e08f18"
     tags:
       - contract
+    name: AllowancesHelper
   - address: "0xeba30beeab051376500fb03fcd5ec32299594645"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x498d9dcbb1708e135bdc76ef007f08cba4477be2"
     tags:
       - contract
+    name: StakingRewardsZap
   - address: "0x57c41fd87046ae9ae17fd3bf50fda1a8b8ab5ca3"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x8e7aa69d6cbbf34c8f9443bdee2601052c015529"
     tags:
       - contract
   - address: "0x79286dd38c9017e5423073bac11f53357fc5c128"
     tags:
       - contract
+    name: VaultRegistry
   - address: "0xbcfca75ff12e2c1bb404c2c216dbf901be047690"
     tags:
       - contract
   - address: "0xe35fec3895dcecc7d2a91e8ae4ff3c0d43ebffe0"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x9b7bc47bdb7b07bcb34c0dd6406fcdbe4bc28898"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x3181e64b7d83ec4240c0dd5acab65c0078c3cb3c"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x8eb53a4fd9d2727a49e9e68a32108c18049bff86"
     tags:
       - contract
+    name: VelodromeGlobal
   - address: "0xd8cb782eb540dca07c68abacdab6f82ba72590fa"
     tags:
       - contract
+    name: Basefee
   - address: "0xd2367b534c1eb09867bfabe13cb72d2bbe5c9b05"
     tags:
       - contract
+    name: StakingRewards
   - address: "0x885fa9c95fb16d10a22f07e7870f3a5252c128bb"
+    tags:
+      - contract
+  - address: "0x0b634a8d61b09820e9f72f79cdcbc8a4d0aad26b"
+    tags:
+      - eoa
+      - creator
+  - address: "0x5b555b6fc357434eb7ba572a87f3aca30ab5d272"
+    tags:
+      - eoa
+      - creator
+  - address: "0x78d4bdebc0b4140f01bab63085f94a5a7a1294f2"
+    tags:
+      - eoa
+      - creator
+  - address: "0x488e1a80133870cb71ee2b08f926ce329d56b084"
+    tags:
+      - contract
+      - factory
+  - address: "0x0983b4899a3168c2509569faf1e4e75c57b4aba6"
+    tags:
+      - contract
+  - address: "0x0e5b46e4b2a05fd53f5a4cd974eb98a9a613bcb7"
+    tags:
+      - contract
+  - address: "0x7e08735690028cdf3d81e7165493f1c34065aba2"
+    tags:
+      - contract
+    name: YearnPartnerTracker
+  - address: "0x101cbc599d01e90d21fc925c8222248863e3b6ea"
+    tags:
+      - contract
+  - address: "0x054fff7ee30953ddb739458e11eaad51224343a1"
+    tags:
+      - contract
+    name: Multicall2
+  - address: "0x9f48ec33d69968a76525fa8e09cca54ad9394e74"
+    tags:
+      - contract
+    name: ShareValueHelper
+  - address: "0xadc76430bb7cb8b17ca329972a73a2eea0affd4b"
+    tags:
+      - contract
+  - address: "0x671dc21d4d5e6bf0350ec64a2b28e5407d4ae496"
+    tags:
+      - contract
+    name: YFUtechne
+  - address: "0xcd2e436871a3f4984fb8b963aabb118ab2646878"
+    tags:
+      - contract
+  - address: "0x1324fdfcca5bdaa2f2351486772bf51e35f37fcc"
+    tags:
+      - contract
+    name: ShareValueHelper
+  - address: "0x702f75b59498645f2fd5dcded0b50d7fb2f0fd2b"
+    tags:
+      - contract
+    name: Tester
+  - address: "0x0f32eb07181488bb26433869b93b40cdeeb10624"
+    tags:
+      - contract
+  - address: "0x6dfd3a052bb73e609d9c2381dc48de5e2662575e"
+    tags:
+      - contract
+    name: NFTMigratooor
+  - address: "0xa99800a92de57cb15a2c0dfa878f60389dabe421"
+    tags:
+      - contract
+    name: VaultsRegistryHelper2
+  - address: "0x5705a1fcef82cb4735e456588af37e8e1ddeca2c"
+    tags:
+      - contract
+  - address: "0xa8f46c3f5a89fbc3c80b3ee333a1daf8fa719061"
+    tags:
+      - contract
+  - address: "0x20759732c16f54f7c1166a942076b80fe674ce4a"
+    tags:
+      - contract
+  - address: "0x1dbcecb8e3fed0151c2b2bcec288cf8e42022669"
+    tags:
+      - contract
+    name: MockRegistry
+  - address: "0x9bcc5f7560b243e37e0adf8379fa6d9ab49a425b"
+    tags:
+      - contract
+    name: DiamondHelper
+  - address: "0x3c79d158b508564e5a20211eec948242fb556eff"
+    tags:
+      - contract
+    name: BaseLibrary
+  - address: "0x9ba600819d0516fabc00e840395aabe5f46fcc59"
+    tags:
+      - contract
+  - address: "0x2de895629db7dfba3c102df9ab8bf2d8a67990c6"
+    tags:
+      - contract
+    name: TokenizedStrategy
+  - address: "0xb990c0d9b7e143c850bd8879e94fe8ad69291df1"
+    tags:
+      - contract
+  - address: "0xdeafc27ac8f977e6973d671e43cbfd2573021d9e"
+    tags:
+      - contract
+  - address: "0xe00bdf935e4feb3cb5e0601d88a999d30994605c"
+    tags:
+      - contract
+    name: StakingRewards
+  - address: "0x885fedab0182699ec2f2663f776a04150ed6f7af"
+    tags:
+      - contract
+    name: StakingRewards
+  - address: "0x6ddaf44f12a20c6c853dffb6687093754da28b89"
+    tags:
+      - contract
+    name: PessimisticVelodromeLPOracle
+  - address: "0x76cb235605f9da2f423f45bf52ca5802133beb26"
+    tags:
+      - contract
+    name: PessimisticVelodromeLPOracle
+  - address: "0x9438d5768ae8be4be9debe9eee467ca54bff026e"
+    tags:
+      - contract
+  - address: "0xcb695c104a579643b1a6a3c801e9116ba38a00a6"
     tags:
       - contract

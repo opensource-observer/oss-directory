@@ -6,6 +6,7 @@ github:
 optimism:
   - address: "0xa52fecfe3f0d4a77a572dec9b72277abc5dfd9c6"
     tags:
+      - eoa
       - creator
   - address: "0x7fdb3a3a97d3f0ea969b14fe80666bdc43241da5"
     tags:
@@ -16,6 +17,7 @@ optimism:
   - address: "0x5827094484b93989d1b75b12a57989f49e3b88b0"
     tags:
       - contract
+    name: Vault
   - address: "0x168cf7855cd51140df3ed5ffe8d543834424716c"
     tags:
       - contract
@@ -67,6 +69,7 @@ optimism:
   - address: "0x7f988764fa78c86dc9df157c12039741210a820e"
     tags:
       - contract
+    name: NitManager
   - address: "0x667565fcfe577a7a9fb322ce0938d2b37de968d0"
     tags:
       - contract

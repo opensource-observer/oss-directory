@@ -6,15 +6,17 @@ github:
 optimism:
   - address: "0xb32d9aa786e4f53f9484539cf44b1e092f94d483"
     tags:
+      - eoa
       - creator
   - address: "0x9270b79d24d8eb1bba8cf7774ad6c23f2e8eac0e"
     tags:
-      - factory
       - contract
+      - factory
+    name: TransparentUpgradeableProxy
   - address: "0x7d21c86b04d8203fc9c14741014c86d5bd365dfe"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x69318316a6a6b8c62d92736e67819d1fc037c135"
     tags:
       - contract

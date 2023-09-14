@@ -6,11 +6,13 @@ github:
 optimism:
   - address: "0x8888888841b669313cdc735910214313d7420e25"
     tags:
+      - eoa
       - creator
   - address: "0x569b344ad6bf087a285f0d415d0066028921d873"
     tags:
-      - factory
       - contract
+      - factory
+    name: ERC1967Proxy
   - address: "0x16c4ba98623a1b05d35b9923fb00e9fe02d0b47f"
     tags:
       - contract
@@ -38,6 +40,7 @@ optimism:
   - address: "0xc24205b12fb056822b2b2c42b5ee18272a0a8e74"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x8edbb16169e4ca9e22d41426d9448c3c0f8e4961"
     tags:
       - contract
@@ -50,6 +53,7 @@ optimism:
   - address: "0xdfa7339e1924086b4ddda6c996df5092c39d95bb"
     tags:
       - contract
+    name: ERC1967Proxy
   - address: "0x53a5dd07127739e5038ce81eff24ec503a6cc479"
     tags:
       - contract
@@ -66,5 +70,92 @@ optimism:
     tags:
       - contract
   - address: "0x42a461e5e88426c8b969b43fae8d3bd47219bbf2"
+    tags:
+      - contract
+  - address: "0xfd5f3f639ccaa0cd42b0a19f497590bd715fd414"
+    tags:
+      - contract
+  - address: "0x46be78760cef99dd6d7cd087a499344803063b6c"
+    tags:
+      - contract
+  - address: "0x2d5375be6b1f1d0f23824ef59e7d05f160882b35"
+    tags:
+      - contract
+  - address: "0x45e9bd93a071c31aeb03ff33b3035202189935ac"
+    tags:
+      - contract
+  - address: "0xc53d960a57f966ab739edccabc0231c383b6caea"
+    tags:
+      - contract
+  - address: "0x0c5047e17105a744f3d1f1deddb4677748afe9a1"
+    tags:
+      - contract
+  - address: "0xa023e8911bf926cbdb9fcd8ffb3b49d54da1d756"
+    tags:
+      - contract
+  - address: "0xbc1066cc79835434df0e0748c1b567601203c5fc"
+    tags:
+      - contract
+  - address: "0xddf6ca3020781d79057483b4b3facca184fa2887"
+    tags:
+      - contract
+  - address: "0xefdb18850b7ad0234da2d1afb5aa68c150def5b3"
+    tags:
+      - contract
+  - address: "0xf3f837f7b8c4bbdbb6c6ba5398c3b1846bae1252"
+    tags:
+      - contract
+  - address: "0xea3a4c6ab79e79733120a3fe5558b4fb05c746bc"
+    tags:
+      - contract
+  - address: "0x5397d5a1c9ff2bd260d0f43c972f72b72c6f839e"
+    tags:
+      - contract
+  - address: "0x94dc9ec5a8a62f1c1dab495d5fe65f3a070f2d27"
+    tags:
+      - contract
+  - address: "0x9cdee51e8683bdaac6f0fff59c048025cd9acf8a"
+    tags:
+      - contract
+  - address: "0x18e6a996279e239eaf744dde7bf25e9550720c41"
+    tags:
+      - contract
+  - address: "0x27271ecfdc3548dfaf31b08f09baa2bbc54f705c"
+    tags:
+      - contract
+  - address: "0x0abf9e4dcf80198d022ed795e1ea09fee235801e"
+    tags:
+      - contract
+  - address: "0x331df88caaf0043eae0d5c039b77985f7bf2354e"
+    tags:
+      - contract
+  - address: "0xdb0c3c4fc16b1781ad69b3109f38a40feef6dd50"
+    tags:
+      - contract
+  - address: "0x2fca2e4edbf97db14d20654e258a25e9d9cb92ff"
+    tags:
+      - contract
+  - address: "0x065103250c709a36b47469151c94fa60046ca156"
+    tags:
+      - contract
+  - address: "0x7dab68bb3ab8574bfc27d390c97aacbb3fa5e063"
+    tags:
+      - contract
+  - address: "0x48b98f3df754b00a8337794ed5d8f39eb2bed2e9"
+    tags:
+      - contract
+  - address: "0xe0a80503276ac46ab3d28f58c46c45c39a7e393e"
+    tags:
+      - contract
+  - address: "0x555ab9f6d6677df4f7e81fc88dc3b933787a74ce"
+    tags:
+      - contract
+  - address: "0x806aa6b58169e5f5f2921a1e7931998058fa0ba6"
+    tags:
+      - contract
+  - address: "0x441e3985dab25950a7131e5afecfae83fec8ae77"
+    tags:
+      - contract
+  - address: "0x935cbecf58a7a15cfa99fdbe53ca10268f000a14"
     tags:
       - contract

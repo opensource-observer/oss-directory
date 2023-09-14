@@ -6,6 +6,7 @@ github:
 optimism:
   - address: "0x5853ed4f26a3fcea565b3fbc698bb19cdf6deb85"
     tags:
+      - eoa
       - creator
   - address: "0x2cc0dc59063ec416fb788edf80d02ebee33d6309"
     tags:
@@ -13,6 +14,7 @@ optimism:
   - address: "0x9e9d792ded4335a0e0002d0b1292a2e638a16772"
     tags:
       - contract
+    name: DebankL2Register
   - address: "0xd1a57cb694cf4941360a937d5f5633b363204e18"
     tags:
       - contract

@@ -6,43 +6,53 @@ github:
 optimism:
   - address: "0x056c7933d2f25904787bb92c26e9f90655529f8e"
     tags:
+      - eoa
       - creator
   - address: "0xe92ea17a074643326c8b5f11f579997eabfcd428"
     tags:
       - contract
+    name: PythiaUniswapV3PA
   - address: "0xbf4b4c46a2070f2dbb60d41462ef704751c5b777"
     tags:
       - contract
+    name: AdrastiaAggregatedTwapOracle
   - address: "0x5bd138d20815a11022f285e817349dd348b933a7"
     tags:
       - contract
+    name: HarmonicAveragingWS80
   - address: "0x0a7072c28a23b831292b863d3412abe897b954f7"
     tags:
       - contract
+    name: OracleAggregatorTokenConfig
   - address: "0xc752b69aab7b70ff87e01580fc6426a7d55a42b0"
     tags:
       - contract
+    name: AdrastiaUniswapV3PA
   - address: "0x1d8b85d36189cab860f6e45f7835355ee9e0a391"
     tags:
       - contract
   - address: "0x95a851f7c0a73b3121b3a1724732c8114b490512"
     tags:
       - contract
+    name: VolatilityOracleView
   - address: "0x8d0c5c82a5d4fd28a10eb43d4caf0c94386793b9"
     tags:
       - contract
+    name: AdrastiaTwapOracle
   - address: "0x56145ed571ddf7b7f4881eb00d5fed8b1846f912"
     tags:
       - contract
   - address: "0xf241a2de88200f05b8154c0dd9f019c7caf434a7"
     tags:
       - contract
+    name: AdrastiaUniswapV3LA
   - address: "0x75e47283a447a8776066a33695883b9c23979fa5"
     tags:
       - contract
   - address: "0xd850f64eda6a62d625209711510f43cd49ef8798"
     tags:
       - contract
+    name: GeometricAveraging
   - address: "0x0d5ba4da08f76bb898849544d73c90233ff4267f"
     tags:
       - contract
@@ -55,9 +65,11 @@ optimism:
   - address: "0xad96e6c9e5d2b5639d3490abe23274660fa876dc"
     tags:
       - contract
+    name: AdrastiaUniswapV3LA
   - address: "0x6ee3b0daef79522784d8e63ebb62f10f8008eb3b"
     tags:
       - contract
+    name: AdrastiaUniswapV3LA
   - address: "0x68aa498367380e2025e8e8782c50eff7766db052"
     tags:
       - contract
@@ -67,6 +79,7 @@ optimism:
   - address: "0xf403d00217b1c97cde7cc08b35f0d3c8f939bf14"
     tags:
       - contract
+    name: DefaultValidation
   - address: "0x5ab0ad95263c9ebdda6b17baed1bc28f97690f26"
     tags:
       - contract
@@ -79,12 +92,15 @@ optimism:
   - address: "0x0fe2e4130e564c4e0b9f7652d7773018869b7adc"
     tags:
       - contract
+    name: AdrastiaAggregatedTwapOracle
   - address: "0xcc35ccaab98a31fc81c26ccc53da7419de9869b7"
     tags:
       - contract
+    name: AdrastiaPriceVolatilityOracle
   - address: "0x449d131f2ae53a337fe5a21b3d749e603ce6454c"
     tags:
       - contract
+    name: AdrastiaPeriodicAggregatorOracle
   - address: "0x91bd6f598549360004d0a4d436bf4c67730850f8"
     tags:
       - contract
@@ -94,15 +110,21 @@ optimism:
   - address: "0x4dd2886836eb5966dd2f5a223182e7889cd7f8a6"
     tags:
       - contract
+    name: PythiaUniswapV3LA
   - address: "0xc2861530884607c5d2d327106ca00f252f934962"
     tags:
       - contract
   - address: "0x0f6ac9aa13709e3f1453e1f71bc47fdce1fa4e75"
     tags:
       - contract
+    name: AdrastiaUniswapV3LA
   - address: "0xfa84f31f3187b921bab4d3e3206d0b0de7a3d94b"
     tags:
       - contract
   - address: "0x6bb5e2f80f929ab467335f9a8ed10585619e24f5"
     tags:
       - contract
+  - address: "0x7cdc2c52a070762eb7000065dfe40c828acc96dd"
+    tags:
+      - contract
+    name: AdrastiaPriceVolatilityOracle

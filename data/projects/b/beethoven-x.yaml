@@ -6,168 +6,196 @@ github:
 optimism:
   - address: "0x4fbe899d37fb7514adf2f41b0630e018ec275a0c"
     tags:
+      - eoa
       - creator
   - address: "0x3d64fb8a2ffd08c186e8060aa57c8011d8b999cc"
     tags:
+      - eoa
       - creator
   - address: "0x697a71353a4bc1eb1356763018a229c27a3fba0c"
     tags:
+      - eoa
       - creator
   - address: "0xe2e901ab09f37884ba31622df3ca7fc19aa443be"
     tags:
-      - factory
       - contract
+      - factory
+    name: ComposableStablePoolFactory
   - address: "0x8e5698dc4897dc12243c8642e77b4f21349db97c"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xad3cc7852382c09fdce54784292c6ab7fb9df917"
     tags:
-      - factory
       - contract
+      - factory
+    name: AaveLinearPoolFactory
   - address: "0x9e9c58b4e5478e65efc81b7b65408834f63d9dc7"
     tags:
-      - factory
       - contract
+      - factory
+    name: YearnLinearPoolFactory
   - address: "0x60467cb225092ce0c989361934311175f437cf53"
     tags:
-      - factory
       - contract
+      - factory
+    name: MetaStablePoolFactory
   - address: "0xf302f9f50958c5593770fdf4d4812309ff77414f"
     tags:
-      - factory
       - contract
+      - factory
+    name: NoProtocolFeeLiquidityBootstrappingPoolFactory
   - address: "0xf145cafb67081895ee80eb7c04a30cf87f07b745"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x92b377187bccc6556fced2f1e6dad65850c20630"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xa1fa945425ed2e08acb932e000bcc2f21b21588a"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xdfcea9088c8a88a76ff74892c1457c17dfeef9c1"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xa0dabebaad1b243bbb243f933013d560819eb66f"
     tags:
-      - factory
       - contract
+      - factory
+    name: WeightedPoolFactory
   - address: "0x2e96068b3d5b5bae3d7515da4a1d2e52d08a2647"
     tags:
-      - factory
       - contract
+      - factory
+    name: ChildChainLiquidityGaugeFactory
   - address: "0x0473136b0732606e826ffeb42f3abc81a7a766d5"
     tags:
-      - factory
       - contract
+      - factory
+    name: ReaperLinearPoolFactory
   - address: "0xde76434352633349f119bce523d092743fef20e9"
     tags:
-      - factory
       - contract
+      - factory
+    name: WeightedPool2TokensFactory
   - address: "0x5e7a751d6005641cd246931a00c5d005679fdbce"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xad4eb727d219121007762c6f0e6af8255ec6794e"
     tags:
-      - factory
       - contract
+      - factory
+    name: YearnLinearPoolFactory
   - address: "0xeb151668006cd04dadd098afd0a82e78f77076c3"
     tags:
-      - factory
       - contract
+      - factory
+    name: StablePoolFactory
   - address: "0xc666147df73579ab9f6d51542d825770ff4da647"
     tags:
-      - factory
       - contract
+      - factory
+    name: BatchRelayerLibrary
   - address: "0x6e26dcaad72e4ba544910846fcebd5f08b0e5b76"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xba12222222228d8ba445958a75a0704d566bf2c8"
     tags:
-      - factory
       - contract
+      - factory
+    name: Vault
   - address: "0xad901309d9e9dbc5df19c84f729f429f0189a633"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xbfd9769b061e57e478690299011a028194d66e3c"
     tags:
-      - factory
       - contract
+      - factory
+    name: AaveLinearPoolFactory
   - address: "0xe77f03f5007df49005caf2a2f1d872c51ae51fd1"
     tags:
-      - factory
       - contract
+      - factory
+    name: BeefyLinearPoolFactory
   - address: "0x0f3e0c4218b7b0108a3643cfe9d3ec0d4f57c54e"
     tags:
-      - factory
       - contract
+      - factory
+    name: WeightedPool2TokensFactory
   - address: "0xdae7e32adc5d490a43ccba1f0c736033f2b4efca"
     tags:
-      - factory
       - contract
+      - factory
+    name: WeightedPoolFactory
   - address: "0x20dd72ed959b6147912c2e529f0a0c651c33c9ce"
     tags:
-      - factory
       - contract
+      - factory
+    name: NoProtocolFeeLiquidityBootstrappingPoolFactory
   - address: "0x7c71313d3b84728ca0fd4cdad8c86067e3548dce"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x9bf6468facac0f71c7eca8d71a5fb5f65bdab319"
     tags:
-      - factory
       - contract
+      - factory
+    name: AaveLinearPoolFactory
   - address: "0x994086630773dc6cb54d3a5e0ef0963532789e75"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x5c89d9e1a668d0b39f4ec242f280bddd445c633c"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xb08e16cfc07c684daa2f93c70323badb2a6cbfd2"
     tags:
-      - factory
       - contract
+      - factory
+    name: MetaStablePoolFactory
   - address: "0xa1f998a5775cd85f33039a9b5c29b09097d211f3"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xf8ed2bb48833a9a3e5480f4cbd682ef27a0dda83"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xd0fe474fa7ed8c6f02ff7409dbcf6e5674864395"
     tags:
-      - factory
       - contract
+      - factory
+    name: Vault
   - address: "0xe4b88e745dce9084b9fc2439f85a9a4c5cd6f361"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x19968d4b7126904fd665ed25417599df9604df83"
     tags:
-      - factory
       - contract
+      - factory
+    name: ReaperLinearPoolFactory
   - address: "0x6d471c05f8a99bd8f991467a8283e3dc968b8d7c"
     tags:
-      - factory
       - contract
+      - factory
+    name: UnbuttonAaveLinearPoolFactory
   - address: "0x4c4287b07d293e361281bceee8715c8cdeb64e34"
     tags:
-      - factory
       - contract
+      - factory
+    name: ERC4626LinearPoolFactory
   - address: "0x5fb05e72d395dfb33edf153c87f2dcfe081b8d4c"
     tags:
       - contract
+    name: TimeBasedMasterChefRewarder
   - address: "0xbb92d8db93b188eda1e16b1e19f27d0308bf8e02"
     tags:
       - contract
@@ -177,24 +205,29 @@ optimism:
   - address: "0xc128a9954e6c874ea3d62ce62b468ba073093f25"
     tags:
       - contract
+    name: ProtocolFeesWithdrawer
   - address: "0x543a21679f2aad98b04c6850d227812bace171e8"
     tags:
       - contract
+    name: BalancerPoolDataQueries
   - address: "0x548e2f8114ddf1c796c37e83d26db9b1cf215a62"
     tags:
       - contract
   - address: "0xa331d84ec860bf466b4cdccfb4ac09a1b43f3ae6"
     tags:
       - contract
+    name: Authorizer
   - address: "0x09523acc78dd297ae5da00ddebe6f10ebf784565"
     tags:
       - contract
   - address: "0xed86ff0c507d3af5f35d3523b77c17415fcffacb"
     tags:
       - contract
+    name: AuthorizerAdaptorEntrypoint
   - address: "0xd7fad3bd59d6477cbe1be7f646f7f1ba25b230f8"
     tags:
       - contract
+    name: QueryProcessor
   - address: "0xacaac3e6d6df918bf3c809dfc7d42de0e4a72d4c"
     tags:
       - contract
@@ -204,9 +237,11 @@ optimism:
   - address: "0x41b953164995c11c81da73d212ed8af25741b7ac"
     tags:
       - contract
+    name: StablePoolFactory
   - address: "0x6732d651eea0bc98fcf4eff8b62e0cdcb0064f4b"
     tags:
       - contract
+    name: Multicall
   - address: "0xd50c0e1abe53f706c41b400c587ddebcadbf8045"
     tags:
       - contract
@@ -216,15 +251,19 @@ optimism:
   - address: "0x8e9aa87e45e92bad84d5f8dd1bff34fb92637de9"
     tags:
       - contract
+    name: BalancerHelpers
   - address: "0x11234db1ed4f9c6191028a136f45f6c9f401241f"
     tags:
       - contract
+    name: ERC20Mock
   - address: "0xcd7f93c86f30b90a181f81934fa4f281c7bff246"
     tags:
       - contract
+    name: MockAaveLendingPool
   - address: "0xa9023b9cd1f2737429d03e0df6d93a8453b5e661"
     tags:
       - contract
+    name: TimeBasedMasterChefRewarder
   - address: "0x239e55f427d44c3cc793f49bfb507ebe76638a2b"
     tags:
       - contract
@@ -234,9 +273,11 @@ optimism:
   - address: "0x8605c9f58a64fd60eb01ccaa99a1f7524bc37286"
     tags:
       - contract
+    name: ShareValueHelper
   - address: "0x5d5629fc838f5ea67d14264b7316ffd4294b0998"
     tags:
       - contract
+    name: MockStaticAToken
   - address: "0x3b8ca519122cdd8efb272b0d3085453404b25bd0"
     tags:
       - contract
@@ -246,6 +287,7 @@ optimism:
   - address: "0x534c0c704a09fc70004c2616349ad46b30072d68"
     tags:
       - contract
+    name: ChildChainGaugeRewardHelper
   - address: "0x04899d51747c09dd60ff54bd4ad060235875ff80"
     tags:
       - contract
@@ -261,12 +303,14 @@ optimism:
   - address: "0x80dd2b80fbcfb06505a301d732322e987380ecd6"
     tags:
       - contract
+    name: Authorizer
   - address: "0xca4cdc9eed85d9ce0b8eef74457480364068af9e"
     tags:
       - contract
   - address: "0x1cbbe6cea5e4fe7d69c586b4e362a646deef105d"
     tags:
       - contract
+    name: SNXRecoveryCoordinator
   - address: "0x9c07adc41324613a73f00bea5cd92860d5b581ad"
     tags:
       - contract
@@ -276,12 +320,14 @@ optimism:
   - address: "0x453072d727aae7df68cb5c94fe48cc4170935fd8"
     tags:
       - contract
+    name: TimeBasedMasterChefRewarder
   - address: "0x974d3ff709d84ba44cde3257c0b5b0b14c081ce9"
     tags:
       - contract
   - address: "0xb79c16efd530e46b7a1499c1854f13f4bd10f4df"
     tags:
       - contract
+    name: BalancerPoolDataQueries
   - address: "0x59d59edc3546e740adb102e1b9593692c96d69c8"
     tags:
       - contract
@@ -291,21 +337,27 @@ optimism:
   - address: "0xe306aab50700dfa9bdcf0dc2f69ee49aebde5825"
     tags:
       - contract
+    name: ChildChainGaugeRewardHelper
   - address: "0xf070996cf89cd3d2582705fc269f2c800e9a6a21"
     tags:
       - contract
+    name: ReaperManualRebalancer
   - address: "0x8f42adbba1b16eaae3bb5754915e0d06059add75"
     tags:
       - contract
+    name: AuthorizerAdaptor
   - address: "0x72d07d7dca67b8a406ad1ec34ce969c90bfee768"
     tags:
       - contract
+    name: Authorizer
   - address: "0x6f5a2ee11e7a772aeb5114a20d0d7c0ff61eb8a0"
     tags:
       - contract
+    name: ChildChainGaugeTokenAdder
   - address: "0x299dcdf14350999496204c141a0c20a29d71af3e"
     tags:
       - contract
+    name: ChildChainGaugeRewardHelper
   - address: "0xfe8b128ba8c78aabc59d4c64cee7ff28e9379921"
     tags:
       - contract
@@ -315,9 +367,48 @@ optimism:
   - address: "0xf0e5bb723460fcc9132a1b37c7f38afabb1b6ecc"
     tags:
       - contract
+    name: ChildChainGaugeRewardHelper
   - address: "0x79d0011892fe558fc5a4ec7d4ca5db59069f460f"
     tags:
       - contract
+    name: MockStaticAToken
   - address: "0xf426db04fa31001ec51a7910024fd34c925fa6d7"
+    tags:
+      - contract
+    name: TimeBasedMasterChefRewarder
+  - address: "0x398df9f7d65c177c00749ffc83cb34ba5e07bf8b"
+    tags:
+      - eoa
+      - creator
+  - address: "0x089775364ea24957da94348cf740375826ed3330"
+    tags:
+      - eoa
+      - creator
+  - address: "0xa3b9515a9c557455bc53f7a535a85219b59e8b2e"
+    tags:
+      - contract
+      - factory
+    name: ERC4626LinearPoolFactory
+  - address: "0xd8b6b96c88ad626eb6209c4876e3b14f45f8803a"
+    tags:
+      - contract
+      - factory
+  - address: "0x230a59f4d9adc147480f03b0d3fffecd56c3289a"
+    tags:
+      - contract
+    name: WeightedPoolFactory
+  - address: "0x7adbdabaa80f654568421887c12f09e0c7bd9629"
+    tags:
+      - contract
+    name: ERC4626LinearPoolFactory
+  - address: "0x7396f99b48e7436b152427bfa3dd6aa8c7c6d05b"
+    tags:
+      - contract
+    name: AaveLinearPoolFactory
+  - address: "0x19dfef0a828eec0c85fbb335aa65437417390b85"
+    tags:
+      - contract
+    name: YearnLinearPoolFactory
+  - address: "0x4c32a8a8fda4e24139b51b456b42290f51d6a1c4"
     tags:
       - contract

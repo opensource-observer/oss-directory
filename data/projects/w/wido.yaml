@@ -6,14 +6,17 @@ github:
 optimism:
   - address: "0x2313f80d53c649c7b2c9c4d101b796f34cbe80f3"
     tags:
+      - eoa
       - creator
   - address: "0x9b2ed3c2a92ad366ebf90bbcec31be231320ac26"
     tags:
-      - factory
       - contract
+      - factory
+    name: WidoRouter
   - address: "0x2fbab6fdc1b9236e74375ac4331f867967e6b309"
     tags:
       - contract
+    name: WidoZapperVelodromeV1
   - address: "0x74436167012475749168f33324e84990c8013647"
     tags:
       - contract
@@ -26,15 +29,31 @@ optimism:
   - address: "0xa2e08590f6f0ed44a65361defce090c00e8e6e10"
     tags:
       - contract
+    name: WidoZapperVelodromeV2
   - address: "0x7fb69e8fb1525ceec03783ffd8a317bafbdfd394"
     tags:
       - contract
+    name: WidoCrossReceiver
   - address: "0x227f1f14213bece5c084c41fd73b9f4f7c48c108"
     tags:
       - contract
+    name: WidoCrossSender
   - address: "0x17000cdcccff2d0b2d8958ba40c751fa9b4be089"
     tags:
       - contract
+    name: WidoZapperVelodrome
   - address: "0x32c2757fe876013d2d6cb3460071676f8d70a49e"
+    tags:
+      - contract
+    name: WidoZapperVelodromeV2
+  - address: "0x0a8a3866c2e6fc7845aae1096d54ff9ff3afcf8d"
+    tags:
+      - contract
+    name: WidoZapperVelodromeV1
+  - address: "0xb0fc7612bbe59ce5967bb418e7207cd176ca7681"
+    tags:
+      - contract
+    name: WidoZapperVelodromeV2
+  - address: "0x2f6427d6437d69a2a2ae5cc7cd6496fd4c170365"
     tags:
       - contract

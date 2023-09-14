@@ -6,6 +6,7 @@ github:
 optimism:
   - address: "0xdc6d6f9ab5fcc398b92b017e8482749ae5afbf35"
     tags:
+      - eoa
       - creator
   - address: "0x396d5f1ef3aa92ddad4dead04388374a03bc5577"
     tags:
@@ -16,3 +17,4 @@ optimism:
   - address: "0x822f17a9a5eecfd66dbaff7946a8071c265d1d07"
     tags:
       - contract
+    name: ERC1967Proxy

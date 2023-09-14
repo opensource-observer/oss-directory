@@ -4,39 +4,51 @@ name: Manifold
 github:
   - url: https://github.com/manifoldxyz
 optimism:
-  - address: "0xa8863bf1c8933f649e7b03eb72109e5e187505ea"
-    tags:
-      - creator
   - address: "0xbd9d5319691922e2e1f9dc69ce0fd0b0ded51656"
     tags:
+      - eoa
       - creator
   - address: "0x3b52ad533687ce908ba0485ac177c5fb42972962"
     tags:
+      - eoa
       - creator
   - address: "0x7a0d94f55792c434d74a40883c6ed8545e406d12"
     tags:
+      - contract
       - factory
   - address: "0xcfa3a7637547094ff06246817a35b8333c315196"
     tags:
+      - contract
       - factory
   - address: "0x0e8bd9f16728912c441bb42f075bdc5593a1cce3"
     tags:
       - contract
+    name: ETHClaimShim
   - address: "0x64271fbe13b8eb41cfdc063ca92bbc1105441b10"
     tags:
       - contract
   - address: "0x28a72d7e0f1fab1d78f3c4cdd7880c3b01b8a519"
     tags:
       - contract
+    name: ETHClaimShim
   - address: "0x6a752159fb2d4450b2cbe003ad108f21299aa642"
     tags:
       - contract
+    name: ETHClaimShim
   - address: "0x664649b2f36506512b3a75dd4a1bac7c883a3203"
     tags:
       - contract
   - address: "0xc027ce27fe1505bccfaf23c5802d4cd2fc607e76"
     tags:
       - contract
+    name: ETHClaimShim
   - address: "0xd23d6f5d5386cb6b6521f50b7a8d40abb6d9e4c3"
+    tags:
+      - contract
+  - address: "0x057dd0333d0ef737c72ca39403e7d478b1f1d0b3"
+    tags:
+      - eoa
+      - creator
+  - address: "0x1b36291ff8f503cfb4e3babe198a40398bcf54ad"
     tags:
       - contract

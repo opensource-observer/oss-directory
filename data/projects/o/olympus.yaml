@@ -6,14 +6,16 @@ github:
 optimism:
   - address: "0x5ce7d83f7aaac17a0ad40540b37fc7a0b688ff44"
     tags:
+      - eoa
       - creator
   - address: "0x9858e1eff7b00c43f6e8cf6b91ca7893ce70cc60"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x95176b826cfbc16fb6e3beade8c885c60e19d3b3"
     tags:
       - contract
+    name: CustomBond
   - address: "0xf7d50c5a75514c6a2cbf6dd03a80ee35c31c8f1a"
     tags:
       - contract

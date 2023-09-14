@@ -6,55 +6,66 @@ github:
 optimism:
   - address: "0xded212b8bab662b98f49e757cbb409bb7808dc10"
     tags:
+      - eoa
       - creator
   - address: "0x8cce20d17ab9c6f60574e678ca96711d907fd08c"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x5b87083ee483728dfff218a5538104050268ec43"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xd08c98f6409fcae3e61f3157b4147b6595e60cf3"
     tags:
-      - factory
       - contract
+      - factory
+    name: LBFactory
   - address: "0x380618cb26ae9e91b65d88b4fdc6b50c1aa90c62"
     tags:
       - contract
   - address: "0x07d0a530cefc8af999921136dae2fc29defabf8e"
     tags:
       - contract
+    name: LBPair
   - address: "0x5d659bdc0fef665cbb838ca4c77b7a756746b4e8"
     tags:
       - contract
+    name: LBQuoter
   - address: "0x2fdbedc4c74e5e4a067156e8afd5afb1d73da483"
     tags:
       - contract
+    name: LBRouter
   - address: "0x04682d6c443c48245a0eb52a0a015f9bfe45ed40"
     tags:
       - contract
+    name: OracleVault
   - address: "0x5a5c0c4832828ff878ce3ab4fec44d21200b1496"
     tags:
       - contract
   - address: "0x9fbdf5e760394964f8c71fff4ff5cea5b325237c"
     tags:
       - contract
+    name: JoeDexLens
   - address: "0xb6124f002143bd9182319098acafbebc3b6af919"
     tags:
       - contract
+    name: JoeDexLens
   - address: "0xad30c5135468bcc647add3370b505b88219cf1fe"
     tags:
       - contract
+    name: LiquidityAmountsContract
   - address: "0x8a49f3aad8c1a0d34ea1cb0e695c32e0a18e95a4"
     tags:
       - contract
   - address: "0x408ba8dea8b514cc24f81e72795fc3ddbca8dbb5"
     tags:
       - contract
+    name: LBRouter
   - address: "0x7ace9b27c5028f193bec2fd255e665aab354a417"
     tags:
       - contract
+    name: LBRouter
   - address: "0xe69d3c7b11d543d77ef71db8f985e01c24686ba4"
     tags:
       - contract
@@ -67,12 +78,15 @@ optimism:
   - address: "0xdcb25d45cc68dc15eeb42549ee89104afef861af"
     tags:
       - contract
+    name: LBFactory
   - address: "0xeab2abfb36c28316b0b7dae80cdccbd26b2e6833"
     tags:
       - contract
+    name: SimpleVault
   - address: "0x97e792198443482385c3bd7eb16d11d0462ec10b"
     tags:
       - contract
+    name: LBSwaplineQuoter
   - address: "0x25d526ba7c9905c764aeb63bfe0b0ddf1c69bce1"
     tags:
       - contract
@@ -82,6 +96,7 @@ optimism:
   - address: "0x69298ffe05627268d32dd32762e364bfeb42206b"
     tags:
       - contract
+    name: LBPair
   - address: "0x7d5c4610761d922b1b298f05f39eb9e5f8698866"
     tags:
       - contract

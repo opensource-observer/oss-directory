@@ -6,39 +6,48 @@ github:
 optimism:
   - address: "0x558ef269bcc4cc9f2e14e3f4301231fbeb85d95f"
     tags:
+      - eoa
       - creator
   - address: "0x109e4b181d5a8168a1425e9fb9b5df933285d246"
     tags:
-      - factory
       - contract
+      - factory
+    name: PoolFactory
   - address: "0xee40d100c162f9d51212689fc39a80ffbdfc8066"
     tags:
-      - factory
       - contract
+      - factory
+    name: PoolFactory
   - address: "0x74b7d537734d0d46aacad1f174ce8e0ab9bc73dc"
     tags:
-      - factory
       - contract
+      - factory
+    name: PoolFactory
   - address: "0x24089b7c909ec9c17d85e344b6ccb6e102081203"
     tags:
-      - factory
       - contract
+      - factory
+    name: PoolFactory
   - address: "0xcdcd0ddee98008287922803d60742f7571a3e8ce"
     tags:
-      - factory
       - contract
+      - factory
+    name: PoolFactory
   - address: "0xe902325fd89729fcdfb533ce5552a65924c0406a"
     tags:
       - contract
   - address: "0x676c7d48ebd00735e082b0f1d11762c3ff305072"
     tags:
       - contract
+    name: SmartAlphaLoupe
   - address: "0x3e7ef8f50246f725885102e8238cbba33f276747"
     tags:
       - contract
+    name: L2StandardERC20
   - address: "0x7e26ff45ce22d14b88d8cb29ed66fce9b043291b"
     tags:
       - contract
+    name: SmartAlphaLoupe
   - address: "0x7d57fdb645242b91e5791024bac39332c81b6523"
     tags:
       - contract
@@ -48,9 +57,12 @@ optimism:
   - address: "0x7a16f708cf4e23b237981ec2b9c4dde6c1d78101"
     tags:
       - contract
+    name: EpochAdvancer
   - address: "0x4b8998c34810c80b5038f5928fb3a633ccbf6abb"
     tags:
       - contract
+    name: EpochAdvancer
   - address: "0x8b17a6f80db8cbcda803201c5e5b4e9451e06ccb"
     tags:
       - contract
+    name: EpochAdvancer

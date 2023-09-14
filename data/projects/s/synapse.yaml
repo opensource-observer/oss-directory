@@ -6,43 +6,48 @@ github:
 optimism:
   - address: "0x0af91fa049a7e1894f480bfe5bba20142c6c29a9"
     tags:
+      - eoa
       - creator
   - address: "0x22cdc93f53ee3f6b8ad66fad6f98915a5349950e"
     name: SynapseERC20Factory
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xa67b7147dce20d6f25fd9abfbcb1c3ca74e11f0b"
     name: SwapDeployer
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xa9e90579eb086bcda910dd94041ffe041fb4ac89"
     name: SwapFlashLoan
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xaa270c9cf88e3806bfa1e3cd983f34af339a7ffc"
     tags:
+      - eoa
       - creator
   - address: "0x890bc5691e6011f580e264065d09a7a1a6902131"
     tags:
+      - eoa
       - creator
   - address: "0xf44938b0125a6662f9536281ad2cd6c499f22004"
     name: SwapFlashLoan
     tags:
+      - contract
       - factory
   - address: "0xe27bff97ce92c3e1ff7aa9f86781fdd6d48f5ee9"
     name: SwapFlashLoan
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x061605c4ad8825e3b6731875b409d77f19fd75c9"
     tags:
       - contract
   - address: "0xb37a2c0dc261e5f8019809116e4722585985b07c"
     tags:
       - contract
+    name: SwapQuoter
   - address: "0xac9b0b65e7cfc1dd482ed9249a44e58c9c9086ed"
     tags:
       - contract
@@ -58,6 +63,7 @@ optimism:
   - address: "0x2d8ee8d6951cb4eecfe4a79eb9c2f973c02596ed"
     tags:
       - contract
+    name: DummyWeth
   - address: "0x470f9522ff620ee45df86c58e54e6a645fe3b4a7"
     tags:
       - contract
@@ -79,6 +85,7 @@ optimism:
   - address: "0xf68cd56cf9a9e1cda181fb2c44c5f0e98b5cc541"
     tags:
       - contract
+    name: DummyWethProxy
   - address: "0x432036208d2717394d2614d6697c46df3ed69540"
     tags:
       - contract
@@ -88,12 +95,14 @@ optimism:
   - address: "0x84ea83b6e88c471a446ae7007c252574e715711e"
     tags:
       - contract
+    name: DummyWeth
   - address: "0xc8315587e688d1d8d08986f5d49720c2404fc438"
     tags:
       - contract
   - address: "0x8c7d5f8a8e154e1b59c92d8fb71314a43f32ef7b"
     tags:
       - contract
+    name: SwapEthWrapper
   - address: "0x121ab82b49b2bc4c7901ca46b8277962b4350204"
     tags:
       - contract
@@ -106,6 +115,7 @@ optimism:
   - address: "0x244268b9082e05a8bcf18b3b0e83999ea4fc9fcf"
     tags:
       - contract
+    name: SwapEthWrapper
   - address: "0x2a064e94418ada3faa396785e38fbeb290d19ba0"
     tags:
       - contract
@@ -115,18 +125,22 @@ optimism:
   - address: "0x94a423e5f6d205eb71e07a294f9c231b1561eb42"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0xf07d1c752fab503e47fef309bf14fbdd3e867089"
     tags:
       - contract
+    name: SwapUtils
   - address: "0x1259adc9f2a0410d0db5e226563920a2d49f4454"
     tags:
       - contract
   - address: "0x5a5fff6f753d7c11a56a52fe47a177a87e431655"
     tags:
       - contract
+    name: SynapseERC20
   - address: "0x20b587484e75752adac381ae577a7562e7f358c5"
     tags:
       - contract
+    name: SynapseBridge
   - address: "0x809dc529f07651bd43a172e8db6f4a7a0d771036"
     tags:
       - contract
@@ -139,21 +153,25 @@ optimism:
   - address: "0x9508bf380c1e6f751d97604732ef1bae6673f299"
     tags:
       - contract
+    name: SynapseERC20
   - address: "0xe8c610fcb63a4974f02da52f0b4523937012aaa0"
     tags:
       - contract
+    name: MiniChefV2
   - address: "0x266557a864680a1401a3506c0eb72934bd13bf59"
     tags:
       - contract
   - address: "0x7ef7560789ee2cb301ec38c3c8b91ba8a94cd1e4"
     tags:
       - contract
+    name: SynapseBridge
   - address: "0x991adb00ef4c4a6d1ea6036811138db4379377c2"
     tags:
       - contract
   - address: "0xbd9b39b8ce8ec403a4b4f277a88d2dc4a44baca1"
     tags:
       - contract
+    name: ProxyAdmin
   - address: "0xbf180c122d85831dcb55dc673ab47c8ab9bcefb4"
     tags:
       - contract
@@ -163,9 +181,11 @@ optimism:
   - address: "0x39274f5d1734939211bf1b1b9bcfdfb324994075"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x9413b54f04c90ed8eb59a08323d767b72dcd278e"
     tags:
       - contract
+    name: WETH9
   - address: "0x7e7a0e201fd38d3adaa9523da6c109a07118c96a"
     tags:
       - contract
@@ -175,12 +195,19 @@ optimism:
   - address: "0xe37f21efaf8242d086b79a799eb0fdc3fb778704"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
   - address: "0x9cd619c50562a38edbdc3451ade7b58caa71ab32"
     tags:
       - contract
+    name: L2BridgeZap
   - address: "0x003107b3aeee133804eabe7d1df200ddfbb51dce"
     tags:
       - contract
+    name: TimelockController
   - address: "0xe0fa08834465ecc36c494f2b6c87b82ab7970413"
+    tags:
+      - contract
+    name: LPToken
+  - address: "0xd359bc471554504f683fbd4f6e36848612349ddf"
     tags:
       - contract

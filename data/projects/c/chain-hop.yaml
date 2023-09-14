@@ -6,6 +6,7 @@ github:
 optimism:
   - address: "0x8b5f94a2c2e23ee8cc0ff56872af973243ef7628"
     tags:
+      - eoa
       - creator
   - address: "0x68e5cdb18301002453e21f19ee736bae2a2cda5c"
     tags:
@@ -13,6 +14,7 @@ optimism:
   - address: "0x578c55fa6890b30ef74ccd3af52f455bbcca4d3e"
     tags:
       - contract
+    name: TransferSwapper
   - address: "0xe7e63c4494730c67878e6e11ad67e68ce4ad85f7"
     tags:
       - contract
@@ -37,6 +39,7 @@ optimism:
   - address: "0xb9ee81698efc02083b41e27ffdea19ce7b674e9c"
     tags:
       - contract
+    name: HyphenAdapter
   - address: "0x6ece0fbb1ed61ca4186fa5345766dafd5713818d"
     tags:
       - contract
@@ -52,27 +55,33 @@ optimism:
   - address: "0xed85bc160208410d122b14bef94a561701668256"
     tags:
       - contract
+    name: CBridgeAdapter
   - address: "0xc0748d32586f072e253565a791a72769db3a9f15"
     tags:
       - contract
+    name: HyphenAdapter
   - address: "0xb818378d1c7d8a28873e60313734ad8b809c61b9"
     tags:
       - contract
+    name: StargateAdapter
   - address: "0x9a2199e51a732b9ce89e663b34231ebc2b700e04"
     tags:
       - contract
   - address: "0x83e3798b1cd45722916f3d140987a7eb1f8afda2"
     tags:
       - contract
+    name: CBridgeAdapter
   - address: "0x4ac11aff0b1eabb739c30e67388b0e74f685fb6f"
     tags:
       - contract
   - address: "0x13e25b709ef6d707afb699e86ca85a76f7e75be4"
     tags:
       - contract
+    name: AcrossAdapter
   - address: "0x2e492fde043d7e47c99a54765903b9d55705f85c"
     tags:
       - contract
+    name: UniswapV3ExactInputCodec
   - address: "0x5f9b952151654add4b21560da8f13ee5894051b2"
     tags:
       - contract
@@ -100,12 +109,14 @@ optimism:
   - address: "0xc264f05a94e0b9264eab82adcacba7289b9d8cea"
     tags:
       - contract
+    name: HopAdapter
   - address: "0xd8be5b63938e224415a4cd0d269034bc868347c2"
     tags:
       - contract
   - address: "0xdb7e4d4dd546a6df6f9a312761e1b63c2036a782"
     tags:
       - contract
+    name: UniswapV3ExactInputCodec
   - address: "0xa73e6fd84e84c438744383bd985c047d218c7751"
     tags:
       - contract
@@ -115,12 +126,15 @@ optimism:
   - address: "0xe532f879e19e3b28bcf101b1a15076f431714839"
     tags:
       - contract
+    name: HopAdapter
   - address: "0x33fb9550b61dc7200f6c9a24b5a6e36be958826e"
     tags:
       - contract
+    name: CBridgeAdapter
   - address: "0xb3e8cf888242e3717142b4f52e0d90ce0afc4bdc"
     tags:
       - contract
+    name: UniswapV3ExactInputCodec
   - address: "0xccd0645cb84aaad24628606581f4825825dd636c"
     tags:
       - contract
@@ -130,6 +144,7 @@ optimism:
   - address: "0x838a40be99cc0658e24d32172e5d16f0114a5ae0"
     tags:
       - contract
+    name: AcrossAdapter
   - address: "0x49cad6da884b476179db105fd983566f98ff9e66"
     tags:
       - contract
@@ -142,12 +157,14 @@ optimism:
   - address: "0xd3b2a3a3faef1501755b290089d4daafdb6167c7"
     tags:
       - contract
+    name: CBridgeAdapter
   - address: "0x2656f88fd74d9d2149dfdd88f8ec74625334e54b"
     tags:
       - contract
   - address: "0x168b96194437ba18216629542bbdb5c55bbde95d"
     tags:
       - contract
+    name: TransferSwapper
   - address: "0xaf5457ebcc6c2afc56f044d9cc2484ec2b34142a"
     tags:
       - contract
@@ -166,15 +183,18 @@ optimism:
   - address: "0xa7b2ff8eaff742b4e543d72033880d5445e1f3be"
     tags:
       - contract
+    name: TransferSwapper
   - address: "0xf26055894aeaae23d136defaa355a041a43d7dfd"
     tags:
       - contract
+    name: OneInchCodec
   - address: "0x18688a000d65b43f67ed2d92702529172e03f966"
     tags:
       - contract
   - address: "0x3bebc3a0a97f7de155c978ca76954ad9c284bab9"
     tags:
       - contract
+    name: HopAdapter
   - address: "0x56b2ffd01cd39ee34d62b328e07e2cef79a13cf6"
     tags:
       - contract
@@ -184,21 +204,26 @@ optimism:
   - address: "0x13561f4af9ef7064039cba7c9aaa6d1acf238025"
     tags:
       - contract
+    name: StargateAdapter
   - address: "0xeb8ff19066415e797c213faa7d16161401c754cf"
     tags:
       - contract
+    name: TransferSwapper
   - address: "0x49994fbb41c6b7c2f3066ca7301f25305de1234a"
     tags:
       - contract
+    name: TransferSwapper
   - address: "0xa25cc478c41b6864982ecc22fc058976f40f8b1b"
     tags:
       - contract
+    name: HopAdapter
   - address: "0xf762c3fc745948ff49a3da00ccdc6b755e44305e"
     tags:
       - contract
   - address: "0xe546a7c1db82a1637ef5722e71eb06f483d2de0b"
     tags:
       - contract
+    name: OneInchCodec
   - address: "0x696c91cdc3e79a74785c2cdd07ccc1bf0bc7b788"
     tags:
       - contract
@@ -208,6 +233,7 @@ optimism:
   - address: "0x30a387e36a0fa6ff1d0386266557084725071e94"
     tags:
       - contract
+    name: AnyswapAdapter
   - address: "0xd1261634ef4255beb11ed38a35ebde5897b8532e"
     tags:
       - contract
@@ -220,3 +246,4 @@ optimism:
   - address: "0x3eece7a5fdda7c6b48c0e0d3da0bee2708626a48"
     tags:
       - contract
+      - factory

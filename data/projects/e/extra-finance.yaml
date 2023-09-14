@@ -6,15 +6,16 @@ github:
 optimism:
   - address: "0x9088b976e9542d0a27f4f9ddc7a716c7714806ea"
     tags:
+      - eoa
       - creator
   - address: "0x155620a2e6a9392c754b73296d9655061525729b"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xbb505c54d71e9e599cb8435b4f0ceec05fc71cbd"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x0e4e714fedbd81d0266ec486cf7c165129849109"
     tags:
       - contract
@@ -27,6 +28,7 @@ optimism:
   - address: "0x2dad3a13ef0c6366220f989157009e501e7938f8"
     tags:
       - contract
+    name: EXTRA
   - address: "0xa4dd7df0a13743508217941d2b155b5b32df7045"
     tags:
       - contract
@@ -66,6 +68,7 @@ optimism:
   - address: "0xb7d8613728efcfbb18bcd63deec06f64441d322a"
     tags:
       - contract
+    name: RewardDistributor
   - address: "0xa69b526924f9403ff410591cbb8281146a5c0d3f"
     tags:
       - contract
@@ -108,6 +111,7 @@ optimism:
   - address: "0x5b414093362a7c768273d5f0405744b8c09556a8"
     tags:
       - contract
+    name: Airdrop
   - address: "0x1a97e89572fc303e4bfd4fa49d02cd94161744dd"
     tags:
       - contract
@@ -135,9 +139,11 @@ optimism:
   - address: "0xe0bec4f45aef64cec9dcb9010d4beffb13e91466"
     tags:
       - contract
+    name: VeToken
   - address: "0xf9cfb8a62f50e10adde5aa888b44cf01c5957055"
     tags:
       - contract
+    name: VeloPositionManager
   - address: "0xdc15865785a57c13a4753c8318caf4d775ffa417"
     tags:
       - contract
@@ -157,5 +163,14 @@ optimism:
     tags:
       - contract
   - address: "0x9511d7b9ba1eaa5ba58c716977b0fa32e2aebecd"
+    tags:
+      - contract
+  - address: "0x0c9d44f5a573f6cfc9e8264a5ca72a1184616ef4"
+    tags:
+      - contract
+  - address: "0x4db48b2e9cb0f203eb0a8579b274f5ac3d53360b"
+    tags:
+      - contract
+  - address: "0xc719a01e39553e3d06d77ecab604c3ec3ca0b932"
     tags:
       - contract

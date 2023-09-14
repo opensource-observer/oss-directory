@@ -6,27 +6,33 @@ github:
 optimism:
   - address: "0xe2e2d9e31d7e1cc1178fe0d1c5950f6c809816a3"
     tags:
+      - eoa
       - creator
   - address: "0x1d68124e65fafc907325e3edbf8c4d84499daa8b"
     tags:
-      - factory
       - contract
+      - factory
+    name: TokenBridge
   - address: "0xfe8cd454b4a1ca468b57d79c0cc77ef5b6f64585"
     tags:
-      - factory
       - contract
+      - factory
   - address: "0xee91c335eab126df5fdb3797ea9d6ad93aec9722"
     tags:
       - contract
+    name: Wormhole
   - address: "0x0b3e006a6af5126e625c0e228adf31ea494246a3"
     tags:
       - contract
+    name: NFTBridgeImplementation
   - address: "0xfbc2f62b6a366a177d44706f04b74ae2d60bd556"
     tags:
       - contract
+    name: BridgeImplementation
   - address: "0xa5f208e072434bc67592e4c49c1b991ba79bca46"
     tags:
       - contract
+    name: TokenImplementation
   - address: "0xc0946f51ddd63e12c51b23f5814b43c9bc8aa700"
     tags:
       - contract
@@ -45,18 +51,22 @@ optimism:
   - address: "0xe69fe4b24e6288df707b68bcc2ad15c42ae50f04"
     tags:
       - contract
+    name: NFTImplementation
   - address: "0x7c9fc5741288cdfdd83ceb07f3ea7e22618d79d2"
     tags:
       - contract
   - address: "0xa6a377d75ca5c9052c9a77ed1e865cc25bd97bf3"
     tags:
       - contract
+    name: NFTBridgeImplementation
   - address: "0xb91e3638f82a1facb28690b37e3aae45d2c33808"
     tags:
       - contract
+    name: TokenImplementation
   - address: "0xa321448d90d4e5b0a732867c18ea198e75cac48e"
     tags:
       - contract
+    name: Implementation
   - address: "0x91175aee6dac41b9c1f749ded077568ad93b84ca"
     tags:
       - contract
@@ -66,6 +76,7 @@ optimism:
   - address: "0x6dcc0484472523ed9cdc017f711bcbf909789284"
     tags:
       - contract
+    name: NFTImplementation
   - address: "0x53b56de645b9de6e5a40ace047d1c74e8b42eccb"
     tags:
       - contract
