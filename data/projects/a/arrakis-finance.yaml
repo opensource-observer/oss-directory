@@ -1,253 +1,393 @@
-version: 2
+version: 3
 slug: arrakis-finance
 name: Arrakis Finance
 github:
   - url: https://github.com/arrakisfinance
-optimism:
+blockchain:
   - address: "0x88215a2794ddc031439c72922ec8983bde831c78"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xaa2e0c5c85acb7717e58060ab3c96d2b184ee07c"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x2845c6929d621e32b7596520c8a1e5a37e616f09"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x51da89df572633d2baf6a9260d3d5a1f0d146747"
     tags:
       - contract
     name: ArrakisV1RouterStaking
+    networks:
+      - optimism
   - address: "0xc248d6445369ed303e02d42e5375d55da75b05c2"
     tags:
       - contract
     name: ArrakisV1RouterStaking
+    networks:
+      - optimism
   - address: "0xb8888ea29e2f70ad62a3b69b1a1342720612a00d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2ff5d1da4985113f467bbbff015e76ce8ab05f29"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcd0923149a125275d175deef2ee1982b2b095c91"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8d1c480bca1439ae5d5a81a75d53f9bf6ec513f1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x15a065b0ab032541146fa3ca1cb382a22c94fe3f"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0xb9bb2856e0af9d3e855b0173a40059fc29b632da"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe03311d30bdeb60511bae8de135c6524b9576b2e"
     tags:
       - contract
     name: Vyper_contract
+    networks:
+      - optimism
   - address: "0x8044de2e2dd22ac7ff18a4d7c9fff15f12b1569f"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0x7f3013aa21c784793ae6420140d0703aac1b76be"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1b6a53991f257ac9dd1d0c061c37e1be36e0a8e6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x48a151421f9ea0e720e383df14ace1def15189b0"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0x97551ad4c64927ff40f4ccc310d233835a110fc1"
     tags:
       - contract
     name: GUniRouter
+    networks:
+      - optimism
   - address: "0xe49d19c155a8658f5744ed336f18b7c086979c34"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0x415154e1425eedf3e335a47e8b4f5e729f7a0814"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x367f2dea1632ea767a5e968fefa4c0dd78dea853"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc56f04ec20dad27c0f4701b14977c2dbe85142ba"
     tags:
       - contract
     name: EIP173ProxyWithReceive
+    networks:
+      - optimism
   - address: "0xdf50c6111f45132a1db5ec48bdcd1e8e6c7ce65d"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0x43667563725040febe9bf5164a38b7258105a210"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0xdedd02e7da507fe2ac09c509da10b94483e80aa5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd158ccfabef917ae2f01e454d07e1f2055e44c79"
     tags:
       - contract
     name: Vyper_contract
+    networks:
+      - optimism
   - address: "0x499b7cbd0f84318fee1edded7b5458f6f4500ab3"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0x7d4a0231377a6ca320ff5f084b633a2e6b688107"
     tags:
       - contract
     name: UniswapV3Helpers
+    networks:
+      - optimism
   - address: "0x2b65ed2400025c48ee77b057b1c1a1fa7cd84dfb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd2bb190dd88e7af5df176064ec42f6dfa8672f40"
     tags:
       - contract
     name: GUniResolver
+    networks:
+      - optimism
   - address: "0xccd64bf6afcd973dc2cb15314d9fc674f093c7d2"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0xb556f4a5ad53bbe5c6b99c0e7ee9f58bd0feb971"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0xb9bfd9807ef39821beaeab51acdf32e23e195b5d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7e232aeed14446d427579b4f77251552b065df00"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x62bdb9544a14dcd8804f7f2cc1479c82fb36c2a6"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0xd3a3fbae792c4ed0aa909ec032d3f14c999b2402"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x336649aeb266f3182d63f4fad7b3cf0dba15f4c8"
     tags:
       - contract
     name: Vyper_contract
+    networks:
+      - optimism
   - address: "0x8b24d44772a27030353bee0f252844602abbb0f1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x86d62a8ad19998e315e6242b63eb73f391d4674b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbee2b73493f342b1abee4c747be6ad53e02c071e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc36681303c7a41b045636af915486b22214b6292"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x24c95f333755bbedbae14b461770c9ec3f6e9d0d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9ce88a56d120300061593ef7ad074a1b710094d5"
     tags:
       - contract
     name: EIP173ProxyWithReceive
+    networks:
+      - optimism
   - address: "0xfdbbd3b8fcd27c544f1a292c7163679b60a7bbdf"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5c00be319ecf60ec35d00094d192e97becb4d06c"
     tags:
       - contract
     name: ArrakisVaultV1
+    networks:
+      - optimism
   - address: "0xba8d3345a9f8400ae3efc600d22cb61fc77bb1ad"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1535ec8c7477d38066326189f5b1c695c2846479"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0xaf9707c1c3b513d36002f8d87bdbd10c8414b847"
     tags:
       - contract
     name: Vyper_contract
+    networks:
+      - optimism
   - address: "0x212f71bff67e5b7795952a916598c4b64ba48741"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0xf78daf7a425098d255bd142d71bbdd8dcf43ee6c"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0x8582bf142be76fef830d23f590a2587f2ad7c216"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x57a2b0b2bb1e21fcb2df358fc832ae3f9f535b48"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xff949c5dcc4f48130b3459dad15a793ab78b698a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdbf8d32fd81a5bc1d087ba088ac449ad31330691"
     tags:
       - contract
     name: ArrakisFactoryV1
+    networks:
+      - optimism
   - address: "0xd68b055fb444d136e3ac4df023f4c42334f06395"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x87c7c885365700d157cd0f39a7803320fe86f0f5"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0x68f51d2aeb485ca3a65a7ff54e9266dd5ea4c58b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x310b18daa9d351062c6d2ec0f0411d327206b4c3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe140e5def72fde807890d89ee4f987d316c25196"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8a598f5629d3e6a8747afbfd6b9b982a2d1078a1"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xecb8ffcb2369ef188a082a662f496126f66c8288"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xaf0f96e8702cb1b8160e43c8c020c608cd7b134d"
     tags:
       - contract
     name: ArrakisV2
+    networks:
+      - optimism
   - address: "0x26673a336a720532ebf1d225bfc7092772b3b775"
     tags:
       - contract
     name: ArrakisV2Factory
+    networks:
+      - optimism
   - address: "0x0a7d53ff9c56a3bd6a4a369f14ba3ba523b3013e"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xecf6a02a8bfc046ff75e893d8a5ae993b069c38f"
     tags:
       - contract
     name: PALMManager
+    networks:
+      - optimism
   - address: "0xf48362d1cccdc05b87556d9bb0e180967f2b47b8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x187dbd46e895dc06dda1840eda6d9b01990dede5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x89cfc2d653b092b0cb7b6160156db5262eb51a4c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8c99b6edd92b83cb123c84514ee9ec5f53afc501"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x232ea11b244b1b36d034ba57b15ad514149aea2e"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0xd9723fffda369d119fbd66a15113144bf76e281c"
     tags:
       - contract
+    networks:
+      - optimism

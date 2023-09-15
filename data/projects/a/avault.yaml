@@ -1,83 +1,127 @@
-version: 2
+version: 3
 slug: avault
 name: Avault
 github:
   - url: https://github.com/AVaultFinance
-optimism:
+blockchain:
   - address: "0x41ba3387e1a5a592e27b9ee33935957ce5f872c1"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xbce212ea0474f464488e963e793010205175f123"
     tags:
       - contract
       - factory
     name: AVaultForAaveFactory
+    networks:
+      - optimism
   - address: "0x8fcbe72710185dd34a8bbba1cc05eb2628945fec"
     tags:
       - contract
     name: UOExecutorL2
+    networks:
+      - optimism
   - address: "0x03065e84748a9e4a1aebef15ac89da1cdf18b202"
     tags:
       - contract
     name: UOExecutorL2
+    networks:
+      - optimism
   - address: "0xaf4286e5e9eabc0142efc529652fd05335b23dd6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9af2cb98a6b3d3a5cf47a93900ad49c39a008113"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5417f117e4a2283623b3b9a07ec2b2f269d19a75"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa7d0e3b8ea63c73c17713fe45e0e31dc25ed688e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7745d489dc858d07313bc18ba48930066c019590"
     tags:
       - contract
     name: SigValidationModule
+    networks:
+      - optimism
   - address: "0xe24f9d529cf71075e0a33c45a8a66ad99a11dde2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb89aadf84f118d59d5770e6fee9cf1b55244ea8b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf9f7489a47dd4c4815ff764b75114751ad339dc5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb2f53dda7f07157f05f485f1e8719b252a925242"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5eca1457ef6531c6a0a4a9a4054789acae303db6"
     tags:
       - contract
     name: AddressesProvider
+    networks:
+      - optimism
   - address: "0x51808263e311782071670a9a693936da04b7870e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5167e12139ee4b2f6590f3c95e56b29d408a9048"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x57d942953d416835f7b60be2a8b49870cc7bcfe1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x898bf9c743a436c9c3f332af445aad69c15b10b8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf1ae0d98c31b1b7b784c05cb5e5bcefe6208fe1c"
     tags:
       - contract
     name: AvaultRouter_OPTIMISM
+    networks:
+      - optimism
   - address: "0x16c26133e747374bbd594f214ccd2f2e252aabf9"
     tags:
       - contract
     name: UOExecutorL2
+    networks:
+      - optimism
   - address: "0x38325f901a698af88d855f061d0fea70825856c5"
     tags:
       - contract
     name: AvaultRouter_OPTIMISM
+    networks:
+      - optimism
   - address: "0x6ec6084e09f5afb8dcb4e45c2e36f2ca0bbcdf7d"
     tags:
       - contract
     name: UOExecutorL2
+    networks:
+      - optimism

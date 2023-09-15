@@ -1,222 +1,338 @@
-version: 2
+version: 3
 slug: iron-bank
 name: Iron Bank
 github:
   - url: https://github.com/ibdotxyz
-optimism:
+blockchain:
   - address: "0x1ba608d6a354fbeb41fd7cc799e7f09b2612ab26"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x15ab2cc164d7817ac2a5b2a6362abee088b7f2df"
     tags:
       - contract
       - factory
     name: FeeDistFactory
+    networks:
+      - optimism
   - address: "0x47dae646612818d190e745faef8b72c278aab4f6"
     tags:
       - contract
       - factory
     name: IBAgreementFactory
+    networks:
+      - optimism
   - address: "0xc782dbc08daaca58f612085335f8f521e15a92a7"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x35f70ce60f049a8c21721c53a1dfccb5bf4a1ea8"
     tags:
       - contract
       - factory
     name: StakingRewardsFactory
+    networks:
+      - optimism
   - address: "0xc358d3ea954e39caeabc9c2fd80dce21a920387b"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x4645e0952678e9566fb529d9313f5730e4e1c412"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3596b7e6b0c31d02b7cdd687d303a9c4dfc00b8c"
     tags:
       - contract
     name: TripleSlopeRateModel
+    networks:
+      - optimism
   - address: "0xc640a79205706062bf0277a466821a6130a8f78e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2424c30e589caea191c06f41d1f5b90348dbed7d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x17c6768f438f1c67a70889dcffe49c665ccfe769"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x049e04bee77cffb055f733a138a2f204d3750283"
     tags:
       - contract
     name: CErc20Delegator
+    networks:
+      - optimism
   - address: "0xcdb9b4db65c913ab000b40204248c8a53185d14d"
     tags:
       - contract
     name: CErc20Delegator
+    networks:
+      - optimism
   - address: "0x0b186669138879f50ead3ebf703f00f7f1a45b58"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf917832969f60c4019fee163d7fd7688eb677ee5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x970d6b8c1479ec2bfe5a82dc69cafe4003099bc0"
     tags:
       - contract
     name: StakingRewardsHelper
+    networks:
+      - optimism
   - address: "0xcac4e73f528fcf354645122d62fd2a70c23b6b90"
     tags:
       - contract
     name: TokenController
+    networks:
+      - optimism
   - address: "0x9c8264cb356377bb1d263f6e0ee03e977b3cadab"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe724ffa5d30782499086682c8362cb3673bf69ae"
     tags:
       - contract
     name: CErc20Delegator
+    networks:
+      - optimism
   - address: "0xb795d08676e70f09e3217eb25d742d4ee6e987e0"
     tags:
       - contract
     name: ClaimHelper
+    networks:
+      - optimism
   - address: "0x707648dfbf9df6b0898f78edf191b85e327e0e05"
     tags:
       - contract
     name: ve
+    networks:
+      - optimism
   - address: "0xc91ee78162424c5d1279dae6f04babea4794b34f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6e6eb84716c032f2fe9ef9bf1965cb0e76989d22"
     tags:
       - contract
     name: ReserveManager
+    networks:
+      - optimism
   - address: "0xc0afabc1cfb1a07df27176a388f3b78aaef07297"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x61e38fa2a349b5d4ead78458afbcc1e4adeefab5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8cfbe29030260b8931ae499edf5ce3f3cb02226f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcbc71843e4dec985469191dd8bea2c04eb83b300"
     tags:
       - contract
     name: StakingRewardsHelper
+    networks:
+      - optimism
   - address: "0xf7564e21a2439cca399779580db97e85a766d2a8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5848ca62295c20049c3d6a19c6eccb2ac2779d6a"
     tags:
       - contract
     name: SimplePriceFeed
+    networks:
+      - optimism
   - address: "0x06cd0fa9e4fc0cc3476e79bd94743c7a29a2ab4e"
     tags:
       - contract
     name: StakingRewardsHelper
+    networks:
+      - optimism
   - address: "0xe0b57feed45e7d908f2d0dacd26f113cf26715bf"
     tags:
       - contract
     name: Unitroller
+    networks:
+      - optimism
   - address: "0x033b849d5db77f98840d422a119887e120493f94"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xeeb3981d5587c185bd809d74b3ddb6c3b0363099"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8f3ab2be32da1f5b1db934946fdc5f5415140f8b"
     tags:
       - contract
     name: UniswapV3Converter
+    networks:
+      - optimism
   - address: "0x04f0fd3cd03b17a3e5921c0170ca6dd3952841ca"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf9d60249c9590ef60b6a7d3f95fd0f98cb512588"
     tags:
       - contract
     name: TokenDescriptor
+    networks:
+      - optimism
   - address: "0x874c01c2d1767efa01fa54b2ac16be96fad5a742"
     tags:
       - contract
     name: CErc20Delegator
+    networks:
+      - optimism
   - address: "0x19fe4a2ada33bd690c66a99df3de6c0899b6bd8f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe867bee9e05866e2d7a01d376dc6ea07706cb703"
     tags:
       - contract
     name: UniswapV3Burner
+    networks:
+      - optimism
   - address: "0xd4f65611e6709b995930f3de8095d6514111cd52"
     tags:
       - contract
     name: IBAgreementLens
+    networks:
+      - optimism
   - address: "0x17533a1bde957979e3977ebbfbc31e6deeb25c7d"
     tags:
       - contract
     name: CWrappedNativeDelegator
+    networks:
+      - optimism
   - address: "0x00a35fd824c717879bf370e70ac6868b95870dfb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8f3ae32ddd5e20c814d12acdc15eaf2e225b77d9"
     tags:
       - contract
     name: Comptroller
+    networks:
+      - optimism
   - address: "0xedaaba6db46bb1a7967e7490a024f07abe0e8941"
     tags:
       - contract
     name: TripleSlopeRateModel
+    networks:
+      - optimism
   - address: "0xf0c48ab947d650b5807322f3de61e14fc81771a2"
     tags:
       - contract
     name: Renderer
+    networks:
+      - optimism
   - address: "0x20a7f63125d24a7b7aaa1f214df452d8a1aca786"
     tags:
       - contract
     name: TripleSlopeRateModel
+    networks:
+      - optimism
   - address: "0x1d073cf59ae0c169cbc58b6fdd518822ae89173a"
     tags:
       - contract
     name: CErc20Delegator
+    networks:
+      - optimism
   - address: "0x8bd68d02251b8466e802436e96734082c664eeef"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x23be15c4972279fe56dac4460be0b60cc8301bf7"
     tags:
       - contract
     name: CCollateralCapErc20Delegate
+    networks:
+      - optimism
   - address: "0x4eda3e4f9e42a7dd5c853e8b857271fae88e7209"
     tags:
       - contract
     name: StakingRewardsHelper
+    networks:
+      - optimism
   - address: "0xd5734c42e2e593933231be61bac2b94acdc44dc4"
     tags:
       - contract
     name: UniswapV3Converter
+    networks:
+      - optimism
   - address: "0x2ac63723a576f89b628d514ff671300801dc1702"
     tags:
       - contract
     name: Maximillion
+    networks:
+      - optimism
   - address: "0x8c5d04d22ca563aa9fb783c263ae9bea20d3a332"
     tags:
       - contract
     name: CWrappedNativeDelegate
+    networks:
+      - optimism
   - address: "0x5402508a800db6b72792b80623193e38839a9e24"
     tags:
       - contract
     name: ve_dist
+    networks:
+      - optimism
   - address: "0x57baf809703769be301da8ff15f3713b941fffa9"
     tags:
       - contract
     name: EIP173Proxy
+    networks:
+      - optimism
   - address: "0xd0b628cb062bcb34331482391c2110cd7a731e5a"
     tags:
       - contract
     name: Comptroller
+    networks:
+      - optimism
   - address: "0xc0e1a46cfea33e598cf0102ef4e06421ed16fbbe"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6fb612d5b817183845c6a5bb2d2afb6e7cba4ee9"
     tags:
       - contract
     name: IBProxyOFT
+    networks:
+      - optimism

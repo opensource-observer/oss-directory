@@ -1,77 +1,123 @@
-version: 2
+version: 3
 slug: meson-fi
 name: MesonFi
 github:
   - url: https://github.com/mesonfi
-optimism:
+blockchain:
   - address: "0x000039ddcf1f63cf3555e62a8d32a11bd1e7e1e1"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x25ab3efd52e6470681ce037cd546dc60726948d3"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xac937ad539bb9737892ca9ffacff00d40311c0ca"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x529c2945c257cc737a15733d43a1fd1cbbe79c67"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x14eda572634627389226153f9fa5366a90a660db"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x328330f2c17a55e7e36c78972947e22f2f43cbb5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5947b60a2e22939fd5f21efdb5e8e72e1f95c8a6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe7fb36b4a3787cfa32fde7affded0cfb6825f255"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7ee5866de93f2de8e435715666a9e8f0a63f2319"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x395c38f055522c7eebd85e77dc59508a0e4115aa"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5b00e2a79d721fc22c6534273419e47a1159feae"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa84442f3853ce0d57f8a89ec0675044e502b8af7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2c42d3dbb5a6e54d52f194546c464bb5d47925df"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7ef8f2a8048948d43642e0358a183147e154550a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4af60d4478e2e4bf64a57fa4cef050c526980931"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x53be31942c2113633bdfe34626bdc60c7f1d12b7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x59b38e68423f4b566600f632248ec0cf13c79ade"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x781d50ea025751162b909897ac95fa05c30e2c7c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xeee21c29c67a4dc177c3371296dbb2c45911c487"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4df5f7c6d69a24aa1a87beee5a374a40c8f9afd3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x652e24c7014bb1563aea3e82c03c4ba0afec594d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdd3d867db5ca13e5f055dd4484648fdddf3248eb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x03650533d2a35847c007f25bc630f468905f6241"
     tags:
       - contract
+    networks:
+      - optimism

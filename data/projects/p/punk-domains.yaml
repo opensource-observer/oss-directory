@@ -1,97 +1,145 @@
-version: 2
+version: 3
 slug: punk-domains
 name: Punk Domains
 github:
   - url: https://github.com/punk-domains-2
-optimism:
+blockchain:
   - address: "0xb29050965a5ac70ab487aa47546cdcbc97dae45d"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x58099109d41d85f67c78c1dfa23ae339605f4d82"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xa8221890768603210c1a32d88374111084e46e6d"
     tags:
       - contract
       - factory
     name: PunkTLDFactory
+    networks:
+      - optimism
   - address: "0xea2f99fe93e5d07f61334c5eb9c54c5d5c957a6a"
     tags:
       - contract
       - factory
     name: PunkTLDFactory
+    networks:
+      - optimism
   - address: "0xf7e89ed8106cba1335e04837e59a28ae1a3d580c"
     tags:
       - contract
     name: PunkOpPgf
+    networks:
+      - optimism
   - address: "0x86a258f330ddf62a222b492cd4bbac34f5a62e2f"
     tags:
       - contract
     name: PunkResolverV1
+    networks:
+      - optimism
   - address: "0xb2f76a5ac3678d11b5e09431cef6edd65b63017e"
     tags:
       - contract
     name: PunkOpPgf
+    networks:
+      - optimism
   - address: "0x2b7b735857ec9badcbfa37581a76a2f1d4ac7fd0"
     tags:
       - contract
     name: DopeMetadata
+    networks:
+      - optimism
   - address: "0x6e58a098add16e083261803340863d215ff7d352"
     tags:
       - contract
     name: FlexiPunkMetadata
+    networks:
+      - optimism
   - address: "0xc17e9347ce26d7630a98ec4158bd7200e54bf4cd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7b3e2ec40c241b424b08fd31937d22137793a00c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc6c17896fa051083324f2ad0ed4555dc46d96e7f"
     tags:
       - contract
     name: PunkForbiddenTlds
+    networks:
+      - optimism
   - address: "0x7e01b39214080559e495294116deca84afa8e716"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x77ae10dd2e7fc7b2819602d483765d705e9b8dda"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x844d982fdc1f5c8ead82e95d522f2486a7cbb3ee"
     tags:
       - contract
     name: PunkTLD
+    networks:
+      - optimism
   - address: "0x3281a7ad63436c1253f8033b800eb7727cca226a"
     tags:
       - contract
     name: PunkResolverV2
+    networks:
+      - optimism
   - address: "0x373bd1e154fda2a43a8696b1434a793576460593"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6724c95af33e396d85d2fc93609c60d23490878b"
     tags:
       - contract
     name: FlexiPunkTLD
+    networks:
+      - optimism
   - address: "0xf20fc12a4955c9d47194b8fed591fe01777d2b06"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xa562fd780b05b4c6d895ba78d5519ddf0a5d25d6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3c3f2c8c9c3b3199e9a1c3915754209218155050"
     tags:
       - contract
     name: DopeMinter
+    networks:
+      - optimism
   - address: "0xbba4db63da448c124ee38eec636b697ca9bdf9e1"
     tags:
       - contract
     name: PunkTLD
+    networks:
+      - optimism
   - address: "0xaf73b136dd1902e36e33e968be93e30e17a5b01e"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x1c7ccf4057c04fd4fea4b1a8b0484770569bbbe4"
     tags:
       - contract
+    networks:
+      - optimism

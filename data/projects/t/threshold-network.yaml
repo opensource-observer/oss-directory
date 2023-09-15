@@ -1,32 +1,46 @@
-version: 2
+version: 3
 slug: threshold-network
 name: Threshold Network
 github:
   - url: https://github.com/threshold-network
-optimism:
+blockchain:
   - address: "0x123694886dbf5ac94dda07135349534536d14caf"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x41c9b5639e3f2f6c61e9b78b2c6ff3746e79d91a"
     tags:
       - contract
     name: L2WormholeGateway
+    networks:
+      - optimism
   - address: "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1293a54e160d1cd7075487898d65266081a15458"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xf94d0d0471ae14b6310d94fa4f95e5fc9f3ffc17"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xda534b567099ca481384133bc121d5843f681365"
     tags:
       - contract
     name: L2TBTC
+    networks:
+      - optimism
   - address: "0x02612d20cc087670a959bb12ca3c5fd56c8a3db3"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism

@@ -1,204 +1,302 @@
-version: 2
+version: 3
 slug: aura
 name: Aura
 github:
   - url: https://github.com/aurafinance
-optimism:
+blockchain:
   - address: "0x30019eb135532bddf2da17659101cc000c73c8e4"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xb07d2d6a03f2d4878dc1680f8581e871dae47494"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x53c09096b1dc52e2ef223b2969a714ee75da364f"
     tags:
       - contract
       - factory
     name: Create2Factory
+    networks:
+      - optimism
   - address: "0x417d097d504e5adedb441238f92f1b2c9b38900f"
     tags:
       - contract
       - factory
     name: ExtraRewardStashV3
+    networks:
+      - optimism
   - address: "0xe2f2499474b4bef0a7320c1d2b0feffd5430acf8"
     tags:
       - contract
       - factory
     name: ExtraRewardStashV3
+    networks:
+      - optimism
   - address: "0x8ecc910e150fad2d2f1b13b938e928401f4409d2"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x914b05129b1b98e33e6ae14adadb2483134067ba"
     tags:
       - contract
       - factory
     name: ExtraRewardStashV3
+    networks:
+      - optimism
   - address: "0x7dfe3df2c61af5592729e623e1a6915779514d30"
     tags:
       - contract
       - factory
     name: ExtraRewardStashV3
+    networks:
+      - optimism
   - address: "0x2f4cdf0d46f4e3e6d4d37836e73073046138d4f7"
     tags:
       - contract
       - factory
     name: RewardFactory
+    networks:
+      - optimism
   - address: "0x626d1db48410dded2ef890f43074ec59c392b2f3"
     tags:
       - contract
       - factory
     name: ExtraRewardStashV3
+    networks:
+      - optimism
   - address: "0x731886426a3199b988194831031dfb993f25d961"
     tags:
       - contract
       - factory
     name: ProxyFactory
+    networks:
+      - optimism
   - address: "0x87299312c820607f1e7e4d0c6715ceb594306fe9"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xff58d6fb1ffd4cb2ed226e25ce55b219c414ccc7"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xfa6b857cc17740a946c9eb85c1a6896f2e0be98e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x25d03062d994e358a8a90b93a19bed1d989f5e3f"
     tags:
       - contract
     name: OptimismBridgeSender
+    networks:
+      - optimism
   - address: "0xbddac3069f4e26f4e4f445926c8eeb9dcb68c26b"
     tags:
       - contract
     name: AuraViewHelpersLite
+    networks:
+      - optimism
   - address: "0x51b6e0ac6d6435650748513c71db453f96749fe1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8d803f7f7e26e586ee90e5a872cf7830e21f7727"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7e702e51142eb7658ce4ce734c9bdec74250f265"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xca6481967e9ed5faedbc5dffa1dd8368979a2160"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0451255563e2aca170b2552111837572e7a0bacd"
     tags:
       - contract
     name: OptimismBridgeSender
+    networks:
+      - optimism
   - address: "0x9098b50ee2d9e4c3c69928a691da3b192b4c9673"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x956ccab09898c0af2aca5e6c229c3ad4e93d9288"
     tags:
       - contract
       - factory
     name: ManagedPoolFactory
+    networks:
+      - optimism
   - address: "0x85a80afee867adf27b50bdb7b76da70f1e853062"
     tags:
       - contract
       - factory
     name: ComposableStablePoolFactory
+    networks:
+      - optimism
   - address: "0xf23b4db826dba14c0e857029dff076b1c0264843"
     tags:
       - contract
       - factory
     name: AaveLinearPoolFactory
+    networks:
+      - optimism
   - address: "0xa523f47a933d5020b23629ddf689695aa94612dc"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x043a2dad730d585c44fb79d2614f295d2d625412"
     tags:
       - contract
       - factory
     name: ComposableStablePoolFactory
+    networks:
+      - optimism
   - address: "0x96484f2abf5e58b15176dbf1a799627b53f13b6d"
     tags:
       - contract
       - factory
     name: BatchRelayerLibrary
+    networks:
+      - optimism
   - address: "0x0b65ccc88be5445e0080e0b854c66068fb0e304e"
     tags:
       - contract
       - factory
     name: ExtraRewardStashV3
+    networks:
+      - optimism
   - address: "0xb55b5e057960fd4f2b0c425d8f338984ed215bd2"
     tags:
       - contract
       - factory
     name: ExtraRewardStashV3
+    networks:
+      - optimism
   - address: "0xe39b5e3b6d74016b2f6a9673d7d7493b6df549d5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf24917fb88261a37cc57f686ebc831a5c0b9fd39"
     tags:
       - contract
     name: ManagedPoolAddRemoveTokenLib
+    networks:
+      - optimism
   - address: "0xe42ffa682a26ef8f25891db4882932711d42e467"
     tags:
       - contract
     name: CircuitBreakerLib
+    networks:
+      - optimism
   - address: "0x36cac20dd805d128c1a6dd16eea845c574b5a17c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x76578ecf9a141296ec657847fb45b0585bcda3a6"
     tags:
       - contract
     name: MockAaveLendingPool
+    networks:
+      - optimism
   - address: "0xb9f8ab3ed3f3acba64bc6cd2dca74b7f38fd7b88"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9805dcfd25e6de36bad8fe9d3fe2c9b44b764102"
     tags:
       - contract
     name: ProtocolIdRegistry
+    networks:
+      - optimism
   - address: "0xe3881627b8deebccf9c23b291430a549fc0be5f7"
     tags:
       - contract
     name: MockVault
+    networks:
+      - optimism
   - address: "0x5cf4928a3205728bd12830e1840f7db85c62a4b9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4fb47126fa83a8734991e41b942ac29a3266c968"
     tags:
       - contract
     name: L2BalancerPseudoMinter
+    networks:
+      - optimism
   - address: "0xc3ccace87f6d3a81724075adcb5ddd85a8a1bb68"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9da18982a33fd0c7051b19f0d7c76f2d5e7e017c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x81cfae226343b24ba12ec6521db2c79e7aeeb310"
     tags:
       - contract
     name: Vyper_contract
+    networks:
+      - optimism
   - address: "0x6817149cb753bf529565b4d023d7507ed2ff4bc0"
     tags:
       - contract
     name: Boost Delegation V2
+    networks:
+      - optimism
   - address: "0x6b5da774890db7b7b96c6f44e6a4b0f657399e2e"
     tags:
       - contract
     name: BalancerPoolDataQueries
+    networks:
+      - optimism
   - address: "0x83e443ef4f9963c77bd860f94500075556668cb8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5dbad78818d4c8958eff2d5b95b28385a22113cd"
     tags:
       - contract
     name: BAL
+    networks:
+      - optimism
   - address: "0x7372ece4c18beabc19981a53b557be90dcbd2b66"
     tags:
       - contract
     name: ChildStashRewardDistro
+    networks:
+      - optimism
   - address: "0xc4ef943b7c2f6b387b37689f1e9fa6ecb738845d"
     tags:
       - contract
+    networks:
+      - optimism

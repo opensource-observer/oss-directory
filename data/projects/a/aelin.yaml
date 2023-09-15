@@ -1,280 +1,420 @@
-version: 2
+version: 3
 slug: aelin
 name: Aelin
 github:
   - url: https://github.com/AelinXYZ
-optimism:
+blockchain:
   - address: "0x7856f2a12a7a18b4a115d295f548434a9b078fa1"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x1e9d46f9bdaccbd578d1d54cd2c11d526901141a"
     tags:
       - contract
       - factory
     name: AelinPool
+    networks:
+      - optimism
   - address: "0x3074306c0cc9200602bfc64beea955928dac56dd"
     tags:
       - contract
       - factory
     name: AelinPool
+    networks:
+      - optimism
   - address: "0xe71b4cc3c97c61ca5548d271ddb6489c4dd7340d"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x7ef2d87e08c6ed14beafd74c1b942953e470795a"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xc7bbd38d1ae4a4aa4bf0d0e7b061b1bb858b0d09"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x75e8e949cdd34279abc48906e2dc6cc1d16bdc4d"
     tags:
       - contract
       - factory
     name: AelinPool
+    networks:
+      - optimism
   - address: "0x95b1ac35d106879923e140c9e9581e224ee3e041"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xdfc26e35ccec39b30e7bd78ce7b5e8f4bb6902d6"
     tags:
       - contract
       - factory
     name: AelinPool
+    networks:
+      - optimism
   - address: "0x914ffc8dc0678911aae77f51b8489d6e214da20f"
     tags:
       - contract
       - factory
     name: AelinPoolFactory
+    networks:
+      - optimism
   - address: "0x87525307974a312af13a78041f88b0bae23ebb10"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x97fc4e0ce415ef922b08f4725a0fa197d7fdbec3"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xa4a0d1163188eaf6ce13aada3945179bd74c5295"
     tags:
       - contract
       - factory
     name: AelinPool
+    networks:
+      - optimism
   - address: "0x44e2b34e4ab4042652410d44f43af4c379e1bcba"
     tags:
       - contract
       - factory
     name: AelinPool
+    networks:
+      - optimism
   - address: "0xba7f5ab831bfcb7a9a56aab5e293cde5d06393a1"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xafd94427e33b58a09eba326c14261200319ad85c"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x3c312abcef37e63e8ca3ac0c370fb1f8e74c0cec"
     tags:
       - contract
       - factory
     name: AelinPoolFactory
+    networks:
+      - optimism
   - address: "0xda26c397b6619015f64fbbca8177a6dbc2d21f7a"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x204a51d714adecf5b87183fd712e537a8bcbd2c5"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xa69eefcebbea66a2fc66821cbeec7683f73c18d9"
     tags:
       - contract
       - factory
     name: AelinPool
+    networks:
+      - optimism
   - address: "0xbbafcd04ea6c7d89176af12451404670eb584db2"
     tags:
       - contract
       - factory
     name: AelinPool
+    networks:
+      - optimism
   - address: "0x330c7b12937cea5af640cfe14e6c4b349bb37bad"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x540695419e4130957d3d65ffd5a50a84836341d9"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x20369baa917bd1867bdafc24d72458ac777c9a2c"
     tags:
       - contract
       - factory
     name: AelinPool
+    networks:
+      - optimism
   - address: "0x9219f9f65b007fd3ba0b53762861f54062531a31"
     tags:
       - contract
       - factory
     name: AelinPoolFactory
+    networks:
+      - optimism
   - address: "0x6be9eeab1c58a1558523b5e797bb733cf7d7ca4f"
     tags:
       - contract
       - factory
     name: AelinPool
+    networks:
+      - optimism
   - address: "0xabab6d9dd92645789d52fcb5c4988b7ab8d3e4ca"
     tags:
       - contract
       - factory
     name: AelinPool
+    networks:
+      - optimism
   - address: "0x02b9e99a05458d763256b977e61c1d947a5a0d04"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xef5e00f3d204808b5d4e79b0f8fe197af2de18bd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2c0979b0de5f99c2bde1e698aeca13b55695951e"
     tags:
       - contract
     name: VirtualAelinToken
+    networks:
+      - optimism
   - address: "0xfe757a40f3eda520845b339c698b321663986a4d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x64839de745d09d89591511afdefce4ee2cb03924"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0x1fa677ca369b97ab30707373531cb050b1c3a7c6"
     tags:
       - contract
     name: Distribution
+    networks:
+      - optimism
   - address: "0xa621eefaa0a6b23fa4c0111e9316cca4b53469e6"
     tags:
       - contract
     name: MerkleFeeDistributor
+    networks:
+      - optimism
   - address: "0x1e634e9622808a53f3e9a9c87a1ff9dabc46455a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2569f66b7acd8954a7b3a48481823e30c4990742"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa27a77d55208cd3865e286df4698d750b99898b8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x29e146346242e3d206dd36a79e274c753bffb15e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x780f70882ff4929d1a658a4e8ec8d4316b24748a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x24fa2b48178f4acd577230b3ac30b935195dcaf3"
     tags:
       - contract
     name: Distribution
+    networks:
+      - optimism
   - address: "0x906d2352d02d35b153349c5861d7ea4e7e9162ec"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x25855b3e23c770f1effc17bfb1bbb111eed668b5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x04432a6fd94e8bc8559d10ac1d98f15cd9c08363"
     tags:
       - contract
     name: AelinToken
+    networks:
+      - optimism
   - address: "0x722969a3fdc778a5cc7cbc8dc8ae3e96a288f853"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x689b7d709106bc488f872c50b688f058048536be"
     tags:
       - contract
     name: AelinPool
+    networks:
+      - optimism
   - address: "0x8e8e28c43e72438a0b217dd7b78440fccf682e9d"
     tags:
       - contract
     name: VirtualAelinToken
+    networks:
+      - optimism
   - address: "0x61baadcf22d2565b0f471b291c475db5555e0b76"
     tags:
       - contract
     name: AelinToken
+    networks:
+      - optimism
   - address: "0x3c8bef5f8df313ea6cb874d5035d3eeb963d8dad"
     tags:
       - contract
     name: AelinDeal
+    networks:
+      - optimism
   - address: "0xe5bd5fc85d214ae28474bbe10e2dfcde52577b4f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x98acc73577c00053bc2c168ade5fead073313022"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x26b65739eed146252f5fdffecabbbc72f7f581b6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf02a67988adb4b92365911cd2522ef4deb1c9bc9"
     tags:
       - contract
     name: VAelinConverter
+    networks:
+      - optimism
   - address: "0x2d662befe161379837829944d5948ed84ced659e"
     tags:
       - contract
     name: Distribution
+    networks:
+      - optimism
   - address: "0xe30bd5fb0a652a65eb378ab952a621f0b509521d"
     tags:
       - contract
     name: AelinPool
+    networks:
+      - optimism
   - address: "0xfa0de0e65292c12ed22c80da331ca2806a84215d"
     tags:
       - contract
     name: AelinToken
+    networks:
+      - optimism
   - address: "0x91fcea33d02d11621b7f90ebd5e44ed393ed7b5e"
     tags:
       - contract
     name: VirtualAelinToken
+    networks:
+      - optimism
   - address: "0x31eef1a7e20504d321e50d48fc017c04ca832f86"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa7a86ec3c266435c580354d8c9a33b1bc91697a7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xef1c0b40016d0ea08e4f409f48e618b41edf66d9"
     tags:
       - contract
     name: Distribution
+    networks:
+      - optimism
   - address: "0x528d21fd31b0764befbf5b584f962e3ce7dda296"
     tags:
       - contract
     name: AelinPool
+    networks:
+      - optimism
   - address: "0xbca527108bcc3de437c5bfdb1a5489de26deeae0"
     tags:
       - contract
     name: AelinDeal
+    networks:
+      - optimism
   - address: "0xcc2a483d21c5eb783eca41b0933042ad9ccde6a8"
     tags:
       - contract
     name: AelinPoolFactory
+    networks:
+      - optimism
   - address: "0xf1f2fb3c8e90152e75d7675f5a7f3f9f95e65a81"
     tags:
       - contract
     name: VirtualAelinToken
+    networks:
+      - optimism
   - address: "0x7abdc254845300f5cb8571d65668d3f1310969a5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x88fdc711eff5877b464d299c7ac3077135c6c5ca"
     tags:
       - contract
     name: OwnerRelayOnOptimism
+    networks:
+      - optimism
   - address: "0x4aec980a0daef4905520a11b99971c7b9583f4f8"
     tags:
       - contract
     name: StakingRewards
+    networks:
+      - optimism
   - address: "0x07aa6cfd846ff4e39178f414dc27ec890d9622a2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x55c1688587e6dfd52e44bf8b7028a8f7525296e7"
     tags:
       - contract
     name: OptimismTreasury
+    networks:
+      - optimism
   - address: "0x4609795281f8c2d90de9fd4a18609198819513e7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x19305fa7b4832b7f7545cc752c71f8cdf9f60226"
     tags:
       - contract
+    networks:
+      - optimism

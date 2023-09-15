@@ -1,273 +1,429 @@
-version: 2
+version: 3
 slug: alchemix
 name: Alchemix
 github:
   - url: https://github.com/alchemix-finance
-optimism:
+blockchain:
   - address: "0x13c716188c38ce27b9b2b672a59543cf1170eabe"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x7a6468f8161ef39d7639c67dfa5637ba1b7ba74b"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xd2b1d91dbddd1c026a0c849d08e1ea284866650c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3fa5629b403c4424711e3eb69341833ac1a7d02d"
     tags:
       - contract
     name: RewardCollectorOptimism
+    networks:
+      - optimism
   - address: "0x971c2d9ca059a19447bbe59f372aa21eb70e2d6d"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x58846efadc0819d6f1d45a71d36b48a2ea79fcc5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x138e30d0f35a14d25317d83863eb7e4e0501a33d"
     tags:
       - contract
     name: optimismCompress
+    networks:
+      - optimism
   - address: "0x4183c9c22d1ce5f3be9818e97e779e2897f688f7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdb3fe4da32c2a79654d98e5a41b22173a0af3933"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4186eb285b1efdf372ac5896a08c346c7e373cc4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8ba1e9a1ab110e52e0d57ccb013f18140916925a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2680b58945a31602e4b6122c965c2849eb76dd3b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x843b66a06a4f00c0703fd2ae2e67c9399f7fad92"
     tags:
       - contract
     name: CrossChainCanonicalGALCX
+    networks:
+      - optimism
   - address: "0x4e7d2115e4feecd802c96e77b8e03d98104415fa"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xcd87ba0b93a060500c6ea6c79653c7b9e31f6cb6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x36033e1fd88470a5192692e01150c3593847fca5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcb8fa9a76b8e203d8c3797bf438d8fb81ea3326a"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xa44f69aeac480e23c0abfa9a55d99c9f098beac6"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x6076a6b474f336c566e4ba551a5934e3ba5e7193"
     tags:
       - contract
     name: ATokenGateway
+    networks:
+      - optimism
   - address: "0xb0269e3016beec7bf08b5b664ad9e2d306316fa8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb4294e2931b4c3cff7c9377f9a62d3d81ad82b86"
     tags:
       - contract
     name: AAVETokenAdapter
+    networks:
+      - optimism
   - address: "0x1bce0aca8b0e4139e4390cf1a7a6eb644000a2f0"
     tags:
       - contract
     name: AlchemistV2
+    networks:
+      - optimism
   - address: "0x7018cbaf278cab1eea3192d0d58ef520f4e5ced0"
     tags:
       - contract
     name: MigrationTool
+    networks:
+      - optimism
   - address: "0xffd61c9597982241fd6d7c3f8a03414a5b922e9a"
     tags:
       - contract
     name: RewardCollectorOptimism
+    networks:
+      - optimism
   - address: "0x143a08f0c2c1820eff9d0e749683396c7bb7a4e7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfa6a5d33e18cb0d52991536ab15750fb13119e45"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xaf7ad0527d3b612445fd57b77d42aaf86ac472de"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd24c4c7cada12cb99812f2c3750b80ae7c06e382"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf911d825a7554b7658e0601f030cd0c6b8005918"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1dc389dd3a824cf48433dbadf719262348589f8d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x65d288d10aedae45f8fa98776bdfd7a67e7a2157"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x54aed38abe51bb39c8e75ac1d9d9335d6136b6a1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x337b4b933d60f40cb57dd19ae834af103f049810"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9d15e5230506bfb66d2a5b18117aa14bf1918d35"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc37a88cb293768eac0186c5daf1cbc190820fecf"
     tags:
       - contract
     name: YearnTokenAdapter
+    networks:
+      - optimism
   - address: "0x65c732b5bfc753975c2d92a521bcac633fdae130"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa7ea9ef9e2b5e15971040230f5d6b75c68aab723"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x89926e225a205a5b8c86f2de0be0abe6262c0edb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfb6c56123e4c4b07a8d1cc9a808b003058235a51"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4b4968a27f0490494ec15def4245942f45790d85"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x393dd19c7da959df0747f77696f88dac77a5f204"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc56209cccd32297460383e3e032fae0636fb4302"
     tags:
       - contract
     name: MigrationTool
+    networks:
+      - optimism
   - address: "0xc58b2bb06cb16fe99a989fe2b495734fa695533a"
     tags:
       - contract
     name: optimismCompress
+    networks:
+      - optimism
   - address: "0x5bb79889c58612e27ea121b0f6f0f31346f812f4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa5f4786eb1fd403a92086841515b71610d34259b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x318334a6dd21d16a8442ab0b7204e81aa3fb416e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x10cf9d194c37b735cdc1b84bb1c3b78b94586a69"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x43a502d7e947c8a2ebbaf7627e104ddcc253abc6"
     tags:
       - contract
     name: StaticATokenV3
+    networks:
+      - optimism
   - address: "0xd8320859860f8e116e9bda13cdd60b27bcb6b058"
     tags:
       - contract
     name: RewardCollector
+    networks:
+      - optimism
   - address: "0x36e8d12227f8c8ef38bb3aeabf816681b5440be5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf2b581f0ef5c54384acda512d400e3c67a0ed692"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe04bb5b4de60fa2fba69a93ade13a8b3b569d5b4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9d4c27802238c96270bd3913e5dbbadba92715e1"
     tags:
       - contract
     name: CrossChainCanonicalAlchemicTokenV2
+    networks:
+      - optimism
   - address: "0x1e0bd5c0e3ab80d66b6225263d6739488a2831bd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb7c4250f83289ff3ea9f21f01aad0b02fb19491a"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x7f71951283acde80548a45ebe74276ddefaac91e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe9044a487c758ff8f8c92626bf484f3fb78a1e96"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x485af43f7ed4257777a25cab7ea3c4fa6baa68bf"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe99a9a717c60f9639b235ede422c27d60fbeb3b9"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xf0faf495905506f156b6cc2d8810cf3073e04870"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3e29d3a9316dab217754d13b28646b76607c5f04"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x719fe4734faa5d589f356a8f46e5522e6dbe5e03"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xc5fe32e46fd226364bff7a035e8ca2abe390a68f"
     tags:
       - contract
     name: Whitelist
+    networks:
+      - optimism
   - address: "0xfcd619923456e20eae298b35e3606277b391bbb4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x41125d4cbe5fa0c9581cbee3fc8ff23207471602"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2c68d03f5e7333bbd21202044778893919cb8126"
     tags:
       - contract
     name: MigrationTool
+    networks:
+      - optimism
   - address: "0x870d36b8ad33919cc57ffe17bb5d3b84f3adee4f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x56574efc2ae8f9f208442afc8adccc6f7f87e06f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x10294d57a419c8eb78c648372c5baa27fd1484af"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x6730545fecd8d5cab50507a6c1e28b181ad75483"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xd4bd68da9bf9112cf2137d500c37bd9b842eae85"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd2c921985a09be0d27e5a4027a77db55d08a1875"
     tags:
       - contract
     name: YearnTokenAdapter
+    networks:
+      - optimism
   - address: "0xba3e8437a06397430036e23ff9153408a3203afd"
     tags:
       - contract
     name: ATokenGateway
+    networks:
+      - optimism
   - address: "0x6caeefdbc76f8bd2d303bc9fe2e5c08b47414018"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3892a5c92eafb81cec321b4304495038202ca9e4"
     tags:
       - contract
     name: MigrationTool
+    networks:
+      - optimism
   - address: "0x7f50923ee8e2bc3596a63998495baf2948a28f68"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf34517ef82c9b512783c44013720a12759f896f9"
     tags:
       - contract
     name: RewardCollector
+    networks:
+      - optimism
   - address: "0xc3365984110db9b84c7e3fc1cffb370c6df6380f"
     tags:
       - contract
     name: Whitelist
+    networks:
+      - optimism

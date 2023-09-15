@@ -1,25 +1,35 @@
-version: 2
+version: 3
 slug: rigo-block
 name: RigoBlock
 github:
   - url: https://github.com/rigoblock
-optimism:
+blockchain:
   - address: "0x080f08076e8eadc66006c3cbfed28a34918a1fa6"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x914d7fec6aac8cd542e72bca78b30650d45643d7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc1adda7605d2dc47dd91a930c978cd6a18d2d760"
     tags:
       - contract
       - factory
     name: RigoblockGovernanceFactory
+    networks:
+      - optimism
   - address: "0x41df4284a34e752386d2067cb086c1591461d1c0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xecf46257ed31c329f204eb43e254c609dee143b3"
     tags:
       - contract
     name: L2StandardERC20
+    networks:
+      - optimism

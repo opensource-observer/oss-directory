@@ -1,9 +1,11 @@
-version: 2
+version: 3
 slug: imbue
 name: Imbue
 github:
   - url: https://github.com/imbuenetwork
-optimism:
+blockchain:
   - address: "0x80094b8ef0b5762661e6ba3daf9d8acb5b0620e6"
     tags:
       - creator
+    networks:
+      - optimism

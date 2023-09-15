@@ -1,1497 +1,2327 @@
-version: 2
+version: 3
 slug: pika-protocol
 name: Pika Protocol
 github:
   - url: https://github.com/PikaProtocol
-optimism:
+blockchain:
   - address: "0x80898b704baa55e7e37f1128fc6ae5836661f54a"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xb2694b75ef6da6bbbf1c365355679388a27c43f2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x53c8b98de949eef2dfb54352e04216e101009d82"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcb2d8d262f88fe43941295fd57a4617c191466ea"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe66d357a3428f7b868f002210eaff9fd0acaff6d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7caa1f37309bbb94a35eb78f515338336ddb0389"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0xe108212c75920b728658785856c4caec6008a03e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdcb08fafecf5bd0187f76287ff6b554984329e21"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x1974f96cf5e10c7b1c4a165d74eebdff49218daa"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2b4bdb23db71c672d7b1b9481093b4053d964662"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x723dadfe3da9035653e38842b94a40ff4f4730a0"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0x7884b1ab6f1ce5141134c04393aa4e9031805b13"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x28aa833a78c59a568cafbccb5c86bd6f9e4818fb"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x98b410d537e49aaf732b335c9a033031c46c1221"
     tags:
       - contract
     name: VaultTokenReward
+    networks:
+      - optimism
   - address: "0x07537044cf1f4e365889d0bedae28ee19771a0f0"
     tags:
       - contract
     name: VaultFeeReward
+    networks:
+      - optimism
   - address: "0xa78cd820b198a943199deb0506e77d655b5078cc"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0xa8ed3167748683ae300f98d573950fa2e46ba494"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x703d07e3a431dc47086851b869c12d0ea2a344d9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xea3d3025a71203fe53b66edfc7d30db6b17a28cc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc190ddc79226fff61cb07f4f85d891ca22593bb3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe07db55fd8c920c0272cea3dda6a9e6e3904b2d6"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0xc2308cf21ef8a4faf71b4060872cb33000dd59c8"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0xdf89a320d8834f95f0a95882db83fcd9f3b275a1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x13e533d1c0154d3790c8eef018b5c70261f079fc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3b62099985a6397086addb2e4043268742b07fe7"
     tags:
       - contract
     name: PikaReader
+    networks:
+      - optimism
   - address: "0x266dd2c406db8390b1f8bc81906ddf626bd2d44f"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0x0a1e7ff4b239e6c628587d6868dcfed6e4d07218"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xba80753ca942b67e3bd8a2efe8b785e06c45162c"
     tags:
       - contract
     name: PikaPriceFeed
+    networks:
+      - optimism
   - address: "0x5e268e07a782b58d0fd131022b0843c9ca0526c7"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0x4c7557111afbb68a9ce2cdf28cf733f548fd9de5"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x549406bc1370a7efe86e2ae71dea3b67fa08b43d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc71ce791233ca567de468384ce1a1145fec4acbb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4a7335947e7877a617201dc25889f3fb9707247f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x514c504e4bc7b7eaca251714bc2cb1a60e1e1a1f"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0xd6bb261d5dbf9d7cdef06c47547d251dcf11e6e5"
     tags:
       - contract
     name: VaultFeeReward
+    networks:
+      - optimism
   - address: "0x6173bbca90c023a99384dbf73f40101d8ace1bd0"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0x084a888d533b8e0a106722c15a88ac8927cbb842"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4dd0420f7a5acfc565a6c55827c5f23e12d818ec"
     tags:
       - contract
     name: VaultTokenReward
+    networks:
+      - optimism
   - address: "0x1e3ed6df37bf987b5f3962c6f5cacf3aa37358bf"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0x3e7bf77b12218e5734aadae0caaead1a3599b1e4"
     tags:
       - contract
     name: VaultTokenReward
+    networks:
+      - optimism
   - address: "0x9a1286cc3e90b3192a532274152315f3fe93dcff"
     tags:
       - contract
     name: PikaReader
+    networks:
+      - optimism
   - address: "0x57b8e1425b4190d6e1d809e740127a9ed87cb4c4"
     tags:
       - contract
     name: Pika
+    networks:
+      - optimism
   - address: "0xcae484ae944d88de22f04e0775c25452f4804165"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0x4ecacf5d7f690aba9d5873cb1026a1cb15bc47d5"
     tags:
       - contract
     name: PikaReader
+    networks:
+      - optimism
   - address: "0xb7c159b9ef3e397307e739580cbbb8754fb2447f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9a601c5bb360811d96a23689066af316a30c3027"
     tags:
       - contract
     name: Pika
+    networks:
+      - optimism
   - address: "0xfbee678d5deac8a1d528514eb60d225d6456140a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6c4ed8cccd7546d5bc30f468b1451a3936489276"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xafef59a11410680b4a4aedf32a88473fded440e1"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0x21e936e16744ab41fe6dbbddd28cb2175bc3a70b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xeb66f5e821f1820d40a1526ea0e229103de8813b"
     tags:
       - contract
     name: PikaTokenGenerationPublic
+    networks:
+      - optimism
   - address: "0xe2152f0c927b947c1b2794b5d2764df4643cc0cf"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe7c1cf3ce3b5282e82af5caf81b6d7c2978ab25e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf97b94d0eeccc2600aab25d6b2ba5bbd0d9fa600"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x4cd495ce84200941142dfebc138b139ebaf47edc"
     tags:
       - contract
     name: FundingManagerReader
+    networks:
+      - optimism
   - address: "0x7f7368046ad88d27dc274280ee93d1c2a9e00677"
     tags:
       - contract
     name: PikaFeeReward
+    networks:
+      - optimism
   - address: "0xab44013918063e76c9ff3d5f0887350a2b3edfd5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2a3c0592dcb58accd346ccee2bb46e3fb744987a"
     tags:
       - contract
     name: PikaPriceFeedPyth
+    networks:
+      - optimism
   - address: "0xf1a19a0b7a31bcc1b6cbbea132d8bf5370044cf6"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0x1c3831ef242a86ea39632f9c54cde54f0394d4d3"
     tags:
       - contract
     name: VaultFeeReward
+    networks:
+      - optimism
   - address: "0x986b846834367d68fd6ee7197a1aa638578292e9"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x9b86b2be8edb2958089e522fe0eb7dd5935975ab"
     tags:
       - contract
     name: PikaPerpV4
+    networks:
+      - optimism
   - address: "0x4b6c6829ad4d735ac333ec143c89cd094690647b"
     tags:
       - contract
     name: PikaFeeReward
+    networks:
+      - optimism
   - address: "0x25fc51d490deb96e6b87f1934ed01c94be4caac4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x502ab14762d8ab0d2a901757106cfb8fba650ee1"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0x2105fcd5a815c629e661ec4c04e949a2074e848a"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0x2714fb3edc6c6b53293dc9e0ff747fdb40650f53"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xa4dc082f61d8d73b51557ce31edaecabb228070c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3028a96b55298be190e6e366c4b4d2dde006f1de"
     tags:
       - contract
     name: FundingManager
+    networks:
+      - optimism
   - address: "0xb67c152e69217b5acb85a2e19df13423351b0e27"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x3ed64f6c9ffc653f1ccc6ed6c153df72f8bd96b8"
     tags:
       - contract
     name: PikaTokenReward
+    networks:
+      - optimism
   - address: "0xac6c1bc42c98104e9dd5a8a2400033e7b8388928"
     tags:
       - contract
     name: PikaStaking
+    networks:
+      - optimism
   - address: "0x8123dce565111f64c01864b2ae0f35e3181a0a02"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x10b38e3884d587ccb1130b3bba3f8f48ca0ba839"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0xc8440514cefd152302b75345d1891380c1b20be2"
     tags:
       - contract
     name: PikaReader
+    networks:
+      - optimism
   - address: "0x4dd64c53814fb0956db266c9e877c0d8bfbd5cf3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x270b22738490a11f08bfc60912b9e659a91f75ee"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xb7a6d2875b0b289f82dbf675ece93ca25c332449"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1c383347627fbc0ec262d5bea33c071cb95015db"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbce11d81191e95f936e1dbf7b14e37641a5e82d9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf3ea7b1f45e2c5ae76b5dc80cb06a97830f60774"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x74e2857b3ca5632e98627ea270e89931c2ecf5c1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x068d9e13d687fabbe6e1adbb42e9c4c316347ede"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd5a8f233cbddb40368d55c3320644fb36e597002"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb212c6cc5dc3d40b4224eb58d5160458124d7bcd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8add31bc901214a37f3bb676cb90ad62b24fd9a5"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0xb22a50859a8101724dcef7aa3ab68479e44351c3"
     tags:
       - contract
     name: FeeRewardBatchUpdate
+    networks:
+      - optimism
   - address: "0x7e6bc08ede45a7f63b393a88222ee50f470493fe"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2249e277e68f3fa8edb07fcfd214788a1b872bed"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0xf6f64b53c44450c8ac2d69b2113e2e52d3ae7912"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x365324e5045df8c886ebe6ad5449f5ceb5881a40"
     tags:
       - contract
     name: PikaPerpV2
+    networks:
+      - optimism
   - address: "0xbbcba81128a1639f2a3afbdd3a90249454f00d03"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3ede1b06d26a0f7c98386b1bd80e23c55aabf0ec"
     tags:
       - contract
     name: PikaFeeReward
+    networks:
+      - optimism
   - address: "0xa693d6dbead9686a393666060aa7f06f44063fe9"
     tags:
       - contract
     name: FeeRewardBatchUpdate
+    networks:
+      - optimism
   - address: "0xdac57040b15e2c0853e2c8bf89ba373f2324d208"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfd407e5cf2d8651c0a05b75577e18d07166bb2da"
     tags:
       - contract
     name: VaultTokenReward
+    networks:
+      - optimism
   - address: "0x85c4ff09a013568264354b81283110ad3621e43b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x31941d7d930827ae86443925d7adc16b1810ffa4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x549ea2c6f6683f8eecc6c5799744d0ed2d65c5d0"
     tags:
       - contract
     name: PikaStaking
+    networks:
+      - optimism
   - address: "0xa01e233b0f8d511e4385d09b31ba6994fc2bf3f4"
     tags:
       - contract
     name: PikaTokenGenerationPublic
+    networks:
+      - optimism
   - address: "0xc701a96db31d1ac2c8c19731e2d22404a40479f7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf07108249edd2f59abd1d091a0778d58ecedbc49"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0x5826414822a39c96c339be335651e3e243ed12d7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xef5855aa7a6e6035a3e39fee0ed1397c4e0799aa"
     tags:
       - contract
     name: Vesting
+    networks:
+      - optimism
   - address: "0x6757378c1b15880e52956eeb0d4838e01c4706ec"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xac0a3c4c9b539bde43704c35e886ef7882eef6ce"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xb2c231bfe8b338644ab7dfa16be34b62fcd14f99"
     tags:
       - contract
     name: PikaTokenGenerationPublic
+    networks:
+      - optimism
   - address: "0x01d505bab0bd18bfdd54badf1aa7f4695f3942bf"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0x6ca92f61b58151cd75201722daddda113fe0e9a5"
     tags:
       - contract
     name: PikaFeeReward
+    networks:
+      - optimism
   - address: "0xce90fb6589d74b4480d09064ef332a6944e082df"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1d9e33d4003f6c5d5ecc9fa7bfee2d70674f558c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa4fad24f788055a145bdfe0164a23e1c781101e4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4e3ad6266a26c31e9b221d3cf48f1812531095f2"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0x56b1103a375d6e12be3bd9f23332558f570f7a8b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xee964ba8364603eede6c297fd43a7db4a3f48c3d"
     tags:
       - contract
     name: Vester
+    networks:
+      - optimism
   - address: "0xfbf70677371fd1f39d578942e1a18f34bf77ec28"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x32896e4cc9a51f9a2560eeeb3dbb844f53a94126"
     tags:
       - contract
     name: Vester
+    networks:
+      - optimism
   - address: "0x67f3f41c76c15b356be619071f59b208d5dee5a9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfebe2216be8c5d7c5c9407622229cd8627fd5ecb"
     tags:
       - contract
     name: EsPika
+    networks:
+      - optimism
   - address: "0x464d5d1a8b0046c2636e960f99454ed4cf335ac8"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x8412582b2ad06a17b4e69f4f11675a37aed04c64"
     tags:
       - contract
     name: VaultTokenReward
+    networks:
+      - optimism
   - address: "0x21f7b5bd10e417091debb63b9bda43dac60241cf"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0x38ce8d1cadb5595a9973a20d7b41da0a9131ed5b"
     tags:
       - contract
     name: PikaTokenGenerationPublic
+    networks:
+      - optimism
   - address: "0xf61b1cbdc381cb1ad95c04f22b3fbb2ae2296be0"
     tags:
       - contract
     name: PikaTokenGenerationPublic
+    networks:
+      - optimism
   - address: "0xe9ae0110044bef983a44237bcd9d7255f1ac1a9f"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0xf11fc87bf8b13e13e64c7cb600886f85d26f4a55"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x5f417a5460590f37df878084abb995bfa6fdc380"
     tags:
       - contract
     name: FeeCalculator
+    networks:
+      - optimism
   - address: "0x730506083eb07f26a8816a17f750d1d984c74eef"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x83b5cbe16823138dcca7c7578b57f7da5ced3dae"
     tags:
       - contract
     name: PikaReader
+    networks:
+      - optimism
   - address: "0xabc2529bec220cb10720c72e95b48912a84e6b94"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xaf3ac45b9ec1999773feb96d6ef43880f3c9e8e5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa54c435c06f0f4442eeeaaa50a9b0df55f404b20"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x648dda7779d9e3e655fe7a75ddbdfed4fdfe1935"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0x543603c6938f0c0731ace48c5b4b3e4a8eb3a0cb"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0x7c52004195b1d60da62abe6d39a84512ee0ef030"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x868c37e04462247e67273a4fd5fe80aacb724e91"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0xbca22c04a1ad859c4bc717db0c69f341a538c7f2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xff90bb6a8034c0483beafa76ef207ec70fc528d2"
     tags:
       - contract
     name: PikaPerpV4
+    networks:
+      - optimism
   - address: "0x131e573c4de13c39f62180e90a32ba36691b7497"
     tags:
       - contract
     name: Pika
+    networks:
+      - optimism
   - address: "0x6d611029a327f9627c6f026b93ed4a278f609581"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x2ca510f0e2961ca0cf382bfc7b48c823d1adf288"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0x332a1643d94a98ebeea8a72efc64fb66daa4e427"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbb6b0f841007c5bb21cf3e9f1ef01a8d06a4c4c7"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xce6f28ae1cf66592799cf8fca9106ac0ebd8a569"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0xf6bf9ea4d660c24f62223dc37bdd194f68bbbbeb"
     tags:
       - contract
     name: Vester
+    networks:
+      - optimism
   - address: "0x8358836d81d1641cf861e74f1143a4a3b8003cd7"
     tags:
       - contract
     name: PikaTokenGenerationPublic
+    networks:
+      - optimism
   - address: "0x5bc52ef6fb0c4c5c064945690c3bd497fb073c54"
     tags:
       - contract
     name: FeeCalculator
+    networks:
+      - optimism
   - address: "0x939c11c596b851447e5220584d37f12854ba02ae"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7e47f4b446e42b8379207998822095438040fb9f"
     tags:
       - contract
     name: TimelockController
+    networks:
+      - optimism
   - address: "0x205c2c78f49c7cff5f7c8095964d39854fdd2788"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0x14eba8e3dc746986c28c18f72d9902788607bbbd"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xb101015ceecd11d8f5bf57be8604365cfc889f79"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0d32fae6f6c50f1bd67c562e308fafacc6cec722"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7ae43c69959e71207329f834592be6fb851406e0"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0xef2dd75846741d19d71b365ff6e75684168c2ce4"
     tags:
       - contract
     name: PikaFeeReward
+    networks:
+      - optimism
   - address: "0x1365997441a4b1d2446d9b350b50a91001f0e050"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x49822b8945823e705be8b1406503272d97b57066"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd6721d71e24717aff2b2ddc80c1a6d42e8d4ae18"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x36ba9386b729a3ddba58b3f85eaf5568ecb10ae1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd42e39d93ea63b12831259b43437a549991cd3f2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x824026ca57bca5c7c0b98f62e5d0173cd1630dad"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x060c4cb78f1a4508ad84cf2a65c6df9afe3253fe"
     tags:
       - contract
     name: VaultFeeReward
+    networks:
+      - optimism
   - address: "0x1997943afcf4ab46811494e01c05b634e982e70c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x20fc47f929a0dd8ea697203e84d2bba5bbf41635"
     tags:
       - contract
     name: PikaPerpV4
+    networks:
+      - optimism
   - address: "0x10945d17fac497ddf0eb7e53424fd9472224bb39"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0x66f63f7db6bce657d1d9d68d7a67255864282b05"
     tags:
       - contract
     name: PikaStakingReader
+    networks:
+      - optimism
   - address: "0xc4eae4a3c6f611be055f26c1e093b77dea1d6014"
     tags:
       - contract
     name: VaultFeeReward
+    networks:
+      - optimism
   - address: "0x6c440c20074bdf92c3c83e558562910ac645c14a"
     tags:
       - contract
     name: PikaStaking
+    networks:
+      - optimism
   - address: "0x68a56be3bda7851d16e6e16b621c4677be8af527"
     tags:
       - contract
     name: PikaPerpV4
+    networks:
+      - optimism
   - address: "0x0c7d59f21183c6817a436173ddb04b7635eac627"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb4b4e337345a23ce8b14960e2783fd9c4fec2717"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdb4174e1a4005a30f5a0924f43c8dfcb8cbd828a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe939df43df4099642d53dee1525a0ddb7c7776a9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdbdf58cba7f978f8745faf8ec45597d1ffef3479"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x17b4ce6e6c7689176e665c89528fe957d5f97819"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xd916d839f71c0d6d21d61fa42ee90f53b64f80c5"
     tags:
       - contract
     name: TestToken
+    networks:
+      - optimism
   - address: "0xae2b15391a694a52cd731b236c0ab174f921574c"
     tags:
       - contract
     name: PikaStaking
+    networks:
+      - optimism
   - address: "0x9948f303d6108746d7f653139a89cf1a4d32d304"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xbb198ffd0e1490ca108ab6c409473408230d261b"
     tags:
       - contract
     name: FundingManager
+    networks:
+      - optimism
   - address: "0x3020a226c13f3e2ac6804222d9e250609492906f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3b62270513faa6acda890bbed377f437c44cb9a8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfbf4a17396cf52c42d8ab024c416ee5b0b456811"
     tags:
       - contract
     name: Vester
+    networks:
+      - optimism
   - address: "0xb52858d2fa670ebfea5e2a119f01a87f29a0e8a7"
     tags:
       - contract
     name: PikaPerpV4
+    networks:
+      - optimism
   - address: "0x7e1b1279087441112d657465ecbd4feb590a88be"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2374b6be58fbdf51170ffbd2fc29f4b3a338f378"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x06e843f88bda2c6a10cdc0b7f4782869675d4c4e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6acc84bf50ccc5e436a4fc30ca49f9cead368f95"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x776aad6248bf5450b9671cdaab54de7ebd2eb68d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x20d52d95db2ad174b59b15d95bd9323d8094da65"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf9b19d0e62278ec9cbbad5cca5e7a270979bea4e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3ce6b32cca0f609f138f069f6e8ccb0e7da61325"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfd9d52762c47a173182d26090c8c6c1bc3d278ca"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc37e1fb3d127d6194fc2f5fe18ec871c7366df63"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0xa6cac988e3bf78c54f3803b790485eb8df3fbaeb"
     tags:
       - contract
     name: VaultTokenReward
+    networks:
+      - optimism
   - address: "0x2cba7e9e655fe722d73cb8ac96e821ffdeea5eda"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6fec08aebdd33f48876d2860642ef4ca9ab060e1"
     tags:
       - contract
     name: PikaPerpV4
+    networks:
+      - optimism
   - address: "0x2fae8c7edd26213ca1a88fc57b65352dbe353698"
     tags:
       - contract
     name: PikaPerpV2
+    networks:
+      - optimism
   - address: "0xafdaff4f42830112df28b179af508ab9a103bcd7"
     tags:
       - contract
     name: Liquidator
+    networks:
+      - optimism
   - address: "0xb5cd27bfb3aa9d80ef57328865463d9c37672d18"
     tags:
       - contract
     name: PikaReader
+    networks:
+      - optimism
   - address: "0x2b6a78309ecc78cc019672a5ed55ac3b933608ee"
     tags:
       - contract
     name: PikaTokenGenerationPublic
+    networks:
+      - optimism
   - address: "0xfd1d31201ce72c054db0f560a672049f1bc1ff96"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x85be35d9f396a327e695e2347bd5cb10d63d24c8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbf991bfc8eeae7f0d6069e941fb2ee32bcfd202a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf9cc04fc4086c0e1e9de4d8c43655694d3c4494e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x69db965bfe90c687b5229f446f420bb09073c344"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4382866f9a997f07355f1f601be985a7059ac6a4"
     tags:
       - contract
     name: FundingManagerReader
+    networks:
+      - optimism
   - address: "0x19f7b17fe8c33a1170123599cfd642591ba122d0"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0xd8c5b5fe1b951bd582c1c6d9c6bbae0d8f51a051"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0xb04a6496a4a7efd84564fd2dabe7756d10b46a2f"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xabf0b54f3d6987292251e6ba967df744058a6e59"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfdc2b50ab6b4afc0a3860b8b0bad4b8fdbe42427"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x67d0fe7dea3a3d509c5c3351e4bddeb73f577c1f"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x6c42b015b9a078640acc89672518679f46e98bc4"
     tags:
       - contract
     name: PikaPerpV4
+    networks:
+      - optimism
   - address: "0xf5b9474f7370521031b553b51e761f80cbe3ac22"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x98692f11c737f93025a663b91068dc8498a30989"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7204da288b42261bb834df52af756f43c0f51968"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0xcaec8e3670aa47e601c2968a5e33e7d88910e5ee"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x7bbe1342b8a3bf3dfcc645fc89b4b1c71ce2ee80"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x77d4320fab5ce9130a096b7c542508aeac828edb"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0x795424c9ea9a4b6ce798bdd28f06b3188a18993e"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x800626769935c27db68f5cfda25d3ad7e8607f27"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x17fbf991c46160fc9bbb4f65caa07fb71e10819a"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0xf201ce7490cd14993b232258ad9dbc5dff41fdbe"
     tags:
       - contract
     name: FeeCalculator
+    networks:
+      - optimism
   - address: "0xb210f369d87ba88e49f10cfd90cbb610f64b9b62"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xce54e3c7f003429c2cb51b00cd0774097da9ec0d"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xbe53a21fbacb2f1432af135c96d3fee4c4be44f8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfcc293db3b7396a1c2477c9f24f5f948431ef6ec"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0x53918fc21aac6d26b56745f44bbd6cc03d1df8c1"
     tags:
       - contract
     name: PikaStaking
+    networks:
+      - optimism
   - address: "0x71be803096c7863dee95eff6646328d5522ecc55"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x21a4a5c00ab2fd749ebec8282456d93351459f2a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x10f26a1adfd5f90a8f01bbd69895e822449510d0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7902b9ac56ad10d71683324b938a591e012ed4dd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4ccc5224ca64e7da923d765238e08bdca8455e1a"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0xdc839cc20e0daee5352a6c0d1aab4015786cd12a"
     tags:
       - contract
     name: PikaFeeReward
+    networks:
+      - optimism
   - address: "0x9bef98489f586c53e01f2f28b27058b3ce415bbb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x41b4e2c89ff4bdbf408cf04b0becb11969ab4671"
     tags:
       - contract
     name: Liquidator
+    networks:
+      - optimism
   - address: "0x50f2644d20924103c0fc5bc46386fc08fcc56db3"
     tags:
       - contract
     name: PikaTokenReward
+    networks:
+      - optimism
   - address: "0xd3e9b37ef2e749f9cb1e92655c9abd5b40667ee7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc67ce28d0343e5972f3b1711c32e206ab5a238d6"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0x89c71833589bde8705c230f54247c66b1fa320c7"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0xa4dd6839013092e84daa62f14af5961aaa67244a"
     tags:
       - contract
     name: VaultFeeReward
+    networks:
+      - optimism
   - address: "0x67a9e34a763395266612ffc8c9305eb2fca4d4be"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0x22b23fa2bafc12774490d47f1c9f7205d668ad14"
     tags:
       - contract
     name: FeeCalculator
+    networks:
+      - optimism
   - address: "0x7ff82c1676fb8aea16ddc729d4a885caf57e425a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfefd4d591e28a4ed28be1811e957e9b0deebf8a7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xaee7e6dc3728520292a30a2ed07400c9cf405ae3"
     tags:
       - contract
     name: FeeRewardBatchUpdate
+    networks:
+      - optimism
   - address: "0x015137997fdbe5cdc53764e890f9233b59b07420"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0xeb064629c1454ff3f18dba99c713a7266a30cec2"
     tags:
       - contract
     name: FundingManager
+    networks:
+      - optimism
   - address: "0xd4bcfccc277c0bceb2681c6d88d3037f8647ecdd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd1fb7706eb0b8c9dd09567cde90a6077f2fce553"
     tags:
       - contract
     name: ReferralCodesRegistry
+    networks:
+      - optimism
   - address: "0x17e8d2ca5d3e729ee2280ee496cf985b797004d8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x622a3549a3c857095f7172e76a92bd58979c7b76"
     tags:
       - contract
     name: PikaTokenReward
+    networks:
+      - optimism
   - address: "0xdde437813b789be322ff12955be5978f636e0d44"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb980adb094088e5b08d7a10f6550c7c4f5946f90"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x87459f3bb88577f7f0d4ac589fdfffb07106efc8"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0x57624d1d88757bf159b4cd8709ec185d639bf730"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xae380625241f103626cabbaff166fc8c9f25936e"
     tags:
       - contract
     name: PikaStaking
+    networks:
+      - optimism
   - address: "0x250e7ab9b5ea0e95bf68f9fbe2f4f9dc5c8af746"
     tags:
       - contract
     name: PikaPriceFeed
+    networks:
+      - optimism
   - address: "0x1ffecc488267a048a98d9a5a29a7485d176e18da"
     tags:
       - contract
     name: FundingManager
+    networks:
+      - optimism
   - address: "0xed57fb46927b158f49c1eed17da700b6d67dee21"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4c55cf41440741ed6b556257ba14241cd7d9e99b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc9b595e7da37ddecb9f0f7ecf1ffd6135033939f"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x3df4169072b4718466aff13ed01a61a07e2743de"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0xab9c4415c713e7ad1e5193cb40bbbda6aec2cc46"
     tags:
       - contract
     name: Liquidator
+    networks:
+      - optimism
   - address: "0xc4100e6ee15e6dbe4ed733da4d489c2b451713c3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2b6742d0806e2527b8e608d77b11cdf64470d3e0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x93617748ae22f31220b47cd1ea854e38a593befa"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x71b4d60097a7430125b196be4e1b73625bab4171"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0x918ed9e3aaf3bb2a39055d3eeb745f4ddf7396e8"
     tags:
       - contract
     name: FeeCalculator
+    networks:
+      - optimism
   - address: "0xab04fe648aa589d3c177990b04c41b0ed0b6c002"
     tags:
       - contract
     name: FundingManagerReader
+    networks:
+      - optimism
   - address: "0x4212e30db51616d3a7c9634d76a4ce963b71d037"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xff9e26b804ebc60deca5a019542815aac028a22b"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0x8fcb6e31656c4ec19c4a9e0be0b887c70ae60d3b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7f4de8d4033d531babac1efc754be46ed31dca78"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x29b196e03922db2aae851f7f6323dfbffadb6fbe"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9e67c6e04026a5feb46c9967eb15bb3ba8f32f68"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9803e4d71444c33607a288d802d717e3f2c3eea9"
     tags:
       - contract
     name: PikaPriceFeed
+    networks:
+      - optimism
   - address: "0x072a62a495a7f9530be708d1210f8ad586dfa4dd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0f0ab8930f96d991bcc2161b1c3ad56a6d643f4f"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0xacb86addd8e602186e96e3fc55d8b4983d80e314"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe3451b170806aab3e24b5cd03a331c1ccdb4d7c1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2bf36e05e5d3c4ca32f36d5193b2c7a0266703b1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5ae377fec6b1cf6077014244ba7ad01025110c83"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0x875e7a3d81e65fdd72617e3b79e251d9aa2fafae"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbc3ee2388a061b89672ceb1abcd498f31cb85ad6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x708957f05f7547ebaa539a84649d1cd0893a0834"
     tags:
       - contract
     name: PikaPerpV4
+    networks:
+      - optimism
   - address: "0x513d328f04b50a65e59f982db77bf7d7b76e2e0f"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0xd026c3c1225aeeb905ae57f8663bf06e744f6873"
     tags:
       - contract
     name: Pika
+    networks:
+      - optimism
   - address: "0x548cdb848e63980dc0fcf21a5f97816cc2cb4edc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x082c9cb8e6bffc08aeee638a2e1a93a7de477c92"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x403b45da8e88ed1ebd14ecc826e5cb04c9f244ca"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x573864748fae686fe6567e704cf83eefeee348c4"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0x58488bb666d2da33f8e8938dbdd582d2481d4183"
     tags:
       - contract
     name: VaultFeeReward
+    networks:
+      - optimism
   - address: "0x666d4e8e17b0b40debcd74364ebc99ae0999dca4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa10327e3f70fce3cc5500d3011846d2e6adf79c1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfb64c04ff2dd5e0297b27b2bf286ad29051cf07f"
     tags:
       - contract
     name: PikaReader
+    networks:
+      - optimism
   - address: "0x5aafbd25f20658ff3da2d54983530778bb9db30c"
     tags:
       - contract
     name: Vester
+    networks:
+      - optimism
   - address: "0x5652655b681599da40d60c7b50e431d6dcba77d1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x93e4038210acb4706c73a0ceb75286eddd52d844"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2469ba5fe8cb1bae385189e337bfc14aacb39662"
     tags:
       - contract
     name: Pika
+    networks:
+      - optimism
   - address: "0x1851ccedf7178946975017cb6315b4fd34ef10f1"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x83222ce449d4a8b1cff216de293b39226ec04546"
     tags:
       - contract
     name: PikaTokenGenerationPublic
+    networks:
+      - optimism
   - address: "0x9665041b084b954b56f86d86bc620ec0cdcbd23a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd85379e2fa8876777f85e9fe2e4a787e4c9f197d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x82d25ebfd66d91830d270a95cc3038ee16e8107a"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x857f05b7031f948fe6f1b60c05e3e0bdf8174c85"
     tags:
       - contract
     name: Liquidator
+    networks:
+      - optimism
   - address: "0x71f25bac9fb59a04bf39830ad2d8d0df9c277605"
     tags:
       - contract
     name: Vester
+    networks:
+      - optimism
   - address: "0x749c9c18e33f56d3cdef9e5c16dad4a5f65cfc3c"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0x527effc42fa82f365786ec7e16e663e3c511947c"
     tags:
       - contract
     name: FeeRewardBatchUpdate
+    networks:
+      - optimism
   - address: "0x4152dd6e717ead2222271867c8c367888fae5ff0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x649a5e005961adcf7cafea57db8aa71a59753058"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfb427bf5da7eb547eb7f9309d38dd8d4c4aeee97"
     tags:
       - contract
     name: Pika
+    networks:
+      - optimism
   - address: "0x5436184f83fd96689151585f34cf76a2bdd7e01c"
     tags:
       - contract
     name: PikaPerpV3
+    networks:
+      - optimism
   - address: "0xe32cacd7447b81c9ba0e2cd0c89445d78cffb86d"
     tags:
       - contract
     name: PikaPriceFeed
+    networks:
+      - optimism
   - address: "0x0195bf18d510188d62edc2f7f9b7bfc8069af92b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9ba3f2668027709ebee340aac10e6b6b1fafd076"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf9135e7da8d14220528378f5cde936ff7ee45e34"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x651b092dd53a22489a2c2bf24233de81e6a0444f"
     tags:
       - contract
     name: DummyPriceFeed
+    networks:
+      - optimism
   - address: "0xa0be4c09a03f5f91c68f18eac598155812101be3"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x8d86106c614f25daf3b60d83974e131824f6e589"
     tags:
       - contract
     name: EsPika
+    networks:
+      - optimism
   - address: "0x1508fbb7928aedc86bee68c91bc4afcf493b0e78"
     tags:
       - contract
     name: EsPika
+    networks:
+      - optimism
   - address: "0xcb650262a30c36b3e515b5a122b6f361aecb452e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfbdcc238789e2616f117202370410a08f5f3ab03"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0xf795890a2523ac59462571232511cd3f60176bbe"
     tags:
       - contract
     name: Liquidator
+    networks:
+      - optimism
   - address: "0xd46f6b5851b4ba2f6aec893040b94051350f4771"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd26404289530b1848b8fc546c6fd70d2ebb090b3"
     tags:
       - contract
     name: VaultFeeReward
+    networks:
+      - optimism
   - address: "0x80590b598999740bb662b494c4b132051bf6e6f8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3e397d1f5e3105bbdc1dd17f31bd808babac529e"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0x314f63f366a6cfa9efc054a0bbec2490d033075a"
     tags:
       - contract
     name: PikaTokenGeneration
+    networks:
+      - optimism
   - address: "0x8fa7e4e2ec4afa86d28a667e7d0d90a2f3d6cd16"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1c93a60d5de0136dedae91eb026321c1278f30d5"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0xd851c6cba7e3438f6d548851b5c3c254fe68d2c0"
     tags:
       - contract
     name: FundingManager
+    networks:
+      - optimism
   - address: "0xb122d68ff9b3fde5f86d328f2cca3d11ba0aa849"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x8e67dbe72ee67c4d799c4031c34741841f7ebdfd"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xc4804658e193651dd8f87d1bccb8939eb63475d4"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0xbddfc30b212fae5770c92b22194c35cb6a8ad7ba"
     tags:
       - contract
     name: FeeCalculator
+    networks:
+      - optimism
   - address: "0xbc1004212a059a2114bf8a97e5ac726cd7a0f7ab"
     tags:
       - contract
     name: PikaStaking
+    networks:
+      - optimism
   - address: "0x5d013e9a9ed598c503ecdd6ec52ed1e91c932288"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x22ae0fe1e175da3a94112b14b6caed37bd6dafe2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc61030609aa87223c9acae126afbe36303dc67af"
     tags:
       - contract
     name: FeeCalculator
+    networks:
+      - optimism
   - address: "0x3d0b7810830c4be4a425169f28f816c50611c378"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x40ee5ebdaea1ef5ba0becbf0f495287831c3febc"
     tags:
       - contract
     name: VaultTokenReward
+    networks:
+      - optimism
   - address: "0xc37277937ff6bffffe3da85eb03d1bfc6b646953"
     tags:
       - contract
     name: PikaTokenGenerationPublic
+    networks:
+      - optimism
   - address: "0x9376e52cbd7b51dd75a07a57c908f5fcdf778536"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd15887992741442a667ba019c6321c73c063ee39"
     tags:
       - contract
     name: PikaReader
+    networks:
+      - optimism
   - address: "0x0ee954f13d8b2d570df8e8573c63211937bbd8f8"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x3cbdb9e331b19ba300538c6df9a5338a0b25810a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x78136ef4bdcbdabb8d7aa09a33c3c16ca6381910"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x107daa44d5d0cc93246256dea9c9c30052cbdfe2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xccb94ecc64f1d8fb671c2d7e8b5f2e005c22d3ca"
     tags:
       - contract
     name: PikaPerpV3
+    networks:
+      - optimism
   - address: "0x1f18df8a80eb9e6d255e8ae5867fb101dfb0172b"
     tags:
       - contract
     name: PikaPerpV4
+    networks:
+      - optimism
   - address: "0x323c8b8306d8d10d7fb78151b6d4be6f160f240a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3465457aee09e5dc7d08037817b814644a89e258"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0xb88c2541da2c47b0c131e35e2a76440b41b36dce"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x31a738c1bc7269c2cec78fbf738a898c8389c426"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0xa8a2438b8f20cdded80612343056d65abacf9f02"
     tags:
       - contract
     name: PikaPerpV3
+    networks:
+      - optimism
   - address: "0xbe765ee11c3d70e47c19f82daa0828d5491d7336"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0xba67900a6f91aca8f35b572b98d176b83c320d01"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3b8ed42db806f3d8dfdc491255ec9b3363d21005"
     tags:
       - contract
     name: PikaPerpV2
+    networks:
+      - optimism
   - address: "0x8d65d220c5a73bf61abf07ea79c6c89aed4208c9"
     tags:
       - contract
     name: FeeCalculator
+    networks:
+      - optimism
   - address: "0x2e55b6fb1eda360004811f934535bb043756dc8f"
     tags:
       - contract
     name: PikaReader
+    networks:
+      - optimism
   - address: "0xe1714955ebfcc5da00d849d7791c5eeee82d8c9b"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0xb8455dff628dd9ce58eda28032a6374594615f88"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xa74d0f3e00ce077b30487c6e4f676c1e6f0ccb6f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x615c43239072501029140bca389d5d171e29158b"
     tags:
       - contract
     name: Pika
+    networks:
+      - optimism
   - address: "0x39fc8981d1a98f029dc06cd7502a68f474f59573"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x835a179a9e1a57f15823efc82bc460eb2d9d2e7c"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x7d29bff5b90987314b7ee5026b4d0fac1f993e35"
     tags:
       - contract
     name: FeeCalculator
+    networks:
+      - optimism
   - address: "0xfe39d31be143515079119449e4117bfe55c8be55"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x528f7853fb962c4e061a7ecef03d425829e79d3d"
     tags:
       - contract
     name: PikaPerpV4
+    networks:
+      - optimism
   - address: "0x783dc9b689c13b69bdad25b49b7032b6502cbedb"
     tags:
       - contract
     name: PikaPerpV3
+    networks:
+      - optimism
   - address: "0x270a49c498f02758800d688a44c690ffd4d60a07"
     tags:
       - contract
     name: MerkleDistributor
+    networks:
+      - optimism
   - address: "0xc46faced04391a40f719a5aada14c1c3703cd807"
     tags:
       - contract
     name: PositionRouter
+    networks:
+      - optimism
   - address: "0xb4fe9f6b83fddf7a9c0f75c86bc1b6cf56f6b8de"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x7c4ace93f0d279f656f9ea4baea1c39940d207ae"
     tags:
       - contract
     name: PikaTokenGenerationPublic
+    networks:
+      - optimism
   - address: "0xb7d509ce2bda849b05eefef550bd94ffe31a8ec5"
     tags:
       - contract
     name: PikaPerpV4
+    networks:
+      - optimism
   - address: "0xbfb5903f856403f0aa5b63fc0793b8b7996ffb7c"
     tags:
       - contract
     name: DummyPriceFeed
+    networks:
+      - optimism
   - address: "0xe979f04f24eb0c6ffc077742ce6fb75b8da8d0c7"
     tags:
       - contract
     name: PositionManager
+    networks:
+      - optimism
   - address: "0x8912d726446aea0279e4bea2f2dba0b1a34cd92e"
     tags:
       - contract
     name: TestToken
+    networks:
+      - optimism
   - address: "0x283271f69baf4a10b7d5f3dc21491f5d8a7858fa"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x32c262181ed4da5292045aba8cc9607bac76a04e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x56d830de16c010e90a4b7d008c412110a8e598de"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x26a2c7480cbaee8a644ec7b64fd8e096dbdeebc0"
     tags:
       - contract
     name: Vesting
+    networks:
+      - optimism
   - address: "0x4794c61ee05573017cea43896796ab613be40f35"
     tags:
       - contract
     name: PikaReader
+    networks:
+      - optimism
   - address: "0x8cd0a13c65ad7b8c0adf888740c9662484db8193"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd9a00917b4d61e17a0e5d62ffb747fbbe1efc50f"
     tags:
       - contract
     name: PikaFeeReward
+    networks:
+      - optimism
   - address: "0xc8e617e5cf23fd9213cdfc1e1e5f6bba81745a0e"
     tags:
       - contract
     name: PikaStakingReader
+    networks:
+      - optimism
   - address: "0x7ba146a9cd8fc2595a790ebcf0fa5a6f318c4e92"
     tags:
       - contract
     name: PikaStakingDelegation
+    networks:
+      - optimism
   - address: "0x2a3af1d84b40ce74ba5f09a0986f7728813e16c2"
     tags:
       - contract
     name: PikaStakingDelegation
+    networks:
+      - optimism
   - address: "0x75dfac9b01ac55ab6a1a076fd2542bf1df98278f"
     tags:
       - contract
     name: PikaStakingDelegation
+    networks:
+      - optimism
   - address: "0x30e2105949f064c0e7f09e0dd7272147ad6714a7"
     tags:
       - contract
     name: PikaStakingDelegation
+    networks:
+      - optimism
   - address: "0x719b833246407501d14760afab7494345246ef26"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdac67bee072ca679f16b2472fd5a22428b6b1e55"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9507918b0b562fa4b7e0ad59079cbe67a29cd0aa"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5cc3044d58f1d4809330d9f03e7bcdcd5510071d"
     tags:
       - contract
     name: PikaStakingDelegation
+    networks:
+      - optimism
   - address: "0xe5b41b6c0539240a605d8d088af779cde33c5db6"
     tags:
       - contract
     name: PikaStakingDelegation
+    networks:
+      - optimism
   - address: "0xedfd139ed507663811e7b98a8456950d0e85e70d"
     tags:
       - contract
     name: PikaStakingDelegation
+    networks:
+      - optimism
   - address: "0xa8e943e01d2d9b4642280531b8d413936c2a7bb9"
     tags:
       - contract
     name: PikaStakingDelegation
+    networks:
+      - optimism
   - address: "0x6051e842965067435831d3259d72229a664a143a"
     tags:
       - contract
     name: PikaStakingDelegation
+    networks:
+      - optimism
   - address: "0x762e7ced394c8a0beadac28c1b0bca30898a0171"
     tags:
       - contract
     name: PikaStakingDelegation
+    networks:
+      - optimism
   - address: "0xebcb3e7851a666aa1cb474dbc78cf8a2a62b79a0"
     tags:
       - contract
     name: PikaStakingDelegation
+    networks:
+      - optimism
   - address: "0x3976b7c6bd982ab0e3a0d6ed898932fc81e38bb0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe3f934e7757ba6553b7f349a37d184af58838e99"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb56568f5d2472f98c78e52cfa9f7137534bc164a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xabf1efe1602c1ea4e10347ab08fbf28b579d1e30"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb6fd7c0e6c7189beebe5aeff13c43d303a2379d1"
     tags:
       - contract
     name: MultipleMerkleDistributor
+    networks:
+      - optimism
   - address: "0x9937035eecfaf1e4254317e8fbffa6963b86c0d8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x575420596141388fbce8663bf728ff8485114b93"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x70be4278c15d2fcb4080a40e68f53f2538d7f384"
     tags:
       - contract
     name: DummyPriceFeed
+    networks:
+      - optimism
   - address: "0x427f5439051ffc4a1486df9aeefd29c4313d7f46"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb01c13726d2dc1e916520e3802c381026b4f2d14"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc88f826d833319201bd5529522f272b26f0ca47f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd61d11dd34f5b18f4d371c6e1a0e7260254d50a8"
     tags:
       - contract
     name: MultipleMerkleDistributor
+    networks:
+      - optimism
   - address: "0xd733c50ee90db115de56a6fe7b07d3b37fc6543c"
     tags:
       - contract
     name: MultipleMerkleDistributor
+    networks:
+      - optimism
   - address: "0xf0f7b9d3d04ad158676292e372f0c56a47f6b0e7"
     tags:
       - contract
     name: DummyPriceFeed
+    networks:
+      - optimism

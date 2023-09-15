@@ -1,102 +1,156 @@
-version: 2
+version: 3
 slug: ripae
 name: Ripae
 github:
   - url: https://github.com/ripaefinance
-optimism:
+blockchain:
   - address: "0xda2d96eadab3671d9dfc6b2901aa85e99f8f0eb3"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xbdcef39286fb0c038494ebde5fcd0f41416834cc"
     tags:
       - contract
       - factory
     name: VeloStaker
+    networks:
+      - optimism
   - address: "0x072d88b9525803056fc3a461b310ec1947eccdaa"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4f1437a43500b7863c614528e6a15b220904010b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb23d99339265d776f582e40c850f43105020a12c"
     tags:
       - contract
     name: TreasuryExtraMasonry
+    networks:
+      - optimism
   - address: "0xa5e6a847f79ba19aaf41b8e1b2e6c4741234c6b7"
     tags:
       - contract
     name: GenesisRewardPool
+    networks:
+      - optimism
   - address: "0xa60b1b4b4518b2eb719742e66d64821a5bd07e18"
     tags:
       - contract
     name: Bond
+    networks:
+      - optimism
   - address: "0x6ca558bd3eab53da1b25ab97916dd14bf6cfee4e"
     tags:
       - contract
     name: PegToken
+    networks:
+      - optimism
   - address: "0xdba1eb2c3abc62dfce544cfb17fcc4661b794778"
     tags:
       - contract
     name: RipaeDoubleSolidlyLpVault
+    networks:
+      - optimism
   - address: "0x73814dfbe55528e9e91a3962e1414cda9b604b25"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc36475bcf230c80f08c02565d5a3d9376ceed323"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5bde4e21bf5487becbe98881e977fdc220010b4a"
     tags:
       - contract
     name: RipaeDoubleSolidlyLpVault
+    networks:
+      - optimism
   - address: "0x1d02a8ae79e60f50b43d7a6d594251a2dc5a20ad"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x053ba886857dbfae1fb0ee91ea1a17555ecfbaa6"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x9f6cf3c50e031607bf4531a02f6987a64eeb6175"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8c89e0347be4e511de93e16d3cb086ff7eab2949"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb445a73edf9bcf0f8d927a8375d79d15716857af"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x14a49ac7bb98b1564e95901fe5857b991c8ddad2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x014bb189673c18c921b29f32dd78c1ac3987153b"
     tags:
       - contract
     name: RipaeSolidlyLpVault
+    networks:
+      - optimism
   - address: "0x2950b8792beec6b0d5fc11725b2e1664eea60b0d"
     tags:
       - contract
     name: Masonry
+    networks:
+      - optimism
   - address: "0xf5e49b0a960459799f1e9b3f313dfa81d2ce553c"
     tags:
       - contract
     name: ShareRewardPool
+    networks:
+      - optimism
   - address: "0xeeeadc382b44e610c8e3b9d76a3269b4f5f94f42"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x09448876068907827ec15f49a8f1a58c70b04d45"
     tags:
       - contract
     name: Share
+    networks:
+      - optimism
   - address: "0x7ad867c08b668af40e4ea30c18158dcb8a2baa4d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6a78bff76813c5833c80c55e1d97d24a56eb4127"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x95f73fc89f62b42410fc4a4a60edefc51de0b7b0"
     tags:
       - contract
     name: Masonry
+    networks:
+      - optimism
   - address: "0x5aed117fc68208b1b98a49d235922084217ba0db"
     tags:
       - contract
+    networks:
+      - optimism

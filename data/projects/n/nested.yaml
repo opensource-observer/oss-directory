@@ -1,148 +1,222 @@
-version: 2
+version: 3
 slug: nested
 name: Nested
 github:
   - url: https://github.com/nestedfi
-optimism:
+blockchain:
   - address: "0xb7eb3f6a9abcae7559484fb126b8f872781cf9dd"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x319acbcbf087f0ee74e5feffa10567c7d83f7683"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x25fd6e8940b6fd0a5ec3b1c45216a3eb2dcd707e"
     tags:
       - contract
       - factory
     name: ZeroExOperator
+    networks:
+      - optimism
   - address: "0x74afada131db545df782d196c8736d97593fd330"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x9ee92a94a8ace98f36f19b35091c34e9d9bccd54"
     tags:
       - contract
       - factory
     name: OwnerProxy
+    networks:
+      - optimism
   - address: "0x6692de0c00dbb510ecb569700a423f2668f308a4"
     tags:
       - contract
     name: NestedFactory
+    networks:
+      - optimism
   - address: "0x6bdc58d3287176b40ad2243ec0cf35f33f2119da"
     tags:
       - contract
     name: FlatOperator
+    networks:
+      - optimism
   - address: "0xd75af988b2282c1b466c7640b01e4b89239a72d8"
     tags:
       - contract
     name: Withdrawer
+    networks:
+      - optimism
   - address: "0xf81072908070a0f290ef149e3a93187ad1daf449"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x743fdf479b8894fc6dd24f92823659934dd30d3f"
     tags:
       - contract
     name: TimelockControllerEmergency
+    networks:
+      - optimism
   - address: "0x3a506575bf5202ef846ce4c88eea8adfba63f760"
     tags:
       - contract
     name: OperatorScripts
+    networks:
+      - optimism
   - address: "0x0fff7f99d2b32849848e31cb48090c5268e06f65"
     tags:
       - contract
     name: NestedAsset
+    networks:
+      - optimism
   - address: "0xbd847b0bd0f78f46176dbab7b187ce2934ad6171"
     tags:
       - contract
     name: OperatorResolver
+    networks:
+      - optimism
   - address: "0xe8ec1a3a637c47d2a17378eb199b523bc2742272"
     tags:
       - contract
     name: NestedReserve
+    networks:
+      - optimism
   - address: "0xae5fab55c6aa6bba24eef3fb98c48a0b616b163d"
     tags:
       - contract
     name: NestedAssetBatcher
+    networks:
+      - optimism
   - address: "0xf8639f6d597e1ae2b697e026218ed9bf47aefdd8"
     tags:
       - contract
     name: OperatorScripts
+    networks:
+      - optimism
   - address: "0xe2271de54462d97551ab933c546a54a903eb02fa"
     tags:
       - contract
     name: NestedFactory
+    networks:
+      - optimism
   - address: "0x44a9fe115ef9d718821b62ece50607bcb334d29a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x27f80488078bc485c9cf5a989fcbab27d561ced9"
     tags:
       - contract
     name: NestedRecords
+    networks:
+      - optimism
   - address: "0x2b2eda765282f6265101c0f72157d50f8f0eb815"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3ee96e771d5e56b34245b023e8b31ffdf36dfafd"
     tags:
       - contract
     name: NestedRecords
+    networks:
+      - optimism
   - address: "0xdfcfe6ad28c18f4078b9f0d52017c406ec033064"
     tags:
       - contract
     name: FlatOperator
+    networks:
+      - optimism
   - address: "0x40c6e25b2b7cf95afd323905ecb4901eed31043a"
     tags:
       - contract
     name: Withdrawer
+    networks:
+      - optimism
   - address: "0x1734a5eab695d9b7c678adaa9a479dbb88897660"
     tags:
       - contract
     name: TimelockControllerEmergency
+    networks:
+      - optimism
   - address: "0xa5c5aeae9fb5424f9ab6d2e4c1c108f988ae3f6e"
     tags:
       - contract
     name: NestedFactory
+    networks:
+      - optimism
   - address: "0x9a065e500cdcd01c0a506b0eb1a8b060b0ce1379"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x9cf434dc3d2ac5f8d203e56c1320fd7b098de5dc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x76bc5affbc9dacbc1e6a18d7135def47605bae8e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa91be36cc6ef0013046b0b0fd65fed842b11edf1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf84d9a7ed9a885f5d81d6de6476b58682fc9a6d2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd87c56d1698e52f6e3363b9ffd09b0afd46dda8e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x86027f965539279cc3ac752ca5940b6cac6ebc99"
     tags:
       - contract
     name: OperatorScripts
+    networks:
+      - optimism
   - address: "0x61634a46e6e58581253452844bc0c82bda7d46a5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x150fb0cfa5bf3d4023ba198c725b6dcbc1577f21"
     tags:
       - contract
     name: NestedReserve
+    networks:
+      - optimism
   - address: "0x449d088c9f184af598fe72d26742a58a11c5200f"
     tags:
       - contract
     name: FeeSplitter
+    networks:
+      - optimism
   - address: "0x13e98f9a3449c7372fc4538e531dca17b0ac2e0c"
     tags:
       - contract
     name: NestedFactory
+    networks:
+      - optimism
   - address: "0x3d8a79ed1e21e6295a24dc4fe5462e8473666259"
     tags:
       - contract
     name: NestedFactory
+    networks:
+      - optimism

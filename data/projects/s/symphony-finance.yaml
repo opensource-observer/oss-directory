@@ -1,65 +1,97 @@
-version: 2
+version: 3
 slug: symphony-finance
 name: Symphony Finance
 github:
   - url: https://github.com/symphony-finance
-optimism:
+blockchain:
   - address: "0x3a893a7525c4263052c3c04f9c32d919c75cb8e0"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x3ff61f4d7e1d912ca3cb342581b2e764ae24d017"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x8377aa8aebc32d21cbcde7267d62cfcf305a4c5a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x38ebf16d656ca64157b503364d052313893ed5fc"
     tags:
       - contract
     name: Yolo
+    networks:
+      - optimism
   - address: "0x7ffcee844cf87c65af845f62987952aaa4653cd1"
     tags:
       - contract
     name: AaveYield
+    networks:
+      - optimism
   - address: "0x44f91814c5c766e0762c8c23d65759f631c0abbd"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x4f8ab66f046bd34c75840a71389e8e73cb4827b7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7d484f1047fa4343047cf95502409a267b7019e2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfe68fbf16999798936c9b6940761c8697f1ce1ab"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x06ed62fce5d0b087c92da7f9965f43042792d0f4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa9938c13f2c446c7decd9d9ebee6db8100ca4157"
     tags:
       - contract
     name: Treasury
+    networks:
+      - optimism
   - address: "0x81caae842b3dff6b325b54e2bd67ac9d50b87031"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3e349ecb2c6bb2eabcd47ad0c6afcb30aeec7474"
     tags:
       - contract
     name: AaveYield
+    networks:
+      - optimism
   - address: "0xcf942fe237016ea778d1f9a4b185b98913b35888"
     tags:
       - contract
     name: AaveYield
+    networks:
+      - optimism
   - address: "0x7e756de98019f69b64560dfd5c95578f93dab33f"
     tags:
       - contract
     name: AaveYield
+    networks:
+      - optimism
   - address: "0x809f1aa348e2e35d8f69dd96e219f62b2f70901d"
     tags:
       - contract
     name: AaveYield
+    networks:
+      - optimism

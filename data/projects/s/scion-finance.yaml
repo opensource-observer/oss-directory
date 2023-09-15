@@ -1,302 +1,464 @@
-version: 2
+version: 3
 slug: scion-finance
 name: Scion Finance
 github:
   - url: https://github.com/scion-finance
-optimism:
+blockchain:
   - address: "0xf09c27934a92c56c7c0dd6cbac858c35fbd5170f"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x4adfe3ed020dac0ff69ca212f32be3b71185399e"
     tags:
       - contract
       - factory
     name: SectorFactory
+    networks:
+      - optimism
   - address: "0x43ce612dfadfb98c077e4d0efffa8ad3c82d7fa7"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xb93968f5da93ad1065abb614c93d5e2836950e6e"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0x748fae3ca04627c866a009315f004274461a9455"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x424ea8a23f9c45184799b75bf0b13ab2d0f8c414"
     tags:
       - contract
     name: IMXVault
+    networks:
+      - optimism
   - address: "0xe79928db3a1884a825d002af9afe713e9da8a774"
     tags:
       - contract
     name: AggregatorVault
+    networks:
+      - optimism
   - address: "0xe669f5f83616639d3442b03108233e0054afbef8"
     tags:
       - contract
     name: AggregatorVault
+    networks:
+      - optimism
   - address: "0x5791ca4d6c4b1eaafdb024ab3b0726d3baeae82b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8544b4c89f2d90adb1184df4a3bc3e9d67118867"
     tags:
       - contract
     name: IMXLendStrategy
+    networks:
+      - optimism
   - address: "0x65e63475f1d006c3c2e628f66c1cb6f270124fdc"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0x34e125352967e55df11cef1077d89e19e83fcf60"
     tags:
       - contract
     name: MultichainPostman
+    networks:
+      - optimism
   - address: "0xa51721114da446e9de56c9d3f2b8985f57c12763"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x36eeae644b247cb285f4c299c72e6a56bb50f2d6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4735d87ecb17e6e0bbfb5e2afbef541643a7968c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xff44d03b6cf6a40bd1b6261150f3272243d569c9"
     tags:
       - contract
     name: AggregatorVault
+    networks:
+      - optimism
   - address: "0x67944bd9dba951b1221d6b838109fb581c47095e"
     tags:
       - contract
     name: AggregatorVault
+    networks:
+      - optimism
   - address: "0xa12d1a1ed7fa7e7201274badf4dfbfb577816c14"
     tags:
       - contract
     name: SCYVaultU
+    networks:
+      - optimism
   - address: "0x68a329ef5f43f92662690b6593722eceef622b27"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9cede6415a956205a9c21c88d34f1d2a4e87e8c0"
     tags:
       - contract
     name: IMXVault
+    networks:
+      - optimism
   - address: "0x84ac58149abdc777f732f6a464c1538ae2841903"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xaccfd4db8ad6964fd5a6a52d6649a7484ee1a79f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5917f58db34fd30c21f1730fd894063fe0d14187"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0xb3e829d2ae0944a147549330a65614cd095f34c9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x92dbea6fa85a1cd839b604d1f2852abfb7fa2897"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2c7bba60bf6a8b6b042a3b43c9349345da7ad078"
     tags:
       - contract
     name: IMXVault
+    networks:
+      - optimism
   - address: "0x339d70eae3a7ca14c515f5924dea4a2862d75a54"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbec463c31b463eace35aae233c5d0a386721a192"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0517ca29c3948779cd61849a51dca85449fe3128"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7c425f7f4c1dd42c0bc8f59e8e3604ab5a0ecfe2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xabd485558304d923a42cb4076a045cbc145c10fa"
     tags:
       - contract
     name: AggregatorVaultU
+    networks:
+      - optimism
   - address: "0x155820a84c4ffac30f23e46129a968370fc4dac8"
     tags:
       - contract
     name: SolidlyAave
+    networks:
+      - optimism
   - address: "0x1bfb4c5d84aa3e6564491659706b09a25a6819e4"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0x591005085116df73d5b05589e664762285740f05"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0x97b4d169014c15e7a5890123992fa543086e6b51"
     tags:
       - contract
     name: IMXVault
+    networks:
+      - optimism
   - address: "0xc0d1bee2836528ad62c29753b900c39b278b609a"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0x84b6a7f1f47056eb90ac641e76fb7c8d3cb46b4d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe4251afa6796a94647b44bd53299d6ebf939ad01"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe17bc4de8e5d437bdda8e8c4874bf928127d441d"
     tags:
       - contract
     name: LayerZeroPostman
+    networks:
+      - optimism
   - address: "0x8da9cd7232611fef7b1f05ab80ea9bb977f52a79"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0xf38f968f3d54576ae67150f0f81d447462e12030"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x00ca56477620b13c7b1d4d221aecd960ab697715"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0xf90df76f9f576a7f8eea734f465cb36d2785cf73"
     tags:
       - contract
     name: IMXVault
+    networks:
+      - optimism
   - address: "0xfd6f41d11e7e256a4157b1e44bcfa5f013ee1a38"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0xdb613730c823f260a1a8ac2dcdd6b8b82b491919"
     tags:
       - contract
     name: IMXVault
+    networks:
+      - optimism
   - address: "0x5c6079193fa38868f51eac367e622dada53cf17d"
     tags:
       - contract
     name: IMXVault
+    networks:
+      - optimism
   - address: "0x79fe2ec964e8a361188f4020d3def3bdd023d152"
     tags:
       - contract
     name: StargateStrategy
+    networks:
+      - optimism
   - address: "0x9e7ca89eab560c58f738f92e70f2922d20ecd01e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcb2e195d92e9da36ea1f186b8df09aade31a5dda"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x70e9d7dbdb6e276e5e298488f7da913509239edb"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0xaa47c9422fd5e12f1a364e659b593e1a10fc5436"
     tags:
       - contract
     name: AggregatorVault
+    networks:
+      - optimism
   - address: "0x402b16adae502e5b5a49f4593face220ab0b6dfb"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0x0bab493632e27325a3f6c02de14c04ba006abe3e"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0xdbd42bcbe8f81d2da8d46fd158829c931e08cdd2"
     tags:
       - contract
     name: IMXVault
+    networks:
+      - optimism
   - address: "0x7115f16c3db03056f67963ca48e227c3cde59363"
     tags:
       - contract
     name: IMXVault
+    networks:
+      - optimism
   - address: "0x728ddda91e57078794fc7be6acb84d7cc51d760a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8235e1d9f0477e20cb76f456cc3b21c9958db018"
     tags:
       - contract
     name: AggregatorVault
+    networks:
+      - optimism
   - address: "0x97bbdd714043ef5df47c96f21bbf968ca283baf5"
     tags:
       - contract
     name: AggregatorVault
+    networks:
+      - optimism
   - address: "0x4b076884091b24db4d80df0bc4f546b5be8a45df"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7abbed988145058d8fc9a0e782af01955ac337bc"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0x112f30e9c369af29c27b855542b34549b35125d0"
     tags:
       - contract
     name: StargateETHStrategy
+    networks:
+      - optimism
   - address: "0xa7484899eabb8fdab150b48bdb60cfb73b9d1517"
     tags:
       - contract
     name: IMX
+    networks:
+      - optimism
   - address: "0x219717ef71e81c06f82aa2443d5e6c0375883c1c"
     tags:
       - contract
     name: AggregatorVaultU
+    networks:
+      - optimism
   - address: "0x4b2891a7ac11d2b52560d4b78daa9bbbfda13e6f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8e3ffe1febd4034bdbb5b233cecf7981849c583e"
     tags:
       - contract
     name: LayerZeroPostman
+    networks:
+      - optimism
   - address: "0xdbaf794ac3f2d5e90ff453332067f9f1a647c62a"
     tags:
       - contract
     name: IMXVault
+    networks:
+      - optimism
   - address: "0x39d1d72cf5a46176b0cf135720d5b56d0ccf402d"
     tags:
       - contract
     name: SectorBeacon
+    networks:
+      - optimism
   - address: "0x96b6a3e2048db602ffd71e5a2c7351673a77e1f6"
     tags:
       - contract
     name: MultichainPostman
+    networks:
+      - optimism
   - address: "0xc86faf9e55696f0079cd6b679292d0462f6798de"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x42ed2bd88bda5c7b03f454cbc9303e35a0c3c57d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x651a2d5a89c585aa12f2b7bc5fe0e7e8b4825a9d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8aeb224e73c8bb7dd3b1b9c46ebdd2359b5dc50f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4c424155997dd42435d137fdecfc64ea619a5978"
     tags:
       - contract
     name: IMXVault
+    networks:
+      - optimism
   - address: "0x2663a6f2768c66a8483d0bba4b9dba849686e50e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcc2e880fcddc4fbde66fb573ef04c44fd04f130b"
     tags:
       - contract
     name: UniUtils
+    networks:
+      - optimism
   - address: "0x9c5458761cbaa84ee575f090e804e2874dd1e784"
     tags:
       - contract
     name: IMXVault
+    networks:
+      - optimism
   - address: "0x75079acaeb581e28040a049ca780e543f722ebdf"
     tags:
       - contract
     name: SectorVault
+    networks:
+      - optimism
   - address: "0xaa40216ce9f6b9baab726fbc83a184944a993b2a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x141639034301d5e66dfe6961e8fe173d4d48ef3b"
     tags:
       - contract
     name: IMXLendStrategy
+    networks:
+      - optimism
   - address: "0x7d3137bf099fc4d1f45739211749be9f61e75372"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe5dc0b65139a38fcb4db4ac8e1375f22a250784b"
     tags:
       - contract
     name: AggregatorVault
+    networks:
+      - optimism

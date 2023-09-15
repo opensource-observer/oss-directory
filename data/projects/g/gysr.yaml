@@ -1,147 +1,223 @@
-version: 2
+version: 3
 slug: gysr
 name: Gysr
 github:
   - url: https://github.com/gysr-io
-optimism:
+blockchain:
   - address: "0xa80481e3f9098602954b2e5cf306e6dee053ef3e"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x80eb6bde5af2351ca8c7ea69bb8ca43655f19df5"
     tags:
       - contract
       - factory
     name: ERC20FriendlyRewardModuleFactory
+    networks:
+      - optimism
   - address: "0x849c263ed57233c8bd5778092caf1eed523be3f0"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x9d4b7210f64cb4fff5f404b0dd242318ad8bde68"
     tags:
       - contract
       - factory
     name: ERC20StakingModuleFactory
+    networks:
+      - optimism
   - address: "0x51e03c97570e80824c9c4da7db94fc1b648f11b8"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xa87171c62cc273b86b6c3579d5f76d3525149c13"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x0608c83c77ef641d78045ce87e2e13450d866133"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x983d4db882bdfb1b1624ed09670535907a27e112"
     tags:
       - contract
     name: ERC20FriendlyRewardModuleInfo
+    networks:
+      - optimism
   - address: "0x73f28ae13d96103f7e276b963c4ea40ffe0bbc0d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2865f0539a6b12d1ae099f5689d38a1734a5e533"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x91b4334fbe88a0fe87595bfb36e085679e5a1e8c"
     tags:
       - contract
     name: ERC20CompetitiveRewardModuleInfo
+    networks:
+      - optimism
   - address: "0x0f27d74e66b923126c4ca12bd0eb814afe743c47"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x90e37c98874fbd1e6ac35461cf0abae457bb599d"
     tags:
       - contract
     name: PoolInfo
+    networks:
+      - optimism
   - address: "0x2098aea80611b51ca26586e122b3c629a2f263e9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x117cfd9060525452db4a34d51c0b3b7599087f05"
     tags:
       - contract
     name: L2StandardERC20
+    networks:
+      - optimism
   - address: "0xeb23e59cd33b9711d6da0a51a783c8429d2ce10b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2e86dff2c140f7169a93018f1366df0d1b60fc45"
     tags:
       - contract
     name: ERC20StakingModuleInfo
+    networks:
+      - optimism
   - address: "0x98d7edaceb21e9d0d48c3593e5fc466661ea0bc7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xaceb52aabddc78cceaaa034e9b48d62f29f41221"
     tags:
       - contract
     name: PoolMetadata
+    networks:
+      - optimism
   - address: "0x4939530837c7e4e883735212622091e049bf639d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x27403fb4be8f1e4d869cd1a888a20933a869bbdb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5ef1b1bf27363e3728eb3edef4e0b8a97c01d845"
     tags:
       - contract
     name: ERC20MultiRewardModuleInfo
+    networks:
+      - optimism
   - address: "0x8e0b8d765159ceca4cdf5f22d0d6478c79ab788c"
     tags:
       - contract
     name: ERC20MultiRewardModuleFactory
+    networks:
+      - optimism
   - address: "0xac3e6058c55ca81c229f25162226f0a0e6581917"
     tags:
       - contract
     name: PoolFactory
+    networks:
+      - optimism
   - address: "0x3b902a8a1e04f1e6957f589804ed2d8a9f9489c1"
     tags:
       - contract
     name: ERC20CompetitiveRewardModuleInfo
+    networks:
+      - optimism
   - address: "0xd16046b1f09a6b26b4a6a9ea022e8ec51807177a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcfce50f38d4d727b24a3a3abdf790049371e6328"
     tags:
       - contract
     name: ERC20FriendlyRewardModuleInfo
+    networks:
+      - optimism
   - address: "0x3caa041d1a0a78d141703c0e95408c1801ed74dd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x17f511ec08dd6f5e36acbc73b64306eaec55393c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x707c4622aaecbff23ed56133b8e19ef940008998"
     tags:
       - contract
     name: ERC20FixedRewardModuleFactory
+    networks:
+      - optimism
   - address: "0x9613d0389dbe4f4f3e52b6c38e3980bcf498a782"
     tags:
       - contract
     name: AssignmentStakingModuleFactory
+    networks:
+      - optimism
   - address: "0x6bdf77554c02e27dbe47ac3a0f5a27f28fb8ffc3"
     tags:
       - contract
     name: PoolMetadata
+    networks:
+      - optimism
   - address: "0x7c85bc57310815e60800d91d00732ff36f1872bc"
     tags:
       - contract
     name: ERC20StakingModuleFactory
+    networks:
+      - optimism
   - address: "0x7aecd735b862d8fd158e0c8e1f6dd2c268512780"
     tags:
       - contract
     name: ERC721StakingModuleInfo
+    networks:
+      - optimism
   - address: "0x8906151f76948cebc1cdcb556c38cc7d3bbbe61d"
     tags:
       - contract
     name: ERC20FixedRewardModuleInfo
+    networks:
+      - optimism
   - address: "0xc5d9303a7b3dda47839ab80916419b45afe22d6d"
     tags:
       - contract
     name: ERC721StakingModuleInfo
+    networks:
+      - optimism
   - address: "0x73a42213d73ec0aa285047e272f26d5e96137cbd"
     tags:
       - contract
     name: ERC721StakingModuleFactory
+    networks:
+      - optimism
   - address: "0x540b73cfc4bcd1c1a9eec86dcba9e256b150925a"
     tags:
       - contract
+    networks:
+      - optimism

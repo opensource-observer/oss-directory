@@ -1,38 +1,54 @@
-version: 2
+version: 3
 slug: open-sea
 name: OpenSea
 github:
   - url: https://github.com/projectopensea
-optimism:
+blockchain:
   - address: "0x939c8d89ebc11fa45e576215e2353673ad0ba18a"
     tags:
       - creator
       - eoa
+    networks:
+      - optimism
   - address: "0x9aac739c133074db445183a95149880a2156541a"
     tags:
       - creator
       - eoa
+    networks:
+      - optimism
   - address: "0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC"
     tags:
       - contract
     name: Seaport
+    networks:
+      - optimism
   - address: "0x00000000000001ad428e4906aE43D8F9852d0dD6"
     tags:
       - contract
     name: Seaport
+    networks:
+      - optimism
   - address: "0x00000000006c3852cbEf3e08E8dF289169EdE581"
     tags:
       - contract
     name: Seaport
+    networks:
+      - optimism
   - address: "0x00000000F9490004C11Cef243f5400493c00Ad63"
     tags:
       - contract
     name: ConduitController
+    networks:
+      - optimism
   - address: "0x00e5F120f500006757E984F1DED400fc00370000"
     tags:
       - contract
     name: SeaportValidator
+    networks:
+      - optimism
   - address: "0x0000f00000627D293Ab4Dfb40082001724dB006F"
     tags:
       - contract
     name: SeaportNavigator
+    networks:
+      - optimism

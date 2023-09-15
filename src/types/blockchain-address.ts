@@ -17,6 +17,10 @@ export interface BlockchainAddress {
     "eoa" | "safe" | "creator" | "factory" | "proxy" | "contract",
     ...("eoa" | "safe" | "creator" | "factory" | "proxy" | "contract")[],
   ];
+  /**
+   * @minItems 1
+   */
+  networks: ["mainnet" | "optimism", ...("mainnet" | "optimism")[]];
   name?: string;
   [k: string]: unknown;
 }

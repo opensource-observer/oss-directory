@@ -1,281 +1,437 @@
-version: 2
+version: 3
 slug: insta-dapp
 name: InstaDapp
 github:
   - url: https://github.com/instadapp
-optimism:
+blockchain:
   - address: "0x9f60699ce23f1ab86ec3e095b477ff79d4f409ad"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xf6839085f692bde6a8062573e3da35e7e947c21e"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x26ed8119c45e3871df446a13f7fdc9e2c527dacd"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xc36142c497053c42bdaa14737bf80e71daa984c5"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xf125ccc0a0332ba7b51a601d0975ac44cc3b5655"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x6ce3e607c808b4f4c26b7f6adaeb619e49cabb25"
     tags:
       - contract
       - factory
     name: InstaIndex
+    networks:
+      - optimism
   - address: "0xae7cd06693191c1f5f1477b9e9a567732d715f21"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3254ce8f5b1c82431b8f21df01918342215825c2"
     tags:
       - contract
     name: InstaMemory
+    networks:
+      - optimism
   - address: "0x09cadcbe6fe623f01b7bc37635b97abf385d46dd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe3d068954336fef7a6a21056431df2e1044f1a5c"
     tags:
       - contract
     name: ConnectV2DSASpellOptimism
+    networks:
+      - optimism
   - address: "0xf352901811ddd6ce803a626d6a8e4a221880f6be"
     tags:
       - contract
     name: InstaBasicRebalancer
+    networks:
+      - optimism
   - address: "0x839c2d3ade63df5b0b8f3e57d5e145057ab41556"
     tags:
       - contract
     name: InstaConnectors
+    networks:
+      - optimism
   - address: "0x89566cd6302ec9730970bb4e9374d9329b756e2c"
     tags:
       - contract
     name: ConnectV2AaveV3Optimism
+    networks:
+      - optimism
   - address: "0x33d8f735dd64cec51d212616bca5ad9b7769cd34"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x810d6b2425dc5523525d1f45cc548ae9a085f5ea"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd875a38dd91a9cc1129b93920d88e68b77f5b9e6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xae37a6b396b7a56cfbb9ad56d7207d949dda6544"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd226c68579d299a2e6d93a3ddaa5cf613c27912a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x84e6b05a089d5677a702cf61dc14335b4be5b282"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa720c0b9a659817ecc0807b74d8e7cf597268740"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3827426f69ecf2bab6f4227dd2c3ec3a2bb6fec7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbb9ffad3a7866c3a966a82edd2bde0d8d931e1ed"
     tags:
       - contract
     name: InstaBasicRebalancerOpt
+    networks:
+      - optimism
   - address: "0x1bd311bd5ad4dcfe18bcb55d42f0a3c714e2bfde"
     tags:
       - contract
     name: ConnectV2UniswapV3SwapOptimism
+    networks:
+      - optimism
   - address: "0xd393e6cf57afbc950475caa187d6583ec8279554"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbb590b0fc4080e434adac39a51dc9ee3335dbf09"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5c31e2d1c611d062befdf3883ade05a32c52b9cb"
     tags:
       - contract
     name: ConnectV2BasicOptimism
+    networks:
+      - optimism
   - address: "0xe6aa2d277aafbb9e19354f6f893737c3608ff995"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9341dd1191837c3ab30447ada907f7625a61cf14"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x17ad93bfd041fc9784c4fd203330bc4b0320c272"
     tags:
       - contract
     name: ConnectV2WETHOptimism
+    networks:
+      - optimism
   - address: "0x313fe505ad3ead0d35dd5d6687fb9c6b2469db3d"
     tags:
       - contract
     name: InstaDSAResolverOptimism
+    networks:
+      - optimism
   - address: "0x22ed23cc6eff065afdb7d5ff0cbf6886fd19aee1"
     tags:
       - contract
     name: ConnectV2AaveV3Optimism
+    networks:
+      - optimism
   - address: "0x6e925abef722c186c1a93d9bd6c492430a4f7cc9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6793c4390dd2f95a74e20329e93957243ae70232"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x686497f9e8bf13f6e89382c5249c87a6df49976d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x01fef4d2b513c9f69e34b2f93ef707fa9ff60109"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5461da36c57a2056d04cee085e9fa73d04c141f8"
     tags:
       - contract
     name: RevertCheck
+    networks:
+      - optimism
   - address: "0x4f99f135776bd4ae336f515caf01f2449eb3099b"
     tags:
       - contract
     name: ConnectV2BasicOptimism
+    networks:
+      - optimism
   - address: "0x3cc08cd599fcff2e7f6ccc0ebd5aa57bddf11257"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcf8a882763c92857feebd54620e2c09d8e12e60b"
     tags:
       - contract
     name: InstaUniswapV3ResolverOptimism
+    networks:
+      - optimism
   - address: "0x28846f4051eb05594b3ff9de76b7b5bf00431155"
     tags:
       - contract
     name: InstaImplementationM1
+    networks:
+      - optimism
   - address: "0xeab396d90b53b733349ee7a0c1afd62f23d889a8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2a89237b746154fcda7ac90976da95b44680a554"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa5044f8ffa8fbddd0781cede502f1c493bb6978a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x03f821d24dfd8ecbeb4bf31b9374b8087e9a406c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x12d3e615c755b6a8b15330263b2137eed97f80d9"
     tags:
       - contract
     name: InstaFlashResolverOptimism
+    networks:
+      - optimism
   - address: "0x667782d4be0e47522a68cacbe0cae8131da3a53e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0bc299d77e7b2a4ba0b29b3463f0d80e4e5d0231"
     tags:
       - contract
     name: InstaUniswapV3ResolverOptimism
+    networks:
+      - optimism
   - address: "0x878c410028e3830f1fe03c428ff95012111ae1f1"
     tags:
       - contract
     name: InstaUniswapStakerResolverOptimism
+    networks:
+      - optimism
   - address: "0x7141e629316162e12c31dad29706e5e7cd84b721"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xba7d437711d575c24eb7d04cf5cdb9b3908a5181"
     tags:
       - contract
     name: ConnectV2BasicERC1155Optimism
+    networks:
+      - optimism
   - address: "0x34c1de737e201f9581f37564b492b492288eb7af"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9926955e0dd681dc303370c52f4ad0a4dd061687"
     tags:
       - contract
     name: InstaList
+    networks:
+      - optimism
   - address: "0x3bca6531edb2b41319fc56ba3c142367f83b65ee"
     tags:
       - contract
     name: ConnectV2BasicERC721Optimism
+    networks:
+      - optimism
   - address: "0x3344ae78b00d0d92454b0efae5285703a34ca321"
     tags:
       - contract
     name: ConnectV2AuthOptimism
+    networks:
+      - optimism
   - address: "0x0a0a82d2f86b9e46ae60e22fce4e8b916f858ddc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2a84370fe9ddfed08b076273cd32cd39a49c6b01"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdff1091149be811adb2e5fe0fb48dba8dce5a755"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6c7256cf7c003dd85683339f75dde9971f98f2fd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa4bf319968986d2352fa1c550d781bbfcce3fcab"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x17f8ab5dcfd4d635efdacba484c4db215ea82806"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa7c805e4ad4e7b51d2a1eb442b2014a9b63d3703"
     tags:
       - contract
     name: InstaEvent
+    networks:
+      - optimism
   - address: "0x44ac5ed26d8b7bbcf3bcb9ac486191cbb294b140"
     tags:
       - contract
     name: ConnectV2UniswapV3SwapOptimism
+    networks:
+      - optimism
   - address: "0x97ff8dda82a635e10911abd7dc7589814d94f0e2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa9b99766e6c676cf1975c0d3166f96c0848ff5ad"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7552c5c0735a7f3d24819a951d15f7cfa1cda039"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2249afe319baa0137cb434116ac4d4fd5c3eb719"
     tags:
       - contract
     name: InstaUniswapV3ResolverOptimism
+    networks:
+      - optimism
   - address: "0x7b00d124fc98107ff97fac5d37493e1784bb5c8e"
     tags:
       - contract
     name: ConnectV2WETHOptimism
+    networks:
+      - optimism
   - address: "0x6d18725e0812b6fee55ff4215b154b11289d4b77"
     tags:
       - contract
     name: InstaERC20ResolverOptimism
+    networks:
+      - optimism
   - address: "0xe11d191af6c834ce5b11a0ea52cbc16d0fd52f1e"
     tags:
       - contract
     name: ConnectV2WETHOptimism
+    networks:
+      - optimism
   - address: "0xdaa3f68f0033d8ad252e0a53b402943221705714"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xee7afecd937a7a133e421719d790563f871410e7"
     tags:
       - contract
     name: ConnectV2AaveV3ImportPermitOptimism
+    networks:
+      - optimism
   - address: "0xb168b14bd0ee6199247880f645764260488ce2be"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7cdbd859f2eda545289378112fd991571d6eb73e"
     tags:
       - contract
     name: AaveV3Resolver
+    networks:
+      - optimism
   - address: "0xd0889b53e270cf0b5d057976f04098ada184483c"
     tags:
       - contract
     name: InstaBasicRebalancer
+    networks:
+      - optimism
   - address: "0x670b8378d53aed04cdeba632c2276f4414d693b2"
     tags:
       - contract
     name: ConnectV2AaveV3Optimism
+    networks:
+      - optimism
   - address: "0x39d3d5e7c11d61e072511485878dd84711c19d4a"
     tags:
       - contract
     name: InstaDefaultImplementation
+    networks:
+      - optimism
   - address: "0x127d8cd0e2b2e0366d522dea53a787bfe9002c14"
     tags:
       - contract
     name: InstaConnectorsV2
+    networks:
+      - optimism
   - address: "0xa4361ff34949bef0605a10ad7b50fe1e22c92e3b"
     tags:
       - contract
+    networks:
+      - optimism

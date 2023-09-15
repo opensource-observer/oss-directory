@@ -1,171 +1,267 @@
-version: 2
+version: 3
 slug: summer-fi
 name: Summer.fi
 github:
   - url: https://github.com/OasisDEX
-optimism:
+blockchain:
   - address: "0x0b5a3c04d1199283938fbe887a2c82c808aa89fb"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xe166a06809fd35cece10df9cace87bbdb9a48f66"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xaaf64927bafe68e389de3627aa6b52d81bda2323"
     tags:
       - contract
       - factory
     name: AccountFactory
+    networks:
+      - optimism
   - address: "0x93dfecd48491ecc6f6ec82b0fee1cba9ef9c941a"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xf22f17b1d2354b4f4f52e4d164e4eb5e1f0a6ba6"
     tags:
       - contract
     name: ServiceRegistry
+    networks:
+      - optimism
   - address: "0x414958801dc53e840501f507d7a0febe55806200"
     tags:
       - contract
     name: PullToken
+    networks:
+      - optimism
   - address: "0xa0cb87300ab07d00468704cd8f016f8de47d8e0a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x080bb3a23098d71a4e8fc5de8f1cbb83553bbc57"
     tags:
       - contract
     name: TakeFlashloan
+    networks:
+      - optimism
   - address: "0x18ca8be41d32727383bc0f98705f7662ed0b7e28"
     tags:
       - contract
     name: SetApproval
+    networks:
+      - optimism
   - address: "0x4ecdc277484d71a3bd15f36c858aec2c56803869"
     tags:
       - contract
     name: DSProxyRegistry
+    networks:
+      - optimism
   - address: "0xfdff46ff5752ce2a4cabaaf5a2cff3744e1d09de"
     tags:
       - contract
     name: OperationExecutor
+    networks:
+      - optimism
   - address: "0x98ee526edf6c9c3cfa1369a5d24bc2c6c278bb19"
     tags:
       - contract
     name: AaveV3Withdraw
+    networks:
+      - optimism
   - address: "0x3f91613f0c7f1f5940c324ffef07632dd5793680"
     tags:
       - contract
     name: AaveV3Payback
+    networks:
+      - optimism
   - address: "0x7e7eb65a93441a2d2bf0941216b4c1116b554d85"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0ed12441616ca97f5729fff519f5e8d13d8de15f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xaa4c55a8dd5b0e923056676d544fc20bb5d5e3a3"
     tags:
       - contract
     name: SendToken
+    networks:
+      - optimism
   - address: "0x398105cd43115b54a0efe0b210d99c596e4571a7"
     tags:
       - contract
     name: SwapAction
+    networks:
+      - optimism
   - address: "0x4de3ca09e803969408f83f453416b3e2d70c12fe"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8061c24823094e51e57a4a5cf8bed3ccf09d316f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x02f55d374d791dff5614ad2f368145a46343b08a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xeb54c366512c4d59a222a251ea7316568859e08c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd4feaf1023cd6998053a1eb02460000980cc908f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb3f0c5e4012af22359c9ab233dabd80cd81f5ec5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x392acebea829373a3efdc0da80a16003106d8f6e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf8c44fdb83bc89fe3db2feae98e2732fda469699"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x330b1b23dbf728841af12e6478cebb9d51ab6f90"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xac0b1652388ea425884e6b60e2ed30155f43d50b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x55d4d311cd9b2dd5693fb51f06dbe50b9da84d13"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6d3af85e27686fff7686b2fae174b0a7d8c95e16"
     tags:
       - contract
     name: OperationStorage
+    networks:
+      - optimism
   - address: "0x063e4242cd7c2421f67e21d7297c74bbdfef7b0e"
     tags:
       - contract
     name: ServiceRegistry
+    networks:
+      - optimism
   - address: "0xaaf5abf888d6633cab2bb04e46ebb2fd3ba98b14"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x63059cc2533344b65372983d4b6258b2cbbbf0da"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7bbe5f9c95e2994c420b3af063e74e5f87b2a3b5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3dd262181ba245184a903cd8b77e23417f815669"
     tags:
       - contract
     name: OperationsRegistry
+    networks:
+      - optimism
   - address: "0x2006d4e76a398c78964f7e311bfd7ccb149eafe2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfaf9d0b7b92e8b281caf10b42970179b45ca6412"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x43c9a445fcf3bc3d1483c0b90dc0346249c0d84c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9319710c25cdaddd1766f0bde40f1a4034c17c7e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x53958191c3077ede3ca90eb840283df063fc1be3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x645325494a37d35cf6bafc82c3e6bce4473f2685"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x22e4cee555c44df56ac7b85033cde54b7439817c"
     tags:
       - contract
     name: AaveV3Deposit
+    networks:
+      - optimism
   - address: "0x5ab3e51608cea26090445ca89bc91628c8bb99f9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x916411367fc2f0dc828790ea03cf317ec74e24e4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xae39820d9f9f0ce9331eae6827a9d922ca5287b9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x983efca0fd5f9b03f75bbbd41f4bed3ec20c96d8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe7aa0939f0cff45162a22751cbe0009c689ea256"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6e4c6e76b3c1d834c0e3c4c2baec8d58b8421a99"
     tags:
       - contract
     name: Swap
+    networks:
+      - optimism
   - address: "0x36a9ed9b00ecc380c4e559b80a1857c65353ce7e"
     tags:
       - contract
     name: AaveV3SetEMode
+    networks:
+      - optimism

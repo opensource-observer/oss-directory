@@ -1,540 +1,842 @@
-version: 2
+version: 3
 slug: rubicon
 name: Rubicon
 github:
   - url: https://github.com/rubicondefi
-optimism:
+blockchain:
   - address: "0x3204ac6f848e05557c6c7876e09059882e07962f"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x485d674f5594716986a5530afa940aa768a3e62c"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x203328c161d23dceee3e439deeb25ca19e2c4984"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x267d94c6e67e4436effe092b08d040cff36b2da7"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xffbd695bf246c514110f5dae3fa88b8c2f42c411"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xe872b20f755451c66f415316fba2e6bbbc6ffeb3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xef76986ca7c07e43894ee93bd89e5ae5c5df9904"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x92c5da0bfdbfa9731741084bf41c12fa972f2641"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x87a7eed69eafa78d30344001d0baff99fc005dc8"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xcf36d3ce95c16aa44aead1be3e1457a4731d3dec"
     tags:
       - contract
     name: BathHouse
+    networks:
+      - optimism
   - address: "0xf7cad960fe1f621ce6d05cb1b3240aed135aba25"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4d5094edc4d2c95ef9f040c2bb6ea888ad2c9297"
     tags:
       - contract
     name: BathPair
+    networks:
+      - optimism
   - address: "0x448130d049044d53ec22bc9750f5945ccd69db7c"
     tags:
       - contract
     name: MarketAidFactory
+    networks:
+      - optimism
   - address: "0x58063154a642ffaf2cf563b19358ac8ed12a4c61"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdf703d8ab675b7373701986e1d34f3ac32c1ca39"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x224cea1e3f8c8bbe35cb88bfcc364b3c658e78b0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x60daec2fc9d2e0de0577a5c708bcadba1458a833"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0299d5f49dcccdd56b80f9fc2730ac3b75d3ffac"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbb66acb8b62c75400b7fa06ff49d8649ab8f2a78"
     tags:
       - contract
     name: BathPair
+    networks:
+      - optimism
   - address: "0xeb5f29afaaa3f44eca8559c3e8173003060e919f"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x45969104ef4561cee269b334d8cb7a99206a09e5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x951a84d192b143dd421bb2fb7a4cc866bb51d62e"
     tags:
       - contract
     name: BathHouse
+    networks:
+      - optimism
   - address: "0x0a3b7993030aee175f65ca146ecf697be4e6d1f1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc0e065fbf0c3432847c80bc72fd5dbddcafd8c58"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x62a16c6899e8fd8bec52307b0584dc92268eff8d"
     tags:
       - contract
     name: BathBuddy
+    networks:
+      - optimism
   - address: "0x2181f152d02712cb51072c4cbc1ef8ec2efd6ba3"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xb28e765a5548c0bc8935e4390673c0d1b5073b7d"
     tags:
       - contract
     name: BathBuddy
+    networks:
+      - optimism
   - address: "0x612d4eaf6879c4424e44d031d97aa3010e15499a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4d986c946f610b5c9978871b00581c9047dffc30"
     tags:
       - contract
     name: RubiconMarket
+    networks:
+      - optimism
   - address: "0xf882defd9d5d988d05c6bca9061fc6f817f491c0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xca164e6cac5734f47b52aefdd3b75c0027781ace"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5ee648e1485f586e5f2003b2c6c1f6959563be0e"
     tags:
       - contract
     name: BathToken
+    networks:
+      - optimism
   - address: "0x7478d71889cddb6ebdc8b9295d83fc554525e885"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe9c95e87d2728ac8d122da483926c1f4360f44a0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x88aa0ddbdd26495ece39d0190a282eedf29e1c78"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x98fe79124697774f96433690bab80c3b5044efb4"
     tags:
       - contract
     name: BathToken
+    networks:
+      - optimism
   - address: "0x6c38fa757ae486884262b717e8564608be9c1250"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x711a5c8ba2bfe94e6a9d37d5999e5bcab8ce8cf1"
     tags:
       - contract
     name: RubiconRouter
+    networks:
+      - optimism
   - address: "0x6650478b63d7388c515c747d81d013aecdf861ed"
     tags:
       - contract
     name: BathPair
+    networks:
+      - optimism
   - address: "0x5364a429cc1647e4adcac157168711bd8185fd83"
     tags:
       - contract
     name: MarketAid
+    networks:
+      - optimism
   - address: "0xf8cc321bb516770bc3ce9f2f1dcef32d612cd0f2"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xe7043e97fdc28f507b9137c94df2e2a23a85acd2"
     tags:
       - contract
     name: StrategistUtility
+    networks:
+      - optimism
   - address: "0x314ec4beaa694264746e1ae324a5edb913a6f7c6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9a62a11025351f4279e4af89228d16f69fa24dd3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x80476cdf9b4ef645c5328ee097551c6c3e1e2698"
     tags:
       - contract
     name: BathPair
+    networks:
+      - optimism
   - address: "0x02d902f9e4d29f6143e79f82cca68a1fb8ab4566"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x7f9c2cb8393a5a5b1e0a1f38789da394912eda0d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7af14adc8aea70f063c7ea3b2c1ad0d7a59c4bff"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2fd610e57b0239635de4ebd56c178d0d33e4b8fa"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf6a47b24e80d12ac7d3b5cef67b912bcd3377333"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0fc9b5f4aeaf77d4aab26e0a3dd27710415db839"
     tags:
       - contract
     name: MarketAid
+    networks:
+      - optimism
   - address: "0x25d6c94ce4d8822efaf62238c97f79d59dd05551"
     tags:
       - contract
     name: BathPair
+    networks:
+      - optimism
   - address: "0x91f4c95369b7d6224bcd16317d5de12257dd0da9"
     tags:
       - contract
     name: MarketAid
+    networks:
+      - optimism
   - address: "0xbb40ff27fd79ff1d275b4f955be16814d4b425ec"
     tags:
       - contract
     name: RubiconRouter
+    networks:
+      - optimism
   - address: "0x9d274f053ed5c2aff203f337eda8169d7f29ab86"
     tags:
       - contract
     name: MarketAid
+    networks:
+      - optimism
   - address: "0xa567d65965b9dfb6389092ccefe6bd9c376f2f6b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x63614adc11e3bd10bdd502710c7e9fb4870f476c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x30f5fe161da1cb92ac09e10b734de07d5c120fdd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x431f7276f5998156285d2019b9128c93a6ab9bd4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfee5ee79d3b4cf5dd309bbe4ba6520a399e77998"
     tags:
       - contract
     name: BathPair
+    networks:
+      - optimism
   - address: "0x132d8d4dd164039adcd5caf0f4815dfca4d4829c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x98e51d3893171882e0af0c5c9b88bd17591bc6f6"
     tags:
       - contract
     name: MarketAid
+    networks:
+      - optimism
   - address: "0xe66b612153daf1d7c5121172d54ea53f18b4497f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe27375343dd181fec634f69c46ba3827a6843a25"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3cefa85be7f532fdcd54adf2e4ca38eebb5576b8"
     tags:
       - contract
     name: MarketAidFactory
+    networks:
+      - optimism
   - address: "0x29da5213c75a1976452a27c8054e4c65ab0a3c53"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7571cc9895d8e997853b1e0a1521ebd8481aa186"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd5d62cd4a027d8cf65af86de31bb464825ad02e6"
     tags:
       - contract
     name: MerkleClaimERC20
+    networks:
+      - optimism
   - address: "0xce9b8433b715910ef7d644c385dd65cccbedb587"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb1fe5e2c1d5a3083955cdfb1ddd052a46edbec62"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbde95d32c1a9ee4f41f64507869679118008421e"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x74449d5b13839a7fdbaf00811da67240f6eda8ef"
     tags:
       - contract
     name: MarketAidFactory
+    networks:
+      - optimism
   - address: "0x9d809021d92ed6b6ceeb5053b1081fbc32ec6729"
     tags:
       - contract
     name: RubiconMarket
+    networks:
+      - optimism
   - address: "0x60b30c1a7633e55248fcba53ab8f24f5c54984c3"
     tags:
       - contract
     name: RubiconRouter
+    networks:
+      - optimism
   - address: "0x1b1da1817b4a637cf81bcebd3357e3ca59ee5bde"
     tags:
       - contract
     name: MarketAidFactory
+    networks:
+      - optimism
   - address: "0x5c8c6d48e771935a6cb14e5acc7020c026ec4844"
     tags:
       - contract
     name: BathHouse
+    networks:
+      - optimism
   - address: "0x85449453bcc9b02460de1040d34d10eccfcfb6e5"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x03660e5261c8effd8ec62971ae64e18c4d878a57"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb25ae78d7aa405dad135a4241cae8b742e1f8bbb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfd6fd41bea9fd489ffdf05cd8118a69bf98caa5d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe0e112e8f33d3f437d1f895cbb1a456836125952"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2c79c0099ce6a9044ee6e05d5cf59389b387d22a"
     tags:
       - contract
     name: BathPair
+    networks:
+      - optimism
   - address: "0xe16d1f031aa363d211535d82b05024fbc3d79ad9"
     tags:
       - contract
     name: RubiconMarket
+    networks:
+      - optimism
   - address: "0xb9cb710886ff4e703c17debb6a9ceea7cb44ad73"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x505fb5d94c3cf68e13b5ba2ca1868f2b580007cc"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xd528e1c99b0bdf1caf14f968f31adab81c59dcc8"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xc8a85072206aa8e4796de840b00efc331abd040d"
     tags:
       - contract
     name: BathBuddy
+    networks:
+      - optimism
   - address: "0xe8f323f7eaa070c0e45e40744e3ddb656a6be19f"
     tags:
       - contract
     name: StrategistUtility
+    networks:
+      - optimism
   - address: "0x44591ed28ace30a583e6f327716fb9310b15ce2c"
     tags:
       - contract
     name: BathBuddy
+    networks:
+      - optimism
   - address: "0xf3dab8691aed8d1ea640fec94df0e0adaaa2c24d"
     tags:
       - contract
     name: MarketAidFactory
+    networks:
+      - optimism
   - address: "0xb0be5d911e3bd4ee2a8706cf1fac8d767a550497"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb77dae11ca7364e0e6bdcaaa60c9dda5646c2d4f"
     tags:
       - contract
     name: MarketAidFactory
+    networks:
+      - optimism
   - address: "0x585a164b9c5cb115499ca2df0bcccbd798234b75"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3a19b96b9599f63883c28a09f653b1b12b116670"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3af0f8b1c001a2d1582eba62254ec84c432f6d81"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6d6c6dfd8a4f952f5c015eaaf4263779029b4cda"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa4d20e7afa8f3cf1f089144f710d5bc28b0daee8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3a6c2b9833abbf7299fc24c51751951e904f02dd"
     tags:
       - contract
     name: MerkleClaimERC20
+    networks:
+      - optimism
   - address: "0xdffdbb54b9968fee543a8d2bd3ce7a80d66cd49f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfdea4da674d280be218399f10452922c1404889f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6128660b9e4a570971759008824d082b6d282057"
     tags:
       - contract
     name: MerkleClaimERC20
+    networks:
+      - optimism
   - address: "0x8f3f6943122eff49e15c39fe713debaa5f3d551b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9715b7ac3e4f8c3a1c57ceca5ae4870638ed058f"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x7a2cf54897345b5f6a9006e2da19b3739c4f5dce"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6b04a55f47325fb095b866e38ca1e281f8f9d2db"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd26c0fc29d12b115cc86c5a4218c9acc04308853"
     tags:
       - contract
     name: RubiconRouter
+    networks:
+      - optimism
   - address: "0x0daaf796d2b87cad097908399a0b7e8a1b8b52f5"
     tags:
       - contract
     name: BathHouse
+    networks:
+      - optimism
   - address: "0xcc7dc8e2908c5d09fef768a74b82dd1c3197529d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x66ef90859982df25b6ab627f044910b04a60afc0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x53eef675a5838ba36780b1a20959c179e3a71a4b"
     tags:
       - contract
     name: StrategistUtility
+    networks:
+      - optimism
   - address: "0xf665e9e3ab592207a8b6bf3421b2da79ddf6b8e1"
     tags:
       - contract
     name: BathBuddy
+    networks:
+      - optimism
   - address: "0xc69372f4f919ca09bceea5acba2501c18f7310c5"
     tags:
       - contract
     name: BathBuddy
+    networks:
+      - optimism
   - address: "0x956f1787864b139597566a7e0198633c68bb6787"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xaaa001881225f33122ee1538949fd991098c4269"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd9aaa6c2b57b1871919da39be3efa24d280ce9a8"
     tags:
       - contract
     name: BathBuddy
+    networks:
+      - optimism
   - address: "0xcd84aac67830aac54ac85b9787898285ce9dcc01"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x04fdd1602c0a2f6a39fe64bb0f315080386ada1b"
     tags:
       - contract
     name: MarketAidFactory
+    networks:
+      - optimism
   - address: "0x1ea6f492abac1f1b22259ab77e2f4b12ad6ab1c5"
     tags:
       - contract
     name: MarketAidFactory
+    networks:
+      - optimism
   - address: "0xf8780e00ce8ed2e79aec10908a169900ed1d4afe"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xe80624fbf823057f3453d405dfcb01195472cf93"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x966572de3e5d5f83ce9b1d0b12d36038be6ec01f"
     tags:
       - contract
     name: StrategistUtility
+    networks:
+      - optimism
   - address: "0x9e40c3f8ff0878d569a38ff328480cc601cc6f08"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xebc9ea5560bd549ec1d5066a6ed7454d91735485"
     tags:
       - contract
     name: BathHouse
+    networks:
+      - optimism
   - address: "0x3d97284b05b1f5d5ace373eb9d94175a0cea10d9"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xed33a81153fbf6bf18d24029bc596d329e935a4b"
     tags:
       - contract
     name: BathPair
+    networks:
+      - optimism
   - address: "0x810cf5404f20270eb2249f07b5b1a2ed9deae16f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xab0022fde9e19ebcff178bbc9cd621960ed7ffb5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1be63db5051c126f54ad0807e1b471ad9aa0befd"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xf633516025678d72e35843bdcf90ac1fe726061a"
     tags:
       - contract
     name: MarketAid
+    networks:
+      - optimism
   - address: "0xf10638b8a3cd4820ae1aefeb27c40354fbf68672"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7a512d3609211e719737e82c7bb7271ec05da70d"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x518460b1d3859e3397a5312b89d594f3cbd3767d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x55824c11de8bae9a82215c51617ffe3a5f6a3744"
     tags:
       - contract
     name: StrategistUtility
+    networks:
+      - optimism
   - address: "0xf7adf6a1df921b1aed77ca4bb17c5ce78c29c773"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2f536756636abf29e860717a10867860802aece7"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x5fafd12ead4234270db300352104632187ed763a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1c034c49aef924691ed6c6c3c28821ca2965d445"
     tags:
       - contract
     name: BathHouse
+    networks:
+      - optimism
   - address: "0x7a665e4191d0c8a02dbfb0feb550ae25f02c0dbf"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xd99c7c5f9f3a1c2773570dd958fd7e48eb45b06b"
     tags:
       - contract
     name: BathHouse
+    networks:
+      - optimism
   - address: "0x4f06912118dd95da06b97eed80ba593b9e0329f3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbe244dc919c90bd0229ae8a7dc35f1fd5f09894c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc7cfca47a1a233a81aee4bd329c43bae17a07c3d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1370ea7dc27c34d72a1a04207b967cdb817121bf"
     tags:
       - contract
     name: StrategistUtility
+    networks:
+      - optimism
   - address: "0x9c6e912e1ce3171b5bc44f3acb23792ede9ce646"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x05cee65cc4d2c59cb4b927ad25b2d6326af7401e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x75760bdbf7b71d9e68146684ef0a0c06701e6309"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf12734d297232c566e1db790f5a1237132a68877"
     tags:
       - contract
     name: BathToken
+    networks:
+      - optimism
   - address: "0xb0af6f4e8f0eb91ee2d058ba0ddbf472e76aabc6"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x55ca6826225dd775ad829c414ac040330f37f9f2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc96495c314879586761d991a2b68ebeab12c03fe"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xd4dcb4e92b0f434f1297d5239a3aad875e25f675"
     tags:
       - contract
     name: RubiconMarket
+    networks:
+      - optimism

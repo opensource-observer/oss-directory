@@ -1,23 +1,33 @@
-version: 2
+version: 3
 slug: zerion
 name: Zerion
 github:
   - url: https://github.com/zeriontech
-optimism:
+blockchain:
   - address: "0x161b29d1919d4e06b53ee449376181b5082b30b9"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x014040c6a9cd6366f8fa858535b7ddfac507db20"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xd7f1dd5d49206349cae8b585fcb0ce3d96f1696f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd832cc2d05b42c687a1190c548395e8fa34011a1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc629bf86f02ef13e8f1f5f75ade8a8165587998f"
     tags:
       - contract
+    networks:
+      - optimism

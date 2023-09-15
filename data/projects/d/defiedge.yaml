@@ -1,203 +1,315 @@
-version: 2
+version: 3
 slug: defiedge
 name: Defiedge
 github:
   - url: https://github.com/defiedge
-optimism:
+blockchain:
   - address: "0x001530e763fe9de4dcfe31bbd8548bcb579ebf3a"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x86b86c24c7b1f404ada8b4000acbe04158e096bd"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x0811b78b74db67f7e4f60883f6ff16358a0aa0a6"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xccbe9b3141ce9c28cd987f95556e72ffbb81609f"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x2dfa59576583f1dc2df3f8d9e375af8d47bb846e"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xb11bc3c2e43adb013e99c4a5662caf6f1384889b"
     tags:
       - contract
       - factory
     name: DefiEdgeStrategyDeployer
+    networks:
+      - optimism
   - address: "0x8acc13002cbeaa31339b792b8f554842b88da7f1"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x9cd4159dfd2df765f711dc377e1d81d55c4357ae"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xe1fd038cbe37475faab39c9d676d9daeaa47da0c"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x6ed18424236977f137ba96af7e7e0ee26b17f52a"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xf9654b734bf76069b04d7efd9bf2268691a0ff00"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x64054718b35ac2ad11786665c4f3031b01880e14"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xb76545af1fd4c34f86efd5ecdf944102dfc25883"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x106a524c49b924a92194f6fe4f3da81c2d42e607"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x96123f8480d565c8946023892831bf4bb40dcc87"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x1f5ec2fa88d2d28dcf1dcdbd192bae5df8dff736"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x3f2186f1057cec50b52238490b71ae5ce95441ef"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xe4ecd6e9896100f50c787ba7b4b5f7b0948c07eb"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xf1a01a418d037b293636cb1834fccb71f8af1d9d"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xd45c7cbb1b8339420b53372223fc2cd4fac05f1e"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xe43b4cde662165ba1f646022e7d41aade8993b11"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x866331abe0546eb2ceda4cb5d528de718b2b7a6d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x28977a96894af29f582c6e1281a5ec74ecdc911d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x65028b18ee8216100e1edbb66ef7dd77192f1575"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xedc5ebe9fe347497703ae595baec028a34e315a8"
     tags:
       - contract
     name: MiniChefV2
+    networks:
+      - optimism
   - address: "0x7e31d7964984eff45642e3351b5775a2eae266aa"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc26b9eab49e8ae942233770a43d1f15e8d67bcb0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbd76c5fed25dfaf228bfda6619e7220c3cf348b3"
     tags:
       - contract
     name: MiniChefV2
+    networks:
+      - optimism
   - address: "0x5bb95d1b824bddd1e7fbf6e011ed3bc21dcbcf11"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x61622417f3c3a7f6b29784ec1a5297bae6eeafc4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe54bfe6018cbaeaf844b0083147af68d48367b63"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x055405f46344447efd7f771c747a5d09a81413fd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb17ee17c0b21a11ceea4378eaa235df86d82ba18"
     tags:
       - contract
     name: MiniChefV2
+    networks:
+      - optimism
   - address: "0xe3ec812a2ae6c10a59fc8186e880542d4cf0fcd1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa845cadfea9c5e00c04e5631debe8819cbfceeb1"
     tags:
       - contract
     name: MiniChefV2
+    networks:
+      - optimism
   - address: "0xc0d6a410ed141c1369f64adb061851f28c112ad2"
     tags:
       - contract
     name: MiniChefV2
+    networks:
+      - optimism
   - address: "0x98b9b1903f14c59b9f86041512ea9284b63205f8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x42c6d736647b21ee2aa63a765542843a5cf173f9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7deb95eb81b25e50400271b478b5766bf74579c2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x82a93384a7ed690cd964da0ed9fb90e19dab14ca"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1be6a71b0fec6b1071714c2390e306655e91512b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfe2ffe021031756d9a556abbd9fc545d6fc21b74"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdcf476df1165d85477be841f4907569cf1413745"
     tags:
       - contract
     name: MiniChefV2
+    networks:
+      - optimism
   - address: "0x92b3294584a374e076955ce05070a573b98b1130"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3c8d158e8a44b52418515dc37be75af286bfccdd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3171ba3acfa9a4858549ca508a66d63e3f820edb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf807787a4a03ef293aba59f153032206ad4873b1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xda1cee888a5c917e4ce671b41fcd9e75bba07922"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbae41647fe77244a2cfcffdbad3e0052ab7b5e5b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe28232728e3eb11b4512b3901c61b6a7ea35fc1b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa2eb3223c24b1246fd38e9b20b8ae564fd5c9700"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa3a2904d0726a1a039568365006dc830234e7105"
     tags:
       - contract
     name: MiniChefV2
+    networks:
+      - optimism
   - address: "0xa07646a5aeff5f11b011e22e7423c568f8eca8f4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe689443ce80ffcc8999ef801216559e787ceb8fe"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe8e151a8138a914862c6e34b797e809f8eb8491f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6069dcc91376b1628d244c4799db092af205fa38"
     tags:
       - contract
     name: MiniChefV2
+    networks:
+      - optimism

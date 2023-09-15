@@ -1,9 +1,11 @@
-version: 2
+version: 3
 slug: flux-protocol
 name: Flux Protocol
 github:
   - url: https://github.com/fluxprotocol
-optimism:
+blockchain:
   - address: "0xa430a8a6911e8de02acfe835eb1d5539a58cee94"
     tags:
       - creator
+    networks:
+      - optimism

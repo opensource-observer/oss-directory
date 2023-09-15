@@ -1,9 +1,11 @@
-version: 2
+version: 3
 slug: volmex
 name: Volmex
 github:
   - url: https://github.com/volmexfinance
-optimism:
+blockchain:
   - address: "0x85671317830357f40188aa6a55e96a3338eb4d7d"
     tags:
       - creator
+    networks:
+      - optimism
