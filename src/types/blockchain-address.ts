@@ -14,8 +14,16 @@ export interface BlockchainAddress {
    * @minItems 1
    */
   tags: [
-    "eoa" | "safe" | "creator" | "factory" | "proxy" | "contract",
-    ...("eoa" | "safe" | "creator" | "factory" | "proxy" | "contract")[],
+    "eoa" | "safe" | "creator" | "factory" | "proxy" | "contract" | "wallet",
+    ...(
+      | "eoa"
+      | "safe"
+      | "creator"
+      | "factory"
+      | "proxy"
+      | "contract"
+      | "wallet"
+    )[],
   ];
   /**
    * @minItems 1
