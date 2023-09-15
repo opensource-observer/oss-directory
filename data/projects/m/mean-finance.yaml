@@ -1,339 +1,509 @@
-version: 2
+version: 3
 slug: mean-finance
 name: Mean Finance
 github:
   - url: https://github.com/mean-finance
-optimism:
+blockchain:
   - address: "0xa71405f7d11734f03f2616b93eaed22604c978bf"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xe48a5173ade669651120cb5e99e6fe140d4d73da"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x0000000000933edea24f198114758e45bf9b9f14"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xf700bbe12b4406c866853d3faf1432431640c600"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x89f865aa8c13ee15550e76480c124232b99f4174"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x35f53f67989bda109579c871acdd926c9640a628"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xd4c187cd5839bd4b0a2f0d33b199a4ec67d9c67c"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xffd70dfac9fdedc2054860aafe7ea0b13d03c1a7"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x123c098069dea70e8f2c5f37819fb33c41392c47"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x7005e8545abda8e6245b46d4f3a3f91c8600a3dc"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xd12f0c754c7bd95712eefde95f8c6fab237bbbb2"
     tags:
       - contract
       - factory
     name: CompoundERC4626Factory
+    networks:
+      - optimism
   - address: "0x52fadbb4620267f79c7440476d8bac8a4ee37cc0"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xed4b39eab2bdd6d330c12027c2ad8423e17e4fb9"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xaef6acfb831d571390552db3fd620962760176ec"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x2ae2b192ad9c5a69a17b35fa07729d2e3e858360"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x5053a3b890b2f03e8289e10b8ebbd7e63a8a8203"
     tags:
       - contract
       - factory
     name: CompoundERC4626Factory
+    networks:
+      - optimism
   - address: "0x8f48f51db26c57d26cd52ed430432a7bd1ef5bad"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x53022339b9e4a01feaebf692d7cc01490b1b44b0"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xa13e6ac7450f2f5fd1b53f8e7d9482a5727ba26d"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xbb681d77506df5ca21d2214ab3923b4c056aa3e2"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x85c02f91d99895a4e838c2f3917b0b0fb1ded3de"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x19ce8a50949681fd8ce93d7c00192de060fdb161"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xeaa8a1d0e783682613a2fbcdb01520c3a0d0d712"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x7783ca1042455a0842d00bf7d4aff5d9a5d6ca23"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xd0ff25015f78ae3801460661b0405c4480be8559"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x4cbe8e3ccf10a4ee66533541e00f47cd71e9bf5d"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xc5a238dbb4df7d09910de78f2cc633161d06f483"
     tags:
       - contract
       - factory
     name: ExactlyERC4626Factory
+    networks:
+      - optimism
   - address: "0x5c9bd71faa6489b5d92c65df02575f0486cc1518"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x749fc5a81b2fe1470e54e1bf452b71a4fb0e1bbf"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0100a1c3020fe97051cbb18636c0f91abcc603ce"
     tags:
       - contract
     name: DCATokenDescriptor
+    networks:
+      - optimism
   - address: "0x230c63702d1b5034461ab2ca889a30e343d81349"
     tags:
       - contract
     name: DCAHub
+    networks:
+      - optimism
   - address: "0xb4edfb45446c6a207643ea846bfa42021ce5ae11"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x09ade44d2e60fca2270ff32af5a189f40d29837b"
     tags:
       - contract
     name: DCAPermissionsManager
+    networks:
+      - optimism
   - address: "0x70ee0aa330e3590f6348fd54e71fd18ad3bc914f"
     tags:
       - contract
     name: DCATokenDescriptor
+    networks:
+      - optimism
   - address: "0x8847480c34c7dceef73647c57766f28c3a07596b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x615dccb17f762cae61a36a336a1340afce764c71"
     tags:
       - contract
     name: UniswapV3Oracle
+    networks:
+      - optimism
   - address: "0x38d504062dc7059b11e87bf818ef573a4eccaede"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4afd06674e0701f3bfd6f026e4ec785f5ec3e29f"
     tags:
       - contract
     name: UniswapV3Oracle
+    networks:
+      - optimism
   - address: "0x507eb4c22a5088645e7b610ef385bf1c5452a539"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x24f85583faa9f8bd0b8aa7b1d1f4f53f0f450038"
     tags:
       - contract
     name: DCAHub
+    networks:
+      - optimism
   - address: "0x96ae36292c522f375d8800832b81cc5fb6667b1a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1ed2957ba1f14c17e01424dd93a258dd2e04caac"
     tags:
       - contract
     name: DCAHubCompanion
+    networks:
+      - optimism
   - address: "0x83d0e7265cab5c14d9306322262cdc477ff10db1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe0f0eea2bdafcb913a2b2b7938c0fce1a39f5754"
     tags:
       - contract
     name: TimelockController
+    networks:
+      - optimism
   - address: "0x579280acf998a031922421a2f6c62ba609be44f7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc43b70b96b7d8d0faf4c8dd751e4935d25c33e71"
     tags:
       - contract
     name: DCATokenDescriptor
+    networks:
+      - optimism
   - address: "0xff26a319f125291abc37eda4d6ff06850e732689"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2dfb2c5c013826a0728440d8036305b254ad9cce"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x285383bf3ef9c8a30b3ed40f3c9e1ab63c970cae"
     tags:
       - contract
     name: ChainlinkOracle
+    networks:
+      - optimism
   - address: "0x19bb8c1130649bd2a114c2f2d4c3a6afa3bd4944"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5856d478832ff3a68c122388623c4ee027d0e65a"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x4edf0954f2a559bbd56b660b82512a96359d1f8f"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xe4e298fda9aef0665886722a8436fbf05bf92996"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x364b83b7b5ac4653c2b4f8efcd239a4310c09661"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x76aa04bedc405c43daae98422f31229ac2b68d7e"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xd420ea5a1981db5f1914954ce6e012a3bb10c015"
     tags:
       - contract
       - factory
     name: DeterministicFactory
+    networks:
+      - optimism
   - address: "0x3e4a38c518154b1b475211f50fb14f75cd178750"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xe19875ae4bb057c11147bb0396816d321ad7ecfe"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x07897e00a58d387fb4db5cf5f4ef184285fe04d2"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x539a91927e963f2ed14838994c56db81628aba30"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x4b096382285d6b3d22b7480457c353a8764e5d5b"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x76428357e39846dcb5ad00235c06fb93e24be92c"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x265df9a77b13debb96f153e72efe7fe3e4fea08c"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xa1c72de18ee8321ca96be48100b70d74101a0c36"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xf6c6dbe19048d9408a2370db42853541db5ee76e"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x398c8801a261a085505da6208f1e661ea8896b9f"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x573673f99308c0c20031c85d9439af9ca5e91439"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x21c6722ee9e48bc188cd7eb3ada7bd989e746fdf"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x4287535ecfcb5e4e8dde83590207dd989af06c99"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xeb09faaf140f821643da751b021bba0818dbb693"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x2ac0be72a1d8d6ae6824db79b3aa28bd6af7ede2"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x6197032eddb984c36c5f9c8b705395d048cb1bd2"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x8d2e6971cd20052794fb54e18da69ff4ee5251e6"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x93d30e02a4733db3c3c09ecc89bf83138f594de0"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xd2bbddba0f44dfa6c1cf27aa2cf1eeb198872b83"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x9d2db5e82bb1d96ed77dd49c3fa9fa5f2478c2a6"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x1fdb91743f7f421de114d9237222459ac0a50ea1"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x4db35376875dca2f14ec340da6349a7c0e3542d1"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xe1f1bc74bee3c15843d142a3d1a27307b11aec9b"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x4709ac9c9f0f01aceb47556c36eb24edbe5f2a83"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x3aa08b2fec158c177d1a272171bfa61cd350f768"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x139cd47547f8058a42f8bdd66a4e887e0abeda1e"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xdfd08135cbb2b527883c6528942c99d452ec5155"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x36ca1e24d0a89663b26ce13370c95e0cccf2670b"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xeeda95f4513f950957ae84e4da221ee260fa2f40"
     tags:
       - contract
     name: DeterministicFactory
+    networks:
+      - optimism

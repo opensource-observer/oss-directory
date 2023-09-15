@@ -1,9 +1,11 @@
-version: 2
+version: 3
 slug: ether-orcs
 name: EtherOrcs
 github:
   - url: https://github.com/etherorcsofficial
-optimism:
+blockchain:
   - address: "0xe37da1e4632b94e601ac015be8db554e0456b01a"
     tags:
       - creator
+    networks:
+      - optimism

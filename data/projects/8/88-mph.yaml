@@ -1,9 +1,11 @@
-version: 2
+version: 3
 slug: 88-mph
 name: 88mph
 github:
   - url: https://github.com/88mphapp
-optimism:
+blockchain:
   - address: "0xc0fcf8403e10b65f1d18f1b81b093004b1127275"
     tags:
       - creator
+    networks:
+      - optimism

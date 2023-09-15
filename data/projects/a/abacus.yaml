@@ -1,367 +1,571 @@
-version: 2
+version: 3
 slug: abacus
 name: Abacus
 github:
   - url: https://github.com/abacus-network
-optimism:
+blockchain:
   - address: "0xa7eccdb9be08178f896c26b7bbd8c3d4e844d9ba"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x821d76954025fcf87db141ca5cbe36fec62ae14d"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x4ef980034e631cc0cfb3b065ab793611f1b6511a"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x0e2fefe9357453fc587fb11ef7c2ccdf56127f8a"
     tags:
       - contract
       - factory
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x5e8ee6840caa4f367aff1ff28aa36d5b1b836d35"
     tags:
       - contract
       - factory
     name: InterchainAccountRouter
+    networks:
+      - optimism
   - address: "0x81591fe51ebf220df55e633d9f5a3c3956b5e304"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x3a7ff7b700681a2655377cfdc88ee2031cf270e1"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xddf51d1f0f38ec98f60bab4ff7edfc7e47c4ea0d"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x21581de0cb0ce91e87b9d5124543c75fa01ed9cc"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xb7d42f065e32eb6fcaac7ef83902c56164328fe2"
     tags:
       - contract
       - factory
     name: StaticAggregationIsmFactory
+    networks:
+      - optimism
   - address: "0x99ca8c74ce7cfa9d72a51fbb05f9821f5f826b3a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb4caf2ca864b413daa502fa18a8d48cd0740fc52"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe047cb95fb3b7117989e911c6afb34771183fc35"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0e3239277501d215e17a4d31c487f86a425e110b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdc47edc036daae45d3f019ccfd443bf72fbd981c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x33e0c225a54a0a86e9b267e90a90de8cbb0fdb8f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x27e88aeb8ea4b159d81df06355ea3d20beb1de38"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd23115b7fc4c606fa27d431ee76ec8e292ebfe10"
     tags:
       - contract
     name: InboxValidatorManager
+    networks:
+      - optimism
   - address: "0x3a867fcffec2b790970eebdc9023e75b0a172aa7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2fa5f5c96419c222cdbcec797d696e6ce428a7a9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd88e9bb12f9e103f8a273aae954cd023d934f17c"
     tags:
       - contract
     name: InterchainAccountRouter
+    networks:
+      - optimism
   - address: "0xc5d6acaafbccec6d7fd7d92f4509befce641c563"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0761b0827849abbf7b0cc09ce14e1c93d87f5004"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism
   - address: "0x5e01d8f34b629e3f92d69546bbc4142a7adee7e9"
     tags:
       - contract
     name: UpgradeBeacon
+    networks:
+      - optimism
   - address: "0x8f1e22d309baa69d398a03cc88e9b46037e988aa"
     tags:
       - contract
     name: InboxValidatorManager
+    networks:
+      - optimism
   - address: "0x1052ef3419f26bec74ed7cef4a4fa6812bc09908"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x811808dd29ba8b0fc6c0ec0b5537035e59745162"
     tags:
       - contract
     name: Inbox
+    networks:
+      - optimism
   - address: "0xca41932888d323b3d99f5ea48f86d502055c0322"
     tags:
       - contract
     name: AbacusConnectionManager
+    networks:
+      - optimism
   - address: "0x14c3ceee8f431ae947364f43429a98ea89800238"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2f9db5616fa3fad1ab06cb2c906830ba63d135e3"
     tags:
       - contract
     name: InboxValidatorManager
+    networks:
+      - optimism
   - address: "0x149db7afd694722747035d5aec7007ccb6f8f112"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc760a72a536fdb936855612b13faaae2c123f772"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x4b44e4305b42405382b7bec717f64d0552a9d9fe"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism
   - address: "0xf5739a4af21346aa937bf7feb5d3b21c2d230138"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6119e37bd66406a1db74920ac79c15fb8411ba76"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism
   - address: "0x3a464f746d23ab22155710f44db16dca53e0775e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xaab1d11e2063bae5eb01fa946ca8d2fde3db05d5"
     tags:
       - contract
     name: MultisigIsm
+    networks:
+      - optimism
   - address: "0x182e8d7c5f1b06201b102123fc7df0eaeb445a7b"
     tags:
       - contract
     name: UpgradeBeacon
+    networks:
+      - optimism
   - address: "0xeb9fcfdc9efdc17c1ec5e1dc085b98485da213d6"
     tags:
       - contract
     name: Outbox
+    networks:
+      - optimism
   - address: "0x8249cd1275855f2bb20ee71f0b9fa3c9155e5fab"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8202df0d3a5ba6d65fabe63122faacc1529e054f"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism
   - address: "0xea87ae93fa0019a82a727bfd3ebd1cfca8f64f1d"
     tags:
       - contract
     name: Inbox
+    networks:
+      - optimism
   - address: "0xcdaebcc592da5c982b05e95039ff5f3467420223"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1fbe9a18ccb99e57a930553e788705aa0857757a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x19dc38aeae620380430c200a6e990d5af5480117"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism
   - address: "0x2b0860e52244f03e59f12cfe413d6a29bc30b893"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x64d8b60c2d5f4ff35d61b3f039df327618fd0896"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4a7841c848442d7830a336303c196abe03f23646"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x23ce76645ec601148fa451e751eeb75785b97a00"
     tags:
       - contract
     name: InboxValidatorManager
+    networks:
+      - optimism
   - address: "0xfb9e40d811cea562cc8a322b029ef2bdcc3ef6ed"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf767d698c510fe5e53b46ba6fd1174f5271e390a"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism
   - address: "0x15ab173bdb6832f9b64276ba128659b0ed77730b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe10de0d4f9889597786509600a92ae597551a853"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x0be2ae2f6d02a3e0e00ecb57d3e1fcbb7f8f38f4"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism
   - address: "0x61ddb465eea5bc3708cf8b53156ac91a77a2f029"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x552d41c0b5c774f529c956e7cc77d0e054d7afa8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0972954923a1e2b2aab04fa0c4a0797e5989cd65"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe5f7e241f9bb6a644e88f2ca38fc373196b5392b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x14abb1f28b06272c57c37723d0e671d1c3326679"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb57560ad9b5b608d3c24ded7a4461bb1c285d4b8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8428a1a7e97fc75fb7ba5c4aec31b55e52bbe9d6"
     tags:
       - contract
     name: InboxValidatorManager
+    networks:
+      - optimism
   - address: "0x931dfcc8c1141d6f532fd023bd87dae0080c835d"
     tags:
       - contract
     name: InboxValidatorManager
+    networks:
+      - optimism
   - address: "0x71b2644183eca86401c13577f5332fcc5e48352a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf7af65596a16740b16cf755f3a43206c96285da0"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism
   - address: "0x719952fb48d412ca65e8d129f6248a75de770b9f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc9c474707b587b5a2bf8f3fd51bfd6d45447651e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0d63128d887159d63de29497dfa45afc7c699ae4"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism
   - address: "0x8f7454ac98228f3504bb91ea3d8adafe6406110a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x79b3d752cc9494ecb93800712471a7a62954c8ae"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x82825c0884558c9c5a94b545e7563c95aba49197"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5188731ee98892d1e7d98b869d811624dadf94eb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb439336498b4e3588b2a54be774b674e64b8ae9c"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism
   - address: "0xbc9cd961bf6c224fac51fb049ab6788e38e4a9c0"
     tags:
       - contract
     name: Outbox
+    networks:
+      - optimism
   - address: "0x398633d19f4371e1db5a8efe90468eb70b1176aa"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x652e2f475af7b1154817e09f5408f9011037492a"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x16ed50f96ea655cb03638d7054e62e42afb7b4fa"
     tags:
       - contract
     name: InboxValidatorManager
+    networks:
+      - optimism
   - address: "0x086a21a16ef1133bf58a09a77e2a9e07d3b95c1c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6119b76720ccfeb3d256ec1b91218eeffd6756e1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa6f0a37dfde9c2c8f46f010989c47d9edb3a9fa8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x66dc49405ae2956f7e87feaa9fe8f506c8987462"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdfdf9b8b608e7d2bf7fc2e464c1cdd284ec43858"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x02d16bc51af6bfd153d67ca61754cf912e82c4d9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfdc940d5c148ba038505daa5524730644527229a"
     tags:
       - contract
     name: InboxValidatorManager
+    networks:
+      - optimism
   - address: "0xd83a4f747fe80ed98839e05079b1b7fe037b1638"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb3fccd379ad66ced0c91028520c64226611a48c9"
     tags:
       - contract
     name: InboxValidatorManager
+    networks:
+      - optimism
   - address: "0xe0c452dda7506f0f4de5c8c1d383f7ad866ea4f0"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism
   - address: "0xaad207a0fd7a4e3c927ccc78ac8134baf586b852"
     tags:
       - contract
     name: InboxValidatorManager
+    networks:
+      - optimism
   - address: "0x6fae4d9935e2fcb11fc79a64e917fb2bf14dafaa"
     tags:
       - contract
     name: InboxValidatorManager
+    networks:
+      - optimism
   - address: "0x3de63b62bef9da290f51f856ca9f3db4225edc05"
     tags:
       - contract
     name: InterchainAccountIsm
+    networks:
+      - optimism
   - address: "0xbdf3db1b31cf50463ae2a1f9264f9f392472353d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8b83fefd896faa52057798f6426e9f0b080fccce"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe1d1d8d58c4fef736c99655630f24ea48446435f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7082e975fde8d85b0c56b4512b437effb46f0a09"
     tags:
       - contract
     name: OutboxValidatorManager
+    networks:
+      - optimism
   - address: "0x4023f865e24a8ef4d3db85858d7bfdf2feaeb5c3"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0xa1ac41d8a663fd317cc3bd94c7de92dc4ba4a882"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism
   - address: "0x28efbcada00a7ed6772b3666f3898d276e88cae3"
     tags:
       - contract
     name: InboxValidatorManager
+    networks:
+      - optimism
   - address: "0x2f2afae1139ce54fefc03593fee8ab2adf4a85a7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xeab3b53b08926182324bf7e12d30a5393c394ce3"
     tags:
       - contract
     name: TestRecipient
+    networks:
+      - optimism
   - address: "0x2a532fc8cf9a72142ea8753a0d2ab68098c19585"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2fa570e83009eaeef3a1cbd496a9a30f05266634"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism
   - address: "0x2c1fabecd7bfbdebf27ccdb67baadb38b6df90fc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xea820f9bcfd5e16a0dd42071eb61a29874ad81a4"
     tags:
       - contract
     name: UpgradeBeaconProxy
+    networks:
+      - optimism

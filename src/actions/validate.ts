@@ -73,7 +73,9 @@ export async function validateProjects(args: ValidateArgs) {
     );
     project.github?.forEach((x) => addKey(x.url, file));
     project.npm?.forEach((x) => addKey(x.url, file));
-    project.optimism?.forEach((x) => addKey(`optimism:${x.address}`, file));
+    project.blockchain?.forEach((x) =>
+      x.networks.forEach((n) => addKey(`${n}:${x.address}`, file)),
+    );
   }
 
   // Make sure that there's only 1 project per key

@@ -1,117 +1,177 @@
-version: 2
+version: 3
 slug: saddle-finance
 name: Saddle Finance
 github:
   - url: https://github.com/saddle-finance
-optimism:
+blockchain:
   - address: "0x5bdb37d0ddea3a90f233c7b7f6b9394b6b2eef34"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xa9a84238098dc3d1529228e6c74dbe7ebdf117a5"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xf6c2e0adc659007ba7c48446f5a4e4e94dfe08b5"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xe184f7e575a5beb8f2409e8e2218cd770ddda2a6"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x9dc37020f261758871104f9d8b87e575ee45bc5a"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x5847f8177221268d279cf377d0e01ab3fd993628"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xc55e8c79e5a6c3216d4023769559d06fa9a7732e"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xa500b0e1360462ef777804bcae6ce2bfb524dd2e"
     tags:
       - contract
       - factory
     name: SwapFlashLoan
+    networks:
+      - optimism
   - address: "0x250184dddec6d38e28ac12b481c9016867226e9d"
     tags:
       - contract
       - factory
     name: MetaSwap
+    networks:
+      - optimism
   - address: "0x88cc4aa0dd6cf126b00c012dda9f6f4fd9388b17"
     tags:
       - contract
     name: MetaSwapDeposit
+    networks:
+      - optimism
   - address: "0x4f6a43ad7cba042606decaca730d4ce0a57ac62e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2b7a5a5923eca5c00c6572cf3e8e08384f563f93"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x149bbb210051851016f57a2824c0444f642833a6"
     tags:
       - contract
     name: GenericERC20
+    networks:
+      - optimism
   - address: "0xb10ac31a6e613c6fcb5522c19f4bdbcffa94f89d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbea9f78090bdb9e662d8cb301a00ad09a5b756e9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcf70e2f3567ba396f3dd04822f78ecd70ba46894"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdf815ea6b066ac9f3107d8863a6c19aa2a5d24d3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3a0c2a793a8db779e0293699d0ce77c77617fe0f"
     tags:
       - contract
     name: MetaSwapDeposit
+    networks:
+      - optimism
   - address: "0xeedb4e89e8032d04dfb3a33fd89344dddbe5ebde"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x220d6beedea6a6317dae19d39cd62eb7bb0ae5e4"
     tags:
       - contract
     name: MiniChefV2
+    networks:
+      - optimism
   - address: "0xae31207ac34423c41576ff59bfb4e036150f9cf7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x293ded6b7d8d37bfe1e66aadbdec9f87fedbd37f"
     tags:
       - contract
     name: PermissionlessDeployer
+    networks:
+      - optimism
   - address: "0xa29b548056c3fd0f68bad9d4829ec4e66f22f796"
     tags:
       - contract
     name: L2StandardERC20
+    networks:
+      - optimism
   - address: "0x4e1484607760118ebe2ab07c0c71f1b4d9671e01"
     tags:
       - contract
     name: PoolRegistry
+    networks:
+      - optimism
   - address: "0x0e510c9b20a5d136e75f7fd2a5f344bd98f9d875"
     tags:
       - contract
     name: MasterRegistry
+    networks:
+      - optimism
   - address: "0x5224e52878ab1c6076402e5c98f018d109131351"
     tags:
       - contract
     name: PermissionlessMetaSwap
+    networks:
+      - optimism
   - address: "0x3f1d224557afa4365155ea77ce4bc32d5dae2174"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x08f8611b996bf2f0fd7523b54e69bfb92dd43a81"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x979b44cfc7a9b54bed8a3c4fd674b09c194219fd"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x19a5ec09ee74f64573ac53f48a48616ce943c047"
     tags:
       - contract
+    networks:
+      - optimism

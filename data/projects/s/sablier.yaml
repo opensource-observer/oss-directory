@@ -1,17 +1,23 @@
-version: 2
+version: 3
 slug: sablier
 name: Sablier
 github:
   - url: https://github.com/sablier-labs
-optimism:
+blockchain:
   - address: "0x0298f4332e3857631385b39766325058a93e249f"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x6c5927c0679e6d857e87367bb635decbcb20f31c"
     tags:
       - contract
     name: Sablier
+    networks:
+      - optimism
   - address: "0xadb944b478818d95659067e70d2e5fc43fa3ede9"
     tags:
       - contract
+    networks:
+      - optimism

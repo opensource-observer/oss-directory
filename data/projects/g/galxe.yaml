@@ -1,36 +1,54 @@
-version: 2
+version: 3
 slug: galxe
 name: Galxe
 github:
   - url: https://github.com/galxehq
-optimism:
+blockchain:
   - address: "0x000061c160273811279508582a4afabc263d98d2"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x98422d38f6c408d0224b8fa4588b807ca5e66b17"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x2f374f704e0fa8cfa9f393eddbd0527c8008e993"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x580b9b9eb2d98c47752ecfe9e555d2d85450feae"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd570812e9553a03797246836f307e990d787ac0d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2e42f214467f647fe687fd9a2bf3baddfa737465"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x406b02e7ab35d4e1dbc8be8695f03b1f39fde734"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2f05e799c61b600c65238a9df060caba63db8e78"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x965a9b29e5661e412e259dd3c34551e83719b610"
     tags:
       - contract
+    networks:
+      - optimism

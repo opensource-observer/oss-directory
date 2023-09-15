@@ -1,24 +1,34 @@
-version: 2
+version: 3
 slug: coordinape
 name: Coordinape
 github:
   - url: https://github.com/coordinape
-optimism:
+blockchain:
   - address: "0xcb21ed4ca5c5fff8b1e21ddb7bbff8c6546ce5e6"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xc86fa04e2916f3558de23124fd90d1173666011d"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x47c2a56176335fb2b1ded8e7b5acb136d307dc2d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x65898cb482a821005e30ab98c0d7dc1032a48805"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd0d0cf7be1273b9267e1a80c5de867748fb84b14"
     tags:
       - contract
     name: CoSoul
+    networks:
+      - optimism

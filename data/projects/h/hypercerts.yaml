@@ -1,20 +1,28 @@
-version: 2
+version: 3
 slug: hypercerts
 name: Hypercerts
 github:
   - url: https://github.com/hypercerts-org
-optimism:
+blockchain:
   - address: "0xdc6d6f9ab5fcc398b92b017e8482749ae5afbf35"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x396d5f1ef3aa92ddad4dead04388374a03bc5577"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc6fbcfe16d5ebfed21ace224c49c94de49046a04"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x822f17a9a5eecfd66dbaff7946a8071c265d1d07"
     tags:
       - contract
     name: ERC1967Proxy
+    networks:
+      - optimism

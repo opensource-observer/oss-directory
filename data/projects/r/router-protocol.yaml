@@ -1,350 +1,542 @@
-version: 2
+version: 3
 slug: router-protocol
 name: Router Protocol
 github:
   - url: https://github.com/router-protocol
-optimism:
+blockchain:
   - address: "0xb00b19938346b745ccb3fc4fad946de0caa724a2"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xb00bc9e04698a3315b6038225a2e9e42d63c7669"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x6e14f48576265272b6caa3a7cc500a26050be64e"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xe8dda2680028aa334c5bf852b8e744abdb871c4f"
     tags:
       - contract
       - factory
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xb9f7fe50dca579a65d4f872167767bc968a822b9"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x2741986f69be3d3c92b23dc2f201517939678ba2"
     tags:
       - contract
     name: HandlerReserveUpgradeable
+    networks:
+      - optimism
   - address: "0x4c29d3d9a594dc680a3dd922c77aefd5832e6009"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x78d7fa35a0c18075b000f1acdd4f8ca23b3c5277"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x5cab1b7ddba3a59d307e6f4b55b7329e5abfb549"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6c12c88a82a54953c22e201b89ba92f173b1c8d8"
     tags:
       - contract
     name: ERC20HandlerUpgradeable
+    networks:
+      - optimism
   - address: "0xaf397edfdf3a37af5036ad6910ad529bf7e3d3a8"
     tags:
       - contract
     name: VoterUpgradeable
+    networks:
+      - optimism
   - address: "0x606285b3fe057fef83b23a56132b37d66f8740a2"
     tags:
       - contract
     name: BridgeUpgradeable
+    networks:
+      - optimism
   - address: "0x05bd0695af629185fd2dcb13a99a3f0e7ef73943"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0f1952b985188ace80006794e0a7eb710e72fbce"
     tags:
       - contract
     name: BridgeUpgradeable
+    networks:
+      - optimism
   - address: "0x65d1ab38a3318935f21ac43c7654d8255949bc9c"
     tags:
       - contract
     name: ERC1967Proxy
+    networks:
+      - optimism
   - address: "0x2a9fed1edccb6b303e5abb8c4db169f9d303ac0b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xacb3ee994f0e87caf09e586fed6651e417347451"
     tags:
       - contract
     name: OneSplit
+    networks:
+      - optimism
   - address: "0xefd52ce11898af9e4e0da8b85e69a39ef3253ea0"
     tags:
       - contract
     name: ERC1967Proxy
+    networks:
+      - optimism
   - address: "0x229ed380a02f65086d492fc5bcc0e83c9515473f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7765bf5987cd6a2362d47d75f7d9768fa25893ff"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6c27468b42c10cf376fdb3345cb7954fd5c30486"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6b0b101ca45c0a0add3ca1bd0a491156e56ab498"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe069adb7125fdbc577271441188d9b1b74146f76"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd701a0411efbf80dfdbeffdc3272152960749ee8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7511e4932363d428cc09e59379beef2c345fa203"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdc3375957cdf6e57837099f51da0cd56ead1c140"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x76870375c2c4b1965595551fc33e1e3ef0d87701"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa63f3147c6bae70a53a30e30421b1a992e60aac2"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x56b2fc450bfe527e19772688ab203d13060505c7"
     tags:
       - contract
     name: ERC1967Proxy
+    networks:
+      - optimism
   - address: "0x853c02c68c1fab2226ce2fa5eedacb05afaf6777"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4d68a3480e22c21f3b2c2a32d4ed2a2f4f36f680"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2d7d5f298067e81e8827eb686428881f4c988dc1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5dbfa614f6a0574333ee0efa577c388e7f2473cf"
     tags:
       - contract
     name: OneSplit
+    networks:
+      - optimism
   - address: "0xdfda34d21665485acda4c03da9a5a35dc4ffb0a0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x555d9bca6a6993fda91694b753b64c21fe09c647"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1680fe3450bd737c80e202003a9f0091c389db53"
     tags:
       - contract
     name: FeeManagerUpgradeable
+    networks:
+      - optimism
   - address: "0x03fda24f00020c7b1713290ac114692c1db217e1"
     tags:
       - contract
     name: BridgeUpgradeable
+    networks:
+      - optimism
   - address: "0xb5eb0528c6890f02d579c5cf8caf3d41caa7190f"
     tags:
       - contract
     name: BridgeUpgradeable
+    networks:
+      - optimism
   - address: "0x8e4bc58ec417cfb732b78433e543c106d774cad2"
     tags:
       - contract
     name: VoterUpgradeable
+    networks:
+      - optimism
   - address: "0x2397787a17e6044ae7beb2fbc8865b63532047ae"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x8413041a7702603d9d991f2c4add29e4e8a241f8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x67ce7f7bc81a074c1a425eb5c7d175f193438edc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf5266be1d9ffe69f57c750aaf04d6d4cda0eb490"
     tags:
       - contract
     name: ERC1967Proxy
+    networks:
+      - optimism
   - address: "0xd753ebf3041a084d902eb5a035c4c289ebfe0216"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd3262d349c8b160efe487366f0f04dddebe4d561"
     tags:
       - contract
     name: SequencerHandlerUpgradeable
+    networks:
+      - optimism
   - address: "0xf1684d1deb902864f2eb0849f50409599322ce16"
     tags:
       - contract
     name: ERC1967Proxy
+    networks:
+      - optimism
   - address: "0xa77c7f3ba954f4a420d8c51e33de23b36daabbac"
     tags:
       - contract
     name: VoterUpgradeable
+    networks:
+      - optimism
   - address: "0xb344973982d22a1dddc830b4877fb3eed5d54b65"
     tags:
       - contract
     name: ERC1967Proxy
+    networks:
+      - optimism
   - address: "0x77263ac8e34f462ff09b711d38aec99e5a67f9cc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbad3c121641159242ce9f30984f490e4cc74bb1c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1896450330872d9492834c30d40c450ef0b529f2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x00b8f3e184e5daaadb8fda995bbabbcc1b35ae93"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xae854724f31f41e47031ca7c47252e09fb517853"
     tags:
       - contract
     name: OneSplit
+    networks:
+      - optimism
   - address: "0xb41d9b7e27757c1081092c57880641c3d4a276cc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf0941fc0a3521cd46973fbbbe06fcdd4ba7d7388"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0427eaec63450789200a4702e23e22155428fc63"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xab107e8497c254879aa76d07f6114286d68811d9"
     tags:
       - contract
     name: OneSplit
+    networks:
+      - optimism
   - address: "0x33d9291cc2eaabebd011d76765526f0c4c7ffe86"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x870dd9dce39d9da54971d52a8558ee599b1c6b9a"
     tags:
       - contract
     name: OneSplitView
+    networks:
+      - optimism
   - address: "0xafd00d2176bc435c101ef425fa57d0cd83a243d1"
     tags:
       - contract
     name: OneSplit
+    networks:
+      - optimism
   - address: "0x065e424d9b4136ff04ff5f1e0cb3013255a130fb"
     tags:
       - contract
     name: HandlerReserveUpgradeable
+    networks:
+      - optimism
   - address: "0xbbad817c0acda0cdbf50fc6d40dec2f6a1e49575"
     tags:
       - contract
     name: FeeManagerGenericUpgradeable
+    networks:
+      - optimism
   - address: "0x1f6475d1a9c4cd87400417b447e686c93a781bd1"
     tags:
       - contract
     name: ERC1967Proxy
+    networks:
+      - optimism
   - address: "0x7383fbab142f4e81a754e49498ceb501e2020c5c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x22ef6e79e1a8448c82b56160424d67cdafbc18db"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2b6b20ceac439042edc6efd3d41b11af66013e58"
     tags:
       - contract
     name: RouterERC20Token
+    networks:
+      - optimism
   - address: "0x07ec822ed7a30c55467ccbbbac0838567f629bbf"
     tags:
       - contract
     name: HandlerReserveUpgradeable
+    networks:
+      - optimism
   - address: "0x6378693ae65c151ca8aa78149deabf316e58792c"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xbc565b8988f6d3963c35ca062d00b8bd5db8a68a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x972d38ca00c2e137d2bfb5db1d9b62ca2e9be890"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc7a26bb3d7524b4f4fd199beb33669d504547e8d"
     tags:
       - contract
     name: OneSplit
+    networks:
+      - optimism
   - address: "0x4f0a416851634c2da17978837e86c5c9cb27fe15"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf247b4f1f97077e25c67cb8cb7e0d8718ba9be6b"
     tags:
       - contract
     name: RouterERC20Token
+    networks:
+      - optimism
   - address: "0x9d7a498bbb4bdeeae409d965fbf2c7b61e3fdf3c"
     tags:
       - contract
     name: ERC1967Proxy
+    networks:
+      - optimism
   - address: "0x0c31c3649bbdb866809a28f6f4146a0c4c043fe9"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xe78d85a1a0356e02292606f2709e0c8ca737d764"
     tags:
       - contract
     name: FeeManagerUpgradeable
+    networks:
+      - optimism
   - address: "0xdacc998ec5193745b4eb6d9a9abea52d71448721"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9700104ac74c0d52e9441f3324adc97059ee429b"
     tags:
       - contract
     name: ERC1967Proxy
+    networks:
+      - optimism
   - address: "0xafc0c2ac31b30440c507f3f74bdfc4c9ef470297"
     tags:
       - contract
     name: BridgeUpgradeable
+    networks:
+      - optimism
   - address: "0x11f7124e71fa927457d7c3dcbf6ec8b058682890"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x68079af32e370282908f07f3e46e928e8ac82e07"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf18acc02628009231d7baaf9a7a24c0860dda6cb"
     tags:
       - contract
     name: ERC1967Proxy
+    networks:
+      - optimism
   - address: "0xf6a101810698f5b399bab6ad95f78ee2744bab84"
     tags:
       - contract
     name: ERC20HandlerUpgradeable
+    networks:
+      - optimism
   - address: "0x8643548aa389215575cd3639c681826b8cc0d29e"
     tags:
       - contract
     name: FeeManagerUpgradeable
+    networks:
+      - optimism
   - address: "0x151914f4681e2de71525a7056dc79b832a6c13d7"
     tags:
       - contract
     name: OneSplitView
+    networks:
+      - optimism
   - address: "0x8820a3ef36a35d297cdf6ca7033ac5a3b284048c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf44ff799ea2bbfec96f9a50498209aac3c2b3b8b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfbcc03cc87e67a50c8393cfb2e15475bd3ff01b0"
     tags:
       - contract
     name: BridgeUpgradeable
+    networks:
+      - optimism
   - address: "0x692777684e0a276f1096f56c5bafc0c7691f17cb"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x0fb17b077d3b76fe4c23842ea2921dde47141044"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x9535b6873bbcd4b765673d690001c65af8310ade"
     tags:
       - contract
     name: ERC20HandlerUpgradeable
+    networks:
+      - optimism
   - address: "0xea55fc8e7e0f97fea8e53d676ae162e09c5b593b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf3b4222b5b9708ae4008d3d220f70fab47433e73"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xef3da260582490370dad046ac3570647ece80ecd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x47f0af4bf073eda632a1257b2093ad32dec27177"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x73e26e955d0b7007d65c2fea4737b764554d5324"
     tags:
       - contract
     name: ERC1967Proxy
+    networks:
+      - optimism

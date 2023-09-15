@@ -1,18 +1,24 @@
-version: 2
+version: 3
 slug: stackup
 name: Stackup
 github:
   - url: https://github.com/stackup-wallet
-optimism:
+blockchain:
   - address: "0x8cf905c50f25a481171e7f5936625754d44a9537"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x71d63edcda95c61d6235552b5bc74e32d8e2527b"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xfe7dbcab8aaee4eb67943c1e6be95b1d065985c6"
     tags:
       - contract
     name: VerifyingPaymaster
+    networks:
+      - optimism

@@ -1,14 +1,18 @@
-version: 2
+version: 3
 slug: orbiter-finance
 name: Orbiter Finance
 github:
   - url: https://github.com/orbiter-finance
-optimism:
+blockchain:
   - address: "0x8a700fdb6121a57c59736041d9aa21dfd8820660"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xd9d74a29307cc6fc8bf424ee4217f1a587fbc8dc"
     tags:
       - contract
     name: OBSource
+    networks:
+      - optimism

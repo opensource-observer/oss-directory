@@ -14,9 +14,16 @@
         "enum": ["eoa", "safe", "creator", "factory", "proxy", "contract"]
       }
     },
+    "networks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "enum": ["mainnet", "optimism"]
+      }
+    },
     "name": {
       "type": "string"
     }
   },
-  "required": ["address", "tags"]
+  "required": ["address", "tags", "networks"]
 }

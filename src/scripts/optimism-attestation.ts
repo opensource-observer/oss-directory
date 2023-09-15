@@ -129,11 +129,11 @@ async function getData(
   );
   const githubRepoUrl = githubList[0].url; // Assumes the first URL is the monorepo or owner URL
 
-  const optimismList = ensure(
-    project.optimism,
+  const blockchainList = ensure(
+    project.blockchain,
     "No Optimism addresses found in the project file",
   );
-  const attestations = optimismList.map((item: BlockchainAddress) => {
+  const attestations = blockchainList.map((item: BlockchainAddress) => {
     if (!ethers.utils.isAddress(item.address)) {
       throw new Error(`Invalid Ethereum address: ${item.address}`);
     }

@@ -1,200 +1,306 @@
-version: 2
+version: 3
 slug: worldcoin
 name: Worldcoin
 github:
   - url: https://github.com/worldcoin
-optimism:
+blockchain:
   - address: "0x86c5608362b3fbbeb721140472229392f754ef87"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x7d896339a80dd38bc3bbb04383894c62b2ef2585"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x36bde71c97b33cc4729cf772ae268934f7ab70b2"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x8656583094ad52aaccecf23336f08d9d6f716d8c"
     tags:
       - contract
     name: LaunchGrant
+    networks:
+      - optimism
   - address: "0x73ca6abf09f636bbd3f5838e7e4fd3ae1da838ec"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd6ea754b26b73e2196d02285e1ac8e1afedb5c38"
     tags:
       - contract
     name: WeeklyGrant
+    networks:
+      - optimism
   - address: "0x402cf55cd702711320e83382c786996d0fbf81ec"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x30815c496af3b9d0c148f49b847081e4685ca12f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfd28148c5e245b8878b47251a15b08715c9b23b0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2fccf897309f15be6627ede1691ef34eb54d1d57"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x138a8fe6537b0f287c085519d54c2063fc05f200"
     tags:
       - contract
     name: SafeDeployer
+    networks:
+      - optimism
   - address: "0xe773335550b63eed23a6e60dcc4709106a1f653c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1b6a6f5b6815b87ba3ed3f022870750f9c57f5ca"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1be0861e15316618872e2000e564ab1df1b3006a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x43c476939ad8217693a6c1e4d4655f8a7b2feef8"
     tags:
       - contract
     name: LaunchGrant
+    networks:
+      - optimism
   - address: "0x06621dff1d667e464145c29e3c90a52b172bc422"
     tags:
       - contract
     name: ApprovalSwapRouter
+    networks:
+      - optimism
   - address: "0xe89fa795611a1da4cf5e4c7ec908f4244f13aad1"
     tags:
       - contract
     name: WeeklyGrant
+    networks:
+      - optimism
   - address: "0xd237f0ccfbb0f4fbb8cb8c16e59487f80ed3fe94"
     tags:
       - contract
     name: RecurringGrantDrop
+    networks:
+      - optimism
   - address: "0xae88c4e320c284aed8c89c45946e895cb262f55e"
     tags:
       - contract
     name: WeeklyGrant
+    networks:
+      - optimism
   - address: "0xb6a6dd4f6eed46f71bc581f69d4c96e6c2c0a70c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8f0ab8a75d6e7c762c11bbc63df4ba3b268fadf8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x88221c5fdaa5266e7ff54eb7f2751003313a5226"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc460e23914e425be5512ee6bc2c2e0e7e09b57a2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe29bd1215729cb4dfdc7baf3f763391ffdf148b0"
     tags:
       - contract
     name: RecurringGrantDrop
+    networks:
+      - optimism
   - address: "0x90927c982c4c657c3065a7c3070bd05a0d0d9a75"
     tags:
       - contract
     name: MultiAllowance
+    networks:
+      - optimism
   - address: "0x1a86bb2bb53b778e8f0d6000e56424ac3253cbba"
     tags:
       - contract
     name: MultiAllowance
+    networks:
+      - optimism
   - address: "0x300b5be28cd30e6cf580b9eafaeecbc0e11528cf"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb5fbfeba9848664fd1a49dc2a250d9b5d1294f2a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x924481dd36f80e4c124d0018d941add526f5aff5"
     tags:
       - contract
     name: WeeklyGrant
+    networks:
+      - optimism
   - address: "0xdc6ff44d5d932cbd77b52e5612ba0529dc6226f1"
     tags:
       - contract
     name: OptimismMintableERC20
+    networks:
+      - optimism
   - address: "0xc26146969607b37e578a590db12b3aa885710f56"
     tags:
       - contract
     name: RecurringGrantDrop
+    networks:
+      - optimism
   - address: "0x7d8ee5298bd0b4857c245be223d9ba5a64faeb0a"
     tags:
       - contract
     name: RecurringGrantDrop
+    networks:
+      - optimism
   - address: "0x3bed4d42859593a1f16934b8c24792e781052348"
     tags:
       - contract
     name: RecurringGrantDrop
+    networks:
+      - optimism
   - address: "0x96d55bd9c8c4706fed243c1e15825ff7854920fa"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x4055b6d4018e92e4d000865e61e87b57a4e5ab49"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x42ff98c4e85212a5d31358acbfe76a621b50fc02"
     tags:
       - contract
       - factory
     name: OpWorldID
+    networks:
+      - optimism
   - address: "0x316eb4c12edb9bb9e8721663444bb9818e6fab67"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x047ee5313f98e26cc8177fa38877cb36292d2364"
     tags:
       - contract
     name: Pairing
+    networks:
+      - optimism
   - address: "0x78ec127a3716d447f4575e9c834d452e397ee9e1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x379c62556c665f1edd25f2c2a0f76bc70a53b2e4"
     tags:
       - contract
     name: Pairing
+    networks:
+      - optimism
   - address: "0x11ca3127182f7583efc416a8771bd4d11fae4334"
     tags:
       - contract
     name: WorldIDRouterImplV1
+    networks:
+      - optimism
   - address: "0x57f928158c3ee7cdad1e4d8642503c4d0201f611"
     tags:
       - contract
     name: WorldIDRouter
+    networks:
+      - optimism
   - address: "0x847c8a790dfdd53f502cd97f4c17f904687dfb30"
     tags:
       - contract
     name: LaunchGrant
+    networks:
+      - optimism
   - address: "0x41b7db94188e0f35333f0adaefd36780336c7a86"
     tags:
       - contract
     name: LaunchGrant
+    networks:
+      - optimism
   - address: "0xb88ef752f2b0d705d9ddccde7a7e90638149c4cb"
     tags:
       - contract
     name: LaunchGrant
+    networks:
+      - optimism
   - address: "0xf00cdc6de55c724165fded6b4fa70cd601443d9e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1907c69f21e04b5ac796b87dc3ee4e278b5615e1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe82ba3ef327528ca96f88a6df120bc7cc51cf3e2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x52efad2fb19d2a95ea2c1ff07585817096a9af65"
     tags:
       - contract
     name: LaunchGrant
+    networks:
+      - optimism
   - address: "0x61cdc90a8ae37358bc58a859877fbf29fff56405"
     tags:
       - contract
     name: LaunchGrant
+    networks:
+      - optimism
   - address: "0xba258c29a5d8e89d99d4e9656069e1ba50a66e75"
     tags:
       - contract
     name: LaunchGrant
+    networks:
+      - optimism
   - address: "0x4610074f164a78ea56927ce088d786a7c9a0a0d2"
     tags:
       - contract
     name: LaunchGrant
+    networks:
+      - optimism
   - address: "0x8978a99db900c99acff33bdd0baa5852664d72bc"
     tags:
       - contract
     name: LaunchGrant
+    networks:
+      - optimism

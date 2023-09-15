@@ -1,26 +1,36 @@
-version: 2
+version: 3
 slug: aloe-ii
 name: Aloe II
 github:
   - url: https://github.com/aloelabs
-optimism:
+blockchain:
   - address: "0xee312ddc7ace9f08728241bf2693b67d3428271b"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x000000000008b34b9c428ddc00f54d49105da313"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x3601ccd1f6843cd1073f2f769f70905656168ef0"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x95110c9806833d3d3c250112fac73c5a6f631e80"
     tags:
       - contract
       - factory
     name: Factory
+    networks:
+      - optimism
   - address: "0x0000000000f0021d219c5ae2fd5b261966012dd7"
     tags:
       - contract
+    networks:
+      - optimism

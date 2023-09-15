@@ -1,21 +1,29 @@
-version: 2
+version: 3
 slug: maker-dao
 name: MakerDAO
 github:
   - url: https://github.com/makerdao
-optimism:
+blockchain:
   - address: "0x075da589886ba445d7c7e81c472059de7ae65250"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x467194771dae2967aef3ecbedd3bf9a310c76c65"
     tags:
       - contract
     name: L2DAITokenBridge
+    networks:
+      - optimism
   - address: "0x71d75c3d100d14d4db0ce7a83d0de48ecec32d19"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
     tags:
       - contract
     name: Dai
+    networks:
+      - optimism

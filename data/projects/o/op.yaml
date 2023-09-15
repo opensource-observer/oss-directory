@@ -1,27 +1,39 @@
-version: 2
+version: 3
 slug: op
 name: OP
 github:
   - url: https://github.com/ethereum-optimism
-optimism:
+blockchain:
   - address: "0xab1ef74d2c461e95f4b658ca1f94ac519ad80ba2"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xcde47c1a5e2d60b9ff262b0a3b6d486048575ad9"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x1ea3e20a3d0f9cb2cc6e4a5ae8e8ed4dfce21f37"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x4200000000000000000000000000000000000042"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfedfaf1a10335448b7fa0268f56d2b44dbd357de"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x724604db3c8d86c906a27b610703fd0296eb26d5"
     tags:
       - contract
+    networks:
+      - optimism

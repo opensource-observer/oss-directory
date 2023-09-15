@@ -1,25 +1,35 @@
-version: 2
+version: 3
 slug: x-dao
 name: XDao
 github:
   - url: https://github.com/xdao-app
-optimism:
+blockchain:
   - address: "0x5befa2d163e40e148df83921e1cc59e044df5471"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x72cc6e4de47f673062c41c67505188144a0a3d84"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xca49ecf7e7bb9bbc9d1d295384663f6ba5c0e366"
     tags:
       - contract
       - factory
     name: Shop
+    networks:
+      - optimism
   - address: "0x71eeba415a523f5c952cc2f06361d5443545ad28"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3730bdc5ddf4286a8778dcb19da638db1da981ad"
     tags:
       - contract
+    networks:
+      - optimism

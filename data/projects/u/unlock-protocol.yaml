@@ -1,25 +1,35 @@
-version: 2
+version: 3
 slug: unlock-protocol
 name: Unlock Protocol
 github:
   - url: https://github.com/unlock-protocol
-optimism:
+blockchain:
   - address: "0xe5cd62ac8d2ca2a62a04958f07dd239c1ffe1a9e"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x99b1348a9129ac49c6de7f11245773de2f51fb0c"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x4064206b0a1f5ba603dd8016ee36141f54506051"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x225a86073c75f704bffc177d6d71cb2df5648393"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0xe60cfcef001312aab2548fb19a508efed7370ceb"
     tags:
       - contract
     name: Unlock
+    networks:
+      - optimism

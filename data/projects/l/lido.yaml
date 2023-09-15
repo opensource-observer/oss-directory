@@ -1,32 +1,46 @@
-version: 2
+version: 3
 slug: lido
 name: Lido
 github:
   - url: https://github.com/lidofinance
-optimism:
+blockchain:
   - address: "0x2c01f405e3c525c0cb867789aaf077f3553ccbb7"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x92834c37df982a13bb0f8c3f6608e26f0546538e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8e01013243a96601a86eb3153f0d9fa4fbfb6957"
     tags:
       - contract
     name: OssifiableProxy
+    networks:
+      - optimism
   - address: "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb"
     tags:
       - contract
     name: OssifiableProxy
+    networks:
+      - optimism
   - address: "0x23b96add54c479c6784dd504670b5376b808f4c7"
     tags:
       - contract
     name: L2ERC20TokenBridge
+    networks:
+      - optimism
   - address: "0x2a61d3ba5030ef471c74f612962c7367eca3a62d"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xfdb794692724153d1488ccdbe0c56c252596735f"
     tags:
       - contract
+    networks:
+      - optimism

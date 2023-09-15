@@ -1,207 +1,313 @@
-version: 2
+version: 3
 slug: mirror
 name: Mirror
 github:
   - url: https://github.com/mirror-xyz
-optimism:
+blockchain:
   - address: "0x03238279fa90dca3a02a65113f290cea01d48d87"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x3527a204a5260a0e36ca695312379370328e4e6c"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x57ade2f6723dea166d17694a576403ba9750762d"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x59ca05674f5073f95f292aaca2d28a7dc80f12d6"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x60e1980343558c4c9d8f323f45d3e0e256bdb16c"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x6102d098c063a1f282a9196428946d4e3a7bb754"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x302f746ee2fdc10ddff63188f71639094717a766"
     tags:
       - contract
       - factory
     name: WritingEditionsFactory
+    networks:
+      - optimism
   - address: "0x2d4b7ec9923b9cf22d87ced721e69e1f8ed96a0a"
     tags:
       - contract
       - factory
     name: WritingEditionsFactory
+    networks:
+      - optimism
   - address: "0x9393528e747e03745a735547be6c2bf7292b83a2"
     tags:
       - contract
       - factory
     name: WritingEditionsFactory
+    networks:
+      - optimism
   - address: "0x522d24bd0312b07bde8dc072088f3d49a5365ff7"
     tags:
       - contract
       - factory
     name: WritingEditionsFactory
+    networks:
+      - optimism
   - address: "0x642c7cada8750232c2a5c30f4093924d9ea4f00f"
     tags:
       - contract
       - factory
     name: WritingEditionsFactory
+    networks:
+      - optimism
   - address: "0xc0b578f0ebdcd682acdda456e2d39bdcf6f75aa6"
     tags:
       - contract
       - factory
     name: WritingEditionsFactory
+    networks:
+      - optimism
   - address: "0x8ce57b2b12b32ecdfb780a104901d68202b4e18e"
     tags:
       - contract
       - factory
     name: WritingEditionsFactory
+    networks:
+      - optimism
   - address: "0x5fccb9032109a5f2624be628269c4300916ef05d"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xb8735d76245fbfd6e42cfad1f98f2b2fe0c47e53"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x53d4f11bba4350a904c52fe9357b70ec18193901"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xec6a98c5605ac12603b178f1b6fff2ecc0d98124"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5c61fa95b6ba81ead454e579c3809aec324ee138"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7b44d15c256b6c60d60a8d7c858a883a01bfd4d4"
     tags:
       - contract
     name: SignatureDropDeployer
+    networks:
+      - optimism
   - address: "0x6da5f047b1ec9e822f132efdf02e76eddf29dbf5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x873f43085aec1a18f253edb7398b77cc361d8d14"
     tags:
       - contract
     name: TestSignatures
+    networks:
+      - optimism
   - address: "0x96d61648dbc12c3d1c3f0f0e1d53f14eeb504ea1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x55dcbb4e42e0662e0a8b9c39a8eaf7a36f34ae77"
     tags:
       - contract
     name: Words
+    networks:
+      - optimism
   - address: "0xc0ec9535fd3eda2a868c631d77721b258c2802bf"
     tags:
       - contract
     name: SignatureDropDeployer
+    networks:
+      - optimism
   - address: "0x004d8438f4016a96f2d6ddc17808f4e40b47cde6"
     tags:
       - contract
     name: TreasuryConfiguration
+    networks:
+      - optimism
   - address: "0xcbb91676a6e26f3a20b6ce8dfc91fc42d6bdf64f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2c4a94874e4dd52153ce2f2a4574b858928c1804"
     tags:
       - contract
     name: TributaryRegistry
+    networks:
+      - optimism
   - address: "0x5103ca9c34277570ed7c8f863a07db7868d4f278"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xef566f012080371d0facb933b81a2dbc9a598396"
     tags:
       - contract
     name: MirrorSignatureMinter
+    networks:
+      - optimism
   - address: "0x680f5da83cc5327203ef6ddec4b941363fa37086"
     tags:
       - contract
     name: MirrorRendererV2
+    networks:
+      - optimism
   - address: "0x6a4e77905d107bfc8bac70afddb14f9a9d41cfc4"
     tags:
       - contract
     name: WritingEditions
+    networks:
+      - optimism
   - address: "0x25d83cd5205b76b7b1407f8b18bcb9bded3928d2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x73a31b27ed067b3612d941973407306207d67bc4"
     tags:
       - contract
     name: Words
+    networks:
+      - optimism
   - address: "0xcef74aedde1a8e30f5485380d4cadb0ed7e46697"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa698713a3bc386970cdc95a720b5754cc0f96931"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1648323b9526367fa7d3dbadae19f2e3ececbd14"
     tags:
       - contract
     name: WritingEditions
+    networks:
+      - optimism
   - address: "0x33ce254f40ca40fad2ce3d8c78a0b1660cc4bbb0"
     tags:
       - contract
     name: WritingEditions
+    networks:
+      - optimism
   - address: "0xeb53cb07320ed7def5d6e1664df7fb8841062377"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3cbdf3f47cbc1a6a2e64eafd1712bb5e5c186df0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x72906247d4aa8a9a12895362e728554fd96d0eb0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1365e01c8ab4c6cd8db2fe9ea640cd64c2239087"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4bc186b659a50b6aa09d853988c20d97dd899753"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfd7c7f0b10acdd4f2ee2ea5111767b98d42d0a07"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x99dfbf22d2d6d49086bbabeb79a9c3b635020054"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6b9d932c38c84904b5f97a514fc1fc7a1c1b5e0b"
     tags:
       - contract
     name: TestSignatures
+    networks:
+      - optimism
   - address: "0x3f2408693cc2e0c8e0bb68f039ceb6deac0ec072"
     tags:
       - contract
     name: Observability
+    networks:
+      - optimism
   - address: "0xb746c7cb1f1394a904e7df55387897aff475fefd"
     tags:
       - contract
     name: FeeConfiguration
+    networks:
+      - optimism
   - address: "0x8edc2cfca57c92133450b8f34e14d50260c39d38"
     tags:
       - contract
     name: WritingEditions
+    networks:
+      - optimism
   - address: "0xfd8077f228e5cd9ded1b558ac21f98ecf18f1a28"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1c1b5e12a8a360a6eb29302358879eed8954c9f6"
     tags:
       - contract
     name: TestSignatures
+    networks:
+      - optimism
   - address: "0x517bab7661c315c63c6465eed1b4248e6f7fe183"
     tags:
       - contract
     name: Words
+    networks:
+      - optimism
   - address: "0x687be8d213d49bc353d60298c51d8823632d8158"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xb962eb5436076d0b092704c8db0332b0aa6d737b"
     tags:
       - contract
     name: MirrorSignatureMinter
+    networks:
+      - optimism

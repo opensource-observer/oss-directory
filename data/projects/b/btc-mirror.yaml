@@ -1,13 +1,17 @@
-version: 2
+version: 3
 slug: btc-mirror
 name: BtcMirror
 github:
   - url: https://github.com/dcposch/btcmirror
-optimism:
+blockchain:
   - address: "0x35a9f94af726f07b5162df7e828cc9dc8439e7d0"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x69ee459ca98cbdecf9156b041ee1621513aef0c6"
     tags:
       - contract
+    networks:
+      - optimism

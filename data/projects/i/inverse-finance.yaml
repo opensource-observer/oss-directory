@@ -1,49 +1,71 @@
-version: 2
+version: 3
 slug: inverse-finance
 name: Inverse Finance
 github:
   - url: https://github.com/InverseFinance
-optimism:
+blockchain:
   - address: "0xc253af7b80f3dd3d469bf4b94aa9e3df59e71e43"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x7e228b6edefc9ba4cd0510ee82d85023f0d286f1"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x2b00665528d5af5ac9b9beee51869f66b3da16dc"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xefd6d473b53a6a6f00c6ebec8a81e8a9b6a51332"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x39445dec9ba7fb3776e8e5f9922864ddb9089304"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x181310162572b8d292cfccea03818a1b8ae56cc3"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x99e605f4ff0e7c8cd07437a14c0ec27ad2f4ba45"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x77ec900b2ce4c6f2bf68950edf13532af9ee5593"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x537c99d917fff8e893f522bb08d28ff18f2966fb"
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x8ae125e8653821e851f12a49f7765db9a9ce7384"
     tags:
       - contract
     name: L2StandardERC20
+    networks:
+      - optimism
   - address: "0xc2fbb8cbfd3bd833be6830d4fd3c9034393e08f8"
     tags:
       - contract
+    networks:
+      - optimism

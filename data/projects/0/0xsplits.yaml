@@ -1,4 +1,4 @@
-version: 2
+version: 3
 slug: 0xsplits
 name: 0xSplits
 github:
@@ -6,28 +6,38 @@ github:
 npm:
   - url: https://www.npmjs.com/package/@0xsplits/splits-sdk
   - url: https://www.npmjs.com/package/@0xsplits/splits-contracts
-optimism:
+blockchain:
   - address: "0x9ebc8e61f87a301ff25a606d7c06150f856f24e2"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x4df01754ebd055498c8087b1e9a5c7a9ad19b0f6"
     name: WaterfallModuleFactory
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x2ed6c4b5da6378c7897ac67ba9e43102feb694ee"
     name: SplitMain
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0xdecd8b99b7f763e16141450daa5ea414b7994831"
     name: LiquidSplitFactory
     tags:
       - contract
       - factory
+    networks:
+      - optimism
   - address: "0x0a2841630f198745a55c4dab3fe98f77271949e5"
     name: VestingModuleFactory
     tags:
       - contract
       - factory
+    networks:
+      - optimism

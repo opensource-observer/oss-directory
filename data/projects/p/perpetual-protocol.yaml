@@ -1,3549 +1,5547 @@
-version: 2
+version: 3
 slug: perpetual-protocol
 name: Perpetual Protocol
 github:
   - url: https://github.com/perpetual-protocol
-optimism:
+blockchain:
   - address: "0x849a19c0746fb0d335e02dec0d0b3e057e585176"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x512472840327530ea03cce6f58966b221f3a8b6a"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x2ae8831a00b3ebd603c0028b317cf30e578a4a3c"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x8ac863a9142781378ed302ab96105cada1697e85"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xf664e938de3f58b7ba5307076d6bbab027a2b112"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0x669145d1e1565eaa3f2794d5764917c1530f9cc4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3b0f28ba2c0743d968cc356cf277560108cb3f37"
     tags:
       - contract
     name: ChainlinkPriceFeedV2
+    networks:
+      - optimism
   - address: "0x4603fa8f565b36e17586e3efb621b2f86d3ee993"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe566e89262fedb8e43677e11d8e1a746c67b8a2a"
     tags:
       - contract
     name: PerpLiquidityMining
+    networks:
+      - optimism
   - address: "0xe213f52e59fba46e8920c248bd11721fbb0475c0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5d1834350704db609c244a4c2e81be5526852756"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xc8486c57f8d1e01b440363db6f148681b829c685"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0x38b2535b4d6d395d505aeac63200ad8783a08a3b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x79e45d7f55cebc7321d7e868ef6571ac7aa2b29e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3ea18d4e4f66298f13f3019db26f263f285fe462"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x21f0a827943c22f79f87ef612a98829ec5f86d7f"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x4d20ed474dd0be231a265ff7305327c8581313d9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4c82e283c5519c04d4d53eb9d049a2e0db73eb41"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7e640dd1ed987171a0353155901b88948a721a9c"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x49755aae322b9c6b76c7843bcf5afa5b11cba99b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5e5bfe3f4f9a6fa9affdc8cc654a8e2595a7ff50"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x0824b0e8759aa958e7dbfb338de779f698a3e0b2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xed54bbfdba40c9390f8b9b0174811cacc442fdf8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe1fdaefe7531bfeaf7d9ba5497c675adcb05837f"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x7105b732f2f0d5a6f7bdb159f0074b8587e2425b"
     tags:
       - contract
     name: Multicall2
+    networks:
+      - optimism
   - address: "0x0569274a0f32a1bf9438b07d47011594ef6d1eb4"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xf44e50784264d4f227fbf426484a9645704367b2"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0x939aa93354709524f6e99447718015cbbaccee80"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x72b664d82b0d1b4e3d9c18d73c4c8109233b4bad"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1990446cc2fe92b097e837985741404920a29751"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2c5c54ae1d7e2f5eb24012a5b1db46d0190c9044"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4bd6123d0243b378d49a4875ddd06cf36de95fa8"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x9a3a364018bbb0ddc9d19049eeb23c60fb802524"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0x372a8ab3e03a197f09dcc64bfdeabf0d43d98c22"
     tags:
       - contract
     name: Vault
+    networks:
+      - optimism
   - address: "0x19188bc00a3666bedc618f02f7d6ce48b67b3df4"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0x12f24251c01f39f4fb81ab0eb7cda542f9f40b35"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2e3079a976d38d5930f2ef18235e5dde54df16d6"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x7913c7da57a53b58ab98b7a569d3f2f23caec981"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4b629d0b4dc2a73e1f9163e997f6f384ba20db8a"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xb668d970a9f10a05162a401768f4ce1bb289e4e7"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0xaf4f641a51bbf5a8638de13a79ae2c0be7565ca8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x59bd601fd9ab091a62a669aa4c12aa6c6e43e235"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x032ed2fc1c42c47faafe6bbf54899a8ba1b719ec"
     tags:
       - contract
     name: CollateralManager
+    networks:
+      - optimism
   - address: "0xc6e3f755725d174a6b7923a2d8a8b3db73ba8d0c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x772f48f073c1f328c264619fc3bba28e3efdefb0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8537ec3fcad0cf8ba7d9038b639f33a1cea43b75"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9bd8a303ef63606c68e033f90f7fa1fc94c257cd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x02ec0d78a6e981dde14efef0792774fd236645a7"
     tags:
       - contract
     name: LimitOrderBook
+    networks:
+      - optimism
   - address: "0x6098ab0ff92d2d022a8f862f9fd95baa541c41c3"
     tags:
       - contract
     name: ClearingHouseConfig
+    networks:
+      - optimism
   - address: "0x2d107fa6a4ea70be788da482be502e759646897e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x210863729508500ae4b4f6cdcd0c083ae6dd8b94"
     tags:
       - contract
     name: InsuranceFund
+    networks:
+      - optimism
   - address: "0xb6599bd362120dc70d48409b8a08888807050700"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x722ef09f933f09069257c68563b715486365b895"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe6410ef478f3ba4a9d983d205226acc6cc794b07"
     tags:
       - contract
     name: Vyper_contract
+    networks:
+      - optimism
   - address: "0x239240e8cb50114b097c71819c56a3a4ea91d516"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0xf7ab0a71c8b33652ebb55c3ee80e79c84f3e600b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb7c6b934fb64ee968dabef05274813ddfe42f309"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3b4b740a398c52c0aa3c647e560950fb36047b87"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0x748a38f4a430504deb15fd5bb157dd466f8284b9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x48118cef3d2b980ce92f136232cf1f2c328a540a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb0747415339f270543898e9fa97e6526c4ff2961"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x129f21c9bc7f348738dd6cf8e3baeaa12eac78d4"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xc668ed8d5fe77316ddbd2444359a04ab380765f0"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xb8c1f850aa136f5414097ee5ded65fffeeaa93b9"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xb8579434256ae1d9e691e00fd68a6c8dd3d0aefd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe1cfba047ef7f009c79dd9dabd8c464938a4fa90"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x3e3243ebca4af1c7ddf2d3fcd1cc4b771b983054"
     tags:
       - contract
     name: BandPriceFeed
+    networks:
+      - optimism
   - address: "0x3c16d5f2f47e8ac0fe7c063afec318019815eeb7"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0x7d462952c003b80fe16bbe826e4ae34cfc4aebb9"
     tags:
       - contract
     name: ChainlinkPriceFeedV2
+    networks:
+      - optimism
   - address: "0x371ac283b53f19a24598fc7e0b5c6406ae5e0927"
     tags:
       - contract
     name: LimitOrderRewardVault
+    networks:
+      - optimism
   - address: "0x6bd7a1371952eb7dd45d8555d7cfdc3fa521bb3e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x228ec1d32567678d5a0fce16cce2a1804743391f"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xb8e1b172098a80ddd3c3e33697594c340c562f12"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x71e5df9b92b5e1aa8993d882eb4f18986e87d3c2"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0x9a5d8cfbcbc67a806ae63f32ac2963aa88b4d092"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xc98ef8491606af40a4a7a1fcbf39ccb9beb48faf"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1cb0009757ba38ecc15dbc7f607b293b2c488c6b"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xb2bf3132488f383ecbde0c299c53f1c735277842"
     tags:
       - contract
     name: PerpBuybackPool
+    networks:
+      - optimism
   - address: "0xf3b187d01c0fee921762ee774f9bb9fc6254e63b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x696316bf68a72f01ec95cfb92e38e6e5c15c6ba6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x79c6a1ea9b1dbdeba5d0870993d5a561118850f2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x23bf79a3ebae5dd30ab919ff853f795de023beed"
     tags:
       - contract
     name: Vault
+    networks:
+      - optimism
   - address: "0x34235c8489b06482a99bb7fcab6d7c467b92d248"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb87749c21a9d65198c4937480fb19e1f4d6708a8"
     tags:
       - contract
     name: Vault
+    networks:
+      - optimism
   - address: "0x4b58c9022faf4c4e6dccf256e311bab41bba72c5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xddde0c1bb69fc81d9ec13bc82e96d52fea2ea4d6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2d0e51c782d609854177c6a61aacb25f329a2f16"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x1e34e2114b2a51f29653f9c6f994135a69f7bc3e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6dd52f76abcade1959b45569c696eafadcad3b74"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x00a0b6d11ca762fce125597a52135f2b007d19dd"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x05a60aac6b2a2101e35f834dff6b3c4ec7ad3827"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x4cc1d3a85e6ff8736ee3dcf52b46e756753eb95f"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0xa74b55b4a5db0cf46df162f606ff29d82e385f1a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6d8de59450585a86adab82c736a591cff7d2e400"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x8878f9b11ed706c576ac0930e0a6a6301f9260a3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x858fc8349e0699b7e976edef14cf712ce2e2f275"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0xa6e8a12250aa7b144ee587ba89a29f3978f16e51"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xe99d0fbe203e3697285166f599d8e57f8e335ed0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7ef5e7a29e44a58a0e587b3af115be16e305a694"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5a3601575bbf4ccab3c27dc18f01b3d3c84df6bc"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x8691506315cf30e15809013134a272a0918c1283"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd5853907b2390a9aedb6a4b11cd26608b2147b6a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd6596c472db5d498158db9642645f7126d1d7b9c"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xda022787871559a5b531c657d5562e9efa50deb6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x52b42786df64658d5680deb1422185acf94cb96d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5fbc41e747756e8d8a7ecbc29bd25b0879fa94cc"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xb5ce2b5c570bd5e59501f9dc226a04eb13a07129"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xc2bbac5458290de37263f0fa0d23fc76905437fb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc84da6c8ec7a57cd10b939e79eaf9d2d17834e04"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xc8b5ebc7af15f212cb4bdfa8ea77176872fc73f9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf1ee3b9882142c4547b2a533cdc9feef67af2b49"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x3a6be8d7bbc965073c4f7ac882ab479e120e143c"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0xdcb820d383ad87737da41f7f201866ef8792616a"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0x3ae1946546b77c730c8ccb12ee38dd1cfe2b3ca8"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x06e4c910d8abe386542e0b22eb08a30206a12833"
     tags:
       - contract
     name: PriceFeedUpdater
+    networks:
+      - optimism
   - address: "0xcdccb246cbc7834f1543657a61a75d2f2467ce22"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x2d45f26cf60fe1c8a4e683c169529380f39efcb8"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x634684e3f0187cc45c427090227e85ef580eba6f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0d1f17edec5788bd0a19d661423a6cc2abef86c6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa36faf16f31c12285467b1973ee8fa144ed4d846"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3033203533a544a0a62aff8e46dc01651b64a871"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0x5ed5eb2bdc4f8c30b19f69b3dd9bd1d239de48fd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4423055126bc979cf20b6cf63cce083bcf1a446e"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0xcba9adc72bf8b09934b4e1d1f22db877bd822abb"
     tags:
       - contract
     name: DelegatableVault
+    networks:
+      - optimism
   - address: "0xa4269c83aaf682403c28ebe33c350d7c20d4a449"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcabe95efff9570961404440254ee36de5aa5f941"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0x554c7321da41e0dd1a991a8611551623d9b04fcf"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2e31ee4cbb912024c6e7e4e8e4e68b33833cfec2"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xedb35a19d3bbef1be77121be0c5765fbe28e43f0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4fb9ddeec462e688bf93bb6d5e79c80bee841b37"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x80df9ba3bff758d6728aa6b7bf09faa86b3e7586"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xc896918e24ab34a84368ed251a28a2c5a57e1cd3"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0xf6d70e9d1a71c00842c396ae66d7919d46d727ee"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xf37db3d4a689dbbd47dee4d217cc1a9a2721a64f"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x58859b93ca12b6e929df372320dad84372c9d2bc"
     tags:
       - contract
     name: Vault
+    networks:
+      - optimism
   - address: "0x3b993734e067dce3024fce4a8abd638948ce5e9b"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xf2ea31d78a10b30191e46ac65df405201e552148"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0xf8c77e09a1991ad0ae790aef6a13bfdc9501c211"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbc449be12a6f475236283c92bd4462e4ca8575c4"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0x529385186a697292eb9a81948fd5caa354467ccf"
     tags:
       - contract
     name: vePERPRewardDistributor
+    networks:
+      - optimism
   - address: "0xd40be8dc81e4758bea51311c78dd9e000b6df827"
     tags:
       - contract
     name: KtbArbitrageur
+    networks:
+      - optimism
   - address: "0xf9d9e828a2965418a2fa04ae78a6cb904816fd6f"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0x3a11d9b7778dc5d5e5e9b6562cbe714faaace3e0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc87c04bcdb88dd61ce04ce7a77140b9e2897ebcc"
     tags:
       - contract
     name: DelegateApproval
+    networks:
+      - optimism
   - address: "0xaacc98efafc86211a1b4ecb6824edbb8a011364d"
     tags:
       - contract
     name: KtbUniArbitrageur
+    networks:
+      - optimism
   - address: "0x9a2d95d0cc891297df203dcb25cd547af70f4156"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x00f0381b4509fee5fe51ecc0b241f67972cf0729"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1d7df7366e8dd463c6eb939cf1654e5e540a18fa"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0x8663cc62dcedf8a50f7c3c6754152e925d4b50aa"
     tags:
       - contract
     name: DelegatableVault
+    networks:
+      - optimism
   - address: "0x664cfa01904e4def83388e94c5451e8cecb29e70"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0xfd849d5df5cb4b631ad595b0e9ff70a1a66c743f"
     tags:
       - contract
     name: PerpetualProtocolReferrer
+    networks:
+      - optimism
   - address: "0xc758a8f0601d9b516b228140ba032f4250a99307"
     tags:
       - contract
     name: Vault
+    networks:
+      - optimism
   - address: "0x3891d3f32bfde0245e3e3618f12fc5e9e535de0f"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xa461f10f41aa26e05a8efc6e38c214cb8a880e8b"
     tags:
       - contract
     name: QuoteToken
+    networks:
+      - optimism
   - address: "0x7c61aa15901bd79503f5f617facc98ca89586b65"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x2f038c5ed9252519ae0e2cc0812992771c8a9d8c"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xf296a56ca4b1cc3f58006de21f81684468120814"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5e09125d0af9819eb1fd6d14c1b9916ac391a9a6"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x13cce51659f08ef95de1596b4a73f48109d5bd23"
     tags:
       - contract
     name: LimitOrderBook
+    networks:
+      - optimism
   - address: "0xd987203cf96adefec0d14405dc5c65e1a6e78e16"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x62f5a47dde7a2de8c5dbe4d415b27a708564f8c1"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xe80ffe6971c4e646374cf523f8047cbdadc92b87"
     tags:
       - contract
     name: DelegatableVault
+    networks:
+      - optimism
   - address: "0x83c861b6c7a35be020c6a3c4f9432a5a3a8ac430"
     tags:
       - contract
     name: PriceFeedUpdater
+    networks:
+      - optimism
   - address: "0x30804ac0cc389f3b592d8c1613ea0718eaf469f0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd9b1a9eba74943f26887e2bb36b7305e829e05a9"
     tags:
       - contract
     name: BandPriceFeed
+    networks:
+      - optimism
   - address: "0x397925c8f511a4a1f8877e198003b0b90174796b"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x51c8c073cd6cdc26b43dc2ad4a3f3e899eda5208"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe25663cf310adf46a83b9bfa1e6ea8a9a140ead0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9c68a67dcf9b30b9a53d7d19cfdafb0e8b2fa686"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x16af14701b86a41e5cfd4c8c5d647e7c28e85534"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa7f3fc32043757039d5e13d790ee43edbcba8b7c"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xf2c886623309c93b56537c8c4d4321813ef78439"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xd707799ceac0ac103eedd3ca6bde9ad6fa8bf091"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xea17d46e4e6bcf6b550435711ac609420f21088b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x05333977d60f3b687576493f825915407d3febfa"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfbdc8af4f55985b577c62cdb5d565e1031a1968c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8f38fc5a38be39d8c477b9d9076e9504f23e7933"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x704f5bc8a2ef5889b1636262137e0fae3b41db9b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb7f33d39a94169dcaf0f85767ad2621f0640d5ea"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x40fa254803e8268eb72c32bedf05b2cab44e5ecd"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x54189b3724c366d648929feae0f99f74affc8663"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x729c4240950faa23649f70cd9ec4f759ee34d5ea"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0x4444c56728e46031df909c47cb02ec6d2d5efbc7"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x082828a68acf2723b927018bba5660eb961fe832"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9d102d9640ed42bc8c12b090adc100a7de2c61e0"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x67bc3ce6c6833973cc90687d09e49acabb864bbf"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0x3a29ed47ae5957ac377b606c7b6407911ccf4e63"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xad38794180df8ecd3d0b92ca243f5ac2e188d144"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa6f425e23df0d65799a494938c4de812e641c824"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1d60631e01a19b211301d6d70a403d208bcf58a7"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x8a4593af89612e8a4a0b129822d4e81cf736809d"
     tags:
       - contract
     name: ClearingHouseConfig
+    networks:
+      - optimism
   - address: "0xb97bfd2c4d9df9804bd1019c8b664d5ba6d26f14"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbe1614f5caa23948392ceacd62446ec238d6dd95"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbe96ef03af28266c51598ddd0b1460a2ea90d54b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5f714b5347f0b5de9f9598e39840e176ce889b9c"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x653cf8527fe8d1b9a7f8d3e8cd9ef686772ad667"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xe3c8bebcb28c7886d945bf5a93dda2d0032746b8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8bd0e178f14be4ae11d68442fce926781ff4a9ff"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xbd9a52d76f814f6baa553152542ba40b9f840b6f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x43baef0f27c894929ecc1f7422e553491d65178f"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x68096cda9e9d872dd76f187e3aa32bf2083b10cf"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x9d39570483e6df70e9cbe62fe84444b100571b68"
     tags:
       - contract
     name: CollateralManager
+    networks:
+      - optimism
   - address: "0x6dbd459c6d3836c66c6fb6b0e3e0ce9f2a4224d1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x441db83f916563211d9cf879c9a7dcc6ac0290cc"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xa3d2c36e046faf6868e32fdc0065550f5d0547d7"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x73baf282823f397d4fc190fcb3f24aaed22883a3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x339be9d488e05afcc6ae2a80225021d051d234f9"
     tags:
       - contract
     name: QuoteToken
+    networks:
+      - optimism
   - address: "0x62254f0395bfc7995b6563c9dd3a76bab0c79c03"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x87ead9fb6d5a3de026ac17b7a2c1323180e0e2be"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x145650f7aed8b34a7d21598cc8fde0a95983f669"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf68b6136c2ec043035afb1cd2bc84370a55e4752"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x362181371b9b832d8f71d360bb41b13dab3ea330"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0xe2bf24d3400eb9c1498bb2a2363aaa13986c6622"
     tags:
       - contract
     name: PerpBuybackPool
+    networks:
+      - optimism
   - address: "0x52c081e7b86ffdbfdb3171de53e3b53b21e50fcb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7171e835456a3c681e586b1ba181fefe0d9172b6"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x1f51a3bfacbcf95e5fe36fdcbfe2b48f9ef38338"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0x779b20c1631721e12befbbb2a26b4ea7fc6e0a1e"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xa87ebcffd8f19588b6d1f7d85cac304465a38c66"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe6cdf21a157d7e2c8dc8daccb663ab674a25ea77"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0xba073023b8278cbc90bb27490b8279369bf7053b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdeaede17c3bb68218d5bca8d5ef7276597f926d5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xede9e83f1e01c902b5dfc5cea5af0fd67a0d4fe7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x41c8759533bdd05d73f8ee8b876cfe6600de288d"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xad499f09aa463da515906f6a956364634e12907d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x95e1e391b65cd83c7ef50edfbfa0666115e8bb0b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x065ea8b912da5d5291a740b60bdb18d36261a43a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xab3f8a9599d62f09a71d7337dfff4458a4c7fe27"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x5e5be88b3e03a2976b9ad48543e12f2d0f7961b9"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x23f62e5744556607e06c59a93edc375f61e19bf2"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xb12430a7d0a51a2ce958c910c764e47f41a996d4"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0xb0f82b031438117049439abfb3d8150f06220c40"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4a7ac7da231e6d5d30a305d5e26c6a2bdc97ee6f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf482304d9d9fc5629e45f4077a3a2dbceda15890"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0x93b9dac2d57aad1966859e8d1b5ccf5b95de9af4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf31861ef4e7bfb96503e10bb9a5e0060915d3697"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5b842b0d96d49dd946fd6b315f5fc2b5b590c2d7"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x7fc3171e0cbea94e545d22ef03c1e5723a07d6b3"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x6008a4d933415ad1149e3b1cf760dbcf7facb926"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8f9acef0cdc067819cf3ce7fbe23148cb1bf851e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3ee739e1b20a78f3ebebc912725dc9d30f6c8301"
     tags:
       - contract
     name: InsuranceFund
+    networks:
+      - optimism
   - address: "0x9dd013f9083741bc70c7ce32c2d6ab022a3d7ff7"
     tags:
       - contract
     name: LimitOrderBook
+    networks:
+      - optimism
   - address: "0x0f9fd1839c3792d6308ca2a5d6cb0bf8dbb69ac8"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xcd0b93827ff8925ec7a2c89f827ae962f764583f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa5b043955d59e2cafd267fb12c4bb0a1c41cbbf9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x78f1dacdeb229e26b2fa4f18a39f1d500cb0c6c7"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xff254a9363f7c75653e7d3c321ffc5af4c86bf9d"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xd0fd83d02fc5fa531f709b2bed313e320a63e5be"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x35b2e2365ddee06e13b577e10a88097628e1bd65"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x2f198182ec54469195a4a06262a9431a42462373"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x571e69a33dfb3a18f73fe7a42cd0d74f1078d1d3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3380cf565b29b367d6f78e79a6c6bb362ec256ed"
     tags:
       - contract
     name: PriceFeedUpdater
+    networks:
+      - optimism
   - address: "0xebbd6c12c341380c073f5299cebaa673ddd0190e"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x972dbdeee88898a59ff88ae9a4cff3b6d61961d9"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x9e6c8fbb66614f28b35a196cd8e1fea42b2fc688"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x20ee8f8ec44eec0aa4c559e49880ec6fbe835bae"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2f1738126fc7a72a556b6e00b5895da126598ac7"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x9365d5fa93d4afd93622f11843d0913b07c0c4c1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x85e8d326bb7d93a71085206604caccb793309ce5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa1ed4798591b85b5f62ac93078f2d3b552081f36"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xbd33a39bd82398d4ecdb8230b135959242acf49c"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xf70174619f067ee8ccd5265712a407cc34701d0b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa1de0bdac29ceaa2c2afae451d06b069bab664f8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbd8fa1348a0c576eac4dec9ccc8237a23001b6a0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xde6a7377b64734fabb3b0ed4724a5479ee391705"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x3319d55bd580f52c0a47c6769b743cbc41f87317"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0x6c747d7ea6e4630b02ad26f98f6572b6885ad675"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0f0890e41daff66b518bb25dcd98b37acc839874"
     tags:
       - contract
     name: ChainlinkPriceFeedV2
+    networks:
+      - optimism
   - address: "0x0d1b56799d7fc81ef6deaa55511c34b9133262e0"
     tags:
       - contract
     name: PerpLiquidityMining
+    networks:
+      - optimism
   - address: "0x734a2538632914e8b14dfb710e2575c72decc28b"
     tags:
       - contract
     name: DelegatableVault
+    networks:
+      - optimism
   - address: "0x254257f1f2cd142471e7bac4f89330922131766b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xde2840080d90bf76f10036f4d46774a8c3711a50"
     tags:
       - contract
     name: PriceFeedUpdater
+    networks:
+      - optimism
   - address: "0x9320a1c70458db72d34a19171fdf99bebea5f74d"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x099a9a67f5a79c63d66789a985ce271b525a5eb9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7841b4973e734d85811285a2958da88ab2f1651f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8c43f2910902b26fa7635a81088bf615ec618861"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0xcf46cdb74e737932bbcff6cba344f56985120e30"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xf1dc2664725f89c550f84596ba9ac0ce5b8c796d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x04b0db8f38c90bc8e51a4fa40022de34652f50d3"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x802ae82dc6973e384fff0ab72f0a4de46e933ea9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x52a721696a0fde023e89662f5dc040a1289e1f47"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2c867b5097eef11fa77ba28ede1c09c24bd11eca"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xe42fb253e2d32910e62f2bf059cb8fb0daa32a45"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x044e6f675e092ccbd5c47e8c4f7b6ecc98d894a2"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x0e5a2456934bfa0e51d3eca870a9c4b38aeee2bd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x59b80aca6bcd01f0cbd510e11efe43853dae578e"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0xc16d624e0e16ec04ef7f9c5db11fde4791ca22e1"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xe6bb5f96e4a8ca1d6e36aa0e59c8780a11200984"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x37b5c40b14e0b81adba533507c43946c09b34252"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xea5133a413099b55c3b1538c3b19c5e80d8305e6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x217e333a0c920b8410bd2f21674a7f4f0462bbb6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf2295414bb8d2004d4501beed78b92a7230dc179"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xac320f018d2572c1ffc4094d8e4c82d4e067b95c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x48c73b88bac41f419e5106a74cb1a8507ee475d4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6f62ea5633726f29b0c18b86c902f62f20f7cbd6"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0xb9e6b8952b1e67685a6208af4ff2a32a5a3c4035"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6ba44773cc1388605f57e7c3730f8aff70773e5a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4dec1ffd2ee50d004a39167be60a94dedcc81eaf"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x2f821c990e23410fe07f2c228cbb6f2bd7701f08"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb1c51b60fde87d09bbdec7092869839aae8f31a5"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x86e8b6acf92a83101db4c91d716acbc0ef0413d1"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xb82e47d1670d45275a52f0ce6148b95bb41d86b9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf4b3e7b39c149da1f412b9b2f124720c932798db"
     tags:
       - contract
     name: vePERPRewardDistributor
+    networks:
+      - optimism
   - address: "0x4a2d20e1f412f78182b71780803cc7c8234a9794"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x5e0544145abb6994904d2800bf4b241dd4b3a934"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x099b59d7ac07b765e3de0ee16dfce846a0baa61b"
     tags:
       - contract
     name: InsuranceFund
+    networks:
+      - optimism
   - address: "0x7c7504511e95348fa59f09944f96592c73565c0b"
     tags:
       - contract
     name: BaseVault
+    networks:
+      - optimism
   - address: "0xb70d9359ba2006417c2c5f21948d82462e51fc16"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x95170d027c905b83dc356a75e866c7c20e440356"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1dea4192e1e2bb72bfa16a994256ddd7a44c7317"
     tags:
       - contract
     name: BandPriceFeed
+    networks:
+      - optimism
   - address: "0x3a2ce0e94a14d3f160e97f26956d94344f526ca4"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xb75bb96f6c783ceb47fa0f1f3bf6f47e6225d575"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x85707e5abb9a31464efa1dc01ea6d3349d39b3ab"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfabf3031ccb57a65f936881412ade8d4b138c0e5"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x8ea0e20e9bb736e66f6aefc4078fc339d058f1a3"
     tags:
       - contract
     name: LimitOrderBook
+    networks:
+      - optimism
   - address: "0x4e26b6815d82baa6b8c15fe4ffb646dfb4b474c7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9d34f1d15c22e4c0924804e2a38cbe93dfb84bc2"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x5616f1d59e0853046ca3deaf9b517850a43240d1"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0x60417ec91411c884cc69408a6920975953482ab2"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xbb16344014a99e3691752cee710413e42753a412"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x125a8ae230a4cd602aa8079ffdb48e94c311fba5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7566e94df784680b5b1a29632ec6f7f65263da69"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x813654799874321fb997401dd8ccbf96aae26ad6"
     tags:
       - contract
     name: ClearingHouseConfig
+    networks:
+      - optimism
   - address: "0x1b6d49be8a5b2e21ba0dabf0a0ee9223c23a6e65"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4f4c524ffc3d9190b53066a4fb190365a65744ba"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xab3c0f3840dce66846769413f0aec4dbcb06373d"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0xaf32c18f1092f1f3d37bc776d7d124c619176d1b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa2f78b820d55e23c83a7d7088b4aaa1d6b4cdb09"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8c835dfaa34e2ae61775e80ee29e2c724c6ae2bb"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xf6d5ea28ce5056ba74c08c53c6c3bb5613ae9427"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xcb12019df98a04db971ebc7711e41bb0b40b2a71"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe8ad081b97c547cf9c65a315f53d36036760be13"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x199093f69e98150ada8bc9bc8fa02872fca7cc13"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5d1a0b0382ad83ddf34ea3aa70d5c51ba37467f8"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0xce38997e80b1b585b4dd57a1277a066a0a7874bc"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xe402d5eef58aad816d7240e50f20922f53a81711"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7df0bbe55189ee1d65f6475576783fdaa125a1e9"
     tags:
       - contract
     name: VaultConfig
+    networks:
+      - optimism
   - address: "0x34d15c9e1b0b7551c33b083251dc95598683602d"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x1d72ace2078033ad827eec9723fb738c97b7ef84"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0x8d4b85ab2bfe11d63ae637ff552e8fefdf55ff01"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x2720ca57503bfdbba6e197c8bbfaa0ec9602317a"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0xfda08aef411a83140f6ac5fa516ff37482d5e5cb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2025c0525f450c14114db683ea8789b1dd5a6c90"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x889db173b71fd98341f6195babb339e50f0d1b3f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xaa1318fe7cacc71726d195e006f93ee68147ed56"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x23e440a6a792d3161e963b9ff6bdaa005c06ca03"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xd05aac9c986294ae9c9e12967c5e7f433fb8d0b0"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0xe1a56cc3a61424230059112a7fa5733467cd2a4e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfecfd57ff916ffe90debcf8a1ab795d9ee2a08d7"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xbe5de48197fc974600929196239e264ecb703ee8"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x13d17a3520b6f38d9f4fdee7d0398899846c8e3a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9e0d0b02323910e47b42af96ab1ffc4a04f491ce"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x899dc6b79c4b57ae649d4cebd14c74f9dfb43cca"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xd0f8f476468e0dbe0e74235b42bff5d85ee7cb01"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0xf08d00cce7747ec52a34daba027e3eecb5f54846"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xa505edd0f121cdc70125afaaa77e6ab07c2d719b"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xd837d6f0f9abb1a31e63b0d7534e6ba6509b483e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x28bb48207c761eed2a4aa9249083c429c719aadb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf92c0eb708b5182ed2288f21d36338f83f72714f"
     tags:
       - contract
     name: Quoter
+    networks:
+      - optimism
   - address: "0x0578cb47a035bb80dc0881ba12b8b688f4b0d1fd"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0xcf94ae82979a08c56051d14010e603f78e9c0024"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x876bd8d3745d9db0f5df48d34fbda1074eaadfe5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x19ccc0c380f164b6d09313797d01d06dfd4e8598"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x734c736ced848f77ac8e4f12f8f66a975e48e509"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x0d344c79d6e7b584b39216128dd04149a461a863"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3b3bfe1d3f986dbf34feb25256fef544b0fc46ba"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc873f72d804f61e5dba599026e752ca56f63aa0c"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x7cf8f5f3092fdfd034c3ae48efb5103f8ac8f33f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3f1a8935a6ce62c487c831565784c2f60741ce4c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8c8d948915fb637db88fb6fa42efe462e1007bef"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb673b7878eb37ca3bd83bf005823149d5f6ffcbe"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfdadab426e4505030b958f17fa41547e018e3836"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0xa3409548fa8bdcb9e6993e465b53e820675dfeee"
     tags:
       - contract
     name: Vyper_contract
+    networks:
+      - optimism
   - address: "0x1bad546abc62e9a1130228d22a9c923b4f3e6de5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xab41d08caa8bfe02ef640b6ce42451582afe2e01"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0ca14d901ffe8461b8196e593083d004993916b8"
     tags:
       - contract
     name: DelegateApproval
+    networks:
+      - optimism
   - address: "0xe82db4e747ac9245ee6020cdabe92a9eed4d949e"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x5d4debaf4e988c49fbc84698f352e75c853a44c2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1f4f6a97bc58a323a66531696d72718d818ee5bc"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x7c3a48f30b417815302aed0ef1cecf1dea98417f"
     tags:
       - contract
     name: Multicall2
+    networks:
+      - optimism
   - address: "0x7f729861dfc946c907375fde8dfb0a61fa310aa3"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x225eee739cb3d95a94c73efdc994710e7324df69"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0f474fe6c39ff7af82a8d3f6acded09587e0402c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2ea4911c8f4a129a9b152be15e472e08ef33e408"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x9a562b3b337aaf23dc579ddfbd4d3b498e364633"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0x0dbb5acdd171d1e2046dc644c75f30bef9cdbd9f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7b989509629ad8886219de6de61490146955e273"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2a1319e7d53f787de3938f8341e1805479d487b0"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x8a4136490acd583719c0073b67e85fefb5a952c8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x73d0d0cf7f3ff7a3d5459cfff0ca0a2b5dc03767"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xc6a32fe0bb7784e82002042b2df0cd272791eddd"
     tags:
       - contract
     name: Vault
+    networks:
+      - optimism
   - address: "0x3b4f015e27db8a03e06f57ab48d767db7003dbad"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1630d78623936ed6fe782d88ca55d268a5cf0732"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x9621780ee84283315e1ba7462389ea9e7bff69af"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xad3d8e164e3db55c7c5128229e3652e70c8d82bf"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x07fa48193a388099c93fe93f7ee96df824b2597d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6192a98a94b3a1c2eed586433b8d6f2230799310"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x53e00970ff9c968570e52d751f8f2ac3c0c83b4e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x84bb9bbbbc4ecb187d1e2f310381ddf113d569fa"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x7236787cea93bd7c1e6fdfb55219af6a7c240adf"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x6c243db5f0470fcf692e481ec656cfad5a825d9c"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xae7a87efa013778f8fbe64a23ccfe451ea2b18ee"
     tags:
       - contract
     name: Vault
+    networks:
+      - optimism
   - address: "0x5ff31f4eb131bc82f1069487668a7be646de7c1c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3ea452b381cf837f1e0211db95e8152a54a090b8"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x803500852b9aacbe347e7889de353619de8e6981"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x9f284b4b450e8113c1bd4332c9f37666a81e48ca"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd7a4d932d8a26d5af0c2d09dca32ac84a1b4e734"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x5faa136fc58b6136ffdaeaac320076c4865c070f"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x2de8e18bdaef25c2de0bed29c8b72e49261ca88d"
     tags:
       - contract
     name: RewardDelegate
+    networks:
+      - optimism
   - address: "0x7577f06af3a26bcaace96b7f7137ae8cd66a1236"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9008a9e08033bf061814a0f0220710a1b7ec10c6"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xfefbe7f7f619b1bdb7cb9194c70e24bb1779d572"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xb41c20c642ff2870f1a503eb1cbc9d69c27f586c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x409901c6cd357ec6c5f093961fbdb8ca01b8d595"
     tags:
       - contract
     name: LimitOrderBook
+    networks:
+      - optimism
   - address: "0xc35896651ecd5c71c8cb2d8e88c8f2791b7ec46b"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0xc94ab096f8d3bfb48893ac4fcb2b70bedcd47398"
     tags:
       - contract
     name: ClearingHouseConfig
+    networks:
+      - optimism
   - address: "0xa08fd04353e11301ff3e33093cbf1a8a47bd9ca9"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xff20372c23c9462704f50be915083f32df69605e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf81cb8de7dd8fb3e5261bde6ad350bc8777ef3a3"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x40349e96f59acc623830b8209b1596ce550fdda1"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x341caec1a141032781838fca316d42ba21784835"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc31bf706e2309de50727ec86ee2b607e7869fa5a"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xd360b73b19fb20ac874633553fb1007e9fcb2b78"
     tags:
       - contract
     name: Vyper_contract
+    networks:
+      - optimism
   - address: "0xc2d09cbb079a38d18d9865ae1d170de51833f4f2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdb87ee6088f0e2037faf9c21dbc9735f5422592b"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x8e5c808cfd0ea3f61cd0a8a61338be71b73f72e9"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x3230cbb08c64d0804be5b7f4ce43834291490a91"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9d51148eac545e3616a7ea22492f87c9b783605d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5605e4d1d190e7e3602b5450e1452803c2ae5078"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0xe1bdbb1e1de2e4a836993b276acc91432686b095"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc3562808005d71953e8a6f430464039319680675"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5845bbf8eadbb7fbbea3e4846d03b79c1de3c47d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x12c884f45062b58e1592d1438542731829790a25"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0x421c25628595d1815f927f1cc85bb711dcea2f7a"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x6f7d3a1e8fc37de27ab1fc1ee49255c49d00f132"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x0fe5ee407534611881ec6d7957c9ead11a851195"
     tags:
       - contract
     name: ChainlinkPriceFeedV2
+    networks:
+      - optimism
   - address: "0x5a0e10d4a301a804547ec2ffd5b70111d5f7edf2"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x26a7083953cbc7080cf89733c410ee4f6ca61c0b"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xefad5bf597ee676293cd0e8ecf7e33ee41a7b33c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfd486adfb5ab594083c85f4fc3b10f7a34ac0deb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x176fecd21a04be65363e7a2a3401a0abab3ba1a9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdcb6c8bb94ff0365cfc2f52f97ef4484865530bb"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0x706ed810944b3dc854698da5f7955bc8f1f720ab"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x355615cee1883986de3567ffea289dd4b7a10405"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x43c5474d1210f0308f7835490bd810333e8c4310"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x53113e5daaf067441498ad28bc1a6625966a3896"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0x75e51dbbfe9ea2c3c52a70a78b58d6c0eaebafb3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x32e3278db40d6fc7b0761621d6fafde03b045113"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1dde11b421bced5a9452ee5b84fe39dd0a78e67f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9f6b09fc2ea2ef9f4454ac6875829a7a89c9cd92"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xd24b8feeea13a0ecce247e37e8ad1a0b2620fc5b"
     tags:
       - contract
     name: Vault
+    networks:
+      - optimism
   - address: "0x817b80807dc832ac626ebbd90b379b3ab09a4a76"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5a51a3c9b17bbeefdeb6c019be484705811144cb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x98a731c7cd1565b7fa26e2f81be346afc5ae2333"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x48b6d0b608f330126a04bebc17f976fcfb3a3fd3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x549851b5f86ded94661b4e970e407d4b2b161559"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7d81cb639c59634005fa7604b087a44068f78102"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3b06ef484c141d4aa9cb2439a60dec1d63a4e336"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xf80ea364c7ad4c34657bcc049e074e0b6b072547"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x670e5cd858d92c441dddda6d903a96998a514430"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6996680f2609a051e1e9027e7839f989710d2fbf"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x048f5bcb3e792b4b473a01d951811efacedf2bb1"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x6c9df7301cf3c48a69fb91675df9c3c0cf87147e"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x916660262bdf70e35fbcd002d8056ca13bc02ee4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x03ca92d5e04162e54d6d591cd334c7de7864800d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe09b074a710a9c9c5f3083aa4f46670845f34e73"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x94c13968eef7204c9ef5bb3756cb980de0fddf8a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6f73fdd76de6e935adb975a74a7a3804f5a872e2"
     tags:
       - contract
     name: PriceFeedUpdater
+    networks:
+      - optimism
   - address: "0xdfcaebe8f6ea5e022befafae8c6cdae8d4e1094b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7eada83e15acd08d22ad85a1dce92e5a257acb92"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x00cea6cd9fdd2acdcde88c5a7a5df87688725ecd"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x7a0bab5c2ad4a0774411baeb14958f2778296393"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8bfe5e95055f8c5c56bc020dd1b15221a00116b7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x51960a5ea01126c24cb3b565cd8d4bb16f6cae03"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x7410f132fb548dd70e0f0ea997ad1b04f13d458b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xddff2c119a85a5d9ea3d6b5d6ec8c4dee25d1cfc"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x6744ca13eae509427a87befa81b041c526bfdec9"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x5f515a33ae1411d1f717cde065a5d513917bd0c4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xae7c17527a77841b099f20318989f0561ecea000"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa18fa074a2a5b01e69a35771e709553af4676558"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4b9ff76ae449a97f551875eabb2997bd70b8ee19"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x86c2ac0ddb3b8209b1c2cfbc5884b8ab4a88fe5a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4c07b29c16266edbc866fd0bc935d2e460df99ed"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2525d19636bba311025f87296afb5c10eb369d29"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x7161c3416e08abaa5cd38e68d9a28e43a694e037"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0b98bf7a2b32606be08bd68dd3520773d22c260b"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x1734436f851cc3e3384c55527b692b93da19cc72"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x3a976c5096179027a4b1ad95a96a8e858bfa6f48"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0xdbe692a5948f8215924ec6de6eac1a31b0ba910f"
     tags:
       - contract
     name: InsuranceFund
+    networks:
+      - optimism
   - address: "0xa2fee06e27dbd5b68a76d7aafc7b7403e25b5c57"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xedcd8fb2ad745f15ac17aa55369dccc91a263436"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xd67e3c461474678145d92644676f08cc48874e4a"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0xcc59673feef8d8d1c053bc634bf541a1b8337fed"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x202932a31f96a6359bceeac630e5996f3eb64477"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0aa7e7d11138adec68bbe43913e521b3080d42f3"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x2cdc982efe12e16b0af6fc2b929594a7b8012fbc"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0xbd7a3b7dbeb096f0b832cf467b94b091f30c34ec"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x1ef6daa02e022b8d6648034df9f4904136c4e31c"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x840048281d438bc834fa5c8a3d0ba7822553bc88"
     tags:
       - contract
     name: CollateralManager
+    networks:
+      - optimism
   - address: "0x6ecfad9434fb2b2f3abd4fb21080cbe842381940"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5e359becff1c8f6a1d5dbeb5f115dbdb1561ea41"
     tags:
       - contract
     name: ChainlinkPriceFeedV2
+    networks:
+      - optimism
   - address: "0x050d343edc93526dc8f9e542f6936a5c12dcc83f"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x4bd5f4ae1d4b644991b7510d35977a6435482f09"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3c14107e6a11d453033fccc96b619e889903fea9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf42f803b13f8cbe4e29644790bddd8ff468d56d0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa7127bb76eba78b3467f1cce20daf84f179df5a7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6abf2cf5728bcf3488e40b73bb3b7e2d501404e5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x99d5db0d4ce58d2d8410243971f5cf414ae64382"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0xbe760e38e8878538b94ceec168b1ca458e96178b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x93910ae54530784ed7ae194af85b1012839c1603"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x5a5998f4ab9aa61c7a939acdc3eb73c663eae5a6"
     tags:
       - contract
     name: PerpLiquidityMining
+    networks:
+      - optimism
   - address: "0x015f7ea8fd10d050feb2905b0b2d7908572cae01"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x62030f110f4e953108e369fa2ab7fe2f2c3a9aab"
     tags:
       - contract
     name: Vault
+    networks:
+      - optimism
   - address: "0x8a9ab487cb98747a62e01a266feb6cad53e1620a"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0xdefc659db6f391775f8c1949c78211b735ccc42e"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xaff811c0f1623fdbe5d457e1e14e13ccd53ff065"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9bb3e55b319d21d75fa193d0704a8b494a75d3f2"
     tags:
       - contract
     name: PerpLiquidityMining
+    networks:
+      - optimism
   - address: "0x54739c0f505db217b842c59a592e270664952832"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x239891d6c6aaed08cf49bbe3dfe3fcf11af7d2e5"
     tags:
       - contract
     name: PriceFeedUpdater
+    networks:
+      - optimism
   - address: "0x81d4bdb63e59339375a1376a3bd0d99c22fc0126"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd40491cd20f8e8c616a5b9cde5a5ee86b4f4c30f"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0xea5c68c9e1f46d9153fdba5afc6d371a04c434cd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x151bb01c79f4516c233948d69dae39869bccb737"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x986f8c98787ae40ebc43c9958c598f5ce10aaf89"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x73b67170f36f45f0729b376ec391a64b7148f7eb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd2af64185331f9b95fb8c25c235e434b2f6ccd8d"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xc178c8cf86d7f62cbb773db9dca88bbc60276385"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xad927fef0ad5b2384bd5a09f70531815b3a1f50c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf069e80b861a1f35aaac515f883b264031cc7bfc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3aa504c41ec1d6d7bd3aad3e94c6829b02bf9852"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x1291e6f9a3148e2b7cd6268aad956b4db4b9c4d4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x959c99e14af1e9312d176eb6828ac890e6ef18c1"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x9dfc36d333a3c03dd02c4000d14c2c37d7258220"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0x174f29b4b12c74344c0d4b3011490023f148b22f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcf76cf5d8d6f6094aafd64062887d3d699103e4d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb4ba990edd8a5c575ccf582c54bb2b9c14006b65"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x4bfdd532771f50803bf535f18a1d5741b2e909f2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8774a1038471ff73e10b1dbe165287c03289eb8b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x78120c1ca337007323de2226d677e7fcf42d6ee7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbe7dc0896f0f0580640266ee5228942e15561331"
     tags:
       - contract
     name: ChainlinkPriceFeedV2
+    networks:
+      - optimism
   - address: "0x0e6d7a9f9e7704357b8ec797cbe8c208ef4613fb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x77178d12342c445ac7a19d7398bd9690d4e26ad6"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x142408558527b1a63b736252472e35e1110829cc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3d03748a0fbba8dd5f07b16c0178cdd1327fc58a"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x86f1e0420c26a858fc203a3645dd1a36868f18e5"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x5ff262e9faeb8670709e676b55c8b57be954acd3"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x94740ca2c47e13b7b0d3f44fc552ecc880e1d824"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6a1b797a2cabf24277f7306c77c4b76cd6588d52"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x929577dff77995fd970e16be588b66950d0a1e04"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x065ffc903474eec7120591855cf4ce183742b159"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x3ce4aebb3f2ee94b06b063cb28f78c3a543eb52d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x28d8a1a6bdeaf9d42da6a55da8a34710e3434b97"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x6d4a7ea11cd9e053319db911e2a01a45d4767b63"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcb5151d41845c63b002b262c4bd4b0df76bd0b52"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbbfc9c6eeb1589da9f5e50ce9312aa1c0aa09410"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x32d633c7ab017942732ae5fc7c79a235b7f65570"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x9b1f149317c92375e31f2762535ecc1e766bdac9"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xecd4aa6d40df0ee749d7e0bf1bc62b5052dd36d5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1b04224e24f5c69473a57ada876da94f2cf52271"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb3c1e00132c341378dcd1aedfcf090a45aad5144"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x97655ee5a41171d7dfd3ab9b21e75b200522e2a8"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0x36218a5ca404b9bf69b2f7ea28e41cb3027888e2"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x4afc88b1a4374ee3694480611aa85e78cd1bae3a"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xa58d58455e46f7cc4fb3bd10a1ca155becf11bf8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x90100d4731e49c8ec0df584d404c9f1bbcf18999"
     tags:
       - contract
     name: Vault
+    networks:
+      - optimism
   - address: "0x0b6535cbc47ed5d642383f926f521d3e32e12bd8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6164a4f3bbd87a0a11cc5f14278b8ab260217599"
     tags:
       - contract
     name: CollateralManager
+    networks:
+      - optimism
   - address: "0xcc7f55aac69f6edc52872a98fe5d2bfc1a7a0684"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbb948b618b59fbbca8371454e74a38f5544bd104"
     tags:
       - contract
     name: ClearingHouseConfig
+    networks:
+      - optimism
   - address: "0x54e32c4c28f6e9b3f428635fd8e52b1c5742fc88"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xfa18c6cc9a05a8d5a54c248b716c4cd33e64c973"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x5f23ad28459d70717c4a4690ea42f12d1304ede1"
     tags:
       - contract
     name: QuoteToken
+    networks:
+      - optimism
   - address: "0xb6f721b463d59fc5348cc9339dc735cd51f9e0b3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x39cd9443f8b920ea52634bfddabf475762524592"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xba0320822e711ab94f0d6e3dca95e6f9bf4d102c"
     tags:
       - contract
     name: CollateralManager
+    networks:
+      - optimism
   - address: "0x66c4196284837667414d6a4e9e974e0627572909"
     tags:
       - contract
     name: ClearingHouseConfig
+    networks:
+      - optimism
   - address: "0x125e0cfb77ca7b369ee773c507cf59c019e6c6ee"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x18723a91dedd393f7d1ba09c750629942e9741ff"
     tags:
       - contract
     name: Vault
+    networks:
+      - optimism
   - address: "0x185516de54f4fac8ceb272ad785f982bcab5a258"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc6cdc0414cce84021bbf077ec4e35735b1e1222c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8f449bd8602f5d3fcedbdd7c72ac55d03b178c8f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2bfc897811d1220420e6e940247d6e8f194bec6b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb1fde0165bf076bd5ff9d1c53e3b4a5bfaea8f68"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x467a8e38c8758964f7e54e1a0e82b7d54f4134f8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf3a4f9ba57d5f90ffef0e2c1879a3e5a103c88c3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfd2236efeee110b90d63e7171d8c1cfaa26cdc3d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xab3dbdbba7d1f1214a301afa4a418d9064fc1621"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0a3e5bf26744a7cbd2228090ee475983043e277a"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xaac048b5cd4abd2d40c52147c90586e26902970a"
     tags:
       - contract
     name: QuoteVault
+    networks:
+      - optimism
   - address: "0x482a4b4457e02d1ce6a58cd23b5a47fe3e305c28"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0xa0d9966de6dcb7982dc9a1bd7a6087f6f3edd928"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x24f9c3078c3c832173de30e2ea71e386a59f7e91"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x26a74a9c08c94d176992312a1f3fa69601be4076"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xd50d10d913d8644d2ed9bad8b9a1d430008a65ec"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x864d09ef3046d04f651f1bed72cb4d22cba75e2d"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x8711ac690984badc42e7abe71f351b5ac2a2ad0d"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x16511488eb8e0e57156aba64c0f82809a08b4e59"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xf127fdb858f009938b4530aac37e5bc8e9a09c28"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x841d4da8ef4623c67b7c5945b3b80acd367b8d89"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5360a4c06b6d34a2f5533800601160dc0b6dc43c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb2e40a4f41678178a9322e3233d010313cd53c99"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf25fd268eb3206b1989c61c084b6a305a5c4e85d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6ab84fc005d7b5d0899b621344634031a2ed8931"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x443a4ffdd77fc89ee113399bbec66a312d2c391a"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x8a2c66fa05b503397e41e81c70f515916341da32"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x64b18e6d7b4693f86aa12c1724f1e195232bf044"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc1a005875a56aa7d5a58e47a192512e5b565c973"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xe2a666e23dd670f0c9ca3f619b667ce872f4cce5"
     tags:
       - contract
     name: PriceFeedUpdater
+    networks:
+      - optimism
   - address: "0x97e5f62a2d91d3acafdbd21b48f186f5b7d69c13"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0x110efe74f9d619aae1949c252f17cf21d82291df"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf6ab52b700f73672d67887802fe15e5e11248927"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3c7af62d096427ae2ccaa8fcd05a72b3f9c6ef6a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd72b6d37fb1e04c802a5dc788b219378200c5e64"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x222d45306af217850d0d5341756bed361ab72023"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x54dca948f1460a2ba0eaf024358c7ed95e40e59f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe52031dcde30cc90eb0e1cbdcaba5775bf89607f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe5fc30452f61cfbe8914e0bcaa752cd10cbf3949"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2fd423b3e151b4c39b5fbbfc849941eed1dfc4d0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9d610931013e37626911d1a3451165331e5259cc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3736da10ae5a338f9d5d419d862a8af8b043eb6c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1a3696a95b7fa93379e9b2b285a9ab427e03cb31"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x19ba1a78aee6f2c13204076dbb746cab36cd4410"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xccc170bdcdaa3c026302b19baef84ea05c8afb17"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x2763c70bf29326d728528623d90cb04eee579866"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xaa3d2ddeaa10358a5ec730eb126ac57e9fb7f970"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xefaf7ceaaaa97505c134efa8f4a2d7d185b989f8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd2c1f2c0615b51d8586baa0473874c107ecb2e42"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0x10aecd10e1e054810f3d1839a56253c41610707c"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x5da8e71ea120de22447bc8ae339fe398c17178fa"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x87c4bf6b6385f674bcbdf007bd861e80be59c1c6"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x0628b64512ab0ee57c18419c5d34176b284c49d2"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x8c33da11f3b376c31aa759430a32987601d72cb6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6f345ed81515eaa1c9202687b0e119b5826c5566"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x9cb642f2e6b96f5ff3bf2350c94e1585250360e4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x74db6e192fed8e4e093c072deaafa2b45f178c29"
     tags:
       - contract
     name: Vault
+    networks:
+      - optimism
   - address: "0x33348031976643f159b63d49ccb18105026d79a5"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x76618a9429c65bc4094bbeb1a32bc0d91cc7c092"
     tags:
       - contract
     name: PriceFeedUpdater
+    networks:
+      - optimism
   - address: "0x322551b09823acdc1f8c782a97cfd17baab55b40"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x2bf384e025f4b749713bd54649cac65fbba932bc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x15cc2c5279d85feba048c19c55ac2f136fd85a02"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0xf7ab214687e036935f78d9c6437b7f60c0b828fc"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0x49608e604b812f098d16defea17f6de18e740452"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x25637d5e528566d597c234c279f21f1e9e689059"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x1e4e85ce3a28e65d0b4cf75ed35fab10521e6792"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc6063b8655c7cd45bd26186f17e254d17143ed83"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8914bb02e93cf66bb30cd39870d247a1ea7284ed"
     tags:
       - contract
     name: CollateralManager
+    networks:
+      - optimism
   - address: "0x9d0a410d18705ee58c30211efc6025627bebe824"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfb30308ddd98d16f9cbef69ea140fa4725e257af"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x90d596b9253eaff58765d358e8372a5abed81715"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3df1b33c8bde48b8f125dad9cb83b601daf63a3c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf6129094ccc7e69c7cd5bd84fa42bc62274f5708"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x0f0da8980173142381cb9b492e153c0af276fbaf"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x19613dddf5317aff9397a9287120ce7302a65151"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x479856c48bf3756105ce7a56fc2a6c00748b9797"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x1942eba8d0f49d7e9687b40702c4e08a2abab541"
     tags:
       - contract
     name: ChainlinkPriceFeedV2
+    networks:
+      - optimism
   - address: "0x58a1f90e1498b50d4603e22b1646f2a80e86f6aa"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x721432a9a9b34883c519bf39a1c1fe4a3089ca8b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x85e881f9ff62284dde440416b077df9ab0602721"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb24f50dd9918934ab2228be7a097411ca28f6c14"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xcedf20450c307a552f35f7487d83cd81d4063b11"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0x333b1ea429a88d0dd48ce7c06c16609cd76f43a8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5d43db9ffa312ea851df24d6cacc31dede15aa70"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x740dffe87407b36c470a5d7953a5230f3f84ffc0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x58df1b47b0f604fde9e3b99759f546f5d442f5b1"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0xa0102f64a395035a945f150aaad1be8f7ab163f5"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x2d43a9ed77591b16b198e569c426aff89b02f1c1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x78ab37e32c04efa43cbfb782dad1af3a919c597a"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x5b01097280a0cbd475d2298b523b9d50adbd6ca0"
     tags:
       - contract
     name: DelegateApproval
+    networks:
+      - optimism
   - address: "0x784b4445ab18839972a70ef8b0d489e8de39de66"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x83d6675fe072928132c1b98ca3647de2fa9c8d84"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb72c27ff766c9ffb6715d7bc5f9ce82b6862618d"
     tags:
       - contract
     name: PerpLiquidityMining
+    networks:
+      - optimism
   - address: "0xcb1f03eb220c9e7f851c5ba7e30282a554c050a7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x09b355767a3cc98ae9d0be7870678265f1f489e7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x54b5789a0352c3f48418ba94acae71c70a1e9a1a"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xdeff4a009e417606a311bba899ad5e8d67139307"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x927314536a55faf469ceb2ec82db44b59a062204"
     tags:
       - contract
     name: ClearingHouseConfig
+    networks:
+      - optimism
   - address: "0xf4868d747a8010deaf3ff30515070c08d41814a2"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x7aa210b48553ad6317354357e1694ad49254b6ff"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0593db04e076817c045287fa56123f6df586190f"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0x235eb8f89c8bed05ed06d1eeb2d5ecc0aa233832"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0x8059fcac9a7121dcb9954d1232b4573ceeae6668"
     tags:
       - contract
     name: InsuranceFund
+    networks:
+      - optimism
   - address: "0xa5be1aab90580c9cc2b7f49fa4847e440e384e37"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x37ec0661c1d25948d6a145ed6c40ed796960e922"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xcad994415747355c8a2e6556d1021905b4e204ce"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0xfb8627c9ff2bf7c9f524c15b4d0a582dfecd1571"
     tags:
       - contract
     name: BandPriceFeed
+    networks:
+      - optimism
   - address: "0x016becff054ffd6f16727e6070f4a5a1127053a1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7f9e5453d4a55e9b617b67168a3e05baa849fcc4"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x441a3615b3ff4123f2de1aa355db21258bac6e5d"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xc97868390ad1600919919791f37e8e185a22729a"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x47334de966aa36bdbaeb480a86050a9b532e6599"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdb5bb90f94de6f89eba26e50a438339b115ee7ff"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x77d0cc9568605bfff32f918c8ffaa53f72901416"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x711d2830b94c80e352f9b4efc6c9c761b37f11a2"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xe700e001c969c136960eab517fda11c4ff17906d"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0xde819447eb5ec500b11291ffcd73416bcd3f2e4b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2331796ccefb475ce9d37d89c6aa544401b8099f"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x0a03498ec169247f81761d9b67bf5b206ff0c0fc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd7df5272e10e4ad2fcc98dd8114c059194f29c3c"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0x20a595f570590d92bbf03f8d230e4153c2c45e4a"
     tags:
       - contract
     name: QuoteToken
+    networks:
+      - optimism
   - address: "0x43a402ce8a87f9d184cb80c0172d1fbad6918339"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0xa95b27c8d12d58a1aadd6b9e7f1bd9a59ece3fbd"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xbf0184af499b6701a7e742ca265c858fbea09501"
     tags:
       - contract
     name: PerpetualProtocolReferrer
+    networks:
+      - optimism
   - address: "0xf2db8098151510aad13b418936daa456ea18e49c"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x5ce0616eae872fbb13cc15488583967ef8750e45"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x949f5dd07ad960c674757eb4408e7ba980b872d9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x93098b98e71da7fb6eff275ae51309d4374acc42"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x03ca5e832015ca2568ab7a5b118463d4abbba0c0"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0x74c82c1f68b5cfde0c512af3d8e9fc766aaddf68"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x521b207eaaebddff20631b1abbb3928f6619d9b0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6519b73b495958e989fc2f26b529d0741e8ac8e8"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xbdde4edcbb57e9bcd67bec10e8425b8082f6d8d7"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x95320fd234c9ac9b6b18860fd35da8ebf258fb50"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x95b00f33d83173059c9ee9c108f9b78d8d35c7e7"
     tags:
       - contract
     name: ChainlinkPriceFeedV2
+    networks:
+      - optimism
   - address: "0x6c7a90ad09c2c31e6bc6b77be80af20a6bcc246b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xea9d55e9e92b7fbfd5cf07b05311dbec9febc716"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfb413a935cdc0cc2b5f0c97dfbf60bb91d749fda"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x4ea48ce3339c9d33743e1ee640f50f44989c19c5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x60f97320844add7a23a9c0c5e9a288bd558a78a0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe0751b35106398a8cf6b4367557e080a994a044a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5cb79211b00b2c499bda567ef12671570ca5b565"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xee8945c707357fc5abac9ef481d4bec9205f0c60"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x97ec4f25d7525eb9f7eaa4c04c4549031108e3cc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb6dd13b843b1c272452c1bd5f74899544279b4e8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb0d9f06051d7aec0319aebae63316dd686667d57"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x92023ca5a2a9d1d33ef07c88afd421539d562544"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5f375635e7d1136393b34616eed4b5cc8f00a5df"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0x731826088f73c246fc2580ab6a966d1fffd85a58"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x49c1d2f0214396e9a862169c0a2920b4e8e07173"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3d9a8e57e4e1b3ea511509e8f67d0c25fdcabd0b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x812b0a4e74eaeca344fcfa2db15099f036943850"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2db8d2db86ca3a4c7040e778244451776570359b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x37830e3d891572ab9a50bb06641ef757b6d745ac"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x71ea18e0e521c06123c4a0c7abe1d1456ea7d502"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc711252c26cda0603a6e3103354c65bb668e14cd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1b19b99ef3923c48acab66206b337b0a974c89c3"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x79931d6f726d33d71cbec0afbdf846aaf33c3849"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd5b851e83a987ad3a6fadbc83792938369f65e91"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0x24bc4e048ec704ecc372326275df061069bc7efe"
     tags:
       - contract
     name: PerpPositionManager
+    networks:
+      - optimism
   - address: "0x00e198d71fb701f58b5d5c31759efcc911ebc960"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xa85c00be2c8cf77d06c3ab404434763d536c1a65"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0x7216e155c34fc19bbbfabadf03820c36fb004054"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0x2f8508fc4bfe338b944a9b93b05a9b9725590023"
     tags:
       - contract
     name: Vault
+    networks:
+      - optimism
   - address: "0x42d430c34c9e7af5f57808b496e57e2836ce5553"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xed55c0c9c59c09b8917615bb172e2fe907c1c896"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbbfa0478ad6e5d5040cd21f7aca64e56ff3426e6"
     tags:
       - contract
     name: ChainlinkPriceFeedV2
+    networks:
+      - optimism
   - address: "0xb256a222e71375e942730fa445a3275f725a3dc1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa525d5eeda8f8a801e0e2f2eae05bd1889d2e064"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xa5995760cd0acfce836a8230b34c0f15adacc81c"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x64689ae2b2aafa02e3e687bb5dd09ac67db27792"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xeb883c35a1c2b4702fdc58e3ce2aa198f19c9b40"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4b1153fca71bc33d911b3bf01b0003afe6b279e2"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xf929359a77ac765c9df38a4b15c1b2d18a971b0b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x849383de33378e7dc0fd05f5d03daa33f231dc90"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc087482f00df3c1eb58dc23af04347dd78709ab8"
     tags:
       - contract
     name: Multicall2
+    networks:
+      - optimism
   - address: "0xc1b9ca937c1c328e16ee89bad89af2d23ff7bdfe"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7465e2e29a447bd9c816bb1091cb48f78e3d8eea"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2b18962f8d636b395cd145722ddad6b78fb08784"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x52ce0fe10b74f472a910729b8748d9c7ad75ca5d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe90ee8accfcbe348a4b1fdc22bb148507c090d45"
     tags:
       - contract
     name: vePERPRewardDistributor
+    networks:
+      - optimism
   - address: "0x17793262e3625b1a57fb325b5a1f79b05de30b14"
     tags:
       - contract
     name: QuoteToken
+    networks:
+      - optimism
   - address: "0x39e64cd778b02b9929bd15710e57425d142440ef"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1db8eef23a443cee7b3f947669d89577610cc5eb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5cc862f6b19009a9e57d9acdd2d5bf6b69ca59ee"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0xd4cb96d0f252bf20f2871a250524bc573fe61110"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa48b26819b017c9355d933c664088588ba793a9e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6eacdf19678ac6c5e4e11c63213c53398c29da99"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0x70c49a90cf888a3912aace9191cd55a3bd840ba3"
     tags:
       - contract
     name: QuoteVault
+    networks:
+      - optimism
   - address: "0x5d2637c15c0f3ef21983f7569331549a25f734e7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x92ac05fd72035cca60af6dbc4524c51d46479875"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x72ea27acf1cabd4387d150e2eb057feb44e849fc"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0xb96bdca8d88ac40cfdf48d443eec8e9263e6bf95"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0xd768e9c9ee63cab5f9aacd304b271bdf5d4aabb7"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0xe394e968254797e2eaa3cf344262f89a27aa3f7d"
     tags:
       - contract
     name: PerpLiquidityMining
+    networks:
+      - optimism
   - address: "0x21b6558a58a8d89a789d9eae7d331ba9ac98c1ed"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb04a6c20a37848a2f210b95b54324f8f3eb6df6f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc8d6c21d79c86708b787220a29cc489ef0ecdfe5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe1ebefc179218874c7b6fd31289ef4480ef6edc3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x82deb459f2323885db79f1a2d3b4f23782aa43b3"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x4f12ddcc9d2118efe42f4816e7b3c60f9fb7de01"
     tags:
       - contract
     name: OtcMaker
+    networks:
+      - optimism
   - address: "0x69dcb21ba87b9a69dfdf1154b0652a473cda1651"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb60b8a2241ee310d6348801b37e3d9ee700a7ed6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1635c48cbe5d5a927ef2d0283cc0895a9b6e997a"
     tags:
       - contract
     name: ChainlinkPriceFeedV2
+    networks:
+      - optimism
   - address: "0x5b864c890d943996ae9cccb071e0d57639e28247"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x09e044cbb6836d08079e48fc943a18cc84c4fc88"
     tags:
       - contract
     name: BaseVault
+    networks:
+      - optimism
   - address: "0xe62e90efc179a36ca80a9e9f2a64e02fc6066e00"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xaa00d9a30728ef61f6f7e2285f008d8ecce29ac4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc6b1b6c51c690f006dd8978ed6698585bdf96bb9"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xdf446838fd48ccd395c0a7cc666d85e8c05367bc"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0x2ac50992168d956b4e0ee5dc09c22def5a5fc382"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbfba3368d94b8b006a4fd59c13b9e9f9b071d106"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x6747017a41a8c78ab4d771fb5e17c0dcd74431d0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0b02b24d2f96983d7d73180e0389b9c1ea3cd9c3"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x5dbdc6745caba9868ef4142a20434c60d35bd0c4"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0x917c374599fe384818275f7c47ab11b23afdeb48"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x0908c4646a8659ece6b3d6632435518d22cc7cc7"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0x65c2461444247d50c8cf6b7e174902a2e2a064bd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4a22e9d476832d724535d014e2cf27f5d48fa087"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xd7480e6a18186ef2e79dd1218c5ba85a1f9e5bbd"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xbe1119dfd2f831185cc75d5f97348c19575f5088"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x595bafededf664166dc008714dc03a1506910fcb"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x31edda4d02d2b85f8e2236fed5f1cdabbe399fbd"
     tags:
       - contract
     name: QuoteToken
+    networks:
+      - optimism
   - address: "0xe45815cdc000c3f8c121cc1f7aa1abd1306cf9d3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa84fd728a7cd878d0aec4ce155677d720a3185a8"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xfd7bb5f6844a43c5469c972640eddfa99597a547"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x75420cb98a31e397acd2b5de590383d20a2d89bf"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xae06ce9220ceb19b7d153699df9baaaff6d19853"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbad33428ab0460ca8825001f3d6785804bebbcdc"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x3fb3282e3ba34a0bff94845f1800eb93cc6850d4"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xf70c85165c1728f4780ef5caf66705c382c32c6e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x08b719cdc57d7e07f4dab7a6e97bba3bc90fc326"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb514b0d5abfcaae85456ecc09758c8ef4cfbb5be"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x48826ff6b5045c2887bd959c728b0d7a52ac9971"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0xb18aabb37929646364509b6c93b2c05836c40a6a"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x63c2d84bd589adbf826573f9bc1f6dbbd381f799"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xad7b4c162707e0b2b5f6fddbd3f8538a5fba0d60"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x19a4dea5470b2d8e16d9f8d929c0b36fe44113b4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6adbbfbe58ddef8afab1a4316464c1d737c68ab6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x566d81bc65615d91b1f4258af67a9cdd10c16283"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe23ea26af3eeef4d998930e16c1252fdd581b2e7"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0x0c25f10ea076de9c4a0618ab7b020017e1ebe985"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe06d686c4e375db8f1156efba1d3d1d44dc255c3"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0xe715959dd5313a74da1653f63ef800ce2f71eda8"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf38bc41ada278a8de82ac7c6cbc3e8f33770c3f4"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0xbae4fc1956b635a739ac3e11f9e25f0d0c1321ca"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x88b6948513517c46637ae2195b184d75da0f7d1f"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x5a656bccdbeafa3f5dc597f610d55df74d9d08a8"
     tags:
       - contract
     name: ClearingHouseConfig
+    networks:
+      - optimism
   - address: "0x4f7961ee13bda96bfa9381b87d21b2baed96f0b5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x79c1ee1f9fd02aaedfe032323283c809ffa47bc6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5a7ed3ce6096228a9fe1b673830e6a78c9cfb71b"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xa02a0d5913e44669afed94d38764760b41c18c4e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x47b10b765fad4d4f76f34b3c6314b1de89355fab"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x75241cf5f54dcc431e432bffd3da987585cbb5d3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd80e52a51f38838455df1c1724a3b7556d1f7e4b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3bf3a554bec3296dc3af96fb2e30c54ef9878e84"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5ebe7ee72ab56f82194e61d95d5a0a32cdf722e1"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x276180642c6a7ebd043b089dc143b575b58ad9a5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x06e4c8177846f588b58f0baa820ecd1a830293cb"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0x75bd2a63caba8e6394faa27bebe240c648cce3dd"
     tags:
       - contract
     name: LimitOrderBook
+    networks:
+      - optimism
   - address: "0x72781ece8e60e56bd887cf52357b30fde7523afb"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0x524af0267bbe3d2b8117892c5f8a470704c08bdf"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xde9a3ae00759c24fd183db7ce5437d44b1ebaf72"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x28f1e979ac21b80543adc7c70f15cf0dbaf340e0"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0x7c7e447a7ec5882a45fed3fb7118f30e3030381e"
     tags:
       - contract
     name: LimitOrderBook
+    networks:
+      - optimism
   - address: "0x1a459f2923212b9df6419fb8cede30445b26643f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5ed04c578d3ae362148af980bbbd6cc49e2225a1"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0xab6a4ae035a07513f2735c4905bd18812638d233"
     tags:
       - contract
     name: vePERPRewardDistributor
+    networks:
+      - optimism
   - address: "0x82ac2ce43e33683c58be4cdc40975e73aa50f459"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xe8edfa5ecb14e96dc1d0c6bec371f9d30372be92"
     tags:
       - contract
     name: Exchange
+    networks:
+      - optimism
   - address: "0x9c80ec37c4e4a0000612043c9694c8dd5fde1650"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xb2da5d2a3797f29842eca660c22dec2f710038ff"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x6dc4b1829347d83b0d23f6b6bb0838341c604577"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xbb00cabfd199d23f64f6468a00e5b9858ecfce24"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xef3011899600fc213f7d7c8662da1850c7caa4a2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x46453f42f41b52fd9423ce54b7572efb45f2f1cf"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x6edfee2de18ef5c9924bbd9af01aa0f9734a4207"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x96dae65460d70adfe3d16920efcba624b9bd02bd"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe649d4c1beb63be602ab69e73d3d846b812bc78e"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xdb21bb0389b616bb2ebde855975df4f2ce9fb74f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb7a9060f6f474265ddbb617c0d794fdb34245d96"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcccfbc35eeaf17a19ac3f17a9edb4c7c18c320b0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd2f1e3e8df85b1bc9af3b478db3387dc0830c4ce"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x8098c6273bd5f9d32d03e6cb62472a9e6608eff2"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xabea9cd285b402331386bfcf370440d8aedfd171"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0x7bc367f5d565937b1ddb87501019aa0bd0b7e953"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x4787a0e5d6d89cb9b537a1e397caac55c68f6147"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7f330c97dad8ee9ab92aee69990b655f90f83d2e"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe47aaa8c7902fe4c801418182946d861fc12bd13"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0xae38ca61f4820d63f9c7d720a9329fedd2e69742"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2c8adf9770dc04de18a75f8868782598f4783656"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x37c90107cce4567c691308944c8a1ea7c3e3e63b"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x23a52305725ce9589171e5f782830ec6f0517239"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x5ece025e6c05837d513c6c3c4758ad02a46fcfbe"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb0ea0a8cabaa2770f213b9c47d5adfba07f7c01c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xd5820ee0f55205f6cde8bb0647072143b3060067"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xf1ba37773e1096274367c75d65af6d001a9964dd"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x6f82f89e5d5dbcd21769391f5ba3f6ec70f72b11"
     tags:
       - contract
     name: DelegateApproval
+    networks:
+      - optimism
   - address: "0x519ed94c628e9204aa7d7cccce16716d4b708ee2"
     tags:
       - contract
     name: PerpLiquidityMining
+    networks:
+      - optimism
   - address: "0xb95899f0e73539271079b7f2330a358f968ec392"
     tags:
       - contract
     name: ClearingHouse
+    networks:
+      - optimism
   - address: "0xdb80dabe81db21b02ec1b252b11efaccd4099ab2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x45d27940f9ffb52bf71baa20947c1587809103a1"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x9e010e930d00f03f2911058adb8d996795841689"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0x3510a980eaf710f843a6d15dae569e89f67a5643"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xa2c2b08897fb3ddd19ce8e4e9af2e9fef1810be3"
     tags:
       - contract
     name: ChainlinkPriceFeed
+    networks:
+      - optimism
   - address: "0x434c11700bc7945f1cad2ac7352d566090a537b1"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0x4e16724b829dd68c396aa888ea37e8d8b30d37b4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9b4a4c2dfecf189a5ca98a11190c8e6a74169d16"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x71718d7e2d353a49c387e94e2f6bcd34d9f88f2b"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x6d906364efc365abc86ad338cfa60969e0dba0e6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x90f57ae74bc77ab7d0e8329c4cf9919b941c16b7"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x39a3f08bdcbf2e8465fac953a582acb19a6aca58"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcfb9d5d6667df4c2fdb543ff26a9b86d01c37ab0"
     tags:
       - contract
     name: InsuranceFund
+    networks:
+      - optimism
   - address: "0x49be41e92a41862906d6ce64f188dabe1d116425"
     tags:
       - contract
     name: OrderBook
+    networks:
+      - optimism
   - address: "0xf0a18c27d26a319679e59b3a5797668006fd032f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa4c817a425d3443baf610ca614c8b11688a288fb"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x2b781009f25e540c899fed72346633eecf1692da"
     tags:
       - contract
     name: ProxyAdmin
+    networks:
+      - optimism
   - address: "0x8e934e34182bd2e4416f08814793029f140956c6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2af1730f825b511d18d5443d4618ed6ebf6f6b4f"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x527831e3fb9690abc8f176579293695c1f81e3a0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa6f9e1ef0833a56fcc00cc69d07519a7332fa29a"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xfdeffacdd1186e3a40a142e366b6f0f36e14b54e"
     tags:
       - contract
     name: AccountBalance
+    networks:
+      - optimism
   - address: "0x574981052cc40d4b78159b0bd5a27732f9944c73"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xabaca4c361ffca3e8494430971b13888c5c9f200"
     tags:
       - contract
     name: QuoteVault
+    networks:
+      - optimism
   - address: "0x2a0727d1162d83c8d808ca3016cfc83bcae1bf87"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xd9c0894fd94abaefb9278b2c7d590482c0732642"
     tags:
       - contract
     name: KtbUniArbitrageur
+    networks:
+      - optimism
   - address: "0x99eb05388e5afb15795f63921195094999155971"
     tags:
       - contract
     name: ChainlinkPriceFeedV2
+    networks:
+      - optimism
   - address: "0x8ac835c05530f10595c8015467339523154b4d85"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x65e2ee1e9e8896f7fb391ed52a9200048fbea116"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0xcee33faae88f89f389e603057fa16c6ed4c55ca2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x9482aafdced6b899626f465e1fa0cf1b1418d797"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xed2a438838c8c3dada708c9bf2a72eb064da3e9c"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8f1b5ed853bda4f5bd164373de22e5240aa83494"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x692947882552b219cda135cd1705c21ef281c792"
     tags:
       - contract
     name: QuoteVault
+    networks:
+      - optimism
   - address: "0x70d91f4f6bc5656e7d5c9de7266d00e998f61c28"
     tags:
       - contract
     name: PerpBuybackPool
+    networks:
+      - optimism
   - address: "0x9b96d189958c5be5e4a5d5280b5b58ad610db157"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x6cf904f23e325b255c57dff3bed337c1b553e8f7"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x962d51781580e2c09026e2b9b34c068ee9420679"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2fb339ef3661e15ba4f682a2be766e6dbf39f9f2"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x20c889271ae8198074242740ca736936b72afd52"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x12a5ddaabaa461c3a8d4f32f0cba2b854324f108"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0x69f8f6a457e5542d1ec0c9ed07201cfe4344e39b"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x0315b83b137ef6d1bbc6a29ae5c524666e030c75"
     tags:
       - contract
     name: LimitOrderRewardVault
+    networks:
+      - optimism
   - address: "0xbadffed8695448d132696cfa14b5a5b7c86d340b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xee3873fbc86467b01a1c8362d6e99c81bfa16f25"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x29ddfed42698b467223c600d0e3751f1463f2672"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0xcf10d17bad67ce190a94f08fdd7b4e51540fd860"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1c9a192df3936cbf093d8afdc352718bcf834eb6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x52181990808ee38c883f6b94585f9f1909225b67"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc191a98c92ceb3f05f740f6c8f496a78fb574b26"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x0816332dbb603fbc82b386ef8fdc576605034ebf"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x0315ffdef8efc88d193f79ff52e04474f3d81954"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xec5d8b20073b1adb5830fdb3cb5cfcd6b097b250"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0x19b618811e0e0c92c9e71290c48ac9f1fe0222ef"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x78e62b4fb997807b0b83675e9259bf853ebc677b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x085450f6ead075b91f5b4c214af1830acaaaef47"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x45eb7b0410571065ac1010cd3f57f441d1df52e6"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8fda522477578bdc12f88e45e6391b374660f69b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x8156c0fbac680bbedbba87b37e7badb8f90df046"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x66e297e00fa504630ff8f77f98212f6c920b0de8"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0xad44adf6e84fa06de767cd1e8688d97e52c9a37a"
     tags:
       - eoa
       - creator
+    networks:
+      - optimism
   - address: "0x9e1028f5f1d5ede59748ffcee5532509976840e0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x41a959fba3fbecf342ce2b757382237a93b16f4e"
     tags:
       - contract
     name: KtbArbitrageur
+    networks:
+      - optimism
   - address: "0x3dad26c84014d1b30c48124e32d3b1aad3fc8d36"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xbc5f1ae773f5545cae3a01baf4f29484ee086330"
     tags:
       - contract
     name: KtbArbitrageur
+    networks:
+      - optimism
   - address: "0xee1adaea27e97440df594d601e366b3a1f1703dd"
     tags:
       - contract
     name: KtbArbitrageur
+    networks:
+      - optimism
   - address: "0x7af98c4edc50cd7ec18c8b28a34200a16f53f3a4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x5039cde9ed71256be27a36440380f36cad45d270"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x1138639d5d2cc47ae03f0aabbd840921b641330b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcc887c74eaccae5cf33f2d76f6dfcc0bbb5d879f"
     tags:
       - contract
     name: KtbArbitrageur
+    networks:
+      - optimism
   - address: "0x85f411fa07be5ae5a9a435b0e5b0dede1385df6f"
     tags:
       - contract
     name: KtbArbitrageur
+    networks:
+      - optimism
   - address: "0x344b82a011803819ca794b7ba5d9e476d274b1cc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xafdda167f9816f535a58c2a68e7a309e68a1cf6d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x065047856f2ca23d80b6068f29be56958698f965"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x499232ba2c8693c26011745b04fe254de98ee9a1"
     tags:
       - contract
     name: KtbArbitrageur
+    networks:
+      - optimism
   - address: "0x9a496666d33c9dcffe007a46b4ce829552a015de"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x156e878c09e480e86d8c72a8484fea1d2066e5d4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xb4d616a489e09b40740a601934f7166f840f7748"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0x6967574169f5537124049560220e09b38f3f1691"
     tags:
       - contract
     name: ChainlinkPriceFeedV3
+    networks:
+      - optimism
   - address: "0xba32d89fab75ee8f5b85516128ef47f607f98e3a"
     tags:
       - contract
     name: PriceFeedDispatcher
+    networks:
+      - optimism
   - address: "0xe17642a5f4c6c18e0e83d69ba04fdb04028ff7f7"
     tags:
       - contract
     name: PriceFeedUpdater
+    networks:
+      - optimism
   - address: "0xa110bf95801f4aaf8a0feb84ca7c7d2088ed50e0"
     tags:
       - contract
     name: BaseToken
+    networks:
+      - optimism
   - address: "0x32bd830aab3bcae5422e241a04a72b417e75e397"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+    networks:
+      - optimism
   - address: "0x12341524a1860aa56ff43c066d52aac4ac6eecfc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x35af19826c79c21f54612d1913f3f471dbad44e0"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x146372657bbeb7bbfd95543a33a4041099ea3fe3"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0xe35d62e4dd1eac088e88901c1422846102a969d2"
     tags:
       - contract
     name: UniswapV3PriceFeed
+    networks:
+      - optimism
   - address: "0x4a1096f1f7558dde05600f44952a7dc692787e3f"
     tags:
       - contract
     name: MarketRegistry
+    networks:
+      - optimism
   - address: "0x6eb2dbfd01a22fc64595c37bc3cb6c1bc7ca6e8b"
     tags:
       - contract
     name: PerpPositionManager
+    networks:
+      - optimism
   - address: "0x2f6955ef3038c71eff06fa97c714e21620b8c43b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x603b89d154d5eb309719c33ad95a0fe2ee449f98"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x400f93b1661185d9f7ffb916ed4f82085a00843a"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x211a3f48fa48043ce7b09eb4b5fa83a71ddce99b"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x3ab4248e47494bd832f125397aa7ec644a44b012"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7bad05452ce6e4a2bf05bea51e0085079348aa52"
     tags:
       - contract
     name: PerpPositionManager
+    networks:
+      - optimism
   - address: "0x701244651138e150d6b24f576b74543f6026cd00"
     tags:
       - contract
     name: PerpPositionManager
+    networks:
+      - optimism
   - address: "0x34d0c67bb5627660fe09ef869b53cf67a6c6b6c7"
     tags:
       - contract
     name: PerpPositionManager
+    networks:
+      - optimism
   - address: "0x9f4971d618360eba4e14a5e93b5c8eca4c53bb7c"
     tags:
       - contract
     name: PerpPositionManager
+    networks:
+      - optimism
   - address: "0xd2601a124e56b303d3db32445f9d5dc6d59bfe55"
     tags:
       - contract
     name: PerpPositionManager
+    networks:
+      - optimism
   - address: "0x54aedb5e5c98ecad6de1e9d2e3314cf2c77ff17f"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x2568b87f26d6719feba6b43444e2fa5e984957fc"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfce49c4ce3c8b6722f1edf18c449fd069b5d4d63"
     tags:
       - contract
     name: BaseVault
+    networks:
+      - optimism
   - address: "0x9d933add7f9c97736cdeb1c4a2a5eab9a7210dc0"
     tags:
       - contract
     name: QuoteVault
+    networks:
+      - optimism
   - address: "0x06e1c95c83768de7ccc30debb84c08b596305563"
     tags:
       - contract
     name: BaseVault
+    networks:
+      - optimism
   - address: "0x4d514c39929f7d316d89aea3776806768e0a1dca"
     tags:
       - contract
     name: QuoteVault
+    networks:
+      - optimism
   - address: "0x5cf267d9ca0692f51e6b185d97f94292ca3d4d90"
     tags:
       - contract
     name: BaseVault
+    networks:
+      - optimism
   - address: "0x9a50ad16b544ad6c859d33b3dc2f0d5e44744846"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa85771964de94326f0bc61699cfafd3ec6d1c6e5"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe8128639c3cf0b46c567d0ad9cbef6047caae181"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x7238efb70ce4cd5697e78d02f6cb3a3d9a042052"
     tags:
       - contract
     name: BaseVault
+    networks:
+      - optimism
   - address: "0x85879d28ed28ef8928af5c5048401f1631a94c53"
     tags:
       - contract
     name: QuoteVault
+    networks:
+      - optimism
   - address: "0x9673950ddb7b9a8fcfb5a5daa2cc29eb51dc3cfb"
     tags:
       - contract
     name: BaseVault
+    networks:
+      - optimism
   - address: "0x3d11ac520e43121222180271b462f987d1c312f4"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xfe234f934ddd6bf00e2520a570529fe7f0a40817"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xccd76830ec5ae954f29eb1cda80598f36771e836"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xe31e2ec06ae19c0e89edb16318f082b9c09d6af3"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xa3042385f775c52ad7e038cec45a95c2dc566f5d"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0x4c0f652bed6f607d02e0b4a6206e4ad7e30cb731"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcf52a8783fe35b9149e53d1df4c1dc40f6fb9924"
     tags:
       - contract
     name: VaultRebalancer
+    networks:
+      - optimism
   - address: "0x116fc46c048ec547a960a0823b3c42fcccf17dff"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xcef69e1e0172f15fede9a007c0ff6871e9f6fb00"
     tags:
       - contract
+    networks:
+      - optimism
   - address: "0xc50e259972af64e56dbb3f6d17302139e65ddf05"
     tags:
       - contract
+    networks:
+      - optimism
