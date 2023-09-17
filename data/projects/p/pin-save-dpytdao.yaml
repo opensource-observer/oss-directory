@@ -1,0 +1,19 @@
+version: 3
+slug: pin-save-dpytdao
+name: Pin Save
+github:
+  - url: https://github.com/dspytdao/Pinsave
+blockchain:
+  - address: "0x48294a067D1bC5a58BCbAB4b3bE329d078D9E1Af"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism
+  - address: "0xaD851ef1AD2cCf8F87413e6c274BccBeC37469d2"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
