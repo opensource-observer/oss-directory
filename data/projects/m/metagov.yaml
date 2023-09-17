@@ -1,0 +1,30 @@
+version: 3
+slug: metagov
+name: The Metagovernance Project
+github:
+  - url: https://github.com/metagov
+blockchain:
+  - address: "0xfF2aBEF3af9655D96Da983916e066134adea6390"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+  - address: "0xd39D6d3F7433A0caBD90c0Ea74d76dA29b718314"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+  - address: "0x539bDe90Cc8005727a7f2dd5dEA5F6D83e82BbA2"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+  - address: "0xc38B9fBB57b0c33f85Cb0A03669a9D6127538369"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
