@@ -1,0 +1,18 @@
+version: 3
+slug: ens-redirect
+name: ENSRedirect
+github:
+  - url: https://github.com/ENS-Redirect
+blockchain:
+  - address: "0x0398a897E8312a0382C65907368CF244a7a3eDbd"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - mainnet
+  - address: "0xe6339AD5F7e42E1Ad347e95F19689f1f8Cb56A68"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
