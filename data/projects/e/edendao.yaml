@@ -1,0 +1,18 @@
+version: 3
+slug: edendao
+name: Eden DAO
+github:
+  - url: https://github.com/edendao
+blockchain:
+  - address: "0x58B36156A268eC1E28aC781554c556E5152f7450"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+  - address: "0x58b36156a268ec1e28ac781554c556e5152f7450"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism

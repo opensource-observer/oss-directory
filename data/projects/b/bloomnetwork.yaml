@@ -1,0 +1,18 @@
+version: 3
+slug: bloomnetwork
+name: Bloom Network
+github:
+  - url: https://github.com/BloomNetwork
+blockchain:
+  - address: "0xF64bBc221f89cc882fBa507908bbE4Ae3Ad2F470"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - mainnet
+  - address: "0x5219ffb88175588510e9752A1ecaA3cd217ca783"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism

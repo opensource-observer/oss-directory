@@ -1,0 +1,18 @@
+version: 3
+slug: urbanika
+name: Urbanika
+github:
+  - url: https://github.com/Urbanika
+blockchain:
+  - address: "0x0442A9aBbc93058a873c371F21CC366338254A88"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+  - address: "0x81BfcA6D81a00b0bcCa2FFa9F6Ca23D6BF3e2bbB"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
