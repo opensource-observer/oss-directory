@@ -1,0 +1,13 @@
+version: 3
+slug: erigon-ledgerwatch
+name: Erigon
+github:
+  - url: https://github.com/ledgerwatch
+blockchain:
+  - address: "0x9D20893054afC4A74b856089c44F9A09d1C38Db0"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism

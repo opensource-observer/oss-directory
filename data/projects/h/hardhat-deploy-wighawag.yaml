@@ -1,0 +1,13 @@
+version: 3
+slug: hardhat-deploy-wighawag
+name: hardhat-deploy
+github:
+  - url: https://github.com/wighawag/hardhat-deploy
+blockchain:
+  - address: "0xF0D7a8198D75e10517f035CF11b928e9E2aB20f4"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism
