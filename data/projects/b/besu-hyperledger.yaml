@@ -1,0 +1,12 @@
+version: 3
+slug: besu-hyperledger
+name: Hyperledger Besu
+github:
+  - url: https://github.com/hyperledger/besu
+blockchain:
+  - address: "0xAb7A08Be21dFEcd4c9902995F3e30A2659b564E1"
+    tags:
+      - wallet
+    networks:
+      - mainnet
+      - optimism
