@@ -1,0 +1,23 @@
+version: 3
+slug: protocol-guild
+name: Protocol Guild
+github:
+  - url: https://github.com/protocolguild
+blockchain:
+  - address: "0xF29Ff96aaEa6C9A1fBa851f74737f3c069d4f1a9"
+    tags:
+      - wallet
+    networks:
+      - mainnet
+  - address: "0x0B916095200313900104bAcfc288462682C38700"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+  - address: "0x42a43f000adc215af8B1896Ed09C2d1B0f81cDfB"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism

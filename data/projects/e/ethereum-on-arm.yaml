@@ -1,0 +1,13 @@
+version: 3
+slug: ethereum-on-arm
+name: Ethereum on ARM
+github:
+  - url: https://github.com/EOA-Blockchain-Labs
+blockchain:
+  - address: "0x1bCDB2226ee2b023e3886Dd2027c4eE95457699f"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - pgn
