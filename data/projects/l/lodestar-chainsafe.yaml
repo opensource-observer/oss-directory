@@ -1,0 +1,12 @@
+version: 3
+slug: lodestar-chainsafe
+name: Lodestar
+github:
+  - url: https://github.com/ChainSafe/lodestar
+blockchain:
+  - address: "0xc8F9f8C913d6fF031c65e3bF7c7a51Ad1f3a86E5"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
