@@ -3,6 +3,7 @@ slug: punk-domains
 name: Punk Domains
 github:
   - url: https://github.com/punk-domains-2
+  - url: https://github.com/punk-domains
 blockchain:
   - address: "0xb29050965a5ac70ab487aa47546cdcbc97dae45d"
     tags:
@@ -141,5 +142,11 @@ blockchain:
   - address: "0x1c7ccf4057c04fd4fea4b1a8b0484770569bbbe4"
     tags:
       - contract
+    networks:
+      - optimism
+  - address: "0x12e838f846ffdade34b2e006f84117a370d71687"
+    tags:
+      - wallet
+      - eoa
     networks:
       - optimism

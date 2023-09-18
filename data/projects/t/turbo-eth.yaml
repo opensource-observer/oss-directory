@@ -1,0 +1,18 @@
+version: 3
+slug: turbo-eth
+name: TurboETH
+github:
+  - url: https://github.com/turbo-eth
+blockchain:
+  - address: "0xfdA84CFC7D83d9D744590280289160F8118966E5"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - mainnet
+  - address: "0x4B5509687117aE7308188753ECbAEd61B3B1233c"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism

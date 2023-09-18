@@ -1,0 +1,18 @@
+version: 3
+slug: directed-development-foundation
+name: DirectEd Development Foundation
+github:
+  - url: https://github.com/DirectEd-Development-Foundation
+blockchain:
+  - address: "0xb1aB77dd31080f1db27533dfE6E8104131D792a3"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+  - address: "0xa18d7F3960eF7C9d708dD623589359C5EE00263f"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism

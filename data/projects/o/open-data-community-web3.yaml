@@ -1,0 +1,30 @@
+version: 3
+slug: open-data-community-web3
+name: Open Data Community
+github:
+  - url: https://github.com/OpenDataforWeb3
+blockchain:
+  - address: "0xb62E762Af637b49Eb4870BCe8fE21bffF189e495"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+  - address: "0x78bb9bFe1DcDDa2ABb56f3e1271736fc6d1E16fF"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
+  - address: "0x44d8E8C21333401374B195f26b78d023853148B5"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
+  - address: "0x10e339fecc9DC61A1e649c93285044a58e0b31E0"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism

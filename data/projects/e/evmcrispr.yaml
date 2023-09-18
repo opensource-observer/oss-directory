@@ -1,0 +1,13 @@
+version: 3
+slug: evmcrispr
+name: EVMcrispr
+github:
+  - url: https://github.com/EVMcrispr
+blockchain:
+  - address: "0x0035cC37599241D007D0AbA1Fb931C5FA757f7A1"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism

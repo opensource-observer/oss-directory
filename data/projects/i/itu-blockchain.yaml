@@ -1,0 +1,13 @@
+version: 3
+slug: itu-blockchain
+name: ITU Blockchain
+github:
+  - url: https://github.com/itublockchain
+blockchain:
+  - address: "0xBEC643BD5b7F5e9190617CA4187ef0455950C51C"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism

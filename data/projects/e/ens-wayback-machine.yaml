@@ -1,0 +1,13 @@
+version: 3
+slug: ens-wayback-machine
+name: ENS Wayback Machine
+github:
+  - url: https://github.com/BlossomLabs/ens-wayback-machine
+blockchain:
+  - address: "0x6ea869B6870dd98552B0C7e47dA90702a436358b"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism

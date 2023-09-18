@@ -1,0 +1,12 @@
+version: 3
+slug: newzchain
+name: Newzchain
+github:
+  - url: https://github.com/newzchain
+blockchain:
+  - address: "0x16cA53cB1C624228Ae26D9BE3850B755616Ec538"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism

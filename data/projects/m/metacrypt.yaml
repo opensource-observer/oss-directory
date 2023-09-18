@@ -1,0 +1,18 @@
+version: 3
+slug: metacrypt
+name: Metacrypt
+github:
+  - url: https://github.com/0xMetacrypt
+blockchain:
+  - address: "0x888325Bc674B09CdF29DC39E05995A26346df7FC"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+  - address: "0x888325bc674b09cdf29dc39e05995a26346df7fc"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism

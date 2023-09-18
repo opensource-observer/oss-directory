@@ -1,0 +1,18 @@
+version: 3
+slug: ikigai-labs-xyz
+name: Ikigai Labs
+github:
+  - url: https://github.com/ikigai-labs-xyz
+blockchain:
+  - address: "0x99d5Ce23335BffC8289F67Eb2723270776f2785e"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+  - address: "0xc1EDd32AD70De1A1D55299FDa37A78ad5540b2f5"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism

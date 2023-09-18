@@ -1,0 +1,13 @@
+version: 3
+slug: tor-project
+name: The Tor Project
+github:
+  - url: https://github.com/torproject
+blockchain:
+  - address: "0xe3d34daC159f88Fd2CD38b1380B998000a9C0880"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism

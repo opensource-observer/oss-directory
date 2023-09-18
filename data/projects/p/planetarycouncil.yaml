@@ -1,0 +1,18 @@
+version: 3
+slug: planetarycouncil
+name: Planetary Council
+github:
+  - url: https://github.com/PlanetaryCouncil
+blockchain:
+  - address: "0xB9E3ECF1257985e450D78B9B7fF266918653257e"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - mainnet
+  - address: "0x85A363699C6864248a6FfCA66e4a1A5cCf9f5567"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism

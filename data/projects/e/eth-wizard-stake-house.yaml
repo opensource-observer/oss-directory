@@ -1,0 +1,12 @@
+version: 3
+slug: eth-wizard-stake-house
+name: "eth-wizard: An Ethereum validator installation wizard"
+github:
+  - url: https://github.com/stake-house/eth-wizard
+blockchain:
+  - address: "0xdbB16c68aA373229Db9f37D85087264361691AB9"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet

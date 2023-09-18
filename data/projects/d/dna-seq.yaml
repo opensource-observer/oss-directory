@@ -1,0 +1,18 @@
+version: 3
+slug: dna-seq
+name: Just DNA-Seq
+github:
+  - url: https://github.com/dna-seq
+blockchain:
+  - address: "0xBc7BeB2d44Eb0Cddf6c0F2560a21475c2E2aC19C"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+  - address: "0xCBE02E35Eb5Da41D665Aa5a54ade7a935D06714B"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism

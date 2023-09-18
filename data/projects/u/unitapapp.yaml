@@ -1,0 +1,18 @@
+version: 3
+slug: unitapapp
+name: Unitap
+github:
+  - url: https://github.com/UnitapApp
+blockchain:
+  - address: "0x4ADc8CC149A03F44386Bee80bab36F9e8022b195"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - mainnet
+  - address: "0x88888931Fbe186C8f513a1289dF2639096Bf7518"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism

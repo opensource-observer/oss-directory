@@ -1,0 +1,12 @@
+version: 3
+slug: evm-diff
+name: EVM Diff
+github:
+  - url: https://github.com/evm-diff
+blockchain:
+  - address: "0xDFc01AD32e52E7FBe2fb6ace17EC73978cF377B0"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
