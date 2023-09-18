@@ -1,0 +1,12 @@
+version: 3
+slug: hildr-optimism-java
+name: Hildr
+github:
+  - url: https://github.com/optimism-java/hildr
+blockchain:
+  - address: "0x56EdF679B0C80D528E17c5Ffe514dc9a1b254b9c"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
