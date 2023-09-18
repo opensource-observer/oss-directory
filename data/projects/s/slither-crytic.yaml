@@ -1,0 +1,12 @@
+version: 3
+slug: slither-crytic
+name: Slither
+github:
+  - url: https://github.com/crytic/slither
+blockchain:
+  - address: "0xc44F30Be3eBBEfdDBB5a85168710b4f0e18f4Ff0"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet

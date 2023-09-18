@@ -1,0 +1,13 @@
+version: 3
+slug: ethereum-etl-blockchain-etl
+name: EthereumETL
+github:
+  - url: https://github.com/blockchain-etl/ethereum-etl
+blockchain:
+  - address: "0x9FD0C742D81B6f08817F3eF11D09Cb4a9f54eE5f"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism
