@@ -1,0 +1,13 @@
+version: 3
+slug: impersonator-eth
+name: Impersonator
+github:
+  - url: https://github.com/impersonator-eth
+blockchain:
+  - address: "0xf90e6125C8918F1ADAc31f85D80728dB62F17d9B"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism
