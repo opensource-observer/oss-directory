@@ -1,5 +1,5 @@
 version: 3
-slug: ethstaker-tax
+slug: ethstaker-tax-serenita-org
 name: ethstaker.tax
 github:
   - url: https://github.com/serenita-org/ethstaker.tax/
@@ -10,3 +10,4 @@ blockchain:
       - eoa
     networks:
       - mainnet
+      - optimism
