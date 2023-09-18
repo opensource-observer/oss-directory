@@ -1,0 +1,13 @@
+version: 3
+slug: delegation-tools
+name: delegation.tools
+github:
+  - url: https://github.com/DanieleSalatti/op-delegation
+blockchain:
+  - address: "0xA47669cBc53985333423e4d3D00188f4049fB695"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism
