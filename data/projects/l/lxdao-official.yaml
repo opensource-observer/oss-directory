@@ -1,0 +1,37 @@
+version: 3
+slug: lxdao-official
+name: LXDAO
+github:
+  - url: https://github.com/lxdao-official
+blockchain:
+  - address: "0x36C4f0d9FD9ED768491EC2c492634218BC3e5A72"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - mainnet
+  - address: "0xB45e9F74D0a35fE1aa0B78feA03877EF96ae8dd2"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - mainnet
+  - address: "0xEe972E35311F65e6fD8F6ea7228Bf388B53e1D4a"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+      - pgn
+  - address: "0xe395B9bA2F93236489ac953146485C435D1A267B"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+  - address: "0x1b8556BDc549D20De33eCba674CF3Bbb88CfEd0A"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
