@@ -1,0 +1,12 @@
+version: 3
+slug: go-ethereum
+name: geth
+github:
+  - url: https://github.com/ethereum/go-ethereum
+blockchain:
+  - address: "0x21539334f45Ac41Bd10789942b744a18a4775d6d"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - mainnet
