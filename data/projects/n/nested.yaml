@@ -220,3 +220,10 @@ blockchain:
     name: NestedFactory
     networks:
       - optimism
+  - address: "0xf944069b489f1ebff4c3c6a6014d58cbef7c7009"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism
