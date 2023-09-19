@@ -1,0 +1,13 @@
+version: 3
+slug: optimism-prices
+name: Optimism Prices Contracts
+github:
+  - url: https://github.com/ethzoomer/optimism-prices
+blockchain:
+  - address: "0x82D54397B88CE80Ea2Df9aD049213ACb47dc2523"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism
