@@ -105,3 +105,10 @@ blockchain:
     name: AnteChainlinkETHUSDDatafeedUpdateDailyTest
     networks:
       - optimism
+  - address: "0xa5b4f91fde4e35be891ea97c47d1052d8a4d75f7"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism

@@ -1,0 +1,13 @@
+version: 3
+slug: xkcp
+name: Keccak hashing
+github:
+  - url: https://github.com/XKCP/XKCP
+blockchain:
+  - address: "0x399aA07a970ea3711d002566cafDBe021f9DD0E8"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism

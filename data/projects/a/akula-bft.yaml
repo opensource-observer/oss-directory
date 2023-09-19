@@ -1,0 +1,13 @@
+version: 3
+slug: akula-bft
+name: Akula
+github:
+  - url: https://github.com/akula-bft
+blockchain:
+  - address: "0x9d6d3b09F8AC8615805bd82e53B80D956F451CFa"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism

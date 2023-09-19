@@ -1,0 +1,13 @@
+version: 3
+slug: nethermindeth
+name: Nethermind
+github:
+  - url: https://github.com/NethermindEth
+blockchain:
+  - address: "0xBc11295936Aa79d594139de1B2e12629414F3BDB"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism

@@ -1,0 +1,13 @@
+version: 3
+slug: optimism-box-truffle
+name: Optimism Box
+github:
+  - url: https://github.com/truffle-box/optimism-box
+blockchain:
+  - address: "0x7a48A728d9Fd2d5a55c545c4378E5bA909349E90"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism

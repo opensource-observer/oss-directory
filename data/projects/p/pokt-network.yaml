@@ -1,0 +1,13 @@
+version: 3
+slug: pokt-network
+name: Pocket Network
+github:
+  - url: https://github.com/pokt-network
+blockchain:
+  - address: "0x5F1Feefc4BB7a414096cCF070BeEF94da8Ff88A6"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism

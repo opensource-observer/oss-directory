@@ -1,0 +1,13 @@
+version: 3
+slug: typechain-dethcrypto
+name: TypeChain
+github:
+  - url: https://github.com/dethcrypto/TypeChain
+blockchain:
+  - address: "0x4d2F0Efdb2AD1d709d8522E7b5aa9f5181563617"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism

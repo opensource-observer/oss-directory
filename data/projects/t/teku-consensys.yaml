@@ -1,0 +1,12 @@
+version: 3
+slug: teku-consensys
+name: Teku
+github:
+  - url: https://github.com/ConsenSys/teku
+blockchain:
+  - address: "0xFF7B65dDc2Ffb7f6AC527b4C2F048946B3A5eaF3"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
