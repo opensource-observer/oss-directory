@@ -4,6 +4,12 @@ name: Chainlink
 github:
   - url: https://github.com/smartcontractkit/chainlink
 blockchain:
+  - address: "0x7EE753e87f20eb3262967c2Fc54762b0B4Ff4D75"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
   - address: "0xdead1cb30b3ca13cd67d1d6f4e2790d12484fdd8"
     tags:
       - eoa

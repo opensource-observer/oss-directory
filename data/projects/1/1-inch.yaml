@@ -4,6 +4,12 @@ name: 1Inch
 github:
   - url: https://github.com/1inch
 blockchain:
+  - address: "0x1bd315E3F029083DA8731a6b1c6F2959A0d15376"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0xee4f7b6c39e7e87af01fb9e4cee0c893ff4d63f2"
     tags:
       - eoa
