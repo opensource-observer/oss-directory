@@ -4,6 +4,12 @@ name: Connext
 github:
   - url: https://github.com/connext
 blockchain:
+  - address: "0x3576AAFAFfE4c07F894447265B391856377157db"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0x155b15a7e9ff0e34ceaf2439589d5c661adc9493"
     tags:
       - eoa

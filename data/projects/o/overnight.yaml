@@ -4,6 +4,13 @@ name: Overnight+
 github:
   - url: https://github.com/ovnstable
 blockchain:
+  - address: "0xe497285e466227F4E8648209E34B465dAA1F90a0"
+    tags:
+      - eoa
+      - wallet
+    networks:
+      - optimism
+      - mainnet
   - address: "0x5cb01385d3097b6a189d1ac8ba3364d900666445"
     tags:
       - eoa

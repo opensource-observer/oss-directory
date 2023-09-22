@@ -4,6 +4,13 @@ name: Tarot Finance
 github:
   - url: https://github.com/tarot-finance
 blockchain:
+  - address: "0x63D5554b748598C191aB0cBd0E0e1C638FFEBEe6"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+      - mainnet
   - address: "0x5b0390bccca1f040d8993eb6e4ce8ded93721765"
     tags:
       - eoa

@@ -4,6 +4,12 @@ name: dHedge
 github:
   - url: https://github.com/dhedge
 blockchain:
+  - address: "0x352Fb838A3ae9b0ef2f0EBF24191AcAf4aB9EcEc"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
   - address: "0xc715aa67866a2fef297b12cb26e953481aed2df4"
     tags:
       - creator

@@ -4,6 +4,12 @@ name: Beefy Finance
 github:
   - url: https://github.com/beefyfinance
 blockchain:
+  - address: "0x4ABa01FB8E1f6BFE80c56Deb367f19F35Df0f4aE"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0x010da5ff62b6e45f89fa7b2d8ced5a8b5754ec1b"
     tags:
       - eoa

@@ -4,6 +4,12 @@ name: Mean Finance
 github:
   - url: https://github.com/mean-finance
 blockchain:
+  - address: "0x308810881807189cAe91950888b2cB73A1CC5920"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0xa71405f7d11734f03f2616b93eaed22604c978bf"
     tags:
       - eoa

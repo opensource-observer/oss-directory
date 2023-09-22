@@ -8,8 +8,10 @@ blockchain:
     tags:
       - eoa
       - creator
+      - wallet
     networks:
       - optimism
+      - mainnet
   - address: "0x485d674f5594716986a5530afa940aa768a3e62c"
     tags:
       - contract

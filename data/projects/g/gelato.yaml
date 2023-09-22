@@ -4,6 +4,12 @@ name: Gelato
 github:
   - url: https://github.com/gelatodigital
 blockchain:
+  - address: "0x01ea687Be2937D4Bfd9e302b8dbD3be8d9bDb14e"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0xd9cbe784df2ae03ea0e22335bb5cd7fcb42a0e32"
     tags:
       - eoa

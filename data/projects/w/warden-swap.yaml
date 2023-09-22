@@ -4,6 +4,13 @@ name: WardenSwap
 github:
   - url: https://github.com/wardenswap
 blockchain:
+  - address: "0xc146a672c85b408a9a7bc00f74ad567b7684134c"
+    tags:
+      - eoa
+      - wallet
+    networks:
+      - optimism
+      - mainnet
   - address: "0xbe9228ce3b7ed30c8646143d0e56ee16fec6c07c"
     tags:
       - eoa

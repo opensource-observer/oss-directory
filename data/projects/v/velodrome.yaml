@@ -4,6 +4,12 @@ name: Velodrome
 github:
   - url: https://github.com/velodrome-finance
 blockchain:
+  - address: "0xb074ec6c37659525EEf2Fb44478077901F878012"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0xc0de1436c4e247f8652476a0b9ff55699801e1d0"
     tags:
       - eoa

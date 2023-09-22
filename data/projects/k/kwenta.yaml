@@ -4,6 +4,12 @@ name: Kwenta
 github:
   - url: https://github.com/kwenta
 blockchain:
+  - address: "0x82d2242257115351899894eF384f779b5ba8c695"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0x652c46a302060b324a02d2d3e4a56e3da07fa91b"
     tags:
       - eoa

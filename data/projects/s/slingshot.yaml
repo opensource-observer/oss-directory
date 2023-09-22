@@ -4,6 +4,13 @@ name: Slingshot
 github:
   - url: https://github.com/slingshot-finance
 blockchain:
+  - address: "0x9D439E524F214Fb0cb5fA42030E578F60E64D98C"
+    tags:
+      - eoa
+      - wallet
+    networks:
+      - optimism
+      - mainnet
   - address: "0x44045fd5d3840fec51b76fb6a87cbcda735a8629"
     tags:
       - eoa

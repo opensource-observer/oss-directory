@@ -4,6 +4,12 @@ name: Perpetual Protocol
 github:
   - url: https://github.com/perpetual-protocol
 blockchain:
+  - address: "0xDcf664d0f76E99eaA2DBD569474d0E75dC899FCD"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0x849a19c0746fb0d335e02dec0d0b3e057e585176"
     tags:
       - eoa

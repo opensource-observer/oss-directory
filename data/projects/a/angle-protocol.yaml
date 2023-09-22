@@ -4,6 +4,12 @@ name: Angle Protocol
 github:
   - url: https://github.com/AngleProtocol
 blockchain:
+  - address: "0x3245d3204eeb67afba7b0ba9143e8081365e08a6"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0xfda462548ce04282f4b6d6619823a7c64fdc0185"
     tags:
       - eoa

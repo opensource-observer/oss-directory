@@ -4,6 +4,12 @@ name: Synthetix
 github:
   - url: https://github.com/synthetixio
 blockchain:
+  - address: "0x9644A6920bd0a1923C2C6C1DddF691b7a42e8A65"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0x395ec94bf3e3dcd3afbd82cd03197731411e396b"
     tags:
       - contract

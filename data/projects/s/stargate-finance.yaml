@@ -4,6 +4,12 @@ name: Stargate Finance
 github:
   - url: https://github.com/stargate-protocol
 blockchain:
+  - address: "0x392AC17A9028515a3bFA6CCe51F8b70306C6bd43"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0x1d7c6783328c145393e84fb47a7f7c548f5ee28d"
     tags:
       - eoa

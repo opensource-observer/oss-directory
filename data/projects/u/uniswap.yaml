@@ -43,6 +43,27 @@ npm:
   - url: https://www.npmjs.com/package/@uniswap/ethers-rs-mobile
   - url: https://www.npmjs.com/package/@uniswap/swap-router-react
 blockchain:
+  - address: "0x0D162447B8dF47C2e7910441bF3C8c1b55b9B124"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
+    name: Uniswap Grants Program (Optimism)
+  - address: "0xA37131410A76791f4A0210e91EDD554d85aFb4d4"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - mainnet
+    name: Uniswap Foundation
+  - address: "0xe571dC7A558bb6D68FfE264c3d7BB98B0C6C73fC"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - mainnet
+    name: Uniswap Foundation Custody
   - address: "0x6c9fc64a53c1b71fb3f9af64d1ae3a4931a5f4e9"
     tags:
       - eoa

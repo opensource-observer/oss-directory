@@ -4,6 +4,13 @@ name: Karma
 github:
   - url: https://github.com/show-karma
 blockchain:
+  - address: "0x627f84bb4bBA3333f253F09fe22A445F195bCF34"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+      - mainnet
   - address: "0xC98786D5A7a03C1e74AffCb97fF7eF8a710DA09B"
     tags:
       - wallet
