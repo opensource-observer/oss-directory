@@ -4,6 +4,12 @@ name: Yearn
 github:
   - url: https://github.com/yearn
 blockchain:
+  - address: "0xF5d9D6133b698cE29567a90Ab35CfB874204B3A7"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
   - address: "0xc6387e937bcef8de3334f80edc623275d42457ff"
     tags:
       - eoa

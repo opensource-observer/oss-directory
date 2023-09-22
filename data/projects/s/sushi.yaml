@@ -4,6 +4,12 @@ name: Sushi
 github:
   - url: https://github.com/sushiswap
 blockchain:
+  - address: "0x1219Bfa3A499548507b4917E33F17439b67A2177"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
   - address: "0xf87bc5535602077d340806d71f805ea9907a843d"
     tags:
       - eoa

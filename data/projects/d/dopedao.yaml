@@ -1,0 +1,377 @@
+version: 3
+slug: dopedao
+name: Dope Wars DAO
+github:
+  - url: https://github.com/dopedao
+blockchain:
+  - address: "0x90103beDCfbE1eeE44ded89cEd88bA8503580b3D"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
+  - address: "0xf8c3875bfa461a38532fedf90453985901c55114"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0x05473db56ad153170f61461c58d568791f6f3ff3"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: MetadataBuilder
+  - address: "0x3810960a570f1c0b49f630970fee9acb64ef8bf1"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xb3ccb05742bdbd51daa24f036fc5489f5ca0f38c"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xe9dacd8118917e3a0522f45c191c6abe88d271b0"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xd48055cbd433d93f1aa000dfcd6ec36f39c0fdb6"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x219f75d739a48701462f2795f6a69770710b0c9d"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x96d8ed546e5374ed69a03d17d72a799a7a9b29e4"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x836eebba45dcabcfe5108b006a0cec72a14db61c"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xc8011c0158bea25e1c40ff84189e494717ef8558"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x35c234ee2e15062324f1232ef9b4c41ea5e85b5c"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x57f32f9c0e2eb094759ad76a4101714bae97c379"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xdddf32ec4f8e1acc3dcd3fbce7869776ba32067e"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xaa37b6ea5ba775f2736c3726b56d98ff2f6445e6"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x24c4d2705f6f0d6b6ce37b066a3d74c53b649c20"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x8f29231cc91bea2bfafd3c6b3cdbae2f54cc58f5"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xd2eab485e9f0199ba2119aba4db2937d1459574f"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x7aa8e897d712cfb9c7cb6b37634a1c4d21181c8b"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x6a99c2696e13b2a2a7f37d2f76f7c024efc414d2"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x8685bde610cf4136b7e40a7da16950c3046e2f32"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x622f0715dcbf3eaa2f56c25c0603e66f082a3e74"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x1f58541635b9da02cbe073451046ecac29b1f582"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x6e49d90806af9b541dd517b2acbcb362b25f2fec"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x0be4cd601fa9b21dd1cada6a3893fd998bf5970d"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xa92c2ae3e1caa57b254f5675e77dc38f4e336e60"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x3a2077b3de49d58c7eb1c93f8c37a0a524330c4b"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x275c0c779ccd4d5d3a9d507d8529c943c4d59bcf"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x2a8cb13758ac33ac24d8e6901e3143ce6c20d67b"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xd30a54d45964abb9a48b652cd0c97ec18288b01d"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x32705a4f4f2b5f072c30d541fd24a0bad39117db"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xe2a32a42f3bb1f5151dfa4ac30687ef22498604f"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Hustler
+  - address: "0x146b5c8dc3d077c928bfc7594103c8c1da688fe3"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: SetAll
+  - address: "0x6942b1b6965ef771743af4ea2a3244a4310bec8f"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Controller
+  - address: "0x370675baccb2506410dfe7c94a60f178134d937d"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Components
+  - address: "0xdc789533da2a51791c06a2a5cbebb9f6bf04c1f6"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: SwapMeet
+  - address: "0xe45e1e58237c9aa2d5ac63a26712cdaa7e5575f7"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Hustler
+  - address: "0xe8802303f6db1a658fa5dda5e518d852bd022986"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Controller
+  - address: "0x7f4f2650b9659cb8fca62597fd87be7950942fe9"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xe03c4eb2a0a797766a5db708172e04f6a970dc7f"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x0e55e1913c50e015e0f60386ff56a4bfb00d7110"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x8fc0044befc882dcc99377f2d41ccd6be1628e2e"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x124760902088ddbfeb8f27210d3b0c645a5c0a8b"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Controller
+  - address: "0xdbfeaae58b6da8901a8a40ba0712beb2ee18368e"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Hustler
+  - address: "0x00f932f0fe257456b32deda4758922e56a4f4b42"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: L2StandardERC20
+  - address: "0xb949a2648cf9209aaa1eea5dbc65b7aaaedc78dc"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x498d99dffd9be5b55490335f6f9df8801fdc094e"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x7902598f78fc912a6f2880ab692e6cc28805c39c"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x7cdece74c6b8413072cf65a21ee57beef3063e4c"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x8cdc5fcc9162f05551c728283630ac27d0b5482f"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x83c3926e4288ba4f5139a75f9eb1bbae036e61d2"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xb67d6f71f0d148c2d21740df961a5c004e36bbc8"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x178de365229ddc479793a43ff2ebf2127f8c73cb"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xeabe087e69045992212972ff3c9e14499152d983"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x59761a4daf81b00ff06fa1bab3c01eb294aa55bc"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xfbc6afb26ee9cec6337fdb595d76812b74986cb7"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xe079521e2fdd7f7225c228dbfef8cc0430897149"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x3566f242bee341ed7d7947865a1349d65a995227"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x11ea8ae84bb067859e56d08bb551b3d70e5b569e"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x717468c53103cf7d15a79b4455b8a1263e1ae9fe"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xbba7fbd2cdd4f145f7cd23547f1fb419bb246f18"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xc338e9135e5ace8dcc70e2b9d320a03a101f96ae"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x8179bc0fc9876a8514f317fcbe0a1994a2c31fef"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TALLYxOPTIMISM
+  - address: "0xbef1426930852516c61a48f276fc42ee30ba5ae4"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x33477767e15885a9fee815b398d756c52196af34"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x431287c37f31d86f86a99741200bddf1a9652edd"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x83efe5c5de92b02155de8ea6d0474a99ea0be96a"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xc15617ca2bd59bf949ad3e7122dc7461d86549bd"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x6dbd6a32627b7165ed97f54d80016dcdd76a67ab"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xa2402daa9df9cbc0ffa729608e9a4357cd499432"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: StreetCred
+  - address: "0x8a466b97c6ac3379ccc3b2776d310fd4769f550e"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: StreetCred
