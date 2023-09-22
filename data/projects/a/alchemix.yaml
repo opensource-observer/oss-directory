@@ -4,6 +4,12 @@ name: Alchemix
 github:
   - url: https://github.com/alchemix-finance
 blockchain:
+  - address: "0xC224bf25Dcc99236F00843c7D8C4194abE8AA94a"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
   - address: "0x13c716188c38ce27b9b2b672a59543cf1170eabe"
     tags:
       - eoa

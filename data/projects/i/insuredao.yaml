@@ -1,0 +1,96 @@
+version: 3
+slug: insuredao
+name: InsureDAO
+github:
+  - url: https://github.com/InsureDAO
+blockchain:
+  - address: "0x29C8942C7fDDe7fCFB46eb6d0FE62f9dED75361c"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
+  - address: "0x79f5dc19bc96ec1db776d39535bde169e67e33f4"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0x2c9bc901f39f847c2fe5d2d7ac9c5888a2ab8fcf"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0x7fcd5370be47cec0fc0a7fe91230432dd34ddea1"
+    tags:
+      - contract
+      - factory
+    networks:
+      - optimism
+  - address: "0x6a9a52c8e17aead4f11de66282ba6440818cf33e"
+    tags:
+      - contract
+      - factory
+    networks:
+      - optimism
+    name: Factory
+  - address: "0xd0df5a352d74a746754c592a6277c9060a7c9c87"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Registry
+  - address: "0x4810fa5942a322c7bd30519ed3ebe732066c3db3"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Ownership
+  - address: "0xf29571145b421f660775fa3deb16d9ff6085d0e6"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: ParametersV2
+  - address: "0xdb9b9797319e9458d4d3b6eaa86c4f15eddb989c"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: FlatPremiumV2
+  - address: "0x0074976043140a371aead31189c2be459950c816"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x190da1b9fa124bd872e9166ba3c7dd656a11e8f8"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xca1fee73b00c221966e5f25226402146bdffe259"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x734afd33dfb5100ee91efe690526dffdedbe0cf4"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x4763f9720603342aad40056db65883bd55355945"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x71bb67179dc6378cca27f5e4140af4e0a70af6f2"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xdb8502a16efc7074ed1dd1e087d6616851c3374e"
+    tags:
+      - contract
+    networks:
+      - optimism
