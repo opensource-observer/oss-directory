@@ -4,6 +4,12 @@ name: Interest Protocol
 github:
   - url: https://github.com/interest-protocol
 blockchain:
+  - address: "0xa6e8772af29b29B9202a073f8E36f447689BEef6"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
   - address: "0x085909388fc0ce9e5761ac8608af8f2f52cb8b89"
     tags:
       - eoa
