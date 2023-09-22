@@ -4,6 +4,12 @@ name: Pickle Finance
 github:
   - url: https://github.com/pickle-finance
 blockchain:
+  - address: "0x7A79e2e867d36a91Bb47e0929787305c95E793C5"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0xacfe4511ce883c14c4ea40563f176c3c09b4c47c"
     tags:
       - eoa
