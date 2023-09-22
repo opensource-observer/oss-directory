@@ -4,6 +4,12 @@ name: Pika Protocol
 github:
   - url: https://github.com/PikaProtocol
 blockchain:
+  - address: "0xA9Cd2563C2ccE7db8eDBe7aACDB0393c68151A28"
+    tags:
+      - eoa
+      - wallet
+    networks:
+      - optimism
   - address: "0x80898b704baa55e7e37f1128fc6ae5836661f54a"
     tags:
       - eoa

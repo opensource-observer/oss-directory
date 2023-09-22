@@ -4,6 +4,12 @@ name: Synapse
 github:
   - url: https://github.com/synapsecns
 blockchain:
+  - address: "0x2431CBdc0792F5485c4cb0a9bEf06C4f21541D52"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0x0af91fa049a7e1894f480bfe5bba20142c6c29a9"
     tags:
       - eoa

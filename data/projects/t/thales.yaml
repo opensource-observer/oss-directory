@@ -4,6 +4,12 @@ name: Thales
 github:
   - url: https://github.com/thales-markets
 blockchain:
+  - address: "0x489863b61C625a15C74FB4C21486baCb4A3937AB"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0x9841484a4a6c0b61c4eea71376d76453fd05ec9c"
     tags:
       - eoa

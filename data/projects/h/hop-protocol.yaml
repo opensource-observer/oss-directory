@@ -4,6 +4,12 @@ name: Hop Protocol
 github:
   - url: https://github.com/hop-protocol
 blockchain:
+  - address: "0xC988107688b750dee6237B85A3ca49ba0a65DaB0"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0x924ac9910c09a0215b06458653b30471a152022f"
     tags:
       - eoa

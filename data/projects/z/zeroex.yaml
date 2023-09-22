@@ -4,6 +4,13 @@ name: zeroex
 github:
   - url: https://github.com/zeroexchange
 blockchain:
+  - address: "0xba9493f97BEF07a272998139A268398b80AB9Dd5"
+    tags:
+      - eoa
+      - wallet
+    networks:
+      - optimism
+      - mainnet
   - address: "0xe750ad66de350f8110e305fb78ec6a9f594445e3"
     tags:
       - eoa

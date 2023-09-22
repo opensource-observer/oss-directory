@@ -4,6 +4,12 @@ name: WePiggy
 github:
   - url: https://github.com/wepiggy
 blockchain:
+  - address: "0x75F7b331bbDbAcAfe1Ec5ba5215a0FBfc002B3B8"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0x763b9dba40c3d03507df454823fe03517f84a5ab"
     tags:
       - eoa
