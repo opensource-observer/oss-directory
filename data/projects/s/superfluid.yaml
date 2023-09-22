@@ -4,6 +4,13 @@ name: Superfluid
 github:
   - url: https://github.com/superfluid-finance
 blockchain:
+  - address: "0x719cf569FFc5C09625B2b5c68a1078F73C6A1a6F"
+    tags:
+      - eoa
+      - wallet
+    networks:
+      - optimism
+      - mainnet
   - address: "0xd15d5d0f5b1b56a4daef75cfe108cb825e97d015"
     tags:
       - eoa

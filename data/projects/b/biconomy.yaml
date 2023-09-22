@@ -4,6 +4,12 @@ name: Biconomy
 github:
   - url: https://github.com/bcnmy
 blockchain:
+  - address: "0x31B73B0549E0151b6233C5d179580B8A840B83fb"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
   - address: "0xdc0d4bdcc70362cedd23d3997c31528ec1502fc4"
     tags:
       - eoa
