@@ -1,3 +1,9 @@
+# Project Summary
+
+Total Projects: 666
+Total GitHub Repositories: 683
+Total Blockchain Addresses: 17308
+
 | Project                                                                                                                                                                                       | Github Repos | Blockchain Addresses |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------- |
 | [0u0.ai](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/0/0u0-ai.yaml)                                                                                               | 1            | 1                    |

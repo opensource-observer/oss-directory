@@ -87,7 +87,14 @@ const processFiles = (err: Error | null, files?: string[]) => {
       );
     }
 
-    fs.writeFileSync("./data/projects/readme.md", markdownRows.join("\n"));
+    // Create a header with summary statistics
+    const summaryHeader = `# Project Summary\n\n`;
+    const summaryStats = `Total Projects: ${tally.projects}\nTotal GitHub Repositories: ${tally.githubRepos}\nTotal Blockchain Addresses: ${tally.blockchainAddresses}\n\n`;
+
+    fs.writeFileSync(
+      "./data/projects/readme.md",
+      summaryHeader + summaryStats + markdownRows.join("\n"),
+    );
     console.log("Markdown table generated in projects.md");
     console.log("Tally:", tally);
   }
