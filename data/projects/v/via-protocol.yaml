@@ -22,3 +22,83 @@ blockchain:
     tags:
       - eoa
       - wallet
+  - address: "0x4bbbdf6562daf495bc2eb8114b990ad95e1177f6"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0xc82c018db54b894853cacb878d0f3e481e8c6b96"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0xbce880cd2edfa04481b5e9ef4969edc64234b222"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x5d322c11399b2cc0be96a04457e46bc050f8078f"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x777777773fdd8b28bb03377d10fcea75ad9768da"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x7b8efa83216e9a7fd17f071839b5386c7bdb2fea"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: UniversalAdapter
+  - address: "0x8cc53ea4554cf11c99ea872946c8469d5b6eb399"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: MultichainAdapter
+  - address: "0x93e461adc4652ded074f0c36a358e58ab3f47ce6"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: HopAdapter
+  - address: "0x4df88b4eaf8359350649d9135a8f977cc4641981"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: HyphenAdapter
+  - address: "0xd54036d8d7cf3273dbdef21b44ffb82767d64d12"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x0669e8873a8d76f8eb1e8b4fe57e72ba0e97dc59"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xedf890b3d973b9fdc85e85c246614597484dfafb"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: ConnextAdapter
+  - address: "0xc19d09179b7c04d98cda5596debbe4101539544d"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: StargateAdapter
+  - address: "0xc25fab5a0e90166baed37f9c670c88f6a0aa85cd"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: AcrossAdapter

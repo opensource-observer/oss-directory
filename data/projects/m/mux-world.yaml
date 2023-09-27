@@ -28,3 +28,192 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0x44cbfc3ce762fc0fee9ddd6372804b7b660176bc"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0x109962e788aad540be3e35a7c14460707b07f037"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: ProxyAdmin
+  - address: "0x29b834b4b22224b18f1df3139e11dcc348cbc90b"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xb3568690bfa5ed29da99ec2f395ff1859cc90b9e"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: MuxTimelock
+  - address: "0x9a383f154ee344d51381727395a6c9004c6494b6"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0xc6bd76fa1e9e789345e003b361e4a0037dfb7260"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0xc28c0267b6b47c5ff47366b6d374522875b8972e"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xbdf05217b132e82ba44c61052fe0551eee043e50"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x0ab49bcd888df8bad07a4f8f924a716bf5cf5f0e"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x6fde9892fd5302ac3c68688085bd5b031a63bc9d"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x6d0a554987b89985273e811a64f37967946ced53"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: OrderBook
+  - address: "0x7e647af347da9122684e39a456562ccf6b09b391"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: LiquidityManager
+  - address: "0x572e9467b2585c3ab6d9cbeeed9619fd168254d5"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xfec3704f4a02cb0ee6c7d52cbf72b11e0441e9d5"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x76993e4e6b32a35053bc07912d82a0764009a529"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: NativeUnwrapper
+  - address: "0x68e13c91fc1b8dca877d88d5d48e7b4bc9d6afc3"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x39d653884b611e0a8dbdb9720ad5d75642fd544b"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x69bc68d618c7012a764821f4581c8caa6832458f"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: LiquidityPoolHop1
+  - address: "0x497c0d498efe06d99e7cd3334c7a2865e63c5c7c"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: ReferralManager
+  - address: "0xc9296e12e2fe55605d9f6db5412eaa1938f0b404"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x49bb201a032f75465bbab5a5e24df928c138ac26"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x6af2b0b1867b5e654e1bb86d97f0ff649dddb353"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Rebalancer
+  - address: "0x43bf4da10702fd5b11f575b284a245502fb2b236"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x3a5fc9abaab71d0331850e9b4220ecd205e5c4a5"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x72e6fbf88a8c0b98a28219a573d7e8ac4a741846"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x7f58f374916a612858eba1b37d7300e94785d6a0"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xa08794b19d231a0d8f8f3e09a9b7b9d11322b491"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xdf88fe94ef674d8c1ab1743ad88717e7ae893a44"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x238ad16ea6011d6481c1d38e35b0b5541e5a513f"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Rebalancer
+  - address: "0xdf47a8c7a789dceb51c2dcc9b76d2f0d8357b57d"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x86c90fc464a668469a93ca08d8b9872bdb16b356"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x8645f18a64db40660637fb362d7da7cc9d422c49"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TradingRebateDistributor
+  - address: "0x0eb8645e28d547e258932fdfc65e5136cc5bd3a3"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: LibOrderBook
+  - address: "0xb362b8cc8c00c04447f1004f3da7f22d87987cd2"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: OrderBook
