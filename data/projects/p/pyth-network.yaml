@@ -10,3 +10,62 @@ blockchain:
     tags:
       - eoa
       - wallet
+  - address: "0xc42e9476b0a458097087336e2395dbf45b0bdc12"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0x78357316239040e19fc823372cc179ca75e64b81"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0x1c6cd107fb71768fbc46f8b6180eec155c03eeb5"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xb2eeb93d778c364e7e2274d6299e2aa0c2bea090"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xff1a0f4744e8582df1ae09d5611b887b6a12925c"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: ERC1967Proxy
+  - address: "0xbf2c77dd0627a1963991b1c7a04438cde94f96ac"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x47c409845b57ba4004c26a5841e59dc15bb39e7b"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xf5bbe9558f4bf37f1eb82fb2cedb1c775fa56832"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: PythUpgradable
+  - address: "0x2880ab155794e7179c9ee2e38200202908c17b43"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xe9d69cdd6fe41e7b621b4a688c5d1a68cb5c8adc"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x87047526937246727e4869c5f76a347160e08672"
+    tags:
+      - contract
+    networks:
+      - optimism
