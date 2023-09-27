@@ -1,0 +1,12 @@
+version: 3
+slug: edgeapp
+name: Edge Wallet
+github:
+  - url: https://github.com/EdgeApp
+blockchain:
+  - address: "0xf473edfaaef8cb2e5cdd246b7d5b285e4f56f721"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
