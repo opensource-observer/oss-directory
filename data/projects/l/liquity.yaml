@@ -1,0 +1,18 @@
+version: 3
+slug: liquity
+name: Liquity Protocol
+github:
+  - url: https://github.com/liquity
+blockchain:
+  - address: "0x2f593f151af4bb9a71bca6cace1d3c56c2844117"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xc40f949f8a4e094d1b49a23ea9241d289b7b2819"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: L2StandardERC20

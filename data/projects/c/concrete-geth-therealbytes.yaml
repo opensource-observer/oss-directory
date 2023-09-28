@@ -1,0 +1,12 @@
+version: 3
+slug: concrete-geth-therealbytes
+name: Concrete
+github:
+  - url: https://github.com/therealbytes/concrete-geth
+blockchain:
+  - address: "0x5b71c4b33a871f32a402ce243195a727d1775512"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet

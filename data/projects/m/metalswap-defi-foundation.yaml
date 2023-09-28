@@ -1,0 +1,265 @@
+version: 3
+slug: metalswap-defi-foundation
+name: Metalswap
+github:
+  - url: https://github.com/DEFI-Foundation/swapsv2
+blockchain:
+  - address: "0xb0e9021096d7d6458d747cfe959e5e066fc52ded"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xfdf6fa86058d1eacb441adb5acfc143672e59a58"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0xb9e4162c27860fc81379c4a30f7288ab9deac164"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0x3e5d9d8a63cc8a88748f229999cf59487e90721e"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: MetalSwap
+  - address: "0x1511133657d9629e14ec25953289220987cd62fd"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xc2113e72eb78b2e025c6fc81809f5d4f5ab81433"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x2295c5f100bb23085bee312be1d33d6f7f02594a"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x17e32a73e1fefe7e0a066148e48144c8382d8a79"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x5e096b0b4b8735f6a204199664fdbcdf3b351cc1"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x060cb853027504f3df5f397459e6a98906b7dc3b"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xed7ad143d99313a1af1bf6761ba063a2a2a145db"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xe7f4820b8e9134e5fc58ebbe19197047f8c9a9d0"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xb4c6e1b5830a37a168dc469481f9b53ec96507b4"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x26e9588c5715141a95e8471f050a3c9770551921"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x474e3f554bf8c1f073c8804eff6a16a7094b98f5"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xb7ab50b456333cf561eb7d031837d680c9e25419"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x1108db097e1515445e205d465be9ecb33a0577e4"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x85ec232ae615ffc0523655a3af99257b688672b8"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xb854a17f5d64ff0f5e3194a15bb9a11d3f153adb"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xc9e6a4f5df4d1f0db088fc469081e40d66e2b982"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x999a69c9bd8208736de69fffc2c2ff351e982e56"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x96cbcfaffbb0885f78627a451f52ef9fd4cb6821"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xa43bebee413f3d9b35d080c86b9c0a4bc6f5e26f"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x02959fc5ddec66bf43cc09fc23ae65904a3dc138"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x1ba87ba3bab69b62c193a14a772e05ea84e8eb0c"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x0bb5ce6623ab71b4ee867a5d3928de42acb31acd"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xe9c3156ad523437949b64ab78fe5f75d8ec90500"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xd8bb8167d66a12053710c9294b27f7fac33d9a75"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xc255756020c43a41f039e1493e6a8efe2e5ad721"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x5d043cf6e76657191323c597c761591b23b1a914"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x48c73b7b5c41a5c8f0c3f0e8e098886ed8b63da0"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x1b7d71a4c025e4d2fe9db957073284eb9d321856"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x8400267e054e891072856507e58fbe8aa75ae7c1"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x087d4b1b3c44c1fac25a1fd693fa292f7adb3e18"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x332d5216a29a856127f290f20dd774f584e819ef"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x5b7c5daa5f4bb37c457da468da1cdaa6219892a1"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x24682cfdc060316355c26c420d0748f289502e83"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x469cc7af1696b5e4e6151796dc3b3fef39b34f39"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xc9394748d5f633152ad3f8f557a9b7743148db1b"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x787c68f6bcab352ec871c522d038bc7a30268020"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x79fd3dcb2fffb4a0ebf6fa2fe4ed0e295a1ae6e8"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xe86020827a65036705c8b09690ff4750c62ebce2"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x4923ec641bbb6ca5cc46af829a90639371e28398"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x4d358448863a6a3ee228fb8e1d68697747b7e845"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x0a4b586d26ad35423fb1e118e2c0b53d6931beaa"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xb3b8944268c651da419dc0cf94a4f012e0189e81"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xf106d078ee2b861d1b07e117e91394e9a2914467"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x6d3cf2b5231a9e7b2926b512c60ceee5d53cf2bd"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xd181819e5670e4367355ae42e92c7e0e4b245f59"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xc5bbe6c7e97fca74987c5dedcf7bf9ef651fe76b"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x463f3d041bd82cdd7815a3ecc7fc31e9a91e3514"
+    tags:
+      - contract
+    networks:
+      - optimism

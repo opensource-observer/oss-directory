@@ -1,0 +1,12 @@
+version: 3
+slug: airgap-it
+name: Airgap Wallet
+github:
+  - url: https://github.com/airgap-it
+blockchain:
+  - address: "0x276dcbb22b41f272f626c6d7348e93618c0ec5b4"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet

@@ -1,0 +1,236 @@
+version: 3
+slug: metronome-autonomoussoftware
+name: Metronome
+github:
+  - url: https://github.com/autonomoussoftware
+blockchain:
+  - address: "0xe01df4ac1e1e57266900e62c37f12c986495a618"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x7eeef54df0596633dbf6fa3c88deb1e3ea85ece8"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0x39f7fc2ff177057bbb5b680a443e4118cc28af3d"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: PoolRegistryUpgrader
+  - address: "0xbd09366bc8fba86fa5391d5017806b49b4f1710b"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: PoolRegistry
+  - address: "0xfc0c88ee4f41e15499808a48965eb541b4d57f17"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: PoolUpgraderV2
+  - address: "0xe7c65eaeb1ca920f0db73cdfb4915dd31472a6a1"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x25dcb9f75b4e401606ccdbc8db121e444f805f19"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x6394152946dc3e0babaa474ee9d366ef31f959c0"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xbfeb32a40a0678208c28cfe4438bcbba96bbc4c1"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xc070472392fb85938368d3caeb9ba12f43c495dd"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Treasury
+  - address: "0x4c6bf87b7fc1c8db85877151c6ede38ed27c34f6"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x8d8af8c47d9277ea8d3c8f5b0873a0aaf6f7f9d3"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: NativeTokenGateway
+  - address: "0x76d20a609a9dc010b9e6d479c360458b19bf3256"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: SyntheticTokenUpgrader
+  - address: "0x9dabae7274d28a45f0b65bf8ed201a5731492ca0"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0xf538f18c3cc1cdb70aa054cc3d0c2c2262ba95e6"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x6b53c16b94c1502c661140073ed522ac7dbc5e5e"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x82a9c9f5ffe06f2e5f403b8f90e13388c6c07085"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xb55ced4d5f7346a6601ebebddc98d0415c94095a"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x1610e3c85dd44af31ed7f33a63642012dca0c5a5"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x5a962457060445c1e60299d735c8539d61b4ba54"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x33bca143d9b41322479e8d26072a00a352404721"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x77256d49ab301c608f8ffa466936ccf84d07a41c"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x084a7d7eb284dd74b1e29940a3745c8b59db9a19"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x2355c18b6bb0601945f42feb2f13287af8baf74b"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xd2e32323686de92411639d446396afa5e6149c28"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x5c18f45c4c62b0687425598579b026b90785c28e"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x564baa321227abf6b2e88a38557b6517077aad32"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x4e71790712424f246358d08a4de6c9896482de64"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x1e6039574bbf6b1f65650bc50b2bca8911fd9b27"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x25ee6ea9353e0ffa3155655f3df9140684671f36"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x293aac1fef48b2ebf95d0cb3a31a7b219e8ece9e"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0x6dd3bdfb588df6f37ed9cba3bd17b43d1208707c"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x119b9ce7b2087153d02c8aa8f7dc914bb7e5fb5f"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xebe91f52766dd236b6e8c1951f6a4a8bcc47a71e"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x340972195f008deec31c70700a45d6e28818cf52"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xabf27b8e4da617fff2e666f71c137d71cf75b5f6"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0xece3ee44388d4957782445a90290ba41ca3e32c0"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: FeeProvider
+  - address: "0x0557b0a016166fa113cc090869c3d98bbfe911fa"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x12e4844258f76c07c6e4437d6c9ba3df7d81c723"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Treasury
+  - address: "0xf02480fcfab8b6c9a37236f71d5358b4c88a2e7f"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: RewardsDistributor
+  - address: "0x62316768ef954734445aab3273fd6077005ffabf"
+    tags:
+      - contract
+    networks:
+      - optimism

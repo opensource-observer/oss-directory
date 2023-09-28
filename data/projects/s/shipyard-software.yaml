@@ -1,0 +1,91 @@
+version: 3
+slug: shipyard-software
+name: Shipyard Software
+github:
+  - url: https://github.com/shipyard-software
+blockchain:
+  - address: "0x1dd174bf2e090d0f1b1360ac8905780429b2642b"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x6eb3783165e3e9bf6f3b463524738a2147be08ff"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0x48cff7ff77b2bf83e4a6f843b5b1709601671e83"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0xb9f8e55ac4353e0edd65f11b4a4384a718e78189"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0x4f350ba97d9e4bd9713763126a907960949c8101"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0xb48bc8fbb6283740389ef69eac58fbee07d42f1a"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0xdbd4ffc32b34f630dd8ac18d37162ec8462db7db"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: ClipperPackedExchange
+  - address: "0x5130f6ce257b8f9bf7fac0a0b519bd588120ed40"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x93bab043d534fbfdd13b405241be9267d393b827"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x8e7903ca4305d2864b8c360da137f900d315e867"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xf870ef6dfe61e9bec5497874ba05cbeb94699147"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xfafc12d8eb19a206ad58fecc791ff7330699e752"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xade63d643564aaa8c2a86f2244f43b5eb00ed5e6"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: VestingMerkleDistributor
+  - address: "0x154b08ca083bab868f8794e8b517ea0fdd92d6e5"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: ClipperPermitRouter
+  - address: "0xf33141bc4e9d1d92a2adba2fa27a09c2da2af3eb"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: ClipperPermitRouter

@@ -44,3 +44,9 @@ blockchain:
     name: ProxyAdmin
     networks:
       - optimism
+  - address: "0x7fb50bbabedee52b8760ba15c0c199af33fc2efa"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

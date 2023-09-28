@@ -1,0 +1,13 @@
+version: 3
+slug: gashawk-corpus-io
+name: Gashawk
+github:
+  - url: https://github.com/corpus-io/gashawk-sdk
+  - url: https://github.com/corpus-io/gashawk-workshop
+blockchain:
+  - address: "0x44f00c29a0b8514d017ac20fbdb0aa5078b860ce"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
