@@ -1,6 +1,6 @@
 version: 3
 slug: mux-world
-name: Mux
+name: MUX Protocol
 github:
   - url: https://github.com/mux-world
 blockchain:
@@ -10,6 +10,13 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0x7b4c5F852AA6b44Bd01F9252C3F93Ae1aa1c63e9"
+    tags:
+      - eoa
+      - wallet
+    networks:
+      - optimism
+      - mainnet
   - address: "0x44cbfc3ce762fc0fee9ddd6372804b7b660176bc"
     tags:
       - eoa
