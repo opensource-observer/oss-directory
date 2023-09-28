@@ -3,6 +3,7 @@ slug: trusted-seed
 name: Trusted Seed
 github:
   - url: https://github.com/Trusted-Seed
+  - url: https://github.com/vacekj/regenscore
 blockchain:
   - address: "0xb604cda24cca1838428Be7D40Fcd830451C23a0E"
     tags:
@@ -10,3 +11,9 @@ blockchain:
       - eoa
     networks:
       - optimism
+  - address: "0xecd54db84c80f451b8dbc91ac31f6b7b900b61c0"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
