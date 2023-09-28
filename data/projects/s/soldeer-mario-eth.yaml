@@ -1,0 +1,13 @@
+version: 3
+slug: soldeer-mario-eth
+name: Soldeer
+github:
+  - url: https://github.com/mario-eth/soldeer
+  - url: https://github.com/mario-eth/soldeer-versions
+blockchain:
+  - address: "0xc8e2806a97413b5496a1ba6050b517cc98d0efca"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet

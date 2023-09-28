@@ -1,0 +1,12 @@
+version: 3
+slug: curvegrid-multibaas
+name: MultiBaas
+github:
+  - url: https://github.com/curvegrid
+blockchain:
+  - address: "0x707f310dd0325f48fe06e1d44cb5fdb522edf723"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
