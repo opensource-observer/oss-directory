@@ -1,8 +1,10 @@
 # Project Summary
 
-Total Projects: 729
-Total GitHub Repositories: 754
-Total Blockchain Addresses: 17654
+Total Projects: 731
+
+Total GitHub Orgs/Owners: 756
+
+Total Blockchain Addresses: 17660
 
 | Project                                                                                                                                                                                       | Github Repos | Blockchain Addresses |
 | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------- |
@@ -45,6 +47,7 @@ Total Blockchain Addresses: 17654
 | [AllianceBridge](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/a/alliance-bridge.yaml)                                                                              | 1            | 10                   |
 | [Aloe II](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/a/aloe-ii.yaml)                                                                                             | 1            | 5                    |
 | [Angle Protocol](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/a/angle-protocol.yaml)                                                                               | 1            | 59                   |
+| [Ankr](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/a/ankr-network.yaml)                                                                                           | 1            | 1                    |
 | [Another World](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/a/another-world.yaml)                                                                                 | 1            | 12                   |
 | [Ante Finance](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/a/ante-finance.yaml)                                                                                   | 1            | 19                   |
 | [Aoraki Labs](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/a/aoraki-labs.yaml)                                                                                     | 1            | 1                    |
@@ -333,7 +336,7 @@ Total Blockchain Addresses: 17654
 | [Impersonator](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/impersonator-eth.yaml)                                                                               | 1            | 1                    |
 | [Inferer](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/inferer.yaml)                                                                                             | 1            | 1                    |
 | [Infinity Keys](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/infinity-keys.yaml)                                                                                 | 1            | 3                    |
-| [Infinity Wallet](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/infinitywallet.yaml)                                                                              | 1            | 1                    |
+| [Infinity Wallet](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/infinitywallet.yaml)                                                                              | 1            | 2                    |
 | [The Initiative for Cryptocurrencies and Contracts (IC3)](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/initc3.yaml)                                              | 1            | 0                    |
 | [InstaDapp](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/insta-dapp.yaml)                                                                                        | 1            | 78                   |
 | [InsureDAO](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/insuredao.yaml)                                                                                         | 1            | 16                   |
@@ -430,7 +433,7 @@ Total Blockchain Addresses: 17654
 | [Multicall3](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/m/multicall-mds1.yaml)                                                                                   | 1            | 1                    |
 | [Mummy Finance](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/m/mummy-finance.yaml)                                                                                 | 1            | 77                   |
 | [MUTUAL](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/m/mutualsupply.yaml)                                                                                         | 1            | 1                    |
-| [Mux](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/m/mux-world.yaml)                                                                                               | 1            | 35                   |
+| [MUX Protocol](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/m/mux-world.yaml)                                                                                      | 1            | 36                   |
 | [Nación Bankless](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/n/nacion-bankless.yaml)                                                                             | 1            | 1                    |
 | [NameSys](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/n/namesys-eth.yaml)                                                                                         | 1            | 1                    |
 | [Natives in Tech](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/n/nativesintech.yaml)                                                                               | 1            | 1                    |
@@ -559,7 +562,7 @@ Total Blockchain Addresses: 17654
 | [Sablier](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/sablier.yaml)                                                                                             | 1            | 3                    |
 | [Sadaiv](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/sadaiv-ci.yaml)                                                                                            | 1            | 1                    |
 | [Saddle Finance](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/saddle-finance.yaml)                                                                               | 1            | 30                   |
-| [Safe](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/safe-global.yaml)                                                                                            | 1            | 5                    |
+| [Safe](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/safe-global.yaml)                                                                                            | 1            | 7                    |
 | [Safe Haven](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/safehaven-io.yaml)                                                                                     | 2            | 1                    |
 | [Scaffold-ETH](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/scaffold-eth.yaml)                                                                                   | 1            | 1                    |
 | [Scalind](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/s/scalind.yaml)                                                                                             | 1            | 1                    |
@@ -718,6 +721,7 @@ Total Blockchain Addresses: 17654
 | [WTF Academy](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/w/wtfacademy.yaml)                                                                                      | 1            | 1                    |
 | [XDao](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/x/x-dao.yaml)                                                                                                  | 1            | 5                    |
 | [xToken](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/x/x-token.yaml)                                                                                              | 1            | 41                   |
+| [Xen Crypto](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/x/xen-crypto-faircrypto.yaml)                                                                            | 1            | 1                    |
 | [Keccak hashing](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/x/xkcp.yaml)                                                                                         | 1            | 1                    |
 | [Yearn](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/y/yearn.yaml)                                                                                                 | 1            | 126                  |
 | [zenbit.eth](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/z/zenbit-eth.yaml)                                                                                       | 1            | 1                    |

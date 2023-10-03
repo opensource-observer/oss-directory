@@ -89,7 +89,7 @@ const processFiles = (err: Error | null, files?: string[]) => {
 
     // Create a header with summary statistics
     const summaryHeader = `# Project Summary\n\n`;
-    const summaryStats = `Total Projects: ${tally.projects}\nTotal GitHub Repositories: ${tally.githubRepos}\nTotal Blockchain Addresses: ${tally.blockchainAddresses}\n\n`;
+    const summaryStats = `Total Projects: ${tally.projects}\n\nTotal GitHub Orgs/Owners: ${tally.githubRepos}\n\nTotal Blockchain Addresses: ${tally.blockchainAddresses}\n\n`;
 
     fs.writeFileSync(
       "./data/projects/readme.md",
