@@ -1,11 +1,11 @@
-# OSS Directory  [![License: Apache 2.0][license-badge]][license]
+# OSS Directory [![License: Apache 2.0][license-badge]][license]
 
 [license]: https://opensource.org/license/apache-2-0/
 [license-badge]: https://img.shields.io/badge/License-Apache2.0-blue.svg
 
 This repository contains a curated directory of open source software (OSS) projects and their associated artifacts. Artifacts include git repositories, npm packages, smart contracts, Open Collective collectives, accounts used for managing grant funds, and more. Groups of related projects are organized into collections.
 
-The OSS Directory serves as the "source of truth" for the projects and collections that are discoverable on [Open Source Observer](https://opensource.observer).  
+The OSS Directory serves as the "source of truth" for the projects and collections that are discoverable on [Open Source Observer](https://www.opensource.observer).
 
 While the directory may never be complete, it is actively maintained. We welcome community contributions of new projects and collections, as well as updates to existing entries.
 

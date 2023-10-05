@@ -6,7 +6,8 @@ import { Collection } from "./types/collection.js";
 import { Project } from "./types/project.js";
 import { readProjectFile, readCollectionFile } from "./validator/index.js";
 
-const OSS_DIRECTORY_URL = "https://github.com/hypercerts-org/oss-directory.git";
+const OSS_DIRECTORY_URL =
+  "https://github.com/opensource-observer/oss-directory.git";
 const PROJECTS_GLOB = "./data/projects/**/*.yaml";
 const COLLECTIONS_GLOB = "./data/collections/*.yaml";
 

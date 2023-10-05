@@ -1,9 +1,12 @@
 {
   "name": "oss-directory",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Open source software directory",
-  "repository": "git@github.com:hypercerts-org/oss-directory.git",
-  "author": "Hypercerts Foundation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opensource-observer/oss-directory.git"
+  },
+  "author": "Kariba Labs",
   "license": "Apache-2.0",
   "bin": "./dist/cli.js",
   "main": "./dist/index.js",
