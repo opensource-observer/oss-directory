@@ -3,6 +3,17 @@ slug: openzeppelin
 name: OpenZeppelin
 github:
   - url: https://github.com/openzeppelin
+npm:
+  - url: https://www.npmjs.com/package/@openzeppelin/contracts
+  - url: https://www.npmjs.com/package/@openzeppelin/contracts-upgradeable
+  - url: https://www.npmjs.com/package/@openzeppelin/hardhat-upgrades
+  - url: https://www.npmjs.com/package/@openzeppelin/test-helpers
+  - url: https://www.npmjs.com/package/@openzeppelin/upgrades-core
+  - url: https://www.npmjs.com/package/@openzeppelin/defender-base-client
+  - url: https://www.npmjs.com/package/@openzeppelin/wizard
+  - url: https://www.npmjs.com/package/@openzeppelin/contract-loader
+  - url: https://www.npmjs.com/package/@openzeppelin/merkle-tree
+  - url: https://www.npmjs.com/package/@openzeppelin/defender-relay-client
 blockchain:
   - address: "0x41f89516DbFDfF2A902AdD2E141C3c22b561BFBc"
     tags:
