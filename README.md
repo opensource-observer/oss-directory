@@ -1,4 +1,7 @@
-# OSS Directory
+# OSS Directory  [![License: Apache 2.0][license-badge]][license]
+
+[license]: https://opensource.org/license/apache-2-0/
+[license-badge]: https://img.shields.io/badge/License-Apache2.0-blue.svg
 
 This repository contains a curated directory of open source software (OSS) projects and their associated artifacts. Artifacts include git repositories, npm packages, smart contracts, Open Collective collectives, accounts used for managing grant funds, and more. Groups of related projects are organized into collections.
 
