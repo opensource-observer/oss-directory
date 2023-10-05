@@ -3,6 +3,18 @@ slug: metamask
 name: Metamask
 github:
   - url: https://github.com/metamask
+npm:
+  - url: https://www.npmjs.com/package/@metamask/eth-sig-util
+  - url: https://www.npmjs.com/package/@metamask/utils
+  - url: https://www.npmjs.com/package/@metamask/safe-event-emitter
+  - url: https://www.npmjs.com/package/@metamask/detect-provider
+  - url: https://www.npmjs.com/package/@metamask/snaps-ui
+  - url: https://www.npmjs.com/package/@metamask/snaps-types
+  - url: https://www.npmjs.com/package/@metamask/providers
+  - url: https://www.npmjs.com/package/@metamask/rpc-errors
+  - url: https://www.npmjs.com/package/@metamask/key-tree
+  - url: https://www.npmjs.com/package/@metamask/base-controller
+  - url: https://www.npmjs.com/package/@metamask/controller-utils
 blockchain:
   - address: "0x4b327372a347ad97e45881428af26a4c28840c66"
     tags:
