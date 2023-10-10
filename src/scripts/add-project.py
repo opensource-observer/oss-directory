@@ -59,7 +59,7 @@ def generate_yaml(version=3):
     url, slug = get_repo_name()
     project_name = get_project_name()
 
-    path = os.path.join("data/projects", project_name[0], slug + ".yaml")
+    path = os.path.join("data/projects", slug[0], slug + ".yaml")
     if os.path.exists(path):
         print("File already exists")
         return False
