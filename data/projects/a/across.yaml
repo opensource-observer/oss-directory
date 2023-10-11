@@ -119,11 +119,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0xff733b2a3557a7ed6697007ab5d11b79fdd1b76b"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xa4199d73ae206d49c966cf16c58436851f87d47f"
     tags:
       - contract
@@ -252,3 +247,9 @@ blockchain:
       - safe
     networks:
       - optimism
+  - address: "0xc127c7a25e6d1e1999df3dc1accddef278a87303"
+    name: Optimism_SpokePool
+    networks:
+      - optimism
+    tags:
+      - contract

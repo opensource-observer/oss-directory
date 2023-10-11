@@ -84,23 +84,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0xe295ad71242373c37c5fda7b57f26f9ea1088afe"
-    tags:
-      - contract
-    name: MultiCall
-    networks:
-      - optimism
-  - address: "0x0f85a912448279111694f4ba4f85dc641c54b594"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa0446d8804611944f1b527ecd37d7dcbe442caba"
-    tags:
-      - contract
-    name: MultiWrapper
-    networks:
-      - optimism
   - address: "0x32d12a25f539e341089050e2d26794f041fc9df8"
     tags:
       - contract
@@ -123,11 +106,6 @@ blockchain:
     networks:
       - optimism
   - address: "0x7810d7a3764add12b30baed494297f36ad04fbf8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4dfa40fdaa7694676899f8887a45603922609af4"
     tags:
       - contract
     networks:
@@ -161,18 +139,6 @@ blockchain:
   - address: "0x7871769b3816b23db12e83a482aac35f1fd35d4b"
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0x11dee30e710b8d4a8630392781cc3c0046365d4c"
-    tags:
-      - contract
-    name: OffchainOracle
-    networks:
-      - optimism
-  - address: "0x54431918cec22932fcf97e54769f4e00f646690f"
-    tags:
-      - contract
-    name: UniswapV3Oracle
     networks:
       - optimism
   - address: "0xcb06df7f0be5b8bb261d294cf87c794eb9da85b1"
@@ -212,22 +178,12 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0x138ce40d675f9a23e4d6127a8600308cf7a93381"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x4f10673206c571ccf96df46e98280caed5c13e6e"
     tags:
       - contract
     networks:
       - optimism
   - address: "0x26271dfddbd250014f87f0f302c099d5a798bab1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa31bb36c5164b165f9c36955ea4ccbab42b3b28e"
     tags:
       - contract
     networks:
@@ -249,17 +205,7 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0xe26a18b00e4827ed86bc136b2c1e95d5ae115edd"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x3dd9dc5a2f89bb02c21552e6e3cf899de5567d89"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x735247fb0a604c0adc6cab38ace16d0dba31295f"
     tags:
       - contract
     networks:
