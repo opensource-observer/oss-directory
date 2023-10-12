@@ -237,20 +237,99 @@ blockchain:
     name: PrizeTierHistory
     networks:
       - optimism
-  - address: "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x395ae52bb17aef68c2888d941736a71dc6d4e125"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xfB0dADb835fAdE151aBf6780BeAfB12FC5BA0e1F"
     tags:
       - wallet
       - safe
     networks:
       - optimism
+  - address: "0xc516fe1fee5122d66e9427721a63d6c27e1201ca"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0x2589ff8614f74704741ee3b51851b4ae812f1a21"
+    name: Claimer
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xf4c47dacfda99be38793181af9fd1a2ec7576bbf"
+    name: RngRelayAuction
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xf4cfa53df258d78aad153ac11c644703651983f5"
+    name: LiquidationRouter
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x38449a6b7bb76638452273925c9a2ba818bd130d"
+    name: RemoteOwner
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x47b55748243314be6a341668ecda2066c0625f70"
+    name: Claimer
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x0d51a33975024e8afc55fde9f6b070c10aa71dd9"
+    name: TwabController
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x8cfffffa42407db9dcb974c2c744425c3e58d832"
+    name: PrizePool
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x43069a907a69ab1f66b1f8417ddc790346920323"
+    name: VaultBoosterFactory
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x4d5f2cd31701f3e5de77b3f89ee7b80eb87b4acc"
+    name: TwabDelegator
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x6cb52020204a526c2a86998b8dc3b0b4fac9fbc1"
+    name: AaveV3ERC4626Factory
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xf93329e78feff1145fce03a79d5b356588dea215"
+    name: TwabDelegator
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xa469deff6d52c9571d13513e3cd7d94496082d81"
+    name: VaultFactory
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xa1697e8f6b11d0e2f00d9dc8a5aeae2b2665650a"
+    name: LiquidationPairFactory
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory

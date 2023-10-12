@@ -12,3 +12,15 @@ blockchain:
     networks:
       - mainnet
       - optimism
+  - address: "0x99c19ab10b9ec8ac6fcda9586e81f6b73a298870"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0xb20eb9648b4a818aa621053f1aa1103c03f2df57"
+    name: L2PublicResolver
+    networks:
+      - optimism
+    tags:
+      - contract

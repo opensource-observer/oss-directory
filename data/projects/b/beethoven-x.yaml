@@ -540,11 +540,6 @@ blockchain:
     name: ChildChainGaugeRewardHelper
     networks:
       - optimism
-  - address: "0xfe8b128ba8c78aabc59d4c64cee7ff28e9379921"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xfe18c7c70b0a2c6541bede0367124278bc345dc8"
     tags:
       - contract
@@ -566,18 +561,6 @@ blockchain:
     tags:
       - contract
     name: TimeBasedMasterChefRewarder
-    networks:
-      - optimism
-  - address: "0x398df9f7d65c177c00749ffc83cb34ba5e07bf8b"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x089775364ea24957da94348cf740375826ed3330"
-    tags:
-      - eoa
-      - creator
     networks:
       - optimism
   - address: "0xa3b9515a9c557455bc53f7a535a85219b59e8b2e"
@@ -622,3 +605,21 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0xb4bc46bc6cb217b59ea8f4530bae26bf69f677f0"
+    name: BeetsOFTV2
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x9300c7eb7e3e16ba916a7d6aafee3891236ac5fc"
+    name: MultiBeetsMigrator
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x97b323fc033323b66159402bcdb9d7b9dc604235"
+    name: AnkrEthStakingRateProvider
+    networks:
+      - optimism
+    tags:
+      - contract

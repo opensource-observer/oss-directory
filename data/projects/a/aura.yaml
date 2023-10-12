@@ -278,11 +278,6 @@ blockchain:
     name: BalancerPoolDataQueries
     networks:
       - optimism
-  - address: "0x83e443ef4f9963c77bd860f94500075556668cb8"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x5dbad78818d4c8958eff2d5b95b28385a22113cd"
     tags:
       - contract
@@ -306,3 +301,24 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0xe1f394057b7e4a76b1963f48e7766763cfc1e760"
+    name: ExtraRewardStashV3
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x4d991398f8dc48368200b7c9bf4f3dc4d2bf3a66"
+    name: ExtraRewardStashV3
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x83e443ef4f9963c77bd860f94500075556668cb8"
+    name: ChainlinkRateProviderFactory
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory

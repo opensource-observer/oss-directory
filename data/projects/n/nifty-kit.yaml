@@ -355,3 +355,15 @@ blockchain:
     name: ApiMintFacet
     networks:
       - optimism
+  - address: "0x98ab60422568db7d58623c69cb41d29c9dea1ce6"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0x15e69c618f0f4bf7a1c5522468fb547ca90ed53a"
+    name: ERC20AppFacet
+    networks:
+      - optimism
+    tags:
+      - contract

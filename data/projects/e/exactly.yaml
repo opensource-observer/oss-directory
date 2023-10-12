@@ -643,3 +643,63 @@ blockchain:
     name: DebtManager
     networks:
       - optimism
+  - address: "0xea9111326e63f976e7f0e5b168d67fdafe20db21"
+    name: Market
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xbea586a167853adddef12818f264f1f9823fbc18"
+    name: TransparentUpgradeableProxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x81fc4cf70066c25b92ce1d9daae50cd607d763e0"
+    name: EscrowedEXA
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xd759479b3a07fab64edb668d702293079e8c1bc1"
+    name: DebtManager
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x1768934eaedced14626334a2ce572b687fce1e4a"
+    name: Market
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x057e3efca6f9e7094584b176f3e69a4f4b594d04"
+    name: TransparentUpgradeableProxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x67b069d6e50f139ba6f0ced9c5040e96422db415"
+    name: DebtPreviewer
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x40a11e2480b1e5ffd3a6524aeb4a41273e362f33"
+    name: Market
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x048e71d9721f7328e68e57300803cabdde22308b"
+    name: TransparentUpgradeableProxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x77e7d3bb311eb948caa277838dc33052a05045f5"
+    name: Market
+    networks:
+      - optimism
+    tags:
+      - contract

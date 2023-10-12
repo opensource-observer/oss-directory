@@ -86,3 +86,24 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x7775b274f0c3fa919b756b22a4d9674e55927ab8"
+    name: OnchainSwapV3
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xf85fc807d05d3ab2309364226970aac57b4e1ea4"
+    name: OnchainSwapV3
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xf8504d2ca2f0bbad9d36927e3d32e278abadada0"
+    name: OnchainSwapV3
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory

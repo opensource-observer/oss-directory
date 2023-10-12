@@ -281,3 +281,37 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0xa96caccf2e4366f0028cc3dde8668dd1e36b7904"
+    name: GenericSwapFacet
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x4f86555d3f73ea9db7281def8311a40f49201c79"
+    name: GenericSwapFacet
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xddb61a3679bb756de226c81fecb9858dc0983238"
+    name: StargateFacet
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x361c07e1347d8e38718b70dbe3d024156d0c9b49"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xd0bfbd8cc8ff5e6bb72b70086664166ba23277e8"
+    name: LibCorrectSwapV1
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xd07a44276a5c488c5d8fc794af16f1d0b323532e"
+    networks:
+      - optimism
+    tags:
+      - contract

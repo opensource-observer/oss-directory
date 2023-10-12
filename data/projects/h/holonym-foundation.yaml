@@ -10,3 +10,78 @@ blockchain:
       - safe
     networks:
       - optimism
+  - address: "0xc8834c1fcf0df6623fc8c8ed25064a4148d99388"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0x01ff075517dc7db43798751f22febdda6ee75b9f"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x56a14abe1df94af0de78aef3bd96ae9928d3b415"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xb316940b687daa87392157e2ecfec1b9e182423d"
+    name: Roots
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xdf10310d2c72f5358b19bf6a7c817ec4570b270f"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x6a78df871291627c5470f7a768745c3ff05741f2"
+    name: IsUSResident
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x2e010ec4da1b4ec2f968b7625e865ba0863d74a5"
+    name: Roots
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x78a0c21f9a24284c90ac7eba63c7396db846a1df"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xa40c8aaf7f47b18c1eddbe7855b580f828ed9711"
+    name: SybilPhone
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x3497556f7d0bf602d4237ecb8ae92840d09e4f63"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xdd748977bab5782625af1466f4c5f02eb92fce31"
+    name: SybilResistance
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x87b6e03b0d57771940d7cc9e92531b6217364b3e"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x7497636f5e657e1e7ea2e851cdc8649487df3aab"
+    name: IsUSResident
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory

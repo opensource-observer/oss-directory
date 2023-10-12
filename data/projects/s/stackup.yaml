@@ -22,3 +22,10 @@ blockchain:
     name: VerifyingPaymaster
     networks:
       - optimism
+  - address: "0x9406cc6185a346906296840746125a0e44976454"
+    name: SimpleAccountFactory
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory

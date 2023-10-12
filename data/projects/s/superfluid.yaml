@@ -636,3 +636,34 @@ blockchain:
     name: SuperTokenFactory
     networks:
       - optimism
+  - address: "0x07e4a282f8f20032f3e766fffb73c8b86ba7e1f1"
+    name: ExistentialNFT
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xe3f6ec0676b9ce5d759580e1d526dee31678c283"
+    name: BatchLiquidator
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x5faf863c89fc6dab2d61b60ee5e6ca0305acc295"
+    name: ExistentialNFT
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xbfc8c07468aeea87a0a1d30a23804cf4fd73eff1"
+    name: ExistentialNFTCloneFactory
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xcb0ff4d0ca186f0fc0301258066fe3fa258417a6"
+    name: ExistentialNFTCloneFactory
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory

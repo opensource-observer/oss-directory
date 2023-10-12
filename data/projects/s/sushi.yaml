@@ -153,11 +153,6 @@ blockchain:
     name: TridentRouter
     networks:
       - optimism
-  - address: "0x3eaeb77b03dbc0f6321ae1b72b2e9adb0f60112b"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x0367a647a68f304f2a6e453c25033a4249d7f2c6"
     tags:
       - contract
@@ -338,3 +333,9 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0xeb94eca012ec0bbb254722fdda2ce7475875a52b"
+    name: RouteProcessor3_2
+    networks:
+      - optimism
+    tags:
+      - contract

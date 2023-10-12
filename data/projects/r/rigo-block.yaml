@@ -12,11 +12,6 @@ blockchain:
     networks:
       - optimism
       - mainnet
-  - address: "0x914d7fec6aac8cd542e72bca78b30650d45643d7"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xc1adda7605d2dc47dd91a930c978cd6a18d2d760"
     tags:
       - contract
@@ -29,9 +24,9 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0xecf46257ed31c329f204eb43e254c609dee143b3"
-    tags:
-      - contract
-    name: L2StandardERC20
+  - address: "0x000f05552f24850e75793d38c2bd0cbd249a9ff4"
     networks:
       - optimism
+    tags:
+      - eoa
+      - creator

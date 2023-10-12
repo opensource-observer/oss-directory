@@ -10,12 +10,6 @@ blockchain:
       - wallet
     networks:
       - optimism
-  - address: "0x395ec94bf3e3dcd3afbd82cd03197731411e396b"
-    tags:
-      - contract
-    name: Exchanger
-    networks:
-      - optimism
   - address: "0x3c05b1239b223c969540fefc0270227a2b00e047"
     tags:
       - eoa
@@ -348,11 +342,6 @@ blockchain:
     name: PerpsV2MarketState
     networks:
       - optimism
-  - address: "0xe118737eb5f931fceb663facd3234b4169ac638a"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xc746bc860781dc90bbfcd381d6a058dc16357f8d"
     tags:
       - contract
@@ -380,12 +369,6 @@ blockchain:
     tags:
       - contract
     name: PerpsV2MarketState
-    networks:
-      - optimism
-  - address: "0xba32006fdcdc840f80cb9c8ec69c92f06e82e588"
-    tags:
-      - contract
-    name: DebtCache
     networks:
       - optimism
   - address: "0xf1b530f3defd144a024a958d4ae37d138615d91d"
@@ -573,12 +556,6 @@ blockchain:
     name: PerpsV2MarketLiquidate
     networks:
       - optimism
-  - address: "0xc08db5823a7c1dc8fe9894f51a05799f1262bac0"
-    tags:
-      - contract
-    name: FeePool
-    networks:
-      - optimism
   - address: "0xa5baff7d9928ae32c5e1ff441e4575951cb01111"
     tags:
       - contract
@@ -658,17 +635,6 @@ blockchain:
     tags:
       - contract
     name: USDRouter
-    networks:
-      - optimism
-  - address: "0x78aaa3fb165decaa729dfe3cf0e97ab6fcf484da"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x15e7d4972a3e477878a5867a47617122be2d1ff0"
-    tags:
-      - contract
-    name: CollateralManager
     networks:
       - optimism
   - address: "0xe2e4edae34f2c1e4e42f7c0c8ce500c56aea4326"
@@ -880,21 +846,10 @@ blockchain:
     name: PerpsV2Market
     networks:
       - optimism
-  - address: "0xfe06fbe87e9f705b5d337d82df8fd812774974f9"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x374f2d3353bd664a2b25508df4a3b58939999e1b"
     tags:
       - contract
     name: PerpsV2MarketDelayedExecution
-    networks:
-      - optimism
-  - address: "0x298b9b95708152ff6968aafd889c6586e9169f1d"
-    tags:
-      - contract
-    name: ProxyERC20
     networks:
       - optimism
   - address: "0x527b99e3d31f71d2414cc2dbabe0d527f9160926"
@@ -998,11 +953,6 @@ blockchain:
     name: SystemSettings
     networks:
       - optimism
-  - address: "0x3ef4265a40fb5581e65d69fc7a978904fa50a5ee"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xb0b6b79fbb09290b0663d6d767ffcee7ea742428"
     tags:
       - contract
@@ -1081,12 +1031,6 @@ blockchain:
     name: PerpsV2MarketViews
     networks:
       - optimism
-  - address: "0xff4287311138ad3bd051f84524b2ea3a682944a5"
-    tags:
-      - contract
-    name: MintableSynthetix
-    networks:
-      - optimism
   - address: "0x200a21bb1b58d0dadda498a9c3f06acac1d6d79d"
     tags:
       - contract
@@ -1108,11 +1052,6 @@ blockchain:
     tags:
       - contract
     name: PerpsV2MarketDelayedExecution
-    networks:
-      - optimism
-  - address: "0x58b453f01966cee805ce12f9b2138e7b0c46ce99"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0xc689bab7faa9d2bbec41c7f741f04fe2507c446c"
@@ -1215,12 +1154,6 @@ blockchain:
     name: MultiCollateralSynth
     networks:
       - optimism
-  - address: "0x01f8c5e421172b67cc14b7f5f369cfb10de0acd4"
-    tags:
-      - contract
-    name: DebtCache
-    networks:
-      - optimism
   - address: "0x9b0071d4ee4a078dbdd5100799d8ea700a6da709"
     tags:
       - contract
@@ -1319,11 +1252,6 @@ blockchain:
     networks:
       - optimism
   - address: "0xdfaebe6a2b2bdac52ac2e172e0175988d7472c60"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3ae7f9091cb429464707b61398b5cfdcd2a25981"
     tags:
       - contract
     networks:
@@ -1465,11 +1393,6 @@ blockchain:
     tags:
       - contract
     name: MultiCollateralSynth
-    networks:
-      - optimism
-  - address: "0xec3665f7e696b0ad0d04ae5161b18782d48cd1fd"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0xdfa823f131baa72334edab7c4e163a65024c6b3c"
@@ -1680,11 +1603,6 @@ blockchain:
     networks:
       - optimism
   - address: "0xeb66fc1bfdf3284cb0ca1de57149dcf3cefa5453"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe405de8f52ba7559f9df3c368500b6e6ae6cee49"
     tags:
       - contract
     networks:
@@ -1985,12 +1903,6 @@ blockchain:
     name: PerpsV2MarketViews
     networks:
       - optimism
-  - address: "0xa9e630952522e3f110322711f424528af894e307"
-    tags:
-      - contract
-    name: TokenState
-    networks:
-      - optimism
   - address: "0xfd49c7ee330fe060ca66fee33d49206eb96f146d"
     tags:
       - contract
@@ -2055,11 +1967,6 @@ blockchain:
     tags:
       - contract
     name: PerpsV2MarketState
-    networks:
-      - optimism
-  - address: "0x388dd240bffa4047d85d1d6f3dc814c054217a23"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0x58a84e0b1fe1a5f6ee7541b26a30de044d0cc6ce"
@@ -2162,11 +2069,6 @@ blockchain:
     tags:
       - contract
     name: ProxyPerpsV2
-    networks:
-      - optimism
-  - address: "0x8f571a7bd9924e25a3d2ac0b7f721c5ed675c3c8"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0xdac38ee1e765712c5b9290676e44e4654a3dde2f"
@@ -2446,12 +2348,6 @@ blockchain:
   - address: "0x6aa31707bd6acf24063a806570160978e62752a0"
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0x7eb21e5ef2d8bb3804380d02a5fe0487dcbfe184"
-    tags:
-      - contract
-    name: MultiCollateralSynth
     networks:
       - optimism
   - address: "0x69d255473d0d15dc087cbf4962a65839aa28a2c5"
@@ -2857,17 +2753,6 @@ blockchain:
     name: AtomicOrderModule
     networks:
       - optimism
-  - address: "0xba10526cd8742acc73aedef5f7dbb2477bf86922"
-    tags:
-      - contract
-    name: CollateralManagerState
-    networks:
-      - optimism
-  - address: "0x08a008eea07d3cc7ca1913eec3468c10f8f79e6a"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x7b75c4857e84c8421d422e06447a7fb03c398edd"
     tags:
       - contract
@@ -2878,11 +2763,6 @@ blockchain:
     tags:
       - contract
     name: Migration_MuhlifainOptimism
-    networks:
-      - optimism
-  - address: "0xc5db22719a06418028a40a9b5e9a7c02959d0d08"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0xa5ed89b0030237dcf5f667558d6c4f8098cb72bd"
@@ -3066,12 +2946,6 @@ blockchain:
   - address: "0xec1d184a5baa9ad1362ef99cd72b482b9ddc2a14"
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0x1a094457f83da71bf223bfa49e7fa67839285905"
-    tags:
-      - contract
-    name: SystemSettings
     networks:
       - optimism
   - address: "0xb147c69bee211f57290a6cde9d1babfd0dcf3ea3"
@@ -3262,11 +3136,6 @@ blockchain:
     name: MultiCollateralSynth
     networks:
       - optimism
-  - address: "0xbd2657cf89f930f27ee1854ef4b389773df43b29"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x59798c3ec713213c274bd8827642daf2a798181e"
     tags:
       - contract
@@ -3306,11 +3175,6 @@ blockchain:
     networks:
       - optimism
   - address: "0xfe8e48bf36ccc3254081ec8c65965d1c8b2e744d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0ea0902950aa58b19ed1876901b843cd2f85a8e9"
     tags:
       - contract
     networks:
@@ -3393,11 +3257,6 @@ blockchain:
     networks:
       - optimism
   - address: "0x68ec62373c0ccd1954f6f17fe6df68f4b1acf56a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8ce809a955db85b41e7a378d7659e348e0c6add2"
     tags:
       - contract
     networks:
@@ -3486,11 +3345,6 @@ blockchain:
     tags:
       - contract
     name: RewardsManagerModule
-    networks:
-      - optimism
-  - address: "0xc806963f83d0b7ad3b96f59b0f7a77e5d2bbb57d"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0x87b4be9115592ab0805cf90c1a32b20ae2a0168a"
@@ -3624,11 +3478,6 @@ blockchain:
     tags:
       - contract
     name: PerpsV2MarketDelayedIntent
-    networks:
-      - optimism
-  - address: "0x6f1ee829627c8a544cb3e7ab296de386245c14a3"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0x8be1893e1d29fcf2b966cdd083efe30dbf78d7f6"
@@ -3969,12 +3818,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0xa997bd647aee62ef03b41e6fbfadab43d8e57535"
-    tags:
-      - contract
-    name: SynthRedeemer
-    networks:
-      - optimism
   - address: "0x5b37d50f3b7f03884d7cd005cdc7120f5060808c"
     tags:
       - contract
@@ -4080,17 +3923,6 @@ blockchain:
     tags:
       - contract
     name: Vester
-    networks:
-      - optimism
-  - address: "0xe1f47188168837485527a5b44e7fa7ca55f29c65"
-    tags:
-      - contract
-    name: DebtCache
-    networks:
-      - optimism
-  - address: "0x86f36d4873f1d338d1aa768c70a7a3ae83be8511"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0xa2c0843c8cb9f29fa40fc0ffd2b4995a0f05c15c"
@@ -4213,18 +4045,6 @@ blockchain:
     tags:
       - contract
     name: Migration_AlmachOptimism
-    networks:
-      - optimism
-  - address: "0xd21969a86ce5c41aab2d492a0f802aa3e015cd9a"
-    tags:
-      - contract
-    name: CollateralUtil
-    networks:
-      - optimism
-  - address: "0xc53e9375a77bd98eb0068559bc56c8d6cea254fa"
-    tags:
-      - contract
-    name: FeePool
     networks:
       - optimism
   - address: "0x1454ba0f1c5fcb401cfe72e028114fee022990ee"
@@ -4612,12 +4432,6 @@ blockchain:
     name: PerpsV2Market
     networks:
       - optimism
-  - address: "0xebce9728e2fddc26c9f4b00df5180bdc5e184953"
-    tags:
-      - contract
-    name: CollateralShort
-    networks:
-      - optimism
   - address: "0xf38d41c9b2c8bfdbffcbe5d6bb19cc17f190cd5a"
     tags:
       - contract
@@ -4926,11 +4740,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0x620c8800ec73ac705151ec8327913c2910cc46b1"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xf6af0f6e69a24bc753382a9c53d568d83515f167"
     tags:
       - contract
@@ -5021,11 +4830,6 @@ blockchain:
     tags:
       - contract
     name: PerpsV2MarketLiquidate
-    networks:
-      - optimism
-  - address: "0xf33e7b48538c9d0480a48f3b5eef79026e2a28f6"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0xc04fc6e37c1071bb5d041744d7469cc45d46b29a"
@@ -5775,115 +5579,6 @@ blockchain:
       - creator
     networks:
       - optimism
-  - address: "0x54581a23f62d147ac76d454f0b3ef77f9d766058"
-    tags:
-      - contract
-    name: DappMaintenance
-    networks:
-      - optimism
-  - address: "0x5d9187630e99dbce4bcab8733b76757f7f44aa2e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x95a6a3f44a70172e7d50a9e28c85dfd712756b8c"
-    tags:
-      - contract
-    name: AddressResolver
-    networks:
-      - optimism
-  - address: "0x14e6f8e6da00a32c069b11b64e48ea1fef2361d4"
-    tags:
-      - contract
-    name: Liquidations
-    networks:
-      - optimism
-  - address: "0x76d2de36936005a0182a1bb61da501a8a044d477"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x41140bf6498a36f2e44efd49f21dae3bbb7367c8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x631e93a0fb06b5ec6d52c0a2d89a3f9672d6ba64"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1cb059b7e74fd21665968c908806143e744d5f30"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7ef87c14f50cffe2e73d2c87916c3128c56593a8"
-    tags:
-      - contract
-    name: ExchangeState
-    networks:
-      - optimism
-  - address: "0x2dcad1a019fba8301b77810ae14007cc88ed004b"
-    tags:
-      - contract
-    name: TradingRewards
-    networks:
-      - optimism
-  - address: "0x02f7fb66b55e6ca476d126d96f14c5732eeb4363"
-    tags:
-      - contract
-    name: EternalStorage
-    networks:
-      - optimism
-  - address: "0x06c6d063896ac733673c4474e44d9268f2402a55"
-    tags:
-      - contract
-    name: SynthetixEscrow
-    networks:
-      - optimism
-  - address: "0x92bac115d89ca17fd02ed9357ceca32842acb4c2"
-    tags:
-      - contract
-    name: TokenState
-    networks:
-      - optimism
-  - address: "0x6202a3b0be1d222971e93aab084c6e584c29db70"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4a16a42407aa491564643e1dfc1fd50af29794ef"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8700daec35af8ff88c16bdf0418774cb3d7599b4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x47ee58801c1ac44e54ff2651ae50525c5cfc66d0"
-    tags:
-      - contract
-    name: ImportableRewardEscrowV2
-    networks:
-      - optimism
-  - address: "0x8c6f28f2f1a3c87f0f938b96d27520d9751ec8d9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb9c6ca25452e7f6d0d3340ce1e9b573421afc2ee"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x47649022380d182da8010ae5d257fea4227b21ff"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xd5fccd43205cef11fbaf9b38df15adbe1b186869"
     tags:
       - contract
@@ -6312,11 +6007,6 @@ blockchain:
     networks:
       - optimism
   - address: "0x8aaf3d9a538ee891282ee338811281111feccdfd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2a23bc0ea97a89abd91214e8e4d20f02fe14743f"
     tags:
       - contract
     networks:
@@ -7485,126 +7175,15 @@ blockchain:
     name: Migration_SabikOptimismStep5
     networks:
       - optimism
-  - address: "0x608457bc647e6f8f76ead8b99d343d367e0f4d62"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd85eafa37734e4ad237c3a3443d64dc94ae998e7"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0b3a73ee0740b3130e40b2a6b5aaf59e7e3ef74c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc8e91c926e04be1cb94e51c5379d14774d51ae6c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x218067172e9e0460a883458d44bd1f56ea609502"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4d7186818dabfe88bd80421656bbd07dffc979cc"
-    tags:
-      - contract
-    name: SynthetixBridgeToBase
-    networks:
-      - optimism
-  - address: "0xd32138018210eda0028240638f35b70ecc0d8c22"
-    tags:
-      - contract
-    name: RewardEscrow
-    networks:
-      - optimism
-  - address: "0xbecc58c6d7ca71b6fcc4cc8c9c5294a0ea7a0397"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x357b58e0b1be9d8a944380048fa1080c57c7a362"
-    tags:
-      - contract
-    name: SystemStatus
-    networks:
-      - optimism
-  - address: "0xf2ff43da7b6e5963059b7004df43b5c5870eeb18"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xcdb7d0a946223255d39a6e29b54f08f3291cc118"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8377b25b8564f6be579865639776c5082cb37163"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8454190c164e52664af2c9c24ab58c4e14d6bbe4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0142f40c25ce1f1177ed131101fa19217396cb88"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x87b1481c82913301fc6c884ac266a7c430f92cfa"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x71d838995f8a97f636cbfdcd8de94b30d2bd4760"
-    tags:
-      - contract
-    name: SynthetixState
-    networks:
-      - optimism
-  - address: "0xc0c66470e766ae2026e6695966c56c90741811aa"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8be60b5031c0686e48a079c81822173bfa1268da"
-    tags:
-      - contract
-    name: DebtCache
-    networks:
-      - optimism
-  - address: "0xe318e4618e5684668992935d7231cb837a44e670"
-    tags:
-      - contract
-    name: Exchanger
-    networks:
-      - optimism
-  - address: "0x5a528e35165e19f3392c9631243dd04d1229d324"
-    tags:
-      - contract
-    name: RealtimeDebtCache
-    networks:
-      - optimism
-  - address: "0x70b21b422dade467659522892a857f0ee31cebb4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd12a749e2ff15e66e095d0bfd3ce680756f36379"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x7b57c388e6149b5c197b925037602d5b6baffbcc"
     tags:
       - wallet
       - eoa
     networks:
       - optimism
+  - address: "0x395ec94bf3e3dcd3afbd82cd03197731411e396b"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - creator

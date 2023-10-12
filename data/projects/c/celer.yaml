@@ -86,12 +86,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0x841ce48f9446c8e281d3f1444cb859b4a6d0738c"
-    tags:
-      - contract
-    name: CBridge
-    networks:
-      - optimism
   - address: "0x50ec9b92b3bd46969b1ae5e10543ca6fb49fba4f"
     tags:
       - contract
@@ -177,10 +171,5 @@ blockchain:
     tags:
       - contract
     name: OptimizedTransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xc16251b5401087902e0956a2968cb3e0e4a52760"
-    tags:
-      - contract
     networks:
       - optimism

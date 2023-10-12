@@ -2331,3 +2331,61 @@ blockchain:
     name: DummyPriceFeed
     networks:
       - optimism
+  - address: "0x5d974d783f6b9edfacd7185cd4b458784d37615c"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x511f637b2d816536037e10e65c333b82a415b279"
+    name: BatchSender
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x5ae0f2910d0a166d432afe8fb1d0d48c400ddb75"
+    name: BatchSender
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xf57511d5bb0dfcc956acb2ecfdea289e099cb6f2"
+    name: MultipleMerkleDistributorReader
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x464a53459ffc18bef5de2b4ecbba4166f71f693f"
+    name: MultipleMerkleDistributorReader
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x31a7d116c36aa426ac129cfdb55d4ccebb8c13fa"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x0d753a1aa8eb079c30c0fb7203345030792e1254"
+    name: ReferralReader
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xe2404533687429f635fc8b2b298ef2e743a719cc"
+    name: ReferralStorage
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xa1b7a8c8e6e66de5f36eb297aa9c007b57ba0823"
+    name: ReferralReader
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x06e644175b0bb36afec1f2c6d71894f4e95977fe"
+    name: DummyPriceFeed
+    networks:
+      - optimism
+    tags:
+      - contract

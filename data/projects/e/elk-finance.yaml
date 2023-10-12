@@ -16,12 +16,6 @@ blockchain:
       - creator
     networks:
       - optimism
-  - address: "0xf220ea963d27ebe782f09403017b29692a4fc4ae"
-    tags:
-      - contract
-    name: FarmingRewards
-    networks:
-      - optimism
   - address: "0x72f0a08d8f8102cafbb3974566b9861a1ba74d34"
     tags:
       - eoa
@@ -58,18 +52,6 @@ blockchain:
   - address: "0x09a21dd9311ae7ec338bba59ee677bbbf8b185ce"
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0x6bc5fc9d0d908ef8444a7d8f6a7e1a7050a82084"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x38f2ad967328f246763d052cea13ebde47d54518"
-    tags:
-      - eoa
-      - creator
     networks:
       - optimism
   - address: "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee"

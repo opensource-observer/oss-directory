@@ -65,12 +65,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0x190b2aa820495c0e92840e8fa699741976cd6439"
-    tags:
-      - contract
-    name: L2StandardERC20
-    networks:
-      - optimism
   - address: "0x86b4d2636ec473ac4a5dd83fc2beda98845249a7"
     tags:
       - contract
@@ -460,3 +454,105 @@ blockchain:
     name: StaticATokenFactory
     networks:
       - optimism
+  - address: "0xe6ef45a2ef96791685cdee512f36f16ee85d891d"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0x9a187663e454e99cafd40a2712606cc306e301b2"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0x31976dc2ea27e75cc5a3687ed594d17127f9b72e"
+    name: AaveV3OptCapsPayload
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xac63290bc16fbc33353b14f139cef1c660ba56f0"
+    name: AaveV3OptimismUpdate20230510Payload
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x4393277b02ef3ca293990a772b7160a8c76f2443"
+    name: AaveV3OptCapsPayload
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x03232b5ee80369a88620615f8328beec1884b731"
+    name: AaveV3OptCapsPayload
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x78fe5d0427e669ba9f964c3495ff381a805a0487"
+    name: AaveV3OptimismUpdate20230502Payload
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xf22c8255ea615b3da6ca5cf5aecc8956bff07aa8"
+    name: AaveV3OptimismUpdate20230502Payload
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x6bce15b789e537f3aba3c60cb183f0e8737f05ec"
+    name: AaveV3OptCapsPayload
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xc026f5dd7869e0ddc44a759ea3dec6d5cd8d996b"
+    name: AaveV3_Optimism_AddDebtSwapAdapterAsFlashBorrower_20230809
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x0568a3aeb8e78262deff75ee68fac20ae35ffa91"
+    name: AaveV3OptimismUpdate20230913Payload
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x4c68fda91bfb4683eab90017d9b76a99f2d77eed"
+    name: AaveV3OptCapsPayload
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x0f36dda2b47984434051aecaa5f9587dea7f95b7"
+    name: AaveV3OptimismUpdate20231002wethPayload
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xfc7b55cc7c5bd3ae89ac679c7250ab30754c5cc5"
+    name: AaveV3OptimismUpdate20230925Payload
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x24bdacf6bbebaf567123da16cdb79a266597e92b"
+    name: AaveV3OptimismUpdate20230909Payload
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xe1dd796dbeb5a67ce37cbc52dcd164d0535c901e"
+    name: AaveV3OptimismUpdate20230710Payload
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xc12ad8b3d242b1eddc1c8319d1d58608e67043ed"
+    name: AaveV3OptimismUpdate20231002wethPayload
+    networks:
+      - optimism
+    tags:
+      - contract

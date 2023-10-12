@@ -10,3 +10,260 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0xc107dacaf1d6e369cfdc67695beadf5e2068191e"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0x1fccc097db89a86bfc474a1028f93958295b1fb7"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0xfc7a495389cd3454f5cc0ecaa55d30e343a1fc16"
+    name: LiquiditySeedingHelper
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x9581931527eba1b27666a4669c51057cf57bcd4b"
+    name: LiquiditySeedingHelper
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x6131ee632f92744a5af1d228663bc08290bd4892"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x1fbacedf510daa79dfd9b41227a7ba192d5d548d"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x998cf52b2585e05494bf9f2bf502351a9c7fda8f"
+    name: ActionInfoStatic
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xf477223b9d9bcaee81b93cc9dcdf6773269c0374"
+    name: ActionMintRedeemStatic
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x429e497eb2b4cfdbb28e63d64eef537438b222ee"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x872c9d71a5b64a9611b08f0956a3cc3deb77a317"
+    name: ActionStorageStatic
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x963ddbb35c1ae44e2a159e3b5fb5177e0b32660d"
+    name: PendleSwap
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x2bea6bfd8fbff45aa2a893eb3b6d85d10efcc70e"
+    name: ActionMarketCoreStatic
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x051dcd6a80f11fe68f77fb0ebde03853fa96b1fd"
+    name: BaseSplitCodeFactoryContract
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x9d6d509c0354aca187aac6bea7d063d3ef68e2a0"
+    name: PendleBridgedLSDSY
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xa4fba2d2256e11e2ca8d434dc8aeaa8f2be2f0b7"
+    name: ActionMarketAuxStatic
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xb6168f597cd37a232cb7cb94cd1786be20ead156"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x25d43b56e3e7c4fd119d137e081e93412995d93c"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xa2530b4cfbf271e2b409a05c2ce520e4cb5fcc88"
+    name: PendleGaugeControllerSidechainUpg
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x9b9feca00fa6cf646c9b205e8c9c61df5807a0a5"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x4d717868f4bd14ac8b29bb6361901e30ae05e340"
+    name: PendleMsgReceiveEndpointUpg
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x8d77771fa2518474cc83a613ef3d6140a84dbe56"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x6875e4a945e498fe1b90bbb13cfbaf0b68658c9c"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x4106fc9811a792130502bb3a5b693894cca7bd8e"
+    name: PendlePtOracle
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x8a09574b0401a856d89d1b583ee22e8cb0c5530b"
+    name: ActionVePendleStatic
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xad511b12f73c145cf158eb92e4fa256937d952a4"
+    name: PendleExternalRewardDistributor
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x29deaee5413a07c933c15b37d7deb6eb744ba9c8"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x704478dd72fd7f9b83d1f1e0fc18c14b54f034d0"
+    name: PendleRouterStatic
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x5202f7477685686284b3f47b0a5334b15ea0393d"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x96a528f4414ac3ccd21342996c93f2ecdec24286"
+    name: PendleBridgedLSDSY
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x6952eb0c152d683ea2f2b8b90a5e888c1550b69d"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xf3f560164979fe7f8f3eb2b64669eac00e7043a6"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xd5c47d2383fddc19596489280c0a33ac42b2bb18"
+    name: VotingEscrowPendleSidechain
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x28de02ac3c3f5ef427e55c321f73fdc7f192e8e4"
+    name: PendleSwap
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x418273abdeafe67c811a7671e5406e15bba10870"
+    name: BaseSplitCodeFactoryContract
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xed18de5442297a4ec1ce59c7c7d9427adc2a012b"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x16648548d12d1f71663f712211d56ae7322f58b9"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xa12197492d3c27b69581f90cafc59de5b5159639"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x59968008a703dc13e6beaeced644bdce4ee45d13"
+    name: OracleLib
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x5c3ddc827c40964728336229808e27c6374f07bf"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x17f100fb4be2707675c6439468d38249dd993d58"
+    name: PendleMarketFactoryV2
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xa6dc67ff3b241dedec6af907ff24bb5cfc3eeeaf"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x6f41855cdf6861a1f8a017e8bb0f90927582ccf6"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x9a5af6a35bb56443c577d57c303cda39f56dd173"
+    name: BaseSplitCodeFactoryContract
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xf5a7de2d276dbda3eef1b62a9e718eff4d29ddc8"
+    name: PendleYieldContractFactoryV2
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory

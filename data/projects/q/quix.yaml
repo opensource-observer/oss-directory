@@ -295,18 +295,6 @@ blockchain:
     name: L2ERC721Registry
     networks:
       - optimism
-  - address: "0x57d1eae9f0972723f0e78eaf4e6c08e90565206f"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0xb1ea5a3e5ea7fa1834d48058ecda26d8c59e8251"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
   - address: "0x5c9d55b78febcc2061715ba4f57ecf8ea2711f2c"
     tags:
       - contract
@@ -318,3 +306,9 @@ blockchain:
     name: QuixoticLaunchpadERC721
     networks:
       - optimism
+  - address: "0x4856e043a1f2caa8acefd076328b4981aca91000"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator

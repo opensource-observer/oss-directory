@@ -4,9 +4,74 @@ name: Xen Crypto
 github:
   - url: https://github.com/FairCrypto/XEN-crypto
 blockchain:
-  - address: "0xC73Fc08C931Efe3FCE850C09278472e8a81c2e05"
+  - address: "0x379002701bf6f2862e3dfdd1f96d3c5e1bf450b6"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xeb585163debb1e637c6d617de3bef99347cd75c8"
+    name: XENCrypto
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xb4609b8453bb07d540ec95d491b92bdecb794531"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xffcbf84650ce02dafe96926b37a0ac5e34932fa5"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x0a252663dbcc0b073063d6420a40319e438cfa59"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xc739d01beb34e380461bba9ef8ed1a44874382be"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xa7216b82f9c5391ba9aba8bb42e2095b2198f919"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x3c9241461e11817ffc6994af3d467f056f487b67"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x94d9e02d115646dfc407abde75fa45256d66e043"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x1ac17ffb8456525bff46870bba7ed8772ba063a5"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xaf18644083151cf57f914cccc23c42a1892c218e"
+    name: XENTorrent
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x4c4cf206465abfe5cecb3b581fa1b508ec514692"
+    name: XENStake
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xc73fc08c931efe3fce850c09278472e8a81c2e05"
+    networks:
+      - optimism
     tags:
       - eoa
       - creator
-    networks:
-      - optimism

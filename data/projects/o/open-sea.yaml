@@ -16,39 +16,82 @@ blockchain:
       - eoa
     networks:
       - optimism
-  - address: "0x00000000000000ADc04C56Bf30aC9d3c0aAF14dC"
+  - address: "0x86d26897267711ea4b173c8c124a0a73612001da"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0xfba662e1a8e91a350702cf3b87d0c2d2fb4ba57f"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0x61b6f67f5f997dc31a050548285957fde1cf526d"
+    name: ERC721SeaDrop
+    networks:
+      - optimism
     tags:
       - contract
+  - address: "0x225b0747c4062d98e2e957752ac5d73c7dacff90"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x7abe38f44560775358c0590cce1057c6307195e3"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x50075f151abc5b6b448b1272a0a1cfb5cfa25828"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x7ab8a2a5cdde4a8e4601879027695f5f788fabaa"
+    name: ERC721SeaDrop
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x000000008924d42d98026c656545c3c1fb3ad31c"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x00000000b8f8f18b708c8f7aa10f9ee7ea88049a"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x00000000000006c7676171937c444f6bde3d6282"
     name: Seaport
     networks:
       - optimism
-  - address: "0x00000000000001ad428e4906aE43D8F9852d0dD6"
     tags:
       - contract
-    name: Seaport
+      - factory
+  - address: "0x0000000042dbfe4eca8f719a3693b363adb44a02"
+    name: ERC721SeaDropCloneFactory
     networks:
       - optimism
-  - address: "0x00000000006c3852cbEf3e08E8dF289169EdE581"
     tags:
       - contract
-    name: Seaport
+      - factory
+  - address: "0x000000f20032b9e171844b00ea507e11960bd94a"
+    name: ERC1155SeaDropCloneFactory
     networks:
       - optimism
-  - address: "0x00000000F9490004C11Cef243f5400493c00Ad63"
     tags:
       - contract
-    name: ConduitController
+      - factory
+  - address: "0x00000000684ea14900008b2d008a77f5ea376e82"
+    name: SignedZoneController
     networks:
       - optimism
-  - address: "0x00e5F120f500006757E984F1DED400fc00370000"
     tags:
       - contract
-    name: SeaportValidator
-    networks:
-      - optimism
-  - address: "0x0000f00000627D293Ab4Dfb40082001724dB006F"
-    tags:
-      - contract
-    name: SeaportNavigator
-    networks:
-      - optimism
+      - factory

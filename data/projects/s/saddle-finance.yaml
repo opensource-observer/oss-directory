@@ -119,21 +119,10 @@ blockchain:
     name: MiniChefV2
     networks:
       - optimism
-  - address: "0xae31207ac34423c41576ff59bfb4e036150f9cf7"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x293ded6b7d8d37bfe1e66aadbdec9f87fedbd37f"
     tags:
       - contract
     name: PermissionlessDeployer
-    networks:
-      - optimism
-  - address: "0xa29b548056c3fd0f68bad9d4829ec4e66f22f796"
-    tags:
-      - contract
-    name: L2StandardERC20
     networks:
       - optimism
   - address: "0x4e1484607760118ebe2ab07c0c71f1b4d9671e01"
@@ -162,12 +151,6 @@ blockchain:
   - address: "0x08f8611b996bf2f0fd7523b54e69bfb92dd43a81"
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0x979b44cfc7a9b54bed8a3c4fd674b09c194219fd"
-    tags:
-      - eoa
-      - creator
     networks:
       - optimism
   - address: "0x19a5ec09ee74f64573ac53f48a48616ce943c047"

@@ -447,3 +447,74 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0xb82119772ded0318b1930c6ed45bc4bcd3009cff"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0xca59828846d822455267666a5190054cf20e9bfc"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x95f6ce439ffe16f4817bb64c2a727e737b0450d6"
+    name: XERC20Factory
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xa8c545150329987623aca8421a6c2e448018057f"
+    name: XERC20Factory
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x4cb61f5423296670155c4a98ed34653f400f76c7"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x36d4a5dacce9712c6353d7f778c52dca813f093f"
+    name: XERC20Factory
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x7a9472a82dc040392c7238bc49e237df0009e009"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x8302482ab82445af653d92c442ed7deaf7f70a32"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x2f5a85c5e3b662e0255679626bb566359c402210"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x58b9cb810a68a7f3e1e4f8cb45d1b9b3c79705e8"
+    name: TransparentUpgradeableProxy
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xea581ca64e4a384ae4dea39bb083173ccbd2d817"
+    name: TransparentUpgradeableProxy
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory

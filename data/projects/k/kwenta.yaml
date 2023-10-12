@@ -389,3 +389,92 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x47c8f1db1df960b2ff00b240038576098277e8da"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0xc9af789ae606f69cf8ed073a04ec92f2354b027d"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x195f6f7ca2268e1dec03352786c350eb61aba307"
+    name: EscrowedMultipleMerkleDistributor
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x626e666c95f4a31439a9ca2d5ef757ea3d72a2fd"
+    name: StakingRewardsV2
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x15725a8159629ca9763dec4211e309c94d9f5cb0"
+    name: RewardEscrowV2
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xa1f54fb12e1f548876d38b96d88d08dce950caa8"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x33b725a1b2de9178121d423d2a1c062c5452f310"
+    name: StakingRewardsV2
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x10b04483d762bd4f193f35600112ad52391004a7"
+    name: EscrowMigrator
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x61294940ce7cd1bda10e349adc5b538b722ceb88"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x03f6dc6e616ab3a367a1f2c26b8bc146f632b451"
+    name: StakingRewardsNotifier
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x85b466a1a6e2d2acef68cb86bd3c6efd7479e55d"
+    name: StakingRewardsV2
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xb2a20fcdc506a685122847b21e34536359e94c56"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xf877315cfc91e69e7f4c308ec312cf91d66a095f"
+    name: RewardEscrowV2
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x7df905e163d54b4fe9a14ae01cf985bdc82c1a0f"
+    name: RewardEscrowV2
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xd3b8876073949d790ab718cad21d9326a3ada60f"
+    name: BoostNFT
+    networks:
+      - optimism
+    tags:
+      - contract
