@@ -343,3 +343,63 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x068053f77e321c8828f5fea91b6917011b1a77fe"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0x1c7dfaa422cacaa5b368fe22db84b8329cf88e12"
+    name: RequestManager
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xc2f48bc4d8a42b82f801315696a92141f6f3413f"
+    name: OptimismL2Messenger
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x53e66f47017af73d60510d42fd83c28db21cc103"
+    name: FeeSub
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x843e83e1e4d3dbb7240330d5086c4f62ecf1ca3c"
+    name: RequestManager
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x9208242fc2148a21737d73de036c6a5b1e934db5"
+    name: FillManager
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x71f64aeb9bfcca42ed6768a5ff30b624c4a3e72e"
+    name: FillManager
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xdedf727f56a19d536e1fbbd1181fe1a7af1b57b6"
+    name: OptimismL2Messenger
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xa120ac2dcd06903bf812f1c2671d00a16fde4d64"
+    name: MintableToken
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xacb08c35f015cddaa7588cf29dbff935ec56943d"
+    name: MintableToken
+    networks:
+      - optimism
+    tags:
+      - contract

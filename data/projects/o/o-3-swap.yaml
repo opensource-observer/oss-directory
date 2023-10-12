@@ -4,11 +4,6 @@ name: O3 Swap
 github:
   - url: https://github.com/O3Labs
 blockchain:
-  - address: "0xee9801669c6138e84bd50deb500827b776777d28"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x72c1a1c24917eef19e7f5dea146d950841f37662"
     tags:
       - eoa
@@ -202,12 +197,6 @@ blockchain:
   - address: "0xc0b69439815f2473f543a71f68a8aebd08982d7d"
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0x4283b3469a9edce1fda34ec6e8a453cf82b9cab7"
-    tags:
-      - eoa
-      - creator
     networks:
       - optimism
   - address: "0x5dcce1ca1a72bb77e9fa791da7cba44648157eee"

@@ -112,3 +112,15 @@ blockchain:
     name: SquidFeeCollector
     networks:
       - optimism
+  - address: "0xb28837949e7a3f1ac862036e8a0ae392c9ff9bb4"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0x11e32da61cac93b1c1bf6f7d02eceb6bc23bd2df"
+    name: SquidRouter
+    networks:
+      - optimism
+    tags:
+      - contract

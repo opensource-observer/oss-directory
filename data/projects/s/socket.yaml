@@ -1566,3 +1566,27 @@ blockchain:
     name: CctpImpl
     networks:
       - optimism
+  - address: "0xb002b522c51a9d17d34e5fbd454c772f75b76a2b"
+    name: SocketExtractor
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xae1138690ff1b35eb083e52a680c20a6ae919dfb"
+    name: SocketExtractor
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xc2d8e5693d650828682ca8e40f71f364b0c1e5d7"
+    name: StargateImplL2V2
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x09a6e77912a6bcfc3abfdfb841a85380bb2a8b97"
+    name: FastSwitchboard
+    networks:
+      - optimism
+    tags:
+      - contract

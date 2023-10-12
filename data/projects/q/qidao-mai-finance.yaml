@@ -536,3 +536,15 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0xae9e64886f0b09c349a1eca9bf2ec3ac03e6fd43"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x1185c8eae0690f152c22593215ded84432014e84"
+    name: Poker
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory

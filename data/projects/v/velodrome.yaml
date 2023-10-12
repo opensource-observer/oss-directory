@@ -5967,11 +5967,6 @@ blockchain:
     name: Minter
     networks:
       - optimism
-  - address: "0xcdd9585005095ac7447d1fdbc990c5cfb805cff0"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x20ffdb7d91544f8befd4f7a85e13bb9d773655ec"
     tags:
       - contract
@@ -6096,12 +6091,6 @@ blockchain:
   - address: "0x846e822e9a00669dcc647079d7d625d2cd25a951"
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0x51cc12e6a4fccbcd6eb6f1c5905263edc5578c5f"
-    tags:
-      - eoa
-      - creator
     networks:
       - optimism
   - address: "0x3108c6e5b2c8527cb6d29accf70451a47e2871f4"
@@ -7069,3 +7058,835 @@ blockchain:
     name: PriceFetcher
     networks:
       - optimism
+  - address: "0x3f468e35f5c262a6e796bfe3be831bf8b9142e9c"
+    name: PatchedManagedRewardsFactory
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x7ccc5bc2446d25973eed60598d00e60fce261087"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xcdd60df8a313ccc563546c8a002fb1299f495bc6"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xdea077dc60298d98c3f7fd97b40c637e0fbfd4f2"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x69a9b0f791507c50b413d24abb761acb5ac52728"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x3755a39dd351a517f00212ced1247427b0f95132"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x39137242cddcaa2020af946cbf58f9b8956c0f51"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x4bf95008601e5cd3ac393be4025d0d70054b7e22"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x07a1b06b64c232ee2f16465148dc1e0dc691297e"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x62bd38e9c8d80e3a6f040b062ee4cf97fa1a6114"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xd1bdd66704a1d52a5271855321a24738fb9dfc3c"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x300248fd63234ba30c67dd1297fd96d61db12dda"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x4500f665f91502eab161c2049c58051c66d03d81"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x81185b946151ec6c8a4e09ff23c95c3a0b817fca"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x459af1026e3e1fa48519a344c1b85d8c9fedf2bf"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xbcd3eeda1c4b603b128ebf9aca9f9ba1cecab8d0"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xccff62e5d88aa7296e80920f7ff58b7f4b75a811"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xc9fd3537bec5285994e3e60c1bb4252f45f41f6d"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x2b28eae37bb0ddaec6e67dfaefd7c7c685b5cb12"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x26aa74844bc71ef137075a0fda37ca1feb37a388"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x87e3cfab77c39e42a5f21b8de8845b88af793677"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x25f54e5da1c131b56d56c681fd2a94e19cc7b0b6"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x5821daea7b1a0e0bd3ab9805fef7083cda5dcf9c"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xedbe7052f368ce52f6582ba4bcd15f194947e6a0"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x93fd9812d373fd2087b6291945dfb2706b13ddd8"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xa19638918a72ada854968c8f08e7c0f76cd1ad68"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x3c5a8a63fcf5596f6cf5476ceb3b7aba322800d1"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xc8c4af2b41df606e340b7ea77a06aaebd1826d76"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xa14bc4018c47441829277980c582ce437c807b84"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xfe2ad9f6b128aaa2a55ee199ecacbdba095a20c1"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x7b21f0627e85602db3fe666960b5d645d5e858a7"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x6f202515ffbb74a4cd12ebd85aff4a872c099563"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xb32ebb6feb392b60dad6b338ea4dfdcb7c8712c4"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xc2f66f50d48c9e590990fbb5909e06a9da98995a"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x158f5b52f39e6c518a3aa53d7c5f86445d6b88ec"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xad7b943a6e3c7e092211afb3cd7664b56046e5fd"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x6028690d90263b2ff63d071d53c79c04133aab54"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x1af07739c16530f108995944097b3831ec888150"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x0d8ba0f6ae12e03f8174ee5a69ea062b84552460"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x36e3c209b373b861c185ecdbb8b2ebdd98587bdb"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x67f56ac099f11ad5f65e2ec804f75f2cea6ab8c5"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xb12a27e6a7f7e9a83693f325a706fd65e5e4905c"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x485b2deea6bb76d4b7e2918ff13a0fdb4c9c38ec"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xe5c8953ffb85c0aa99cb80cc96cf0d41b391d8f5"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xa0dbf75a275341606f20175515a22dc84e33f5f5"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x992e212a951f9ac95101d994d291b761107c19d3"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x3d68b620ced731cc16be857a8b5f91cd864c04a0"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x77ce3e963daf97d1819423099e2b81fcfc3dd344"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xb016a823d04d6c62e429d07e1e674f63ce450db8"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xa277625fb65864b33018b09006b4fad88c661b25"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x844d7d2fca6786be7de6721aabdff6957ace73a0"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x1dc704d65e92d79c2ae12719cd635a4b3946a0d3"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x91d748a4bcb15429f963a0057190fbd301ee6839"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xbf75051f6e6df9fecf90d9bebbbb08a85950858c"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x55d6b74705af99e0e40ad851a1eb8207f77c2792"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x1108a3297d562d5c178bc08f2062f4d43e137fb6"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x95a86e6a2c22e6f40d111816f2d98240753b87ea"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x52bf61a298ee43cab911eba63b2a160b8ff04493"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x6ef1dea7066bc5ae1d4800b3233d837730481303"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xcfef85ec8f710c9432712ef5aab9ef76eb1a3f23"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x40913c5b945c0f38eaaf5c3e2c62b7311c18aebc"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xd8b6e1d4cce65c3ce19262cd5494e8eded8db908"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xf4f2657ae744354baca871e56775e5083f7276ab"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x46a40f92d461d76f0d44a7200ad00099a6e3dcb2"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xd6f459cdaf006fe4754c6d8b066f4f34930df11d"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x641113145d9c636042168869464022bd21d56a4e"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x4f8fb118918349b99ecf298d460f1caf2e4b0d38"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x0cf0174f04b62f0ee3129f8e909fdf789736429f"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xe31606de49baa93f0192636ce3fa296c9c0c7388"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x60727c6daf095d39c10ce2461b46f61a0ff65f69"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x823dcf6692564777dbc1c22661dcc30371e5b2b1"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xb14722ca276bc6c4d5f239637ce318b0dc463056"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x04e9e8dd950abaa1838703b487e417199d3c1e60"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x1e7c5572b3d5942cf5dabf61f5ba3fbc6b65e921"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xae6c9b2a2777d0396cbe7e13fc9aceac0d052e00"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xbebd472a9b107291efa4c3291cf5c38bf8f55f68"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xd7b3fdc2922b54c63533f60adfc3b18caeafc0d5"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x82924e4d3ebe7876f8fd41c99a14056edbf6ae03"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xbf9c5e1b2df9054c71b502c967477168d5cede94"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x46aa300a5a7a973f44e0baea360fc207554b7157"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xf709f28b88fb90b7145c6a293a079f94806cde89"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x6eec2cc1854adb60257619b9b21d8af4613e9c8f"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x30ae58c12c56010273501bf6c6605c3c9398ec0f"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x7da445e755aec2371eca860d9917305947fa0b01"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xbe360ec4763079502ce899ab303fc016b4b64b23"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x6eb8dffcf057429d411242568f08dc2c06fc0370"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x713050e9ea7764afb229197e98559e20e67302f1"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x5258983634fdf8a2824650b88bebb68cfec084e3"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xbba830b383ff131f7059fea36c90e9b63ae12c44"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xfe9e5fa92f91d25e4a55ba727527457410dc1218"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xfb9501e5ac740d804b2d5393f64527672806b9e6"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x05aa1277cb1bc91653a0fc1e43dec7844b08860f"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xca22a9ab446dad3e46b93ebe70b0eea2817099b7"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xb23e4adf35cf024fc694d3aa9f6bc7b824b51547"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x05cc7ed70f745d20ef399f6eca2358562a5ccbaf"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xdb30f86e1daa0fe42ec3e9e4f769b519f19cd5a5"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xbcc6db38e290b85ce8b18c5c010848320618beb4"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x18c830f6a32a06cf2ac4262e977a096f12bdab8d"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x35675401ead125ff7b5ae2b11430d3964f62a81e"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x6b1fdf5eeccf6161ef26b7d2c9d50b03e0b344c2"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x29ca9b06864d66afe2e2684aa85b22755891abe4"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xd814549775b179107dac333d26150f5664d174fc"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x7f5f38a470d719b8feb4bfb2dd3eb9cdb9341b60"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x686fc12c001869f4f11f80ff149d8de3e04c78a0"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x38bc76a4c1014de6682da151b97e0fe7e1f89212"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x42a6d27b07e4ae29efab3cae0f57cf1ce76435d3"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xf0dc43bbae48dd39b97229cec09894a503ea230c"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xacb74dcfd945c9a0cf907c28545f6e7b20c6fa26"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xa06f497385658570c0a2e84ccc3aeb298528d0e6"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x9855c344b9302bf6f862f0f9bc19e3c82e03a90c"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xccd4e15c947960ea858a18a3a463cbb2c183fc6d"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0xac9df65fa9702be1359dec59aab0ad0d5ab43c46"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x2fcca05388eb6cb9d90bc5f841e6b9009e1ad0a2"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x72bfcb67f59dfe4cf77413596b5586cb7dd941dd"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x780ba022a610e25b6da34234b338018db6270094"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x6a0b2f4c6e3fe08fe97111a7c1061b46740eb10f"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x3f0f761a0e328222c07e0d20ef9be5f34c5fd9cd"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x112bdff900541d163ac7d54707ecb3bfaf32c10e"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+  - address: "0x390b7ae47394cf7f112dd32886cb9164583d80c4"
+    name: Pool
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory

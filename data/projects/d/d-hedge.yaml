@@ -2213,3 +2213,21 @@ blockchain:
     name: DhedgeSuperSwapper
     networks:
       - optimism
+  - address: "0x464b790c91a609015e3af6e0faf97b04bb59590e"
+    name: VelodromeVariableLPAggregator
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x7210212b3f058d91f9d09da0bcba508455ae220c"
+    name: SynthetixV3ContractGuard
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x1f13ff8f5dbc661374f57d766d5fea20eef27a8f"
+    name: SynthetixV3AssetGuard
+    networks:
+      - optimism
+    tags:
+      - contract

@@ -466,3 +466,45 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0xc34fd9b40afb41ac528abb3c7ef643a6ba3667e3"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0xaae81bc3fc4be22e3a5c1cbc32ecd922f594b085"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0xafdfb268c7984925e3990c768b474578adeca20e"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0x2491f2679cef237e404e9252c2111fd3a6e6b536"
+    name: QuestFactory
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x5db4ca132a21aab9a29ffa069605a10067a0a931"
+    name: TUTORIAL
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xaf7ba717e60ef219a0c319e4dc6172f4b25ee870"
+    name: Quest
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xc21ca11599c636576656fb7dbfa2fb6ad8563472"
+    name: Quest
+    networks:
+      - optimism
+    tags:
+      - contract

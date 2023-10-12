@@ -40,31 +40,10 @@ blockchain:
     name: OptionMarketWrapper
     networks:
       - optimism
-  - address: "0x48a157f01ccf4bf24d42185cbcd9fc0c376292f0"
-    tags:
-      - contract
-    name: OptionToken
-    networks:
-      - optimism
   - address: "0x60a5159bafb2198b967021ac77e26c1417081477"
     tags:
       - contract
     name: ShortPoolHedger
-    networks:
-      - optimism
-  - address: "0xbbaa63be0e3feacb3a3798cb101962b8608fca99"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x47b5bb79f06f06db3d77c6cc4db1ad6e84faf1f4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe722f9aee66f649fbfc8cb0d4f906cb55803553c"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0xb2bbb093699d3734ec24386837723259501ef150"
@@ -106,12 +85,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0x5191929e07af53d466b6f686aea26c44358b9af9"
-    tags:
-      - contract
-    name: OptionMarketSafeSlippage
-    networks:
-      - optimism
   - address: "0xb6a45238b043b60f0f209dd2facef623cc230ccb"
     tags:
       - contract
@@ -128,26 +101,10 @@ blockchain:
     name: StakingRewards
     networks:
       - optimism
-  - address: "0x28b973a46526d37859bf3069877ad2c6944a1133"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xd02421294de2314f03441ee3c27d2c034c9a0cf5"
     tags:
       - contract
     name: KeeperHelper
-    networks:
-      - optimism
-  - address: "0x3856c594d35a24f7435731f9f5d7835887f0b94b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x544500113c92d49beb8f17e144c2c9e5b8226bc9"
-    tags:
-      - contract
-    name: OptionToken
     networks:
       - optimism
   - address: "0x0c259dd157a8224a480e1e7d783fa25e45bd3d01"
@@ -161,21 +118,9 @@ blockchain:
     name: OptionMarket
     networks:
       - optimism
-  - address: "0x50c5725949a6f0c72e6c4a641f24049a917db0cb"
-    tags:
-      - contract
-    name: L2StandardERC20
-    networks:
-      - optimism
   - address: "0x61c9e8138e2a810bd6723f9c1893d4275b8e7c5f"
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0x0dec3173683e4b1e587d466fd0e3a8ad81a39a19"
-    tags:
-      - contract
-    name: OptionMarketSafeSlippage
     networks:
       - optimism
   - address: "0x225cd217def1a028a2a5af7729293792c3f760a2"
@@ -184,22 +129,10 @@ blockchain:
     name: GWAV
     networks:
       - optimism
-  - address: "0x36ab8de9f177b70fbdbc4050e47d0d578adf3cfe"
-    tags:
-      - contract
-    name: OptionMarketPricer
-    networks:
-      - optimism
   - address: "0x7f3bd88c39a03edd6e4c421a7380b58245e2bfd7"
     tags:
       - contract
     name: OptionMarketPricer
-    networks:
-      - optimism
-  - address: "0x0a99c0643b00fcd5fcd16c46e4efebff650b5ea1"
-    tags:
-      - contract
-    name: OptionToken
     networks:
       - optimism
   - address: "0xcce7819d65f348c64b7beb205ba367b3fe33763b"
@@ -219,17 +152,6 @@ blockchain:
     name: OptionMarket
     networks:
       - optimism
-  - address: "0xa5a20f41f367a7ed71d7a617a708de965cc80db5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6c1d7b56a266752c611c022f4130e72952bf1327"
-    tags:
-      - contract
-    name: OptionToken
-    networks:
-      - optimism
   - address: "0x239ce352c63ee374a8eabbfe76be2ef47125dbcd"
     tags:
       - contract
@@ -241,17 +163,7 @@ blockchain:
     name: ArbitraryTokenMultisender
     networks:
       - optimism
-  - address: "0x307d49a289df36023240dfa6746fd8c181c2971c"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x9847527860f8a3b3b8916781ccf71f453ab69136"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x43592bffcf14f1e0a096091e125f023b2ccc2525"
     tags:
       - contract
     networks:
@@ -260,11 +172,6 @@ blockchain:
     tags:
       - contract
     name: OptionMarket
-    networks:
-      - optimism
-  - address: "0xe34af32082aa2be75f0a80dc179d597e852af6a1"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0x3904bd7c310591a04ab0cecc3664707bb35381a5"
@@ -279,17 +186,7 @@ blockchain:
     name: OptionGreekCache
     networks:
       - optimism
-  - address: "0x176b9e1bce6757ab23235fa9899b32e89b105b0d"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x43bc8ab493af3dc2c8ebfdb3df74eb4dea80c682"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0f5d45a7023612e9e244fe84fac5fcf3740d1492"
     tags:
       - contract
     networks:
@@ -326,12 +223,6 @@ blockchain:
     name: OptionMarketPricer
     networks:
       - optimism
-  - address: "0xf34542369b4d39968a27307f76621ba802deb05a"
-    tags:
-      - contract
-    name: MultistepSwapper
-    networks:
-      - optimism
   - address: "0xb5ee566f3738355a59bb5821ff7c7b5b956f0dab"
     tags:
       - contract
@@ -366,22 +257,10 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0x121c7eaf4af34e075136bf5c549bdd0ad40040ec"
-    tags:
-      - contract
-    name: OptionGreekCache
-    networks:
-      - optimism
   - address: "0xf67cfa9a192edbba8d3d7e2bdbc7a104e76997ba"
     tags:
       - contract
     name: BasicLiquidityCounter
-    networks:
-      - optimism
-  - address: "0x39a023fde14d44c01bcb43993b3a51117174f336"
-    tags:
-      - contract
-    name: OptionMarketPricer
     networks:
       - optimism
   - address: "0x6cd5af44b0009756080d10278c5a84ed8be4ddde"
@@ -395,11 +274,6 @@ blockchain:
     name: TransparentUpgradeableProxy
     networks:
       - optimism
-  - address: "0x0391ea10046ff83b3f6c0bbd450b95adc04e3faf"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xed2784eae4bde283d5908d4383dc059b8b9e462e"
     tags:
       - contract
@@ -410,48 +284,16 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0x8f69783db37905f026cf62223c9957ae0ca90a38"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xf5a0442d4753ca1ea36427ec071aa5e786da5916"
     tags:
       - contract
     name: LyraRegistry
     networks:
       - optimism
-  - address: "0x7af4e1ce484f40d927b9c90fb6905df4376fc3f6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x97d8a57471da7a29bee74b8feb6bdc0efa7d4d3f"
-    tags:
-      - contract
-    name: MultistepSwapper
-    networks:
-      - optimism
-  - address: "0x644e589fd7d6aec00ddc4212d17d4d71ce947b8a"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x8337c76bbccd65d7dd566c50e01252f6122d9ec9"
     tags:
       - contract
     name: PoolHedger
-    networks:
-      - optimism
-  - address: "0x22c39ce1c3a49224aea6d8c2aaa0019828e1b5e4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x585a72ccecde68ddfe5327b23134723a305d70f3"
-    tags:
-      - contract
-    name: ShortCollateral
     networks:
       - optimism
   - address: "0xa4037372aad14526960f1a2062510d97df8a278f"
@@ -490,12 +332,6 @@ blockchain:
     tags:
       - contract
     name: KeeperHelper
-    networks:
-      - optimism
-  - address: "0x325d4217c73872bc9f4693d756d6a78c1c82796a"
-    tags:
-      - contract
-    name: BlackScholes
     networks:
       - optimism
   - address: "0x7f58af3d557ffd0f9ce62e6bb8a1b3b3fc2a5098"
@@ -546,11 +382,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0x8e9c516c202277d47ccd33aceb081b90be2fd5dc"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xdb8edfbbd086e2f41b12cca220e4c272b3bd39d0"
     tags:
       - contract
@@ -560,12 +391,6 @@ blockchain:
     tags:
       - contract
     name: LyraRegistry
-    networks:
-      - optimism
-  - address: "0xbcb01210bd1c0790ca45cc4c49d9a183be99824d"
-    tags:
-      - contract
-    name: OptionMarket
     networks:
       - optimism
   - address: "0xb016a673ad68b3456da1ba3c17f9b7f4d65f063f"
@@ -585,34 +410,6 @@ blockchain:
     name: GWAV
     networks:
       - optimism
-  - address: "0x160bd2517460245dc6532023c275a776c12391e0"
-    tags:
-      - contract
-    name: OptionMarketPricer
-    networks:
-      - optimism
-  - address: "0x28e847c9b94cd022285127187487aff3883bbf8b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0a68e15f8e289b9f1ad1bcad524fea30c6125c2d"
-    tags:
-      - contract
-    name: ShortCollateral
-    networks:
-      - optimism
-  - address: "0x469e9f00cc30350a4e1c3f3109c8460b532f5fa1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x017a2f9ca9adb018fc4e06016e4f69a46dbabece"
-    tags:
-      - contract
-    name: LiquidityCertificate
-    networks:
-      - optimism
   - address: "0xfcdf7c184726578a8c50c424f8ad84f6cd90875b"
     tags:
       - contract
@@ -623,18 +420,6 @@ blockchain:
     tags:
       - contract
     name: InitializableAdminUpgradeabilityProxy
-    networks:
-      - optimism
-  - address: "0x69b4b35504a8c1d6179fef7addcdb37a8c663bc9"
-    tags:
-      - contract
-    name: LiquidityPool
-    networks:
-      - optimism
-  - address: "0x6d3c6f37b3f59098bd3652d8df7152b091b12521"
-    tags:
-      - contract
-    name: BlackScholes
     networks:
       - optimism
   - address: "0x43d695438c01075e33543b2ef2a5fc35b7c8a827"
@@ -649,12 +434,6 @@ blockchain:
     name: LyraRegistry
     networks:
       - optimism
-  - address: "0x074edcbabee9cb019d217c158ab4e92c1cd7caf0"
-    tags:
-      - contract
-    name: LyraGlobals
-    networks:
-      - optimism
   - address: "0x3e86b53e1d7da7edba225c3a218d0b5a7544fdfd"
     tags:
       - contract
@@ -666,20 +445,9 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0x89a220e4d5cb1f300ce8de2dd9183c8fa9074695"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xbb3e8eac35e649ed1071a9ec42223d474e67b19a"
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0x788843de0be1598155bffaab7cfa2ecbd542e7f1"
-    tags:
-      - contract
-    name: LiquidityPool
     networks:
       - optimism
   - address: "0x95fe3e7411f295a0da6ab14b4cd91f666b9f8b8a"
@@ -688,26 +456,9 @@ blockchain:
     name: LiquidityToken
     networks:
       - optimism
-  - address: "0xd0df278f36778a5cce926b92ccc90b2bbbbfb3b3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf54a551fc1223d91e766c519723f8f7af5ea9a2b"
-    tags:
-      - contract
-    name: LyraMarketsRegistry
-    networks:
-      - optimism
   - address: "0xdec42fcc5a17f86c866e160e26e31b35471372cd"
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0x96e91f8dafc58975025dd6163a41eb593e6e2c62"
-    tags:
-      - contract
-    name: PoolHedger
     networks:
       - optimism
   - address: "0xa5ce396616c7d14f61b5b9bba3a57388db885b2e"
@@ -736,11 +487,6 @@ blockchain:
     tags:
       - contract
     name: LiquidityTokens
-    networks:
-      - optimism
-  - address: "0x4341a26f8b32a6f79572351faa4ec91964cf63eb"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0x6f2ca9d14d287d076bdd71805fdef9cb9d974799"
@@ -786,12 +532,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0xfb1951b7eef8e7613d3b09424fb4aef805c16267"
-    tags:
-      - contract
-    name: OptionToken
-    networks:
-      - optimism
   - address: "0xb0b06f0440ce13d03d41c5399c55aefea1b372ce"
     tags:
       - contract
@@ -813,19 +553,7 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0x1f80f640a9d53d8cc339b1314061b6d14a24c78c"
-    tags:
-      - contract
-    name: OptionGreekCache
-    networks:
-      - optimism
   - address: "0x0a486d20d81daf2926519542941f3cab9d3b8f26"
-    tags:
-      - contract
-    name: LiquidityPool
-    networks:
-      - optimism
-  - address: "0x9f2f5d3ca640c5dae82a208d4ac8a9725372a99c"
     tags:
       - contract
     name: LiquidityPool
@@ -835,12 +563,6 @@ blockchain:
     tags:
       - contract
     name: LyraSafetyModuleMigration
-    networks:
-      - optimism
-  - address: "0xfc5764960a504b6033d5aa7f180899b6dfa66a33"
-    tags:
-      - contract
-    name: ShortCollateral
     networks:
       - optimism
   - address: "0x97a16f10be8a74957f984deb66d7016848a67686"
@@ -855,27 +577,6 @@ blockchain:
     networks:
       - optimism
   - address: "0xeaf788ad8abd9c98ba05f6802a62b8dbc673d76b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1f6d98638eee9f689684767c3021230dd68df419"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5287d03553e736c732bc71b20248954f2e70f714"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc1729854837578dc867c6d644304407f0ebc5a3d"
-    tags:
-      - contract
-    name: OptionMarketPricer
-    networks:
-      - optimism
-  - address: "0x9093f670c780d8d09a0c88d03d60aaa0b5a9e7a1"
     tags:
       - contract
     networks:
@@ -895,17 +596,6 @@ blockchain:
     tags:
       - contract
     name: GWAV
-    networks:
-      - optimism
-  - address: "0x2935cd347b79c319a6464fe3b1087170f142418c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7957ac0b737c40227ae6e98bf746aae84a26053c"
-    tags:
-      - contract
-    name: LyraMarketsRegistry
     networks:
       - optimism
   - address: "0xb623cb21b54a2f9a2393eee90054c2506bd4810b"
@@ -987,12 +677,6 @@ blockchain:
     name: OptionMarketPricer
     networks:
       - optimism
-  - address: "0x000a2c01f114b89952749359922d85e27edda38d"
-    tags:
-      - contract
-    name: PoolHedger
-    networks:
-      - optimism
   - address: "0xbdecdf6d6b089e1970d2206dfe6c413724b7638f"
     tags:
       - contract
@@ -1000,12 +684,6 @@ blockchain:
     networks:
       - optimism
   - address: "0x3cee1d7a35e8b961db2bbae6636cc54ca10a850d"
-    tags:
-      - contract
-    name: OptionMarketViewer
-    networks:
-      - optimism
-  - address: "0x3ce72e21ffe5607d1d54780090e293888d28b7e4"
     tags:
       - contract
     name: OptionMarketViewer
@@ -1051,27 +729,10 @@ blockchain:
     name: ProxyAdmin
     networks:
       - optimism
-  - address: "0xd7d974e81382d05e8d9fc6d0d17d0d852e9806dd"
-    tags:
-      - contract
-    name: ShortCollateral
-    networks:
-      - optimism
   - address: "0xfbdcdefd5cd7992ac6fee832227b3cefde46ed95"
     tags:
       - contract
     name: OptionToken
-    networks:
-      - optimism
-  - address: "0x12be2392a712d58e8fef808da53c8caf1c5ec570"
-    tags:
-      - contract
-    name: OptionMarketViewer
-    networks:
-      - optimism
-  - address: "0xb921e22de51f17b4227787a6d264f37399eb7d8c"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0x3ec2a74bd980e79d85e7997d71685fca08a7f45a"

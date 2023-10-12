@@ -187,11 +187,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0x2e4a187732166a0282e52527b931c96146ac7c58"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x9d215d3088c54fb94d71258d17bd990b6246e5b9"
     tags:
       - contract
@@ -256,11 +251,6 @@ blockchain:
     tags:
       - contract
     name: EACAggregatorProxy
-    networks:
-      - optimism
-  - address: "0x8ce8c13d816fe6daf12d6fd9e4952e1fc88850af"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0x8788f0dbda7678244ac7ff09d963d7696d56a8a0"
@@ -435,11 +425,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0xa969beb73d918f6100163cd0fba3c586c269bee1"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x47f260694802fe5918d9ffa3544b6a54deb7157e"
     tags:
       - contract
@@ -533,11 +518,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0x25e1c58040f27ecf20bbd4ca83a09290326896b3"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x34e0e85ceec6be6146c4f0115769a29a9539222e"
     tags:
       - contract
@@ -607,12 +587,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0xc326371d4d866c6ff522e69298e36fe75797d358"
-    tags:
-      - contract
-    name: EACAggregatorProxy
-    networks:
-      - optimism
   - address: "0x26fce884555fae5f0e4701cc976fe8d8bb111a38"
     tags:
       - contract
@@ -651,12 +625,6 @@ blockchain:
     tags:
       - contract
     name: EACAggregatorProxy
-    networks:
-      - optimism
-  - address: "0x350a791bfc2c21f9ed5d10980dad2e2638ffa7f6"
-    tags:
-      - contract
-    name: LinkTokenOptimism
     networks:
       - optimism
   - address: "0x290dd71254874f0d4356443607cb8234958dee49"
@@ -710,16 +678,6 @@ blockchain:
     networks:
       - optimism
   - address: "0xd87acdf6e63e00191da405e054b095744a008f58"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xad3dfa54004f0f5d296002bb091cac10eb8a4891"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x74d6b50283ac1d651f9afdc33521e4c1e3332b78"
     tags:
       - contract
     networks:
@@ -891,11 +849,6 @@ blockchain:
     name: AccessControlledOffchainAggregator
     networks:
       - optimism
-  - address: "0x971dc14055cbc313a536f9ffd048e07530bd75df"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x7c56d3650f9acd992b3aa635c04a311c54ad264c"
     tags:
       - contract
@@ -1008,11 +961,6 @@ blockchain:
     tags:
       - contract
     name: EACAggregatorProxy
-    networks:
-      - optimism
-  - address: "0x5fee5e73ddc6c0176acf542c225591c8d3e1ebc1"
-    tags:
-      - contract
     networks:
       - optimism
   - address: "0x524299ab0987a7c4b3c8022a35669ddcdc715a10"
@@ -1305,11 +1253,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0x588e1f339910c21c7e4864048e37017aaff4cbc6"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x615209a932768861908161cccefccac9b582ace8"
     tags:
       - contract
@@ -1384,12 +1327,6 @@ blockchain:
     tags:
       - contract
     name: EACAggregatorProxy
-    networks:
-      - optimism
-  - address: "0x9e3d8dcd4c4c67eaa752457a51efbf98cb5439c6"
-    tags:
-      - eoa
-      - creator
     networks:
       - optimism
   - address: "0x9f6798ec61a30e27f94db7e6af678d179662b27c"
@@ -1837,3 +1774,43 @@ blockchain:
     name: EACAggregatorProxy
     networks:
       - optimism
+  - address: "0xc40f7c8763e35fb64ab968dc812c2d24c6f8404c"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x3224db1d2f7aba70469deee357472d2550fe7579"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x137b137e65f64ecc50a1069409c2c7a7a745b86f"
+    name: EVM2EVMOnRamp
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xb188bd6cc347299eebb3ae93f57d90f580536b3a"
+    name: EVM2EVMOnRamp
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x704df5613166f552b80ed5a27f3559daa30eb8c8"
+    name: EVM2EVMOffRamp
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x43a2df743aac63eeb7da430ac0bbff0579311b84"
+    name: EVM2EVMOffRamp
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xb6b7a8b59a3a0c7f73bc3f6e8996a26736afaac0"
+    name: CommitStore
+    networks:
+      - optimism
+    tags:
+      - contract

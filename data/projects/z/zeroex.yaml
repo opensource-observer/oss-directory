@@ -17,11 +17,6 @@ blockchain:
       - creator
     networks:
       - optimism
-  - address: "0xf8ebddd333b3ab285906fd5eb603b17ecd18266f"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x60908c4037cbb8f3aa040d9fb668ab36280eb871"
     tags:
       - eoa
@@ -164,12 +159,6 @@ blockchain:
       - contract
     networks:
       - optimism
-  - address: "0xedcd79f34db8b78cd7a55e04dbf991ecd1a5c0f4"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
   - address: "0xdef1abe32c034e558cdd535791643c58a13acc10"
     tags:
       - contract
@@ -181,3 +170,15 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x7a68685e4d5d67322a26db639c62ac1460823905"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0xdef1c0ded9bec7f1a1670819833240f027b25eff"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator

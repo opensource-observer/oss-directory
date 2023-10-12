@@ -164,12 +164,6 @@ blockchain:
     name: WeeklyGrant
     networks:
       - optimism
-  - address: "0xdc6ff44d5d932cbd77b52e5612ba0529dc6226f1"
-    tags:
-      - contract
-    name: OptimismMintableERC20
-    networks:
-      - optimism
   - address: "0xc26146969607b37e578a590db12b3aa885710f56"
     tags:
       - contract
@@ -304,3 +298,93 @@ blockchain:
     name: LaunchGrant
     networks:
       - optimism
+  - address: "0xa2ffe4efe61f485a98983a09298ba9515c289e8b"
+    name: WLDTransfer
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x7bceac329e8b2d8ddab82bfb2b7c01b44001d6ad"
+    name: WLDTransfer
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xd0999b463bcff90d5846ad53e637de41cb5b3502"
+    name: WLDTransfer
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xa387e1c3f9fade05a3b5df4049681b3bb668bf55"
+    name: GrantReservations
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x31b676942d67297fa37fe4fa222b363b0f0fdc7e"
+    name: RecurringGrantDrop
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x163b09b4fe21177c455d850bd815b6d583732432"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x90301272e4e3be401304799796b15543f13dc23f"
+    name: WLDTransfer
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x5afacbd143de0d5827d60384b53e2091ea0fb999"
+    name: WLDTransfer
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xd8aed536bb0d59386addebc0481e01d4e09ca50f"
+    name: WLDTransfer
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x6f736e40e8c2f51919ee668c7a2c07bb7a007507"
+    name: LaunchGrant
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x63b26031c4e0641f10578d4d3e3240c4c6fb4247"
+    name: WLDTransfer
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x2a968958e6136fa0fc2ed068af8bef464c7b66ea"
+    name: Pairing
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xb5817e39a5bed8b44c0be4314a3c821c18bd8bab"
+    name: WLDTransfer
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x9d7fca3cc4a8b0a1dcc6191eb46eb7cb29f1344c"
+    name: WLDTransfer
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xb3e7771a6e2d7dd8c0666042b7a07c39b938eb7d"
+    name: OpWorldID
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory

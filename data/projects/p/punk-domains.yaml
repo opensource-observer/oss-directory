@@ -150,3 +150,15 @@ blockchain:
       - eoa
     networks:
       - optimism
+  - address: "0x8d029071a3fdf1ae8a44a2d28cc6263d34075a4b"
+    name: RevenueDistributor
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x629e91a599d5f2f54326d5ba0f51c182a3025e99"
+    name: RevenueDistributorFactory
+    networks:
+      - optimism
+    tags:
+      - contract

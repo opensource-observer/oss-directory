@@ -105,12 +105,6 @@ blockchain:
     name: Vyper_contract
     networks:
       - optimism
-  - address: "0x0994206dfe8de6ec6920ff4d779b0d950605fb53"
-    tags:
-      - contract
-    name: L2StandardERC20
-    networks:
-      - optimism
   - address: "0x8474ddbe98f5aa3179b3b3f5942d724afcdec9f6"
     tags:
       - contract
@@ -310,11 +304,6 @@ blockchain:
     name: Vyper_contract
     networks:
       - optimism
-  - address: "0x3e23ca01be87c8c039e140fc16b2d5664c25f57f"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x0100fbf414071977b19fc38e6fc7c32fe444f5c9"
     tags:
       - contract
@@ -399,12 +388,6 @@ blockchain:
     name: Vyper_contract
     networks:
       - optimism
-  - address: "0xc52d7f23a2e460248db6ee192cb23dd12bddcbf6"
-    tags:
-      - contract
-    name: OptimismMintableERC20
-    networks:
-      - optimism
   - address: "0x070a5c8a99002f50c18b52b90e938bc477611b16"
     tags:
       - contract
@@ -415,3 +398,9 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0xbabe61887f1de2713c6f97e567623453d3c79f67"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator

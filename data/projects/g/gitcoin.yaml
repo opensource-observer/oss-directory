@@ -268,3 +268,129 @@ blockchain:
     networks:
       - mainnet
       - optimism
+  - address: "0x4b70c4308ea49d17fd946ddacd6884e8e1e18b56"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0x79427367e9be16353336d230de3031d489b1b3c3"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0xaeddc8b2aa5e331b53c22f1da8069c18d02ef6ac"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: "0xc94abf0292ac04aac18c251d9c8169a8dd2bbbdc"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xbce556cf365e631ff50449211a6f2cb8936f40d1"
+    name: ProjectRegistry
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xe1f4257396f6ece6d690677526ec52862c4842fc"
+    name: GitcoinVerifier
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x8e1bd5da87c14dd8e08f7ecc2abf9d1d558ea174"
+    name: TransparentUpgradeableProxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x62a850d7805f3ae382c6eef7eeb89a31f68ce2d5"
+    name: ProxyAdmin
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xbc778313e52b1184a15d163b5d3a72aef8d510a2"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xcaa9e817f02486ce076560b77a86235ef91c5d5d"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x9a44daa3823b21df8d905abd9c06b75131f43f38"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xec77fcce4f0396bab43bc66a513157ee59ee07c7"
+    name: ProxyAdmin
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x843829986e895facd330486a61ebee9e1f1adb1a"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x9086d7f2599a5be83ade8aa90fb447968f66d832"
+    name: MultiRoundCheckout
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xddccd602e068c763369a61ea658476b3a4a97c82"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x15fa08599eb017f89c1712d0fe76138899fdb9db"
+    name: TransparentUpgradeableProxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xab3d19eb0f318ed0c4fa4bf45c16040d00d34c82"
+    name: GitcoinResolver
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xa8ed4d2c3f6f98a55cdded97c5ae9b932b0633a4"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xa8f02169d8fe0d48179c9d014abca1ab4bce0cb8"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x5bc95c6e11520d25be8c7bdf7aac3e2eeabd8564"
+    name: ERC1967Proxy
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xe72a7111f0a99c2fb777bbbccd40032fb021c207"
+    name: GitcoinAttester
+    networks:
+      - optimism
+    tags:
+      - contract
