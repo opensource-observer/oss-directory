@@ -1,8 +1,8 @@
 # Project Summary
 
-Total Projects: 779
+Total Projects: 782
 
-Total GitHub Orgs/Owners: 863
+Total GitHub Orgs/Owners: 866
 
 Total Blockchain Addresses: 16165
 
@@ -271,6 +271,7 @@ Total Blockchain Addresses: 16165
 | [Fairmint](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/f/fairmint.yaml)                                                                                           | 1            | 1                    |
 | [fatcat.money](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/f/fatcat-money.yaml)                                                                                   | 1            | 1                    |
 | [FiatConnect](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/f/fiat-connect.yaml)                                                                                    | 1            | 1                    |
+| [Filecoin](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/f/filecoin-project.yaml)                                                                                   | 1            | 0                    |
 | [Fileverse](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/f/fileverse.yaml)                                                                                         | 1            | 1                    |
 | [Filosofía Código](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/f/filosofiacodigo.yaml)                                                                            | 1            | 1                    |
 | [Flashstake](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/f/flashstake.yaml)                                                                                       | 1            | 14                   |
@@ -369,6 +370,7 @@ Total Blockchain Addresses: 16165
 | [INTMAX](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/internetmaximalism.yaml)                                                                                   | 1            | 1                    |
 | [Inverse Finance](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/inverse-finance.yaml)                                                                             | 1            | 10                   |
 | [Inverter Network](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/inverter-network.yaml)                                                                           | 1            | 2                    |
+| [IPFS](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/ipfs.yaml)                                                                                                   | 1            | 0                    |
 | [Ipsilon](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/ipsilon.yaml)                                                                                             | 1            | 1                    |
 | [Iron Bank](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/iron-bank.yaml)                                                                                         | 1            | 58                   |
 | [Iron Wallet](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/iron-wallet.yaml)                                                                                     | 1            | 1                    |
@@ -410,6 +412,7 @@ Total Blockchain Addresses: 16165
 | [Lenster](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/l/lensterxyz.yaml)                                                                                          | 1            | 1                    |
 | [Lenstube](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/l/lenstube-xyz.yaml)                                                                                       | 1            | 1                    |
 | [LexDAO](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/l/lexdao.yaml)                                                                                               | 1            | 2                    |
+| [libp2p](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/l/libp2p.yaml)                                                                                               | 1            | 0                    |
 | [Libree](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/l/libree.yaml)                                                                                               | 1            | 1                    |
 | [Lido](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/l/lido.yaml)                                                                                                   | 1            | 5                    |
 | [LI.FI](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/l/lifinance.yaml)                                                                                             | 1            | 6                    |
