@@ -1,0 +1,23 @@
+version: 3
+slug: pheasant-network
+name: Pheasant Network
+github:
+  - url: https://github.com/pheasant-network
+blockchain:
+  - address: "0x0CdeF21714e12A518B818C9a70c7AA39D4A69974"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+  - address: "0xfc976D96ccc57bC9D04AeA92A4a66Abd71926298"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0x558F7547A472a6897126e20440453e57AC320794"
+    tags:
+      - contract
+    networks:
+      - optimism
