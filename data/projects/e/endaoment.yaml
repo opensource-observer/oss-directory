@@ -1,0 +1,52 @@
+version: 3
+slug: endaoment
+name: Endaoment
+github:
+  - url: https://github.com/endaoment
+blockchain:
+  - address: "0xa41406f86cc65063C25021422e2EE8E93E680b4C"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+      - mainnet
+  - address: "0x51A2813AAe4E763be93A18D45DD06C5a1803DE86"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+      - mainnet
+  - address: "0x10fD9348136dCea154F752fe0B6dB45Fc298A589"
+    tags:
+      - contract
+      - factory
+    networks:
+      - optimism
+    name: OrgFundFactory
+  - address: "0x0B6C48C85D7e5f00Be42787aE6Cd3e1ae71be911"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: SingleTokenPortfolio
+  - address: "0x2987f4271DB74625b2716d444327B9a4f47fF2B3"
+    tags:
+      - creator
+      - eoa
+    networks:
+      - optimism
+      - mainnet
+  - address: "0x5D216BB28852f98CeAA29180670397ab01774EA6"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Registry
+  - address: "0xe095827db80Cbb716d79823A3C4964f18D48a6Bc"
+    tags:
+      - creator
+      - eoa
+    networks:
+      - optimism
