@@ -1,0 +1,13 @@
+version: 3
+slug: hardhat-nomicfoundation
+name: Hardhat
+github:
+  - url: https://github.com/nomicfoundation/hardhat
+  - url: https://github.com/NomicFoundation/hardhat-vscode
+blockchain:
+  - address: "0xBFFF244f4f76F5F983e320f1D4708A7c91E7d3d2"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
