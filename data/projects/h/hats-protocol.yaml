@@ -1,0 +1,24 @@
+version: 3
+slug: hats-protocol
+name: Hats Protocol
+github:
+  - url: https://github.com/hats-protocol
+blockchain:
+  - address: "0x58C8854a8E51BdCE9F00726B966905FE2719B4D9"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
+  - address: "0x2A069e21395DC7f89F780F8cf5383a0Ff598B672"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0x3bc1A0Ad72417f2d411118085256fC53CBdDd137"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Hats
