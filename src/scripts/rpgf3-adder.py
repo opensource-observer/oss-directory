@@ -22,7 +22,11 @@ class QuotedString(str):
 
 
 def quoted_string_representer(dumper, data):
-    return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')
+    return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')    
+
+
+def get_path(slug):
+    return os.path.join("data/projects", slug[0], slug + ".yaml")
 
 
 def get_artifact():
@@ -30,7 +34,7 @@ def get_artifact():
     entry = input()
     if not entry or ',' not in entry:
         return None
-    artifact, artifact_type = entry.split(",")
+    artifact, artifact_type = entry.split(",")[0:2]
     if 'github' in artifact_type:
         artifact = "https://github.com/" + artifact
         return ('github', {'url': artifact})
@@ -51,9 +55,70 @@ def get_project_name():
 
 
 def get_slug():
-    print("Enter a slug:")
-    slug = input()
-    return slug
+    while True:
+        print("Enter a slug or 'q' to quit:")
+        slug = input().strip()
+        
+        if slug == "":
+            print("Slug cannot be blank. Please enter again.")
+            continue
+        elif slug == "q":
+            return None
+        else:
+            return slug
+
+
+def replace_single_quotes_with_double_quotes_in_file(file_path):
+    try:
+        with open(file_path, 'r') as file:
+            file_content = file.read()
+
+        modified_content = file_content.replace("'", '"')
+
+        with open(file_path, 'w') as file:
+            file.write(modified_content)
+
+        print(f'Successfully replaced single quotes with double quotes in {file_path}')
+    except Exception as e:
+        print(f'Error: {e}')
+
+
+def dump_yaml_data(yaml_data, fix_quotes=True):
+
+    slug = yaml_data['slug']
+    path = get_path(slug)
+    formatters = dict(default_flow_style=False, sort_keys=False, indent=2)
+    with open(path, 'w') as outfile:
+        yaml.dump(yaml_data, outfile, Dumper=MyDumper, **formatters)
+
+    if fix_quotes:
+        replace_single_quotes_with_double_quotes_in_file(path)
+
+
+def update_yaml_file(slug):
+    path = get_path(slug)
+    if not os.path.exists(path):
+        print(f"Path {path} does not exist")
+        return False
+    
+    with open(path, 'r') as stream:
+        try:
+            yaml_data = yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(exc)
+            return False
+    
+    while True:
+        artifact = get_artifact()
+        if artifact is None:
+            break
+        artifact_type = artifact[0]
+        if artifact_type not in yaml_data:
+            yaml_data[artifact_type] = []
+        yaml_data[artifact_type].append(artifact[1])    
+
+    dump_yaml_data(yaml_data)
+    return True
 
 
 def generate_yaml(version=3):
@@ -83,23 +148,28 @@ def generate_yaml(version=3):
 
     yaml_data = {k: v for k, v in yaml_data.items() if v}
 
-    formatters = dict(default_flow_style=False, sort_keys=False, indent=2)
-    with open(path, 'w') as outfile:
-        yaml.dump(yaml_data, outfile, Dumper=MyDumper, **formatters)
+    dump_yaml_data(yaml_data)
 
     return True
 
 
 def main():
-    
     while True:
-        result = generate_yaml()
-        if not result:
+        slug = get_slug()
+        if slug is None:
             break
-        print("Generate another YAML file? (y/n)")
-        response = input()
-        if response.lower() != "y":
-            break
+
+        path = get_path(slug)
+        if os.path.exists(path):
+            success = update_yaml_file(slug)
+            if success:
+                print(f"Project with slug '{slug}' updated successfully.")
+            else:
+                print(f"Project with slug '{slug}' not found.")
+        else:
+            result = generate_yaml()
+            if not result:
+                break
 
 
 if __name__ == "__main__":

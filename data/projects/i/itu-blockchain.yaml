@@ -11,3 +11,13 @@ blockchain:
     networks:
       - optimism
       - mainnet
+  - address: "0x4b1a0e704f5bec55600801d93b1bed88d12caa7f"
+    tags:
+      - eoa
+    networks:
+      - optimism
+  - address: "0xbcb0e9d11dd172035645680b3d6350efb8b8f33f"
+    tags:
+      - contract
+    networks:
+      - optimism
