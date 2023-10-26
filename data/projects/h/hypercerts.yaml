@@ -26,3 +26,9 @@ blockchain:
     name: ERC1967Proxy
     networks:
       - optimism
+  - address: "0x560ada72a80b4707e493ca8c3b7b7528930e7be5"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
