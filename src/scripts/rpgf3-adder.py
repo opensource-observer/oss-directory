@@ -1,3 +1,4 @@
+import csv
 import os
 import sys
 from urllib.parse import urlparse
@@ -95,7 +96,7 @@ def dump_yaml_data(yaml_data, fix_quotes=True):
         replace_single_quotes_with_double_quotes_in_file(path)
 
 
-def update_yaml_file(slug):
+def update_yaml_file(slug, artifact=None):
     path = get_path(slug)
     if not os.path.exists(path):
         print(f"Path {path} does not exist")
@@ -108,14 +109,21 @@ def update_yaml_file(slug):
             print(exc)
             return False
     
-    while True:
-        artifact = get_artifact()
-        if artifact is None:
-            break
+    if artifact is not None:
         artifact_type = artifact[0]
         if artifact_type not in yaml_data:
             yaml_data[artifact_type] = []
-        yaml_data[artifact_type].append(artifact[1])    
+        yaml_data[artifact_type].append(artifact[1])
+    
+    else:
+        while True:
+            artifact = get_artifact()
+            if artifact is None:
+                break
+            artifact_type = artifact[0]
+            if artifact_type not in yaml_data:
+                yaml_data[artifact_type] = []
+            yaml_data[artifact_type].append(artifact[1])    
 
     dump_yaml_data(yaml_data)
     return True
@@ -153,7 +161,29 @@ def generate_yaml(version=3):
     return True
 
 
-def main():
+def batch_process_from_csv(csv_path):
+    with open(csv_path, 'r') as stream:
+        csv_data = csv.DictReader(stream)
+        for row in csv_data:
+            if row['slug'] == '':
+                continue
+            artifact_type = row['type']
+            artifact = row['artifact']            
+            if 'wallet' in artifact_type:
+                print(f"Would you like update {row['slug']} with {artifact} of type {artifact_type}? (y/n/q)")
+                entry = input()
+                if entry == 'q':
+                    return
+                if entry != 'y':
+                    continue
+                update_yaml_file(row['slug'], ('blockchain', {
+                    'address': artifact,
+                    'tags': artifact_type.split(" "),
+                    'networks': ['optimism']
+                }))        
+
+
+def batch_add_or_update():
     while True:
         slug = get_slug()
         if slug is None:
@@ -170,6 +200,12 @@ def main():
             result = generate_yaml()
             if not result:
                 break
+
+
+def main():
+    local_path = "/Users/cerv1/Dropbox/Kariba/Github/oso/indexer/utilities/rpgf3-attestations/data/ossd_reviewer.csv"
+    batch_process_from_csv(local_path)
+    batch_add_or_update()
 
 
 if __name__ == "__main__":
