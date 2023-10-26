@@ -3,6 +3,7 @@ slug: buidlguidl
 name: Buidl Guidl
 github:
   - url: https://github.com/BuidlGuidl
+  - url: https://github.com/scaffold-eth
 blockchain:
   - address: "0x0eb2AB241210900Aeac2fbA054dD605355fe2490"
     tags:
@@ -16,4 +17,16 @@ blockchain:
       - eoa
     networks:
       - mainnet
+      - optimism
+  - address: "0x97843608a00e2bbc75ab0C1911387E002565DEDE"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - mainnet
+  - address: "0x6746e304b9e37cb4b878ca9878f8b6fd7f7fbf85"
+    tags:
+      - eoa
+      - wallet
+    networks:
       - optimism
