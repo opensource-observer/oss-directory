@@ -12,3 +12,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
+  - address: "0xaddbc936ab952b6dc5c5fe090c55269a1174d173"
+    tags:
+      - eoa
+      - wallet
+    networks:
+      - optimism
+npm:
+  - url: https://www.npmjs.com/package/hardhat-deploy

@@ -1,0 +1,21 @@
+version: 3
+slug: defi-wonderland
+name: Wonderland
+github:
+  - url: https://github.com/defi-wonderland/check-crypto-action
+  - url: https://github.com/defi-wonderland/crypto-husky-checks
+  - url: https://github.com/defi-wonderland/foundry-mock-generator
+  - url: https://github.com/defi-wonderland/gnosis-safe-proposor
+  - url: https://github.com/defi-wonderland/sidechain-oracles
+  - url: https://github.com/defi-wonderland/solhint-plugin
+  - url: https://github.com/defi-wonderland/solidity-foundry-boilerplate
+  - url: https://github.com/defi-wonderland/solidity-hardhat-boilerplate
+  - url: https://github.com/defi-wonderland/tenderly-monitor-utils
+  - url: https://github.com/defi-wonderland/web3-react-boilerplate
+blockchain:
+  - address: "0xf58e95124d655731664c509c07e733348d7081c0"
+    tags:
+      - eoa
+      - wallet
+    networks:
+      - optimism

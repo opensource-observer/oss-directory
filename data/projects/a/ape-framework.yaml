@@ -1,8 +1,10 @@
 version: 3
 slug: ape-framework
-name: Ape Framework
+name: ApeWorX
 github:
-  - url: https://github.com/ApeWorX/ape
+  - url: https://github.com/apeworx/ape
+  - url: https://github.com/apeworx/ape-base
+  - url: https://github.com/apeworx/ape-optimism
 blockchain:
   - address: "0x187089b65520D2208aB93FB471C4970c29eAf929"
     tags:
@@ -10,3 +12,14 @@ blockchain:
       - safe
     networks:
       - mainnet
+  - address: "0x3543faeeddb7babcbbb216b3627f9c5e0c39ce41"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x070143e489aa791c10b3b39c7cadf45c36ba9e60"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
