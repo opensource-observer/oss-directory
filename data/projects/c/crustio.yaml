@@ -1,0 +1,31 @@
+version: 3
+slug: crustio
+name: Crust Network
+github:
+  - url: https://github.com/crustio
+blockchain:
+  - address: "0x95529fde0524c8763286288e3d17294bb9dc3f66"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0xf8e6f7bb144d3475fcf39bd879510fa93c775ee2"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: ""
+  - address: "0x9ae6c9d00fde0e0f774693ca6099d06dfe2001c6"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: StorageOrderCompatible
+  - address: "0xe1e8ff8e51da7066cb1009a4c1de68ae2d095655"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: PriceOracle

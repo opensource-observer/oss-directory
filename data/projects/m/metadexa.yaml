@@ -1,0 +1,31 @@
+version: 3
+slug: metadexa
+name: MetaDexa
+github:
+  - url: https://github.com/metadexa
+blockchain:
+  - address: "0x49ca434088a569019f2e31d5b15a55d59a3e7d66"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0x6fe9f5616ac30e0a66b5bc68d05f081471835bf7"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: MetaSwapRouter
+  - address: "0x08aae8acb56c39147eab799718437c0a31f3c1f3"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: SwapAggregatorAdapter
+  - address: "0xb08bcc1e3f8c8588b7299ca85cb103605b2a4ea4"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: GaslessSwapAdapter

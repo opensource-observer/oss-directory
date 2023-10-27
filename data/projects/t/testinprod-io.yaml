@@ -1,0 +1,13 @@
+version: 3
+slug: testinprod-io
+name: Test in Prod
+github:
+  - url: https://github.com/testinprod-io
+blockchain:
+  - address: "0x955f815dc8fe61cedb0da413c8ac466aac209a41"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address

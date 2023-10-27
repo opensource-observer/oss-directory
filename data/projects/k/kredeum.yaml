@@ -11,3 +11,22 @@ blockchain:
     networks:
       - mainnet
       - optimism
+  - address: "0x57bdf6e59c2652d349f7022beb8d1b7458ca09eb"
+    tags:
+      - contract
+      - factory
+    networks:
+      - optimism
+    name: OpenNFTsFactoryV3
+  - address: "0xd53e7aa446e4615dec602c1d0d024425256f631a"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: OpenNFTsResolver
+  - address: "0x5e03acd53d5d3a834278014d91f0afd36f8147ce"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: OpenNFTsV4

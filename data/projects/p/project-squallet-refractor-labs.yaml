@@ -1,0 +1,32 @@
+version: 3
+slug: project-squallet-refractor-labs
+name: Project Squallet from Lore
+github:
+  - url: https://github.com/refractor-labs/project-squallet
+blockchain:
+  - address: "0x266b650f92753fd7be17b7487c8cc3bd05efab8a"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0xd12614fe7ae8fd0dfe24d6df3bd0d3275e7da8ed"
+    tags:
+      - contract
+      - factory
+    networks:
+      - optimism
+    name: MNFTFactoryV3
+  - address: "0xd1ef53d7187f42ef74f57efb4817cfdf068bba55"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: ERC1967Proxy
+  - address: "0x51d722ece875b32369f16aa158b1eb8aff160c54"
+    tags:
+      - safe
+    networks:
+      - optimism
+    name: SafeCrowdfundFactoryV3

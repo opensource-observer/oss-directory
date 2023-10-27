@@ -1,6 +1,6 @@
 version: 3
 slug: filosofiacodigo
-name: "Filosof\xEDa C\xF3digo"
+name: FilosofiaCodigo
 github:
   - url: https://github.com/FilosofiaCodigo
 blockchain:
@@ -11,3 +11,51 @@ blockchain:
     networks:
       - optimism
       - mainnet
+  - address: "0x10445fff1600ad3e38276ee3ec7cf7625d852687"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x5e63799ea51ff3ed5d13155c43f05ddeb5e6f1c9"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x6ae9185d83d0c0ed504ce651f3728b81307860bb"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x74839ac5ecd7c5dcdd28d7bb07cd50754dda8a65"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xa5e742b4accd558f2d17555e4387099f6d4261cc"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xb34913ff43d1ac8f522868af5052f66423746dfb"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xcbd7052a962fad922aff01d27b68a4dca1eda413"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xfe568475cfc25563b5a5e9769f56b61df85e7dec"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0x440897cb529c6dec3c0a53d630e72f667624694d"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: RandomnessCeremony

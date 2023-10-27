@@ -1,0 +1,15 @@
+version: 3
+slug: playmint
+name: Playmint
+github:
+  - url: https://github.com/playmint/ds
+  - url: https://github.com/playmint/cog
+  - url: https://github.com/playmint/exp-snark-combat
+blockchain:
+  - address: "0x484be269f871741805f78e9f1afffd25d72adcea"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address

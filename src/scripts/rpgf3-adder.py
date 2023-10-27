@@ -30,11 +30,12 @@ def get_path(slug):
     return os.path.join("data/projects", slug[0], slug + ".yaml")
 
 
-def get_artifact():
-    print("Enter an artifact followed by a type:")
-    entry = input()
-    if not entry or ',' not in entry:
-        return None
+def get_artifact(entry=None):
+    if entry is None:
+        print("Enter an artifact followed by a type:")
+        entry = input()
+        if not entry or ',' not in entry:
+            return None
     artifact, artifact_type = entry.split(",")[0:2]
     if 'github' in artifact_type:
         artifact = "https://github.com/" + artifact
@@ -42,7 +43,7 @@ def get_artifact():
     if 'npm' in artifact_type:
         artifact = "https://www.npmjs.com/package/" + artifact
         return ('npm', {'url': artifact})
-    if '0x' in artifact:
+    if artifact[:2] == '0x' and len(artifact) == 42:
         return ('blockchain', {
                 'address': artifact,
                 'tags': artifact_type.split(" "),
@@ -129,13 +130,9 @@ def update_yaml_file(slug, artifact=None):
     return True
 
 
-def generate_yaml(version=3):
+def generate_yaml(slug, artifacts=[], version=3):
 
-    slug = get_slug()
     path = os.path.join("data/projects", slug[0], slug + ".yaml")
-    if os.path.exists(path):
-        print("File already exists")
-        return False
 
     project_name = get_project_name()
 
@@ -148,11 +145,15 @@ def generate_yaml(version=3):
         "npm": []
     }
     
-    while True:
-        artifact = get_artifact()
-        if artifact is None:
-            break
-        yaml_data[artifact[0]].append(artifact[1])
+    if not artifacts:
+        while True:
+            artifact = get_artifact()
+            if artifact is None:
+                break
+            yaml_data[artifact[0]].append(artifact[1])
+    else:
+        for artifact in artifacts:
+            yaml_data[artifact[0]].append(artifact[1])
 
     yaml_data = {k: v for k, v in yaml_data.items() if v}
 
@@ -197,15 +198,76 @@ def batch_add_or_update():
             else:
                 print(f"Project with slug '{slug}' not found.")
         else:
-            result = generate_yaml()
+            result = generate_yaml(slug)
             if not result:
                 break
 
 
+def bulk_update(csv_path, workflow_type):
+
+    updates = {}
+    with open(csv_path, 'r') as stream:
+        csv_data = csv.DictReader(stream)
+        for row in csv_data:
+            slug = row['slug']
+            if slug == '':
+                continue
+            if row['workflow'] != workflow_type:
+                continue
+            artifact = row['artifact']
+            artifact_type = row['type']
+            artifact_name = row['artifact_name']
+
+            # TODO: review github and NPM again
+            if artifact_type == 'github':
+                continue
+
+            if slug not in updates:
+                updates[slug] = []
+
+            artifact_tuple = get_artifact(",".join([artifact, artifact_type]))
+            if artifact_tuple is None:
+                continue
+            if '0x' in artifact:
+                artifact_tuple[1]['name'] = artifact_name
+            updates[slug].append(artifact_tuple)
+
+    for slug, artifacts in updates.items():
+
+        path = get_path(slug)
+        print()
+        if os.path.exists(path):
+            print(f"Updating {slug} with {len(artifacts)}:")
+            for a in artifacts:
+                print(a)
+                print("Continue? (y/n/q)")
+                entry = input()
+                if entry == 'q':
+                    return
+                if entry != 'y':
+                    continue
+                update_yaml_file(slug, a)
+        else:
+            continue
+            print(f"Create {slug} with {len(artifacts)}:")
+            for a in artifacts:
+                print(a)
+            print("Continue? (y/n/q)")
+            entry = input()
+            if entry == 'q':
+                return
+            if entry != 'y':
+                continue
+            
+            generate_yaml(slug, artifacts)
+        print()
+
 def main():
-    local_path = "/Users/cerv1/Dropbox/Kariba/Github/oso/indexer/utilities/rpgf3-attestations/data/ossd_reviewer.csv"
-    batch_process_from_csv(local_path)
+    local_path = ""
+    #batch_process_from_csv(local_path)
     batch_add_or_update()
+
+    #bulk_update(local_path, 'new')
 
 
 if __name__ == "__main__":

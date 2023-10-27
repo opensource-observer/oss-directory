@@ -1,0 +1,19 @@
+version: 3
+slug: slugs-protocol-bernatfp
+name: Slugs
+github:
+  - url: https://github.com/bernatfp/slugs-protocol
+blockchain:
+  - address: "0x4db5ed285ae33cfd0d6a6ab9ec775f7350f55e6d"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0x48fbf0b7e6bdaa9d7452feb34507b2bddb148e54"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Slugs

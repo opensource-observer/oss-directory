@@ -1,0 +1,19 @@
+version: 3
+slug: hausdao
+name: Public HAUS
+github:
+  - url: https://github.com/hausdao
+blockchain:
+  - address: "0x1acff11474b9c6d15966da7a08ed23438cde23d4"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0x3e0eade343ddc556a6cf0f858e4f685ba303ce71"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: ERC1967Proxy

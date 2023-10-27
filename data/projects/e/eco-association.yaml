@@ -19,3 +19,9 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0xe7bc9b3a936f122f08aac3b1fac3c3ec29a78874"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy

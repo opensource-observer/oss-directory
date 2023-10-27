@@ -1,0 +1,20 @@
+version: 3
+slug: mosaicfun
+name: Mosaic
+github:
+  - url: https://github.com/mosaicfun
+  - url: https://github.com/adebolaorogun/data-models
+blockchain:
+  - address: "0x095c33946136c08bc19790bcc7143c87c03c43ce"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0x0fb6c784f1ef51de522b7e3f620e881d86224995"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: DropERC721
