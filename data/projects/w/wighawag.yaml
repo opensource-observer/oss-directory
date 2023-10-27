@@ -4,6 +4,8 @@ name: Jolly Roger and Hardhat-deploy
 github:
   - url: https://github.com/jolly-roger-eth
   - url: https://github.com/wighawag/hardhat-deploy
+npm:
+  - url: https://www.npmjs.com/package/hardhat-deploy
 blockchain:
   - address: "0xF0D7a8198D75e10517f035CF11b928e9E2aB20f4"
     tags:
@@ -18,5 +20,3 @@ blockchain:
       - wallet
     networks:
       - optimism
-npm:
-  - url: https://www.npmjs.com/package/hardhat-deploy
