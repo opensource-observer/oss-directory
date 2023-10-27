@@ -3,3 +3,17 @@ slug: zonicapp
 name: ZonicApp
 github:
   - url: https://github.com/zonicapp
+blockchain:
+  - address: "0x5d7e6ece4b8de9188d3b17d91e8652a7b9020ae0"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0x11c9e50dfde606a864a25726d174faf947626f3d"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy

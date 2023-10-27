@@ -3,3 +3,17 @@ slug: daimo-eth
 name: Daimo
 github:
   - url: https://github.com/daimo-eth
+blockchain:
+  - address: "0xeeee8b1371f1664b7c2a8c111d6062b6576fa6f0"
+    tags:
+      - wallet
+      - safe
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0xc2b78104907f722dabac4c69f826a522b2754de4"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: P256Verifier

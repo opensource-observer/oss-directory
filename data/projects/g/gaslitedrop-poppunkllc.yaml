@@ -3,3 +3,17 @@ slug: gaslitedrop-poppunkllc
 name: Gaslite Drop by Gaslite
 github:
   - url: https://github.com/poppunkllc/gaslitedrop
+blockchain:
+  - address: "0x3d4aafbe86059d17c6263332c560f18c4f1fec34"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0x09350f89e2d7b6e96ba730783c2d76137b045fef"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: GasliteDrop

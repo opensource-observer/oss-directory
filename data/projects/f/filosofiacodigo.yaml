@@ -46,3 +46,16 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0xfe568475cfc25563b5a5e9769f56b61df85e7dec"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0x440897cb529c6dec3c0a53d630e72f667624694d"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: RandomnessCeremony

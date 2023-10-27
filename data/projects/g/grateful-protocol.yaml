@@ -3,3 +3,17 @@ slug: grateful-protocol
 name: Grateful
 github:
   - url: https://github.com/grateful-protocol
+blockchain:
+  - address: "0xff284badb6f6030c726782767fe45770570ca381"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0xa503a55eb196aaae0baa6ae68a4710a4e990df09"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: Proxy

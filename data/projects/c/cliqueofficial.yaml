@@ -23,3 +23,15 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0x33413c433dd28c5e0a90cba7b0a6f98d3ab971fb"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy
+  - address: "0xd34a8775d06d41b36054d59ef2d09a79b7aa1fa2"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: CliqueOPIssuer

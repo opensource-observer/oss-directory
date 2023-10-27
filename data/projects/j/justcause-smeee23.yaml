@@ -4,3 +4,17 @@ name: JustCause
 github:
   - url: https://github.com/smeee23/just_cause
   - url: https://github.com/smeee23/justcause_contracts
+blockchain:
+  - address: "0x1623b06f4cf1dd0f88b2ccdaeb0811c064c9e982"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0x9ff20439a4f5e315a48e5714d0f989f18de77684"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: PoolTracker

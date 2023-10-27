@@ -43,7 +43,7 @@ def get_artifact(entry=None):
     if 'npm' in artifact_type:
         artifact = "https://www.npmjs.com/package/" + artifact
         return ('npm', {'url': artifact})
-    if '0x' in artifact:
+    if artifact[:2] == '0x' and len(artifact) == 42:
         return ('blockchain', {
                 'address': artifact,
                 'tags': artifact_type.split(" "),
@@ -218,7 +218,8 @@ def bulk_update(csv_path, workflow_type):
             artifact_type = row['type']
             artifact_name = row['artifact_name']
 
-            if artifact_type != 'github':
+            # TODO: review github and NPM again
+            if artifact_type == 'github':
                 continue
 
             if slug not in updates:
@@ -236,7 +237,6 @@ def bulk_update(csv_path, workflow_type):
         path = get_path(slug)
         print()
         if os.path.exists(path):
-            continue
             print(f"Updating {slug} with {len(artifacts)}:")
             for a in artifacts:
                 print(a)
@@ -248,6 +248,7 @@ def bulk_update(csv_path, workflow_type):
                     continue
                 update_yaml_file(slug, a)
         else:
+            continue
             print(f"Create {slug} with {len(artifacts)}:")
             for a in artifacts:
                 print(a)
@@ -262,9 +263,10 @@ def bulk_update(csv_path, workflow_type):
         print()
 
 def main():
-    #local_path = ""
+    local_path = ""
     #batch_process_from_csv(local_path)
     #batch_add_or_update()
+
     bulk_update(local_path, 'new')
 
 

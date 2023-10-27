@@ -135,3 +135,16 @@ blockchain:
     tags:
       - contract
       - factory
+  - address: "0xd131f1bcdd547e067af447dd3c36c99d6be9fdeb"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0x90baa8714afc2089ed4c9afb21707fea6fc82157"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: TransparentUpgradeableProxy

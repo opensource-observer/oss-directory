@@ -3,3 +3,36 @@ slug: llamaxyz
 name: Llama
 github:
   - url: https://github.com/llamaxyz/llama
+blockchain:
+  - address: "0xf147b323b00be213fbb4f5cc148fd611a02d8845"
+    tags:
+      - wallet
+      - contract
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0xff5d4e226d9a3496eece31083a8f493edd79abeb"
+    tags:
+      - contract
+      - factory
+    networks:
+      - optimism
+    name: LlamaFactory
+  - address: "0x676ca05fd577fca8fddb4605d4992bc7efbcff14"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: LlamaCore
+  - address: "0x19640a82e696f67f0d25307e19c4307321761d4d"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: LlamaPolicy
+  - address: "0x915af6753f03d2687fa923b2987625e21e2991ae"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: LlamaAccount

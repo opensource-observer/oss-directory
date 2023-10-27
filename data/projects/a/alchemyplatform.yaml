@@ -6,3 +6,18 @@ github:
   - url: https://github.com/alchemyplatform/rundler
   - url: https://github.com/alchemyplatform/light-account
   - url: https://github.com/alchemyplatform/erc-6900-ref-implementation
+blockchain:
+  - address: "0xa43c51aacae41aec73e1eff2d13d69ed13de8dab"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0x15ba39375ee2ab563e8873c8390be6f2e2f50232"
+    tags:
+      - contract
+      - factory
+    networks:
+      - optimism
+    name: SimpleAccountFactory
