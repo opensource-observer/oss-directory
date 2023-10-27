@@ -3,6 +3,8 @@ slug: voteagora
 name: Agora
 github:
   - url: https://github.com/voteagora/agora
+  - url: https://github.com/voteagora/liquid-delegator
+  - url: https://github.com/voteagora/optimism-gov
 blockchain:
   - address: "0x3a153B0608a87a4BdD4F7Afa90670110d4C"
     tags:
@@ -20,5 +22,10 @@ blockchain:
     tags:
       - safe
       - wallet
+    networks:
+      - optimism
+  - address: "0xcdf27f107725988f2261ce2256bdfcde8b382b10"
+    tags:
+      - contract
     networks:
       - optimism

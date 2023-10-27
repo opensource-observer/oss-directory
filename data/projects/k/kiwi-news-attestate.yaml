@@ -3,6 +3,8 @@ slug: kiwi-news-attestate
 name: Kiwi News
 github:
   - url: https://github.com/attestate/kiwistand
+  - url: https://github.com/attestate/awesome-kiwinews
+  - url: https://github.com/attestate/delegator2
 blockchain:
   - address: "0xee324c588ceF1BF1c1360883E4318834af66366d"
     tags:
@@ -16,4 +18,14 @@ blockchain:
       - eoa
     networks:
       - mainnet
+      - optimism
+  - address: "0x08b7ecfac2c5754abafb789c84f8fa37c9f088b0"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xebb15487787cbf8ae2ffe1a6cca5a50e63003786"
+    tags:
+      - eoa
+    networks:
       - optimism

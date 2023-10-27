@@ -3,6 +3,7 @@ slug: pin-save-dpytdao
 name: Pin Save
 github:
   - url: https://github.com/dspytdao/Pinsave
+  - url: https://github.com/dspytdao/pinsave-evm
 blockchain:
   - address: "0x48294a067D1bC5a58BCbAB4b3bE329d078D9E1Af"
     tags:
@@ -17,3 +18,8 @@ blockchain:
       - eoa
     networks:
       - mainnet
+  - address: "0x40f320cd3cd616e59599568c4ea011e2ee49a175"
+    tags:
+      - contract
+    networks:
+      - optimism

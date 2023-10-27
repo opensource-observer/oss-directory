@@ -129,13 +129,9 @@ def update_yaml_file(slug, artifact=None):
     return True
 
 
-def generate_yaml(version=3):
+def generate_yaml(slug, version=3):
 
-    slug = get_slug()
     path = os.path.join("data/projects", slug[0], slug + ".yaml")
-    if os.path.exists(path):
-        print("File already exists")
-        return False
 
     project_name = get_project_name()
 
@@ -197,7 +193,7 @@ def batch_add_or_update():
             else:
                 print(f"Project with slug '{slug}' not found.")
         else:
-            result = generate_yaml()
+            result = generate_yaml(slug)
             if not result:
                 break
 
