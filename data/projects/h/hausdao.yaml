@@ -17,3 +17,9 @@ blockchain:
     networks:
       - optimism
     name: ERC1967Proxy
+  - address: "0x01b8b6384298d4848e3be63d4c9d17830eee488a"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: L2StandardERC20

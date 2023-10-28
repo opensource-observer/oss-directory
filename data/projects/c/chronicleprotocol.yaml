@@ -1,0 +1,23 @@
+version: 3
+slug: chronicleprotocol
+name: Chronicle Labs (formerly Maker Oracle team)
+github:
+  - url: https://github.com/makerdao/dss-teleport
+  - url: https://github.com/chronicleprotocol
+blockchain:
+  - address: "0x18d2CF2296c5b29343755E6B7e37679818913f88"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x2F64D1D5d9504Ac7731BCc90dCe5510Cb0Ca057d"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0xfc9a6551Fd46f15358E266cE08216aaDcbd948Ba"
+    tags:
+      - wallet
+    networks:
+      - optimism

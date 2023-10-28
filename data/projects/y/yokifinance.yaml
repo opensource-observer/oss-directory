@@ -3,3 +3,18 @@ slug: yokifinance
 name: Yoki Finance
 github:
   - url: https://github.com/yokifinance
+blockchain:
+  - address: "0xd9d0aa3fc1616ee96fe38f3ebaf9eac3862a9d4e"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
+    name: RPGF3 Payout Address
+  - address: "0x8a03bf5a5d2aeed434caaa30db467073a551354f"
+    tags:
+      - contract
+      - factory
+    networks:
+      - optimism
+    name: DCAV3Factory
