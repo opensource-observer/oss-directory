@@ -263,11 +263,11 @@ def bulk_update(csv_path, workflow_type):
         print()
 
 def main():
-    local_path = local_path = ""
+    local_path = ""
     #batch_process_from_csv(local_path)
-    #batch_add_or_update()
+    batch_add_or_update()
 
-    bulk_update(local_path, 'new')
+    #bulk_update(local_path, 'new')
 
 
 if __name__ == "__main__":
