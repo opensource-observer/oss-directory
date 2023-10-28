@@ -1,0 +1,13 @@
+version: 3
+slug: ethernaut-openzeppelin
+name: The Ethernaut
+github:
+  - url: https://github.com/OpenZeppelin/ethernaut
+  - url: https://github.com/openzeppelin/ethernaut-leaderboard
+blockchain:
+  - address: "0x1c14b478ada4e2fc5d1e67b918d4ec4756be579f"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism

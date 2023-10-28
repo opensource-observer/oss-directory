@@ -2,7 +2,99 @@ version: 3
 slug: openzeppelin
 name: OpenZeppelin
 github:
-  - url: https://github.com/openzeppelin
+  - url: https://github.com/openzeppelin/accesscontrol-explorer
+  - url: https://github.com/openzeppelin/awesome-openzeppelin
+  - url: https://github.com/openzeppelin/cairo-contracts
+  - url: https://github.com/openzeppelin/chai-bn
+  - url: https://github.com/openzeppelin/compound-assets-listing
+  - url: https://github.com/openzeppelin/compound-governance-proposal-behavior
+  - url: https://github.com/openzeppelin/compound-monitoring
+  - url: https://github.com/openzeppelin/compound-re-enable-dsr-proposal
+  - url: https://github.com/openzeppelin/compound-security-policies
+  - url: https://github.com/openzeppelin/configs
+  - url: https://github.com/openzeppelin/contract-bots-gang
+  - url: https://github.com/openzeppelin/contracts-wizard
+  - url: https://github.com/openzeppelin/crafty
+  - url: https://github.com/openzeppelin/cto.openzeppelin.com
+  - url: https://github.com/openzeppelin/damn-vulnerable-defi
+  - url: https://github.com/openzeppelin/defender-as-code
+  - url: https://github.com/openzeppelin/defender-autotask-examples
+  - url: https://github.com/openzeppelin/defender-autotask-testing
+  - url: https://github.com/openzeppelin/defender-client
+  - url: https://github.com/openzeppelin/defender-docs
+  - url: https://github.com/openzeppelin/defender-example-metatx-relay
+  - url: https://github.com/openzeppelin/defender-sdk
+  - url: https://github.com/openzeppelin/defender-serverless
+  - url: https://github.com/openzeppelin/defender-serverless-workshop
+  - url: https://github.com/openzeppelin/defender-templates
+  - url: https://github.com/openzeppelin/demo-hardhat-deploy-wide-monitoring
+  - url: https://github.com/openzeppelin/discourse-highlightjs-langs
+  - url: https://github.com/openzeppelin/docs-utils
+  - url: https://github.com/openzeppelin/docs.openzeppelin.com
+  - url: https://github.com/openzeppelin/eips
+  - url: https://github.com/openzeppelin/erc20-onboarding
+  - url: https://github.com/openzeppelin/ethereumjs-vm-coverage
+  - url: https://github.com/openzeppelin/exploit-uniswap
+  - url: https://github.com/openzeppelin/futureswap-artifacts
+  - url: https://github.com/openzeppelin/fuzzy-import-parser
+  - url: https://github.com/openzeppelin/ganache-core-coverage
+  - url: https://github.com/openzeppelin/gnosis-multisig
+  - url: https://github.com/openzeppelin/governor-quorum-bot
+  - url: https://github.com/openzeppelin/gsn-relayer
+  - url: https://github.com/openzeppelin/gsn-sample-chat_app
+  - url: https://github.com/openzeppelin/gsn-site
+  - url: https://github.com/openzeppelin/gsn-tools
+  - url: https://github.com/openzeppelin/highlightjs-cairo
+  - url: https://github.com/openzeppelin/ink
+  - url: https://github.com/openzeppelin/json-rpc-engine
+  - url: https://github.com/openzeppelin/merkle-tree
+  - url: https://github.com/openzeppelin/netlify-redirects
+  - url: https://github.com/openzeppelin/nile
+  - url: https://github.com/openzeppelin/nile-rs
+  - url: https://github.com/openzeppelin/openzeppelin-contract-loader
+  - url: https://github.com/openzeppelin/openzeppelin-contracts
+  - url: https://github.com/openzeppelin/openzeppelin-contracts-docs
+  - url: https://github.com/openzeppelin/openzeppelin-contracts-upgradeable
+  - url: https://github.com/openzeppelin/openzeppelin-gsn-helpers
+  - url: https://github.com/openzeppelin/openzeppelin-gsn-provider
+  - url: https://github.com/openzeppelin/openzeppelin-labs
+  - url: https://github.com/openzeppelin/openzeppelin-network.js
+  - url: https://github.com/openzeppelin/openzeppelin-nile-upgrades
+  - url: https://github.com/openzeppelin/openzeppelin-sdk
+  - url: https://github.com/openzeppelin/openzeppelin-subgraphs
+  - url: https://github.com/openzeppelin/openzeppelin-team-nft
+  - url: https://github.com/openzeppelin/openzeppelin-test-environment
+  - url: https://github.com/openzeppelin/openzeppelin-test-helpers
+  - url: https://github.com/openzeppelin/openzeppelin-token-registry
+  - url: https://github.com/openzeppelin/openzeppelin-transpiler
+  - url: https://github.com/openzeppelin/openzeppelin-upgrades
+  - url: https://github.com/openzeppelin/openzeppelin-upgrades-migration-example
+  - url: https://github.com/openzeppelin/openzeppelin-whitepaper
+  - url: https://github.com/openzeppelin/openzeppelin.org
+  - url: https://github.com/openzeppelin/proposal143
+  - url: https://github.com/openzeppelin/proxy-explorer
+  - url: https://github.com/openzeppelin/research-cryptography
+  - url: https://github.com/openzeppelin/resolver-engine
+  - url: https://github.com/openzeppelin/safe-contracts-context
+  - url: https://github.com/openzeppelin/sample-crosschain-env
+  - url: https://github.com/openzeppelin/sample-crowdsale-starter
+  - url: https://github.com/openzeppelin/sandbox-smart-contracts
+  - url: https://github.com/openzeppelin/sgp
+  - url: https://github.com/openzeppelin/slack.openzeppelin.org
+  - url: https://github.com/openzeppelin/solidity-ast
+  - url: https://github.com/openzeppelin/solidity-docgen
+  - url: https://github.com/openzeppelin/solidity-jwt
+  - url: https://github.com/openzeppelin/solidity-loader
+  - url: https://github.com/openzeppelin/starter-kit
+  - url: https://github.com/openzeppelin/starter-kit-gsn
+  - url: https://github.com/openzeppelin/starter-kit-tutorial
+  - url: https://github.com/openzeppelin/tech-coaching
+  - url: https://github.com/openzeppelin/token-vesting-ui
+  - url: https://github.com/openzeppelin/token-vouching
+  - url: https://github.com/openzeppelin/upgrades-safe-app
+  - url: https://github.com/openzeppelin/web3-gsn-faucet-provider
+  - url: https://github.com/openzeppelin/workshops
+  - url: https://github.com/openzeppelin/zeppelin.solutions
 npm:
   - url: https://www.npmjs.com/package/@openzeppelin/contracts
   - url: https://www.npmjs.com/package/@openzeppelin/contracts-upgradeable
@@ -22,12 +114,6 @@ blockchain:
     networks:
       - optimism
   - address: "0xbc125d485ee2f414c84674085538118265d3f168"
-    tags:
-      - safe
-      - wallet
-    networks:
-      - optimism
-  - address: "0x1c14b478ada4e2fc5d1e67b918d4ec4756be579f"
     tags:
       - safe
       - wallet
