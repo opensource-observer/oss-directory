@@ -1,5 +1,12 @@
 version: 3
 slug: pokt-foundation
-name: Grove
+name: Pocket Network (Grove)
 github:
   - url: https://github.com/pokt-foundation
+blockchain:
+  - address: "0x1A544D8dcA79d50c0E21e446BB33B03E01Cc9257"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
