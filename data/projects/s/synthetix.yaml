@@ -7301,21 +7301,9 @@ blockchain:
     name: Migration_SabikOptimismStep5
     networks:
       - optimism
-  - address: "0x7b57c388e6149b5c197b925037602d5b6baffbcc"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
   - address: "0x395ec94bf3e3dcd3afbd82cd03197731411e396b"
     networks:
       - optimism
     tags:
       - contract
       - creator
-  - address: "0x98f763ceb9d4d921cdfa688cb7d6419f967d28e7"
-    tags:
-      - eoa
-      - wallet
-    networks:
-      - optimism

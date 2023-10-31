@@ -1,10 +1,17 @@
 version: 3
 slug: agoraxyz
-name: Agora
+name: Guild / Agora
 github:
   - url: https://github.com/agoraxyz
 blockchain:
   - address: "0x4F8f9f9469C4ecE49EaEfB9b0CDe35a652d9C1d6"
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - mainnet
+      - optimism
+  - address: "0xa934b56be3ec0bddfa8bfd1cb141e66d1bbd0f69"
     tags:
       - wallet
       - eoa
