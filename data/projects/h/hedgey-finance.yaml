@@ -1,0 +1,38 @@
+version: 3
+slug: hedgey-finance
+name: Hedgey Finance
+github:
+  - url: https://github.com/hedgey-finance
+blockchain:
+  - address: "0x6cCe9bAE11B01E9fFF30DBe790f64B459A614B0F"
+    tags:
+      - eoa
+      - wallet
+    networks:
+      - optimism
+  - address: "0x1b03D75094884714973f22867359dE4b81AF2F00"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x320bcB681CE7023EDfE48aDe9Cf5bf67A11Bcd36"
+    tags:
+      - eoa
+      - creator
+    networks:
+      - optimism
+  - address: "0x1E9FFaA25d5F8206c697c92BCdee9FA16455CF94"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x3466EB008EDD8d5052446293D1a7D212cb65C646"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x3466EB008EDD8d5052446293D1a7D212cb65C646"
+    tags:
+      - contract
+    networks:
+      - optimism
