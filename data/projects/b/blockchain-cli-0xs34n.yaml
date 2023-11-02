@@ -1,0 +1,15 @@
+version: 3
+slug: blockchain-cli-0xs34n
+name: Blockchain CLI
+github:
+  - url: https://github.com/blockchain-cli-0xs34n
+  - url: https://github.com/0xs34n/coin-cli
+npm:
+  - url: https://www.npmjs.com/package/blockchain-cli
+blockchain:
+  - address: "0xA0B39867b0999DcF7Af65ea674c3C975EaD99158"
+    tags:
+      - eoa
+      - wallet
+    networks:
+      - optimism
