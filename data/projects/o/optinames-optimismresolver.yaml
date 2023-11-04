@@ -1,31 +1,19 @@
 version: 3
 slug: optinames-optimismresolver
-name: Optinames & Wildcards Protocol
+name: Optinames & OptimismResolver
 github:
   - url: https://github.com/stevegachau/optimismresolver
-  - url: https://github.com/wildcards-protocol
   - url: https://github.com/optinames
 blockchain:
-  - address: "0x1D7b8D3c6c896d7eB4f9118Ea377C359073d4083"
-    tags:
-      - eoa
-      - wallet
-    networks:
-      - optimism
-      - mainnet
-  - address: "0x53e42d7b919c72678996c3f3486f93e75946a47c"
-    tags:
-      - eoa
-    networks:
-      - optimism
-  - address: "0xf12ca7007d5258a5d98c5da6437674ca704a2561"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xf50831b4857ec32F6B9Ca3b7145e47068014CF15"
     tags:
       - eoa
       - wallet
     networks:
       - optimism
+  - address: "0x9fb848300E736075eD568147259bF8a8eeFe4fEf"
+    tags:
+      - contract
+    networks:
+      - optimism
+      - mainnet
