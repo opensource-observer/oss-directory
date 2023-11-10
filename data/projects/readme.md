@@ -1,10 +1,10 @@
 # Project Summary
 
-Total Projects: 947
+Total Projects: 948
 
-Total GitHub Orgs/Owners: 1699
+Total GitHub Orgs/Owners: 1700
 
-Total Blockchain Addresses: 16495
+Total Blockchain Addresses: 16496
 
 | Project                                                                                                                                                                                                              | Github Repos | Blockchain Addresses |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------- |
@@ -487,6 +487,7 @@ Total Blockchain Addresses: 16495
 | [Kwenta](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/k/kwenta.yaml)                                                                                                                      | 2            | 84                   |
 | [KyberSwap](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/k/kyber-swap.yaml)                                                                                                               | 1            | 53                   |
 | [Powers of Tau Specification](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/k/kzg-ceremony-specs-ethereum.yaml)                                                                            | 1            | 0                    |
+| [KZG-Marble-machine by Xofee](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/k/kzg-marble-machine-xofee.yaml)                                                                               | 1            | 1                    |
 | [L2BEAT](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/l/l2beat.yaml)                                                                                                                      | 1            | 3                    |
 | [L2 Planet](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/l/l2planet.yaml)                                                                                                                 | 1            | 3                    |
 | [Labrys](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/l/labrys-group.yaml)                                                                                                                | 1            | 1                    |
