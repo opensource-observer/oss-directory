@@ -28,6 +28,13 @@ blockchain:
       - optimism
   - address: "0x1633451fF7cD3688c944634b08829326DF316dD7"
     tags:
-      - contract
+      - safe
+      - wallet
     networks:
       - mainnet
+  - address: 0xee324c588ceF1BF1c1360883E4318834af66366d
+    tags:
+      - wallet
+      - eoa
+    networks:
+      - optimism
