@@ -24,7 +24,7 @@ blockchain:
   - address: "0x528CDc92eAB044E1E39FE43B9514bfdAB4412B98"
     name: Token(GIV)
     tags:
-      - token
+      - contract
     networks:
       - optimism
 
@@ -73,6 +73,6 @@ blockchain:
   - address: "0x4caB5B9930210E2EdC6A905B9C75D615872A1A7E"
     name: GIVx(SuperFluid)
     tags:
-      - token
+      - contract
     networks:
       - optimism
