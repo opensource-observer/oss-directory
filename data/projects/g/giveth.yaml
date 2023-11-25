@@ -4,6 +4,7 @@ name: Giveth
 github:
   - url: https://github.com/Giveth
 blockchain:
+
   - address: "0x4D9339dd97db55e3B9bCBE65dE39fF9c04d1C2cd"
     tags:
       - wallet
@@ -11,9 +12,67 @@ blockchain:
     networks:
       - optimism
       - mainnet
+
   - address: "0x634977e11C823a436e587C1a1Eca959588C64287"
     tags:
       - wallet
       - eoa
+    networks:
+      - optimism
+      - mainnet
+
+  - address: "0x528CDc92eAB044E1E39FE43B9514bfdAB4412B98"
+    name: Token(GIV)
+    tags:
+      - contract
+    networks:
+      - optimism
+
+  - address: "0xE3Ac7b3e6B4065f4765d76fDC215606483BF3bD1"
+    name: TokenDistro
+    tags:
+      - contract
+    networks:
+      - optimism
+
+  - address: "0x301C739CF6bfb6B47A74878BdEB13f92F13Ae5E7"
+    name: UnipoolGIVpower
+    tags:
+      - contract
+    networks:
+      - optimism
+
+  - address: "0xf13e93af5e706ab3073e393e77bb2d7ce7bec01f"
+    name: GIVbacksRelayerProxy
+    tags:
+      - contract
+    networks:
+      - optimism
+
+  - address: "0x95Fcf30706F3b1e28C8F3d72F4B80FA3A1615b2f"
+    name: TokenDistroImplementation
+    tags:
+      - contract
+    networks:
+      - optimism
+
+  - address: "0x226392543f7c2d29349b0e8f6b899a0d05d08d47"
+    name: UnipoolGIVpowerImplementation
+    tags:
+      - contract
+    networks:
+      - optimism
+
+  - address: "0x2AC383909Ff12F8a119220eEc16Dd081BB22f48E"
+    name: GIVbacksRelayerImplementation
+    tags:
+      - contract
+    networks:
+      - optimism
+
+  - address: "0x4caB5B9930210E2EdC6A905B9C75D615872A1A7E"
+    name: GIVx(SuperFluid)
+    tags:
+      - contract
     networks:
       - optimism
