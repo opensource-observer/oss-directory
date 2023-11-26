@@ -3,7 +3,44 @@ slug: show-karma
 name: Karma
 github:
   - url: https://github.com/show-karma
+npm:
+  - url: https://www.npmjs.com/package/@show-karma/karma-gap-sdk
 blockchain:
+  - address: "0xd2eD366393FDfd243931Fe48e9fb65A192B0018c"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xd2eD366393FDfd243931Fe48e9fb65A192B0018c"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x6dC1D6b864e8BEf815806f9e4677123496e12026"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x01709bb17008ceF32611f6476A12743dEAc3D727"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x7177AdC0f924b695C0294A40C4C5FEFf5EE1E141"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0x953934675b8a3BDf8F1ae0D779E8a7E10C1c2CE6"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xd17206EC4D268D0E55bb08A369b6864f1178B81d"
+    tags:
+      - contract
+    networks:
+      - optimism
   - address: "0x627f84bb4bBA3333f253F09fe22A445F195bCF34"
     tags:
       - wallet
