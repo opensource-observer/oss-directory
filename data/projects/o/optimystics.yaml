@@ -1,0 +1,17 @@
+version: 3
+slug: optimystics
+name: Optimystics
+github:
+  - url: https://github.com/optimystics
+blockchain:
+  - address: "0x53C9E3a44B08E7ECF3E8882996A500eb06c0C5CC"
+    tags:
+      - contract
+    networks:
+      - optimism
+  - address: "0xBcd96449a5f125174b2E77862ABfbAB7eEa03e5C"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
