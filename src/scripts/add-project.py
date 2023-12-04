@@ -1,4 +1,5 @@
 import os
+import pandas as pd
 import sys
 from urllib.parse import urlparse
 import yaml
@@ -35,8 +36,8 @@ def parse_url(url):
     elif len(path) == 2:
         slug = path[1] + "-" + path[0]
     else:
-        print("Invalid GitHub url")
-        sys.exit()
+        print(f"Invalid GitHub url: {url}")
+        return None
     return slug
 
 
@@ -54,11 +55,16 @@ def get_project_name():
     return project_name
 
 
-def generate_yaml(version=3):
-
+def input_project():
     url, slug = get_repo_name()
     project_name = get_project_name()
+    return generate_yaml(url, slug, project_name)
 
+
+def generate_yaml(url, slug, project_name, version=3):
+    if len(slug) < 2:
+        print(f"Invalid or missing GitHub url {url} for project {project_name}")
+        return False
     path = os.path.join("data/projects", slug[0], slug + ".yaml")
     if os.path.exists(path):
         print("File already exists")
@@ -82,10 +88,41 @@ def generate_yaml(version=3):
     return True
 
 
-def main():
+def load_from_csv(project_col='Project', github_col='GitHub'):
+    print("Enter a CSV file path:")
+    path = input()
+    path = path.strip()
+    if not os.path.exists(path):
+        print("File does not exist")
+        sys.exit()
+    series = (
+        pd.read_csv(path)
+        .set_index(project_col)
+        [github_col]
+    )
+    slugs = []
+    for project, github in series.items():
+        project = project.strip()
+        if not isinstance(github, str) or len(github) < 2:
+            continue
+        url = github.lower().strip().strip("/")
+        slug = parse_url(url)
+        if slug:
+            result = generate_yaml(url, slug, project)
+            slugs.append(slug)
+    for s in sorted(list(set(slugs))):
+        print(f"- {s}")
     
+
+def main():
+    print("Add projects from a CSV file? (y/n)")
+    response = input()
+    if response.lower() == "y":
+        load_from_csv()
+        return
+
     while True:
-        result = generate_yaml()
+        result = input_project()
         if not result:
             break
         print("Generate another YAML file? (y/n)")
