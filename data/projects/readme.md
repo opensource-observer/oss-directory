@@ -1,10 +1,10 @@
 # Project Summary
 
-Total Projects: 948
+Total Projects: 949
 
-Total GitHub Orgs/Owners: 1700
+Total GitHub Orgs/Owners: 1701
 
-Total Blockchain Addresses: 16496
+Total Blockchain Addresses: 16497
 
 | Project                                                                                                                                                                                                              | Github Repos | Blockchain Addresses |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | -------------------- |
@@ -443,6 +443,7 @@ Total Blockchain Addresses: 16496
 | [ImpactScribe](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/impactscribe.yaml)                                                                                                          | 1            | 1                    |
 | [Impersonator](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/impersonator-eth.yaml)                                                                                                      | 1            | 2                    |
 | [Index Supply](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/indexsupply.yaml)                                                                                                           | 1            | 1                    |
+| [indexed.xyz](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/indexed-xyz.yaml)                                                                                                           | 1            | 1                    |
 | [Inferer](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/inferer.yaml)                                                                                                                    | 1            | 1                    |
 | [Infinity Keys](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/infinity-keys.yaml)                                                                                                        | 1            | 2                    |
 | [Infinity Wallet](https://github.com/hypercerts-org/oss-directory/tree/main/data/projects/i/infinitywallet.yaml)                                                                                                     | 1            | 2                    |
