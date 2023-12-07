@@ -78,7 +78,7 @@ const processFiles = (err: Error | null, files?: string[]) => {
 
       const projectName = data.name.replace(/\|/g, "&#124;"); // Replace '|' with '&#124;'
       const relativePath = path.relative(".", file);
-      const githubLink = `https://github.com/hypercerts-org/oss-directory/tree/main/${relativePath.replace(
+      const githubLink = `https://github.com/opensource-observer/oss-directory/tree/main/${relativePath.replace(
         /\\/g,
         "/",
       )}`;
