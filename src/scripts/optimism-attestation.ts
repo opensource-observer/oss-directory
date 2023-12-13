@@ -19,7 +19,7 @@ const addresses: any = {
   },
 };
 
-const rpcUrls: Record<string, string> = {
+export const RPC_URLS: Record<string, string> = {
   "optimism-goerli": "https://goerli.optimism.io",
   optimism: "https://mainnet.optimism.io",
 };
@@ -42,8 +42,6 @@ export async function attest(input: AttestInput) {
   if (!network) {
     throw new Error("network is required");
   }
-
-  const rpcUrl = rpcUrls[network];
 
   if (!repoUrl) {
     throw new Error("repoUrl is required");
@@ -68,8 +66,6 @@ export async function attest(input: AttestInput) {
     );
   }
 
-  const provider = new ethers.providers.StaticJsonRpcProvider(rpcUrl);
-  const signer = new ethers.Wallet(privateKey, provider);
   const EASContractAddress = addresses[network].EASContractAddress;
   if (!EASContractAddress) {
     throw new Error(
@@ -77,7 +73,11 @@ export async function attest(input: AttestInput) {
     );
   }
   const eas = new EAS(EASContractAddress);
-  eas.connect(signer);
+  // TODO: this isn't working with latest Ethersv6
+  //const rpcUrl = RPC_URLS[network];
+  //const provider = new ethers.JsonRpcProvider(rpcUrl);
+  //const signer = new ethers.Wallet(privateKey, provider);
+  //eas.connect(signer);
 
   const schemaUID = addresses[network].schemaUID;
   if (!schemaUID) {
@@ -98,7 +98,7 @@ export async function attest(input: AttestInput) {
       schema: schemaUID,
       data: {
         recipient: "0x0000000000000000000000000000000000000000",
-        expirationTime: 0,
+        expirationTime: undefined,
         revocable: true,
         data: encodedData,
       },
@@ -134,7 +134,7 @@ async function getData(
     "No Optimism addresses found in the project file",
   );
   const attestations = blockchainList.map((item: BlockchainAddress) => {
-    if (!ethers.utils.isAddress(item.address)) {
+    if (!ethers.isAddress(item.address)) {
       throw new Error(`Invalid Ethereum address: ${item.address}`);
     }
     return {
