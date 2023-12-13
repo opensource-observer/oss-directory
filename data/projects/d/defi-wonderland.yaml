@@ -7,6 +7,7 @@ github:
   - url: https://github.com/defi-wonderland/foundry-mock-generator
   - url: https://github.com/defi-wonderland/gnosis-safe-proposor
   - url: https://github.com/defi-wonderland/sidechain-oracles
+  - url: https://github.com/defi-wonderland/smock
   - url: https://github.com/defi-wonderland/solhint-plugin
   - url: https://github.com/defi-wonderland/solidity-foundry-boilerplate
   - url: https://github.com/defi-wonderland/solidity-hardhat-boilerplate
@@ -17,5 +18,11 @@ blockchain:
     tags:
       - eoa
       - wallet
+    networks:
+      - optimism
+  - address: "0x4f2188dfD474E502Ea67D09bE3E58b761B6AEEB7"
+    tags:
+      - wallet
+      - safe
     networks:
       - optimism
