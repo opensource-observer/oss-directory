@@ -14,11 +14,21 @@ export interface BlockchainAddress {
    * @minItems 1
    */
   tags: [
-    "eoa" | "safe" | "creator" | "factory" | "proxy" | "contract" | "wallet",
+    (
+      | "eoa"
+      | "safe"
+      | "creator"
+      | "deployer"
+      | "factory"
+      | "proxy"
+      | "contract"
+      | "wallet"
+    ),
     ...(
       | "eoa"
       | "safe"
       | "creator"
+      | "deployer"
       | "factory"
       | "proxy"
       | "contract"
@@ -28,7 +38,10 @@ export interface BlockchainAddress {
   /**
    * @minItems 1
    */
-  networks: ["mainnet" | "optimism", ...("mainnet" | "optimism")[]];
+  networks: [
+    "mainnet" | "optimism" | "arbitrum",
+    ...("mainnet" | "optimism" | "arbitrum")[],
+  ];
   name?: string;
   [k: string]: unknown;
 }
