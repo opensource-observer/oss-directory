@@ -120,7 +120,7 @@ def load_from_csv(repo_to_slug_mapping: dict, filepath: str, project_col: str = 
 
 
 def input_from_cli(repo_to_slug_mapping: dict) -> None:
-     """
+    """
     Continuously prompt the user for GitHub URLs and project names from the command line interface,
     and generate YAML files for each.
 
