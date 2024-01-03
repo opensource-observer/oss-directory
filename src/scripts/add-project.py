@@ -1,134 +1,155 @@
+import csv
 import os
-import pandas as pd
 import sys
+
+from pathlib import Path
+from typing import Tuple, Optional
 from urllib.parse import urlparse
-import yaml
+
+from map_artifacts import get_yaml_data_from_path, map_repos_to_slugs
+from write_yaml import dump
 
 
-class MyDumper(yaml.Dumper):
-    
-    def __init__(self, *args, **kwargs):
-        super(MyDumper, self).__init__(*args, **kwargs)
-        self.add_representer(QuotedString, quoted_string_representer)
-
-    def ignore_aliases(self, data):
-        return True
-
-    def increase_indent(self, flow=False, indentless=False):
-        return super(MyDumper, self).increase_indent(flow, False)
-    
-
-class QuotedString(str):
-    pass
+LOCAL_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "projects")
 
 
-def quoted_string_representer(dumper, data):
-    return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')
+def parse_url(url: str) -> Optional[str]:
+    """
+    Parse a GitHub URL and extract the slug.
+
+    Args:
+    url (str): The GitHub URL to parse.
+
+    Returns:
+    Optional[str]: The extracted slug or None if the URL is invalid.
+    """
+    try:
+        if 'github.com' not in url:
+            raise ValueError(f"Invalid GitHub URL {url}.")
+            return None
+        parsed_url = urlparse(url)
+        path = parsed_url.path.strip("/").split("/")
+        if len(path) == 2:
+            return path[1] + "-" + path[0]
+        elif len(path) == 1:
+            return path[0]
+    except Exception as e:
+        print(f"Error parsing URL {url}: {e}")
+    return None
 
 
-def parse_url(url):
-    parsed_url = urlparse(url)
-    path = parsed_url.path
-    path = path.strip("/")
-    path = path.split("/")
-    if len(path) == 1:
-        slug = path[0]
-    elif len(path) == 2:
-        slug = path[1] + "-" + path[0]
-    else:
-        print(f"Invalid GitHub url: {url}")
-        return None
-    return slug
+def input_project() -> Tuple[str, str, str]:
+    """
+    Get user input for GitHub URL and project name.
 
-
-def get_repo_name():
-    print("Enter a GitHub url:")
-    url = input()
-    url = url.lower().strip()
+    Returns:
+    Tuple[str, str, str]: A tuple containing the URL, slug, and project name.
+    """
+    url = input("Enter a GitHub URL: ").lower().strip()
     slug = parse_url(url)
-    return url, slug
+    if not slug:
+        raise ValueError(f"Invalid GitHub URL: {url}")
+
+    project_name = input("Enter a project name: ").strip()
+    return url, slug, project_name
 
 
-def get_project_name():
-    print("Enter a project name:")
-    project_name = input()
-    return project_name
+def generate_yaml(url: str, slug: str, project_name: str, version: int = 3, repo_to_slug_mapping: dict = {}) -> bool:
+    """
+    Generate a YAML file for a given project. This function checks for duplicate entries based on the URL 
+    and verifies if a YAML file already exists for the given slug before proceeding to create a new YAML file.
 
+    Args:
+    url (str): The URL of the GitHub repository.
+    slug (str): The slug derived from the GitHub URL, used as a filename.
+    project_name (str): The name of the project.
+    version (int, optional): Version number for the YAML structure. Defaults to 3.
+    repo_to_slug_mapping (dict, optional): A dictionary mapping GitHub URLs to slugs. Used to check for duplicates.
 
-def input_project():
-    url, slug = get_repo_name()
-    project_name = get_project_name()
-    return generate_yaml(url, slug, project_name)
-
-
-def generate_yaml(url, slug, project_name, version=3):
-    if len(slug) < 2:
-        print(f"Invalid or missing GitHub url {url} for project {project_name}")
+    Returns:
+    bool: True if the YAML file was created successfully, False otherwise (e.g., in case of duplicates or file already exists).
+    """
+    if url in repo_to_slug_mapping:
+        print(f"{project_name} ({slug}) : {url} already exists at: {repo_to_slug_mapping[url]}")
         return False
-    path = os.path.join("data/projects", slug[0], slug + ".yaml")
+
+    path = os.path.join(LOCAL_PATH, slug[0], f"{slug}.yaml")
     if os.path.exists(path):
-        print("File already exists")
+        print("File already exists.")
         return False
 
-    yaml_data = {
-        "version": version,
-        "slug": slug,
-        "name": project_name,
-        "github": [
-            {
-                "url": url
-            }
-        ]
-    }
-
-    formatters = dict(default_flow_style=False, sort_keys=False, indent=2)
-    with open(path, 'w') as outfile:
-        yaml.dump(yaml_data, outfile, Dumper=MyDumper, **formatters)
-
+    yaml_data = {"version": version, "slug": slug, "name": project_name, "github": [{"url": url}]}
+    dump(yaml_data, path)
+    print(f"Generated YAML file at {path}")
+    repo_to_slug_mapping[url] = slug
     return True
 
 
-def load_from_csv(project_col='Project', github_col='GitHub'):
-    print("Enter a CSV file path:")
-    path = input()
-    path = path.strip()
-    if not os.path.exists(path):
-        print("File does not exist")
-        sys.exit()
-    series = (
-        pd.read_csv(path)
-        .set_index(project_col)
-        [github_col]
-    )
-    slugs = []
-    for project, github in series.items():
-        project = project.strip()
-        if not isinstance(github, str) or len(github) < 2:
-            continue
-        url = github.lower().strip().strip("/")
-        slug = parse_url(url)
-        if slug:
-            result = generate_yaml(url, slug, project)
-            slugs.append(slug)
-    for s in sorted(list(set(slugs))):
-        print(f"- {s}")
-    
+def load_from_csv(repo_to_slug_mapping: dict, filepath: str, project_col: str = 'Project', github_col: str = 'GitHub') -> None:
+    """
+    Load project details from a CSV file and generate YAML files for each project. Projects are identified 
+    by their GitHub URLs and names specified in the CSV file. The function checks for duplicates and skips 
+    existing entries.
 
-def main():
-    print("Add projects from a CSV file? (y/n)")
-    response = input()
-    if response.lower() == "y":
-        load_from_csv()
+    Args:
+    repo_to_slug_mapping (dict): A dictionary mapping GitHub URLs to slugs, used for checking duplicates.
+    filepath (str): The file path of the CSV file containing project details.
+    project_col (str, optional): The name of the column in the CSV that contains project names. Defaults to 'Project'.
+    github_col (str, optional): The name of the column in the CSV that contains GitHub URLs. Defaults to 'GitHub'.
+    """    
+    if not os.path.exists(filepath):
+        print("File does not exist.")
         return
 
+    slugs = set()
+    try:
+        with open(filepath, mode='r', encoding='utf-8') as file:
+            reader = csv.DictReader(file)
+            for row in reader:
+                project = row[project_col].strip()
+                url = row[github_col].lower().strip().strip("/")
+                slug = parse_url(url)
+                if slug and generate_yaml(url, slug, project, repo_to_slug_mapping=repo_to_slug_mapping):
+                    slugs.add(slug)
+    except Exception as e:
+        print(f"Error processing CSV file: {e}")
+        return
+
+    for s in sorted(slugs):
+        print(f"- {s}")
+
+
+def input_from_cli(repo_to_slug_mapping: dict) -> None:
+     """
+    Continuously prompt the user for GitHub URLs and project names from the command line interface,
+    and generate YAML files for each.
+
+    Args:
+    repo_to_slug_mapping (dict): A dictionary mapping from repository URLs to slugs.
+    """
     while True:
-        result = input_project()
-        if not result:
+        try:
+            result = input_project()
+            if result:
+                url, slug, project_name = result
+                if not generate_yaml(url, slug, project_name, repo_to_slug_mapping=repo_to_slug_mapping):
+                    break
+        except ValueError as e:
+            print(e)
+            continue
+
+        if input("Generate another YAML file? (y/n): ").lower() != 'y':
             break
-        print("Generate another YAML file? (y/n)")
-        response = input()
-        if response.lower() != "y":
-            break
+
+
+def main() -> None:
+    repo_to_slug_mapping = map_repos_to_slugs(get_yaml_data_from_path(path=LOCAL_PATH))
+    choice = input("Add projects from a CSV file? (y/n): ").lower()
+    if choice == 'y':
+        filepath = input("Enter CSV file path: ").strip()
+        load_from_csv(repo_to_slug_mapping, filepath)
+    else:
+        input_from_cli(repo_to_slug_mapping)
 
 
 if __name__ == "__main__":
