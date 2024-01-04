@@ -35,8 +35,8 @@ def process_toml_file(toml_file_path, create_change_log=False):
         github_orgs = data.get('github_organizations', [])
 
     not_found = []
-    no_changes = []
     changes_made = []
+    files_added = []
 
     ordered_yaml()
 
@@ -61,11 +61,22 @@ def process_toml_file(toml_file_path, create_change_log=False):
 
                 with open(yaml_path, 'w') as file:
                     yaml.dump(ordered_data, file, Dumper=CustomDumper, default_flow_style=False)
-                changes_made.append(f"{sub}: Added {', '.join(new_urls)}")
+                changes_made.append(f"{sub}: Updated with new GitHub URLs: {', '.join(new_urls)}")
             else:
-                no_changes.append(sub)
+                not_found.append(sub)
         else:
-            not_found.append(sub)
+            # Create a new project file if it does not exist
+            new_project_data = OrderedDict([
+                ('version', 3),
+                ('slug', sub.lower()),
+                ('name', sub),
+                ('github', [{'url': url} for url in github_orgs])
+            ])
+            new_yaml_path = os.path.join(projects_directory, sub[0].lower(), f"{sub.lower()}.yaml")
+            os.makedirs(os.path.dirname(new_yaml_path), exist_ok=True)
+            with open(new_yaml_path, 'w') as file:
+                yaml.dump(new_project_data, file, Dumper=CustomDumper, default_flow_style=False)
+            files_added.append(f"{sub}: Created new project file.")
 
     change_log_file = os.path.join('changes_made.txt')
     if create_change_log:
@@ -73,13 +84,8 @@ def process_toml_file(toml_file_path, create_change_log=False):
             file.write(f"Execution Time: {datetime.now()}\n")
             file.write(f"TOML File Used: {toml_file_path}\n\n")
 
-            file.write("Projects Not Found:\n")
-            for sub in not_found:
-                file.write(f"- {sub}\n")
-            file.write("\n")
-
-            file.write("Projects Found with No Changes Made:\n")
-            for sub in no_changes:
+            file.write("Projects Not Found and Created:\n")
+            for sub in files_added:
                 file.write(f"- {sub}\n")
             file.write("\n")
 
