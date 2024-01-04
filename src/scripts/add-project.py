@@ -6,6 +6,7 @@ from pathlib import Path
 from typing import Tuple, Optional
 from urllib.parse import urlparse
 
+from toml_adder import process_toml_file
 from map_artifacts import get_yaml_data_from_path, map_repos_to_slugs
 from write_yaml import dump
 
@@ -142,12 +143,24 @@ def input_from_cli(repo_to_slug_mapping: dict) -> None:
             break
 
 
+def process_toml():
+    """
+    Prompt the user for the path of a TOML file and process it.
+    Optionally create a changes log file.
+    """
+    toml_file_path = input("Enter TOML file path: ").strip()
+    create_change_log = input("Do you want to create a changes_made.txt file? (y/n): ").lower() == 'y'
+    process_toml_file(toml_file_path, create_change_log)
+
+
 def main() -> None:
     repo_to_slug_mapping = map_repos_to_slugs(get_yaml_data_from_path(path=LOCAL_PATH))
-    choice = input("Add projects from a CSV file? (y/n): ").lower()
-    if choice == 'y':
+    choice = input("Add projects from a CSV file or a TOML file? (csv/toml): ").lower()
+    if choice == 'csv':
         filepath = input("Enter CSV file path: ").strip()
         load_from_csv(repo_to_slug_mapping, filepath)
+    elif choice == 'toml':
+        process_toml()
     else:
         input_from_cli(repo_to_slug_mapping)
 
