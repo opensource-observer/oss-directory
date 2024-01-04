@@ -9,11 +9,14 @@ base_directory = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath
 projects_directory = os.path.join(base_directory, 'data', 'projects')
 collections_directory = os.path.join(base_directory, 'data', 'collections')
 
+class CustomDumper(yaml.Dumper):
+    def increase_indent(self, flow=False, indentless=False):
+        return super(CustomDumper, self).increase_indent(flow, False)
+
 def ordered_yaml():
-    """Enable PyYAML to output OrderedDicts."""
-    def represent_dict_order(dumper, data):
-        return dumper.represent_dict(data.items())
-    yaml.add_representer(OrderedDict, represent_dict_order)
+    """Enable PyYAML to output OrderedDicts with proper indentation for lists."""
+    yaml.add_representer(OrderedDict, lambda dumper, data: dumper.represent_dict(data.items()))
+    yaml.add_representer(list, lambda dumper, data: dumper.represent_sequence('tag:yaml.org,2002:seq', data, flow_style=False))
 
 def find_project_yaml(sub_ecosystem):
     """Find the YAML file for a given sub-ecosystem."""
@@ -57,7 +60,7 @@ def process_toml_file(toml_file_path, create_change_log=False):
                 ])
 
                 with open(yaml_path, 'w') as file:
-                    yaml.dump(ordered_data, file, default_flow_style=False)
+                    yaml.dump(ordered_data, file, Dumper=CustomDumper, default_flow_style=False)
                 changes_made.append(f"{sub}: Added {', '.join(new_urls)}")
             else:
                 no_changes.append(sub)
@@ -93,6 +96,6 @@ def process_toml_file(toml_file_path, create_change_log=False):
     ])
 
     with open(collection_file, 'w') as file:
-        yaml.dump(collection_data, file, default_flow_style=False)
+        yaml.dump(collection_data, file, Dumper=CustomDumper, default_flow_style=False)
 
     return change_log_file if create_change_log else None

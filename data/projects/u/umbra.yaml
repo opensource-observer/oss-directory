@@ -2,24 +2,24 @@ version: 3
 slug: umbra
 name: Umbra
 github:
-- url: https://github.com/ScopeLift/umbra-protocol
-- url: https://github.com/coco-verse
-- url: https://github.com/OffchainLabs
-- url: https://github.com/waterfall-foundation
+  - url: https://github.com/ScopeLift/umbra-protocol
+  - url: https://github.com/coco-verse
+  - url: https://github.com/OffchainLabs
+  - url: https://github.com/waterfall-foundation
 blockchain:
-- address: '0x5777aa6f437399af6cef2fce0be8d4b4ed7c7232'
-  networks:
-  - optimism
-  tags:
-  - eoa
-  - creator
-- address: '0xfb2dc580eed955b528407b4d36ffafe3da685401'
-  networks:
-  - optimism
-  tags:
-  - contract
-- address: '0x31fe56609c65cd0c510e7125f051d440424d38f3'
-  networks:
-  - optimism
-  tags:
-  - contract
+  - address: '0x5777aa6f437399af6cef2fce0be8d4b4ed7c7232'
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - creator
+  - address: '0xfb2dc580eed955b528407b4d36ffafe3da685401'
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: '0x31fe56609c65cd0c510e7125f051d440424d38f3'
+    networks:
+      - optimism
+    tags:
+      - contract
