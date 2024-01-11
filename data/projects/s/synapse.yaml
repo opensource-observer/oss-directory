@@ -14,10 +14,13 @@ blockchain:
       - optimism
   - address: "0x0af91fa049a7e1894f480bfe5bba20142c6c29a9"
     tags:
+      - deployer
       - eoa
       - creator
     networks:
+      - arbitrum
       - optimism
+    name: aurelius0x.eth
   - address: "0x22cdc93f53ee3f6b8ad66fad6f98915a5349950e"
     name: SynapseERC20Factory
     tags:
@@ -47,9 +50,11 @@ blockchain:
       - optimism
   - address: "0x890bc5691e6011f580e264065d09a7a1a6902131"
     tags:
+      - deployer
       - eoa
       - creator
     networks:
+      - arbitrum
       - optimism
   - address: "0xf44938b0125a6662f9536281ad2cd6c499f22004"
     name: SwapFlashLoan

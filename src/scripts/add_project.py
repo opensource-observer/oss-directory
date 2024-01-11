@@ -2,7 +2,6 @@ import csv
 import os
 import sys
 
-from pathlib import Path
 from typing import Tuple, Optional
 from urllib.parse import urlparse
 

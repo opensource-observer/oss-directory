@@ -6,10 +6,13 @@ github:
 blockchain:
   - address: "0x5853ed4f26a3fcea565b3fbc698bb19cdf6deb85"
     tags:
+      - deployer
       - eoa
       - creator
     networks:
+      - arbitrum
       - optimism
+    name: debanker.eth
   - address: "0x2cc0dc59063ec416fb788edf80d02ebee33d6309"
     tags:
       - contract

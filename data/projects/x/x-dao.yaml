@@ -6,22 +6,27 @@ github:
 blockchain:
   - address: "0x5befa2d163e40e148df83921e1cc59e044df5471"
     tags:
+      - deployer
       - eoa
       - creator
     networks:
+      - arbitrum
       - optimism
   - address: "0x72cc6e4de47f673062c41c67505188144a0a3d84"
     tags:
-      - contract
       - factory
+      - contract
     networks:
+      - arbitrum
       - optimism
+    name: Factory
   - address: "0xca49ecf7e7bb9bbc9d1d295384663f6ba5c0e366"
     tags:
-      - contract
       - factory
+      - contract
     name: Shop
     networks:
+      - arbitrum
       - optimism
   - address: "0x71eeba415a523f5c952cc2f06361d5443545ad28"
     tags:

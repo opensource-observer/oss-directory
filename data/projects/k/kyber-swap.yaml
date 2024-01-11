@@ -6,27 +6,35 @@ github:
 blockchain:
   - address: "0x7afac84bf3931b11548ed02b4460ad754cf54c66"
     tags:
+      - deployer
       - eoa
       - creator
     networks:
+      - arbitrum
       - optimism
   - address: "0x6a6b51fcb0217521601237227fa2e43a95ec06b0"
     tags:
+      - deployer
       - eoa
       - creator
     networks:
+      - arbitrum
       - optimism
   - address: "0x810973bdc95221817c4ca7999a78afd25f6d0f6d"
     tags:
+      - deployer
       - eoa
       - creator
     networks:
+      - arbitrum
       - optimism
   - address: "0x1874028262f1f4b2dd1f2700a72ee8b9b7c69090"
     tags:
+      - deployer
       - eoa
       - creator
     networks:
+      - arbitrum
       - optimism
   - address: "0x1d5702c6d7eb30e42a8c94b8db7ea2e8444a37fd"
     tags:
@@ -61,9 +69,11 @@ blockchain:
       - optimism
   - address: "0x8de39c1fa14b6082053e7cd937d6ebe58a69d6d2"
     tags:
+      - deployer
       - eoa
       - creator
     networks:
+      - arbitrum
       - optimism
   - address: "0xbe2f0354d970265bfc36d383af77f72736b81b54"
     tags:
@@ -87,10 +97,12 @@ blockchain:
       - optimism
   - address: "0x5f1dddbf348ac2fbe22a163e30f99f9ece3dd50a"
     tags:
-      - contract
       - factory
+      - contract
     networks:
+      - arbitrum
       - optimism
+    name: Factory
   - address: "0x10f6fb1a8b495a972bdce5bf86f2969f64359b00"
     tags:
       - contract
@@ -229,16 +241,20 @@ blockchain:
       - optimism
   - address: "0xf60f3a45c7d4476019262fc1ff6756fc15042f13"
     tags:
+      - deployer
       - eoa
       - creator
     networks:
+      - arbitrum
       - optimism
   - address: "0xc7a590291e07b9fe9e64b86c58fd8fc764308c4a"
     tags:
-      - contract
       - factory
+      - contract
     networks:
+      - arbitrum
       - optimism
+    name: Factory
   - address: "0x049beffdb026d6d1d64cfc8fe29bd12142967b09"
     tags:
       - contract

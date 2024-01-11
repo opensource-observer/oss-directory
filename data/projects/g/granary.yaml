@@ -6,10 +6,13 @@ github:
 blockchain:
   - address: "0xe027880ceb8114f2e367211df977899d00e66138"
     tags:
+      - deployer
       - eoa
       - creator
     networks:
+      - arbitrum
       - optimism
+    name: granaryfinance.eth
   - address: "0x494bf60b3b58664d5a674e692c718d33687e663a"
     tags:
       - contract
