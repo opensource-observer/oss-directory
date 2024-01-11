@@ -18,10 +18,12 @@ blockchain:
       - optimism
   - address: "0x95110c9806833d3d3c250112fac73c5a6f631e80"
     tags:
-      - contract
       - factory
+      - contract
+      - proxy
     name: Factory
     networks:
+      - arbitrum
       - optimism
   - address: "0x0000000000f0021d219c5ae2fd5b261966012dd7"
     tags:

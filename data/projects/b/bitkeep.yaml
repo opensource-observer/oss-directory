@@ -18,9 +18,10 @@ blockchain:
       - optimism
   - address: "0x4d176ac0caaa85fc2fd0594573e06458c62a1465"
     tags:
-      - contract
       - factory
+      - contract
     networks:
+      - arbitrum
       - optimism
   - address: "0xcd487bbd5f6f9afd3cea637a1803b6e8d71c958a"
     tags:
