@@ -1,0 +1,46 @@
+version: 3
+slug: utrust
+name: UTRUST
+projects:
+  - action-deploy-ecs
+  - action-gen-ecs-task-def
+  - action-get-keybase-secret
+  - action-push-ecr
+  - action-push-s3-cloudfront
+  - action-setup-elixir
+  - action-should-deploy
+  - alpine-elixir
+  - analytics-elixir
+  - aws-ecr-orb
+  - axios-vcr
+  - bamboo
+  - commanded
+  - commanded-scheduler
+  - ex_uphold
+  - fun_with_flags
+  - fun_with_flags_in_memory
+  - git-https-push-action
+  - heroku-buildpack-phoenix-static
+  - jsonrpc2-elixir
+  - live_view_experiment
+  - localstack
+  - merchant-api-spec
+  - onfido
+  - pgcli-docker
+  - react-s3-post-uploader
+  - redis_mutex
+  - release-drafter
+  - speedtracker
+  - sss-node
+  - terraform-aws-lambda
+  - thank_you_bot
+  - tokens
+  - utrust-developers-page
+  - utrust-for-magento1
+  - utrust-for-magento2
+  - utrust-for-prestashop
+  - utrust-for-whmcs
+  - utrust-for-woocommerce
+  - utrust-php
+  - utrust-ts-library
+  - utrustdev

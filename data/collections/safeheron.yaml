@@ -1,0 +1,50 @@
+version: 3
+slug: safeheron
+name: Safeheron
+projects:
+  - bip39
+  - crypto-bip32-cpp
+  - crypto-bip32-js
+  - crypto-bip39-cpp
+  - crypto-bn-cpp
+  - crypto-commitment-cpp
+  - crypto-commitment-js
+  - crypto-curve-cpp
+  - crypto-ecies-cpp
+  - crypto-ecies-js
+  - crypto-encode-cpp
+  - crypto-hash-cpp
+  - crypto-mta-cpp
+  - crypto-paillier-cpp
+  - crypto-paillier-js
+  - crypto-rand-js
+  - crypto-sss-cpp
+  - crypto-utils-js
+  - crypto-zkp-cpp
+  - crypto-zkp-js
+  - ed25519-donna
+  - integer-factorization
+  - Keystone-cold-app
+  - master-key-derive-js
+  - mpc-flow-cpp
+  - mpc-snap-wasm
+  - mpc-wasm-sdk
+  - mpcsnap
+  - multi-mpc-snap-monorepo
+  - multi-party-ecdsa-cpp
+  - multi-party-sig-cpp
+  - openssl
+  - safeheron-api-sdk-go
+  - safeheron-api-sdk-java
+  - safeheron-api-sdk-js
+  - safeheron-api-sdk-python
+  - safeheron-crypto-suites-cpp
+  - safeheron-crypto-suites-cpp-sgx
+  - safeheron-offline-recovery-tool
+  - safeheron-sgx-remote-attestation-js
+  - sgx-arweave-cpp
+  - snap-offline-recovery-tool
+  - tss-rsa-cpp
+  - tss-rsa-cpp-sgx
+  - two-party-ecdsa-js
+  - Safeheron

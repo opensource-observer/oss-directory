@@ -1,0 +1,13 @@
+version: 3
+slug: deploy dao
+name: Deploy DAO
+projects:
+  - aptos-core
+  - aptos-deployer
+  - dialectlabs-react
+  - migrator
+  - solana-program-index
+  - solana-program-registry
+  - verified-program-artifacts
+  - verified-programs-builder
+  - DeployDAO

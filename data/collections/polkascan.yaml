@@ -1,0 +1,53 @@
+version: 3
+slug: polkascan
+name: Polkascan
+projects:
+  - accounting-api
+  - accounting-ui
+  - calendar-api
+  - calendar-ui
+  - charts-api
+  - charts-ui
+  - explorer
+  - explorer-api
+  - explorer-ui
+  - General-Grants-Program
+  - graphene-sqlalchemy
+  - graphene-sqlalchemy-filter
+  - harvester
+  - labs-ui
+  - Open-Grants-Program
+  - polkadapt
+  - polkadot-js-apps
+  - polkascan-explorer-gui
+  - polkascan-os
+  - polkascan-pre-explorer-api
+  - polkascan-pre-explorer-gui
+  - polkascan-pre-harvester
+  - py-bip39-bindings
+  - py-ed25519-bindings
+  - py-ed25519-zebra-bindings
+  - py-scale-codec
+  - py-sr25519-bindings
+  - py-subkey-wrapper
+  - py-substrate-interface
+  - py-substrate-interface-extension-polkascan
+  - py-substrate-interface-extension-subsquid
+  - py-substrate-metadata-docs
+  - py-subwasm-bindings
+  - runtimes-api
+  - runtimes-ui
+  - rust-builder
+  - social-contract
+  - sqlalchemy-pagination
+  - starlette-graphene3
+  - subkey
+  - substrate-interface
+  - substrate-interface-api
+  - substrate-interface-gui
+  - substrate-multichain-config
+  - substrate-telemetry
+  - tables-api
+  - tables-ui
+  - webassembly-wabt
+  - polkascan
