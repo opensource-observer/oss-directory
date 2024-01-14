@@ -226,9 +226,6 @@ def main(ecosystems_path, projects_directory, collections_directory):
     with open('action_summary.json', 'w', encoding='utf-8') as f:
         json.dump(action_summary, f, indent=4, ensure_ascii=False)
 
-    with open('collection_operation_report.json', 'w', encoding='utf-8') as f:
-        json.dump(report, f, indent=4, ensure_ascii=False)
-
 def get_directory_input(prompt):
     path = input(prompt)
     while not os.path.isdir(path):
