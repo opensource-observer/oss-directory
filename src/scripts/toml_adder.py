@@ -112,7 +112,7 @@ def process_project_toml_file(toml_path, ossd_repo_snapshot):
 
     title = toml_data['title']
     github_orgs = toml_data['github_organizations']
-    print(f"Processing TOML file at {toml_path} for project {title}, including the following GitHub organizations: {github_orgs}.")
+    print(f"\n\nProcessing TOML file at {toml_path} for project {title}, including the following GitHub organizations: {github_orgs}.")
     slugs = []
     for github_org in github_orgs:
         url = github_org.lower().strip().strip("/")
@@ -133,7 +133,6 @@ def process_project_toml_file(toml_path, ossd_repo_snapshot):
                 ossd_repo_snapshot[url] = slug
                 logging.info(f"Added slug for {url} to ossd_repo_snapshot: {slug}")
         slugs.append(slug)
-    print()
     return slugs
 
 
@@ -156,6 +155,8 @@ def process_collection_toml_file(ecosystem_name, crypto_ecosystems_map, ossd_rep
         if title in crypto_ecosystems_map:
             sub_ecosystem_toml_path = crypto_ecosystems_map[title]
             sub_ecosystem_slugs = process_project_toml_file(sub_ecosystem_toml_path, ossd_repo_snapshot)
+            if not sub_ecosystem_slugs:
+                continue
             add_slugs = input(f"Add slugs for {title} to {toml_path}? (Y/N): ").strip().lower()
             if add_slugs == 'y':
                 slugs.extend(sub_ecosystem_slugs)
