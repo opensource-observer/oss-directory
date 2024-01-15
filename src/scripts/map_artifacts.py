@@ -15,7 +15,29 @@ def get_yaml_files(path: str) -> List[str]:
     Returns:
     List[str]: A list of paths to YAML files.
     """
-    return [os.path.join(root, file) for root, dirs, files in os.walk(path) for file in files if file.endswith(".yaml")]
+    return [
+        os.path.join(root, file) 
+        for root, dirs, files in os.walk(path) 
+        for file in files 
+        if file.endswith(".yaml")
+    ]
+
+
+def load_yaml_data(file: str) -> Dict:
+    """Load YAML data from a given file path.
+
+    Args:
+    file (str): The file path to load YAML data from.
+
+    Returns:
+    Dict: The parsed YAML data.
+    """
+    with open(file, 'r') as stream:
+        try:
+            return yaml.safe_load(stream)
+        except yaml.YAMLError as exc:
+            print(f"Error in {file}: {exc}")
+    return {}
 
 
 def get_yaml_data(yaml_files: List[str]) -> Generator[Dict, None, None]:
@@ -28,13 +50,7 @@ def get_yaml_data(yaml_files: List[str]) -> Generator[Dict, None, None]:
     Generator[Dict, None, None]: A generator that yields parsed YAML data.
     """
     for file in yaml_files:
-        with open(file, 'r') as stream:
-            try:
-                data = yaml.safe_load(stream)
-                if data:
-                    yield data
-            except yaml.YAMLError as exc:
-                print(f"Error in {file}: {exc}")
+        yield load_yaml_data(file)
 
 
 def get_yaml_data_from_path(path: str = LOCAL_PATH) -> List[Dict]:
