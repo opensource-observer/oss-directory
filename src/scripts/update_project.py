@@ -24,7 +24,7 @@ def replace_single_quotes_with_double_quotes_in_file(file_path):
         print(f'Error: {e}')
 
 
-def update_github_urls(filepath: str, github_url: str) -> None:
+def append_github_urls(filepath: str, github_url: str) -> None:
     """
     Add GitHub URLs to YAML files for a given project YAML file. The function only updates existing entries.
 
