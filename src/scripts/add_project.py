@@ -71,6 +71,9 @@ def generate_yaml(url: str, slug: str, project_name: str, version: int = 3, repo
     if url in repo_to_slug_mapping:
         print(f"{project_name} ({slug}) : {url} already exists at: {repo_to_slug_mapping[url]}")
         return False
+    
+    if not os.path.exists(os.path.join(LOCAL_PATH, slug[0])):
+        os.makedirs(os.path.join(LOCAL_PATH, slug[0]))
 
     path = os.path.join(LOCAL_PATH, slug[0], f"{slug}.yaml")
     if os.path.exists(path):
