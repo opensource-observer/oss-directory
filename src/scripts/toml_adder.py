@@ -2,6 +2,7 @@ import json
 import logging
 import os
 import toml
+import yaml
 
 from map_artifacts import generate_repo_snapshot
 from add_project import parse_url, generate_yaml
@@ -9,13 +10,21 @@ from update_project import append_github_urls
 from add_collection import generate_collection_yaml
 
 LOCAL_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "projects")
-OSSD_SNAPSHOT = LOCAL_PATH + "/ossd_repo_snapshot.json"
+CRYPTO_SNAPSHOT = "crypto_ecosystems_snapshot.yaml"
+OSSD_SNAPSHOT = LOCAL_PATH + "/ossd_repo_snapshot.yaml"
 
 
-def map_crypto_ecosystems(ecosystems_path):
+def map_crypto_ecosystems(ecosystems_path, load_snapshot=False):
     '''
     Creates a mapping of ecosystem titles to TOML file paths.
     '''
+
+    yaml_path = ecosystems_path + "/crypto_ecosystems_map.yaml"
+    if load_snapshot:
+        with open(yaml_path, 'r', encoding='utf-8') as f:
+            return yaml.safe_load(f)
+
+
     ecosystem_map = {}
     for root, dirs, files in os.walk(ecosystems_path):
         for file in files:
@@ -24,6 +33,10 @@ def map_crypto_ecosystems(ecosystems_path):
                 with open(toml_path, 'r', encoding='utf-8') as f:
                     toml_data = toml.load(f)
                 ecosystem_map[toml_data['title']] = toml_path
+        
+    with open(yaml_path, 'w', encoding='utf-8') as f:
+        yaml.dump(ecosystem_map, f, default_flow_style=False, allow_unicode=True)
+
     return ecosystem_map
 
 
@@ -40,10 +53,13 @@ def initialize_session():
     while not os.path.isdir(ecosystems_path):
         print(f"The directory '{ecosystems_path}' does not exist. Please enter a valid directory.")
         ecosystems_path = input("Enter the path to the ecosystems directory: ")
+    create_new_snapshot = input(f"Do you want to load from a previous snapshot of the crypto ecosystems database? (yes/no): ").strip().lower()
+    if create_new_snapshot == 'yes':
+        crypto_ecosystems_map = map_crypto_ecosystems(ecosystems_path, load_snapshot=True)        
+    else:
+        crypto_ecosystems_map = map_crypto_ecosystems(ecosystems_path)
+        
 
-    # Create a mapping of ecosystem titles to TOML file paths
-    crypto_ecosystems_map = map_crypto_ecosystems(ecosystems_path)
-    
     # Prompt user to take a name of the ecosystem to index
     ecosystem_name = input("Enter the name of the ecosystem you want to index: ")
     while ecosystem_name not in crypto_ecosystems_map:
@@ -56,11 +72,11 @@ def initialize_session():
         ecosystem_name = input("Enter the name of the ecosystem you want to index: ")
     
     # Prompt user to take a snapshot of the repos already in oss directory
-    snapshot_option = input("Do you want to take a snapshot of the repos already in oss directory? (yes/no): ").strip().lower()
-    if snapshot_option == 'yes' or OSSD_SNAPSHOT not in os.listdir(LOCAL_PATH):
+    snapshot_option = input("Do you want to load from a previous snapshot of the repos already in oss directory? (yes/no): ").strip().lower()
+    if snapshot_option != 'yes':
         generate_repo_snapshot(OSSD_SNAPSHOT)
     with open(OSSD_SNAPSHOT, 'r') as f:
-        ossd_repo_snapshot = json.load(f)
+        ossd_repo_snapshot = yaml.safe_load(f)
     
     # Store everything in a dictionary and return it
     session = {
@@ -68,6 +84,7 @@ def initialize_session():
         'crypto_ecosystems_map': crypto_ecosystems_map,
         'ossd_repo_snapshot': ossd_repo_snapshot
     }
+    return session
 
 
 def load_toml_file(file_path):
@@ -95,6 +112,7 @@ def process_project_toml_file(toml_path, ossd_repo_snapshot):
 
     title = toml_data['title']
     github_orgs = toml_data['github_organizations']
+    print(f"Processing TOML file at {toml_path} for project {title}, including the following GitHub organizations: {github_orgs}.")
     slugs = []
     for github_org in github_orgs:
         url = github_org.lower().strip().strip("/")
@@ -108,11 +126,14 @@ def process_project_toml_file(toml_path, ossd_repo_snapshot):
                 continue
             logging.info(f"Slug for {url} does not exist. Generating slug: {slug}")
             add_project = input(f"Add new project {slug} for {url}? (Y/N): ").strip().lower()
+            if add_project == 'q':
+                return slugs
             if add_project == 'y':
                 generate_yaml(url, slug, title)
                 ossd_repo_snapshot[url] = slug
                 logging.info(f"Added slug for {url} to ossd_repo_snapshot: {slug}")
         slugs.append(slug)
+    print()
     return slugs
 
 
