@@ -210,17 +210,18 @@ def main(ecosystems_path, projects_directory, collections_directory):
     '''
     action_summary = {'UPDATES': [], 'ADDED': [], 'SKIPPED': []}
     report = {'errors': []}
-    toml_files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(ecosystems_path) for f in filenames if f.endswith('.toml')]
-    
+    toml_files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(ecosystems_path) for f in filenames if f.endswith('.toml')]    
     total_files = len(toml_files)
-    with tqdm(total=total_files, desc="Total Progress", unit="file") as progress_bar:
-        for toml_file in toml_files:
-            with open(toml_file, 'r', encoding='utf-8') as f:
-                toml_data = toml.load(f)
-            process_file(toml_data, projects_directory, action_summary)
-            process_sub_ecosystems(toml_data, projects_directory, action_summary)
-            process_ecosystem(toml_data, collections_directory, report)
-            progress_bar.update(1)
+    print(f"Processing {total_files} TOML files...")
+    
+    ecosystem_toml_path = get_ecosystem_input(toml_files)
+    if not ecosystem_toml_path:
+        return
+    with open(ecosystem_toml_path, 'r', encoding='utf-8') as f:
+        toml_data = toml.load(f)
+    process_file(toml_data, projects_directory, action_summary)
+    process_sub_ecosystems(toml_data, projects_directory, action_summary)
+    process_ecosystem(toml_data, collections_directory, report)
 
     # Generate the JSON summary for action
     with open('action_summary.json', 'w', encoding='utf-8') as f:
@@ -231,6 +232,18 @@ def get_directory_input(prompt):
     while not os.path.isdir(path):
         print(f"The directory '{path}' does not exist. Please enter a valid directory.")
         path = input(prompt)
+    return path
+
+def get_ecosystem_input(toml_files):
+    ecosystem_name = input("Enter the name of the ecosystem (or Q to quit): ")
+    if ecosystem_name.lower() == 'q':
+        return None
+    while not any(toml_file.endswith(f"{ecosystem_name}.toml") for toml_file in toml_files):
+        print(f"The ecosystem '{ecosystem_name}' does not exist. Please enter a valid ecosystem.")
+        ecosystem_name = input("Enter the name of the ecosystem: ")
+        if ecosystem_name.lower() == 'q':
+            return None
+    path = [toml_file for toml_file in toml_files if toml_file.endswith(f"{ecosystem_name}.toml")][0]
     return path
 
 def save_report(action_summary, report_directory):
