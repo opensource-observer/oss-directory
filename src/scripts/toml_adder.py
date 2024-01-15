@@ -1,36 +1,73 @@
+import json
+import logging
 import os
 import toml
-import yaml
-import json
-from tqdm import tqdm
-import re
 
-class CustomDumper(yaml.Dumper):
-    def increase_indent(self, flow=False, indentless=False):
-        return super(CustomDumper, self).increase_indent(flow, False)
+from map_artifacts import generate_repo_snapshot
+from add_project import parse_url, generate_yaml
+from update_project import append_github_urls
+from add_collection import generate_collection_yaml
 
-def represent_str(dumper, data):
-    if data.startswith("http"):
-        return dumper.represent_scalar('tag:yaml.org,2002:str', data)
-    elif re.match(r'^0x[a-fA-F0-9]{40}$', data):  # Match Ethereum addresses
-        return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')
-    else:
-        if any(c in data for c in ":{}[],&*#?|-<>=!%@\\"):
-            return dumper.represent_scalar('tag:yaml.org,2002:str', data, style='"')
-        return dumper.represent_scalar('tag:yaml.org,2002:str', data)
+LOCAL_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "projects")
+OSSD_SNAPSHOT = LOCAL_PATH + "/ossd_repo_snapshot.json"
 
-yaml.add_representer(str, represent_str, Dumper=CustomDumper)
 
-def slugify(name):
+def map_crypto_ecosystems(ecosystems_path):
     '''
-    Converts a string into a 'slug' format suitable for file names or URLs.
-    This includes converting to lowercase and replacing special characters with underscores.
+    Creates a mapping of ecosystem titles to TOML file paths.
     '''
-    # Remove special characters at the start
-    name = re.sub(r'^[^a-zA-Z0-9]+', '', name)
-    # Replace remaining special characters with underscore
-    name = re.sub(r'[<>:"/\\|?*]', '_', name)
-    return name.lower()
+    ecosystem_map = {}
+    for root, dirs, files in os.walk(ecosystems_path):
+        for file in files:
+            if file.endswith(".toml"):
+                toml_path = os.path.join(root, file)
+                with open(toml_path, 'r', encoding='utf-8') as f:
+                    toml_data = toml.load(f)
+                ecosystem_map[toml_data['title']] = toml_path
+    return ecosystem_map
+
+
+def initialize_session():
+    '''
+    Initializes a new session by creating a new log file and prompting the user to enter the path to the ecosystems directory.
+    Rteturns a dictionary containing the ecosystem name, the mapping of ecosystem titles to TOML file paths, and the snapshot of the repos already in oss directory.
+    '''
+    # Create a new log file for the session
+    logging.basicConfig(filename='data/logs/toml_adder.log', filemode='w', format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
+
+    # Prompt user to enter the path to the ecosystems directory
+    ecosystems_path = input("Enter the path to the ecosystems directory: ")
+    while not os.path.isdir(ecosystems_path):
+        print(f"The directory '{ecosystems_path}' does not exist. Please enter a valid directory.")
+        ecosystems_path = input("Enter the path to the ecosystems directory: ")
+
+    # Create a mapping of ecosystem titles to TOML file paths
+    crypto_ecosystems_map = map_crypto_ecosystems(ecosystems_path)
+    
+    # Prompt user to take a name of the ecosystem to index
+    ecosystem_name = input("Enter the name of the ecosystem you want to index: ")
+    while ecosystem_name not in crypto_ecosystems_map:
+        # Find names that are similar to their input and ask the user to try again
+        similar_names = [name for name in crypto_ecosystems_map.keys() if ecosystem_name.lower() in name.lower()]
+        print(f"The ecosystem '{ecosystem_name}' does not exist. Did you mean one of the following?")
+        for name in similar_names:
+            print(f"- {name}")
+        print()
+        ecosystem_name = input("Enter the name of the ecosystem you want to index: ")
+    
+    # Prompt user to take a snapshot of the repos already in oss directory
+    snapshot_option = input("Do you want to take a snapshot of the repos already in oss directory? (yes/no): ").strip().lower()
+    if snapshot_option == 'yes' or OSSD_SNAPSHOT not in os.listdir(LOCAL_PATH):
+        generate_repo_snapshot(OSSD_SNAPSHOT)
+    with open(OSSD_SNAPSHOT, 'r') as f:
+        ossd_repo_snapshot = json.load(f)
+    
+    # Store everything in a dictionary and return it
+    session = {
+        'ecosystem_name': ecosystem_name,
+        'crypto_ecosystems_map': crypto_ecosystems_map,
+        'ossd_repo_snapshot': ossd_repo_snapshot
+    }
 
 
 def load_toml_file(file_path):
@@ -44,144 +81,69 @@ def load_toml_file(file_path):
     except Exception as e:
         return None, str(e)
     
-def load_yaml_file(file_path):
-    '''
-    Loads and parses a YAML file from the given file path using safe_load.
-    Returns the parsed data and an error message (if any).
-    '''
-    try:
-        with open(file_path, 'r') as file:
-            return yaml.safe_load(file), None
-    except Exception as e:
-        return None, str(e)
 
-def save_yaml_file(data, file_path):
-    '''
-    Saves the given data to a YAML file at the specified file path.
-    It also performs post-processing to unquote the 'projects' list entries.
-    '''
-    try:
-        os.makedirs(os.path.dirname(file_path), exist_ok=True)
-        with open(file_path, 'w') as file:
-            yaml_data = yaml.dump(data, Dumper=CustomDumper, allow_unicode=True, sort_keys=False, default_flow_style=False, indent=2)
-            # Post-processing YAML data to unquote the 'projects' list entries
-            yaml_data = unquote_projects(yaml_data)
-            file.write(yaml_data)
-        return True, None
-    except Exception as e:
-        return False, str(e)
+def process_project_toml_file(toml_path, ossd_repo_snapshot):
+    """
+    Process a TOML file containing project information. It reads the TOML file,
+    extracts the title and github_organizations, and returns a list of slugs.
+    """
 
-def unquote_projects(yaml_data):
-    # Regular expression to find and unquote projects list items
-    unquoted_yaml_data = re.sub(r"-\s+\"([^\"]+)\"", r"- \1", yaml_data)
-    return unquoted_yaml_data
+    toml_data, error = load_toml_file(toml_path)
+    if toml_data is None:
+        logging.error(f"Error loading TOML data at {toml_path}: {error}")
+        return
 
-def get_project_slug_from_url(url):
-    '''
-    Extracts and returns the last part of a URL, typically used to get a slug or identifier.
-    '''
-    parts = url.split('/')
-    return parts[-1] if len(parts) > 0 else None
-
-
-def update_yaml(yaml_data, new_urls):
-    '''
-    Updates the given YAML data with new URLs.
-    Ensures that each URL is unique within the YAML data structure.
-    '''
-    existing_urls = {url['url'] for url in yaml_data.get('github', [])}
-    yaml_data['github'] = yaml_data.get('github', [])
-    for url in new_urls:
-        if url not in existing_urls:
-            yaml_data['github'].append({'url': url})
-    return yaml_data
-    
-def write_yaml_file(file_path, data, action_summary, action_type, toml_file_title):
-    '''
-    Writes the given data to a YAML file and updates the action summary.
-    This function is used to record actions (updates, additions, skips) on YAML files.
-    '''
-    file_exists = os.path.exists(file_path)
-    action = 'UPDATES' if file_exists else 'ADDED'
-    existing_data = {}
-    if file_exists:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            existing_data = yaml.safe_load(f) or {}
-    if existing_data != data:
-        with open(file_path, 'w', encoding='utf-8') as f:
-            yaml.dump(data, f, Dumper=CustomDumper, sort_keys=False, default_flow_style=False, allow_unicode=True, width=float("inf"), indent=2)
-        action_summary[action].append({'file_path': file_path, 'action': action_type, 'toml_file': toml_file_title})
-    else:
-        action_summary['SKIPPED'].append({'file_path': file_path, 'reason': 'No changes made', 'toml_file': toml_file_title})
-        
-def process_file(toml_data, projects_directory, action_summary):
-    '''
-    Processes a single TOML file. It reads project information from the TOML file,
-    updates or creates corresponding YAML files in the projects directory,
-    and records the actions taken in the action summary.
-    '''
-    title_slug = slugify(toml_data['title'])
-    org_urls = [org.strip() for org in toml_data['github_organizations']]
-    yaml_path = os.path.join(projects_directory, title_slug[0], f"{title_slug}.yaml")
-    yaml_data = {'version': 3, 'slug': title_slug, 'name': toml_data['title'], 'github': [{'url': url} for url in org_urls]}
-    if os.path.exists(yaml_path):
-        with open(yaml_path, 'r', encoding='utf-8') as f:
-            yaml_data = yaml.safe_load(f) or {}
-        yaml_data = update_yaml(yaml_data, org_urls)
-    os.makedirs(os.path.dirname(yaml_path), exist_ok=True)
-    write_yaml_file(yaml_path, yaml_data, action_summary, 'overall_processing', toml_data['title'])
-
-def process_sub_ecosystems(toml_data, projects_directory, action_summary):
-    '''
-    Processes sub-ecosystems defined in a TOML file. For each sub-ecosystem,
-    it creates or updates a YAML file in the projects directory and updates the action summary.
-    '''
-    for sub_ecosystem_name in toml_data.get('sub_ecosystems', []):
-        sub_ecosystem_slug = slugify(sub_ecosystem_name)
-        sub_ecosystem_path = os.path.join(projects_directory, sub_ecosystem_slug[0], f"{sub_ecosystem_slug}.yaml")
-        if os.path.exists(sub_ecosystem_path):
-            with open(sub_ecosystem_path, 'r', encoding='utf-8') as f:
-                sub_yaml_data = yaml.safe_load(f) or {}
-            sub_yaml_data = update_yaml(sub_yaml_data, toml_data['github_organizations'])
-            write_yaml_file(sub_ecosystem_path, sub_yaml_data, action_summary, 'sub_ecosystems_processing', toml_data['title'])
+    title = toml_data['title']
+    github_orgs = toml_data['github_organizations']
+    slugs = []
+    for github_org in github_orgs:
+        url = github_org.lower().strip().strip("/")
+        if url in ossd_repo_snapshot:
+            slug = ossd_repo_snapshot[url]
+            logging.info(f"Slug for {url} already exists: {slug}")
         else:
-            pass
-
-def process_ecosystem(ecosystem_data, collections_directory, report):
-    '''
-    Processes an ecosystem's data, creating or updating its YAML file in the collections directory.
-    It also handles processing of any defined repositories and sub-ecosystems.
-    Errors encountered during processing are added to the report.
-    '''
-    try:
-        ecosystem_slug = slugify(ecosystem_data['title'])
-        collection_path = os.path.join(collections_directory, f"{ecosystem_slug}.yaml")
-        collection_data, _ = load_yaml_file(collection_path)
-
-        if collection_data is None:
-            collection_data = {'version': 3, 'slug': ecosystem_slug, 'name': ecosystem_data['title'], 'projects': []}
-
-        for repo in ecosystem_data.get('repo', []):
-            project_slug = get_project_slug_from_url(repo['url'])
-            if project_slug and project_slug not in collection_data['projects']:
-                collection_data['projects'].append(project_slug)
-
-        for github_org in ecosystem_data.get('github_organizations', []):
-            org_project_slug = get_project_slug_from_url(github_org)
-            if org_project_slug and org_project_slug not in collection_data['projects']:
-                collection_data['projects'].append(org_project_slug)
-
-        for sub_ecosystem in ecosystem_data.get('sub_ecosystems', []):
-            process_ecosystem(sub_ecosystem, collections_directory, report)
-
-        success, error = save_yaml_file(collection_data, collection_path)
-        if not success:
-            report['errors'].append({'file': collection_path, 'error': str(error)})
-    except Exception as e:
-        report['errors'].append({'file': str(ecosystem_data), 'error': str(e)})
+            slug = parse_url(url)
+            if not slug:
+                logging.error(f"Error parsing URL: {url}")
+                continue
+            logging.info(f"Slug for {url} does not exist. Generating slug: {slug}")
+            add_project = input(f"Add new project {slug} for {url}? (Y/N): ").strip().lower()
+            if add_project == 'y':
+                generate_yaml(url, slug, title)
+                ossd_repo_snapshot[url] = slug
+                logging.info(f"Added slug for {url} to ossd_repo_snapshot: {slug}")
+        slugs.append(slug)
+    return slugs
 
 
-def process_ecosystems(ecosystems_path, collections_directory, report, progress_bar):
+def process_collection_toml_file(ecosystem_name, crypto_ecosystems_map, ossd_repo_snapshot):
+    """
+    Process a TOML file containing collection information. It reads the TOML file,
+    extracts the title and sub_ecosystems, and creates/returns a list of project slugs.
+    """
+
+    toml_path = crypto_ecosystems_map[ecosystem_name]
+    toml_data, error = load_toml_file(toml_path)
+    if toml_data is None:
+        logging.error(f"Error loading TOML data at {toml_path}: {error}")
+        return
+    logging.info(f"Processing TOML file at {toml_path} for ecosystem {ecosystem_name}...")
+
+    sub_ecosystem_titles = toml_data['sub_ecosystems']
+    slugs = []
+    for title in sub_ecosystem_titles:
+        if title in crypto_ecosystems_map:
+            sub_ecosystem_toml_path = crypto_ecosystems_map[title]
+            sub_ecosystem_slugs = process_project_toml_file(sub_ecosystem_toml_path, ossd_repo_snapshot)
+            add_slugs = input(f"Add slugs for {title} to {toml_path}? (Y/N): ").strip().lower()
+            if add_slugs == 'y':
+                slugs.extend(sub_ecosystem_slugs)
+        else:
+            logging.error(f"Sub-ecosystem {title} does not exist.")
+
+    slugs = sorted(list(set(slugs)))
+    return slugs
+
     '''
     Processes all ecosystems located at the given path. It iterates through each TOML file,
     processes the contained data, and updates the given report with any errors.
@@ -203,69 +165,32 @@ def process_ecosystems(ecosystems_path, collections_directory, report, progress_
                 finally:
                     progress_bar.update(1)
                     
-def main(ecosystems_path, projects_directory, collections_directory):
+def main(version=3):
     '''
     Main function that orchestrates the processing of ecosystems, projects, and collections.
-    It initializes summaries and reports, processes each TOML file, and writes the results to JSON files.
     '''
-    action_summary = {'UPDATES': [], 'ADDED': [], 'SKIPPED': []}
-    report = {'errors': []}
-    toml_files = [os.path.join(dp, f) for dp, dn, filenames in os.walk(ecosystems_path) for f in filenames if f.endswith('.toml')]    
-    total_files = len(toml_files)
-    print(f"Processing {total_files} TOML files...")
-    
-    ecosystem_toml_path = get_ecosystem_input(toml_files)
-    if not ecosystem_toml_path:
-        return
-    with open(ecosystem_toml_path, 'r', encoding='utf-8') as f:
-        toml_data = toml.load(f)
-    process_file(toml_data, projects_directory, action_summary)
-    process_sub_ecosystems(toml_data, projects_directory, action_summary)
-    process_ecosystem(toml_data, collections_directory, report)
 
-    # Generate the JSON summary for action
-    with open('action_summary.json', 'w', encoding='utf-8') as f:
-        json.dump(action_summary, f, indent=4, ensure_ascii=False)
+    # Initialize a new session
+    session = initialize_session()
+    ecosystem_name = session['ecosystem_name']
+    crypto_ecosystems_map = session['crypto_ecosystems_map']
+    ossd_repo_snapshot = session['ossd_repo_snapshot']
 
-def get_directory_input(prompt):
-    path = input(prompt)
-    while not os.path.isdir(path):
-        print(f"The directory '{path}' does not exist. Please enter a valid directory.")
-        path = input(prompt)
-    return path
-
-def get_ecosystem_input(toml_files):
-    ecosystem_name = input("Enter the name of the ecosystem (or Q to quit): ")
-    if ecosystem_name.lower() == 'q':
-        return None
-    while not any(toml_file.endswith(f"{ecosystem_name}.toml") for toml_file in toml_files):
-        print(f"The ecosystem '{ecosystem_name}' does not exist. Please enter a valid ecosystem.")
-        ecosystem_name = input("Enter the name of the ecosystem: ")
-        if ecosystem_name.lower() == 'q':
-            return None
-    path = [toml_file for toml_file in toml_files if toml_file.endswith(f"{ecosystem_name}.toml")][0]
-    return path
-
-def save_report(action_summary, report_directory):
-    report_path = os.path.join(report_directory, 'toml_adder_report.json')
-    with open(report_path, 'w', encoding='utf-8') as f:
-        json.dump(action_summary, f, indent=4)
-    print(f"Report saved at: {report_path}")
+    # Process the ecosystem as a collection
+    project_slugs = process_collection_toml_file(**session)
+    if project_slugs:
+        for slug in project_slugs:
+            print(f"- {slug}")
+        make_collection = input(f"Make collection for {ecosystem_name}? (Y/N): ").strip().lower()
+        if make_collection == 'y':
+            collection_slug = input(f"Enter a slug for the collection: ").strip().lower()
+            collection_name = input(f"Enter a name for the collection: ").strip()
+            if not collection_name:
+                collection_name = ecosystem_name
+            collection_path = generate_collection_yaml(collection_slug, collection_name, project_slugs, version=version)
+        if collection_path:
+            logging.info(f"Created collection file at {collection_path}")
+        
 
 if __name__ == "__main__":
-    ecosystems_path = get_directory_input("Enter the path for the ecosystems directory: ")
-    projects_directory = 'data/projects'
-    collections_directory = 'data/collections'
-    
-    main(ecosystems_path, projects_directory, collections_directory)
-
-    action_summary = {"UPDATES": [], "ADDED": [], "SKIPPED": []}
-
-    save_report_option = input("Do you want to save a report? (yes/no): ").strip().lower()
-    if save_report_option == 'yes':
-        custom_directory = input("Enter a custom directory to save the report or leave blank to save at root: ").strip()
-        if not custom_directory:
-            custom_directory = os.getcwd()
-        save_report(action_summary, custom_directory)
-    else:
-        print("Report not saved.")
+    main()
