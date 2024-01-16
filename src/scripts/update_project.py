@@ -2,7 +2,7 @@ import json
 import os
 import sys
 
-from map_artifacts import get_yaml_data_from_path
+from map_artifacts import get_yaml_data_from_path, load_yaml_data
 from write_yaml import dump
 
 
@@ -22,6 +22,36 @@ def replace_single_quotes_with_double_quotes_in_file(file_path):
         print(f'Successfully replaced single quotes with double quotes in {file_path}')
     except Exception as e:
         print(f'Error: {e}')
+
+
+def append_github_urls(filepath: str, github_url: str) -> None:
+    """
+    Add GitHub URLs to YAML files for a given project YAML file. The function only updates existing entries.
+
+    Args:
+    filepath (str): The file path of the YAML file containing project details.
+    github_url (str): The GitHub URL to add.
+    """
+    if not os.path.exists(filepath):
+        print(f"File does not exist: {filepath}")
+        return
+    
+    project_data = load_yaml_data(filepath)
+    if not project_data:
+        print(f"Error loading YAML data at {filepath}.")
+        return
+
+    yaml_url_data = project_data.get("urls", [])
+    url = github_url.lower().strip().strip("/")
+    if url in yaml_url_data:
+        print(f"URL {url} already exists.")
+        return
+    
+    yaml_url_data.append(url)
+    project_data["urls"] = yaml_url_data
+    dump(project_data, filepath)
+    print(f"Updated {filepath}")
+    replace_single_quotes_with_double_quotes_in_file(project_path)
 
 
 def update_addresses_from_json(filepath: str) -> None:
