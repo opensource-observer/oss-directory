@@ -6,25 +6,6 @@
  */
 
 /**
- * A project is a collection of artifacts
- */
-export interface Project {
-  version: number;
-  slug: string;
-  name: string;
-  github?: URL[];
-  npm?: URL[];
-  blockchain?: BlockchainAddress[];
-  [k: string]: unknown;
-}
-/**
- * A generic URL
- */
-export interface URL {
-  url: string;
-  [k: string]: unknown;
-}
-/**
  * An address on a blockchain
  */
 export interface BlockchainAddress {
