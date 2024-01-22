@@ -51,7 +51,7 @@ def append_github_urls(filepath: str, github_url: str) -> None:
     project_data["urls"] = yaml_url_data
     dump(project_data, filepath)
     print(f"Updated {filepath}")
-    replace_single_quotes_with_double_quotes_in_file(project_path)
+    replace_single_quotes_with_double_quotes_in_file(filepath)
 
 
 def update_addresses_from_json(filepath: str) -> None:
