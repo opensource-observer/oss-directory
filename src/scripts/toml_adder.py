@@ -12,6 +12,7 @@ from add_collection import generate_collection_yaml
 LOCAL_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "projects")
 CRYPTO_SNAPSHOT = "crypto_ecosystems_snapshot.yaml"
 OSSD_SNAPSHOT = LOCAL_PATH + "/ossd_repo_snapshot.yaml"
+LOGGING_PATH = "data/logs/toml_adder.log"
 
 
 def map_crypto_ecosystems(ecosystems_path, load_snapshot=False):
@@ -45,8 +46,8 @@ def initialize_session():
     Initializes a new session by creating a new log file and prompting the user to enter the path to the ecosystems directory.
     Rteturns a dictionary containing the ecosystem name, the mapping of ecosystem titles to TOML file paths, and the snapshot of the repos already in oss directory.
     '''
-    # Create a new log file for the session
-    logging.basicConfig(filename='data/logs/toml_adder.log', filemode='w', format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
+    # Generate log for the session
+    logging.basicConfig(filename=LOGGING_PATH, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
 
     # Prompt user to enter the path to the ecosystems directory
     ecosystems_path = input("Enter the path to the ecosystems directory: ")
@@ -118,6 +119,7 @@ def process_project_toml_file(toml_path, ossd_repo_snapshot):
         url = github_org.lower().strip().strip("/")
         if url in ossd_repo_snapshot:
             slug = ossd_repo_snapshot[url]
+            print(f"Slug for {url} already exists: {slug}")
             logging.info(f"Slug for {url} already exists: {slug}")
         else:
             slug = parse_url(url)
@@ -132,6 +134,9 @@ def process_project_toml_file(toml_path, ossd_repo_snapshot):
                 generate_yaml(url, slug, title)
                 ossd_repo_snapshot[url] = slug
                 logging.info(f"Added slug for {url} to ossd_repo_snapshot: {slug}")
+            else:
+                logging.info(f"Skipping {url}")
+                continue
         slugs.append(slug)
     return slugs
 
@@ -157,7 +162,7 @@ def process_collection_toml_file(ecosystem_name, crypto_ecosystems_map, ossd_rep
             sub_ecosystem_slugs = process_project_toml_file(sub_ecosystem_toml_path, ossd_repo_snapshot)
             if not sub_ecosystem_slugs:
                 continue
-            add_slugs = input(f"Add slugs for {title} to {toml_path}? (Y/N): ").strip().lower()
+            add_slugs = input(f"Add slugs {sub_ecosystem_slugs} for {title} to {ecosystem_name} collection? (Y/N): ").strip().lower()
             if add_slugs == 'y':
                 slugs.extend(sub_ecosystem_slugs)
         else:
