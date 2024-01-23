@@ -39,38 +39,52 @@ def fetch_karma_projects(network):
     list: A list of fetched projects including metadata from IPFS.
     """
 
-    # Lookup schema ID for network
-    schema_mapping = {
+    # Lookup schemas for each network
+    projects_schema_map = {
+        "optimism": "0x5b873b6e7a16207b526dde366e8164e95bcda2f009272306519667c5e94d2191",
+        "arbitrum": "0xac2a06e955a7e25e6729efe1a6532237e3435b21ccd3dc827ae3c94e624d25b3"
+    }
+    updates_schema_map = {
         "arbitrum": "0x16bfe4783b7a9c743c401222c56a07ecb77ed42afc84b61ff1f62f5936c0b9d7",
         "optimism": "0x70a3f615f738fc6a4f56100692ada93d947c028b840940d97af7e7d6f0fa0577"
     }
-    schema_id = schema_mapping.get(network)
-    if not schema_id:
+    projects_schema = projects_schema_map.get(network)
+    updates_schema = updates_schema_map.get(network)
+    if not projects_schema or not updates_schema:
         print(f"Error: unknown network {network}")
         return
     
-    # Fetch attestations from the EAS subgraph
-    attestations = fetch_attestations(network=network, schema_id=schema_id)
+    # Fetch projects from the EAS subgraph
+    projects = fetch_attestations(network=network, schema_id=projects_schema)
 
-    # Fetch IPFS data for every attestation
-    for attestation in attestations:
-        try:
-            hash = attestation["json"].get("hash")
-            if hash:
-                ipfs_data = get_ipfs_data(hash)
-                attestation.update({"ipfs_data": ipfs_data})
-            else:
-                print(f"Warning {attestation['id']} has no IPFS hash")
-        except Exception as e:
-            print(e)
-            print(f"Error: {attestation}")
+    # Fetch updates about projects from the EAS subgraph
+    updates = fetch_attestations(network=network, schema_id=updates_schema)
+
+    # Link updates to projects and fetch update data from IPFS
+    for project in projects:
+        if project["project"] != True:
+            continue
+        project["updates"] = []
+        for update_attestation in updates:
+            if project["id"] == update_attestation["refUID"]:
+                try:
+                    hash = update_attestation["json"].get("hash")
+                    if hash:
+                        ipfs_data = get_ipfs_data(hash)
+                        update_attestation.update({"ipfs_data": ipfs_data})
+                    else:
+                        print(f"Warning {update_attestation['id']} has no IPFS hash")
+                except Exception as e:
+                    print(e)
+                    print(f"Error: {update_attestation}")
+                project["updates"].append(update_attestation)
     
     # Dump to JSON file
     if not os.path.exists("temp"):
         os.makedirs("temp")
-    export_path = f"temp/{network}-{schema_id}.json"
+    export_path = f"temp/{network}-karma-gap-projects.json"
     with open(export_path, "w") as f:
-        json.dump(attestations, f, indent=2)
+        json.dump(projects, f, indent=2)
 
 
 def main():
