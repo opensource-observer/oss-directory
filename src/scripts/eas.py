@@ -119,7 +119,8 @@ def fetch_attestations(network, schema_id, time_created_after=0, query_limit=100
             break
 
     print(f"Total attestations for Schema ID {schema_id} on {network}: {len(all_attestations)}")
-    return all_attestations
+    results = [parse_attestation_data(attestation) for attestation in all_attestations]
+    return results
 
 
 def main(network, schema_id):
@@ -134,10 +135,8 @@ def main(network, schema_id):
     if not os.path.exists("temp"):
         os.makedirs("temp")
     export_path = f"temp/{network}-{schema_id}.json"
-    data = [parse_attestation_data(attestation) for attestation in results]
-
     with open(export_path, "w") as f:
-        json.dump(data, f, indent=2)
+        json.dump(results, f, indent=2)
     print(f"Data exported to {export_path}")
 
 
