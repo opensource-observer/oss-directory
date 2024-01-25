@@ -1,3 +1,4 @@
+import logging
 import json
 import os
 import sys
@@ -8,6 +9,7 @@ from write_yaml import dump
 
 LOCAL_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "projects")
 
+logging.basicConfig(level=logging.INFO, filename="update_project.log", filemode="w", datefmt="%Y-%m-%d %H:%M:%S", format="%(asctime)-15s %(levelname)-8s %(message)s")
 
 def replace_single_quotes_with_double_quotes_in_file(file_path):
     try:
@@ -19,9 +21,9 @@ def replace_single_quotes_with_double_quotes_in_file(file_path):
         with open(file_path, 'w') as file:
             file.write(modified_content)
 
-        print(f'Successfully replaced single quotes with double quotes in {file_path}')
+        logging.info(f'Successfully replaced single quotes with double quotes in {file_path}')
     except Exception as e:
-        print(f'Error: {e}')
+        logging.error(f'Error replacing single quotes with double quotes in {file_path}: {e}')
 
 
 def append_github_urls(filepath: str, github_url: str) -> None:
@@ -33,24 +35,24 @@ def append_github_urls(filepath: str, github_url: str) -> None:
     github_url (str): The GitHub URL to add.
     """
     if not os.path.exists(filepath):
-        print(f"File does not exist: {filepath}")
+        logging.error(f"File does not exist: {filepath}")
         return
     
     project_data = load_yaml_data(filepath)
     if not project_data:
-        print(f"Error loading YAML data at {filepath}.")
+        logging.error(f"Error loading YAML data at {filepath}.")
         return
 
     yaml_url_data = project_data.get("urls", [])
     url = github_url.lower().strip().strip("/")
     if url in yaml_url_data:
-        print(f"URL {url} already exists.")
+        logging.warning(f"URL {url} already exists.")
         return
     
     yaml_url_data.append(url)
     project_data["urls"] = yaml_url_data
     dump(project_data, filepath)
-    print(f"Updated {filepath}")
+    logging.info(f"Updated {filepath}")
     replace_single_quotes_with_double_quotes_in_file(filepath)
 
 
@@ -64,7 +66,7 @@ def update_addresses_from_json(filepath: str) -> None:
     filepath (str): The file path of the JSON file containing address details.
     """    
     if not os.path.exists(filepath):
-        print("File does not exist.")
+        logging.error("File does not exist.")
         return
     
     
@@ -75,31 +77,46 @@ def update_addresses_from_json(filepath: str) -> None:
         for slug, addresses in data.items():
             project_path = os.path.join(LOCAL_PATH, slug[0], f"{slug}.yaml")
             if not os.path.exists(project_path):
-                print(f"File {project_path} does not exist.")
+                logging.warning(f"File {project_path} does not exist.")
                 continue
             
             project_data = yaml_data.get(slug)
-            yaml_address_data = project_data.get("blockchain", {})
+            yaml_address_data = project_data.get("blockchain", [])
             for address, details in addresses.items():
                 name = details.get("name")
                 networks = details.get("networks")
                 tags = details.get("tags")
 
-                for entry in yaml_address_data:
+                updated = False
+                for entry in yaml_address_data:                    
                     if entry['address'].lower() == address.lower():
                         if name and not entry.get("name"):
                             entry["name"] = name
                         entry["networks"] = list(set(entry.get("networks", []) + networks))
                         entry["tags"] = list(set(entry.get("tags", []) + tags))
+                        logging.info(f"Updated {address} in {project_path}")
+                        updated = True
                         break
+                if not updated:
+                    entry = {
+                        "address": address,
+                        "networks": networks,
+                        "tags": tags
+                    }
+                    if name:
+                        entry["name"] = name
+                    yaml_address_data.append(entry)
+                    logging.info(f"Added {address} to {project_path}")
 
             dump(project_data, project_path)
-            print(f"Updated {project_path}")
+            logging.info(f"Dumped YAML at {project_path}")
             replace_single_quotes_with_double_quotes_in_file(project_path)
                 
 
 def main() -> None:
-    update_addresses_from_json(sys.argv[1])
+    inpath = sys.argv[1]
+    logging.info(f"Processing {inpath}")
+    update_addresses_from_json(inpath)
 
 
 if __name__ == "__main__":
