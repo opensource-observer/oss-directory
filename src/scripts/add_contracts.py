@@ -104,12 +104,30 @@ def add_contracts_from_dune_export(filepath: str, chain: str) -> None:
             update_address(project_slug, contract_address, name, [chain], ['contract'])
 
         logging.info(f"No YAML for {namespace} : {from_address} -> {contract_address} ({name})")
-        if from_address not in missing_yaml:
-            missing_yaml[from_address] = namespace
 
-    df_missing = pd.DataFrame.from_dict(missing_yaml, orient='index', columns=['namespace'])
-    df_missing.to_csv(f'temp/missing_yaml_{chain}.csv')            
-        
+        if namespace not in missing_yaml:
+            missing_yaml[namespace] = {from_address: 1}
+        elif from_address not in missing_yaml[namespace]:
+            missing_yaml[namespace][from_address] = 1
+        else:
+            missing_yaml[namespace][from_address] += 1
+
+    short_tail = []
+    long_tail = []
+    for namespace, from_addresses in missing_yaml.items():
+        if len(from_addresses) > 2:
+            short_tail.append(namespace)
+        elif sum(from_addresses.values()) > 2:
+            short_tail.append(namespace)
+        else:
+            long_tail.append(namespace)
+
+    results = {
+        "short_tail": short_tail,
+        "data": missing_yaml
+    }
+    with open(f"temp/missing_yaml_{chain}.json", "w") as f:
+        json.dump(results, f, indent=2)
 
 if __name__ == "__main__":
     add_contracts_from_dune_export(sys.argv[1], sys.argv[2])
