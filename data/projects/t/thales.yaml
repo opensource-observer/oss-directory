@@ -12,20 +12,20 @@ blockchain:
       - optimism
   - address: "0x9841484a4a6c0b61c4eea71376d76453fd05ec9c"
     tags:
-      - deployer
       - eoa
       - creator
+      - deployer
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0x8314125c8b68af2afd0d151eb4a551e88128a2ae"
     tags:
-      - deployer
       - eoa
       - creator
+      - deployer
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0x2d356b114cbca8deff2d8783eac2a5a5324fe1df"
     tags:
       - contract
@@ -3344,12 +3344,12 @@ blockchain:
       - optimism
   - address: "0xe2881cad27db4c27fb3814ad97cca694b80c0fa0"
     tags:
-      - factory
       - contract
+      - factory
     name: BinaryOptionMarketData
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0x51f1e255a9f82578bf2c004576c4bc84cb9dd8f7"
     tags:
       - contract
@@ -3714,3 +3714,15 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x8559027bac39638438ddb32d713f0b12ef66ea7b"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x34ad8d8c3e12b5a500fe983c43f2a0306dcf0ad1"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

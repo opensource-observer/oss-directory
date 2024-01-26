@@ -66,3 +66,9 @@ blockchain:
     name: SingleStakingRewards
     networks:
       - optimism
+  - address: "0x6bc5fc9d0d908ef8444a7d8f6a7e1a7050a82084"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

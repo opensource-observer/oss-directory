@@ -11,3 +11,10 @@ blockchain:
     networks:
       - optimism
     name: RPGF3 Payout Address
+  - address: "0x706c9f2dd328e2c01483ecf705d2d9708f4ab727"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: PWNDeployer
