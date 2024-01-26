@@ -44,6 +44,14 @@ temp_forks_to_ignore = {
   ]
 }
 
+ignore_addresses = [
+    '0x3fe38087a94903a9d946fa1915e1772fe611000f',
+    '0xfa9da51631268a30ec3ddd1ccbf46c65fad99251',
+    '0x4e59b44847b379578588920ca78fbf26c0b4956c',
+    '0x0000000000ffe8b47b3e2130213b802212439497',
+    '0x1d7c6783328c145393e84fb47a7f7c548f5ee28d',
+    '0x9124b49270a464ddb6f36dc212eee5b1d69d5133'
+]
 
 
 def add_contracts_from_dune_export(filepath: str, chain: str) -> None:
@@ -79,6 +87,8 @@ def add_contracts_from_dune_export(filepath: str, chain: str) -> None:
         name = row['name']
         from_address = row['from']
         contract_address = row['address']
+        if from_address in ignore_addresses:
+            continue
         if from_address in address_to_slug_map:
             if (namespace, name, from_address) in dups:
                 continue
