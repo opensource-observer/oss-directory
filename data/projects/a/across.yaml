@@ -12,12 +12,12 @@ blockchain:
       - optimism
   - address: "0x9a8f92a830a5cb89a3816e3d267cb7791c16b04d"
     tags:
-      - deployer
-      - eoa
       - creator
+      - eoa
+      - deployer
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
     name: across.eth
   - address: "0xb44c433d2b071b95184cf25e1113cc2f1a903cb1"
     tags:
@@ -262,3 +262,10 @@ blockchain:
       - safe
     networks:
       - optimism
+  - address: "0x3fe38087a94903a9d946fa1915e1772fe611000f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: BeaconProxyFactory

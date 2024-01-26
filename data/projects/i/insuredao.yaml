@@ -88,3 +88,16 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x2c9bc901f39f847c2fe5d2d7ac9c5888a2ab8fcf"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0xeace965860d5a33695a2d08f9fa8c4118a38712f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: Factory

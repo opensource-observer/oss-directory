@@ -258,3 +258,23 @@ blockchain:
     tags:
       - contract
       - factory
+  - address: "0x9124b49270a464ddb6f36dc212eee5b1d69d5133"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x93bc2e4061d4b256eb55446952b49c616db4ac0e"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+    name: frax-deployer.eth
+  - address: "0x4600d3b12c39af925c2c07c487d31d17c1e32a35"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+    name: fraxaltdeployer.eth

@@ -19,12 +19,12 @@ blockchain:
       - optimism
   - address: "0x4365f8e70cf38c6ca67de41448508f2da8825500"
     tags:
-      - deployer
-      - eoa
       - creator
+      - eoa
+      - deployer
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0xae0b890a625a87c23a1fccdefb4c26a798719f17"
     tags:
       - eoa
@@ -33,29 +33,29 @@ blockchain:
       - optimism
   - address: "0x2401ae9bbef67458362710f90302eb52b5ce835a"
     tags:
-      - factory
       - contract
+      - factory
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0x8145edddf43f50276641b55bd3ad95944510021e"
     tags:
-      - factory
       - contract
+      - factory
       - proxy
     name: InitializableImmutableAdminUpgradeabilityProxy
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0xa97684ead0e402dc232d5a977953df7ecbab3cdb"
     tags:
-      - factory
       - contract
+      - factory
       - proxy
     name: PoolAddressesProvider
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0x9b18398a9bea8bd4c86722c3f467809842aa241c"
     tags:
       - contract
@@ -565,3 +565,17 @@ blockchain:
       - optimism
     tags:
       - contract
+  - address: "0x3fe38087a94903a9d946fa1915e1772fe611000f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: BeaconProxyFactory
+  - address: "0x4e59b44847b379578588920ca78fbf26c0b4956c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy

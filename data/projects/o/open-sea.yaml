@@ -98,3 +98,19 @@ blockchain:
     tags:
       - contract
       - factory
+  - address: "0x00000000f9490004c11cef243f5400493c00ad63"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+    name: ConduitController
+  - address: "0x0000000000ffe8b47b3e2130213b802212439497"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+    name: ImmutableCreate2Factory

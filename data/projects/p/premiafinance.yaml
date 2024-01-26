@@ -13,12 +13,12 @@ blockchain:
       - wallet
   - address: "0xc7f8d87734ab2cbf70030ac8aa82abfe3e8126cb"
     tags:
-      - deployer
-      - eoa
       - creator
+      - eoa
+      - deployer
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0x48d49466cb2efbf05faa5fa5e69f2984edc8d1d7"
     tags:
       - contract
@@ -109,11 +109,11 @@ blockchain:
       - optimism
   - address: "0x89b36ce3491f2258793c7408bd46aac725973ba2"
     tags:
-      - factory
       - contract
+      - factory
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
     name: Premia
   - address: "0x14ac2da11c2cf07ea4c64c83be108b8f11e48f20"
     tags:
@@ -383,3 +383,10 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x3fe38087a94903a9d946fa1915e1772fe611000f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: BeaconProxyFactory

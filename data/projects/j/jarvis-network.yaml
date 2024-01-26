@@ -163,3 +163,10 @@ blockchain:
     name: CreditLineFactory
     networks:
       - optimism
+  - address: "0xe76b6e86cedd9f44957fe0e7729e2c6b4e009b13"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: CreditLineFactory

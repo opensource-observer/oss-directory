@@ -6,12 +6,12 @@ github:
 blockchain:
   - address: "0x4b9f696c998f9549485a3a85dca692fd6cce491f"
     tags:
-      - deployer
-      - eoa
       - creator
+      - eoa
+      - deployer
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0x2ba1f7e899948153d8377f77dbb9af25443ff728"
     tags:
       - contract
@@ -90,3 +90,10 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x3fe38087a94903a9d946fa1915e1772fe611000f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: BeaconProxyFactory

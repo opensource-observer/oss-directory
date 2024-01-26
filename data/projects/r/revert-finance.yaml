@@ -13,12 +13,12 @@ blockchain:
       - mainnet
   - address: "0x8df57e3d9ddde355dce1adb19ebce93419ffa0fb"
     tags:
-      - deployer
-      - eoa
       - creator
+      - eoa
+      - deployer
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0x5411894842e610c4d0f6ed4c232da689400f94a1"
     tags:
       - contract
@@ -99,3 +99,9 @@ blockchain:
     networks:
       - optimism
     name: AutoExit
+  - address: "0x83681c14770b44361e21faf91d8325423365ea5c"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

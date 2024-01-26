@@ -328,19 +328,19 @@ blockchain:
       - optimism
   - address: "0x8a598f5629d3e6a8747afbfd6b9b982a2d1078a1"
     tags:
-      - deployer
-      - eoa
       - creator
+      - eoa
+      - deployer
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0xecb8ffcb2369ef188a082a662f496126f66c8288"
     tags:
-      - factory
       - contract
+      - factory
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
     name: TransparentUpgradeableProxy
   - address: "0xaf0f96e8702cb1b8160e43c8c020c608cd7b134d"
     tags:

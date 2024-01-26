@@ -18,12 +18,12 @@ blockchain:
       - creator
   - address: "0x1fccc097db89a86bfc474a1028f93958295b1fb7"
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
     tags:
-      - deployer
-      - eoa
       - creator
+      - eoa
+      - deployer
   - address: "0xfc7a495389cd3454f5cc0ecaa55d30e343a1fc16"
     name: LiquiditySeedingHelper
     networks:
@@ -199,11 +199,11 @@ blockchain:
   - address: "0x28de02ac3c3f5ef427e55c321f73fdc7f192e8e4"
     name: PendleSwap
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x418273abdeafe67c811a7671e5406e15bba10870"
     name: BaseSplitCodeFactoryContract
     networks:
@@ -267,8 +267,23 @@ blockchain:
   - address: "0xf5a7de2d276dbda3eef1b62a9e718eff4d29ddc8"
     name: PendleYieldContractFactoryV2
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
     tags:
-      - factory
       - contract
+      - factory
+  - address: "0x0000000000ffe8b47b3e2130213b802212439497"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+    name: ImmutableCreate2Factory
+  - address: "0x3fe38087a94903a9d946fa1915e1772fe611000f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: BeaconProxyFactory

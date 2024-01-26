@@ -33,3 +33,16 @@ blockchain:
     name: L2ERC20TokenBridge
     networks:
       - optimism
+  - address: "0x1824988af7a12c339784a171a514e20609896321"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x3fe38087a94903a9d946fa1915e1772fe611000f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: BeaconProxyFactory

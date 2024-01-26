@@ -12,12 +12,12 @@ blockchain:
       - optimism
   - address: "0x924ac9910c09a0215b06458653b30471a152022f"
     tags:
-      - deployer
-      - eoa
       - creator
+      - eoa
+      - deployer
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0xfefec7d3eb14a004029d278393e6ab8b46fb4fca"
     tags:
       - eoa
@@ -26,12 +26,12 @@ blockchain:
       - optimism
   - address: "0x9aa99c23f67c81701c772b106b4f83f6e858dd2e"
     tags:
-      - deployer
-      - eoa
       - creator
+      - eoa
+      - deployer
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0x9f93aca246f457916e49ec923b8ed099e313f763"
     tags:
       - contract
@@ -422,3 +422,24 @@ blockchain:
     tags:
       - contract
       - creator
+  - address: "0x10541b07d8ad2647dc6cd67abd4c03575dade261"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: Swap
+  - address: "0x18f7402b673ba6fb5ea4b95768aabb8aad7ef18a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: Swap
+  - address: "0x652d27c0f72771ce5c76fd400edd61b406ac6d97"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: Swap

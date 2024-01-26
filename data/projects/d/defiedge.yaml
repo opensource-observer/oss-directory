@@ -6,12 +6,12 @@ github:
 blockchain:
   - address: "0x001530e763fe9de4dcfe31bbd8548bcb579ebf3a"
     tags:
-      - deployer
-      - eoa
       - creator
+      - eoa
+      - deployer
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0x86b86c24c7b1f404ada8b4000acbe04158e096bd"
     tags:
       - eoa
@@ -315,3 +315,36 @@ blockchain:
     name: MiniChefV2
     networks:
       - optimism
+  - address: "0x006b61675a64027144c9eb7cb628becbd14aafa4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: DefiEdgeTwapStrategyDeployer
+  - address: "0xe1f2331b70ed2dc3723e4e282ec30ecb11359c81"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: WrapperFactory
+  - address: "0xe50952b00178e09e3773b26429832abf34697339"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0xbd6df46aa3cbed7c23e6f844a2db9b1d12cbe033"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: DefiEdgeStrategyDeployer
+  - address: "0x9645fcdc4f740fde63388bdda9b7bddcde99c9cc"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

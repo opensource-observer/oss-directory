@@ -310,9 +310,23 @@ github:
 blockchain:
   - address: "0x075da589886ba445d7c7e81c472059de7ae65250"
     tags:
-      - deployer
-      - eoa
       - creator
+      - eoa
+      - deployer
+    networks:
+      - optimism
+      - arbitrum
+  - address: "0x322d58b9e75a6918f7e7849aee0ff09369977e08"
     networks:
       - arbitrum
-      - optimism
+    tags:
+      - eoa
+      - deployer
+    name: donate.cdpsaver.eth
+  - address: "0x3fe38087a94903a9d946fa1915e1772fe611000f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: BeaconProxyFactory

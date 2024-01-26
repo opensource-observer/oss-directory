@@ -17,3 +17,9 @@ blockchain:
     networks:
       - optimism
     name: OpenOceanExchangeProxy
+  - address: "0x920fae61b835bbcc50f0e8883f7de26ce9a2047b"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
