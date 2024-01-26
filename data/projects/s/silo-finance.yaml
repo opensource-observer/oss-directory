@@ -3,3 +3,23 @@ slug: silo-finance
 name: Silo Finance
 github:
   - url: https://github.com/silo-finance
+blockchain:
+  - address: "0x9c3832db9f3c1375aa3542c55f6ee9b54f38d944"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x4166487056a922d784b073d4d928a516b074b719"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: SiloFactory
+  - address: "0xe919afa9a8953d9f746d7aa5e9b9ba25e055688c"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa

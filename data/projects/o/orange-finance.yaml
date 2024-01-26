@@ -3,3 +3,23 @@ slug: orange-finance
 name: Orange Finance
 github:
   - url: https://github.com/orange-finance
+blockchain:
+  - address: "0xf16f1191ac4b4cbc25f35588811f661b5fcd30a1"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: OrangeVaultFactoryV1_0
+  - address: "0xe66fffd2d3ade2697b3cbeb69877a1ffe8a1f275"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x71d34147a56803dd44d5342566cb941b4b61c4d7"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa

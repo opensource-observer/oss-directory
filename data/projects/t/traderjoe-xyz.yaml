@@ -3,3 +3,43 @@ slug: traderjoe-xyz
 name: Trader Joe
 github:
   - url: https://github.com/traderjoe-xyz
+blockchain:
+  - address: "0x1886d09c9ade0c5db822d85d21678db67b6c2982"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: LBFactory
+  - address: "0x1119fbb02f38764cd90f2d9fb35fedcd8378ac2a"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x02ef67fc4c983e33ede836bf5aee3d92423501d9"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0xae4ec9901c3076d0ddbe76a520f9e90a6227acb7"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: JoeFactory
+  - address: "0x8e42f2f4101563bf679975178e880fd87d3efd4e"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: LBFactory
+  - address: "0xc8fc59fceb8259534d8b10879273879eddf7eec0"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa

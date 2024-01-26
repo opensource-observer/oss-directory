@@ -237,18 +237,18 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: Factory
   - address: "0x5c85a7ae2b6d29c38cdf360553f8acbc4e684c31"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0x937b94dc8c81ed42b2ada5855b220f098568b2be"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa

@@ -3,3 +3,22 @@ slug: notional-finance
 name: Notional
 github:
   - url: https://github.com/notional-finance
+blockchain:
+  - address: "0x8f5ea3cde898b208280c0e93f3adaaf1f5c35a7e"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0xe6fb62c2218fd9e3c948f0549a2959b509a293c8"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x8b64fa5fd129df9c755eb82db1e16d6d0bdf5bc3"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa

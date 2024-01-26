@@ -12,9 +12,9 @@ blockchain:
       - optimism
   - address: "0x9a8f92a830a5cb89a3816e3d267cb7791c16b04d"
     tags:
-      - eoa
-      - creator
       - deployer
+      - creator
+      - eoa
     networks:
       - optimism
       - arbitrum
@@ -242,12 +242,6 @@ blockchain:
     tags:
       - contract
     name: Optimism_SpokePool
-    networks:
-      - optimism
-  - address: "0x787b66d5281d45126bf0e0f3c9ac682d1e119d6c"
-    tags:
-      - wallet
-      - safe
     networks:
       - optimism
   - address: "0xc127c7a25e6d1e1999df3dc1accddef278a87303"

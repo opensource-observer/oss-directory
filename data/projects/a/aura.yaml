@@ -6,9 +6,9 @@ github:
 blockchain:
   - address: "0x30019eb135532bddf2da17659101cc000c73c8e4"
     tags:
-      - eoa
-      - creator
       - deployer
+      - creator
+      - eoa
     networks:
       - optimism
       - arbitrum
@@ -20,8 +20,8 @@ blockchain:
       - optimism
   - address: "0x53c09096b1dc52e2ef223b2969a714ee75da364f"
     tags:
-      - contract
       - factory
+      - contract
     name: Create2Factory
     networks:
       - optimism

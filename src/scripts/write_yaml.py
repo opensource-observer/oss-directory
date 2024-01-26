@@ -47,3 +47,14 @@ def dump(yaml_data: dict, path: str) -> None:
     formatters = dict(default_flow_style=False, sort_keys=False, indent=2)
     with open(path, 'w') as outfile:
         yaml.dump(yaml_data, outfile, Dumper=MyDumper, **formatters)
+
+
+def replace_single_quotes_with_double_quotes_in_file(file_path):
+        
+    with open(file_path, 'r') as file:
+        file_content = file.read()
+
+    modified_content = file_content.replace("'", '"')
+
+    with open(file_path, 'w') as file:
+        file.write(modified_content)

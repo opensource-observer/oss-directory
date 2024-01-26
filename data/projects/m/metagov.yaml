@@ -28,18 +28,6 @@ blockchain:
       - eoa
     networks:
       - optimism
-  - address: "0xd39d6d3f7433a0cabd90c0ea74d76da29b718314"
-    networks:
-      - optimism
-    tags:
-      - eoa
-      - wallet
-  - address: "0xff2abef3af9655d96da983916e066134adea6390"
-    tags:
-      - eoa
-      - wallet
-    networks:
-      - optimism
   - address: "0x18cbb356cd64193b1a0ca49911fc72cb3d02a5e4"
     tags:
       - contract

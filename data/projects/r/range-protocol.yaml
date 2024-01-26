@@ -3,3 +3,45 @@ slug: range-protocol
 name: Range Protocol
 github:
   - url: https://github.com/range-protocol
+blockchain:
+  - address: "0xb9084c75d361d1d4cfc7663ef31591deab1086d6"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: RangeProtocolFactory
+  - address: "0x2274ac83290eb9355f851b447d3046b32a5b4f52"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: RangeProtocolFactory
+  - address: "0x27c1629b5435b2ffe5709d22e0b530fc244cde3e"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x16d7f55f4f8ac39eb4a30ab58458ef7e5b6de13a"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: RangeProtocolFactory
+  - address: "0x42f2dbb72964ac2854bf1c781e525c5ce1e19d52"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: RangeProtocolFactory
+  - address: "0xcca961f89a03997f834eb5a0104efd9ba1f5800e"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: RangeProtocolFactory

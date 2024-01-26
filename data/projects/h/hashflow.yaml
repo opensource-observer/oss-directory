@@ -6,9 +6,9 @@ github:
 blockchain:
   - address: "0xe8bc44ae4ba6eddb88c8c087fd9b479dff729850"
     tags:
-      - eoa
-      - creator
       - deployer
+      - creator
+      - eoa
     networks:
       - optimism
       - arbitrum
@@ -155,24 +155,24 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
   - address: "0xac6a83b29e5ff66fd558171ead7ed9d619b055d0"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0xde828fdc3f497f16416d1bb645261c7c6a62dab5"
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: HashflowFactory
   - address: "0x75fb2ab4d5b0de8b1a1acdc9124887d35d459084"
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract

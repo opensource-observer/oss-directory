@@ -3,3 +3,16 @@ slug: arb-id
 name: ARB-ID
 github:
   - url: https://github.com/arb-id
+blockchain:
+  - address: "0xb522e32b6b49363f420d2546e13479c05ff27201"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x171e4fa249375834a6198849aca17c7889caab47"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
