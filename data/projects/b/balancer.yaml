@@ -4,19 +4,6 @@ name: Balancer
 github:
   - url: https://github.com/balancer
 blockchain:
-  - address: "0x9098b50ee2d9e4c3c69928a691da3b192b4c9673"
-    networks:
-      - arbitrum
-    tags:
-      - deployer
-      - eoa
-  - address: "0x3d64fb8a2ffd08c186e8060aa57c8011d8b999cc"
-    networks:
-      - arbitrum
-    tags:
-      - deployer
-      - eoa
-    name: nventuro.eth
   - address: "0x7dfdef5f355096603419239ce743bfaf1120312b"
     networks:
       - arbitrum
@@ -37,13 +24,6 @@ blockchain:
     tags:
       - deployer
       - eoa
-  - address: "0xd8b6b96c88ad626eb6209c4876e3b14f45f8803a"
-    networks:
-      - arbitrum
-    tags:
-      - factory
-      - contract
-    name: YearnLinearPoolFactory
   - address: "0x1802953277fd955f9a254b80aa0582f193cf1d77"
     networks:
       - arbitrum
@@ -72,13 +52,6 @@ blockchain:
       - factory
       - contract
     name: StablePoolFactory
-  - address: "0xb08e16cfc07c684daa2f93c70323badb2a6cbfd2"
-    networks:
-      - arbitrum
-    tags:
-      - factory
-      - contract
-    name: ChildChainLiquidityGaugeFactory
   - address: "0x8df6efec5547e31b0eb7d1291b511ff8a2bf987c"
     networks:
       - arbitrum
@@ -86,13 +59,6 @@ blockchain:
       - factory
       - contract
     name: WeightedPoolFactory
-  - address: "0xa3b9515a9c557455bc53f7a535a85219b59e8b2e"
-    networks:
-      - arbitrum
-    tags:
-      - factory
-      - contract
-    name: ERC4626LinearPoolFactory
   - address: "0x4f4269f7008430860693aedb86b0c55962d6e9b7"
     networks:
       - arbitrum
@@ -100,13 +66,6 @@ blockchain:
       - factory
       - contract
     name: BatchRelayerLibrary
-  - address: "0xba12222222228d8ba445958a75a0704d566bf2c8"
-    networks:
-      - arbitrum
-    tags:
-      - factory
-      - contract
-    name: Vault
   - address: "0x2498a2b0d6462d2260eac50ae1c3e03f4829ba95"
     networks:
       - arbitrum
@@ -121,12 +80,6 @@ blockchain:
       - factory
       - contract
     name: AaveLinearPoolFactory
-  - address: "0x697a71353a4bc1eb1356763018a229c27a3fba0c"
-    networks:
-      - arbitrum
-    tags:
-      - deployer
-      - eoa
   - address: "0xcf0a32bbef8f064969f21f7e02328fb577382018"
     networks:
       - arbitrum
