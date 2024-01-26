@@ -78,9 +78,10 @@ def update_address(project_slug: str, address: str, name: str, networks: list, t
         logging.error(f"Error loading YAML data at {project_path}.")
         return False
 
+    # see if there is an existing entry that can be updated
     yaml_address_data = project_data.get("blockchain", [])
-    updated = False
-    for entry in yaml_address_data:                    
+    updated = False                    
+    for entry in yaml_address_data:        
         if entry['address'].lower() == address.lower():
             if name and not entry.get("name"):
                 entry["name"] = name
@@ -90,6 +91,20 @@ def update_address(project_slug: str, address: str, name: str, networks: list, t
             updated = True
             break
     
+    # if there is no existing entry, add a new one
+    if not updated:
+        entry = {
+            "address": address,
+            "networks": networks,
+            "tags": tags
+        }
+        if name:
+            entry["name"] = name
+        logging.info(f"Added {address} to {project_path}")
+        updated = True
+        yaml_address_data.append(entry)
+    
+    # update the YAML data
     if updated:
         dump(project_data, project_path)
         logging.info(f"Dumped YAML at {project_slug[0]}/{project_slug}.yaml")
