@@ -4,26 +4,12 @@ import os
 import sys
 
 from map_artifacts import get_yaml_data_from_path, load_yaml_data
-from write_yaml import dump
+from write_yaml import dump, replace_single_quotes_with_double_quotes_in_file
 
 
 LOCAL_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "projects")
 
 logging.basicConfig(level=logging.INFO, filename="update_project.log", filemode="w", datefmt="%Y-%m-%d %H:%M:%S", format="%(asctime)-15s %(levelname)-8s %(message)s")
-
-
-def replace_single_quotes_with_double_quotes_in_file(file_path):
-    try:
-        with open(file_path, 'r') as file:
-            file_content = file.read()
-
-        modified_content = file_content.replace("'", '"')
-
-        with open(file_path, 'w') as file:
-            file.write(modified_content)
-
-    except Exception as e:
-        logging.error(f'Error replacing single quotes with double quotes in {file_path}: {e}')
 
 
 def append_github_urls(filepath: str, github_url: str) -> None:
