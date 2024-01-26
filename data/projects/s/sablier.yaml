@@ -23,6 +23,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: Sablier
   - address: "0xb1bef51ebca01eb12001a639bdbbff6eeca12b9f"
     networks:
       - optimism

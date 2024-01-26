@@ -37,6 +37,7 @@ blockchain:
       - creator
     networks:
       - optimism
+      - arbitrum
   - address: "0xdcc596169Da6b994b995152031485005b0a0eAbb"
     tags:
       - creator
@@ -62,6 +63,7 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
   - address: "0xa6b71e26c5e0845f74c812102ca7114b6a896ab2"
     name: GnosisSafeProxyFactory v1.3.0
     tags:
@@ -69,9 +71,11 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
   - address: "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
     name: GnosisSafeL2 v1.3.0
     tags:
       - contract
     networks:
       - optimism
+      - arbitrum

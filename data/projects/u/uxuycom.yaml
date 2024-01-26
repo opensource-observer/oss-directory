@@ -22,3 +22,27 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xa15aab1c6281b07b9c59ae828d58572e08be2382"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ExpertSpiderPass
+  - address: "0x336227f062d20b322d81b13dfd033591850290f9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UxuyToken
+  - address: "0xe3c8206fd456d189f89514c8a780b8da611057eb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BabySpiderPass
+  - address: "0xfc83441011e194f493abab9887fe0a65b7b980d6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UPUXUYToken

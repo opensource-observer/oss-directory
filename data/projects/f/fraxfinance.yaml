@@ -278,3 +278,57 @@ blockchain:
       - deployer
       - eoa
     name: fraxaltdeployer.eth
+  - address: "0x95ab45875cffdba1e5f451b950bc2e42c0053f39"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: sfrxETH
+  - address: "0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CrossChainCanonicalFXS
+  - address: "0xddf6b5b2ba110a0267bffb86aeabfe2637cb8375"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CrossChainBridgeBacker_ARBI_AnySwap
+  - address: "0xefa5d36debf5191328b17f2ff74090dadfda9a70"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: IncentivizerAmoV2
+  - address: "0x3405e88af759992937b84e58f2fe691ef0eea320"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CrossChainCanonicalV2
+  - address: "0xcaaab0a72f781b92ba63af27477aa46ab8f653e7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FraxswapRouter
+  - address: "0x178412e79c25968a32e89b11f63b33f733770c2a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CrossChainCanonicalV2
+  - address: "0x17fc002b466eec40dae837fc4be5c67993ddbd6f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CrossChainCanonicalFRAX
+  - address: "0x127963a74c07f72d862f2bdc225226c3251bd117"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FraxCCFarmV2_ArbiCurveVSTFRAX

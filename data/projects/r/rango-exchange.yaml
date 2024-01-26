@@ -82,6 +82,7 @@ blockchain:
     name: OptimizedTransparentUpgradeableProxy
     networks:
       - optimism
+      - arbitrum
   - address: "0x49ca35468148a3ca4737c397d918834b790c1aef"
     tags:
       - contract

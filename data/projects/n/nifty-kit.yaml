@@ -20,11 +20,12 @@ blockchain:
       - optimism
   - address: "0xc11c2eefd856a2a18eb9aaa9a3c5a359e4d49184"
     tags:
-      - contract
       - factory
+      - contract
     name: TransparentUpgradeableProxy
     networks:
       - optimism
+      - arbitrum
   - address: "0x715984cafecb65952dca0d3a925039375e210f37"
     tags:
       - contract
@@ -371,3 +372,15 @@ blockchain:
       - optimism
     tags:
       - contract
+  - address: "0xe55c6e94f71fac46c4f7dadcd0cbb1d9dc916bca"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Plants
+  - address: "0xace5f9160a102954cae37b7792a8805c181b3c60"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DiamondCollection

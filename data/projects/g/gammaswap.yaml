@@ -17,3 +17,39 @@ blockchain:
       - factory
       - contract
     name: GammaPoolFactory
+  - address: "0x163f27e7c4041eef824ef27c1ced0538f4629040"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Liquidator
+  - address: "0x9888f6206d9e1bf0ddbf031a0695c3bc9da20f89"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CPMMGammaPool
+  - address: "0x6989da882f2e5ccf815f6adf6cb5dd63864ebe22"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PriceDataQueries
+  - address: "0x036114a6adadaba0b8c7fee105dc0584612b9018"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PositionManagerQueries
+  - address: "0x8714200da2fb69d6cd188cf02c6b6041dd245976"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PositionManager
+  - address: "0x519ac91e2567133787662056b6de9130cf36e512"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolViewer

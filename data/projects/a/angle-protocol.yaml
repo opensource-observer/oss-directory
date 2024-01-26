@@ -83,6 +83,7 @@ blockchain:
     name: TransparentUpgradeableProxy
     networks:
       - optimism
+      - arbitrum
   - address: "0x658286fc9605f6ff4d0311d0b58670e26ecb27e1"
     tags:
       - contract
@@ -142,6 +143,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: AngleRouterV1
   - address: "0x0750b6fdada48057dbc7103e1e9286f00f997d81"
     tags:
       - contract
@@ -202,6 +205,7 @@ blockchain:
     name: AngleRouterOptimism
     networks:
       - optimism
+      - arbitrum
   - address: "0x7f27082eabdddc9dc3cc6632c9f594d210b9d43c"
     tags:
       - contract
@@ -268,6 +272,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: agEUR_AgTokenSideChainMultiBridge
   - address: "0x3f125ecd51181af1f344adf76e4271d2923707ab"
     tags:
       - contract
@@ -299,6 +305,7 @@ blockchain:
     name: ERC1967Proxy
     networks:
       - optimism
+      - arbitrum
   - address: "0x7db28175b63f154587bbb1cae62d39ea80a23383"
     tags:
       - contract
@@ -311,6 +318,7 @@ blockchain:
     name: ERC1967Proxy
     networks:
       - optimism
+      - arbitrum
   - address: "0xa7c167f58833c5e25848837f45a1372491a535ed"
     tags:
       - contract
@@ -336,3 +344,27 @@ blockchain:
       - deployer
       - creator
       - eoa
+  - address: "0x59153e939c5b4721543251ff3049ea04c755373b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FlashAngle
+  - address: "0x9a33e690aa78a4c346e72f7a5e16e5d7278be835"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AngleRouterV2
+  - address: "0x2904a4d96f88ad4bd548507ba139e892083894f7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Swapper
+  - address: "0x31429d1856ad1377a8a0079410b297e1a9e214c2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CoreBorrow

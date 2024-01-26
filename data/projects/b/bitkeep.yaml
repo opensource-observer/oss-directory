@@ -28,3 +28,9 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x9afd2948f573dd8684347924ebce1847d50621ed"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BKRegistry

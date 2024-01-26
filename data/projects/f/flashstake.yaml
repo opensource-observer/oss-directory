@@ -44,6 +44,7 @@ blockchain:
     name: FlashProtocol
     networks:
       - optimism
+      - arbitrum
   - address: "0xcb1205ac28693beda01e0b66e9b4d06231609bfd"
     tags:
       - contract
@@ -90,3 +91,21 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x9497116d258924621c60384f53afab29cb3ae193"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FlashProtocolProxyV2
+  - address: "0x907a749631ad4149df1d49ee2fd40517b12df573"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FlashGLPStrategy
+  - address: "0x7cd98120d44964ccb670f26dc5e3fde23f345e23"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LiquidStake

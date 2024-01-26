@@ -166,6 +166,7 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
   - address: "0xb555edf5dcf85f42ceef1f3630a52a108e55a654"
     name: UniversalRouter
     tags:
@@ -190,6 +191,7 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
   - address: "0x075b36de1bd11cb361c5b3b1e80a9ab0e7aa8a60"
     name: SwapRouter02
     tags:
@@ -275,3 +277,21 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x4c60051384bd2d3c01bfc845cf5f4b44bcbe9de5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UniversalRouter
+  - address: "0xec8b0f7ffe3ae75d7ffab09429e3675bb63503e4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UniversalRouter
+  - address: "0xc36442b4a4522e871399cd717abdd847ab11fe88"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: NonfungiblePositionManager

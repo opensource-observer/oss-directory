@@ -32,3 +32,27 @@ blockchain:
       - wallet
     networks:
       - optimism
+  - address: "0xd85b5e176a30edd1915d6728faebd25669b60d8b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: HolographBridge
+  - address: "0x6429b42da2a06aa1c46710509fc96e846f46181e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Holograph
+  - address: "0xe8303f9b7d7a3de35f8c9b4405411c5ebfaf4c2c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: HolographOperator
+  - address: "0xdc2680e51b63048a02204c7494e9e44abf5a7bef"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Holographer

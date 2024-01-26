@@ -17,8 +17,12 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: Umbra
   - address: "0x31fe56609c65cd0c510e7125f051d440424d38f3"
     tags:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: StealthKeyRegistry

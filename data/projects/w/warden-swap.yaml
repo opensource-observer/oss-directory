@@ -122,3 +122,15 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x79a556ef2c5b613db3dfa8797e6772c5aaf86834"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WardenRouterV2
+  - address: "0x3657952d7ba5a0a4799809b5b6fdff9ec5b46293"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WardenCosmicBrain

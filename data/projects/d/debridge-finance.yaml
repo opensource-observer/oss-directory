@@ -39,6 +39,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: DlnSource
   - address: "0x60e50145db18e09ff2bb277e88d3c264ff57b91f"
     tags:
       - contract
@@ -49,6 +51,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: DlnDestination
   - address: "0xf7399c83b12edd1a21aab250d30ccb4474902688"
     tags:
       - contract

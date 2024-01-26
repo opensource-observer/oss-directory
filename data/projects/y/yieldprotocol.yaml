@@ -16,3 +16,21 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x16e25cf364cecc305590128335b8f327975d0560"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Ladle
+  - address: "0x23cc87fbebdd67cce167fa9ec6ad3b7fe3892e30"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Cauldron
+  - address: "0x8a9262c7c6ec9bb143eb68798adb377c95f47138"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FYToken

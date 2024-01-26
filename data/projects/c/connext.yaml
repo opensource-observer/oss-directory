@@ -514,9 +514,10 @@ blockchain:
     name: TransparentUpgradeableProxy
     networks:
       - optimism
+      - arbitrum
     tags:
-      - contract
       - factory
+      - contract
   - address: "0xea581ca64e4a384ae4dea39bb083173ccbd2d817"
     name: TransparentUpgradeableProxy
     networks:
@@ -543,3 +544,45 @@ blockchain:
       - factory
       - contract
     name: ConnextDiamond
+  - address: "0xe6b7ab9ebcfbf1a72e489ff00cdf9c6473ff6224"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AirdropClaim
+  - address: "0xb4fc20fc39cd82394565907a1e79bf446d0ba455"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ConxLbpSwapSourceV1
+  - address: "0x4d48738e98992eb5b3fe9915560df432cacea37c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ConxLbpSwapTargetV1
+  - address: "0xb86af5eb59a8e871bfa573fa656123ea86f47c3a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WETH_StableSwap_LP
+  - address: "0xda492c29d88ffe9b7cbfa6dc068c2f9befae851b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: USDC_StableSwap_LP
+  - address: "0xcf4d2994088a8cde52fb584fe29608b63ec063b2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TransactionManager
+  - address: "0x1861e2a790143284ec1d03b4fcb94f3c3761c00d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FjordLbpProxyV6

@@ -39,6 +39,7 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
     name: ERC1967Proxy
   - address: "0xbf2c77dd0627a1963991b1c7a04438cde94f96ac"
     tags:

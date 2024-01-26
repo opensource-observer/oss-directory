@@ -45,3 +45,27 @@ blockchain:
     tags:
       - eoa
       - creator
+  - address: "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LiFiDiamond_v2
+  - address: "0x9b11bc9fac17c058cab6286b0c785be6a65492ef"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LiFiDiamondImmutable
+  - address: "0x362fa9d0bca5d19f743db50738345ce2b40ec99f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LiFiDiamond
+  - address: "0xb0210de78e28e2633ca200609d9f528c13c26cd9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FeeCollector

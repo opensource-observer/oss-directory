@@ -10,3 +10,15 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x516a935c0e4758a708d967a0c0c8965a94e4b0b7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: platform_logic
+  - address: "0x6a04175f5085ba3924ad0bda719c6852f3255efd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: position_nft

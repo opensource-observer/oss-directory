@@ -41,8 +41,8 @@ blockchain:
   - address: "0x8145edddf43f50276641b55bd3ad95944510021e"
     tags:
       - factory
-      - proxy
       - contract
+      - proxy
     name: InitializableImmutableAdminUpgradeabilityProxy
     networks:
       - optimism
@@ -50,8 +50,8 @@ blockchain:
   - address: "0xa97684ead0e402dc232d5a977953df7ecbab3cdb"
     tags:
       - factory
-      - proxy
       - contract
+      - proxy
     name: PoolAddressesProvider
     networks:
       - optimism
@@ -565,3 +565,105 @@ blockchain:
       - optimism
     tags:
       - contract
+  - address: "0x794a61358d6845594f94dc1db02a252b5b4814ad"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: L2Pool
+  - address: "0x053d55f9b5af8694c503eb288a1b7e552f590710"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Collector
+  - address: "0x69fa688f1dc47d4b5d8029d5a35fb7a548310654"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AaveProtocolDataProvider
+  - address: "0x929ec64c34a17401f460460d4b9390518e5b473e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RewardsController
+  - address: "0x85272bf6ddccbdea45cf0535ea5c65bf91b480c4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UiPoolDataProviderV3
+  - address: "0x9abadecd08572e0ea5af4d47a9c7984a5aa503dc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: L2Encoder
+  - address: "0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ACLManager
+  - address: "0xbc790382b3686abffe4be14a030a96ac6154023a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WalletBalanceProvider
+  - address: "0xb5ee21786d28c5ba61661550879475976b707099"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WrappedTokenGatewayV3
+  - address: "0x9b34e3e183c9b0d1a08ff57a8fb59c821616295f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DefaultReserveInterestRateStrategy
+  - address: "0xc09e69e79106861df5d289da88349f10e2dc6b5c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WETHGateway
+  - address: "0x8aa68ca9e25aab6f9f41bf341d12ab407ae099e2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FallbackOracle
+  - address: "0xc3301b30f4ecbfd59de0d74e89690c1a70c6f21b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CollectorController
+  - address: "0x770ef9f4fe897e59dacc474ef11238303f9552b6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolAddressesProviderRegistry
+  - address: "0xb56c2f0b653b2e0b10c9b928c8580ac5df02c7c7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AaveOracle
+  - address: "0x3f960bb91e85ae2db561bdd01b515c5a5c65802b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UiPoolDataProviderV3
+  - address: "0xcf85ff1c37c594a10195f7a9ab85cbb0a03f69de"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ParaSwapDebtSwapAdapterV3

@@ -17,6 +17,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: TransitSwapRouterV4
   - address: "0x3f5af9cab221dc6bc776a329493e070a3b5adcb0"
     tags:
       - contract

@@ -37,3 +37,9 @@ blockchain:
       - factory
       - contract
     name: RewardsFactory
+  - address: "0x225acf1d32f0928a96e49e6110aba1fdf777c85f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Controller

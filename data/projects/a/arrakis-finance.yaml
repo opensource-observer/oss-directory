@@ -73,6 +73,7 @@ blockchain:
     name: Vyper_contract
     networks:
       - optimism
+      - arbitrum
   - address: "0x8044de2e2dd22ac7ff18a4d7c9fff15f12b1569f"
     tags:
       - contract
@@ -305,6 +306,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: ArrakisFactoryV1
   - address: "0x87c7c885365700d157cd0f39a7803320fe86f0f5"
     tags:
       - contract
@@ -348,6 +351,7 @@ blockchain:
     name: ArrakisV2
     networks:
       - optimism
+      - arbitrum
   - address: "0x26673a336a720532ebf1d225bfc7092772b3b775"
     tags:
       - contract
@@ -455,6 +459,7 @@ blockchain:
     name: ArrakisV2Factory
     networks:
       - optimism
+      - arbitrum
     tags:
       - contract
   - address: "0xbd39e85499944556300b93851e01082ca17ce78e"
@@ -605,6 +610,7 @@ blockchain:
     name: ArrakisV2
     networks:
       - optimism
+      - arbitrum
     tags:
       - contract
   - address: "0x3b8d59e7048c8efe3492d23e4dae1967fbbc0988"

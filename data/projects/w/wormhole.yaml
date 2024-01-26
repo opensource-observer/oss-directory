@@ -143,3 +143,51 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0xdc95becd16081bf00c3cabac5820a3e18b495cad"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BridgeToken
+  - address: "0x4b2c16bf8e7b4977343b5fc85c8384cb674d9091"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BridgeToken
+  - address: "0x2bcc6d6cdbbdc0a4071e48bb3b969b06b3330c07"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BridgeToken
+  - address: "0xa61f74247455a40b01b0559ff6274441fafa22a3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MGP
+  - address: "0xd9368ae905c014f71a6216fc9f18021b9f95f61d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BridgeToken
+  - address: "0xf73ce9d8f7bddcc38cb3e662cb93622b2145a47f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BridgeToken
+  - address: "0x7b5eb3940021ec0e8e463d5dbb4b7b09a89ddf96"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WOM_Bridged
+  - address: "0x5190f06eacefa2c552dc6bd5e763b81c73293293"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WMX_Bridged

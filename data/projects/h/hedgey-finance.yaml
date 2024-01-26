@@ -37,3 +37,9 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x2cde9919e81b20b4b33dd562a48a84b54c48f00c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TokenVestingPlans

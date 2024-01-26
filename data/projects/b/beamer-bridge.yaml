@@ -53,6 +53,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: ArbitrumL2Messenger
   - address: "0x8a2d5a097e302a4ded891fc5befbd87adcaaf5cf"
     tags:
       - contract
@@ -381,6 +383,7 @@ blockchain:
     name: FillManager
     networks:
       - optimism
+      - arbitrum
     tags:
       - contract
   - address: "0x71f64aeb9bfcca42ed6768a5ff30b624c4a3e72e"
@@ -407,3 +410,45 @@ blockchain:
       - optimism
     tags:
       - contract
+  - address: "0x6d00f6994f36ec1a3bd008dbbc84dfa46a939001"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RequestManager
+  - address: "0x913b5ac7e1124ea3429593193bf44eb967fb7658"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FillManager
+  - address: "0x8868eded0b126f0c9bd3388a3003f13fb91c31bb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ArbitrumL2Messenger
+  - address: "0x27f72b9745cde0fbafe0a0d1119d75f4082bfc47"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FillManager
+  - address: "0x13baf73f48fcf6a8aab8431ca3a38c624cdfd8f3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RequestManager
+  - address: "0x8e3823e77492182ea7d3baf6b240c16a446fd863"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ArbitrumL2Messenger
+  - address: "0xef169821403d13345e2b24450601567cd1d781a7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FillManager

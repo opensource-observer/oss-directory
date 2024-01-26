@@ -18,3 +18,9 @@ blockchain:
       - factory
       - contract
     name: PWNDeployer
+  - address: "0x57c88d78f6d08b5c88b4a3b7bbb0c1aa34c3280a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PWNSimpleLoanV1_1

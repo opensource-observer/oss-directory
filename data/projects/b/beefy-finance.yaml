@@ -3071,3 +3071,27 @@ blockchain:
     name: XERC20Factory
     networks:
       - optimism
+  - address: "0xae2262c6ed576b2a25b0e2d71054a530169b7075"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: StrategyBalancerMultiRewardGaugeUniV3
+  - address: "0x55dd65993cb918cda55ea02fcc6d417a364833d9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: StrategyBalancerComposableMultiRewardGaugeUniV3
+  - address: "0xb80318aab313d54274358eec637f18affd03df8b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BeefyZapOneInch
+  - address: "0x80514cfb7cb438f1f997ab62ffd1314c1a1c0f12"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BeefyVaultV6

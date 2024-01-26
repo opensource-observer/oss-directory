@@ -101,3 +101,15 @@ blockchain:
       - factory
       - contract
     name: Factory
+  - address: "0x2ce353ea9a341f67e7c4a5f391d93123afb2d8ac"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MarketTemplate
+  - address: "0x0fa85c39c96a9172ccca7f84ce68e08a2bb971c1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Registry

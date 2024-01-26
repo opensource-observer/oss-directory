@@ -318,3 +318,33 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xabcc9b596420a9e9172fd5938620e265a0f9df92"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GelatoRelay
+  - address: "0x75ba5af8effdcfca32e1e288806d54277d1fde99"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GelatoRelay1Balance
+  - address: "0xb539068872230f20456cf38ec52ef2f91af4ae49"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GelatoRelayERC2771
+  - address: "0xd8253782c45a12053594b9deb72d8e8ab2fca54c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GelatoRelay1BalanceERC2771
+  - address: "0x4775af8fef4809fe10bf05867d2b038a4b5b2146"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Gelato

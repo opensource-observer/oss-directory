@@ -24,6 +24,7 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
     name: Compoundor
   - address: "0x41c84fe367bb1b517fea383e66c4bf304f30eb47"
     tags:
@@ -69,6 +70,7 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
     name: V3Utils
   - address: "0x3c0fd0b42aa46f03f6cf5e305ed9b2ce402847ef"
     tags:
@@ -105,3 +107,21 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xab6998459d767eeab2c58aa0a08b7bb5990e7f1b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AutoRange
+  - address: "0xb43a613f0dd19af1cb1f5d03d8e8e5af04d9f0a1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SelfCompoundor
+  - address: "0xd82e0be376196690aae31372b25cc9025600ab06"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AutoExit

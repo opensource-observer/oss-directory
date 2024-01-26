@@ -10,3 +10,69 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x57ff9294b05065b88cb3ec148beedfb50eda3127"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FastPriceFeed
+  - address: "0x7ab8083f6eaac244a5248d5a23f348f60e3cd57e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RewardManager
+  - address: "0x8da386b8e9e3c27411ec5972c5d91399ad0b9d02"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TokenManager
+  - address: "0x7cec785fba5ee648b48fbffc378d74c8671bb3cb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MintableBaseToken
+  - address: "0x2de28ab4827112cd3f89e5353ca5a8d80db7018f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MlpManager
+  - address: "0xe510571cac76279dadf6c4b6eace5370f86e3dc2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PositionRouter
+  - address: "0x971ec4ad4695e95faeb830b22d89f394540e5e91"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MycTimelock
+  - address: "0x3cd2f02b9e39ccc781d0c07fc0286f654e53a76d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Router
+  - address: "0x3feafee6b12c8d2e58c5b118e54c09f9273c6124"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolFactory
+  - address: "0x051afd0b39acf4cc52c76a479ad802d0b82a8249"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolKeeper
+  - address: "0xfe7d097f8f752c83d6c9a0414d611e1c958780cb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: 3ETHUSD_USDC_SMAOracle

@@ -10,3 +10,57 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x32d91af2b17054d575a7bf1acfa7615f41ccefab"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SpotEngine
+  - address: "0x2259440579447d0625a5e28dff3e743d207e8890"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FeeCalculator
+  - address: "0xb74c78cca0fadafbee52b2f48a67ee8c834b5fd1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PerpEngine
+  - address: "0x1693273b443699bee277ecbc60e2c8027e91995d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FQuerier
+  - address: "0x5be754ad77766089c4284d914f0cc37e8e3f669a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Staking
+  - address: "0xae1ec28d6225dce2ff787dcb8ce11cf6d3ae064f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Clearinghouse
+  - address: "0xafe39cd8e17fa4172144ff95274bb665da411f80"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Airdrop
+  - address: "0x75a99528b5fc4d328473032c9f390db7c8babdf1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ArbAirdrop
+  - address: "0xbbee07b3e8121227afcfe1e2b82772246226128e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Endpoint

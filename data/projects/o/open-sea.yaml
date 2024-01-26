@@ -106,3 +106,27 @@ blockchain:
       - proxy
       - contract
     name: ConduitController
+  - address: "0x498120aa6c73ae6af680b9dc01ce94a4a96a1a4c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ERC721SeaDropCloneable
+  - address: "0xf97d88f82c0b23a45d1946214664577ace75ed25"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Pepe_era
+  - address: "0xa57b8e3c9310a47f72528067a3e58cd31e58022d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Conduit
+  - address: "0x1e0049783f008a0085193e00003d00cd54003c71"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Conduit

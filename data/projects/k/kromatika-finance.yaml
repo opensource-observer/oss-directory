@@ -162,3 +162,15 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x4ab78b894611f185cd7378e25c8f80d63cfbaa71"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MetaSwapRouter
+  - address: "0x02c282f60fb2f3299458c2b85eb7e303b25fc6f0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LimitOrderManager

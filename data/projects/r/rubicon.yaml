@@ -658,3 +658,15 @@ blockchain:
     name: RubiconMarket
     networks:
       - optimism
+  - address: "0x7b24e6f4dd84674696c2a5809c24154ec6ac7f03"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RubiconRouter
+  - address: "0xc715a30fde987637a082cf5f19c74648b67f2db8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RubiconMarket

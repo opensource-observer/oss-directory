@@ -18,3 +18,69 @@ blockchain:
       - proxy
       - contract
     name: PayableBeaconFactory
+  - address: "0xdde4b08e7f9bb7792f73438a8e1a29271e06ebf6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: IssueMarket
+  - address: "0x1d9e979f89d044d5a7bea2206e941b485d9958e0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: EarnConcrete
+  - address: "0x689020287883dfeba3382158ade309a5963952ba"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UnderwriterProfitConcreteProxy
+  - address: "0x5fc1dd6ce1744b8a45f815fe808e936f5dc97320"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OpenFundRedemptionConcrete
+  - address: "0x629ad7bc14726e9cea4fcb3a7b363d237bb5dbe8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OpenFundMarket
+  - address: "0x66e6b4c8aa1b8ca548cc4ebcd6f3a8c6f4f3d04d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: EarnDelegate
+  - address: "0x9d9aaf63d073b4c0547285e98d126770a80c4dce"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OpenFundShareConcrete
+  - address: "0x59cf3db95bdf5c545877871c3863c9dbe6b0b7cf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UnderwriterProfitDelegateProxy
+  - address: "0xe9bd233b2b34934fb83955ec15c2ac48f31a0e8c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OpenFundRedemptionDelegate
+  - address: "0x6ec1fec6c6af53624733f671b490b8250ff251ed"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: NavOracle
+  - address: "0x22799daa45209338b7f938edf251bdfd1e6dcb32"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OpenFundShareDelegate

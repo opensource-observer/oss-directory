@@ -115,6 +115,7 @@ blockchain:
     name: Split
     networks:
       - optimism
+      - arbitrum
   - address: "0xc45c3d9c54f26dec50604feff7dc46b1c47271e3"
     tags:
       - contract
@@ -173,6 +174,7 @@ blockchain:
     name: Marketplace
     networks:
       - optimism
+      - arbitrum
   - address: "0xebc1977d1ac2fe1f6daaf584e2957f7c436fcdef"
     tags:
       - contract
@@ -228,6 +230,7 @@ blockchain:
     name: TokenERC721
     networks:
       - optimism
+      - arbitrum
   - address: "0x20f3a3eed63b01853599a8d267750bbfcd6356f9"
     tags:
       - contract
@@ -371,6 +374,7 @@ blockchain:
     name: TWRegistry
     networks:
       - optimism
+      - arbitrum
   - address: "0x42d3048b595b6e1c28a588d70366ccc2aa4db47b"
     tags:
       - contract
@@ -497,3 +501,105 @@ blockchain:
     tags:
       - eoa
       - creator
+  - address: "0x1a671803cf24c00d186c778e565bd7178cd7ed79"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DropERC721
+  - address: "0x58f5019b506417dbc87fc714ce28655e7ae388c4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TokenERC20
+  - address: "0xe5b68556c12f37fa12f15ae87ea32f15a8c4e7b9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: bakabears
+  - address: "0x79d4860d9cd2f7f2e5edcf22cdf70b58a73e92d0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TokenERC20
+  - address: "0xb2a88b1cc10691557328f7cd64280cf3f667469c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TokenERC20
+  - address: "0xc1e3eaa17edd58b60070d9534a308914d4d2658c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DropERC721
+  - address: "0x39435557dfb4e0a2fc1f3424ae0e66914ee0ff58"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TokenERC20
+  - address: "0x1672310528ce0d099ad6a8a76b2106cfa1e9ae3c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DropERC20
+  - address: "0xd11df9e6a557f20faf6ec53d05427f770e9a9bc4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: kxp
+  - address: "0x8cc5b22d4356a45e0a18778079051c8cf640a14a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TokenERC20
+  - address: "0x1921054a4f8817f9783628f0694744f91dd9d34e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TokenStake
+  - address: "0x18f803fbd9143dd59537969e48eba47e2f91a175"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TokenERC20
+  - address: "0x0cc1f2f6b2b6bb24b07c6e6131a52404f0f7fedd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AirdropERC721
+  - address: "0x935e909fa02f75180b28c52d396022911fcb1892"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AirdropERC20
+  - address: "0xe8dd2ff0212f86d3197b4afdc6dac6ac47eb10ac"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AirdropERC1155
+  - address: "0xeaabc71311e07a12f005df5a0a106052cf3e35af"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TokenERC20
+  - address: "0x59708edc1a55a78acd3087df4424dabd661d577b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TRUMP

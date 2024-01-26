@@ -35,6 +35,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: WidoRouter
   - address: "0x919df3adbf5cfc9fcfd43198edfe5aa5561cb456"
     tags:
       - contract
@@ -87,3 +89,9 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x039ba1b27d514ebda7a0e97aa77c62bcaeaca93b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VerifyingPaymaster

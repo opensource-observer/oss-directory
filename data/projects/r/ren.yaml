@@ -31,3 +31,9 @@ blockchain:
     name: MintGatewayProxyBeacon
     networks:
       - optimism
+  - address: "0xf36666c230fa12333579b9bd6196cb634d6bc506"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GatewayRegistryV2

@@ -2237,3 +2237,27 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xbc1480cb0df8884d38ca6f2af0bad06a047b508d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolLogic
+  - address: "0xfffb5fb14606eb3a548c113026355020ddf27535"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolFactory
+  - address: "0x57d6f7ac271ff522b70385a21df2d2bbb516c8d9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolManagerLogic
+  - address: "0x1baf125d53f65a708bcb5559c9a9fdd9d088ede3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AssetHandler

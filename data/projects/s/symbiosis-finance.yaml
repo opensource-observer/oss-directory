@@ -34,6 +34,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: Portal
   - address: "0x1da522b35363c1eda4833bc121c8f3c67b2caa75"
     tags:
       - contract

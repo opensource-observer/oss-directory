@@ -38,9 +38,47 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: DaoViewer
   - address: "0x1a37aa615c3bd23b5c1cecd506a59927133414b9"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
+  - address: "0x2d5cd78400b0fe5f9a1cec903a799c4b4b559d18"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DaoManager
+  - address: "0x0cf784bba0ffa0a7006f3ee7e4357e643a07f6e7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CrowdfundingModule
+  - address: "0x55144b8e938be86ebac342fcc9fd153b97160361"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SubscriptionManager
+  - address: "0xb42dd79c056d4b511c07c29d4c35403b47be29b9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DividendsModule
+  - address: "0x03e40db4dce9fec44232b942440a1bc65563f001"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DaoVestingModule
+  - address: "0x41185246595eade95ec0acf9adf6417fe7a94f39"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LaunchpadModule

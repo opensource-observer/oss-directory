@@ -22,3 +22,21 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xece9cf6a8f2768a3b8b65060925b646afeaa5167"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BridgeV2
+  - address: "0x9af02523431e9ec1cc649c75ab0322ff34cde337"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CryptoRouterV2
+  - address: "0xe7db62c7960183895190274f26925388db4a3be4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UnifiedRouterV2

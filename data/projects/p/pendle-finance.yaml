@@ -272,3 +272,33 @@ blockchain:
     tags:
       - factory
       - contract
+  - address: "0x2066a650af4b6895f72e618587aad5e8120b7790"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PendleGlpSY
+  - address: "0x7d49e5adc0eaad9c027857767638613253ef125f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PendleMarket
+  - address: "0x3209e9412cca80b18338f2a56ada59c484c39644"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VotingEscrowPendleSidechain
+  - address: "0x96015d0fb97139567a9ba675951816a0bb719e3c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PendlePrincipalTokenV2
+  - address: "0x56051f8e46b67b4d286454995dbc6f5f3c433e34"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PendleYieldTokenV2

@@ -18,3 +18,153 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x22393f23f16925d282aeca0a8464dccaf10ee480"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: glpEth_may31_28days_vamm
+  - address: "0xa3c0c89ac146b89edd17efd4e9c43cc4fc35ec1e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_borrow_may31_30days_vamm
+  - address: "0x5971eedc4ae37c7fe86af716737e5c19efd07a80"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Periphery
+  - address: "0xbf23844515a0b1f574f2dc6437ea8e1cc98b87a4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: glpEth_apr13_48days_margin_engine
+  - address: "0xf9850b06aaabab6be56558d58e94a3fd621b161e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: glpEth_mar15_16days_margin_engine
+  - address: "0x1d7e4d7c1629c9d6e3bb6a344496b1b782c9ca9a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: aUSDC_v3_feb22_37days_vamm
+  - address: "0x0ca700b946c446d878a497c50fb98844a85a2dd9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: aUSDC_v3_feb22_37days_margin_engine
+  - address: "0xaeb387b339ea6e9e0e57c3718e0bd00637f20a1d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_borrow_apr30_31days_vamm
+  - address: "0xc73a470241168c14d3cd19c94f6f1c46073fba79"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_borrow_may31_30days_margin_engine
+  - address: "0xbe958ba49be73d3020cb62e512619da953a2bab1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: glpEth_may31_28days_margin_engine
+  - address: "0x168f5ba6d36737ecd894c13f26405cbaac66a72d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_borrow_apr30_15days_vamm
+  - address: "0xa1000d63a8f603e9f83356b4fbfc36f11a5100cb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_borrow_apr30_31days_margin_engine
+  - address: "0x0c6dbf063fd1effe971ecf4091a40064936eae35"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_mar31_15days_vamm
+  - address: "0xb696f408804ccb345040c9b08ea4b7a8750bf70f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_borrow_mar31_30days_margin_engine
+  - address: "0x9b5b9d31c7b4a826cd30c09136a2fdea9c69efcd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_borrow_may31_92days_margin_engine
+  - address: "0xb97191595b38b192e776402a6ed2a23c7cf25582"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_borrow_apr16_14days_vamm
+  - address: "0x3ecf01157e9b1a66197325771b63789d1fb18f1f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_borrow_may31_92days_vamm
+  - address: "0xb69c2b77c844b55f9924242df4299a1598753320"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: glpEth_feb19_28days_vamm
+  - address: "0x36f62fd95d4abf214a0b9c843ffc69a08d54bdc9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_borrow_apr30_15days_margin_engine
+  - address: "0x1aac6232b7c7cd6c8479077844eb0302cca0d2af"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: glpEth_mar15_16days_vamm
+  - address: "0x6849d4bda5828db77c7978a145bf9d4b4ae1f3f5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_mar31_15days_margin_engine
+  - address: "0x6fe3ed5529f77f0bb1b21b7b5f2d8bc67180a3c0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_borrow_apr16_14days_margin_engine
+  - address: "0x8ce24926b49f9e1b97dc21109ed8ab67cf0293c2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: a3USDC_borrow_mar31_30days_vamm
+  - address: "0xc1a44601a9f141eca8823f99b0b7fff55f2a6e17"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: glpEth_feb19_28days_margin_engine
+  - address: "0x034f2b4137ed637c6b6ca9636d5f9fee0998e5f1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: glpEth_apr13_48days_vamm

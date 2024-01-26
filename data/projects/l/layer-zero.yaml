@@ -73,6 +73,7 @@ blockchain:
     name: Endpoint
     networks:
       - optimism
+      - arbitrum
   - address: "0x4ee2f9b7cf3a68966c370f3eb2c16613d3235245"
     tags:
       - contract
@@ -113,6 +114,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: OptimizedTransparentUpgradeableProxy
   - address: "0xae78956593dec9add13b4b892625a62a415dff4f"
     tags:
       - contract
@@ -211,6 +214,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: NonceContract
   - address: "0x1eb362b4af5eb4477d6dd5966a6953d9cd57832e"
     tags:
       - contract
@@ -264,12 +269,14 @@ blockchain:
     name: TreasuryV2
     networks:
       - optimism
+      - arbitrum
   - address: "0x4d73adb72bc3dd368966edd0f0b2148401a178e2"
     tags:
       - contract
     name: UltraLightNodeV2
     networks:
       - optimism
+      - arbitrum
   - address: "0x75dc8e5f50c8221a82ca6af64af811caa983b65f"
     tags:
       - contract
@@ -312,6 +319,7 @@ blockchain:
     name: BTCbOFT
     networks:
       - optimism
+      - arbitrum
   - address: "0xc1b85974f7c2f0ccb01d763f4a34bfb41a33d612"
     tags:
       - contract
@@ -371,11 +379,15 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: OFT
   - address: "0x0a9f824c05a74f577a536a8a0c673183a872dff4"
     tags:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: SwappableBridgeUniswapV3
   - address: "0x2f4c6eea955e95e6d65e08620d980c0e0e92211f"
     tags:
       - contract
@@ -396,6 +408,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: OFTWrapper
   - address: "0x3a01cfb9831e7c9a30917bd78c2a5c0243ab4b4f"
     tags:
       - contract
@@ -427,3 +441,15 @@ blockchain:
       - optimism
     tags:
       - contract
+  - address: "0x177d36dbe2271a4ddb2ad8304d82628eb921d790"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RelayerV2
+  - address: "0x1bacc2205312534375c8d1801c27d28370656cff"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AptosTokenBridge

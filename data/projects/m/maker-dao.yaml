@@ -323,3 +323,27 @@ blockchain:
       - deployer
       - eoa
     name: donate.cdpsaver.eth
+  - address: "0x283cc5c26e53d66ed2ea252d986f094b37e6e895"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ProxyRegistry
+  - address: "0x467194771dae2967aef3ecbedd3bf9a310c76c65"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: L2DaiGateway
+  - address: "0x10e6593cdda8c58a1d0f14c5164b376352a55f2f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: L2GovernanceRelay
+  - address: "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: L2Dai

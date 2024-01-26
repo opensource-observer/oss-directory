@@ -368,3 +368,15 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x80bb30d62a16e1f2084deae84dc293531c3ac3a1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Grain
+  - address: "0x7a191973eaf8cdcc4de683d10c1e11c5a5bc717d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Rewarder

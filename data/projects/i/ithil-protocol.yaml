@@ -10,3 +10,39 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x9136d8c2d303d47e927e269134ec3fb39576db3e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Manager
+  - address: "0xdc4c8bfbf326d5f87fcb58d1a6e5b6e23992e61d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: iDAI
+  - address: "0x6b416c9727fb248c3097b5c1d10c39a7ebdff239"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: iUSDC
+  - address: "0x8b002cf7380403329627149aa3d730e633bf1d33"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: iUSDT
+  - address: "0xd5687bfa0b5ebc020dc726282cfd94086701df94"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: iWBTC
+  - address: "0xe8feb169cc9ffbf3873ebfd31e34144672d9d7d0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: iWETH

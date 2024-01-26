@@ -44,10 +44,12 @@ blockchain:
       - optimism
   - address: "0x9dda6ef3d919c9bc8885d5560999a3640431e8e6"
     tags:
-      - contract
       - factory
+      - contract
     networks:
       - optimism
+      - arbitrum
+    name: MetaSwap
   - address: "0x6d485a96533c47c12ef5bccacfbd726c1d239db7"
     tags:
       - contract
@@ -75,3 +77,9 @@ blockchain:
     tags:
       - contract
       - factory
+  - address: "0x23981fc34e69eedfe2bd9a0a9fcb0719fe09dbfc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MetaBridge

@@ -28,3 +28,81 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x84f7f3246fd8beaac8af4ab08a2161506cb97174"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: dynamic_farm_spa_usds
+  - address: "0xd74f5255d557944cf7dd0e45ff521520002d5748"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: USDsL2
+  - address: "0x39eb38cf2cc8b4ff77817e2ada6ba64e40a4d8ea"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: L2Dao_USDs_Farm
+  - address: "0xc4fb09e0cd212367642974f6ba81d8e23780a659"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Demeter_Farm_Factory
+  - address: "0x5b2da0d0b4ab38bbdef314bcb91f045e016a8a2d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: 1inchUSDTSwapper
+  - address: "0xd16f5343fddd2dcf6a8791e302a204c13069d165"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: veSPA_v1
+  - address: "0xfbc0d3ca777722d234fe01dba94dededb277afe3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Buyback
+  - address: "0xc9869e40e36a18546df54a941b28af21674ae512"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RewardDistributor_v2
+  - address: "0x2c07bc934974bbf413a4a4ceda98713dcb8d9e16"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: veSPA_RewardDistributor_v1
+  - address: "0x895d0a8a439616e737dcfb3bd59c552cba05251c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: gaugeBribes
+  - address: "0x5575552988a3a80504bbaeb1311674fcfd40ad4b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SperaxTokenL2
+  - address: "0x2e2071180682ce6c247b1ef93d382d509f5f6a17"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: veSPA_v1
+  - address: "0xe9426fcf504d448cc2e39783f1d1111dc0d8e4e0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Demeter_UniswapFarmDeployer

@@ -10,3 +10,9 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x7b55800de02e4799f7b00a2c9963575464053f6a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: arbitrum_bridge

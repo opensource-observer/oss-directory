@@ -163,6 +163,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: ChildGaugeFactory
   - address: "0x979b44cfc7a9b54bed8a3c4fd674b09c194219fd"
     networks:
       - arbitrum
@@ -211,3 +213,57 @@ blockchain:
       - factory
       - contract
     name: SwapFlashLoan
+  - address: "0x1e491122f3c096392b40a4ea27aa1a29360d38a1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LPToken
+  - address: "0x721dac7d5acc8aa62946fd583c1f999e1570b97d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LPToken
+  - address: "0x166680852ae9dec3d63374c5ebf89e974448bfe9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LPToken
+  - address: "0xa815b134294580692482e321dd1a191ac1454192"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LPToken
+  - address: "0x38262c17a06a6b3588d3e5b70dfa768c06bf4ef1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolRegistry
+  - address: "0x896935b02d3cbeb152192774e4f1991bb1d2ed3f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LPToken
+  - address: "0x0a20c2ffa10cd43f67d06170422505b7d6fc0953"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LPToken
+  - address: "0xc969dd0a7ab0f8a0c5a69c0839db39b6c928bc08"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LPToken
+  - address: "0xab94a2c0d8f044aa439a5654f06b5797928396cf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MasterRegistry

@@ -523,3 +523,33 @@ blockchain:
     name: DeterministicFactory
     networks:
       - optimism
+  - address: "0x3fa18d0cbaf4c9d5078e758b3deade077ca525cb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ThirdPartyDCAHubSwapper
+  - address: "0x5ef74c1686455ca1b51893f5381847aa229e87a5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ThirdPartyDCAHubSwapper
+  - address: "0x059d306a25c4ce8d7437d25743a8b94520536bd5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DCAHub
+  - address: "0xa5adc5484f9997fbf7d405b9aa62a7d88883c345"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DCAHub
+  - address: "0xc24bc8b030628b22522c5450869ee421f8c77be3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CallerOnlyDCAHubSwapper

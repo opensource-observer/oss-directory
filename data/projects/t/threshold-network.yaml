@@ -23,6 +23,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: L2TBTC
   - address: "0x1293a54e160d1cd7075487898d65266081a15458"
     tags:
       - contract
