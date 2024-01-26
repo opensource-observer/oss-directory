@@ -3,3 +3,16 @@ slug: tracer-protocol
 name: Tracer
 github:
   - url: https://github.com/tracer-protocol
+blockchain:
+  - address: "0xcc97eb5651e05d5a0ae8bcd2813b9dfdad6f92a5"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0xcc97eb5651e05d5a0ae8bcd2813b9dfdad6f92a5"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

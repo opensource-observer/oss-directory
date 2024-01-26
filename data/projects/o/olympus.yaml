@@ -32,3 +32,9 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x1a5309f208f161a393e8b5a253de8ab894a67188"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa

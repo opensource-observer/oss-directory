@@ -12,9 +12,9 @@ blockchain:
       - optimism
   - address: "0x155b15a7e9ff0e34ceaf2439589d5c661adc9493"
     tags:
-      - eoa
-      - creator
       - deployer
+      - creator
+      - eoa
     networks:
       - optimism
       - arbitrum
@@ -432,9 +432,9 @@ blockchain:
       - optimism
   - address: "0x9f8bd11b264132def2a605091b8cd0ee036804f6"
     tags:
+      - factory
       - proxy
       - contract
-      - factory
     networks:
       - optimism
       - arbitrum
@@ -528,18 +528,18 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0x5a041ec279a81f5421667f665767b30dd8e3e36d"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0xee9dec2712cce65174b561151701bf54b99c24c8"
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: ConnextDiamond

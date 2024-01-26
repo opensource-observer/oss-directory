@@ -14,9 +14,9 @@ blockchain:
       - optimism
   - address: "0x0af91fa049a7e1894f480bfe5bba20142c6c29a9"
     tags:
-      - eoa
-      - creator
       - deployer
+      - creator
+      - eoa
     networks:
       - optimism
       - arbitrum
@@ -50,9 +50,9 @@ blockchain:
       - optimism
   - address: "0x890bc5691e6011f580e264065d09a7a1a6902131"
     tags:
-      - eoa
-      - creator
       - deployer
+      - creator
+      - eoa
     networks:
       - optimism
       - arbitrum
@@ -344,13 +344,13 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: SynapseERC20Factory
   - address: "0x9695fa23b27022c7dd752b7d64bb5900677ecc21"
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: SwapDeployer

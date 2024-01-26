@@ -3,3 +3,70 @@ slug: y2k-finance
 name: Y2K
 github:
   - url: https://github.com/y2k-finance
+blockchain:
+  - address: "0xc3179ac01b7d68aed4f27a19510ffe2bfb78ab3e"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: CarouselFactory
+  - address: "0xc3179ac01b7d68aed4f27a19510ffe2bfb78ab3e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: CarouselFactory
+  - address: "0x984e0eb8fb687afa53fc8b33e12e04967560e092"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: VaultFactory
+  - address: "0x984e0eb8fb687afa53fc8b33e12e04967560e092"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: VaultFactory
+  - address: "0x45aa9d8b9d567489be9defcd085c6ba72bbf344f"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x45aa9d8b9d567489be9defcd085c6ba72bbf344f"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0xac0d2cf77a8f8869069fc45821483701a264933b"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0xac0d2cf77a8f8869069fc45821483701a264933b"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x9889fca1d9a5d131f5d4306a2bc2f293cafad2f3"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: RewardsFactory
+  - address: "0x9889fca1d9a5d131f5d4306a2bc2f293cafad2f3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: RewardsFactory

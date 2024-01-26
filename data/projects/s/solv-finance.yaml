@@ -3,3 +3,32 @@ slug: solv-finance
 name: Solv Protocol
 github:
   - url: https://github.com/solv-finance
+blockchain:
+  - address: "0x55c09707fd7afd670e82a62faee312903940013e"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x55c09707fd7afd670e82a62faee312903940013e"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x5531f96bb9e9559ae9880cc0109e06ef477aef8e"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - proxy
+      - contract
+    name: PayableBeaconFactory
+  - address: "0x5531f96bb9e9559ae9880cc0109e06ef477aef8e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+    name: PayableBeaconFactory

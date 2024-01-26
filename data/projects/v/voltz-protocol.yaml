@@ -3,3 +3,32 @@ slug: voltz-protocol
 name: Voltz Protocol
 github:
   - url: https://github.com/voltz-protocol
+blockchain:
+  - address: "0xda66a7584da7210fd26726efb12585734f7688c1"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - proxy
+      - contract
+    name: Factory
+  - address: "0xda66a7584da7210fd26726efb12585734f7688c1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+    name: Factory
+  - address: "0xf8f6b70a36f4398f0853a311dc6699aba8333cc1"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0xf8f6b70a36f4398f0853a311dc6699aba8333cc1"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

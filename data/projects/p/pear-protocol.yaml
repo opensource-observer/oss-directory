@@ -3,3 +3,32 @@ slug: pear-protocol
 name: pear-protocol
 github:
   - url: https://github.com/pear-protocol
+blockchain:
+  - address: "0x0000000000006396ff2a80c067f99b3d2ab4df24"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - proxy
+      - contract
+    name: ERC1967Factory
+  - address: "0x0000000000006396ff2a80c067f99b3d2ab4df24"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+    name: ERC1967Factory
+  - address: "0x92df03ddab52aadbd3974b1f4f10e6e40bc5de96"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x92df03ddab52aadbd3974b1f4f10e6e40bc5de96"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

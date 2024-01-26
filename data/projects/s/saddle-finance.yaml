@@ -6,9 +6,9 @@ github:
 blockchain:
   - address: "0x5bdb37d0ddea3a90f233c7b7f6b9394b6b2eef34"
     tags:
-      - eoa
-      - creator
       - deployer
+      - creator
+      - eoa
     networks:
       - optimism
       - arbitrum
@@ -91,8 +91,8 @@ blockchain:
       - optimism
   - address: "0xbea9f78090bdb9e662d8cb301a00ad09a5b756e9"
     tags:
-      - contract
       - factory
+      - contract
     networks:
       - optimism
       - arbitrum
@@ -167,47 +167,47 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0xa5bd85ed9fa27ba23bfb702989e7218e44fd4706"
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: MetaSwap
   - address: "0xb2a2764d0dcab445e24f4b813be3f6ef8ae5f84d"
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: MetaSwap
   - address: "0xf8504e92428d65e56e495684a38f679c1b1dc30b"
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: MetaSwap
   - address: "0x5dd186f8809147f96d3ffc4508f3c82694e58c9c"
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: MetaSwap
   - address: "0x401afbc31ad2a3bc0ed8960d63efcdea749b4849"
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: SwapFlashLoan
   - address: "0xfeea4d1bacb0519e8f952460a70719944fe56ee0"
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: SwapFlashLoan

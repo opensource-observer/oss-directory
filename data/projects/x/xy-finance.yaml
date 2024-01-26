@@ -3,3 +3,16 @@ slug: xy-finance
 name: XY Finance
 github:
   - url: https://github.com/xy-finance
+blockchain:
+  - address: "0x0132613b3a1061816f4661ad301612910e3cce0b"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x0132613b3a1061816f4661ad301612910e3cce0b"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

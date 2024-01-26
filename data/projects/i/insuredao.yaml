@@ -92,12 +92,12 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0xeace965860d5a33695a2d08f9fa8c4118a38712f"
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: Factory

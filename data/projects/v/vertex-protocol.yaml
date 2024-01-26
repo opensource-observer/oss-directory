@@ -3,3 +3,16 @@ slug: vertex-protocol
 name: Vertex Protocol
 github:
   - url: https://github.com/vertex-protocol
+blockchain:
+  - address: "0xb746472c10f9f128ff9f5029f424cc91bb1d8c3a"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0xb746472c10f9f128ff9f5029f424cc91bb1d8c3a"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

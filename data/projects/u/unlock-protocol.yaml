@@ -44,12 +44,12 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: TransparentUpgradeableProxy
   - address: "0x81a662065d5c83fa9c5c12d0dc0104df57f85a12"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa

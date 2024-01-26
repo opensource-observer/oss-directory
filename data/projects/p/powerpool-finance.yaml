@@ -3,3 +3,18 @@ slug: powerpool-finance
 name: powerpool-finance
 github:
   - url: https://github.com/powerpool-finance
+blockchain:
+  - address: "0x8ecece9ee4582d614875cc7c2b81c7e808d617f5"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: ProxyBuilder
+  - address: "0x8ecece9ee4582d614875cc7c2b81c7e808d617f5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: ProxyBuilder

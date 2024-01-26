@@ -6,9 +6,9 @@ github:
 blockchain:
   - address: "0x001530e763fe9de4dcfe31bbd8548bcb579ebf3a"
     tags:
-      - eoa
-      - creator
       - deployer
+      - creator
+      - eoa
     networks:
       - optimism
       - arbitrum
@@ -319,32 +319,32 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: DefiEdgeTwapStrategyDeployer
   - address: "0xe1f2331b70ed2dc3723e4e282ec30ecb11359c81"
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: WrapperFactory
   - address: "0xe50952b00178e09e3773b26429832abf34697339"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0xbd6df46aa3cbed7c23e6f844a2db9b1d12cbe033"
     networks:
       - arbitrum
     tags:
-      - contract
       - factory
+      - contract
     name: DefiEdgeStrategyDeployer
   - address: "0x9645fcdc4f740fde63388bdda9b7bddcde99c9cc"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa

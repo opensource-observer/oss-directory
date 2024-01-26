@@ -3,3 +3,17 @@ slug: hats-finance
 name: hats-finance
 github:
   - url: https://github.com/hats-finance
+blockchain:
+  - address: "0xa80d0a371f4d37afcc55188233bb4ad463af9e48"
+    networks:
+      - arbitrum
+    tags:
+      - factory
+      - contract
+    name: HATVaultsRegistry
+  - address: "0x1885b7c7a3ae1f35ba71c0392c13153a95c4914f"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
