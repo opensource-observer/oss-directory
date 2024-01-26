@@ -79,7 +79,9 @@ def update_address(project_slug: str, address: str, name: str, networks: list, t
         return False
 
     # see if there is an existing entry that can be updated
-    yaml_address_data = project_data.get("blockchain", [])
+    if "blockchain" not in project_data:
+        project_data["blockchain"] = []
+    yaml_address_data = project_data.get("blockchain")
     updated = False                    
     for entry in yaml_address_data:        
         if entry['address'].lower() == address.lower():
@@ -100,10 +102,12 @@ def update_address(project_slug: str, address: str, name: str, networks: list, t
         }
         if name:
             entry["name"] = name
-        logging.info(f"Added {address} to {project_path}")
-        updated = True
-        yaml_address_data.append(entry)
-    
+        
+        if entry not in project_data["blockchain"]:            
+            project_data["blockchain"].append(entry)
+            logging.info(f"Added {address} to {project_path}")
+            updated = True
+                
     # update the YAML data
     if updated:
         dump(project_data, project_path)
