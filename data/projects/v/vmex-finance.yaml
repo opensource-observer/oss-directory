@@ -11,3 +11,10 @@ blockchain:
     networks:
       - optimism
     name: RPGF3 Payout Address
+  - address: "0x47a61eb4a66e68ca522e998e6c163c880845c5a9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: LendingPoolAddressesProvider

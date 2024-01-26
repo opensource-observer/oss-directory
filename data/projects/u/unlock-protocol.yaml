@@ -40,3 +40,16 @@ blockchain:
     networks:
       - optimism
     name: RPGF3 Payout Address
+  - address: "0x1ff7e338d5e582138c46044dc238543ce555c963"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0x81a662065d5c83fa9c5c12d0dc0104df57f85a12"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

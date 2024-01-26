@@ -33,3 +33,9 @@ blockchain:
     name: L2ERC20TokenBridge
     networks:
       - optimism
+  - address: "0x1824988af7a12c339784a171a514e20609896321"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

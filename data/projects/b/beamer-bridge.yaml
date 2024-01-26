@@ -6,12 +6,12 @@ github:
 blockchain:
   - address: "0x42405d66fda09dbdac90ff25fc5a4c2353f43e70"
     tags:
-      - deployer
       - eoa
       - creator
+      - deployer
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0x62249fcb288f0a4734072ab899b926ef9845bc8f"
     tags:
       - contract
@@ -347,12 +347,12 @@ blockchain:
       - optimism
   - address: "0x068053f77e321c8828f5fea91b6917011b1a77fe"
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
     tags:
-      - deployer
       - eoa
       - creator
+      - deployer
   - address: "0x1c7dfaa422cacaa5b368fe22db84b8329cf88e12"
     name: RequestManager
     networks:

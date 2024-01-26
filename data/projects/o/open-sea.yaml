@@ -98,3 +98,11 @@ blockchain:
     tags:
       - contract
       - factory
+  - address: "0x00000000f9490004c11cef243f5400493c00ad63"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+    name: ConduitController
