@@ -81,7 +81,7 @@ def add_contracts_from_dune_export(filepath: str, chain: str) -> None:
     # filter out contracts for creating tokens and LPs
     dups = dune_data.groupby(['namespace', 'name', 'from'])['address'].nunique()
     dups = dups[dups > 1].index
-
+    missing_yaml = {}
     for _, row in dune_data.iterrows():
         namespace = row['namespace']
         name = row['name']
@@ -103,7 +103,12 @@ def add_contracts_from_dune_export(filepath: str, chain: str) -> None:
                     
             update_address(project_slug, contract_address, name, [chain], ['contract'])
 
-        logging.info(f"No YAML for {namespace} : {from_address} -> {contract_address} ({name})")            
+        logging.info(f"No YAML for {namespace} : {from_address} -> {contract_address} ({name})")
+        if from_address not in missing_yaml:
+            missing_yaml[from_address] = namespace
+
+    df_missing = pd.DataFrame.from_dict(missing_yaml, orient='index', columns=['namespace'])
+    df_missing.to_csv(f'temp/missing_yaml_{chain}.csv')            
         
 
 if __name__ == "__main__":
