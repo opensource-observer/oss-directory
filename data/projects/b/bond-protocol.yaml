@@ -58,3 +58,9 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x20b3834091f038ce04d8686fac99ca44a0fb285c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CrossChainBridge

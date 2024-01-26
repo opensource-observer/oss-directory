@@ -106,6 +106,7 @@ blockchain:
     name: Vyper_contract
     networks:
       - optimism
+      - arbitrum
   - address: "0x16a7da911a4dd1d83f3ff066fe28f3c792c50d90"
     tags:
       - contract
@@ -413,3 +414,33 @@ blockchain:
       - deployer
       - eoa
       - creator
+  - address: "0x6eb2dc694eb516b16dc9fbc678c60052bbdd7d80"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: wstETH_swap
+  - address: "0x960ea3e3c7fb317332d990873d354e18d7645590"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: tricrypto
+  - address: "0xa827a652ead76c6b0b3d19dba05452e06e25c27e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Vyper_contract_2CRV_EURS
+  - address: "0xdbcd16e622c95acb2650b38ec799f76bfc557a0b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LPToken
+  - address: "0xb17b674d9c5cb2e441f8e196a2f048a81355d031"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: StableSwap_Factory

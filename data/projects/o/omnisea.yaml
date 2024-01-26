@@ -612,3 +612,15 @@ blockchain:
     tags:
       - contract
       - factory
+  - address: "0xc72633f995e98ac3bb8a89e6a9c4af335c3d6e44"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OmniseaToken
+  - address: "0x20a3733909fcda6c6b465916f5d9e2f6786075f5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OSEABridge

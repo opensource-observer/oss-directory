@@ -125,3 +125,51 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x42e49b48573c725ee32d2579060ed06894f97002"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BalancerRelayer
+  - address: "0x542f16da0efb162d20bf4358efa095b70a100f9e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ComposableStablePool
+  - address: "0x8ea89804145c007e7d226001a96955ad53836087"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ManagedPoolFactory
+  - address: "0xf23d8342881edecced51ea694ac21c2b68440929"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ChildChainGaugeInjector
+  - address: "0xc9f52540976385a84bf416903e1ca3983c539e34"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WeightedPool
+  - address: "0x7396f99b48e7436b152427bfa3dd6aa8c7c6d05b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AaveLinearPoolFactory
+  - address: "0x2794953110874981a0d301286c986992022a62a1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ERC4626LinearPoolFactory
+  - address: "0xacd615b3705b9c880e4e7293f1030b34e57b4c1c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: InvestmentPoolFactory

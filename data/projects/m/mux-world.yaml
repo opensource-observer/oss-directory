@@ -208,3 +208,51 @@ blockchain:
     networks:
       - optimism
     name: OrderBook
+  - address: "0x02fae054acd7fb1615471319c4e3029dfbc2b23c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LiquidityManager
+  - address: "0xa65ba125a25b51539a3d10910557b28215097810"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VotingEscrow
+  - address: "0x3e0199792ce69dc29a0a36146bfa68bd7c8d6633"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LiquidityPoolHop1
+  - address: "0x2ff2f1d9826ae2410979ae19b88c361073ab0918"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ProxyFactory
+  - address: "0xe21d366d5042f713c0c872591e610fb6a74c775b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TradingRebateDistributor
+  - address: "0x8bb2ac0dcf1e86550534cee5e9c8ded4269b679b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Mux
+  - address: "0xa19fd5ab6c8dcffa2a295f78a5bb4ac543aaf5e3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OrderBook
+  - address: "0x917952280770daa800e1b4912ea08450bf71d57e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Vault

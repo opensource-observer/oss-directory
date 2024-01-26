@@ -45,6 +45,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: LiquidityProviders
   - address: "0x3678b953e87e8137ae220a1560fa80401e0200ad"
     tags:
       - contract
@@ -117,6 +119,7 @@ blockchain:
     name: TransparentUpgradeableProxy
     networks:
       - optimism
+      - arbitrum
   - address: "0x126be6a9ec71a1fea19d2288ba2ce4cdc0facb68"
     tags:
       - contract
@@ -165,10 +168,12 @@ blockchain:
       - optimism
   - address: "0x000000f9ee1842bb72f6bbdd75e6d3d4e3e9594c"
     tags:
-      - contract
       - factory
+      - contract
     networks:
       - optimism
+      - arbitrum
+    name: SmartAccountFactory
   - address: "0x70717b44011c2f92709168e132e71b02628fbb0c"
     tags:
       - factory
@@ -314,6 +319,8 @@ blockchain:
   - address: "0x000000a56aaca3e9a4c479ea6b6cd0dbcb6634f5"
     networks:
       - optimism
+      - arbitrum
     tags:
-      - contract
       - factory
+      - contract
+    name: SmartAccountFactory_v2

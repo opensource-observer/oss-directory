@@ -48,11 +48,14 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: EditableERC20
   - address: "0xb9c8f0d3254007ee4b98970b94544e473cd610ec"
     tags:
       - contract
     networks:
       - optimism
+      - arbitrum
     name: crosschainQiStablecoinSlimV2
   - address: "0xfbeb75c41a606849dac686fb87afc50e5dae64df"
     tags:
@@ -553,3 +556,39 @@ blockchain:
     tags:
       - contract
       - factory
+  - address: "0xd371281896f2f5f7a2c65f49d23a2b6ecfd594f3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: vault_gDai
+  - address: "0xe47ca047cb7e6a9ade9405ca68077d63424f34ec"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: vault_knc
+  - address: "0xb237f4264938f0903f5ec120bb1aa4bee3562fff"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: vault_Wbtc
+  - address: "0x950eceee9e7d7366a24fc9d2ed4c0c37d17a0fa9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: vault_arb
+  - address: "0xa864956ff961ce62c266a8563b46577d3573372e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: vault_mooWstethEthCrv
+  - address: "0xc76a3cbefe490ae4450b2fcc2c38666aa99f7aa0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: vault_Weth

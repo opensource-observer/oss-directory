@@ -207,6 +207,7 @@ blockchain:
     name: HopImplL2
     networks:
       - optimism
+      - arbitrum
   - address: "0x4bf6e44a27e37f195c15b3075cbac63c46848375"
     tags:
       - contract
@@ -277,6 +278,7 @@ blockchain:
     name: HopImplL2
     networks:
       - optimism
+      - arbitrum
   - address: "0x09bbe4dacbf631994f2f1b70c1b18d62c19466e6"
     tags:
       - contract
@@ -641,6 +643,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: AcrossImplV2
   - address: "0xd550ce2bb4cc954542efcf23ea1147143bd8f77c"
     tags:
       - contract
@@ -1598,3 +1602,81 @@ blockchain:
       - optimism
     tags:
       - contract
+  - address: "0x80d40e32fad8be8da5c6a42b8af1e181984d137c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Vault
+  - address: "0x5837b68a8560ba2087006bcf69bb6ef022005cf4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RainbowSwap
+  - address: "0xc0e02aa55d10e38855e13b64a8e1387a04681a00"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GasMovr
+  - address: "0xeb59a4d442ab0db5d18631fa51e7dbc351506302"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RainbowSwapRefuel
+  - address: "0x8b14984de0ddd2e080d8679febe2f5c94b975af8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FeeRouter
+  - address: "0x7340798b75185849440c11fe09c5e6b494344f5c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RefuelBridge
+  - address: "0x23ddd3bec944cdb16cacf3039e389324df598b89"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Refuel
+  - address: "0xa358d60b9fd8d45a53baeabd04c621c902572f3d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: HopImplL2
+  - address: "0xc29abf52c1cc97f1f6308d5d54404c5a847497b0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: StargateIpml
+  - address: "0x3a23f943181408eac424116af7b7790c94cb97a5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SocketGateway
+  - address: "0xdcabb6d7e88396498fff4cd987f60e354bf2a44b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OneInchRefuelSwapImpl
+  - address: "0xf45ec13167e8c03490d44fe780609c6209c25c81"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: HyphenImplV2
+  - address: "0x9216253925d1a22cb375ecef4f33cf93a1d1ff4d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CelerImpl

@@ -23,6 +23,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: Router
   - address: "0xd832cc2d05b42c687a1190c548395e8fa34011a1"
     tags:
       - contract

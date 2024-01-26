@@ -271,6 +271,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: UsdPlusToken
   - address: "0xb8f7881ff3fb59a8b98d80d808f63e1d54ad4a6b"
     tags:
       - contract
@@ -2021,6 +2023,7 @@ blockchain:
     name: ERC1967Proxy
     networks:
       - optimism
+      - arbitrum
   - address: "0xb7ff28a21b9daf2f9f0136601098e66c49d32510"
     tags:
       - contract

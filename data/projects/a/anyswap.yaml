@@ -10,3 +10,15 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x37414a8662bc1d25be3ee51fb27c2686e2490a89"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AnyCallProxy
+  - address: "0x9fb9a33956351cf4fa040f65a13b835a3c8764e3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AnyswapV5ERC20

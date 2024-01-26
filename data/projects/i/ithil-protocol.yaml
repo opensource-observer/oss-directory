@@ -10,3 +10,9 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x9136d8c2d303d47e927e269134ec3fb39576db3e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Manager

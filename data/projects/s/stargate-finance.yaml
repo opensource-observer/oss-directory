@@ -109,6 +109,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: StargateToken
   - address: "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"
     tags:
       - contract
@@ -252,3 +254,69 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x6c33a7b29c8b012d060f3a5046f3ee5ac48f4780"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WidgetSwap
+  - address: "0xfbd849e6007f9bc3cc2d6eb159c045b8dc660268"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VotingEscrow
+  - address: "0x53bf833a5d6c4dda888f69c22c88c9f356a41614"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Router
+  - address: "0x1cf31666c06ac3401ed0c1c6346c4a9425dd7de4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: StargateFeeLibraryV07
+  - address: "0x82cbecf39bee528b5476fe6d1550af59a9db6fc0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: StargateEthVault
+  - address: "0xbf22f0f184bccbea268df387a49ff5238dd23e40"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RouterETH
+  - address: "0xea8dfee1898a7e0a59f7527f076106d7e44c2176"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LPStaking
+  - address: "0x30e148a79b898efa1ab1285f5eca71972a7e0ace"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ProxyOFT
+  - address: "0xb1641d94684225b72f97e52b2b02ad07f7ba9089"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: StargateFeeLibraryV05
+  - address: "0xaa94240d9398bc7d447b567ce0402786c2c47089"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ProxyOFT
+  - address: "0x352d8275aae3e0c2404d9f68f6cee084b5beb3dd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Bridge

@@ -324,6 +324,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: F2FujiVault
   - address: "0x645c72e90ef4d56c6a37802024467170a618f3e9"
     tags:
       - contract
@@ -431,3 +433,21 @@ blockchain:
     name: RebalancerManager
     networks:
       - optimism
+  - address: "0x7ae316c62d04f150ccd31ae49155e408c6079025"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: F2FujiVault
+  - address: "0xc79fcb669b505b5217c477974a1a8f5c86c3de66"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: F2FujiVault
+  - address: "0x2bb069a248ba1c62062143462ae7bdb5c4360e3d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BorrowingVaultBeaconFactory_arbitrum

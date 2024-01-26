@@ -22,6 +22,7 @@ blockchain:
     name: Seaport
     networks:
       - optimism
+      - arbitrum
     tags:
       - contract
   - address: "0xf1f839fdd467e4087eadbbb330990077889e79c5"
@@ -150,3 +151,27 @@ blockchain:
     networks:
       - optimism
     name: TransparentUpgradeableProxy
+  - address: "0xe57bd15448c3b2d1dbad598775dd2f36f93ebf90"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VotingEscrow
+  - address: "0x8827e1c62a6bc98fb3c19003729c357a311c6e5e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RaffleV2
+  - address: "0xb11ed4d3b3d8ace516ceae0a8d4764bbf2b08c50"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Fortune
+  - address: "0x51b902f19a56f0c8e409a34a215ad2673edf3284"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: NFTEarthOFT

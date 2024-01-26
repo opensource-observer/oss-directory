@@ -17,3 +17,9 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x46a368e7a412be32e36ef254aa72090ea8756792"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TransportDiamond

@@ -10,3 +10,21 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xa5edbdd9646f8dff606d7448e414884c7d905dca"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Comet
+  - address: "0xb21b06d71c75973babde35b49ffdac3f82ad3775"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Configurator
+  - address: "0x9c4ec768c28520b50860ea7a15bd7213a9ff58bf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: cUSDCv3Native

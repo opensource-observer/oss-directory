@@ -11,3 +11,9 @@ blockchain:
       - factory
       - contract
     name: ProxyBuilder
+  - address: "0xad1e507f8a0cb1b91421f3bb86bbe29f001cbcc6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PPAgentV2

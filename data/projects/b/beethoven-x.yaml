@@ -35,11 +35,12 @@ blockchain:
       - optimism
   - address: "0xe2e901ab09f37884ba31622df3ca7fc19aa443be"
     tags:
-      - contract
       - factory
+      - contract
     name: ComposableStablePoolFactory
     networks:
       - optimism
+      - arbitrum
   - address: "0x8e5698dc4897dc12243c8642e77b4f21349db97c"
     tags:
       - contract
@@ -326,6 +327,7 @@ blockchain:
     name: Authorizer
     networks:
       - optimism
+      - arbitrum
   - address: "0x09523acc78dd297ae5da00ddebe6f10ebf784565"
     tags:
       - contract
@@ -633,3 +635,69 @@ blockchain:
       - optimism
     tags:
       - contract
+  - address: "0x751a0bc0e3f75b38e01cf25bfce7ff36de1c87de"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MerkleOrchard
+  - address: "0xce88686553686da562ce7cea497ce749da109f9f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ProtocolFeesCollector
+  - address: "0x8df6efec5547e31b0eb7d1291b511ff8a2bf987c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WeightedPoolV2Factory
+  - address: "0x7dfdef5f355096603419239ce743bfaf1120312b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WeightedPoolFactory
+  - address: "0x142b9666a0a3a30477b052962dda81547e7029ab"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LiquidityBootstrappingPoolFactory
+  - address: "0xef44d6786b2b4d544b7850fe67ce6381626bf2d6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: StablePoolFactory
+  - address: "0x2433477a10fc5d31b9513c638f19ee85caed53fd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: StablePoolFactory
+  - address: "0xebfd5681977e38af65a7487dc70b8221d089ccad"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MetaStablePoolFactory
+  - address: "0xcf0a32bbef8f064969f21f7e02328fb577382018"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WeightedPool2TokensFactory
+  - address: "0x5ef4c5352882b10893b70dbcaa0c000965bd23c5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ProtocolFeePercentagesProvider
+  - address: "0xf1665e19bc105be4edd3739f88315cc699cc5b65"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WeightedPoolFactory

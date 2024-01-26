@@ -61,6 +61,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: StargateFacet
   - address: "0xb3a814a14b9c2a982576fb2e1f233bbc27badb10"
     tags:
       - contract

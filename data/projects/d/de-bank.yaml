@@ -49,3 +49,9 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x7bfc80a1dc182720220265e0fe0a02f0f4607748"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DebankL2Register

@@ -49,3 +49,45 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x8cfe327cec66d1c090dd72bd0ff11d690c33a2eb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PancakeRouter
+  - address: "0x5e09acf80c0296740ec5d6f643005a4ef8daa694"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MasterChefV3
+  - address: "0x32226588378236fd0c7c4053999f88ac0e5cac77"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SmartRouter
+  - address: "0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PancakeV3Factory
+  - address: "0x1b81d678ffb9c0263b24a97847620c99d213eb14"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SwapRouter
+  - address: "0x1b896893dfc86bb67cf57767298b9073d2c1ba2c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CakeOFT
+  - address: "0x46a15b0b27311cedf172ab29e4f4766fbe7f4364"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: NonfungiblePositionManager

@@ -129,3 +129,21 @@ blockchain:
       - optimism
     tags:
       - contract
+  - address: "0xa334884bf6b0a066d553d19e507315e839409e62"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: burn
+  - address: "0x3a18dcc9745edcd1ef33ecb93b0b6eba5671e7ca"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BurnableMintableCappedERC20
+  - address: "0xce16f69375520ab01377ce7b88f5ba8c48f8d666"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SquidRouter

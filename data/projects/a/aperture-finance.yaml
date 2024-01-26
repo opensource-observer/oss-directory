@@ -11,3 +11,9 @@ blockchain:
       - factory
       - contract
     name: Create2Deployer
+  - address: "0x00000000ede6d8d217c60f93191c060747324bca"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UniV3Automan

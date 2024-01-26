@@ -160,17 +160,20 @@ blockchain:
       - optimism
   - address: "0xf23b4db826dba14c0e857029dff076b1c0264843"
     tags:
-      - contract
       - factory
+      - contract
     name: AaveLinearPoolFactory
     networks:
       - optimism
+      - arbitrum
   - address: "0xa523f47a933d5020b23629ddf689695aa94612dc"
     tags:
-      - contract
       - factory
+      - contract
     networks:
       - optimism
+      - arbitrum
+    name: ChildChainGauge
   - address: "0x043a2dad730d585c44fb79d2614f295d2d625412"
     tags:
       - contract
@@ -238,6 +241,7 @@ blockchain:
     name: ProtocolIdRegistry
     networks:
       - optimism
+      - arbitrum
   - address: "0xe3881627b8deebccf9c23b291430a549fc0be5f7"
     tags:
       - contract
@@ -277,6 +281,7 @@ blockchain:
     name: Boost Delegation V2
     networks:
       - optimism
+      - arbitrum
   - address: "0x6b5da774890db7b7b96c6f44e6a4b0f657399e2e"
     tags:
       - contract
@@ -327,3 +332,57 @@ blockchain:
     tags:
       - contract
       - factory
+  - address: "0x223738a747383d6f9f827d95964e4d8e8ac754ce"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AuraBal
+  - address: "0x1509706a6c66ca549ff0cb464de88231ddbe213b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AuraToken
+  - address: "0xf24074a1a6ad620adc14745f9cc1fb1e7ba6ca71"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolManagerLite
+  - address: "0xec1c780a275438916e7ceb174d80878f29580606"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: L2Coordinator
+  - address: "0xc181edc719480bd089b94647c2dc504e2700a2b0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VoterProxyLite
+  - address: "0xeeda9b5b9b18c5f6b77e96dfe076cd46b7af9701"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ChildStashRewardDistro
+  - address: "0xee19ea4b56a3350cfb6fc1b746972809fde238a6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ChildGaugeVoteRewards
+  - address: "0x98ef32edd24e2c92525e59afc4475c1242a30184"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BoosterLite
+  - address: "0xa8920455934da4d853faac1f94fe7bef72943ef1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ComposableStablePoolFactory

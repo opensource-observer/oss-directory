@@ -25,3 +25,15 @@ blockchain:
       - eoa
     networks:
       - arbitrum
+  - address: "0x0e6a14106497a7de36fba446628860c062e9e302"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GuildPin
+  - address: "0xe6e6b676f94a6207882ac92b6014a391766fa96e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TokenBuyer

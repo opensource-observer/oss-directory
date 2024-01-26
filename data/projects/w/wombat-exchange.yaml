@@ -16,3 +16,105 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x6001f4726f11155533630cb9936436cdb7631bb9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MultiRewarderPerSec
+  - address: "0xf1db5b1f92dbe4a34b9fc0cf629e6b013d7de18d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MultiRewarderPerSec
+  - address: "0x85cebd962861be410a777755dfa06914de6af003"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LP_USDT
+  - address: "0x0fa7b744f18d8e8c3d61b64b110f25cc27e73055"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LP_DAI
+  - address: "0x3f90a5a47364c0467031fb00246192d40e3d2d9d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Voter
+  - address: "0xcf20fda54e37f3fb456930f02fb07fccf49e4849"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OvernightPool
+  - address: "0x488b34f704a601daeef14135146a3da79f2d3efc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VeWom_Bridged
+  - address: "0x62a83c6791a3d7950d823bb71a38e47252b6b6f4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MasterWombatV3
+  - address: "0xc6bc781e20f9323012f6e422bdf552ff06ba6cd1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Pool
+  - address: "0xe14302040c0a1eb6fb5a4a79efa46d60029358d9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: wsteth_pool
+  - address: "0xe933e227315fea19a4130f65efff7a12f50f762e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Bribe
+  - address: "0x90ecddec4e4116e30769a4e1ea52c319aca338b6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: mWOM_Pool
+  - address: "0xeb7e2f8efac7ab8079837417b65cd927f05f7465"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: wstETH_LP
+  - address: "0xee9b42b40852a53c7361f527e638b485d49750cd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: wmxWOM_Pool
+  - address: "0x2977b0b54a76c2b56d32cef19f8ea83cc766cfd9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LP_USDC
+  - address: "0xc4b2f992496376c6127e73f1211450322e580668"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WombatRouter
+  - address: "0x90971596f486521f496dc05faeb90837a5f19108"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LP_ETH_wstETHPool

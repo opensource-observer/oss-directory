@@ -27,10 +27,11 @@ blockchain:
   - address: "0x2ed6c4b5da6378c7897ac67ba9e43102feb694ee"
     name: SplitMain
     tags:
-      - contract
       - factory
+      - contract
     networks:
       - optimism
+      - arbitrum
   - address: "0xdecd8b99b7f763e16141450daa5ea414b7994831"
     name: LiquidSplitFactory
     tags:

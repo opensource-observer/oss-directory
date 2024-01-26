@@ -179,9 +179,12 @@ blockchain:
   - address: "0xdef1c0ded9bec7f1a1670819833240f027b25eff"
     networks:
       - optimism
+      - arbitrum
     tags:
-      - eoa
       - creator
+      - eoa
+      - contract
+    name: ExchangeProxy
   - address: "0x6b57347d5b0846a0dce87c8e2db45c8da25b97e0"
     networks:
       - arbitrum

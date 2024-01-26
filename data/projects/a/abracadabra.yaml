@@ -647,3 +647,27 @@ blockchain:
       - factory
       - contract
     name: BentoBoxV1
+  - address: "0x957a8af7894e76e16db17c2a913496a4e60b7090"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LzIndirectOFTV2
+  - address: "0xc89958b03a55b5de2221acb25b58b89a000215e6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CauldronV2
+  - address: "0x287176dfbec7e8cee0f876fc7b52960ee1784adc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OFTWrapper
+  - address: "0x85667409a723684fe1e57dd1abde8d88c2f54214"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MagicGlpRewardHandler

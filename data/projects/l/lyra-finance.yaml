@@ -2078,3 +2078,45 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x48d077e0938b845b06c162a5e28ac703d9475250"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0x7964355735dc8f6583bfbddde1914f09c654636e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0xbdf4e630ded14a129ae302f930d1ae1b40fd02aa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x4cdb992fdefcb840125dd344f87bdcbb8fefa3e7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OptionMarketWrapper
+  - address: "0x7d135662818d3540bd6f23294bfdb6946c52c9ab"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GMXAdapter
+  - address: "0x92a612729bf7e832072540222306aebd6ba0f891"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GMXFuturesPoolHedger
+  - address: "0xe485155ce647157624c5e2a41db45a9cc88098c3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OptionToken

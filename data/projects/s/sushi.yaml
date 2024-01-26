@@ -183,6 +183,7 @@ blockchain:
     name: ConstantProductPoolFactoryHelper
     networks:
       - optimism
+      - arbitrum
   - address: "0x2f686751b19a9d91cc3d57d90150bc767f050066"
     tags:
       - contract
@@ -216,6 +217,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: UniswapV2Router02
   - address: "0x2c8c987c4777ab740d20cb581f5d381be95a4a4a"
     tags:
       - contract
@@ -317,6 +320,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: NonfungiblePositionManager
   - address: "0x2214a42d8e2a1d20635c2cb0664422c528b6a432"
     tags:
       - contract
@@ -351,3 +356,39 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x09bd2a33c47746ff03b86bce4e885d03c74a8e8c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RouteProcessor3_2
+  - address: "0x53b08dbd70327b7ba3b7886fc9987bc985d27262"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SushiXSwap
+  - address: "0xfc506aaa1340b4dedffd88be278bee058952d674"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RouteProcessor3
+  - address: "0x74c764d41b77dbbb4fe771dab1939b00b146894a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BentoBoxV1
+  - address: "0x4ff2cd6a3575ecf5057cb5ff320e9f6613e693d8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Pool
+  - address: "0x15e444da5b343c5a0931f5d3e85d158d1efc3d40"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UniswapV3Pool

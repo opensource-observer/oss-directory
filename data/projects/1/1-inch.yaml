@@ -106,6 +106,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: AggregationRouterV3
   - address: "0xa44f3da37e4266999f9d3cab82da6371e416d1bf"
     tags:
       - contract
@@ -279,6 +281,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: AggregationRouterV5
   - address: "0xb707d89d29c189421163515c59e42147371d6857"
     tags:
       - contract
@@ -295,3 +299,21 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x4bc3e539aaa5b18a82f6cd88dc9ab0e113c63377"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Settlement
+  - address: "0x7f069df72b7a39bce9806e3afaf579e54d8cf2b9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LimitOrderProtocolV2
+  - address: "0xe295ad71242373c37c5fda7b57f26f9ea1088afe"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LimitOrderProtocolV1

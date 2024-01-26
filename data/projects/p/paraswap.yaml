@@ -20,11 +20,12 @@ blockchain:
       - optimism
   - address: "0xdef171fe48cf0115b1d80b88dc8eab59176fee57"
     tags:
-      - contract
       - factory
+      - contract
     name: AugustusSwapper
     networks:
       - optimism
+      - arbitrum
   - address: "0xeef30844023b355408c44224b9d4031609d316d4"
     tags:
       - contract
@@ -164,6 +165,7 @@ blockchain:
     name: FeeClaimer
     networks:
       - optimism
+      - arbitrum
   - address: "0x0aa8b0ef37c482ff80f9d214f9e09b2aef089265"
     tags:
       - contract
@@ -180,6 +182,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: AugustusRFQ
   - address: "0xd63b7691dd98fa89a2ea5e1604700489c585aa7b"
     tags:
       - contract
@@ -216,3 +220,9 @@ blockchain:
       - proxy
       - contract
     name: SmartVaultsFactory
+  - address: "0xd5b927956057075377263aab7f8afc12f85100db"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SmartVault

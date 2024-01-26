@@ -102,6 +102,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: FeeConverter
   - address: "0x7fa86681a7c19416950bae6c04a5116f3b07116d"
     tags:
       - contract
@@ -356,6 +358,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: PoolSettings
   - address: "0xf2d39faee1f598a024a57da2e5f18542f444942d"
     tags:
       - contract
@@ -367,6 +371,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: PoolWrite
   - address: "0x23c74cb91085c4cb2b76cea709ae50309f79dbbd"
     tags:
       - contract
@@ -383,3 +389,225 @@ blockchain:
       - contract
     networks:
       - optimism
+  - address: "0x28241c592f8a3380fb5b27e922be258ec0d5aa6b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolIO
+  - address: "0x79e5bf20b725e4c1a4c3410749bc8f00b2cb46f5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VxPremia
+  - address: "0xee710f7b6ec3da7f5d9be1fe1e15a9503c59a16b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ProxyManager
+  - address: "0x3df9b9f9e7a00343050254def6c1bd9fde3d62e1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PremiaMining
+  - address: "0xd5adbf096944807c89c8ae8fab96ec92555fa311"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolBase
+  - address: "0xb01e3650c5c3108d54f32370e26aa81f529547cf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolExercise
+  - address: "0x8682fc94f435468e18790dfa8607600acce07dee"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolSettings
+  - address: "0x3992690e5405b69d50812470b0250c878bfa9322"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VxPremiaProxy
+  - address: "0x334ca67d8d5b1a6f59c7b81d0e9b0878901949eb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolSell
+  - address: "0x00c95495173b962bdef86734b7688aa20adbf4d5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FeeConverter
+  - address: "0x07ad2ff2260c7af2024409b60c35db77c36b878d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolWrite
+  - address: "0xf374e6f8104379eb3f406b6be394d77cd80f2c88"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolView
+  - address: "0x6a1fc0e1c60ba6564cde4910a425f1f1a1d18c1f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_WBTC_USDCe_P
+  - address: "0xd46993f25d298ebbcd31e941156c66f7e628a52a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_WETH_USDCe_P
+  - address: "0xbb7456a7661f46eba8c638cb8cc2ac181f45f3b9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VaultRegistry
+  - address: "0x51125e3556ee7d31260859381d17419fde239eae"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolCore
+  - address: "0x9775195a06de94493499f538fde8e954826a0032"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UnderwriterVault_weth_usdc_call_vault
+  - address: "0x469ea472d168364b2e50abb81fe5c6da142f9a62"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_FXS_FRAX_P
+  - address: "0xbae43c546dfadc69576ae73c68e0694a54f08e1b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: weth_usdc_call_vault
+  - address: "0x2e98ed9983747ab93f14503cde4cd0f1eacbd098"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_GMX_USDCe_C
+  - address: "0xbcdbe71ca6475c3be9f05e75bbdff7c3979fdc52"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VaultMiningProxy
+  - address: "0xb5eca2280dd6a58c9e17f613f292cb35e5260f21"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_GMX_USDCe_P
+  - address: "0x8cebe7380bbe5e680fa31a5fe0229f638580dbf3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_LINK_USDCe_P
+  - address: "0x9c9a20b9a27b91592f7ef7622f8c4fea9f4a0c8f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_LINK_USDCe_C
+  - address: "0x010aeb3ec7a6a15655c2991eb617c7d9b64baef0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_SOL_USDCe_P
+  - address: "0xe56bf5a095f98c3ad93ec4c8aa0a5c9ba780b615"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_MAGIC_USDCe_P
+  - address: "0xe0c92f15ee2947c81e8d72864ac62331baf8d77d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_wstETH_USDCe_C
+  - address: "0x767823505c345fa1aa315116dc5f0276f8d5c623"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_FXS_FRAX_C
+  - address: "0x2aebd7ffd70cb191eb72a76662a04aeb6a4ee9e2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_SOL_USDCe_C
+  - address: "0xa181f7ce9820b074960c4ee11d5202f159c87afb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_MAGIC_USDCe_C
+  - address: "0xe330c090e2a5ceb4c39d3fb1df82c773efa55dcf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_wstETH_USDCe_P
+  - address: "0x45df5ea836a15b561937ae8373ab9ee984aea531"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_WBTC_USDCe_C
+  - address: "0xbe3e229319f86f5ee96ee1dc0b6d55e8b68a439e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_ARB_USDCe_P
+  - address: "0x8aa6a9cf06c385f57c3e27b024885efe32cb730b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ReferralProxy
+  - address: "0xae4fb6622f25f397587f11638da8ce88c27b5645"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PoolFactory
+  - address: "0xdc631d88dbb5eb39f5c4bf8b4e5298d098912fff"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: pSV_ARB_USDCe_C
+  - address: "0xad74c7c6485b65dc1e38342d390f72d85dee3411"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Pool_Diamond

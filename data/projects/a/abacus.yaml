@@ -571,3 +571,9 @@ blockchain:
     name: UpgradeBeaconProxy
     networks:
       - optimism
+  - address: "0xd56734d7f9979dd94fae3d67c7e928234e71cd4c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: HypERC20

@@ -18,3 +18,9 @@ blockchain:
       - factory
       - contract
     name: LendingPoolAddressesProvider
+  - address: "0x23aea7d17b63682b4f7d4a78d5929796def836cb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LendingPool

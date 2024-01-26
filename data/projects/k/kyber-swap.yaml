@@ -46,6 +46,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: MetaAggregationRouterV2
   - address: "0xcaa00aaf6fbc769d627d825b4faedc3aad880597"
     tags:
       - contract
@@ -133,6 +135,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: MetaAggregationRouter
   - address: "0xe3ac3fd66eb31caf4ee0831b262d837c479ffce5"
     tags:
       - contract
@@ -153,11 +157,15 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: Router
   - address: "0x2b1c7b41f6a8f2b2bc45c3233a5d5fb3cd6dc9a8"
     tags:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: AntiSnipAttackPositionManager
   - address: "0x35be3f4fd8239a35a7f120756d4d69e5c5e10870"
     tags:
       - contract
@@ -214,6 +222,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: DMMFactory
   - address: "0xdb2802994104fad228b49a3c7534187b9794b4ce"
     tags:
       - contract
@@ -224,6 +234,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: AggregationRouterV3
   - address: "0xa9249f4d7e84b206d010bc90211a11fda57785b4"
     tags:
       - contract
@@ -239,6 +251,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: KyberSwapElasticLM
   - address: "0xf60f3a45c7d4476019262fc1ff6756fc15042f13"
     tags:
       - deployer
@@ -273,6 +287,7 @@ blockchain:
     name: Router
     networks:
       - optimism
+      - arbitrum
   - address: "0x4d47fd5a29904dae0ef51b1c450c9750f15d7856"
     tags:
       - contract
@@ -294,6 +309,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: AntiSnipAttackPositionManager
   - address: "0x8fd8cb948965d9305999d767a02bf79833eadbb3"
     tags:
       - contract
@@ -306,3 +323,15 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0xdf1a1b60f2d438842916c0adc43748768353ec25"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AggregationRouterV2
+  - address: "0xbdec4a045446f583dc564c0a227ffd475b329bf0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: KyberSwapElasticLM

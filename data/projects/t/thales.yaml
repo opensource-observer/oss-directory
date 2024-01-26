@@ -396,6 +396,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: StakingThales
   - address: "0x3aa0814cd91f33467e6eb5ba58e56ab73699582b"
     tags:
       - contract
@@ -800,6 +802,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: PositionalMarketMastercopy
   - address: "0xd24f796c1ee04a2e68fb7e71c5bb8259fce2745d"
     tags:
       - contract
@@ -922,6 +926,7 @@ blockchain:
     name: ThalesAMM
     networks:
       - optimism
+      - arbitrum
   - address: "0x56ce3546436ab45e7fd259841a1a7082a05e715c"
     tags:
       - contract
@@ -989,6 +994,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: SportPositionalMarketManager
   - address: "0x2e48d87d5d70ad31ca77edb2dadd748cf2c49f72"
     tags:
       - contract
@@ -2299,6 +2306,7 @@ blockchain:
     name: ThalesBonds
     networks:
       - optimism
+      - arbitrum
   - address: "0x3030678f4f022ac162b4c70fc22aa4de56ed8486"
     tags:
       - contract
@@ -2673,6 +2681,7 @@ blockchain:
     name: BinaryOptionMarketFactory
     networks:
       - optimism
+      - arbitrum
   - address: "0xbd2e1e91d41d5083fb460148a2e37a340a356213"
     tags:
       - contract
@@ -3726,3 +3735,189 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xff9d1b34f369caf91c6b69761e2a06f78ed3cd9d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ParlayMarketData
+  - address: "0xb233aa4cba1c6f24974a4a7f9e32d054e4a51342"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GamesQueue
+  - address: "0xa852a651377fbe23f3d3acf5919c3d092ad4b77d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SportVaultDegen
+  - address: "0x012f03882db1a27a3697fe7729dafcda9b5cc1d0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SportPositionalMarketMastercopy
+  - address: "0x0abdaf0c4cff91f96f817809d4735929fca75b80"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x74b9765ad588d7e8036f6c785ebf8b489a557a43"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TherundownConsumerWrapper
+  - address: "0x95d97c6116c3a1d27b25c9448fdf3889d6dd7c05"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SportsAMMUtils
+  - address: "0x8e9018b48456202aa9bb3e485192b8475822b874"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SportAMMLiquidityPool
+  - address: "0x230893c24804b89d0ec3ffffa243ce32c6b6541b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SportAMMLiquidityPoolData
+  - address: "0x0b13071b5f3f860f4d52c836d898a79fe104c9b4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TherundownConsumerVerifier
+  - address: "0x7b065de3fd7190a6c2cb6d51e946e82b6b2c4358"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MultiCollateralOnOffRamp
+  - address: "0x1ac7ebfa70ab18bf0a8c36e51ecd6c969e88b1d1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SportPositionalMarketFactory
+  - address: "0xd7c5df8f490e0efe8c043f888a39ea247d4d3e10"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GamesOddsObtainer
+  - address: "0x6848f7c1b5aa2da86f6529bed9d641a67663f0be"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ParlayAMMLiquidityPool
+  - address: "0xe26374c7afe71a2a6ab4a61080772547c43b87e6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SportVaultSafu
+  - address: "0x652f74591683cdaba32a21ac87f2d4cb840c252a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GamesOddsReceiver
+  - address: "0xab9e5fc491c743ae0b45f7100faf611deb8fec4a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ParlayVault
+  - address: "0xda00b46a924da3019b2f5fc13e770956f75c04c7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SportAMMLiquidityPool
+  - address: "0xff7aea98740fa1e2a9eb81680583e62aaff1e3ad"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SportVault
+  - address: "0x0f32dc40b8d26fb7d5104bc6ca639c1d8800bff0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0xe42517a1bf3e6bd088bf26ead8d8754e0e2beba3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TaleOfThalesNFTs
+  - address: "0x642682d2fa61c49d204b657ade5ab0142295e227"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PositionalMarketMastercopy
+  - address: "0xe9f5e7579931a46e4beac08ca9ab52961ad66203"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SafeBoxBuyback
+  - address: "0xea4c2343fd3c239c23dd37dd3ee51aec84544735"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ThalesAMMLiquidityPool
+  - address: "0xe92b4c614b04c239d30c31a7ea1290addcb8217d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ChainedSpeedMarketsAMM
+  - address: "0x2bb7d689780e7a34dd365359bd7333ab24903268"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ParlayMarketsAMM
+  - address: "0x739d25922010a727b1fc842c483494d4d7a4c90e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ThalesStakingRewardsPool
+  - address: "0x5cf3b1882357bb66cf3cd2c85b81abbc85553962"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x02d0123a89ae6ef27419d5ebb158d1ed4cf24fa3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SpeedMarketsAMM
+  - address: "0x91fae7d06d8d831ae9054614516fe8802711a32a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PositionMastercopy
+  - address: "0x95d93c88c1b5190fa7fa4350844e0663e5a11ff0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PositionalMarketManager

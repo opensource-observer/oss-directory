@@ -340,6 +340,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: SynapseCCTPRouter
   - address: "0xd5609cd0e1675331e4fb1d43207c8d9d83aab17c"
     networks:
       - arbitrum
@@ -354,3 +356,57 @@ blockchain:
       - factory
       - contract
     name: SwapDeployer
+  - address: "0x3ea9b0ab55f34fb188824ee288ceaefc63cf908e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: nETH
+  - address: "0x6f4e8eba4d337f874ab57478acc2cb5bacdc19c9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SynapseBridge
+  - address: "0x080f6aed32fc474dd5717105dba5ea57268f46eb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SynapseERC20
+  - address: "0x2913e812cf0dcca30fb28e6cac3d2dcff4497688"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: nUSD
+  - address: "0x12715a66773bd9c54534a01abf01d05f6b4bd35e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SynapseCCTP_v2
+  - address: "0xfb2bfc368a7edfd51aa2cbec513ad50edea74e84"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SynapseCCTP
+  - address: "0x37f9ae2e0ea6742b9cad5abcfb6bbc3475b3862b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: L2BridgeZap
+  - address: "0x8d9ba570d6cb60c7e3e0f31343efe75ab8e65fb1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SynapseERC20
+  - address: "0x1a4da80967373fd929961e976b4b53ceec063a15"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SynapseERC20

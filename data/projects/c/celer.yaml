@@ -88,6 +88,8 @@ blockchain:
       - contract
     networks:
       - optimism
+      - arbitrum
+    name: Bridge
   - address: "0x50ec9b92b3bd46969b1ae5e10543ca6fb49fba4f"
     tags:
       - contract
@@ -175,3 +177,27 @@ blockchain:
     name: OptimizedTransparentUpgradeableProxy
     networks:
       - optimism
+  - address: "0xfe31bfc4f7c9b69246a6dc0087d91a91cb040f76"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OriginalTokenVault
+  - address: "0xea4b1b0aa3c110c55f650d28159ce4ad43a4a58b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OriginalTokenVaultV2
+  - address: "0xbdd2739ae69a054895be33a22b2d2ed71a1de778"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PeggedTokenBridge
+  - address: "0xdd90e5e87a2081dcf0391920868ebc2ffb81a1af"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: cBridge_V2

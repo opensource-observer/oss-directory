@@ -348,3 +348,21 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xbc805030469c36a483713efaf9ffc8f0e8a81aed"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DefiEdgeStrategyFactory
+  - address: "0x7d55d4ff054f5e2b748ea2cf0765fbfba7ae222f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: defiedge_chainlink_factory
+  - address: "0x4082c6aef2cc2e478e624f6ac89dd6e8e0483b90"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: defiedge_twap_factory

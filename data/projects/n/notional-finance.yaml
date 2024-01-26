@@ -22,3 +22,39 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xa99b6375490f6861390cfeb3d18c3f177d325cf9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Curve2TokenConvexVault
+  - address: "0x1eb506b0b73c12510ab6dbc6897e282c946c83c2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Curve2TokenConvexVault
+  - address: "0xae38f4b960f44d86e798f36a374a1ac3f2d859fa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Curve2TokenConvexVaultUsdcFraxBorrowUsdc
+  - address: "0x1344a36a1b56144c3bc62e7757377d288fde0369"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Router
+  - address: "0x434a3c376c8900e57476608872282f29565f8eec"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BalancerComposableAuraVault
+  - address: "0xdb08f663e5d765949054785f2ed1b2aa1e9c22cf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Curve2TokenConvexVaultUsdcFraxBorrowFrax
