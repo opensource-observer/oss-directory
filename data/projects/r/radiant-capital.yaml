@@ -10,12 +10,6 @@ blockchain:
     tags:
       - deployer
       - eoa
-  - address: "0x47399364835b6c58191f6350bf63a755f80b0ffb"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0xe51dfe7188d0b9a84141ff47d04ab07aeb82b89d"
     networks:
       - arbitrum
@@ -24,14 +18,6 @@ blockchain:
       - proxy
       - contract
     name: InitializableImmutableAdminUpgradeabilityProxy
-  - address: "0xe51dfe7188d0b9a84141ff47d04ab07aeb82b89d"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-      - proxy
-    name: InitializableImmutableAdminUpgradeabilityProxy
   - address: "0xe21b295ed46528efd5f3ef66e18bc6ad1c87f003"
     networks:
       - arbitrum
@@ -39,25 +25,12 @@ blockchain:
       - factory
       - contract
     name: LendingPoolAddressesProvider
-  - address: "0xe21b295ed46528efd5f3ef66e18bc6ad1c87f003"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: LendingPoolAddressesProvider
   - address: "0x7759124915160e94c77ece5b96e8a7fcec44aa19"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
-  - address: "0x7759124915160e94c77ece5b96e8a7fcec44aa19"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0x7130b521c0e361626eceb353455bcddcbebdb121"
     networks:
       - arbitrum
@@ -66,14 +39,6 @@ blockchain:
       - proxy
       - contract
     name: InitializableImmutableAdminUpgradeabilityProxy
-  - address: "0x7130b521c0e361626eceb353455bcddcbebdb121"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-      - proxy
-    name: InitializableImmutableAdminUpgradeabilityProxy
   - address: "0x091d52cace1edc5527c99cdcfa6937c1635330e4"
     networks:
       - arbitrum
@@ -81,22 +46,9 @@ blockchain:
       - factory
       - contract
     name: LendingPoolAddressesProvider
-  - address: "0x091d52cace1edc5527c99cdcfa6937c1635330e4"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: LendingPoolAddressesProvider
   - address: "0x43aa90c66b88ff904adc195987c0f3e3b09be0f1"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
-  - address: "0x43aa90c66b88ff904adc195987c0f3e3b09be0f1"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer

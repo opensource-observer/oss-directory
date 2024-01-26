@@ -10,23 +10,10 @@ blockchain:
     tags:
       - deployer
       - eoa
-  - address: "0x400348d0db7e757277a0a06fc68b5da038973c15"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0x14fcc60f9be14087fac729df48ff33f2b3052c12"
     networks:
       - arbitrum
     tags:
       - factory
       - contract
-    name: RageTradeFactory
-  - address: "0x14fcc60f9be14087fac729df48ff33f2b3052c12"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
     name: RageTradeFactory

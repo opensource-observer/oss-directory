@@ -10,23 +10,10 @@ blockchain:
     tags:
       - deployer
       - eoa
-  - address: "0x16c2c2e818ac209f7e17a147aa10155267d880cb"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0xe048cce443e787c5b6fa886236de2981d54e244f"
     networks:
       - arbitrum
     tags:
       - factory
       - contract
-    name: GammaPoolFactory
-  - address: "0xe048cce443e787c5b6fa886236de2981d54e244f"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
     name: GammaPoolFactory

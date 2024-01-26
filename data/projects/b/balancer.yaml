@@ -10,25 +10,12 @@ blockchain:
     tags:
       - deployer
       - eoa
-  - address: "0x9098b50ee2d9e4c3c69928a691da3b192b4c9673"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0x3d64fb8a2ffd08c186e8060aa57c8011d8b999cc"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
-    name: nventuro.eth
-  - address: "0x3d64fb8a2ffd08c186e8060aa57c8011d8b999cc"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
     name: nventuro.eth
   - address: "0x7dfdef5f355096603419239ce743bfaf1120312b"
     networks:
@@ -37,13 +24,6 @@ blockchain:
       - factory
       - contract
     name: WeightedPoolFactory
-  - address: "0x7dfdef5f355096603419239ce743bfaf1120312b"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: WeightedPoolFactory
   - address: "0x1c99324edc771c82a0dccb780cc7dda0045e50e7"
     networks:
       - arbitrum
@@ -51,38 +31,18 @@ blockchain:
       - factory
       - contract
     name: ComposableStablePoolFactory
-  - address: "0x1c99324edc771c82a0dccb780cc7dda0045e50e7"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: ComposableStablePoolFactory
   - address: "0x398df9f7d65c177c00749ffc83cb34ba5e07bf8b"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
-  - address: "0x398df9f7d65c177c00749ffc83cb34ba5e07bf8b"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0xd8b6b96c88ad626eb6209c4876e3b14f45f8803a"
     networks:
       - arbitrum
     tags:
       - factory
       - contract
-    name: YearnLinearPoolFactory
-  - address: "0xd8b6b96c88ad626eb6209c4876e3b14f45f8803a"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
     name: YearnLinearPoolFactory
   - address: "0x1802953277fd955f9a254b80aa0582f193cf1d77"
     networks:
@@ -91,26 +51,12 @@ blockchain:
       - factory
       - contract
     name: NoProtocolFeeLiquidityBootstrappingPoolFactory
-  - address: "0x1802953277fd955f9a254b80aa0582f193cf1d77"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: NoProtocolFeeLiquidityBootstrappingPoolFactory
   - address: "0xef44d6786b2b4d544b7850fe67ce6381626bf2d6"
     networks:
       - arbitrum
     tags:
       - factory
       - contract
-    name: StablePoolFactory
-  - address: "0xef44d6786b2b4d544b7850fe67ce6381626bf2d6"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
     name: StablePoolFactory
   - address: "0xf1665e19bc105be4edd3739f88315cc699cc5b65"
     networks:
@@ -119,26 +65,12 @@ blockchain:
       - factory
       - contract
     name: WeightedPoolFactory
-  - address: "0xf1665e19bc105be4edd3739f88315cc699cc5b65"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: WeightedPoolFactory
   - address: "0x2433477a10fc5d31b9513c638f19ee85caed53fd"
     networks:
       - arbitrum
     tags:
       - factory
       - contract
-    name: StablePoolFactory
-  - address: "0x2433477a10fc5d31b9513c638f19ee85caed53fd"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
     name: StablePoolFactory
   - address: "0xb08e16cfc07c684daa2f93c70323badb2a6cbfd2"
     networks:
@@ -147,26 +79,12 @@ blockchain:
       - factory
       - contract
     name: ChildChainLiquidityGaugeFactory
-  - address: "0xb08e16cfc07c684daa2f93c70323badb2a6cbfd2"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: ChildChainLiquidityGaugeFactory
   - address: "0x8df6efec5547e31b0eb7d1291b511ff8a2bf987c"
     networks:
       - arbitrum
     tags:
       - factory
       - contract
-    name: WeightedPoolFactory
-  - address: "0x8df6efec5547e31b0eb7d1291b511ff8a2bf987c"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
     name: WeightedPoolFactory
   - address: "0xa3b9515a9c557455bc53f7a535a85219b59e8b2e"
     networks:
@@ -175,26 +93,12 @@ blockchain:
       - factory
       - contract
     name: ERC4626LinearPoolFactory
-  - address: "0xa3b9515a9c557455bc53f7a535a85219b59e8b2e"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: ERC4626LinearPoolFactory
   - address: "0x4f4269f7008430860693aedb86b0c55962d6e9b7"
     networks:
       - arbitrum
     tags:
       - factory
       - contract
-    name: BatchRelayerLibrary
-  - address: "0x4f4269f7008430860693aedb86b0c55962d6e9b7"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
     name: BatchRelayerLibrary
   - address: "0xba12222222228d8ba445958a75a0704d566bf2c8"
     networks:
@@ -203,26 +107,12 @@ blockchain:
       - factory
       - contract
     name: Vault
-  - address: "0xba12222222228d8ba445958a75a0704d566bf2c8"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: Vault
   - address: "0x2498a2b0d6462d2260eac50ae1c3e03f4829ba95"
     networks:
       - arbitrum
     tags:
       - factory
       - contract
-    name: ComposableStablePoolFactory
-  - address: "0x2498a2b0d6462d2260eac50ae1c3e03f4829ba95"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
     name: ComposableStablePoolFactory
   - address: "0xf23b4db826dba14c0e857029dff076b1c0264843"
     networks:
@@ -231,25 +121,12 @@ blockchain:
       - factory
       - contract
     name: AaveLinearPoolFactory
-  - address: "0xf23b4db826dba14c0e857029dff076b1c0264843"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: AaveLinearPoolFactory
   - address: "0x697a71353a4bc1eb1356763018a229c27a3fba0c"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
-  - address: "0x697a71353a4bc1eb1356763018a229c27a3fba0c"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0xcf0a32bbef8f064969f21f7e02328fb577382018"
     networks:
       - arbitrum
@@ -257,26 +134,7 @@ blockchain:
       - factory
       - contract
     name: WeightedPool2TokensFactory
-  - address: "0xcf0a32bbef8f064969f21f7e02328fb577382018"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: WeightedPool2TokensFactory
   - address: "0x089775364ea24957da94348cf740375826ed3330"
-    networks:
-      - arbitrum
-    tags:
-      - deployer
-      - eoa
-  - address: "0x089775364ea24957da94348cf740375826ed3330"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
-  - address: "0xc3c2b82754e1c91ab3a2a0916f852be84d9566a5"
     networks:
       - arbitrum
     tags:
@@ -286,21 +144,14 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0xaeb406b0e430bf5ea2dc0b9fe62e4e53f74b3a33"
     networks:
       - arbitrum
     tags:
       - factory
       - contract
-    name: ComposableStablePoolFactory
-  - address: "0xaeb406b0e430bf5ea2dc0b9fe62e4e53f74b3a33"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
     name: ComposableStablePoolFactory
   - address: "0xc7e5ed1054a24ef31d827e6f86caa58b3bc168d7"
     networks:
@@ -309,26 +160,7 @@ blockchain:
       - factory
       - contract
     name: WeightedPoolFactory
-  - address: "0xc7e5ed1054a24ef31d827e6f86caa58b3bc168d7"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: WeightedPoolFactory
   - address: "0x288c09d17a66a49177d3846372ed318ac16a8f42"
-    networks:
-      - arbitrum
-    tags:
-      - deployer
-      - eoa
-  - address: "0x288c09d17a66a49177d3846372ed318ac16a8f42"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
-  - address: "0x62810730b8fe56d13c5627a96af027782122eda1"
     networks:
       - arbitrum
     tags:
@@ -338,5 +170,5 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa

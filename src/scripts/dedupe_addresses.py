@@ -25,17 +25,20 @@ def dedupe_contracts() -> None:
             continue
         yaml_address_data = project_data.get("blockchain")
         addresses = []
+        duplicates = []
         for entry in yaml_address_data:
             address = entry['address'].lower()
             if address in addresses:
+                duplicates.append(entry)
                 logging.info(f"Duplicate {address} in {project_path.replace(LOCAL_PATH, '')}")
             else:
                 addresses.append(address)
 
-        project_data["blockchain"] = [entry for entry in yaml_address_data if entry['address'].lower() not in addresses]
-        dump(project_data, project_path)
-        logging.info(f"Deduped {project_path.replace(LOCAL_PATH, '')}")
-        replace_single_quotes_with_double_quotes_in_file(project_path)
+        if duplicates:
+            project_data["blockchain"] = [entry for entry in yaml_address_data if entry not in duplicates]
+            dump(project_data, project_path)
+            logging.info(f"Deduped {project_path.replace(LOCAL_PATH, '')}")
+            replace_single_quotes_with_double_quotes_in_file(project_path)
 
 if __name__ == "__main__":
     dedupe_contracts()
