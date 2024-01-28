@@ -15,8 +15,10 @@ blockchain:
     tags:
       - eoa
       - creator
+      - deployer
     networks:
       - optimism
+      - arbitrum
   - address: "0xfddae88913f6f7ee7daf2c2dbd0a7f8ec970aece"
     tags:
       - contract
@@ -29,6 +31,13 @@ blockchain:
       - factory
     networks:
       - optimism
+    name: WaveFactory
+  - address: "0xfB51d25c88819E25EEA78933c82D3985835Eda95"
+    tags:
+      - contract
+      - factory
+    networks:
+      - arbitrum
     name: WaveFactory
   - address: "0x230530e27b57e6912cdc211f303a375d102296b4"
     tags:
