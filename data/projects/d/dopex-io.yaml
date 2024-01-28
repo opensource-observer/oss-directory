@@ -3,3 +3,47 @@ slug: dopex-io
 name: Dopex
 github:
   - url: https://github.com/dopex-io
+blockchain:
+  - address: "0xde485812e28824e542b9c2270b6b8ed9232b7d0b"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x29ed22a9e56ee1813e6ff69fc6cac676aa24c09c"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x9c21ca464a2ee450d05d605d74ad415c6baaa054"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x2fecfb2ebe995c9dea38a6235c807a58ede7fe7f"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+    name: psytama.eth
+  - address: "0x1337731dc6be067a823efc450b0fe659356068fa"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0xee82496d3ed1f5afbeb9b29f3f59289fd899d9d0"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x1756968b96d7ad6ba0333045109004c67b1e4edf"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

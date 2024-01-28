@@ -3,3 +3,22 @@ slug: jones-dao
 name: Jones DAO
 github:
   - url: https://github.com/jones-dao
+blockchain:
+  - address: "0xd83055eb9d43a7dac64c9ef3e117d43964dd01fe"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x4817ca4df701d554d78aa3d142b62c162c682ee1"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x2a88a454a7b0c29d36d5a121b7cf582db01bfcec"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
