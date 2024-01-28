@@ -12,12 +12,12 @@ blockchain:
       - optimism
   - address: "0x017f8ad14a2e745ea0f756bd57cd4852400be78c"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0x52629961f71c1c2564c5aa22372cb1b9fa9eba3e"
     tags:
       - contract
@@ -397,12 +397,12 @@ blockchain:
       - optimism
   - address: "0x0000000000006396ff2a80c067f99b3d2ab4df24"
     tags:
-      - proxy
       - contract
       - factory
+      - proxy
     networks:
-      - optimism
       - arbitrum
+      - optimism
     name: ERC1967Factory
   - address: "0x74a002d13f5f8af7f9a971f006b9a46c9b31dabd"
     tags:

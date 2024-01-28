@@ -6,12 +6,12 @@ github:
 blockchain:
   - address: "0x0298f4332e3857631385b39766325058a93e249f"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0x6c5927c0679e6d857e87367bb635decbcb20f31c"
     tags:
       - contract

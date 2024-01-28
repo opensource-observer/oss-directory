@@ -16,15 +16,15 @@ blockchain:
       - factory
     name: HolographGenesis
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0x4f92ae4960a6ac49fa88bcf9d6d4b8c53f626a55"
     tags:
       - contract
       - factory
     networks:
-      - optimism
       - arbitrum
+      - optimism
     name: HolographFactoryProxy
   - address: "0xa2d6193763a9b327db7c74c766713927745f2a4c"
     tags:

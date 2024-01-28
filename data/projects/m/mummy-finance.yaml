@@ -6,12 +6,12 @@ github:
 blockchain:
   - address: "0x30b12942912cee5a719edec2dd147224fcc373a0"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
-      - optimism
       - arbitrum
+      - optimism
     name: mmyvote.eth
   - address: "0xb471865c97a271e1572ecca838b971e710498e4c"
     tags:

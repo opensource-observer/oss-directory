@@ -9,14 +9,14 @@ npm:
 blockchain:
   - address: "0x9ebc8e61f87a301ff25a606d7c06150f856f24e2"
     tags:
+      - creator
       - deployer
       - eoa
       - wallet
-      - creator
     networks:
+      - arbitrum
       - mainnet
       - optimism
-      - arbitrum
   - address: "0x4df01754ebd055498c8087b1e9a5c7a9ad19b0f6"
     name: WaterfallModuleFactory
     tags:

@@ -57,12 +57,12 @@ blockchain:
       - contract
   - address: "0x000000008924d42d98026c656545c3c1fb3ad31c"
     networks:
-      - optimism
       - arbitrum
+      - optimism
     tags:
-      - proxy
       - contract
       - factory
+      - proxy
     name: ERC721SeaDropCloneFactory
   - address: "0x00000000b8f8f18b708c8f7aa10f9ee7ea88049a"
     networks:

@@ -12,12 +12,12 @@ blockchain:
       - optimism
   - address: "0x9a8f92a830a5cb89a3816e3d267cb7791c16b04d"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
-      - optimism
       - arbitrum
+      - optimism
     name: across.eth
   - address: "0xb44c433d2b071b95184cf25e1113cc2f1a903cb1"
     tags:

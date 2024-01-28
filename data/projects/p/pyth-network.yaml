@@ -12,12 +12,12 @@ blockchain:
       - wallet
   - address: "0xc42e9476b0a458097087336e2395dbf45b0bdc12"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0x78357316239040e19fc823372cc179ca75e64b81"
     tags:
       - eoa

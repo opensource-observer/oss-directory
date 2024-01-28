@@ -13,12 +13,12 @@ blockchain:
       - mainnet
   - address: "0x8df57e3d9ddde355dce1adb19ebce93419ffa0fb"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0x5411894842e610c4d0f6ed4c232da689400f94a1"
     tags:
       - contract

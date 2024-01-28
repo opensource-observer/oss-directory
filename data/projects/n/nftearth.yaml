@@ -12,12 +12,12 @@ blockchain:
       - optimism
   - address: "0xcd0b087e113152324fca962488b4d9beb6f4caf6"
     networks:
-      - optimism
       - arbitrum
+      - optimism
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
   - address: "0x0f9b80fc3c8b9123d0aef43df58ebdbc034a8901"
     name: Seaport
     networks:

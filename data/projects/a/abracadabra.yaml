@@ -6,12 +6,12 @@ github:
 blockchain:
   - address: "0xfb3485c2e209a5cfbdc1447674256578f1a80ee3"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
-      - optimism
       - arbitrum
+      - optimism
     name: 0xcalibur.eth
   - address: "0xfddfe525054efaad204600d00ca86adb1cc2ea8a"
     tags:
@@ -71,12 +71,12 @@ blockchain:
       - optimism
   - address: "0x1ea71cec606f6eecc547937b549e598210ebb0e0"
     tags:
-      - proxy
       - contract
       - factory
+      - proxy
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0x2b95bf93b5873c8cb9ae3374e3054736a5b79676"
     tags:
       - contract
@@ -464,8 +464,8 @@ blockchain:
       - factory
     name: ZeroXSolidlyLikeVolatileLPLevSwapper
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0x59be9fcb06cc9c8bee44b9861131d4614fb11bda"
     tags:
       - contract

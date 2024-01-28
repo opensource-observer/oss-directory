@@ -12,12 +12,12 @@ blockchain:
       - optimism
   - address: "0xdc0d4bdcc70362cedd23d3997c31528ec1502fc4"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0xe3f8154da2aedd10f3cce0ec2bb0da1f1dec2b56"
     tags:
       - contract
@@ -176,12 +176,12 @@ blockchain:
     name: SmartAccountFactory
   - address: "0x70717b44011c2f92709168e132e71b02628fbb0c"
     tags:
-      - proxy
       - contract
       - factory
+      - proxy
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0xe9a9b272ea05a1ef05aff666665e51cf3a3f9e60"
     tags:
       - contract
@@ -292,12 +292,12 @@ blockchain:
       - factory
   - address: "0xd7eeaa15047b1f6b76dde1d50e298557468d8546"
     networks:
-      - optimism
       - arbitrum
+      - optimism
     tags:
-      - proxy
       - contract
       - factory
+      - proxy
   - address: "0x6b0a5ae0bc0eb03c712ea522aff0a3f09519e4a2"
     networks:
       - optimism

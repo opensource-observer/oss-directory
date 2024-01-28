@@ -6,20 +6,20 @@ github:
 blockchain:
   - address: "0x7eeac6cddbd1d0b8af061742d41877d7f707289a"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0x919124f5f5135d3020a0b075412679755545f7c5"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0xba22746d79e75931dd8c0336760332e5d4a372a5"
     tags:
       - eoa
@@ -28,12 +28,12 @@ blockchain:
       - optimism
   - address: "0x745748bcfd8f9c2de519a71d789be8a63dd7d66c"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0x3711ae92429ccef7581c4c6efe0cf6042ba0b1e2"
     tags:
       - eoa
@@ -52,8 +52,8 @@ blockchain:
       - factory
     name: Vyper_contract
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0x2db0e83599a91b508ac268a6197b8b14f5e72840"
     tags:
       - contract
@@ -408,12 +408,12 @@ blockchain:
       - optimism
   - address: "0xbabe61887f1de2713c6f97e567623453d3c79f67"
     networks:
-      - optimism
       - arbitrum
+      - optimism
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
   - address: "0x6eb2dc694eb516b16dc9fbc678c60052bbdd7d80"
     networks:
       - arbitrum

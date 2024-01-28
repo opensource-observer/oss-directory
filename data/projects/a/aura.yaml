@@ -6,12 +6,12 @@ github:
 blockchain:
   - address: "0x30019eb135532bddf2da17659101cc000c73c8e4"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0xb07d2d6a03f2d4878dc1680f8581e871dae47494"
     tags:
       - eoa
@@ -24,8 +24,8 @@ blockchain:
       - factory
     name: Create2Factory
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0x417d097d504e5adedb441238f92f1b2c9b38900f"
     tags:
       - contract
@@ -138,12 +138,12 @@ blockchain:
       - optimism
   - address: "0x9098b50ee2d9e4c3c69928a691da3b192b4c9673"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0x956ccab09898c0af2aca5e6c229c3ad4e93d9288"
     tags:
       - contract
@@ -164,8 +164,8 @@ blockchain:
       - factory
     name: AaveLinearPoolFactory
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0xa523f47a933d5020b23629ddf689695aa94612dc"
     tags:
       - factory
