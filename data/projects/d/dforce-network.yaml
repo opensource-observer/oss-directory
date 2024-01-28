@@ -15,8 +15,10 @@ blockchain:
     tags:
       - eoa
       - creator
+      - deployer
     networks:
       - optimism
+      - arbitrum
   - address: "0xd7656c7f0268bb222c94cfba57b046a433dea038"
     tags:
       - contract

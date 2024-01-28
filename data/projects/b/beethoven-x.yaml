@@ -18,18 +18,18 @@ blockchain:
       - optimism
   - address: "0x3d64fb8a2ffd08c186e8060aa57c8011d8b999cc"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
       - arbitrum
       - optimism
     name: nventuro.eth
   - address: "0x697a71353a4bc1eb1356763018a229c27a3fba0c"
     tags:
+      - creator
       - deployer
       - eoa
-      - creator
     networks:
       - arbitrum
       - optimism
@@ -162,8 +162,8 @@ blockchain:
       - optimism
   - address: "0xba12222222228d8ba445958a75a0704d566bf2c8"
     tags:
-      - factory
       - contract
+      - factory
     name: Vault
     networks:
       - arbitrum
@@ -236,8 +236,8 @@ blockchain:
       - optimism
   - address: "0xb08e16cfc07c684daa2f93c70323badb2a6cbfd2"
     tags:
-      - factory
       - contract
+      - factory
     name: MetaStablePoolFactory
     networks:
       - arbitrum
@@ -574,16 +574,16 @@ blockchain:
       - optimism
   - address: "0xa3b9515a9c557455bc53f7a535a85219b59e8b2e"
     tags:
-      - factory
       - contract
+      - factory
     name: ERC4626LinearPoolFactory
     networks:
       - arbitrum
       - optimism
   - address: "0xd8b6b96c88ad626eb6209c4876e3b14f45f8803a"
     tags:
-      - factory
       - contract
+      - factory
     networks:
       - arbitrum
       - optimism

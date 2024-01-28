@@ -155,6 +155,46 @@ def generate_address_snapshot(outpath: str, chain: str = 'mainnet') -> None:
     print(f"Generated address snapshot at {outpath} with {len(addresses)} entries.")
 
 
+def map_dune_snapshot_to_slugs(json_data: Dict, chain: str) -> Dict[str, str]:
+    """
+    Create a mapping of blockchain addresses to project slugs based on the Dune Analytics snapshot data.
+
+    Args:
+    json_data (Dict): A dictionary containing Dune Analytics snapshot data. The keys are Dune namespaces.
+        and the values are dictionaries containing blockchain addresses and details.
+    chain (str): The blockchain name to use for filtering addresses.
+
+    Returns:
+    Dict[str, str]: A dictionary mapping Dune namespaces to OSS Directory slugs.
+    """
+
+    project_yaml_data = get_yaml_data_from_path(LOCAL_PATH)
+    project_addresses = map_addresses_to_slugs(project_yaml_data, chain)
+
+    # map the dune namespaces to ossd slugs, ordered by how many addresses they have (descending)
+    namespaces = {}
+    for namespace, data in json_data.items():
+        addresses = [address for address, details in data.items() if chain in details.get('networks',[])]
+        if not addresses:
+            continue
+        namespaces[namespace] = len(addresses)
+    namespaces = dict(sorted(namespaces.items(), key=lambda item: item[1], reverse=True))    
+
+    # map the namespaces to slugs
+    slugs = {}
+    for namespace, _ in namespaces.items():
+        addresses = json_data[namespace]
+        for address, details in addresses.items():
+            slug = details.get('slug')
+            if slug:
+                break
+            slug = project_addresses.get(address.lower())
+            if slug:                
+                break
+        slugs[namespace] = slug    
+    
+    return slugs
+
 if __name__ == "__main__":
     generate_repo_snapshot('repo_snapshot.yaml')
     generate_address_snapshot('address_snapshot.yaml')

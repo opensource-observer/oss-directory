@@ -6,12 +6,12 @@ github:
 blockchain:
   - address: "0x5bdb37d0ddea3a90f233c7b7f6b9394b6b2eef34"
     tags:
-      - deployer
       - creator
+      - deployer
       - eoa
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0xa9a84238098dc3d1529228e6c74dbe7ebdf117a5"
     tags:
       - contract
@@ -91,11 +91,11 @@ blockchain:
       - optimism
   - address: "0xbea9f78090bdb9e662d8cb301a00ad09a5b756e9"
     tags:
-      - factory
       - contract
+      - factory
     networks:
-      - optimism
       - arbitrum
+      - optimism
     name: SwapFlashLoan
   - address: "0xcf70e2f3567ba396f3dd04822f78ecd70ba46894"
     tags:

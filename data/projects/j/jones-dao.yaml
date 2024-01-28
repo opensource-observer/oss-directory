@@ -1,0 +1,138 @@
+version: 3
+slug: jones-dao
+name: Jones DAO
+github:
+  - url: https://github.com/jones-dao
+blockchain:
+  - address: "0xd83055eb9d43a7dac64c9ef3e117d43964dd01fe"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x4817ca4df701d554d78aa3d142b62c162c682ee1"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x2a88a454a7b0c29d36d5a121b7cf582db01bfcec"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x873066f098e6a3a4febf65c9e437f7f71c8ef314"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ArbitrumWrappedJonesAuraOFT
+  - address: "0xb98976a008191948a6857df824034d3c5f3aabc5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesRdpxCallStrategy
+  - address: "0x5ba98ad75ab87eb90ffc2b680bcfc6b9030e1246"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesDPXVaultV3
+  - address: "0xcc21349b6b1c82530d5da6ed310380d980f75497"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MultichainHub
+  - address: "0x6ecaa3203aeb4d0cc21745f2752a73b41ced7c24"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesDpxCallStrategy
+  - address: "0xf3e914c15d0baa1f6537b0966d6f3394ba260747"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RdpxEthBearVault
+  - address: "0xe6c548b9443b8a296a5bc084903b569594e89cd0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesRdpxEthBearStrategy
+  - address: "0x5369b3eb4c9e87d0b349557034faa20c6ce72315"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesDpxEthBullStrategy
+  - address: "0x7a82a0ca7a2569d6cd3df2afeaf508f6d85fd2c3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DpxEthBearVault
+  - address: "0xb94d1959084081c5a11c460012ab522f5a0fd756"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MillinerV2
+  - address: "0x7aa12db079c901400e22a5b912204dc575ff9c19"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DpxEthBullVault
+  - address: "0x64f6c761d855a6eff9ef8b025b0258bddede5393"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RdpxEthBullVault
+  - address: "0x7bd8955b131e4576e7525ac47bef77a3ea4ecdc4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesDpxEthBearStrategy
+  - address: "0x10393c20975cf177a3513071bc110f7962cd67da"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesToken
+  - address: "0x711f1bf759d3f749b938cf040ab65110b8524de9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesRdpxEthBullStrategy
+  - address: "0x0aefad19aa454bcc1b1dd86e18a7d58d0a6fac38"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MiniChefV2
+  - address: "0xcb9295ac65de60373a25c18d2044d517ed5da8a9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xe0a28b93371fe494a2f6025a2b6dd0edfbe24f3e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0x6157e2dee2938efca144e507865f10cd93b0a04f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ArbitrumWrappedJonesAura

@@ -1,0 +1,102 @@
+version: 3
+slug: winrprotocol
+name: WINR Protocol
+github:
+  - url: https://github.com/winrprotocol
+blockchain:
+  - address: "0xd7ec70a520323c4ebfa45f7f29e415de758b0b26"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x3b12dababcdf51ae095a10256e67e9ef33bade5f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ReferralStorage
+  - address: "0xddaecf4b02a3e45b96fc2d7339c997e072b0d034"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WINRStaking
+  - address: "0x8c50528f4624551aad1e7a265d6242c3b06c9fca"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Vault
+  - address: "0x6f7353b59476dbd1de23d7113be7a7fbe6f343e5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WLP
+  - address: "0xa255ddb3bb7f12cac46494047506da4a67a805be"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Router
+  - address: "0xe51c9758a3cb30e7b88fb6edc628cef2880acf1c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FeeCollector
+  - address: "0xc885b641cb11ce2b38a7c28b79318c4b89cf04f9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GenesisWLPStaking
+  - address: "0x2e41f0d0d925fc862864749acef2a54aa3355ff7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FeeCollectorV2
+  - address: "0x71eb4239e6b8c081b2945e65245da1e19a03c785"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WLPManager
+  - address: "0x2244aee9e6d408e8ad046bc9a1fd91163e6b46a0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LegacyWINR
+  - address: "0x63097e97ba51b64547cf1f4ba154495d7af74582"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VestedWINR
+  - address: "0x311620724d45c2db80b2ddea9f7ea176dddcd858"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TokenManager
+  - address: "0x2798419f2db8ea5f0f3a9b405313801e052b9ca7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: gWLP
+  - address: "0x6ed34c4d56b82a76e6540b7cc2d35000873e1dd6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Vesting
+  - address: "0xd77b108d4f6cefaa0cae9506a934e825becca46e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: WINR

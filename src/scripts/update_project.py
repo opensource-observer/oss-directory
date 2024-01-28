@@ -54,6 +54,10 @@ def update_address(project_slug: str, address: str, name: str, networks: list, t
     tags (list): The tags of the address.
     """
 
+    if address.lower() == "0x3fe38087a94903a9d946fa1915e1772fe611000f":
+        logging.info(f"Skipping BeaconProxyFactory in {project_slug[0]}/{project_slug}")
+        return False
+
     project_path = os.path.join(LOCAL_PATH, project_slug[0], f"{project_slug}.yaml")
     if not os.path.exists(project_path):
         logging.warning(f"File {project_path} does not exist.")
@@ -72,9 +76,9 @@ def update_address(project_slug: str, address: str, name: str, networks: list, t
     for entry in yaml_address_data:        
         if entry['address'].lower() == address.lower():
             if name and not entry.get("name"):
-                entry["name"] = name
-            entry["networks"] = list(set(entry.get("networks", []) + networks))
-            entry["tags"] = list(set(entry.get("tags", []) + tags))
+                entry["name"] = name            
+            entry["networks"] = sorted(list(set(entry.get("networks", []) + networks)))
+            entry["tags"] = sorted(list(set(entry.get("tags", []) + tags)))
             logging.info(f"Updated {address} in {project_slug[0]}/{project_slug}")
             updated = True
             break

@@ -13,12 +13,12 @@ blockchain:
       - mainnet
   - address: "0x5cb01385d3097b6a189d1ac8ba3364d900666445"
     tags:
-      - deployer
       - creator
+      - deployer
       - eoa
     networks:
-      - optimism
       - arbitrum
+      - optimism
     name: ovnstable.eth
   - address: "0xb3285706c1b8b11fb5bc0de4be380066d2cb26d0"
     tags:

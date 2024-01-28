@@ -1,0 +1,18 @@
+version: 3
+slug: magpiexyz
+name: Magpie
+github:
+  - url: https://github.com/magpiexyz
+blockchain:
+  - address: "0xc8d7d0bd61c5ca5a493a229f6754da5560f486ae"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0xba7bac71a8ee550d89b827fe6d67bc3dca07b104"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MulticallFacet

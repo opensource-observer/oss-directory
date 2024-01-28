@@ -12,12 +12,12 @@ blockchain:
       - optimism
   - address: "0xdbaabc182e5fcebf216c353a3ebe32cdb7390094"
     tags:
-      - deployer
       - creator
+      - deployer
       - eoa
     networks:
-      - optimism
       - arbitrum
+      - optimism
   - address: "0x3aa2a4f9bc75e34662f7f2877a13a4dda88e00e9"
     tags:
       - contract

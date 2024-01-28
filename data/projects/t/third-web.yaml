@@ -26,24 +26,24 @@ npm:
 blockchain:
   - address: "0xdd99b75f095d0c4d5112ace938e4e6ed962fb024"
     tags:
-      - deployer
       - creator
+      - deployer
       - eoa
     networks:
-      - optimism
       - arbitrum
+      - optimism
     name: deployer.thirdweb.eth
   - address: "0x76f948e5f13b9a84a81e5681df8682bbf524805e"
     tags:
-      - factory
       - contract
+      - factory
     networks:
       - arbitrum
       - optimism
   - address: "0xd24b3de085cfd8c54b94fead08a7962d343e6de0"
     tags:
-      - factory
       - contract
+      - factory
     networks:
       - arbitrum
       - optimism
