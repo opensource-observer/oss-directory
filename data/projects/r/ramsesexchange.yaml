@@ -3,3 +3,66 @@ slug: ramsesexchange
 name: Ramses
 github:
   - url: https://github.com/ramsesexchange
+blockchain:
+  - address: "0xaaa95622f8570389a9b62bf2ae541f3a313f93e3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RamsesTransparentUpgradeableProxy
+  - address: "0xaaa20d08e59f6561f242b08513d36266c5a29415"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RamsesTransparentUpgradeableProxy
+  - address: "0xaaa35aaea18b0187e82a3a7f2996c9ee7bad9696"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RamsesTransparentUpgradeableProxy
+  - address: "0xaa2cd7477c451e703f3b9ba5663334914763edf8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RamsesTransparentUpgradeableProxy
+  - address: "0xe9524a3635d1d417da7e317b42c41ca747292a01"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0x9cf91d36146ab033bf0f6a605c8951527a22f8ba"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x937effc10a3e6d1b92d8561697097fb984429ca4"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0xb3e423ab9ce6c03d98326a3a2a0d7d96b0829f22"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: RamsesDeployer
+  - address: "0xcf2c2fdc9a5a6fa2fc237dc3f5d14dd9b49f66a3"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x000057b10855dedd84ec8869dbd75f94fda098b4"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

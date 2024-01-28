@@ -332,3 +332,16 @@ blockchain:
     tags:
       - contract
     name: FraxCCFarmV2_ArbiCurveVSTFRAX
+  - address: "0xf03e9981e3848037e1784d72b02c8c8d100e90e5"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0xc70cc721d19dc7e627b81feacb6a357fb11200af"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: FraxlendPairDeployer

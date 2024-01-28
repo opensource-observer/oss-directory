@@ -3,3 +3,64 @@ slug: camelotlabs
 name: Camelot
 github:
   - url: https://github.com/camelotlabs
+blockchain:
+  - address: "0x6eccab422d763ac031210895c81787e87b43a652"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: CamelotFactory
+  - address: "0xe0a6b372ac6af4b37c7f3a989fe5d5b194c24569"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: NitroPoolFactory
+  - address: "0x6db1ef0df42e30acf139a70c1ed0b7e6c51dbf6d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: NFTPoolFactory
+  - address: "0x01bb7b44cc398aaa2b76ac6253f0f5634279db9d"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x6dd3fb9653b10e806650f107c3b5a0a6ff974f65"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: AlgebraPoolDeployer
+  - address: "0x89aee07e1dbafc82f089b45ffc763738e9fff226"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: AlgebraPoolDeployer
+  - address: "0x71e7d05be74ff748c45402c06a941c822d756dc5"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x6c0db7c063dd28bbf6c4bad43a21169f4565bc41"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x1a3c9b1d2f0529d97f2afc5136cc23e58f1fd35b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: AlgebraFactory

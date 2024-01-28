@@ -13,8 +13,8 @@ blockchain:
   - address: "0xdc0d4bdcc70362cedd23d3997c31528ec1502fc4"
     tags:
       - deployer
-      - creator
       - eoa
+      - creator
     networks:
       - optimism
       - arbitrum
@@ -176,9 +176,9 @@ blockchain:
     name: SmartAccountFactory
   - address: "0x70717b44011c2f92709168e132e71b02628fbb0c"
     tags:
-      - factory
       - proxy
       - contract
+      - factory
     networks:
       - optimism
       - arbitrum
@@ -295,9 +295,9 @@ blockchain:
       - optimism
       - arbitrum
     tags:
-      - factory
       - proxy
       - contract
+      - factory
   - address: "0x6b0a5ae0bc0eb03c712ea522aff0a3f09519e4a2"
     networks:
       - optimism

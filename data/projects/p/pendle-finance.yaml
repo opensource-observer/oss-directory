@@ -22,8 +22,8 @@ blockchain:
       - arbitrum
     tags:
       - deployer
-      - creator
       - eoa
+      - creator
   - address: "0xfc7a495389cd3454f5cc0ecaa55d30e343a1fc16"
     name: LiquiditySeedingHelper
     networks:
@@ -202,8 +202,8 @@ blockchain:
       - optimism
       - arbitrum
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x418273abdeafe67c811a7671e5406e15bba10870"
     name: BaseSplitCodeFactoryContract
     networks:
@@ -270,8 +270,8 @@ blockchain:
       - optimism
       - arbitrum
     tags:
-      - factory
       - contract
+      - factory
   - address: "0x2066a650af4b6895f72e618587aad5e8120b7790"
     networks:
       - arbitrum

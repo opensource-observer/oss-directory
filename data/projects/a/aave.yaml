@@ -20,8 +20,8 @@ blockchain:
   - address: "0x4365f8e70cf38c6ca67de41448508f2da8825500"
     tags:
       - deployer
-      - creator
       - eoa
+      - creator
     networks:
       - optimism
       - arbitrum
@@ -33,25 +33,25 @@ blockchain:
       - optimism
   - address: "0x2401ae9bbef67458362710f90302eb52b5ce835a"
     tags:
-      - factory
       - contract
+      - factory
     networks:
       - optimism
       - arbitrum
   - address: "0x8145edddf43f50276641b55bd3ad95944510021e"
     tags:
-      - factory
-      - contract
       - proxy
+      - contract
+      - factory
     name: InitializableImmutableAdminUpgradeabilityProxy
     networks:
       - optimism
       - arbitrum
   - address: "0xa97684ead0e402dc232d5a977953df7ecbab3cdb"
     tags:
-      - factory
-      - contract
       - proxy
+      - contract
+      - factory
     name: PoolAddressesProvider
     networks:
       - optimism
@@ -235,8 +235,8 @@ blockchain:
       - eoa
       - creator
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0x982486bd81ecc9ad0ce830f72b19dfd22fab07d5"
     tags:
       - eoa

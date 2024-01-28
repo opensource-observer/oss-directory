@@ -7,8 +7,8 @@ blockchain:
   - address: "0xfb3485c2e209a5cfbdc1447674256578f1a80ee3"
     tags:
       - deployer
-      - creator
       - eoa
+      - creator
     networks:
       - optimism
       - arbitrum
@@ -71,9 +71,9 @@ blockchain:
       - optimism
   - address: "0x1ea71cec606f6eecc547937b549e598210ebb0e0"
     tags:
-      - factory
       - proxy
       - contract
+      - factory
     networks:
       - optimism
       - arbitrum
@@ -460,8 +460,8 @@ blockchain:
       - optimism
   - address: "0x7c8fef8ea9b1fe46a7689bfb8149341c90431d38"
     tags:
-      - factory
       - contract
+      - factory
     name: ZeroXSolidlyLikeVolatileLPLevSwapper
     networks:
       - optimism

@@ -13,8 +13,8 @@ blockchain:
   - address: "0xf87bc5535602077d340806d71f805ea9907a843d"
     tags:
       - deployer
-      - creator
       - eoa
+      - creator
     networks:
       - optimism
       - arbitrum
@@ -123,8 +123,8 @@ blockchain:
       - optimism
   - address: "0xc35dadb65012ec5796536bd9864ed8773abc74c4"
     tags:
-      - factory
       - contract
+      - factory
     name: BentoBox
     networks:
       - optimism
@@ -283,8 +283,8 @@ blockchain:
       - optimism
   - address: "0x1af415a1eba07a4986a52b6f2e7de7003d82231e"
     tags:
-      - factory
       - contract
+      - factory
     name: NonfungiblePositionManager
     networks:
       - optimism

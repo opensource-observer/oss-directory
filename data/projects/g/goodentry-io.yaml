@@ -3,3 +3,28 @@ slug: goodentry-io
 name: GoodEntry
 github:
   - url: https://github.com/goodentry-io
+blockchain:
+  - address: "0xae016ff3c8029cf2c023229a5fa9184428cc6562"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x0928c1f7a7eae94cac6f333d83f0768aaa836d05"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0xddec418c1a825ac09ad83cc1a28a2c5bcd746050"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+  - address: "0x7433d4158c702dc6bf0974e0bb4eea152cfbdd6a"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

@@ -7,26 +7,26 @@ blockchain:
   - address: "0xb8cd93c83a974649d76b1c19f311f639e62272bc"
     tags:
       - deployer
-      - creator
       - eoa
+      - creator
     networks:
       - optimism
       - arbitrum
   - address: "0x98b2920d53612483f91f12ed7754e51b4a77919e"
     tags:
-      - factory
       - contract
+      - factory
     name: ConstAddressDeployer
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0xe432150cce91c13a887f7d836923d5597add8e31"
     tags:
-      - factory
       - contract
+      - factory
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
     name: AxelarGatewayProxy
   - address: "0x8a156bca562fb75385c4d41ea6903e270a34b727"
     tags:

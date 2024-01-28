@@ -125,8 +125,8 @@ blockchain:
   - address: "0x6c9fc64a53c1b71fb3f9af64d1ae3a4931a5f4e9"
     tags:
       - deployer
-      - creator
       - eoa
+      - creator
     networks:
       - optimism
       - arbitrum
@@ -139,24 +139,24 @@ blockchain:
   - address: "0xd8fa8f87129c654a6dd7f34eedaf58379e176eb1"
     tags:
       - deployer
-      - creator
       - eoa
+      - creator
     networks:
       - optimism
       - arbitrum
   - address: "0x946e9c780f3c79d80e51e68d259d0d7e794f2124"
     tags:
       - deployer
-      - creator
       - eoa
+      - creator
     networks:
       - optimism
       - arbitrum
   - address: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
     name: UniswapV3Factory
     tags:
-      - factory
       - contract
+      - factory
     networks:
       - optimism
       - arbitrum

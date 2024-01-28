@@ -8,8 +8,8 @@ blockchain:
   - address: "0xe2e2d9e31d7e1cc1178fe0d1c5950f6c809816a3"
     tags:
       - deployer
-      - creator
       - eoa
+      - creator
     networks:
       - optimism
       - arbitrum
@@ -132,11 +132,11 @@ blockchain:
       - optimism
   - address: "0x0b2402144bb366a632d14b83f244d2e0e21bd39c"
     tags:
-      - factory
       - contract
+      - factory
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
     name: TokenBridge
   - address: "0x4a330d059b67e1b4fc575500cd805d70725ea1f3"
     tags:

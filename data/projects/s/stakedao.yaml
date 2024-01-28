@@ -3,3 +3,18 @@ slug: stakedao
 name: Stake DAO
 github:
   - url: https://github.com/stakedao
+blockchain:
+  - address: "0xb17640796e4c27a39af51887aff3f8dc0daf9567"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: CurveVaultFactoryXChain
+  - address: "0xe490a4517f1e8a1551ecb03af5eb116c6bbd450b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: AdminUpgradeabilityProxy

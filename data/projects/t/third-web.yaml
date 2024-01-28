@@ -27,26 +27,26 @@ blockchain:
   - address: "0xdd99b75f095d0c4d5112ace938e4e6ed962fb024"
     tags:
       - deployer
-      - creator
       - eoa
+      - creator
     networks:
       - optimism
       - arbitrum
     name: deployer.thirdweb.eth
   - address: "0x76f948e5f13b9a84a81e5681df8682bbf524805e"
     tags:
-      - factory
       - contract
+      - factory
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
   - address: "0xd24b3de085cfd8c54b94fead08a7962d343e6de0"
     tags:
-      - factory
       - contract
+      - factory
     networks:
-      - arbitrum
       - optimism
+      - arbitrum
     name: TWFactory
   - address: "0x10c06f8b3695813276b4a921c06bb3b122aaf9d2"
     tags:

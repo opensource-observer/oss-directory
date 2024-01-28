@@ -3,3 +3,22 @@ slug: velaexchange
 name: Vela Exchange
 github:
   - url: https://github.com/velaexchange
+blockchain:
+  - address: "0x05e4c7a3032c4fb4a6c5a2baef9c6cd4bebc6986"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x6647da1da67bcab3af15c0eb9f7983b3c574b08e"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x4edc01b119a224dbc0fa1297a6aca3f02af5a58d"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer

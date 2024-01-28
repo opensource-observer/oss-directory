@@ -3,3 +3,41 @@ slug: woonetwork
 name: WOO Network
 github:
   - url: https://github.com/woonetwork
+blockchain:
+  - address: "0x97471c0fdddb5e5cc34cb08cb17961bd3a53f38f"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x43e3e4d002ba65c6a26d2e4c998b46e427370e6c"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x7296fd0d4ea0492429c8d63c8ac33e5c87bde4a2"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x044764c4e03bd080f7400e255654002e2d751d45"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0xa113d3b08df49d442fa1c0b47a82ad95ad19c0fb"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x3fe38087a94903a9d946fa1915e1772fe611000f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: BeaconProxyFactory

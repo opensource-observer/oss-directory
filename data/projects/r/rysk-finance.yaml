@@ -64,3 +64,10 @@ blockchain:
     tags:
       - contract
     name: RyskDisperseArbSTIP
+  - address: "0xca19f26c52b11186b4b1e76a662a14da5149ea5a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: AddressBook
