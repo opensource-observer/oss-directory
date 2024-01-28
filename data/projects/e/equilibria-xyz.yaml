@@ -38,3 +38,57 @@ blockchain:
       - contract
       - factory
     name: TransparentUpgradeableProxy
+  - address: "0xe8ee3b7d74bd6eebba0992353b9fec66abf28dc8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ChainlinkFeedOracle
+  - address: "0x52c64b8998eb7c80b6f526e99e29abdcc86b841b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DSU
+  - address: "0xaf8ced28fce00abd30463d55da81156aa5aeeec2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Collateral
+  - address: "0xe72e82b672d7d3e206327c0762e9805fbfcbca92"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MultiInvoker
+  - address: "0x9df509186b6d3b7d033359f94c8b1bb5544d51b3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Product
+  - address: "0x5a572b5fbbc43387b5ef8de2c4728a4108ef24a6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PerennialVaultAlpha
+  - address: "0x1960628db367281b1a186dd5b80b5dd6978f016f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PerennialVaultBravo
+  - address: "0x431603567ecbb4aa1ce5a4fdbe5554caea658832"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MultiInvoker_Arbitrum
+  - address: "0x0d49c416103cbd276d9c3cd96710db264e3a0c27"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
