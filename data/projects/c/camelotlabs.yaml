@@ -45,12 +45,6 @@ blockchain:
       - contract
       - factory
     name: AlgebraPoolDeployer
-  - address: "0x71e7d05be74ff748c45402c06a941c822d756dc5"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0x6c0db7c063dd28bbf6c4bad43a21169f4565bc41"
     networks:
       - arbitrum
