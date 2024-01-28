@@ -14,8 +14,8 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0x9c21ca464a2ee450d05d605d74ad415c6baaa054"
     networks:
       - arbitrum
@@ -26,15 +26,15 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
     name: psytama.eth
   - address: "0x1337731dc6be067a823efc450b0fe659356068fa"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0xee82496d3ed1f5afbeb9b29f3f59289fd899d9d0"
     networks:
       - arbitrum
@@ -425,3 +425,9 @@ blockchain:
     tags:
       - contract
     name: DopexV2PositionManager
+  - address: "0x1756968b96d7ad6ba0333045109004c67b1e4edf"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
