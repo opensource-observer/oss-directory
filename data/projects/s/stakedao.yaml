@@ -18,3 +18,9 @@ blockchain:
       - contract
       - factory
     name: AdminUpgradeabilityProxy
+  - address: "0xb76c16d77b8c7d08477db4141055ffda3f93bca4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Stakedao

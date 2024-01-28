@@ -22,3 +22,27 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xf08bdbc590c59cb7b27a8d224e419ef058952b5f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Hypervisor
+  - address: "0x22ae0da638b4c4074a683045cce759e8ba990b1f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Rewarders_UniProxy
+  - address: "0x4faa2c69a759d7f0c66c256ffd2e306ccae2cbb1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LiquidityGeneratorToken
+  - address: "0x7f7a93a458fea8f6c2abeb163d087d5d68c42479"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LiquidityGeneratorToken

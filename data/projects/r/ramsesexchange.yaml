@@ -66,3 +66,81 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xaaa343032aa79ee9a6897dab03bef967c3289a06"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VotingEscrow
+  - address: "0xa388d2ddb9ee3c4d84c04eaa396eadb3357d052d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0xc5d60d38064ce3c11bcac66e5f189166e40264ce"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RamsesLGE
+  - address: "0xaaaa0b6baefaec478eb2d1337435623500ad4594"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Minter
+  - address: "0xaaa2564deb34763e3d05162ed3f5c2658691f499"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Voter
+  - address: "0xaa277cb7914b7e5514946da92cb9de332ce610ef"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: NonfungiblePositionManager
+  - address: "0xaaa6c1e32c55a7bfa8066a6fae9b42650f262418"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Ram
+  - address: "0xad426ab13bca2f0b8cd87689f643718150cedc12"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RamsesLens
+  - address: "0xaaa87963efeb6f7e0a2711f397663105acb1805e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Router
+  - address: "0xaa2fbd0c9393964af7c66c1513e44a8caaae4fda"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RamsesV2GaugeFactory
+  - address: "0xaaa86b908a3b500a0de661301ea63966923a97b1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RewardsDistributor
+  - address: "0xaaa1ee8dc1864ae49185c368e8c64dd780a50fb7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: xRAM
+  - address: "0x64b6b726c47eba266da090776b3170bb6eb100cc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RamsesV2Factory

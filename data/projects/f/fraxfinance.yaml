@@ -345,3 +345,9 @@ blockchain:
       - contract
       - factory
     name: FraxlendPairDeployer
+  - address: "0x2d0483fefaba4325c7521539a3dfacf94a19c472"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Fraxlend_ARB_FRAX_pair

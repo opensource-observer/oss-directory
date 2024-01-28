@@ -28,3 +28,33 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xf360e073efc1fd4cc2d21551a13781ddefe888de"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: esGOOD
+  - address: "0x36003a975bfc56f650590c26b1479ba423217931"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Pools
+  - address: "0x553fe5115392e2f024f1099e41a2f8ccb5ed2bca"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Fairsale
+  - address: "0x17176a9868f321411b15ccb9b934cf95597e89c4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GOOD
+  - address: "0x47c4f38704681c4c16f9b17ab14c4d5836c0b4bc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OptionsPositionManager

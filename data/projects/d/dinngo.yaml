@@ -10,3 +10,9 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xd2d63812c72d2455a9613efdf41feb4b0b58a7a9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Proxy_v200

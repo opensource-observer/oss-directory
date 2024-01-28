@@ -10,3 +10,15 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x531bc6e97b65adf8b3683240bd594932cfb63797"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: VesterImplementation
+  - address: "0x6bd780e7fdf01d77e4d475c821f1e7ae05409072"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DolomiteMargin

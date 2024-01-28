@@ -10,3 +10,15 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x0ae38f7e10a43b5b2fb064b42a2f4514cba909ef"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: unshETHOFT
+  - address: "0x51a80238b5738725128d3a3e06ab41c1d4c05c74"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: USHOFT
