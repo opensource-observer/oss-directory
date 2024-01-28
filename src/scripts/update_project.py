@@ -72,9 +72,9 @@ def update_address(project_slug: str, address: str, name: str, networks: list, t
     for entry in yaml_address_data:        
         if entry['address'].lower() == address.lower():
             if name and not entry.get("name"):
-                entry["name"] = name
-            entry["networks"] = list(set(entry.get("networks", []) + networks))
-            entry["tags"] = list(set(entry.get("tags", []) + tags))
+                entry["name"] = name            
+            entry["networks"] = sorted(list(set(entry.get("networks", []) + networks)))
+            entry["tags"] = sorted(list(set(entry.get("tags", []) + tags)))
             logging.info(f"Updated {address} in {project_slug[0]}/{project_slug}")
             updated = True
             break
