@@ -4,10 +4,153 @@ name: Timeswap
 github:
   - url: https://github.com/timeswap-labs
 blockchain:
-  - address: "0x4e59b44847b379578588920ca78fbf26c0b4956c"
+  - address: "0xea45312c915adc912e681728a5bf55441c08fcd7"
     networks:
       - arbitrum
     tags:
       - contract
-      - factory
-      - proxy
+    name: TimeswapV2PeripheryNoDexLendGivenPrincipal
+  - address: "0x62a45a77d23feef0a812306e3cac4889430b7496"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexCollect
+  - address: "0x783f0cb5adbf0a7510f0697780c9983ae5e04f9d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexCloseBorrowGivenPosition
+  - address: "0x8c76cbb88f5974a457a2258aa91b4d494735e021"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryUniswapV3LendGivenPrincipal
+  - address: "0xe1cd819b5a2c8fc65d3d77bfe0d0a0ff5bb54326"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexLendGivenPrincipal
+  - address: "0x59c084795f1c51542a7cd6d07158ea2e233b6ca3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexCloseLendGivenPosition
+  - address: "0x64ad9f02ce912adcce2ef1d5ea5f903648abb2f4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryUniswapV3CloseLendGivenPosition
+  - address: "0x3c3fd16a5b055aa4e61bba43bc2b34ba060e5007"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexCloseBorrowGivenPosition
+  - address: "0xbd6b5575971d357eb49549d5fb26a2529bab0e7b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexCloseLendGivenPosition
+  - address: "0xb3f4d19d11ead1ee52089c5f63213b959e6c5492"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryUniswapV3AddLiquidityGivenPrincipal
+  - address: "0x61edf35c6c6557010a7649c7fc9efc75b9feb2e1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexBorrowGivenPrincipal
+  - address: "0x9660c75add5bc600608861b7cd32700b79b50f7f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PoolFactory
+  - address: "0xfb466fbc00617c89e5865f4ef0bc6d48ea150ac5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexLendGivenPrincipal
+  - address: "0x275695f56e609cad02c9898351386b4b0c1cfb3e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryUniswapV3BorrowGivenPrincipal
+  - address: "0x8dc92083f5c4813c02b502ce1ea61f0a48a36a88"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexBorrowGivenPrincipal
+  - address: "0xeacf3a29043292d823a725b9f537ef91668f35bc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexAddLiquidityGivenPrincipal
+  - address: "0xebada7aa52c68bdb6a2744f40aa2f3da76d469dc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexBorrowGivenPrincipal
+  - address: "0x406d3dfcbe20b642c2262b29b960822975371502"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2OptionFactory
+  - address: "0x6aabebd635b1c153bcba17b8c8728d7a61a74887"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryUniswapV3BorrowGivenPrincipal
+  - address: "0xc775b9b8461403fca64fcbf84186231c5cf12bc1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexCollect
+  - address: "0xeda832936d5e0661c9a70027c39583137715fe8d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryUniswapV3LendGivenPrincipal
+  - address: "0xfd9945fb3771af4ca1b75b27e16a91e671d1becf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryUniswapV3CloseBorrowGivenPosition
+  - address: "0xe35f344e178f3fe0d03b0128194f2fc7b816d4df"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexWithdraw
+  - address: "0x116b7fe310e5b570899d4f74caa48b1a80e839c2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryUniswapV3AddLiquidityGivenPrincipal
+  - address: "0x0bf89333680083e03d8a9994a85c0e0f448108fb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TimeswapV2PeripheryNoDexRemoveLiquidityGivenPosition
