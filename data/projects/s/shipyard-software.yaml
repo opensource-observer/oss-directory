@@ -83,3 +83,45 @@ blockchain:
     networks:
       - optimism
     name: ClipperPermitRouter
+  - address: "0xa12b36b31eab47bdc9fc5346d2dbbc0d360b6a75"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x3d5a771e690af1bbd854df638ed945baf1066ed0"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x9e233dd6a90678baacd89c05ce5c48f43fcc106e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ClipperCove
+  - address: "0xb873921b1add94ea47bf983b060ce812e97873df"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ClipperCove_v2
+  - address: "0xe7b0ce0526fbe3969035a145c9e9691d4d9d216c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ClipperPackedVerifiedExchange
+  - address: "0x4c16dd6e9b402ea4fb5be647be2f49e3d59bb08a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LPTransfer_v2
+  - address: "0x769728b5298445ba2828c0f3f5384227fbf590c5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ClipperPackedVerifiedExchange_v2

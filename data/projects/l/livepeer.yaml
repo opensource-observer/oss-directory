@@ -1,0 +1,42 @@
+version: 3
+slug: livepeer
+name: Livepeer
+github:
+  - url: https://github.com/livepeer
+blockchain:
+  - address: "0x74b5ba17b2fee90fdae8f252d3e7998022069ba0"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0xb5af4138f0f33be0d6414eb25271b9c2dc245fb5"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x0b9c254837e72ebe9fe04960c43b69782e68169a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BondingVotes
+  - address: "0x35bcf3c30594191d53231e4ff333e8a770453e40"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: BondingManager
+  - address: "0xa8bb618b1520e284046f3dfc448851a1ff26e41b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TicketBroker
+  - address: "0x289ba1701c2f088cf0faf8b3705246331cb8a839"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LivepeerToken

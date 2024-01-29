@@ -1,0 +1,6999 @@
+version: 3
+slug: dexfinance-com
+name: dexfinance
+github:
+  - url: https://github.com/dexfinance-com
+blockchain:
+  - address: "0x35aba0858b01f0794bdc646cfe6a397a769c86ce"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3a4bf551e685bf0fb06427f30453094f4080b26c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x6715d87c0a2c494db6bfb0ec9dd0417ee46c868d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x6e16526445a442a9e7382bd81b518a95ede31632"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xfe513e36b6510b70550476c05aab1e081e98cdec"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5c822aa7a11d4c973b314ed012956f1f200a5a66"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x96116c5c5c760bffc0d06017f96dbbbf25621ada"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+  - address: "0x0a111405ab6cbebbccba4e523bbc760e4c00b770"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xaf53e7c060e211ac28f1aec23f35c6807d3a0414"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf7ef6091f8705cf841cdbeaa6580d40e4515b829"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd5bd80492198ac1d24ad4ef0282a2423c3967c86"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc4ad70dea7235bc7342643e8f0034fad312d0b0c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa8646dba0f3a1a81b1e6bbdcba59c3859e96c58e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7abfc29dc15e2a2b9c5f0bec6d82931354165194"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5c1e8407937dc2f7f26f23f7d2125440d0d70ff0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3a73651e4b8ea18a75690255aa4969bc7e9e1883"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x508294b5b57e4fd27514aaf771209b0836e727f5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x715dc506c72dac6cde10353bbfb49d7fcfed0e89"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x2b47d8b05f05bae4baacb5346a16ac11dad9c7f9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9544e0500407dad0765b11c67d6c94645cf343ca"
+    networks:
+      - arbitrum
+    tags:
+      - eoa
+      - deployer
+  - address: "0x81858b5a38e43a479ea6a8092caba8183f383f27"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x6bbbb76ed309b31cbf11aa9e2ac68cecc1ba84b3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x8dbb2993aac1fdfa9c2754d3fed3c42e20b87efd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xec1a337e9848130c23352bb9b18ab836268e9420"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc71d72d41da608f477388044ab0ae2b92e39b9bd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5f78b0288d4e03765f3380f787496e3222bd6b61"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x292ecefb94bace14bab82594394bb6013d00a6a5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd470e0f0b0e83b4dd9283e8082e94f58429f46d1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xeee01c74a45a9f518166cf4adf26bd05eb632a87"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xae9a3461930a3c274f22c97c32d755eff9bf635c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x518f3f9708ef35d6b2d2b36b83b9877a9efc2c10"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x6f62d9564ba166d7d32561d639228871249c6a8d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb45b59fefd46948a501ade15a59e0d1748f31921"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe8edcf722c4d7f9168d8dbbb44e1f0560a0f9180"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xfa3bcb919421e2b067b7e1e385e4fa2d80d7dc41"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xde5a1849d48ef2eee5dfb39b175acbc0cd9c4e43"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf1392495954e0fbff7e7c3750ab6bddf1e378487"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd66d09b746d9c85e6a9d4748865ec8354243d2a6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5546b0a159d93b80c7c66fc4b9c1d367fdd27822"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa73d6549a23546932c6255da8d321ce819318f48"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x27384d46bc07cfb55fcd9e262eed83110dcdf33d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x49015cde75c1f7d84e8638d844f1da5c27cacea8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9adc9976177ecf0a2675d2ec3c7f2490731faeae"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x1424a7b69644563f3ee4b7d5edb61f42409cb260"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe963c4404a356620d78c887fceaeb4cf9c2e0240"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x4b94d2b0a6d622b9b0b9d4e804b7f0ab326c5426"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3421080159f6105e63f89758d1936594735abbad"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf19da1917bc06b7ce9e9edf0f7906cbea2410fd8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x41f10759731dcaa347e915e4b9b2679d5f3c76a8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe7ff82b11a4e5f82e1159c98e51bda1ba785d0b9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x6380edde457eb5728b4912c9c7845804457deb06"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf7b33857aa542d49b0db94fef320dd1b12b01012"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe70361fa09f25a26638eed0c58713c322c9e7d70"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3b49fc5b879e23299690bf847a374f4242d65300"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x97295fca8fbdd8808818c7fc50791fd8b4c201e7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5a4c8b678deb93ddde5d7186002c78ee6e521148"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xec19e29052d0d67b34a60f1618c85375d83d32f0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa4bdfdfa50656147a22c9b999ccd1edb53b224f6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x64d22fa17ee8f3cd03a9962f0f863c37eb3c2caa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x527a99eeec6fed61862af48f6366eaf427a994de"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7b8144601d173a6692e3ff5ffd1af5fa2bfac2c7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x96ea489f3405676bfef59fdadf3f4a9dd5e432db"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xeb06d43c3760e37ab177a82bc875590458f26482"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xda90f0eb9ab5c6656a488d517d427c5c7160a727"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x061eae08240214319b22659eb30a1858714505f5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x52df308b78c6bdb9a31c7e0ad092fcf8d20d09de"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb229694b3d2e1eef54bdd4f2cc1fb659b278554d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x6ad2fd7932eb3ee5dbc85f3305e8da869248343e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb0e028edf1051f3d9b856f41fef640711b748acf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x27ee3fc130e9161ca9d603c77553d724133659ba"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0635122bd3c6b9fe8c432ebdfb9533d5362b8c31"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x33cae7a0c39a04ffc1dfa1cd573bbde2a3db32eb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x1f578053ce439f9aa973f4c6ea347866d1e6d363"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7c9f350b7455c59ce1dea7221d26e7ffb6679037"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x25d5921c183e957f218beb17b17cf836bc711a43"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x6a4a4f3223719d482c5e744d5b50169bbed98ba7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xae4162f087798772380f8f2dc03028820c35e564"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x519baccb664ec2ea8d75235c82d90af312579f62"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x77b81081198a498600435277fdd1543225d53550"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x4c79652ee2834873aaf1fb876af6a280d57ef38e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x610b6a549a01647fe405671d0c486c2e9b8d5621"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x87a37980aedca4768369716b764ae75667554d7a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x32824976de580e58cc15ed4d5d92cddd2238e1fc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x11315ce638225bf3ecbbb1e5136ac7839f62191b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa879549c000ab36264e1affd503d5788eac2eca6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb035800bc04b573f17a1813602b857ebcd70cb5b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x41dbd76bbf0a363ffc13da4a769c2389c01a2520"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd526d32ace2b951d7d3691c568d61a4d02c2ab93"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe658dd7225dff8360cd3216cb9e1b64ae4783472"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3bde47666cd10badb5fc34191ddeff1a9117072a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x938ce971285ddaa3f609886b97b46f87a2a08e7f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x572c64dce4865e79b61d82c4cf9eaa11b2610dbb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x792abe88d2468700bc6c519e41609be4601afcee"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x6ad9689b8a5fe3ea976d6b982183ed1cb572a35f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xcd096b814279fa41f03fd1f6503003fdd4bb1e91"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe174b8f645896b8f3fe77fd6000a95d71855d949"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc0904c9ab8449eb9cabf65c06cfbca0473330e45"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3d5a200f40f9ed911a8dd5061d6b15479972ca20"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x234b20137ce5f3b8e67e54ccc4ed562baf99421b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe5b7d6431108ce0894b2b43bd092d267096866b8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa94e621de31cac9234c6afef4e551826bff3ff4d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x02cd95a7dd0255b0c6d435958945abc3b4b220cd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa409945d829b1faa543f6c46ac04a5670e264a09"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9af368c1aa58d275a6c0d342adfb90ef41b5ecfa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xfde013bfc3fd307da6b1b9a0666b27d3c0a26183"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7c6a6c52a7630e852c4de9a3caefbe7e9bd1c7c9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xba3ed1f27d372fe5b19835b22b3ed25d5dbc3f6e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x25276027bdf2cbed9b22efc47acf754b0f609b63"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7644a445c9efca0cd14e93f1afdad3025c610c9f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xbb6ed07ccfe396cf4010b3ae0c9014b23b7918e4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x528295d692581638bb57b5bfa1022cb5780f2d7f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5073fa91b4e4f1e04a47de797b742ace7fa43110"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7f91548b6636b5326c90f1326bb0e18945e16fde"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x27b820f0e0c03883d33072d02d516fe8737cb8e0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x007ed3315443247913c7070da506bb4262d863e2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x2b7f7d1716404ba4a46d88cc425f7b897258163e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc045a7a8e41d180ce0a6387fa984b00fff863fb5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x2e3a3728c2eb5cb0bd201621a525f32b94742fd6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x251403aa2249e8ed6430d830233ab5cecb01ffc7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0431f15b1358af9b943bb127944074379c64781a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe67285c78309dda0299be8cfdcdcfbcbe010c1f6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5f023eb3f9a97bdb796de197676b4d53370f8b38"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa742e1486fed309abdf38b0ee93cc6e41f6c6f5a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x401260ea9b16ede1e3deb9594ff903176f5c0529"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x211bb42b083e4704123fe1ca859b2a2527b89dbe"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd74a8a8cfdde625c2f3f1fffa4e895f4883d8fbe"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x962e6ca626a56b3fc7c1ec69623d419a19edc0b5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3f1e1a5db9008067f88c1abf5f035d9dbf2d59cd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x98b02156fc69e4f2a00af96d78fbd66c9e56f4e0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf85c107755d8c1ef14bb26dd0911bdcdbe72422f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x53522eb753b3609ab2e7727dec86fb90f46c0c44"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xdf573e83afff015ecf5d1a840fc7b80a50d1a53a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa667a3d7691683dfeff85e15c692079668938e86"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0e5ba8a7b8d968840df43f091bd26f5e1a66b655"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x49a591b86c6ac2737a9609c846d9756a7435bdcd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x411f607ba4921834a3e528d862e3c463e3b3f5df"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x792ad59ed90857655ca43b8542f53ac5ebdd8ee7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x4f479f1772553a6fdbbc314c7bf3f9426cac2340"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9125840ab56041eafa84279df847e229df1a3c4f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5ea50dcb43d1d5d700717cd16aaf701eb9ac0a83"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf5fa9a2344e499d9d8f20ab71f74201d4125e7ab"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x952adf6563b3da558701fd4b1c90dfc86a7c99e0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x33b4f488dc1760156baf089ed5ebd176c74896a6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x445858fe732f01e9f95934c86992289c07f82c73"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc46d458d32551046a050621f1644df6f959eb8ec"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7de650e8377302a83b7ee2c7ce8538d77c577e4d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x1380fe3d723341a97acf3123f955ec0595c61099"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x16bc081db7a5b0eb014c65a572e32a192f5a82de"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa00ae4a25d9699ca31909680bc7ab2c91d489f8c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa298957bdfe17ca318a6548c728c8cf332287c44"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa636e86af9c70a59bbbe075920b1f996fb83cebe"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x74850c5eb7522ef319761c68fc211edad048445b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf4ad190dbcd40776c58bb7fa530a4734d0b07045"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x03f1860e84fb5a7b69736afbdad5b22e07c7e0ab"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc8ca539bc8589df812fccc1563e932f1339a246d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa6ae99cdd889e1f5155ded277e9beaa0d4b55e6d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7de633dd9c20a400748228c7dfa431deeb8a325e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7610ee42058f093726f5461dbb7f8ca6d611094c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x1c34dae56a2301e81e6d3e3bf88f9ee60309c805"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x098f22b5774e496515081e3d8d02d9e159ce7d96"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x338bac43b32d246eec93d8d1a95123bd517e2895"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x44a132321be683f577105facb45467edf5f71343"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xcfa907ef4be0adb1dcc8a2a2ed83ce7fd328d6f1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x869d6d5ad801c2e132201abb3c02a153ac80f99f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x515e18a9acdc021dc3022aa299396e8a32530979"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc9f502e3d3625311ff9726b7f9fd3cc4bb16f4f2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x375b0f476eaaef6bd39103bb3fa6326a33b08bd4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe489c595e0cb6532c64b005c186ee42578b4e392"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x2e1e049aa707aeefad474cfb488c0670d7f5d597"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x48e3131979d8f20a9d4960568f99193db5dcb9f3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x2f369b6ea4448d4eb604d73780e8a0d50b1780b1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x6032dbf1d5a83f4b6db78ad818618f5e86c37403"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x25f0121d1efb25fd18419cde744fca8e8cf67d67"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x96274286f786e671862f405ac1a510a458829bbd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0d703f01136ae618d32c9a5be44a8d6ca54a4b4a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x79207e61300adc5258bee11dfa11f3ee29cc648b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xdb5712e92e55040cd4aed36b48aef8da55cf4d49"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0e7437e5ee5a88e39297d1db1cc1cbaa5fc2b86a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa6e8cb219eabc89d2e646d0c822cb22dc5c1ecad"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf8b647342a3e89f8c58c12d7b624e880d6f3330e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9516eb080f7103dd2eb8b41561887eb04ff8e8f5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3e40739d8478c58f9b973266974c58998d4f9e8b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: DexSwapFactory
+  - address: "0x30f84395c0826955ac322ae9150a3590c5cc81b0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x80eb51081b5384a541769fa4d84e658f9e407be8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc356ea8ebc147096194f785d9df4fc8bc7e7821c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x75214064699a2aa4618d11e9535e0aa22dacc01c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc82825d479e81d2dcc0c83d3d93ad94554552fba"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xab4fe1e41eb9da0d4fb31d1b94e674a80ba61fe9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x537d168d1d82446279728ec9487cc9a4d7c3db55"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd9b743fa01870208c49c76e7eead069a2dc9e988"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x2bdf402b5788b99d332572a441ba88c2ccfc4c12"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x43cd072ce9de7a7f82b245b51070a249fedd030c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc73b3ee1eb8237b90a41db3260912e1ffbdf07b4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x14cb0a9be49ca2ec26cf974ef2dc47717a5989b1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd6a7018aabf3cedca7ff2409c41bb51a04f57ae3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe8e3149864dd04b1ba12a5066e3cc812135ecc7b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa4d7510efa7185ec16d13111eef5fd775dc10499"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xeb243381b40b69f0e7a7ba5e0f708c55271cfa46"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x91758176973f3b73160438e3e2b0ac13d1e50585"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xbda7b462cb4dd7d0393bea6b9bbeb71784cf28ee"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x4dca5d261de378b2de9fe1ecd8e06dcbc08ca09d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb84952cb8f2f76fbd383d01fb11eea684e4c86d7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xef519e6e7610bab1096dbd72bb88f8256a997413"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5f2588295fbb2117192ccc458a7c03ddc1802fae"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x32158ca85382fb2178f9014c198890991eca75f5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc7e6a7f5ae9ae37b29aaf32396e4cca8e80c1749"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5da30894c4d28fc3e9151436f88b641fbae5accd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x8cc73874458ed3ff9aa91ee4d41f8b5cc55778d3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9735226178aa3b525edd777795dcdd6800bab965"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe557c5c5c1313e480603a92505e5bcd870f3d044"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x8de4714587d9bb056e62cbfdba9ea59b33077a79"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5c45ea74d66024083880c9ac8b26fce39e6aa20f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x63e893ea0565e5f368aa3033d365fec3bb210ea1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x8d028770031c2d3d631a6059641de0b1a256fc3e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x15d33038e94b31851bc99e3af7d77edc2e484810"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x55834e905c2b48897b4690c15b0810aa032709f1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x106305dfcd59d1b93a5393396145d948182946d0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd482e9d9ae8de8fdfe45f3f1090c613dd566e049"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x2260ffcee8ed8357ef1d170d9e6d1ef6913fb331"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9d374b9605e472839a25d7c3e8562c744afe757d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x155bf58ef5e206c9ecc53f3dbe597e5ce45338b7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x47c6dfa893beba58ea090280cfdaddd288970ef2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5d8e1890edfa00d6074b620a7b31ce4344be6237"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0caddb02ad3e7134f88bef0913d85c5aa2ce832d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0717687ba6ed3e1565493f32f379d129299830a9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x2879fa202df2ad96e1085e413eeaa6d78387ff71"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x89d6d426fc2254b782dfe978435c4ead0b39eb62"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x88f619409be382f813d9f43f0579505edf45fba0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x16b3bcbbdc5bc926b1085886adaaace59d333445"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x11a1ae74b141935cc11beaa00cae9e4ad0600d61"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5fc4cf15aae4e8f2e1e75e5e28d83f76292cdd2a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd960e7674ea3c81d6849c6e7a4ef4959bdb76bcb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xdf696eeb7c8035d7664d25726d70875b9c84452c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x4bad8eb6cfa8f1fff31e0fc80ad673e8312879c0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xac13397d0cee40edd5891ceb9283ca11a4b68320"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x63df7f21db099ab5ea47d73f63474472e1ec0054"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xcef7d2397d0183698701a3c45991dd9eec34585b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0408acdab2c610d425c15146acdf8fd360d55e22"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x27eef167f85e185a4bd94e38e42c69efb9db6381"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x8fb1eb82c25672c666d044535f419e6ee50e718f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x99411c8595f0298e8317c5cd853445b7b737458d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x1909f45411733a9377896ee98a858be3858bcbe8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3148959dc8b7fd4d1e36def130a9f652287307df"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb27279c362087d64fd71cfc6885e2fb3a6050788"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x077953c1369411763adb7e80d80e45d87fc4cc8e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x01aae2171270df0f52e9899c2c40d5916e2f2350"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x89c5c693b4cfefb34b42aba250136a121e9bfd40"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc57323d02dc181a5b358ee90f3f92c830ef7de9b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x1cbb68db58ce42920ea06e97a4fa4fb5f2d5d777"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x1116577e4e8836d4dedc7fbf00dd92df80456874"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe0b0787d525c1fed3bd7bea74acb5e4823b07dd7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x617a4343c914f27fb985cd764b4ca17a10da620e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa8daabeba0b2374f60fdb13697c765fabbcb1893"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x93a1dc2a83a7c067cf845df1cb56b12a60ba83cd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9e6e507e118d5b4f2b0fdf788cb9f1c94359d4dc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xcf81267366704550722670ab177f9e1d318fa55e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe2b780d8f2f815beded758985c4b089a75cafe65"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x36e4463e3e2ed24741b5987c7147678f8a2c9fb2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x65f38901ef7522920a3b26079dc3c6fc9742771f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xfd181f0aaea2c50de9f61e544450350742b27491"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x4037b7bb62924a4710a23c16cd61d3b1357646cd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9f9ed358542d501090f86950344ccbc10fc4f307"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd48adf8638cf5bcc29effd1eb6ed7082495424ad"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb5e08631bdc3d9ab315babea96f565011aba5b86"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xed5c5b39fbbe6a8fc44ebb36f6124fe9c3041ab7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x8671de3963d834d94fce1afab762a9ad31e0cd2a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0aebf48a3089364b93f988b621b2b4999d8b5a3a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x1a82ca3d6580ac703db7950238720143071fd96d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x75b0394186843a073b662faa98ab8df193bd3e6d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3b7e425271beb2cec5f36692c265e5cbb2a2e54b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x70871bcf5d0fbb3fa2e9c55303d4d2b8df21e798"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe66efae4dd5ba9eb0c731c73b9e39f283c059279"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7a29b9e7adea3e2a0738bf3af42520cf323e523c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xfcdb1d835ed7d4c3af4282758f23b012549e451b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe49201e6e55333c58146575c9b25b9a2dab35f81"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xfb3611e7b9ac01c8454ec5252e9b246cf1cd84c2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7657f445891c13fa54a29fd4f9a08f90e81922f2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xcaf55024471ad49a891e953278c2c3faf5c90de4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x1041e038380cc367541744568d2e7534b39d6c62"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3653317fc3a0d1ad6da90a4ba210befe8d4b27e2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb17055b902265dd6e25d224668dd6b5caffa9ff2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x23abc7a2f46a582d482a528efc07d753824b736e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x227cc83567040240203e6de7a24d56f326794d1f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9730d5d967e637545f082103b127632281767551"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x8b9f09b64195b6d03abf939e88972ca9a9ca6aee"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf0fc49eba27da35e7701462f9a7b3d0636786bb6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x84b76bcf88b60622afe336dfaed49924a62213bb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x26f14b48430aa4571a9b279f6e88d9a4f6086ed5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7f370ead6565e04c12bc099655a6debad0538daa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x859f84b1d23ae75ffbc06891837d7eb6b11c38f8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5042361d73490536db1fae86c04f71ccd1d6f092"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xea87577d33850fa44442a4430176a3f8cf8404d0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa40cc61f06b6f855f9faaa2cf534b27b92df0bbf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf14801f51f371ca388c91943b8aafa9b64c21eee"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x29404ecb60381fe24d284fede16b8300b934ed30"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x91870d5b9ac576401ddaec02d68884647aee9d7c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x40b1f35ec041709464d147935624f85558ae7dfb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x33229a7b470929a19cd2fe1ba0106b6272ebae46"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5803712eb874c51823600379321413fd4227d104"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3bf58fa54285030d4181c24b40f1642ec385e547"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x381bf4c5c7d131f08a9b6813ddcc59024bd0c7d2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x47fe533d3e4f7c9327fab0f7fa0428f97f36eb1f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3b8e579bceb0ea8f754ec99a283fb9bf1e07d722"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xbb443d5870140a90f2e0bf851f433c8624aea53a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x4c25f6095bc0e2f0e25918150b9c9c082175609b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3c6f10ac29086b42b68870d74b93b137fbbefca1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xdd39c2ad7ffe2df7e23882e84a06f94dede59acd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb70adaf28bc76f1882d3fb45cd83aeafd1e43d4a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x664aee6f0bf724f9a05fe61747eb6936b04a0f35"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x74a369840b38a385ea8a0c0dce085b2e77afcfe8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xab2f6735d12ad375976805dc5a668e3bc645e011"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xdb413aeeb1db8fe9cc61b5657c90670b5d329444"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0532dcc472649ade95864624dc9fb1314cc12502"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x297e4edd55dc8cb91bd4bf1d15cd9146401b093e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x255953109b8259cc184fb7654c4e31e05acd6ca5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x8acd300b83b3063fb6a04dea821db948182c4fac"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x37f77d6415209b50f1c80212fb0bb497126a1c33"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe3a62dab3b1ebad3b67f7b0db0e2190709edc69d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7c4fa43de344b0f594c90dbd10b2e53258bd0560"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x8c73b6c23e2a3e214e41d11958e18a8436cabcc2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xfa8d2f32e34e8a58630e97d2e3b9db69c004f8a9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd9c4a9589f57778263f26f871a8111308cae312a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x51db4807a6130ea947676db4764481d61f070894"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x66afedf93c6e8c80cc0fb0f4d5eb3f3f788a58f8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x07cee049f5870a6719f09de66877e31d6039767e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9e03cf4640ce34147542775f99b7b13dd16b8ac7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x34ba4dd45546b384d78836ea3591c771729d4b52"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x84f163a00b771a22a879bfd1ff8572546253887e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf22eb53415d94eb06f0c3694f05fb893b2a91ae5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xfff28ac8c10635a1062421334e735bf4e48e88ad"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x81a39a1af82594ab6ce09888254be5ac32ca2a85"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc4e85694915c305d40399c630ae1c653fd0e1f1e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x98bd77962a37bf0f8071a720d80cc7da7b0d289e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xbe34f5415c97068535d8129a861f5284e7e12638"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3a6f4cebb6c5ce90dcd150a5cd0a3b245d9c4136"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x21a6c7a57d12384ba6e6f596bdcabccc6df03527"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x60b32a312745a3aa496b945688e6120141550efb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x824357c79704cb4408d68c2e44879e46bc092248"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x88c3d95e5f5a529a0dd1c6b34aad06856fcda093"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd27e4fbae8d343702397c930ea24eac1737bb58c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x13e1881131af33150c3ab4d8903ecf28d7cd0732"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3e7c7b4ba1873e7b70dc81fc8f2bb310bd7eaa8b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x2d81ca0a8e56d16d141705ee2f55312c989353c7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe395b6d584141c25d9615abcf65267061c695484"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x10ff7b1a143dd6ce1ae1682d140736d61c258bff"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0f414de51982266b1000dffb29d24795382369fd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x34d0d1aa7a54cedc29cac1edd6093bd58768396a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x05b2fab7058e2733d68f5bc6e1c226d88a705266"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0d5924f28ba9cc985531cedbd3ec73f6abdc3bbf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf1731e332bbe31ad5e26aeb52fa90168559b9b83"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x919142c1f4529ebc42b869e69eeec3f2f0eb08b1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe71be76a8fd1ad54497e66a90fea5070dc601556"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x81f8f57459afc55eba264d2f35c6aa0d8e8533e3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x10961d3439e959ef62c7bd29eb41a76dfe05181e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf7d648ca7c568a9b04a7e3a5ba60a7a741de6fe4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7d6e76eb41c09c012abf2193260904d328ef6a8d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x6503a6870aaa26b2e1070b9abe6086393bd23563"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe338d036de53bfbd2569c133ee9fbae25a6af9c0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x860e7a6fc95720865c5f95009c6fff2503935add"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x81f760f5870cabdf09a2f53deb4ff64c7157736b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x70114c95c8fd33ea6647c7155fd4474cc69e66ba"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x98939d84beecabdaaf089245d10ba8695481d2a8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd7775bb5525025ff373bf3ab73fff9f8dcebf832"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7fe362b0d279e6985ad0202b4364adc07ebb4fb0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x61276075cd5d631256924c926bf37fe85a58f7af"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xfe7fc433924dd30ddeb34c9091f5817e66cf1978"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x46a46d9bf0b19fd0d810e60f63ffce0941306b8b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xed2ab2f36bdecc3245d93b434794e4e5a9762d1a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x62df9475b0faf351201dd3123cb56da8a5ee92b6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x92d1d28af4d4342166c9b9881e0a1e07df4ba386"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x57fe3936c58f624a0342b76669a6b8636c81c957"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x951df8243d5bfcd5698ceb4411153d7eb634751f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa4c49ddfd125d3bc9a087a9ea9c6cb5cbd92ae87"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x14d3fe5d272308025f35f70ba62f2ccf3fc62b43"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd9c1ed2da53d600f431d62d9e73764ef806391c2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3e30c53f879feeaf507cc20a98a9180d2cee3912"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe3853f6961656f2da960789ec5b94e709a0baa40"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7c0e2da3014b6205768e6359905df5b19f2d1188"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5f5563b0f8d7da527fb1eedcfa2f46b4f5009efc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9779c7400d93036074ed982f9b38f1060e5ffb03"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x87603e51d0cc31bc66611e95e7afe07027d8eaa2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb247b4a06734f1a4f15e0ea77e05381b0c19f3e1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x380993daacd72c60ec233f3930b73dad2005a1d2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x559bc30fade32187295632facda98edf11b49570"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xac42d2ac873499fdc976a997bbd251610e22b7de"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x690f8e7c8f68e443e4ac0dc170e7a5b73faf4f27"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xecf8549dd37b922a10c4935536c654667174aa7b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x669fdaff7f20adbd388b9a71c1800840d186ff16"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xcfd3cb641c1c763d2a0085ad51e6d8fd77a38fdc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x8af9ba1bddfb1af70c752df56a4a27b32d587331"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe276c1acb9b75a8cadebe8d08d3d27e5e2911ae5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x93423b51a866d37c96078641da5dfe53d71eb4ed"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9492fc93f88e331142a5155b5d8f4193196d0820"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3c07b27140f563bb36aba092a48841a4dba3b196"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x53d20192e3b8f9def2b9efce24b2ea9445189c36"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x56e7b014e1afa94c58a7205fc7f70bc6b974a668"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb98c8d07a6922a21cf9e7bab043b71906ff71d06"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x293e1815d576150eba9d250755457ea02836a971"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x102305c86dc59c134d6d0099effcc7d59f562c77"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x283cdb5e03ec548074c9d1ad2d78669dd01c02b7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x930bd04f9d6350acc5564da1bba5affb3deddad1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xef29ce54430f1f818c05135416253853da347011"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x45b44c40de73e50c44d975ba02e452d7d4b9f88f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x72ee508ddfb52bc6043389effce4684255f4ad6a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb16953f391ae27bd9f63cbc9011cab89d858de74"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xee698a16b058661dbea36e29ae1b1d06a8fc5399"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x86c36239c9c7886c81efb1855c655cbe8f0f34ed"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf81a6de8e20b175f6be30972f366aae0c4b8b053"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9c133a086863fbd70a9a937d0bf9e21c9e59a59d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x52ccdd74007618daebf207ecee9be6d3cd4a447d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x010318a8f0094aa2aa5dea0f0338776a4b947851"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb575100d209b4a7d839f4bf067970263b12d0ebc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x78bd6311933ec9c1b24068b4e84171b639333351"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa254511655940ea9ff0d64d9a666bfe725227a6c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe8b6991139d458335cb04ff0f7d41ac55497aa4f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x929b7bfcc21145f009fb4beba6940adcfbe31fdc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x196e777d0bf149970eff88ac5dfa72ceabef21dc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x1026dc4f79d00c63f7d2dc32cdf16e5764554026"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd9ce32b6783c9ff1d06f5fb783e891039a42182f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xdebe4e42854148de99451e4cccf5551e472270a5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x518df19cccedba2c38ee79681fafa6b35729a758"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe6869e99f7c3abd6f681752d8cac35c62fa8bea4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5546d8862c1773c18cbb8c37fb714eaa128708f3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x480717e2f5c65289c137ca10e180d0f70b72f0ff"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x5309292c9057068ae5687505f0e11cfcf7b12400"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x3d4ecffbe18fda9c75e749a030f1037bf6e2b8f8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb27dde67e8109b94ac259f1939c6d7c813d94f86"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x08c14e431fa89aa56f71998c56d89c0efd28747a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x32d0b2ed9f08b1fed093f8456b1d49b8f96b02f5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x58be7858718772e3f59c70d2c58eba53ad55dee5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa17b601e93260a402ec31cd4d1c43afe1da29f09"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x4919138c5c980866c27d75d6befc9f9c551855bf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x73f45097c47f8dcf4d44c88ae767191cf88ae3f1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf20abfe5baa77576dbffec9ebf0a79d35aa84b16"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x2d04a2b2a8980ea0b59f4a09074a1ff227b128d6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xcd12c5d59ba0aa1adaa4527bb580857204b8ce9e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7a76c56044c4a3e26938c3e250ea9a9ff83b587c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe76e6a4a86d864afc62d44b7e5499dae95c7baa7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x780b0211317e0512b51d0f23022b41ed4b1bdd49"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x8650762b627532fbf8b2e15f69a1564e8670b576"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb51ad8a8cd6747848f20303acb2e015500ec5a31"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x6ca6cf6025dd22c38bb94b69c78871389be8b8e0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf890b66fd7bb8368dfa7b600ed709c83b6d3d2b1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc8e48a79d12f41f8e60cf191df824a0bc10af0b1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x4fa65429dee3af34cbb0ddffb55705763cf7416c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xee905e14c4f559164e0afd10351f42edfb6ddd24"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf3615e420edf51030f064a85ac95afebd93cf011"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x15418e02042545dc6bf0802176d5c4699a05977e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x6e5d06ba94de6bbdc08c4d90f6582f7602d30e12"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x62fe2c1423ee562b6f1fa618ba0ce9946320007d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x072f5044bf7120172f7505b0e40bf7e32faa491c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x80064a7741b20b19e3534bf7c13b2c52dc8b4a5c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd47a783708c1fa65799555d58eaac1bea071e65e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x8460243c06f852744a5b7cf6e6138da858f78659"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x2828f2b2c533c803658afcebea95f10546cd8639"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9be38e06480023f84525132d913eeddfd84c81a3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x90669d2c6542caf725de995a9274040f7ff5cb3e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa90d351aa0e29466e374858d5b73fcc422445eb7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x80e3380f722a7f36acdc00a0d7770df4f1aed341"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x938cf1c0443becd8f91f8bb010e7e17f4e51bc59"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x72a50cd291badd55a1800e0651a97ca15fe6b226"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x871b5bb4ef403fac705f503489729650a2eb2721"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xedf07fafbc106370dec2ac7b386c317363487124"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x61134dac5904652194a51068f86b4badc1c7ca29"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x1c801de81a61c2b51e3d6a18f51cba33f7db5573"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x342318811bad841a02ae2bf8eba1c42239dc40fb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe5631d0071f0abec2d82b182c4ffdd14f8904c58"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x16e08fe79435dfacced390dddeb969ff8235b869"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x873ed8fa6a39219a3460826edec0359fd5615b49"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x4214239abcbf37d4225e2ec5c84c853110c851f1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb686e73ae6fce2de3e3e47026a1d2030992cadec"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x909512e4d92af5f67870aaf0fdeedc909b86fd50"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x93fd9a2dbca8ea6f36d9b103e874cc1da19762d0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd52749edf37896690264ff725bcd1e94ef23f763"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x97023e512624c6d3eb0c2122b1c379b8d3471dc2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9a041d1ba093fe2a06c753d9ddd9765626ff7416"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0b8079033e32e48f9fddc9a4461320f157d7896b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x16e56df53dcb44707c8805166cd98c93d96bc133"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x595fc076e32765f1c5fd15b8457a7c6e096e91cc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x728610367893259b60df7b26f51f2232abfc1968"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xfed235fa94b2469e841f71a5a1faa6fe17f7d133"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xeb5c7396ffa25c1482ba922126c5604c94730069"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x377fabda1fa2b6ed5d1ea6094e92388663d333dd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0c01bad40edf62e6f06290b93b869471d172a441"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0b452dd7be169f3a5f8a6ad3483efe3b5be758da"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xbadb19e2950e228b7e66c95efbd040f40fbb51d9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x05a3a266eb91e946f9a938762742c83c4d074cf7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7de2800e9d9a29074a2b1cd6889c8d574490fe24"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x967aaed146a5526f2ed24a1f8f1de10365499ed4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd74d1619cd29ebf6d5ad66aa89ff05aa8dea8979"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa0ccd38d4ca5a44fd36b9e70d96d0fbf275fbd99"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x8494e6d9b8be21876c20bca95f16510fcd19fcc2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x35ae7fe60340b8c04a54cb1f5fb9cfc2c70af3a6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x987cb3b93ab168c1609dd089f9032ae29f776fc2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x34d9cdd5cff79bada297823b60e017b38317b45e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xc2f5dcfdf3c883a39af9a20d887a279ce8122322"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9926267863cae8eab2b565a1e7bfb09eaebf7c1f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa52d6c639318466eac8998bfc67cac731e320f4f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x13afda8d1751a609ad30e4223c2578ec5b43fde9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x2c7c877271cd372e3e5b83b8f527e1e536706e54"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x73891aa2878e051af4991912b3ab6c636bae58b9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa6d6b040b1901d5ca58fe41dcbc9785f8a642533"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x04f42e8a0531a2d152d0b66793696b1cd0522b51"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x09310b0bf8a807d63c9476757ad2749337180c9f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x885bf0322f1fbbc22c1f325f18a16de7e66b493c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa838c921dd6762a6e74ba1960c84cb4fc1cd3f9f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7bce45b1222fea2bbe677f2e22941f9ce61a092d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x12dfa9953a68182a78b46a57d56568402a99fd90"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x6a3aba8898b342c10f2ad6e0853506576623abc4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xcb989cacad41f7ac3405139ae5ad44d8da118eca"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x897372fefa7735dd3b235db4cafe988b58554e40"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xf7404730da1003fc86ff7f1597e2a2b866fd4020"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x4e124164c8dbc3c36aa60dbaaa12c37673bb9bb5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb40553bafda55c1f3d487831eb335657610522d0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xd753740b988a609ee21b420b0ec8e741a4846927"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xa0aeafad414876936b6af060af6b6bc78fff521d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x655dc2c1eb44828a5d474c0bb545ee860bc814d8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x0887143d9ff914c62c55d3ebadea37b33ab49979"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x96aaacd697474371a9ca6d7292a21828e594d9df"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xba92335dd20b810922700673941cf5f0307c4e07"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x40a8fd0390ae759c14a135c0b3a69f9502ea7d26"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9c72d210487a9622f64e717be71325154b92f2cf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb9eb928370a7fd8c8822e874b93ad8409f6097d8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7d3ac386318ec3c629d89b4bc7f7b83af9238eaa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe42e611fe89cf92535c3a516e9c65f76887c21d7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x1e96f7e881f1f777f04b9654d99b0bffb2dcc6fe"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x43cb8b5a0f1e47817faff2aa969609d2dfa0522f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x9642d9f0efb6d7fdcbde17156cab5900bdcde342"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x7d13815b6b55ab58a298918d32876cf571bf6f27"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xe835af2d3385e3bd758a36586277979aed72987e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xb9c09aebea97cbd0726a8fb220775414ef5562df"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0xbde1a6725f982198eb4c0fa0f6174ac5b4bb98bf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x41cce54a4dc5b18f4b4e7145dd5e2e871d301694"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+      - proxy
+  - address: "0x14797567786113026d59168384738e68036d0c1b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x494f8be837c40afe19a529380420a8e11b7f41ce"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9f790b20c607c1a1ea3603c4edb3a292be68762f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7d3cdfaafc11cab4055b2d2177a0da05af487458"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb566fda3b3c72f00a0f1c4ae2de770f18302d048"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7cf8c4f870aa822f93aab1eb1f3a1a2c56e81398"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc3c568cdff3a49721c0bddc4374485ffa96e5c03"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x17c9a32290c56513d416a22014d2b622386e94c8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe64bd0d98445946e39a85f33731abfe26a8af2f6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x14c42be8ee1923a81298432f1296e035c0c8a23b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd3b193ee9d989f71cbb0273639340b5df5599255"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xbd29aaddac359f7cc2aeb8cdad51c6570fea2338"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x742ced67e988974aa81a97da75e856d4b2f6ad46"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb6533ea2c3af5e142ad563389260668e66c08a58"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x570983ba867f4dd49bb7dbeca49d9197e3ced36b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe699748a51173e77218d8d7b66b182f8bddc8129"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd0ad63df4bf12e7831a6279b5faa7db5ca33f0f6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x171b641d6840ff9ee7e7af65b57c1a7213e77777"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4117ec0a779448872d3820f37ba2060ae0b7c34b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: USDEX2
+  - address: "0x53cbee99dd359817bdc25089d840fadc0ec72c00"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9e925a4e7af9e34180d3b122ef091646eef87942"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7bb319b44ad6a224a22d668e893bda53340a0729"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x88d7d527e0d8740f5eb0afb286afaa3bcb189231"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3ab4108a3787e564f3b2a18af5f16b3c14e311ed"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x19e76d719e047d536d848a220e6aa0bbec363516"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x93ca665ec2eb4593221cc416d58e51ad436b8ac6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x169dc46e3ec4642ffac046d14da616f7c77e5550"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1e9d0fa62fdccdb855ba552eef7af1e7e75ef17a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x002194c736a2b2329625d9b11babc8b07449f4a3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x63ce6d5a6b90e928897732f7ae4aadb8cd0fa8d5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd04d6b7c7d7aca75d3fa9838beef25b0f4541d14"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4fac62f42ace0e2541f8386f539b9adc4f5853ad"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc9a9e91a40b909d7c299b38d6049ad077f1377c0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6cf9080bbaa663adbdc21fd76f141cdf1bf9b5af"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x53a91a97045cf23812ed1ff9aaf2d8f013fe3eb0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2c6df180c971a9cb79966db3f0ea36c64feb6f83"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x179a7eaef237ebbcc85f406e73aa31960a5ffe8b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1120ba1a6324cc1e5e700f64d166ae9e127ef0de"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x11fcf28226bddcba28ad89431fa0e3718b01ad54"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa54d8457a9f9668f366a2c440e639bd79f6b3fdd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0b52780dc425672b46be30fcff8124d2bfa25b39"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa264c2e3431bc8e5688b987d50eab2269ed4aefe"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0b7d00e27ce93401cfd0703d594e55f4803d2a50"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x68f9496341c9cbb7c715573a11cdf9c617d1061c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb0c9b10f40cf886802b08ec8e86d83c29156934a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf9ea58f67fecd3dc53d350e99bb4c2a40ca29b92"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x69d47ddb6b8644aeb727a7138f7442578815f395"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe36dba4f7138cc877719531bcf287146ff7995fe"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9c07b0ad230cfd1c7ee43d13eb82d0fe4bf6ad3d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x70b3745e294549a476faa2f1318cb45a314c889b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd40375185f7d4e51921a05152d2bb294d4d2ac8a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf796a894359bcafed1d4d074bc57c777c259c0b6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x13913b4e37d584cdba0ee16922ebcd9973bfaa14"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x34245c8a055c9b1974da7076635e39142a294cee"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x190bf9d063dea2be1702db983d6b4c532178703d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc326026b2ef657feb8d3e42093453a8578b06b29"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5427769aed82b080418241be4222443b2b76532c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8842b940c3243e777d876290fb8bacbf5a727e7b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0e63496aff3146c3da367fd6d7819006703bf3b3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3b27126e9c1be0b46c4ab689a114a96bbe7b8764"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5c0816a11933330be8650b4adb3f8fa4ca5074e5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x397bb20dc50ca21e91a3cca256f44154265ca74d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5a95d8189adf992d9e6482714bff352d776f485e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6f76ca57603709d1e5d774263c9dc8b29d65a5c2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultSwapper
+  - address: "0x5250ea1f30150b7a9f5e3270b80fa19bde31617a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd884a98856431ded0101943e649e987a16c09ea1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x053e3a4c93f12ee2e0a346c24e7f1de6db0667e8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x484d96f00770f28058f0f9e144fcf7c4f4d481f7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x37b67c09fd631b506566a9c4d5d237883d292cd5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2344e9113c8ff2ef984cd324c4fbcefb16dcb659"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x929742c3eeab08b55bd791e4a0a0efdcb8b06681"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x37b9c262b27c20890ac7f0cd5c61720c81a3e270"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd77ad04481a6af7b01a4e366c8575b932d12b023"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x08891d0f598d58a448492f551de3feccea1eb383"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0a10d8e8313df9bac7b508c6b01c98bf16d94175"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xcbb717abfaa0d8ed2a58c645cc5a42d499e1c54e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xce6048f48a86864eb0c64bdcb00283fd00b07a54"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xafb21c15620afe4d9070f9190f8a6692760d3cf6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4ce089d0e2dbd82b34be4dfe57f3ccaf7f71e690"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5e49c5a44e661c8d57f9d970bfa97682e18f47f1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe70d2b795171fd1e6f013168e6672a0a55424801"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd6211e0e80cef94288538a268e674159d2d86408"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x333a7ed86085fb769f3e61bd6981f5088d0e4656"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xbfed60fad0f4740eb7ca232a1b59e2be74e82325"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5a6cc6a654ff7baa794960137afc2e04db87f041"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe97b5959c210bf9b30646d605e5cb0ca54486e39"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9146ca774dee63ba3de5744f71c86fc03d14d95d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2095a7c7492aa3bfbea06c57baeabb393304f287"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4bd837e8bca37d3dde50d69e369fcbf24ad78eb0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x36327bbf6bf98d13ce3d6ddd7a241128aa89361e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x61ff7000c1a3ee252cd5c2c796586d5706b9adea"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x637cb198fe521b7dca0ccd990a5ffbaea204d320"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb3f8b057bb3ba035bc347d5f72af8152a86ac11e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb41a7cea6981ca018ea3bd2c42eb523ffc12ab3c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xdbf42dd878f9d19d4919c2c33bcd0b60c7131691"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xabdb578a4d07e82de996fca3e42ed1fd6a9704fa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8436db7cfcca252716aff17e5defb21b7c6b3080"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd0724e7c24bd4b64c7037fbd38711f22c997d013"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xbfa014dbe879a3da9d034ccaaeb8bd5449efd79d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4ec620ea25e8591697fbe15f5caa69c68df4c982"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa3ef2656fcb876a0be427c07dbcd769163ea6909"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6ca46bae84137d0e90ff723b3a75587bbf400d45"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe57304aaa39cc3f10e0b1b8e405c321fe0dd2a70"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x86871f3e326acc891d23b75b283761c9aba87a2b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd00e1630118ab27615bd9d639adee2071ecc3432"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x268ee69408d730dfcfd9404db2fa66aebb867f30"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xac057c03d7a34765b5df8194e3f8a981493103c4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x25b6d262985a6aeb3df386c23551371153fef029"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3e90d9afbc7929c3bd0baa4c51b0cc6eea303728"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9916ce42d4898e739b127d607fea7c43d9082075"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2a32aafbc9161f210565c1023d14cf59d5acab29"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3a564fa956d55cac59efe92b6e3ffb7fd8e584c0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1d4d7f73656cc9a9903694a32e4179efa08269da"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc1890e59385f7804cc2be38c6318baa97dbf6ae0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x73dcba8c337e1284242416d72afb0c5bedead76a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xffa4c5f85e9bbd6a8d704b1cdcb3bab58b47538d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa9fea226193d8d5a146897cb8574e14534e90be2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8773c39eff8c443ad255f4e4f3873653b0dbccac"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x92a212d9f5eef0b262ac7d84aea64a0d0758b94f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GDEX2
+  - address: "0xc2cde4b1767c1c830b09d3c63513805d5e3d2815"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xfd94f664054e4c6723679fd20d8f09519da85d4f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9c66a9008e55a7557fb457607f3f028762326a4a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultHarvester
+  - address: "0x223fe44e173c219ed14bc576db90d968a2fc5afa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xbd10805c0378ef4c3240af4a7c9b304e54b72b11"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa22cb7affe9282a0468320ccdf73c0ad6188e43d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe8e29dfaefcf06fb238029dda3fb0982b09985e7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8ca917faf36e5e1952c27960aa8318c6dc1a2e6b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xcbdc9383365d2f0ac5ae653739de30a7eb5c3143"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x16c6f2ec25a38cfc21966d20b1dea4bec1d063eb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xafcdd14f82797aae9483a015fa1bb9f50f00efb7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0a97e2b7414ff3a573f5451f5e1218d7f2ce5553"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd559e6b0cfdb69ec612b2802f143fb4aa9d3d638"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0f225dec5e3f40fb89f7a0c8fa4525ae96b2610a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1ccefaa01b38dfb94b7c309c925a969ef11a7b3b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9f727b1b9f3556335bd51ff2e400c67065e9fe81"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xbac680e35da61cf09efd69d5581ddad3ab5816d2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5bd8d29526f147121f46a2d8ce5e5dcd30ea837b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x75089123fc7b0f99bedfa924155815fbf4efb7f0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xec8a18e5144f21f79d0fec1f3998a6f6b409b2af"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xfc1381946c63136beed176e3005389f363c5c3cf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xda064d44871ba31dae33a65b3e23b37e44e9168a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GDEX
+  - address: "0xfe2dddf4080bb11d2d381ced4e296a2f703f69b3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd7b3638f4b57d5b079e666ed3210f401173d14e1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb3e0c35e9c0dac4e4661d450b9deb47aa3d605cf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa294eda5cf11405586a7838298b492ca4ac9053b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc1675a64caa2b66c3eaeb61a329fc9d7ce7d8a6d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd2d12bcaa98e5c6f2476023fecb6aa778869672a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xbf2c0d189f44a98a4799dba9b1e98149fea4ba32"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4b90e23a87840ede0cd4af22c649e4408d13c110"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x54c7d385233fd582c383c8a61c16f56da3d2aeab"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8982d58cb54c54c2dc572241375060b7023059e2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8395d927ded687b4b1932274fe0271763428965e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa52dc3adc8bb95e423d111a0579b3ea0a5f0081a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x960a23a28fab2b81714acd3d1d2b96f676a07615"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4619a420b83f6e50f152ce14e3fd6162aa016a28"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4f14ce0c9dd97addf898788095ecf41cfabd2b8f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0d634b4ae611276ae633389885299590b2d29321"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xca3947fe682f33200425ec38bb8c64a3cbedad09"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x68336c96463928d92124acca1778f7b8905fe210"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa4ca86e76625b2a751ace5fc500769d6539fa33e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x35d6aed1df3fec8ec564199e495c144a31a50fd0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc2282528253cf06538382252be790727c84cf20d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x61600199b111e613a745864898fc72a97628fd85"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8db0446671b317f9f4970ee6c092f903c12c3477"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x60cf2e9aa256987bfde8fa3e7f4353b179ef771d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa10d869c6dac42bf2a881be5d528747931295242"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x39ad05bd7a00a9d749c13975f745e0973635784b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xcc7fde64a1a9664008fcf15070bf88e9a043fec6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2bdc2300b9165dbe044c860a03955c3960d87237"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xfc97765c959bca9f8c8d24463273b01daa13ae0e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xccf6164ef48db1b34c7c1142c4dc804815f1f1f0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x19b5f526ad018f300dfe3c51a368c7537ffeffe5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe31212af6ca704e5e0f21d39afc27c291f4970ea"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8926ca240230763835631099f35cea526e98a3ba"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultZapper
+  - address: "0x98b4a7dffd33727971435d6c6e1228ff91fce02f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa3e5b5e6cf14c9ae31035d0efb1cc143330b0ea9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa0e32692eb722ce20448a4eaf4b244ff6f8bd3c4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb87096059cc9e55872539a5c69ae43101b0ec719"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7dc936221ca675e1b87d40c02a917527f8b8802b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4c87a9dab83e383bf926d1ef310b9c208b3b56a2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc9e07579bdb6dc96855767b36bdf3e20f7a208d8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7afc126a0802526a66e5d5c8bc4e884f69041204"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x38aedae100d1bea955295bf19d6b80f3e710fa5b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb492019b39c79e61ae6452ce855eebe1c5ec3090"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x867a2e2e6c94f35e210f3414fa53c551ab87e5c0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd96dfbdc94084263a187b658e7773df690faf120"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x883800f8a83435a55140bc8dc0425b10548fab3f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x971fa50e4a4c8db0f275414a32657299a774479a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xddd9cf0dc5a4d97de6cc672dae2696283a026737"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7e42aa5e96b56bd83b2f194be28ee85a934a003e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3259b4cc6e1244ee5ef1506bb0ddab4fdc37c1b8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x790563124d31e9330743e8280da6d934331e630c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xeedf55053cc016ec875853cd878250557143bc4f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x97c02111040f687d13a25f67e4913f8285e0803b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x630fd6d9c8d337dda3da73cf78b14a31632a631c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3164f2c8e77ae0e485655e29516dfe48f6c507c7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7355134aa53a7ffff6aebf35dac5bfa71fca7c1a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x433005aa5055521776f68566dffe2ebfed379a6d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2e8abfca04466371992bec1683c1db2bc020b844"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xee9ec06488727592fd75510122eb9daf18dd4b3a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5167a0ca0f404421867bb25e2755be89bee36a89"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x03dbaf21b6e42afde304bd6d65a0179e1718e397"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xff7fece0a9d5e35495586ad9ef458a2a8ca1816c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xcda6409ba40581cd4a7a2ece689a4fb3b05e4da3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3dc3b2f7a241294a05b04afa375671741cf90b1d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x47001ecea600560fda2dd2078eeab6d2125553ca"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x420331d3f102f29bc9225fda777d2461545bf29b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x137ca36d4e548efe20510557712c7445e463e12b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xfc7f99a547d7e2e71ebab36c9770b75eeab10796"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7b1b766bd4aeb37cb2f80dee3e8d76581006279c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x45c10b4d011712d3ed6e061ec052aae9d45c967c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe0bb789cbd0ca8daedb05b6dd01b8b2dab2323eb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x941e69c5572d032a7d9027e615a0268f7226eab6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0713c699fb2fb9a3c3099590ecea434d3cc56875"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd01421e13fb709f11a5d77676374d86befffc695"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf12c18127454718f816e1c8af19694bc4cedf292"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc8322ba5750d9abac31f9511b99252ac9ee21b2b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xee2e61959c4f9f40abbd08234fbb80c04c0814db"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4be222c6e81689c6e9163f66eeafd5a4310f0821"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xbba61d0bc3e6c0372591f2456557bfb694d3f4d1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x07800fc6fcdfc43c182fc8c28a6b5ee4dc92a898"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa18cb40e7ec7ab038bcd61794bbf0f5f985a7054"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2d4c8e3fb32f8d30cbc941bda3e8e67c3b3486c5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x140272ef1d6d2df1e2d85fa0011ec05ae1184672"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xade862976723c4cacefc16ff9c680ba8dc16ac26"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4c98e52b73f2f3e82c9a0c473f5ee5fff7d20c78"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7d9af2382fab24a810b9d49d76e3523be1f949fa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xec0cb9faec581df210f81768cdae4d4b4c0d8211"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc1a90c46177ede6d3a093141818035683bdef55b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x27dc818098537cbb52e03a9ae83303d1a4a93619"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb5baa3145a0d3904312f2f3250b4c145818cd658"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1a94fae07862d4b42d60111ff7da1b1fc0ee55ed"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x03a286e20e3a714af07d809148e214eb857e69bd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb742d61a135ea124963e771ba3dc29575a55baa1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8b06091b867979502de1c0544030a253ee8d0a2c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe64e897dbc13bb179fbdcc9099f5809fb31bfb75"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x68796edf664755850c671711de14c355845a67d7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd899222649ccc2003cd5527ca5be053f020a6958"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x68158b971ea5808271682e8d6e5922153c41c049"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd86d4856a6245a8ba2d5bc344dd5710468732c02"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8e4881d851452051deb3e13250dfb2ca2dc1d7a8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd7c5b83c1a1a47658088453db272c4ca14f0d464"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xdf9a93eb703c1c95455b4d166681db2abc3cab45"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8ab5ccdfaec89d3b2418fa0cc5b6d15e857e3e2c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2b1a32e6a930976b167c5867416e86e969aea944"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa38688580b189bf0c61e9b73aaaf0c5e33457cd7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xac3aae193be920bcb8f5272fd66cddd9476cced0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x358767da590447eb78bb33c33c21a067f1f5135c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3fd6e5af6c0be7608c135af233ddfef3b4b8fe4e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x34e7593920cb96d17060398319e48460dab0f210"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9916a8e39908646ee4399b2056b6d29dc73f3ae5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd1319d62c73e38b926ccb4273eb152cfdf6a3d17"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf9343641301039233bf337c3611b88789115b68a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1055ce59dda5fdce90de90e077b8d1ee68a43c0f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe845fd2bc4731c32604ada3452974987477eb648"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x632a14e9756524ab7db48596c9d380d1d5c999a9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x93ec252bac805a6ba9df66688faddd20cf949668"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x62c167a4f1981d0aec56b75fea5f1789d32d22c4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x534451b4fa0217a6f01a678df54a138bcafe5e02"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x80cb9e67774a337981d4bae219076fc8deebf19c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd0f236513470debef40b316ad993f073b0bb38ba"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0576f11d23839509a1543fc5ba0a819bb7054c13"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x851a1ad4f765cc3216156907acee14964969b5c3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8c96e01c10468d80cf2970275eae7739f08177e1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9788c0ca9b0677d8fc1805d4c93d5f408ab3f5f5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1fcd9187a364ffa5974f96862ab4742eee319380"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xac6838293f2c1caa54a6acaf9ff8576a4df78f14"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x915ec1121e9f1d564779f92bee987a98e4695e26"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6920ce7e1ba6bb4c3c5631eb1838642a8df9b6a4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0b33a5742e855a63f765908f2c19146e32d48792"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0e83e90f7b6e47658051632bda5b9c88451ba876"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xaa0cd9db9e54e3115bf4ca2db508def0c3b72f41"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x371d5a43c56f526057cc51e6be8a731f7fef15a8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5280373b1cb51afbae3a9b85abdb0b0181c755c0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x30f4887195e8bc456ce512bafcd102b9d47844b8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xca0d670b8ab68dd2cd1347e30eadf6fe15a0fcba"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xba357d8e37f4da24ea9cba5f5e1559bcda4ca3cd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x34680714bc5fef46ceca596f4382b345af873b2c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd4d196647a734e7beaf4bad7523212574f970f97"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5b6cb0727cbd7be9242aab5be535e394c779d1de"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5ea11baba7d310e4eb11e07ea6f5b00db430f702"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd9c7d12cf9074ad44eae3595d649c14569658864"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xbc4e2ae7055dc4c2598edab9f719f44f83d16d2b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x59d0ffbc1555a60d29236ee929a487e30e69fa35"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x739635877db4dadbf3f155df413bb8e623484fdf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1c7aa490007a4152d862b6404cd20d6f73ddef0e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9f2b227e9e5a59862f445771919470b6e6abbb2b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x30ecb0dca98c0754865c6454bbe9926fe8e73ef8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x620df08e4e94ecb705ad8f4100b887b292b19b19"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4355ea7517859f2e355d298279b50f3889810c4d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe07314cf7b8997db1a3a35eb926962a831371648"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x641ae6b24ee058e19c95e673a8757232f6a9ad1a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x80bb18b1f23795818a153c3a2b28a4404b352c99"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd9f94d56b6176890b84c6bcdd0a7704d4afb3997"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x78a6db61d20128e29dab16709223514aafee05cb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5c7fb72b4745e31c83df937fd5330ab95ed4e5a6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0ba11acde3f8704a24a59bbd18215f489380f496"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8438fd46b0c5edc9f9dd29ca1fc57cb664a683e9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3c8d8b3a415f4ae997a3a7ae38ef020c606ee68e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1c45597acfcfbac1ea7cca46922f809644ef3782"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5f51b06b66ebd97c942eba043d23ff942fb91cf6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3353953171e0367edfa4342ab3449a90f3fb9c6b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9961dfbc20f2bac5b80bf54d0ac09d01e2b06113"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1c889e086ba424e7f8090f60c528c202c6726a6a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9d157b452bc93ec81d80890c7d7500f5233e1d8d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2a3caf5398636657f950f4295f15b7807ef1efe6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x75bdb4d7fcdb33f44fa6202994cdc08361a0713f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xdaead96932119f9f2de97974e9a7bc7551f1e434"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe48225ef66f679ce4925fca2b4f4c81a9a299faf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x691d75659a6d0830bd991ec7a3063c8ecd167ed4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x60871fb24e6133e72fdd5f8f0c850c5e0d70a9cd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x82f029285e72b199310f0f06afe761c82f0fbfc6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x49235ad0dcd535e2e9c3f7c32443ef8a16621206"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7ebb9bd449178baa2d7ed7288c0965bbde4e7312"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xdf180ef7081594d431be71565635eaa902b7f56f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x408b27904e228873071fe7dec9264488fe9b71fc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x012bfcfe19902e3b331df060cff00ae8ca74342c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xad7597ea8f5e16e4c53bca64c9dc32b5ea8f363f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4f0c395a17ce8647a28486dc7fbac74f8f031482"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultHarvester2
+  - address: "0xb1ce9a173769da484e063aeb5438f9259a064b92"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x84bb879e92a06f6a6b75bd4d788035f1ccdc52cf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6513b561c61d6032d0ac2db54739dfafb8381d62"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexSwapRouter
+  - address: "0x0e22fb5ddad4cb59c8d525c57e7660fd69721db9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb71de39abc02e7b8518da2ba229b0b058aaa78d9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5736cba294a952675b09ae04fc4390e9108c5a97"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xfb307ee124b907104cdfc0c084e94f08bbabac0e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xfbcccf34a61eb8c0aa4a01c1772a18e5bc44fbe4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xef2ef9ea4664ef5d92b4e1d9731d33191b23ee9b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x37ec4f218ae1450072cc982a36f0293689c23abd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x39ff5ad0d8ab544e244348586a83566708d2dc3f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xad59623b8feab8c679b3c153a49feda506d64856"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1bbcb0dc73eafebc79e3b2d5a87a61596f1f9534"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xefb36617e1da09c615a42794b12936978c47b3ba"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe70a125e36ae80447e8420208bc4c98917e446c2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd36db64573d5fccf71f880a53d2ded60d286e2a7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3b7cf0c44ddb95e063cf8f429e131acdbe514790"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4ff2379f11ca67f4bed21b35796bcc40bb0369df"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xcf7716fe2f4e698cc49f22d82d7994248fc565e5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x36fe251b18125f07872e5871f99437a5a31550e1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x331fb924a9f9ed095835a29a1b19d2fb650e3fff"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5fd625fd9c4046fd7b75817fefdc65c13e6c927a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1036acb04c305ec3708208b1af7868a194adcb28"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1e4ffc79a36a1093e4b5fda1dbcf169476c454a7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xba023e57e7b777074893dcd4f52319706f9f52a2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd4a39e3ecfc2f73812b5aa391ef6f7602654b355"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x36eb6ae15182a30f8d7fe0f1388debf45f619e78"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4c5d65f78fed3496b043b839bf1e0af18572beeb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xfa7fd5bc9935c89433fd1266506d97bf24750e7f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8676c3611648e0353b17624c82bdc2fccd9a5854"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x800fe52b74af3c7fecb6a817e8701a949102377a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xbeebd5543da2053f75a7f6d5db4d8b2d44480110"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xfa05492ddf806e0c3af4320fa9dbfec73b03a507"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x58c26884dfd83ecbdd92356446fc6845044a833f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9450c7d6ecdef82358e36d9af18b0c0753a2a9c2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc4fc020663716487eec40240bd2f64085816f6de"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x53a9b68e9020e38e59bb3d8eb752eb9676b2e3c7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd8fb97f7d8a9147f71cc12df95b5778ce771d32b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0d99838765a1b35dd8104da794bcda14232db0fd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DirectUSDEXMinter
+  - address: "0x27371571f0c9920ee0a8032a60a72670d5b22ebf"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3d44319e0e11aeb3fc734fe7db1bce374142ce64"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1aa4b5e0efb4c46d93bbf791d28f234ae0936058"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x141ef1ca623c9480e28ff24bd875f78ed559d247"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiTreasury
+  - address: "0x53c0c81adada7f8f88262a5dbd8b35c526e8a3b6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x129641f62e28dba9f2a2683887232186d308d687"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5bb16b42b2a98602bfdd6e6230f9e3bceae5f80a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x79445b4dcc79960e549e1f1ef7227bc0610afa09"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x55224477dc31d13c9bc2af7e30bc39c2084b8314"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe09f03d129fdf2438652b91de688770d473dfc7f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8e3b66ed6865ce6ac5a9c64e5099e86c7cdab6be"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe3618e64e24eae17ee527af7166a83ead9e193e8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8846d0a1e540b6e279f44dfaff5fc47c533b1557"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf1a3850be25b28ce5dcd18a0187936a0f0275d37"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6069f78fb54424c186e69528282070269ac3a659"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xdbb7082244177097d26fe8937b8df18a174f4b4c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x40188852571826a726b8120c6f739a79f3d00b13"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x55263c303ba1039c3ead5fbc2e0517c5c754496b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xcfb3984175402c5559562a0d64f4abdb2cd7c7c6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf9a00960f7a2c2053bc6edee94ada1e014e4e8e0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1b92665fcbe444fc41ae8c3664a51f3d27b8592a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x88d4ddded8059ad33fa6743acc219fcd9a123a9c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf9ebee571fb47377b7365c26a5dade5692b33d40"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0d985a2d27fc9bf44e4b2023aae2feb5eee30188"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xcc7cb970aee73c8e3d26eec5ec4bce4d078892e7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xfbad9133133cfe5618ebde4d55da572b9c76d414"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x969a3983453cb4eefc3ea4a5a99e2f2d94aaea7b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf93768cbe809e352fd447576412af76c1669b538"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x596dc79aa7af6dd61bb53631971db7f9b4bf4281"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xfe7a81f222549d2481cdf8d1848fb0ebba1d9035"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xbecc39deb9dc4990ee559dddb7ed5954e92cb6b8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xfd4ae575d0b88158b9783b190e55220b70a707ce"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x846be720a095520d7e6e8d15be71ebc5f2dbec78"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa6b63cf41fc093cdd88a54deb1b5fc6c5f236f75"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9c855a35d5d58d3ba17138e905aad6ff1fa90da1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc31430b645f43780772f0917fcf67a97573077f7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf7aad0482a9cf6a08dcdb2d10cc7d4121c85e937"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x91b60cae5a316cb63c97b7d67ca3eeea1aa23aab"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6df57643008964603ad7943814f1b00d5c04c6db"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf7ff020819e700a9d1cb6ab9240b5d8241fad569"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x84a46778165e4fc7a930df230f680b6548391b8f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8101f742d2ce08a1d7d863255d41480f8782f44d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GDEXStaking
+  - address: "0x79d3e4f0daa5962b5d94eb6a46cd94ecb1cee37a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x52b44d1654252bae2803ebc6a69904e615782e45"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xae63dfd08fd2d34e06d0c86910a8f95a950476ca"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf4c5cfbf9ff3a54cc536e7d3c8b50b3adcf41218"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd4c067a8a2b4ce489dc3ea765f86fdfeb435709c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7d636d3c1a9478cfbcc70954e5acc0559d986f9b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xda8099e2ba8f518d50e622178446488613fc9ba9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xab73256f372a7b06c3194b3a95d136be4869d97d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x106d4fb2457f859df9b5a32408a80b83cdfc5edc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x11661ccecd1af3a7d057daecec107b9de13aac1b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x44642a015c5db49cafb84c3a9752bff54c6023e3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x12dd7f2deaa4ace54004bfed9f1af7fb6b544662"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe203fb102ff8db6e4c12f6163731039eeeaea4e7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x18b2d93b7479c19b443a26bbaf054d473a378e89"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xcfacc604500a1f5f6a2ef6accba0beb2eaccaa19"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4426cd19c6dba389d77d9e05b95104552ac70817"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xad0fc60e9489c8916c52eec48bee4a8a7beb7509"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa478ed8517e190cb907463d1e269adc8595f5f28"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc13639802bd230796ba72a409ab4256c710c38e8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x318108eb0065642b4487feda7c37e852e6caaa4b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa3e3859630205c462a74f3f4982c129eeef24e7f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xcc93b82743b342a9f59ad8f61ece29ad8ee4db5a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb319937cf5b7afa06338ccdfff3387608ed10ed2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x9632ce7d3adbc320abcd9f782ee0363ab86420ea"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7e8364140b4cb5acfd8672b22ac272343e3a8abb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x850a34a8b2e7b204dd814811ae970ed6e0c20a25"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0ffbec6ac741141fa8bc5718032786eb5c721ab8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xeb61ec3e5c006fb592b35fb5f4c2a77cc2a6c566"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf779eac2648b8896d5e2634628175d7fb2a7f6ae"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x73672afe936740be1e96eebe285edb289e4811ab"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xea3493a0432992f5a857210125ef085ef6472fba"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x62ff786252388707270b33eb4e5574f55f86f926"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6f4a7b01f070da827783411f359413022b253966"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc8783d4fc9f429a4e70bf828461456d203cb4e35"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6682d9de1d52b5f81e8cbc155a14eaea14e8cdd6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x37e0cf3bdf726c995f0b83f619655e290a3cc3ce"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5b04a2129256dfbc5a4d609eff6955f9f53cfc11"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4979e9720ed6793896bcf55c161b545f4a172689"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x18e1b84155f66133cb8277bfa6abfec28716675e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1cd9c8f3a864942a115846df4336265861e21af4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6b8dbf968df7414f68c00ea5be0b34431c8fb81d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7a8823d7e4200d1265085764697cb08b820f9927"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf7e1b5b0fb095a61f408a0d0c733989e13fe0e74"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb7d673c61e368083b8a2840b29ec26f0982c4408"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf2515e7bb6c0dab6103be4f8c0fed73dca6a93bc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf006be88d6fb0fe7061c2879bcd43c7e0660b569"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc475a31472729b5f2876ac3e5598a47b5202955c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xdbad3dd0f2d3587f9b9d503a92ed6082906e4b8b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x83c85d049aa8ce68d92f9f0992a879afdd67a540"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3b1c7bd834593558b97f81ceecf497579f6d29e5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe9570397c23e3e26918bcfea06348d133e9799a2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5ca790e7d854c283d2baf33a90b702442d18b31a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x31336854e87ab01603f5c04f1e9d257c16abdc34"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x12115f86c8cb69dd8e8a6d7c4bbfa6f1a0a160b2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3954cf10f92a996ea208afd33d29c44fb2eaa97c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x05aca3e3fd0df66e50cb5923fd7e71750918bf50"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xeb430570afeb4d296b119aa9fe67bf45b3a34658"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc1e80729b9cdb3db3870ec9d6d54b41d9218cc6f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6acbc33f4c9183722f8eaf9ffa3174a4be8f1f7e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2aab34f5f72c9e3e04c38c3261f814f2f2892551"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd071b87d06600a6e5fdb38767d8e998e1d28e35f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x966d6395de605da1e127cc03e3bd4705754aa1b4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xacda96fa10cd5ba9e02cceb44e1d51bc97c9d967"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x84fffe4e6ffc1bcbc1ba993240c16cc51c79623e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x86ff7eb5b1abd10560b3905beabcd588c7a7642a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x88346a0b1614dcda4d8ab5e8c3e5474ba196d576"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1edc8f1a266366995b1557e1f59b8f1231626757"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x884fa45f4b64e3cd5b55eb6fe1a83434d9d59798"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc8ab14e898ab03ec354b88324fb1df33c4ad19f3"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xdcad9c804a55fe2091cd5db56acbd12dedb1f73b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x785837b255a80e654f883b00d3068be547d3ecb0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x472bb4816680f33e0267e7b0c54629917e2119a9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x70bfb485fad77c59460c6479b2be1c894e6fc2e0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xffe7e2b796a647967783a949b880ac73cd0e6110"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe76e8ebb6145430b2dff0833c39b14866fc2ccb6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4a9b73f78c41b3474abd73aaab92973192afd43c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xfd8d7c1fbcc780e43d4e327697c9ea43979f293a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xdbbc76d4a3b0766a2e2c3f661fc029fa9d11a403"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xeb4a877108de041c362a13e6892d4d83dded1e22"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x55b5f31cc89f94319b578bf441976f9ca2eae599"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x303c5e3fc011a4c38d7873dce63f21daf4aafcc5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x757ec4da742613edca135c7fec9edde1a4d9f8d4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb336f462cfb170ad0b51c9a1ea339aa7065338aa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x088923fd6f67550011790b2ef82bc743c1044e8e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: dexETF
+  - address: "0xe3783737b9a71b91195b3a70063f071033a93640"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xdcea2fd6c2156a7fd3f6d2418a54de6a5ca13d99"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc47971dec3adef35e8db841b197444319556512d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa0c8859b85ff621c3d021d44d3e70f4dbfaa6c4d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0eaa65c9df18469e8e66ec2611dc635d92922c5c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6fd3af09d240032b6d79f426ce9d01fd96c0b82a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x34340927aec4fd1c57bf7c9e97451c64360fa164"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xc881a9f04b13c3b56b2fcc5cb973f03202fbdb47"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe977768cc8cb7bac29f151682dff1a0b837b04c6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd72af18724cf0320d54eed6311742ddd44f25443"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x14c118b13161bc59a5c180ace0febcfb913bc107"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe76531fbb65300488fd2fa226a29739cb0f4de49"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xdca3129e0d5bc20a992078917a7361e93668b96f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xcf6ffab3e2dc486de552f962ce596b9c446686aa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8e6ff77f7a8f11d497c7f8f926e26da440ae6b34"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x49bd11ec98fdb5caf24e51b9b82222f5960b057d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2dfcecb51d46fdd0fa2dc4c12fa7c2726b2dcd02"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5190cfa1d7caeaf93c43638b4877396ebf1d58ae"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x36cea05482b24e4fc590f19a7787e217fed2f491"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2c093f7d7db41057a2ddd3cb1ad8b4e9c3dffbec"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: USDEX
+  - address: "0x8824335ea8981f0cb2c88928a9c785eab373458f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6046667a2e4908a7056a190831d875b004de3668"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x7d1a4a8addd1afebab89626b966cde5a3df1366d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6e62c32f7e383eee77c11daacebc5ca1882f6e7e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2c225fedf7a6d81629d0dd6361c38ff7f1fe1c93"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x76b84c2f1a1675964cad9fe502d97e19a67b03f7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x5b0f1b2e4e639090f658abb67b1df16916425534"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x8f3668df746f977337525b0e1aec36ecdbda8ee9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x91846ceaf48a2943e26a7f5007db6cdb08c420fa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xda6990eb87fc5776fb069c66688c18cd91c0d439"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xbb21c5830aca3013e0192ac3175f45c47c9de5b4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2aefda422e230f8b7b6e866ddc9d9272243e334b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xff9d0220c540f58dd213390aa5639b7fab8b71f5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0edd4a64469be024d594f3b8c9c15fef6cd6252b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x0bbcf6cf66530ef95bc5d9c5e1f11379250223a0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xfdca28c7c203a28a53e2e7592d403ebc88fdb0d9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x22dd8118e3daf9f804ddde6f01d287df4ee17ac6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x177a672c8f57b4c356963cd4e2829154792268a9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1b7e44ec89ffc89bf0afe3546496a7264594c408"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x00198cd1a504b05b6b0afb31b6c8f88ecee01e12"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x05b55a229cc0bd1c30440d1fbc48435d6113db00"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2a2e3ae5fc035e06c969cb7041263893576a7f69"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xd3f4ba04b2fc2c08df84f99a946ae4b91dd19357"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe247d599cc3eaf23aedfee1b87c2d7eb74fa5790"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xeedc6bbed248fa94eb73c140b095bf7b8986b7ca"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x08c56962ad40d759f7c05178d5d12119e3c94e3a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb7abd978cd23116bc044e943f7c5773b91eaa513"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x4c58c89f4636c64872c2ae934ddc495336e08861"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xce0f1f3e3685b4ea88847920ee46a664d209fede"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x3de3d1d9873466e665074cc7f5e630481d721782"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xf4bd4d96b81ecc7f47d3bd5efe311ff2f1b4edd7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb4b1f76094e4cd7204cd7fe7474d2df62e26417a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe486f37896e6987e1559ca2a06441e2c967409a9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xb1e3c3ddaa6ead9529aca7543b5d534cbc1ca45c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xa04781e6d1aac0eb778df31b9a2a2e71db8751f1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x2c3f3d3882fefa5c27fb838272972f4c087e3c50"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0xe66c902214be8043881ed727131b648fcfb7d05d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x1d92f394810b46d1ab756682f67e3449d03b9f91"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6b65c92aff9418b452b46a0970d05dfa2abe6667"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
+  - address: "0x6794c7963a7ce96bc1fe9ebcb2c32989703afaa2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DexFiVaultProfitStorage
