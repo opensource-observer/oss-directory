@@ -24,6 +24,7 @@ blockchain:
       - factory
     name: TransparentUpgradeableProxy
     networks:
+      - arbitrum
       - optimism
   - address: "0xabc2f529a40a1a337e0c1da12c004b61bcbe2189"
     tags:
