@@ -44,7 +44,7 @@ APIS = {
 }
 DEFAULT_API = APIS['mainnet']
 W3 = Web3(Web3.HTTPProvider(DEFAULT_API['alchemy']))
-NS = ENS.fromWeb3(W3)
+NS = ENS.from_web3(W3)
 
 # Avoid rate limiting
 SLEEP_TIME = 0.5
@@ -114,6 +114,28 @@ def fetch_contract_name(chain, address, sleep=SLEEP_TIME):
         return contract_name    
     except:
         logging.error(f"{address} ({chain}) fatal error trying to lookup up a contract name")
+        return None
+
+
+def get_contract_creator(chain, address, sleep=SLEEP_TIME):
+    try:
+        api = APIS.get(chain, DEFAULT_API)
+        url = api['etherscan']
+        api_key = api['etherscan_api_key']
+        params = {
+            'module': 'contract',
+            'action': 'getcontractcreation',
+            'contractaddresses': address,
+            'apikey': api_key
+        }
+        response = requests.get(url, params=params)
+        response_json = response.json()
+        if response_json.get('status') != '1':
+            logging.error(f"{address} ({chain}) cannot lookup contract creator from etherscan: {response.text}")
+            return None
+        return response_json['result'][0]['contractCreator']
+    except Exception as e:
+        logging.error(f"{address} ({chain}) fatal error looking up contract creator from etherscan: {e}")
         return None
 
 
