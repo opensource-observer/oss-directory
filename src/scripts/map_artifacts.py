@@ -155,6 +155,30 @@ def generate_address_snapshot(outpath: str, chain: str = 'mainnet') -> None:
     print(f"Generated address snapshot at {outpath} with {len(addresses)} entries.")
 
 
+def map_addresses_to_names(outpath: str) -> None:
+    """
+    Generate a YAML snapshot of the mapping between blockchain addresses and their names.
+
+    Args:
+    outpath (str): The file path to save the generated YAML snapshot.
+    """
+    yaml_data = get_yaml_data_from_path()
+    addresses = {}
+    for data in yaml_data:
+        if not data:
+            continue
+        blockchain_entries = data.get('blockchain', [])
+        for entry in blockchain_entries:
+            address = entry.get('address')
+            name = entry.get('name')
+            if name:
+                addresses[address.lower()] = name
+
+    with open(outpath, 'w') as outfile:
+        yaml.dump(addresses, outfile, default_flow_style=False, sort_keys=True, indent=2)
+    print(f"Generated name snapshot at {outpath} with {len(addresses)} entries.")
+
+
 def map_dune_snapshot_to_slugs(json_data: Dict, chain: str) -> Dict[str, str]:
     """
     Create a mapping of blockchain addresses to project slugs based on the Dune Analytics snapshot data.
@@ -196,5 +220,6 @@ def map_dune_snapshot_to_slugs(json_data: Dict, chain: str) -> Dict[str, str]:
     return slugs
 
 if __name__ == "__main__":
-    generate_repo_snapshot('repo_snapshot.yaml')
-    generate_address_snapshot('address_snapshot.yaml')
+    #generate_repo_snapshot('repo_snapshot.yaml')
+    #generate_address_snapshot('address_snapshot.yaml')
+    map_addresses_to_names("temp/addresses_names.yaml")
