@@ -41,9 +41,11 @@ def update_project(project_slug, blockchain_data) -> bool:
         for existing_record in existing_data:
             found = False
             if existing_record["address"].lower() == address:
-                diff = set(record.items()) - set(existing_record.items())
-                logging.info(f"Updating {address} in {project_slug}: {diff}")
                 found = True
+                tags_diff = set(record["tags"]) - set(existing_record["tags"])
+                networks_diff = set(record["networks"]) - set(existing_record["networks"])
+                if tags_diff or networks_diff:
+                    logging.info(f"Updating {address} in {project_slug}: {tags_diff} {networks_diff}")
         if not found:
             logging.info(f"Adding {address} to {project_slug}")
         
