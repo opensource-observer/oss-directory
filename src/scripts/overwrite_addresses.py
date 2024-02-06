@@ -35,7 +35,7 @@ def update_project(project_slug, blockchain_data) -> bool:
         return False
     
     existing_data = project_data.get("blockchain", [])
-    logging.info(f"Updating {project_slug} with {len(blockchain_data)} addresses; previously project had {len(existing_data])} addresses.")
+    logging.info(f"Updating {project_slug} with {len(blockchain_data)} addresses; previously project had {len(existing_data)} addresses.")
     for record in blockchain_data:
         address = record["address"]
         for existing_record in existing_data:
