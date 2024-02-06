@@ -1,3 +1,5 @@
+# Spaghetti code to validate addresses and trace contract deployments
+
 import os
 import json
 import logging
@@ -5,7 +7,7 @@ from typing import List, Dict, Any
 import yaml
 
 from map_artifacts import get_yaml_data_from_path
-from trace_contracts import get_txns_from_address, is_eoa, get_contract_creator, fetch_contract_name
+from trace_contracts import get_txns_from_address, is_eoa, get_contract_creator, fetch_contract_name, get_ens
 
 # Define constants and configurations
 PROJECTS_DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "projects")
@@ -117,6 +119,19 @@ def trace_to_deployer(contracts: List[Dict[str, Any]], chain: str) -> List[Dict[
     return contracts_with_deployers
 
 
+def add_ens_to_addresses(addresses: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Add ENS names to addresses based on their transaction history."""
+
+    addresses_with_ens = []
+    for address in addresses:
+        ens = get_ens(address['address'])
+        if ens:
+            address['ens'] = ens
+            logging.info(f"ENS added to {address['address']}: {ens}.")
+        addresses_with_ens.append(address)
+    return addresses_with_ens
+
+
 def add_tags_to_contract(chain: str, address: str , sleep=.2) -> Dict[str, Any]:
     """Add tags to a contract address based on its transaction history."""
 
@@ -170,6 +185,22 @@ def review_contracts_from_validated_deployers(validated_deployer_data: dict) -> 
     return validated_contracts
 
 
+def validate_safe(chain: str, address: str) -> bool:
+    """Validate if an address is a known Safe wallet."""
+
+    contract_name = fetch_contract_name(chain, address)
+    if contract_name:
+        contract_name = contract_name.lower()
+        if 'safe' in contract_name or 'multisig' in contract_name:
+            logging.info(f"{address} is a Safe wallet.")
+            return True
+        elif 'proxy' in contract_name and chain == 'mainnet':
+            logging.info(f"{address} is a Safe proxy contract.")
+            return True
+    logging.warning(f"{address} is not a Safe wallet.")
+    return False
+
+
 if __name__ == "__main__":
     
     # Generate addresses and optionally save them to a file
@@ -181,19 +212,27 @@ if __name__ == "__main__":
     # contracts = generate_addresses(address_type_filter="contract", required_address_tags=["contract"])
     # write_json_file('temp/contracts.json', contracts)
 
+    # safe_wallets = generate_addresses(address_type_filter="safe", required_address_tags=["wallet"])
+    # validated_safe_wallets = [safe for safe in safe_wallets if validate_safe(safe['networks'][0], safe['address'])]
+    # write_json_file('temp/safe_wallets.json', validated_safe_wallets)
+
+    eoa_wallets = generate_addresses(address_type_filter="eoa", required_address_tags=["wallet"])
+    updated_wallets_data = add_ens_to_addresses(eoa_wallets)
+    write_json_file('temp/eoa_wallets.json', eoa_wallets)
+    
 
     # Trace deployments and optionally save them
-    
-    # deployers_data = read_json_file('temp/deployers.json')
-    
     # deployers_data = read_yaml_file('temp/save/deployers.yaml')
     # deployers_data = [{"address": k, "slug": v} for k, v in deployers_data.items()]
     # deployments = trace_deployments(deployers_data)
     # write_json_file('temp/save/validated_deployers.json', deployments)
 
-    validated_deployers_data = read_json_file('temp/save/validated_deployers.json')
-    contracts = review_contracts_from_validated_deployers(validated_deployers_data)
-    write_json_file('temp/save/validated_contracts.json', contracts)
+    # validated_deployers_data = read_json_file('temp/save/validated_deployers.json')
+    # updated_deployers_data = add_ens_to_addresses(validated_deployers_data)
+    # write_json_file('temp/save/validated_deployers.json', updated_deployers_data)
+
+    #contracts = review_contracts_from_validated_deployers(validated_deployers_data)
+    #write_json_file('temp/save/validated_contracts.json', contracts)
 
 
     # Example of tracing contracts to deployer
