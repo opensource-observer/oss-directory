@@ -117,6 +117,28 @@ def fetch_contract_name(chain, address, sleep=SLEEP_TIME):
         return None
 
 
+def get_contract_creator(chain, address, sleep=SLEEP_TIME):
+    try:
+        api = APIS.get(chain, DEFAULT_API)
+        url = api['etherscan']
+        api_key = api['etherscan_api_key']
+        params = {
+            'module': 'contract',
+            'action': 'getcontractcreation',
+            'contractaddresses': address,
+            'apikey': api_key
+        }
+        response = requests.get(url, params=params)
+        response_json = response.json()
+        if response_json.get('status') != '1':
+            logging.error(f"{address} ({chain}) cannot lookup contract creator from etherscan: {response.text}")
+            return None
+        return response_json['result'][0]['contractCreator']
+    except Exception as e:
+        logging.error(f"{address} ({chain}) fatal error looking up contract creator from etherscan: {e}")
+        return None
+
+
 def get_txns_from_address(chain, address, action='txlist', sleep=SLEEP_TIME):
     try:
         api = APIS.get(chain, DEFAULT_API)
@@ -132,11 +154,11 @@ def get_txns_from_address(chain, address, action='txlist', sleep=SLEEP_TIME):
         response_json = response.json()
         if response_json.get('status') != '1':
             logging.error(f"{address} ({chain}) cannot lookup {action} from etherscan: {response.text}")
-            return None
+            return []
         return response_json['result']
     except Exception as e:
         logging.error(f"{address} ({chain}) fatal error looking up {action} from etherscan: {e}")
-        return None
+        return []
 
 
 def analyze_address_tags(chain, address, sleep=SLEEP_TIME):
@@ -155,7 +177,7 @@ def analyze_address_tags(chain, address, sleep=SLEEP_TIME):
     if result:
         deployments = [tx['contractAddress'] for tx in result if not tx['to'] and tx['type'] == 'create' and tx['isError'] == '0']
         if deployments and not is_eoa_addr:
-                return ["contract", "factory", "proxy"]
+            return ["contract", "factory", "proxy"]
         
     if is_eoa_addr:
         return ["eoa"]
