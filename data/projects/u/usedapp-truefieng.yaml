@@ -5,10 +5,10 @@ github:
   - url: https://github.com/truefieng/usedapp
 npm:
   - url: https://www.npmjs.com/package/@usedapp/core
-blockchain:
-  - address: "0x4891a0dbf8fcca60cc22aa1a69df086090fbcf8f"
-    networks:
-      - optimism
-    tags:
-      - safe
-      - wallet
+# blockchain:
+#   - address: "0x4891a0dbf8fcca60cc22aa1a69df086090fbcf8f" # shared by waffle-truefieng
+#     networks:
+#       - optimism
+#     tags:
+#       - safe
+#       - wallet
