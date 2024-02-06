@@ -4,26 +4,22 @@ name: ITU Blockchain
 github:
   - url: https://github.com/itublockchain
 blockchain:
-  - address: "0xBEC643BD5b7F5e9190617CA4187ef0455950C51C"
-    tags:
-      - eoa
-      - wallet
-    networks:
-      - optimism
-      - mainnet
-  - address: "0x4b1a0e704f5bec55600801d93b1bed88d12caa7f"
-    tags:
-      - eoa
-    networks:
-      - optimism
   - address: "0xbcb0e9d11dd172035645680b3d6350efb8b8f33f"
+    networks:
+      - optimism
     tags:
       - contract
+    name: unverified
+  - address: "0x3e2e8e11c307830b358959f27128de4e93ac9fa4"
     networks:
       - optimism
-  - address: "0x3e2e8e11c307830b358959f27128de4e93ac9fa4"
     tags:
       - safe
       - wallet
+  - address: "0xbec643bd5b7f5e9190617ca4187ef0455950c51c"
     networks:
+      - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

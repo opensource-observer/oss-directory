@@ -5,9 +5,8 @@ github:
   - url: https://github.com/statechannels
 blockchain:
   - address: "0x5f6a7ca8bb0e75309e9d4a89235a628bacdb145a"
-    tags:
-      - wallet
-      - safe
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - safe
+      - wallet

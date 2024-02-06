@@ -4,10 +4,10 @@ name: Inferer
 github:
   - url: https://github.com/inferer
 blockchain:
-  - address: "0x1f050479F273f38D1b49094fB0e448d86056a92F"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x1f050479f273f38d1b49094fb0e448d86056a92f"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

@@ -4,119 +4,169 @@ name: deBridge
 github:
   - url: https://github.com/debridge-finance
 blockchain:
+  - address: "0xbda458dfc28021debd72060671fc350fa5cb39e5"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xfd830dd9b446c9b880b32a03fb9a750aae4a68aa"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x95c99ea6d7e72e99f18049019a427a4a17c53a30"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa7b88a746fa457578d5abd6234471f07d895f46b"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0xef4fb24ad0916217251f553c0596f8edc630eb66"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x60e50145db18e09ff2bb277e88d3c264ff57b91f"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xe7351fd770a37282b91d153ee690b63579d6dd7f"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xf7399c83b12edd1a21aab250d30ccb4474902688"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc86ab72dc6da7ef91a96650f3bc23125cd997130"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0x663dc15d3c1ac63ff12e45ab68fea3f0a883c251"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x58404964365264665f4f37217848b10873d50336"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x413dddce3d0ead2489648e482d192a7758c2b1b4"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x979791c607a388702690599120c46332f61f592c"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: DlnDestination
+  - address: "0xfc2ca4022d26ad4dcb3866ae30669669f6a28f19"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x5706875cef89ab69e818d4921a47d0d2663d2728"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x61ef2e01e603aeb5cd96f9ec9ae76cc6a68f6cf9"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xeae9352c28a89b69ab30865156db18fd7fe7e000"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x33b72f60f2ceb7bdb64873ac10015a35bed81717"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x7ec2e51a9c4f088354ad8ad8703c12d81bf21677"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: DlnSource
+  - address: "0xa85437470f38f004c2f4b0d75d282e47bf555a3a"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: DlnExternalCallAdapter
   - address: "0xbd4c65cd759d79074d5e87022fb369b4dac6b485"
     networks:
       - optimism
     tags:
       - safe
       - wallet
-  - address: "0xbda458dfc28021debd72060671fc350fa5cb39e5"
-    tags:
-      - creator
-      - deployer
-      - eoa
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0xfd830dd9b446c9b880b32a03fb9a750aae4a68aa"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x95c99ea6d7e72e99f18049019a427a4a17c53a30"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa7b88a746fa457578d5abd6234471f07d895f46b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xef4fb24ad0916217251f553c0596f8edc630eb66"
-    tags:
-      - contract
-    networks:
-      - optimism
-      - arbitrum
-    name: DlnSource
-  - address: "0x60e50145db18e09ff2bb277e88d3c264ff57b91f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe7351fd770a37282b91d153ee690b63579d6dd7f"
-    tags:
-      - contract
-    networks:
-      - optimism
-      - arbitrum
-    name: DlnDestination
-  - address: "0xf7399c83b12edd1a21aab250d30ccb4474902688"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc86ab72dc6da7ef91a96650f3bc23125cd997130"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: ProxyAdmin
-  - address: "0x663dc15d3c1ac63ff12e45ab68fea3f0a883c251"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x58404964365264665f4f37217848b10873d50336"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x413dddce3d0ead2489648e482d192a7758c2b1b4"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: TransparentUpgradeableProxy
-  - address: "0x979791c607a388702690599120c46332f61f592c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfc2ca4022d26ad4dcb3866ae30669669f6a28f19"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5706875cef89ab69e818d4921a47d0d2663d2728"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x61ef2e01e603aeb5cd96f9ec9ae76cc6a68f6cf9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xeae9352c28a89b69ab30865156db18fd7fe7e000"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x33b72f60f2ceb7bdb64873ac10015a35bed81717"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7ec2e51a9c4f088354ad8ad8703c12d81bf21677"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa85437470f38f004c2f4b0d75d282e47bf555a3a"
-    networks:
-      - optimism
-    tags:
-      - contract

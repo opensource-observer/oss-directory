@@ -6,9 +6,9 @@ github:
 npm:
   - url: https://www.npmjs.com/package/web3
 blockchain:
-  - address: "0x0F56267206C6a83F726dD3A67305FFc0E5CDBfB2"
-    tags:
-      - wallet
-      - safe
+  - address: "0x0f56267206c6a83f726dd3a67305ffc0e5cdbfb2"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

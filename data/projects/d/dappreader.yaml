@@ -4,9 +4,9 @@ name: DappReader
 github:
   - url: https://github.com/DappReader
 blockchain:
-  - address: "0x9A472Fe48d2947C60D919220BB7Ea1A063e17fC1"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x9a472fe48d2947c60d919220bb7ea1a063e17fc1"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

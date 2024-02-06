@@ -5,120 +5,165 @@ github:
   - url: https://github.com/sudograph
 blockchain:
   - address: "0xd22044706dea3c342f68396bedbcf6a2536d951d"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
+      - deployer
       - eoa
-      - creator
-    networks:
-      - optimism
   - address: "0xfcfa6855b3e79f1c3ae4314cc0e85f37dfa14b3f"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0x784e00cd961a994eff675e889af6ca564689bf39"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0x3b2378a29f9cbdb1f20a72611c0f000af05630cb"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0x668fb4dd0d2c46057db97b1b1e38e6b99a472b5b"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0x8fc296f44017b50ccaafb2e002d590c2e0987363"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0xcc8ecd1c017b68ae336bbc2883d54400d22e6deb"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0xbf042126c0c0d2c658915c2d21922d3440092f48"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0x50f9f913590e1dc0efc822e0552ebcba5882e5dc"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    name: KyberStaticQuoter
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x5f030dc08eea2abfcc497f3c5351746dac971ad2"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0x0fdf64b6746ba759d120e973c85349a8b9cde8d4"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0x610460dab540dae1eb84c22ea97866bfc0482c3f"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0xf2acd5f10e16bcd2b436701647513bb6c20cf62f"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    name: KyberStaticQuoter
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x1d3e01bd14214fe3cd10904690dfa908c23b37a1"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0xb60ce5bf2a231eda70825f9cdcd0795102218ab0"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0xcd887f78c77b36b0b541e77afd6f91c0253182a2"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0xf558c5bb5c77f658453dd4baf74b69f2add3d934"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0x4a6c794192831fb9f4782e61bec05d6c5cc9f3ea"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xc5b9041f9748a9a4437ba90f9806ce8c3f9085fc"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0x4aff45ce2e48c159147fa7dd5b436cafd9688eba"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0xa479b3af0476a9e605133975c1f0c414d0654d12"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0xc80f61d1bdabd8f5285117e1558fddf8c64870fe"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x972b5aa054f8d21f3f2a9e928e26b3dacf99b44f"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified

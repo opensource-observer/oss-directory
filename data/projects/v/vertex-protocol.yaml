@@ -7,6 +7,7 @@ blockchain:
   - address: "0xb746472c10f9f128ff9f5029f424cc91bb1d8c3a"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - deployer
       - eoa
@@ -43,9 +44,10 @@ blockchain:
   - address: "0xae1ec28d6225dce2ff787dcb8ce11cf6d3ae064f"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Clearinghouse
+    name: various:DiffersByChain
   - address: "0xafe39cd8e17fa4172144ff95274bb665da411f80"
     networks:
       - arbitrum
@@ -61,6 +63,7 @@ blockchain:
   - address: "0xbbee07b3e8121227afcfe1e2b82772246226128e"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Endpoint
+    name: TransparentUpgradeableProxy

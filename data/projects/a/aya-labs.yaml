@@ -5,9 +5,8 @@ github:
   - url: https://github.com/aya-labs
 blockchain:
   - address: "0xf203d6c796b99d0f2f861d1b838074822dd64d7c"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

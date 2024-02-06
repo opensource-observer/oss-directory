@@ -4,15 +4,15 @@ name: MetaMail
 github:
   - url: https://github.com/MetaMail
 blockchain:
-  - address: "0x7cC252b3BDE15f7cdb9D4156C45198EF904c760A"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - mainnet
-  - address: "0x3806a85D9b8E017d2714B5a240f3e7737279a3Ba"
-    tags:
-      - wallet
-      - safe
+  - address: "0x7cc252b3bde15f7cdb9d4156c45198ef904c760a"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x3806a85d9b8e017d2714b5a240f3e7737279a3ba"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

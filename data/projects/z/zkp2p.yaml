@@ -4,9 +4,9 @@ name: ZKP2P Fiat On Ramp
 github:
   - url: https://github.com/zkp2p
 blockchain:
-  - address: "0x41c41eD0db0Ed8bdB0BB3a6e9d0399b88E98C4c2"
-    tags:
-      - wallet
-      - safe
+  - address: "0x41c41ed0db0ed8bdb0bb3a6e9d0399b88e98c4c2"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

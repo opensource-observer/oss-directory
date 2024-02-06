@@ -4,9 +4,9 @@ name: Fractal Flows
 github:
   - url: https://github.com/FractalFlows
 blockchain:
-  - address: "0xe50c2122cf0A1036ccDa6a3b17c057990aB23aec"
-    tags:
-      - wallet
-      - safe
+  - address: "0xe50c2122cf0a1036ccda6a3b17c057990ab23aec"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

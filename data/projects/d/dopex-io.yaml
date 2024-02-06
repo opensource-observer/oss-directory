@@ -7,6 +7,7 @@ blockchain:
   - address: "0xde485812e28824e542b9c2270b6b8ed9232b7d0b"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - deployer
       - eoa
@@ -19,6 +20,7 @@ blockchain:
   - address: "0x9c21ca464a2ee450d05d605d74ad415c6baaa054"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - deployer
       - eoa
@@ -260,9 +262,10 @@ blockchain:
   - address: "0x9bade4013a7601aa1f3e9f1361a4ebe60d91b1b5"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: DopexHalloweenNFT
+    name: various:DiffersByChain
   - address: "0xfe351e85eb6b4292088dc28b66e9e92ab62fb663"
     networks:
       - arbitrum
@@ -320,9 +323,10 @@ blockchain:
   - address: "0x2c9c1e9b4bdf6bf9cb59c77e0e8c0892ce3a9d5f"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: ArbEthSSOVV2April
+    name: various:DiffersByChain
   - address: "0x0359b4dcd2412ff0dafa8b020bcb57aa8bd13a33"
     networks:
       - arbitrum
@@ -338,9 +342,10 @@ blockchain:
   - address: "0xeec2be5c91ae7f8a338e1e5f3b5de49d07afdc81"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: ArbRdpxToken
+    name: various:DiffersByChain
   - address: "0x3154b747c4bfd35c67607d860b884d28f32ed00f"
     networks:
       - arbitrum
@@ -362,9 +367,10 @@ blockchain:
   - address: "0x0ff5a8451a839f5f0bb3562689d9a44089738d11"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: ProxyAdmin
+    name: various:DiffersByChain
   - address: "0xe5953cd5c1046c5428aba3a1e8797218e5156e5d"
     networks:
       - arbitrum
@@ -398,9 +404,10 @@ blockchain:
   - address: "0xc4e63f3be080d932f6d2d1ba1936be72b37fc134"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: RewardsDistributionV2
+    name: various:DiffersByChain
   - address: "0x818ced3d446292061913f1f74b2eaee6341a76ec"
     networks:
       - arbitrum

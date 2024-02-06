@@ -6,8 +6,8 @@ github:
   - url: https://github.com/openzeppelin/ethernaut-leaderboard
 blockchain:
   - address: "0x1c14b478ada4e2fc5d1e67b918d4ec4756be579f"
+    networks:
+      - optimism
     tags:
       - safe
       - wallet
-    networks:
-      - optimism

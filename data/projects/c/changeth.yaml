@@ -4,9 +4,9 @@ name: Changeth
 github:
   - url: https://github.com/changedoteth
 blockchain:
-  - address: "0x501210ed988bA1e4Ba4cB2F2E2122A2FdcaCdECD"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x501210ed988ba1e4ba4cb2f2e2122a2fdcacdecd"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

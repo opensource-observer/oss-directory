@@ -4,9 +4,9 @@ name: Branche
 github:
   - url: https://github.com/BrancheAI
 blockchain:
-  - address: "0xbf5e9CD788B8DfC97E67c7bA1b4a11364733C98b"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xbf5e9cd788b8dfc97e67c7ba1b4a11364733c98b"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

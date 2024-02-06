@@ -4,9 +4,9 @@ name: NameSys
 github:
   - url: https://github.com/namesys-eth
 blockchain:
-  - address: "0x59AD62Fe873409969AC636Ec38eDD000411b0847"
-    tags:
-      - wallet
-      - safe
+  - address: "0x59ad62fe873409969ac636ec38edd000411b0847"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

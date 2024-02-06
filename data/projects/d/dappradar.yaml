@@ -4,9 +4,9 @@ name: DappRadar
 github:
   - url: https://github.com/dappradar
 blockchain:
-  - address: "0x46896fE996b0E771B22c43e26d94Fe2dACCC027C"
+  - address: "0x46896fe996b0e771b22c43e26d94fe2daccc027c"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

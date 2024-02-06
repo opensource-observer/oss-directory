@@ -6,10 +6,10 @@ github:
   - url: https://github.com/wslyvh/nexth
   - url: https://github.com/useWeb3
 blockchain:
-  - address: "0xA512C3cF9A63715CEd87DE5058c684cBFF9f4321"
+  - address: "0xa512c3cf9a63715ced87de5058c684cbff9f4321"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
-      - mainnet

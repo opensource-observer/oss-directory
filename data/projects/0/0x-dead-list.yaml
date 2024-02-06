@@ -4,9 +4,9 @@ name: 0xDeadList
 github:
   - url: https://github.com/0xDeadList
 blockchain:
-  - address: "0x799B774204A348E1182fE01074C51444bA70A149"
-    tags:
-      - wallet
-      - safe
+  - address: "0x799b774204a348e1182fe01074c51444ba70a149"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

@@ -4,16 +4,16 @@ name: EthereumETL
 github:
   - url: https://github.com/blockchain-etl/ethereum-etl
 blockchain:
-  - address: "0x9FD0C742D81B6f08817F3eF11D09Cb4a9f54eE5f"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x9fd0c742d81b6f08817f3ef11d09cb4a9f54ee5f"
     networks:
       - mainnet
       - optimism
-  - address: "0x04f30466cfabf4747f19e2b275de4f0162baa103"
     tags:
       - eoa
       - wallet
+  - address: "0x04f30466cfabf4747f19e2b275de4f0162baa103"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

@@ -4,9 +4,9 @@ name: Ipsilon
 github:
   - url: https://github.com/ipsilon
 blockchain:
-  - address: "0xF96Aa4A25fDe246d9dD498B145F52Fab0eAd29f3"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xf96aa4a25fde246d9dd498b145f52fab0ead29f3"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

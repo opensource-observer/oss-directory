@@ -4,9 +4,9 @@ name: Archly
 github:
   - url: https://github.com/ArchlyOrg
 blockchain:
-  - address: "0x69f8CD5a84B9844f97a2c5471aFD148421d37E0a"
-    tags:
-      - wallet
-      - safe
+  - address: "0x69f8cd5a84b9844f97a2c5471afd148421d37e0a"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

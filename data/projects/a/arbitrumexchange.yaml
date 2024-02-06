@@ -4,12 +4,24 @@ name: ArbiDex
 github:
   - url: https://github.com/arbitrumexchange
 blockchain:
+  - address: "0x2084e8ecdca037e4751a8ead62ebd324425ff3f8"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0xe89db1bde3a3a996db0e0db915455ba7f4b4b895"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
   - address: "0x9aa54193aa3b23262e737c853e93e6b364a987a4"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0x086cdb9aa631270f4d14e9360735eee86c6505e9"
     networks:
       - arbitrum
@@ -17,18 +29,6 @@ blockchain:
       - contract
       - factory
     name: SmartChefFactory
-  - address: "0x2084e8ecdca037e4751a8ead62ebd324425ff3f8"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
-  - address: "0xe89db1bde3a3a996db0e0db915455ba7f4b4b895"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0x3e48298a5fe88e4d62985dff65dee39a25914975"
     networks:
       - arbitrum

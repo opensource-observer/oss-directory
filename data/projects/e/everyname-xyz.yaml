@@ -4,9 +4,9 @@ name: Everyname
 github:
   - url: https://github.com/everyname-xyz
 blockchain:
-  - address: "0xD475C94562cabC52e38cb3012D976185813284bb"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xd475c94562cabc52e38cb3012d976185813284bb"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

@@ -4,9 +4,9 @@ name: Lattice
 github:
   - url: https://github.com/latticexyz
 blockchain:
-  - address: "0xFb74562ec4e55c4BE2800b79a60e10ab6175Fa3a"
-    tags:
-      - wallet
-      - safe
+  - address: "0xfb74562ec4e55c4be2800b79a60e10ab6175fa3a"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

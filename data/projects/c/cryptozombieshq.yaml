@@ -4,10 +4,10 @@ name: CryptoZombies
 github:
   - url: https://github.com/CryptozombiesHQ
 blockchain:
-  - address: "0xbb105E3c6D6406A3F0aAB98cD8D0E3a127bD6436"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xbb105e3c6d6406a3f0aab98cd8d0e3a127bd6436"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

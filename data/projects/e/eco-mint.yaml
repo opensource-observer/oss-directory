@@ -4,9 +4,9 @@ name: EcoMint
 github:
   - url: https://github.com/eco-mint
 blockchain:
-  - address: "0x3460BF837B6741035d20Ea2D894A4423A859af12"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x3460bf837b6741035d20ea2d894a4423a859af12"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

@@ -4,22 +4,16 @@ name: DeFiEye
 github:
   - url: https://github.com/DeFiEye
 blockchain:
-  - address: "0xE6D7b9Fb31B93E542f57c7B6bfa0a5a48EfC9D0f"
-    tags:
-      - eoa
-      - wallet
+  - address: "0xe6d7b9fb31b93e542f57c7b6bfa0a5a48efc9d0f"
     networks:
-      - optimism
       - mainnet
-  - address: "0xd250018939931691ef30faE31B3CBfdFFaA14091"
+      - optimism
     tags:
+      - eoa
       - wallet
-      - eoa
+  - address: "0xd250018939931691ef30fae31b3cbfdffaa14091"
     networks:
       - optimism
-  - address: "0x00000000000007736e2f9aa5630b8c812e1f3fc9"
     tags:
       - eoa
-    networks:
-      - optimism
-    name: ""
+      - wallet

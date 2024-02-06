@@ -4,9 +4,9 @@ name: mevboost.pics
 github:
   - url: https://github.com/nerolation/mevboost.pics
 blockchain:
-  - address: "0x87d810397d22Fb99213f008Da9CC9ED54366fBD2"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x87d810397d22fb99213f008da9cc9ed54366fbd2"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

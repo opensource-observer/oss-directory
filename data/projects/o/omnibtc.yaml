@@ -4,12 +4,12 @@ name: OmniBTC
 github:
   - url: https://github.com/OmniBTC
 blockchain:
-  - address: "0x5683921269B041fbE66882dd6CADd48B7e5b5817"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x5683921269b041fbe66882dd6cadd48b7e5b5817"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
   - address: "0xc8a3ae7ac306df0ba9f0fc90406367ac6c31765b"
     networks:
       - optimism

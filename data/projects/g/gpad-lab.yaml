@@ -4,9 +4,9 @@ name: GPAD Protocol
 github:
   - url: https://github.com/GPAD-Lab
 blockchain:
-  - address: "0x2475Dcd4Fe333bE814Ef7C8f8CE8A1E9B5FcDEA0"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x2475dcd4fe333be814ef7c8f8ce8a1e9b5fcdea0"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

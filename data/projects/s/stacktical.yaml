@@ -4,19 +4,21 @@ name: Stacktical (DSLA Protocol)
 github:
   - url: https://github.com/stacktical
 blockchain:
-  - address: "0x38b0cd8bb4c4608e32ee75b25a8846459cead513"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: SLARegistry
   - address: "0x972614782a893ad3139418ef00e17fe95896a7c6"
     networks:
       - arbitrum
+      - mainnet
     tags:
-      - eoa
       - deployer
+      - eoa
+  - address: "0x38b0cd8bb4c4608e32ee75b25a8846459cead513"
+    networks:
+      - arbitrum
+      - mainnet
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
   - address: "0x9db0b1692a56789603baee953635b4ec631a7399"
     networks:
       - arbitrum
@@ -32,9 +34,10 @@ blockchain:
   - address: "0xffc6dc11002a688f7995fb1ca85232c939b0139d"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: MessengerRegistry
+    name: various:DiffersByChain
   - address: "0x834b065cf4ac904e4bffd983ec2b2a6c8af8ad7e"
     networks:
       - arbitrum

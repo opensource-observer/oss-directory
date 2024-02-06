@@ -5,15 +5,15 @@ github:
   - url: https://github.com/ethereum/sourcify
   - url: https://github.com/sourcifyeth
 blockchain:
-  - address: "0x1D113337E485e232d39D2d883031705ADe37b576"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x1d113337e485e232d39d2d883031705ade37b576"
     networks:
       - mainnet
-  - address: "0x92347362acc955a6f3dc7f9d34945aaac944ffbf"
     tags:
       - eoa
       - wallet
+  - address: "0x92347362acc955a6f3dc7f9d34945aaac944ffbf"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

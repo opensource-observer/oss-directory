@@ -4,9 +4,9 @@ name: Labrys
 github:
   - url: https://github.com/Labrys-Group
 blockchain:
-  - address: "0xe24edbf8752c410d3DB8AcfF3d370860724FDEfC"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xe24edbf8752c410d3db8acff3d370860724fdefc"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

@@ -4,9 +4,9 @@ name: Project LION
 github:
   - url: https://github.com/Project-LION-AI
 blockchain:
-  - address: "0x9F4BC8b266ec6832D1339B62a6f04F35fCdDd846"
-    tags:
-      - wallet
-      - safe
+  - address: "0x9f4bc8b266ec6832d1339b62a6f04f35fcddd846"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

@@ -4,9 +4,9 @@ name: ROBOTS.TXT
 github:
   - url: https://github.com/LegatoHQ
 blockchain:
-  - address: "0xf4a96D0025717b37252DcE516E33541EadCF1e70"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xf4a96d0025717b37252dce516e33541eadcf1e70"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

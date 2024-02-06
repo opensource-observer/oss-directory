@@ -4,40 +4,45 @@ name: Holograph
 github:
   - url: https://github.com/holographxyz
 blockchain:
-  - address: "0xdeadfed00b7848545d8fe5cb4e7c51ed37e5a2fa"
-    tags:
-      - eoa
-      - creator
+  - address: "0xc0ffee78121f208475abdd2cf0853a7afed64749"
     networks:
+      - arbitrum
+      - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xdeadfed00b7848545d8fe5cb4e7c51ed37e5a2fa"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0x0c8af56f7650a6e3685188d212044338c21d3f73"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
       - factory
     name: HolographGenesis
+  - address: "0x4f92ae4960a6ac49fa88bcf9d6d4b8c53f626a55"
     networks:
       - arbitrum
       - optimism
-  - address: "0x4f92ae4960a6ac49fa88bcf9d6d4b8c53f626a55"
     tags:
       - contract
       - factory
-    networks:
-      - arbitrum
-      - optimism
     name: HolographFactoryProxy
-  - address: "0xa2d6193763a9b327db7c74c766713927745f2a4c"
-    tags:
-      - safe
-      - wallet
-    networks:
-      - optimism
   - address: "0xd85b5e176a30edd1915d6728faebd25669b60d8b"
     networks:
       - arbitrum
     tags:
       - contract
-    name: HolographBridge
+    name: HolographBridgeProxy
   - address: "0x6429b42da2a06aa1c46710509fc96e846f46181e"
     networks:
       - arbitrum
@@ -49,10 +54,16 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: HolographOperator
+    name: HolographOperatorProxy
   - address: "0xdc2680e51b63048a02204c7494e9e44abf5a7bef"
     networks:
       - arbitrum
     tags:
       - contract
     name: Holographer
+  - address: "0xa2d6193763a9b327db7c74c766713927745f2a4c"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

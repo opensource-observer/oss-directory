@@ -4,9 +4,9 @@ name: Ethereum Chile
 github:
   - url: https://github.com/Ethereum-Chile
 blockchain:
-  - address: "0x47B074200508Afd4818142ceF8d137093Bae179F"
-    tags:
-      - wallet
-      - safe
+  - address: "0x47b074200508afd4818142cef8d137093bae179f"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

@@ -4,10 +4,10 @@ name: "Pepemon: Degen Battleground"
 github:
   - url: https://github.com/pepemon-dao
 blockchain:
-  - address: "0xE71FbB197BC8fD11090FA657C100d52Dbb407662"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xe71fbb197bc8fd11090fa657c100d52dbb407662"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

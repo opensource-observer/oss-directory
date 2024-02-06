@@ -4,9 +4,9 @@ name: go-ethereum-hdwallet
 github:
   - url: https://github.com/miguelmota/go-ethereum-hdwallet
 blockchain:
-  - address: "0xEF137f8079Df12E9A1b280b4cF09DDEe0295c353"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xef137f8079df12e9a1b280b4cf09ddee0295c353"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

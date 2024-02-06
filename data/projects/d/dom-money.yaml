@@ -4,9 +4,9 @@ name: DOM Money
 github:
   - url: https://github.com/dom-money
 blockchain:
-  - address: "0xC3Db29e34952C186d5Fcaa8ed3f69bd432c7F646"
-    tags:
-      - wallet
-      - safe
+  - address: "0xc3db29e34952c186d5fcaa8ed3f69bd432c7f646"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

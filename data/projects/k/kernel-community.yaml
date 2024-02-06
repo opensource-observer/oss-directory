@@ -4,15 +4,15 @@ name: Kernel
 github:
   - url: https://github.com/kernel-community/
 blockchain:
-  - address: "0x7DAC9Fc15C1Db4379D75A6E3f330aE849dFfcE18"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - mainnet
-  - address: "0x5e87ccdc1c2681c7e76d9c927db637f2e3eabdca"
-    tags:
-      - safe
-      - wallet
+  - address: "0x7dac9fc15c1db4379d75a6e3f330ae849dffce18"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x5e87ccdc1c2681c7e76d9c927db637f2e3eabdca"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

@@ -4,42 +4,45 @@ name: The Metagovernance Project
 github:
   - url: https://github.com/metagov
 blockchain:
-  - address: "0xfF2aBEF3af9655D96Da983916e066134adea6390"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
-  - address: "0xd39D6d3F7433A0caBD90c0Ea74d76dA29b718314"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
-  - address: "0x539bDe90Cc8005727a7f2dd5dEA5F6D83e82BbA2"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
-  - address: "0xc38B9fBB57b0c33f85Cb0A03669a9D6127538369"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
   - address: "0x18cbb356cd64193b1a0ca49911fc72cb3d02a5e4"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: EIP4824Index
   - address: "0x5c0340ad34f7284f9272e784ff76638e8ddb5de4"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: EIP4824RegistrationSummoner
   - address: "0x65d17d117c190f7a4cc784b56a17e3f7edde5762"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: EIP4824Registration
+  - address: "0xff2abef3af9655d96da983916e066134adea6390"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+  - address: "0xd39d6d3f7433a0cabd90c0ea74d76da29b718314"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+  - address: "0x539bde90cc8005727a7f2dd5dea5f6d83e82bba2"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
+  - address: "0xc38b9fbb57b0c33f85cb0a03669a9d6127538369"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet

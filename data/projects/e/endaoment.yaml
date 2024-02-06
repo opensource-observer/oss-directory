@@ -4,49 +4,50 @@ name: Endaoment
 github:
   - url: https://github.com/endaoment
 blockchain:
-  - address: "0xa41406f86cc65063C25021422e2EE8E93E680b4C"
+  - address: "0x2987f4271db74625b2716d444327b9a4f47ff2b3"
+    networks:
+      - mainnet
+      - optimism
     tags:
-      - wallet
+      - deployer
       - eoa
+  - address: "0x51a2813aae4e763be93a18d45dd06c5a1803de86"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xe095827db80cbb716d79823a3c4964f18d48a6bc"
     networks:
       - optimism
-      - mainnet
-  - address: "0x51A2813AAe4E763be93A18D45DD06C5a1803DE86"
     tags:
+      - deployer
       - eoa
-      - creator
+  - address: "0x10fd9348136dcea154f752fe0b6db45fc298a589"
     networks:
-      - optimism
       - mainnet
-  - address: "0x10fD9348136dCea154F752fe0B6dB45Fc298A589"
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
     name: OrgFundFactory
-  - address: "0x0B6C48C85D7e5f00Be42787aE6Cd3e1ae71be911"
-    tags:
-      - contract
+  - address: "0x0b6c48c85d7e5f00be42787ae6cd3e1ae71be911"
     networks:
       - optimism
+    tags:
+      - contract
     name: SingleTokenPortfolio
-  - address: "0x2987f4271DB74625b2716d444327B9a4f47fF2B3"
-    tags:
-      - creator
-      - eoa
+  - address: "0x5d216bb28852f98ceaa29180670397ab01774ea6"
     networks:
       - optimism
-      - mainnet
-  - address: "0x5D216BB28852f98CeAA29180670397ab01774EA6"
     tags:
       - contract
-    networks:
-      - optimism
     name: Registry
-  - address: "0xe095827db80Cbb716d79823A3C4964f18D48a6Bc"
-    tags:
-      - creator
-      - eoa
+  - address: "0xa41406f86cc65063c25021422e2ee8e93e680b4c"
     networks:
+      - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

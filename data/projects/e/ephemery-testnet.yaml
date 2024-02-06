@@ -4,9 +4,9 @@ name: Ephemery Testnet
 github:
   - url: https://github.com/ephemery-testnet
 blockchain:
-  - address: "0x8d3809951C7F1D18227251B0Cb047735dbf8f8fC"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x8d3809951c7f1d18227251b0cb047735dbf8f8fc"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

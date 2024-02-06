@@ -4,10 +4,10 @@ name: NiceNode
 github:
   - url: https://github.com/NiceNode
 blockchain:
-  - address: "0x9cce47E9cF12C6147c9844adBB81fE85880c4df4"
+  - address: "0x9cce47e9cf12c6147c9844adbb81fe85880c4df4"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
-      - mainnet

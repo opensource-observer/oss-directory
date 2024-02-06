@@ -10,12 +10,6 @@ blockchain:
     tags:
       - deployer
       - eoa
-  - address: "0x171e4fa249375834a6198849aca17c7889caab47"
-    networks:
-      - arbitrum
-    tags:
-      - factory
-      - contract
   - address: "0x816592127416b55f8d1e98f1c569f60c59bf907f"
     networks:
       - arbitrum
@@ -93,7 +87,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: ArbitrumID
+    name: StarNFTV4
   - address: "0x8f68fea3fd9108c5133f61eeac407a5e525b26a5"
     networks:
       - arbitrum

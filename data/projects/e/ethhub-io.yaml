@@ -4,11 +4,10 @@ name: EthHub
 github:
   - url: https://github.com/ethhub-io
 blockchain:
-  - address: "0x648aA14e4424e0825A5cE739C8C68610e143FB79"
+  - address: "0x648aa14e4424e0825a5ce739c8c68610e143fb79"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
-      - mainnet
-    name: sassal.eth

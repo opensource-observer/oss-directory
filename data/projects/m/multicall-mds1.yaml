@@ -4,10 +4,10 @@ name: Multicall3
 github:
   - url: https://github.com/mds1/multicall
 blockchain:
-  - address: "0x60A5dcB2fC804874883b797f37CbF1b0582ac2dD"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x60a5dcb2fc804874883b797f37cbf1b0582ac2dd"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

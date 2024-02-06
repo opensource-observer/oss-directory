@@ -4,9 +4,9 @@ name: CruzoCards
 github:
   - url: https://github.com/cruzocards
 blockchain:
-  - address: "0x0b39AeC55662D8DeD1af14e4E0effF84eE32D65d"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x0b39aec55662d8ded1af14e4e0efff84ee32d65d"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

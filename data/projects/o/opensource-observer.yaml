@@ -6,21 +6,15 @@ github:
 npm:
   - url: https://www.npmjs.com/package/oss-directory
 blockchain:
-  - address: "0x87fEEd6162CB7dFe6B62F64366742349bF4D1B05"
-    tags:
-      - eoa
-    networks:
-      - optimism
-      - mainnet
   - address: "0xc5bfce27e0e7a7d7731bc23b92ebc62b9ed63b83"
     networks:
       - optimism
     tags:
       - safe
       - wallet
-  - address: "0x5cBd6362e6F222D2A0Feb89f32566ebd27091B98"
+  - address: "0x5cbd6362e6f222d2a0feb89f32566ebd27091b98"
     networks:
-      - arbitrum
+      - optimism
     tags:
       - safe
       - wallet

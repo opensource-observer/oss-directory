@@ -5,9 +5,8 @@ github:
   - url: https://github.com/ethereumphone
 blockchain:
   - address: "0x12dc5ff4ab146d9f70e50bd5f9854114a115e6c9"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

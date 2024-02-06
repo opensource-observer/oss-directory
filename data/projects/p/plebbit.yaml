@@ -4,10 +4,10 @@ name: Plebbit
 github:
   - url: https://github.com/plebbit
 blockchain:
-  - address: "0x5Bc4FF33f86E0272be53Fa25861294489AB2FE2a"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x5bc4ff33f86e0272be53fa25861294489ab2fe2a"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

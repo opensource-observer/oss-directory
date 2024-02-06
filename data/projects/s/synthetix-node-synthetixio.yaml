@@ -8,9 +8,9 @@ github:
   - url: https://github.com/Synthetixio/ipfs-deploy
   - url: https://github.com/Synthetixio/ipns-deploy
 blockchain:
-  - address: "0x98f763Ceb9d4D921cDfA688cB7D6419F967d28E7"
+  - address: "0x98f763ceb9d4d921cdfa688cb7d6419f967d28e7"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

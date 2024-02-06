@@ -4,15 +4,17 @@ name: Yield Protocol
 github:
   - url: https://github.com/yieldprotocol
 blockchain:
-  - address: "0xc7ae076086623ecea2450e364c838916a043f9a8"
-    networks:
-      - arbitrum
-    tags:
-      - deployer
-      - eoa
   - address: "0x9152f1f95b0819da526bf6e0cb800559542b5b25"
     networks:
       - arbitrum
+      - mainnet
+    tags:
+      - deployer
+      - eoa
+  - address: "0xc7ae076086623ecea2450e364c838916a043f9a8"
+    networks:
+      - arbitrum
+      - mainnet
     tags:
       - deployer
       - eoa
@@ -25,12 +27,14 @@ blockchain:
   - address: "0x23cc87fbebdd67cce167fa9ec6ad3b7fe3892e30"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Cauldron
+    name: various:DiffersByChain
   - address: "0x8a9262c7c6ec9bb143eb68798adb377c95f47138"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: FYToken
+    name: various:DiffersByChain

@@ -4,9 +4,9 @@ name: Hummingbot Foundation
 github:
   - url: https://github.com/hummingbot
 blockchain:
-  - address: "0x08940dc9B5a19FAb9319b77C61DDA7B8067E6843"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x08940dc9b5a19fab9319b77c61dda7b8067e6843"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

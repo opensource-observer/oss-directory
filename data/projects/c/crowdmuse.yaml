@@ -4,21 +4,21 @@ name: Crowdmuse
 github:
   - url: https://github.com/Crowdmuse
 blockchain:
-  - address: "0xAeC54E3A2f9a1745Ff724c5cD91c9beEd77A0651"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - mainnet
-  - address: "0xD672ca5462FdF079425B63F6aAb83809d2271270"
-    tags:
-      - wallet
-      - safe
+  - address: "0xaec54e3a2f9a1745ff724c5cd91c9beed77a0651"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xd672ca5462fdf079425b63f6aab83809d2271270"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
   - address: "0xb38b6c236347603e0705f912b877d6308ec10f13"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

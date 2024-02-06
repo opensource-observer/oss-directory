@@ -5,8 +5,8 @@ github:
   - url: https://github.com/StableUnit
 blockchain:
   - address: "0xa33ac3f6c76ae645051550f56aa74f902e1b3510"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

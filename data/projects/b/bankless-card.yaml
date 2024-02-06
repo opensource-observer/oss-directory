@@ -5,9 +5,8 @@ github:
   - url: https://github.com/bankless-card
 blockchain:
   - address: "0x74fa01a5d0ef8039f1e14f4d4c8f90e8602e07b4"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

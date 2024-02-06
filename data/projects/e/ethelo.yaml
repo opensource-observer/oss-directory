@@ -4,9 +4,9 @@ name: Ethelo
 github:
   - url: https://github.com/Ethelo
 blockchain:
-  - address: "0x39f5C05912b19B8C2ddA1914C2185360a07FcD8d"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x39f5c05912b19b8c2dda1914c2185360a07fcd8d"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

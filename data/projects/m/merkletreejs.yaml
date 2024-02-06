@@ -6,10 +6,10 @@ github:
 npm:
   - url: https://www.npmjs.com/package/merkletreejs
 blockchain:
-  - address: "0x358fdcCDE25e0aae7fBA01F088Da89b08aBF61DB"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x358fdccde25e0aae7fba01f088da89b08abf61db"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

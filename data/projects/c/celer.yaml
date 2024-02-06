@@ -4,179 +4,184 @@ name: Celer
 github:
   - url: https://github.com/celer-network
 blockchain:
-  - address: "0xF5e9D550C3c50364D630eDB4753bE404Cd109121"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
-      - mainnet
   - address: "0x1b9dfc56e38b0f92448659c114e2347bd803911c"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
-      - creator
       - deployer
       - eoa
+  - address: "0x00778c4222c7d837cbfe4c1539ad10c127ec1c1f"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x23c748fef17518b8de55065338d7fa20327472eb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MintSwapCanonicalToken
+  - address: "0xea129ae043c4cb73dcb241aaa074f9e667641ba0"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x6de33698e9e9b787e09d3bd7771ef63557e148bb"
     networks:
       - arbitrum
       - optimism
-  - address: "0x00778c4222c7d837cbfe4c1539ad10c127ec1c1f"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x23c748fef17518b8de55065338d7fa20327472eb"
     tags:
       - contract
-    name: MintSwapCanonicalToken
-    networks:
-      - optimism
-  - address: "0xea129ae043c4cb73dcb241aaa074f9e667641ba0"
-    tags:
-      - contract
-    name: FraxBridgeToken
-    networks:
-      - optimism
-  - address: "0x6de33698e9e9b787e09d3bd7771ef63557e148bb"
-    tags:
-      - contract
-    name: Bridge
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x06292de88adb3b1557b034ebb1c367e65ab93e4c"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: FarmingRewards
   - address: "0x479ec366ae4ec016ce25b918bdea8f78d4fa5dd8"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
     name: MessageBus
-    networks:
-      - optimism
   - address: "0xff86404162bf14fe50cedcf82a56941dc5f48c77"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0xfd951e71a8ec5c03ad6139d35f800374ba500fa8"
     tags:
       - contract
     name: MintSwapCanonicalToken
+  - address: "0xfd951e71a8ec5c03ad6139d35f800374ba500fa8"
     networks:
       - optimism
+    tags:
+      - contract
+    name: MintSwapCanonicalToken
   - address: "0xe3652e25f549819309d1d6fa0ce839c581a2de93"
+    networks:
+      - optimism
     tags:
       - contract
     name: MessageBus
+  - address: "0x0d71d18126e03646eb09fec929e2ae87b7cae69d"
     networks:
       - optimism
-  - address: "0x0d71d18126e03646eb09fec929e2ae87b7cae69d"
     tags:
       - contract
     name: OptimizedTransparentUpgradeableProxy
+  - address: "0x1b6a49b01176020b153d0cd5bc90ef2b75676f00"
     networks:
       - optimism
-  - address: "0x1b6a49b01176020b153d0cd5bc90ef2b75676f00"
     tags:
       - contract
     name: WithdrawInbox
-    networks:
-      - optimism
   - address: "0x1619de6b6b20ed217a58d00f37b9d47c7663feca"
-    tags:
-      - contract
     networks:
-      - optimism
       - arbitrum
-    name: Bridge
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
   - address: "0x50ec9b92b3bd46969b1ae5e10543ca6fb49fba4f"
+    networks:
+      - optimism
     tags:
       - contract
     name: MintSwapCanonicalToken
-    networks:
-      - optimism
   - address: "0x3b53d2c7b44d40be05fa5e2309ffeb6eb2492d88"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    name: ProxyAdmin
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xe80e0b928f8f3024dfefa56e7608bc3baf389881"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: MintSwapCanonicalToken
   - address: "0xf6c5d7da1654d9bbde0d25a5fd6776b37a2ad881"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: IncentiveEventsReward
   - address: "0x0509474f102b5cd3f1f09e1e91feb25938ef0f17"
+    networks:
+      - optimism
     tags:
       - contract
     name: MintSwapCanonicalToken
-    networks:
-      - optimism
   - address: "0x69663eb604c7d534e9149fa855d89d9104e75363"
+    networks:
+      - optimism
     tags:
       - contract
     name: MintSwapCanonicalToken
-    networks:
-      - optimism
   - address: "0x61f85ff2a2f4289be4bb9b72fc7010b3142b5f41"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: PeggedTokenBridge
+    name: various:DiffersByChain
+  - address: "0x51af61b7026a0ae369acc8652ab2fb637f4689f7"
     networks:
       - optimism
-  - address: "0x51af61b7026a0ae369acc8652ab2fb637f4689f7"
     tags:
       - contract
     name: MessageBus
+  - address: "0xbcfef6bb4597e724d720735d32a9249e0640aa11"
     networks:
       - optimism
-  - address: "0xbcfef6bb4597e724d720735d32a9249e0640aa11"
     tags:
       - contract
     name: OriginalTokenVault
-    networks:
-      - optimism
   - address: "0x253be9f0e2a8749df6ac7466d096b264788745e0"
+    networks:
+      - optimism
     tags:
       - contract
     name: MintSwapCanonicalToken
-    networks:
-      - optimism
   - address: "0x1bba8683e28078306db88743a387eb34fb5f34ed"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0xd51a026563583315a533f3910493e27187417d3f"
     tags:
       - contract
     name: MintSwapCanonicalToken
+  - address: "0xd51a026563583315a533f3910493e27187417d3f"
     networks:
       - optimism
+    tags:
+      - contract
+    name: MintSwapCanonicalToken
   - address: "0x9d39fc627a6d9d9f8c831c16995b209548cc3401"
+    networks:
+      - optimism
     tags:
       - contract
     name: Bridge
+  - address: "0xeb8bbe7599715d4a9b5bbcc53aef742fe008d6b9"
     networks:
       - optimism
-  - address: "0xeb8bbe7599715d4a9b5bbcc53aef742fe008d6b9"
     tags:
       - contract
     name: Sentinel
+  - address: "0xafdb9c40c7144022811f034ee07ce2e110093fe6"
     networks:
       - optimism
-  - address: "0xafdb9c40c7144022811f034ee07ce2e110093fe6"
     tags:
       - contract
     name: OptimizedTransparentUpgradeableProxy
-    networks:
-      - optimism
   - address: "0xfe31bfc4f7c9b69246a6dc0087d91a91cb040f76"
     networks:
       - arbitrum
@@ -201,3 +206,10 @@ blockchain:
     tags:
       - contract
     name: cBridge_V2
+  - address: "0xf5e9d550c3c50364d630edb4753be404cd109121"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

@@ -4,16 +4,23 @@ name: powerpool-finance
 github:
   - url: https://github.com/powerpool-finance
 blockchain:
+  - address: "0x29bff390fc12c900aaf0f2e51c06675df691337a"
+    networks:
+      - arbitrum
+      - mainnet
+    tags:
+      - deployer
+      - eoa
   - address: "0x8ecece9ee4582d614875cc7c2b81c7e808d617f5"
     networks:
       - arbitrum
     tags:
-      - factory
       - contract
+      - factory
     name: ProxyBuilder
   - address: "0xad1e507f8a0cb1b91421f3bb86bbe29f001cbcc6"
     networks:
       - arbitrum
     tags:
       - contract
-    name: PPAgentV2
+    name: TransparentUpgradeableProxy

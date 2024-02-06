@@ -4,9 +4,9 @@ name: Quantum Oracle
 github:
   - url: https://github.com/NotarizedScreenshot
 blockchain:
-  - address: "0xCb50c681F503821566c91228366f9d210fe32D2E"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xcb50c681f503821566c91228366f9d210fe32d2e"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

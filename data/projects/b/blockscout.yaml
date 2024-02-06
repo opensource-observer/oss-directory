@@ -4,16 +4,15 @@ name: Blockscout
 github:
   - url: https://github.com/blockscout
 blockchain:
-  - address: "0x242ba6d68FfEb4a098B591B32d370F973FF882B7"
-    tags:
-      - wallet
-      - safe
+  - address: "0x242ba6d68ffeb4a098b591b32d370f973ff882b7"
     networks:
       - optimism
-      - mainnet
-  - address: "0xC97f252c07111C058129A9d68622f7D5C418C737"
     tags:
+      - safe
       - wallet
-      - eoa
+  - address: "0xc97f252c07111c058129a9d68622f7d5c418c737"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

@@ -4,273 +4,317 @@ name: Interest Protocol
 github:
   - url: https://github.com/interest-protocol
 blockchain:
-  - address: "0xa6e8772af29b29B9202a073f8E36f447689BEef6"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - optimism
   - address: "0x085909388fc0ce9e5761ac8608af8f2f52cb8b89"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
+      - deployer
       - eoa
-      - creator
-    networks:
-      - optimism
   - address: "0x05498574bd0fa99eecb01e1241661e7ee58f8a85"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
       - factory
     name: TransparentUpgradeableProxy
-    networks:
-      - optimism
   - address: "0x9c3b60a1ad08740fcd842351ff0960c1ee3fea52"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
       - factory
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x5a6752f16b81a8dfed84c785b49693573e5baf1a"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: UniswapV3OPTokenOracleRelay
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x889be273be5f75a177f9a1d00d84d607d75fb4e1"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
   - address: "0x9816d7c448f79cdd4af18c4ae1726a14299e8c75"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xa4a4343e8b7b2de019c0c101b4c70158454e8ade"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: ChainlinkOracleRelay
   - address: "0xb765006321c6be998f0ef62802d2548e76870d3b"
+    networks:
+      - optimism
     tags:
       - contract
     name: AnchoredViewRelay
-    networks:
-      - optimism
   - address: "0x11104f7c9e50dc07c62904f3d281fc16b123feb8"
+    networks:
+      - optimism
     tags:
       - contract
     name: UniswapV3OPTokenOracleRelay
-    networks:
-      - optimism
   - address: "0x24fb3dfba019e73ed45c884a31b5a60608968529"
+    networks:
+      - optimism
     tags:
       - contract
     name: UniswapV3OPTokenOracleRelay
+  - address: "0xd8284305b520ff5486ab718dbdfe46f18454aede"
     networks:
       - optimism
-  - address: "0xd8284305b520ff5486ab718dbdfe46f18454aede"
     tags:
       - contract
     name: AnchoredViewRelay
-    networks:
-      - optimism
   - address: "0x48fa7528bfd6164ddf09df0ed22451cf59c84130"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: CrossChainAccount
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x54fe0d5da2c787a93f2dcb4d25e202c4e44e4458"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: CappedGovToken
   - address: "0x369ffdc7132ff7044acf876825baa4c7a0b1b28e"
+    networks:
+      - optimism
     tags:
       - contract
     name: CappedNonStandardToken
-    networks:
-      - optimism
   - address: "0x2db08783f13c4225a1963b2437f0d459a5bcb4d8"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
+    name: various:DiffersByChain
+  - address: "0x181c4bb6413534b09b7da80a098d2dceb2b55fe8"
     networks:
       - optimism
-  - address: "0x181c4bb6413534b09b7da80a098d2dceb2b55fe8"
     tags:
       - contract
     name: USDI
-    networks:
-      - optimism
   - address: "0x27fc4059860f3d9758dcc9a871838f06333fc6ed"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x2338457f771cf7ca7889aad848eeba18807cb206"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: VotingVaultController
+    name: various:DiffersByChain
+  - address: "0x4776ca31368f11dbaabd25a7de012f244a6c1409"
     networks:
       - optimism
-  - address: "0x4776ca31368f11dbaabd25a7de012f244a6c1409"
     tags:
       - contract
     name: rEthOracleOP
-    networks:
-      - optimism
   - address: "0xc3a17dc6b70cd58f8ae49fb969cca5a57cf84a73"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: CurveMaster
   - address: "0x426872fa15cf74c8d3e64a19dd161bd871ea9c80"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: USDI
   - address: "0x696607447225f6690883e718fd0db0abaf36b6e2"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xddb3bcfe0304c970e263bf1366db8ed4de0e357a"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: AnchoredViewRelay
+    name: various:DiffersByChain
+  - address: "0x227babe533fa9a1085f5261210e0b7137e44437b"
     networks:
       - optimism
-  - address: "0x227babe533fa9a1085f5261210e0b7137e44437b"
     tags:
       - contract
     name: CappedNonStandardToken
-    networks:
-      - optimism
   - address: "0x86d50c37b7c5f92ac9ddcc034280907ebae1e86d"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: CappedNonStandardToken
   - address: "0x384eab89048520e35309e48ea933d845c495a613"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: ChainlinkOracleRelay
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xb549c8cc8011ca0d023a73dad54d725125b25f31"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xf5e0e2827f60580304522e2c38177dfec7a428a4"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xcb88cf29121e5380c818a7dd4e8c21d964369df3"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: AnchoredViewRelay
   - address: "0x8c8ae22fea16c43743c846902ec7e34204894189"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xfd76d7ecbf91b2bf7f225af29c1cb7f213fa71b6"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: ChainlinkOracleRelay
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x45b265c7919d7fd8a0d673d7acaa8f5a7abb430d"
+    networks:
+      - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
-    networks:
-      - optimism
   - address: "0xe565e118e75304dd3cf83dff409c90034b7ea18a"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: VaultController
+    name: various:DiffersByChain
+  - address: "0x39eb30bb50b7929169e821271e9af594753b4692"
     networks:
       - optimism
-  - address: "0x39eb30bb50b7929169e821271e9af594753b4692"
     tags:
       - contract
     name: ChainlinkOracleRelay
-    networks:
-      - optimism
   - address: "0xf352dc165783538a26e38a536e76dcef227d90f2"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xb9318f3ecea2fc328b9a5165bf19204930236baf"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: UniswapV3OPTokenOracleRelay
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x399ba3957d0e5f6e62836506e760787fddfb01c3"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
   - address: "0xbdcf0bb40eb8642f907133bdb5fcc681d81f0651"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: OracleMaster
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x99bd1f28a5a7fecbe39a53463a916794be798fc3"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x7c53378987f6e82050b1244b4d836f785147544b"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: ThreeLines0_100
   - address: "0xe1442ba08e330967dab4fd4fc173835e9730bff6"
+    networks:
+      - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
-    networks:
-      - optimism
   - address: "0x5a83002e6d8df75c79ade9c209f21c31b0ab14b2"
+    networks:
+      - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
+  - address: "0x1f5a482cb7de1ec22d3a7b5a17afb51b09a768c9"
     networks:
       - optimism
-  - address: "0x1f5a482cb7de1ec22d3a7b5a17afb51b09a768c9"
     tags:
       - contract
     name: ProxyAdmin
+  - address: "0x48a7b0667bdf8c03d32c7d497b4b6c3c42cd375a"
     networks:
       - optimism
-  - address: "0x48a7b0667bdf8c03d32c7d497b4b6c3c42cd375a"
     tags:
       - contract
     name: LiquidatorV2
-    networks:
-      - optimism
   - address: "0x536c9ade11d74c8f7271d26cf6cf95a9cb5bcc63"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
   - address: "0x8b73aea22a6a1cd51c0b950a07e5c793872532f3"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: Upkeep
   - address: "0x1fa0fd3654a7b6fa917f4eb4a5c624467a2d16b3"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xa6e8772af29b29b9202a073f8e36f447689beef6"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

@@ -4,9 +4,9 @@ name: OpenSense
 github:
   - url: https://github.com/opensensepw
 blockchain:
-  - address: "0x798BC384E20d5D16987A07487FC695985F1742c5"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x798bc384e20d5d16987a07487fc695985f1742c5"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

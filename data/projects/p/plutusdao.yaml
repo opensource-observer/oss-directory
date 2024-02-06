@@ -4,13 +4,13 @@ name: PlutusDAO
 github:
   - url: https://github.com/plutusdao
 blockchain:
-  - address: "0x1756968b96d7ad6ba0333045109004c67b1e4edf"
+  - address: "0x482c7e72fc4f1796ed0f48799e645c1149e05b94"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
-  - address: "0x482c7e72fc4f1796ed0f48799e645c1149e05b94"
+  - address: "0x1756968b96d7ad6ba0333045109004c67b1e4edf"
     networks:
       - arbitrum
     tags:
@@ -201,7 +201,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: UniswapFarmV1_PLS_SPA_LP
+    name: UniswapFarmV1
   - address: "0x7a5d193fe4ed9098f7eadc99797087c96b002907"
     networks:
       - arbitrum

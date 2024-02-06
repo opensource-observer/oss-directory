@@ -4,9 +4,9 @@ name: Crate Crypto
 github:
   - url: https://github.com/crate-crypto
 blockchain:
-  - address: "0x90B005a9C7B19E1E962178deA63c1becc409B90f"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x90b005a9c7b19e1e962178dea63c1becc409b90f"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

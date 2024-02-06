@@ -5,9 +5,8 @@ github:
   - url: https://github.com/qd-qd/wallet-abstraction
 blockchain:
   - address: "0xff3ac23ea2c27bf6994ca90f6185b60d516c1a9a"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

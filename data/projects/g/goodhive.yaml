@@ -4,9 +4,9 @@ name: GoodHive
 github:
   - url: https://github.com/Goodhive
 blockchain:
-  - address: "0x92ED8F6A9211F9eb0F16c83A052E75099B7bf4A5"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x92ed8f6a9211f9eb0f16c83a052e75099b7bf4a5"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

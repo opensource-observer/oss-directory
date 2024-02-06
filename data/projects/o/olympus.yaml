@@ -5,30 +5,34 @@ github:
   - url: https://github.com/olympusdao
 blockchain:
   - address: "0x5ce7d83f7aaac17a0ad40540b37fc7a0b688ff44"
+    networks:
+      - mainnet
+      - optimism
     tags:
+      - deployer
       - eoa
-      - creator
+  - address: "0x9858e1eff7b00c43f6e8cf6b91ca7893ce70cc60"
     networks:
       - optimism
-  - address: "0x9858e1eff7b00c43f6e8cf6b91ca7893ce70cc60"
     tags:
       - contract
       - factory
+    name: OlympusProFactory
+  - address: "0x95176b826cfbc16fb6e3beade8c885c60e19d3b3"
     networks:
       - optimism
-  - address: "0x95176b826cfbc16fb6e3beade8c885c60e19d3b3"
     tags:
       - contract
     name: CustomBond
-    networks:
-      - optimism
   - address: "0xf7d50c5a75514c6a2cbf6dd03a80ee35c31c8f1a"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: OPSubsidyRouter
   - address: "0x6407e4b12089d8eca3c85616df0440f769c1da4a"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: OlympusProFactoryStorage

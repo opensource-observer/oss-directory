@@ -4,42 +4,57 @@ name: Hedgey Finance
 github:
   - url: https://github.com/hedgey-finance
 blockchain:
-  - address: "0x6cCe9bAE11B01E9fFF30DBe790f64B459A614B0F"
-    tags:
-      - eoa
-      - wallet
-    networks:
-      - optimism
-  - address: "0x1b03D75094884714973f22867359dE4b81AF2F00"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x320bcB681CE7023EDfE48aDe9Cf5bf67A11Bcd36"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x1E9FFaA25d5F8206c697c92BCdee9FA16455CF94"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3466EB008EDD8d5052446293D1a7D212cb65C646"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x1247f36104f71d5849d4d4f8a5a95e56b03e7fdd"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
+  - address: "0x320bcb681ce7023edfe48ade9cf5bf67a11bcd36"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x1b03d75094884714973f22867359de4b81af2f00"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: VotingTokenVestingPlans
+  - address: "0x1e9ffaa25d5f8206c697c92bcdee9fa16455cf94"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: ClaimCampaigns
+  - address: "0x3466eb008edd8d5052446293d1a7d212cb65c646"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: BatchPlanner
   - address: "0x2cde9919e81b20b4b33dd562a48a84b54c48f00c"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
     name: TokenVestingPlans
+  - address: "0x6cce9bae11b01e9fff30dbe790f64b459a614b0f"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet

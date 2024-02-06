@@ -8,51 +8,51 @@ npm:
   - url: https://www.npmjs.com/package/@lxdao/uploader3
   - url: https://www.npmjs.com/package/@lxdao/uploader3-connector
 blockchain:
-  - address: "0x36C4f0d9FD9ED768491EC2c492634218BC3e5A72"
+  - address: "0x36c4f0d9fd9ed768491ec2c492634218bc3e5a72"
+    networks:
+      - optimism
     tags:
-      - wallet
       - safe
-    networks:
-      - mainnet
-  - address: "0xB45e9F74D0a35fE1aa0B78feA03877EF96ae8dd2"
-    tags:
       - wallet
+  - address: "0xb45e9f74d0a35fe1aa0b78fea03877ef96ae8dd2"
+    networks:
+      - optimism
+    tags:
       - safe
-    networks:
-      - mainnet
-  - address: "0xEe972E35311F65e6fD8F6ea7228Bf388B53e1D4a"
-    tags:
       - wallet
-      - eoa
+  - address: "0xee972e35311f65e6fd8f6ea7228bf388b53e1d4a"
     networks:
       - optimism
-  - address: "0xe395B9bA2F93236489ac953146485C435D1A267B"
     tags:
-      - wallet
       - eoa
+      - wallet
+  - address: "0xe395b9ba2f93236489ac953146485c435d1a267b"
     networks:
       - optimism
-  - address: "0x1b8556BDc549D20De33eCba674CF3Bbb88CfEd0A"
     tags:
-      - wallet
       - eoa
+      - wallet
+  - address: "0x1b8556bdc549d20de33ecba674cf3bbb88cfed0a"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
   - address: "0xb15115a15d5992a756d003ae74c0b832918fab75"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
   - address: "0xc3d7f926e57ff06e465823b100b95408e805dfa2"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-  - address: "0xAcb4313910574b69e8116617105b97993ED8319d"
     tags:
-      - wallet
       - eoa
+      - wallet
+  - address: "0xacb4313910574b69e8116617105b97993ed8319d"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

@@ -4,9 +4,9 @@ name: EZKL
 github:
   - url: https://github.com/zkonduit
 blockchain:
-  - address: "0x535baE5D2b5C41D186a9A9983904BCFab4732836"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x535bae5d2b5c41d186a9a9983904bcfab4732836"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

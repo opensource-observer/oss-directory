@@ -4,9 +4,9 @@ name: Token Name Service
 github:
   - url: https://github.com/TickerDao
 blockchain:
-  - address: "0x5aE8F2adbAB2e37145e50B40E89dcB39dFB07Ee6"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x5ae8f2adbab2e37145e50b40e89dcb39dfb07ee6"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

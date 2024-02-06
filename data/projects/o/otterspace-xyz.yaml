@@ -4,9 +4,9 @@ name: Otterspace
 github:
   - url: https://github.com/otterspace-xyz
 blockchain:
-  - address: "0x2696170bf5fD36320c3932fd9e85fe5b798385FE"
-    tags:
-      - wallet
-      - safe
+  - address: "0x2696170bf5fd36320c3932fd9e85fe5b798385fe"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

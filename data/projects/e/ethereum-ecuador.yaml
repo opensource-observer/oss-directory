@@ -4,9 +4,9 @@ name: Ethereum Ecuador
 github:
   - url: https://github.com/ethereum-ecuador
 blockchain:
-  - address: "0x9FFA790731d0406B553F6fbd418A4580ec3E0269"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x9ffa790731d0406b553f6fbd418a4580ec3e0269"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

@@ -5,9 +5,8 @@ github:
   - url: https://github.com/validatoxyz
 blockchain:
   - address: "0xd3cc6deaa7b9c09e99db64ca35d6d06179812c67"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

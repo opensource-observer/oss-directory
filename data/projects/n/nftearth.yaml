@@ -4,152 +4,150 @@ name: NFTEarth
 github:
   - url: https://github.com/NFTEarth
 blockchain:
-  - address: "0x78ED254b9c140c1A2BE10d2ad32C65b5f712f54b"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - optimism
   - address: "0xcd0b087e113152324fca962488b4d9beb6f4caf6"
     networks:
       - arbitrum
+      - mainnet
       - optimism
     tags:
-      - creator
       - deployer
       - eoa
-  - address: "0x0f9b80fc3c8b9123d0aef43df58ebdbc034a8901"
-    name: Seaport
+  - address: "0x3e173b825adeef9661920b91a8d50b075ad51ba5"
     networks:
-      - optimism
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x0f9b80fc3c8b9123d0aef43df58ebdbc034a8901"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
   - address: "0xf1f839fdd467e4087eadbbb330990077889e79c5"
+    networks:
+      - optimism
+    tags:
+      - contract
     name: L2ERC721Bridge
-    networks:
-      - optimism
-    tags:
-      - contract
   - address: "0x3134f3ff6c0daf74b32fc683b4098f9de0086589"
-    name: NFTEarthOFT
     networks:
       - optimism
     tags:
       - contract
+    name: NFTEarthOFT
   - address: "0x509899b88804f740c588dc2c25159767731f045a"
-    name: NFTEarthOFT
     networks:
       - optimism
     tags:
       - contract
+    name: NFTEarthOFT
   - address: "0x653b58c9d23de54e44dcbfbd94c6759cdda7f93d"
+    networks:
+      - optimism
+    tags:
+      - contract
     name: Proxy
-    networks:
-      - optimism
-    tags:
-      - contract
   - address: "0x4829b4e552036006b0caececcee6dd9c6642ba1c"
-    name: NFTEarthOFT
     networks:
+      - arbitrum
       - optimism
     tags:
       - contract
+    name: various:DiffersByChain
   - address: "0x5ebc985bae47400a2355ee247dd5b1cbe779a9d1"
-    name: NFTEarthToken
     networks:
+      - arbitrum
       - optimism
     tags:
       - contract
+    name: various:DiffersByChain
   - address: "0xc2106ca72996e49bbadcb836eec52b765977fd20"
+    networks:
+      - optimism
+    tags:
+      - contract
     name: OptimismMintableERC721Factory
-    networks:
-      - optimism
-    tags:
-      - contract
   - address: "0xfa1c8cd6b3a5ead9499b8d09f9747c4068f88f37"
-    name: NFTEAirdrop
     networks:
       - optimism
     tags:
       - contract
+    name: NFTEAirdrop
   - address: "0x4ea9ee08407a06fb62dd2f4b1070c07a8a122525"
     networks:
       - optimism
     tags:
       - contract
+    name: unverified
   - address: "0xd8577bbb11dd7b435db11ddf08659d8cf48eb1cf"
-    name: NftEarthV1_0_0
     networks:
       - optimism
     tags:
       - contract
+    name: NftEarthV1_0_0
   - address: "0xf4a3e3679a943aae9da5ca212769c057bec26f86"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
     name: Seaport
-    networks:
-      - optimism
-    tags:
-      - contract
   - address: "0xf1b8982ec774ae84e936bd63f372280bd534e797"
+    networks:
+      - optimism
+    tags:
+      - contract
     name: Proxy
-    networks:
-      - optimism
-    tags:
-      - contract
   - address: "0x4d4c71f187a330de95a01d4925691453309f7cb6"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
     name: PausableZone
-    networks:
-      - optimism
-    tags:
-      - contract
   - address: "0x8637725ada78db0674a679cea2a5e0a0869ef4a1"
-    name: NFTEarthOFT
     networks:
       - optimism
     tags:
       - contract
+    name: NFTEarthOFT
   - address: "0x2140ea50bc3b6ac3971f9e9ea93a1442665670e4"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
     name: SeaportModule
-    networks:
-      - optimism
-    tags:
-      - contract
   - address: "0x7c173d178b437287608d6105886ddc77cd40c089"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
     name: NftEarthV1_0_0
-    networks:
-      - optimism
-    tags:
-      - contract
   - address: "0xb5ae40de9c5744ce96282352f72c22fee0b3b1ad"
-    name: NFTEarthOFT
     networks:
       - optimism
     tags:
       - contract
+    name: NFTEarthOFT
   - address: "0x03dcc16ddc47b33937039403db4ef553c1a37ead"
     networks:
       - optimism
     tags:
       - contract
-  - address: "0x3e173b825adeef9661920b91a8d50b075ad51ba5"
-    name: ConduitController
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-  - address: "0xd131f1bcdd547e067af447dd3c36c99d6be9fdeb"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
-    name: RPGF3 Payout Address
+    name: unverified
   - address: "0x90baa8714afc2089ed4c9afb21707fea6fc82157"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
     name: TransparentUpgradeableProxy
   - address: "0xe57bd15448c3b2d1dbad598775dd2f36f93ebf90"
     networks:
@@ -175,3 +173,15 @@ blockchain:
     tags:
       - contract
     name: NFTEarthOFT
+  - address: "0x78ed254b9c140c1a2be10d2ad32c65b5f712f54b"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xd131f1bcdd547e067af447dd3c36c99d6be9fdeb"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet

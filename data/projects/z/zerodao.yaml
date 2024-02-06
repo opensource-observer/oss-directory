@@ -4,9 +4,9 @@ name: ZeroDAO
 github:
   - url: https://github.com/ZeroDAO
 blockchain:
-  - address: "0xEBCDa7c73EB5Dd7a4314cFf395bE07EB1E24c046"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xebcda7c73eb5dd7a4314cff395be07eb1e24c046"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

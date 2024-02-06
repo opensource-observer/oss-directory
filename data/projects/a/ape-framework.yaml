@@ -6,20 +6,21 @@ github:
   - url: https://github.com/apeworx/ape-base
   - url: https://github.com/apeworx/ape-optimism
 blockchain:
-  - address: "0x187089b65520D2208aB93FB471C4970c29eAf929"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - mainnet
   - address: "0x3543faeeddb7babcbbb216b3627f9c5e0c39ce41"
+    networks:
+      - optimism
     tags:
       - contract
+    name: StreamManager
+  - address: "0x187089b65520d2208ab93fb471c4970c29eaf929"
     networks:
       - optimism
-  - address: "0x070143e489aa791c10b3b39c7cadf45c36ba9e60"
     tags:
-      - wallet
       - safe
+      - wallet
+  - address: "0x070143e489aa791c10b3b39c7cadf45c36ba9e60"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

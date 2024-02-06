@@ -4,10 +4,10 @@ name: rotki
 github:
   - url: https://github.com/rotki
 blockchain:
-  - address: "0x9531C059098e3d194fF87FebB587aB07B30B1306"
+  - address: "0x9531c059098e3d194ff87febb587ab07b30b1306"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
-      - mainnet

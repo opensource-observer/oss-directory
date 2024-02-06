@@ -4,9 +4,9 @@ name: Poolfish
 github:
   - url: https://github.com/normdoow/uniswap.fish
 blockchain:
-  - address: "0x79A375feFbF90878502eADBA4A89697896B60c4d"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x79a375fefbf90878502eadba4a89697896b60c4d"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

@@ -5,9 +5,8 @@ github:
   - url: https://github.com/paradigmxyz/cryo
 blockchain:
   - address: "0x40c0bb75d745141727211338ebb4f26202c00ef2"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

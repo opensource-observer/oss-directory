@@ -4,6 +4,22 @@ name: Stake DAO
 github:
   - url: https://github.com/stakedao
 blockchain:
+  - address: "0xb36a0671b3d49587236d7833b01e79798175875f"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xe9b3c292904114e6e6f04a363ae4c0f800f3236d"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0xb17640796e4c27a39af51887aff3f8dc0daf9567"
     networks:
       - arbitrum

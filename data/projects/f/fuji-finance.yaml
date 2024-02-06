@@ -4,435 +4,501 @@ name: Fuji Finance
 github:
   - url: https://github.com/Fujicracy
 blockchain:
-  - address: "0xb98d4d4e205aff4d4755e9df19bd0b8bd4e0f148"
-    tags:
-      - creator
-      - deployer
-      - eoa
-    networks:
-      - arbitrum
-      - optimism
   - address: "0x4325018916b082b91e277c7165fd8da6467b71f8"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
-      - creator
       - deployer
       - eoa
+  - address: "0xb98d4d4e205aff4d4755e9df19bd0b8bd4e0f148"
     networks:
       - arbitrum
       - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0xd9f99eb83e4b6e48e9d6d015caf28b6b35d07745"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
     name: ConnextVanillaRouter
-    networks:
-      - optimism
   - address: "0xce9b49b0d4fe456ad6e4a1b7e4bbdd0699400ef9"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
       - factory
-    name: ConnextVanillaRouter
+    name: various:DiffersByChain
+  - address: "0x4cf563627dd390a07b7c8833281504d9a5328959"
     networks:
       - optimism
-  - address: "0x4cf563627dd390a07b7c8833281504d9a5328959"
     tags:
       - contract
       - factory
     name: ConnextRouter
+  - address: "0x96252cf825c805d671a833e9e3ebb19e7fabaad6"
     networks:
       - optimism
-  - address: "0x96252cf825c805d671a833e9e3ebb19e7fabaad6"
     tags:
       - contract
       - factory
+    name: unverified
+  - address: "0x318d75b205e9d6bc3cdff4c30a069e63ad2ce786"
     networks:
       - optimism
-  - address: "0x318d75b205e9d6bc3cdff4c30a069e63ad2ce786"
     tags:
       - contract
       - factory
     name: ConnextVanillaRouter
-    networks:
-      - optimism
   - address: "0x799e7d6afbd278c84bb3fd0df9f9bea612abd3a9"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: ConnextRouter
   - address: "0x52b23b09ff03669fbd2203902d83f4c4d2dee0d4"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
       - factory
-    name: BorrowingVaultFactory
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xc377e6e13426739f14e411dd88af8056e2dcaba4"
-    tags:
-      - contract
-      - factory
     networks:
       - optimism
-  - address: "0x24e72207a078558bf9018dcf97d7f580e79b9221"
-    tags:
-      - contract
-      - factory
-    name: BorrowingVaultFactory
-    networks:
-      - optimism
-  - address: "0x314cfa1ba6e88b2b2118ed0becd30d040da232bf"
-    tags:
-      - contract
-      - factory
-    name: Chief
-    networks:
-      - optimism
-  - address: "0x96fbdedaad2861fca3f3890e7e8e700927777a92"
     tags:
       - contract
       - factory
     name: BorrowingVaultFactory2
+  - address: "0x24e72207a078558bf9018dcf97d7f580e79b9221"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x314cfa1ba6e88b2b2118ed0becd30d040da232bf"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x96fbdedaad2861fca3f3890e7e8e700927777a92"
     networks:
       - optimism
+    tags:
+      - contract
+      - factory
+    name: BorrowingVaultFactory2
   - address: "0x0d766ac0f6ce0591b073cb61a808b83f38f71340"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
     name: YieldVaultBeaconFactory
-    networks:
-      - optimism
   - address: "0xdaf48fff073c769829af68f865063d32a0e4b952"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: Chief
   - address: "0xd1aa6767ba125ff8ce187ba8810ba781094f66e3"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: Chief
   - address: "0x3e29cb29013f0a97a763c21dccf1fe4fc21ec626"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: unverified
   - address: "0xebdcb08ba47e6a4ec2590140011d8707d76962b8"
-    tags:
-      - contract
-      - factory
     networks:
       - optimism
-  - address: "0x9e06dd4f57248eab10076340a581e497a343d394"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x2fd8ee894e234a8b2be30fd4595f60aa40a72a26"
     tags:
       - contract
       - factory
     name: ConnextVanillaRouter
+  - address: "0x9e06dd4f57248eab10076340a581e497a343d394"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x2fd8ee894e234a8b2be30fd4595f60aa40a72a26"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x3ced838bf1bf3809f71449b7b24371e63827cba4"
     networks:
       - optimism
-  - address: "0x3ced838bf1bf3809f71449b7b24371e63827cba4"
     tags:
       - contract
       - factory
     name: YieldVaultFactory
-    networks:
-      - optimism
   - address: "0x305f31582b963a875c3abd854b9c54d35798b3ef"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
     name: ConnextRouter
-    networks:
-      - optimism
   - address: "0x1cbf7f06c04226488b4d5b2d5ea5c8b965130500"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
       - factory
+    name: various:DiffersByChain
+  - address: "0xcdc1448aa5180211bbf1cf2976fbb68ed0c3013e"
     networks:
       - optimism
+    tags:
+      - contract
+      - factory
+    name: ConnextRouter
   - address: "0x60a048475ee20d8fce3ef18d4134d4be7771c204"
-    tags:
-      - contract
-    name: F2FujiVault
     networks:
-      - optimism
-  - address: "0x4dcc76fffd9b8345b8daa15414fbd787a3b226db"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9de0ce8aaa2772f9db00d223ce9ca17fc430943b"
-    tags:
-      - contract
-    name: FujiOracle
-    networks:
-      - optimism
-  - address: "0xddadb5dca827f8d59000d610e456630695928660"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4158bb5fdb8151c754a4d25ed93b61a80c855621"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x26d44a1f39a0161617db5fc8a54f542b5224a33a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1cf24e4ec41da581bee223e1affebb62a5a95484"
-    tags:
-      - contract
-    name: FujiAdmin
-    networks:
-      - optimism
-  - address: "0x190b9e10c3a02896386be180767cf6e89df5e798"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb5beccf2734c97221379a6c08b718d82023b1498"
-    tags:
-      - contract
-    name: AaveV3Optimism
-    networks:
-      - optimism
-  - address: "0x4cb46032e2790d8ca10be6d0001e8c6362a76ada"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x48cdd2531b35cfa35061125ce977d796571e4627"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x749a2a8850c1861afa1003d876d90c9b730ca58e"
-    tags:
-      - contract
-    name: F2Swapper
-    networks:
-      - optimism
-  - address: "0x77f535f7b2785fe0fd310dd97d30c5a4e020019a"
-    tags:
-      - contract
-    name: DForceOptimism
-    networks:
-      - optimism
-  - address: "0x31652d308ce8fb667a87646830d3ea359883856a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x03e074bb834f7c4940dfde8b29e63584b3de3a87"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x9e19fbd8c75184eefe096932fbb6cb338d3be7cd"
-    tags:
-      - contract
-    name: FujiOracle
-    networks:
-      - optimism
-  - address: "0x17744b586a6e47a45fa98d080141139f87314e82"
-    tags:
-      - contract
-    name: ConnextRouter
-    networks:
-      - optimism
-  - address: "0xac9448604f09b9e16c5e99d298e54c055bbbe983"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x897167c23139f4588001ad808263aa999628387e"
-    tags:
-      - contract
-    name: RebalancerManager
-    networks:
-      - optimism
-  - address: "0xfef427628770136f1b9b3252b05f6b06a7754f3b"
-    tags:
-      - contract
-    name: FlasherOptimism
-    networks:
-      - optimism
-  - address: "0x82a2646400032eaa9c32022f7b1d4335e1789f85"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6e16394cbf840fc599fa3d9e5d1e90949c32a4f5"
-    tags:
-      - contract
-    name: ProxyAdmin
-    networks:
-      - optimism
-  - address: "0xa9c29ea1a067740be6db1f98fcba0043c475041a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4a8b5932bcc2075af7a80169ee143721387c1e17"
-    tags:
-      - contract
-    name: DForceOptimism
-    networks:
-      - optimism
-  - address: "0x3e57e261f1420f11688783534dd4a462a6b63bbc"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x229195fe6cdb876ed7d55f939b5695e27b3cb425"
-    tags:
-      - contract
-    name: FlasherBalancer
-    networks:
-      - optimism
-  - address: "0xb71073364b78debe996d041bb340ff4f03ff23d9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb41fd44a65bb5e974726cfe061b6d20f224b2671"
-    tags:
-      - contract
-    name: F2Fliquidator
-    networks:
-      - optimism
-  - address: "0xaab2aafbff7419ff85181d3a846ba9045803dd67"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x76e77921341e4414e60bde4a3f56822c70e3adf6"
-    tags:
-      - contract
-    networks:
-      - optimism
       - arbitrum
-    name: F2FujiVault
-  - address: "0x645c72e90ef4d56c6a37802024467170a618f3e9"
+      - optimism
     tags:
       - contract
-    name: ProviderWePiggyOptimism
+    name: various:DiffersByChain
+  - address: "0x4dcc76fffd9b8345b8daa15414fbd787a3b226db"
     networks:
+      - arbitrum
       - optimism
-  - address: "0x66211ab72fb0a06e9e6ed8b21aa3c1a01f171521"
     tags:
       - contract
+    name: various:DiffersByChain
+  - address: "0x9de0ce8aaa2772f9db00d223ce9ca17fc430943b"
     networks:
+      - mainnet
       - optimism
-  - address: "0xd3346737e370119961c444c0c1b10d7c3fcdf36c"
     tags:
       - contract
+    name: various:DiffersByChain
+  - address: "0xddadb5dca827f8d59000d610e456630695928660"
     networks:
+      - arbitrum
       - optimism
-  - address: "0x07d1c8e181a1b8694d43577656fddf53df9afc20"
     tags:
       - contract
-    name: ProviderDForceOptimism
+    name: various:DiffersByChain
+  - address: "0x4158bb5fdb8151c754a4d25ed93b61a80c855621"
     networks:
       - optimism
-  - address: "0xc2756b0d2c65fbd1b695772f86758bfc8a5f3dad"
-    tags:
-      - contract
-    name: BorrowingVaultUpgradeable
-    networks:
-      - optimism
-  - address: "0xdc0f52145292e8191befcb427ae5c6d1ad47dbc6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4b62c0369a13b68f75bbbda9fd91ba8270ca4862"
-    tags:
-      - contract
-    name: ConnextRouter
-    networks:
-      - optimism
-  - address: "0x04357b844a321b5d5a2a370ad0cbef43dac776ee"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x411c166474432c59aea0af9e1369f0dc08c1c5a5"
     tags:
       - contract
     name: AddrMapper
+  - address: "0x26d44a1f39a0161617db5fc8a54f542b5224a33a"
     networks:
       - optimism
-  - address: "0xe07d8594ca4fa3f34c66ff49be1b1352b2f8b64d"
     tags:
       - contract
+    name: YieldVaultUpgradeable
+  - address: "0x1cf24e4ec41da581bee223e1affebb62a5a95484"
     networks:
+      - mainnet
       - optimism
-  - address: "0x88ed3b8d03e5a70bf23286872b24cffd76e91922"
     tags:
       - contract
+    name: various:DiffersByChain
+  - address: "0x190b9e10c3a02896386be180767cf6e89df5e798"
     networks:
+      - arbitrum
       - optimism
-  - address: "0x43b007888191ad30aa4548599a7bf5fa8cbd90f9"
     tags:
       - contract
-    name: BorrowingVaultUpgradeable
+    name: various:DiffersByChain
+  - address: "0xb5beccf2734c97221379a6c08b718d82023b1498"
     networks:
       - optimism
-  - address: "0xcdc1448aa5180211bbf1cf2976fbb68ed0c3013e"
-    tags:
-      - contract
-      - factory
-    name: ConnextRouter
-    networks:
-      - optimism
-  - address: "0x72bb87f030ab1d668e3c58a206a7140706e1b474"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdf2aaed088917b611805af0831da56aac3b10ce1"
-    tags:
-      - contract
-    name: ChainlinkComputedFeed
-    networks:
-      - optimism
-  - address: "0x6ed2428624da78cfe2daec70be171d1752cdeff8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1085baa80b2bfb2f0e55822ce2f547d95aeae7a4"
-    tags:
-      - contract
-    name: AaveEModeHelper
-    networks:
-      - optimism
-  - address: "0x0965d634a98bd702a9b7e40dfed7eabbeea41b0b"
     tags:
       - contract
     name: AaveV3Optimism
+  - address: "0x4cb46032e2790d8ca10be6d0001e8c6362a76ada"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x48cdd2531b35cfa35061125ce977d796571e4627"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x749a2a8850c1861afa1003d876d90c9b730ca58e"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x77f535f7b2785fe0fd310dd97d30c5a4e020019a"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x31652d308ce8fb667a87646830d3ea359883856a"
     networks:
       - optimism
-  - address: "0x079be6d395f6ff0090f5bdc20b4b618590a81b5d"
+    tags:
+      - contract
+    name: unverified
+  - address: "0x03e074bb834f7c4940dfde8b29e63584b3de3a87"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x9e19fbd8c75184eefe096932fbb6cb338d3be7cd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FujiOracle
+  - address: "0x17744b586a6e47a45fa98d080141139f87314e82"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xac9448604f09b9e16c5e99d298e54c055bbbe983"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: FujiERC1155
+  - address: "0x897167c23139f4588001ad808263aa999628387e"
+    networks:
+      - optimism
     tags:
       - contract
     name: RebalancerManager
+  - address: "0xfef427628770136f1b9b3252b05f6b06a7754f3b"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x82a2646400032eaa9c32022f7b1d4335e1789f85"
     networks:
       - optimism
+    tags:
+      - contract
+    name: RebalancerManager
+  - address: "0x6e16394cbf840fc599fa3d9e5d1e90949c32a4f5"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xa9c29ea1a067740be6db1f98fcba0043c475041a"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: Controller
+  - address: "0x4a8b5932bcc2075af7a80169ee143721387c1e17"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DForceOptimism
+  - address: "0x3e57e261f1420f11688783534dd4a462a6b63bbc"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x229195fe6cdb876ed7d55f939b5695e27b3cb425"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xb71073364b78debe996d041bb340ff4f03ff23d9"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xb41fd44a65bb5e974726cfe061b6d20f224b2671"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xaab2aafbff7419ff85181d3a846ba9045803dd67"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x76e77921341e4414e60bde4a3f56822c70e3adf6"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x645c72e90ef4d56c6a37802024467170a618f3e9"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x66211ab72fb0a06e9e6ed8b21aa3c1a01f171521"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xd3346737e370119961c444c0c1b10d7c3fcdf36c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: WePiggyOptimism
+  - address: "0x07d1c8e181a1b8694d43577656fddf53df9afc20"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xc2756b0d2c65fbd1b695772f86758bfc8a5f3dad"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BorrowingVaultUpgradeable
+  - address: "0xdc0f52145292e8191befcb427ae5c6d1ad47dbc6"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x4b62c0369a13b68f75bbbda9fd91ba8270ca4862"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x04357b844a321b5d5a2a370ad0cbef43dac776ee"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x411c166474432c59aea0af9e1369f0dc08c1c5a5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AddrMapper
+  - address: "0xe07d8594ca4fa3f34c66ff49be1b1352b2f8b64d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DForceOptimism
+  - address: "0x88ed3b8d03e5a70bf23286872b24cffd76e91922"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x43b007888191ad30aa4548599a7bf5fa8cbd90f9"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x72bb87f030ab1d668e3c58a206a7140706e1b474"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BorrowingVaultUpgradeable
+  - address: "0xdf2aaed088917b611805af0831da56aac3b10ce1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ChainlinkComputedFeed
+  - address: "0x6ed2428624da78cfe2daec70be171d1752cdeff8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AaveEModeHelper
+  - address: "0x1085baa80b2bfb2f0e55822ce2f547d95aeae7a4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AaveEModeHelper
+  - address: "0x0965d634a98bd702a9b7e40dfed7eabbeea41b0b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AaveV3Optimism
+  - address: "0x079be6d395f6ff0090f5bdc20b4b618590a81b5d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RebalancerManager
   - address: "0x7ae316c62d04f150ccd31ae49155e408c6079025"
     networks:
       - arbitrum
@@ -442,9 +508,10 @@ blockchain:
   - address: "0xc79fcb669b505b5217c477974a1a8f5c86c3de66"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: F2FujiVault
+    name: various:DiffersByChain
   - address: "0x2bb069a248ba1c62062143462ae7bdb5c4360e3d"
     networks:
       - arbitrum

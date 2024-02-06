@@ -4,10 +4,10 @@ name: JournoDAO
 github:
   - url: https://github.com/JournoDAO
 blockchain:
-  - address: "0xec8E47e050A122970CBB4bAf44413f3f070b543D"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xec8e47e050a122970cbb4baf44413f3f070b543d"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

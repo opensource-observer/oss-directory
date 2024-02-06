@@ -4,9 +4,9 @@ name: DataverseOS
 github:
   - url: https://github.com/dataverse-os
 blockchain:
-  - address: "0x2D1036d679F3cdcA0EA86Bb0e29540D52346cbC9"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x2d1036d679f3cdca0ea86bb0e29540d52346cbc9"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

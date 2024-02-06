@@ -4,9 +4,9 @@ name: UNIT & Blocktree
 github:
   - url: https://github.com/toknowwhy
 blockchain:
-  - address: "0xA3E3e7277d4eba425EB4e51bc2a2DD50F853EC9c"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xa3e3e7277d4eba425eb4e51bc2a2dd50f853ec9c"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

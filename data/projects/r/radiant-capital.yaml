@@ -10,48 +10,46 @@ blockchain:
     tags:
       - deployer
       - eoa
-  - address: "0xe51dfe7188d0b9a84141ff47d04ab07aeb82b89d"
-    networks:
-      - arbitrum
-    tags:
-      - factory
-      - proxy
-      - contract
-    name: InitializableImmutableAdminUpgradeabilityProxy
-  - address: "0xe21b295ed46528efd5f3ef66e18bc6ad1c87f003"
-    networks:
-      - arbitrum
-    tags:
-      - factory
-      - contract
-    name: LendingPoolAddressesProvider
   - address: "0x7759124915160e94c77ece5b96e8a7fcec44aa19"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
-  - address: "0x7130b521c0e361626eceb353455bcddcbebdb121"
-    networks:
-      - arbitrum
-    tags:
-      - factory
-      - proxy
-      - contract
-    name: InitializableImmutableAdminUpgradeabilityProxy
-  - address: "0x091d52cace1edc5527c99cdcfa6937c1635330e4"
-    networks:
-      - arbitrum
-    tags:
-      - factory
-      - contract
-    name: LendingPoolAddressesProvider
   - address: "0x43aa90c66b88ff904adc195987c0f3e3b09be0f1"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
+  - address: "0xe51dfe7188d0b9a84141ff47d04ab07aeb82b89d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: InitializableImmutableAdminUpgradeabilityProxy
+  - address: "0xe21b295ed46528efd5f3ef66e18bc6ad1c87f003"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: LendingPoolAddressesProvider
+  - address: "0x7130b521c0e361626eceb353455bcddcbebdb121"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: InitializableImmutableAdminUpgradeabilityProxy
+  - address: "0x091d52cace1edc5527c99cdcfa6937c1635330e4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: LendingPoolAddressesProvider
   - address: "0xc23ad41516b6892bb304ada420c84933096188b8"
     networks:
       - arbitrum
@@ -69,13 +67,13 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: aUSDC
+    name: InitializableImmutableAdminUpgradeabilityProxy
   - address: "0x2032b9a8e9f7e76768ca9271003d3e43e1616b1f"
     networks:
       - arbitrum
     tags:
       - contract
-    name: LendingPool
+    name: InitializableImmutableAdminUpgradeabilityProxy
   - address: "0x47a9f664fe89387c09eae0b0e171734ce0aea8b7"
     networks:
       - arbitrum
@@ -135,7 +133,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: LendingPool
+    name: InitializableImmutableAdminUpgradeabilityProxy
   - address: "0x9441fcd3e538a84e122ac6ffe3c07417cbe51dc9"
     networks:
       - arbitrum
@@ -243,4 +241,4 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: AToken
+    name: InitializableImmutableAdminUpgradeabilityProxy

@@ -4,9 +4,9 @@ name: Crossbell
 github:
   - url: https://github.com/Crossbell-Box
 blockchain:
-  - address: "0xC8b960D09C0078c18Dcbe7eB9AB9d816BcCa8944"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xc8b960d09c0078c18dcbe7eb9ab9d816bcca8944"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

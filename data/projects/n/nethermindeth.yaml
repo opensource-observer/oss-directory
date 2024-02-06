@@ -4,16 +4,16 @@ name: Nethermind
 github:
   - url: https://github.com/NethermindEth
 blockchain:
-  - address: "0xBc11295936Aa79d594139de1B2e12629414F3BDB"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
-      - optimism
   - address: "0xdd71ebf2b1ce923e3e231388a8a7cdba253485c1"
+    networks:
+      - optimism
     tags:
       - safe
       - wallet
+  - address: "0xbc11295936aa79d594139de1b2e12629414f3bdb"
     networks:
+      - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

@@ -6,16 +6,16 @@ github:
   - url: https://github.com/aikilabs/aikicloud
   - url: https://github.com/aikilabs/aikisend
 blockchain:
-  - address: "0x2e2316088c015F4BF27D86A1458A707af536A324"
+  - address: "0x42859cc8b7c8092db8157cc9cc34c898171de6ce"
+    networks:
+      - optimism
     tags:
+      - safe
       - wallet
-      - eoa
+  - address: "0x2e2316088c015f4bf27d86a1458a707af536a324"
     networks:
       - mainnet
       - optimism
-  - address: "0x42859cc8b7c8092DB8157cC9CC34C898171DE6cE"
     tags:
+      - eoa
       - wallet
-      - safe
-    networks:
-      - optimism

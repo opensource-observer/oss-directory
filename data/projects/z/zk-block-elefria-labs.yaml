@@ -4,10 +4,10 @@ name: Zk Block
 github:
   - url: https://github.com/Elefria-Labs
 blockchain:
-  - address: "0xeEd99E93e073C092131C245C3fDa23781563d67D"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xeed99e93e073c092131c245c3fda23781563d67d"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

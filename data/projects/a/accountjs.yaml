@@ -4,9 +4,9 @@ name: account.js
 github:
   - url: https://github.com/accountjs
 blockchain:
-  - address: "0x281FC8583FbEb10Ab6090783451f832C9E5d7B34"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x281fc8583fbeb10ab6090783451f832c9e5d7b34"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

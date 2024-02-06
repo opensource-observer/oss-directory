@@ -6,9 +6,9 @@ github:
   - url: https://github.com/joohhnnn/Understanding-Optimism-Codebase-CN
   - url: https://github.com/joohhnnn/OPBundlerAutoConfig
 blockchain:
-  - address: "0xf8E30C251AA7974aA0A2d9e452d863681f8B59Ac"
+  - address: "0xf8e30c251aa7974aa0a2d9e452d863681f8b59ac"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

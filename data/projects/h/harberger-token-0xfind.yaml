@@ -4,9 +4,9 @@ name: Harberger Token
 github:
   - url: https://github.com/0xfind
 blockchain:
-  - address: "0xD43D2f8c0d8844154583E20FBAA30eD1c1ccCDba"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xd43d2f8c0d8844154583e20fbaa30ed1c1cccdba"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

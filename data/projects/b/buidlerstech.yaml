@@ -5,8 +5,8 @@ github:
   - url: https://github.com/buidlerstech
 blockchain:
   - address: "0xe23e0cccc91b11b3fe2d3dd140e28b598e395289"
-    tags:
-      - wallet
-      - eoa
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

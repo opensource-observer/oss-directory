@@ -4,10 +4,9 @@ name: 1Hive Gardens
 github:
   - url: https://github.com/1Hive
 blockchain:
-  - address: "0x1B8C7f06F537711A7CAf6770051A43B4F3E69A7e"
-    tags:
-      - wallet
-      - safe
+  - address: "0x1b8c7f06f537711a7caf6770051a43b4f3e69a7e"
     networks:
-      - mainnet
       - optimism
+    tags:
+      - safe
+      - wallet

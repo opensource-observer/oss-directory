@@ -4,9 +4,9 @@ name: CrunchDAO
 github:
   - url: https://github.com/crunchdao
 blockchain:
-  - address: "0x6279e0BDdC76B8aDCa38585fEE25d763DA058b03"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x6279e0bddc76b8adca38585fee25d763da058b03"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

@@ -6,267 +6,29 @@ github:
 blockchain:
   - address: "0x68d03de837cc395ec34c61c078fa901468a3bb29"
     networks:
+      - mainnet
       - optimism
     tags:
+      - deployer
       - eoa
-      - creator
   - address: "0x11978d32619cfefc2e7c75a70ef8beb077b503ca"
     networks:
       - optimism
     tags:
+      - deployer
       - eoa
-      - creator
-  - address: "0x37b87f9ede8003ab1a09aba5503f6d79a96d1f08"
-    name: Fraxferry
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xc05f15676d524eecedd26eb073032c021b7a8e43"
-    name: CrossChainCanonicalV2
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xb781fcac4b8ef06891f9bad7db9c178b1ce67967"
-    name: Fraxferry
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x449b179992f2c5d2a572a4c6e766e322c894c0b7"
-    name: Fraxferry
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x7f35dc487a5422d6946aad733c6018f163084ed0"
-    name: CrossChainBridgeBacker_OPTI_Celer
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x2e3d870790dc77a83dd1d18184acc7439a53f475"
-    name: CrossChainCanonicalFRAX
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x67ccea5bb16181e7b4109c9c2143c24a1c2205be"
-    name: CrossChainCanonicalFXS
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x16cf71041cc88f0c98a7c8a04be4d71f8cf7d07d"
-    name: Fraxferry
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x1696a141379f8b7c5ddd24d6dd0eb6e30af94c54"
-    name: FraxswapRouter
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x484c2d6e3cdd945a8b2df735e079178c1036578c"
-    name: CrossChainCanonicalV2
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xa4efc2d768c9b9b0f97dd91a1555b345f69b39c0"
-    name: Fraxferry
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x20d162b1655afcbdb19dd87679c02e1a2eafbffe"
-    name: ComboOracle_UniV2_UniV3
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x0938730fd85ccbe08f0ac57764dd898aaa0cf816"
-    name: AmplificationUtils
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x7ef2a9aa33ab926a42f0e4f259da225a5bebda73"
-    name: ComboOracle
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xeba66661afc03ab95ec37383b1bfb724abe14a0f"
-    name: ComboOracle_UniV2_UniV3
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x626efc448227d794dc8c02ffea6a932bb360f72a"
-    name: ComboOracle
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xb84e29042bfb489439949a79aed8a0e156169ae5"
-    name: Fraxferry
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x66bd28d64d756bb404db11aec190db995c504a27"
-    name: SwapUtils
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x7655a3dc27ae8df961939373e1df80875e23d502"
-    name: CrossChainOracleSingleAsset
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xe7d6cb15abe01c681b81f46e6c289ad492c04f5c"
-    name: CrossChainOracle
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x59b99cf08c01a6ada0e0d819520719ca41b35c7c"
-    name: Fraxferry
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xb9a55f455e46e8d717eea5e47d2c449416a0437f"
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x35c6962c221e4e8c17e2b4d59c8de79457ea66de"
-    name: CrossChainOracleSingleAsset
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x5c288de5a6f0e3d358b34bb9b4476515350f28ee"
-    name: LPToken
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xc5d43a94e26fca47a9b21cf547ae4aa0268670e1"
-    name: CrossChainCanonicalV2
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xd3cea6c44f745eaa584b836f92faf15fafe826a0"
-    name: ComboOracle_UniV2_UniV3
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xe3da970dc8812a74c95c2e55cacfb6836bd8fd7f"
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x09044da6e6ea891c83ee8d980bc109fda73b199a"
-    name: ComboOracle_UniV2_UniV3
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x9424fd0120cf1aa11cd6220527c40d2599b3d916"
-    name: CrossChainCanonicalV2
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x41044e8ef2b2d4cca3abb67e52c038bcae400511"
-    name: SwapFlashLoan
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xdf6b3b56b1668da507db58c64b7153756cfe8e67"
-    name: Fraxferry
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x6806411765af15bddd26f8f544a34cc40cb9838b"
-    name: CrossChainCanonicalV2
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x053f082f3bc0c48b8409970c017b4f2a6f673e16"
-    name: Fraxferry
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xc55a7f215a18713015570ecb18bbcf8c82f83071"
-    name: CrossChainOracleSingleAsset
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x31aa22d69270148ec63baf53fde846b45db86509"
-    name: CrossChainOracle
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x8368dca5ce2a4db530c0f6e535d90b6826428dee"
-    name: CrossChainCanonicalV2
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x67a1412d2d6cbf211bb71f8e851b4393b491b10f"
-    name: FraxswapFactory
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-  - address: "0xf47b8b1daf12c3058b757a1446dadfa8e4b33535"
-    name: SwapFlashLoan
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-  - address: "0xbe15b91944ad8407facbcc127795acddd1e2b609"
-    name: FraxswapFactory
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-  - address: "0xf03aafec07a48fe9c87ef0d4283d0c7861bd620c"
-    name: FraxswapFactory
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
   - address: "0x9124b49270a464ddb6f36dc212eee5b1d69d5133"
     networks:
       - arbitrum
+      - mainnet
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0x93bc2e4061d4b256eb55446952b49c616db4ac0e"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
@@ -274,10 +36,271 @@ blockchain:
   - address: "0x4600d3b12c39af925c2c07c487d31d17c1e32a35"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
     name: fraxaltdeployer.eth
+  - address: "0xf03e9981e3848037e1784d72b02c8c8d100e90e5"
+    networks:
+      - arbitrum
+      - mainnet
+    tags:
+      - deployer
+      - eoa
+  - address: "0x67a1412d2d6cbf211bb71f8e851b4393b491b10f"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: FraxswapFactory
+  - address: "0xf47b8b1daf12c3058b757a1446dadfa8e4b33535"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: SwapFlashLoan
+  - address: "0xbe15b91944ad8407facbcc127795acddd1e2b609"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: FraxswapFactory
+  - address: "0xf03aafec07a48fe9c87ef0d4283d0c7861bd620c"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: FraxswapFactory
+  - address: "0xc70cc721d19dc7e627b81feacb6a357fb11200af"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: FraxlendPairDeployer
+  - address: "0x37b87f9ede8003ab1a09aba5503f6d79a96d1f08"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Fraxferry
+  - address: "0xc05f15676d524eecedd26eb073032c021b7a8e43"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainCanonicalV2
+  - address: "0xb781fcac4b8ef06891f9bad7db9c178b1ce67967"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Fraxferry
+  - address: "0x449b179992f2c5d2a572a4c6e766e322c894c0b7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Fraxferry
+  - address: "0x7f35dc487a5422d6946aad733c6018f163084ed0"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2e3d870790dc77a83dd1d18184acc7439a53f475"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainCanonicalFRAX
+  - address: "0x67ccea5bb16181e7b4109c9c2143c24a1c2205be"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainCanonicalFXS
+  - address: "0x16cf71041cc88f0c98a7c8a04be4d71f8cf7d07d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Fraxferry
+  - address: "0x1696a141379f8b7c5ddd24d6dd0eb6e30af94c54"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FraxswapRouter
+  - address: "0x484c2d6e3cdd945a8b2df735e079178c1036578c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainCanonicalV2
+  - address: "0xa4efc2d768c9b9b0f97dd91a1555b345f69b39c0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Fraxferry
+  - address: "0x20d162b1655afcbdb19dd87679c02e1a2eafbffe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ComboOracle_UniV2_UniV3
+  - address: "0x0938730fd85ccbe08f0ac57764dd898aaa0cf816"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AmplificationUtils
+  - address: "0x7ef2a9aa33ab926a42f0e4f259da225a5bebda73"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ComboOracle
+  - address: "0xeba66661afc03ab95ec37383b1bfb724abe14a0f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ComboOracle_UniV2_UniV3
+  - address: "0x626efc448227d794dc8c02ffea6a932bb360f72a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ComboOracle
+  - address: "0xb84e29042bfb489439949a79aed8a0e156169ae5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Fraxferry
+  - address: "0x66bd28d64d756bb404db11aec190db995c504a27"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SwapUtils
+  - address: "0x7655a3dc27ae8df961939373e1df80875e23d502"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainOracleSingleAsset
+  - address: "0xe7d6cb15abe01c681b81f46e6c289ad492c04f5c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainOracle
+  - address: "0x59b99cf08c01a6ada0e0d819520719ca41b35c7c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Fraxferry
+  - address: "0xb9a55f455e46e8d717eea5e47d2c449416a0437f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x35c6962c221e4e8c17e2b4d59c8de79457ea66de"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainOracleSingleAsset
+  - address: "0x5c288de5a6f0e3d358b34bb9b4476515350f28ee"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LPToken
+  - address: "0xc5d43a94e26fca47a9b21cf547ae4aa0268670e1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainCanonicalV2
+  - address: "0xd3cea6c44f745eaa584b836f92faf15fafe826a0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ComboOracle_UniV2_UniV3
+  - address: "0xe3da970dc8812a74c95c2e55cacfb6836bd8fd7f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x09044da6e6ea891c83ee8d980bc109fda73b199a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ComboOracle_UniV2_UniV3
+  - address: "0x9424fd0120cf1aa11cd6220527c40d2599b3d916"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainCanonicalV2
+  - address: "0x41044e8ef2b2d4cca3abb67e52c038bcae400511"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SwapFlashLoan
+  - address: "0xdf6b3b56b1668da507db58c64b7153756cfe8e67"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Fraxferry
+  - address: "0x6806411765af15bddd26f8f544a34cc40cb9838b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainCanonicalV2
+  - address: "0x053f082f3bc0c48b8409970c017b4f2a6f673e16"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Fraxferry
+  - address: "0xc55a7f215a18713015570ecb18bbcf8c82f83071"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainOracleSingleAsset
+  - address: "0x31aa22d69270148ec63baf53fde846b45db86509"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainOracle
+  - address: "0x8368dca5ce2a4db530c0f6e535d90b6826428dee"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainCanonicalV2
   - address: "0x95ab45875cffdba1e5f451b950bc2e42c0053f39"
     networks:
       - arbitrum
@@ -293,9 +316,10 @@ blockchain:
   - address: "0xddf6b5b2ba110a0267bffb86aeabfe2637cb8375"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: CrossChainBridgeBacker_ARBI_AnySwap
+    name: various:DiffersByChain
   - address: "0xefa5d36debf5191328b17f2ff74090dadfda9a70"
     networks:
       - arbitrum
@@ -305,9 +329,10 @@ blockchain:
   - address: "0x3405e88af759992937b84e58f2fe691ef0eea320"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: CrossChainCanonicalV2
+    name: various:DiffersByChain
   - address: "0xcaaab0a72f781b92ba63af27477aa46ab8f653e7"
     networks:
       - arbitrum
@@ -329,25 +354,13 @@ blockchain:
   - address: "0x127963a74c07f72d862f2bdc225226c3251bd117"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: FraxCCFarmV2_ArbiCurveVSTFRAX
-  - address: "0xf03e9981e3848037e1784d72b02c8c8d100e90e5"
-    networks:
-      - arbitrum
-    tags:
-      - deployer
-      - eoa
-  - address: "0xc70cc721d19dc7e627b81feacb6a357fb11200af"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: FraxlendPairDeployer
+    name: various:DiffersByChain
   - address: "0x2d0483fefaba4325c7521539a3dfacf94a19c472"
     networks:
       - arbitrum
     tags:
       - contract
-    name: Fraxlend_ARB_FRAX_pair
+    name: FraxlendPair

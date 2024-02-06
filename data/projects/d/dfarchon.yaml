@@ -4,10 +4,10 @@ name: DFArchon
 github:
   - url: https://github.com/dfarchon
 blockchain:
-  - address: "0xf0dBDe527c63B63178576578777f0b7E24755ABb"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xf0dbde527c63b63178576578777f0b7e24755abb"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

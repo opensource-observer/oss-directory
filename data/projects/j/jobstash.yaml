@@ -4,15 +4,15 @@ name: JobStash
 github:
   - url: https://github.com/jobstash
 blockchain:
-  - address: "0xAa163c47065c22D17Ed1c47E3E244337D2056c17"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xaa163c47065c22d17ed1c47e3e244337d2056c17"
     networks:
       - mainnet
-  - address: "0xf071e75C56eD5B162B5cb5e9D30d752BcD663f2D"
     tags:
-      - wallet
       - eoa
+      - wallet
+  - address: "0xf071e75c56ed5b162b5cb5e9d30d752bcd663f2d"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

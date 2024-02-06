@@ -4,9 +4,9 @@ name: Shivarthu Democracy
 github:
   - url: https://github.com/reaudito-org/shivarthu
 blockchain:
-  - address: "0x7e30FB962f951ef78D901865F87DD036fc5aa946"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x7e30fb962f951ef78d901865f87dd036fc5aa946"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

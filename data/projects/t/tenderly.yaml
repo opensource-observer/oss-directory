@@ -5,8 +5,8 @@ github:
   - url: https://github.com/tenderly
 blockchain:
   - address: "0xf43350d7f1e6b8e0a6605145da043f7326e10142"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

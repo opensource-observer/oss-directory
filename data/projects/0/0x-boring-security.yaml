@@ -4,15 +4,15 @@ name: Boring Security
 github:
   - url: https://github.com/0xBoringSecurity
 blockchain:
-  - address: "0x2e8E95DBEb137a24469e711079Ad483D081166F7"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - mainnet
-  - address: "0x52C45Bab6d0827F44a973899666D9Cd18Fd90bCF"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x2e8e95dbeb137a24469e711079ad483d081166f7"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x52c45bab6d0827f44a973899666d9cd18fd90bcf"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet

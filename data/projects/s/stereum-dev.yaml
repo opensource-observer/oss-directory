@@ -4,9 +4,9 @@ name: Stereum - Ethereum Node Installer & Manager
 github:
   - url: https://github.com/stereum-dev
 blockchain:
-  - address: "0x6E41fe2F8303b89c9dbcCABE59A7F7f8F4312cA9"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x6e41fe2f8303b89c9dbccabe59a7f7f8f4312ca9"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

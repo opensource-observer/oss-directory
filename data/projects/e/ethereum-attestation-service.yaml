@@ -5,24 +5,26 @@ github:
   - url: https://github.com/ethereum-attestation-service
 blockchain:
   - address: "0x4200000000000000000000000000000000000020"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: Proxy
   - address: "0x4200000000000000000000000000000000000021"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: Proxy
+  - address: "0xe09876a3f1c56d4017a898f33487e630c42191a4"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
   - address: "0xc63cabe93bb29c61e337a87b2e3d4d7c5f5556c0"
     networks:
       - optimism
     tags:
       - eoa
       - wallet
-  - address: "0xe09876a3f1c56d4017a898f33487e630c42191a4"
-    tags:
-      - safe
-      - wallet
-    networks:
-      - optimism

@@ -4,9 +4,9 @@ name: Blockhead
 github:
   - url: https://github.com/darrylyeo/blockhead
 blockchain:
-  - address: "0x048669c431230A9A8298b7Ec045f1E1137827cCA"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x048669c431230a9a8298b7ec045f1e1137827cca"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

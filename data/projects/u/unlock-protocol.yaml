@@ -5,51 +5,62 @@ github:
   - url: https://github.com/unlock-protocol
 blockchain:
   - address: "0xe5cd62ac8d2ca2a62a04958f07dd239c1ffe1a9e"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x99b1348a9129ac49c6de7f11245773de2f51fb0c"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x4064206b0a1f5ba603dd8016ee36141f54506051"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x225a86073c75f704bffc177d6d71cb2df5648393"
-    tags:
-      - contract
-    name: ProxyAdmin
-    networks:
-      - optimism
-  - address: "0xe60cfcef001312aab2548fb19a508efed7370ceb"
-    tags:
-      - contract
-    name: Unlock
-    networks:
-      - optimism
-  - address: "0xf5c28ce24acf47849988f147d5c75787c0103534"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
-    name: RPGF3 Payout Address
-  - address: "0x1ff7e338d5e582138c46044dc238543ce555c963"
     networks:
       - arbitrum
-    tags:
-      - factory
-      - contract
-    name: TransparentUpgradeableProxy
-  - address: "0x81a662065d5c83fa9c5c12d0dc0104df57f85a12"
-    networks:
-      - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
+  - address: "0x81a662065d5c83fa9c5c12d0dc0104df57f85a12"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x99b1348a9129ac49c6de7f11245773de2f51fb0c"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0x1ff7e338d5e582138c46044dc238543ce555c963"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x4064206b0a1f5ba603dd8016ee36141f54506051"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: PublicLock
+  - address: "0x225a86073c75f704bffc177d6d71cb2df5648393"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0xe60cfcef001312aab2548fb19a508efed7370ceb"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: Unlock
+  - address: "0xf5c28ce24acf47849988f147d5c75787c0103534"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet

@@ -101,197 +101,214 @@ npm:
   - url: https://www.npmjs.com/package/@uniswap/ethers-rs-mobile
   - url: https://www.npmjs.com/package/@uniswap/swap-router-react
 blockchain:
-  - address: "0x0D162447B8dF47C2e7910441bF3C8c1b55b9B124"
-    tags:
-      - safe
-      - wallet
-    networks:
-      - optimism
-    name: Uniswap Grants Program (Optimism)
-  - address: "0xA37131410A76791f4A0210e91EDD554d85aFb4d4"
-    tags:
-      - safe
-      - wallet
-    networks:
-      - mainnet
-    name: Uniswap Foundation
-  - address: "0xe571dC7A558bb6D68FfE264c3d7BB98B0C6C73fC"
-    tags:
-      - safe
-      - wallet
-    networks:
-      - mainnet
-    name: Uniswap Foundation Custody
-  - address: "0x6c9fc64a53c1b71fb3f9af64d1ae3a4931a5f4e9"
-    tags:
-      - creator
-      - deployer
-      - eoa
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x1b5caa1d3a1582a438e4cd93ee7a7e0e4d5624fb"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0xd8fa8f87129c654a6dd7f34eedaf58379e176eb1"
-    tags:
-      - creator
-      - deployer
-      - eoa
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x946e9c780f3c79d80e51e68d259d0d7e794f2124"
-    tags:
-      - creator
-      - deployer
-      - eoa
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
-    name: UniswapV3Factory
-    tags:
-      - contract
-      - factory
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad"
-    name: UniversalRouter
-    tags:
-      - contract
-    networks:
-      - optimism
-      - arbitrum
-  - address: "0xb555edf5dcf85f42ceef1f3630a52a108e55a654"
-    name: UniversalRouter
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x560da69ef841e1272c65ef9eba538870f8c0c484"
-    name: UniversalRouter
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x61ffe014ba17989e743c5f6cb21bf9697530b21e"
-    name: QuoterV2
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
-    name: SwapRouter02
-    tags:
-      - contract
-    networks:
-      - optimism
-      - arbitrum
-  - address: "0x075b36de1bd11cb361c5b3b1e80a9ab0e7aa8a60"
-    name: SwapRouter02
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe34139463ba50bd61336e0c446bd8c0867c6fe65"
-    name: UniswapV3Staker
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x62094cda36dd8945a2c158a4c6c8865c5b34fef9"
-    name: UniswapV3Staker
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1e4e0e7dd2a854ea15f4ee852abb78a99c86357c"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
   - address: "0xced01e7617bf6052a71154daa6d50d8b243f1b26"
+    networks:
+      - arbitrum
+      - mainnet
     tags:
+      - deployer
       - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x5dc88340e1c5c6366864ee415d6034cadd1a9897"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x92e1fc4ae999315f17ddab195f816bf3262aca4b"
-    tags:
-      - contract
-    name: UnsupportedProtocol
-    networks:
-      - optimism
-  - address: "0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b"
-    tags:
-      - contract
-    name: UnsupportedProtocol
-    networks:
-      - optimism
-  - address: "0xe39cb42320021e2dc0f926030f8ee7de39d93040"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe40b4a25328dc87bbe396662bac0cd1c1be6e883"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xce6d8305b04916f7a10161667352ed332aea22fd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc3756c1bf5020a317b9b64678ceaaf0ac92f2209"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x40d51104da22e3e77b683894e7e3e12e8fc61e65"
-    tags:
-      - contract
-    name: UnsupportedProtocol
-    networks:
-      - optimism
-  - address: "0x0e29d422e1b89088eeb3124b16b43b3826a6ebb8"
-    tags:
-      - contract
-    name: UnsupportedProtocol
-    networks:
-      - optimism
   - address: "0x18dc1fccea2f4f6dd22ddbf0bed638bc358db625"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
+  - address: "0x946e9c780f3c79d80e51e68d259d0d7e794f2124"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x6c9fc64a53c1b71fb3f9af64d1ae3a4931a5f4e9"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x1b5caa1d3a1582a438e4cd93ee7a7e0e4d5624fb"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xd8fa8f87129c654a6dd7f34eedaf58379e176eb1"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: UniswapV3Factory
+  - address: "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: UniversalRouter
+  - address: "0xb555edf5dcf85f42ceef1f3630a52a108e55a654"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UniversalRouter
+  - address: "0x560da69ef841e1272c65ef9eba538870f8c0c484"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UniversalRouter
+  - address: "0x61ffe014ba17989e743c5f6cb21bf9697530b21e"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: QuoterV2
+  - address: "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: SwapRouter02
+  - address: "0x075b36de1bd11cb361c5b3b1e80a9ab0e7aa8a60"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: SwapRouter02
+  - address: "0xe34139463ba50bd61336e0c446bd8c0867c6fe65"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: UniswapV3Staker
+  - address: "0x62094cda36dd8945a2c158a4c6c8865c5b34fef9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UniswapV3Staker
+  - address: "0x5dc88340e1c5c6366864ee415d6034cadd1a9897"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: UnsupportedProtocol
+  - address: "0x92e1fc4ae999315f17ddab195f816bf3262aca4b"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: UnsupportedProtocol
+  - address: "0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xe39cb42320021e2dc0f926030f8ee7de39d93040"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xe40b4a25328dc87bbe396662bac0cd1c1be6e883"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UnsupportedProtocol
+  - address: "0xce6d8305b04916f7a10161667352ed332aea22fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UnsupportedProtocol
+  - address: "0xc3756c1bf5020a317b9b64678ceaaf0ac92f2209"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UnsupportedProtocol
+  - address: "0x40d51104da22e3e77b683894e7e3e12e8fc61e65"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UnsupportedProtocol
+  - address: "0x0e29d422e1b89088eeb3124b16b43b3826a6ebb8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UnsupportedProtocol
   - address: "0x4c60051384bd2d3c01bfc845cf5f4b44bcbe9de5"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
     name: UniversalRouter
   - address: "0xec8b0f7ffe3ae75d7ffab09429e3675bb63503e4"
     networks:
       - arbitrum
+      - optimism
     tags:
       - contract
     name: UniversalRouter
   - address: "0xc36442b4a4522e871399cd717abdd847ab11fe88"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
     name: NonfungiblePositionManager
+  - address: "0x0d162447b8df47c2e7910441bf3c8c1b55b9b124"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xa37131410a76791f4a0210e91edd554d85afb4d4"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xe571dc7a558bb6d68ffe264c3d7bb98b0c6c73fc"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

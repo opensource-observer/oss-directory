@@ -4,9 +4,9 @@ name: MetaDock
 github:
   - url: https://github.com/blocksecteam/metadock
 blockchain:
-  - address: "0x1220D3c0d62929DD970C411413FC854f7FeD00C6"
-    tags:
-      - wallet
-      - safe
+  - address: "0x1220d3c0d62929dd970c411413fc854f7fed00c6"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

@@ -1,21 +1,16 @@
 version: 3
 slug: ethereum-cat-herders
 name: Ethereum Cat Herders
-description: Decentralized project management to support the Ethereum Network, including the Ethereum Improvement Proposal (EIP) improvement process.
+description:
+  Decentralized project management to support the Ethereum Network, including
+  the Ethereum Improvement Proposal (EIP) improvement process.
 github:
   - url: https://github.com/ethereum-cat-herders
   - url: https://github.com/ethereum/eips
 blockchain:
-  - address: "0x02Cb3C150BEdca124d0aE8CcCb72fefbe705c953"
-    tags:
-      - wallet
-      - safe
+  - address: "0xa463e703a938ba181a274f01312c35012ce5ec69"
     networks:
       - optimism
-  - address: "0xA463E703A938ba181A274f01312C35012CE5ec69"
     tags:
-      - wallet
       - eoa
-    networks:
-      - optimism
-    name: RPGF3 Payout Address
+      - wallet

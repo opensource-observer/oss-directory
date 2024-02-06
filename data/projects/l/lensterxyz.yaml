@@ -4,10 +4,10 @@ name: Lenster
 github:
   - url: https://github.com/lensterxyz
 blockchain:
-  - address: "0x3A5bd1E37b099aE3386D13947b6a90d97675e5e3"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x3a5bd1e37b099ae3386d13947b6a90d97675e5e3"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

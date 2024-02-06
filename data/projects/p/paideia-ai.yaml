@@ -4,9 +4,9 @@ name: Paideia Copilot
 github:
   - url: https://github.com/paideia-ai
 blockchain:
-  - address: "0xf5d6348B82e2049D72DbfC91c41E224dC19c7296"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xf5d6348b82e2049d72dbfc91c41e224dc19c7296"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

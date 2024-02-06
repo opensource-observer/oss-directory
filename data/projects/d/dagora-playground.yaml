@@ -4,10 +4,10 @@ name: dAgora
 github:
   - url: https://github.com/dAgora-playground
 blockchain:
-  - address: "0x40350Ab3C7111Bc32096c5A86398EAA32b37E3DD"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x40350ab3c7111bc32096c5a86398eaa32b37e3dd"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

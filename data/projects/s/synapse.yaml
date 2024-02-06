@@ -6,368 +6,433 @@ github:
 npm:
   - url: https://www.npmjs.com/package/@synapsecns/sdk-router
 blockchain:
-  - address: "0x2431CBdc0792F5485c4cb0a9bEf06C4f21541D52"
-    tags:
-      - safe
-      - wallet
-    networks:
-      - optimism
-  - address: "0x0af91fa049a7e1894f480bfe5bba20142c6c29a9"
-    tags:
-      - creator
-      - deployer
-      - eoa
+  - address: "0x890bc5691e6011f580e264065d09a7a1a6902131"
     networks:
       - arbitrum
+      - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xaa270c9cf88e3806bfa1e3cd983f34af339a7ffc"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x0af91fa049a7e1894f480bfe5bba20142c6c29a9"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
     name: aurelius0x.eth
   - address: "0x22cdc93f53ee3f6b8ad66fad6f98915a5349950e"
-    name: SynapseERC20Factory
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xa67b7147dce20d6f25fd9abfbcb1c3ca74e11f0b"
-    name: SwapDeployer
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xa9e90579eb086bcda910dd94041ffe041fb4ac89"
-    name: SwapFlashLoan
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
-  - address: "0xaa270c9cf88e3806bfa1e3cd983f34af339a7ffc"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x890bc5691e6011f580e264065d09a7a1a6902131"
-    tags:
-      - creator
-      - deployer
-      - eoa
-    networks:
-      - arbitrum
-      - optimism
+    name: various:DiffersByChain
   - address: "0xf44938b0125a6662f9536281ad2cd6c499f22004"
-    name: SwapFlashLoan
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: SwapFlashLoan
   - address: "0xe27bff97ce92c3e1ff7aa9f86781fdd6d48f5ee9"
-    name: SwapFlashLoan
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
-  - address: "0x061605c4ad8825e3b6731875b409d77f19fd75c9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb37a2c0dc261e5f8019809116e4722585985b07c"
-    tags:
-      - contract
-    name: SwapQuoter
-    networks:
-      - optimism
-  - address: "0xac9b0b65e7cfc1dd482ed9249a44e58c9c9086ed"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8745773cc6e70577819bb76f51fa7640cece505f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2fe2d95bb80d912a18f869c69d537b987a0454b3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xaf41a65f786339e7911f4acdad6bd49426f2dc6b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2d8ee8d6951cb4eecfe4a79eb9c2f973c02596ed"
-    tags:
-      - contract
-    name: DummyWeth
-    networks:
-      - optimism
-  - address: "0x470f9522ff620ee45df86c58e54e6a645fe3b4a7"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdb9f78f5dd41b73b5020e841b29b5983408f5069"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xcf6ff6f5aad9172b15c4a5b6153ce633e8870768"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x40c95b106455d7d2c0a8a14cbbc95ac9ea356da9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb003e75f7e0b5365e814302192e99b4ee08c0ded"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x25f8fa4917180ff308883e37ea27ceaeb68c1f19"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf68cd56cf9a9e1cda181fb2c44c5f0e98b5cc541"
-    tags:
-      - contract
-    name: DummyWethProxy
-    networks:
-      - optimism
-  - address: "0x432036208d2717394d2614d6697c46df3ed69540"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x84a420459cd31c3c34583f67e0f0fb191067d32f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x84ea83b6e88c471a446ae7007c252574e715711e"
-    tags:
-      - contract
-    name: DummyWeth
-    networks:
-      - optimism
-  - address: "0xc8315587e688d1d8d08986f5d49720c2404fc438"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8c7d5f8a8e154e1b59c92d8fb71314a43f32ef7b"
-    tags:
-      - contract
-    name: SwapEthWrapper
-    networks:
-      - optimism
-  - address: "0x121ab82b49b2bc4c7901ca46b8277962b4350204"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x169ddbb26d3e2242b8878e7cc80c37ebcbbe9c28"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3b081263cd149739e1b44a354f925180d52de92a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x244268b9082e05a8bcf18b3b0e83999ea4fc9fcf"
-    tags:
-      - contract
-    name: SwapEthWrapper
-    networks:
-      - optimism
-  - address: "0x2a064e94418ada3faa396785e38fbeb290d19ba0"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x41e95b1f1c7849c50bb9caf92ab33302c0de945f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x94a423e5f6d205eb71e07a294f9c231b1561eb42"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xf07d1c752fab503e47fef309bf14fbdd3e867089"
-    tags:
-      - contract
-    name: SwapUtils
-    networks:
-      - optimism
-  - address: "0x1259adc9f2a0410d0db5e226563920a2d49f4454"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5a5fff6f753d7c11a56a52fe47a177a87e431655"
-    tags:
-      - contract
-    name: SynapseERC20
-    networks:
-      - optimism
-  - address: "0x20b587484e75752adac381ae577a7562e7f358c5"
-    tags:
-      - contract
-    name: SynapseBridge
-    networks:
-      - optimism
-  - address: "0x809dc529f07651bd43a172e8db6f4a7a0d771036"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3192ae73315c3634ffa217f71cf6cbc30fee349a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x78a83c17600add7447dbd6b8ab26330481075295"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9508bf380c1e6f751d97604732ef1bae6673f299"
-    tags:
-      - contract
-    name: SynapseERC20
-    networks:
-      - optimism
-  - address: "0xe8c610fcb63a4974f02da52f0b4523937012aaa0"
-    tags:
-      - contract
-    name: MiniChefV2
-    networks:
-      - optimism
-  - address: "0x266557a864680a1401a3506c0eb72934bd13bf59"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7ef7560789ee2cb301ec38c3c8b91ba8a94cd1e4"
-    tags:
-      - contract
-    name: SynapseBridge
-    networks:
-      - optimism
-  - address: "0x991adb00ef4c4a6d1ea6036811138db4379377c2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xbd9b39b8ce8ec403a4b4f277a88d2dc4a44baca1"
-    tags:
-      - contract
-    name: ProxyAdmin
-    networks:
-      - optimism
-  - address: "0xbf180c122d85831dcb55dc673ab47c8ab9bcefb4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdde5bec4815e1cecf336fb973ca578e8d83606e0"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x39274f5d1734939211bf1b1b9bcfdfb324994075"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x9413b54f04c90ed8eb59a08323d767b72dcd278e"
-    tags:
-      - contract
-    name: WETH9
-    networks:
-      - optimism
-  - address: "0x7e7a0e201fd38d3adaa9523da6c109a07118c96a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x73783f028c60d463bc604cc53852c37c31dec5e9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe37f21efaf8242d086b79a799eb0fdc3fb778704"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x9cd619c50562a38edbdc3451ade7b58caa71ab32"
-    tags:
-      - contract
-    name: L2BridgeZap
-    networks:
-      - optimism
-  - address: "0x003107b3aeee133804eabe7d1df200ddfbb51dce"
-    tags:
-      - contract
-    name: TimelockController
-    networks:
-      - optimism
-  - address: "0xe0fa08834465ecc36c494f2b6c87b82ab7970413"
-    tags:
-      - contract
-    name: LPToken
-    networks:
-      - optimism
-  - address: "0xd359bc471554504f683fbd4f6e36848612349ddf"
-    tags:
-      - contract
-    networks:
-      - optimism
-      - arbitrum
-    name: SynapseCCTPRouter
+    name: various:DiffersByChain
   - address: "0xd5609cd0e1675331e4fb1d43207c8d9d83aab17c"
     networks:
       - arbitrum
+      - mainnet
     tags:
-      - factory
       - contract
-    name: SynapseERC20Factory
+      - factory
+    name: various:DiffersByChain
   - address: "0x9695fa23b27022c7dd752b7d64bb5900677ecc21"
     networks:
       - arbitrum
+      - mainnet
     tags:
-      - factory
       - contract
-    name: SwapDeployer
+      - factory
+    name: various:DiffersByChain
+  - address: "0x061605c4ad8825e3b6731875b409d77f19fd75c9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DummyWethProxy
+  - address: "0xb37a2c0dc261e5f8019809116e4722585985b07c"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: SwapQuoter
+  - address: "0xac9b0b65e7cfc1dd482ed9249a44e58c9c9086ed"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x8745773cc6e70577819bb76f51fa7640cece505f"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2fe2d95bb80d912a18f869c69d537b987a0454b3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xaf41a65f786339e7911f4acdad6bd49426f2dc6b"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2d8ee8d6951cb4eecfe4a79eb9c2f973c02596ed"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x470f9522ff620ee45df86c58e54e6a645fe3b4a7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: L2BridgeZap
+  - address: "0xdb9f78f5dd41b73b5020e841b29b5983408f5069"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xcf6ff6f5aad9172b15c4a5b6153ce633e8870768"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x40c95b106455d7d2c0a8a14cbbc95ac9ea356da9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: L2BridgeZap
+  - address: "0xb003e75f7e0b5365e814302192e99b4ee08c0ded"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x25f8fa4917180ff308883e37ea27ceaeb68c1f19"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: SynapseRouter
+  - address: "0xf68cd56cf9a9e1cda181fb2c44c5f0e98b5cc541"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DummyWethProxy
+  - address: "0x432036208d2717394d2614d6697c46df3ed69540"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x84a420459cd31c3c34583f67e0f0fb191067d32f"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x84ea83b6e88c471a446ae7007c252574e715711e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DummyWeth
+  - address: "0xc8315587e688d1d8d08986f5d49720c2404fc438"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynapseERC20
+  - address: "0x8c7d5f8a8e154e1b59c92d8fb71314a43f32ef7b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SwapEthWrapper
+  - address: "0x121ab82b49b2bc4c7901ca46b8277962b4350204"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: WETH9
+  - address: "0x169ddbb26d3e2242b8878e7cc80c37ebcbbe9c28"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x3b081263cd149739e1b44a354f925180d52de92a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0x244268b9082e05a8bcf18b3b0e83999ea4fc9fcf"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2a064e94418ada3faa396785e38fbeb290d19ba0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x41e95b1f1c7849c50bb9caf92ab33302c0de945f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DummyWeth
+  - address: "0x94a423e5f6d205eb71e07a294f9c231b1561eb42"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xf07d1c752fab503e47fef309bf14fbdd3e867089"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x1259adc9f2a0410d0db5e226563920a2d49f4454"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: WETH9
+  - address: "0x5a5fff6f753d7c11a56a52fe47a177a87e431655"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x20b587484e75752adac381ae577a7562e7f358c5"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x809dc529f07651bd43a172e8db6f4a7a0d771036"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x3192ae73315c3634ffa217f71cf6cbc30fee349a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DummyWethProxy
+  - address: "0x78a83c17600add7447dbd6b8ab26330481075295"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: SwapQuoter
+  - address: "0x9508bf380c1e6f751d97604732ef1bae6673f299"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xe8c610fcb63a4974f02da52f0b4523937012aaa0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MiniChefV2
+  - address: "0x266557a864680a1401a3506c0eb72934bd13bf59"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Multicall2
+  - address: "0x7ef7560789ee2cb301ec38c3c8b91ba8a94cd1e4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynapseBridge
+  - address: "0x991adb00ef4c4a6d1ea6036811138db4379377c2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DummyWeth
+  - address: "0xbd9b39b8ce8ec403a4b4f277a88d2dc4a44baca1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0xbf180c122d85831dcb55dc673ab47c8ab9bcefb4"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xdde5bec4815e1cecf336fb973ca578e8d83606e0"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x39274f5d1734939211bf1b1b9bcfdfb324994075"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x9413b54f04c90ed8eb59a08323d767b72dcd278e"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x7e7a0e201fd38d3adaa9523da6c109a07118c96a"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: SynapseRouter
+  - address: "0x73783f028c60d463bc604cc53852c37c31dec5e9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xe37f21efaf8242d086b79a799eb0fdc3fb778704"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x9cd619c50562a38edbdc3451ade7b58caa71ab32"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: L2BridgeZap
+  - address: "0x003107b3aeee133804eabe7d1df200ddfbb51dce"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xe0fa08834465ecc36c494f2b6c87b82ab7970413"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xd359bc471554504f683fbd4f6e36848612349ddf"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: SynapseCCTPRouter
   - address: "0x3ea9b0ab55f34fb188824ee288ceaefc63cf908e"
     networks:
       - arbitrum
     tags:
       - contract
-    name: nETH
+    name: SynapseERC20
   - address: "0x6f4e8eba4d337f874ab57478acc2cb5bacdc19c9"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: SynapseBridge
+    name: various:DiffersByChain
   - address: "0x080f6aed32fc474dd5717105dba5ea57268f46eb"
     networks:
       - arbitrum
@@ -379,16 +444,19 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: nUSD
+    name: SynapseERC20
   - address: "0x12715a66773bd9c54534a01abf01d05f6b4bd35e"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: SynapseCCTP_v2
+    name: TransparentUpgradeableProxy
   - address: "0xfb2bfc368a7edfd51aa2cbec513ad50edea74e84"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
     name: SynapseCCTP
@@ -410,3 +478,9 @@ blockchain:
     tags:
       - contract
     name: SynapseERC20
+  - address: "0x2431cbdc0792f5485c4cb0a9bef06c4f21541d52"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

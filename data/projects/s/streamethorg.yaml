@@ -5,15 +5,15 @@ github:
   - url: https://github.com/streamethorg
   - url: https://github.com/efdevcon/streameth
 blockchain:
-  - address: "0x7b21f4b4C1D3320e9955a89729d31CcE4635B2Bd"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x7b21f4b4c1d3320e9955a89729d31cce4635b2bd"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
   - address: "0xa93950a195877f4ebc8a4af3f6ce2a109404b575"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

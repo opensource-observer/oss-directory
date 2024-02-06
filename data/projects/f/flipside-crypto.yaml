@@ -5,20 +5,22 @@ github:
   - url: https://github.com/FlipsideCrypto
 blockchain:
   - address: "0x75ee82787c548daeac58af6cba5bd2a9ff863d28"
-    tags:
-      - eoa
-      - creator
     networks:
       - optimism
+    tags:
+      - deployer
+      - eoa
+    name: trybadger.eth
   - address: "0xd870a73a32d0b8c34ccf1e6098e9a26977cb605b"
+    networks:
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: FlipsideAttestation
   - address: "0x1ef753934c40a72a60eab12a68b6f8854439aa78"
-    tags:
-      - wallet
-      - eoa
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

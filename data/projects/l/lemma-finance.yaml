@@ -5,274 +5,305 @@ github:
   - url: https://github.com/lemma-finance
 blockchain:
   - address: "0x0f3bf5c241b6625c0fa781ed137fde6786b2e66f"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
+      - deployer
       - eoa
-      - creator
+  - address: "0x6b283cbcd24fdf67e1c4e23d28815c2607eefe29"
     networks:
       - optimism
-  - address: "0x6b283cbcd24fdf67e1c4e23d28815c2607eefe29"
     tags:
       - contract
     name: LemmaSwap
+  - address: "0x96f2539d3684dbde8b3242a51a73b66360a5b541"
     networks:
       - optimism
-  - address: "0x96f2539d3684dbde8b3242a51a73b66360a5b541"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+  - address: "0x754e6134872d7a501ffeba6c186e187dbfdf6f4a"
     networks:
       - optimism
-  - address: "0x754e6134872d7a501ffeba6c186e187dbfdf6f4a"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x682e44d0e5fad951c1c40c93cc61f481244ae2fb"
     networks:
       - optimism
-  - address: "0x682e44d0e5fad951c1c40c93cc61f481244ae2fb"
     tags:
       - contract
     name: LemmaSynth
-    networks:
-      - optimism
   - address: "0xd1a988b024c55d7baabb07fd531d63a4e19e3b4c"
+    networks:
+      - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
-    networks:
-      - optimism
   - address: "0x3bc414fa971189783acee4dee281067c322e3412"
+    networks:
+      - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
+  - address: "0x2059f5d44827141482bf11c10c35a9e745e2dacc"
     networks:
       - optimism
-  - address: "0x2059f5d44827141482bf11c10c35a9e745e2dacc"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x29e8dd7383acc9ac316dfc9055c177fe748a0be5"
     networks:
       - optimism
-  - address: "0x29e8dd7383acc9ac316dfc9055c177fe748a0be5"
     tags:
       - contract
     name: LemmaSwap
-    networks:
-      - optimism
   - address: "0x5d5457b543416c5cb770d3c4352d6a561b969977"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0x8a641696caf0f59bb7a53cf8d2dc943ed95229a6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdd4d71d3563c24e38525661896e1d01fd8c2c9a5"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x007676fab2c97d2f3e7d1273753a1c47fe9723ee"
     tags:
       - contract
     name: xUSDL
+  - address: "0x8a641696caf0f59bb7a53cf8d2dc943ed95229a6"
     networks:
       - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xdd4d71d3563c24e38525661896e1d01fd8c2c9a5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x007676fab2c97d2f3e7d1273753a1c47fe9723ee"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: xUSDL
   - address: "0xc8811262a356aa682a9d3139bb8572b7c5f7f887"
+    networks:
+      - optimism
     tags:
       - contract
     name: xLemmaSynth
-    networks:
-      - optimism
   - address: "0x89c4e9a23db43641e1b3c5e0691b100e64b50e32"
+    networks:
+      - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
-    networks:
-      - optimism
   - address: "0x13c214b430fe304c4c6437f3564a690cd4e4f23b"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0x7d39583e262cbe75a1d698a6d79cd5a2958cb61d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9e945df4625c0dea3c41160c433691124a030a18"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x29b159ae784accfa7fb9c7ba1de272bad75f5674"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+  - address: "0x7d39583e262cbe75a1d698a6d79cd5a2958cb61d"
     networks:
       - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x9e945df4625c0dea3c41160c433691124a030a18"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x29b159ae784accfa7fb9c7ba1de272bad75f5674"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
   - address: "0xc39d50f443525551d8adef2f8b14d673c569e6e7"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
   - address: "0x90356c24c1f95cf29543d45122f2554b6a74f201"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
+    name: various:DiffersByChain
+  - address: "0x4936c2adac6206984fc42f06d1899b408472e34c"
     networks:
       - optimism
-  - address: "0x4936c2adac6206984fc42f06d1899b408472e34c"
     tags:
       - contract
     name: OptimismDeposit
+  - address: "0x2f23eac2714d323bc76d2f014232fcd6f54c0338"
     networks:
       - optimism
-  - address: "0x2f23eac2714d323bc76d2f014232fcd6f54c0338"
     tags:
       - contract
     name: TransparentUpgradeableProxy
-    networks:
-      - optimism
   - address: "0x3a05928f309b097dfad20545c80f33a6bc183e96"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: xLemmaSynth
   - address: "0x3e1acfc916492027e351c94ecf00fa62f722e4f9"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: PerpLemmaCommon
   - address: "0x8c7c645d4e6810dece35b55e59b020af4fc90dff"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x83f5fbfd1a0ed0e25c64a22c5a1d22eb4da30ead"
+    networks:
+      - optimism
     tags:
       - contract
     name: xUSDL
+  - address: "0x2c0128153c95128de27af4db4ae60676e971ede9"
     networks:
       - optimism
-  - address: "0x2c0128153c95128de27af4db4ae60676e971ede9"
     tags:
       - contract
     name: SettlementTokenManager
-    networks:
-      - optimism
   - address: "0xd0bfc23ab4a58726ae2df3ac5cb51af2b562fd3c"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x823c55654d6e860f40070ee5625ff8b091df4269"
+    networks:
+      - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
-    networks:
-      - optimism
   - address: "0x1555ef41d21b50793f3c3d234ac54223f5b4ad39"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: xUSDL
   - address: "0xa7c657a94eb9571f4e94f49943af1130e6d7337c"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0xe161c6c9f2fc74ac97300e6f00648284d83cbd19"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb14b8ff25f6b6991720ae3b0ff8e75d8ea7475fd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5c39a4a368ab3c3239d20eb4219e0361bd2ad092"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+  - address: "0xe161c6c9f2fc74ac97300e6f00648284d83cbd19"
     networks:
       - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xb14b8ff25f6b6991720ae3b0ff8e75d8ea7475fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x5c39a4a368ab3c3239d20eb4219e0361bd2ad092"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
   - address: "0x199b779a00a5d97e1b625cc8d7d40cbd0a7c2bd9"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
   - address: "0xbcfd8233ae314113d353c3ca8858f71658bdbc55"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x546ba811099883bef35fa360e7ded8af439831f3"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
   - address: "0x28207a64bb9de68eb4cba3334f3888bcceeb59ff"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: xLemmaSynth
   - address: "0x840e9b5dd7f7de125ea7da4a138f3a1746d7855c"
+    networks:
+      - optimism
     tags:
       - contract
     name: USDLemma
-    networks:
-      - optimism
   - address: "0x252ea7e68a27390ce0d53851192839a39ab8b38c"
+    networks:
+      - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
-    networks:
-      - optimism
   - address: "0x4870cfb6c7ef36156e4f18a6a4bf8dab0ce6de8d"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: SettlementTokenManager
   - address: "0x3c7e63ba04ff4d5f0673bc93bbd9e73e9dd37ed2"
+    networks:
+      - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
-    networks:
-      - optimism
   - address: "0x119f85ecfcfbc1d7033d266192626202df7dbdf2"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0x5c1e8d96a1b2cb9b4bb5a57262dc175a4b10c9a5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9c54e82ef8752b8f573390a6c36893e7eaca234c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1eeb6477ec18902dfab10dcb95e744bff674b2c1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x85e439c5a4c7c9a70a5a49a74a6b6f689622b2b4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfe1eb36d31ead771fd5e051ee8cc424db6416567"
     tags:
       - contract
     name: TransparentUpgradeableProxy
+  - address: "0x5c1e8d96a1b2cb9b4bb5a57262dc175a4b10c9a5"
     networks:
       - optimism
-  - address: "0x39126a983ed0b4a849a5f20bd47ff9582ced9475"
     tags:
       - contract
+    name: unverified
+  - address: "0x9c54e82ef8752b8f573390a6c36893e7eaca234c"
     networks:
       - optimism
+    tags:
+      - contract
+    name: FeesAccumulator
+  - address: "0x1eeb6477ec18902dfab10dcb95e744bff674b2c1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FeesAccumulator
+  - address: "0x85e439c5a4c7c9a70a5a49a74a6b6f689622b2b4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xfe1eb36d31ead771fd5e051ee8cc424db6416567"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x39126a983ed0b4a849a5f20bd47ff9582ced9475"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: xLemmaSynth

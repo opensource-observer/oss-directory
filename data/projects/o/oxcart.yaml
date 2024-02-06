@@ -4,9 +4,9 @@ name: Oxcart Applied Research
 github:
   - url: https://github.com/Oxcart
 blockchain:
-  - address: "0x75D923fBbC9d224ad4a92c370dCC60043010648f"
-    tags:
-      - wallet
-      - safe
+  - address: "0x75d923fbbc9d224ad4a92c370dcc60043010648f"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

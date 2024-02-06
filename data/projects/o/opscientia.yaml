@@ -4,9 +4,9 @@ name: OpSci
 github:
   - url: https://github.com/opscientia
 blockchain:
-  - address: "0x33359285F30E7B3386dE70ca500F4fe27853765B"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x33359285f30e7b3386de70ca500f4fe27853765b"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

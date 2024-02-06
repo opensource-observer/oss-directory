@@ -4,34 +4,34 @@ name: Clique
 github:
   - url: https://github.com/CliqueOfficial
 blockchain:
-  - address: "0x003eB864477C8858BEC0916E23785AcA46f6ba34"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
-      - optimism
-  - address: "0xef43993d36145a74ed34bc17656789a28a7c60c7"
+  - address: "0x33413c433dd28c5e0a90cba7b0a6f98d3ab971fb"
     networks:
       - optimism
     tags:
-      - eoa
-      - wallet
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xd34a8775d06d41b36054d59ef2d09a79b7aa1fa2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CliqueOPIssuer
   - address: "0xc17a59dc5fc0df4853ee71e6dd7640e5e4954f0f"
     networks:
       - optimism
     tags:
       - safe
       - wallet
-  - address: "0x33413c433dd28c5e0a90cba7b0a6f98d3ab971fb"
+  - address: "0x003eb864477c8858bec0916e23785aca46f6ba34"
+    networks:
+      - mainnet
+      - optimism
     tags:
-      - contract
+      - eoa
+      - wallet
+  - address: "0xef43993d36145a74ed34bc17656789a28a7c60c7"
     networks:
       - optimism
-    name: TransparentUpgradeableProxy
-  - address: "0xd34a8775d06d41b36054d59ef2d09a79b7aa1fa2"
     tags:
-      - contract
-    networks:
-      - optimism
-    name: CliqueOPIssuer
+      - eoa
+      - wallet

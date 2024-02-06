@@ -4,9 +4,9 @@ name: Boardroom
 github:
   - url: https://github.com/boardroom-inc
 blockchain:
-  - address: "0xF6a4475a006b28b9996c92bEE27DEEDc38032cDe"
-    tags:
-      - wallet
-      - safe
+  - address: "0xf6a4475a006b28b9996c92bee27deedc38032cde"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

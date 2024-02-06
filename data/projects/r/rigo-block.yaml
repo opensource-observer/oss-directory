@@ -5,28 +5,30 @@ github:
   - url: https://github.com/rigoblock
 blockchain:
   - address: "0x080f08076e8eadc66006c3cbfed28a34918a1fa6"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
+      - deployer
       - eoa
       - wallet
-      - creator
+  - address: "0x000f05552f24850e75793d38c2bd0cbd249a9ff4"
+    networks:
+      - mainnet
+    tags:
+      - deployer
+      - eoa
+  - address: "0xc1adda7605d2dc47dd91a930c978cd6a18d2d760"
     networks:
       - optimism
-      - mainnet
-  - address: "0xc1adda7605d2dc47dd91a930c978cd6a18d2d760"
     tags:
       - contract
       - factory
     name: RigoblockGovernanceFactory
+  - address: "0x41df4284a34e752386d2067cb086c1591461d1c0"
     networks:
       - optimism
-  - address: "0x41df4284a34e752386d2067cb086c1591461d1c0"
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0x000f05552f24850e75793d38c2bd0cbd249a9ff4"
-    networks:
-      - optimism
-    tags:
-      - eoa
-      - creator
+    name: HSendBatchTokens

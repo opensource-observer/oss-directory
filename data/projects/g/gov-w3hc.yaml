@@ -5,14 +5,15 @@ github:
   - url: https://github.com/w3hc/gov
   - url: https://github.com/w3hc/gov-deployer
 blockchain:
-  - address: "0xa30189949cD8F662582b10eB6E353374419EDf67"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x83e2403a8b94af988b4f4ae9869577783b8cd216"
     networks:
       - optimism
-  - address: "0x83e2403a8b94af988b4f4ae9869577783b8cd216"
     tags:
       - contract
+    name: Web3HackersCollective
+  - address: "0xa30189949cd8f662582b10eb6e353374419edf67"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

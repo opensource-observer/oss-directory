@@ -4,10 +4,10 @@ name: eth.limo
 github:
   - url: https://github.com/ethlimo
 blockchain:
-  - address: "0xB352bB4E2A4f27683435f153A259f1B207218b1b"
+  - address: "0xb352bb4e2a4f27683435f153a259f1b207218b1b"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
-      - mainnet

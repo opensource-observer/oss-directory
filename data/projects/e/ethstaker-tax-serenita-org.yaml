@@ -4,10 +4,10 @@ name: ethstaker.tax
 github:
   - url: https://github.com/serenita-org/ethstaker.tax/
 blockchain:
-  - address: "0xFf74a280F1514D064D31ff7DD83f7E799cC0A0B7"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xff74a280f1514d064d31ff7dd83f7e799cc0a0b7"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

@@ -4,9 +4,9 @@ name: dMeter
 github:
   - url: https://github.com/dmeter4dmrv
 blockchain:
-  - address: "0xB0110311eEa8a58D91af61a45280Aa502BfbF91a"
+  - address: "0xb0110311eea8a58d91af61a45280aa502bfbf91a"
+    networks:
+      - optimism
     tags:
       - safe
       - wallet
-    networks:
-      - optimism

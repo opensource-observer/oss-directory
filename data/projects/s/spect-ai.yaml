@@ -4,9 +4,9 @@ name: Spect
 github:
   - url: https://github.com/spect-ai
 blockchain:
-  - address: "0xF1b05f78940D774Aabfb6fCAe1ec883d04036Ab7"
-    tags:
-      - wallet
-      - safe
+  - address: "0xf1b05f78940d774aabfb6fcae1ec883d04036ab7"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

@@ -8,27 +8,21 @@ npm:
   - url: https://www.npmjs.com/package/@hatsprotocol/modules-sdk
   - url: https://www.npmjs.com/package/@hatsprotocol/sdk-v1-core
 blockchain:
-  - address: "0x58C8854a8E51BdCE9F00726B966905FE2719B4D9"
-    tags:
-      - wallet
-      - safe
+  - address: "0x2a069e21395dc7f89f780f8cf5383a0ff598b672"
     networks:
       - optimism
-  - address: "0x2A069e21395DC7f89F780F8cf5383a0Ff598B672"
     tags:
+      - deployer
       - eoa
-      - creator
+  - address: "0x3bc1a0ad72417f2d411118085256fc53cbddd137"
     networks:
       - optimism
-  - address: "0x3bc1A0Ad72417f2d411118085256fC53CBdDd137"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: Hats
-  - address: "0x3bc1A0Ad72417f2d411118085256fC53CBdDd137"
-    networks:
-      - arbitrum
     tags:
       - contract
     name: Hats
+  - address: "0x58c8854a8e51bdce9f00726b966905fe2719b4d9"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

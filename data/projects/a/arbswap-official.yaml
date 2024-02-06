@@ -4,12 +4,18 @@ name: Arbswap
 github:
   - url: https://github.com/arbswap-official
 blockchain:
+  - address: "0xfc0bb334948aab38c0e278f666da123d631595f7"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
   - address: "0xd7878bdcb6aae569dcd19bda1b29ca3ae4516e04"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0xd394e9cc20f43d2651293756f8d320668e850f1b"
     networks:
       - arbitrum
@@ -17,12 +23,6 @@ blockchain:
       - contract
       - factory
     name: SwapFactory
-  - address: "0xfc0bb334948aab38c0e278f666da123d631595f7"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0x6b23bbdddbbef5f999b9cb7e9b579231ac69507c"
     networks:
       - arbitrum

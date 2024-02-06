@@ -4,10 +4,10 @@ name: Web3j
 github:
   - url: https://github.com/web3j
 blockchain:
-  - address: "0xe8a17e2f1bd4bFcBfBecb8a90be08780949a0cac"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xe8a17e2f1bd4bfcbfbecb8a90be08780949a0cac"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

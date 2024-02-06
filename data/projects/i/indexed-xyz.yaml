@@ -4,10 +4,9 @@ name: indexed.xyz
 github:
   - url: https://github.com/indexed-xyz
 blockchain:
-  - address: "0xe9cc3a466a922B94d0682B602d6a1f1A7ad49dfE"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xe9cc3a466a922b94d0682b602d6a1f1a7ad49dfe"
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

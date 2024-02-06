@@ -4,6 +4,20 @@ name: OpenLeverage
 github:
   - url: https://github.com/openleveragedev
 blockchain:
+  - address: "0xbc2beee86f74fe7e86f58d46d2a6c09019be0c3c"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0xfa9da51631268a30ec3ddd1ccbf46c65fad99251"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0xabb0abfada4ec3c3e582932f2248e4fff512aaa7"
     networks:
       - arbitrum
@@ -11,18 +25,6 @@ blockchain:
       - contract
       - factory
     name: ControllerDelegator
-  - address: "0xbc2beee86f74fe7e86f58d46d2a6c09019be0c3c"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
-  - address: "0xfa9da51631268a30ec3ddd1ccbf46c65fad99251"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0x13157286e8be274dd83f37ae7cc5ed2b691600f0"
     networks:
       - arbitrum

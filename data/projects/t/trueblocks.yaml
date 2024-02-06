@@ -5,14 +5,14 @@ github:
   - url: https://github.com/TrueBlocks
 blockchain:
   - address: "0xf503017d7baf7fbc0fff7492b751025c6a78179b"
-    tags:
-      - wallet
-      - eoa
     networks:
       - mainnet
-  - address: "0x89D107a9F019B4DC5dCa227d991c89e4E7251Ff5"
     tags:
-      - wallet
       - eoa
+      - wallet
+  - address: "0x89d107a9f019b4dc5dca227d991c89e4e7251ff5"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

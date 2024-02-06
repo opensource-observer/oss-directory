@@ -4,9 +4,9 @@ name: Horiza
 github:
   - url: https://github.com/horizaio
 blockchain:
-  - address: "0x3830c2c2A6946D0F7260A56d49b00A3f83bB3991"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x3830c2c2a6946d0f7260a56d49b00a3f83bb3991"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

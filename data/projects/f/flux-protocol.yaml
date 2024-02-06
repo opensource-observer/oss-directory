@@ -4,20 +4,17 @@ name: Flux Protocol
 github:
   - url: https://github.com/fluxprotocol
 blockchain:
-  - address: "0xa430a8a6911e8de02acfe835eb1d5539a58cee94"
-    tags:
-      - creator
-    networks:
-      - optimism
   - address: "0xbf42f27077014b91031c54751baaacf1d6e79e8e"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - deployer
       - eoa
   - address: "0xf80d589b3dbe130c270a69f1a69d050f268786df"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Flux
+    name: various:DiffersByChain

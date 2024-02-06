@@ -4,9 +4,9 @@ name: Cambiatus
 github:
   - url: https://github.com/cambiatus
 blockchain:
-  - address: "0xFc27B375fAf1FBd3F3462044Cf810082F042a45B"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xfc27b375faf1fbd3f3462044cf810082f042a45b"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

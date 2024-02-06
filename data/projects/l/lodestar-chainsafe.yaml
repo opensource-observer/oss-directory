@@ -4,9 +4,9 @@ name: Lodestar
 github:
   - url: https://github.com/ChainSafe/lodestar
 blockchain:
-  - address: "0xc8F9f8C913d6fF031c65e3bF7c7a51Ad1f3a86E5"
+  - address: "0xc8f9f8c913d6ff031c65e3bf7c7a51ad1f3a86e5"
+    networks:
+      - mainnet
     tags:
       - eoa
       - wallet
-    networks:
-      - mainnet

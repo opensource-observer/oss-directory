@@ -4,9 +4,9 @@ name: Popula
 github:
   - url: https://github.com/beepopula
 blockchain:
-  - address: "0x9E8779a144f0734adEfD6f7e5265347054E4FC7F"
+  - address: "0x9e8779a144f0734adefd6f7e5265347054e4fc7f"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

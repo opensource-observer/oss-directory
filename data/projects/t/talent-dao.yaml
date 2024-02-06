@@ -4,9 +4,9 @@ name: TalentDAO
 github:
   - url: https://github.com/Talent-DAO
 blockchain:
-  - address: "0x0406Bf2dAE6A42d567b4e3DbA6ADA99069622fF1"
-    tags:
-      - wallet
-      - safe
+  - address: "0x0406bf2dae6a42d567b4e3dba6ada99069622ff1"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

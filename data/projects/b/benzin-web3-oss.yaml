@@ -4,9 +4,9 @@ name: Benzin
 github:
   - url: https://github.com/web3-oss/benzin
 blockchain:
-  - address: "0xAC9FEd890ffCF60469DCCDFc879ffaaEfB4451DD"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xac9fed890ffcf60469dccdfc879ffaaefb4451dd"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

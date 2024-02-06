@@ -4,12 +4,12 @@ name: MetaGame
 github:
   - url: https://github.com/MetaFam
 blockchain:
-  - address: "0x3455FbB4D34C6b47999B66c83aA7BD8FDDade638"
-    tags:
-      - wallet
-      - safe
+  - address: "0x3455fbb4d34c6b47999b66c83aa7bd8fddade638"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet
   - address: "0xdf43d4c93c600ea8dd7ba469e5a05ab57e9867c9"
     networks:
       - optimism

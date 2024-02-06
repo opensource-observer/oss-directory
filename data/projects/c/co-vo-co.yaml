@@ -4,9 +4,9 @@ name: Voting Contracts
 github:
   - url: https://github.com/co-vo-co
 blockchain:
-  - address: "0x5514f4a2BC7194664B12A48E238876Aa53140350"
-    tags:
-      - wallet
-      - safe
+  - address: "0x5514f4a2bc7194664b12a48e238876aa53140350"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

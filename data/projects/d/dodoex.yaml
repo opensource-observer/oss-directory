@@ -4,6 +4,28 @@ name: DODO
 github:
   - url: https://github.com/dodoex
 blockchain:
+  - address: "0xb37136b338c6cc0e459a35fe9aa036f6b5a147c0"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x7081685ff3ff16fb6c0df08ac93bdb7299eeefc9"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x1dc662d3d7de14a57cd369e3a9e774f8f80d4214"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0x1ddd02f6d31c1ef04cfa0a1aa811406b5b2884e7"
     networks:
       - arbitrum
@@ -11,24 +33,6 @@ blockchain:
       - contract
       - factory
     name: CloneFactory
-  - address: "0x7081685ff3ff16fb6c0df08ac93bdb7299eeefc9"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
-  - address: "0xb37136b338c6cc0e459a35fe9aa036f6b5a147c0"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
-  - address: "0x1dc662d3d7de14a57cd369e3a9e774f8f80d4214"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0xda4c4411c55b0785e501332354a036c04833b72b"
     networks:
       - arbitrum
@@ -74,9 +78,10 @@ blockchain:
   - address: "0x3dd629473a2ed7f3c6299ffd9f3e0c283d073f11"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: CrowdPoolingFactory
+    name: various:DiffersByChain
   - address: "0x8e0dbba493a4b7d54d431351d85b07b0ff5035bb"
     networks:
       - arbitrum
@@ -116,9 +121,10 @@ blockchain:
   - address: "0xcd536b4decfd2fa0443666b6becd145f8ade2e48"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: CP
+    name: various:DiffersByChain
   - address: "0x790b4a80fb1094589a3c0efc8740aa9b0c1733fb"
     networks:
       - arbitrum
@@ -154,10 +160,10 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: Edoge
+    name: InitializableERC20
   - address: "0x2707299fa7b0819d2734ccfc57c2737fcd931da2"
     networks:
       - arbitrum
     tags:
       - contract
-    name: FuckCARBON
+    name: CustomERC20

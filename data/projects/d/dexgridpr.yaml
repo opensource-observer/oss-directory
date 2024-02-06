@@ -4,9 +4,9 @@ name: DexGrid Community Microgrids
 github:
   - url: https://github.com/DexGridPR
 blockchain:
-  - address: "0x7aA2daB71ADeF6e9172F836904fcD562E56da3b5"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x7aa2dab71adef6e9172f836904fcd562e56da3b5"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

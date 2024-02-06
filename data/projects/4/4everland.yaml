@@ -4,10 +4,10 @@ name: 4EVERLAND
 github:
   - url: https://github.com/4everland
 blockchain:
-  - address: "0xA0f92821C3AC20FA71A701EfC5Ca5d3C82e29FeE"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xa0f92821c3ac20fa71a701efc5ca5d3c82e29fee"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

@@ -4,17 +4,16 @@ name: Attestation Station Interface
 github:
   - url: https://github.com/sbvegan/attestation-station-interface
 blockchain:
-  - address: "0x5EfF4B8c042AA6003cBDA6E32C4aA23657d3b6AF"
+  - address: "0xc3dfe0ad2dfa935d5590364b87615d6137418464"
+    networks:
+      - optimism
     tags:
+      - safe
       - wallet
-      - eoa
+  - address: "0x5eff4b8c042aa6003cbda6e32c4aa23657d3b6af"
     networks:
       - mainnet
       - optimism
-  - address: "0xc3dfe0ad2dfa935d5590364b87615d6137418464"
     tags:
+      - eoa
       - wallet
-      - safe
-    networks:
-      - optimism
-    name: RPGF3 Payout Address

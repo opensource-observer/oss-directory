@@ -4,328 +4,431 @@ name: Slingshot
 github:
   - url: https://github.com/slingshot-finance
 blockchain:
-  - address: "0x9D439E524F214Fb0cb5fA42030E578F60E64D98C"
-    tags:
-      - eoa
-      - wallet
-    networks:
-      - optimism
-      - mainnet
   - address: "0x44045fd5d3840fec51b76fb6a87cbcda735a8629"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
-      - creator
       - deployer
       - eoa
+  - address: "0xedd118e091eee0e7fa9eeb9b4db717518f56cb15"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x00c0184c0b5d42fba6b7ca914b31239b419ab80b"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0x46050982f32286c68a1a7b129b7c6a4db9e119ec"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0x9629c505ed89111530a0766a4ff4b20cab535d04"
     networks:
       - arbitrum
       - optimism
-  - address: "0xedd118e091eee0e7fa9eeb9b4db717518f56cb15"
     tags:
       - contract
       - factory
-    networks:
-      - optimism
-  - address: "0x00c0184c0b5d42fba6b7ca914b31239b419ab80b"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x71c9ac784513fd58ee174ee851e993afeda1a0b1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe31fe9ee0828f255ec3179b45bbdc5f6076e550d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3dea6da7cdad789e6d947c3e983ab4f996a7bbc1"
-    tags:
-      - contract
-    name: MerkleDistributor
-    networks:
-      - optimism
-  - address: "0xa3c5ed39b8665854212ee0b508a806105e249935"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x362a26172962bba6c659eae820f21f17bfa41619"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x970bec30e2c5a1e435761332bd3659ad6745d839"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf5cef9011c259574797f381caceffc0178355daa"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x58df0e225033227c0a376d45e4e950fcf3bc9519"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2efbd59c43cb1716f08ebcd132314d32a74a5d95"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4ec6bdd8ee95be2e16852702023e6735f2856a44"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x48457693b5e3f2d307eefda50a79f2e88eef229f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0b820a3f915beec49423229fb32968f69a359516"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xee732752d86f2c8b6ac57be43a4ce0b636ff35b3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x161c7bfef0eb6c0618881249871d1363330242cf"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x831d6c0a82c3c734a55e80029b1b4e2a04ed3fd0"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8a1d036be71c9c4a6c3d951cc2a3ee028d12d3fa"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xbddbc5d14e977b1a4f65ecaa977f2c192e3df903"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2739ee562861696c2c015510b57a476d5a4811f6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8f12491f3f067b8570cfb75f95f8c79b62bea438"
-    tags:
-      - contract
-    name: UniswapV3HelperExt
-    networks:
-      - optimism
-  - address: "0xa22b348ffd337f1e46fb054ad48f2feeaf55e75c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x20ea267fea6502cedf46020486443ac416276bac"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6beba35f93eb604395826589427d228b81a110bb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2c0677636cec1852f992a4cc3ff5e4691253ba77"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x307c3487e0165a6cfc384165d2d914a034ac8c90"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa23b0ff393801d07cf3ff0d87c3e60b10a39c5da"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6e01749dd294b60d67389c6899368d28d682a265"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa0a3bc64eade631a7a6a8f277b001019a58ea9da"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xcee6efc855dd81bc679ab9da89188e9820004591"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf63c350217f83ef8cd93e09d0e4a41c5dbca3f25"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x407da3e66095e28852774d5b88a575d75fdc6af4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x92a4cbfe0013153e70d2b1f9c5a07beb8aaad097"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc25bf8d11750f378e7ec1ae079d2ce18e50e4afc"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xbf1e8e287579afad68cc82fc801c3c07b8c5ae59"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4209a22670281c50ff062222da8469478b5b59d9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6053cbeb363a0b4a07b1ebcc7c8c3863ff546f7c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdeb139f64e0af3d1531ff4ddde3cc39f4e32f5aa"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x93a753891d6d32c56c6557a2015de238a3830556"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5206795726a31ea0b0c04de6dc302cfc5f49b215"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8a71704f0f8891f92417faf840568ecee0be0918"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x395edee07cb8c0d76fd6fb29cca4dbe046bb724a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0ed2ab0efca649fc0dab6251580884c10f474245"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa46fd59672434d1917972f1469565baeb57ed204"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x46050982f32286c68a1a7b129b7c6a4db9e119ec"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x9629c505ed89111530a0766a4ff4b20cab535d04"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
+    name: unverified
   - address: "0x05aed0c7646d9a1e5a55f06fd057e098dd8f4b70"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
+    name: unverified
+  - address: "0x71c9ac784513fd58ee174ee851e993afeda1a0b1"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xe31fe9ee0828f255ec3179b45bbdc5f6076e550d"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x3dea6da7cdad789e6d947c3e983ab4f996a7bbc1"
     networks:
       - optimism
+    tags:
+      - contract
+    name: MerkleDistributor
+  - address: "0xa3c5ed39b8665854212ee0b508a806105e249935"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x362a26172962bba6c659eae820f21f17bfa41619"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x970bec30e2c5a1e435761332bd3659ad6745d839"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xf5cef9011c259574797f381caceffc0178355daa"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x58df0e225033227c0a376d45e4e950fcf3bc9519"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2efbd59c43cb1716f08ebcd132314d32a74a5d95"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x4ec6bdd8ee95be2e16852702023e6735f2856a44"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x48457693b5e3f2d307eefda50a79f2e88eef229f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x0b820a3f915beec49423229fb32968f69a359516"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xee732752d86f2c8b6ac57be43a4ce0b636ff35b3"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x161c7bfef0eb6c0618881249871d1363330242cf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x831d6c0a82c3c734a55e80029b1b4e2a04ed3fd0"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x8a1d036be71c9c4a6c3d951cc2a3ee028d12d3fa"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xbddbc5d14e977b1a4f65ecaa977f2c192e3df903"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x2739ee562861696c2c015510b57a476d5a4811f6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x8f12491f3f067b8570cfb75f95f8c79b62bea438"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xa22b348ffd337f1e46fb054ad48f2feeaf55e75c"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x20ea267fea6502cedf46020486443ac416276bac"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x6beba35f93eb604395826589427d228b81a110bb"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2c0677636cec1852f992a4cc3ff5e4691253ba77"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x307c3487e0165a6cfc384165d2d914a034ac8c90"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xa23b0ff393801d07cf3ff0d87c3e60b10a39c5da"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x6e01749dd294b60d67389c6899368d28d682a265"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa0a3bc64eade631a7a6a8f277b001019a58ea9da"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xcee6efc855dd81bc679ab9da89188e9820004591"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MerkleDistributor
+  - address: "0xf63c350217f83ef8cd93e09d0e4a41c5dbca3f25"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x407da3e66095e28852774d5b88a575d75fdc6af4"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x92a4cbfe0013153e70d2b1f9c5a07beb8aaad097"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc25bf8d11750f378e7ec1ae079d2ce18e50e4afc"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xbf1e8e287579afad68cc82fc801c3c07b8c5ae59"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x4209a22670281c50ff062222da8469478b5b59d9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x6053cbeb363a0b4a07b1ebcc7c8c3863ff546f7c"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xdeb139f64e0af3d1531ff4ddde3cc39f4e32f5aa"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x93a753891d6d32c56c6557a2015de238a3830556"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x5206795726a31ea0b0c04de6dc302cfc5f49b215"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x8a71704f0f8891f92417faf840568ecee0be0918"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x395edee07cb8c0d76fd6fb29cca4dbe046bb724a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x0ed2ab0efca649fc0dab6251580884c10f474245"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa46fd59672434d1917972f1469565baeb57ed204"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
   - address: "0x965a25cfbbe8185246f4d96b80cc4dc860546f1a"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0x1105f513257c0ced9f4adc099d9b96ea8b78f50c"
+    networks:
+      - optimism
     tags:
       - contract
     name: MerkleDistributor
-    networks:
-      - optimism
   - address: "0xa049a043441de9d52c190fe792f5efb4d475c6dd"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0xad5b3ebb7e4aff721676e1731a10ccefd60e1589"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3169cda6574f291726206f442f253b85b41fd9c3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x357754fa82b746d91087e5d49c522c82541af837"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x59b344fdb56887b91ac2e6c3cd820f26cfb6d128"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0909256fd0f4f450fb2cb770ed4bec23d36c163c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xab954db48b9f348247e10d4d3d1f185e7424b3fa"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9739e02b9c9872498a3c7324ce48673e83d9188c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x56cce1ebe7b640fc7bd56710cc0c453d282ff927"
     tags:
       - contract
     name: MerkleDistributor
+  - address: "0xad5b3ebb7e4aff721676e1731a10ccefd60e1589"
     networks:
       - optimism
-  - address: "0xfd555512d1e5eceb74335521dd696555ea81ea93"
     tags:
       - contract
+    name: MerkleDistributor
+  - address: "0x3169cda6574f291726206f442f253b85b41fd9c3"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x357754fa82b746d91087e5d49c522c82541af837"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x59b344fdb56887b91ac2e6c3cd820f26cfb6d128"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x0909256fd0f4f450fb2cb770ed4bec23d36c163c"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xab954db48b9f348247e10d4d3d1f185e7424b3fa"
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x9739e02b9c9872498a3c7324ce48673e83d9188c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x56cce1ebe7b640fc7bd56710cc0c453d282ff927"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xfd555512d1e5eceb74335521dd696555ea81ea93"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
   - address: "0xe8c97bf6d084880de38aec1a56d97ed9fdfa0c9b"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Swap
+    name: unverified
+  - address: "0x9d439e524f214fb0cb5fa42030e578f60e64d98c"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

@@ -4,9 +4,9 @@ name: Robo Labs
 github:
   - url: https://github.com/Robo-Labs
 blockchain:
-  - address: "0x7601630eC802952ba1ED2B6e4db16F699A0a5A87"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x7601630ec802952ba1ed2b6e4db16f699a0a5a87"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

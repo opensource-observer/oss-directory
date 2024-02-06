@@ -4,15 +4,15 @@ name: geth
 github:
   - url: https://github.com/ethereum/go-ethereum
 blockchain:
-  - address: "0x21539334f45Ac41Bd10789942b744a18a4775d6d"
-    tags:
-      - wallet
-      - safe
+  - address: "0x21539334f45ac41bd10789942b744a18a4775d6d"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet
   - address: "0x0000006916a87b82333f4245046623b23794c65c"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

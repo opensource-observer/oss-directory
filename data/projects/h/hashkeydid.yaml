@@ -4,9 +4,9 @@ name: HashKey DID
 github:
   - url: https://github.com/hashkeydid
 blockchain:
-  - address: "0xBB54Cc94Bb04496e16cFC1b3E747e06EBFcB7E84"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xbb54cc94bb04496e16cfc1b3e747e06ebfcb7e84"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

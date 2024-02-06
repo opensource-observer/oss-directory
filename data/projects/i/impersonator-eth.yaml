@@ -4,16 +4,16 @@ name: Impersonator
 github:
   - url: https://github.com/impersonator-eth
 blockchain:
-  - address: "0xf90e6125C8918F1ADAc31f85D80728dB62F17d9B"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xf90e6125c8918f1adac31f85d80728db62f17d9b"
     networks:
       - mainnet
       - optimism
-  - address: "0x63a556c75443b176b5a4078e929e38beb37a1ff2"
     tags:
       - eoa
       - wallet
+  - address: "0x63a556c75443b176b5a4078e929e38beb37a1ff2"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

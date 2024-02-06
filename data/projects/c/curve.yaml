@@ -5,415 +5,490 @@ github:
   - url: https://github.com/curvefi
 blockchain:
   - address: "0x7eeac6cddbd1d0b8af061742d41877d7f707289a"
-    tags:
-      - creator
-      - deployer
-      - eoa
     networks:
       - arbitrum
+      - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0x919124f5f5135d3020a0b075412679755545f7c5"
-    tags:
-      - creator
-      - deployer
-      - eoa
     networks:
       - arbitrum
+      - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0xba22746d79e75931dd8c0336760332e5d4a372a5"
-    tags:
-      - eoa
-      - creator
     networks:
+      - arbitrum
+      - mainnet
       - optimism
-  - address: "0x745748bcfd8f9c2de519a71d789be8a63dd7d66c"
     tags:
-      - creator
       - deployer
       - eoa
+  - address: "0x745748bcfd8f9c2de519a71d789be8a63dd7d66c"
     networks:
       - arbitrum
+      - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0x3711ae92429ccef7581c4c6efe0cf6042ba0b1e2"
-    tags:
-      - eoa
-      - creator
     networks:
+      - arbitrum
+      - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0x7492ce19d83b3a0bac1bebc9706ce0df4add105f"
+    networks:
+      - optimism
     tags:
+      - deployer
       - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0xabc000d88f23bb45525e447528dbf656a9d55bf5"
-    tags:
-      - contract
-      - factory
-    name: Vyper_contract
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x2db0e83599a91b508ac268a6197b8b14f5e72840"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0xfce359115dfe1533a2458650123f86c454bc0213"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x167e42a1c7ab4be03764a2222aac57f5f6754411"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0xf6bdc2619ffda72c537cd9605e0a274dc48cb1c9"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0xbf7e49483881c76487b0989cd7d9a8239b20ca41"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x22d710931f01c1681ca1570ff016ed42eb7b7c2a"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x883feb1b9862e0c8559d26f53bf19264c5e0839f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0a31527a8de2ee97bbd8cce14db8e8826a0b6c4f"
-    tags:
-      - contract
-    name: OFT Bridger
-    networks:
-      - optimism
-  - address: "0x7f90122bf0700f9e7e1f688fe926940e8839f353"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-      - arbitrum
-  - address: "0x16a7da911a4dd1d83f3ff066fe28f3c792c50d90"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x8474ddbe98f5aa3179b3b3f5942d724afcdec9f6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xeeb3ddbcc4174e0b3fd1c13ad462b95d11ef42c3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1aef73d49dedc4b1778d0706583995958dc862e6"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x05d4e2ed7216a204e5fb4e3f5187ecfaa5ef3ef7"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x8664742f18f94065ed02f39a56bc55750dcc9e56"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xadf698e4d8df08b3e2c79682891636ef00f6e205"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x13fc868d6571b8a9371e70c4e404342deec0f2ac"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0f9cb53ebe405d49a0bbdbd291a65ff571bc83e1"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x78d0fc2b9d5ae65512db242e424a9c683f18c243"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x66b5792ed50a2a7405ea75c4b6b1913ef4e46661"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe8269b33e47761f552e1a3070119560d5fa8bbd6"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x0cc51c9786f3777a6d50961cebb2bb6e69ec5e07"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1337bedc9d22ecbe766df105c9623922a27963ec"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0xc5cfada84e902ad92dd40194f0883ad49639b023"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0xbd2d41dbbc5a13b1c883f6c62b14924aeaef4483"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x12f407340697ae0b177546e535b91a5be021fbf9"
-    tags:
-      - contract
-    name: VotingEscrowStateOracle
-    networks:
-      - optimism
-  - address: "0x54e8a25d0ac0e4945b697c80b8372445fea17a62"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x44c7a35ecb0cf37a3d6fb38b4085d9328658e01d"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x445fe580ef8d70ff569ab36e80c647af338db351"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x98b4029cabef7fd525a36b0bf8555ec1d42ec0b6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6d65b498cb23deaba52db31c93da9bffb340fb8f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1e7b1bd0490dde12f6e3d09766beb05552afe27a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4244eb811d6e0ef302326675207a95113db4e1f8"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0xd166eedf272b860e991d331b71041799379185d5"
-    tags:
-      - contract
-      - wallet
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x7da64233fefb352f8f501b357c018158ed8aa455"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x877a7aaee9edc34911a2442fb814ece2679cf3fd"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x78cf256256c8089d68cde634cf7cdefb39286470"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x64ed8cff5ad3daeb217abe03a00ff2d90b86456b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb7de33440b7171159a9718cbe748086cecdd9685"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x6600e98b71dabfd4a8cac03b302b0189adb86afb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x89287c32c2cac1c76227f6d300b2dbbab6b75c08"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb90b9b1f91a01ea22a182cd84c1e22222e39b415"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x62e0031b7f87da1fe3a54d13c51c2b535e5c921f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xba28feb4b6a6b81e3f26f08b83a19e715c4294fd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x001e3ba199b4ff4b5b6e97acd96dafc0e2e4156e"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x114c4042b11a2b16f58fe1bfe847589a122f678a"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x0100fbf414071977b19fc38e6fc7c32fe444f5c9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc2b1df84112619d190193e48148000e3990bf627"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x50e09ee7080b32aef3e92346891dd2dd389b5faf"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9cf512116fb29ec1dd3798e6ea9a7cd9d18bbed1"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x4f3e8f405cf5afc05d68142f3783bdfe13811522"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0xc1c49622b63b961ce1d352ecb7d8261ab5556695"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x35796dac54f144dfbad1441ec7c32313a7c29f39"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2fddedf2d842f23da2b81b9144e75cecb691bf19"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x65a0b01756e837e6670634816e4f5b3a3ff21107"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0xefde221f306152971d8e9f181bfe998447975810"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x9fae78c4bbb649deb7b2295ddb8a03ada7eb660f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x71f718d3e4d1449d1502a6a7595eb84ebccb1683"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0xe35a879e5efb4f1bb7f70dcf3250f2e19f096bd8"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0xe5de15a9c9bbedb4f5ec13b131e61245f2983a69"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x3c0a405e914337139992625d5100ea141a9c4d11"
-    tags:
-      - contract
-    name: Vyper_contract
-    networks:
-      - optimism
-  - address: "0x070a5c8a99002f50c18b52b90e938bc477611b16"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x004a476b5b76738e34c86c7144554b9d34402f13"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0xbabe61887f1de2713c6f97e567623453d3c79f67"
     networks:
       - arbitrum
-      - optimism
+      - mainnet
     tags:
-      - creator
       - deployer
       - eoa
+  - address: "0x71f718d3e4d1449d1502a6a7595eb84ebccb1683"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xabc000d88f23bb45525e447528dbf656a9d55bf5"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: Vyper_contract
+  - address: "0x2db0e83599a91b508ac268a6197b8b14f5e72840"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: Vyper_contract
+  - address: "0xfce359115dfe1533a2458650123f86c454bc0213"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x167e42a1c7ab4be03764a2222aac57f5f6754411"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0xf6bdc2619ffda72c537cd9605e0a274dc48cb1c9"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0xbf7e49483881c76487b0989cd7d9a8239b20ca41"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x22d710931f01c1681ca1570ff016ed42eb7b7c2a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x883feb1b9862e0c8559d26f53bf19264c5e0839f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x0a31527a8de2ee97bbd8cce14db8e8826a0b6c4f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OFT Bridger
+  - address: "0x7f90122bf0700f9e7e1f688fe926940e8839f353"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x16a7da911a4dd1d83f3ff066fe28f3c792c50d90"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x8474ddbe98f5aa3179b3b3f5942d724afcdec9f6"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0xeeb3ddbcc4174e0b3fd1c13ad462b95d11ef42c3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x1aef73d49dedc4b1778d0706583995958dc862e6"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x05d4e2ed7216a204e5fb4e3f5187ecfaa5ef3ef7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x8664742f18f94065ed02f39a56bc55750dcc9e56"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xadf698e4d8df08b3e2c79682891636ef00f6e205"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x13fc868d6571b8a9371e70c4e404342deec0f2ac"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x0f9cb53ebe405d49a0bbdbd291a65ff571bc83e1"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x78d0fc2b9d5ae65512db242e424a9c683f18c243"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x66b5792ed50a2a7405ea75c4b6b1913ef4e46661"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0xe8269b33e47761f552e1a3070119560d5fa8bbd6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x0cc51c9786f3777a6d50961cebb2bb6e69ec5e07"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x1337bedc9d22ecbe766df105c9623922a27963ec"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0xc5cfada84e902ad92dd40194f0883ad49639b023"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xbd2d41dbbc5a13b1c883f6c62b14924aeaef4483"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x12f407340697ae0b177546e535b91a5be021fbf9"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x54e8a25d0ac0e4945b697c80b8372445fea17a62"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x44c7a35ecb0cf37a3d6fb38b4085d9328658e01d"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x445fe580ef8d70ff569ab36e80c647af338db351"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x98b4029cabef7fd525a36b0bf8555ec1d42ec0b6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x6d65b498cb23deaba52db31c93da9bffb340fb8f"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x1e7b1bd0490dde12f6e3d09766beb05552afe27a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x4244eb811d6e0ef302326675207a95113db4e1f8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0xd166eedf272b860e991d331b71041799379185d5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x7da64233fefb352f8f501b357c018158ed8aa455"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x877a7aaee9edc34911a2442fb814ece2679cf3fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x78cf256256c8089d68cde634cf7cdefb39286470"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x64ed8cff5ad3daeb217abe03a00ff2d90b86456b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xb7de33440b7171159a9718cbe748086cecdd9685"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x6600e98b71dabfd4a8cac03b302b0189adb86afb"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x89287c32c2cac1c76227f6d300b2dbbab6b75c08"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0xb90b9b1f91a01ea22a182cd84c1e22222e39b415"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x62e0031b7f87da1fe3a54d13c51c2b535e5c921f"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xba28feb4b6a6b81e3f26f08b83a19e715c4294fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UST
+  - address: "0x001e3ba199b4ff4b5b6e97acd96dafc0e2e4156e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x114c4042b11a2b16f58fe1bfe847589a122f678a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x0100fbf414071977b19fc38e6fc7c32fe444f5c9"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0xc2b1df84112619d190193e48148000e3990bf627"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x50e09ee7080b32aef3e92346891dd2dd389b5faf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OFT Bridger
+  - address: "0x9cf512116fb29ec1dd3798e6ea9a7cd9d18bbed1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x4f3e8f405cf5afc05d68142f3783bdfe13811522"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0xc1c49622b63b961ce1d352ecb7d8261ab5556695"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x35796dac54f144dfbad1441ec7c32313a7c29f39"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x2fddedf2d842f23da2b81b9144e75cecb691bf19"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x65a0b01756e837e6670634816e4f5b3a3ff21107"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0xefde221f306152971d8e9f181bfe998447975810"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x9fae78c4bbb649deb7b2295ddb8a03ada7eb660f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0xe35a879e5efb4f1bb7f70dcf3250f2e19f096bd8"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0xe5de15a9c9bbedb4f5ec13b131e61245f2983a69"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x3c0a405e914337139992625d5100ea141a9c4d11"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vyper_contract
+  - address: "0x070a5c8a99002f50c18b52b90e938bc477611b16"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x004a476b5b76738e34c86c7144554b9d34402f13"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
   - address: "0x6eb2dc694eb516b16dc9fbc678c60052bbdd7d80"
     networks:
       - arbitrum
@@ -455,13 +530,13 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: Vyper_contract_MIM_USDT_USDC
+    name: Vyper_contract
   - address: "0xc9b8a3fdecb9d5b218d02555a8baf332e5b740d5"
     networks:
       - arbitrum
     tags:
       - contract
-    name: Vyper_contract_FRAX_USDC
+    name: Vyper_contract
   - address: "0x755d6688ad74661add2fb29212ef9153d40fca46"
     networks:
       - arbitrum
@@ -473,7 +548,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: vst_frax
+    name: Vyper_contract
   - address: "0x0a824b5d4c96ea0ec46306efbd34bf88fe1277e0"
     networks:
       - arbitrum

@@ -7,18 +7,21 @@ blockchain:
   - address: "0x55638a11757cea2dd6130aa42ddc09149bdcaf84"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x0ae38f7e10a43b5b2fb064b42a2f4514cba909ef"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: unshETHOFT
+    name: various:DiffersByChain
   - address: "0x51a80238b5738725128d3a3e06ab41c1d4c05c74"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: USHOFT
+    name: various:DiffersByChain

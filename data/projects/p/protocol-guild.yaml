@@ -1,37 +1,26 @@
 version: 3
 slug: protocol-guild
 name: Protocol Guild
-description: A collective of Ethereum's active core protocol contributors.
+description: A collective of Ethereum"s active core protocol contributors.
 github:
   - url: https://github.com/protocolguild
   - url: https://github.com/ethereum
 blockchain:
-  - address: "0xF29Ff96aaEa6C9A1fBa851f74737f3c069d4f1a9"
+  - address: "0x42a43f000adc215af8b1896ed09c2d1b0f81cdfb"
+    networks:
+      - optimism
     tags:
+      - safe
       - wallet
+  - address: "0x728d29e9e06ce5d846242692df05467076c19849"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x0b916095200313900104bacfc288462682c38700"
     networks:
       - mainnet
-  - address: "0x0B916095200313900104bAcfc288462682C38700"
     tags:
-      - wallet
       - eoa
-    networks:
-      - mainnet
-  - address: "0x42a43f000adc215af8B1896Ed09C2d1B0f81cDfB"
-    tags:
       - wallet
-      - safe
-    networks:
-      - optimism
-  - address: "0x728D29E9E06cE5d846242692dF05467076c19849"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - optimism
-  - address: "0x84af3D5824F0390b9510440B6ABB5CC02BB68ea1"
-    tags:
-      - contract
-    networks:
-      - mainnet
-    name: Protocol Guild - Split

@@ -4,9 +4,9 @@ name: tProof
 github:
   - url: https://github.com/tproofio
 blockchain:
-  - address: "0x8Dc8829Efba40848659E8ee31B8Ea8aAE73F00D9"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x8dc8829efba40848659e8ee31b8ea8aae73f00d9"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

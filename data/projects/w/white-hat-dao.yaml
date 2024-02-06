@@ -4,9 +4,9 @@ name: White Hat DAO
 github:
   - url: https://github.com/WhiteHatDAO
 blockchain:
-  - address: "0x7bD7De26eBD064465Bb9c272513Bb3bcBdDb1E93"
-    tags:
-      - wallet
-      - safe
+  - address: "0x7bd7de26ebd064465bb9c272513bb3bcbddb1e93"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

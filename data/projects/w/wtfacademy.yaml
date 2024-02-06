@@ -4,16 +4,16 @@ name: WTF Academy
 github:
   - url: https://github.com/WTFAcademy
 blockchain:
-  - address: "0x25df6DA2f4e5C178DdFF45038378C0b08E0Bce54"
+  - address: "0x1a3785288c03e78616dbe1700d36385dfa793dd3"
+    networks:
+      - optimism
     tags:
-      - wallet
-      - eoa
+      - contract
+    name: WTFSBT1155
+  - address: "0x25df6da2f4e5c178ddff45038378c0b08e0bce54"
     networks:
       - mainnet
       - optimism
-  - address: "0x1a3785288c03e78616dbe1700d36385dfa793dd3"
     tags:
-      - contract
-    networks:
-      - optimism
-    name: WTFSBT1155
+      - eoa
+      - wallet

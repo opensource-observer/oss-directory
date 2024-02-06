@@ -4,9 +4,9 @@ name: EVM Diff
 github:
   - url: https://github.com/evm-diff
 blockchain:
-  - address: "0xDFc01AD32e52E7FBe2fb6ace17EC73978cF377B0"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xdfc01ad32e52e7fbe2fb6ace17ec73978cf377b0"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

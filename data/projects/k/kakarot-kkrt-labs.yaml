@@ -4,9 +4,9 @@ name: Kakarot zkEVM
 github:
   - url: https://github.com/kkrt-labs/kakarot
 blockchain:
-  - address: "0x713Bc00D1df5C452F172C317D39eFf71B771C163"
-    tags:
-      - wallet
-      - safe
+  - address: "0x713bc00d1df5c452f172c317d39eff71b771c163"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

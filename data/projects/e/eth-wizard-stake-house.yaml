@@ -4,9 +4,9 @@ name: "eth-wizard: An Ethereum validator installation wizard"
 github:
   - url: https://github.com/stake-house/eth-wizard
 blockchain:
-  - address: "0xdbB16c68aA373229Db9f37D85087264361691AB9"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xdbb16c68aa373229db9f37d85087264361691ab9"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

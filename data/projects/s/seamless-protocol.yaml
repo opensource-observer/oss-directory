@@ -5,9 +5,8 @@ github:
   - url: https://github.com/seamless-protocol
 blockchain:
   - address: "0x53352a00316573e8f52696c572f1293ac877ef4d"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

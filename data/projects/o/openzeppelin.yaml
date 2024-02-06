@@ -107,15 +107,15 @@ npm:
   - url: https://www.npmjs.com/package/@openzeppelin/merkle-tree
   - url: https://www.npmjs.com/package/@openzeppelin/defender-relay-client
 blockchain:
-  - address: "0x41f89516DbFDfF2A902AdD2E141C3c22b561BFBc"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xbc125d485ee2f414c84674085538118265d3f168"
     networks:
       - optimism
-  - address: "0xbc125d485ee2f414c84674085538118265d3f168"
     tags:
       - safe
       - wallet
+  - address: "0x41f89516dbfdff2a902add2e141c3c22b561bfbc"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

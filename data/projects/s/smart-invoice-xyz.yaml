@@ -4,10 +4,10 @@ name: Smart Invoice
 github:
   - url: https://github.com/SmartInvoiceXYZ
 blockchain:
-  - address: "0xFF16d64179A02D6a56a1183A28f1D6293646E2dd"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xff16d64179a02d6a56a1183a28f1d6293646e2dd"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

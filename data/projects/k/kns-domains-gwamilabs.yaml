@@ -4,9 +4,9 @@ name: KNS Domains
 github:
   - url: https://github.com/GwamiLabs
 blockchain:
-  - address: "0x931884dFeAac21aC4b7809F032Ae850432A0D1c0"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x931884dfeaac21ac4b7809f032ae850432a0d1c0"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

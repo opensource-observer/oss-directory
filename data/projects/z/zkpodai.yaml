@@ -4,9 +4,9 @@ name: zkpod.ai
 github:
   - url: https://github.com/zkpodai
 blockchain:
-  - address: "0x0aAaA801939Ea2B87fb84A44a0b93831F4476fE0"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x0aaaa801939ea2b87fb84a44a0b93831f4476fe0"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

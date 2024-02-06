@@ -5,329 +5,382 @@ github:
   - url: https://github.com/ExtraFi
 blockchain:
   - address: "0x9088b976e9542d0a27f4f9ddc7a716c7714806ea"
+    networks:
+      - optimism
     tags:
+      - deployer
       - eoa
-      - creator
-    networks:
-      - optimism
   - address: "0x155620a2e6a9392c754b73296d9655061525729b"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: unverified
   - address: "0xbb505c54d71e9e599cb8435b4f0ceec05fc71cbd"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: LendingPool
   - address: "0x0e4e714fedbd81d0266ec486cf7c165129849109"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x2c58ece45ac754b80fd39f5e7e67a4b0e91a1525"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x360b864a59240eebda0f1a9b2534ea96ed591b53"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x2dad3a13ef0c6366220f989157009e501e7938f8"
+    networks:
+      - optimism
     tags:
       - contract
     name: EXTRA
-    networks:
-      - optimism
   - address: "0xa4dd7df0a13743508217941d2b155b5b32df7045"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0xbced1ee549dd723bebf8e6f784150858e56e3ee0"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x2f879c47f4a89a89d69c21fa61d6705e26178511"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x73c3c06a2e1e5eb3d24f2ae021a1af8e0dd2b5bd"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x052a8d32901739646bae1850da37105af47f8804"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0xa4b43b3d33f4e583194d05485c5691c0b205a75b"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x9ace8a056b0d87ed099876cefca7e234ad9099cc"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0xf082e2d5e1adae33135e9948bf6ca37a74ed2433"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0xec120bc6e12cea127553b1f53445947b1f73a132"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0xdcf0f4a0fc44f33de35d8c80ad5d248dbf838943"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x47efc0fe6a096c98d7e022daed2309aa9286dfef"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0xaea8384088eb1a98e555d8b5c8aaa953087716f0"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0xb7d8613728efcfbb18bcd63deec06f64441d322a"
+    networks:
+      - optimism
     tags:
       - contract
     name: RewardDistributor
-    networks:
-      - optimism
   - address: "0xa69b526924f9403ff410591cbb8281146a5c0d3f"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x292a1f318b1ab0c7701f30f42603adc7f95f5e66"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0x37b25ef89a21049b66edc50a59678ef784544cab"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x901850951df792103e1aef6b52a68453941c0ac8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3afcb1ab1a78ecdd075647566258561acbec01d5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xcefa665165281b7a9807bdcd4d7ac54a54ca1e13"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x40059b04f08900d51868da27e30f497453e0462d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xecce0f5e758d01c142ebd5ed2565038e4c0edd80"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8774da8cc2d4af76e0abb2a46909d614a0a35545"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xac9e42209038bca0b2b026906de97a032400f2b4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xbedfda828475005dc8e4a09aaa34bd0b8ca807e4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xeb94331e71f7e0431de9e61c87ee91ffd5493d90"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0fc448f9c53653006e6f7f3d39d7786ac97b959b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5b414093362a7c768273d5f0405744b8c09556a8"
-    tags:
-      - contract
-    name: Airdrop
-    networks:
-      - optimism
-  - address: "0x1a97e89572fc303e4bfd4fa49d02cd94161744dd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x94114a6494f6b8b87170fcdfc41159ab8e7d4ec4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x797de59d04d43261a402cf3b85ed76c4af40f5a3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf1f46ddb3e828f22032197f8e92af9db76b3c3fe"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf9d40a60fd6bdc866daf0918264a30acce1dc9cc"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7fd13c20eeba7a3776ebc422cef7c8752d40766f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x85603119c938750dfb5904f8a501b64f3f3a01d2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9f4c4fadb66b19b687952fe20f7659ce23ff99ca"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe0bec4f45aef64cec9dcb9010d4beffb13e91466"
     tags:
       - contract
     name: VeToken
+  - address: "0x37b25ef89a21049b66edc50a59678ef784544cab"
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x901850951df792103e1aef6b52a68453941c0ac8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x3afcb1ab1a78ecdd075647566258561acbec01d5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xcefa665165281b7a9807bdcd4d7ac54a54ca1e13"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x40059b04f08900d51868da27e30f497453e0462d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xecce0f5e758d01c142ebd5ed2565038e4c0edd80"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x8774da8cc2d4af76e0abb2a46909d614a0a35545"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VestingWallet
+  - address: "0xac9e42209038bca0b2b026906de97a032400f2b4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xbedfda828475005dc8e4a09aaa34bd0b8ca807e4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xeb94331e71f7e0431de9e61c87ee91ffd5493d90"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x0fc448f9c53653006e6f7f3d39d7786ac97b959b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x5b414093362a7c768273d5f0405744b8c09556a8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Airdrop
+  - address: "0x1a97e89572fc303e4bfd4fa49d02cd94161744dd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x94114a6494f6b8b87170fcdfc41159ab8e7d4ec4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VestingWallet
+  - address: "0x797de59d04d43261a402cf3b85ed76c4af40f5a3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xf1f46ddb3e828f22032197f8e92af9db76b3c3fe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xf9d40a60fd6bdc866daf0918264a30acce1dc9cc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x7fd13c20eeba7a3776ebc422cef7c8752d40766f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x85603119c938750dfb5904f8a501b64f3f3a01d2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AddressRegistry
+  - address: "0x9f4c4fadb66b19b687952fe20f7659ce23ff99ca"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xe0bec4f45aef64cec9dcb9010d4beffb13e91466"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeToken
   - address: "0xf9cfb8a62f50e10adde5aa888b44cf01c5957055"
+    networks:
+      - optimism
     tags:
       - contract
     name: VeloPositionManager
-    networks:
-      - optimism
   - address: "0xdc15865785a57c13a4753c8318caf4d775ffa417"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x4b677e52be607c8f7b81e8dec0d9711a5c7010c6"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x8756d971a8fcede86763a67980fa161ff54fdb9c"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: VestingWallet
   - address: "0x1e42739587bc929a823b1da099c6742b5c0f1163"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x5a583ccb69402d60bc360d691eedb8efda6fb7e5"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x4f4940a87d63a290d43b6550911896ff7aee354c"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x9511d7b9ba1eaa5ba58c716977b0fa32e2aebecd"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x0c9d44f5a573f6cfc9e8264a5ca72a1184616ef4"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x4db48b2e9cb0f203eb0a8579b274f5ac3d53360b"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: EXTRA
   - address: "0xc719a01e39553e3d06d77ecab604c3ec3ca0b932"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xcb766988d4209d0278b891c9d4242fd6c4bc499e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x5adf4597272394fe3edfe68961d8dc5876d5e99d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x803800a6944b000fc946979b7b4c221c20445493"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x2692709313de4dc1ca15fe77a385c9eb2b6b77b8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RewardsDistributorV2
+  - address: "0x777a1665e66218fb020fb15b0b1f0ee66621be10"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0xa6c33eea9a3f78dea8e3b56da3f35f277bd312bb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x21dfd382c71029aa7ce43d5232475710a7875aa1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc60e33b114131e9dd577bc6bebf29c44c8c38600"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
   - address: "0xb04a484387a7242339da615a63d2d49d8968aada"
     networks:
       - optimism
     tags:
       - safe
       - wallet
-  - address: "0xcb766988d4209d0278b891c9d4242fd6c4bc499e"
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x5adf4597272394fe3edfe68961d8dc5876d5e99d"
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x803800a6944b000fc946979b7b4c221c20445493"
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x2692709313de4dc1ca15fe77a385c9eb2b6b77b8"
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x777a1665e66218fb020fb15b0b1f0ee66621be10"
-    name: ProxyAdmin
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xa6c33eea9a3f78dea8e3b56da3f35f277bd312bb"
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x21dfd382c71029aa7ce43d5232475710a7875aa1"
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xc60e33b114131e9dd577bc6bebf29c44c8c38600"
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-    tags:
-      - contract

@@ -4,9 +4,9 @@ name: Sadaiv
 github:
   - url: https://github.com/sadaiv-ci
 blockchain:
-  - address: "0x8Df607ab90E7c5Cce9973975a9EF1F32a95d6bCc"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x8df607ab90e7c5cce9973975a9ef1f32a95d6bcc"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

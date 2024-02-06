@@ -4,164 +4,172 @@ name: Kromatika
 github:
   - url: https://github.com/Kromatika-Finance
 blockchain:
-  - address: "0x05d235d8Ba95bfc457f9a11F64cf869f0f3f60F9"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - optimism
-  - address: "0xdbaabc182e5fcebf216c353a3ebe32cdb7390094"
-    tags:
-      - creator
-      - deployer
-      - eoa
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x3aa2a4f9bc75e34662f7f2877a13a4dda88e00e9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd1781f9ee563782c7454b9da699914d1ede3921e"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: TransparentUpgradeableProxy
-  - address: "0xd25489b568a6c67052a3f119f3700897e2937fc8"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: ProxyAdmin
-  - address: "0x9bd46c3a496ab1b18bd34eee4be5619048aa0f79"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6e2efa455298116ede2e47447e609b133262cedc"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: OpAccessToken
-  - address: "0x20b5683170412daba16e64315a62d766f8d6acc6"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: TransparentUpgradeableProxy
-  - address: "0x813bb65cffb67f8328f1447b196db33bbc6482a8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5c7e78f7fa130b284b1c208c5114553ec276a8fb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe7c74c7cc30fc5eea17d4c590c11904c5c4661e6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb01614bd478e8776e1c8528d0469c453b171c719"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xba291167a78612bac28f016853fd75c0aa31a4b3"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: OpAccessToken
-  - address: "0x3b83c0bdb49802fac45ebb28a1b0fa797b16328c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x37bb03a0c5464da8886d40f733e1d383d75ceccf"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd0b67611ef0acae64769d761559de790672a1ebb"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: TransparentUpgradeableProxy
-  - address: "0xe3618d839a1030964e3ff0ea6a641141332bef6e"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: LimitOrderMonitor
-  - address: "0xa16192ff74ae344e2918d230b0af736f0d4491fb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb0301bae14f8bd66b81a776af6d001414a1c3fb3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x90ae03f8a0f9942ba02ab6c45cf7e0b905a2dad4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7314af7d05e054e96c44d7923e68d66475ffaab8"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: TransparentUpgradeableProxy
-  - address: "0x87ab1c824dff612686b45b43504bbea63b7b4d2e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x10bff12281138846b6c23e6ef7db26367bb5b99c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6ef7b14bcd8d989cef8f8ec8ba4bf371b2ac95fd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x73060bd1e70df9cdd9e321ac308948502c4e1fb5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xcd297aefdeba144ff27ee677aa8c80df9e349066"
-    tags:
-      - eoa
-    networks:
-      - optimism
-  - address: "0xe62bd99a9501ca33d98913105fc2bec5bae6e5dd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf98dcd95217e15e05d8638da4c91125e59590b07"
-    tags:
-      - contract
-    networks:
-      - optimism
   - address: "0x9e77c5b95222908d9b0b42e79f6e476c4e7cbf2d"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
+  - address: "0xdbaabc182e5fcebf216c353a3ebe32cdb7390094"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x3aa2a4f9bc75e34662f7f2877a13a4dda88e00e9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xd1781f9ee563782c7454b9da699914d1ede3921e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xd25489b568a6c67052a3f119f3700897e2937fc8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0x9bd46c3a496ab1b18bd34eee4be5619048aa0f79"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x6e2efa455298116ede2e47447e609b133262cedc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OpAccessToken
+  - address: "0x20b5683170412daba16e64315a62d766f8d6acc6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x813bb65cffb67f8328f1447b196db33bbc6482a8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x5c7e78f7fa130b284b1c208c5114553ec276a8fb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xe7c74c7cc30fc5eea17d4c590c11904c5c4661e6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LimitOrderMonitor
+  - address: "0xb01614bd478e8776e1c8528d0469c453b171c719"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OpLimitOrderManager
+  - address: "0xba291167a78612bac28f016853fd75c0aa31a4b3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OpAccessToken
+  - address: "0x3b83c0bdb49802fac45ebb28a1b0fa797b16328c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x37bb03a0c5464da8886d40f733e1d383d75ceccf"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xd0b67611ef0acae64769d761559de790672a1ebb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xe3618d839a1030964e3ff0ea6a641141332bef6e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LimitOrderMonitor
+  - address: "0xa16192ff74ae344e2918d230b0af736f0d4491fb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xb0301bae14f8bd66b81a776af6d001414a1c3fb3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x90ae03f8a0f9942ba02ab6c45cf7e0b905a2dad4"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x7314af7d05e054e96c44d7923e68d66475ffaab8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x87ab1c824dff612686b45b43504bbea63b7b4d2e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OpLimitOrderManagerV2
+  - address: "0x10bff12281138846b6c23e6ef7db26367bb5b99c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OpLimitOrderManagerV3
+  - address: "0x6ef7b14bcd8d989cef8f8ec8ba4bf371b2ac95fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UniswapV3Pool
+  - address: "0x73060bd1e70df9cdd9e321ac308948502c4e1fb5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MerkleDistributor
+  - address: "0xe62bd99a9501ca33d98913105fc2bec5bae6e5dd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UniswapV3Pool
+  - address: "0xf98dcd95217e15e05d8638da4c91125e59590b07"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: L2StandardERC20
   - address: "0x4ab78b894611f185cd7378e25c8f80d63cfbaa71"
     networks:
       - arbitrum
@@ -174,3 +182,9 @@ blockchain:
     tags:
       - contract
     name: LimitOrderManager
+  - address: "0x05d235d8ba95bfc457f9a11f64cf869f0f3f60f9"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

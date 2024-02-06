@@ -4,30 +4,44 @@ name: Bitkeep
 github:
   - url: https://github.com/bitkeepwallet
 blockchain:
-  - address: "0xc522c16e88b6bf457389566d22550bce157d3875"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x0d314e0fd9530486b13e5fed092b4bdf6f95d01c"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x4d176ac0caaa85fc2fd0594573e06458c62a1465"
-    tags:
-      - contract
-      - factory
+  - address: "0x5defa9c83085c7f606ceb3b5f75fc107945ed7de"
     networks:
       - arbitrum
+      - mainnet
       - optimism
-  - address: "0xcd487bbd5f6f9afd3cea637a1803b6e8d71c958a"
     tags:
-      - contract
+      - deployer
+      - eoa
+  - address: "0xc522c16e88b6bf457389566d22550bce157d3875"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x0d314e0fd9530486b13e5fed092b4bdf6f95d01c"
     networks:
       - optimism
+    tags:
+      - contract
+      - factory
+    name: ConduitController
+  - address: "0x4d176ac0caaa85fc2fd0594573e06458c62a1465"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0xcd487bbd5f6f9afd3cea637a1803b6e8d71c958a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x9afd2948f573dd8684347924ebce1847d50621ed"
     networks:
       - arbitrum

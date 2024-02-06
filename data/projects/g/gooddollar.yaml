@@ -4,9 +4,9 @@ name: GoodDollar
 github:
   - url: https://github.com/GoodDollar
 blockchain:
-  - address: "0x15512f77bFe1d6aC44Bee26135978c8D27Ba521b"
-    tags:
-      - wallet
-      - safe
+  - address: "0x15512f77bfe1d6ac44bee26135978c8d27ba521b"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

@@ -4,9 +4,9 @@ name: Pocket Network (Grove)
 github:
   - url: https://github.com/pokt-foundation
 blockchain:
-  - address: "0x1A544D8dcA79d50c0E21e446BB33B03E01Cc9257"
+  - address: "0x1a544d8dca79d50c0e21e446bb33b03e01cc9257"
+    networks:
+      - optimism
     tags:
       - safe
       - wallet
-    networks:
-      - optimism

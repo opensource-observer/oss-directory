@@ -5,9 +5,8 @@ github:
   - url: https://github.com/moonwell-fi
 blockchain:
   - address: "0x4f56443f075ef5c972a76365606bfbdbd37e146f"
-    tags:
-      - wallet
-      - safe
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - safe
+      - wallet

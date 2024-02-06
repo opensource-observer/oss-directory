@@ -4,9 +4,9 @@ name: LlamaFolio
 github:
   - url: https://github.com/llamafolio
 blockchain:
-  - address: "0x2cd0ac587Fc0E6FBcF8A47A449971649E7dab835"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x2cd0ac587fc0e6fbcf8a47a449971649e7dab835"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

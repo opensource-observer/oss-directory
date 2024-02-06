@@ -4,10 +4,10 @@ name: Culture Blocks
 github:
   - url: https://github.com/culture-blocks
 blockchain:
-  - address: "0xabeEb05bA4764F45e5c0e8Acb02059d7164aD35d"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xabeeb05ba4764f45e5c0e8acb02059d7164ad35d"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

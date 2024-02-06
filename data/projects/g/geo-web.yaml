@@ -5,116 +5,124 @@ github:
   - url: https://github.com/geo-web-project
 blockchain:
   - address: "0x4dc45eac9ee25af88958c94461fd46175c47744a"
-    tags:
-      - eoa
-      - creator
     networks:
       - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0xba1231785a7b4ac0e8dc9a0403938c2182ce4a4e"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: RegistryDiamond
   - address: "0x5ad276439e3772fdb6696b6cb61401902d4e8b72"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
   - address: "0xe8f5c41fc53ea331a68e45cdb0ee2f8849edcaa0"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: PCOERC721Facet
   - address: "0x41d77f5a2173ec878f33d88dc5d369f2f29d4954"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0x845b42deab9f007c5a7429606cd01596ead9f77b"
-    tags:
-      - contract
-    name: CFABasePCOFacet
-    networks:
-      - optimism
-  - address: "0x5b832c4b91ede6b13a3301cd0f43a5cf30549643"
     tags:
       - contract
     name: PCOLicenseClaimerFacetV2
+  - address: "0x845b42deab9f007c5a7429606cd01596ead9f77b"
     networks:
       - optimism
-  - address: "0x455391cb23189f1bfaae1bf2de62718baf33d409"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe037e66cdec65c62a4141aa495e80b9ad1f2ad4e"
     tags:
       - contract
     name: CFABasePCOFacet
+  - address: "0x5b832c4b91ede6b13a3301cd0f43a5cf30549643"
     networks:
       - optimism
+    tags:
+      - contract
+    name: PCOLicenseClaimerFacetV2
+  - address: "0x455391cb23189f1bfaae1bf2de62718baf33d409"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PCOLicenseClaimerFacetV2
+  - address: "0xe037e66cdec65c62a4141aa495e80b9ad1f2ad4e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CFABasePCOFacet
   - address: "0xe5769b506e624044ac2d472e76bedba53dc2bbed"
+    networks:
+      - optimism
     tags:
       - contract
     name: PCOLicenseDiamond
-    networks:
-      - optimism
   - address: "0x88f2f48a949b21bddb00fe735ebba79b42f8e261"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0x53e71045cb4611374e3b28c1a996d25a4397fe45"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0e387d23cbca12954971c44fb22c071de382fba6"
-    tags:
-      - contract
-    name: CFAPenaltyBidFacet
-    networks:
-      - optimism
-  - address: "0xaf34b014fb7efcc89094c3ef25be7c3c29c1b2f3"
     tags:
       - contract
     name: CFAReclaimerFacet
+  - address: "0x53e71045cb4611374e3b28c1a996d25a4397fe45"
     networks:
       - optimism
-  - address: "0x0fc6c37755603dfdeaa63a227ca78850f31d8478"
     tags:
       - contract
-    name: BeneficiarySuperApp
+    name: GeoWebParcelFacetV2
+  - address: "0x0e387d23cbca12954971c44fb22c071de382fba6"
     networks:
       - optimism
-  - address: "0xca968c8a5e10d037af18ead8eae5c6967a1ad0a3"
     tags:
       - contract
     name: CFAPenaltyBidFacet
+  - address: "0xaf34b014fb7efcc89094c3ef25be7c3c29c1b2f3"
     networks:
       - optimism
+    tags:
+      - contract
+    name: CFAReclaimerFacet
+  - address: "0x0fc6c37755603dfdeaa63a227ca78850f31d8478"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeneficiarySuperApp
+  - address: "0xca968c8a5e10d037af18ead8eae5c6967a1ad0a3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CFAPenaltyBidFacet
   - address: "0xe08d2e25e156c602ba78fc66ecc8291a6c157b0e"
+    networks:
+      - optimism
     tags:
       - contract
     name: ProxyAdmin
+  - address: "0xcd3cac9dd1ce5f2e6cbff6de7a5f4ccb6f8207dd"
     networks:
       - optimism
-  - address: "0xcd3cac9dd1ce5f2e6cbff6de7a5f4ccb6f8207dd"
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0xde798cd9c53f4806b9cc7dd27adf7c641540167c"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
-      - optimism
+    name: PCOLicenseParamsFacet
   - address: "0xe9222b92790cb72ec31a96df3eedf3fe8da5eb10"
+    networks:
+      - optimism
     tags:
       - safe
       - wallet
+  - address: "0xde798cd9c53f4806b9cc7dd27adf7c641540167c"
     networks:
+      - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

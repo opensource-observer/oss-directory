@@ -4,16 +4,16 @@ name: WakeUp Labs
 github:
   - url: https://github.com/wakeuplabs
 blockchain:
-  - address: "0xab4f5A7fcd1Bb66C8c5f01bB77F6142759f46107"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
-      - optimism
   - address: "0xaaba37fb284667647d315b9d45c1830598b24081"
+    networks:
+      - optimism
     tags:
       - safe
       - wallet
+  - address: "0xab4f5a7fcd1bb66c8c5f01bb77f6142759f46107"
     networks:
+      - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

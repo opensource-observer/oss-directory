@@ -4,16 +4,15 @@ name: Ethereum on ARM
 github:
   - url: https://github.com/EOA-Blockchain-Labs
 blockchain:
-  - address: "0x1bCDB2226ee2b023e3886Dd2027c4eE95457699f"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x1bcdb2226ee2b023e3886dd2027c4ee95457699f"
     networks:
       - mainnet
-  - address: "0x91A3b28aE8a04C174448d4b10150C844871fCb3c"
     tags:
-      - wallet
       - eoa
+      - wallet
+  - address: "0x91a3b28ae8a04c174448d4b10150c844871fcb3c"
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

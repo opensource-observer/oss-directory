@@ -4,10 +4,10 @@ name: Soul Wallet
 github:
   - url: https://github.com/soulwallet
 blockchain:
-  - address: "0xc3d696C268503Df52781E32085110C562f40333d"
+  - address: "0xc3d696c268503df52781e32085110c562f40333d"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
-      - mainnet

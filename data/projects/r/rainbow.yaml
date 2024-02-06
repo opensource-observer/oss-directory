@@ -10,59 +10,68 @@ npm:
   - url: https://www.npmjs.com/package/@rainbow-me/rainbowkit-siwe-next-auth
   - url: https://www.npmjs.com/package/@rainbow-me/swaps
 blockchain:
-  - address: "0x9d62e3f4f5a2ef4F446dA692B07860F3C78CEAa4"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - optimism
   - address: "0x7a3d05c70581bd345fe117c06e45f9669205384f"
-    tags:
-      - eoa
-      - creator
     networks:
+      - arbitrum
+      - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
+    name: rainbowwallet.eth
   - address: "0x0c36a5b01e1668c867a5e58f23bb6cb4d83a4cc8"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
+      - deployer
       - eoa
-      - creator
-    networks:
-      - optimism
   - address: "0x12a39421c23f4d3f788c33f0f9281652ac4f909a"
-    tags:
-      - contract
-      - factory
     networks:
+      - arbitrum
+      - mainnet
       - optimism
-  - address: "0xceec95425de041b8c83dd9e019f7597b7a356d4a"
     tags:
       - contract
       - factory
-      - proxy
+    name: unverified
+  - address: "0xceec95425de041b8c83dd9e019f7597b7a356d4a"
     networks:
       - arbitrum
       - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
   - address: "0x400a9f1bb1db80643c33710c2232a0d74ef5cff1"
+    networks:
+      - optimism
     tags:
       - contract
     name: NftChecker
+  - address: "0x1c8cfde3ba6efc4ff8dd5c93044b9a690b6cff36"
     networks:
       - optimism
-  - address: "0x1c8cfde3ba6efc4ff8dd5c93044b9a690b6cff36"
     tags:
       - contract
+    name: unverified
+  - address: "0x00000000009726632680fb29d3f7a9734e3010e2"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: RainbowRouter
+  - address: "0x9d62e3f4f5a2ef4f446da692b07860f3c78ceaa4"
     networks:
       - optimism
-  - address: "0x0d9b71891dc86400acc7ead08c80af301ccb3d71"
     tags:
       - safe
       - wallet
+  - address: "0x0d9b71891dc86400acc7ead08c80af301ccb3d71"
     networks:
       - optimism
-  - address: "0x00000000009726632680fb29d3f7a9734e3010e2"
     tags:
-      - contract
-    networks:
-      - optimism
-      - arbitrum
-    name: RainbowRouter
+      - safe
+      - wallet

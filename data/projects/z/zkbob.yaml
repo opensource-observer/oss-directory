@@ -4,10 +4,9 @@ name: zkBob
 github:
   - url: https://github.com/zkBob
 blockchain:
-  - address: "0x73DcE9348a03975415C6Fa5296e71C1ABaE61407"
-    tags:
-      - wallet
-      - safe
+  - address: "0x73dce9348a03975415c6fa5296e71c1abae61407"
     networks:
-      - mainnet
       - optimism
+    tags:
+      - safe
+      - wallet

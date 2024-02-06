@@ -4,33 +4,27 @@ name: Bankless DAO
 github:
   - url: https://github.com/BanklessDAO
 blockchain:
-  - address: "0xe1887fF140BfA9D3b45D0B2077b7471124acD242"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
   - address: "0x745ce2af76e9a6eba65cc0cacaa9ea109bb7fabd"
-    tags:
-      - wallet
-      - safe
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xe1887ff140bfa9d3b45d0b2077b7471124acd242"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
   - address: "0xe3a9ad8a2b39ff6983f1582abd26c06afa6cce96"
     networks:
       - optimism
     tags:
       - eoa
       - wallet
-  - address: "0x4b785041d6a705d41f7578b13f93a7e315d2f8ff"
+  - address: "0x918ceb96deeaba2db06b18d7fc8f52fe0a206040"
     networks:
       - optimism
-    tags:
-      - eoa
-      - creator
-  - address: "0x918cEB96DeEaBa2Db06b18d7FC8F52FE0a206040"
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

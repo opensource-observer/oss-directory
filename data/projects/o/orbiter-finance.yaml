@@ -5,24 +5,25 @@ github:
   - url: https://github.com/orbiter-finance
 blockchain:
   - address: "0x8a700fdb6121a57c59736041d9aa21dfd8820660"
-    tags:
-      - creator
-      - deployer
-      - eoa
     networks:
       - arbitrum
+      - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0xd9d74a29307cc6fc8bf424ee4217f1a587fbc8dc"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
     name: OBSource
-    networks:
-      - optimism
-      - arbitrum
   - address: "0x10c7eebf2ff90807ca24347cd9c7d4a42345d583"
-    tags:
-      - wallet
-      - eoa
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

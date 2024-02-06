@@ -5,10 +5,10 @@ github:
   - url: https://github.com/eth-clients/goerli
   - url: https://github.com/eth-clients/holesky
 blockchain:
-  - address: "0x59cc3Fc56B8B2988F259EC1E6f3446907130f728"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x59cc3fc56b8b2988f259ec1e6f3446907130f728"
     networks:
-      - optimism
       - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

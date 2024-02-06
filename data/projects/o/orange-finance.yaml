@@ -4,14 +4,13 @@ name: Orange Finance
 github:
   - url: https://github.com/orange-finance
 blockchain:
-  - address: "0xf16f1191ac4b4cbc25f35588811f661b5fcd30a1"
+  - address: "0xe66fffd2d3ade2697b3cbeb69877a1ffe8a1f275"
     networks:
       - arbitrum
     tags:
-      - factory
-      - contract
-    name: OrangeVaultFactoryV1_0
-  - address: "0xe66fffd2d3ade2697b3cbeb69877a1ffe8a1f275"
+      - deployer
+      - eoa
+  - address: "0xb0c757bc94704246ce0552b5ccc1a547c0633914"
     networks:
       - arbitrum
     tags:
@@ -23,18 +22,25 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xf16f1191ac4b4cbc25f35588811f661b5fcd30a1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: OrangeVaultFactoryV1_0
   - address: "0xf47ecd6514d66a635b2933765bc7a64895e27139"
     networks:
       - arbitrum
     tags:
       - contract
-    name: OrangeVaultV2CamelotWethArb
+    name: OrangeVaultV1Initializable
   - address: "0x2854038d756aaef87e801d0d617df5219838bd05"
     networks:
       - arbitrum
     tags:
       - contract
-    name: OrangeVaultV2CamelotUsdcWeth
+    name: OrangeVaultV1Initializable
   - address: "0x16f6617680333e90f18aa89a85817d347078b7b8"
     networks:
       - arbitrum
@@ -58,7 +64,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: OrangeVaultV2CamelotUsdcDai
+    name: OrangeVaultV1Initializable
   - address: "0x7b9d8c413ace4008e22dcf08c3a79a9178682e13"
     networks:
       - arbitrum
@@ -88,7 +94,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: OrangeVaultV2CamelotWethUsdc
+    name: OrangeVaultV1Initializable
   - address: "0xb9c5425084671221d7d5a547dbf1bdcec26c8b7d"
     networks:
       - arbitrum
@@ -100,7 +106,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: OrangeVaultV2CamelotUsdcArb
+    name: OrangeVaultV1Initializable
   - address: "0x690633417ea231073c53f00d30f194489196dfad"
     networks:
       - arbitrum
@@ -112,13 +118,13 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: OrangeVaultV2CamelotUsdceUsdt
+    name: OrangeVaultV1Initializable
   - address: "0xe4762eacd41bd6bfb87ecdd3ec815d242b72f4af"
     networks:
       - arbitrum
     tags:
       - contract
-    name: OrangeVaultV2CamelotWethWbtc
+    name: OrangeVaultV1Initializable
   - address: "0xb4f003bcccd9514cba2a40e26ca9e275c93eac6c"
     networks:
       - arbitrum
@@ -148,10 +154,10 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: OrangeVaultV2CamelotWethUsdt
+    name: OrangeVaultV1Initializable
   - address: "0x59671aa8f4e5adccb26f4c88f0d6047b0ae7620b"
     networks:
       - arbitrum
     tags:
       - contract
-    name: OrangeVaultV2CamelotUsdceUsdc
+    name: OrangeVaultV1Initializable

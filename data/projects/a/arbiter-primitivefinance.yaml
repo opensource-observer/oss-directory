@@ -7,8 +7,8 @@ github:
   - url: https://github.com/primitivefinance/portfolio_simulations
 blockchain:
   - address: "0x0401f7529245c02ed20c63229a1e554e24c954bc"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

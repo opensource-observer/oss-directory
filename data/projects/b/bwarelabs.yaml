@@ -4,10 +4,10 @@ name: BwareLabs
 github:
   - url: https://github.com/bwarelabs
 blockchain:
-  - address: "0xb8950c47E8B9e539601cB47A167DE8bf4Cb1289E"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xb8950c47e8b9e539601cb47a167de8bf4cb1289e"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

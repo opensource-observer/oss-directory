@@ -4,6 +4,18 @@ name: Takaturn
 github:
   - url: https://github.com/takafuldao
 blockchain:
+  - address: "0xf5c5b85ea5f255495e037563cb8cde3513ee602e"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x5833457cecce8395c094fca83f231c28b83eb0c6"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
   - address: "0x55eb2d69ecefd4487651285ca83bb8888830137a"
     networks:
       - arbitrum
@@ -17,20 +29,13 @@ blockchain:
     tags:
       - contract
       - factory
-      - proxy
     name: Collateral
-  - address: "0xf5c5b85ea5f255495e037563cb8cde3513ee602e"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0xb643bda8a23a8dc04bbbf11c464a035fc2a3d587"
     networks:
       - arbitrum
     tags:
       - contract
-    name: FundV1
+    name: Fund
   - address: "0x00042e3895f5ef16b96bc904b9acc92509624ea2"
     networks:
       - arbitrum

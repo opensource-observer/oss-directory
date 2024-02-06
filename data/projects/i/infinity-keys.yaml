@@ -4,14 +4,15 @@ name: Infinity Keys
 github:
   - url: https://github.com/infinity-keys
 blockchain:
+  - address: "0x54b743d6055e3bbbf13eb2c748a3783516156e5b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: InfinityKeysAchievement
   - address: "0x37c752aa952cfb62cc403fd810f2a01801675bcc"
     networks:
       - optimism
     tags:
       - safe
       - wallet
-  - address: "0x54b743d6055e3bbbf13eb2c748a3783516156e5b"
-    tags:
-      - contract
-    networks:
-      - optimism

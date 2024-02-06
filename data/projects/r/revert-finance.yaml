@@ -4,109 +4,110 @@ name: Revert Finance
 github:
   - url: https://github.com/revert-finance
 blockchain:
-  - address: "0x8cadb20A4811f363Dadb863A190708bEd26245F8"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
-      - mainnet
   - address: "0x8df57e3d9ddde355dce1adb19ebce93419ffa0fb"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
-      - creator
       - deployer
       - eoa
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x5411894842e610c4d0f6ed4c232da689400f94a1"
-    tags:
-      - contract
-    networks:
-      - optimism
-      - arbitrum
-    name: Compoundor
-  - address: "0x41c84fe367bb1b517fea383e66c4bf304f30eb47"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9310f89a8d910d33c2a4d9a73a441be3705a63f2"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: MerkleDistributor
-  - address: "0x86690b9dbb979850ae4622347af81232baa3c967"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x35ba8c41ceeea24f7c826015844f2b58af3058a6"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: MerkleDistributor
-  - address: "0xbdd1d443118554feb151406622a3b586992b49d3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2a017f2fb369f4ca061b8d8a922bb05100e8f8c3"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: V3Utils
-  - address: "0x167829543510c13c792bd8f6a414f74d51e3a6d4"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: MerkleDistributor
-  - address: "0xae8999da4d81cb81b42288b12176fe20d7ead578"
-    tags:
-      - contract
-    networks:
-      - optimism
-      - arbitrum
-    name: V3Utils
-  - address: "0x3c0fd0b42aa46f03f6cf5e305ed9b2ce402847ef"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: SelfCompoundor
-  - address: "0xb2ce2d1d4cb5c3b3d3adcad757faf4222ac542f5"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: SelfCompoundor
-  - address: "0x6ee80279c057f17a3c7d5a9aa3e52ac304861e71"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x40d577c05311c8cd4b335afb4a133ed8328c7ba6"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: AutoExit
-  - address: "0x6d55aa15e84bd5847b13bab3245c06b05917d3da"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: AutoExit
   - address: "0x83681c14770b44361e21faf91d8325423365ea5c"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
+  - address: "0x5411894842e610c4d0f6ed4c232da689400f94a1"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Compoundor
+  - address: "0x41c84fe367bb1b517fea383e66c4bf304f30eb47"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x9310f89a8d910d33c2a4d9a73a441be3705a63f2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MerkleDistributor
+  - address: "0x86690b9dbb979850ae4622347af81232baa3c967"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MerkleDistributor
+  - address: "0x35ba8c41ceeea24f7c826015844f2b58af3058a6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MerkleDistributor
+  - address: "0xbdd1d443118554feb151406622a3b586992b49d3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x2a017f2fb369f4ca061b8d8a922bb05100e8f8c3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: V3Utils
+  - address: "0x167829543510c13c792bd8f6a414f74d51e3a6d4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MerkleDistributor
+  - address: "0xae8999da4d81cb81b42288b12176fe20d7ead578"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: V3Utils
+  - address: "0x3c0fd0b42aa46f03f6cf5e305ed9b2ce402847ef"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SelfCompoundor
+  - address: "0xb2ce2d1d4cb5c3b3d3adcad757faf4222ac542f5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SelfCompoundor
+  - address: "0x6ee80279c057f17a3c7d5a9aa3e52ac304861e71"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AutoRange
+  - address: "0x40d577c05311c8cd4b335afb4a133ed8328c7ba6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AutoExit
+  - address: "0x6d55aa15e84bd5847b13bab3245c06b05917d3da"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AutoExit
   - address: "0xab6998459d767eeab2c58aa0a08b7bb5990e7f1b"
     networks:
       - arbitrum
@@ -125,3 +126,10 @@ blockchain:
     tags:
       - contract
     name: AutoExit
+  - address: "0x8cadb20a4811f363dadb863a190708bed26245f8"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

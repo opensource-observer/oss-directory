@@ -4,9 +4,9 @@ name: BladeDAO
 github:
   - url: https://github.com/BladeDaoGames
 blockchain:
-  - address: "0x583531bB89fC5650BD5Df79CA8e2639a98b4B6e2"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x583531bb89fc5650bd5df79ca8e2639a98b4b6e2"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

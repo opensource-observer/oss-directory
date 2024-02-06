@@ -4,10 +4,10 @@ name: JediSwap
 github:
   - url: https://github.com/jediswaplabs
 blockchain:
-  - address: "0x18aa467E40E1deFB1956708830A343c1D01d3D7C"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x18aa467e40e1defb1956708830a343c1d01d3d7c"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

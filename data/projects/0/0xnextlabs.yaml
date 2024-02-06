@@ -4,9 +4,9 @@ name: Nextme
 github:
   - url: https://github.com/0xNextLabs
 blockchain:
-  - address: "0xC19A8A7bcfF4bfaC344d95EF7146Db8fa7169370"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xc19a8a7bcff4bfac344d95ef7146db8fa7169370"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

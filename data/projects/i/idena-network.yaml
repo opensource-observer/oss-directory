@@ -4,9 +4,9 @@ name: IDENA
 github:
   - url: https://github.com/idena-network
 blockchain:
-  - address: "0x8917418aBe36E6E788068E96EF5A47d7484C06b1"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x8917418abe36e6e788068e96ef5a47d7484c06b1"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

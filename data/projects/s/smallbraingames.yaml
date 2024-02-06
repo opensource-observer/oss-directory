@@ -4,15 +4,15 @@ name: Small Brain Games
 github:
   - url: https://github.com/smallbraingames
 blockchain:
-  - address: "0xc152Cc22488f1383E675f5738dF9a4244fB113a5"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xc152cc22488f1383e675f5738df9a4244fb113a5"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
   - address: "0x5bdff0380f67a6347f0ea4ff4a7da04009c2f71a"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

@@ -6,15 +6,15 @@ github:
 npm:
   - url: https://www.npmjs.com/package/@sphinx-labs/plugins
 blockchain:
-  - address: "0x6D308C0535FA135516a2A0c493001e62088B065D"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x6d308c0535fa135516a2a0c493001e62088b065d"
     networks:
       - optimism
-  - address: "0x41F01050a26d45F1621AF2C84527813306C729CB"
     tags:
-      - wallet
       - eoa
+      - wallet
+  - address: "0x41f01050a26d45f1621af2c84527813306c729cb"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

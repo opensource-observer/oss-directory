@@ -4,9 +4,9 @@ name: PiEthereumHardwareWallet
 github:
   - url: https://github.com/PiEthereumHardware
 blockchain:
-  - address: "0xD0ed690B6CBAa6f6B57DacBc57c663cAA8B8275a"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xd0ed690b6cbaa6f6b57dacbc57c663caa8b8275a"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

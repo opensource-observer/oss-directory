@@ -4,15 +4,15 @@ name: GainForest
 github:
   - url: https://github.com/GainForest
 blockchain:
-  - address: "0xc741a5124549F38a72e3a56C7d5e68E481B75441"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - mainnet
-  - address: "0xFF26ff91d74cb25874F48Ee0A8b4a2E1AD611451"
-    tags:
-      - wallet
-      - safe
+  - address: "0xc741a5124549f38a72e3a56c7d5e68e481b75441"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xff26ff91d74cb25874f48ee0a8b4a2e1ad611451"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

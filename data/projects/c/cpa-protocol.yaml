@@ -4,9 +4,9 @@ name: CPA Protocol
 github:
   - url: https://github.com/cpa-protocol
 blockchain:
-  - address: "0x5f9390507A50fEE86B1577a5612342068A3CED04"
-    tags:
-      - wallet
-      - safe
+  - address: "0x5f9390507a50fee86b1577a5612342068a3ced04"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

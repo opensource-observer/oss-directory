@@ -4,9 +4,9 @@ name: Dapplet
 github:
   - url: https://github.com/dapplet
 blockchain:
-  - address: "0xE02Aae2CC50763b22E268593237ef822339853Cf"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xe02aae2cc50763b22e268593237ef822339853cf"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

@@ -4,9 +4,9 @@ name: deScier
 github:
   - url: https://github.com/deScier
 blockchain:
-  - address: "0x51b3d4E44193573Ca62bC793c411e5D743AF053d"
-    tags:
-      - wallet
-      - safe
+  - address: "0x51b3d4e44193573ca62bc793c411e5d743af053d"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

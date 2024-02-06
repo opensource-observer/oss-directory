@@ -4,10 +4,10 @@ name: Ultra Sound Money
 github:
   - url: https://github.com/ultrasoundmoney
 blockchain:
-  - address: "0x52F8592BaAf3B90bC94Cb52F06C086080858e4d7"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x52f8592baaf3b90bc94cb52f06c086080858e4d7"
     networks:
-      - optimism
       - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

@@ -6,9 +6,8 @@ github:
   - url: https://github.com/asharibali/optimism-chatbot-ai
 blockchain:
   - address: "0x6087470d55109fc34802a50a01982b9d0c0b8668"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

@@ -4,15 +4,15 @@ name: Plancker
 github:
   - url: https://github.com/PlanckerLabs
 blockchain:
-  - address: "0xFEdE2257Dc043f53a24Ac7947218BACfB0013B09"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xfede2257dc043f53a24ac7947218bacfb0013b09"
     networks:
       - mainnet
-  - address: "0x883e49dd95fbe06be4e77768c2517f13801a8c6a"
     tags:
       - eoa
       - wallet
+  - address: "0x883e49dd95fbe06be4e77768c2517f13801a8c6a"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

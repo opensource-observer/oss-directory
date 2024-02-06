@@ -4,9 +4,9 @@ name: Lumi
 github:
   - url: https://github.com/lumi-labs
 blockchain:
-  - address: "0x8501Aef9EBD4F3b91Ef5E0c365c1e09bBbbE9912"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x8501aef9ebd4f3b91ef5e0c365c1e09bbbbe9912"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

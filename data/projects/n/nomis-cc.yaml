@@ -4,15 +4,15 @@ name: Nomis
 github:
   - url: https://github.com/Nomis-cc
 blockchain:
-  - address: "0xD587404cd28Bf4eE059ac84a6B7C0219d05EA6CF"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xd587404cd28bf4ee059ac84a6b7c0219d05ea6cf"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
   - address: "0xa1b0b899f843ec4caee771ed7c15fac333f28d7c"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

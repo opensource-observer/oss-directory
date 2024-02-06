@@ -4,19 +4,22 @@ name: Equilibria (Perennial Finance)
 github:
   - url: https://github.com/equilibria-xyz
 blockchain:
-  - address: "0xa59ef0208418559770a48d7ae4f260a28763167b"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: TransparentUpgradeableProxy
   - address: "0x66a7fdb96c583c59597de16d8b2b989231415339"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
+  - address: "0xa59ef0208418559770a48d7ae4f260a28763167b"
+    networks:
+      - arbitrum
+      - mainnet
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
   - address: "0x8cda59615c993f925915d3eb4394badb3feef413"
     networks:
       - arbitrum
@@ -47,27 +50,32 @@ blockchain:
   - address: "0x52c64b8998eb7c80b6f526e99e29abdcc86b841b"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: DSU
+    name: various:DiffersByChain
   - address: "0xaf8ced28fce00abd30463d55da81156aa5aeeec2"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Collateral
+    name: various:DiffersByChain
   - address: "0xe72e82b672d7d3e206327c0762e9805fbfcbca92"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: MultiInvoker
+    name: various:DiffersByChain
   - address: "0x9df509186b6d3b7d033359f94c8b1bb5544d51b3"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Product
+    name: various:DiffersByChain
   - address: "0x5a572b5fbbc43387b5ef8de2c4728a4108ef24a6"
     networks:
       - arbitrum
@@ -89,6 +97,8 @@ blockchain:
   - address: "0x0d49c416103cbd276d9c3cd96710db264e3a0c27"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: TransparentUpgradeableProxy
+    name: various:DiffersByChain

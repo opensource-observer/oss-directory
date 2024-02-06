@@ -4,9 +4,9 @@ name: Somer Esat Ethereum Staking Guides (Ubuntu)
 github:
   - url: https://github.com/SomerEsatGuides
 blockchain:
-  - address: "0x32B74B90407309F6637245292cd90347DE658A37"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x32b74b90407309f6637245292cd90347de658a37"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

@@ -4,9 +4,9 @@ name: Aura
 github:
   - url: https://github.com/Meta-Node
 blockchain:
-  - address: "0xa5a59f3505E9Cd8B541d0157d120AC22A2fbBb77"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xa5a59f3505e9cd8b541d0157d120ac22a2fbbb77"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

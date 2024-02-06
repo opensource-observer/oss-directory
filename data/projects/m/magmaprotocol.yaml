@@ -4,9 +4,9 @@ name: Magma Finance
 github:
   - url: https://github.com/magmaprotocol
 blockchain:
-  - address: "0xB99A581eA1a1685E6Baf3D498d1B796924AAB3BB"
-    tags:
-      - wallet
-      - safe
+  - address: "0xb99a581ea1a1685e6baf3d498d1b796924aab3bb"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

@@ -4,9 +4,9 @@ name: FusionX
 github:
   - url: https://github.com/FusionX-Finance
 blockchain:
-  - address: "0x7ad6e69fcE7b87E0ADA3F5c87E5F3705278F6EC7"
-    tags:
-      - wallet
-      - safe
+  - address: "0x7ad6e69fce7b87e0ada3f5c87e5f3705278f6ec7"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

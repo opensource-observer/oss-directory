@@ -5,59 +5,69 @@ github:
   - url: https://github.com/bond-protocol
 blockchain:
   - address: "0x1a5309f208f161a393e8b5a253de8ab894a67188"
-    tags:
-      - creator
-      - deployer
-      - eoa
     networks:
       - arbitrum
+      - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0x007fe70dc9797c4198528ae43d8195fff82bdc95"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: BondFixedExpiryTeller
   - address: "0x18878df23e2a36f81e820e4b47b4a40576d3159c"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: Kernel
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x623164a9ee2556d524b08f34f1d2389d7b4e1a1c"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: OlympusMinter
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x22ae99d07584a2ae1af748de573c83f1b9cdb4c0"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: CrossChainBridge
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xbc9ee0d911739cbc72cd094ada26f56e0c49eeae"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: OlympusRoles
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x060cb087a9730e13aa191f31a6d86bff8dfcdcc0"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: OlympusERC20Token
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0xb1fa0ac44d399b778b14af0aaf4bcf8af3437ad1"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x13dfeff85779118136bb9826dcad8f3bd25153a3"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x20b3834091f038ce04d8686fac99ca44a0fb285c"
     networks:
       - arbitrum

@@ -4,15 +4,15 @@ name: Colledge
 github:
   - url: https://github.com/somos-colledge
 blockchain:
-  - address: "0xa4dd626b5e2A0AB8D2977fDd44862273372444C0"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - mainnet
-  - address: "0x7385a8D25A8852e842830c486c6AB187598646e6"
-    tags:
-      - wallet
-      - safe
+  - address: "0xa4dd626b5e2a0ab8d2977fdd44862273372444c0"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x7385a8d25a8852e842830c486c6ab187598646e6"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

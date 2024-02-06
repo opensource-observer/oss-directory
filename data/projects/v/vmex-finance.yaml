@@ -4,23 +4,29 @@ name: VMEX Finance
 github:
   - url: https://github.com/vmex-finance
 blockchain:
-  - address: "0x6bfcf01ccdba163c2a01f4dd99508790abc20509"
-    tags:
-      - wallet
-      - safe
+  - address: "0x464ed76c6b2ddecc9aa1e990211670a81b93474b"
     networks:
+      - arbitrum
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - deployer
+      - eoa
   - address: "0x47a61eb4a66e68ca522e998e6c163c880845c5a9"
     networks:
       - arbitrum
     tags:
-      - factory
       - contract
+      - factory
     name: LendingPoolAddressesProvider
   - address: "0x23aea7d17b63682b4f7d4a78d5929796def836cb"
     networks:
       - arbitrum
     tags:
       - contract
-    name: LendingPool
+    name: InitializableImmutableAdminUpgradeabilityProxy
+  - address: "0x6bfcf01ccdba163c2a01f4dd99508790abc20509"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
