@@ -38,8 +38,8 @@ def update_project(project_slug, blockchain_data) -> bool:
     logging.info(f"Updating {project_slug} with {len(blockchain_data)} addresses; previously project had {len(existing_data)} addresses.")
     for record in blockchain_data:
         address = record["address"]
+        found = False
         for existing_record in existing_data:
-            found = False
             if existing_record["address"].lower() == address:
                 found = True
                 tags_diff = set(record["tags"]) - set(existing_record["tags"])
