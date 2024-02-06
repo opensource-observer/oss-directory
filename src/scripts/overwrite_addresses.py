@@ -34,9 +34,28 @@ def update_project(project_slug, blockchain_data) -> bool:
         logging.error(f"Error loading YAML data at {project_path}.")
         return False
     
-    logging.info(f"Updating {project_slug} with {len(blockchain_data)} addresses; previously project had {len(project_data['blockchain'])} addresses.")
-    project_data["blockchain"] = blockchain_data
+    existing_data = project_data.get("blockchain", [])
+    logging.info(f"Updating {project_slug} with {len(blockchain_data)} addresses; previously project had {len(existing_data])} addresses.")
+    for record in blockchain_data:
+        address = record["address"]
+        for existing_record in existing_data:
+            found = False
+            if existing_record["address"].lower() == address:
+                diff = set(record.items()) - set(existing_record.items())
+                logging.info(f"Updating {address} in {project_slug}: {diff}")
+                found = True
+        if not found:
+            logging.info(f"Adding {address} to {project_slug}")
+        
+    for record in existing_data:
+        address = record["address"]
+        for new_record in blockchain_data:
+            if new_record["address"].lower() == address:
+                break
+        else:
+            logging.info(f"Removing {address} from {project_slug}")
 
+    project_data["blockchain"] = blockchain_data
     dump(project_data, project_path)
     logging.info(f"Dumped YAML at {project_slug[0]}/{project_slug}.yaml")
     replace_single_quotes_with_double_quotes_in_file(project_path)
