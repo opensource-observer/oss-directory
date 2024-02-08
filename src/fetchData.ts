@@ -15,12 +15,17 @@ const COLLECTIONS_GLOB = "./data/collections/*.yaml";
  * Clones the `oss-directory` repo into a temporary directory,
  * reads from the `./data` directory and returns the projects and collections.
  */
-export async function fetchData() {
+export async function fetchData(branchOrCommit?: string) {
   let projects: Project[] = [];
   let collections: Collection[] = [];
+
   await tmp.withDir(
     async (t) => {
-      await simpleGit().clone(OSS_DIRECTORY_URL, t.path);
+      const git = simpleGit();
+      await git.clone(OSS_DIRECTORY_URL, t.path);
+      if (branchOrCommit) {
+        await git.checkout(branchOrCommit);
+      }
       const projectFiles = await glob(path.resolve(t.path, PROJECTS_GLOB));
       const collectionFiles = await glob(
         path.resolve(t.path, COLLECTIONS_GLOB),
