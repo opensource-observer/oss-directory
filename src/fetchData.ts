@@ -24,7 +24,7 @@ export async function fetchData(branchOrCommit?: string) {
       const git = simpleGit();
       await git.clone(OSS_DIRECTORY_URL, t.path);
       if (branchOrCommit) {
-        await git.checkout(branchOrCommit);
+        await git.cwd(t.path).checkout(branchOrCommit);
       }
       const projectFiles = await glob(path.resolve(t.path, PROJECTS_GLOB));
       const collectionFiles = await glob(
