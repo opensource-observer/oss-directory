@@ -14,3 +14,11 @@ blockchain:
       - eoa
       - wallet
     name: ricmoo.firefly.eth
+  - address: "0x643aa0a61eadcc9cc202d1915d942d35d005400c"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: donations.ethers.eth
