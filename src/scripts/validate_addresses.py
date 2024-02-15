@@ -205,19 +205,19 @@ if __name__ == "__main__":
     
     # Generate addresses and optionally save them to a file
 
-    # deployers = generate_addresses(address_type_filter="eoa", required_address_tags=["deployer", "creator"])
-    # write_json_file('temp/deployers.json', deployers)
+    deployers = generate_addresses(address_type_filter="eoa", required_address_tags=["deployer", "creator"])
+    write_json_file('temp/deployers.json', deployers)
     # factories = generate_addresses(address_type_filter="contract", required_address_tags=["factory"])
     # write_json_file('temp/factories.json', factories)
     # contracts = generate_addresses(address_type_filter="contract", required_address_tags=["contract"])
     # write_json_file('temp/contracts.json', contracts)
 
-    # safe_wallets = generate_addresses(address_type_filter="safe", required_address_tags=["wallet"])
+    safe_wallets = generate_addresses(address_type_filter="safe", required_address_tags=["wallet"])
     # validated_safe_wallets = [safe for safe in safe_wallets if validate_safe(safe['networks'][0], safe['address'])]
-    # write_json_file('temp/safe_wallets.json', validated_safe_wallets)
+    write_json_file('temp/safe_wallets.json', safe_wallets)
 
     eoa_wallets = generate_addresses(address_type_filter="eoa", required_address_tags=["wallet"])
-    updated_wallets_data = add_ens_to_addresses(eoa_wallets)
+    # updated_wallets_data = add_ens_to_addresses(eoa_wallets)
     write_json_file('temp/eoa_wallets.json', eoa_wallets)
     
 
