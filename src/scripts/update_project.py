@@ -111,6 +111,18 @@ def update_addresses_from_json(filepath: str) -> None:
     by their checksummed format and slugs specified in the JSON file. The function only updates 
     existing entries.
 
+    The file format is as follows:
+    {
+        "label1": {
+            "address1": {
+                "slug": "project-slug",
+                "name": "address-name", # optional
+                "networks": ["network1", "network2"],
+                "tags": ["tag1", "tag2"]
+            },
+        },
+    }
+
     Args:
     filepath (str): The file path of the JSON file containing address details.
     """    
