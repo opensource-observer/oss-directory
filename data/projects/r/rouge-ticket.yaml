@@ -4,10 +4,11 @@ name: Rouge Ticket
 github:
   - url: https://github.com/TheRougeProject
 blockchain:
-  - address: "0xEb439EED5642641968f9D8b52F2788e0F19B443B"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xeb439eed5642641968f9d8b52f2788e0f19b443b"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: rougetoken.eth

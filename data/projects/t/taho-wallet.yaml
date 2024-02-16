@@ -4,10 +4,9 @@ name: Taho
 github:
   - url: https://github.com/tahowallet
 blockchain:
-  - address: "0x99b36fDbC582D113aF36A21EBa06BFEAb7b9bE12"
-    tags:
-      - wallet
-      - safe
+  - address: "0x99b36fdbc582d113af36a21eba06bfeab7b9be12"
     networks:
-      - mainnet
       - optimism
+    tags:
+      - safe
+      - wallet

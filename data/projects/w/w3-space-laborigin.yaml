@@ -4,9 +4,10 @@ name: W3Space
 github:
   - url: https://github.com/LabOriginWeb3
 blockchain:
-  - address: "0x70B20209c83ec8D01e3c7F2ec77BDe7c40cDF2F6"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x70b20209c83ec8d01e3c7f2ec77bde7c40cdf2f6"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: cuegod.eth

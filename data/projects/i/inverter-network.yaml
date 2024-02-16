@@ -4,12 +4,12 @@ name: Inverter Network
 github:
   - url: https://github.com/InverterNetwork
 blockchain:
-  - address: "0x10666d9c6295E838d3b8B84ffcC97d62EF7e6120"
-    tags:
-      - wallet
-      - safe
+  - address: "0x10666d9c6295e838d3b8b84ffcc97d62ef7e6120"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet
   - address: "0x7878aefb660af2b0928b6e1a8acd2b97ecb37c2c"
     networks:
       - optimism
@@ -17,8 +17,8 @@ blockchain:
       - safe
       - wallet
   - address: "0x0bc89f54635167647ab0aa74d298fd3e6dc83f4f"
+    networks:
+      - optimism
     tags:
       - safe
       - wallet
-    networks:
-      - optimism

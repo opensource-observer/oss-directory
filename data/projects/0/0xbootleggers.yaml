@@ -4,9 +4,9 @@ name: Bootleggers
 github:
   - url: https://github.com/0xBootleggers
 blockchain:
-  - address: "0x68d443F1838699d568CD692438F227cA4BaC2292"
-    tags:
-      - wallet
-      - safe
+  - address: "0x68d443f1838699d568cd692438f227ca4bac2292"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

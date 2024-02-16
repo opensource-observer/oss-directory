@@ -4,9 +4,10 @@ name: EtherScore
 github:
   - url: https://github.com/EtherScore
 blockchain:
-  - address: "0x713A95B5923FAEe8Dc32593Ff9c0A30a3818D978"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x713a95b5923faee8dc32593ff9c0a30a3818d978"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: etherscoredao.eth

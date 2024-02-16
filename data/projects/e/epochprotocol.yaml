@@ -4,9 +4,9 @@ name: Epoch Protocol
 github:
   - url: https://github.com/epochprotocol
 blockchain:
-  - address: "0xe223Af979BFf3397Ce02b6741B5D43566B2f3F38"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xe223af979bff3397ce02b6741b5d43566b2f3f38"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

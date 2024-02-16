@@ -4,15 +4,15 @@ name: Foundry
 github:
   - url: https://github.com/foundry-rs
 blockchain:
-  - address: "0x4BAa1fcAe9Ba8F9e1247b5CFD71e2463e85b2284"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x4baa1fcae9ba8f9e1247b5cfd71e2463e85b2284"
     networks:
       - mainnet
-  - address: "0x38c00ce327ea4411cc3ed632f9e8f989907a9c72"
     tags:
       - eoa
       - wallet
+  - address: "0x38c00ce327ea4411cc3ed632f9e8f989907a9c72"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

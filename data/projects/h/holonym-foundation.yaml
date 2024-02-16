@@ -4,114 +4,134 @@ name: Holonym
 github:
   - url: https://github.com/holonym-foundation
 blockchain:
-  - address: "0xCa0b92028Ce7A75d527456A9322c42a9a4E19B60"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - optimism
   - address: "0xc8834c1fcf0df6623fc8c8ed25064a4148d99388"
     networks:
+      - arbitrum
       - optimism
     tags:
+      - deployer
       - eoa
-      - creator
-  - address: "0x01ff075517dc7db43798751f22febdda6ee75b9f"
+    name: holonym-internal.eth
+  - address: "0xcafe2ef59688187ee312c8aca10ceb798338f7e3"
     networks:
       - optimism
     tags:
-      - contract
-  - address: "0x56a14abe1df94af0de78aef3bd96ae9928d3b415"
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xb316940b687daa87392157e2ecfec1b9e182423d"
-    name: Roots
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xdf10310d2c72f5358b19bf6a7c817ec4570b270f"
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x6a78df871291627c5470f7a768745c3ff05741f2"
-    name: IsUSResident
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x2e010ec4da1b4ec2f968b7625e865ba0863d74a5"
-    name: Roots
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x78a0c21f9a24284c90ac7eba63c7396db846a1df"
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0xa40c8aaf7f47b18c1eddbe7855b580f828ed9711"
-    name: SybilPhone
-    networks:
-      - optimism
-    tags:
-      - contract
-  - address: "0x3497556f7d0bf602d4237ecb8ae92840d09e4f63"
-    networks:
-      - optimism
-    tags:
-      - contract
+      - deployer
+      - eoa
   - address: "0xdd748977bab5782625af1466f4c5f02eb92fce31"
-    name: SybilResistance
     networks:
       - optimism
     tags:
       - contract
       - factory
+    name: SybilResistance
   - address: "0x87b6e03b0d57771940d7cc9e92531b6217364b3e"
     networks:
       - optimism
     tags:
       - contract
       - factory
+    name: unverified
   - address: "0x7497636f5e657e1e7ea2e851cdc8649487df3aab"
-    name: IsUSResident
     networks:
       - optimism
     tags:
       - contract
       - factory
+    name: IsUSResident
+  - address: "0x01ff075517dc7db43798751f22febdda6ee75b9f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x56a14abe1df94af0de78aef3bd96ae9928d3b415"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xb316940b687daa87392157e2ecfec1b9e182423d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Roots
+  - address: "0xdf10310d2c72f5358b19bf6a7c817ec4570b270f"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x6a78df871291627c5470f7a768745c3ff05741f2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: IsUSResident
+  - address: "0x2e010ec4da1b4ec2f968b7625e865ba0863d74a5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Roots
+  - address: "0x78a0c21f9a24284c90ac7eba63c7396db846a1df"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa40c8aaf7f47b18c1eddbe7855b580f828ed9711"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SybilPhone
+  - address: "0x3497556f7d0bf602d4237ecb8ae92840d09e4f63"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x25b42489b7647863918af127aaaa3243ec605aca"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x71712ac158c5b25519aad43eb9f496ae16892211"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x7a81f2f88b0ee30ee0927c9f672487689c6dd7ce"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0xb1f50c6c34c72346b1229e5c80587d0d659556fd"
     tags:
       - contract
-    networks:
-      - optimism
+    name: unverified
   - address: "0xca652a621aa40525698510b5c6cf4882df9891eb"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0xe337ad5aa1cb84e12a7aab85aed1ab6cb44c4a8e"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xca0b92028ce7a75d527456a9322c42a9a4e19b60"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xb1f50c6c34c72346b1229e5c80587d0d659556fd"
+    networks:
+      - optimism
+    tags:
+      - contract

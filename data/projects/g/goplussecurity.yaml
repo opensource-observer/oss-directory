@@ -5,9 +5,8 @@ github:
   - url: https://github.com/goplussecurity
 blockchain:
   - address: "0x5a293687b286bbd175513c627d7f871a2f701a87"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

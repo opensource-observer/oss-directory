@@ -8,9 +8,9 @@ npm:
   - url: https://www.npmjs.com/package/hardhat
   - url: https://www.npmjs.com/package/@nomiclabs/hardhat-waffle
 blockchain:
-  - address: "0xBFFF244f4f76F5F983e320f1D4708A7c91E7d3d2"
-    tags:
-      - wallet
-      - safe
+  - address: "0xbfff244f4f76f5f983e320f1d4708a7c91e7d3d2"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

@@ -4,53 +4,53 @@ name: LI.FI
 github:
   - url: https://github.com/lifinance
 blockchain:
-  - address: "0x4D218d77cDdD700565826A31837277e9e2Ea0564"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
-  - address: "0x954e3eb8de035ec1bc8fe8fa0091d5b87ab17d47"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x2fd525b8b2e2a69d054dccb033a0e33e0b4ab370"
-    tags:
-      - contract
-      - factory
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x28c6039ef5634a9e1f6a45014ee9c5b5c64d580f"
-    tags:
-      - contract
-      - factory
-      - proxy
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x2f16c2c6467377920c125c05b7adbc5d74ae5fa1"
-    tags:
-      - contract
-      - factory
-      - proxy
-    networks:
-      - arbitrum
-      - optimism
   - address: "0x11f11121df7256c40339393b0fb045321022ce44"
     networks:
+      - arbitrum
+      - mainnet
       - optimism
     tags:
+      - deployer
       - eoa
-      - creator
+  - address: "0x954e3eb8de035ec1bc8fe8fa0091d5b87ab17d47"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x2fd525b8b2e2a69d054dccb033a0e33e0b4ab370"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0x28c6039ef5634a9e1f6a45014ee9c5b5c64d580f"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0x2f16c2c6467377920c125c05b7adbc5d74ae5fa1"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
   - address: "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae"
     networks:
       - arbitrum
     tags:
       - contract
-    name: LiFiDiamond_v2
+    name: LiFiDiamond
   - address: "0x9b11bc9fac17c058cab6286b0c785be6a65492ef"
     networks:
       - arbitrum
@@ -69,3 +69,9 @@ blockchain:
     tags:
       - contract
     name: FeeCollector
+  - address: "0x4d218d77cddd700565826a31837277e9e2ea0564"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet

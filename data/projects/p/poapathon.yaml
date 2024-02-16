@@ -4,9 +4,9 @@ name: POAPathon
 github:
   - url: https://github.com/poapathon
 blockchain:
-  - address: "0x0daeE5E9E04F995A5939Bb66ee9Af6Bf16C4C7b5"
-    tags:
-      - wallet
-      - safe
+  - address: "0x0daee5e9e04f995a5939bb66ee9af6bf16c4c7b5"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

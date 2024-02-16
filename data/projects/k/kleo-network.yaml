@@ -4,9 +4,9 @@ name: Kleo Network
 github:
   - url: https://github.com/Kleo-Network
 blockchain:
-  - address: "0x86B06319b906e61631f7edbe5A3fe2Edb95A3faE"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x86b06319b906e61631f7edbe5a3fe2edb95a3fae"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

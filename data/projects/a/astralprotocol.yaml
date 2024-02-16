@@ -4,9 +4,9 @@ name: Astral Protocol
 github:
   - url: https://github.com/AstralProtocol
 blockchain:
-  - address: "0x41DdE2Dc7f718D5F764fc97e8d122864587642d4"
-    tags:
-      - wallet
-      - safe
+  - address: "0x41dde2dc7f718d5f764fc97e8d122864587642d4"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

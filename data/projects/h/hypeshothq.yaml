@@ -5,16 +5,15 @@ github:
   - url: https://github.com/hypeshothq/tba-frontend
   - url: https://github.com/hypeshothq/erc6551graph
 blockchain:
-  - address: "0x5561974f0d35d8c355241a5568894df7b691bb28"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xb2919384055600ef6155cb3bf83fcfd08f9e972c"
     networks:
       - optimism
-    name: RPGF3 Payout Address
-  - address: "0xb2919384055600ef6155cb3bf83fcfd08f9e972c"
     tags:
       - contract
+    name: unverified
+  - address: "0x5561974f0d35d8c355241a5568894df7b691bb28"
     networks:
       - optimism
-    name: ""
+    tags:
+      - eoa
+      - wallet

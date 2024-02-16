@@ -7,16 +7,16 @@ github:
 npm:
   - url: https://www.npmjs.com/package/hardhat-deploy
 blockchain:
-  - address: "0xF0D7a8198D75e10517f035CF11b928e9E2aB20f4"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xf0d7a8198d75e10517f035cf11b928e9e2ab20f4"
     networks:
       - mainnet
       - optimism
-  - address: "0xaddbc936ab952b6dc5c5fe090c55269a1174d173"
     tags:
       - eoa
       - wallet
+  - address: "0xaddbc936ab952b6dc5c5fe090c55269a1174d173"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

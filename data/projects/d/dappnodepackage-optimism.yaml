@@ -4,10 +4,11 @@ name: Optimism DAppNode Package
 github:
   - url: https://github.com/DanieleSalatti/DAppNodePackage-optimism
 blockchain:
-  - address: "0x523d007855B3543797E0d3D462CB44B601274819"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x523d007855b3543797e0d3d462cb44b601274819"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: salatti.eth

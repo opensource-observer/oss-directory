@@ -4,9 +4,10 @@ name: TalentLayer
 github:
   - url: https://github.com/TalentLayer-Labs
 blockchain:
-  - address: "0x5e5C70B176e8d9239D2A8e759Fac6A22719d4d1d"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x5e5c70b176e8d9239d2a8e759fac6a22719d4d1d"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: talentlayer.eth

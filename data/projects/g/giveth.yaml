@@ -4,75 +4,65 @@ name: Giveth
 github:
   - url: https://github.com/Giveth
 blockchain:
-
-  - address: "0x4D9339dd97db55e3B9bCBE65dE39fF9c04d1C2cd"
-    tags:
-      - wallet
-      - safe
+  - address: "0x528cdc92eab044e1e39fe43b9514bfdab4412b98"
     networks:
       - optimism
-      - mainnet
-
-  - address: "0x634977e11C823a436e587C1a1Eca959588C64287"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
-      - mainnet
-
-  - address: "0x528CDc92eAB044E1E39FE43B9514bfdAB4412B98"
-    name: Token(GIV)
     tags:
       - contract
+    name: L2StandardERC20
+  - address: "0xe3ac7b3e6b4065f4765d76fdc215606483bf3bd1"
     networks:
       - optimism
-
-  - address: "0xE3Ac7b3e6B4065f4765d76fDC215606483BF3bD1"
-    name: TokenDistro
     tags:
       - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x301c739cf6bfb6b47a74878bdeb13f92f13ae5e7"
     networks:
       - optimism
-
-  - address: "0x301C739CF6bfb6B47A74878BdEB13f92F13Ae5E7"
-    name: UnipoolGIVpower
     tags:
       - contract
-    networks:
-      - optimism
-
+    name: TransparentUpgradeableProxy
   - address: "0xf13e93af5e706ab3073e393e77bb2d7ce7bec01f"
-    name: GIVbacksRelayerProxy
-    tags:
-      - contract
     networks:
       - optimism
-
-  - address: "0x95Fcf30706F3b1e28C8F3d72F4B80FA3A1615b2f"
-    name: TokenDistroImplementation
     tags:
       - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x95fcf30706f3b1e28c8f3d72f4b80fa3a1615b2f"
     networks:
       - optimism
-
+    tags:
+      - contract
+    name: TokenDistro
   - address: "0x226392543f7c2d29349b0e8f6b899a0d05d08d47"
-    name: UnipoolGIVpowerImplementation
-    tags:
-      - contract
     networks:
       - optimism
-
-  - address: "0x2AC383909Ff12F8a119220eEc16Dd081BB22f48E"
-    name: GIVbacksRelayerImplementation
     tags:
       - contract
+    name: UnipoolGIVpower
+  - address: "0x2ac383909ff12f8a119220eec16dd081bb22f48e"
     networks:
       - optimism
-
-  - address: "0x4caB5B9930210E2EdC6A905B9C75D615872A1A7E"
-    name: GIVx(SuperFluid)
     tags:
       - contract
+    name: GIVbacksRelayer
+  - address: "0x4cab5b9930210e2edc6a905b9c75d615872a1a7e"
     networks:
       - optimism
+    tags:
+      - contract
+    name: UUPSProxy
+  - address: "0x4d9339dd97db55e3b9bcbe65de39ff9c04d1c2cd"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x634977e11c823a436e587c1a1eca959588c64287"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: grants.giv.eth

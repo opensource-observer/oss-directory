@@ -4,17 +4,22 @@ name: Yoki Finance
 github:
   - url: https://github.com/yokifinance
 blockchain:
-  - address: "0xd9d0aa3fc1616ee96fe38f3ebaf9eac3862a9d4e"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x2d9a8be931f1eab82abfcb9697023424e440cd43"
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - deployer
+      - eoa
   - address: "0x8a03bf5a5d2aeed434caaa30db467073a551354f"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
+    name: DCAV3Factory
+  - address: "0xd9d0aa3fc1616ee96fe38f3ebaf9eac3862a9d4e"
     networks:
       - optimism
-    name: DCAV3Factory
+    tags:
+      - eoa
+      - wallet

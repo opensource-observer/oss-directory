@@ -4,10 +4,10 @@ name: Loanshark
 github:
   - url: https://github.com/loansharktechteam
 blockchain:
-  - address: "0x7D658841f8Ba93299970f6e765C2CE205f1E70DD"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x7d658841f8ba93299970f6e765c2ce205f1e70dd"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

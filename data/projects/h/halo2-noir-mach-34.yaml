@@ -4,9 +4,9 @@ name: Halo2 Backend for Noir
 github:
   - url: https://github.com/Mach-34
 blockchain:
-  - address: "0xe72aD4f94827AbC45Ed2bc02197FD6C091930492"
-    tags:
-      - wallet
-      - safe
+  - address: "0xe72ad4f94827abc45ed2bc02197fd6c091930492"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

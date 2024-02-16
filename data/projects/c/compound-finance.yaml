@@ -7,6 +7,7 @@ blockchain:
   - address: "0x6103db328d4864dc16bd2f0ee1b9a92e3f87f915"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - deployer
       - eoa
@@ -19,9 +20,10 @@ blockchain:
   - address: "0xb21b06d71c75973babde35b49ffdac3f82ad3775"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Configurator
+    name: various:DiffersByChain
   - address: "0x9c4ec768c28520b50860ea7a15bd7213a9ff58bf"
     networks:
       - arbitrum

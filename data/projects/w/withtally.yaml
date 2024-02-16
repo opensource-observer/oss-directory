@@ -4,9 +4,9 @@ name: Tally
 github:
   - url: https://github.com/withtally
 blockchain:
-  - address: "0xec1C77AC05915F099C7c56900D63823Fa4308800"
-    tags:
-      - wallet
-      - safe
+  - address: "0xec1c77ac05915f099c7c56900d63823fa4308800"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

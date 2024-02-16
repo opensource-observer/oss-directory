@@ -4,9 +4,10 @@ name: MEVBoostAA
 github:
   - url: https://github.com/MEVBoostAA
 blockchain:
-  - address: "0xBBbb17A8C1Ce64be28faCd93b22450abB01B5DCA"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xbbbb17a8c1ce64be28facd93b22450abb01b5dca"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: 0xbbbb.eth

@@ -5,29 +5,31 @@ github:
   - url: https://github.com/sablier-labs
 blockchain:
   - address: "0x0298f4332e3857631385b39766325058a93e249f"
-    tags:
-      - creator
-      - deployer
-      - eoa
     networks:
       - arbitrum
+      - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0x6c5927c0679e6d857e87367bb635decbcb20f31c"
+    networks:
+      - optimism
     tags:
       - contract
     name: Sablier
-    networks:
-      - optimism
   - address: "0xadb944b478818d95659067e70d2e5fc43fa3ede9"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
-      - arbitrum
     name: Sablier
   - address: "0xb1bef51ebca01eb12001a639bdbbff6eeca12b9f"
     networks:
+      - arbitrum
+      - mainnet
       - optimism
     tags:
+      - deployer
       - eoa
-      - creator

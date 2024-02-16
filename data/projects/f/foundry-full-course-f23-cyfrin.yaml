@@ -6,9 +6,9 @@ name:
 github:
   - url: https://github.com/Cyfrin/foundry-full-course-f23
 blockchain:
-  - address: "0x2Ee6EDf2F5f5C8550CBf99628AA26b71FC23039e"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x2ee6edf2f5f5c8550cbf99628aa26b71fc23039e"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

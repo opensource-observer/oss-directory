@@ -6,1602 +6,1824 @@ github:
 npm:
   - url: https://www.npmjs.com/package/@socket.tech/plugin
 blockchain:
-  - address: "0x803CE4f6A0e064a01C56f7Ca21223a7b65e4b869"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - optimism
-  - address: "0x5fd7d0d6b91cc4787bcb86ca47e0bd4ea0346d34"
-    tags:
-      - creator
-      - deployer
-      - eoa
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x0e1b5ab67af1c99f8c7ebc71f41f75d4d6211e53"
-    tags:
-      - creator
-      - deployer
-      - eoa
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x86791c7b7ea5f77b1612ecc300dd44ba3a1c9083"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0xfbe184415f4893e4e9f918f5e0e22d759c9794a7"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
   - address: "0xe8dd38e673a93ccfc2e3d7053efccb5c93f49365"
-    tags:
-      - eoa
-      - creator
     networks:
+      - arbitrum
+      - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xfbe184415f4893e4e9f918f5e0e22d759c9794a7"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x86791c7b7ea5f77b1612ecc300dd44ba3a1c9083"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x0e1b5ab67af1c99f8c7ebc71f41f75d4d6211e53"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x5fd7d0d6b91cc4787bcb86ca47e0bd4ea0346d34"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+    name: socketadmin.eth
   - address: "0x4a21c588c93c38833bcf3c0fe0425bc114fe8271"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
+      - deployer
       - eoa
-      - creator
-    networks:
-      - optimism
   - address: "0xc2bd14fe818c6fc47246bee79f0d91afbebb43e2"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: unverified
   - address: "0xb5c4e167b4be4be65052043d4cc0ffb7a73a7b7e"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
+    name: unverified
+  - address: "0x71630095e3f08a86afc73f7b07342192adf39c55"
     networks:
       - optimism
-  - address: "0x71630095e3f08a86afc73f7b07342192adf39c55"
     tags:
       - contract
       - factory
     name: SocketDeployFactory
-    networks:
-      - optimism
   - address: "0xf2b6544589ab65e731883a0244cbefe5735322c5"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: unverified
   - address: "0xad8cde0f29556c3ecc63fc52c4115376b27fc81a"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: unverified
   - address: "0x17b1007fa5d96e75f6733e3790dccfaeeda7e5ff"
-    tags:
-      - contract
-      - factory
-      - proxy
     networks:
       - arbitrum
       - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
   - address: "0x777d93f5d48b1e838e630fa02dfb2c11db8ef8df"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: unverified
   - address: "0x880997ed94dd2098395d2b3ecdb1c93026894106"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: unverified
   - address: "0x66ad32f5f3c42c6b8102e998f24936f57997ce18"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: unverified
   - address: "0xbabd77ef777072ba8f1c3fff93db3738d6dbbcd1"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: unverified
   - address: "0xc1b0d60d942b7de0414ff84f53fe7d15d405f5a9"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
+    name: unverified
+  - address: "0xb6170138b6460538cf4daa97f06a16d6bb2ad38f"
     networks:
       - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0x8668293ba7de23e2e8e9dd5368e6e4eb778ee7d0"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: CapacitorFactory
   - address: "0x91e4c4ce0b693058b7f5e05fafd6cfc1af75c76b"
+    networks:
+      - optimism
     tags:
       - contract
     name: SwitchBeyond
-    networks:
-      - optimism
   - address: "0x30f73cb88f965eca6e4c87c05ab97d0b23359ae6"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0x5afa7ddbce8ee8862fdf5fd8c546bf32615d2d9b"
-    tags:
-      - contract
-    name: SocketBatcher
-    networks:
-      - optimism
-  - address: "0x36c4b7a6d8fb2db65c5806f4a81a8723160a8bb7"
-    tags:
-      - contract
-    name: Counter
-    networks:
-      - optimism
-  - address: "0x4aa89efdd4050dd40c1a3863294b6b148fd297db"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xae7ab947dc04b2e4965a9d99c109c65b4f0ee139"
-    tags:
-      - contract
-    name: Hasher
-    networks:
-      - optimism
-  - address: "0xdd975f8d5b2f20d574e6777001e236a05f4ae3c4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x74af6d7b484729384342dd68c60d73a3bf7081df"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfc42bcaa16a54e7e48d0c39e4713dc5923bd551d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1cc477a4b1ab759d21aba3fdd886adc2eec28243"
-    tags:
-      - contract
-    name: ZeroXSwapImpl
-    networks:
-      - optimism
-  - address: "0x47e983e30e97e4957c805244c574b74fb3d2bf47"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x18358f1b750a8c38f041384c1f4d8867820b3a5f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3c751688261f90369c28b16f3797e623667f69d4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2dff1c101cdae89d838b980d891e316c09b1f4cf"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x326bbbaca7340be280f997739e4ac9791415b77f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xaa3d9fa3ab930ae635b001d00c612aa5b14d750e"
-    tags:
-      - contract
-    name: HopImplL2
-    networks:
-      - optimism
-      - arbitrum
-  - address: "0x4bf6e44a27e37f195c15b3075cbac63c46848375"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6ed4c3ea9b25cd8bdef9b3101e3bf5cceda01402"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc893bd7361ac00a2879d526016043fffde5cec55"
-    tags:
-      - contract
-    name: LootDAI
-    networks:
-      - optimism
-  - address: "0x8f5e377b2b07d1440f7f7d079f402a53c97159d1"
-    tags:
-      - contract
-    name: LootDAI
-    networks:
-      - optimism
-  - address: "0xd9a317288843d8ae4c80bc78eb9af4ee21aeedf3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xbf47f1b6aec8c1ec47ceba21f3b868567738c8b2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9b76a24aab4d578440fdd5139f5e9d41025b6fcd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd23678c7d554cb09ca7892d6521d40bfb02a05c8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe0134ca3d7ad384070580542baee00511105befa"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6ec499b869716bb479a843cebe048a90ec6d343c"
-    tags:
-      - contract
-    name: Miner
-    networks:
-      - optimism
-  - address: "0x97fad2597a51bd04c53f107de3580dfd545139a4"
-    tags:
-      - contract
-    name: LootVault
-    networks:
-      - optimism
-  - address: "0xb48b743b85bf955c4c039599a3ecdd6175b6787f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8537307810fc40f4073a12a38554d4ff78efff41"
-    tags:
-      - contract
-    name: HopImplL2
-    networks:
-      - optimism
-      - arbitrum
-  - address: "0x09bbe4dacbf631994f2f1b70c1b18d62c19466e6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4793c35f775a4abf2d503278cfeffc04963076b8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc972ab9a6cb41b4bc437326af7d2b45cd59d5256"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x91f48c638ab0457fc807ca40300f3acf1688a4d8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa9b203773c68b4edc17d4bd1151f6b2bbeb36bc8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5eb0f5958131b627063750a5d4efae37b258c5d3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5ee146ea004afbb339d9c4164ca04c89f00a021f"
-    tags:
-      - contract
-    name: BugSubmission
-    networks:
-      - optimism
-  - address: "0x7e6da87fe69306caaed675ffe4e7dc0ffe3bfe4d"
-    tags:
-      - contract
-    name: OptimismSwitchboard
-    networks:
-      - optimism
-  - address: "0x6712ce4f5ad375df6301d5010c1039f393904498"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x85e9f93cdcc3b617b0790ac351f35b14b6bb9363"
-    tags:
-      - contract
-    name: LootVault
-    networks:
-      - optimism
-  - address: "0xd8cead962b7d12139ee62d38fe9bca8e04ae7fa6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x259dda264f78d4edd3c9abbf93fcf2174eddfefd"
-    tags:
-      - contract
-    name: Loot3D
-    networks:
-      - optimism
-  - address: "0x20ebdc614abc74386e5eb67a1516edc6ebd32540"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8ac0a7a1f26c6e074c3c063ba5aa5b736db6724b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe72edec20d6c65a046ae96c3ddecfb93f5cfa52c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2369bbf24e64dbae6090d043663b7c1b20edcca3"
-    tags:
-      - contract
-    name: FeesTakerController
-    networks:
-      - optimism
-  - address: "0x717facaa298fa151c6ffad47b5e9c51c41bc2199"
-    tags:
-      - contract
-    name: OptimismSwitchboard
-    networks:
-      - optimism
-  - address: "0x90b4d987981ad1ded5bbcf9ee2928e811f81e8cc"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x87afc932a440bac07a50aed721eb04f4859a63a7"
-    tags:
-      - contract
-    name: LootVault
-    networks:
-      - optimism
-  - address: "0xeb03440702bb6de23c63ad1c5a24598433f59f86"
-    tags:
-      - contract
-    name: HyphenImplV2
-    networks:
-      - optimism
-  - address: "0x0f933f6a58d885586d356d6677dc87995bdc1b51"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x992e0ba66012858538ca20c621f9ccf09fc40424"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb02113a6b679a20ac5f6f7c05025f4b16395aeb7"
-    tags:
-      - contract
-    name: SigMaker
-    networks:
-      - optimism
-  - address: "0xdcef080bb245a3314945436b41c08206405b2cc9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc87dbb87cfdd14c5b96a90c65c30bfb195e06e39"
-    tags:
-      - contract
-    name: CaptureTheFees
-    networks:
-      - optimism
-  - address: "0x0531789edca5f6e641b8d3ae48ef9fda4660c76d"
-    tags:
-      - contract
-    name: LootDAI
-    networks:
-      - optimism
-  - address: "0xf873a063d74ae5f27aac1ef6317095a383032775"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd075c9fa148161e4828977a84a4054eb048172dd"
-    tags:
-      - contract
-    name: SwitchBeyond
-    networks:
-      - optimism
-  - address: "0x10567782c459bc8bf90b89f7da189c754203bfec"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa3f9a7a13055f37479ebc28e57c005f5c9a31f68"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x589236f61b971919f49014f4633484df356dd2fb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1cab023a0cb8178163fb47de7c63c3192767cc26"
-    tags:
-      - contract
-    name: FastSwitchboard
-    networks:
-      - optimism
-  - address: "0x0a523d8d8e2ad6f6623b3318a59743546cae6163"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x47e136cf4a96e1afa72e19022f9699bbaa1be60e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xadbc2c4ffbd5de29e2ef566e4db67f8a839dd66a"
-    tags:
-      - contract
-    name: OptimismSwitchboard
-    networks:
-      - optimism
-  - address: "0xf5b588306867992201fc78de045bce01be6ea2fd"
-    tags:
-      - contract
-    name: CommonPlug
-    networks:
-      - optimism
-  - address: "0x9a956704888a805c954b2c68d4faeeaf1eb45115"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf848907549f27cc5424ee0b0f8fe5238113632af"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9ba3ff23c5373a9c7f0ceb8b6b5f4c98cec7d922"
-    tags:
-      - contract
-    name: OptimisticSwitchboard
-    networks:
-      - optimism
-  - address: "0x60f0cc35b10b8f7754fe7078bad8bf19204739d1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4fe1addcb348bf191164fb10605c8beec8d42abd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdfd12c02b718e2a9ec97852a5b22a8f9ae194cd0"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x665288be03e0397d5bd9838732fa1ec3189288a7"
-    tags:
-      - contract
-    name: OptimisticSwitchboard
-    networks:
-      - optimism
-  - address: "0x341903595b4805b2f6d751083c4dd1dd71863459"
-    tags:
-      - contract
-    name: Loot3D
-    networks:
-      - optimism
-  - address: "0x7ab75ae7f84a5c5d696b619d866e05a27b1f4d7b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7438c178ba5b6c014f984478de175951b39a2e24"
     tags:
       - contract
     name: StargateImplL2V2
+  - address: "0x5afa7ddbce8ee8862fdf5fd8c546bf32615d2d9b"
     networks:
+      - mainnet
       - optimism
-  - address: "0x29fd3a2ea3fd84aad21afdd7863e00a1efbae6bd"
     tags:
       - contract
+    name: various:DiffersByChain
+  - address: "0x36c4b7a6d8fb2db65c5806f4a81a8723160a8bb7"
     networks:
       - optimism
-  - address: "0x72c948de38c6c8211211b00a685ecb1e9ef88dfe"
     tags:
       - contract
+    name: Counter
+  - address: "0x4aa89efdd4050dd40c1a3863294b6b148fd297db"
     networks:
       - optimism
-  - address: "0x4e7f21d92b70fcbbcb6afcb8bf59420622c158b3"
     tags:
       - contract
-    name: FeesTakerController
+    name: OpenExecutionManager
+  - address: "0xae7ab947dc04b2e4965a9d99c109c65b4f0ee139"
     networks:
       - optimism
-  - address: "0xb8c32878c69f4cc4705d0bd99bca082c4eefd76d"
     tags:
       - contract
+    name: Hasher
+  - address: "0xdd975f8d5b2f20d574e6777001e236a05f4ae3c4"
     networks:
       - optimism
-  - address: "0x7b2f652b2da7e0b1077b02d5e629966383d11161"
     tags:
       - contract
+    name: Hasher
+  - address: "0x74af6d7b484729384342dd68c60d73a3bf7081df"
     networks:
       - optimism
-  - address: "0x1f83e8a02f3869fb7ff043c89f3f31a48efa9195"
     tags:
       - contract
-    name: ConnextImpl
+    name: SyncPlug
+  - address: "0xfc42bcaa16a54e7e48d0c39e4713dc5923bd551d"
     networks:
-      - optimism
-  - address: "0xbb7287aaf5fd6e4cd245e88d000ae41d79af50a2"
-    tags:
-      - contract
-    name: OrderCheck2
-    networks:
-      - optimism
-  - address: "0xf096fd1b47dfc14d2320571c5f7ecdb5cad219f0"
-    tags:
-      - contract
-    name: SignatureVerifier
-    networks:
-      - optimism
-  - address: "0x1eb392aba52a2d933e58f7e86ca96b9a3e2d8166"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4d46d8c1ac1c80538af5002bc64b6412e4ac1023"
-    tags:
-      - contract
-    name: AnyswapV6L2Impl
-    networks:
-      - optimism
-  - address: "0x86a0a4a05b73fc03bec0ef7cfe1cab8cc406ce6b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd5aa63075160b2a00edfa3d7bb51acdb81af7678"
-    tags:
-      - contract
-    name: AcrossImpl
-    networks:
-      - optimism
-  - address: "0x27d6c81b2688f28d8fff55940cdbb8b5b3a0ed0f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x929625acce321770c747c38cc989b689ee823d90"
-    tags:
-      - contract
-    name: OptimisticSwitchboard
-    networks:
-      - optimism
-  - address: "0x657a9bdd0d2e89c1fb1f0a4c364dfd7d1a3702bc"
-    tags:
-      - contract
-    name: PlayTime
-    networks:
-      - optimism
-  - address: "0x565810cbfa3cf1390963e5afa2fb953795686339"
-    tags:
-      - contract
-    name: OneInchSwapImpl
-    networks:
-      - optimism
-  - address: "0xbec1741a51e2b06617bbfb145492109a630e05cd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5333982087c2db4f85d0ed2cde22b22abc0fdae3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x60e04bab3d82a16a7963bcd44b494bd9bbb5f8fb"
-    tags:
-      - contract
-    name: MakeItRain
-    networks:
-      - optimism
-  - address: "0x9ea1c30a61f33c82762df9bce404b19735302b88"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0c0858290b6b268a93fb557af06390a3460c5db6"
-    tags:
-      - contract
-    networks:
-      - optimism
       - arbitrum
-    name: AcrossImplV2
-  - address: "0xd550ce2bb4cc954542efcf23ea1147143bd8f77c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7a369b3d9cba81d338b98e25422335bfd5d821bc"
-    tags:
-      - contract
-    name: ThreeMessageCounts
-    networks:
-      - optimism
-  - address: "0xde007c8a9a7fa8676f9a751b7bc1ef38af76757f"
-    tags:
-      - contract
-    name: SignatureVerifier
-    networks:
-      - optimism
-  - address: "0x8f4ee8ab18ed25f787bc81a8d5e7b1d0deae4322"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7cce8183aee0d8e2f3f946fa142faf58727dfaff"
-    tags:
-      - contract
-    name: CelerV2Impl
-    networks:
-      - optimism
-  - address: "0x792b49617491b936cbd61592f2c7d2e07d17e90d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x29829a795d2a592edd87378e5346f9fc17dd6033"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x653a03b511e6fe9e80eecb2bbbd36dcaf93cf147"
-    tags:
-      - contract
-    name: HyphenImpl
-    networks:
-      - optimism
-  - address: "0x2eb0e1a4194204c6881ef13cdfe6e539b53564c9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4513f50921a0333f2067ebdb9369daa81bcfc24c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb568433fe45ca1ea2a7ff98ad0746cea7300c12b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x09b471b83b91bdb1aa361f05770cfceff7526b65"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd6ff172fc2caf9878768f768e3176e9ef2ed7b22"
-    tags:
-      - contract
-    name: Traveller
-    networks:
-      - optimism
-  - address: "0x25aaef700c735db1c7e8f77eb6e4c20878c76262"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd4021383fc5135a7082e6eeb473ae7abf109d024"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfb0eab1261bb71254d4a8cc6dbf151b53d34781c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc6962fa49e9221aa5c1ca90b2c1b721678c176a4"
-    tags:
-      - contract
-    name: LootDAI
-    networks:
-      - optimism
-  - address: "0x2d0eeb574cc98f6d57c72ffe730d5c8a8f2eac37"
-    tags:
-      - contract
-    name: HopImplL2
-    networks:
-      - optimism
-  - address: "0xd5087ca5f76dc6785ba03dea23adcf41fe228df5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6f0df1d93dc1673c933a81eb122112c511d119a1"
-    tags:
-      - contract
-    name: Window
-    networks:
-      - optimism
-  - address: "0x8fb9ecd91723fe037012133ef8c4c767cf0d4514"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0645095dc03b9546dfdb2fc8e7a52959ec37efa1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x321767762d66a69a8ccfe07d1b9805d314707b59"
-    tags:
-      - contract
-    name: SocketBatcher
-    networks:
-      - optimism
-  - address: "0xe00d67f732e6ed1158553fdbe9c6a151d06bed6c"
-    tags:
-      - contract
-    name: FeeRouter
-    networks:
-      - optimism
-  - address: "0x387bcee789a50b42eda6aebc55b7505183ae56f0"
-    tags:
-      - contract
-    name: RainbowSwapRefuelImpl
-    networks:
-      - optimism
-  - address: "0x92c7a51bd507736ac0dda48b5f35a4aad0c2bb4d"
-    tags:
-      - contract
-    name: Easter
-    networks:
-      - optimism
-  - address: "0x80589802c34858fa9ae0c526bf8972d5ffc4d9df"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb2dc051ba9d471dc441755871a5096b291cc364d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x85197bc6a4753829889cf31193639f2429a80a46"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf19516273aff391293ff79822c08e66932b77aa6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x450aa5c9a0809e5e704254f79cf3452031c01ede"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x03709c48dec486b64ddedacfbed43acea5ababe8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x80b51629e095918bc15c206f1aff5a590cc729f8"
-    tags:
-      - contract
-    name: Hasher
-    networks:
-      - optimism
-  - address: "0xd10cb28719302698d7fa685d73dccd330b6bf573"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xbd57fa1470145289407992279c684aa42c8c88dd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x11695ff9ee5e600b90bcbd651d1758a9b240a2d8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb5beec0c58db0ba0bad09e5ea6af01ed0d58b735"
-    tags:
-      - contract
-    name: AcrossImpl
-    networks:
-      - optimism
-  - address: "0x48b4f0692eaa84f1961b64342ae746d40d9ac2f2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3ec389511af4af02c9f3723c0fdeb105d1cc5a9c"
-    tags:
-      - contract
-    name: RainbowSwapImpl
-    networks:
-      - optimism
-  - address: "0x18e36589ebfbb0410babd72e9ecdbb11ca764ace"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd3f39174ee7937381e19d682ffea40968266fa3e"
-    tags:
-      - contract
-    name: TransmitManager
-    networks:
-      - optimism
-  - address: "0x80e51327a393e6d6777c85c9ac16bad45086ca5c"
-    tags:
-      - contract
-    name: SignatureVerifier
-    networks:
-      - optimism
-  - address: "0x029057df831cce19fc7adbb8d7283afcbb9d88d0"
-    tags:
-      - contract
-    name: ZeroXRefuelImpl
-    networks:
-      - optimism
-  - address: "0x9d245fdef1164a4d4014c2570fd88855ea9545d0"
-    tags:
-      - contract
-    name: CommonPlugProxy
-    networks:
-      - optimism
-  - address: "0x35479b023e508ee9a7b533dbb5b516bb6875f937"
-    tags:
-      - contract
-    name: SurgePass
-    networks:
-      - optimism
-  - address: "0x6cf8d2bf45fe99e369db145faf6fb606a50b27f3"
-    tags:
-      - contract
-    name: LyraReceiver
-    networks:
-      - optimism
-  - address: "0xafbe4bc31b3e5636e1446a987a42d8ad5b4eccf2"
-    tags:
-      - contract
-    name: TwoMessageCounts
-    networks:
-      - optimism
-  - address: "0x08cea8e6b3f8cf1c04f095edebbcc1df6f08121c"
-    tags:
-      - contract
-    name: Loot3D
-    networks:
-      - optimism
-  - address: "0x749f09be3ca34b89f970ff3f594567d072a98e5a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x769874c359e23356a9fecf11d710f05513f033f8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xffb09850fab52765b5e48eac1aa3ffad620c8fce"
-    tags:
-      - contract
-    name: SocketBatcher
-    networks:
-      - optimism
-  - address: "0x10bcd35f03c9c9b68305875f52b406188f5755de"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc457f777402bd8449dfdd2a3481c4affbef56747"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x976973618488e452027f4017b088ea8374486fa7"
-    tags:
-      - contract
-    name: SignatureVerifier
-    networks:
-      - optimism
-  - address: "0xffcbd42167550edb20d64f99278537075723b4c8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc94bf98cfe43d8c891d4ee43a47435be361e5d15"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x18b2379f0b359e2a5962aac884d34f29e1a72a98"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x61dff4a2a75523767b52b0f6043a7aa96ea80846"
-    tags:
-      - contract
-    name: FeeRouter
-    networks:
-      - optimism
-  - address: "0x767ce21d9f9dc90f524b0c67ebdf50ed5ab26041"
-    tags:
-      - contract
-    name: FindTheSign
-    networks:
-      - optimism
-  - address: "0xf50ed30a7a6951d830bc4e6498b5abc7132a4f6c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6fedde12105f47eacde493ee294d207bfe68dce5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xddc3a2bc1d6252d09a82814269d602d84ca3e7ae"
-    tags:
-      - contract
-    name: StargateReceiver
-    networks:
-      - optimism
-  - address: "0x8e9e34fd67634f33b2e2e49d083fbfd8c064fe9a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb442582f235cf3d039a81f067b02f5e66f34a57c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0a3451e8546458dfd60d81f90d2e495398e58f87"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf5cadaa4769aa6c061224602b687affb5119d5e8"
-    tags:
-      - contract
-    name: AddressAssemble
-    networks:
-      - optimism
-  - address: "0xe186a05fb020324a7ca61d80138bb1ea66dddbdf"
-    tags:
-      - contract
-    name: RefuelBridgeImpl
-    networks:
-      - optimism
-  - address: "0x8e304e89dc574dc3296bbbf94b3f81ae256eb0de"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x89800a17cea97db4a8f0705d7f8da770032397f5"
-    tags:
-      - contract
-    name: AcrossImpl
-    networks:
-      - optimism
-  - address: "0x66a1274fff5506c3a69dd35dc5c9a60e63fb3107"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf004c4c51b6c026247b5910706ee78134299eabd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x64b3149a51795e4bd85505087c2aab3d9b50d957"
-    tags:
-      - contract
-    name: Hasher
-    networks:
-      - optimism
-  - address: "0xfcebb7f5f3827f2fb485d24d1342977630e6ac6c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6c7a28f6ae2d245b0130520b112fa3544a06d9ae"
-    tags:
-      - contract
-    name: BugSubmission
-    networks:
-      - optimism
-  - address: "0x50f7e7eef0fd9173f6b33ce4eafedec606673bce"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2ddf16ba6d0180e5357d5e170ef1917a01b41fc0"
-    tags:
-      - contract
-    name: AcrossImplL2
-    networks:
-      - optimism
-  - address: "0x73f4c90674a91d8e49286ee511bc4bb9c7e0f5a5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdf4ff02e2dde3a08590829d7398cc31b0255bab5"
-    tags:
-      - contract
-    name: Hasher
-    networks:
       - optimism
-  - address: "0xb81de21eb8811968c03c8ca96b2c5901ee849000"
     tags:
       - contract
+    name: various:DiffersByChain
+  - address: "0x1cc477a4b1ab759d21aba3fdd886adc2eec28243"
     networks:
       - optimism
-  - address: "0x2d7f2b4cee097f08ed8d30d928a40eb1379071fe"
     tags:
       - contract
     name: ZeroXSwapImpl
+  - address: "0x47e983e30e97e4957c805244c574b74fb3d2bf47"
     networks:
       - optimism
-  - address: "0x6d4f89284e06554eeeef79215a823b6f9d7b48d8"
     tags:
       - contract
+    name: HopImplL2V2
+  - address: "0x18358f1b750a8c38f041384c1f4d8867820b3a5f"
     networks:
       - optimism
-  - address: "0x4f04f8ae9fc3a9539d00e5e69c3b262b31220d00"
     tags:
       - contract
-    name: Hasher
+    name: ConnectIt
+  - address: "0x3c751688261f90369c28b16f3797e623667f69d4"
     networks:
       - optimism
-  - address: "0x8b57c3285a2acc9af1b813fa21ff99264943ff00"
     tags:
       - contract
+    name: unverified
+  - address: "0x2dff1c101cdae89d838b980d891e316c09b1f4cf"
     networks:
       - optimism
-  - address: "0xb584d4be1a5470ca1a8778e9b86c81e165204599"
     tags:
       - contract
-    name: CelerImplL1L2
+    name: unverified
+  - address: "0x326bbbaca7340be280f997739e4ac9791415b77f"
     networks:
       - optimism
-  - address: "0x49fd4671dc7f836be12cedef798d094437c8dc00"
     tags:
       - contract
+    name: unverified
+  - address: "0xaa3d9fa3ab930ae635b001d00c612aa5b14d750e"
     networks:
+      - arbitrum
       - optimism
-  - address: "0x9e51cdbd0dc54e314b6b17c69ed34a98b8259a16"
     tags:
       - contract
+    name: various:DiffersByChain
+  - address: "0x4bf6e44a27e37f195c15b3075cbac63c46848375"
     networks:
       - optimism
-  - address: "0x7c6c373190421988fa31e64f369c45205676c1f0"
     tags:
       - contract
+    name: unverified
+  - address: "0x6ed4c3ea9b25cd8bdef9b3101e3bf5cceda01402"
     networks:
       - optimism
-  - address: "0x5dfdff7a95a9a8472e6439afc6b760545692ca1c"
     tags:
       - contract
+    name: unverified
+  - address: "0xc893bd7361ac00a2879d526016043fffde5cec55"
     networks:
       - optimism
-  - address: "0x5df06caa38ed2c60a49174176fc745c532426fb4"
     tags:
       - contract
-    name: CommonPlug
+    name: LootDAI
+  - address: "0x8f5e377b2b07d1440f7f7d079f402a53c97159d1"
     networks:
       - optimism
-  - address: "0x4f2b1fbb51bdfe1471b3de6e88c909e77c042b61"
     tags:
       - contract
-    name: ConnextImpl
+    name: LootDAI
+  - address: "0xd9a317288843d8ae4c80bc78eb9af4ee21aeedf3"
     networks:
       - optimism
-  - address: "0x49c79ed56df2301ec851fad0b2a566e4fe38fa82"
     tags:
       - contract
+    name: GasPriceOracle
+  - address: "0xbf47f1b6aec8c1ec47ceba21f3b868567738c8b2"
     networks:
       - optimism
-  - address: "0x1d43076909ca139bfac4ebb7194518be3638fc76"
     tags:
       - contract
+    name: unverified
+  - address: "0x9b76a24aab4d578440fdd5139f5e9d41025b6fcd"
     networks:
       - optimism
-  - address: "0x6a8be071c1f37e0a5abbbc7700769548f5bc1e46"
-    tags:
-      - contract
-    name: CommonPlug
-    networks:
-      - optimism
-  - address: "0x3379f120917fb67728d6db6065d9fdbbd1507a7b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xccd5a9bf2250070289a719c153390cb001316c6e"
-    tags:
-      - contract
-    name: FastSwitchboard
-    networks:
-      - optimism
-  - address: "0x5c1ea29930e052f218634d807667a1387eb4c44f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4b4d63e5044894184e35ae7854d0e0c749e418ae"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1b74ac5daca01d82a3d2e7688ea30e50fe6ff35e"
-    tags:
-      - contract
-    name: ExecutionManager
-    networks:
-      - optimism
-  - address: "0x5a21d4f5c1cf7fe5fae9eff8bfda519cd10893f2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3dd7419889ff387a58d3dad1f8b49ea1064290fb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1bea4f9f93f84fd5a68f321e6003a6b16b313740"
-    tags:
-      - contract
-    name: Loot3D
-    networks:
-      - optimism
-  - address: "0xa7f7e4fe8e4cddcd9969bd3fbcff67000cd7de47"
-    tags:
-      - contract
-    name: AcrossImplV2
-    networks:
-      - optimism
-  - address: "0x5035d9b44c29b503ebcc1e7d6223ae78a37032d6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x96424dcbe8767a5ddd8e0e40291f6240ef78abdb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x300e530cbd5314860dd8a0e873c8c083d2331ae1"
-    tags:
-      - contract
-    name: PacketSearch
-    networks:
-      - optimism
-  - address: "0xaa95ed59fc4a4e0acdee31a8981cd8f6f2ae6445"
-    tags:
-      - contract
-    name: OneInchImpl
-    networks:
-      - optimism
-  - address: "0x898aefdf7d1ccb3dc78179bbbf52acede878d7f2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0fd9f11b9c54a9f100234eeef9ee7873d73c2204"
-    tags:
-      - contract
-    name: HopImplL2
-    networks:
-      - optimism
-  - address: "0x331d17d86c0989e533516751c1af2a896cdbf46f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x045c906779cec459e897449af2967be52a71450f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7e54f4c0acafec318af1f5d1dcd373cdacc32622"
-    tags:
-      - contract
-    name: Counter
-    networks:
-      - optimism
-  - address: "0x97c78339c953233c98f016fe5f93918154a12765"
     tags:
       - contract
     name: LootVault
+  - address: "0xd23678c7d554cb09ca7892d6521d40bfb02a05c8"
     networks:
       - optimism
-  - address: "0xf68eaa807c14b74e3fed68ed91a6ac7063f8570b"
     tags:
       - contract
+    name: unverified
+  - address: "0xe0134ca3d7ad384070580542baee00511105befa"
     networks:
       - optimism
-  - address: "0xb7a6dba1d9035cc7fe20a2e40e5b2fb2e8f5ddf9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xadf21508f72cc5b28f70cb22171995f817d5282a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x956693ac35471196bcda10e6e60d573becf51180"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa8b549b46cab71ee91bfcf1861ec052c5e76ef3b"
-    tags:
-      - contract
-    name: HopImplL2V2
-    networks:
-      - optimism
-  - address: "0x52a71b10ce5ecf54b6a583a8e1a2a6adf8c72daf"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4c0623ec2cb2b1f1a5a19e18ab9a2df897e1f746"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xbdf50eae568ecef74796ed6022a0d453e8432410"
-    tags:
-      - contract
-    name: OneInchSwapImpl
-    networks:
-      - optimism
-  - address: "0x28ac26b4f6a4483d11ad209f08f7b4dbb7364fd9"
-    tags:
-      - contract
-    name: MessageSearch
-    networks:
-      - optimism
-  - address: "0xfaafb26c06a45962e97452e5d4310df2586623a2"
-    tags:
-      - contract
-    name: StargateImplL2
-    networks:
-      - optimism
-  - address: "0x5800249621da520adfdca16da20d8a5fc0f814d8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9627d4f1241c41a61992873cf4c78066168141ce"
-    tags:
-      - contract
-    name: AcrossImpl
-    networks:
-      - optimism
-  - address: "0x0d50d4336df62f86771b2ef5db67be8c1896ace1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0ccfb68fc0e5c6cb84225508b5cdd286a18979b1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2344621d5aa6e784e8c6f4c54b0b29dd9c3ad4b6"
-    tags:
-      - contract
-    name: Socket
-    networks:
-      - optimism
-  - address: "0x04196c83ce9438f287ae0b2774abab367283c2a6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfdba28d084e157938cfca7e7091c17bc4d6cd2f0"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb6170138b6460538cf4daa97f06a16d6bb2ad38f"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x8668293ba7de23e2e8e9dd5368e6e4eb778ee7d0"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0xaa2f2b6cd33eaabb795c6db60aaec599c8450f35"
-    tags:
-      - contract
-    name: SignatureVerifier
-    networks:
-      - optimism
-  - address: "0xb11c04afc9b61ef83658df6062e5f62fe2e0c8af"
-    tags:
-      - contract
-    name: Hasher
-    networks:
-      - optimism
-  - address: "0x91ce463148bd7695d4db41f4aa36088e502428f7"
-    tags:
-      - contract
-    name: Socket
-    networks:
-      - optimism
-  - address: "0x052b82b3a096a592f3f28d4736c4796445bb98ef"
-    tags:
-      - contract
-    name: ExecutionManager
-    networks:
-      - optimism
-  - address: "0x48261a0ea65cb1427e24b3119cbc94cba1b752c1"
-    tags:
-      - contract
-    name: TransmitManager
-    networks:
-      - optimism
-  - address: "0x835531a17d01df9ece37fd197e6b232fcda981b3"
-    tags:
-      - contract
-    name: FastSwitchboard
-    networks:
-      - optimism
-  - address: "0xcb473d87a56b4609a695753711f727e5c4335ccf"
-    tags:
-      - contract
-    name: OptimisticSwitchboard
-    networks:
-      - optimism
-  - address: "0xb6c103b76500b262244b9879fe7f7e1c43fcf8c2"
-    tags:
-      - contract
-    name: OptimismSwitchboard
-    networks:
-      - optimism
-  - address: "0x2c76dff7f3b5ef99c59c764f97aec71221920b7e"
-    tags:
-      - contract
-    name: SocketBatcher
-    networks:
-      - optimism
-  - address: "0x2f6b39ecfe379053475041c2fc6989d64011538e"
-    tags:
-      - contract
-    name: Counter
-    networks:
-      - optimism
-  - address: "0xbb1f202095be99000038d8d207c7e6f0f85a3925"
-    tags:
-      - contract
-    name: SignatureVerifier
-    networks:
-      - optimism
-  - address: "0x3e89c061bf570b0678c7792bbffc6baa9d580dc5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x301bd265f0b3c16a58cbdb886ad87842e3a1c0a4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfd1256602f99a8cb2b43114e41af4ca0b4c7e47f"
-    tags:
-      - contract
-    name: ExecutionManager
-    networks:
-      - optimism
-  - address: "0x7398da0704ee25025d300a96197788378dcb1470"
-    tags:
-      - contract
-    name: TransmitManager
-    networks:
-      - optimism
-  - address: "0xa989d213dd33fe2a3fa93f502054c4e1df9a7220"
-    tags:
-      - contract
-    name: FastSwitchboard
-    networks:
-      - optimism
-  - address: "0xb113d72896d4874111af00c9499b5a64e9f1e3f4"
-    tags:
-      - contract
-    name: OptimisticSwitchboard
-    networks:
-      - optimism
-  - address: "0x9cf7443685827419b0067fb2471c24969eaa716c"
-    tags:
-      - contract
-    name: OptimismSwitchboard
-    networks:
-      - optimism
-  - address: "0x2b351e9f1a1970115f5859107af33f1be386fb7b"
-    tags:
-      - contract
-    name: SocketBatcher
-    networks:
-      - optimism
-  - address: "0x1c2ec03cf08c77d7a4668c045415a8809d0bd6b7"
-    tags:
-      - contract
-    name: Counter
-    networks:
-      - optimism
-  - address: "0xece91f5954f65f4116fd9e854c6b8dd17ef9150b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x23d5c2f9e0a2954128340587e2232924084386cd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x404e933ffd7ea2b1044a40c0b3c6883cefadf43f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9879a2b15722374243843dddb79e5e6872aa74b8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xcda819182c2bbe351644ed5d429280ab98004b4e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xbce4cd69fefedb6eb076cf67e55bae858567136a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x37cc674582049b579571e2ffd890a4d99355f6ba"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0a1040c23bc8d04669a118a27433d5b379c2d381"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd648a4f9db4aa872985b35b9abb9be642c0d7f2e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfff4a34925301d231ddf42b871c3b199c1e80584"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1812ff6bd726934f18159164e2927b34949b16a8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x33ac3447b7707a31888d5f003234ccabb54339e5"
-    tags:
-      - contract
-    name: OneInchImpl
-    networks:
-      - optimism
-  - address: "0x86bd913ac784e6efccc2296053c4aceffac127a3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3e76e8674fffd1e6495ec719b82a86cb6a31eff7"
-    tags:
-      - contract
-    name: RainbowSwapImpl
-    networks:
-      - optimism
-  - address: "0xf1b6f0c071ce884f53b789720e3d8b523ec895bb"
-    tags:
-      - contract
-    name: HopImplL2V2
-    networks:
-      - optimism
-  - address: "0xae9482ce7f2a472800d5e7f7f45ed12f17c90a8e"
     tags:
       - contract
     name: CelerImpl
+  - address: "0x6ec499b869716bb479a843cebe048a90ec6d343c"
     networks:
       - optimism
-  - address: "0x44532990d085c099e22f480ca15d8f0ac49cfe5d"
+    tags:
+      - contract
+    name: Miner
+  - address: "0x97fad2597a51bd04c53f107de3580dfd545139a4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LootVault
+  - address: "0xb48b743b85bf955c4c039599a3ecdd6175b6787f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x8537307810fc40f4073a12a38554d4ff78efff41"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x09bbe4dacbf631994f2f1b70c1b18d62c19466e6"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x4793c35f775a4abf2d503278cfeffc04963076b8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc972ab9a6cb41b4bc437326af7d2b45cd59d5256"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x91f48c638ab0457fc807ca40300f3acf1688a4d8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa9b203773c68b4edc17d4bd1151f6b2bbeb36bc8"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x5eb0f5958131b627063750a5d4efae37b258c5d3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: King
+  - address: "0x5ee146ea004afbb339d9c4164ca04c89f00a021f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BugSubmission
+  - address: "0x7e6da87fe69306caaed675ffe4e7dc0ffe3bfe4d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptimismSwitchboard
+  - address: "0x6712ce4f5ad375df6301d5010c1039f393904498"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x85e9f93cdcc3b617b0790ac351f35b14b6bb9363"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LootVault
+  - address: "0xd8cead962b7d12139ee62d38fe9bca8e04ae7fa6"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: AnyswapV6Verification
+  - address: "0x259dda264f78d4edd3c9abbf93fcf2174eddfefd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Loot3D
+  - address: "0x20ebdc614abc74386e5eb67a1516edc6ebd32540"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x8ac0a7a1f26c6e074c3c063ba5aa5b736db6724b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Hasher
+  - address: "0xe72edec20d6c65a046ae96c3ddecfb93f5cfa52c"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2369bbf24e64dbae6090d043663b7c1b20edcca3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FeesTakerController
+  - address: "0x717facaa298fa151c6ffad47b5e9c51c41bc2199"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x90b4d987981ad1ded5bbcf9ee2928e811f81e8cc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x87afc932a440bac07a50aed721eb04f4859a63a7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LootVault
+  - address: "0xeb03440702bb6de23c63ad1c5a24598433f59f86"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: HyphenImplV2
+  - address: "0x0f933f6a58d885586d356d6677dc87995bdc1b51"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RefuelImpl
+  - address: "0x992e0ba66012858538ca20c621f9ccf09fc40424"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PoisonPill
+  - address: "0xb02113a6b679a20ac5f6f7c05025f4b16395aeb7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SigMaker
+  - address: "0xdcef080bb245a3314945436b41c08206405b2cc9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PacketSearch
+  - address: "0xc87dbb87cfdd14c5b96a90c65c30bfb195e06e39"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CaptureTheFees
+  - address: "0x0531789edca5f6e641b8d3ae48ef9fda4660c76d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LootDAI
+  - address: "0xf873a063d74ae5f27aac1ef6317095a383032775"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GatedCount
+  - address: "0xd075c9fa148161e4828977a84a4054eb048172dd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SwitchBeyond
+  - address: "0x10567782c459bc8bf90b89f7da189c754203bfec"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExecutionManager
+  - address: "0xa3f9a7a13055f37479ebc28e57c005f5c9a31f68"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x589236f61b971919f49014f4633484df356dd2fb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StargateIpml
+  - address: "0x1cab023a0cb8178163fb47de7c63c3192767cc26"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FastSwitchboard
+  - address: "0x0a523d8d8e2ad6f6623b3318a59743546cae6163"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransmitManager
+  - address: "0x47e136cf4a96e1afa72e19022f9699bbaa1be60e"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xadbc2c4ffbd5de29e2ef566e4db67f8a839dd66a"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xf5b588306867992201fc78de045bce01be6ea2fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CommonPlug
+  - address: "0x9a956704888a805c954b2c68d4faeeaf1eb45115"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xf848907549f27cc5424ee0b0f8fe5238113632af"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x9ba3ff23c5373a9c7f0ceb8b6b5f4c98cec7d922"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x60f0cc35b10b8f7754fe7078bad8bf19204739d1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FastSwitchboard
+  - address: "0x4fe1addcb348bf191164fb10605c8beec8d42abd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xdfd12c02b718e2a9ec97852a5b22a8f9ae194cd0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x665288be03e0397d5bd9838732fa1ec3189288a7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptimisticSwitchboard
+  - address: "0x341903595b4805b2f6d751083c4dd1dd71863459"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Loot3D
+  - address: "0x7ab75ae7f84a5c5d696b619d866e05a27b1f4d7b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x7438c178ba5b6c014f984478de175951b39a2e24"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: StargateImplL2V2
+  - address: "0x29fd3a2ea3fd84aad21afdd7863e00a1efbae6bd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x72c948de38c6c8211211b00a685ecb1e9ef88dfe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PlayTime
+  - address: "0x4e7f21d92b70fcbbcb6afcb8bf59420622c158b3"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xb8c32878c69f4cc4705d0bd99bca082c4eefd76d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CelerImplL1L2
+  - address: "0x7b2f652b2da7e0b1077b02d5e629966383d11161"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x1f83e8a02f3869fb7ff043c89f3f31a48efa9195"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: ConnextImpl
+  - address: "0xbb7287aaf5fd6e4cd245e88d000ae41d79af50a2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OrderCheck2
+  - address: "0xf096fd1b47dfc14d2320571c5f7ecdb5cad219f0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SignatureVerifier
+  - address: "0x1eb392aba52a2d933e58f7e86ca96b9a3e2d8166"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x4d46d8c1ac1c80538af5002bc64b6412e4ac1023"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x86a0a4a05b73fc03bec0ef7cfe1cab8cc406ce6b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xd5aa63075160b2a00edfa3d7bb51acdb81af7678"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x27d6c81b2688f28d8fff55940cdbb8b5b3a0ed0f"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x929625acce321770c747c38cc989b689ee823d90"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptimisticSwitchboard
+  - address: "0x657a9bdd0d2e89c1fb1f0a4c364dfd7d1a3702bc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PlayTime
+  - address: "0x565810cbfa3cf1390963e5afa2fb953795686339"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xbec1741a51e2b06617bbfb145492109a630e05cd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x5333982087c2db4f85d0ed2cde22b22abc0fdae3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x60e04bab3d82a16a7963bcd44b494bd9bbb5f8fb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MakeItRain
+  - address: "0x9ea1c30a61f33c82762df9bce404b19735302b88"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StargateIpml
+  - address: "0x0c0858290b6b268a93fb557af06390a3460c5db6"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xd550ce2bb4cc954542efcf23ea1147143bd8f77c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x7a369b3d9cba81d338b98e25422335bfd5d821bc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThreeMessageCounts
+  - address: "0xde007c8a9a7fa8676f9a751b7bc1ef38af76757f"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x8f4ee8ab18ed25f787bc81a8d5e7b1d0deae4322"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GimmeMonies
+  - address: "0x7cce8183aee0d8e2f3f946fa142faf58727dfaff"
+    networks:
+      - optimism
     tags:
       - contract
     name: CelerV2Impl
+  - address: "0x792b49617491b936cbd61592f2c7d2e07d17e90d"
     networks:
       - optimism
+    tags:
+      - contract
+    name: BlockHashChain
+  - address: "0x29829a795d2a592edd87378e5346f9fc17dd6033"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Counter
+  - address: "0x653a03b511e6fe9e80eecb2bbbd36dcaf93cf147"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2eb0e1a4194204c6881ef13cdfe6e539b53564c9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Imbalance
+  - address: "0x4513f50921a0333f2067ebdb9369daa81bcfc24c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AddressAssemble
+  - address: "0xb568433fe45ca1ea2a7ff98ad0746cea7300c12b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SignatureVerifier
+  - address: "0x09b471b83b91bdb1aa361f05770cfceff7526b65"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GasPriceOracle
+  - address: "0xd6ff172fc2caf9878768f768e3176e9ef2ed7b22"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Traveller
+  - address: "0x25aaef700c735db1c7e8f77eb6e4c20878c76262"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xd4021383fc5135a7082e6eeb473ae7abf109d024"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xfb0eab1261bb71254d4a8cc6dbf151b53d34781c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc6962fa49e9221aa5c1ca90b2c1b721678c176a4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LootDAI
+  - address: "0x2d0eeb574cc98f6d57c72ffe730d5c8a8f2eac37"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: HopImplL2
+  - address: "0xd5087ca5f76dc6785ba03dea23adcf41fe228df5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x6f0df1d93dc1673c933a81eb122112c511d119a1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Window
+  - address: "0x8fb9ecd91723fe037012133ef8c4c767cf0d4514"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x0645095dc03b9546dfdb2fc8e7a52959ec37efa1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x321767762d66a69a8ccfe07d1b9805d314707b59"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SocketBatcher
+  - address: "0xe00d67f732e6ed1158553fdbe9c6a151d06bed6c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FeeRouter
+  - address: "0x387bcee789a50b42eda6aebc55b7505183ae56f0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RainbowSwapRefuelImpl
+  - address: "0x92c7a51bd507736ac0dda48b5f35a4aad0c2bb4d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Easter
+  - address: "0x80589802c34858fa9ae0c526bf8972d5ffc4d9df"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraReceiver
+  - address: "0xb2dc051ba9d471dc441755871a5096b291cc364d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x85197bc6a4753829889cf31193639f2429a80a46"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AnyswapImplL2
+  - address: "0xf19516273aff391293ff79822c08e66932b77aa6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x450aa5c9a0809e5e704254f79cf3452031c01ede"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x03709c48dec486b64ddedacfbed43acea5ababe8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SigMaker
+  - address: "0x80b51629e095918bc15c206f1aff5a590cc729f8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Hasher
+  - address: "0xd10cb28719302698d7fa685d73dccd330b6bf573"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xbd57fa1470145289407992279c684aa42c8c88dd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x11695ff9ee5e600b90bcbd651d1758a9b240a2d8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CelerImplL1L2
+  - address: "0xb5beec0c58db0ba0bad09e5ea6af01ed0d58b735"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AcrossImpl
+  - address: "0x48b4f0692eaa84f1961b64342ae746d40d9ac2f2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x3ec389511af4af02c9f3723c0fdeb105d1cc5a9c"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x18e36589ebfbb0410babd72e9ecdbb11ca764ace"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xd3f39174ee7937381e19d682ffea40968266fa3e"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x80e51327a393e6d6777c85c9ac16bad45086ca5c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SignatureVerifier
+  - address: "0x029057df831cce19fc7adbb8d7283afcbb9d88d0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ZeroXRefuelImpl
+  - address: "0x9d245fdef1164a4d4014c2570fd88855ea9545d0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CommonPlugProxy
+  - address: "0x35479b023e508ee9a7b533dbb5b516bb6875f937"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SurgePass
+  - address: "0x6cf8d2bf45fe99e369db145faf6fb606a50b27f3"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xafbe4bc31b3e5636e1446a987a42d8ad5b4eccf2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TwoMessageCounts
+  - address: "0x08cea8e6b3f8cf1c04f095edebbcc1df6f08121c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Loot3D
+  - address: "0x749f09be3ca34b89f970ff3f594567d072a98e5a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x769874c359e23356a9fecf11d710f05513f033f8"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xffb09850fab52765b5e48eac1aa3ffad620c8fce"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SocketBatcher
+  - address: "0x10bcd35f03c9c9b68305875f52b406188f5755de"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MessageSearch
+  - address: "0xc457f777402bd8449dfdd2a3481c4affbef56747"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x976973618488e452027f4017b088ea8374486fa7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SignatureVerifier
+  - address: "0xffcbd42167550edb20d64f99278537075723b4c8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc94bf98cfe43d8c891d4ee43a47435be361e5d15"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SignatureVerifier
+  - address: "0x18b2379f0b359e2a5962aac884d34f29e1a72a98"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x61dff4a2a75523767b52b0f6043a7aa96ea80846"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FeeRouter
+  - address: "0x767ce21d9f9dc90f524b0c67ebdf50ed5ab26041"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FindTheSign
+  - address: "0xf50ed30a7a6951d830bc4e6498b5abc7132a4f6c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExecutionManager
+  - address: "0x6fedde12105f47eacde493ee294d207bfe68dce5"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xddc3a2bc1d6252d09a82814269d602d84ca3e7ae"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x8e9e34fd67634f33b2e2e49d083fbfd8c064fe9a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xb442582f235cf3d039a81f067b02f5e66f34a57c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OpenExecutionManager
+  - address: "0x0a3451e8546458dfd60d81f90d2e495398e58f87"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xf5cadaa4769aa6c061224602b687affb5119d5e8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AddressAssemble
+  - address: "0xe186a05fb020324a7ca61d80138bb1ea66dddbdf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RefuelBridgeImpl
+  - address: "0x8e304e89dc574dc3296bbbf94b3f81ae256eb0de"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SimilarDeployer
+  - address: "0x89800a17cea97db4a8f0705d7f8da770032397f5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AcrossImpl
+  - address: "0x66a1274fff5506c3a69dd35dc5c9a60e63fb3107"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xf004c4c51b6c026247b5910706ee78134299eabd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x64b3149a51795e4bd85505087c2aab3d9b50d957"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Hasher
+  - address: "0xfcebb7f5f3827f2fb485d24d1342977630e6ac6c"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x6c7a28f6ae2d245b0130520b112fa3544a06d9ae"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BugSubmission
+  - address: "0x50f7e7eef0fd9173f6b33ce4eafedec606673bce"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Connext
+  - address: "0x2ddf16ba6d0180e5357d5e170ef1917a01b41fc0"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x73f4c90674a91d8e49286ee511bc4bb9c7e0f5a5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PacketSearch
+  - address: "0xdf4ff02e2dde3a08590829d7398cc31b0255bab5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Hasher
+  - address: "0xb81de21eb8811968c03c8ca96b2c5901ee849000"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Traveller
+  - address: "0x2d7f2b4cee097f08ed8d30d928a40eb1379071fe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ZeroXSwapImpl
+  - address: "0x6d4f89284e06554eeeef79215a823b6f9d7b48d8"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x4f04f8ae9fc3a9539d00e5e69c3b262b31220d00"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x8b57c3285a2acc9af1b813fa21ff99264943ff00"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SignatureVerifier
+  - address: "0xb584d4be1a5470ca1a8778e9b86c81e165204599"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x49fd4671dc7f836be12cedef798d094437c8dc00"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x9e51cdbd0dc54e314b6b17c69ed34a98b8259a16"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x7c6c373190421988fa31e64f369c45205676c1f0"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x5dfdff7a95a9a8472e6439afc6b760545692ca1c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x5df06caa38ed2c60a49174176fc745c532426fb4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CommonPlug
+  - address: "0x4f2b1fbb51bdfe1471b3de6e88c909e77c042b61"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: ConnextImpl
+  - address: "0x49c79ed56df2301ec851fad0b2a566e4fe38fa82"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CaptureTheFees
+  - address: "0x1d43076909ca139bfac4ebb7194518be3638fc76"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OneInchRefuelSwapImpl
+  - address: "0x6a8be071c1f37e0a5abbbc7700769548f5bc1e46"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CommonPlug
+  - address: "0x3379f120917fb67728d6db6065d9fdbbd1507a7b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xccd5a9bf2250070289a719c153390cb001316c6e"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x5c1ea29930e052f218634d807667a1387eb4c44f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x4b4d63e5044894184e35ae7854d0e0c749e418ae"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x1b74ac5daca01d82a3d2e7688ea30e50fe6ff35e"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x5a21d4f5c1cf7fe5fae9eff8bfda519cd10893f2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x3dd7419889ff387a58d3dad1f8b49ea1064290fb"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x1bea4f9f93f84fd5a68f321e6003a6b16b313740"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Loot3D
+  - address: "0xa7f7e4fe8e4cddcd9969bd3fbcff67000cd7de47"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x5035d9b44c29b503ebcc1e7d6223ae78a37032d6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x96424dcbe8767a5ddd8e0e40291f6240ef78abdb"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: HopL2Verifier
+  - address: "0x300e530cbd5314860dd8a0e873c8c083d2331ae1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PacketSearch
+  - address: "0xaa95ed59fc4a4e0acdee31a8981cd8f6f2ae6445"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OneInchImpl
+  - address: "0x898aefdf7d1ccb3dc78179bbbf52acede878d7f2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x0fd9f11b9c54a9f100234eeef9ee7873d73c2204"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: HopImplL2
+  - address: "0x331d17d86c0989e533516751c1af2a896cdbf46f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x045c906779cec459e897449af2967be52a71450f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x7e54f4c0acafec318af1f5d1dcd373cdacc32622"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Counter
+  - address: "0x97c78339c953233c98f016fe5f93918154a12765"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LootVault
+  - address: "0xf68eaa807c14b74e3fed68ed91a6ac7063f8570b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xb7a6dba1d9035cc7fe20a2e40e5b2fb2e8f5ddf9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xadf21508f72cc5b28f70cb22171995f817d5282a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LootDAI
+  - address: "0x956693ac35471196bcda10e6e60d573becf51180"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Miner
+  - address: "0xa8b549b46cab71ee91bfcf1861ec052c5e76ef3b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: HopImplL2V2
+  - address: "0x52a71b10ce5ecf54b6a583a8e1a2a6adf8c72daf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SwitchBeyond
+  - address: "0x4c0623ec2cb2b1f1a5a19e18ab9a2df897e1f746"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xbdf50eae568ecef74796ed6022a0d453e8432410"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x28ac26b4f6a4483d11ad209f08f7b4dbb7364fd9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MessageSearch
+  - address: "0xfaafb26c06a45962e97452e5d4310df2586623a2"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x5800249621da520adfdca16da20d8a5fc0f814d8"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x9627d4f1241c41a61992873cf4c78066168141ce"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AcrossImpl
+  - address: "0x0d50d4336df62f86771b2ef5db67be8c1896ace1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x0ccfb68fc0e5c6cb84225508b5cdd286a18979b1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x2344621d5aa6e784e8c6f4c54b0b29dd9c3ad4b6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Socket
+  - address: "0x04196c83ce9438f287ae0b2774abab367283c2a6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xfdba28d084e157938cfca7e7091c17bc4d6cd2f0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynapseBridgeImpl
+  - address: "0xaa2f2b6cd33eaabb795c6db60aaec599c8450f35"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SignatureVerifier
+  - address: "0xb11c04afc9b61ef83658df6062e5f62fe2e0c8af"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Hasher
+  - address: "0x91ce463148bd7695d4db41f4aa36088e502428f7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Socket
+  - address: "0x052b82b3a096a592f3f28d4736c4796445bb98ef"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExecutionManager
+  - address: "0x48261a0ea65cb1427e24b3119cbc94cba1b752c1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransmitManager
+  - address: "0x835531a17d01df9ece37fd197e6b232fcda981b3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FastSwitchboard
+  - address: "0xcb473d87a56b4609a695753711f727e5c4335ccf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptimisticSwitchboard
+  - address: "0xb6c103b76500b262244b9879fe7f7e1c43fcf8c2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptimismSwitchboard
+  - address: "0x2c76dff7f3b5ef99c59c764f97aec71221920b7e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SocketBatcher
+  - address: "0x2f6b39ecfe379053475041c2fc6989d64011538e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Counter
+  - address: "0xbb1f202095be99000038d8d207c7e6f0f85a3925"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SignatureVerifier
+  - address: "0x3e89c061bf570b0678c7792bbffc6baa9d580dc5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Hasher
+  - address: "0x301bd265f0b3c16a58cbdb886ad87842e3a1c0a4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Socket
+  - address: "0xfd1256602f99a8cb2b43114e41af4ca0b4c7e47f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExecutionManager
+  - address: "0x7398da0704ee25025d300a96197788378dcb1470"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransmitManager
+  - address: "0xa989d213dd33fe2a3fa93f502054c4e1df9a7220"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FastSwitchboard
+  - address: "0xb113d72896d4874111af00c9499b5a64e9f1e3f4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptimisticSwitchboard
+  - address: "0x9cf7443685827419b0067fb2471c24969eaa716c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptimismSwitchboard
+  - address: "0x2b351e9f1a1970115f5859107af33f1be386fb7b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SocketBatcher
+  - address: "0x1c2ec03cf08c77d7a4668c045415a8809d0bd6b7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Counter
+  - address: "0xece91f5954f65f4116fd9e854c6b8dd17ef9150b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x23d5c2f9e0a2954128340587e2232924084386cd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x404e933ffd7ea2b1044a40c0b3c6883cefadf43f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x9879a2b15722374243843dddb79e5e6872aa74b8"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xcda819182c2bbe351644ed5d429280ab98004b4e"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xbce4cd69fefedb6eb076cf67e55bae858567136a"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x37cc674582049b579571e2ffd890a4d99355f6ba"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x0a1040c23bc8d04669a118a27433d5b379c2d381"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xd648a4f9db4aa872985b35b9abb9be642c0d7f2e"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xfff4a34925301d231ddf42b871c3b199c1e80584"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x1812ff6bd726934f18159164e2927b34949b16a8"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x33ac3447b7707a31888d5f003234ccabb54339e5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OneInchImpl
+  - address: "0x86bd913ac784e6efccc2296053c4aceffac127a3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x3e76e8674fffd1e6495ec719b82a86cb6a31eff7"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xf1b6f0c071ce884f53b789720e3d8b523ec895bb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: HopImplL2V2
+  - address: "0xae9482ce7f2a472800d5e7f7f45ed12f17c90a8e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CelerImpl
+  - address: "0x44532990d085c099e22f480ca15d8f0ac49cfe5d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CelerV2Impl
   - address: "0x727a2f78669f765dd3a721a8d6a2467b68ba7e8e"
+    networks:
+      - optimism
     tags:
       - contract
     name: MerkleRewards
+  - address: "0x2438db4d24256371cc29405b12d646d370988d75"
     networks:
       - optimism
-  - address: "0x2438db4d24256371cc29405b12d646d370988d75"
     tags:
       - contract
     name: CctpImpl
-    networks:
-      - optimism
   - address: "0xb002b522c51a9d17d34e5fbd454c772f75b76a2b"
-    name: SocketExtractor
     networks:
       - optimism
     tags:
       - contract
+    name: SocketExtractor
   - address: "0xae1138690ff1b35eb083e52a680c20a6ae919dfb"
+    networks:
+      - optimism
+    tags:
+      - contract
     name: SocketExtractor
-    networks:
-      - optimism
-    tags:
-      - contract
   - address: "0xc2d8e5693d650828682ca8e40f71f364b0c1e5d7"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
     name: StargateImplL2V2
-    networks:
-      - optimism
-    tags:
-      - contract
   - address: "0x09a6e77912a6bcfc3abfdfb841a85380bb2a8b97"
-    name: FastSwitchboard
     networks:
       - optimism
     tags:
       - contract
+    name: FastSwitchboard
   - address: "0x80d40e32fad8be8da5c6a42b8af1e181984d137c"
     networks:
       - arbitrum
@@ -1680,3 +1902,9 @@ blockchain:
     tags:
       - contract
     name: CelerImpl
+  - address: "0x803ce4f6a0e064a01c56f7ca21223a7b65e4b869"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

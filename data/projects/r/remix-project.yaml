@@ -4,20 +4,21 @@ name: Remix Project
 github:
   - url: https://github.com/ethereum/remix-project
 blockchain:
-  - address: "0x2ba1aebA3fBd69aa74944F17326Bfdc229fD986E"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x5d470270e889b61c08c51784cdc73442c4554011"
     networks:
       - optimism
-  - address: "0xeDf80D8bdB50A2941A4Ffe668c558c2ce0bF490F"
+    tags:
+      - contract
+    name: unverified
+  - address: "0xedf80d8bdb50a2941a4ffe668c558c2ce0bf490f"
+    networks:
+      - optimism
     tags:
       - safe
       - wallet
+  - address: "0x2ba1aeba3fbd69aa74944f17326bfdc229fd986e"
     networks:
       - optimism
-  - address: "0x5d470270e889b61c08c51784cdc73442c4554011"
     tags:
-      - contract
-    networks:
-      - optimism
+      - eoa
+      - wallet

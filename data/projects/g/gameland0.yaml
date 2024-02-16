@@ -4,9 +4,9 @@ name: Gameland
 github:
   - url: https://github.com/Gameland0
 blockchain:
-  - address: "0x7a387E6f725a837dF5922e3Fe71827450A76A3E5"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x7a387e6f725a837df5922e3fe71827450a76a3e5"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

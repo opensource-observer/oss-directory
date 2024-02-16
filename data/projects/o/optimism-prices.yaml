@@ -4,21 +4,22 @@ name: Optimism Prices Contracts
 github:
   - url: https://github.com/ethzoomer/optimism-prices
 blockchain:
-  - address: "0x82D54397B88CE80Ea2Df9aD049213ACb47dc2523"
+  - address: "0x1bc48045232cc0bce1fa12f8da9143b136c53531"
+    networks:
+      - optimism
     tags:
-      - wallet
-      - eoa
+      - contract
+    name: OptimismPrices
+  - address: "0x82d54397b88ce80ea2df9ad049213acb47dc2523"
     networks:
       - mainnet
       - optimism
-  - address: "0xf131c9efb039aadff5e0d7fb3b69adbd913afdc0"
     tags:
       - eoa
       - wallet
+  - address: "0xf131c9efb039aadff5e0d7fb3b69adbd913afdc0"
     networks:
       - optimism
-  - address: "0x1bc48045232cc0bce1fa12f8da9143b136c53531"
     tags:
-      - contract
-    networks:
-      - optimism
+      - eoa
+      - wallet

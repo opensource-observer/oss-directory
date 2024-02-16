@@ -4,17 +4,17 @@ name: Otterscan
 github:
   - url: https://github.com/otterscan
 blockchain:
-  - address: "0xb7081Fd06E7039D198D10A8b72B824e60C1B1E16"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xb7081fd06e7039d198d10a8b72b824e60c1b1e16"
     networks:
       - mainnet
       - optimism
-  - address: "0x43a0744e8a1A63C481aaDD5CEA12833D6976F851"
     tags:
-      - wallet
       - eoa
+      - wallet
+  - address: "0x43a0744e8a1a63c481aadd5cea12833d6976f851"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

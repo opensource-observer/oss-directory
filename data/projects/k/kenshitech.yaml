@@ -4,9 +4,10 @@ name: Kenshi
 github:
   - url: https://github.com/KenshiTech
 blockchain:
-  - address: "0xA2dEc4f8089f89F426e6beB76B555f3Cf9E7f499"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xa2dec4f8089f89f426e6beb76b555f3cf9e7f499"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: pouyae.eth

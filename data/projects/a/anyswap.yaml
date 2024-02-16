@@ -7,18 +7,23 @@ blockchain:
   - address: "0x9ad2fd279ff72f8b7c167118dd0e077050d3027d"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
   - address: "0x37414a8662bc1d25be3ee51fb27c2686e2490a89"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
     name: AnyCallProxy
   - address: "0x9fb9a33956351cf4fa040f65a13b835a3c8764e3"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
     name: AnyswapV5ERC20

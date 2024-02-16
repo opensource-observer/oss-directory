@@ -7,18 +7,21 @@ blockchain:
   - address: "0x8f5ea3cde898b208280c0e93f3adaaf1f5c35a7e"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - deployer
       - eoa
   - address: "0xe6fb62c2218fd9e3c948f0549a2959b509a293c8"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x8b64fa5fd129df9c755eb82db1e16d6d0bdf5bc3"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - deployer
       - eoa
@@ -31,9 +34,10 @@ blockchain:
   - address: "0x1eb506b0b73c12510ab6dbc6897e282c946c83c2"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Curve2TokenConvexVault
+    name: various:DiffersByChain
   - address: "0xae38f4b960f44d86e798f36a374a1ac3f2d859fa"
     networks:
       - arbitrum
@@ -43,9 +47,10 @@ blockchain:
   - address: "0x1344a36a1b56144c3bc62e7757377d288fde0369"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Router
+    name: nProxy
   - address: "0x434a3c376c8900e57476608872282f29565f8eec"
     networks:
       - arbitrum

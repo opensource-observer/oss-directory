@@ -5,110 +5,150 @@ github:
   - url: https://github.com/antefinance
 blockchain:
   - address: "0x7df0808cfd89ea3995af99cb1374d2907c2399b6"
-    tags:
-      - eoa
-      - creator
     networks:
+      - arbitrum
+      - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0xb4fd0ce108e196d0c9844c48174d4c32cd42f7bc"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: various:DiffersByChain
   - address: "0x4f2be0244146b4408154504a481c799ba1a9a355"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x1d43cc063de7022eaaaf18e06a3bce33231d4403"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0xe18edf05c1443eae617c704b7e9926c412926a36"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x44d195661277f25597fe6b6d9f910d5bbe9821b3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1cd9276f727f631eccea749371a7df27b8a3d55f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x294268b71b70d9a9291594c058896f6a9f118b4a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x529dbf60ddc8b256c2bf25190de1e06d688f13eb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc3dcef82a8c38c20da9feb8bb1d03e9c9d842da3"
-    tags:
-      - contract
-    name: AnteLlamaPayTest
-    networks:
-      - optimism
-  - address: "0xfe2af3ab07a08a9db276a2fee9e7d8b5d3794d51"
-    tags:
-      - contract
-    name: ERC1967Proxy
-    networks:
-      - optimism
-  - address: "0x1a53b3500216d547186c833c35f39a82053b7223"
-    tags:
-      - contract
-    name: AnteDecentralizedTrustScoreV1
-    networks:
-      - optimism
-  - address: "0x3e98673652f7bba325016517c54e41afcc786d1d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3ef9f8b4edc0f6fc90dccabd677db2f582a5cb49"
-    tags:
-      - contract
-    name: AnteStableTokenUsdcOptimismPegTest
-    networks:
-      - optimism
-  - address: "0xb7e565a9d96e4dc067f955beddebabc5f7a4cf84"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb04c1f42d54b609c07f92621d9986e4c65e422fb"
-    tags:
-      - contract
-    name: AnteBalanceHolderPercentageThresholdTest
-    networks:
-      - optimism
-  - address: "0x40107f542c6d7d9d9c9f7c46fb8874ef59fd3c65"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x808ab3fa3b1d1ec34b710f84afb313a6dd75f817"
-    tags:
-      - contract
-    name: AnteChainlinkETHUSDDatafeedUpdateDailyTest
-    networks:
-      - optimism
-  - address: "0xa5b4f91fde4e35be891ea97c47d1052d8a4d75f7"
-    tags:
-      - wallet
-      - eoa
     networks:
       - mainnet
       - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x1d43cc063de7022eaaaf18e06a3bce33231d4403"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0xe18edf05c1443eae617c704b7e9926c412926a36"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x44d195661277f25597fe6b6d9f910d5bbe9821b3"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x1cd9276f727f631eccea749371a7df27b8a3d55f"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x294268b71b70d9a9291594c058896f6a9f118b4a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AnteVeloTokenBalanceAbove50KTest
+  - address: "0x529dbf60ddc8b256c2bf25190de1e06d688f13eb"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xc3dcef82a8c38c20da9feb8bb1d03e9c9d842da3"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xfe2af3ab07a08a9db276a2fee9e7d8b5d3794d51"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x1a53b3500216d547186c833c35f39a82053b7223"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x3e98673652f7bba325016517c54e41afcc786d1d"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x3ef9f8b4edc0f6fc90dccabd677db2f582a5cb49"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xb7e565a9d96e4dc067f955beddebabc5f7a4cf84"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xb04c1f42d54b609c07f92621d9986e4c65e422fb"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x40107f542c6d7d9d9c9f7c46fb8874ef59fd3c65"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x808ab3fa3b1d1ec34b710f84afb313a6dd75f817"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xa5b4f91fde4e35be891ea97c47d1052d8a4d75f7"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: antelabs.eth

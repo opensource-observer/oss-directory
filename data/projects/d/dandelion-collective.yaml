@@ -4,9 +4,9 @@ name: Dandelion
 github:
   - url: https://github.com/dandelion-collective
 blockchain:
-  - address: "0x84a57c709482d44cE49511adac7ED7F1Db299455"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x84a57c709482d44ce49511adac7ed7f1db299455"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

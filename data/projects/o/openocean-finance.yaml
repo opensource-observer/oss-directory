@@ -4,28 +4,27 @@ name: OpenOcean
 github:
   - url: https://github.com/openocean-finance
 blockchain:
-  - address: "0x7ce1e5149e751a577ad0bb1510e0ec76d18418b1"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
-    name: RPGF3 Payout Address
-  - address: "0x6352a56caadc4f1e25cd6c75970fa768a3304e64"
-    tags:
-      - contract
-    networks:
-      - optimism
-    name: OpenOceanExchangeProxy
   - address: "0x920fae61b835bbcc50f0e8883f7de26ce9a2047b"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
+  - address: "0x6352a56caadc4f1e25cd6c75970fa768a3304e64"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OpenOceanExchangeProxy
   - address: "0x30424981429c8b944e9d44d5bd992ee874f1b188"
     networks:
       - arbitrum
     tags:
       - contract
     name: OpenOcean
+  - address: "0x7ce1e5149e751a577ad0bb1510e0ec76d18418b1"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet

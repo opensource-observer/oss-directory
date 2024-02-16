@@ -6,22 +6,22 @@ github:
 npm:
   - url: https://www.npmjs.com/package/abstractionkit
 blockchain:
-  - address: "0xA60b3402051eC75B17abb81b4c92BF88d5e49Aa8"
-    tags:
-      - eoa
-      - wallet
+  - address: "0x7bd62ff7e45538a507d0b52aedeab890f53836a6"
     networks:
       - optimism
-      - mainnet
-  - address: "0xc52FbF3769056cA421656b9C98b14A453A251a28"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
-  - address: "0x7bd62ff7e45538a507d0b52aedeab890f53836a6"
     tags:
       - safe
       - wallet
+  - address: "0xa60b3402051ec75b17abb81b4c92bf88d5e49aa8"
     networks:
+      - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+  - address: "0xc52fbf3769056ca421656b9c98b14a453a251a28"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet

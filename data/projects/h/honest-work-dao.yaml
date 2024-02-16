@@ -4,9 +4,10 @@ name: HonestWork
 github:
   - url: https://github.com/honestworkdao
 blockchain:
-  - address: "0xC370b50eC6101781ed1f1690A00BF91cd27D77c4"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xc370b50ec6101781ed1f1690a00bf91cd27d77c4"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: takezo.eth

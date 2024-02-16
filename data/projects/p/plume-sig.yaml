@@ -4,9 +4,9 @@ name: "PLUME: Pseudonymously Linked Unique Message Entities"
 github:
   - url: https://github.com/plume-sig
 blockchain:
-  - address: "0x23aDa6E6A9E9D4EcDDd185e3ec353163BCeeBF2a"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x23ada6e6a9e9d4ecddd185e3ec353163bceebf2a"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

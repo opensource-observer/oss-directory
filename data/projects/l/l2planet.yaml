@@ -4,21 +4,22 @@ name: L2 Planet
 github:
   - url: https://github.com/l2planet
 blockchain:
-  - address: "0xc7FA03b792BDC321048a6b37e41a1953bccE93A6"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - mainnet
-  - address: "0x2D9d84F4D8a4254ea23Fe18825193Cbd1b21b749"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xc7fa03b792bdc321048a6b37e41a1953bcce93a6"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
   - address: "0x40170fa69481d9b197e226e63317b49db3c2db02"
-    tags:
-      - wallet
-      - safe
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x2d9d84f4d8a4254ea23fe18825193cbd1b21b749"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: l2planet.eth

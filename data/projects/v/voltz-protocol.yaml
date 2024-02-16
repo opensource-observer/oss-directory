@@ -4,20 +4,27 @@ name: Voltz Protocol
 github:
   - url: https://github.com/voltz-protocol
 blockchain:
-  - address: "0xda66a7584da7210fd26726efb12585734f7688c1"
-    networks:
-      - arbitrum
-    tags:
-      - factory
-      - proxy
-      - contract
-    name: Factory
-  - address: "0xf8f6b70a36f4398f0853a311dc6699aba8333cc1"
+  - address: "0xdb4a84ee2f9065d2819a050ba8c1503fe3730622"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
+    name: kanskey.eth
+  - address: "0xf8f6b70a36f4398f0853a311dc6699aba8333cc1"
+    networks:
+      - arbitrum
+      - mainnet
+    tags:
+      - deployer
+      - eoa
+  - address: "0xda66a7584da7210fd26726efb12585734f7688c1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: Factory
   - address: "0x22393f23f16925d282aeca0a8464dccaf10ee480"
     networks:
       - arbitrum
@@ -42,12 +49,6 @@ blockchain:
     tags:
       - contract
     name: glpEth_apr13_48days_margin_engine
-  - address: "0xf9850b06aaabab6be56558d58e94a3fd621b161e"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: glpEth_mar15_16days_margin_engine
   - address: "0x1d7e4d7c1629c9d6e3bb6a344496b1b782c9ca9a"
     networks:
       - arbitrum
@@ -84,87 +85,21 @@ blockchain:
     tags:
       - contract
     name: a3USDC_borrow_apr30_15days_vamm
-  - address: "0xa1000d63a8f603e9f83356b4fbfc36f11a5100cb"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: a3USDC_borrow_apr30_31days_margin_engine
-  - address: "0x0c6dbf063fd1effe971ecf4091a40064936eae35"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: a3USDC_mar31_15days_vamm
   - address: "0xb696f408804ccb345040c9b08ea4b7a8750bf70f"
     networks:
       - arbitrum
     tags:
       - contract
     name: a3USDC_borrow_mar31_30days_margin_engine
-  - address: "0x9b5b9d31c7b4a826cd30c09136a2fdea9c69efcd"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: a3USDC_borrow_may31_92days_margin_engine
   - address: "0xb97191595b38b192e776402a6ed2a23c7cf25582"
     networks:
       - arbitrum
     tags:
       - contract
     name: a3USDC_borrow_apr16_14days_vamm
-  - address: "0x3ecf01157e9b1a66197325771b63789d1fb18f1f"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: a3USDC_borrow_may31_92days_vamm
-  - address: "0xb69c2b77c844b55f9924242df4299a1598753320"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: glpEth_feb19_28days_vamm
   - address: "0x36f62fd95d4abf214a0b9c843ffc69a08d54bdc9"
     networks:
       - arbitrum
     tags:
       - contract
     name: a3USDC_borrow_apr30_15days_margin_engine
-  - address: "0x1aac6232b7c7cd6c8479077844eb0302cca0d2af"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: glpEth_mar15_16days_vamm
-  - address: "0x6849d4bda5828db77c7978a145bf9d4b4ae1f3f5"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: a3USDC_mar31_15days_margin_engine
-  - address: "0x6fe3ed5529f77f0bb1b21b7b5f2d8bc67180a3c0"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: a3USDC_borrow_apr16_14days_margin_engine
-  - address: "0x8ce24926b49f9e1b97dc21109ed8ab67cf0293c2"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: a3USDC_borrow_mar31_30days_vamm
-  - address: "0xc1a44601a9f141eca8823f99b0b7fff55f2a6e17"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: glpEth_feb19_28days_margin_engine
-  - address: "0x034f2b4137ed637c6b6ca9636d5f9fee0998e5f1"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: glpEth_apr13_48days_vamm

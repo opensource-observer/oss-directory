@@ -5,8 +5,10 @@ github:
   - url: https://github.com/rari-capital
 blockchain:
   - address: "0x7ed52863829ab99354f3a0503a622e82acd5f7d3"
-    tags:
-      - eoa
-      - creator
     networks:
-      - optimism
+      - arbitrum
+      - mainnet
+    tags:
+      - deployer
+      - eoa
+    name: t11s.eth

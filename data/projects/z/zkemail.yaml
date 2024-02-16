@@ -4,9 +4,9 @@ name: ZK Email
 github:
   - url: https://github.com/zkemail
 blockchain:
-  - address: "0x35292bbd442373046a6fb4bF7e2529FA9A8D5Bb0"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x35292bbd442373046a6fb4bf7e2529fa9a8d5bb0"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

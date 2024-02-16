@@ -4,9 +4,9 @@ name: Solidity
 github:
   - url: https://github.com/ethereum/solidity
 blockchain:
-  - address: "0xF0F1eF973C7Ae51Ef7ae917812932569100956ae"
-    tags:
-      - wallet
-      - safe
+  - address: "0xf0f1ef973c7ae51ef7ae917812932569100956ae"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

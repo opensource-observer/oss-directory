@@ -5,21 +5,22 @@ github:
   - url: https://github.com/dspytdao/Pinsave
   - url: https://github.com/dspytdao/pinsave-evm
 blockchain:
-  - address: "0x48294a067D1bC5a58BCbAB4b3bE329d078D9E1Af"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
-      - optimism
-  - address: "0xaD851ef1AD2cCf8F87413e6c274BccBeC37469d2"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
   - address: "0x40f320cd3cd616e59599568c4ea011e2ee49a175"
+    networks:
+      - optimism
     tags:
       - contract
+    name: LSP8PinSave
+  - address: "0x48294a067d1bc5a58bcbab4b3be329d078d9e1af"
     networks:
+      - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+  - address: "0xad851ef1ad2ccf8f87413e6c274bccbec37469d2"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet

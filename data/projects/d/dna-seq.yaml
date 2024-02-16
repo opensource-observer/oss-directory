@@ -4,15 +4,16 @@ name: Just DNA-Seq
 github:
   - url: https://github.com/dna-seq
 blockchain:
-  - address: "0xBc7BeB2d44Eb0Cddf6c0F2560a21475c2E2aC19C"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
-  - address: "0xCBE02E35Eb5Da41D665Aa5a54ade7a935D06714B"
-    tags:
-      - wallet
-      - safe
+  - address: "0xcbe02e35eb5da41d665aa5a54ade7a935d06714b"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xbc7beb2d44eb0cddf6c0f2560a21475c2e2ac19c"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: antonkulaga.eth

@@ -4,12 +4,12 @@ name: EthernautDAO
 github:
   - url: https://github.com/ethernautdao
 blockchain:
-  - address: "0x2431BFA47bB3d494Bd720FaC71960F27a54b6FE7"
-    tags:
-      - wallet
-      - safe
+  - address: "0x2431bfa47bb3d494bd720fac71960f27a54b6fe7"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
   - address: "0x72e41a80b0a952590d2e9edc16ba9464b7b9e312"
     networks:
       - optimism

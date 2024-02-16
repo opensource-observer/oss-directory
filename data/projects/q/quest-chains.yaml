@@ -4,9 +4,9 @@ name: Quest Chains
 github:
   - url: https://github.com/quest-chains
 blockchain:
-  - address: "0xcDba6263aC0a162848380A1eD117B48D973EABFC"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xcdba6263ac0a162848380a1ed117b48d973eabfc"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

@@ -6,9 +6,9 @@ github:
   - url: https://github.com/limone-eth/farcaster-indexer
 blockchain:
   - address: "0x1358155a15930f89ebc787a34eb4ccfd9720bc62"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet
+    name: limone.eth

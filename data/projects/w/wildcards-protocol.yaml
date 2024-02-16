@@ -4,20 +4,16 @@ name: Wildcards Protocol
 github:
   - url: https://github.com/wildcards-protocol
 blockchain:
-  - address: "0x53e42d7b919c72678996c3f3486f93e75946a47c"
-    tags:
-      - contract
-    networks:
-      - mainnet
-  - address: "0xf12Ca7007D5258A5d98c5da6437674Ca704a2561"
-    tags:
-      - contract
+  - address: "0xf12ca7007d5258a5d98c5da6437674ca704a2561"
     networks:
       - optimism
-  - address: "0x1D7b8D3c6c896d7eB4f9118Ea377C359073d4083"
+    tags:
+      - contract
+    name: Optimism_Wildcard_Registry
+  - address: "0x1d7b8d3c6c896d7eb4f9118ea377c359073d4083"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
-      - mainnet

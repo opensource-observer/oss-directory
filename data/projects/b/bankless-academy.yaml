@@ -4,15 +4,15 @@ name: Bankless Academy
 github:
   - url: https://github.com/bankless-academy
 blockchain:
-  - address: "0x60529042D2Ff2e82d5140E60dBCCf8242cd114Ae"
-    tags:
-      - wallet
-      - safe
+  - address: "0x60529042d2ff2e82d5140e60dbccf8242cd114ae"
     networks:
       - optimism
-  - address: "0xbFBceA2a72Bc2e62E967fA0c79458dD507708469"
     tags:
-      - wallet
       - safe
+      - wallet
+  - address: "0xbfbcea2a72bc2e62e967fa0c79458dd507708469"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

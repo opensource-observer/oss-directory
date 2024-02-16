@@ -4,15 +4,15 @@ name: Token Engineering Community
 github:
   - url: https://github.com/TokenEngineeringCommunity
 blockchain:
-  - address: "0x65F1303C261e34b7B99f0136CCBd58dedF6CEfE9"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x65f1303c261e34b7b99f0136ccbd58dedf6cefe9"
     networks:
       - optimism
-  - address: "0xA26d6AEB775a9528c012B748ACe66E3B0FD574cE"
     tags:
       - eoa
       - wallet
+  - address: "0xa26d6aeb775a9528c012b748ace66e3b0fd574ce"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

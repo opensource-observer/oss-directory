@@ -4,10 +4,11 @@ name: Atlantis World
 github:
   - url: https://github.com/atlantis-world-core
 blockchain:
-  - address: "0x036C545Ae4f68059b4C83f7E3814429d4c73c089"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x036c545ae4f68059b4c83f7e3814429d4c73c089"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: atlantisworld.eth

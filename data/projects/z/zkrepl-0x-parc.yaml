@@ -4,9 +4,10 @@ name: zkREPL
 github:
   - url: https://github.com/0xPARC/zkrepl
 blockchain:
-  - address: "0x5B3920527cfe207100312f4685E048ee032Fa391"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x5b3920527cfe207100312f4685e048ee032fa391"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: zkrepl.eth

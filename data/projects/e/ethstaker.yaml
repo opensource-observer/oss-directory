@@ -4,9 +4,10 @@ name: EthStaker
 github:
   - url: https://github.com/eth-educators
 blockchain:
-  - address: "0xD165df4296C85e780509fa1eace0150d945d49Fd"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xd165df4296c85e780509fa1eace0150d945d49fd"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: ethstaker.eth

@@ -14,8 +14,8 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - factory
       - contract
+      - factory
     name: RageTradeFactory
   - address: "0x1d42783e7eeacae12ebc315d1d2d0e3c6230a068"
     networks:
@@ -58,7 +58,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: ClearingHouse
+    name: TransparentUpgradeableProxy
   - address: "0x4b928afd7ca775c7f4ecdf2c00b7e608962abbdc"
     networks:
       - arbitrum

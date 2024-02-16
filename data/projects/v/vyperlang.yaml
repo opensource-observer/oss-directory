@@ -4,10 +4,10 @@ name: Vyper
 github:
   - url: https://github.com/vyperlang/
 blockchain:
-  - address: "0xAbfA48BCc0F96Fc70be7a4156b0a74Ea350167fD"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xabfa48bcc0f96fc70be7a4156b0a74ea350167fd"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

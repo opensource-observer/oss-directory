@@ -4,15 +4,11 @@ name: Wombat Exchange
 github:
   - url: https://github.com/wombat-exchange
 blockchain:
-  - address: "0x9a104004ef083b0980f19aa5d0cfaaf2b5ffe388"
-    networks:
-      - optimism
-    tags:
-      - safe
-      - wallet
   - address: "0xcb3bb767104e0b3235520fafb182e005d7efd045"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
@@ -31,9 +27,10 @@ blockchain:
   - address: "0x85cebd962861be410a777755dfa06914de6af003"
     networks:
       - arbitrum
+      - optimism
     tags:
       - contract
-    name: LP_USDT
+    name: various:DiffersByChain
   - address: "0x0fa7b744f18d8e8c3d61b64b110f25cc27e73055"
     networks:
       - arbitrum
@@ -43,9 +40,10 @@ blockchain:
   - address: "0x3f90a5a47364c0467031fb00246192d40e3d2d9d"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Voter
+    name: various:DiffersByChain
   - address: "0xcf20fda54e37f3fb456930f02fb07fccf49e4849"
     networks:
       - arbitrum
@@ -61,15 +59,18 @@ blockchain:
   - address: "0x62a83c6791a3d7950d823bb71a38e47252b6b6f4"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: MasterWombatV3
+    name: various:DiffersByChain
   - address: "0xc6bc781e20f9323012f6e422bdf552ff06ba6cd1"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: Pool
+    name: various:DiffersByChain
   - address: "0xe14302040c0a1eb6fb5a4a79efa46d60029358d9"
     networks:
       - arbitrum
@@ -79,9 +80,10 @@ blockchain:
   - address: "0xe933e227315fea19a4130f65efff7a12f50f762e"
     networks:
       - arbitrum
+      - optimism
     tags:
       - contract
-    name: Bribe
+    name: various:DiffersByChain
   - address: "0x90ecddec4e4116e30769a4e1ea52c319aca338b6"
     networks:
       - arbitrum
@@ -97,9 +99,10 @@ blockchain:
   - address: "0xee9b42b40852a53c7361f527e638b485d49750cd"
     networks:
       - arbitrum
+      - optimism
     tags:
       - contract
-    name: wmxWOM_Pool
+    name: various:DiffersByChain
   - address: "0x2977b0b54a76c2b56d32cef19f8ea83cc766cfd9"
     networks:
       - arbitrum
@@ -118,3 +121,9 @@ blockchain:
     tags:
       - contract
     name: LP_ETH_wstETHPool
+  - address: "0x9a104004ef083b0980f19aa5d0cfaaf2b5ffe388"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

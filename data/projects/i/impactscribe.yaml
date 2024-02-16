@@ -4,9 +4,9 @@ name: ImpactScribe
 github:
   - url: https://github.com/impactscribe
 blockchain:
-  - address: "0x65E25AE3E9A2Ce545dB8ef900745726a73377EdF"
-    tags:
-      - wallet
-      - safe
+  - address: "0x65e25ae3e9a2ce545db8ef900745726a73377edf"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

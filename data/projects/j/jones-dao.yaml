@@ -4,19 +4,22 @@ name: Jones DAO
 github:
   - url: https://github.com/jones-dao
 blockchain:
-  - address: "0xd83055eb9d43a7dac64c9ef3e117d43964dd01fe"
+  - address: "0x2a88a454a7b0c29d36d5a121b7cf582db01bfcec"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
   - address: "0x4817ca4df701d554d78aa3d142b62c162c682ee1"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - deployer
       - eoa
-  - address: "0x2a88a454a7b0c29d36d5a121b7cf582db01bfcec"
+  - address: "0xd83055eb9d43a7dac64c9ef3e117d43964dd01fe"
     networks:
       - arbitrum
     tags:
@@ -25,9 +28,11 @@ blockchain:
   - address: "0x873066f098e6a3a4febf65c9e437f7f71c8ef314"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: ArbitrumWrappedJonesAuraOFT
+    name: various:DiffersByChain
   - address: "0xb98976a008191948a6857df824034d3c5f3aabc5"
     networks:
       - arbitrum
@@ -43,9 +48,10 @@ blockchain:
   - address: "0xcc21349b6b1c82530d5da6ed310380d980f75497"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: MultichainHub
+    name: various:DiffersByChain
   - address: "0x6ecaa3203aeb4d0cc21745f2752a73b41ced7c24"
     networks:
       - arbitrum

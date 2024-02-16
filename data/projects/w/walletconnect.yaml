@@ -3,3 +3,11 @@ slug: walletconnect
 name: Wallet Connect
 github:
   - url: https://github.com/walletconnect
+blockchain:
+  - address: "0xcbec15583a21c3ddad5fab658be5b4fe85df730b"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

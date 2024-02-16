@@ -5,15 +5,16 @@ github:
   - url: https://github.com/stevegachau/optimismresolver
   - url: https://github.com/optinames
 blockchain:
-  - address: "0xf50831b4857ec32F6B9Ca3b7145e47068014CF15"
+  - address: "0x9fb848300e736075ed568147259bf8a8eefe4fef"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xf50831b4857ec32f6b9ca3b7145e47068014cf15"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
-  - address: "0x9fb848300E736075eD568147259bF8a8eeFe4fEf"
-    tags:
-      - contract
-    networks:
-      - optimism
-      - mainnet

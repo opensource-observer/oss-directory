@@ -4,9 +4,10 @@ name: Crypto Jobs
 github:
   - url: https://github.com/crypto-jobs-fyi
 blockchain:
-  - address: "0x589a0D87d600a6C6fAa34c491C9e779f434bC51d"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x589a0d87d600a6c6faa34c491c9e779f434bc51d"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: kuramori.eth

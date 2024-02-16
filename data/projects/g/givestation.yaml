@@ -4,15 +4,15 @@ name: GiveStation
 github:
   - url: https://github.com/givestation
 blockchain:
-  - address: "0x4243CFB8D5cEfA0087E3cf8E9aeA86e6ec38E0D9"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x4243cfb8d5cefa0087e3cf8e9aea86e6ec38e0d9"
     networks:
       - optimism
-  - address: "0x96Cd3AC1e5c2E4FB021B97dA3a6D57e8e665EDc3"
     tags:
       - eoa
       - wallet
+  - address: "0x96cd3ac1e5c2e4fb021b97da3a6d57e8e665edc3"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

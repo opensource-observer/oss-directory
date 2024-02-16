@@ -4,9 +4,9 @@ name: GamePayy
 github:
   - url: https://github.com/gamepayy
 blockchain:
-  - address: "0x4b7866e717f27Fa1C38313D25F647aE0598571BD"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x4b7866e717f27fa1c38313d25f647ae0598571bd"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

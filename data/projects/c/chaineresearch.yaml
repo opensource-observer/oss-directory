@@ -4,9 +4,10 @@ name: Chaine Research
 github:
   - url: https://github.com/chaineresearch
 blockchain:
-  - address: "0x47ac438004D39518792eb96F743A4b952e8462Fe"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x47ac438004d39518792eb96f743a4b952e8462fe"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: chaineresearch.eth

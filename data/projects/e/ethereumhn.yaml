@@ -4,9 +4,9 @@ name: Ethereum Honduras
 github:
   - url: https://github.com/EthereumHN
 blockchain:
-  - address: "0xF23bBC8365eDd4953EC0221FAbeAc4745c4CC57a"
-    tags:
-      - wallet
-      - safe
+  - address: "0xf23bbc8365edd4953ec0221fabeac4745c4cc57a"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

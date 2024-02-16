@@ -6,36 +6,40 @@ github:
   - url: https://github.com/zenbitETH/zengo
   - url: https://github.com/zenbitETH/zengo/milestones
 blockchain:
-  - address: "0x7E41de88c46D9FB24547d01F9d396e7d2D15CC14"
+  - address: "0x7bb99d772a5a9f37d35e1c311a95c15e8487fe30"
+    networks:
+      - optimism
     tags:
-      - wallet
+      - deployer
+      - eoa
+  - address: "0xa7dc76ae4a98da6352f283874b4c6d3bfb817dc1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DAO
+  - address: "0xb3911d5f92181ff728c72f0a162e8d6f3bdd5b66"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Account
+  - address: "0xbace7a1b6ee3fb476fc5feb7e7bf3a60293bc3cb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PunkCity
+  - address: "0x7e41de88c46d9fb24547d01f9d396e7d2d15cc14"
+    networks:
+      - optimism
+    tags:
       - safe
+      - wallet
+  - address: "0x3a250dfbddf46f798ebd2ef67ddff10014946e9b"
     networks:
-      - mainnet
-  - address: "0x3A250DFbdDf46f798Ebd2Ef67dDFF10014946E9B"
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
-  - address: "0xa7dc76Ae4A98da6352F283874b4C6d3BFb817dC1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7Bb99d772A5A9F37d35E1c311A95C15e8487fE30"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0xb3911d5F92181fF728C72F0a162e8D6f3BDD5b66"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xBace7a1b6ee3FB476fc5fEb7E7bf3a60293bC3cb"
-    tags:
-      - contract
-    networks:
-      - optimism
+    name: punkcities.eth

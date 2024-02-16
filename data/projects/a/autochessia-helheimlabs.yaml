@@ -4,9 +4,10 @@ name: AutoChessia
 github:
   - url: https://github.com/HelheimLabs/autochessia
 blockchain:
-  - address: "0xb0eE1755460DdDb01F73104dF2E61a89b0464885"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xb0ee1755460dddb01f73104df2e61a89b0464885"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: tooyoung.eth

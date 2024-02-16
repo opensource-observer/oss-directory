@@ -6,9 +6,9 @@ github:
   - url: https://github.com/gobitfly/eth2-beaconchain-explorer-app
   - url: https://github.com/beaconchain
 blockchain:
-  - address: "0x9d4E94dB689Bc471E45b0a18B7BdA36FcCeC9c3b"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x9d4e94db689bc471e45b0a18b7bda36fccec9c3b"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

@@ -5,8 +5,8 @@ github:
   - url: https://github.com/alloy-rs
 blockchain:
   - address: "0x678bde72881ac85ad22ff536f06673cbf97691f8"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

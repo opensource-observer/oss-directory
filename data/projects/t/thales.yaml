@@ -4,3737 +4,4082 @@ name: Thales
 github:
   - url: https://github.com/thales-markets
 blockchain:
-  - address: "0x489863b61C625a15C74FB4C21486baCb4A3937AB"
-    tags:
-      - safe
-      - wallet
-    networks:
-      - optimism
-  - address: "0x9841484a4a6c0b61c4eea71376d76453fd05ec9c"
-    tags:
-      - creator
-      - deployer
-      - eoa
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x8314125c8b68af2afd0d151eb4a551e88128a2ae"
-    tags:
-      - creator
-      - deployer
-      - eoa
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x2d356b114cbca8deff2d8783eac2a5a5324fe1df"
-    tags:
-      - contract
-      - factory
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xbe4c7750bf54ed9f83b189b6a4daeffc760f6882"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x9a51524422ddf1b8afec04cba6451a6c50320998"
-    tags:
-      - contract
-      - factory
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x795ba11d575e6703282b1db0cb849a15e304115d"
-    tags:
-      - contract
-      - factory
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xdb5a5475002f3a09a033dcf21327c81e5cdd86fb"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x64cb6ef981e5e432d4362f6a561a31b22e328cc5"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x82b3634c0518507d5d817be6dab6233ebe4d68d9"
-    tags:
-      - contract
-      - factory
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xe0b31640b07e4bcfafc190d7dde951ba3286dd63"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x2dc1fe64afa2281ff38df998be029e94c561937f"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x0d3dd2ab36a9a6174559f24db59b45a73737bd19"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0xc10a0a6ff6496e0bd896f9f6da5a7b640b85ea40"
-    tags:
-      - contract
-      - factory
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x842e89b7a7ef8ce099540b3613264c933ce0eba5"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0xeaedb23b6c1719ace0825c315235f09699dae6ae"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0xc3650f57dd14ac5e5ca86b350ea7c73dee36ecd3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xca14ec99ec5e2b3fcefc2f6256cbbf9c2f644b55"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x33bf0378242c7c814942197ea4ae584b52681197"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa61198118d595ef9762bf32ef4fd7ec005e46d75"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x22e12a53cb40533707881607f808c7939cde9e0c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x79a1219209e91bd7e46e9ae89377adc34c05f18d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x627907c5cc27c755c0860450ece6b4480615a45f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6cd8019f6e61aeb99d9170a5fedb44b23305ecd8"
-    tags:
-      - contract
-    name: ParlayMarketsAMM
-    networks:
-      - optimism
-  - address: "0xcc36fde645729a52a92f08a2f1aecebc3326f790"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x63f072928cac9ffd799c6d0f985f9ee3985e9a84"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1d94777e3a288a7cdab316f17e43d31800fc58b0"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xa970c125c2f26255f3adf053e735728269f2817f"
-    tags:
-      - contract
-    name: TherundownConsumerWrapper
-    networks:
-      - optimism
-  - address: "0xa8fbb95cac84b94a54a2bd41ca130cb46dd24349"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9e0b492f029f969affbfd78ca17302c2da2604e6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe1fd1c3d915f500a65d13ee462c78bde4db0ff92"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x8213c4052a5ac643e7e88b1633c1eaa332dcdab3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xffc72be6daf9072664d4bf9b8dd90562ce20aca5"
-    tags:
-      - contract
-    name: ParlayVault
-    networks:
-      - optimism
-  - address: "0xbf40da2e303c4a7cdb1a7b4d444b10b8e9b91cd9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x23ed8fff5a8f79d01a453cc9935fa0435893825f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf80350859238421479f451fe55eba610153af57b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd65604822e0a2c75ab03a07dca11c560682c796e"
-    tags:
-      - contract
-    name: StakingThales
-    networks:
-      - optimism
-  - address: "0xe853207c30f3c32eda9aeffddc67357d5332978c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc647ab2cab7d6da6081703382ecf2814d8b7c03c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd59cad563741a26283d96f89e9fca6be853c99ad"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xda80876ccf328c1cf4722d6451dde9ae8b24d127"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xef9e3a581a2d7916b05d24c2ef54a505b3219e72"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x9b91d27568c51cef3c4e04d504ef3ce11d5f2427"
-    tags:
-      - contract
-    name: BinaryOptionMarketFactory
-    networks:
-      - optimism
-  - address: "0x3defaf45093c01a5b0a34587ea3726b911d523a8"
-    tags:
-      - contract
-    name: SportPositionalMarketData
-    networks:
-      - optimism
-  - address: "0x9fb1ef2b3cf9b62955ad18fc5e03e47fdce15a4a"
-    tags:
-      - contract
-    name: SportPositionalMarketFactory
-    networks:
-      - optimism
-  - address: "0x457c4fd48d73416c55018b340814f7d3e853b511"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xab9b794b292e60055129e006766167630bc65368"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x6c7fd4321183b542e81bcc7de4dfb88f9dbca29f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1071f3b2893f41094b1c84f090ea023042bb70c0"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb3a103e08a9dadf3ccd06824a65be86b33cdb138"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x6c2e0015b431f8c5f6b40138af803504e601d91c"
-    tags:
-      - contract
-    name: SportAMMLiquidityPool
-    networks:
-      - optimism
-  - address: "0x752e92343fc2bba40439126ab870fadbcf17050c"
-    tags:
-      - contract
-    name: ThalesOracleCouncil
-    networks:
-      - optimism
-  - address: "0xb59e9915d505e43f1231ce8f8258b8c6168ab891"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x38f84c15d4c3079b5f94177c97858ceff24647bf"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x803201e28df62c25c0a463827132a2baada0fe79"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xec1101a160d5b29351b0dee11c823b16ea81e7c6"
-    tags:
-      - contract
-    name: BinaryOptionMarketManager
-    networks:
-      - optimism
-  - address: "0x0b69063cfd89b25620f93a81ee9b1e4b20a79049"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x0a9397378c427e39bde0c53e6626523b7d08aacd"
-    tags:
-      - contract
-    name: ParlayVault
-    networks:
-      - optimism
-  - address: "0xbf7f22f78d25fc1dc77f18a93e8e6e153487f6ac"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x016aadc3823044026174c64732491dc3e2c3041a"
-    tags:
-      - contract
-    name: ParlayMarketMastercopy
-    networks:
-      - optimism
-  - address: "0x7801efa8e30606d2d4c9848852b56ff03efdad5c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9a2017cbf88b994dd7d3894d4652f0ef5f557973"
-    tags:
-      - contract
-    name: AmmVault
-    networks:
-      - optimism
-  - address: "0x3ae1bf5f9481a42940feb4a1dfcc943128088280"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe1095dceb4e4184bfb6ade590998fae94b815f2c"
-    tags:
-      - contract
-    name: ThalesAMMUtils
-    networks:
-      - optimism
-  - address: "0x087ae43c00035fd3e1944513fd570f416faee62c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0e4641f7ba379d20e8bb84819b07c9234d0bddcf"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6d3705368323900490193324277a221d8db62ba7"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5ed430c56e028e8b9b992fbb18dbcd58b5d31c2a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x160ca569999601bca06109d42d561d85d6bb4b57"
-    tags:
-      - contract
-    networks:
-      - optimism
-      - arbitrum
-    name: StakingThales
-  - address: "0x3aa0814cd91f33467e6eb5ba58e56ab73699582b"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xf4aef21d906992afadde7a9676e1db4feb6390dd"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x955f1032678be2d76d9eb4d1a73931d6cb59114d"
-    tags:
-      - contract
-    name: SafeBoxBuyback
-    networks:
-      - optimism
-  - address: "0x8f7493e91e03dbe921baeb15c9f6adf4f8830479"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xff8a28abc89f6788a1786c8455a0beed6e08a1fd"
-    tags:
-      - contract
-    name: CrossChainAdapter
-    networks:
-      - optimism
-  - address: "0x85870ab75945964b1f2c50307d71fcd6f5d9730a"
-    tags:
-      - contract
-    name: TherundownConsumerVerifier
-    networks:
-      - optimism
-  - address: "0xe6dc152e7b0c7614f589fa1f54d149cd3cdccc11"
-    tags:
-      - contract
-    name: SportPositionalMarketData
-    networks:
-      - optimism
-  - address: "0xfed78b2d1daeb1b82c528293c73601dd8436b383"
-    tags:
-      - contract
-    name: CrossChainAdapter
-    networks:
-      - optimism
-  - address: "0x146444d363028c5495f7d57a4c49e641ce8017b6"
-    tags:
-      - contract
-    name: ParlayVerifier
-    networks:
-      - optimism
-  - address: "0x2c1e631adf3ea9111d126c06b6d4cf7d03124d60"
-    tags:
-      - contract
-    name: SportPositionalMarketManager
-    networks:
-      - optimism
-  - address: "0xd051b22871f23d12eedf54d695420f43c9d3c268"
-    tags:
-      - contract
-    name: ThalesRoyalePassport
-    networks:
-      - optimism
-  - address: "0xf29ba1a2f947d3c416382dd853a1831e0d31de9a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf1299a4b78799c5ff9bd19f0e96c070f4e0d96de"
-    tags:
-      - contract
-    name: MarchMadness
-    networks:
-      - optimism
-  - address: "0xbe086e0a2c588ad64c8530048ce4356190d6a6f3"
-    tags:
-      - contract
-    name: BinaryOptionMarketManager
-    networks:
-      - optimism
-  - address: "0x6acc550248f0ef1a99f2b39af530197fce7c3184"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5830e9e30b55cb5fd6102805fea2cf951f6afb49"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x84f6cdb2b94a0a943bfc66bac5861b141e5605be"
-    tags:
-      - contract
-    name: CrossChainAdapter
-    networks:
-      - optimism
-  - address: "0x43d19841d818b2ccc63a8b44ce8c7def8616d98e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3877ce466be1618dc4060eb53b9989831539b2b1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9043cf6b9319b07f52d9c8d8964a8b457a64e0ca"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0xeed063903f9f0ddc044507bdab5d59d91d8fbac4"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x2f2103f22d790ac5fb1c1c071eafbde5ca85817b"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x53275529cf0ba240896f37eb2bee17c6c79faece"
-    tags:
-      - contract
-    name: ParlayVault
-    networks:
-      - optimism
-  - address: "0x07a06ff3ac30ccb592598bd880a36fe50d42e2de"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0xe6947368ddacde47cc7fe64303125ab9d8421530"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x76711e9f14254071ac8767ae675fecf793c22beb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3d112016604ef2920bf411edf0b0212ef4a1cb6c"
-    tags:
-      - contract
-    name: ExoticPositionalMarketManager
-    networks:
-      - optimism
-  - address: "0x0d1098469d651161cc8211e2973afd5ad1cfb7a9"
-    tags:
-      - contract
-    name: AmmVault
-    networks:
-      - optimism
-  - address: "0x1dc1a62f7f333347b3885ffeef71cb4d00829fac"
-    tags:
-      - contract
-    name: AmmVault
-    networks:
-      - optimism
-  - address: "0xb0dd7b602656c315f970616e72f28d05a5d8f29c"
-    tags:
-      - contract
-    name: ApexConsumerWrapper
-    networks:
-      - optimism
-  - address: "0x2808e10705b58b11d05c447f5b2f93836a3b9997"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x70164a1ec9d21c4dba2b4f9b23750f9c7d03286b"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x95820b7d30904bea4419c0cabd9ac93b35d488e9"
-    tags:
-      - contract
-    name: PositionalMarketMastercopy
-    networks:
-      - optimism
-  - address: "0xa975550c2064b0b2d7f5e5e0175e5e9dcdfa2ae1"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x7039ccd356e0995bea3d748dd69677243f23b7f0"
-    tags:
-      - contract
-    name: ParlayMarketsAMM
-    networks:
-      - optimism
-  - address: "0xd2bc26305b8aa6ef4b9c5954bcbd49975ad05689"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x17019988cc39733f5b02338a6adc04ded7e1afc8"
-    tags:
-      - contract
-    name: OvertimeVoucherEscrow
-    networks:
-      - optimism
-  - address: "0xfd4fd1aa23325592cea9b9d83d1ae64fbc56611b"
-    tags:
-      - contract
-    name: BinaryOptionMastercopy
-    networks:
-      - optimism
-  - address: "0xac47c388d52c443fd854848ef1fa57171679e7b1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x23823f1c7c4ae2acef3bccfcd5f282ae078150c2"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x1757cf4c1edcfbb42dfdff91644b8d8d5e90f904"
-    tags:
-      - contract
-    name: SportVault
-    networks:
-      - optimism
-  - address: "0x5f8b6a881c7f97a73ba21a64f36cb4e5eca6bba6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3da91e5ed564ee46d4d734e1f99f395f0969101a"
-    tags:
-      - contract
-    name: Airdrop
-    networks:
-      - optimism
-  - address: "0x7bb0a8506c763f24e3b5b6cbeae7e56e5787d754"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x81423f567904b940dc3c37c32ea4c4b5da6db8ca"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4f1f0665ef05eb734d2a19ebf9948aabef898e7d"
-    tags:
-      - contract
-    name: SportPositionMastercopy
-    networks:
-      - optimism
-  - address: "0x3094b8e3148f580735786dfcc5ee26ead419e8d7"
-    tags:
-      - contract
-    name: SafeBox
-    networks:
-      - optimism
-  - address: "0xb5bec32954a3a75fce4b5b0b38bc6e7ccad4c4ad"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb85ffccf08ccc82d0a3101d78822f293aab44adf"
-    tags:
-      - contract
-    name: ParlayVerifier
-    networks:
-      - optimism
-  - address: "0x671f9654a594f8966b19c0b466f306e1dfe912a6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1853bcf689fdcdb4fd2a74e89205598855bee8d3"
-    tags:
-      - contract
-    name: SportPositionalMarketData
-    networks:
-      - optimism
-  - address: "0xa8a415def7aba752726bf8fb1c980b4ce52cf582"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xbf8523c0e36012291c32bfbd266ea497db705ac2"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xd6a960921cbb5462022ceadc4ad158e05cbfd168"
-    tags:
-      - contract
-    name: GamesOddsObtainer
-    networks:
-      - optimism
-  - address: "0x7cafbe06cbb6d7f7dafaf3c62d200e9bd6a1f38e"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0xf3510f0a565fc33f956afa84dfba745434cd6641"
-    tags:
-      - contract
-    name: ParlayMarketsAMM
-    networks:
-      - optimism
-  - address: "0xf307efbc0dcdd1fb9c97e73a51bc7bd642efdd34"
-    tags:
-      - contract
-    name: SportVault
-    networks:
-      - optimism
-  - address: "0x3e2c83f5131be75dce34b08a8168969061821997"
-    tags:
-      - contract
-    name: GamesQueue
-    networks:
-      - optimism
-  - address: "0x9434bdb4f2d0233904e0301f8bf09ceaf9c72bcc"
-    tags:
-      - contract
-    name: PriceFeed
-    networks:
-      - optimism
-  - address: "0xf078aec9c73de6477ec8527d7a67ee1decb2c1b6"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x35f4c54c1e36e6c931c116ddbe2fc62e95a8d3cd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x05fdb7b90cb47edd5c2856059baded89f11dd0fd"
-    tags:
-      - contract
-    name: GamesOddsObtainer
-    networks:
-      - optimism
-  - address: "0x34ed3d919ad7f533bfafe9295363d9f37c0c5658"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf534848023ba851c6265e8f99a919c4d5fd05cd0"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x18e37a53cac94ffb4a3aa8544fb4b6c2bf055019"
-    tags:
-      - contract
-    name: CrossChainAdapter
-    networks:
-      - optimism
-  - address: "0x9dc42a2535b7161222862daeb4a301361098d800"
-    tags:
-      - contract
-    name: GamesQueue
-    networks:
-      - optimism
-  - address: "0xcaa383b59ec3d8f1fa8da2afbb8b80bf959eb7b6"
-    tags:
-      - contract
-    name: SportAMMLiquidityPool
-    networks:
-      - optimism
-  - address: "0x6a07e7b1479658b74261e8359f58c083f3fa667b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd927170e3669cd14fa07937b778b1649257f8ee6"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x7ad35a998847fecf33fb1f23c27d3159a9c59d3c"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x89df505c693ac7e07d8d5d6308fe0bd041033cdb"
-    tags:
-      - contract
-    networks:
-      - optimism
-      - arbitrum
-    name: PositionalMarketMastercopy
-  - address: "0xd24f796c1ee04a2e68fb7e71c5bb8259fce2745d"
-    tags:
-      - contract
-    name: MarchMadness
-    networks:
-      - optimism
-  - address: "0xf7bd3887fe25d2d4108a9c92a173e126b9d71e85"
-    tags:
-      - contract
-    name: StakingThales
-    networks:
-      - optimism
-  - address: "0x21c175d6e37226a3c107347251c20297b47517dd"
-    tags:
-      - contract
-    name: BinaryOptionMarketData
-    networks:
-      - optimism
-  - address: "0x94ad305456516e5b621f295fda2c8b55250e71c7"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc922f4cde42dd658a7d3ea852caf7eae47f6cecd"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x3090455a284eb87a8dde46d3352be73c17deab0a"
-    tags:
-      - contract
-    name: ParlayMarketData
-    networks:
-      - optimism
-  - address: "0x0499a85fcc6c41ea00d6afef803b9474b042d617"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0xac1d6991441d2113ac812bea5da4b20af01274fd"
-    tags:
-      - contract
-    name: ExoticPositionalMarketManager
-    networks:
-      - optimism
-  - address: "0xbd39d496eeba3842521e8886a04312795c2bc799"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x66269520acd32e54b18731b5806c9e1cfc64c99c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x25659203022644c4766b2bdf60d276924bddb4a2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5417c847b6ce4163c43116e8d9670395ba08b503"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x750dcadca8e9e7f9702c85383119ea8034450993"
-    tags:
-      - contract
-    name: PriceFeed
-    networks:
-      - optimism
-  - address: "0xd4c0f91efa1ff4cc32f86693f166125818d27277"
-    tags:
-      - contract
-    name: ExoticPositionalMarketManager
-    networks:
-      - optimism
-  - address: "0x57ddc52fe5967b7a82e69aa9b8925b30f2531032"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfeb75318ea0a838c0c8b694e84602cfdc5b8030c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8481fb8f367941774435bb4922972c0369c8908c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe8e022405505a9f2b0b7452c844f1e64423849fc"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2f71f4a2d8bab9703fff3ff5794762bf5b6c7e29"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdf0a5bf80e8009f2702e7d164a7bdeaa79013eba"
-    tags:
-      - contract
-    name: BinaryOptionMarket
-    networks:
-      - optimism
-  - address: "0x15c9eae416c2e3fbecf2248003a2b2677127e9db"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x2b89275efb9509c33d9ad92a4586bdf8c4d21505"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-      - arbitrum
-  - address: "0x56ce3546436ab45e7fd259841a1a7082a05e715c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfe09453b10d10953c482f6cc6ab367f57ce195fd"
-    tags:
-      - contract
-    name: ParlayMarketMastercopy
-    networks:
-      - optimism
-  - address: "0xfba2474a02265c0f0a7fd0e9f75dec5863b4897a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x79599f6dd939108f3872cfa67456fcddc66e48f8"
-    tags:
-      - contract
-    name: PositionalMarketManager
-    networks:
-      - optimism
-  - address: "0x102f559555022bdf6630b8c84ecbcadb6e90cbdf"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x86089daab2444560fd774307b5d0d854d7e9279d"
-    tags:
-      - contract
-    name: TherundownConsumerVerifier
-    networks:
-      - optimism
-  - address: "0xc45eb8d37917ab65d06806f35cc54e09dea135ac"
-    tags:
-      - contract
-    name: ThalesBonds
-    networks:
-      - optimism
-  - address: "0xea3b0afdaf4d5b4e64e51c2af43860831105372e"
-    tags:
-      - contract
-    name: ParlayMarketData
-    networks:
-      - optimism
-  - address: "0xe431892c52960d04e5827375c4fac96631c6c6a6"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xc0201ee722280f3f86a20c0aa9fba2ef6fcfd26d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0db550f1f2b538d763393760fedc33be7945c577"
-    tags:
-      - contract
-    name: SportPositionalMarketManager
-    networks:
-      - optimism
-  - address: "0x72ca0765d4be0529377d656c9645600606214610"
-    tags:
-      - contract
-    networks:
-      - optimism
-      - arbitrum
-    name: SportPositionalMarketManager
-  - address: "0x2e48d87d5d70ad31ca77edb2dadd748cf2c49f72"
-    tags:
-      - contract
-    name: ParlayMarketData
-    networks:
-      - optimism
-  - address: "0x3198ab211cdf3e4d13a698e1fb819507bca2e579"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0abc94987f6b98bfe6fd40f749e445a2857a4ee3"
-    tags:
-      - contract
-    name: ThalesStakingRewardsPool
-    networks:
-      - optimism
-  - address: "0xba6f3af1836b2e9eb347dca0490c62cdcbbfb2bf"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0xb193e73b9b4ad9ab815b4add8e435ec258c684e1"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x44ab6573beef3483cde5b0bc1d25127ff89c6947"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf74c347f3b0bba9000c1882ff91139376f0d8cbc"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x1da1c269b59e4c523ae37f6678357939634052ba"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x266b5d4717661f4ef37af4379c066ab8e046bb22"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x643e4388fb918a7905441afe4b2906c059a1c83c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x05ce8b455e3695bf56caeb329ad1ae4501fa4a20"
-    tags:
-      - contract
-    name: RangedMarketsAMM
-    networks:
-      - optimism
-  - address: "0xb32fe0d20f995fcd540f19326a258679bcd0b9e5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfb6527ba5700b1d8ed135469b15bf8264aeb8335"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1d936b0ae8fdc2b240c5bbb114a9b699211c9752"
-    tags:
-      - contract
-    name: ParlayAMMLiquidityPool
-    networks:
-      - optimism
-  - address: "0x7b9a3a5599b26a3243b50cf6e1506f7be180ac3c"
-    tags:
-      - contract
-    name: TherundownConsumerTest
-    networks:
-      - optimism
-  - address: "0xdf9dd5c11c87bb5e1cb90ee07c3037981e2aa1e9"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x474499e5202d8cc7898358526c8d00b43333326d"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xd1fe5a0256acaea497ecd30dc0b816cce95e23e9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe2de80837f8d9b59ba4f23d3dea02d1d842131c0"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x42c6a55ab0d8b6caed2573db14c8799b45d21ebc"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0c09f6c136e144a5d84b4161b2fc3f245700f62e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb484027cb0c538538bad2be492714154f9196f93"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xbea0a27ec250dd09a06a787caa8541bfc1440ce9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x61823ee732849921ec34808563f6cc095f77ecea"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x0eeff6deac317ac3f5ef286d069d213570eb0840"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x61c7f4643da0506ea9aa10f70eec0d6b63488820"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe2f77e6154a644a70035b693dacd6580e3378332"
-    tags:
-      - contract
-    name: PositionalMarketManager
-    networks:
-      - optimism
-  - address: "0xf6f31f00876fade235fc01392e41258420b8fd7d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd517215990cbf485e7a3f0158102e4868db61cdb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5a1f813e4adaf68223eeac93966cfa03cf1267c5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x09b7b9e47e8fd3329c43154c4acf66180ce64a95"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x06aeee7a39d1ab39fe42b81cca329fdbe7f41a4f"
-    tags:
-      - contract
-    name: TherundownConsumerVerifier
-    networks:
-      - optimism
-  - address: "0x380aca4476cb3ee3912e2479384b34f3327f15a9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x279c0d239d0c036e74aadf872d604af37e341373"
-    tags:
-      - contract
-    name: ThalesAMMUtils
-    networks:
-      - optimism
-  - address: "0xda26b8eb86ddf2028533f82a6f5451a232373f8a"
-    tags:
-      - contract
-    name: SportPositionalMarketManager
-    networks:
-      - optimism
-  - address: "0xc1f313e9748d40250a25bf8f8e1056df929cc62a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x408b71808c85b7603721e6a0d941237d70d1906f"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0xb30e9725fcf5e48886655b962defa9d9e0de1ade"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x27e9d8250d19ed277a2fb7cb3439841e6fb9f7ab"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xe41cd3a25cbdeda0bc46d48c380393d953bd2034"
-    tags:
-      - contract
-    name: BinaryOptionMarketManager
-    networks:
-      - optimism
-  - address: "0x83a6a83eed4c97b2b4b60a02df1ac27c0db5a175"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x99a63e20e6f78dbbbd3a07d9f9330a860ef2b4d9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb3bc321759ec7203d18f179142b9548a2c2e4007"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd550bd32b434ba870642f94710eb220f542ed3f3"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xe5109cc91f2c236fbee3752af06dc92d4bdddc84"
-    tags:
-      - contract
-    name: RangedMarketMastercopy
-    networks:
-      - optimism
-  - address: "0x6a3f7168b2e5e23992a89d7106b5076cfb52a405"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x39ed4a44c5a390415f1b1dde2c77a61168aadfbf"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xece0eefff3003d23e366c917104c6cf5cdb404f1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xee97fc872e94de22c92b1eae04f836340068eeeb"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x8fe726b27e89cd484981b2d27160186920af2d17"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x369fd489391115bea7082a524d13be09e6922fa5"
-    tags:
-      - contract
-    name: StakingThales
-    networks:
-      - optimism
-  - address: "0x7a911614e0a916fb59a14ebd5c186dd076d1edbc"
-    tags:
-      - contract
-    name: ExoticPositionalTags
-    networks:
-      - optimism
-  - address: "0xc79339a3f3b36c57c96e457a2b44728f221c7d44"
-    tags:
-      - contract
-    name: ExoticPositionalFixedMarket
-    networks:
-      - optimism
-  - address: "0x38f1487bd60142ae3633c082934455f06b613c6e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe8e8093d44f84be11974e3183d219e94fc9c36d7"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x63a6344e7dc0032900c261437838b0aa9e869c90"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1a0bb66e40d2b998a0c5fe19ff77dcd428a76ccf"
-    tags:
-      - contract
-    name: ParlayVerifier
-    networks:
-      - optimism
-  - address: "0xb7cfa3affd1313410ffc3a891af5675d658e526f"
-    tags:
-      - contract
-    name: ParlayMarketData
-    networks:
-      - optimism
-  - address: "0xc1274f9b143a8a33843446d39d97b431b3e74163"
-    tags:
-      - contract
-    name: ParlayMarketsAMM
-    networks:
-      - optimism
-  - address: "0xdcd5c5dd3b108fabd8a61a6e0549ffefa99d166c"
-    tags:
-      - contract
-    name: SportPositionalMarketMastercopy
-    networks:
-      - optimism
-  - address: "0xc392133eea695603b51a5d5de73655d571c2ce51"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x278b5a44397c9d8e52743fedec263c4760dc1a1a"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x4f2b4e7d0a61622d2bbaeeccd34888163e175647"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8d47b12ce25e2dc6866e8aac0dbd823da09fadd6"
-    tags:
-      - contract
-    name: OngoingAirdrop
-    networks:
-      - optimism
-  - address: "0x032540e69963235b3a1f56e61f8659a425655083"
-    tags:
-      - contract
-    name: CrossChainAdapter
-    networks:
-      - optimism
-  - address: "0xbdce653912f089371b9dcb83a1b6b93d6e991418"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x57faada9e5a3098a38151e4de8426135b0fa4fd0"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xaeee46e31e5c34eafbc5ce31bedd3453a181b46a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7edadd097402aab262b7886640bb020ab0afdbc6"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0xb5137d1a5b2a02c93c4bf64794caabcc1264a499"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1e4ada1e0390ec9de281df3839fcb2998deb9b67"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8f8cc357aaa401cb6f7e01d56c59aa8cb2132018"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1ebce103b528bbce8c3bf0bd594cdf18d284cef7"
-    tags:
-      - contract
-    name: BinaryOptionMarketManager
-    networks:
-      - optimism
-  - address: "0xa25816b9605009aa446d4d597f0aa46fd828f056"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x827ac1b47e1b0ff773e9476527261f6dc0e840d5"
-    tags:
-      - contract
-    name: ParlayMarketsAMM
-    networks:
-      - optimism
-  - address: "0x3898b385a644af75b826338446369e4e7ff2f47d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6b6309efe76f28331e640397be0c45141ae5e686"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7550ac81ab981bc67b740af457e090e0f4cd092e"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x6c96d32b94526918d3376868d287ff1b92ce07de"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x565ce8cf5ae8e2adc6849eecc6c3ba07ba56c4a2"
-    tags:
-      - contract
-    name: SportsAMMUtils
-    networks:
-      - optimism
-  - address: "0x741ad22a9444d1b5e6606a3587effa5b8995321c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfa2a9d305f2009f2a7a2a95ba501b51f9a06b815"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdb9233f7b5378946407e50b5a53f87a223dadf95"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5ca2e53f00902dd64c7b8436a8f5d10807a84281"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xda10fed3bf26bdc131f408ec224c38816c2b15cb"
-    tags:
-      - contract
-    name: PositionMastercopy
-    networks:
-      - optimism
-  - address: "0x6a282c7e0656c3e1dabb2fe0972e8ea2bd109fb3"
-    tags:
-      - contract
-    name: OngoingAirdrop
-    networks:
-      - optimism
-  - address: "0xd47285b394960a5552631af2aec25558a6a1b823"
-    tags:
-      - contract
-    name: StakingThales
-    networks:
-      - optimism
-  - address: "0xf9ea58018436e01aab73bd49084d9d2558905d4a"
-    tags:
-      - contract
-    name: StakingThales
-    networks:
-      - optimism
-  - address: "0xe10a2743a1ce709693d3ad5f06ea47df3e0b3ec9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5ae7454827d83526261f3871c1029792644ef1b1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x416c9c053bb551c20a0d794ec08e607e24dc70e1"
-    tags:
-      - contract
-    name: StakingThales
-    networks:
-      - optimism
-  - address: "0x628225f89804022fb621aa5a6a75c67f3c0886ea"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x197802dd60fc7f2ce1a3f0b5bc5ab17af848bfa5"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x7f9b2539e0793d31eb3c32305298f113f08d0089"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd77cc57ca411c67f00a8df9e334fd0d79e9bfcc9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc9fd24b3672dee34bf7e4ab9c4c9b12779fd3dcb"
-    tags:
-      - contract
-    name: ThalesAMMUtils
-    networks:
-      - optimism
-  - address: "0x48e2982016ecab46c8c2ce64fdb909931713e22f"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0xfc050b42a88c046d54b7a4e3da42d8c9c38db266"
-    tags:
-      - contract
-    name: SportPositionalMarketData
-    networks:
-      - optimism
-  - address: "0x11e6ad917b3d6cfdc282a1dc117ca0bdc0b26821"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x19c185494fd9ed3c8191fe21e965a4e3d2dcb781"
-    tags:
-      - contract
-    name: Airdrop
-    networks:
-      - optimism
-  - address: "0xa2f24cc5ee1fd06ae3f8708f37ba064f7eebfa98"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x259913466c08d5e3824237002b6c3c95d926bc91"
-    tags:
-      - contract
-    name: ParlayVerifier
-    networks:
-      - optimism
-  - address: "0x705d97a0eb98a1a611bebde00fd3dcf380ec04f5"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x7b3241c61889185188e3b444abef7298fae6b1e1"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x6d53c852fe7e0b60d54c70e454cbbccbce2c39c4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xea71aacad9c7105859581aa7048126d6f98b391f"
-    tags:
-      - contract
-    name: TherundownConsumerVerifier
-    networks:
-      - optimism
-  - address: "0xfbffebfa2bf2cf84fdcf77917b358fc59ff5771e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe7f379dcad66a5128f44a996d276cf55e6d8f2c5"
-    tags:
-      - contract
-    name: TherundownConsumerWrapper
-    networks:
-      - optimism
-  - address: "0x2a928a7f0a54edfc158e3082b2b66d09d7211700"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd13160ead61030f09837b3e429cf2f1a36193dd3"
-    tags:
-      - contract
-    name: RangedMarketsAMM
-    networks:
-      - optimism
-  - address: "0xef9865a2d2dc2322d8b4e6ac84b13d4121ebff4a"
-    tags:
-      - contract
-    name: SportPositionalMarketData
-    networks:
-      - optimism
-  - address: "0xafd4dfe320883cfd9f6127d30f6d7bece90a285e"
-    tags:
-      - contract
-    name: Airdrop
-    networks:
-      - optimism
-  - address: "0xd671dd46ef7c5b2fb6bf3164b444aac69843a91e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1582272e85e4f058018f933f7ad924250bab1881"
-    tags:
-      - contract
-    name: ParlayMarketsAMM
-    networks:
-      - optimism
-  - address: "0x34fb310296b441625469395ed5765296f6426636"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe0fa68b4d3fca2518ea923d65507a11f20135356"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x99fb60a3281467b138ad4d3a7ba575cd9f30a17f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf329b8748216b9f9e39c98e1b60e6e5da6b91731"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x80ae4cf36564ac107744946265a331b7b3321828"
-    tags:
-      - contract
-    name: SportsAMMUtils
-    networks:
-      - optimism
-  - address: "0xa234095bc421b97c1fe104331edc5299a60485c9"
-    tags:
-      - contract
-    name: BinaryOptionMarket
-    networks:
-      - optimism
-  - address: "0xa143e04a0090cc55c13a8280d52192a2d008dd6f"
-    tags:
-      - contract
-    name: LPStakingRewards
-    networks:
-      - optimism
-  - address: "0x42792efed59f628495dd9f5e2190819468ce0934"
-    tags:
-      - contract
-    name: BinaryOptionMarketManager
-    networks:
-      - optimism
-  - address: "0xa01ad492b19314befbce4891b927a030d660ffa5"
-    tags:
-      - contract
-    name: ParlayAMMLiquidityPoolRoundMastercopy
-    networks:
-      - optimism
-  - address: "0xe6dd36180cb089810d5fe11bb766cbbc51d7d23b"
-    tags:
-      - contract
-    name: ParlayVerifier
-    networks:
-      - optimism
-  - address: "0xbc4de74ced32de8d5aeab3bcd2f47de58070f0cc"
-    tags:
-      - contract
-    name: EscrowThales
-    networks:
-      - optimism
-  - address: "0xef60ac2186827ff57b3561571cb3cf8dbd0ac9e1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x84e964be3b910e8a8633856b69ebbddc7ba55006"
-    tags:
-      - contract
-    name: SafeBoxBuyback
-    networks:
-      - optimism
-  - address: "0xfd99fcb3e53338c6e6f9f0855c24b39df4b1536a"
-    tags:
-      - contract
-    name: SportVault
-    networks:
-      - optimism
-  - address: "0xb1414f8b3ab67aa4e18d36ef9e342fcd2d5432aa"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd0418b847255b9e55e1f1d5a52241ada23e5197c"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x8612704049460f7a999fe06d6d11830a4baf6cec"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0xbac6c6e28bd000a72fa18735cc24ceee49f51069"
-    tags:
-      - contract
-    name: OvertimeVoucher
-    networks:
-      - optimism
-  - address: "0xfe323c6a4ec6e12bf55552fd939768e4cba7db60"
-    tags:
-      - contract
-    name: BinaryOptionMastercopy
-    networks:
-      - optimism
-  - address: "0xaca11c093bf6d22528bfca298ae5aecfef68f9ba"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x3dfe6fab38d20d189cd7d28b04f8714c289de2ae"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0xc13025ea8a2a402112fca956b248823c30720ec0"
-    tags:
-      - contract
-    name: ParlayVerifier
-    networks:
-      - optimism
-  - address: "0x6a63e89de430257f5a654f4bcdc8f902e2c5469c"
-    tags:
-      - contract
-    name: ThalesRoyale
-    networks:
-      - optimism
-  - address: "0xf47c8f70a2251798162caf7cf9014152b5ee3761"
-    tags:
-      - contract
-    name: SportPositionalMarketManager
-    networks:
-      - optimism
-  - address: "0x962654fe9534c616fe1f3bd7c12065d54551bcb8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x56d0a5098ad74f5e635797753644521173be89db"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xd458ab8971cca2d51515cba564e9498cf81cc36d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7fb934d61c0e732c47a50fabc2def884cc1545e6"
-    tags:
-      - contract
-    name: TherundownConsumerVerifier
-    networks:
-      - optimism
-  - address: "0x890b559e10ad1aae73713f2f1924aab4e60cf505"
-    tags:
-      - contract
-    name: TaleOfThalesNFTs
-    networks:
-      - optimism
-  - address: "0x72376a5fc5758dd2b36c61960fd1936430a40a32"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0xf0d52e9cbe8d091c5d11f8e5d56ef7ce8c0d93c6"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x8ef3a39a2d1362fcf62213012618c4d463b2a0cc"
-    tags:
-      - contract
-    name: PositionalMarketManager
-    networks:
-      - optimism
-  - address: "0xd47e4307959f2e7111827b0b83a4a2f5a2b0005a"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0xa3c2b9ade3c2345700c0fb878cb91a5a18293038"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0xf1f38617f59eb073e8b0879eca526762d9f34830"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x0b8f398d8dbb74bf2dc475d02e802334777be900"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x3e238af2906a767fb4cfaeb666f9c341d5cd82b1"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x757bdc3043dc21652169bb1d0ffc51516caefdb8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7e7184bc0b0156cbf8347a03cefce3b2c710328a"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x1122494f58831eb5812f9bf6c222f9a0b251279d"
-    tags:
-      - contract
-    name: RangedMarketsAMM
-    networks:
-      - optimism
-  - address: "0x679c0174f6c288c4bcd5c95c9ec99d50357c59e7"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb2d2c60e088cb2a531d8e93efab53455a7ad82ac"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x43318de9e8f65b591598f17add87ae7247649c83"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xa484e256d614cdeb221f3e7445a7a955662eb404"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0bac9ec4126ce5b62bee2e99823c2b2e96c396b5"
-    tags:
-      - contract
-    name: DefaultLiquidityProvider
-    networks:
-      - optimism
-  - address: "0x93b192fb45937a2774bd66b861a2694902d1d465"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe247ac7de11c1ac0e075666d032b003a35cb75e6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa35e6a72670950335ad701ed9f4ba65b5fa99e9c"
-    tags:
-      - contract
-    name: ParlayVerifier
-    networks:
-      - optimism
-  - address: "0x49e458c7e1dbea6105fe907b0241fab764dfe340"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x73aae33a9ec285d542fdc1ca7e293eadad5247c1"
-    tags:
-      - contract
-    name: SportPositionalMarketManager
-    networks:
-      - optimism
-  - address: "0xab599b2697d836e665706dc59566363e2fe0995a"
-    tags:
-      - contract
-    name: StakingData
-    networks:
-      - optimism
-  - address: "0xb019cb0c09165a96f221427ad027b8946199d976"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x6bfcac33502f030d6dcccfda5e810a236aa243f1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x14c50f2527ff4c68fac12394883233c701938636"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9bb3fd74634ecd2db310fbaeb0be1891720e644f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x06011212ec56b65133b13c4ad3f11f1d40aa2344"
-    tags:
-      - contract
-    name: SportsAMMUtils
-    networks:
-      - optimism
-  - address: "0xabbfac523537082f1c55097acfee8c07c8958885"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x17d8eb2ea0e9d640b97927bfdead5cc83f81a216"
-    tags:
-      - contract
-    name: SportPositionalMarketMastercopy
-    networks:
-      - optimism
-  - address: "0xaa7ad7b27fc419d00b4bef275e7f6020953a824f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x648200a8d65e477b7222b89019bb877209d1b0cf"
-    tags:
-      - contract
-    name: ExoticPositionalMarketData
-    networks:
-      - optimism
-  - address: "0xf238b93e4593cdc181bc56bcc776f9d8c346cbc4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1a59ac5d4bdf35b5255c6d301ad23f6eb1530d57"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfdbf68a25eee0a1619e2b8d255a1cee9369717c2"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x4986e171a7d66d5acfbf4299df7893a97636b02c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf10424c47f3105757d3155879d5060b50f82a8e8"
-    tags:
-      - contract
-    name: SportsAMMUtils
-    networks:
-      - optimism
-  - address: "0x4cd7c4be42266903299afc72284e273d0b49df48"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x236057f9f13faa625da73cd1cb1e838f15d6c6d2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x63d6dd43f6854a06548bc88e890c9afff5d29f4b"
-    tags:
-      - contract
-    name: AmmVault
-    networks:
-      - optimism
-  - address: "0x7dfda202789a8d35539260fb22b711b55a335674"
-    tags:
-      - contract
-    name: BinaryOptionMarketData
-    networks:
-      - optimism
-  - address: "0x3d63af087bf9ca6cd603689c4360d4765b490c0e"
-    tags:
-      - contract
-    name: ExoticPositionalFixedMarket
-    networks:
-      - optimism
-  - address: "0xed5c389ad19c5a839ef93233dbff6e969ac9ecb5"
-    tags:
-      - contract
-    name: SportPositionalMarketMastercopy
-    networks:
-      - optimism
-  - address: "0x91001550d523216e91e9e099234b4d48ab77bb7e"
-    tags:
-      - contract
-    name: StakingThalesBonusRewardsManager
-    networks:
-      - optimism
-  - address: "0x6ab00f0b713fd6288fc849b25e580ed2ad51d39d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x33425d42926283bc19c273110284035980bddc01"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf6a6e6f90b4864d0ce86c03230db723077039aa8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf775e40f6f331f6c2efeac5c3133a685856e9060"
-    tags:
-      - contract
-    name: SportPositionalMarketData
-    networks:
-      - optimism
-  - address: "0x4846c5513932923484cf249a88e2149e8171b84d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa84062253e6fbc0c03ab100a7953ebe88be86415"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0xdf3eefc2ed0f31947a67f0e817dfd92717630e38"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x9530c16d2a169daa38ee73748661999f2b2f0c1d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xde4f5406675a3ad513528f93a8f17c98ce98451f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xae19f47b8bdfd0c667796682445c0ba8d549e41e"
-    tags:
-      - contract
-    name: TaleOfThalesNFTs
-    networks:
-      - optimism
-  - address: "0x92fa0dabe2f6d8b5b64e9d0cc869bc737c15bf9e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x339e4557cd9c6f7ea0536d80418e692b55b8a33d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x734c6c0fb8068afc4d795af32b65ba31bb38fdc2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6a4c622c3f3252393c8a819278b925ca58418215"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7d1dbb0eede15baaaf8fa6d6d9025b0390263e35"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf0c573f825b9efe4da8ddd161ff1ebb756233eca"
-    tags:
-      - contract
-    name: ExoticPositionalMarketManager
-    networks:
-      - optimism
-  - address: "0x0f392fc503432f9d5336b10159d0d27751540161"
-    tags:
-      - contract
-    name: TherundownConsumerVerifier
-    networks:
-      - optimism
-  - address: "0xf3b63b29a2813959a4273e920c6c5df06bfc369a"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x181b43ac8f2bcda81e0f40b16cb74b109deacfc9"
-    tags:
-      - contract
-    name: RangedMarketsAMM
-    networks:
-      - optimism
-  - address: "0x8947da500eb47f82df21143d0c01a29862a8c3c5"
-    tags:
-      - contract
-    name: BinaryOptionMastercopy
-    networks:
-      - optimism
-  - address: "0xa59727442212227bbdcfec1e883677a930707412"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5b10fea6c4f16d73ff447906604ed9f448498ac9"
-    tags:
-      - contract
-    name: ParlayMarketsAMM
-    networks:
-      - optimism
-  - address: "0xa1086d77493a1b316c927e7ed3ab2f06ee6b6c9a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0fa6b2516ce46013182f3f1f31aa7bfb04fd409b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0024fc033708ab6917e3003cf425a289cebf1c9f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x95486a41dccff81874c2f61cddda9ec8ee1bcb34"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x092e6b8dfddb4b732c89deb4a700868cc5d58b70"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6002a8f2a8dc0b704080765ce96aac63d5f7b224"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3ff20410003767ede94c06c5df56968d90abae6c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x19b207721196c01c66609246308f4035eae0104d"
-    tags:
-      - contract
-    name: ExoticPositionalMarketManager
-    networks:
-      - optimism
-  - address: "0x5c779cfae4b6b7a02c32938ddabdada8ab60fb14"
-    tags:
-      - contract
-    name: DeciMath
-    networks:
-      - optimism
-  - address: "0x184c1da4e33ee3093af05c9100ac9b0d5e78efcb"
-    tags:
-      - contract
-    name: LPStakingRewards
-    networks:
-      - optimism
-  - address: "0x2bc8ae379f7db9310e92daa074fcc7caf89c5c55"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xed2917eb2e4ac54321272d5e27ad7b22c5532ab0"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x18d28fe27829fcf030e0346dde7c3316c0e49039"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4538584c46badffe261e049fa25296cf35b26391"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xab4b1cb0e9ccdab5c30ca6c54230e2ed8de2a840"
-    tags:
-      - contract
-    name: Referrals
-    networks:
-      - optimism
-  - address: "0xcdaa51fa12ac485153f5b74f7ba8ed12b673ebfc"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0xc44dfc6ffaf195e2535fc13d75a79d9238459782"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x7a07c26166dc04f1319e58d630769585ada2cad8"
-    tags:
-      - contract
-    name: ApexConsumerWrapper
-    networks:
-      - optimism
-  - address: "0x1687fdc8a409be442e2dd3de42b1fcc974ac9ee8"
-    tags:
-      - contract
-    name: TherundownConsumerWrapper
-    networks:
-      - optimism
-  - address: "0xdf593a822b0ba768816ba5a3d06fa3e1a8f7000e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc1a135343c8e90998bdef974eeab18f135cb0cad"
-    tags:
-      - contract
-    name: SportAMMLiquidityPool
-    networks:
-      - optimism
-  - address: "0xaf88719228ab83a1260f3a0e021a80f3db150b67"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x086cc1c04ef1aa4797c18a946c5688bf3949e89d"
-    tags:
-      - contract
-    name: RangedMarketsAMM
-    networks:
-      - optimism
-  - address: "0x6b33b99e3d3213df963375e6d94aba968351f803"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x56ef50083fa7aeea923feed7907f4714e4c7a374"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x335d3c3802ea2bba9db4968317dc8bc2d3139f4f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x391a45f31c1837e3d837c23e05f42a098329d50d"
-    tags:
-      - contract
-    name: ThalesBonds
-    networks:
-      - optimism
-      - arbitrum
-  - address: "0x3030678f4f022ac162b4c70fc22aa4de56ed8486"
-    tags:
-      - contract
-    name: SportAMMLiquidityPool
-    networks:
-      - optimism
-  - address: "0x6fe6ec1c8d435b7b8596c983ee72358a2f5436fc"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2f1b03447b23b3a78f5e708a052ac3498bb72c87"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc33cab50ee69bbc6106462b873a19c132eb44cc4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x261c4500a87f0203ce5eb6706645f7f1bd614b5d"
-    tags:
-      - contract
-    name: BinaryOptionMastercopy
-    networks:
-      - optimism
-  - address: "0xf2719ae0a51bbd6083b8c7ba28c7e963e22521d1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd41469706802dbbcf78e985c50092bbbde9431fb"
-    tags:
-      - contract
-    name: TherundownConsumerVerifier
-    networks:
-      - optimism
-  - address: "0x653c6adfb4a0865b78fec02fedeb5d02d8fd83eb"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x951159a8c1bc97f70d200ff39fa026ce31134783"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb4a2132a916e34168a06fe34f269ad941f2598f8"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x67c5ca02b4570abd1e0632b2eece2fc0d9581072"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x38bd9206b0867a5282eeed59e67a79e2f9831585"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2b91c14ce9aa828ed124d12541452a017d8a2148"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9712ef637f3834f1fb884908ee105d5170813646"
-    tags:
-      - contract
-    name: ApexConsumer
-    networks:
-      - optimism
-  - address: "0xce8895d6a19f34ae1f6ebb2310b4ce355dcc8985"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa7fb4a668baa9d287f7ce0454366dadf87018ac8"
-    tags:
-      - contract
-    name: VestingEscrowCC
-    networks:
-      - optimism
-  - address: "0xa4f794b346c2984175fba5f410a6c6fa7276926e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa20ed099894dcfc46af290705ff5ae4d318b0235"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x04fa9a26b0237ee5046f2451d2b91b8f35c718ca"
-    tags:
-      - contract
-    name: PositionalMarketManager
-    networks:
-      - optimism
-  - address: "0x6d4393fad7a2928c10cdd0bcdd7702b39086d8b2"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xb8109ac56ee572990e6d2c6b4648042bb1c33317"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x31a20e5b7b1b067705419d57ab4f72e81cc1f6bf"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1751ddce8d8b917223e05d8bd015dfb81bf1fcf2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x898392a5bd0029fcd55492c7cbd7442bafcfb71c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6c36ced2298cc5a61257c85388851c91fc9de189"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x043d7d6b42714d79e92ce01aa45789be4a83a8c5"
-    tags:
-      - contract
-    name: PriceFeed
-    networks:
-      - optimism
-  - address: "0x08e2c2ba4f48e1dd103c12a38d515ba980f4e5ae"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x2113a7d5d203be717083746bc6040c3fb8673389"
-    tags:
-      - contract
-    name: StakingThales
-    networks:
-      - optimism
-  - address: "0x41cccb4935386e0471922d460d9194b7db486d1f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5e2b49c68f1fd68af1354c377eacec2f05632d3f"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xcf356646e70db0aaf3d7a3f9d4f412695e6d615c"
-    tags:
-      - contract
-    name: TherundownConsumerVerifier
-    networks:
-      - optimism
-  - address: "0x912f889034ddd593a087c4e59061e549891e4d4e"
-    tags:
-      - contract
-    name: ParlayMarketsAMM
-    networks:
-      - optimism
-  - address: "0xb3fc7dfcf8a93d7f7482d8cad4ab13a57d221f6a"
-    tags:
-      - contract
-    name: TherundownConsumerVerifier
-    networks:
-      - optimism
-  - address: "0xaea1be15adb75a49aceef392a6d37625d993952a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x516c96b8cbc19f70b3783ccdc74327b2d9f2d644"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0xa9218c6d51b87eb3ee74e14cb5d50bde00be7021"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3751774fc967973d69cdd020eb15a1cac23e3650"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1e95faca5f99dcc8e517fea193a3c3b0aac1e0a1"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x024148079617fe41add3faadbb9ccb208b78aac1"
-    tags:
-      - contract
-    name: ParlayMarketsAMM
-    networks:
-      - optimism
-  - address: "0x470a69afec851c1c4022b4a1b9d3a729389564ff"
-    tags:
-      - contract
-    name: PositionalMarketMastercopy
-    networks:
-      - optimism
-  - address: "0x760e1556fe5ab98637f7fd3f8e550e18e4790e74"
-    tags:
-      - contract
-    name: GamesOddsObtainer
-    networks:
-      - optimism
-  - address: "0x7b603f09c9b93dbaa2cf56f233269b6751d74cff"
-    tags:
-      - contract
-    name: PositionalMarketFactory
-    networks:
-      - optimism
-  - address: "0x456b46311e59d6ab7569c94071f15fc76c850425"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xb47fb03ffacefa464aa0b1e575ddd42760a2d6fe"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9656ce991ed988e83b8c67fbca91f1618bb09e54"
-    tags:
-      - contract
-    name: ParlayMarketData
-    networks:
-      - optimism
-  - address: "0x566d358f3386abac32cbe750489306c73caac9c2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5442ff0573fd54a4f6c02a7a0d8e22bdc1a3c671"
-    tags:
-      - contract
-    name: OvertimeVoucher
-    networks:
-      - optimism
-  - address: "0x5713ab44042d92c642444bd2f0fee9c2336f9e3b"
-    tags:
-      - contract
-    name: BinaryOptionMarket
-    networks:
-      - optimism
-  - address: "0xb0cbc48969e48993456493a04f8dfa4996da10f3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb897c81fa890ae81d3b9665c76fe610b696330b8"
-    tags:
-      - contract
-    name: ParlayMarketsAMM
-    networks:
-      - optimism
-  - address: "0x9c7cc98d31713e43b46cfa10b3b5c3ef66bc043d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x92b8d6c884d9268437e7b4e7bf96e78614965942"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x24a88a9a74e68fa13fad083c549a03ea1db93853"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfae0177f052c9f020e6e984accf98241ae35facd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb089a5b34f061ff658c783afe948abbb1ead9886"
-    tags:
-      - contract
-    name: ExoticRewards
-    networks:
-      - optimism
-  - address: "0x022ca1d3570f6c258ed47c381541d8225176e385"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1b3dd18f0a31926a8cc24df87c69b0ba303a04a1"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xed8519750eb90cbe9ba8573324a5c4102b97a85e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb23ea6561953b406f4806cd177377d6940420608"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3bd77b8fe52242797c29df251418873ae34f0641"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6b88627e43be7cbe48cf616c6576f5aa15423f35"
-    tags:
-      - contract
-    name: PositionalMarketData
-    networks:
-      - optimism
-  - address: "0x793fe9d56773158b3666ca7a9b6c95044c956275"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd8bc9d6840c701bfad5e7cf98cadc2ee637c0701"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x8415e409a5566a1333815c2e7735cd71b3db229d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2d385352674cbb8468723bc01efc00998c10fc96"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6808a70a212cc2ca0838f5703a6c7bd080fa354f"
-    tags:
-      - contract
-    name: CrossChainAdapter
-    networks:
-      - optimism
-  - address: "0x0221240a18d3118400f07d15df34ff460da10a47"
-    tags:
-      - contract
-    name: MultiCollateralOnOffRamp
-    networks:
-      - optimism
-  - address: "0xae56177e405929c95e5d4b04c0c87e428cb6432b"
-    tags:
-      - contract
-    name: BinaryOptionMarketFactory
-    networks:
-      - optimism
-      - arbitrum
-  - address: "0xbd2e1e91d41d5083fb460148a2e37a340a356213"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x99bf9d0d03689ac2a8c20c17fd757c5763abc5d9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x975c85207239cd7574019bf098b8bef49ac0c9e0"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x563312c2c4736efb40e86bb5e538269d6eb7c0dc"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x3fe7ace64a2d33f0c03749c20283201e3bd3bd70"
-    tags:
-      - contract
-    name: SportPositionalMarketData
-    networks:
-      - optimism
-  - address: "0x3b05d4c58de4e96ea093032c6d70c7e4212a4c31"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5d3174731f2a8c564fcfb2120709f69059642d4e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7291826de06edf5426e13f07fe4fe0df77ffaab0"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x4726b4c7b2d2a1efb07a459fcf5224d5f76c56f6"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x1e368780363ddadfec3b5382c397183778dab63c"
-    tags:
-      - contract
-    name: ParlayVerifier
-    networks:
-      - optimism
-  - address: "0x5ebc0a9278a87caffc090f8e1e53f2fe60f76f9e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xaaf0cae140a7deaf14c97f5c410201fbe30e33f5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5179a757a3b29d2665a0638651f2d3c6c945d062"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x42b6e9b5bb96a02e02e651d3104fc3546e1313f2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x170a5714112daeff20e798b6e92e25b86ea603c1"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xf9dcbe0732fb68027333fae86a88ac602e239deb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc6bd4862d9b41030ab803dabdc7b2b25ef3379d1"
-    tags:
-      - contract
-    name: RangedMarketsAMM
-    networks:
-      - optimism
-  - address: "0x42af0890d254387110555a46d261b9e4f6e327ac"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc07520843239c2caa28101d8241d9132669b4271"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x16012ef3eec79db8f002a05c7a8102786e5c6c38"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x966e38c5c3143ec903efe4e3ca74c23306f17035"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x51b774ff4b48e73ef8f9699da827ef9e33485abe"
-    tags:
-      - contract
-    name: SportVault
-    networks:
-      - optimism
-  - address: "0x4db7afb6b777fb47101c86bdeb56669ffa8cd656"
-    tags:
-      - contract
-    name: BinaryOptionMarketManager
-    networks:
-      - optimism
-  - address: "0x234678962dd56ffb71f97f0f0f45a66624145470"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x01b93887c08b40530fc6f4000c6a745c81e1a3fe"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xeb4c074daf45800aea4573ce19dfac8cf2ec8bf9"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0xd34294db117aeaacd11649b754eb3a89469975fb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe2886fe51f2afb6e226218fe99c732907e3d1c74"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xda5f4a6dec7afbe179cb797ae015912dfadd4d5f"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x3e5c7a991bb6e51938a5100b082d87dde8147cc4"
-    tags:
-      - contract
-    name: GamesOddsObtainer
-    networks:
-      - optimism
-  - address: "0x717ee7991cfeeb79b1d8e7d1dbd982fb7982d0fd"
-    tags:
-      - contract
-    name: ThalesOracleCouncil
-    networks:
-      - optimism
-  - address: "0xdaf1a86b6e4467a8c4412372b5c78ba5bf9c241c"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x0eb894b1cf3415538b9d64f12a3b3ab013966f50"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8f98690b1ddb25e43a50ff878fbd13e439ca52b2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x9227334352a890e51e980beb7a56bbdd01499b54"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x4a395967687ff1dab35bd924a62bc1de4e54e793"
-    tags:
-      - contract
-    name: GamesQueue
-    networks:
-      - optimism
-  - address: "0xbbc6bf169235ad9ca1b7d0f6a4593bb770e8c6cd"
-    tags:
-      - contract
-    name: BinaryOptionMastercopy
-    networks:
-      - optimism
-  - address: "0x48b30c659923a847627b43db51a4acd056ddcb5a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x897563772ce3ac574412f18ec04581ac377c814a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe2889edd73c84fc116185638f88eed328bbdd865"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xabde2d8663f0b99ab3fe31ef1af1d32aadd39996"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x02668a6d9b8c9d4c8aef7916270e945c3bfbbbae"
-    tags:
-      - contract
-    name: PositionalMarketManager
-    networks:
-      - optimism
-  - address: "0xf0ff8a5d04fa5189dc51604b51d76954ab1c7467"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb37da39a77e334befb9b66bbe5d13f62c58195b5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfb1d1af9d849ce7fa506ae30857e5fb850e9a1f9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xeeeac1cfbeecea670bc42e76163e10edf125c458"
-    tags:
-      - contract
-    name: SportsAMMUtils
-    networks:
-      - optimism
-  - address: "0x7f804722948571f575d06a52c7a414ae42f6f89a"
-    tags:
-      - contract
-    name: SportsAMMUtils
-    networks:
-      - optimism
-  - address: "0x519579c64ca400c5c38750c21e6573df16d01dde"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfe0796f85ea9348748ec01d60285113d12c39819"
-    tags:
-      - contract
-    name: BinaryOptionMarketFactory
-    networks:
-      - optimism
-  - address: "0x79ee39abf33e6f14f137033469d733533b5662e0"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5b76e974935c846da918a97e5ffd33e9c9e384fe"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0xdde32b09da4941a4762100a4eb2ae3a98cc70264"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8fe6fdc03eba902a2c259faf53ece2ad7a5c4d78"
-    tags:
-      - contract
-    name: ParlayVault
-    networks:
-      - optimism
-  - address: "0xa3e242c97a213cace27946123731fd63a06db5c9"
-    tags:
-      - contract
-    name: ExoticPositionalFixedMarket
-    networks:
-      - optimism
-  - address: "0x35aaecf71819f30d793b7dd39c20a96ec43cf39b"
-    tags:
-      - contract
-    name: TherundownConsumerWrapper
-    networks:
-      - optimism
-  - address: "0xc20b7a0b0fcd54e40d65646c3e149c0445ed86b0"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6b56a36f6dac65ec427a95eba6ff62b16f4791ba"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0xffbd1c988b2cad06b80dcc07ff9187963a01149d"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x664a9c4c58a8032e455feac8a1c7ba7d3c8c35b5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6a763c3d2f317d67727110c08a6cd61386ab16ac"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0a6851c7d112a27019d84dccb9ce0c0cd8b75325"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xffa5162aa8e835df11d999287068ab25f22a734a"
-    tags:
-      - contract
-    name: MultiCollateralOnOffRamp
-    networks:
-      - optimism
-  - address: "0xc8db2b4d011f5b9c53a5807103f6f229b21a407b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x217d47011b23bb961eb6d93ca9945b7501a5bb11"
-    tags:
-      - contract
-    name: OpThales
-    networks:
-      - optimism
-  - address: "0x4a78dfc97c59a11fa971407ca757e375508dd00f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8b2e97c18d8ebe2cadb173db3827376633bdead7"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2b47c597b0a28372c13fa42dcc510e27a6d8ec04"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8285047f33c26c1bf5b387f2b07f21a2af29ace2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdf08cede8eabf56233df21d454874ddf452fb54b"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x3ec543c220443ad0d30f53fca52dbfa346763256"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xeb0f592b88f1a3b63d81b6324a9490e8bfe62070"
-    tags:
-      - contract
-    name: ParlayAMMLiquidityPool
-    networks:
-      - optimism
-  - address: "0xccf4fdc780401010aa7572102bf82a769b741a19"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5c64a0be3cf1f5655d28c80353ee7f5bd8326a83"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb6bec915bd5188acd8b30da8d9ecb2ba83b9f86e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x78e9354077a65672eb2bcb546c8a5ee749f83806"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf1b35fac306cd6fb0008c229f056314c139a3c66"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8ee4f3705a530aa60749f2e9cef46d73aa1b376c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe070a4d5a17d458a237d20f23b49737da308561c"
-    tags:
-      - contract
-    name: SportAMMLiquidityPoolData
-    networks:
-      - optimism
-  - address: "0x0496b41645e91a71d6839b90f57c356f2f68a6c9"
-    tags:
-      - contract
-    name: Operator
-    networks:
-      - optimism
-  - address: "0x46b1ec25e5e7696ecbae9441d3f79d01b118e154"
-    tags:
-      - contract
-    name: SportPositionalMarketManager
-    networks:
-      - optimism
-  - address: "0xd6bed7d753dcbbbb8937dd009788d6c815ae3094"
-    tags:
-      - contract
-    name: BinaryOptionMastercopy
-    networks:
-      - optimism
-  - address: "0xe412f48849412eb71e6572b5d73e30954778c0e9"
-    tags:
-      - contract
-    name: SafeBox
-    networks:
-      - optimism
-  - address: "0x8ad0b66851bd6d50d82f623472a0bf6e402381e8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa4e42fa4ccef534516c2d9ea387285163d6dd747"
-    tags:
-      - contract
-    name: SportPositionalMarketMastercopy
-    networks:
-      - optimism
-  - address: "0xf270bba56b1a8ca722acbd6e6fb255a51dc065a7"
-    tags:
-      - contract
-    name: SportVault
-    networks:
-      - optimism
-  - address: "0xf1e574df617174e3911e8fe43587c7bb24882589"
-    tags:
-      - contract
-    name: RangedMarketsAMM
-    networks:
-      - optimism
-  - address: "0x88faa35a9f4f4fbcfded8d4a42048c20628d6884"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0xcb933e7adb71c191e0022035a8f48248747d0113"
-    tags:
-      - contract
-    name: RangedMarketsAMM
-    networks:
-      - optimism
-  - address: "0x2167af59e68ea29387ee2eaa60b7663d6158f1fd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1fce83884dc4263a92825543522379e37d7917df"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2708e239a6205fb7b8f27b6f2919844d5481b6bb"
-    tags:
-      - contract
-    name: SportsAMMUtils
-    networks:
-      - optimism
-  - address: "0x4393f1470317da64e277b29d96e5bf203f28efbe"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xcafb9f5e2d2960387dcd016d32b89441e444d166"
-    tags:
-      - contract
-    name: MultiCollateralOnOffRamp
-    networks:
-      - optimism
-  - address: "0x9350b6808eb0727929031a79f516094d66e4ad18"
-    tags:
-      - contract
-    name: GamesOddsReceiver
-    networks:
-      - optimism
-  - address: "0x3a537cf3838fd0165f864dd8cca5c15deb266f04"
-    tags:
-      - contract
-    name: SportsAMMUtils
-    networks:
-      - optimism
-  - address: "0xe4d249b3dc1ebb2181d7aa0a9d6359b01394f00c"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x4b50cc59f8a59036c6b63924b60eaef09530590d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xcde1c5d8998165fb417f58b1f258cb0dec38ba00"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0a47d5f27149270d45d74abd45fa30e567ab9b7d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0565b1ab5cee7075b32c2d6a5b9da44b708fb898"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x129e14f5e79f1423b79d309a2a7ee43121554c2f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf958a078c85069e2dced28ff27bd80db8f1ac945"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xcc134245424fe9e10a011961451d5ad6cd0c087c"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x8c9f8b38cdcf1911cb470326a435c4c1b192a80d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x50b532adaf5378f59dbd619dfd03e4d4ab3586bc"
-    tags:
-      - contract
-    name: BinaryOptionMarketMastercopy
-    networks:
-      - optimism
-  - address: "0x65682e98fb7519220925b3f4f209b83957da0176"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7fe0e7f9b8ad85c0f2dfe8073ebe5f41d67a7b9e"
-    tags:
-      - contract
-    name: GamesOddsObtainer
-    networks:
-      - optimism
-  - address: "0x87de148465727b34cd2a43773738390812b12a56"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0xc7428e4da6a6ff3571c3a9f88818622ac4950aa7"
-    tags:
-      - contract
-    name: ThalesRoyale
-    networks:
-      - optimism
-  - address: "0xbc4bbd7adb2f1dd79e40dd4029bcff97be9bb1f7"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0xc9183e3306a06e64c2a83e655756f70a83152536"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x73043369f8efdd6e0fcb09c1201ee787583a7425"
-    tags:
-      - contract
-    name: BinaryOptionMarketMastercopy
-    networks:
-      - optimism
-  - address: "0xefe06b9de2c94f172791c51ef7fc88fa75c64d26"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xab8f1ff41e58bc5a4587161a9b95f71fa39e1553"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x6f45357697de8ff54d914d47aa24a35222c1db30"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdcfb00385846d8658e734c73b01f5599ade90577"
-    tags:
-      - contract
-    name: ParlayMarketData
-    networks:
-      - optimism
-  - address: "0x0e12de09cf0a8c5653fadba8b3cd441590093b74"
-    tags:
-      - contract
-    name: SportVault
-    networks:
-      - optimism
-  - address: "0x356163fc5350a3b2440c73cd27b150e337e508e7"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x21382a033e581a2d685826449d6c9b3d6507e23c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x32d7426f380100406c56b15d1f9c0b8581b2c20f"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x15983b0adb819b284baa05011f8a6a23402b0e77"
-    tags:
-      - contract
-    name: SportVault
-    networks:
-      - optimism
-  - address: "0xe2881cad27db4c27fb3814ad97cca694b80c0fa0"
-    tags:
-      - contract
-      - factory
-    name: BinaryOptionMarketData
-    networks:
-      - arbitrum
-      - optimism
-  - address: "0x51f1e255a9f82578bf2c004576c4bc84cb9dd8f7"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x80559f187ab7b373c39a04df434f33d5462ac1bb"
-    tags:
-      - contract
-    name: BinaryOptionMastercopy
-    networks:
-      - optimism
-  - address: "0xebd11dc0ad74a44ee1fdb3e41c8db0c2ae032b3f"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x9d3abeaf22ddf68e72b865ca3b23ed880a3be41f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x91c5a519023620066b5fec2f28e4d899ded79465"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x79b7bad941e2cfb11181173906deeb07733354d1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xcd9c0e99396627c7746b4363b880939ac2828d3e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xee3e5aa9f33b475a0743a2896a3264777e1e0fbf"
-    tags:
-      - contract
-    name: RangedMarketsAMM
-    networks:
-      - optimism
-  - address: "0x69941ca6528d05f2930d655fed81640c83d48b79"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0xdf25ce158f7d3e5bb24cb8bed6dd1e043d48c5d6"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8e258beef8e860b21afbdb649b1ff26f7b149677"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x64c9c8f5e06f6149302a1098030295f1e37bc8dc"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf089f0182d994686c865cff4fa99a0fe55465d30"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2c59cef6fb58250aa649b91ecd1f401ada629370"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x2062b7caf899cf2ebc9d07ed45d323f6b096383e"
-    tags:
-      - contract
-    name: CrossChainAdapter
-    networks:
-      - optimism
-  - address: "0xfd0740a2041edc475c3fa224875bad9916c73ca9"
-    tags:
-      - contract
-    name: ApexConsumer
-    networks:
-      - optimism
-  - address: "0x30efe43c4bb21b7f282218923504ddb4118f1815"
-    tags:
-      - contract
-    name: ThalesAMM
-    networks:
-      - optimism
-  - address: "0x3ee33f28c8dcb83c7e6a55875f00a75c6ab67551"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x5c936675212cb832aa82ba4b8a1f237cf8db97ad"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x569099940b5d659c6df24f8cadc410c5598bb141"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x947e4612bfe3c56eedc15b829b0d1a1c019be420"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc7d8c34048d8bf6eb24fc76c7a61f47754990c81"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x947c3b2919276dd0baa8da86b3534b7afdfe2e59"
-    tags:
-      - contract
-    name: Referrals
-    networks:
-      - optimism
-  - address: "0x20612e6a0ddadc322b7b48e3c4246fb23836210e"
-    tags:
-      - contract
-    name: ApexConsumerWrapper
-    networks:
-      - optimism
-  - address: "0xf4507b4e2ff47c8008072b232ce332e89a167f4d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1f8e523e195c622ddf6a80a8db01687ff6a3caef"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0886e6bea150ed770b2ee3341332339c5c08d9cd"
-    tags:
-      - contract
-    name: StakingThales
-    networks:
-      - optimism
-  - address: "0x2db7789c691e4d086ba167f34923bbbc9d844703"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x47691bca9f8f24baffd1115ffcdeb137badae1e5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x09489201600e5eea6b7d9cf4bb2cfe677d7efa9a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x08bfe49094940702b33ebc5ce7d0fe84ae9608d2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe840e8e7bef7783f8f51908ef9e77044c1d4c58c"
-    tags:
-      - contract
-    name: PositionalMarketData
-    networks:
-      - optimism
-  - address: "0x012122615a48d1a0c5b15e147baa54ffe89b9fc8"
-    tags:
-      - contract
-    name: BinaryOptionMarketMastercopy
-    networks:
-      - optimism
-  - address: "0x7c3f725291010669ef77a404f7d83e10a480e0e0"
-    tags:
-      - contract
-    name: SportsAMM
-    networks:
-      - optimism
-  - address: "0x08ea9c467ba8042caee81d7b56dfa539ba05e021"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5ce95b8bd157f14b56871c8d69264d9b72f537e7"
-    tags:
-      - contract
-    name: ThalesRoyale
-    networks:
-      - optimism
-  - address: "0xb17e469585ba51fc7973659dd8d96e516ea4f4a3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfa4eb2b83345c80b22ba6f15de2e474e3c03e6ac"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1d70b630303ad656697719b5ec78b93855236324"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5d68d6d5b94b05995e0c5e391362ce7a6b2e741f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4063bfac9b1215c55452b961d428d98bce55cd49"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x93714e258b1f5e987ef1ff59ea66d51964952f62"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdc18854698c80f2d3b9251c01eb910690ca9d512"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1b0ed6567a53eac1fe6d859d3fb2be11738cf0e4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xbaac5464bf6e767c9af0e8d4677c01be2065fd5f"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xac724bec64ad7591f2e6ddb5fa57f4eadb78ee6c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xecbad7fc6ef238d03c6d6787480dad1d7a560a9b"
-    tags:
-      - contract
-    name: ParlayVault
-    networks:
-      - optimism
-  - address: "0x131f611470d831f56e2fcaa72250a5d768056dfe"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x85aac38db1234fba6e06d86e10cb1289d7d79657"
-    tags:
-      - contract
-    name: Referrals
-    networks:
-      - optimism
-  - address: "0x2447ce55d230c01fc430725a8613d852289f9985"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0x13d6616b61440c2b80fb9354c1c28504e6c31855"
-    tags:
-      - contract
-    name: SportPositionMastercopy
-    networks:
-      - optimism
-  - address: "0xaef7a2c9c95a0d11fd35a73f0c58770860e8a7c9"
-    tags:
-      - contract
-    name: TherundownConsumer
-    networks:
-      - optimism
-  - address: "0xf0a7d192ab5273b07c9cf5b4fb11c96a20a64b73"
-    tags:
-      - contract
-    name: BinaryOptionMarketManager
-    networks:
-      - optimism
-  - address: "0x606b55b96c833277e972aa18e4ef7d3f53bc6073"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe16b8a01490835ec1e76babbb3cadd8921b32001"
-    tags:
-      - contract
-      - factory
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x2f3c6a43f419e15b0ef5ef04decca2576025b303"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x365d7334f2c079df86b5e6aaa80d5ce896f498c9"
-    tags:
-      - contract
-    name: SpeedMarketsAMM
-    networks:
-      - optimism
-  - address: "0xa68034fc725fa0e6ae2e5260c18efb78f27a96fc"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7b7aa6f42d20a5c0df31901e1e1af5f4f968eddf"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6f5a76423396bf39f64f8c51c0b3deb24990b116"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xce674ba3bb5128a43717282e54831d769d5baf69"
-    tags:
-      - contract
-    name: SpeedMarketMastercopy
-    networks:
-      - optimism
-  - address: "0xd2103833656218c6fb0f5742b48678ab217f4f1f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xffbfb9694c960c5d04f95dc907bb8a58fae0f969"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x061ff6f9a9fa4f4071c1a2d454f2bc3cc22a3485"
-    tags:
-      - contract
-    name: VestingEscrowCC
-    networks:
-      - optimism
-  - address: "0x95a38b4ca5c9187ecfbdfb501ef61d46755bc075"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4d040bbcb4a32cc1cc439b966f1330fcf0dc2238"
-    tags:
-      - contract
-    name: SpeedMarketsAMM
-    networks:
-      - optimism
-  - address: "0x5c73aa8457861d07d60c16cfce20e884bb6030ff"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8559027bac39638438ddb32d713f0b12ef66ea7b"
-    networks:
-      - arbitrum
-    tags:
-      - deployer
-      - eoa
   - address: "0x34ad8d8c3e12b5a500fe983c43f2a0306dcf0ad1"
     networks:
       - arbitrum
+      - optimism
     tags:
       - deployer
       - eoa
+  - address: "0x8559027bac39638438ddb32d713f0b12ef66ea7b"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x9841484a4a6c0b61c4eea71376d76453fd05ec9c"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x8314125c8b68af2afd0d151eb4a551e88128a2ae"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x310a7ca95b4c2156621591dfbd77557d729bed0e"
+    networks:
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x2d356b114cbca8deff2d8783eac2a5a5324fe1df"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0xbe4c7750bf54ed9f83b189b6a4daeffc760f6882"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0x9a51524422ddf1b8afec04cba6451a6c50320998"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0x795ba11d575e6703282b1db0cb849a15e304115d"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0xdb5a5475002f3a09a033dcf21327c81e5cdd86fb"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0x64cb6ef981e5e432d4362f6a561a31b22e328cc5"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0x82b3634c0518507d5d817be6dab6233ebe4d68d9"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0xe0b31640b07e4bcfafc190d7dde951ba3286dd63"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x2dc1fe64afa2281ff38df998be029e94c561937f"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0x0d3dd2ab36a9a6174559f24db59b45a73737bd19"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: BinaryOptionMarketFactory
+  - address: "0xc10a0a6ff6496e0bd896f9f6da5a7b640b85ea40"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0x842e89b7a7ef8ce099540b3613264c933ce0eba5"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0xeaedb23b6c1719ace0825c315235f09699dae6ae"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0xe2881cad27db4c27fb3814ad97cca694b80c0fa0"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0xe16b8a01490835ec1e76babbb3cadd8921b32001"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransparentUpgradeableProxy
+  - address: "0xc3650f57dd14ac5e5ca86b350ea7c73dee36ecd3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xca14ec99ec5e2b3fcefc2f6256cbbf9c2f644b55"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x33bf0378242c7c814942197ea4ae584b52681197"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xa61198118d595ef9762bf32ef4fd7ec005e46d75"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PriceFeed
+  - address: "0x22e12a53cb40533707881607f808c7939cde9e0c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x79a1219209e91bd7e46e9ae89377adc34c05f18d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMMUtils
+  - address: "0x627907c5cc27c755c0860450ece6b4480615a45f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: EscrowThales
+  - address: "0x6cd8019f6e61aeb99d9170a5fedb44b23305ecd8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketsAMM
+  - address: "0xcc36fde645729a52a92f08a2f1aecebc3326f790"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketManager
+  - address: "0x63f072928cac9ffd799c6d0f985f9ee3985e9a84"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketData
+  - address: "0x1d94777e3a288a7cdab316f17e43d31800fc58b0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xa970c125c2f26255f3adf053e735728269f2817f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerWrapper
+  - address: "0xa8fbb95cac84b94a54a2bd41ca130cb46dd24349"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x9e0b492f029f969affbfd78ca17302c2da2604e6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xe1fd1c3d915f500a65d13ee462c78bde4db0ff92"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x8213c4052a5ac643e7e88b1633c1eaa332dcdab3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesBonds
+  - address: "0xffc72be6daf9072664d4bf9b8dd90562ce20aca5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVault
+  - address: "0xbf40da2e303c4a7cdb1a7b4d444b10b8e9b91cd9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x23ed8fff5a8f79d01a453cc9935fa0435893825f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarket
+  - address: "0xf80350859238421479f451fe55eba610153af57b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesOddsObtainer
+  - address: "0xd65604822e0a2c75ab03a07dca11c560682c796e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThales
+  - address: "0xe853207c30f3c32eda9aeffddc67357d5332978c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xc647ab2cab7d6da6081703382ecf2814d8b7c03c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesOddsObtainer
+  - address: "0xd59cad563741a26283d96f89e9fca6be853c99ad"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xda80876ccf328c1cf4722d6451dde9ae8b24d127"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xef9e3a581a2d7916b05d24c2ef54a505b3219e72"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x9b91d27568c51cef3c4e04d504ef3ce11d5f2427"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x3defaf45093c01a5b0a34587ea3726b911d523a8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketData
+  - address: "0x9fb1ef2b3cf9b62955ad18fc5e03e47fdce15a4a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketFactory
+  - address: "0x457c4fd48d73416c55018b340814f7d3e853b511"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xab9b794b292e60055129e006766167630bc65368"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x6c7fd4321183b542e81bcc7de4dfb88f9dbca29f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x1071f3b2893f41094b1c84f090ea023042bb70c0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Airdrop
+  - address: "0xb3a103e08a9dadf3ccd06824a65be86b33cdb138"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x6c2e0015b431f8c5f6b40138af803504e601d91c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportAMMLiquidityPool
+  - address: "0x752e92343fc2bba40439126ab870fadbcf17050c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesOracleCouncil
+  - address: "0xb59e9915d505e43f1231ce8f8258b8c6168ab891"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x38f84c15d4c3079b5f94177c97858ceff24647bf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x803201e28df62c25c0a463827132a2baada0fe79"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xec1101a160d5b29351b0dee11c823b16ea81e7c6"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x0b69063cfd89b25620f93a81ee9b1e4b20a79049"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x0a9397378c427e39bde0c53e6626523b7d08aacd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVault
+  - address: "0xbf7f22f78d25fc1dc77f18a93e8e6e153487f6ac"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x016aadc3823044026174c64732491dc3e2c3041a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketMastercopy
+  - address: "0x7801efa8e30606d2d4c9848852b56ff03efdad5c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedPositionMastercopy
+  - address: "0x9a2017cbf88b994dd7d3894d4652f0ef5f557973"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AmmVault
+  - address: "0x3ae1bf5f9481a42940feb4a1dfcc943128088280"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportAMMLiquidityPool
+  - address: "0xe1095dceb4e4184bfb6ade590998fae94b815f2c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMMUtils
+  - address: "0x087ae43c00035fd3e1944513fd570f416faee62c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesBonds
+  - address: "0x0e4641f7ba379d20e8bb84819b07c9234d0bddcf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x6d3705368323900490193324277a221d8db62ba7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SafeBox
+  - address: "0x5ed430c56e028e8b9b992fbb18dbcd58b5d31c2a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x160ca569999601bca06109d42d561d85d6bb4b57"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x3aa0814cd91f33467e6eb5ba58e56ab73699582b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xf4aef21d906992afadde7a9676e1db4feb6390dd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x955f1032678be2d76d9eb4d1a73931d6cb59114d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SafeBoxBuyback
+  - address: "0x8f7493e91e03dbe921baeb15c9f6adf4f8830479"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xff8a28abc89f6788a1786c8455a0beed6e08a1fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainAdapter
+  - address: "0x85870ab75945964b1f2c50307d71fcd6f5d9730a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerVerifier
+  - address: "0xe6dc152e7b0c7614f589fa1f54d149cd3cdccc11"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketData
+  - address: "0xfed78b2d1daeb1b82c528293c73601dd8436b383"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainAdapter
+  - address: "0x146444d363028c5495f7d57a4c49e641ce8017b6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVerifier
+  - address: "0x2c1e631adf3ea9111d126c06b6d4cf7d03124d60"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketManager
+  - address: "0xd051b22871f23d12eedf54d695420f43c9d3c268"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesRoyalePassport
+  - address: "0xf29ba1a2f947d3c416382dd853a1831e0d31de9a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OvertimeVoucher
+  - address: "0xf1299a4b78799c5ff9bd19f0e96c070f4e0d96de"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MarchMadness
+  - address: "0xbe086e0a2c588ad64c8530048ce4356190d6a6f3"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x6acc550248f0ef1a99f2b39af530197fce7c3184"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMMUtils
+  - address: "0x5830e9e30b55cb5fd6102805fea2cf951f6afb49"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThalesBonusRewardsManager
+  - address: "0x84f6cdb2b94a0a943bfc66bac5861b141e5605be"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainAdapter
+  - address: "0x43d19841d818b2ccc63a8b44ce8c7def8616d98e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x3877ce466be1618dc4060eb53b9989831539b2b1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerWrapper
+  - address: "0x9043cf6b9319b07f52d9c8d8964a8b457a64e0ca"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xeed063903f9f0ddc044507bdab5d59d91d8fbac4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x2f2103f22d790ac5fb1c1c071eafbde5ca85817b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x53275529cf0ba240896f37eb2bee17c6c79faece"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVault
+  - address: "0x07a06ff3ac30ccb592598bd880a36fe50d42e2de"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0xe6947368ddacde47cc7fe64303125ab9d8421530"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x76711e9f14254071ac8767ae675fecf793c22beb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AmmVault
+  - address: "0x3d112016604ef2920bf411edf0b0212ef4a1cb6c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalMarketManager
+  - address: "0x0d1098469d651161cc8211e2973afd5ad1cfb7a9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AmmVault
+  - address: "0x1dc1a62f7f333347b3885ffeef71cb4d00829fac"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AmmVault
+  - address: "0xb0dd7b602656c315f970616e72f28d05a5d8f29c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ApexConsumerWrapper
+  - address: "0x2808e10705b58b11d05c447f5b2f93836a3b9997"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainAdapter
+  - address: "0x70164a1ec9d21c4dba2b4f9b23750f9c7d03286b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x95820b7d30904bea4419c0cabd9ac93b35d488e9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketMastercopy
+  - address: "0xa975550c2064b0b2d7f5e5e0175e5e9dcdfa2ae1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x7039ccd356e0995bea3d748dd69677243f23b7f0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketsAMM
+  - address: "0xd2bc26305b8aa6ef4b9c5954bcbd49975ad05689"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportAMMLiquidityPool
+  - address: "0x17019988cc39733f5b02338a6adc04ded7e1afc8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OvertimeVoucherEscrow
+  - address: "0xfd4fd1aa23325592cea9b9d83d1ae64fbc56611b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMastercopy
+  - address: "0xac47c388d52c443fd854848ef1fa57171679e7b1"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x23823f1c7c4ae2acef3bccfcd5f282ae078150c2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x1757cf4c1edcfbb42dfdff91644b8d8d5e90f904"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportVault
+  - address: "0x5f8b6a881c7f97a73ba21a64f36cb4e5eca6bba6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x3da91e5ed564ee46d4d734e1f99f395f0969101a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Airdrop
+  - address: "0x7bb0a8506c763f24e3b5b6cbeae7e56e5787d754"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x81423f567904b940dc3c37c32ea4c4b5da6db8ca"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketManager
+  - address: "0x4f1f0665ef05eb734d2a19ebf9948aabef898e7d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionMastercopy
+  - address: "0x3094b8e3148f580735786dfcc5ee26ead419e8d7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SafeBox
+  - address: "0xb5bec32954a3a75fce4b5b0b38bc6e7ccad4c4ad"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AmmVaultData
+  - address: "0xb85ffccf08ccc82d0a3101d78822f293aab44adf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVerifier
+  - address: "0x671f9654a594f8966b19c0b466f306e1dfe912a6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x1853bcf689fdcdb4fd2a74e89205598855bee8d3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketData
+  - address: "0xa8a415def7aba752726bf8fb1c980b4ce52cf582"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xbf8523c0e36012291c32bfbd266ea497db705ac2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xd6a960921cbb5462022ceadc4ad158e05cbfd168"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesOddsObtainer
+  - address: "0x7cafbe06cbb6d7f7dafaf3c62d200e9bd6a1f38e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xf3510f0a565fc33f956afa84dfba745434cd6641"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketsAMM
+  - address: "0xf307efbc0dcdd1fb9c97e73a51bc7bd642efdd34"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportVault
+  - address: "0x3e2c83f5131be75dce34b08a8168969061821997"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesQueue
+  - address: "0x9434bdb4f2d0233904e0301f8bf09ceaf9c72bcc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PriceFeed
+  - address: "0xf078aec9c73de6477ec8527d7a67ee1decb2c1b6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x35f4c54c1e36e6c931c116ddbe2fc62e95a8d3cd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalFixedMarket
+  - address: "0x05fdb7b90cb47edd5c2856059baded89f11dd0fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesOddsObtainer
+  - address: "0x34ed3d919ad7f533bfafe9295363d9f37c0c5658"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedPositionMastercopy
+  - address: "0xf534848023ba851c6265e8f99a919c4d5fd05cd0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x18e37a53cac94ffb4a3aa8544fb4b6c2bf055019"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainAdapter
+  - address: "0x9dc42a2535b7161222862daeb4a301361098d800"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesQueue
+  - address: "0xcaa383b59ec3d8f1fa8da2afbb8b80bf959eb7b6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportAMMLiquidityPool
+  - address: "0x6a07e7b1479658b74261e8359f58c083f3fa667b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketFactory
+  - address: "0xd927170e3669cd14fa07937b778b1649257f8ee6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x7ad35a998847fecf33fb1f23c27d3159a9c59d3c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x89df505c693ac7e07d8d5d6308fe0bd041033cdb"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xd24f796c1ee04a2e68fb7e71c5bb8259fce2745d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MarchMadness
+  - address: "0xf7bd3887fe25d2d4108a9c92a173e126b9d71e85"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThales
+  - address: "0x21c175d6e37226a3c107347251c20297b47517dd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketData
+  - address: "0x94ad305456516e5b621f295fda2c8b55250e71c7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc922f4cde42dd658a7d3ea852caf7eae47f6cecd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x3090455a284eb87a8dde46d3352be73c17deab0a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketData
+  - address: "0x0499a85fcc6c41ea00d6afef803b9474b042d617"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0xac1d6991441d2113ac812bea5da4b20af01274fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalMarketManager
+  - address: "0xbd39d496eeba3842521e8886a04312795c2bc799"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x66269520acd32e54b18731b5806c9e1cfc64c99c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x25659203022644c4766b2bdf60d276924bddb4a2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Airdrop
+  - address: "0x5417c847b6ce4163c43116e8d9670395ba08b503"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x750dcadca8e9e7f9702c85383119ea8034450993"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PriceFeed
+  - address: "0xd4c0f91efa1ff4cc32f86693f166125818d27277"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalMarketManager
+  - address: "0x57ddc52fe5967b7a82e69aa9b8925b30f2531032"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0xfeb75318ea0a838c0c8b694e84602cfdc5b8030c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x8481fb8f367941774435bb4922972c0369c8908c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xe8e022405505a9f2b0b7452c844f1e64423849fc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketMastercopy
+  - address: "0x2f71f4a2d8bab9703fff3ff5794762bf5b6c7e29"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesRoyalePass
+  - address: "0xdf0a5bf80e8009f2702e7d164a7bdeaa79013eba"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x15c9eae416c2e3fbecf2248003a2b2677127e9db"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x2b89275efb9509c33d9ad92a4586bdf8c4d21505"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x56ce3546436ab45e7fd259841a1a7082a05e715c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xfe09453b10d10953c482f6cc6ab367f57ce195fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketMastercopy
+  - address: "0xfba2474a02265c0f0a7fd0e9f75dec5863b4897a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMMUtils
+  - address: "0x79599f6dd939108f3872cfa67456fcddc66e48f8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketManager
+  - address: "0x102f559555022bdf6630b8c84ecbcadb6e90cbdf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x86089daab2444560fd774307b5d0d854d7e9279d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerVerifier
+  - address: "0xc45eb8d37917ab65d06806f35cc54e09dea135ac"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesBonds
+  - address: "0xea3b0afdaf4d5b4e64e51c2af43860831105372e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketData
+  - address: "0xe431892c52960d04e5827375c4fac96631c6c6a6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xc0201ee722280f3f86a20c0aa9fba2ef6fcfd26d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketManager
+  - address: "0x0db550f1f2b538d763393760fedc33be7945c577"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketManager
+  - address: "0x72ca0765d4be0529377d656c9645600606214610"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2e48d87d5d70ad31ca77edb2dadd748cf2c49f72"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketData
+  - address: "0x3198ab211cdf3e4d13a698e1fb819507bca2e579"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x0abc94987f6b98bfe6fd40f749e445a2857a4ee3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesStakingRewardsPool
+  - address: "0xba6f3af1836b2e9eb347dca0490c62cdcbbfb2bf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0xb193e73b9b4ad9ab815b4add8e435ec258c684e1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x44ab6573beef3483cde5b0bc1d25127ff89c6947"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MultiCollateralOnOffRamp
+  - address: "0xf74c347f3b0bba9000c1882ff91139376f0d8cbc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x1da1c269b59e4c523ae37f6678357939634052ba"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MultiCollateralOnOffRamp
+  - address: "0x266b5d4717661f4ef37af4379c066ab8e046bb22"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x643e4388fb918a7905441afe4b2906c059a1c83c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x05ce8b455e3695bf56caeb329ad1ae4501fa4a20"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0xb32fe0d20f995fcd540f19326a258679bcd0b9e5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xfb6527ba5700b1d8ed135469b15bf8264aeb8335"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketMastercopy
+  - address: "0x1d936b0ae8fdc2b240c5bbb114a9b699211c9752"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayAMMLiquidityPool
+  - address: "0x7b9a3a5599b26a3243b50cf6e1506f7be180ac3c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerTest
+  - address: "0xdf9dd5c11c87bb5e1cb90ee07c3037981e2aa1e9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x474499e5202d8cc7898358526c8d00b43333326d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xd1fe5a0256acaea497ecd30dc0b816cce95e23e9"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xe2de80837f8d9b59ba4f23d3dea02d1d842131c0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x42c6a55ab0d8b6caed2573db14c8799b45d21ebc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x0c09f6c136e144a5d84b4161b2fc3f245700f62e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportVault
+  - address: "0xb484027cb0c538538bad2be492714154f9196f93"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xbea0a27ec250dd09a06a787caa8541bfc1440ce9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0x61823ee732849921ec34808563f6cc095f77ecea"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x0eeff6deac317ac3f5ef286d069d213570eb0840"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x61c7f4643da0506ea9aa10f70eec0d6b63488820"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketMastercopy
+  - address: "0xe2f77e6154a644a70035b693dacd6580e3378332"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketManager
+  - address: "0xf6f31f00876fade235fc01392e41258420b8fd7d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVault
+  - address: "0xd517215990cbf485e7a3f0158102e4868db61cdb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x5a1f813e4adaf68223eeac93966cfa03cf1267c5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x09b7b9e47e8fd3329c43154c4acf66180ce64a95"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketData
+  - address: "0x06aeee7a39d1ab39fe42b81cca329fdbe7f41a4f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerVerifier
+  - address: "0x380aca4476cb3ee3912e2479384b34f3327f15a9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerVerifier
+  - address: "0x279c0d239d0c036e74aadf872d604af37e341373"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMMUtils
+  - address: "0xda26b8eb86ddf2028533f82a6f5451a232373f8a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketManager
+  - address: "0xc1f313e9748d40250a25bf8f8e1056df929cc62a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x408b71808c85b7603721e6a0d941237d70d1906f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xb30e9725fcf5e48886655b962defa9d9e0de1ade"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x27e9d8250d19ed277a2fb7cb3439841e6fb9f7ab"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xe41cd3a25cbdeda0bc46d48c380393d953bd2034"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x83a6a83eed4c97b2b4b60a02df1ac27c0db5a175"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x99a63e20e6f78dbbbd3a07d9f9330a860ef2b4d9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xb3bc321759ec7203d18f179142b9548a2c2e4007"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayAMMLiquidityPoolData
+  - address: "0xd550bd32b434ba870642f94710eb220f542ed3f3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xe5109cc91f2c236fbee3752af06dc92d4bdddc84"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketMastercopy
+  - address: "0x6a3f7168b2e5e23992a89d7106b5076cfb52a405"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesRoyale
+  - address: "0x39ed4a44c5a390415f1b1dde2c77a61168aadfbf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalFixedMarket
+  - address: "0xece0eefff3003d23e366c917104c6cf5cdb404f1"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xee97fc872e94de22c92b1eae04f836340068eeeb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x8fe726b27e89cd484981b2d27160186920af2d17"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x369fd489391115bea7082a524d13be09e6922fa5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThales
+  - address: "0x7a911614e0a916fb59a14ebd5c186dd076d1edbc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalTags
+  - address: "0xc79339a3f3b36c57c96e457a2b44728f221c7d44"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalFixedMarket
+  - address: "0x38f1487bd60142ae3633c082934455f06b613c6e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xe8e8093d44f84be11974e3183d219e94fc9c36d7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x63a6344e7dc0032900c261437838b0aa9e869c90"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LPStakingRewards
+  - address: "0x1a0bb66e40d2b998a0c5fe19ff77dcd428a76ccf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVerifier
+  - address: "0xb7cfa3affd1313410ffc3a891af5675d658e526f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketData
+  - address: "0xc1274f9b143a8a33843446d39d97b431b3e74163"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketsAMM
+  - address: "0xdcd5c5dd3b108fabd8a61a6e0549ffefa99d166c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketMastercopy
+  - address: "0xc392133eea695603b51a5d5de73655d571c2ce51"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x278b5a44397c9d8e52743fedec263c4760dc1a1a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x4f2b4e7d0a61622d2bbaeeccd34888163e175647"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x8d47b12ce25e2dc6866e8aac0dbd823da09fadd6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OngoingAirdrop
+  - address: "0x032540e69963235b3a1f56e61f8659a425655083"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainAdapter
+  - address: "0xbdce653912f089371b9dcb83a1b6b93d6e991418"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketsAMM
+  - address: "0x57faada9e5a3098a38151e4de8426135b0fa4fd0"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0xaeee46e31e5c34eafbc5ce31bedd3453a181b46a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x7edadd097402aab262b7886640bb020ab0afdbc6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xb5137d1a5b2a02c93c4bf64794caabcc1264a499"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x1e4ada1e0390ec9de281df3839fcb2998deb9b67"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVerifier
+  - address: "0x8f8cc357aaa401cb6f7e01d56c59aa8cb2132018"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMMLiquidityPoolRoundMastercopy
+  - address: "0x1ebce103b528bbce8c3bf0bd594cdf18d284cef7"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xa25816b9605009aa446d4d597f0aa46fd828f056"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x827ac1b47e1b0ff773e9476527261f6dc0e840d5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketsAMM
+  - address: "0x3898b385a644af75b826338446369e4e7ff2f47d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x6b6309efe76f28331e640397be0c45141ae5e686"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVault
+  - address: "0x7550ac81ab981bc67b740af457e090e0f4cd092e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x6c96d32b94526918d3376868d287ff1b92ce07de"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x565ce8cf5ae8e2adc6849eecc6c3ba07ba56c4a2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMMUtils
+  - address: "0x741ad22a9444d1b5e6606a3587effa5b8995321c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xfa2a9d305f2009f2a7a2a95ba501b51f9a06b815"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketData
+  - address: "0xdb9233f7b5378946407e50b5a53f87a223dadf95"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMastercopy
+  - address: "0x5ca2e53f00902dd64c7b8436a8f5d10807a84281"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xda10fed3bf26bdc131f408ec224c38816c2b15cb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionMastercopy
+  - address: "0x6a282c7e0656c3e1dabb2fe0972e8ea2bd109fb3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OngoingAirdrop
+  - address: "0xd47285b394960a5552631af2aec25558a6a1b823"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThales
+  - address: "0xf9ea58018436e01aab73bd49084d9d2558905d4a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThales
+  - address: "0xe10a2743a1ce709693d3ad5f06ea47df3e0b3ec9"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x5ae7454827d83526261f3871c1029792644ef1b1"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x416c9c053bb551c20a0d794ec08e607e24dc70e1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThales
+  - address: "0x628225f89804022fb621aa5a6a75c67f3c0886ea"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0x197802dd60fc7f2ce1a3f0b5bc5ab17af848bfa5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x7f9b2539e0793d31eb3c32305298f113f08d0089"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MultiCollateralOnOffRamp
+  - address: "0xd77cc57ca411c67f00a8df9e334fd0d79e9bfcc9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0xc9fd24b3672dee34bf7e4ab9c4c9b12779fd3dcb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMMUtils
+  - address: "0x48e2982016ecab46c8c2ce64fdb909931713e22f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0xfc050b42a88c046d54b7a4e3da42d8c9c38db266"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketData
+  - address: "0x11e6ad917b3d6cfdc282a1dc117ca0bdc0b26821"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x19c185494fd9ed3c8191fe21e965a4e3d2dcb781"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Airdrop
+  - address: "0xa2f24cc5ee1fd06ae3f8708f37ba064f7eebfa98"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerVerifier
+  - address: "0x259913466c08d5e3824237002b6c3c95d926bc91"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVerifier
+  - address: "0x705d97a0eb98a1a611bebde00fd3dcf380ec04f5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x7b3241c61889185188e3b444abef7298fae6b1e1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x6d53c852fe7e0b60d54c70e454cbbccbce2c39c4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketMastercopy
+  - address: "0xea71aacad9c7105859581aa7048126d6f98b391f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerVerifier
+  - address: "0xfbffebfa2bf2cf84fdcf77917b358fc59ff5771e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xe7f379dcad66a5128f44a996d276cf55e6d8f2c5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerWrapper
+  - address: "0x2a928a7f0a54edfc158e3082b2b66d09d7211700"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportAMMLiquidityPool
+  - address: "0xd13160ead61030f09837b3e429cf2f1a36193dd3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0xef9865a2d2dc2322d8b4e6ac84b13d4121ebff4a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketData
+  - address: "0xafd4dfe320883cfd9f6127d30f6d7bece90a285e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Airdrop
+  - address: "0xd671dd46ef7c5b2fb6bf3164b444aac69843a91e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x1582272e85e4f058018f933f7ad924250bab1881"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketsAMM
+  - address: "0x34fb310296b441625469395ed5765296f6426636"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThales
+  - address: "0xe0fa68b4d3fca2518ea923d65507a11f20135356"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x99fb60a3281467b138ad4d3a7ba575cd9f30a17f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xf329b8748216b9f9e39c98e1b60e6e5da6b91731"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x80ae4cf36564ac107744946265a331b7b3321828"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMMUtils
+  - address: "0xa234095bc421b97c1fe104331edc5299a60485c9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarket
+  - address: "0xa143e04a0090cc55c13a8280d52192a2d008dd6f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LPStakingRewards
+  - address: "0x42792efed59f628495dd9f5e2190819468ce0934"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketManager
+  - address: "0xa01ad492b19314befbce4891b927a030d660ffa5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayAMMLiquidityPoolRoundMastercopy
+  - address: "0xe6dd36180cb089810d5fe11bb766cbbc51d7d23b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVerifier
+  - address: "0xbc4de74ced32de8d5aeab3bcd2f47de58070f0cc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: EscrowThales
+  - address: "0xef60ac2186827ff57b3561571cb3cf8dbd0ac9e1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketMastercopy
+  - address: "0x84e964be3b910e8a8633856b69ebbddc7ba55006"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SafeBoxBuyback
+  - address: "0xfd99fcb3e53338c6e6f9f0855c24b39df4b1536a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportVault
+  - address: "0xb1414f8b3ab67aa4e18d36ef9e342fcd2d5432aa"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0xd0418b847255b9e55e1f1d5a52241ada23e5197c"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x8612704049460f7a999fe06d6d11830a4baf6cec"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0xbac6c6e28bd000a72fa18735cc24ceee49f51069"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OvertimeVoucher
+  - address: "0xfe323c6a4ec6e12bf55552fd939768e4cba7db60"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMastercopy
+  - address: "0xaca11c093bf6d22528bfca298ae5aecfef68f9ba"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x3dfe6fab38d20d189cd7d28b04f8714c289de2ae"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xc13025ea8a2a402112fca956b248823c30720ec0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVerifier
+  - address: "0x6a63e89de430257f5a654f4bcdc8f902e2c5469c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesRoyale
+  - address: "0xf47c8f70a2251798162caf7cf9014152b5ee3761"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketManager
+  - address: "0x962654fe9534c616fe1f3bd7c12065d54551bcb8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThalesBonusRewardsManager
+  - address: "0x56d0a5098ad74f5e635797753644521173be89db"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xd458ab8971cca2d51515cba564e9498cf81cc36d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketManager
+  - address: "0x7fb934d61c0e732c47a50fabc2def884cc1545e6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerVerifier
+  - address: "0x890b559e10ad1aae73713f2f1924aab4e60cf505"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TaleOfThalesNFTs
+  - address: "0x72376a5fc5758dd2b36c61960fd1936430a40a32"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xf0d52e9cbe8d091c5d11f8e5d56ef7ce8c0d93c6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x8ef3a39a2d1362fcf62213012618c4d463b2a0cc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketManager
+  - address: "0xd47e4307959f2e7111827b0b83a4a2f5a2b0005a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0xa3c2b9ade3c2345700c0fb878cb91a5a18293038"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xf1f38617f59eb073e8b0879eca526762d9f34830"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x0b8f398d8dbb74bf2dc475d02e802334777be900"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x3e238af2906a767fb4cfaeb666f9c341d5cd82b1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x757bdc3043dc21652169bb1d0ffc51516caefdb8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x7e7184bc0b0156cbf8347a03cefce3b2c710328a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x1122494f58831eb5812f9bf6c222f9a0b251279d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x679c0174f6c288c4bcd5c95c9ec99d50357c59e7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xb2d2c60e088cb2a531d8e93efab53455a7ad82ac"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: EscrowThales
+  - address: "0x43318de9e8f65b591598f17add87ae7247649c83"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xa484e256d614cdeb221f3e7445a7a955662eb404"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x0bac9ec4126ce5b62bee2e99823c2b2e96c396b5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DefaultLiquidityProvider
+  - address: "0x93b192fb45937a2774bd66b861a2694902d1d465"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0xe247ac7de11c1ac0e075666d032b003a35cb75e6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa35e6a72670950335ad701ed9f4ba65b5fa99e9c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVerifier
+  - address: "0x49e458c7e1dbea6105fe907b0241fab764dfe340"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportAMMLiquidityPoolData
+  - address: "0x73aae33a9ec285d542fdc1ca7e293eadad5247c1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketManager
+  - address: "0xab599b2697d836e665706dc59566363e2fe0995a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingData
+  - address: "0xb019cb0c09165a96f221427ad027b8946199d976"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x6bfcac33502f030d6dcccfda5e810a236aa243f1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesQueue
+  - address: "0x14c50f2527ff4c68fac12394883233c701938636"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportAMMLiquidityPool
+  - address: "0x9bb3fd74634ecd2db310fbaeb0be1891720e644f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesRoyale
+  - address: "0x06011212ec56b65133b13c4ad3f11f1d40aa2344"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMMUtils
+  - address: "0xabbfac523537082f1c55097acfee8c07c8958885"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketManager
+  - address: "0x17d8eb2ea0e9d640b97927bfdead5cc83f81a216"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketMastercopy
+  - address: "0xaa7ad7b27fc419d00b4bef275e7f6020953a824f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayAMMLiquidityPoolData
+  - address: "0x648200a8d65e477b7222b89019bb877209d1b0cf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalMarketData
+  - address: "0xf238b93e4593cdc181bc56bcc776f9d8c346cbc4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesRoyale
+  - address: "0x1a59ac5d4bdf35b5255c6d301ad23f6eb1530d57"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Referrals
+  - address: "0xfdbf68a25eee0a1619e2b8d255a1cee9369717c2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x4986e171a7d66d5acfbf4299df7893a97636b02c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMMUtils
+  - address: "0xf10424c47f3105757d3155879d5060b50f82a8e8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMMUtils
+  - address: "0x4cd7c4be42266903299afc72284e273d0b49df48"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketData
+  - address: "0x236057f9f13faa625da73cd1cb1e838f15d6c6d2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x63d6dd43f6854a06548bc88e890c9afff5d29f4b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AmmVault
+  - address: "0x7dfda202789a8d35539260fb22b711b55a335674"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketData
+  - address: "0x3d63af087bf9ca6cd603689c4360d4765b490c0e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalFixedMarket
+  - address: "0xed5c389ad19c5a839ef93233dbff6e969ac9ecb5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketMastercopy
+  - address: "0x91001550d523216e91e9e099234b4d48ab77bb7e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThalesBonusRewardsManager
+  - address: "0x6ab00f0b713fd6288fc849b25e580ed2ad51d39d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x33425d42926283bc19c273110284035980bddc01"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMMLiquidityPool
+  - address: "0xf6a6e6f90b4864d0ce86c03230db723077039aa8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DeciMath
+  - address: "0xf775e40f6f331f6c2efeac5c3133a685856e9060"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketData
+  - address: "0x4846c5513932923484cf249a88e2149e8171b84d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesOddsObtainer
+  - address: "0xa84062253e6fbc0c03ab100a7953ebe88be86415"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0xdf3eefc2ed0f31947a67f0e817dfd92717630e38"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x9530c16d2a169daa38ee73748661999f2b2f0c1d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0xde4f5406675a3ad513528f93a8f17c98ce98451f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xae19f47b8bdfd0c667796682445c0ba8d549e41e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TaleOfThalesNFTs
+  - address: "0x92fa0dabe2f6d8b5b64e9d0cc869bc737c15bf9e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x339e4557cd9c6f7ea0536d80418e692b55b8a33d"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x734c6c0fb8068afc4d795af32b65ba31bb38fdc2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketManager
+  - address: "0x6a4c622c3f3252393c8a819278b925ca58418215"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketManager
+  - address: "0x7d1dbb0eede15baaaf8fa6d6d9025b0390263e35"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xf0c573f825b9efe4da8ddd161ff1ebb756233eca"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalMarketManager
+  - address: "0x0f392fc503432f9d5336b10159d0d27751540161"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerVerifier
+  - address: "0xf3b63b29a2813959a4273e920c6c5df06bfc369a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x181b43ac8f2bcda81e0f40b16cb74b109deacfc9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x8947da500eb47f82df21143d0c01a29862a8c3c5"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xa59727442212227bbdcfec1e883677a930707412"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMastercopy
+  - address: "0x5b10fea6c4f16d73ff447906604ed9f448498ac9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketsAMM
+  - address: "0xa1086d77493a1b316c927e7ed3ab2f06ee6b6c9a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x0fa6b2516ce46013182f3f1f31aa7bfb04fd409b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalMarketManager
+  - address: "0x0024fc033708ab6917e3003cf425a289cebf1c9f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketManager
+  - address: "0x95486a41dccff81874c2f61cddda9ec8ee1bcb34"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x092e6b8dfddb4b732c89deb4a700868cc5d58b70"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMMLiquidityPool
+  - address: "0x6002a8f2a8dc0b704080765ce96aac63d5f7b224"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketManager
+  - address: "0x3ff20410003767ede94c06c5df56968d90abae6c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x19b207721196c01c66609246308f4035eae0104d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalMarketManager
+  - address: "0x5c779cfae4b6b7a02c32938ddabdada8ab60fb14"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x184c1da4e33ee3093af05c9100ac9b0d5e78efcb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LPStakingRewards
+  - address: "0x2bc8ae379f7db9310e92daa074fcc7caf89c5c55"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayAMMLiquidityPool
+  - address: "0xed2917eb2e4ac54321272d5e27ad7b22c5532ab0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x18d28fe27829fcf030e0346dde7c3316c0e49039"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PriceFeed
+  - address: "0x4538584c46badffe261e049fa25296cf35b26391"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xab4b1cb0e9ccdab5c30ca6c54230e2ed8de2a840"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Referrals
+  - address: "0xcdaa51fa12ac485153f5b74f7ba8ed12b673ebfc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0xc44dfc6ffaf195e2535fc13d75a79d9238459782"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x7a07c26166dc04f1319e58d630769585ada2cad8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ApexConsumerWrapper
+  - address: "0x1687fdc8a409be442e2dd3de42b1fcc974ac9ee8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerWrapper
+  - address: "0xdf593a822b0ba768816ba5a3d06fa3e1a8f7000e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticRewards
+  - address: "0xc1a135343c8e90998bdef974eeab18f135cb0cad"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportAMMLiquidityPool
+  - address: "0xaf88719228ab83a1260f3a0e021a80f3db150b67"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x086cc1c04ef1aa4797c18a946c5688bf3949e89d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x6b33b99e3d3213df963375e6d94aba968351f803"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x56ef50083fa7aeea923feed7907f4714e4c7a374"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x335d3c3802ea2bba9db4968317dc8bc2d3139f4f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketMastercopy
+  - address: "0x391a45f31c1837e3d837c23e05f42a098329d50d"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x3030678f4f022ac162b4c70fc22aa4de56ed8486"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportAMMLiquidityPool
+  - address: "0x6fe6ec1c8d435b7b8596c983ee72358a2f5436fc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketMastercopy
+  - address: "0x2f1b03447b23b3a78f5e708a052ac3498bb72c87"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc33cab50ee69bbc6106462b873a19c132eb44cc4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMMLiquidityPool
+  - address: "0x261c4500a87f0203ce5eb6706645f7f1bd614b5d"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xf2719ae0a51bbd6083b8c7ba28c7e963e22521d1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xd41469706802dbbcf78e985c50092bbbde9431fb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerVerifier
+  - address: "0x653c6adfb4a0865b78fec02fedeb5d02d8fd83eb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x951159a8c1bc97f70d200ff39fa026ce31134783"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xb4a2132a916e34168a06fe34f269ad941f2598f8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x67c5ca02b4570abd1e0632b2eece2fc0d9581072"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesOddsObtainer
+  - address: "0x38bd9206b0867a5282eeed59e67a79e2f9831585"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketManager
+  - address: "0x2b91c14ce9aa828ed124d12541452a017d8a2148"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x9712ef637f3834f1fb884908ee105d5170813646"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ApexConsumer
+  - address: "0xce8895d6a19f34ae1f6ebb2310b4ce355dcc8985"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xa7fb4a668baa9d287f7ce0454366dadf87018ac8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VestingEscrowCC
+  - address: "0xa4f794b346c2984175fba5f410a6c6fa7276926e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xa20ed099894dcfc46af290705ff5ae4d318b0235"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DefaultLiquidityProvider
+  - address: "0x04fa9a26b0237ee5046f2451d2b91b8f35c718ca"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketManager
+  - address: "0x6d4393fad7a2928c10cdd0bcdd7702b39086d8b2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xb8109ac56ee572990e6d2c6b4648042bb1c33317"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketManager
+  - address: "0x31a20e5b7b1b067705419d57ab4f72e81cc1f6bf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x1751ddce8d8b917223e05d8bd015dfb81bf1fcf2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketData
+  - address: "0x898392a5bd0029fcd55492c7cbd7442bafcfb71c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x6c36ced2298cc5a61257c85388851c91fc9de189"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportAMMLiquidityPool
+  - address: "0x043d7d6b42714d79e92ce01aa45789be4a83a8c5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PriceFeed
+  - address: "0x08e2c2ba4f48e1dd103c12a38d515ba980f4e5ae"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x2113a7d5d203be717083746bc6040c3fb8673389"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThales
+  - address: "0x41cccb4935386e0471922d460d9194b7db486d1f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TaleOfThalesNFTs
+  - address: "0x5e2b49c68f1fd68af1354c377eacec2f05632d3f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xcf356646e70db0aaf3d7a3f9d4f412695e6d615c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerVerifier
+  - address: "0x912f889034ddd593a087c4e59061e549891e4d4e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketsAMM
+  - address: "0xb3fc7dfcf8a93d7f7482d8cad4ab13a57d221f6a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerVerifier
+  - address: "0xaea1be15adb75a49aceef392a6d37625d993952a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportAMMLiquidityPoolRoundMastercopy
+  - address: "0x516c96b8cbc19f70b3783ccdc74327b2d9f2d644"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xa9218c6d51b87eb3ee74e14cb5d50bde00be7021"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TaleOfThalesNFTs
+  - address: "0x3751774fc967973d69cdd020eb15a1cac23e3650"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x1e95faca5f99dcc8e517fea193a3c3b0aac1e0a1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x024148079617fe41add3faadbb9ccb208b78aac1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketsAMM
+  - address: "0x470a69afec851c1c4022b4a1b9d3a729389564ff"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketMastercopy
+  - address: "0x760e1556fe5ab98637f7fd3f8e550e18e4790e74"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesOddsObtainer
+  - address: "0x7b603f09c9b93dbaa2cf56f233269b6751d74cff"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketFactory
+  - address: "0x456b46311e59d6ab7569c94071f15fc76c850425"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xb47fb03ffacefa464aa0b1e575ddd42760a2d6fe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMMDefaultLiquidityProvider
+  - address: "0x9656ce991ed988e83b8c67fbca91f1618bb09e54"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketData
+  - address: "0x566d358f3386abac32cbe750489306c73caac9c2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: EscrowThales
+  - address: "0x5442ff0573fd54a4f6c02a7a0d8e22bdc1a3c671"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OvertimeVoucher
+  - address: "0x5713ab44042d92c642444bd2f0fee9c2336f9e3b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarket
+  - address: "0xb0cbc48969e48993456493a04f8dfa4996da10f3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketMastercopy
+  - address: "0xb897c81fa890ae81d3b9665c76fe610b696330b8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketsAMM
+  - address: "0x9c7cc98d31713e43b46cfa10b3b5c3ef66bc043d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DeciMath
+  - address: "0x92b8d6c884d9268437e7b4e7bf96e78614965942"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalFixedMarket
+  - address: "0x24a88a9a74e68fa13fad083c549a03ea1db93853"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerVerifier
+  - address: "0xfae0177f052c9f020e6e984accf98241ae35facd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketFactory
+  - address: "0xb089a5b34f061ff658c783afe948abbb1ead9886"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticRewards
+  - address: "0x022ca1d3570f6c258ed47c381541d8225176e385"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x1b3dd18f0a31926a8cc24df87c69b0ba303a04a1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xed8519750eb90cbe9ba8573324a5c4102b97a85e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThales
+  - address: "0xb23ea6561953b406f4806cd177377d6940420608"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMMLiquidityPoolData
+  - address: "0x3bd77b8fe52242797c29df251418873ae34f0641"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x6b88627e43be7cbe48cf616c6576f5aa15423f35"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketData
+  - address: "0x793fe9d56773158b3666ca7a9b6c95044c956275"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketManager
+  - address: "0xd8bc9d6840c701bfad5e7cf98cadc2ee637c0701"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x8415e409a5566a1333815c2e7735cd71b3db229d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x2d385352674cbb8468723bc01efc00998c10fc96"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VestingEscrowCC
+  - address: "0x6808a70a212cc2ca0838f5703a6c7bd080fa354f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainAdapter
+  - address: "0x0221240a18d3118400f07d15df34ff460da10a47"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MultiCollateralOnOffRamp
+  - address: "0xae56177e405929c95e5d4b04c0c87e428cb6432b"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xbd2e1e91d41d5083fb460148a2e37a340a356213"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x99bf9d0d03689ac2a8c20c17fd757c5763abc5d9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketMastercopy
+  - address: "0x975c85207239cd7574019bf098b8bef49ac0c9e0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x563312c2c4736efb40e86bb5e538269d6eb7c0dc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x3fe7ace64a2d33f0c03749c20283201e3bd3bd70"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketData
+  - address: "0x3b05d4c58de4e96ea093032c6d70c7e4212a4c31"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MarchMadness
+  - address: "0x5d3174731f2a8c564fcfb2120709f69059642d4e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PriceFeed
+  - address: "0x7291826de06edf5426e13f07fe4fe0df77ffaab0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x4726b4c7b2d2a1efb07a459fcf5224d5f76c56f6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x1e368780363ddadfec3b5382c397183778dab63c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVerifier
+  - address: "0x5ebc0a9278a87caffc090f8e1e53f2fe60f76f9e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vault
+  - address: "0xaaf0cae140a7deaf14c97f5c410201fbe30e33f5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesRoyale
+  - address: "0x5179a757a3b29d2665a0638651f2d3c6c945d062"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x42b6e9b5bb96a02e02e651d3104fc3546e1313f2"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x170a5714112daeff20e798b6e92e25b86ea603c1"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xf9dcbe0732fb68027333fae86a88ac602e239deb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc6bd4862d9b41030ab803dabdc7b2b25ef3379d1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x42af0890d254387110555a46d261b9e4f6e327ac"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionMastercopy
+  - address: "0xc07520843239c2caa28101d8241d9132669b4271"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x16012ef3eec79db8f002a05c7a8102786e5c6c38"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x966e38c5c3143ec903efe4e3ca74c23306f17035"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x51b774ff4b48e73ef8f9699da827ef9e33485abe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportVault
+  - address: "0x4db7afb6b777fb47101c86bdeb56669ffa8cd656"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x234678962dd56ffb71f97f0f0f45a66624145470"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x01b93887c08b40530fc6f4000c6a745c81e1a3fe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketFactory
+  - address: "0xeb4c074daf45800aea4573ce19dfac8cf2ec8bf9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xd34294db117aeaacd11649b754eb3a89469975fb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketMastercopy
+  - address: "0xe2886fe51f2afb6e226218fe99c732907e3d1c74"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xda5f4a6dec7afbe179cb797ae015912dfadd4d5f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x3e5c7a991bb6e51938a5100b082d87dde8147cc4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesOddsObtainer
+  - address: "0x717ee7991cfeeb79b1d8e7d1dbd982fb7982d0fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesOracleCouncil
+  - address: "0xdaf1a86b6e4467a8c4412372b5c78ba5bf9c241c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x0eb894b1cf3415538b9d64f12a3b3ab013966f50"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x8f98690b1ddb25e43a50ff878fbd13e439ca52b2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ApexConsumerWrapper
+  - address: "0x9227334352a890e51e980beb7a56bbdd01499b54"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x4a395967687ff1dab35bd924a62bc1de4e54e793"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesQueue
+  - address: "0xbbc6bf169235ad9ca1b7d0f6a4593bb770e8c6cd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMastercopy
+  - address: "0x48b30c659923a847627b43db51a4acd056ddcb5a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportAMMLiquidityPool
+  - address: "0x897563772ce3ac574412f18ec04581ac377c814a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedPositionMastercopy
+  - address: "0xe2889edd73c84fc116185638f88eed328bbdd865"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketFactory
+  - address: "0xabde2d8663f0b99ab3fe31ef1af1d32aadd39996"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x02668a6d9b8c9d4c8aef7916270e945c3bfbbbae"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketManager
+  - address: "0xf0ff8a5d04fa5189dc51604b51d76954ab1c7467"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xb37da39a77e334befb9b66bbe5d13f62c58195b5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: EscrowThales
+  - address: "0xfb1d1af9d849ce7fa506ae30857e5fb850e9a1f9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AmmVault
+  - address: "0xeeeac1cfbeecea670bc42e76163e10edf125c458"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMMUtils
+  - address: "0x7f804722948571f575d06a52c7a414ae42f6f89a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMMUtils
+  - address: "0x519579c64ca400c5c38750c21e6573df16d01dde"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesOddsObtainer
+  - address: "0xfe0796f85ea9348748ec01d60285113d12c39819"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketFactory
+  - address: "0x79ee39abf33e6f14f137033469d733533b5662e0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x5b76e974935c846da918a97e5ffd33e9c9e384fe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xdde32b09da4941a4762100a4eb2ae3a98cc70264"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThalesBonusRewardsManager
+  - address: "0x8fe6fdc03eba902a2c259faf53ece2ad7a5c4d78"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVault
+  - address: "0xa3e242c97a213cace27946123731fd63a06db5c9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalFixedMarket
+  - address: "0x35aaecf71819f30d793b7dd39c20a96ec43cf39b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerWrapper
+  - address: "0xc20b7a0b0fcd54e40d65646c3e149c0445ed86b0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x6b56a36f6dac65ec427a95eba6ff62b16f4791ba"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xffbd1c988b2cad06b80dcc07ff9187963a01149d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x664a9c4c58a8032e455feac8a1c7ba7d3c8c35b5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x6a763c3d2f317d67727110c08a6cd61386ab16ac"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AmmVault
+  - address: "0x0a6851c7d112a27019d84dccb9ce0c0cd8b75325"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xffa5162aa8e835df11d999287068ab25f22a734a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MultiCollateralOnOffRamp
+  - address: "0xc8db2b4d011f5b9c53a5807103f6f229b21a407b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThales
+  - address: "0x217d47011b23bb961eb6d93ca9945b7501a5bb11"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OpThales
+  - address: "0x4a78dfc97c59a11fa971407ca757e375508dd00f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketMastercopy
+  - address: "0x8b2e97c18d8ebe2cadb173db3827376633bdead7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x2b47c597b0a28372c13fa42dcc510e27a6d8ec04"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketData
+  - address: "0x8285047f33c26c1bf5b387f2b07f21a2af29ace2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xdf08cede8eabf56233df21d454874ddf452fb54b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x3ec543c220443ad0d30f53fca52dbfa346763256"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xeb0f592b88f1a3b63d81b6324a9490e8bfe62070"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayAMMLiquidityPool
+  - address: "0xccf4fdc780401010aa7572102bf82a769b741a19"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketManager
+  - address: "0x5c64a0be3cf1f5655d28c80353ee7f5bd8326a83"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xb6bec915bd5188acd8b30da8d9ecb2ba83b9f86e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DeciMath
+  - address: "0x78e9354077a65672eb2bcb546c8a5ee749f83806"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0xf1b35fac306cd6fb0008c229f056314c139a3c66"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThales
+  - address: "0x8ee4f3705a530aa60749f2e9cef46d73aa1b376c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xe070a4d5a17d458a237d20f23b49737da308561c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportAMMLiquidityPoolData
+  - address: "0x0496b41645e91a71d6839b90f57c356f2f68a6c9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Operator
+  - address: "0x46b1ec25e5e7696ecbae9441d3f79d01b118e154"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketManager
+  - address: "0xd6bed7d753dcbbbb8937dd009788d6c815ae3094"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMastercopy
+  - address: "0xe412f48849412eb71e6572b5d73e30954778c0e9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SafeBox
+  - address: "0x8ad0b66851bd6d50d82f623472a0bf6e402381e8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0xa4e42fa4ccef534516c2d9ea387285163d6dd747"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketMastercopy
+  - address: "0xf270bba56b1a8ca722acbd6e6fb255a51dc065a7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportVault
+  - address: "0xf1e574df617174e3911e8fe43587c7bb24882589"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x88faa35a9f4f4fbcfded8d4a42048c20628d6884"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0xcb933e7adb71c191e0022035a8f48248747d0113"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x2167af59e68ea29387ee2eaa60b7663d6158f1fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerWrapper
+  - address: "0x1fce83884dc4263a92825543522379e37d7917df"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ExoticPositionalOpenBidMarket
+  - address: "0x2708e239a6205fb7b8f27b6f2919844d5481b6bb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMMUtils
+  - address: "0x4393f1470317da64e277b29d96e5bf203f28efbe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OvertimeVoucher
+  - address: "0xcafb9f5e2d2960387dcd016d32b89441e444d166"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MultiCollateralOnOffRamp
+  - address: "0x9350b6808eb0727929031a79f516094d66e4ad18"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesOddsReceiver
+  - address: "0x3a537cf3838fd0165f864dd8cca5c15deb266f04"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMMUtils
+  - address: "0xe4d249b3dc1ebb2181d7aa0a9d6359b01394f00c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x4b50cc59f8a59036c6b63924b60eaef09530590d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumerWrapper
+  - address: "0xcde1c5d8998165fb417f58b1f258cb0dec38ba00"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x0a47d5f27149270d45d74abd45fa30e567ab9b7d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OvertimeWorldCupZebro
+  - address: "0x0565b1ab5cee7075b32c2d6a5b9da44b708fb898"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x129e14f5e79f1423b79d309a2a7ee43121554c2f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xf958a078c85069e2dced28ff27bd80db8f1ac945"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketManager
+  - address: "0xcc134245424fe9e10a011961451d5ad6cd0c087c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x8c9f8b38cdcf1911cb470326a435c4c1b192a80d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DeciMath
+  - address: "0x50b532adaf5378f59dbd619dfd03e4d4ab3586bc"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x65682e98fb7519220925b3f4f209b83957da0176"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThales
+  - address: "0x7fe0e7f9b8ad85c0f2dfe8073ebe5f41d67a7b9e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GamesOddsObtainer
+  - address: "0x87de148465727b34cd2a43773738390812b12a56"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xc7428e4da6a6ff3571c3a9f88818622ac4950aa7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesRoyale
+  - address: "0xbc4bbd7adb2f1dd79e40dd4029bcff97be9bb1f7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xc9183e3306a06e64c2a83e655756f70a83152536"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OvertimeVoucher
+  - address: "0x73043369f8efdd6e0fcb09c1201ee787583a7425"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xefe06b9de2c94f172791c51ef7fc88fa75c64d26"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketManager
+  - address: "0xab8f1ff41e58bc5a4587161a9b95f71fa39e1553"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x6f45357697de8ff54d914d47aa24a35222c1db30"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xdcfb00385846d8658e734c73b01f5599ade90577"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketData
+  - address: "0x0e12de09cf0a8c5653fadba8b3cd441590093b74"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportVault
+  - address: "0x356163fc5350a3b2440c73cd27b150e337e508e7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x21382a033e581a2d685826449d6c9b3d6507e23c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x32d7426f380100406c56b15d1f9c0b8581b2c20f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x15983b0adb819b284baa05011f8a6a23402b0e77"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportVault
+  - address: "0x51f1e255a9f82578bf2c004576c4bc84cb9dd8f7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketMastercopy
+  - address: "0x80559f187ab7b373c39a04df434f33d5462ac1bb"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xebd11dc0ad74a44ee1fdb3e41c8db0c2ae032b3f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x9d3abeaf22ddf68e72b865ca3b23ed880a3be41f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x91c5a519023620066b5fec2f28e4d899ded79465"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketFactory
+  - address: "0x79b7bad941e2cfb11181173906deeb07733354d1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xcd9c0e99396627c7746b4363b880939ac2828d3e"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xee3e5aa9f33b475a0743a2896a3264777e1e0fbf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x69941ca6528d05f2930d655fed81640c83d48b79"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xdf25ce158f7d3e5bb24cb8bed6dd1e043d48c5d6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketManager
+  - address: "0x8e258beef8e860b21afbdb649b1ff26f7b149677"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayMarketMastercopy
+  - address: "0x64c9c8f5e06f6149302a1098030295f1e37bc8dc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0xf089f0182d994686c865cff4fa99a0fe55465d30"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportVault
+  - address: "0x2c59cef6fb58250aa649b91ecd1f401ada629370"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x2062b7caf899cf2ebc9d07ed45d323f6b096383e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CrossChainAdapter
+  - address: "0xfd0740a2041edc475c3fa224875bad9916c73ca9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ApexConsumer
+  - address: "0x30efe43c4bb21b7f282218923504ddb4118f1815"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x3ee33f28c8dcb83c7e6a55875f00a75c6ab67551"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x5c936675212cb832aa82ba4b8a1f237cf8db97ad"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x569099940b5d659c6df24f8cadc410c5598bb141"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x947e4612bfe3c56eedc15b829b0d1a1c019be420"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc7d8c34048d8bf6eb24fc76c7a61f47754990c81"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x947c3b2919276dd0baa8da86b3534b7afdfe2e59"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Referrals
+  - address: "0x20612e6a0ddadc322b7b48e3c4246fb23836210e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ApexConsumerWrapper
+  - address: "0xf4507b4e2ff47c8008072b232ce332e89a167f4d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x1f8e523e195c622ddf6a80a8db01687ff6a3caef"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Airdrop
+  - address: "0x0886e6bea150ed770b2ee3341332339c5c08d9cd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingThales
+  - address: "0x2db7789c691e4d086ba167f34923bbbc9d844703"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ApexConsumer
+  - address: "0x47691bca9f8f24baffd1115ffcdeb137badae1e5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketMastercopy
+  - address: "0x09489201600e5eea6b7d9cf4bb2cfe677d7efa9a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: RangedMarketsAMM
+  - address: "0x08bfe49094940702b33ebc5ce7d0fe84ae9608d2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionalMarketManager
+  - address: "0xe840e8e7bef7783f8f51908ef9e77044c1d4c58c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PositionalMarketData
+  - address: "0x012122615a48d1a0c5b15e147baa54ffe89b9fc8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketMastercopy
+  - address: "0x7c3f725291010669ef77a404f7d83e10a480e0e0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportsAMM
+  - address: "0x08ea9c467ba8042caee81d7b56dfa539ba05e021"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x5ce95b8bd157f14b56871c8d69264d9b72f537e7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesRoyale
+  - address: "0xb17e469585ba51fc7973659dd8d96e516ea4f4a3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVault
+  - address: "0xfa4eb2b83345c80b22ba6f15de2e474e3c03e6ac"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesAMM
+  - address: "0x1d70b630303ad656697719b5ec78b93855236324"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesOracleCouncil
+  - address: "0x5d68d6d5b94b05995e0c5e391362ce7a6b2e741f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AmmVault
+  - address: "0x4063bfac9b1215c55452b961d428d98bce55cd49"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SafeBox
+  - address: "0x93714e258b1f5e987ef1ff59ea66d51964952f62"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ApexConsumer
+  - address: "0xdc18854698c80f2d3b9251c01eb910690ca9d512"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportVaultData
+  - address: "0x1b0ed6567a53eac1fe6d859d3fb2be11738cf0e4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SafeBoxBuyback
+  - address: "0xbaac5464bf6e767c9af0e8d4677c01be2065fd5f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xac724bec64ad7591f2e6ddb5fa57f4eadb78ee6c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xecbad7fc6ef238d03c6d6787480dad1d7a560a9b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ParlayVault
+  - address: "0x131f611470d831f56e2fcaa72250a5d768056dfe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesRoyalePassport
+  - address: "0x85aac38db1234fba6e06d86e10cb1289d7d79657"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Referrals
+  - address: "0x2447ce55d230c01fc430725a8613d852289f9985"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0x13d6616b61440c2b80fb9354c1c28504e6c31855"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportPositionMastercopy
+  - address: "0xaef7a2c9c95a0d11fd35a73f0c58770860e8a7c9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TherundownConsumer
+  - address: "0xf0a7d192ab5273b07c9cf5b4fb11c96a20a64b73"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BinaryOptionMarketManager
+  - address: "0x606b55b96c833277e972aa18e4ef7d3f53bc6073"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SportVaultData
+  - address: "0x2f3c6a43f419e15b0ef5ef04decca2576025b303"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ThalesRoyale
+  - address: "0x365d7334f2c079df86b5e6aaa80d5ce896f498c9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SpeedMarketsAMM
+  - address: "0xa68034fc725fa0e6ae2e5260c18efb78f27a96fc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MultiCollateralOnOffRamp
+  - address: "0x7b7aa6f42d20a5c0df31901e1e1af5f4f968eddf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x6f5a76423396bf39f64f8c51c0b3deb24990b116"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xce674ba3bb5128a43717282e54831d769d5baf69"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SpeedMarketMastercopy
+  - address: "0xd2103833656218c6fb0f5742b48678ab217f4f1f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SpeedMarketsAMM
+  - address: "0xffbfb9694c960c5d04f95dc907bb8a58fae0f969"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MultiCollateralOnOffRamp
+  - address: "0x061ff6f9a9fa4f4071c1a2d454f2bc3cc22a3485"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VestingEscrowCC
+  - address: "0x95a38b4ca5c9187ecfbdfb501ef61d46755bc075"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SpeedMarketsAMM
+  - address: "0x4d040bbcb4a32cc1cc439b966f1330fcf0dc2238"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SpeedMarketsAMM
+  - address: "0x5c73aa8457861d07d60c16cfce20e884bb6030ff"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MultiCollateralOnOffRamp
   - address: "0xff9d1b34f369caf91c6b69761e2a06f78ed3cd9d"
     networks:
       - arbitrum
@@ -3927,3 +4272,9 @@ blockchain:
     tags:
       - contract
     name: SportAMMLiquidityPoolRoundMastercopy
+  - address: "0x489863b61c625a15c74fb4c21486bacb4a3937ab"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

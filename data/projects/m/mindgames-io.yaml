@@ -4,6 +4,36 @@ name: MIND Games
 github:
   - url: https://github.com/mindgames-io
 blockchain:
+  - address: "0x3f71f7d683729688be4e6dd4bfedf71012e1c707"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x446eb204c624fbca56d36c73fd3079b024387ef6"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0xb0dc1fc9ec7508dc2d838dfd4616ca5ae2062bcc"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0xf94e07bf0b569aee4bfe27d561cd2c656f6c9358"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x844c85e7f8f5e0b8c44fa5365324782ee1d08436"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
   - address: "0x7c7f1c8e2b38d4c06218565bc4c9d8231b0628c0"
     networks:
       - arbitrum
@@ -11,36 +41,6 @@ blockchain:
       - contract
       - factory
     name: UniswapV2Factory
-  - address: "0x3f71f7d683729688be4e6dd4bfedf71012e1c707"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
-  - address: "0x446eb204c624fbca56d36c73fd3079b024387ef6"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
-  - address: "0xb0dc1fc9ec7508dc2d838dfd4616ca5ae2062bcc"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
-  - address: "0xf94e07bf0b569aee4bfe27d561cd2c656f6c9358"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
-  - address: "0x844c85e7f8f5e0b8c44fa5365324782ee1d08436"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0x99f5a9dbdaf7f0946dc0879a9824c812048667bc"
     networks:
       - arbitrum

@@ -4,9 +4,9 @@ name: Ethereum Dominicana
 github:
   - url: https://github.com/ethdominicana
 blockchain:
-  - address: "0xe3ABbcF28a0EFa9c6494bD871fbC75c25F124804"
-    tags:
-      - wallet
-      - safe
+  - address: "0xe3abbcf28a0efa9c6494bd871fbc75c25f124804"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

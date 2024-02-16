@@ -5,9 +5,8 @@ github:
   - url: https://github.com/reyield-finance
 blockchain:
   - address: "0x68b431671938a4be82907ebcd5661b9df8d0af69"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

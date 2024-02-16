@@ -4,9 +4,9 @@ name: FundStarter
 github:
   - url: https://github.com/0xfundstarter
 blockchain:
-  - address: "0x7174c29C73ca0fB48Da91AA5CfDC361Bae4C87D2"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x7174c29c73ca0fb48da91aa5cfdc361bae4c87d2"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

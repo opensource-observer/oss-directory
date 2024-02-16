@@ -4,42 +4,58 @@ name: OP
 github:
   - url: https://github.com/ethereum-optimism
 blockchain:
-  - address: "0xab1ef74d2c461e95f4b658ca1f94ac519ad80ba2"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
   - address: "0xcde47c1a5e2d60b9ff262b0a3b6d486048575ad9"
+    networks:
+      - optimism
     tags:
+      - deployer
       - eoa
-      - creator
+  - address: "0xab1ef74d2c461e95f4b658ca1f94ac519ad80ba2"
     networks:
       - optimism
-  - address: "0x1ea3e20a3d0f9cb2cc6e4a5ae8e8ed4dfce21f37"
     tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x4200000000000000000000000000000000000042"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfedfaf1a10335448b7fa0268f56d2b44dbd357de"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x724604db3c8d86c906a27b610703fd0296eb26d5"
-    tags:
-      - contract
-    networks:
-      - optimism
+      - deployer
+      - eoa
   - address: "0x057dd0333d0ef737c72ca39403e7d478b1f1d0b3"
     networks:
       - optimism
     tags:
+      - deployer
       - eoa
-      - creator
+  - address: "0x1b36291ff8f503cfb4e3babe198a40398bcf54ad"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BDROC
+  - address: "0x1ea3e20a3d0f9cb2cc6e4a5ae8e8ed4dfce21f37"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0x4200000000000000000000000000000000000042"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GovernanceToken
+  - address: "0xfedfaf1a10335448b7fa0268f56d2b44dbd357de"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MerkleDistributor
+  - address: "0x724604db3c8d86c906a27b610703fd0296eb26d5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MintManager
+  - address: "0x36bde71c97b33cc4729cf772ae268934f7ab70b2"
+    networks:
+      - optimism
+    tags:
+      - eoa
+    name: "Optimism: Aliased Cross-Domain Messenger "

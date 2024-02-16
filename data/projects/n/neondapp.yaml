@@ -4,24 +4,25 @@ name: NEON Protocol
 github:
   - url: https://github.com/neondapp
 blockchain:
-  - address: "0x086a9b3e3611c6c0913f3902395dbc1ea1967793"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0xe17f3fcc2043c34acd07ddccfda67f1792e78df0"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
-  - address: "0xf9da3664a0bf616987feed8919623fd4fdeb9e9f"
+      - eoa
+  - address: "0x086a9b3e3611c6c0913f3902395dbc1ea1967793"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
+  - address: "0xf9da3664a0bf616987feed8919623fd4fdeb9e9f"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - deployer
+      - eoa
     name: neonprotocol.eth
   - address: "0xf40f19cafaaa25bf9b52134646c6e325e76e0e93"
     networks:

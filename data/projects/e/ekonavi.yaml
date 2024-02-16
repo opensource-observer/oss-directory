@@ -4,10 +4,11 @@ name: Ekonavi
 github:
   - url: https://github.com/Ekonavi
 blockchain:
-  - address: "0x934cA93d9380f7d72b84304b1b00ac192488590d"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x934ca93d9380f7d72b84304b1b00ac192488590d"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: ekonavi.eth

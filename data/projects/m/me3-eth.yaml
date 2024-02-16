@@ -4,9 +4,9 @@ name: me3
 github:
   - url: https://github.com/me3-eth
 blockchain:
-  - address: "0x629f0b57E69762a61BACE4e693fC5fa3C60b3Fb9"
-    tags:
-      - wallet
-      - safe
+  - address: "0x629f0b57e69762a61bace4e693fc5fa3c60b3fb9"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

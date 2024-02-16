@@ -4,15 +4,16 @@ name: Vesta Protocol
 github:
   - url: https://github.com/vesta-protocol
 blockchain:
-  - address: "0x87209dc4b76b14b67bc5e5e5c0737e7d002a219c"
+  - address: "0x15ad39c4e5aff2d6ad278b3d335f48fdfb91e6fb"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
-  - address: "0x15ad39c4e5aff2d6ad278b3d335f48fdfb91e6fb"
+  - address: "0x87209dc4b76b14b67bc5e5e5c0737e7d002a219c"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - deployer
       - eoa
@@ -20,8 +21,8 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - factory
       - contract
+      - factory
     name: AdminContract
   - address: "0x3eedf348919d130954929d4ff62d626f26adbfa2"
     networks:
@@ -70,7 +71,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: renBTCStabilityPool
+    name: TransparentUpgradeableProxy
   - address: "0x62842cedfe0f7d203fc4cfd086a6649412d904b5"
     networks:
       - arbitrum
@@ -88,7 +89,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: GMXStabilityPool
+    name: TransparentUpgradeableProxy
   - address: "0x626420ae6986a4941df830f57775aa7df4aac9d3"
     networks:
       - arbitrum
@@ -112,7 +113,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: EthStabilityPool
+    name: TransparentUpgradeableProxy
   - address: "0x6008301e94658384bdccee1837265fae4df8b8e8"
     networks:
       - arbitrum
@@ -136,7 +137,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: StabilityPool
+    name: TransparentUpgradeableProxy
   - address: "0xf9b46bff75d185a8ffbf74072dc9c698e1ec6851"
     networks:
       - arbitrum
@@ -160,7 +161,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: gOHMStabilityPool
+    name: TransparentUpgradeableProxy
   - address: "0xd218ba424a6166e37a454f8ece2bf8eb2264ecca"
     networks:
       - arbitrum

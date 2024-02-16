@@ -16,6 +16,13 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xca19f26c52b11186b4b1e76a662a14da5149ea5a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: AddressBook
   - address: "0xc10b976c671ce9bff0723611f01422acbae100a5"
     networks:
       - arbitrum
@@ -64,16 +71,9 @@ blockchain:
     tags:
       - contract
     name: RyskDisperseArbSTIP
-  - address: "0xca19f26c52b11186b4b1e76a662a14da5149ea5a"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-      - factory
-    name: AddressBook
   - address: "0x594bd4ec29f7900ae29549c140ac53b5240d4019"
     networks:
       - arbitrum
     tags:
       - contract
-    name: Controller
+    name: OwnedUpgradeabilityProxy

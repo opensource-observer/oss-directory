@@ -4,9 +4,9 @@ name: Fairdrive
 github:
   - url: https://github.com/fairDataSociety
 blockchain:
-  - address: "0x537720479015CcCa7544C4e4754De6310A3198eA"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x537720479015ccca7544c4e4754de6310a3198ea"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

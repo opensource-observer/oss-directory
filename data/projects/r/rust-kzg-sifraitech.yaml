@@ -5,9 +5,8 @@ github:
   - url: https://github.com/sifraitech/rust-kzg
 blockchain:
   - address: "0x93b9f5a8e531c3c8d5048a797f6ead8cf78fef36"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

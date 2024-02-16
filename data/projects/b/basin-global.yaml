@@ -4,9 +4,10 @@ name: basin.global
 github:
   - url: https://github.com/basin-global
 blockchain:
-  - address: "0xEAF9830bB7a38A3CEbcaCa3Ff9F626C424F3fB55"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xeaf9830bb7a38a3cebcaca3ff9f626c424f3fb55"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: basinllc.eth

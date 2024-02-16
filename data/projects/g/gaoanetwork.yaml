@@ -4,9 +4,10 @@ name: GAO Network
 github:
   - url: https://github.com/GAOAnetwork
 blockchain:
-  - address: "0x104E0755aD33b2ec758642b0Fa9DA6B16192B0b0"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x104e0755ad33b2ec758642b0fa9da6b16192b0b0"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: gaoanetwork.eth

@@ -4,21 +4,23 @@ name: EthereansOS
 github:
   - url: https://github.com/EthereansOS
 blockchain:
-  - address: "0xdc0090f8aDD5DB06De0897A54e753af143668668"
+  - address: "0x092990abbb3b3a4ae7ded38352602c4791a34829"
+    networks:
+      - optimism
     tags:
-      - wallet
-      - eoa
+      - contract
+    name: unverified
+  - address: "0xdc0090f8add5db06de0897a54e753af143668668"
     networks:
       - mainnet
       - optimism
-  - address: "0x8f1f29a0007b01d721d4e04da4180249041f88f4"
     tags:
       - eoa
       - wallet
+    name: nonlabs.eth
+  - address: "0x8f1f29a0007b01d721d4e04da4180249041f88f4"
     networks:
       - optimism
-  - address: "0x092990abbb3b3a4ae7ded38352602c4791a34829"
     tags:
-      - contract
-    networks:
-      - optimism
+      - eoa
+      - wallet

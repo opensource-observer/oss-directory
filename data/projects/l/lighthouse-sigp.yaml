@@ -4,22 +4,22 @@ name: Lighthouse by Sigma Prime
 github:
   - url: https://github.com/sigp/lighthouse
 blockchain:
-  - address: "0xC9a872868afA68BA937f65A1c5b4B252dAB15D85"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xc9a872868afa68ba937f65a1c5b4b252dab15d85"
     networks:
       - mainnet
-  - address: "0x0ad5d3975258776cF81b9dcbe6fF4ed0Ae82b29e"
     tags:
-      - wallet
       - eoa
+      - wallet
+  - address: "0x0ad5d3975258776cf81b9dcbe6ff4ed0ae82b29e"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
   - address: "0xd66190fae43f6094665cd1abcbd9cc70dfa8ba03"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

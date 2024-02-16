@@ -5,9 +5,8 @@ github:
   - url: https://github.com/indexsupply
 blockchain:
   - address: "0x50e398dd1c648283eda71d3ab3ea43bf4b97afd6"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

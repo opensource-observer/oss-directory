@@ -4,9 +4,9 @@ name: Iron Wallet
 github:
   - url: https://github.com/iron-wallet
 blockchain:
-  - address: "0x4b7f6bfD248f541eB5474f591D54Bc29444946db"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x4b7f6bfd248f541eb5474f591d54bc29444946db"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

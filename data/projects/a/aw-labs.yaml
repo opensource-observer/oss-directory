@@ -4,14 +4,16 @@ name: Autonomous World Labs (AW Labs)
 github:
   - url: https://github.com/aw-labs
 blockchain:
+  - address: "0x8ed19bba186c3aec473b29cbff2da18599cd0864"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x1626cc835842c480c1689a0a69aa419b9f761a4e"
     networks:
       - optimism
     tags:
       - eoa
       - wallet
-  - address: "0x8ed19bba186c3aec473b29cbff2da18599cd0864"
-    tags:
-      - contract
-    networks:
-      - optimism
+    name: awhouse.eth

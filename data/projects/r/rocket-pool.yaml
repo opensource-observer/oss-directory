@@ -4,15 +4,16 @@ name: Rocket Pool
 github:
   - url: https://github.com/rocket-pool
 blockchain:
-  - address: "0x2319D8e71268FF128e3a9CfA0E62d32596d4DC02"
+  - address: "0x2319d8e71268ff128e3a9cfa0e62d32596d4dc02"
+    networks:
+      - optimism
     tags:
       - safe
       - wallet
-    networks:
-      - optimism
   - address: "0x76ef4b28df1f590db4cd680675d734c27caa32ba"
-    tags:
-      - eoa
-      - creator
     networks:
+      - arbitrum
       - optimism
+    tags:
+      - deployer
+      - eoa

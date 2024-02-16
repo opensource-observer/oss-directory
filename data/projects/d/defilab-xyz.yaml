@@ -4,10 +4,10 @@ name: DefiLab
 github:
   - url: https://github.com/DefiLab-xyz
 blockchain:
-  - address: "0x9fe6764778db6AD5c5ED86242485d1a868a8c52A"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x9fe6764778db6ad5c5ed86242485d1a868a8c52a"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

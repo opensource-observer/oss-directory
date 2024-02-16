@@ -4,15 +4,15 @@ name: Ikigai Labs
 github:
   - url: https://github.com/ikigai-labs-xyz
 blockchain:
-  - address: "0x99d5Ce23335BffC8289F67Eb2723270776f2785e"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xc1edd32ad70de1a1d55299fda37a78ad5540b2f5"
     networks:
       - optimism
-  - address: "0xc1EDd32AD70De1A1D55299FDa37A78ad5540b2f5"
     tags:
-      - wallet
       - safe
+      - wallet
+  - address: "0x99d5ce23335bffc8289f67eb2723270776f2785e"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

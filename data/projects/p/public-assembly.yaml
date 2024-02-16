@@ -4,15 +4,21 @@ name: Public Assembly
 github:
   - url: https://github.com/public-assembly
 blockchain:
-  - address: "0xA78E8A72F6902148b5eC2Faa693D6C0173C60052"
-    tags:
-      - wallet
-      - safe
+  - address: "0xa78e8a72f6902148b5ec2faa693d6c0173c60052"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
   - address: "0x37bbe5b18c31d565fc2a2129f427b19754ad70eb"
+    networks:
+      - optimism
     tags:
       - safe
       - wallet
+  - address: "0x368b87eab8f92737deb64bea7fcf1bd0e4b16aa4"
     networks:
-      - optimism
+      - mainnet
+    tags:
+      - eoa
+      - wallet

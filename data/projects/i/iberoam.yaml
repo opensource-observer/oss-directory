@@ -4,9 +4,9 @@ name: IberoAM
 github:
   - url: https://github.com/IberoAm
 blockchain:
-  - address: "0x1E91264736008082BF63B6C20d36a93A329083D8"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x1e91264736008082bf63b6c20d36a93a329083d8"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

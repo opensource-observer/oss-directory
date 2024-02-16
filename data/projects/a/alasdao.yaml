@@ -4,9 +4,10 @@ name: Alas DAO
 github:
   - url: https://github.com/alasdao
 blockchain:
-  - address: "0xaE7f11378dABA3757e9D7691be04285938bE35B5"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xae7f11378daba3757e9d7691be04285938be35b5"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: kn00t.eth

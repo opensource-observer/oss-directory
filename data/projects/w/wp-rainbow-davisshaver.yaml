@@ -4,10 +4,11 @@ name: RainbowKit Login for WordPress
 github:
   - url: https://github.com/davisshaver/wp-rainbow
 blockchain:
-  - address: "0x0F9Bd2a9E0D30f121c525DB5419A07b08Fce8440"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x0f9bd2a9e0d30f121c525db5419a07b08fce8440"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: davisshaver.eth

@@ -4,9 +4,10 @@ name: Splash
 github:
   - url: https://github.com/Splash-Org
 blockchain:
-  - address: "0x9c013d02422eC31951189d406Ca223FD01939985"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x9c013d02422ec31951189d406ca223fd01939985"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: itsswappyb.eth

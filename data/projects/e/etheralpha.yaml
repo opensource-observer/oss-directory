@@ -4,9 +4,10 @@ name: Ether Alpha
 github:
   - url: https://github.com/etheralpha
 blockchain:
-  - address: "0x0194325BF525Be0D4fBB0856894cEd74Da3B8356"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x0194325bf525be0d4fbb0856894ced74da3b8356"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: hanniabu.eth

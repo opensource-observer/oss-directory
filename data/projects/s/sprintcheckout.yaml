@@ -4,10 +4,10 @@ name: Sprintcheckout
 github:
   - url: https://github.com/sprintcheckout
 blockchain:
-  - address: "0x986DD13cCaB3b637032eBEDD30Ef8a7feA4d6184"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x986dd13ccab3b637032ebedd30ef8a7fea4d6184"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

@@ -4,15 +4,15 @@ name: Esteroids
 github:
   - url: https://github.com/esteroids
 blockchain:
-  - address: "0x71c7252Cc1AfC181704ff7fDED27486f5cCd9205"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x71c7252cc1afc181704ff7fded27486f5ccd9205"
     networks:
       - mainnet
-  - address: "0xD8228a0bE7322834101B1a5DA62CfBa28BD810C8"
     tags:
-      - wallet
       - eoa
+      - wallet
+  - address: "0xd8228a0be7322834101b1a5da62cfba28bd810c8"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

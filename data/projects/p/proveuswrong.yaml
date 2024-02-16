@@ -4,9 +4,10 @@ name: Prove Us Wrong
 github:
   - url: https://github.com/proveuswrong
 blockchain:
-  - address: "0x387e8B40e332831b7a8ad629966df3E9f969C6ad"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x387e8b40e332831b7a8ad629966df3e9f969c6ad"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: proveuswrong.eth

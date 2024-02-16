@@ -4,72 +4,94 @@ name: Elk Finance
 github:
   - url: https://github.com/elkfinance
 blockchain:
-  - address: "0x2afaeca15ac8a62e9bfa3eaf0285315abaecf334"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x111617795c52555d45cf100d0cbf01c82e157e81"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
   - address: "0x72f0a08d8f8102cafbb3974566b9861a1ba74d34"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0xedfad3a0f42a8920b011bb0332ade632e552d846"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0xeade97afc8f79a8e5ba85d57c4a4e629b1160c6a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x992da75e8d8b2f7a13b1df173d755ac7540c87f8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb1f120578a7589fd9336315c4df7d5a5d90173a8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x35b1d4fa1b3e1baf03e8b47d76102b647917706c"
-    tags:
-      - contract
-    name: ElkRouter
-    networks:
-      - optimism
-  - address: "0x09a21dd9311ae7ec338bba59ee677bbbf8b185ce"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee"
-    tags:
-      - contract
-    name: Elk
-    networks:
-      - optimism
-      - arbitrum
-  - address: "0x57a1ce7686f3b2ab61f5191c76361f985b57e0fa"
-    tags:
-      - contract
-    name: SingleStakingRewards
-    networks:
-      - optimism
-  - address: "0x6bc5fc9d0d908ef8444a7d8f6a7e1a7050a82084"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
+  - address: "0x2afaeca15ac8a62e9bfa3eaf0285315abaecf334"
+    networks:
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x111617795c52555d45cf100d0cbf01c82e157e81"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x6bc5fc9d0d908ef8444a7d8f6a7e1a7050a82084"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x38f2ad967328f246763d052cea13ebde47d54518"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xedfad3a0f42a8920b011bb0332ade632e552d846"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: ElkFactory
+  - address: "0xeade97afc8f79a8e5ba85d57c4a4e629b1160c6a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ElkRouter
+  - address: "0x992da75e8d8b2f7a13b1df173d755ac7540c87f8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xb1f120578a7589fd9336315c4df7d5a5d90173a8"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x35b1d4fa1b3e1baf03e8b47d76102b647917706c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ElkRouter
+  - address: "0x09a21dd9311ae7ec338bba59ee677bbbf8b185ce"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Elk
+  - address: "0x57a1ce7686f3b2ab61f5191c76361f985b57e0fa"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SingleStakingRewards

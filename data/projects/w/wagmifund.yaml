@@ -4,9 +4,10 @@ name: wagmi fund
 github:
   - url: https://github.com/wagmifund
 blockchain:
-  - address: "0x191A02b27C288B52c7906F3D751D9a158e24040A"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x191a02b27c288b52c7906f3d751d9a158e24040a"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: abhishk.eth

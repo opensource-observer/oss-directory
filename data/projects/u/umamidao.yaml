@@ -16,13 +16,14 @@ blockchain:
     tags:
       - deployer
       - eoa
-  - address: "0x7466bbde36975842851cbff8c67f9bbaa9c6ea24"
+  - address: "0x131b4e746ca5a5a8be68d2bb5f5a8533a4dd99c1"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - deployer
       - eoa
-  - address: "0x131b4e746ca5a5a8be68d2bb5f5a8533a4dd99c1"
+  - address: "0x7466bbde36975842851cbff8c67f9bbaa9c6ea24"
     networks:
       - arbitrum
     tags:
@@ -79,9 +80,10 @@ blockchain:
   - address: "0x1622bf67e6e5747b81866fe0b85178a93c7f86e3"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: UMAMI
+    name: various:DiffersByChain
   - address: "0xf9b6b8db1cc623dfd484cbeccaa4f3e0e8bfee12"
     networks:
       - arbitrum

@@ -4,9 +4,10 @@ name: neume
 github:
   - url: https://github.com/neume-network
 blockchain:
-  - address: "0x80E451777dCD4E4a589a038A61b1dca72d718045"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x80e451777dcd4e4a589a038a61b1dca72d718045"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: danfowler.eth

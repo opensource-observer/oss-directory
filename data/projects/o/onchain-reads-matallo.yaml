@@ -5,9 +5,9 @@ github:
   - url: https://github.com/matallo/onchain-reads
 blockchain:
   - address: "0xcf7eca52de76e72e562adddb513cef4c609f1fd2"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet
+    name: matallo.eth

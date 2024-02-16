@@ -10,8 +10,8 @@ github:
   - url: https://github.com/Peergos/nabu
 blockchain:
   - address: "0xdffd121d2654efba388a95631d0fe221a6ec5ce7"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

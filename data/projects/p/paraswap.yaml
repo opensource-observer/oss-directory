@@ -4,222 +4,266 @@ name: Paraswap
 github:
   - url: https://github.com/paraswap
 blockchain:
-  - address: "0xf01121e808f782d7f34e857c27da31ad1f151b39"
+  - address: "0x35e0c852fcb9534df65d03877c1238f8e59c53fe"
+    networks:
+      - arbitrum
+      - optimism
     tags:
-      - creator
       - deployer
       - eoa
+  - address: "0xf01121e808f782d7f34e857c27da31ad1f151b39"
     networks:
       - arbitrum
+      - mainnet
       - optimism
-  - address: "0x05182e579fdfcf69e4390c3411d8fea1fb6467cf"
     tags:
+      - deployer
       - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0xdef171fe48cf0115b1d80b88dc8eab59176fee57"
-    tags:
-      - factory
-      - contract
-    name: AugustusSwapper
-    networks:
-      - optimism
-      - arbitrum
-  - address: "0xeef30844023b355408c44224b9d4031609d316d4"
-    tags:
-      - contract
-    name: OptimismBuyAdapter
-    networks:
-      - optimism
-  - address: "0xbc30af9080cf750fb96ff831b7b1c52e5b604ac7"
-    tags:
-      - contract
-    name: OptimismAdapter01
-    networks:
-      - optimism
-  - address: "0x13bae69a10c013e21824876bc500735162e2e4cf"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfe65c468b18e620e07cfd30b33ae642ec335bec9"
-    tags:
-      - contract
-    name: ERC165
-    networks:
-      - optimism
-  - address: "0x2cdcce2b00978bc8788f4c7db8216f09f5d33df1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa2f581b012e0f2dccde86fcbfb529f4ac5dd4983"
-    tags:
-      - contract
-    name: DystopiaExchangeRouter
-    networks:
-      - optimism
-  - address: "0xb41dd984730daf82f5c41489e21ac79d5e3b61bc"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4ae8ad57912e207f5bfafbf2e90486e5feab1634"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2637c588c7ca5138032992c97f437f55bd9fc782"
-    tags:
-      - contract
-    name: MultiPath
-    networks:
-      - optimism
-  - address: "0x6e7be86000df697facf4396efd2ae2c322165dc3"
-    tags:
-      - contract
-    name: AugustusRegistry
-    networks:
-      - optimism
-  - address: "0xaaca165fd5abb6564098e8595bc836470f19e209"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xce4f05e51b7edb3454134306a84864d35d6ff734"
-    tags:
-      - contract
-    name: ProtectedMultiPath
-    networks:
-      - optimism
-  - address: "0x2de92a5de61feb225f411f0270ddc9f65d043521"
-    tags:
-      - contract
-    name: ProtectedMultiPath
-    networks:
-      - optimism
-  - address: "0xf9234cb08edb93c0d4a4d4c70cc3ffd070e78e07"
-    tags:
-      - contract
-    name: SimpleSwapNFT
-    networks:
-      - optimism
-  - address: "0x554221873a75bf921e0aaa6a7564bb1e78f50f8f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x680baedaf5ac0a90fe279d0fc26efa591735f9d0"
-    tags:
-      - contract
-    name: OptimismAdapter01
-    networks:
-      - optimism
-  - address: "0xdc6e2b14260f972ad4e5a31c68294fba7e720701"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4669d27a649f5451e0d44c20a2b246431f1b0572"
-    tags:
-      - contract
-    name: OptimismAdapter01
-    networks:
-      - optimism
-  - address: "0x6295cd918b48e1d2a96cbae2fc70b29623c593c2"
-    tags:
-      - contract
-    name: OptimismAdapter01
-    networks:
-      - optimism
-  - address: "0xf3938337f7294fef84e9b2c6d548a93f956cc281"
-    tags:
-      - contract
-    name: OnERC1155Received
-    networks:
-      - optimism
-  - address: "0x73740363e361e8c49f42c90d17547b4a18151473"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x50b89fa00b4513c2f58162427b9f26a5276a074c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb6ebbb9f9957556fd798927ae7c250759a235407"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf298381a2b6b072f1998ee4eb261101f2a9f9516"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa7465ccd97899edcf11c56d2d26b49125674e45f"
-    tags:
-      - contract
-    name: FeeClaimer
-    networks:
-      - optimism
-      - arbitrum
-  - address: "0x0aa8b0ef37c482ff80f9d214f9e09b2aef089265"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x35e0c852fcb9534df65d03877c1238f8e59c53fe"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x0927fd43a7a87e3e8b81df2c44b03c4756849f6d"
-    tags:
-      - contract
-    networks:
-      - optimism
-      - arbitrum
-    name: AugustusRFQ
-  - address: "0xd63b7691dd98fa89a2ea5e1604700489c585aa7b"
-    tags:
-      - contract
-    name: SimpleSwap
-    networks:
-      - optimism
-  - address: "0xe2137168cda486a2555e16c597905854c84f9127"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8547bd5fb04737dd879d76472164eb25c47fc40b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf3a92c8aea760a3af04a8ee59017cb9b6b834f18"
-    tags:
-      - contract
-    name: DirectSwap
-    networks:
-      - optimism
   - address: "0x22f3bdd1135e62ba7ee980ed53ded634e412869c"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
+  - address: "0x05182e579fdfcf69e4390c3411d8fea1fb6467cf"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xdef171fe48cf0115b1d80b88dc8eab59176fee57"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: AugustusSwapper
   - address: "0x8373c68629191ef10f654ce8e32bbfe3c7a1d743"
     networks:
       - arbitrum
     tags:
-      - factory
-      - proxy
       - contract
+      - factory
     name: SmartVaultsFactory
+  - address: "0xeef30844023b355408c44224b9d4031609d316d4"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xbc30af9080cf750fb96ff831b7b1c52e5b604ac7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptimismAdapter01
+  - address: "0x13bae69a10c013e21824876bc500735162e2e4cf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptimismAdapter01
+  - address: "0xfe65c468b18e620e07cfd30b33ae642ec335bec9"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: ERC165
+  - address: "0x2cdcce2b00978bc8788f4c7db8216f09f5d33df1"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: SimpleSwapHelper
+  - address: "0xa2f581b012e0f2dccde86fcbfb529f4ac5dd4983"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DystopiaExchangeRouter
+  - address: "0xb41dd984730daf82f5c41489e21ac79d5e3b61bc"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: NewUniswapV2ExchangeRouter
+  - address: "0x4ae8ad57912e207f5bfafbf2e90486e5feab1634"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2637c588c7ca5138032992c97f437f55bd9fc782"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: MultiPath
+  - address: "0x6e7be86000df697facf4396efd2ae2c322165dc3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AugustusRegistry
+  - address: "0xaaca165fd5abb6564098e8595bc836470f19e209"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xce4f05e51b7edb3454134306a84864d35d6ff734"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2de92a5de61feb225f411f0270ddc9f65d043521"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: ProtectedMultiPath
+  - address: "0xf9234cb08edb93c0d4a4d4c70cc3ffd070e78e07"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x554221873a75bf921e0aaa6a7564bb1e78f50f8f"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: OnERC721Received
+  - address: "0x680baedaf5ac0a90fe279d0fc26efa591735f9d0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptimismAdapter01
+  - address: "0xdc6e2b14260f972ad4e5a31c68294fba7e720701"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x4669d27a649f5451e0d44c20a2b246431f1b0572"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptimismAdapter01
+  - address: "0x6295cd918b48e1d2a96cbae2fc70b29623c593c2"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xf3938337f7294fef84e9b2c6d548a93f956cc281"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: OnERC1155Received
+  - address: "0x73740363e361e8c49f42c90d17547b4a18151473"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x50b89fa00b4513c2f58162427b9f26a5276a074c"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: ProtectedSimpleSwap
+  - address: "0xb6ebbb9f9957556fd798927ae7c250759a235407"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xf298381a2b6b072f1998ee4eb261101f2a9f9516"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: SimpleSwap
+  - address: "0xa7465ccd97899edcf11c56d2d26b49125674e45f"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x0aa8b0ef37c482ff80f9d214f9e09b2aef089265"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptimismAdapter01
+  - address: "0x0927fd43a7a87e3e8b81df2c44b03c4756849f6d"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: AugustusRFQ
+  - address: "0xd63b7691dd98fa89a2ea5e1604700489c585aa7b"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xe2137168cda486a2555e16c597905854c84f9127"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x8547bd5fb04737dd879d76472164eb25c47fc40b"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xf3a92c8aea760a3af04a8ee59017cb9b6b834f18"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
   - address: "0xd5b927956057075377263aab7f8afc12f85100db"
     networks:
       - arbitrum

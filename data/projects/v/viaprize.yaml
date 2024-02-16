@@ -4,27 +4,27 @@ name: viaPrize
 github:
   - url: https://github.com/viaprize
 blockchain:
-  - address: "0x850a146D7478dAAa98Fc26Fd85e6A24e50846A9d"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x850a146d7478daaa98fc26fd85e6a24e50846a9d"
     networks:
       - mainnet
-  - address: "0x7b1636A4056f944B53fb1AdfeA30cC0d346cA73a"
     tags:
-      - wallet
       - eoa
+      - wallet
+  - address: "0x7b1636a4056f944b53fb1adfea30cc0d346ca73a"
     networks:
       - optimism
-  - address: "0x4326883E2dB64442F2B8D2d00b454459Af3878Ab"
     tags:
-      - wallet
       - eoa
+      - wallet
+  - address: "0x4326883e2db64442f2b8d2d00b454459af3878ab"
     networks:
       - optimism
-  - address: "0x2bf1a0410910e1bD759Dd990375b41AE40EA8b85"
     tags:
-      - wallet
       - eoa
+      - wallet
+  - address: "0x2bf1a0410910e1bd759dd990375b41ae40ea8b85"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

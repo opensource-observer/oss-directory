@@ -4,9 +4,9 @@ name: alembic.tech
 github:
   - url: https://github.com/alembic-tech
 blockchain:
-  - address: "0x58A24Fa9AE8847CBCf245Dd2eF7FceF205927af1"
+  - address: "0x58a24fa9ae8847cbcf245dd2ef7fcef205927af1"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

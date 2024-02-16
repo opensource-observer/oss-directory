@@ -4,16 +4,16 @@ name: The Red Guild
 github:
   - url: https://github.com/theredguild
 blockchain:
-  - address: "0x382A72C04d47d1F0F3eF09e6953eFd38581d9B1F"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x382a72c04d47d1f0f3ef09e6953efd38581d9b1f"
     networks:
       - mainnet
       - optimism
-  - address: "0x5ca1bedb6dc8eb75581d19e87c7a77b54f9fc43a"
     tags:
       - eoa
       - wallet
+  - address: "0x5ca1bedb6dc8eb75581d19e87c7a77b54f9fc43a"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

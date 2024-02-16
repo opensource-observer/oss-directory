@@ -5,8 +5,8 @@ github:
   - url: https://github.com/Factland
 blockchain:
   - address: "0xde245d3210fc712726c57e1f512bd957852085ea"
-    tags:
-      - wallet
-      - eoa
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

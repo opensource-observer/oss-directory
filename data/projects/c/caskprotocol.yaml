@@ -7,36 +7,43 @@ blockchain:
   - address: "0x54812dbab593674cd4f1216264895be48b55c5e3"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
   - address: "0x775df9836945b0e95ed5f6a3269bf22f6b426e85"
     networks:
       - arbitrum
+      - optimism
     tags:
       - contract
-    name: CaskP2P
+    name: various:DiffersByChain
   - address: "0xf89418e3a57189692ade9a25792fd986fb99c5ca"
     networks:
       - arbitrum
+      - optimism
     tags:
       - contract
-    name: CaskDCA
+    name: various:DiffersByChain
   - address: "0xf76bf31f0b56bd6f72e1afeb83a51f191ec2291b"
     networks:
       - arbitrum
+      - optimism
     tags:
       - contract
-    name: CaskSubscriptions
+    name: various:DiffersByChain
   - address: "0xe465a32d2826dc5a42fdc75624a18ee35a25a131"
     networks:
       - arbitrum
+      - optimism
     tags:
       - contract
-    name: CaskChainlinkTopup
+    name: various:DiffersByChain
   - address: "0x20151ff7fdd720b85063d02081aa5b7876adff7b"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: CaskVault
+    name: various:DiffersByChain

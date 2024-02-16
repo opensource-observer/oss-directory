@@ -5,22 +5,24 @@ github:
   - url: https://github.com/transit-finance
 blockchain:
   - address: "0x280333c41a9302448ebc070ed0300ad2ed4b8244"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
-      - creator
       - deployer
       - eoa
-    networks:
-      - arbitrum
-      - optimism
   - address: "0xb45a2dda996c32e93b8c47098e90ed0e7ab18e39"
-    tags:
-      - contract
     networks:
-      - optimism
       - arbitrum
-    name: TransitSwapRouterV4
-  - address: "0x3f5af9cab221dc6bc776a329493e070a3b5adcb0"
+      - mainnet
+      - optimism
     tags:
       - contract
+    name: various:DiffersByChain
+  - address: "0x3f5af9cab221dc6bc776a329493e070a3b5adcb0"
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified

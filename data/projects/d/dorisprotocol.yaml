@@ -5,9 +5,8 @@ github:
   - url: https://github.com/dorisprotocol/go-doris
 blockchain:
   - address: "0x90aea21b1f8365513873efb99f133dc1a7fa812a"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

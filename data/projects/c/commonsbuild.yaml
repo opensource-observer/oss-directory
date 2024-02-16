@@ -4,21 +4,22 @@ name: Token Engineering Commons
 github:
   - url: https://github.com/commonsbuild
 blockchain:
-  - address: "0x808DB7C11EeF7aed8314bcCe208239bf9358f36C"
-    tags:
-      - wallet
-      - safe
+  - address: "0x808db7c11eef7aed8314bcce208239bf9358f36c"
     networks:
-      - mainnet
-  - address: "0x763d7D362B59aeA3858a92a302e18cd41b1252d4"
+      - optimism
     tags:
+      - safe
       - wallet
+  - address: "0xfc1436eab5943f90a4cae9fd1ad6ba66408cde9b"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x763d7d362b59aea3858a92a302e18cd41b1252d4"
+    networks:
+      - optimism
+    tags:
       - eoa
-    networks:
-      - optimism
-  - address: "0xfc1436EAb5943F90A4cae9fd1aD6ba66408cDe9B"
-    tags:
-      - safe
       - wallet
-    networks:
-      - optimism
+    name: linuxiscool.eth

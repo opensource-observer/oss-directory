@@ -4,9 +4,9 @@ name: ProXify DAO
 github:
   - url: https://github.com/ProxifyDAO
 blockchain:
-  - address: "0x2F776fb0171f8b921073916970886d9353D88321"
-    tags:
-      - wallet
-      - safe
+  - address: "0x2f776fb0171f8b921073916970886d9353d88321"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

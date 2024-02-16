@@ -5,59 +5,66 @@ github:
   - url: https://github.com/FiveElementsLabs/tide-core-v1
   - url: https://github.com/FiveElementsLabs/tide-core-v2
 blockchain:
+  - address: "0x607291c9b3b03d8c2dc1f5f7f8db2b6a06c91183"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xfddae88913f6f7ee7daf2c2dbd0a7f8ec970aece"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0xd6995023df41a48eef1b7bd215fcb8c967737f4f"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: WaveFactory
+  - address: "0xfb51d25c88819e25eea78933c82d3985835eda95"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: WaveFactory
+  - address: "0x230530e27b57e6912cdc211f303a375d102296b4"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: WaveFactory
+  - address: "0xa9ba7a3e513b2e24434eaac4ca99409126a5c1fe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x2e1561f99ee84e1f02e8ebeaafccb05f4ecc7564"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x46d27f14305fb231f54c38dfc779f512d4bf5704"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
   - address: "0xf40cba950163941bef7733f5958a00e5458325fb"
     networks:
       - optimism
     tags:
       - eoa
       - wallet
-  - address: "0x607291c9b3b03d8c2dc1f5f7f8db2b6a06c91183"
-    tags:
-      - eoa
-      - creator
-      - deployer
-    networks:
-      - optimism
-      - arbitrum
-  - address: "0xfddae88913f6f7ee7daf2c2dbd0a7f8ec970aece"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0xd6995023df41a48eef1b7bd215fcb8c967737f4f"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-    name: WaveFactory
-  - address: "0xfB51d25c88819E25EEA78933c82D3985835Eda95"
-    tags:
-      - contract
-      - factory
-    networks:
-      - arbitrum
-    name: WaveFactory
-  - address: "0x230530e27b57e6912cdc211f303a375d102296b4"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-    name: WaveFactory
-  - address: "0xa9ba7a3e513b2e24434eaac4ca99409126a5c1fe"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2e1561f99ee84e1f02e8ebeaafccb05f4ecc7564"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x46d27f14305fb231f54c38dfc779f512d4bf5704"
-    tags:
-      - contract
-    networks:
-      - optimism

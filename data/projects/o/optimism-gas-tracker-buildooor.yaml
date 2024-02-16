@@ -4,9 +4,9 @@ name: Optimism Gas Tracker
 github:
   - url: https://github.com/buildooor/optimism-gas-tracker
 blockchain:
-  - address: "0x77B816538A4e28CB9651b2B475fAA1692057beb0"
+  - address: "0x77b816538a4e28cb9651b2b475faa1692057beb0"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

@@ -4,15 +4,15 @@ name: ShapeShift DAO
 github:
   - url: https://github.com/shapeshift
 blockchain:
-  - address: "0x90A48D5CF7343B08dA12E067680B4C6dbfE551Be"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - mainnet
-  - address: "0x6268d07327f4fb7380732dc6d63d95F88c0E083b"
-    tags:
-      - wallet
-      - safe
+  - address: "0x90a48d5cf7343b08da12e067680b4c6dbfe551be"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x6268d07327f4fb7380732dc6d63d95f88c0e083b"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

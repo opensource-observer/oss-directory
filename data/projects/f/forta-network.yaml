@@ -4,9 +4,9 @@ name: Forta Network
 github:
   - url: https://github.com/forta-network
 blockchain:
-  - address: "0x516D34d147DDa218cbEC1EADA374ca2ceC1a6e93"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x516d34d147dda218cbec1eada374ca2cec1a6e93"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

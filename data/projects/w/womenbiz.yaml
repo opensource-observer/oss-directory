@@ -4,20 +4,15 @@ name: Women Biz - Optimism education
 github:
   - url: https://github.com/womenbiz
 blockchain:
-  - address: "0x0693401dF5CbAE158be6bbAdDD69d52283a8076E"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
   - address: "0xd280c617492b02607a72c1099082096c19548f0f"
+    networks:
+      - optimism
     tags:
       - safe
       - wallet
+  - address: "0x0693401df5cbae158be6bbaddd69d52283a8076e"
     networks:
-      - optimism
-  - address: "0xe5df6a208ee99f3d7516d3f6f97416e7b402aeaf"
+      - mainnet
     tags:
       - eoa
-    networks:
-      - optimism
+      - wallet

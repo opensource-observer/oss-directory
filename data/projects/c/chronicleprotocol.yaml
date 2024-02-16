@@ -5,19 +5,15 @@ github:
   - url: https://github.com/makerdao/dss-teleport
   - url: https://github.com/chronicleprotocol
 blockchain:
-  - address: "0x18d2CF2296c5b29343755E6B7e37679818913f88"
+  - address: "0x2f64d1d5d9504ac7731bcc90dce5510cb0ca057d"
+    networks:
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x18d2cf2296c5b29343755e6b7e37679818913f88"
+    networks:
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0x2F64D1D5d9504Ac7731BCc90dCe5510Cb0Ca057d"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0xfc9a6551Fd46f15358E266cE08216aaDcbd948Ba"
-    tags:
-      - wallet
-    networks:
-      - optimism
+    name: L2DaiTeleportGateway

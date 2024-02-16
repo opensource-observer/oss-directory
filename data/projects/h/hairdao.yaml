@@ -4,9 +4,9 @@ name: HairDAO
 github:
   - url: https://github.com/HairDAO
 blockchain:
-  - address: "0xe98134dCe5959Eb8D13b7d6543b8E16a20ed973E"
-    tags:
-      - wallet
-      - safe
+  - address: "0xe98134dce5959eb8d13b7d6543b8e16a20ed973e"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

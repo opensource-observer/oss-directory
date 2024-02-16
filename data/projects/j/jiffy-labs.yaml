@@ -4,9 +4,9 @@ name: JiffyScan
 github:
   - url: https://github.com/jiffy-labs
 blockchain:
-  - address: "0xdd347ad6aA6D26ae6840ed3574E6Ce4b0E002066"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xdd347ad6aa6d26ae6840ed3574e6ce4b0e002066"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

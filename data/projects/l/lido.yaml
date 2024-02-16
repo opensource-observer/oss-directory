@@ -5,40 +5,41 @@ github:
   - url: https://github.com/lidofinance
 blockchain:
   - address: "0x2c01f405e3c525c0cb867789aaf077f3553ccbb7"
+    networks:
+      - optimism
     tags:
+      - deployer
       - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x92834c37df982a13bb0f8c3f6608e26f0546538e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8e01013243a96601a86eb3153f0d9fa4fbfb6957"
-    tags:
-      - contract
-    name: OssifiableProxy
-    networks:
-      - optimism
-  - address: "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb"
-    tags:
-      - contract
-    name: OssifiableProxy
-    networks:
-      - optimism
-  - address: "0x23b96add54c479c6784dd504670b5376b808f4c7"
-    tags:
-      - contract
-    name: L2ERC20TokenBridge
-    networks:
-      - optimism
   - address: "0x1824988af7a12c339784a171a514e20609896321"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
+  - address: "0x92834c37df982a13bb0f8c3f6608e26f0546538e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ERC20Bridged
+  - address: "0x8e01013243a96601a86eb3153f0d9fa4fbfb6957"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OssifiableProxy
+  - address: "0x1f32b1c2345538c0c6f582fcb022739c4a194ebb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OssifiableProxy
+  - address: "0x23b96add54c479c6784dd504670b5376b808f4c7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: L2ERC20TokenBridge
   - address: "0x5979d7b546e38e414f7e9822514be443a4800529"
     networks:
       - arbitrum

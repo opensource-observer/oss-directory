@@ -4,10 +4,10 @@ name: Pocket Network
 github:
   - url: https://github.com/pokt-network
 blockchain:
-  - address: "0x5F1Feefc4BB7a414096cCF070BeEF94da8Ff88A6"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x5f1feefc4bb7a414096ccf070beef94da8ff88a6"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

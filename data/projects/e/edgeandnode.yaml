@@ -4,9 +4,9 @@ name: Edge & Node / The Graph
 github:
   - url: https://github.com/edgeandnode
 blockchain:
-  - address: "0x9e8B73b5563c9aF1C35e5Aad588B67B6A414576b"
+  - address: "0x9e8b73b5563c9af1c35e5aad588b67b6a414576b"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

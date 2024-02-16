@@ -13,15 +13,16 @@ npm:
   - url: https://www.npmjs.com/package/@wagmi/mipd
   - url: https://www.npmjs.com/package/@wagmi/cli
 blockchain:
-  - address: "0x4557B18E779944BFE9d78A672452331C186a9f48"
+  - address: "0x4557b18e779944bfe9d78a672452331c186a9f48"
+    networks:
+      - optimism
     tags:
-      - wallet
       - safe
+      - wallet
+  - address: "0xd2135cfb216b74109775236e36d4b433f1df507b"
     networks:
       - mainnet
-  - address: "0xd2135CfB216b74109775236E36d4b433F1DF507B"
     tags:
       - eoa
       - wallet
-    networks:
-      - mainnet
+    name: wevm.eth

@@ -8,47 +8,49 @@ npm:
   - url: https://www.npmjs.com/package/@0xsplits/splits-contracts
 blockchain:
   - address: "0x9ebc8e61f87a301ff25a606d7c06150f856f24e2"
-    tags:
-      - creator
-      - deployer
-      - eoa
-      - wallet
     networks:
       - arbitrum
       - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
+      - wallet
   - address: "0x4df01754ebd055498c8087b1e9a5c7a9ad19b0f6"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
     name: WaterfallModuleFactory
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
   - address: "0x2ed6c4b5da6378c7897ac67ba9e43102feb694ee"
-    name: SplitMain
-    tags:
-      - factory
-      - contract
     networks:
-      - optimism
       - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: SplitMain
   - address: "0xdecd8b99b7f763e16141450daa5ea414b7994831"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
     name: LiquidSplitFactory
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
   - address: "0x0a2841630f198745a55c4dab3fe98f77271949e5"
-    name: VestingModuleFactory
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
       - factory
+    name: VestingModuleFactory
+  - address: "0xe37b8373fee7e13c2050ea386f3b6e4fe595a7c9"
     networks:
       - optimism
-  - address: "0xe37b8373fee7e13c2050ea386f3b6e4fe595a7c9"
     tags:
       - safe
       - wallet
-    networks:
-      - optimism

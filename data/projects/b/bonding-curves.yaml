@@ -4,21 +4,22 @@ name: Bonding Curves Research Group
 github:
   - url: https://github.com/bonding-curves
 blockchain:
-  - address: "0x9b55D80Af9dd8D23C372915Ad55c010799010b4d"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x9b55d80af9dd8d23c372915ad55c010799010b4d"
     networks:
       - mainnet
-  - address: "0x29567BdBcC92aCF37AC6B56B69180857bB69f7D1"
     tags:
-      - wallet
       - eoa
+      - wallet
+    name: curiousrabbit.eth
+  - address: "0x29567bdbcc92acf37ac6b56b69180857bb69f7d1"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
   - address: "0xb2821c0df0c414ff51d3e8033cba26df6aac587b"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

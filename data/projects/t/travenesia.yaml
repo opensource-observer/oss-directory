@@ -5,10 +5,10 @@ github:
   - url: https://github.com/travenesia/travenesia
   - url: https://github.com/travenesia/aethernity
 blockchain:
-  - address: "0xA49CEE842116A89299A721D831BCf0511E8F6A15"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xa49cee842116a89299a721d831bcf0511e8f6a15"
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet
+    name: aethernity.eth

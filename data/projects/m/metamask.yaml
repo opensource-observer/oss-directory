@@ -17,66 +17,75 @@ npm:
   - url: https://www.npmjs.com/package/@metamask/controller-utils
 blockchain:
   - address: "0x4b327372a347ad97e45881428af26a4c28840c66"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0xcbe0edd07345a98542d779e1f6b897103eea0ab5"
-    tags:
-      - eoa
-      - creator
-    networks:
-      - optimism
-  - address: "0x2252e2407e61efa6e6ab3a7d33ac6f033486c700"
-    tags:
-      - contract
-      - factory
     networks:
       - arbitrum
       - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xcbe0edd07345a98542d779e1f6b897103eea0ab5"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x2252e2407e61efa6e6ab3a7d33ac6f033486c700"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
   - address: "0x82e0b8cdd80af5930c4452c684e71c861148ec8a"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
     name: MetaBridge
-    networks:
-      - optimism
   - address: "0x9dda6ef3d919c9bc8885d5560999a3640431e8e6"
+    networks:
+      - arbitrum
+      - optimism
     tags:
-      - factory
       - contract
+      - factory
+    name: unverified
+  - address: "0x6d485a96533c47c12ef5bccacfbd726c1d239db7"
     networks:
       - optimism
-      - arbitrum
-    name: MetaSwap
-  - address: "0x6d485a96533c47c12ef5bccacfbd726c1d239db7"
     tags:
       - contract
       - factory
     name: Create2Factory
-    networks:
-      - optimism
   - address: "0x432d6ff079a3073b9076e8ff16ef71d7071e1a9e"
-    tags:
-      - contract
-      - factory
     networks:
       - arbitrum
       - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
   - address: "0xbc59f7bdd506011cc6848d50ebef849466ea4fae"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: unverified
   - address: "0xb90357f2b86dbfd59c3502215d4060f71df8ca0e"
-    name: MetaBridge
     networks:
       - optimism
     tags:
       - contract
       - factory
+    name: MetaBridge
   - address: "0x23981fc34e69eedfe2bd9a0a9fcb0719fe09dbfc"
     networks:
       - arbitrum

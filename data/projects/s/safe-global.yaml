@@ -32,50 +32,64 @@ npm:
   - url: https://www.npmjs.com/package/@safe-global/safe-core-protocol
   - url: https://www.npmjs.com/package/@safe-global/cra-template-safe-app
 blockchain:
-  - address: "0xe1cb04a0fa36ddd16a06ea828007e35e1a3cbc37"
-    tags:
-      - creator
+  - address: "0xa05c4256ff0dd38697e63d48df146e6e2fe7fe4a"
     networks:
-      - optimism
-      - arbitrum
-  - address: "0xdcc596169Da6b994b995152031485005b0a0eAbb"
+      - mainnet
     tags:
-      - creator
+      - deployer
       - eoa
+  - address: "0xd7df5bf3b8d2bd159664df54a30101d7faf6ca26"
+    networks:
+      - mainnet
+    tags:
+      - deployer
+      - eoa
+  - address: "0xab0d90fde397a4362acbe1d3a1c17f24b5b53266"
     networks:
       - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0x68108902de3a5031197a6eb3b74b3b033e8e8e4d"
+    networks:
+      - mainnet
+      - optimism
     tags:
-      - creator
+      - deployer
       - eoa
+    name: ethresearch.eth
+  - address: "0xdcc596169da6b994b995152031485005b0a0eabb"
     networks:
       - optimism
-  - address: "0x3EDf6868d7c42863E44072DaEcC16eCA2804Dea1"
     tags:
-      - wallet
-      - safe
-    networks:
-      - optimism
+      - contract
+    name: SafeChecker
   - address: "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc"
-    name: GnosisSafeProxyFactory v1.3.0
-    tags:
-      - factory
-      - contract
     networks:
-      - optimism
       - arbitrum
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: GnosisSafeProxyFactory
   - address: "0xa6b71e26c5e0845f74c812102ca7114b6a896ab2"
-    name: GnosisSafeProxyFactory v1.3.0
+    networks:
+      - arbitrum
+      - optimism
     tags:
+      - contract
       - factory
-      - contract
+    name: GnosisSafeProxyFactory
+  - address: "0xfb1bffc9d739b8d520daf37df666da4c687191ea"
     networks:
-      - optimism
       - arbitrum
-  - address: "0xfb1bffC9d739B8D520DaF37dF666da4C687191EA"
-    name: GnosisSafeL2 v1.3.0
+      - optimism
     tags:
       - contract
+    name: GnosisSafeL2
+  - address: "0x3edf6868d7c42863e44072daecc16eca2804dea1"
     networks:
       - optimism
-      - arbitrum
+    tags:
+      - safe
+      - wallet

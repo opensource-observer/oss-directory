@@ -5,9 +5,9 @@ github:
   - url: https://github.com/fat-garage/wordblock
   - url: https://github.com/fat-garage/wordblock-backend
 blockchain:
-  - address: "0xfCA51Ef095b06FA6C07baf1BfE5953F7C89DDe3D"
-    tags:
-      - wallet
-      - safe
+  - address: "0xfca51ef095b06fa6c07baf1bfe5953f7c89dde3d"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

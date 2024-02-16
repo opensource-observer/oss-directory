@@ -6,9 +6,8 @@ github:
   - url: https://github.com/arpa-network/randcast-user-contract
 blockchain:
   - address: "0xdd1ce2d72b2fdccb2d10d3d04d5ca2ba81e39ad3"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

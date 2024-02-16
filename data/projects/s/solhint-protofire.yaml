@@ -5,16 +5,17 @@ github:
   - url: https://github.com/protofire/solhint
   - url: https://github.com/protofire/blockchain-learning-path
 blockchain:
-  - address: "0x63d6287D5b853cCfedbA1247fBEb9a40512F709A"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - optimism
-  - address: "0x5fC34D03cFdf145Db5f3c5B5558e39a4164AAa30"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x5fc34d03cfdf145db5f3c5b5558e39a4164aaa30"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+  - address: "0x63d6287d5b853ccfedba1247fbeb9a40512f709a"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+    name: tbd

@@ -4,10 +4,11 @@ name: delegation.tools
 github:
   - url: https://github.com/DanieleSalatti/op-delegation
 blockchain:
-  - address: "0xA47669cBc53985333423e4d3D00188f4049fB695"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xa47669cbc53985333423e4d3d00188f4049fb695"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: ledger.salatti.eth

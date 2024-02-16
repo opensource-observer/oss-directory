@@ -5,9 +5,8 @@ github:
   - url: https://github.com/copper-protocol
 blockchain:
   - address: "0x3d9da641741447784298a2d58db0ee5801dcabbd"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

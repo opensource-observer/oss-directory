@@ -4,15 +4,15 @@ name: MesoReefDAO
 github:
   - url: https://github.com/MesoReefDAO
 blockchain:
-  - address: "0xE6FF2e03BB419E91D67bB537FcDa9AdE555deD88"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - mainnet
-  - address: "0x1848F1a85fCBC349016e63150D1E605c6d7fAa0B"
-    tags:
-      - wallet
-      - safe
+  - address: "0xe6ff2e03bb419e91d67bb537fcda9ade555ded88"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x1848f1a85fcbc349016e63150d1e605c6d7faa0b"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

@@ -4,15 +4,16 @@ name: DirectEd Development Foundation
 github:
   - url: https://github.com/DirectEd-Development-Foundation
 blockchain:
-  - address: "0xb1aB77dd31080f1db27533dfE6E8104131D792a3"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xb1ab77dd31080f1db27533dfe6e8104131d792a3"
     networks:
       - mainnet
-  - address: "0xa18d7F3960eF7C9d708dD623589359C5EE00263f"
     tags:
-      - wallet
       - eoa
+      - wallet
+    name: simonsallstrom.eth
+  - address: "0xa18d7f3960ef7c9d708dd623589359c5ee00263f"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

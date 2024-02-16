@@ -8,8 +8,15 @@ blockchain:
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
+  - address: "0x70d397a54496a176da9481ea13d94726056f1283"
+    networks:
+      - arbitrum
+      - mainnet
+    tags:
+      - deployer
+      - eoa
   - address: "0x0b2b8fbf3dfd6237921a89355cfc08f107bfbf98"
     networks:
       - arbitrum
@@ -17,19 +24,14 @@ blockchain:
       - contract
       - factory
     name: ERC1967Proxy
-  - address: "0x70d397a54496a176da9481ea13d94726056f1283"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0x3f53936e45b50e38c25d6e52da294e66b8909609"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
       - factory
-    name: AaveV3ERC4626Factory
+    name: various:DiffersByChain
   - address: "0xf0dbf74cef39e5cd4e54d0ffd59075024c7d8857"
     networks:
       - arbitrum
@@ -39,9 +41,10 @@ blockchain:
   - address: "0x4af0b7cb2a426833922c4e19c902d5a84dd72942"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: LendingPool
+    name: various:DiffersByChain
   - address: "0x88ad0e7fff0cbc9be23f72058db29c7e85a87717"
     networks:
       - arbitrum
@@ -69,6 +72,7 @@ blockchain:
   - address: "0x93e73571a71d27cd35a20e14ba5b352c3c2236fc"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: PositionTracker
+    name: various:DiffersByChain

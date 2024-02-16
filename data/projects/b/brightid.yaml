@@ -4,10 +4,10 @@ name: BrightID
 github:
   - url: https://github.com/BrightID
 blockchain:
-  - address: "0x4B8810b079eb22ecF2D1f75E08E0AbbD6fD87dbF"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x4b8810b079eb22ecf2d1f75e08e0abbd6fd87dbf"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

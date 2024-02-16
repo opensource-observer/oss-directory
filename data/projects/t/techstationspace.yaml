@@ -4,9 +4,9 @@ name: Techstation
 github:
   - url: https://github.com/techstationspace
 blockchain:
-  - address: "0x2242f42F5AC525d967DfA9f21098160870Edd978"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x2242f42f5ac525d967dfa9f21098160870edd978"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

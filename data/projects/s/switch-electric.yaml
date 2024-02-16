@@ -4,9 +4,9 @@ name: Switch Electric
 github:
   - url: https://github.com/WhyNotSwitch
 blockchain:
-  - address: "0x5e1b920D26AbBED943B4E0f91b3AD373E7519B41"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x5e1b920d26abbed943b4e0f91b3ad373e7519b41"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

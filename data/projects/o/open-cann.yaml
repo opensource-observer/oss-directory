@@ -4,9 +4,10 @@ name: OpenCann
 github:
   - url: https://github.com/Open-Cann
 blockchain:
-  - address: "0x4fB544dEdD9583B156A60e8AfE9afb45DCc3be56"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x4fb544dedd9583b156a60e8afe9afb45dcc3be56"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: cannabisgenome.eth

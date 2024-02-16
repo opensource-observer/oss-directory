@@ -4,22 +4,23 @@ name: Dapp-Learning
 github:
   - url: https://github.com/Dapp-Learning-DAO
 blockchain:
-  - address: "0x35C6d9117F66943C881E8354138434b8a0727988"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - mainnet
-      - optimism
-  - address: "0x1f7b953113f4dfcbf56a1688529cc812865840e1"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
-      - optimism
   - address: "0xdbeb213b3c8b08c240013f38122dc154f70e6422"
+    networks:
+      - optimism
     tags:
       - contract
+    name: HappyRedPacket
+  - address: "0x35c6d9117f66943c881e8354138434b8a0727988"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x1f7b953113f4dfcbf56a1688529cc812865840e1"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: dapplearning.eth

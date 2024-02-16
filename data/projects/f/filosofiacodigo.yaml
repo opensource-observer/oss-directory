@@ -5,58 +5,66 @@ github:
   - url: https://github.com/FilosofiaCodigo
   - url: https://github.com/Turupawn/RandomnessCeremony
 blockchain:
-  - address: "0xb6F5414bAb8d5ad8F33E37591C02f7284E974FcB"
-    tags:
-      - eoa
-      - wallet
-    networks:
-      - optimism
-      - mainnet
   - address: "0x10445fff1600ad3e38276ee3ec7cf7625d852687"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: LottoAndNFTCeremony
   - address: "0x5e63799ea51ff3ed5d13155c43f05ddeb5e6f1c9"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: ZappyNFT
   - address: "0x6ae9185d83d0c0ed504ce651f3728b81307860bb"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: RetrowaveIndustrialDreams
   - address: "0x74839ac5ecd7c5dcdd28d7bb07cd50754dda8a65"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: LosPrimerosNFT
   - address: "0xa5e742b4accd558f2d17555e4387099f6d4261cc"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: LottoAndNFTCeremony
   - address: "0xb34913ff43d1ac8f522868af5052f66423746dfb"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: MisMicrorelatosNFT
   - address: "0xcbd7052a962fad922aff01d27b68a4dca1eda413"
+    networks:
+      - optimism
     tags:
       - contract
-    networks:
-      - optimism
-  - address: "0xfe568475cfc25563b5a5e9769f56b61df85e7dec"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
-    name: RPGF3 Payout Address
+    name: Dungeons
   - address: "0x440897cb529c6dec3c0a53d630e72f667624694d"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
     name: RandomnessCeremony
+  - address: "0xb6f5414bab8d5ad8f33e37591c02f7284e974fcb"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: filosofiacodigo.eth
+  - address: "0xfe568475cfc25563b5a5e9769f56b61df85e7dec"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: sucito.eth

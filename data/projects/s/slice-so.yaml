@@ -5,8 +5,8 @@ github:
   - url: https://github.com/slice-so
 blockchain:
   - address: "0xb05ba6660b9fade3634466bf7834cdfc76fa4886"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

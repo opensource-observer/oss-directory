@@ -4,29 +4,38 @@ name: Kredeum NFTs Factory
 github:
   - url: https://github.com/Kredeum
 blockchain:
-  - address: "0xBC0b437C95c7165F7d1F7C966cb2227DA52a27d7"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x6eebae27d69fa80f0e4c0e973a2fed218a56880c"
     networks:
+      - arbitrum
       - mainnet
       - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0x57bdf6e59c2652d349f7022beb8d1b7458ca09eb"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
     name: OpenNFTsFactoryV3
   - address: "0xd53e7aa446e4615dec602c1d0d024425256f631a"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
     name: OpenNFTsResolver
   - address: "0x5e03acd53d5d3a834278014d91f0afd36f8147ce"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
     name: OpenNFTsV4
+  - address: "0xbc0b437c95c7165f7d1f7c966cb2227da52a27d7"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: kredeum.eth

@@ -4,10 +4,10 @@ name: Zero Knowledge Podcast
 github:
   - url: https://github.com/ZeroKnowledgefm
 blockchain:
-  - address: "0x0b0E6486648FBBb8E9ab33e3ae9D0B44B6faa701"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x0b0e6486648fbbb8e9ab33e3ae9d0b44b6faa701"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

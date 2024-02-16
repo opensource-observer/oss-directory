@@ -4,9 +4,9 @@ name: Citizen Wallet
 github:
   - url: https://github.com/citizenwallet
 blockchain:
-  - address: "0x20451461D5b609C5a3256d78F64c4Afee860Dc32"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x20451461d5b609c5a3256d78f64c4afee860dc32"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

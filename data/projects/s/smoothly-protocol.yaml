@@ -4,9 +4,10 @@ name: Smoothly
 github:
   - url: https://github.com/Smoothly-Protocol
 blockchain:
-  - address: "0xB645EA519d3bb18A03Eb0E059e5f6A70A793b4fC"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xb645ea519d3bb18a03eb0e059e5f6a70a793b4fc"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: kodys.eth

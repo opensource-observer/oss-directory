@@ -4,9 +4,10 @@ name: Lume Web
 github:
   - url: https://github.com/LumeWeb
 blockchain:
-  - address: "0x63cd2C691632720Ff2ABDD0b6AABA2466D3Fe468"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x63cd2c691632720ff2abdd0b6aaba2466d3fe468"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: lumeweb.eth

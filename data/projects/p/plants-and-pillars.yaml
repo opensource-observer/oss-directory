@@ -4,10 +4,10 @@ name: Plants And Pillars
 github:
   - url: https://github.com/Plants-And-Pillars
 blockchain:
-  - address: "0x1C4a70EaDeCc48e436Efd0E997445D71DF57a4ED"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x1c4a70eadecc48e436efd0e997445d71df57a4ed"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

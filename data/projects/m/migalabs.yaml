@@ -4,9 +4,10 @@ name: Miga Labs
 github:
   - url: https://github.com/migalabs
 blockchain:
-  - address: "0x492d683a51613aBcef3AD233149d69b7FE60FBd7"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x492d683a51613abcef3ad233149d69b7fe60fbd7"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: migalabs.eth

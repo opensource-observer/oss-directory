@@ -4,9 +4,9 @@ name: Nimbus
 github:
   - url: https://github.com/status-im/nimbus-eth2
 blockchain:
-  - address: "0x4F0E571C956d54658FD9eBee5e5B4279eB5e765a"
-    tags:
-      - wallet
-      - safe
+  - address: "0x4f0e571c956d54658fd9ebee5e5b4279eb5e765a"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

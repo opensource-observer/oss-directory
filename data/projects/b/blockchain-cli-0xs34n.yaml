@@ -7,9 +7,10 @@ github:
 npm:
   - url: https://www.npmjs.com/package/blockchain-cli
 blockchain:
-  - address: "0xA0B39867b0999DcF7Af65ea674c3C975EaD99158"
+  - address: "0xa0b39867b0999dcf7af65ea674c3c975ead99158"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
+    name: 0xsean.eth

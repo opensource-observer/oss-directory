@@ -4,24 +4,27 @@ name: Eco Association
 github:
   - url: https://github.com/eco-association
 blockchain:
-  - address: "0x6e559217a70fa3f429c941811954678780ffaff3"
-    tags:
-      - wallet
-    networks:
-      - optimism
   - address: "0x3fb7476ca9b424cff1156267eca49eb878db0b80"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: SimpleAccountFactory
   - address: "0x356f094d808c3f770dea537674671cfd09989612"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0xe7bc9b3a936f122f08aac3b1fac3c3ec29a78874"
     tags:
       - contract
-    networks:
-      - optimism
     name: TransparentUpgradeableProxy
+  - address: "0xe7bc9b3a936f122f08aac3b1fac3c3ec29a78874"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x6e559217a70fa3f429c941811954678780ffaff3"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

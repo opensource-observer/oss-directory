@@ -4,15 +4,16 @@ name: Blobscan
 github:
   - url: https://github.com/Blobscan
 blockchain:
-  - address: "0xA2a4B583782b8523ec563A4E42319C40c2B7A29C"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
   - address: "0xd228a0054246577d9c6f978d11ab9405ae566c5d"
-    tags:
-      - wallet
-      - safe
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xa2a4b583782b8523ec563a4e42319c40c2b7a29c"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: blobscan.eth

@@ -4,10 +4,10 @@ name: Digital Gaia
 github:
   - url: https://github.com/Gaia-OS
 blockchain:
-  - address: "0x4BD87f86824a1577e705489780376DA5AD309180"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x4bd87f86824a1577e705489780376da5ad309180"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

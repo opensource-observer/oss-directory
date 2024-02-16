@@ -4,10 +4,10 @@ name: datalatte
 github:
   - url: https://github.com/datalatte-ai
 blockchain:
-  - address: "0x690315449eFad5f8B06a356f16eecFC41F475F70"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x690315449efad5f8b06a356f16eecfc41f475f70"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet

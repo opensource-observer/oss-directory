@@ -4,23 +4,19 @@ name: ZigZag Exchange
 github:
   - url: https://github.com/zigzagexchange
 blockchain:
-  - address: "0x1375fa71dfd8e2bed4bf6072a4a550618ceff91c"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
   - address: "0xbb256f544b8087596e8e6cdd7fe9726cc98cb400"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0x60bafce7af8cc6c69d92952453acee1d4da7e7d8"
     networks:
       - arbitrum
+      - mainnet
     tags:
-      - eoa
       - deployer
+      - eoa
   - address: "0x094cab67fbb074b7797ab0975c69a341b7a40641"
     networks:
       - arbitrum

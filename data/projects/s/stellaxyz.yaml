@@ -7,6 +7,8 @@ blockchain:
   - address: "0x6ca6568374966713738028c3aed52855ea5e61d3"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
@@ -16,30 +18,34 @@ blockchain:
     tags:
       - contract
       - factory
+    name: unverified
   - address: "0x573a89fbc6b4a5b11a55dc9814a1018a3a9cd0ca"
     networks:
       - arbitrum
     tags:
       - contract
       - factory
+    name: unverified
   - address: "0xbb5a4dcb173f643ca6687aa837d6357df9d6c936"
     networks:
       - arbitrum
     tags:
       - contract
       - factory
+    name: unverified
   - address: "0x6a5fb411e85d74b51862ded8d1cf54f1896d95be"
     networks:
       - arbitrum
     tags:
       - contract
       - factory
+    name: unverified
   - address: "0x3ab04e1e10c2b401b8548d2a7ca3064c4198fc93"
     networks:
       - arbitrum
     tags:
       - contract
-    name: PenpieLSDHyperStrategy
+    name: TransparentUpgradeableProxyReceiveETH
   - address: "0x032ba65c71c82d2e6dcf91cad148adc64a5f02a7"
     networks:
       - arbitrum
@@ -57,7 +63,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: PendleLSDHyperStrategy
+    name: TransparentUpgradeableProxyReceiveETH
   - address: "0xe4c3547b2aaece080691def0f66637dc1a397a88"
     networks:
       - arbitrum

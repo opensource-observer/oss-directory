@@ -5,9 +5,10 @@ github:
   - url: https://github.com/vrypan/farcaster-py
   - url: https://github.com/vrypan/fario
 blockchain:
-  - address: "0x8B0573d1c80362db589Eda39C2e30F5190d7EB51"
+  - address: "0x8b0573d1c80362db589eda39c2e30f5190d7eb51"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
+    name: tx.vrypan.eth

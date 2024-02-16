@@ -6,106 +6,127 @@ github:
   - url: https://github.com/LlamaPay
   - url: https://github.com/llamaswap
 blockchain:
-  - address: "0x71a15ac12ee91bf7c83d08506f3a3588143898b5"
+  - address: "0x91dfd5a51e7c00604e8b2521e678dd8444ea56c9"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xf6b171b1d778194b4bde6af91ce0cdeb01825a9b"
+    networks:
+      - mainnet
     tags:
       - eoa
-      - creator
+      - wallet
+  - address: "0xb06b411b094c06d5c4bc759bcae97d62ac82543c"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+  - address: "0x71a15ac12ee91bf7c83d08506f3a3588143898b5"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0xc21d1416cb92112c054d83aadd006e184722d50f"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
     name: LlamaPayFactory
+  - address: "0xde1c04855c2828431ba637675b6929a684f84c7f"
     networks:
       - optimism
-  - address: "0xde1c04855c2828431ba637675b6929a684f84c7f"
     tags:
       - contract
       - factory
-    networks:
-      - optimism
-  - address: "0xd510dbac17f4afead860f4cfb172fbf7a020ce4f"
-    tags:
-      - contract
-    name: Owner
-    networks:
-      - optimism
-  - address: "0xf09ea2e82ebae3c06ecb579473748d4f27371e72"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x08b8abce1ac67b0be4d5dab70dee950e99938e9f"
-    tags:
-      - contract
-    name: PairList
-    networks:
-      - optimism
-  - address: "0x719d33bc63a3474afd814973f79355724b385e30"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x70b015a16fd374c82697d8c1eb035f698567d496"
-    tags:
-      - contract
-    name: PairList
-    networks:
-      - optimism
-  - address: "0x6f9d14cf4a06dd9c70766bd161cf8d4387683e1b"
-    tags:
-      - contract
-    name: LlamaZip
-    networks:
-      - optimism
-  - address: "0x1214687e3aa359eff691d719971d81c9d8f0eb32"
-    tags:
-      - contract
-    name: LlamaZip
-    networks:
-      - optimism
-  - address: "0xdc18115b29118c1a8890cf6fc4af3eb2ed32f91b"
-    tags:
-      - contract
-    name: PairList
-    networks:
-      - optimism
-  - address: "0xf0fb7602df6672e6da832a8ea3bcad1ee3dd6e52"
-    tags:
-      - contract
-    name: LlamaZip
-    networks:
-      - optimism
-  - address: "0x08a3c2a819e3de7aca384c798269b3ce1cd0e437"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
-      - optimism
-  - address: "0x3754a10c1ca723961068b2653109e6201982dd9c"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
-  - address: "0x5a9d07ed3d7318ed5cb932776d2ceeb177a68bcd"
-    tags:
-      - eoa
-      - wallet
-    networks:
-      - optimism
+    name: LlamaPayFactory
   - address: "0xb93427b83573c8f27a08a909045c3e809610411a"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
       - factory
     name: Vyper_contract
-  - address: "0x91dfd5a51e7c00604e8b2521e678dd8444ea56c9"
+  - address: "0xd510dbac17f4afead860f4cfb172fbf7a020ce4f"
     networks:
-      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: Owner
+  - address: "0xf09ea2e82ebae3c06ecb579473748d4f27371e72"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x08b8abce1ac67b0be4d5dab70dee950e99938e9f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PairList
+  - address: "0x719d33bc63a3474afd814973f79355724b385e30"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LlamaZip
+  - address: "0x70b015a16fd374c82697d8c1eb035f698567d496"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PairList
+  - address: "0x6f9d14cf4a06dd9c70766bd161cf8d4387683e1b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LlamaZip
+  - address: "0x1214687e3aa359eff691d719971d81c9d8f0eb32"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LlamaZip
+  - address: "0xdc18115b29118c1a8890cf6fc4af3eb2ed32f91b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PairList
+  - address: "0xf0fb7602df6672e6da832a8ea3bcad1ee3dd6e52"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LlamaZip
+  - address: "0x08a3c2a819e3de7aca384c798269b3ce1cd0e437"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - eoa
-      - deployer
+      - wallet
+  - address: "0x3754a10c1ca723961068b2653109e6201982dd9c"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
+  - address: "0x5a9d07ed3d7318ed5cb932776d2ceeb177a68bcd"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet

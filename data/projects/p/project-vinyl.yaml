@@ -4,9 +4,10 @@ name: Project Vinyl
 github:
   - url: https://github.com/project-vinyl
 blockchain:
-  - address: "0x9F610Cf3E0B076B8eA519FBc99d4EdB621c0937C"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x9f610cf3e0b076b8ea519fbc99d4edb621c0937c"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: nfcstamp.eth

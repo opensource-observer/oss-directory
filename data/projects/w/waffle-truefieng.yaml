@@ -6,9 +6,9 @@ github:
 npm:
   - url: https://www.npmjs.com/package/ethereum-waffle
 blockchain:
-  - address: "0x4891a0Dbf8FcCa60cc22aa1a69df086090FBCf8F"
-    tags:
-      - wallet
-      - safe
+  - address: "0x4891a0dbf8fcca60cc22aa1a69df086090fbcf8f"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

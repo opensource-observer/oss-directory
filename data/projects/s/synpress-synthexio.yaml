@@ -6,10 +6,11 @@ github:
 npm:
   - url: https://www.npmjs.com/package/@synthetixio/synpress
 blockchain:
-  - address: "0x7b57c388e6149b5c197B925037602d5B6bafFbCc"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x7b57c388e6149b5c197b925037602d5b6baffbcc"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: synpress.eth

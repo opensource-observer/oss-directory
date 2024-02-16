@@ -4,9 +4,9 @@ name: The Forus
 github:
   - url: https://github.com/TheForus
 blockchain:
-  - address: "0x0Daa1D7EC140F26FB1F8de77B355B72FbADF7f84"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x0daa1d7ec140f26fb1f8de77b355b72fbadf7f84"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

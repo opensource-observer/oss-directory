@@ -4,6 +4,18 @@ name: Camelot
 github:
   - url: https://github.com/camelotlabs
 blockchain:
+  - address: "0x01bb7b44cc398aaa2b76ac6253f0f5634279db9d"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x6c0db7c063dd28bbf6c4bad43a21169f4565bc41"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
   - address: "0x6eccab422d763ac031210895c81787e87b43a652"
     networks:
       - arbitrum
@@ -25,12 +37,6 @@ blockchain:
       - contract
       - factory
     name: NFTPoolFactory
-  - address: "0x01bb7b44cc398aaa2b76ac6253f0f5634279db9d"
-    networks:
-      - arbitrum
-    tags:
-      - deployer
-      - eoa
   - address: "0x6dd3fb9653b10e806650f107c3b5a0a6ff974f65"
     networks:
       - arbitrum
@@ -45,12 +51,6 @@ blockchain:
       - contract
       - factory
     name: AlgebraPoolDeployer
-  - address: "0x6c0db7c063dd28bbf6c4bad43a21169f4565bc41"
-    networks:
-      - arbitrum
-    tags:
-      - deployer
-      - eoa
   - address: "0x1a3c9b1d2f0529d97f2afc5136cc23e58f1fd35b"
     networks:
       - arbitrum
@@ -81,13 +81,13 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: AlgebraPoolUsdcUsdce
+    name: AlgebraPool
   - address: "0xe51635ae8136abac44906a8f230c2d235e9c195f"
     networks:
       - arbitrum
     tags:
       - contract
-    name: AlgebraPoolWethArb
+    name: AlgebraPool
   - address: "0x2eb79edc1533d39d0f7ab3983650eb76ce36ffe1"
     networks:
       - arbitrum

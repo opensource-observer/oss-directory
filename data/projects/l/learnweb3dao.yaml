@@ -4,9 +4,9 @@ name: LearnWeb3
 github:
   - url: https://github.com/LearnWeb3DAO
 blockchain:
-  - address: "0xD14033Fe2Da1DBFbe9A500D063BeF86368DB44B2"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xd14033fe2da1dbfbe9a500d063bef86368db44b2"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

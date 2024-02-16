@@ -4,9 +4,10 @@ name: Cash4PR
 github:
   - url: https://github.com/cash4pr
 blockchain:
-  - address: "0x4Cf24d4EB15f9e9AE07AF83960513C7958A6d32b"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x4cf24d4eb15f9e9ae07af83960513c7958a6d32b"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: fushang318.eth

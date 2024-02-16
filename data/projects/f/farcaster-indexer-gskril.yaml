@@ -4,9 +4,9 @@ name: Farcaster Indexer
 github:
   - url: https://github.com/gskril/farcaster-indexer
 blockchain:
-  - address: "0x7eE31F367F6c2dbf251035EA1E18889d11f1432E"
+  - address: "0x7ee31f367f6c2dbf251035ea1e18889d11f1432e"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

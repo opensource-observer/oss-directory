@@ -4,15 +4,15 @@ name: Infinitism (ERC-4337) - Account Abstraction
 github:
   - url: https://github.com/eth-infinitism/account-abstraction
 blockchain:
-  - address: "0x6A957e69A251D37CfD1F538F18EC1416FbdfA501"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
     networks:
       - optimism
-  - address: "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
     tags:
       - contract
+    name: EntryPoint
+  - address: "0x6a957e69a251d37cfd1f538f18ec1416fbdfa501"
     networks:
       - optimism
-    name: EntryPoint
+    tags:
+      - eoa
+      - wallet

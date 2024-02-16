@@ -4,9 +4,10 @@ name: GasLockR
 github:
   - url: https://github.com/GasLockR
 blockchain:
-  - address: "0xA953324614ddE24532B1d2179CF2667Fda9AcFdb"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xa953324614dde24532b1d2179cf2667fda9acfdb"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: qinsir.eth

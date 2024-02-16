@@ -4,10 +4,11 @@ name: POAPin
 github:
   - url: https://github.com/glorylab/POAPin
 blockchain:
-  - address: "0x5Afc7720b161788f9D833555b7EbC3274FD98Da1"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x5afc7720b161788f9d833555b7ebc3274fd98da1"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: glorylab.eth

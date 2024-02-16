@@ -4,10 +4,11 @@ name: StatelessArt
 github:
   - url: https://github.com/STATELESSART
 blockchain:
-  - address: "0x2F4BcD8AdBE961290f2c4df752852466e7D655c9"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x2f4bcd8adbe961290f2c4df752852466e7d655c9"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: statelessart.eth

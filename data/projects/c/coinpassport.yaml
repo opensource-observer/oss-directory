@@ -4,14 +4,15 @@ name: Coinpassport
 github:
   - url: https://github.com/coinpassport
 blockchain:
-  - address: "0xfE3AD87636a174f2D603d6653872395143e860c9"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x247baae25d0c32fda5cfb902c0d87d47587cf9da"
     networks:
       - optimism
-  - address: "0x247baae25d0c32fda5cfb902c0d87d47587cf9da"
     tags:
       - contract
+    name: Verification
+  - address: "0xfe3ad87636a174f2d603d6653872395143e860c9"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

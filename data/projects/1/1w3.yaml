@@ -4,16 +4,17 @@ name: 1W3
 github:
   - url: https://github.com/1w3io
 blockchain:
-  - address: "0x2AC6A3561a43f06d62602eF9728C2B9eEc393326"
+  - address: "0x88424beac171dfaacd365f5399dd684a6b66c339"
+    networks:
+      - optimism
     tags:
-      - wallet
-      - eoa
+      - contract
+    name: DropERC1155
+  - address: "0x2ac6a3561a43f06d62602ef9728c2b9eec393326"
     networks:
       - mainnet
       - optimism
-  - address: "0x88424beac171dfaacd365f5399dd684a6b66c339"
     tags:
-      - contract
-    networks:
-      - optimism
-    name: DropERC1155
+      - eoa
+      - wallet
+    name: 1w3.eth

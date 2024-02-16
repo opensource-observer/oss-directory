@@ -4,10 +4,11 @@ name: Cannon-rs
 github:
   - url: https://github.com/BadBoiLabs/Cannon-rs
 blockchain:
-  - address: "0xc0017405E287476443Ab1B342B86f2ea92Ef9F73"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xc0017405e287476443ab1b342b86f2ea92ef9f73"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: wollum.eth

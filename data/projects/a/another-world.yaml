@@ -5,70 +5,77 @@ github:
   - url: https://github.com/AnotherWorldDAO
 blockchain:
   - address: "0xe7a9ecdb56af2bb86fdaaa3e3b2d1f0f7a9fe664"
+    networks:
+      - mainnet
+      - optimism
     tags:
+      - deployer
       - eoa
-      - creator
-    networks:
-      - optimism
+    name: anotherdeployer.eth
   - address: "0xabda8d651de41384a05842991880be08ba0aacec"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0xc951a1ad8fa1c307852bcd7f0fc07501cabe89da"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0x44ba9bbc9a37769374f76e338ddd349ee4ae60de"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x56edafc97279c53a74c1c105abeebc79e0936c73"
-    tags:
-      - contract
-    name: TreasureFragments
-    networks:
-      - optimism
-  - address: "0x1160982721af95351a714a483275229cca10ee54"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdb04c87805590d38e231f69d5fd9cd3837419567"
     tags:
       - contract
     name: BattleSettlement
+  - address: "0x44ba9bbc9a37769374f76e338ddd349ee4ae60de"
     networks:
       - optimism
+    tags:
+      - contract
+    name: BattleSettlement
+  - address: "0x56edafc97279c53a74c1c105abeebc79e0936c73"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TreasureFragments
+  - address: "0x1160982721af95351a714a483275229cca10ee54"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xdb04c87805590d38e231f69d5fd9cd3837419567"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BattleSettlement
   - address: "0x9e591541f27bb3b053591bd89a67690727229824"
+    networks:
+      - optimism
     tags:
       - contract
     name: GamePrize
-    networks:
-      - optimism
   - address: "0x8ba599f4ec87987f2b24244d7e6f4331607a894f"
+    networks:
+      - optimism
     tags:
       - contract
     name: GamePrize
-    networks:
-      - optimism
   - address: "0x0b69157f85fb767676428f0d32866ee2b53ffcc6"
+    networks:
+      - optimism
     tags:
       - contract
     name: GamePrize
+  - address: "0x85e1c463d154a436da0d6437cc652283762f108b"
     networks:
       - optimism
-  - address: "0x85e1c463d154a436da0d6437cc652283762f108b"
     tags:
       - contract
     name: MerkleDistributor
-    networks:
-      - optimism
   - address: "0x93501fddb36ea67ffa2c361b3da035c142299d4f"
     networks:
       - optimism
     tags:
       - eoa
       - wallet
+    name: anotherworldgg.eth

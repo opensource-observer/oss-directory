@@ -6,26 +6,21 @@ github:
   - url: https://github.com/voteagora/liquid-delegator
   - url: https://github.com/voteagora/optimism-gov
 blockchain:
-  - address: "0x3a153B0608a87a4BdD4F7Afa90670110d4C"
-    tags:
-      - wallet
-      - safe
+  - address: "0xcdf27f107725988f2261ce2256bdfcde8b382b10"
     networks:
       - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x3a153b0608a87a4bdd4f7afa90670110d4cbea62"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
   - address: "0x0e2cd794602152772a19c5eb7bf221ccafdabd9d"
     networks:
       - optimism
     tags:
       - eoa
       - wallet
-  - address: "0x3a153b0608a87a4bdd4f7afa90670110d4cbea62"
-    tags:
-      - safe
-      - wallet
-    networks:
-      - optimism
-  - address: "0xcDF27F107725988f2261Ce2256bDfCdE8B382B10"
-    tags:
-      - contract
-    networks:
-      - optimism

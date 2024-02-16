@@ -4,9 +4,9 @@ name: VueDapp
 github:
   - url: https://github.com/vu3th
 blockchain:
-  - address: "0x9D75F4EbcB8e7669E59dcc27CBadC698E0F77187"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x9d75f4ebcb8e7669e59dcc27cbadc698e0f77187"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

@@ -4,48 +4,59 @@ name: WOO Network
 github:
   - url: https://github.com/woonetwork
 blockchain:
-  - address: "0x97471c0fdddb5e5cc34cb08cb17961bd3a53f38f"
+  - address: "0xa113d3b08df49d442fa1c0b47a82ad95ad19c0fb"
     networks:
       - arbitrum
-    tags:
-      - deployer
-      - eoa
-  - address: "0x43e3e4d002ba65c6a26d2e4c998b46e427370e6c"
-    networks:
-      - arbitrum
-    tags:
-      - deployer
-      - eoa
-  - address: "0x7296fd0d4ea0492429c8d63c8ac33e5c87bde4a2"
-    networks:
-      - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
   - address: "0x044764c4e03bd080f7400e255654002e2d751d45"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - deployer
       - eoa
-  - address: "0xa113d3b08df49d442fa1c0b47a82ad95ad19c0fb"
+  - address: "0x7296fd0d4ea0492429c8d63c8ac33e5c87bde4a2"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x97471c0fdddb5e5cc34cb08cb17961bd3a53f38f"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x43e3e4d002ba65c6a26d2e4c998b46e427370e6c"
+    networks:
+      - arbitrum
+      - optimism
     tags:
       - deployer
       - eoa
   - address: "0x44df096d2600c6a6db77899db3de3aecff746cb8"
     networks:
       - arbitrum
+      - optimism
     tags:
       - contract
-    name: WooCrossChainRouter
+    name: various:DiffersByChain
   - address: "0x816f722424b49cf1275cc86da9840fbd5a6167e9"
     networks:
       - arbitrum
+      - optimism
     tags:
       - contract
-    name: OrderlyVault
+    name: TransparentUpgradeableProxy
   - address: "0xeff23b4be1091b53205e35f3afcd9c7182bf3062"
     networks:
       - arbitrum
@@ -79,9 +90,10 @@ blockchain:
   - address: "0x4e21a65a9f4672ef2cdfb7fa6b0f1e39d6e4e50e"
     networks:
       - arbitrum
+      - optimism
     tags:
       - contract
-    name: WOOFiDexDepositor
+    name: TransparentUpgradeableProxy
   - address: "0x26f33ea1e476ad8a016834107f9889b6c31c14f5"
     networks:
       - arbitrum
@@ -91,9 +103,10 @@ blockchain:
   - address: "0xbfe3d22b223909a06469854e7af374ab449f09ac"
     networks:
       - arbitrum
+      - optimism
     tags:
       - contract
-    name: WooWithdrawManagerV2
+    name: various:DiffersByChain
   - address: "0xf357ec5a6c82766aeb97d6da7488e2efc3dc0182"
     networks:
       - arbitrum
@@ -103,9 +116,11 @@ blockchain:
   - address: "0xac8951a442fe70342f9597044b7b7657d5ad55ec"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: WOOFiDexCrossChainRouter
+    name: TransparentUpgradeableProxy
   - address: "0x1ce18ae6886940be8c04ed954c747c4082f8bcdb"
     networks:
       - arbitrum
@@ -115,6 +130,8 @@ blockchain:
   - address: "0xe47fec1c72850d867a1655c4c5902de7728ca205"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
     name: WooCrossChainRouterV3
@@ -205,6 +222,8 @@ blockchain:
   - address: "0xca10e8825fa9f1db0651cd48a9097997dbf7615d"
     networks:
       - arbitrum
+      - mainnet
+      - optimism
     tags:
       - contract
     name: WooCrossChainRouterV4

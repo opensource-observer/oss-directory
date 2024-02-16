@@ -4,9 +4,9 @@ name: "OPML: OPtimistic Machine Learning on Blockchain"
 github:
   - url: https://github.com/OPML-Labs
 blockchain:
-  - address: "0x0b0D63B8d7Aa3037c61316A8050F2f0cFdAD8f89"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x0b0d63b8d7aa3037c61316a8050f2f0cfdad8f89"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

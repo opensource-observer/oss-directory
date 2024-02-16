@@ -4,10 +4,11 @@ name: Akula
 github:
   - url: https://github.com/akula-bft
 blockchain:
-  - address: "0x9d6d3b09F8AC8615805bd82e53B80D956F451CFa"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x9d6d3b09f8ac8615805bd82e53b80d956f451cfa"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: vorot93.eth

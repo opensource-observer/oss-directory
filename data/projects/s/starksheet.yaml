@@ -4,10 +4,9 @@ name: Starksheet
 github:
   - url: https://github.com/the-candy-shop/starksheet-monorepo
 blockchain:
-  - address: "0x7A0857D314f62d383341b4ED8FE380e7C98Fb978"
-    tags:
-      - wallet
-      - safe
+  - address: "0x7a0857d314f62d383341b4ed8fe380e7c98fb978"
     networks:
-      - mainnet
       - optimism
+    tags:
+      - safe
+      - wallet

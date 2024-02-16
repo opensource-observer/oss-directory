@@ -5,8 +5,8 @@ github:
   - url: https://github.com/StaTwig
 blockchain:
   - address: "0x06fd1a0356a1e58852721331a3aed1b7ebe214ed"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

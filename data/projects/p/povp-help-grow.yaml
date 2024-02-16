@@ -4,9 +4,9 @@ name: Proof of Volunteer Protocol (POVP)
 github:
   - url: https://github.com/Help-Grow/Proof-of-Volunteer-Protocol
 blockchain:
-  - address: "0xE147B8A81359b6819054D8656C562C7Bc8a4d020"
-    tags:
-      - wallet
-      - safe
+  - address: "0xe147b8a81359b6819054d8656c562c7bc8a4d020"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

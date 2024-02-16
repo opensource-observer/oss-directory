@@ -4,13 +4,39 @@ name: TreasureDAO
 github:
   - url: https://github.com/treasureproject
 blockchain:
-  - address: "0x2940108780b870ae8f1509be95fdf2b6fb066e41"
+  - address: "0xed673d7d73fc1602d77d70e2783748b69348a5c4"
     networks:
       - arbitrum
     tags:
-      - eoa
       - deployer
+      - eoa
+  - address: "0x2940108780b870ae8f1509be95fdf2b6fb066e41"
+    networks:
+      - arbitrum
+      - mainnet
+    tags:
+      - deployer
+      - eoa
   - address: "0xb013abd83f0bd173e9f14ce7d6e420ad711483b4"
+    networks:
+      - arbitrum
+      - mainnet
+    tags:
+      - deployer
+      - eoa
+  - address: "0xc0de123d0ca961a3ea9d2d29e015ce74d3ec124f"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x032f84aeff59ddebc55797f321624826d873bf65"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0x393248ae29a7c2128e8e27d23330b1f87e0600fc"
     networks:
       - arbitrum
     tags:
@@ -23,12 +49,6 @@ blockchain:
       - contract
       - factory
     name: TransparentUpgradeableProxy
-  - address: "0xc0de123d0ca961a3ea9d2d29e015ce74d3ec124f"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
   - address: "0x015e379ce0ff195228b3a9ebdfa13f9afc155dd7"
     networks:
       - arbitrum
@@ -36,24 +56,6 @@ blockchain:
       - contract
       - factory
     name: UniswapV2Factory
-  - address: "0x032f84aeff59ddebc55797f321624826d873bf65"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
-  - address: "0xed673d7d73fc1602d77d70e2783748b69348a5c4"
-    networks:
-      - arbitrum
-    tags:
-      - eoa
-      - deployer
-  - address: "0x393248ae29a7c2128e8e27d23330b1f87e0600fc"
-    networks:
-      - arbitrum
-    tags:
-      - deployer
-      - eoa
   - address: "0xcf51e9622471fb2bf2d66226a878280eabd71778"
     networks:
       - arbitrum
@@ -63,9 +65,10 @@ blockchain:
   - address: "0x3956c81a51feaed98d7a678d53f44b9166c8ed66"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: SeedOfLife
+    name: various:DiffersByChain
   - address: "0xdc758b92c7311280aeeb48096a3bf4d1c1f936d4"
     networks:
       - arbitrum
@@ -83,19 +86,20 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: AnimaMagicswapLP
+    name: UniswapV2Pair
   - address: "0xe83c0200e93cb1496054e387bddae590c07f0194"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: LegacyLegionsGenesis
+    name: various:DiffersByChain
   - address: "0x2ed152aa2c017fc16b690b75a9124b8ebc333a8d"
     networks:
       - arbitrum
     tags:
       - contract
-    name: EmerionNftHandler
+    name: NftHandler
   - address: "0x99193ee9229b833d2aa4dbbda697c6600b944286"
     networks:
       - arbitrum
@@ -129,15 +133,17 @@ blockchain:
   - address: "0xfe8c1ac365ba6780aec5a985d989b327c27670a1"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Legions
+    name: various:DiffersByChain
   - address: "0x658365026d06f00965b5bb570727100e821e6508"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: LegacyLegions
+    name: various:DiffersByChain
   - address: "0xebba467ecb6b21239178033189ceae27ca12eadf"
     networks:
       - arbitrum
@@ -155,7 +161,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: TreasureCorruptionHandler
+    name: TransparentUpgradeableProxy
   - address: "0x69540403fb839696c6bc02dff7623d664caeac82"
     networks:
       - arbitrum
@@ -171,9 +177,10 @@ blockchain:
   - address: "0xc8dbdc58289474ab3e01568eb5f88f440bde6b46"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Summoning
+    name: various:DiffersByChain
   - address: "0x3d54dba766cf134b137973e120cf19ac7edc3629"
     networks:
       - arbitrum
@@ -183,9 +190,10 @@ blockchain:
   - address: "0xb9c9ed651eb173ca7fbc3a094da9ce33ec145a29"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Crafting
+    name: various:DiffersByChain
   - address: "0x587dc30014e10b56907237d4880a9bf8b9518150"
     networks:
       - arbitrum
@@ -209,19 +217,20 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: CorruptionRemoval
+    name: TransparentUpgradeableProxy
   - address: "0xd0ed73b33789111807bd64ae2a6e1e6f92f986f5"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: CardsMerkleProofClaim
+    name: various:DiffersByChain
   - address: "0x447c73f3ee46050d618fd956c1641274860b6c74"
     networks:
       - arbitrum
     tags:
       - contract
-    name: CorruptionCrypts
+    name: TransparentUpgradeableProxy
   - address: "0xd661a18e824c8d2edf3badf75aedda5b7d142448"
     networks:
       - arbitrum
@@ -233,7 +242,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: BeaconQuesting
+    name: TransparentUpgradeableProxy
   - address: "0xa0515709fa0f520241659a91d868151e1ad263d8"
     networks:
       - arbitrum
@@ -245,31 +254,33 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: CorruptionCryptsRewards
+    name: TransparentUpgradeableProxy
   - address: "0x1dbe15ee5bb2901ae32231e92e6efd851e7146aa"
     networks:
       - arbitrum
     tags:
       - contract
-    name: Doomsday
+    name: TransparentUpgradeableProxy
   - address: "0x6b66d774a862539f84128f171db1940302c4671e"
     networks:
       - arbitrum
     tags:
       - contract
-    name: Corruption
+    name: TransparentUpgradeableProxy
   - address: "0xda3cad5e4f40062ceca6c1b979766bc0baed8e33"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Questing
+    name: various:DiffersByChain
   - address: "0xf3d00a2559d84de7ac093443bcaada5f4ee4165c"
     networks:
       - arbitrum
+      - mainnet
     tags:
       - contract
-    name: Consumables
+    name: various:DiffersByChain
   - address: "0x072b65f891b1a389539e921bdb9427af41a7b1f7"
     networks:
       - arbitrum
@@ -281,25 +292,25 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: MasterOfInflation
+    name: TransparentUpgradeableProxy
   - address: "0xf904469497e6a179a9d47a7b468e4be42ec56e65"
     networks:
       - arbitrum
     tags:
       - contract
-    name: MagicElmPair
+    name: UniswapV2Pair
   - address: "0x23805449f91bb2d2054d9ba288fdc8f09b5eac79"
     networks:
       - arbitrum
     tags:
       - contract
-    name: MagicSwapRouter
+    name: UniswapV2Router02
   - address: "0x088f2bd3667f385427d9289c28725d43d4b74ab4"
     networks:
       - arbitrum
     tags:
       - contract
-    name: MagicGflyPair
+    name: UniswapV2Pair
   - address: "0x17dacad7975960833f374622fad08b90ed67d1b5"
     networks:
       - arbitrum
@@ -371,7 +382,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: SmolRacingTrophies
+    name: TransparentUpgradeableProxy
   - address: "0xb16966dad2b5a5282b99846b23dcdf8c47b6132c"
     networks:
       - arbitrum
@@ -383,7 +394,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: SmolRacing
+    name: TransparentUpgradeableProxy
   - address: "0x6325439389e0797ab35752b4f43a14c004f22a9c"
     networks:
       - arbitrum

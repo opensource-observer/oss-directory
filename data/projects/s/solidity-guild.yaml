@@ -4,9 +4,9 @@ name: The Solidity Guild
 github:
   - url: https://github.com/Solidity-Guild
 blockchain:
-  - address: "0xC127Ef6868DaddB33fFEEb39a8aee05ba37C919B"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xc127ef6868daddb33ffeeb39a8aee05ba37c919b"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet

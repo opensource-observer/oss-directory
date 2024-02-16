@@ -4,10 +4,11 @@ name: Praise
 github:
   - url: https://github.com/givepraise
 blockchain:
-  - address: "0x0B7246eF74Ca7b37Fdc3D15be4f0b49876622F95"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x0b7246ef74ca7b37fdc3d15be4f0b49876622f95"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: givepraise.eth

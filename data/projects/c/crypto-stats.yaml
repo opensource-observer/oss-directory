@@ -4,10 +4,11 @@ name: CryptoStats
 github:
   - url: https://github.com/crypto-stats
 blockchain:
-  - address: "0x69aa21403244889832609963B0028e337a834953"
+  - address: "0x69aa21403244889832609963b0028e337a834953"
+    networks:
+      - mainnet
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
-      - mainnet
+    name: cryptostats.eth

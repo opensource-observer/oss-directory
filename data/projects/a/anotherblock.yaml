@@ -4,16 +4,15 @@ name: anotherblock
 github:
   - url: https://github.com/anotherblock
 blockchain:
-  - address: "0x6d18bbeca13387e3851877e433da1efeb77e0804"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x5c244464341389e718dab21869b1f87d77896131"
     networks:
       - optimism
-    name: RPGF3 Payout Address
-  - address: "0x5c244464341389e718dab21869b1f87d77896131"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x6d18bbeca13387e3851877e433da1efeb77e0804"
     networks:
       - optimism
-    name: TransparentUpgradeableProxy
+    tags:
+      - eoa
+      - wallet

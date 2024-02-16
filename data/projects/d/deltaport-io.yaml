@@ -5,9 +5,8 @@ github:
   - url: https://github.com/deltaport-io
 blockchain:
   - address: "0x29bca92d522d5a87b0f65e1208980262f235a423"
-    tags:
-      - wallet
-      - eoa
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - eoa
+      - wallet

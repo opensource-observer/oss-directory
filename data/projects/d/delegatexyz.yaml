@@ -5,18 +5,20 @@ github:
   - url: https://github.com/delegatexyz
 blockchain:
   - address: "0x00000000000000447e69651d841bd8d104bed493"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: DelegateRegistry
   - address: "0x00000000000076a84fef008cdabe6409d2fe638b"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: DelegationRegistry
   - address: "0x6ed7d526b020780f694f3c10dfb25e1b134d3215"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism

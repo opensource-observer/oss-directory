@@ -4,9 +4,9 @@ name: Tradao
 github:
   - url: https://github.com/tradao-xyz
 blockchain:
-  - address: "0xDD455f8Fa7809146E7Efe10eaA544dCb0Ec88E2e"
-    tags:
-      - wallet
-      - safe
+  - address: "0xdd455f8fa7809146e7efe10eaa544dcb0ec88e2e"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

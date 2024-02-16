@@ -6,46 +6,54 @@ github:
 npm:
   - url: https://www.npmjs.com/package/@show-karma/karma-gap-sdk
 blockchain:
-  - address: "0xd2eD366393FDfd243931Fe48e9fb65A192B0018c"
+  - address: "0xd2ed366393fdfd243931fe48e9fb65a192b0018c"
+    networks:
+      - optimism
     tags:
       - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x6dc1d6b864e8bef815806f9e4677123496e12026"
     networks:
       - optimism
-  - address: "0x6dC1D6b864e8BEf815806f9e4677123496e12026"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x01709bb17008cef32611f6476a12743deac3d727"
     networks:
       - optimism
-  - address: "0x01709bb17008ceF32611f6476A12743dEAc3D727"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x7177adc0f924b695c0294a40c4c5feff5ee1e141"
     networks:
       - optimism
-  - address: "0x7177AdC0f924b695C0294A40C4C5FEFf5EE1E141"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x953934675b8a3bdf8f1ae0d779e8a7e10c1c2ce6"
     networks:
       - optimism
-  - address: "0x953934675b8a3BDf8F1ae0D779E8a7E10C1c2CE6"
     tags:
       - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xd17206ec4d268d0e55bb08a369b6864f1178b81d"
     networks:
       - optimism
-  - address: "0xd17206EC4D268D0E55bb08A369b6864f1178B81d"
     tags:
       - contract
+    name: DelegateRegistry
+  - address: "0x627f84bb4bba3333f253f09fe22a445f195bcf34"
     networks:
-      - optimism
-  - address: "0x627f84bb4bBA3333f253F09fe22A445F195bCF34"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - optimism
       - mainnet
-  - address: "0xC98786D5A7a03C1e74AffCb97fF7eF8a710DA09B"
+      - optimism
     tags:
-      - wallet
       - eoa
+      - wallet
+    name: showkarma.eth
+  - address: "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: karmahq.eth

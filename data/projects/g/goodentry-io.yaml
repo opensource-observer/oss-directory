@@ -16,18 +16,21 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x7433d4158c702dc6bf0974e0bb4eea152cfbdd6a"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0xddec418c1a825ac09ad83cc1a28a2c5bcd746050"
     networks:
       - arbitrum
     tags:
       - contract
       - factory
-  - address: "0x7433d4158c702dc6bf0974e0bb4eea152cfbdd6a"
-    networks:
-      - arbitrum
-    tags:
-      - deployer
-      - eoa
+    name: unverified
   - address: "0xf360e073efc1fd4cc2d21551a13781ddefe888de"
     networks:
       - arbitrum
@@ -39,7 +42,7 @@ blockchain:
       - arbitrum
     tags:
       - contract
-    name: Pools
+    name: BeaconProxy
   - address: "0x553fe5115392e2f024f1099e41a2f8ccb5ed2bca"
     networks:
       - arbitrum

@@ -1,13 +1,14 @@
 version: 3
 slug: hildobby
-name: hildobby's Dune dashboards
+name: hildobby"s Dune dashboards
 github:
   - url: https://github.com/hildobby
 blockchain:
-  - address: "0x09a5943a6d10919571eE2C9F63380aEA747ECA97"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x09a5943a6d10919571ee2c9f63380aea747eca97"
     networks:
       - mainnet
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: hildobby.eth

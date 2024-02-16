@@ -4,9 +4,10 @@ name: Wise Crowds Liberating Structures
 github:
   - url: https://github.com/Wise-Crowds-Liberating-Structures
 blockchain:
-  - address: "0xCa63608615DE005339652C0ECA93C5836eB0C2BD"
-    tags:
-      - wallet
-      - eoa
+  - address: "0xca63608615de005339652c0eca93c5836eb0c2bd"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: gospelofchange.eth

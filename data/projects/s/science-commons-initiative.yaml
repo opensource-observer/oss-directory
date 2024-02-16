@@ -4,9 +4,9 @@ name: The Science Commons Initiative
 github:
   - url: https://github.com/TheSCInitiative
 blockchain:
-  - address: "0x01D8AEff110a65DA4052f140C19af10374E44525"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x01d8aeff110a65da4052f140c19af10374e44525"
     networks:
       - mainnet
+    tags:
+      - eoa
+      - wallet

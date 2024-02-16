@@ -4,1055 +4,1147 @@ name: Polynomial Protocol
 github:
   - url: https://github.com/polynomial-protocol
 blockchain:
-  - address: "0x59672D112d680CE34C20fF1507197993CC0bA430"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - optimism
   - address: "0x9f76043b23125024ce5f0fb4ae707482107dd2a8"
-    tags:
-      - eoa
-      - creator
     networks:
       - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0x9a60fe0c1b5835e6165c563d737a90c63bcc9c57"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
     name: RocketFactory
-    networks:
-      - optimism
   - address: "0x2a053fe415f10c1d9a16920eeb5b5d3d05ff792f"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: PolyIndex
   - address: "0xb43c0899eccf98bc7a0f3e2c2a211d6fc4f9b3fe"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
-    networks:
-      - optimism
+    name: PolyIndex
   - address: "0x1d7cdcb7e6a665c82131db0fe776e1dfdb5a8b29"
+    networks:
+      - optimism
     tags:
       - contract
       - factory
+    name: RocketFactory
+  - address: "0xb967a4bf28c769871e5805e99449ebef5a7a0d8c"
     networks:
       - optimism
-  - address: "0xb967a4bf28c769871e5805e99449ebef5a7a0d8c"
     tags:
       - contract
     name: SynthetixLimitOrders
+  - address: "0xb99818612d134b081c7d078615c8e8627e6ab8cd"
     networks:
       - optimism
-  - address: "0xb99818612d134b081c7d078615c8e8627e6ab8cd"
     tags:
       - contract
+    name: unverified
+  - address: "0x3391696c974ca24559d3e0b970b075b3a25cca09"
     networks:
       - optimism
-  - address: "0x3391696c974ca24559d3e0b970b075b3a25cca09"
     tags:
       - contract
     name: PolynomialLyraResolver
+  - address: "0x56027bae94142f1e129e66339b6994f27f174792"
     networks:
       - optimism
-  - address: "0x56027bae94142f1e129e66339b6994f27f174792"
     tags:
       - contract
     name: SynthetixPerpResolver
+  - address: "0x9f4e24e48d1cd41fa87a481ae2242372bd32618c"
     networks:
       - optimism
-  - address: "0x9f4e24e48d1cd41fa87a481ae2242372bd32618c"
     tags:
       - contract
     name: FxStorage
-    networks:
-      - optimism
   - address: "0xd01263bb1c4b5ba7f2afe90397212d84e74e1d0e"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: CallSellingQuoteVault
   - address: "0x3f3455f14f7494758aad45f8eb5c1856d0a8604d"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: unverified
   - address: "0x0e3dae6768b979fc4325369cca940174c2775f7e"
+    networks:
+      - optimism
     tags:
       - contract
     name: CSQMigrator
+  - address: "0x0cc1ee0750445defe8b48ec9e52342660d8626a4"
     networks:
       - optimism
-  - address: "0x0cc1ee0750445defe8b48ec9e52342660d8626a4"
     tags:
       - contract
+    name: SynthetixPerpResolver
+  - address: "0xe38462409a2d960d9431ac452d5ffa20f4120f51"
     networks:
       - optimism
-  - address: "0xe38462409a2d960d9431ac452d5ffa20f4120f51"
     tags:
       - contract
     name: Vaults
-    networks:
-      - optimism
   - address: "0x1df92b3ac9aed27115ae4127ed098baec1bd8b26"
-    tags:
-      - contract
     networks:
       - optimism
+    tags:
+      - contract
+    name: SynthetixPerpConnector
   - address: "0x7ba95ca22c2da423924088d72a0825f6e9eabc92"
-    tags:
-      - contract
     networks:
       - optimism
-  - address: "0x720a4255a8979ba3655d46bdbb30fed51a2abeeb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x5630b53033b5343100ef6c44a9fa8722f40a5333"
-    tags:
-      - contract
-    name: SynthetixSpotConnector
-    networks:
-      - optimism
-  - address: "0xa7a031f285187f2f8415a513a5fc0abd101a8775"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0d45c2198b3a5a30e82bcb1d02643fc366d17b01"
-    tags:
-      - contract
-    name: PolyList
-    networks:
-      - optimism
-  - address: "0x4c8dc708d58651eb67222d81e60c8bc703245a40"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x19828283852a852f8cfff4696038bc19e5070a49"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0e69fce24d170c3fa172e0c7e29fc444ce0b704b"
-    tags:
-      - contract
-    name: SynthetixPerpConnector
-    networks:
-      - optimism
-  - address: "0x9cb1ea57dedc564a38f207b5bb240efa8e6c77a2"
-    tags:
-      - contract
-    name: SynthetixPerpConnector
-    networks:
-      - optimism
-  - address: "0x23cb080dd0eccdacbeb0beb2a769215280b5087d"
-    tags:
-      - contract
-    name: PolynomialCoveredPut
-    networks:
-      - optimism
-  - address: "0x56e1592a8ebfc1dbe9542b77176d4eb2cd507b64"
-    tags:
-      - contract
-    name: TestEventer
-    networks:
-      - optimism
-  - address: "0x613783c08239f23e444189243092016079a129d6"
-    tags:
-      - contract
-    name: SynthetixPerpConnector
-    networks:
-      - optimism
-  - address: "0x0b2ccca8d866cca4c025d595faa29760870575c9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd22a2f72f614246444e79fd8a78b82a5f82e0649"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x40ea796885f981ca1d2af0da8e6f8dc47b384933"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd33d811ed08993ea56f1ecf985f665669ef88293"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe4271c66783e7eeb6578b711d12e8b12ddd5ceaf"
-    tags:
-      - contract
-    name: PolynomialEarnResolver
-    networks:
-      - optimism
-  - address: "0x3873fa06a6c16a7be42047bff8ce83a1e6c151bd"
-    tags:
-      - contract
-    name: SynthetixLimitOrders
-    networks:
-      - optimism
-  - address: "0x4fa30418e2b4e98f94c1443ea2bdab95bb0168e4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x014c8929557aed2f7eabfc0f82e286aa954bc5f5"
-    tags:
-      - contract
-    name: MatchaConnector
-    networks:
-      - optimism
-  - address: "0xd76d084908b0a03543a20eda683bec595637c013"
-    tags:
-      - contract
-    name: SynthetixLimitOrders
-    networks:
-      - optimism
-  - address: "0x6d39090983e4957bbd7f7c2aaca6a8110f10e79e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0a49571ba82693353fd2285e894c00fdad5fc4b8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xbd4413a42e0a33274fbf605183aa9c98dc7aea7a"
-    tags:
-      - contract
-    name: VaultToken
-    networks:
-      - optimism
-  - address: "0x3a3482992a37cdf2015ff6efb90504911d3dfb38"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x2a42246d19e06589b6d47f8b3e93338aa172015e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xad8066aa32f96e6703f5b713539a01c2affc06d2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x331cf6e3e59b18a8bc776a0f652af9e2b42781c5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x93e7e22524771c4a694260a9e73be9cfff9d8baa"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1baa02fd3744b299723f2e3ad2b7c241bea1afa5"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4458a323717db34b0263c383895cab92a6c6ccb5"
-    tags:
-      - contract
-    name: MatchaConnector
-    networks:
-      - optimism
-  - address: "0x97109b2ff77979826c20ff41cd1017cf11f5bc76"
     tags:
       - contract
     name: PolyAccount
+  - address: "0x720a4255a8979ba3655d46bdbb30fed51a2abeeb"
     networks:
       - optimism
-  - address: "0x1ede41b8d5ff5e8cb2b143f47aaa1fd541eab17f"
-    tags:
-      - contract
-    name: SynthetixPerpConnector
-    networks:
-      - optimism
-  - address: "0xc1760d9c91e502fa3235f06a5544728bc386128f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xab5084c0b087a4a197a7503d3a2c27210eceb098"
     tags:
       - contract
     name: VaultToken
+  - address: "0x5630b53033b5343100ef6c44a9fa8722f40a5333"
     networks:
       - optimism
-  - address: "0x1cc4482c109395b56df6e6daf3f7bc1c957765d6"
     tags:
       - contract
-    name: TestEventer
+    name: SynthetixSpotConnector
+  - address: "0xa7a031f285187f2f8415a513a5fc0abd101a8775"
     networks:
       - optimism
-  - address: "0x577f1ff5b4049f284725e8172cdc127af6328ef7"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6b2b5128a1fe8aa3f9ca96c0eb69837dd9283a5c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd34f4fae4d5ea96f15cb26af0e45a90eabcd7b47"
-    tags:
-      - contract
-    name: BasicConnector
-    networks:
-      - optimism
-  - address: "0xca8067a5ad7e869a1bc8bac113f45c960009a2dd"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x835afb7b0f1f3a0df0ecdc7a4cf86b7894072ac6"
-    tags:
-      - contract
-    name: VaultToken
-    networks:
-      - optimism
-  - address: "0xd783aadb0338035dcc9d6b0b93d2b12379e24fd3"
-    tags:
-      - contract
-    name: SynthetixLimitOrders
-    networks:
-      - optimism
-  - address: "0x0f827ba4d9389f71724739b7f9784505e0716d8c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x965e460bf5cb38bada79fb2293c6304c799d0b1c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x86ea8030221bf025bb11fadabb794daaa7051ae1"
-    tags:
-      - contract
-    name: BasicConnector
-    networks:
-      - optimism
-  - address: "0x558c403a907d3b010c10e9afccf652a0b0d09338"
-    tags:
-      - contract
-    name: AaveConnector
-    networks:
-      - optimism
-  - address: "0x5de450325cfc837bc36ba7fcbbeaacdbb93f5cc3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x96d5691cb41a96894904d6c678e52b9d0eea696b"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xe7ec5389cd1f9a064b37813a6f46c57b41025000"
-    tags:
-      - contract
-    name: PolynomialEarnResolver
-    networks:
-      - optimism
-  - address: "0x90c5d64a67425d03774439d8d37194b29c2070fa"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4f664c082602c48559e936c17bc13db0396cf9f2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd7ef973de2761e2623f83397533688c5fdc0763a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xea48dd74ba1ff41b705ba5cf993b2d558e12d860"
-    tags:
-      - contract
-    name: PolynomialCoveredCall
-    networks:
-      - optimism
-  - address: "0xd567e18fdf8afa58953dd8b0c1b6c97adf67566b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x436c89f77f6b6fbfe14d97cd9244e385fae94fea"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb8d711e6330607647d699e21db92a1b7cb754049"
-    tags:
-      - contract
-    name: PolynomialEarnResolver
-    networks:
-      - optimism
-  - address: "0x2bf91dce25b34e80fc915339af115e6ca82a0883"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x26446cd5b099b63da029c27d9989375b31bfbe98"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb34bf40f0064dd94099953bdb3e52f77a15bfda9"
-    tags:
-      - contract
-    name: DefaultImplementation
-    networks:
-      - optimism
-  - address: "0x3ef9bdfda9e6e0c778463ce6d81d56b075ce0374"
-    tags:
-      - contract
-    name: SynthetixPerpConnector
-    networks:
-      - optimism
-  - address: "0xb3eb9e71d7e44a54a0f94eadb6277bc7f2f87be1"
-    tags:
-      - contract
-    name: SynthetixPerpConnector
-    networks:
-      - optimism
-  - address: "0xb75a96880a7c43f6716f0a17a8b4c9b610676a28"
-    tags:
-      - contract
-    name: PolynomialEarnResolver
-    networks:
-      - optimism
-  - address: "0xe1e4ba79dbe0228aa5f65696ade1d147d590f4b3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xf40508173319df27923e7bdf52a3880c8629b1a6"
-    tags:
-      - contract
-    name: PolynomialAuthority
-    networks:
-      - optimism
-  - address: "0xd0a36f2ed527eda6c374460dad6e9f23dbda846a"
-    tags:
-      - contract
-    name: GasEstimater
-    networks:
-      - optimism
-  - address: "0x1ab15c21a7e58dd899581fbf7d2a06916cf7434a"
-    tags:
-      - contract
-    name: PolyEmitter
-    networks:
-      - optimism
-  - address: "0x3a76e0f571d9e2f7f2cab3f0d9cc6d9e04df5a3e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xade850bf6de778a207dc44e610fe7a45272fece9"
-    tags:
-      - contract
-    name: OneInchConnector
-    networks:
-      - optimism
-  - address: "0x8fff92fa0b13d089380914e099b4dda63e079dfe"
-    tags:
-      - contract
-    name: PolyList
-    networks:
-      - optimism
-  - address: "0x202695ad97cdd6e34855a656d8e0fc098de4102c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x18b2bca751f33d97eb8e0ec7f20c3810473e98fd"
-    tags:
-      - contract
-    name: SynthetixLimitOrders
-    networks:
-      - optimism
-  - address: "0x4a0b3986cb7e23df85a64100bf222cf69f9787aa"
-    tags:
-      - contract
-    name: AccountResolver
-    networks:
-      - optimism
-  - address: "0x8c9fabf2285ee615e9cabdbbebd854db128b1985"
-    tags:
-      - contract
-    name: Boomerang
-    networks:
-      - optimism
-  - address: "0xfa923aa6b4df5bea456df37fa044b37f0fddcdb4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7302ecbf667cef2a95f21d31339ce6fea6802f3d"
-    tags:
-      - contract
-    name: PolynomialEarnResolver
-    networks:
-      - optimism
-  - address: "0xcccbdecd3214196f497495ec02f7bfeb9ddb3943"
-    tags:
-      - contract
-    name: OneInchConnector
-    networks:
-      - optimism
-  - address: "0x22b73bc2231f759b0a311ecffd8cfd2a99d89bce"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x550432033c18eef82ccb1853f1e691bc0504544f"
-    tags:
-      - contract
-    name: SynthetixPerpResolver
-    networks:
-      - optimism
-  - address: "0x66671fe1538da7e40cf58a247630b90f51acd92c"
-    tags:
-      - contract
-    name: SynthetixLimitOrders
-    networks:
-      - optimism
-  - address: "0x0cb199af5f402506963a4df08b11053687e09802"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1036c75ba376354d455b5d98e8d847c68a1b4bfe"
-    tags:
-      - contract
-    name: SynthetixBasisTradingConnector
-    networks:
-      - optimism
-  - address: "0xbbeff97bab754f5b0044e4567495953c4ee9e19a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc88dba2bd809873ca43048921d586387a5a43fd7"
-    tags:
-      - contract
-    name: TestEventer
-    networks:
-      - optimism
-  - address: "0x65044b79cf1e8bda471c3b41e78b1418166ec20f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc1f7a43db81e7dc4b3f4c6c2acdcbdc17c41b0dc"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xcf0ab34aa28e81cba4e4a3fa691459218e867b02"
-    tags:
-      - contract
-    name: SynthetixPerpResolver
-    networks:
-      - optimism
-  - address: "0x084b02a201589242159a3c717b6957cd9b502291"
-    tags:
-      - contract
-    name: SynthetixPerpResolver
-    networks:
-      - optimism
-  - address: "0xf7452f93af82d085a1f1d0175436924ea765c8df"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xccd718d6d2b410e4a3b1e3402f4e5db681a1f363"
-    tags:
-      - contract
-    name: SynthetixPerpConnector
-    networks:
-      - optimism
-  - address: "0x561fa02773cc4414c104e8c59e97981578a2a299"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x193209391242b585ae0aa6029ddd23f9ef99b779"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xdeeb242e045e5827edf526399bd13e7ffeba4281"
-    tags:
-      - contract
-    name: PolynomialZap
-    networks:
-      - optimism
-  - address: "0xb1d38d7ace1f994a9797e77d1d76bfff6fa2578e"
-    tags:
-      - contract
-    name: BasicConnector
-    networks:
-      - optimism
-  - address: "0xda3588474026bc257297f95c91e9d87a7d65f641"
-    tags:
-      - contract
-    name: SynthetixPerpConnector
-    networks:
-      - optimism
-  - address: "0x3e29470d34cd4ecdbfdf78959af7bd4eb0971d1f"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xc9347b307b4aa891785c44a63ea6411c8f19c479"
-    tags:
-      - contract
-    name: Vaults
-    networks:
-      - optimism
-  - address: "0x0052a341bea99c4b452816235fc2216143c5f21c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7d9dfe621d0c4b95711a64107d7b8350403d83c7"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2d4937ed79d434290c4baea6d390b78c0bf907d8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2787028f58be0b8c0121b4321757685e6cc83cd0"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7bfa659e247a70b501cf2e19a51ebfee28028db3"
-    tags:
-      - contract
-    name: DefaultImplementation
-    networks:
-      - optimism
-  - address: "0x2cbfd62b20e6489186a423b2cee80977c41e4248"
-    tags:
-      - contract
-    name: PolyImplementations
-    networks:
-      - optimism
-  - address: "0xd2a19c34abc544ed8da25991a5811e8231f08826"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd60eebe694cab912702e9207a63dde15dea7fcc9"
-    tags:
-      - contract
-    name: MainImplementation
-    networks:
-      - optimism
-  - address: "0x05b7ab7924000ce12e304702cd82539923c26476"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x80564f8d8e562a753afceb7fad3983747adfe649"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3768231470780a1e3a17503252d0978903edbea9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xfc1cba42eb6febf27e0d11def37b6d5d40a88896"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x64012b5efd1aa5be59cc1c9637a7e3a24b51925c"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0be3a0e2944b1c43799e2d447d1367a397c4f573"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xed2d957670fed2498093dbcd9f34b6d024b2825b"
     tags:
       - contract
     name: SynthetixPerpLimitOrderConnector
+  - address: "0x0d45c2198b3a5a30e82bcb1d02643fc366d17b01"
     networks:
       - optimism
-  - address: "0xe2bfa528a1e15e5abc2f5fe8980f743bc6b07ffe"
     tags:
       - contract
+    name: PolyList
+  - address: "0x4c8dc708d58651eb67222d81e60c8bc703245a40"
     networks:
       - optimism
-  - address: "0xa11451acd2fbdf4ae798f44c4227cab9517739d7"
     tags:
       - contract
+    name: VaultToken
+  - address: "0x19828283852a852f8cfff4696038bc19e5070a49"
     networks:
       - optimism
-  - address: "0xb28df1b71a5b3a638ecedf484e0545465a45d2ec"
     tags:
       - contract
-    name: PutSellingVault
+    name: PolynomialAuthority
+  - address: "0x0e69fce24d170c3fa172e0c7e29fc444ce0b704b"
     networks:
       - optimism
-  - address: "0x2e09e05b53e991b04212f22ba6098db49f14c96c"
+    tags:
+      - contract
+    name: SynthetixPerpConnector
+  - address: "0x9cb1ea57dedc564a38f207b5bb240efa8e6c77a2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpConnector
+  - address: "0x23cb080dd0eccdacbeb0beb2a769215280b5087d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialCoveredPut
+  - address: "0x56e1592a8ebfc1dbe9542b77176d4eb2cd507b64"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TestEventer
+  - address: "0x613783c08239f23e444189243092016079a129d6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpConnector
+  - address: "0x0b2ccca8d866cca4c025d595faa29760870575c9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixLimitOrders
+  - address: "0xd22a2f72f614246444e79fd8a78b82a5f82e0649"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x40ea796885f981ca1d2af0da8e6f8dc47b384933"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0xd33d811ed08993ea56f1ecf985f665669ef88293"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0xe4271c66783e7eeb6578b711d12e8b12ddd5ceaf"
+    networks:
+      - optimism
     tags:
       - contract
     name: PolynomialEarnResolver
+  - address: "0x3873fa06a6c16a7be42047bff8ce83a1e6c151bd"
     networks:
       - optimism
-  - address: "0x035bb9f8d4d390bf75c97e2d95f1eba6eada1ad8"
-    tags:
-      - contract
-    name: PolynomialLyraResolver
-    networks:
-      - optimism
-  - address: "0xee7ae6c285d169d09b7248572388174762b8aafc"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x812d2d0add720322866ad184c8227417bda58e27"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x3961a5dccf2f7e76f0fb7ad4b92bbac645fb245e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb24639a89d78cb9558ccbc6af5a8ba1d0d401fa3"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0cce27ce6f81470afebe6453c2d36a7ca738eb40"
     tags:
       - contract
     name: SynthetixLimitOrders
+  - address: "0x4fa30418e2b4e98f94c1443ea2bdab95bb0168e4"
     networks:
       - optimism
-  - address: "0x14d582327df7a9885c299173dad6ae855a3e046d"
     tags:
       - contract
+    name: unverified
+  - address: "0x014c8929557aed2f7eabfc0f82e286aa954bc5f5"
     networks:
       - optimism
-  - address: "0x4395104fc82654ddeac3ecf01ab40a1814bfb2f4"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe8f2a6b6ca9d6c342171a521bf9e22f20ed398a8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x6457f43caa86008c595b037061788068bfd5e58d"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe6c7a70b43cdc28c45705fadd3f79bdb2d1bc702"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0xaa9eec57296d00347b8a0a786aef2d8a81d2e01c"
-    tags:
-      - contract
-    name: SynthetixPerpConnector
-    networks:
-      - optimism
-  - address: "0x0a54608c6bfa09a5e95a3824154d59005ae03bcd"
-    tags:
-      - contract
-    name: SynthetixPerpConnector
-    networks:
-      - optimism
-  - address: "0x7634e43aa3f446c8d9d5014d609355f728361075"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x1580673b3002dd94104042f4cdeacc56e6fdbcb7"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xac9735138c4518e8b762a7ee3d98b60141ab0578"
-    tags:
-      - contract
-    name: SynthetixPerpResolver
-    networks:
-      - optimism
-  - address: "0x920df046848ee6729b3f143ac7dfa5a9bc95305a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xde16ce9ae3c6d788ca6de1e19e6bc6ae81e0630b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x684bbb31eb2f7891523fafc2cc5a0fb0a45c4dc4"
-    tags:
-      - contract
-    name: Vaults
-    networks:
-      - optimism
-  - address: "0x53aa7387fbd46b7acd81de0d8e6b6d467a2e3c26"
-    tags:
-      - contract
-    name: DefaultImplementation
-    networks:
-      - optimism
-  - address: "0xba07e67860391d98a7019073319c4ae37875af29"
-    tags:
-      - contract
-    name: MainImplementation
-    networks:
-      - optimism
-  - address: "0x3fe6bb6275a00b235e56ba99100022eba00816a9"
-    tags:
-      - contract
-    name: PolyConnectors
-    networks:
-      - optimism
-  - address: "0xee3dd0adace9b29b56f7176e6190c2e7bfe54594"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2901f5f1d4c99f9eee36ccd9a264729c5dd35c11"
-    tags:
-      - contract
-    name: VaultToken
-    networks:
-      - optimism
-  - address: "0x41d4c067b82da8357dfc38e3f24f6033368af4bb"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xe0d04697749e074ac3521b8b42cc14cd79d74ac3"
-    tags:
-      - contract
-    name: SynthetixLimitOrders
-    networks:
-      - optimism
-  - address: "0x3a1ba86818cabcbe141e117ed9544f11f6c520e0"
-    tags:
-      - contract
-    name: SynthetixLimitOrders
-    networks:
-      - optimism
-  - address: "0xed99d0fcdb1952e06a7be055eafca4f76fc65473"
-    tags:
-      - contract
-    name: DragonFruit
-    networks:
-      - optimism
-  - address: "0xef5f0c5d39ad78b5fd3bdb0e55704c399ee4f04a"
-    tags:
-      - contract
-    name: PolynomialZap
-    networks:
-      - optimism
-  - address: "0x50ff859de6bc8e71acc1dd73e5c4d15b46d04e63"
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-    networks:
-      - optimism
-  - address: "0x1dd01c452992f0bc3938c192f8785d62a919ccb3"
-    tags:
-      - contract
-    name: PolynomialEarnResolver
-    networks:
-      - optimism
-  - address: "0xfc506a5d5e5c84970878d010b269b095d61e2c67"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb7b4270cfd938f4f1c111ac819e7365e8ce0300a"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xb162f01c5bda7a68292410aaa059e7ce28d77c82"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xd514a62fc186343e70c8ff6ecfee3a7a4acade1f"
-    tags:
-      - contract
-    name: SynthetixPerpResolver
-    networks:
-      - optimism
-  - address: "0x2841a6c22cedfdaadab976764044f8531ebaecec"
-    tags:
-      - contract
-    name: SynthetixPerpResolver
-    networks:
-      - optimism
-  - address: "0x961359f57ba57f3f3f228c55b98b6a3ec95ed266"
-    tags:
-      - contract
-    name: PolynomialLyraResolver
-    networks:
-      - optimism
-  - address: "0xd81abcdd67c7eb1c67c56c10a2077938037e4b06"
-    tags:
-      - contract
-    name: VaultToken
-    networks:
-      - optimism
-  - address: "0xc5631c21aed81b91160cee00426f1866bccb5ee8"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x0f9315eb652f69e2f8eac6f7f615c8dd9010dec7"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x8d033e3fbbcdca59e2346a7cb82e3daa95089573"
-    tags:
-      - contract
-    name: SynthetixPerpConnector
-    networks:
-      - optimism
-  - address: "0x3349de7822aa05f857e92d167b264809419dc620"
-    tags:
-      - contract
-    name: SynthetixBasisTrading
-    networks:
-      - optimism
-  - address: "0x4beffd38832b5f158d5a05d374ae971dd0e326f2"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7d2da3a932bc05309c74df1cef7d28375835b185"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x1c5bcd2839088d995902623e9ed711080f23464b"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xcdb462edd31ec9b18074feeb04494b77ae048d08"
-    tags:
-      - contract
-    name: IncentiveDistributor
-    networks:
-      - optimism
-  - address: "0x8e3125b97b641dcf7ca53b899321f2ad51ca79da"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x71afc4ef5c25915ef2d46bca2a39730978f066f9"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x4714f064b5cd068471901aab7ca047a495c2c1c9"
-    tags:
-      - contract
-    name: PolyImplementations
-    networks:
-      - optimism
-  - address: "0x705a1e30a1e0d94bed8055586ca2ffb55a09e5a1"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x53268e841e30278ef0b9597813893fa8e4559510"
-    tags:
-      - contract
-    name: CallSellingVault
-    networks:
-      - optimism
-  - address: "0x246dfdfa491cf7cad0f0a189f9836eaf5af15ef4"
-    tags:
-      - contract
-    name: VaultToken
-    networks:
-      - optimism
-  - address: "0x221b474758173cdf75a577dcd5998cbbf71d1370"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xef0868f755d4f94a8b11c20a5bef8b86804e9b3e"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x83a7a99277d588fb986b5037dd7f7eaf3d5ddcff"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x2d46292cbb3c601c6e2c74c32df3a4fce99b59c7"
-    tags:
-      - contract
-    name: CallSellingVault
-    networks:
-      - optimism
-  - address: "0x1c2eaf0ed3e566fbdf528ba97b4e5ae0bb2ad051"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0xa4965dc079a6891c6f26fcd723991357d839c2d9"
     tags:
       - contract
     name: MatchaConnector
+  - address: "0xd76d084908b0a03543a20eda683bec595637c013"
     networks:
       - optimism
+    tags:
+      - contract
+    name: SynthetixLimitOrders
+  - address: "0x6d39090983e4957bbd7f7c2aaca6a8110f10e79e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x0a49571ba82693353fd2285e894c00fdad5fc4b8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xbd4413a42e0a33274fbf605183aa9c98dc7aea7a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0x3a3482992a37cdf2015ff6efb90504911d3dfb38"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x2a42246d19e06589b6d47f8b3e93338aa172015e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolyConnectors
+  - address: "0xad8066aa32f96e6703f5b713539a01c2affc06d2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolyEmitter
+  - address: "0x331cf6e3e59b18a8bc776a0f652af9e2b42781c5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialCoveredCall
+  - address: "0x93e7e22524771c4a694260a9e73be9cfff9d8baa"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixLimitOrders
+  - address: "0x1baa02fd3744b299723f2e3ad2b7c241bea1afa5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Boomerang
+  - address: "0x4458a323717db34b0263c383895cab92a6c6ccb5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MatchaConnector
+  - address: "0x97109b2ff77979826c20ff41cd1017cf11f5bc76"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolyAccount
+  - address: "0x1ede41b8d5ff5e8cb2b143f47aaa1fd541eab17f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpConnector
+  - address: "0xc1760d9c91e502fa3235f06a5544728bc386128f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpLimitOrderConnector
+  - address: "0xab5084c0b087a4a197a7503d3a2c27210eceb098"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0x1cc4482c109395b56df6e6daf3f7bc1c957765d6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TestEventer
+  - address: "0x577f1ff5b4049f284725e8172cdc127af6328ef7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x6b2b5128a1fe8aa3f9ca96c0eb69837dd9283a5c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialEarnResolver
+  - address: "0xd34f4fae4d5ea96f15cb26af0e45a90eabcd7b47"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BasicConnector
+  - address: "0xca8067a5ad7e869a1bc8bac113f45c960009a2dd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x835afb7b0f1f3a0df0ecdc7a4cf86b7894072ac6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0xd783aadb0338035dcc9d6b0b93d2b12379e24fd3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixLimitOrders
+  - address: "0x0f827ba4d9389f71724739b7f9784505e0716d8c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialEarnResolver
+  - address: "0x965e460bf5cb38bada79fb2293c6304c799d0b1c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GammaVault
+  - address: "0x86ea8030221bf025bb11fadabb794daaa7051ae1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BasicConnector
+  - address: "0x558c403a907d3b010c10e9afccf652a0b0d09338"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AaveConnector
+  - address: "0x5de450325cfc837bc36ba7fcbbeaacdbb93f5cc3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0x96d5691cb41a96894904d6c678e52b9d0eea696b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xe7ec5389cd1f9a064b37813a6f46c57b41025000"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialEarnResolver
+  - address: "0x90c5d64a67425d03774439d8d37194b29c2070fa"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x4f664c082602c48559e936c17bc13db0396cf9f2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0xd7ef973de2761e2623f83397533688c5fdc0763a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AccountResolver
+  - address: "0xea48dd74ba1ff41b705ba5cf993b2d558e12d860"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialCoveredCall
+  - address: "0xd567e18fdf8afa58953dd8b0c1b6c97adf67566b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolyList
+  - address: "0x436c89f77f6b6fbfe14d97cd9244e385fae94fea"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolyConnectors
+  - address: "0xb8d711e6330607647d699e21db92a1b7cb754049"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialEarnResolver
+  - address: "0x2bf91dce25b34e80fc915339af115e6ca82a0883"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpResolver
+  - address: "0x26446cd5b099b63da029c27d9989375b31bfbe98"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xb34bf40f0064dd94099953bdb3e52f77a15bfda9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DefaultImplementation
+  - address: "0x3ef9bdfda9e6e0c778463ce6d81d56b075ce0374"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpConnector
+  - address: "0xb3eb9e71d7e44a54a0f94eadb6277bc7f2f87be1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpConnector
+  - address: "0xb75a96880a7c43f6716f0a17a8b4c9b610676a28"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialEarnResolver
+  - address: "0xe1e4ba79dbe0228aa5f65696ade1d147d590f4b3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialEarnResolver
+  - address: "0xf40508173319df27923e7bdf52a3880c8629b1a6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialAuthority
+  - address: "0xd0a36f2ed527eda6c374460dad6e9f23dbda846a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GasEstimater
+  - address: "0x1ab15c21a7e58dd899581fbf7d2a06916cf7434a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolyEmitter
+  - address: "0x3a76e0f571d9e2f7f2cab3f0d9cc6d9e04df5a3e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0xade850bf6de778a207dc44e610fe7a45272fece9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OneInchConnector
+  - address: "0x8fff92fa0b13d089380914e099b4dda63e079dfe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolyList
+  - address: "0x202695ad97cdd6e34855a656d8e0fc098de4102c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x18b2bca751f33d97eb8e0ec7f20c3810473e98fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixLimitOrders
+  - address: "0x4a0b3986cb7e23df85a64100bf222cf69f9787aa"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AccountResolver
+  - address: "0x8c9fabf2285ee615e9cabdbbebd854db128b1985"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Boomerang
+  - address: "0xfa923aa6b4df5bea456df37fa044b37f0fddcdb4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialCoveredPut
+  - address: "0x7302ecbf667cef2a95f21d31339ce6fea6802f3d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialEarnResolver
+  - address: "0xcccbdecd3214196f497495ec02f7bfeb9ddb3943"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OneInchConnector
+  - address: "0x22b73bc2231f759b0a311ecffd8cfd2a99d89bce"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialEarnResolver
+  - address: "0x550432033c18eef82ccb1853f1e691bc0504544f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpResolver
+  - address: "0x66671fe1538da7e40cf58a247630b90f51acd92c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixLimitOrders
+  - address: "0x0cb199af5f402506963a4df08b11053687e09802"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MerkleDistributor
+  - address: "0x1036c75ba376354d455b5d98e8d847c68a1b4bfe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixBasisTradingConnector
+  - address: "0xbbeff97bab754f5b0044e4567495953c4ee9e19a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialEarnResolver
+  - address: "0xc88dba2bd809873ca43048921d586387a5a43fd7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TestEventer
+  - address: "0x65044b79cf1e8bda471c3b41e78b1418166ec20f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GammaVault
+  - address: "0xc1f7a43db81e7dc4b3f4c6c2acdcbdc17c41b0dc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xcf0ab34aa28e81cba4e4a3fa691459218e867b02"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpResolver
+  - address: "0x084b02a201589242159a3c717b6957cd9b502291"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpResolver
+  - address: "0xf7452f93af82d085a1f1d0175436924ea765c8df"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialLyraResolver
+  - address: "0xccd718d6d2b410e4a3b1e3402f4e5db681a1f363"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpConnector
+  - address: "0x561fa02773cc4414c104e8c59e97981578a2a299"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BasicConnector
+  - address: "0x193209391242b585ae0aa6029ddd23f9ef99b779"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpConnector
+  - address: "0xdeeb242e045e5827edf526399bd13e7ffeba4281"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialZap
+  - address: "0xb1d38d7ace1f994a9797e77d1d76bfff6fa2578e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BasicConnector
+  - address: "0xda3588474026bc257297f95c91e9d87a7d65f641"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpConnector
+  - address: "0x3e29470d34cd4ecdbfdf78959af7bd4eb0971d1f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpResolver
+  - address: "0xc9347b307b4aa891785c44a63ea6411c8f19c479"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vaults
+  - address: "0x0052a341bea99c4b452816235fc2216143c5f21c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BlackScholesLib
+  - address: "0x7d9dfe621d0c4b95711a64107d7b8350403d83c7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Migrator
+  - address: "0x2d4937ed79d434290c4baea6d390b78c0bf907d8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x2787028f58be0b8c0121b4321757685e6cc83cd0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x7bfa659e247a70b501cf2e19a51ebfee28028db3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DefaultImplementation
+  - address: "0x2cbfd62b20e6489186a423b2cee80977c41e4248"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolyImplementations
+  - address: "0xd2a19c34abc544ed8da25991a5811e8231f08826"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0xd60eebe694cab912702e9207a63dde15dea7fcc9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MainImplementation
+  - address: "0x05b7ab7924000ce12e304702cd82539923c26476"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x80564f8d8e562a753afceb7fad3983747adfe649"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpResolver
+  - address: "0x3768231470780a1e3a17503252d0978903edbea9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0xfc1cba42eb6febf27e0d11def37b6d5d40a88896"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x64012b5efd1aa5be59cc1c9637a7e3a24b51925c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpLimitOrderConnector
+  - address: "0x0be3a0e2944b1c43799e2d447d1367a397c4f573"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xed2d957670fed2498093dbcd9f34b6d024b2825b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpLimitOrderConnector
+  - address: "0xe2bfa528a1e15e5abc2f5fe8980f743bc6b07ffe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa11451acd2fbdf4ae798f44c4227cab9517739d7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PutSellingVault
+  - address: "0xb28df1b71a5b3a638ecedf484e0545465a45d2ec"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PutSellingVault
+  - address: "0x2e09e05b53e991b04212f22ba6098db49f14c96c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialEarnResolver
+  - address: "0x035bb9f8d4d390bf75c97e2d95f1eba6eada1ad8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialLyraResolver
+  - address: "0xee7ae6c285d169d09b7248572388174762b8aafc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixAdvancedOrdersConnector
+  - address: "0x812d2d0add720322866ad184c8227417bda58e27"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialLyraResolver
+  - address: "0x3961a5dccf2f7e76f0fb7ad4b92bbac645fb245e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpResolver
+  - address: "0xb24639a89d78cb9558ccbc6af5a8ba1d0d401fa3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialKeeper
+  - address: "0x0cce27ce6f81470afebe6453c2d36a7ca738eb40"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixLimitOrders
+  - address: "0x14d582327df7a9885c299173dad6ae855a3e046d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolyImplementations
+  - address: "0x4395104fc82654ddeac3ecf01ab40a1814bfb2f4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixLimitOrders
+  - address: "0xe8f2a6b6ca9d6c342171a521bf9e22f20ed398a8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AuthConnector
+  - address: "0x6457f43caa86008c595b037061788068bfd5e58d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BellPepper
+  - address: "0xe6c7a70b43cdc28c45705fadd3f79bdb2d1bc702"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xaa9eec57296d00347b8a0a786aef2d8a81d2e01c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpConnector
+  - address: "0x0a54608c6bfa09a5e95a3824154d59005ae03bcd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpConnector
+  - address: "0x7634e43aa3f446c8d9d5014d609355f728361075"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x1580673b3002dd94104042f4cdeacc56e6fdbcb7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixLimitOrders
+  - address: "0xac9735138c4518e8b762a7ee3d98b60141ab0578"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpResolver
+  - address: "0x920df046848ee6729b3f143ac7dfa5a9bc95305a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpConnector
+  - address: "0xde16ce9ae3c6d788ca6de1e19e6bc6ae81e0630b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpResolver
+  - address: "0x684bbb31eb2f7891523fafc2cc5a0fb0a45c4dc4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Vaults
+  - address: "0x53aa7387fbd46b7acd81de0d8e6b6d467a2e3c26"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DefaultImplementation
+  - address: "0xba07e67860391d98a7019073319c4ae37875af29"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MainImplementation
+  - address: "0x3fe6bb6275a00b235e56ba99100022eba00816a9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolyConnectors
+  - address: "0xee3dd0adace9b29b56f7176e6190c2e7bfe54594"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixSpotConnector
+  - address: "0x2901f5f1d4c99f9eee36ccd9a264729c5dd35c11"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0x41d4c067b82da8357dfc38e3f24f6033368af4bb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xe0d04697749e074ac3521b8b42cc14cd79d74ac3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixLimitOrders
+  - address: "0x3a1ba86818cabcbe141e117ed9544f11f6c520e0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixLimitOrders
+  - address: "0xed99d0fcdb1952e06a7be055eafca4f76fc65473"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DragonFruit
+  - address: "0xef5f0c5d39ad78b5fd3bdb0e55704c399ee4f04a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialZap
+  - address: "0x50ff859de6bc8e71acc1dd73e5c4d15b46d04e63"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x1dd01c452992f0bc3938c192f8785d62a919ccb3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialEarnResolver
+  - address: "0xfc506a5d5e5c84970878d010b269b095d61e2c67"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BlackScholesLib
+  - address: "0xb7b4270cfd938f4f1c111ac819e7365e8ce0300a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CallSellingQuoteVault
+  - address: "0xb162f01c5bda7a68292410aaa059e7ce28d77c82"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialZap
+  - address: "0xd514a62fc186343e70c8ff6ecfee3a7a4acade1f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpResolver
+  - address: "0x2841a6c22cedfdaadab976764044f8531ebaecec"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpResolver
+  - address: "0x961359f57ba57f3f3f228c55b98b6a3ec95ed266"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolynomialLyraResolver
+  - address: "0xd81abcdd67c7eb1c67c56c10a2077938037e4b06"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0xc5631c21aed81b91160cee00426f1866bccb5ee8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MainImplementation
+  - address: "0x0f9315eb652f69e2f8eac6f7f615c8dd9010dec7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixLimitOrders
+  - address: "0x8d033e3fbbcdca59e2346a7cb82e3daa95089573"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpConnector
+  - address: "0x3349de7822aa05f857e92d167b264809419dc620"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixBasisTrading
+  - address: "0x4beffd38832b5f158d5a05d374ae971dd0e326f2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0x7d2da3a932bc05309c74df1cef7d28375835b185"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0x1c5bcd2839088d995902623e9ed711080f23464b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixPerpLimitOrderConnector
+  - address: "0xcdb462edd31ec9b18074feeb04494b77ae048d08"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: IncentiveDistributor
+  - address: "0x8e3125b97b641dcf7ca53b899321f2ad51ca79da"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x71afc4ef5c25915ef2d46bca2a39730978f066f9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x4714f064b5cd068471901aab7ca047a495c2c1c9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolyImplementations
+  - address: "0x705a1e30a1e0d94bed8055586ca2ffb55a09e5a1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolyIndex
+  - address: "0x53268e841e30278ef0b9597813893fa8e4559510"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CallSellingVault
+  - address: "0x246dfdfa491cf7cad0f0a189f9836eaf5af15ef4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VaultToken
+  - address: "0x221b474758173cdf75a577dcd5998cbbf71d1370"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixLimitOrders
+  - address: "0xef0868f755d4f94a8b11c20a5bef8b86804e9b3e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DragonFruit
+  - address: "0x83a7a99277d588fb986b5037dd7f7eaf3d5ddcff"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PolyAccount
+  - address: "0x2d46292cbb3c601c6e2c74c32df3a4fce99b59c7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CallSellingVault
+  - address: "0x1c2eaf0ed3e566fbdf528ba97b4e5ae0bb2ad051"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AllowList
+  - address: "0xa4965dc079a6891c6f26fcd723991357d839c2d9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MatchaConnector
+  - address: "0x59672d112d680ce34c20ff1507197993cc0ba430"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

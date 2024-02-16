@@ -4,9 +4,9 @@ name: CreatorDAO
 github:
   - url: https://github.com/creatordao-project
 blockchain:
-  - address: "0x4a44a94dFcd91d6A269fEF0F167133f3231A7338"
-    tags:
-      - wallet
-      - safe
+  - address: "0x4a44a94dfcd91d6a269fef0f167133f3231a7338"
     networks:
-      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

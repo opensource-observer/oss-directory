@@ -4,9 +4,10 @@ name: BunnyAI
 github:
   - url: https://github.com/justindomingue/bunnyai
 blockchain:
-  - address: "0xAA371e26742290063d92F0Bd7197aC2D8d3aC4f1"
+  - address: "0xaa371e26742290063d92f0bd7197ac2d8d3ac4f1"
+    networks:
+      - optimism
     tags:
       - eoa
       - wallet
-    networks:
-      - optimism
+    name: ezhong.eth

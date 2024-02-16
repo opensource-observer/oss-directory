@@ -4,9 +4,9 @@ name: Longevity Genie
 github:
   - url: https://github.com/longevity-genie
 blockchain:
-  - address: "0xe913a267DA2C57704A500D2B5CA207968dF142D5"
-    tags:
-      - wallet
-      - safe
+  - address: "0xe913a267da2c57704a500d2b5ca207968df142d5"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet

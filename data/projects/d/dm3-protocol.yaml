@@ -6,22 +6,24 @@ github:
   - url: https://github.com/corpus-io/dm3-spec
   - url: https://github.com/corpus-io/ens-bedrock-resolver
 blockchain:
-  - address: "0x11Ee133A1408FE2d7c62296D7eB33F234b774503"
-    tags:
-      - wallet
-      - eoa
-    networks:
-      - mainnet
-      - optimism
   - address: "0x99c19ab10b9ec8ac6fcda9586e81f6b73a298870"
     networks:
       - optimism
     tags:
+      - deployer
       - eoa
-      - creator
+    name: alex1234.eth
   - address: "0xb20eb9648b4a818aa621053f1aa1103c03f2df57"
-    name: L2PublicResolver
     networks:
       - optimism
     tags:
       - contract
+    name: L2PublicResolver
+  - address: "0x11ee133a1408fe2d7c62296d7eb33f234b774503"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: dm3.eth

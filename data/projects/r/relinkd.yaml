@@ -4,9 +4,10 @@ name: "{r}elinkd"
 github:
   - url: https://github.com/relinkd
 blockchain:
-  - address: "0x670466aA5B985C31Fd4BDdC38f58d3856926320a"
-    tags:
-      - wallet
-      - eoa
+  - address: "0x670466aa5b985c31fd4bddc38f58d3856926320a"
     networks:
       - optimism
+    tags:
+      - eoa
+      - wallet
+    name: relinkd.eth

@@ -4,15 +4,15 @@ name: Glo Dollar
 github:
   - url: https://github.com/Glo-Foundation
 blockchain:
-  - address: "0xBc6d82D8d6632938394905Bb0217Ad9c673015d1"
-    tags:
-      - wallet
-      - safe
-    networks:
-      - mainnet
-  - address: "0x85bDCb8c603FDe2a36624A59225D05AEe456f958"
-    tags:
-      - wallet
-      - safe
+  - address: "0xbc6d82d8d6632938394905bb0217ad9c673015d1"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x85bdcb8c603fde2a36624a59225d05aee456f958"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

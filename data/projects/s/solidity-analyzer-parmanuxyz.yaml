@@ -5,9 +5,8 @@ github:
   - url: https://github.com/parmanuxyz/solidity-analyzer
 blockchain:
   - address: "0x18454569a577f368d7f165fdcf5210e4f58334ae"
-    tags:
-      - wallet
-      - safe
     networks:
       - optimism
-    name: RPGF3 Payout Address
+    tags:
+      - safe
+      - wallet
