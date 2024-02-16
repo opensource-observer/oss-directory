@@ -53,3 +53,9 @@ blockchain:
     tags:
       - contract
     name: MintManager
+  - address: "0x36bde71c97b33cc4729cf772ae268934f7ab70b2"
+    networks:
+      - optimism
+    tags:
+      - eoa
+    name: "Optimism: Aliased Cross-Domain Messenger "

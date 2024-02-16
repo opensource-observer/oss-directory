@@ -7,5 +7,8 @@ blockchain:
   - address: "0xe37da1e4632b94e601ac015be8db554e0456b01a"
     tags:
       - creator
+      - deployer
+      - eoa
     networks:
+      - mainnet
       - optimism

@@ -31,3 +31,10 @@ blockchain:
       - eoa
       - wallet
     name: loredotxyz.eth
+  - address: "0x51d722ece875b32369f16aa158b1eb8aff160c54"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: SafeCrowdfundFactoryV3

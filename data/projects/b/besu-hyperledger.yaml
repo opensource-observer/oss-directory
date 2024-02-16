@@ -8,5 +8,7 @@ blockchain:
     tags:
       - wallet
     networks:
+      - arbitrum
       - mainnet
       - optimism
+    name: SplitWallet

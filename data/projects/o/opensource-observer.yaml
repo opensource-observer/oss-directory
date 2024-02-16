@@ -18,3 +18,23 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0x87feed6162cb7dfe6b62f64366742349bf4d1b05"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: impactevaluator.eth
+  - address: "0x5cBd6362e6F222D2A0Feb89f32566ebd27091B98"
+    networks:
+      - arbitrum
+    tags:
+      - safe
+      - wallet
+  - address: "0x06D5d71b8B35EA1eECb09522b34d2E8d2Bb33e6c"
+    networks:
+      - mainnet
+    tags:
+      - safe
+      - wallet

@@ -8,7 +8,9 @@ github:
 blockchain:
   - address: "0xDC9b96Ea4966d063Dd5c8dbaf08fe59062091B6D"
     tags:
+      - contract
       - wallet
     networks:
+      - mainnet
       - optimism
     name: RPGF3 Payout Address
