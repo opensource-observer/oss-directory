@@ -3,3 +3,18 @@ slug: mawena-startup
 name: mawena-startup
 github:
   - url: https://github.com/mawena-startup
+blockchain:
+  - address: "0x3ecac36a6d1399ccc0b0ee85d3c1a46abd4760fe"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
+  - address: "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet

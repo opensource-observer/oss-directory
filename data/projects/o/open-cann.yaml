@@ -6,8 +6,16 @@ github:
 blockchain:
   - address: "0x4fb544dedd9583b156a60e8afe9afb45dcc3be56"
     networks:
+      - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: cannabisgenome.eth
+  - address: "0x66cd14267fb5a1609496cdc37eb55e6fe3f59c75"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

@@ -7,12 +7,14 @@ github:
 blockchain:
   - address: "0x0eb2ab241210900aeac2fba054dd605355fe2490"
     networks:
+      - mainnet
       - optimism
     tags:
       - safe
       - wallet
   - address: "0x97843608a00e2bbc75ab0c1911387e002565dede"
     networks:
+      - mainnet
       - optimism
     tags:
       - safe
@@ -32,3 +34,24 @@ blockchain:
       - eoa
       - wallet
     name: op.buidlguidl.eth
+  - address: "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+  - address: "0x4985ad3d7d81c9e9a4cb2cc080f0c6baa55d8f74"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+  - address: "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet

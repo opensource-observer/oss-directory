@@ -3,3 +3,12 @@ slug: ethcali
 name: ETHcali
 github:
   - url: https://github.com/ethcali
+blockchain:
+  - address: "0x55c9fbf09c056acac807cd674e34f1f8df0e711d"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet

@@ -3,3 +3,24 @@ slug: gnosischain
 name: gnosischain
 github:
   - url: https://github.com/gnosischain
+blockchain:
+  - address: "0xd2e61be92fa4871e27fd7c9b9bfcde12570c89e1"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x4dd05e12d0244575c77c31c24f0e273610c085d9"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet
+  - address: "0xdecf6615152ac768bfb688c4ef882e35debe08ac"
+    networks:
+      - mainnet
+    tags:
+      - safe
+      - wallet

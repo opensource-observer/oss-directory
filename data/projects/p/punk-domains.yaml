@@ -177,8 +177,18 @@ blockchain:
     name: RevenueDistributorFactory
   - address: "0x12e838f846ffdade34b2e006f84117a370d71687"
     networks:
+      - arbitrum
+      - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: punkdomains.eth
+  - address: "0xbcedb3e27f2650f4698e1cc6a02bbd2cef123b4b"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet

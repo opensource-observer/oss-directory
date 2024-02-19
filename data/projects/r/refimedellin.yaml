@@ -3,3 +3,18 @@ slug: refimedellin
 name: ReFiMedellin
 github:
   - url: https://github.com/refimedellin
+blockchain:
+  - address: "0x2661c66c99f3184bef72fd3ced5040398c31d277"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xd4ac6c14b4c96f7e66049210f56cb07468028d4e"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - safe
+      - wallet

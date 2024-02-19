@@ -3,3 +3,12 @@ slug: relaycc
 name: relaycc
 github:
   - url: https://github.com/relaycc
+blockchain:
+  - address: "0x0cb27e883e207905ad2a94f9b6ef0c7a99223c37"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet

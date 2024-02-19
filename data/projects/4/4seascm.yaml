@@ -3,3 +3,18 @@ slug: 4seascm
 name: 4seasCM
 github:
   - url: https://github.com/4seascm
+blockchain:
+  - address: "0x4a510dbebaf672f19f659af87f18a239f64a08fd"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x932a54b9e916ab39c974743f2065cb4384f2fdea"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

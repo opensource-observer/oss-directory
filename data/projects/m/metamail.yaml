@@ -12,7 +12,15 @@ blockchain:
       - wallet
   - address: "0x3806a85d9b8e017d2714b5a240f3e7737279a3ba"
     networks:
+      - mainnet
       - optimism
     tags:
       - safe
+      - wallet
+  - address: "0x045ff23cf3413f6a355f0acc6ec6cb2721b95d99"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
       - wallet

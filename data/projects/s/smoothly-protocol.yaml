@@ -6,8 +6,17 @@ github:
 blockchain:
   - address: "0xb645ea519d3bb18a03eb0e059e5f6a70a793b4fc"
     networks:
+      - arbitrum
+      - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: kodys.eth
+  - address: "0x82a90b0e2ca64f6a4ffae9e52b301851a859fbf2"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

@@ -3,3 +3,33 @@ slug: raid-guild
 name: raid-guild
 github:
   - url: https://github.com/raid-guild
+blockchain:
+  - address: "0x20d65fbbff7c46c6c8d1153add69f6a9fb518fec"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+  - address: "0xd1d8e452a864388280b714537cbead6ff9e28530"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet
+  - address: "0x54cf9b025be79bdc93f02083d477bf47f99fdf13"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+  - address: "0x2606cb984b962ad4aa1ef00f9af9b654b435ad44"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet

@@ -3,3 +3,17 @@ slug: sociallayer-im
 name: sociallayer-im
 github:
   - url: https://github.com/sociallayer-im
+blockchain:
+  - address: "0x383f84bda7c56bb47686b84056d97481838e73e0"
+    networks:
+      - mainnet
+    tags:
+      - safe
+      - wallet
+  - address: "0xf2486fbec513e94d703ac7d92a712c1a8b77d710"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

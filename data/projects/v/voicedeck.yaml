@@ -3,3 +3,23 @@ slug: voicedeck
 name: VoiceDeck
 github:
   - url: https://github.com/voicedeck
+blockchain:
+  - address: "0xe82a0db3cf329844f22547fe0ef84eca8108e008"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+  - address: "0xf85a8e347108711798b1de24d79ad4823b6cfdf9"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
+  - address: "0x094b75eedf58a83af4d37694b7532691fb26570e"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

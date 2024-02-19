@@ -7,6 +7,7 @@ github:
 blockchain:
   - address: "0x7b21f4b4c1d3320e9955a89729d31cce4635b2bd"
     networks:
+      - mainnet
       - optimism
     tags:
       - eoa
@@ -19,3 +20,11 @@ blockchain:
       - eoa
       - wallet
     name: pablov.eth
+  - address: "0xba5af4407797f74771dd35684fcfcd65467a2e90"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet

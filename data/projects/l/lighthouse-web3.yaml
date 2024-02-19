@@ -3,3 +3,18 @@ slug: lighthouse-web3
 name: Lighthouse Storage
 github:
   - url: https://github.com/lighthouse-web3
+blockchain:
+  - address: "0x29b1d432a40f40f5418da2d4abf740e5e491629b"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet
+  - address: "0x35308ee1ed9e7bc5979da7101a3eb1d7fe26dd33"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet

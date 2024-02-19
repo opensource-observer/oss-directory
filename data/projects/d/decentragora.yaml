@@ -54,6 +54,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xa09a8433616ca0e1085248b15eaa06712c0f9cb5"
     networks:
+      - mainnet
       - optimism
     tags:
       - safe

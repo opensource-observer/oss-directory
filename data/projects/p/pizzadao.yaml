@@ -3,3 +3,16 @@ slug: pizzadao
 name: PizzaDAO
 github:
   - url: https://github.com/pizzadao
+blockchain:
+  - address: "0xf41a98d4f2e52aa1ccb48f0b6539e955707b8f7a"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+  - address: "0xba5e28a2d1c8cf67ac9e0dfc850dc8b7b21a4de2"
+    networks:
+      - mainnet
+    tags:
+      - safe
+      - wallet

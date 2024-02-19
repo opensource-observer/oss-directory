@@ -10,6 +10,7 @@ npm:
 blockchain:
   - address: "0x36c4f0d9fd9ed768491ec2c492634218bc3e5a72"
     networks:
+      - mainnet
       - optimism
     tags:
       - safe
@@ -22,6 +23,7 @@ blockchain:
       - wallet
   - address: "0xee972e35311f65e6fd8f6ea7228bf388b53e1d4a"
     networks:
+      - mainnet
       - optimism
     tags:
       - eoa
@@ -29,6 +31,8 @@ blockchain:
     name: eipfun.eth
   - address: "0xe395b9ba2f93236489ac953146485c435d1a267b"
     networks:
+      - arbitrum
+      - mainnet
       - optimism
     tags:
       - eoa
@@ -36,6 +40,7 @@ blockchain:
     name: 0xdonate3.eth
   - address: "0x1b8556bdc549d20de33ecba674cf3bbb88cfed0a"
     networks:
+      - mainnet
       - optimism
     tags:
       - eoa
@@ -50,6 +55,8 @@ blockchain:
     name: 0xhardman.eth
   - address: "0xc3d7f926e57ff06e465823b100b95408e805dfa2"
     networks:
+      - arbitrum
+      - mainnet
       - optimism
     tags:
       - eoa
