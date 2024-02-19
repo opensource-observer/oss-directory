@@ -3,3 +3,16 @@ slug: ringsnetwork
 name: RingsNetwork
 github:
   - url: https://github.com/ringsnetwork
+blockchain:
+  - address: "0xf7fea1722f9b27b0666919a5664bab486a4b18d3"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+  - address: "0xda886b5d4e2b52394fc78bf9b147ccce491a12f5"
+    networks:
+      - mainnet
+    tags:
+      - safe
+      - wallet

@@ -3,3 +3,25 @@ slug: troopfinance
 name: TroopFinance
 github:
   - url: https://github.com/troopfinance
+blockchain:
+  - address: "0x3e26cae5f90c871a61ef07d4eec91fd74a224d5e"
+    networks:
+      - mainnet
+    tags:
+      - safe
+      - wallet
+  - address: "0x84e1056ed1b76fb03b43e924ef98833dba394b2b"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet
+  - address: "0x3102b41f4b028dbd5ab2908c29541e15d5ddfff8"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

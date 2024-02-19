@@ -12,6 +12,8 @@ blockchain:
     name: Proxy
   - address: "0xff284badb6f6030c726782767fe45770570ca381"
     networks:
+      - arbitrum
+      - mainnet
       - optimism
     tags:
       - eoa

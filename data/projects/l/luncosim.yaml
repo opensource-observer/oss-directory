@@ -6,9 +6,18 @@ github:
 blockchain:
   - address: "0xa64f2228ccec96076c82abb903021c33859082f8"
     networks:
+      - arbitrum
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: lunco.eth
+  - address: "0x020673a52560b50a70544d7f841fbc73626648f4"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet

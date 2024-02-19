@@ -6,8 +6,18 @@ github:
 blockchain:
   - address: "0x9390fa8656a161442928b442300358d82bec28b0"
     networks:
+      - arbitrum
+      - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: edfernandezg.eth
+  - address: "0xe351625d4e07d185880fdcc3a8fa6e2558d2f470"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet

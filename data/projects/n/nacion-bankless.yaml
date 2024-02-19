@@ -10,3 +10,17 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0xa8f0048a0d1a04663ca5010d0beac5bcaeea0eef"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet
+  - address: "0xd31e40b399d515e55b7cd94ffd7eccbbff44282d"
+    networks:
+      - arbitrum
+    tags:
+      - safe
+      - wallet

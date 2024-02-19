@@ -12,6 +12,8 @@ blockchain:
       - wallet
   - address: "0xe1887ff140bfa9d3b45d0b2077b7471124acd242"
     networks:
+      - arbitrum
+      - mainnet
       - optimism
     tags:
       - eoa
@@ -35,3 +37,23 @@ blockchain:
     tags:
       - eoa
       - deployer
+  - address: "0xf80cd14ec747b2adf7b1a9911b38c65a885daeea"
+    networks:
+      - mainnet
+      - arbitrum
+    tags:
+      - safe
+      - wallet
+  - address: "0xf26d1bb347a59f6c283c53156519cc1b1abaca51"
+    networks:
+      - mainnet
+      - arbitrum
+    tags:
+      - safe
+      - wallet
+  - address: "0x03fa0b1fd97014de62c4dc22120f92b71f7ee9d8"
+    networks:
+      - arbitrum
+    tags:
+      - safe
+      - wallet

@@ -1,5 +1,15 @@
 version: 3
 slug: datonic
-name: datonic
+name: datonic & Gitcoin Grants Data Portal
 github:
   - url: https://github.com/datonic
+  - url: https://github.com/davidgasquez/gitcoin-grants-data-portal
+blockchain:
+  - address: "0xb9ecee9a0e273d8a1857f3b8eea30e5dd3cb6335"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: kalendium.eth

@@ -3,3 +3,17 @@ slug: internet-archive
 name: Internet Archive
 github:
   - url: https://github.com/internetarchive
+blockchain:
+  - address: "0xc1b36d18642f0ff4b6be1c64d67e5f275114b7fe"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+  - address: "0x1dd8ec683e8b53c57ba5a01c5d2f866a3fbd3ce8"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

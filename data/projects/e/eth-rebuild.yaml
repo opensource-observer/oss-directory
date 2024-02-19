@@ -3,3 +3,12 @@ slug: eth-rebuild
 name: Eth-Rebuild
 github:
   - url: https://github.com/eth-rebuild
+blockchain:
+  - address: "0x807a1752402d21400d555e1cd7f175566088b955"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet

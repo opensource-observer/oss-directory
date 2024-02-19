@@ -7,7 +7,16 @@ blockchain:
   - address: "0x33359285f30e7b3386de70ca500f4fe27853765b"
     networks:
       - mainnet
+      - optimism
     tags:
       - eoa
       - wallet
     name: ltd.opscientia.eth
+  - address: "0xf023d9b047243b911e132e4b5877b5f09b8b66b9"
+    networks:
+      - mainnet
+      - optimism
+      - arbitrum
+    tags:
+      - eoa
+      - wallet

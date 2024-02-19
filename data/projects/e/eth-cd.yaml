@@ -3,3 +3,11 @@ slug: eth-cd
 name: eth-cd
 github:
   - url: https://github.com/eth-cd
+blockchain:
+  - address: "0xc903650ab7f88f7c912f657b020fcab8989e27a9"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

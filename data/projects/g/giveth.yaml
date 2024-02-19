@@ -54,15 +54,24 @@ blockchain:
     name: UUPSProxy
   - address: "0x4d9339dd97db55e3b9bcbe65de39ff9c04d1c2cd"
     networks:
+      - arbitrum
+      - mainnet
       - optimism
     tags:
       - safe
       - wallet
   - address: "0x634977e11c823a436e587c1a1eca959588c64287"
     networks:
+      - arbitrum
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: grants.giv.eth
+  - address: "0x97222b6ed77c17cd6cfc288ea363a688f57fb242"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet

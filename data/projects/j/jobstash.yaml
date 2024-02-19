@@ -6,13 +6,17 @@ github:
 blockchain:
   - address: "0xaa163c47065c22d17ed1c47e3e244337d2056c17"
     networks:
+      - arbitrum
       - mainnet
+      - optimism
     tags:
       - eoa
       - wallet
     name: duckdegen.eth
   - address: "0xf071e75c56ed5b162b5cb5e9d30d752bcd663f2d"
     networks:
+      - arbitrum
+      - mainnet
       - optimism
     tags:
       - eoa

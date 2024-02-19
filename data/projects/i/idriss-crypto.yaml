@@ -12,6 +12,7 @@ blockchain:
     name: TippingPG
   - address: "0x531eb60b2dde9a841ba358ee033533aaf90d1fea"
     networks:
+      - mainnet
       - optimism
     tags:
       - safe
@@ -21,4 +22,11 @@ blockchain:
       - optimism
     tags:
       - safe
+      - wallet
+  - address: "0x88d7709ce401e4e7b5068156423ecb4f60a99f75"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
       - wallet

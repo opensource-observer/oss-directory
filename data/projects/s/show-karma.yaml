@@ -52,8 +52,17 @@ blockchain:
     name: showkarma.eth
   - address: "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b"
     networks:
+      - arbitrum
+      - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: karmahq.eth
+  - address: "0xf768f5f340e89698465fc7c12f31cb485fff98d2"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

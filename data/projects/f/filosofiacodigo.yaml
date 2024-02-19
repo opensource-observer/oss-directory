@@ -55,6 +55,7 @@ blockchain:
     name: RandomnessCeremony
   - address: "0xb6f5414bab8d5ad8f33e37591c02f7284e974fcb"
     networks:
+      - arbitrum
       - mainnet
       - optimism
     tags:
@@ -68,3 +69,10 @@ blockchain:
       - eoa
       - wallet
     name: sucito.eth
+  - address: "0x730bf3b67090511a64aba060fbd2f7903536321e"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

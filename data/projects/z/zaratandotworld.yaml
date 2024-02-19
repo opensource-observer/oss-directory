@@ -1,5 +1,19 @@
 version: 3
 slug: zaratandotworld
-name: zaratanDotWorld
+name: Zaratan
 github:
   - url: https://github.com/zaratandotworld
+blockchain:
+  - address: "0xa2e6ac0fc55c5e16d00cf302aa54ba4423253d21"
+    networks:
+      - mainnet
+      - arbitrum
+    tags:
+      - eoa
+      - wallet
+  - address: "0xb2800742f81ddce563998b66511d21c14bceabcc"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

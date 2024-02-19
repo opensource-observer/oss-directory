@@ -3,3 +3,11 @@ slug: wallet-test-framework
 name: wallet-test-framework
 github:
   - url: https://github.com/wallet-test-framework
+blockchain:
+  - address: "0x004f67dabb603aaa58ed52641ccaff09c559704a"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

@@ -121,9 +121,22 @@ blockchain:
       - wallet
   - address: "0xde798cd9c53f4806b9cc7dd27adf7c641540167c"
     networks:
+      - arbitrum
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: geoweb.eth
+  - address: "0xe24c1eb6e50a5c802338e5a7fe5d26faae0a0bbb"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xba06071581c786013a62a8ab0ba3f16209d5a028"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

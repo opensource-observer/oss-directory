@@ -3,3 +3,18 @@ slug: earthist
 name: Earthist
 github:
   - url: https://github.com/earthist
+blockchain:
+  - address: "0x5076f87610ff3d5f859d562a050dae82f6b3c63e"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+  - address: "0xc2d706398a978b8c5aa4efcd824b57e978841107"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - safe
+      - wallet

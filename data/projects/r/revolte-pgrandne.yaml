@@ -3,6 +3,7 @@ slug: revolte-pgrandne
 name: Revolte
 github:
   - url: https://github.com/pgrandne/revolte
+  - url: https://github.com/irruptionlab
 blockchain:
   - address: "0x1a2b8bd408413179524e3e61ffa1378b7b7688d5"
     networks:
@@ -13,6 +14,7 @@ blockchain:
       - wallet
   - address: "0x9743f723c8cbd9eea522e9feb2656a0db8457497"
     networks:
+      - mainnet
       - optimism
     tags:
       - eoa

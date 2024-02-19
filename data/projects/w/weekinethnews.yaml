@@ -6,6 +6,7 @@ github:
 blockchain:
   - address: "0x13ebd3443fa5575f0eb173e323d8419f7452cfb1"
     networks:
+      - arbitrum
       - mainnet
       - optimism
     tags:
@@ -18,3 +19,10 @@ blockchain:
     tags:
       - wallet
     name: SplitWallet
+  - address: "0x288c53a1ba857ead34ad0e79f644087f8174185a"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

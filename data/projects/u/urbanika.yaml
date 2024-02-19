@@ -12,7 +12,9 @@ blockchain:
       - wallet
   - address: "0x0442a9abbc93058a873c371f21cc366338254a88"
     networks:
+      - arbitrum
       - mainnet
+      - optimism
     tags:
       - eoa
       - wallet
