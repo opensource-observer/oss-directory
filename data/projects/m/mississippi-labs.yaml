@@ -1,8 +1,9 @@
 version: 3
 slug: mississippi-labs
-name: Mississippi-Labs
+name: Mississippi Labs & AutoChessia
 github:
   - url: https://github.com/mississippi-labs
+  - url: https://github.com/HelheimLabs/autochessia
 blockchain:
   - address: "0xb0ee1755460dddb01f73104df2e61a89b0464885"
     networks:
@@ -11,3 +12,4 @@ blockchain:
     tags:
       - eoa
       - wallet
+    name: tooyoung.eth
