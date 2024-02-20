@@ -44,7 +44,10 @@ APIS = {
 }
 DEFAULT_API = APIS['mainnet']
 W3 = Web3(Web3.HTTPProvider(DEFAULT_API['alchemy']))
-NS = ENS.fromWeb3(W3)
+try:
+    NS = ENS.fromWeb3(W3)
+except:
+    NS = ENS.from_web3(W3)
 
 # Avoid rate limiting
 SLEEP_TIME = 0.5
