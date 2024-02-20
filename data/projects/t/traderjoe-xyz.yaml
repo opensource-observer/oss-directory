@@ -93,3 +93,15 @@ blockchain:
     tags:
       - contract
     name: LBRouter
+  - address: "0x3b0abc81fa6a47135e36a513ad8845f48f1ee179"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
+  - address: "0xc1f080be1324a2e7869ff50a4bb0e32b833be415"
+    networks:
+      - arbitrum
+    tags:
+      - deployer
+      - eoa
