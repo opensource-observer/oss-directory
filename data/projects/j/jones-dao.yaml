@@ -142,3 +142,129 @@ blockchain:
     tags:
       - contract
     name: ArbitrumWrappedJonesAura
+  - address: "0x2f43c6475f1ecbd051ce486a9f3ccc4b03f3d713"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpVaultRouter1
+  - address: "0xeb23c7e19db72f9a728fd64e1caa459e457cfaca"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpRewardTracker
+  - address: "0x3c5376bf032cec70c342b64f43778dc06bbd6673"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GlpJonesRewards
+  - address: "0xa79d813912959acb06f131d3ec30482af5ad9400"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GlpAdapter
+  - address: "0x15df56a82c194fefec9337c37a41964b69b584d5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpLeverageStrategy1
+  - address: "0xe66998533a1992ece9ea99cdf47686f4fc8458e0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpCompoundRewards
+  - address: "0x8e53d1b71bf7c6487cff5156257a687c8704cd31"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpLeverageStrategy
+  - address: "0x6911132effaee3d1116a96c1357830a35400883b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GlpPriceAggregator
+  - address: "0x13c6bed5aa16823aba5bba691caec63788b19d9d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpRewardTracker
+  - address: "0xb77289d3bf29baadfc7d301aa305fd4acabf889a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpRewardsSplitter
+  - address: "0x17ff154a329e37282eb9a76c3ae848fc277f24c7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpVault
+  - address: "0x64ecc55a4f5d61ead9b966bcb59d777593afbd6f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GlpStrategy
+  - address: "0x38333a2e4fc57b954fd454a3aa9fee1bd17d50fd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: jGlpViewer
+  - address: "0x43cc8e7026077e4b21ddc658ea26f39475ad7216"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpRewardsSplitter
+  - address: "0x42efe3e686808cca051a49bcde34c5cba2ebefc1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GlpAdapter1
+  - address: "0xda04b5f54756774ad405de499bb5100c80980a12"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpRewardDistributor
+  - address: "0xa485a0bc44988b95245d5f20497ccaff58a73e99"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpStableVault
+  - address: "0x65ab0ad9f0e6db36aac10f28e97505c199a689b4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpRewardsSwapper
+  - address: "0x5a446ba4d4bf482a3e63648e76e9404e784f7bbc"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: IncentiveReceiver
+  - address: "0x7241bc8035b65865156ddb5edef3eb32874a3af6"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpCompoundRewards
+  - address: "0x01ad96292cdc627307817c428562226fd905aec2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: JonesGlpVaultRouter
