@@ -91,6 +91,8 @@ blockchain:
       - optimism
     tags:
       - contract
+      - deployer
+      - eoa
       - factory
     name: unverified
   - address: "0x2b95bf93b5873c8cb9ae3374e3054736a5b79676"
@@ -115,6 +117,8 @@ blockchain:
       - optimism
     tags:
       - contract
+      - deployer
+      - eoa
       - factory
     name: various:DiffersByChain
   - address: "0x8176c5408c5dec30149232a74ef8873379b59982"
