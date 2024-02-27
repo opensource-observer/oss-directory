@@ -29,14 +29,6 @@ blockchain:
       - contract
       - factory
     name: various:DiffersByChain
-  - address: "0x0b2402144bb366a632d14b83f244d2e0e21bd39c"
-    networks:
-      - arbitrum
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: various:DiffersByChain
   - address: "0xee91c335eab126df5fdb3797ea9d6ad93aec9722"
     networks:
       - arbitrum
@@ -220,3 +212,9 @@ blockchain:
     tags:
       - contract
     name: BridgeToken
+  - address: "0x0b2402144bb366a632d14b83f244d2e0e21bd39c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TokenBridge

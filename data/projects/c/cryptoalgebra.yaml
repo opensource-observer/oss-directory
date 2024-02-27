@@ -1,0 +1,51 @@
+version: 3
+slug: cryptoalgebra
+name: Algebra Finance
+github:
+  - url: https://github.com/cryptoalgebra
+blockchain:
+  - address: "0x6dd3fb9653b10e806650f107c3b5a0a6ff974f65"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: AlgebraPoolDeployer
+  - address: "0x89aee07e1dbafc82f089b45ffc763738e9fff226"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: AlgebraPoolDeployer
+  - address: "0x1a3c9b1d2f0529d97f2afc5136cc23e58f1fd35b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+      - factory
+    name: AlgebraFactory
+  - address: "0xb1026b8e7276e7ac75410f1fcbbe21796e8f7526"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AlgebraPool
+  - address: "0x521aa84ab3fcc4c05cabac24dc3682339887b126"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AlgebraPool
+  - address: "0xc86eb7b85807020b4548ee05b54bfc956eebbfcd"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AlgebraPool
+  - address: "0xe51635ae8136abac44906a8f230c2d235e9c195f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: AlgebraPool

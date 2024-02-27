@@ -561,3 +561,15 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0x6fd74033a717ebb3c60c08b37a94b6cf96de54ab"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: QuestTerminalKey
+  - address: "0xec3a9c7d612e0e0326e70d97c9310a5f57f9af9e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RabbitHoleReceipt

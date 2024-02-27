@@ -3,28 +3,3 @@ slug: tornadocash
 name: Tornado Cash
 github:
   - url: https://github.com/tornadocash
-blockchain:
-  - address: "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: EIP1967Proxy
-  - address: "0x469788fe6e9e9681c6ebf3bf78e7fd26fc015446"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: DelegateRegistry
-  - address: "0x000000000000addb49795b0f9ba5bc298cdda236"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: ModuleProxyFactory
-  - address: "0x00000000000dc7f163742eb4abef650037b1f588"
-    networks:
-      - arbitrum
-    tags:
-      - contract
-    name: ModuleProxyFactory

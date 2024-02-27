@@ -294,3 +294,15 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ArbMCBv2
+  - address: "0x80eefa1ded44f08e2dacfab07b612be66363326e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: MCBVestingUpgradeable

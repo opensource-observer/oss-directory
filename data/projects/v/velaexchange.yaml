@@ -160,3 +160,21 @@ blockchain:
     tags:
       - contract
     name: TokenRewardDistributor
+  - address: "0x12d4528e69e196a0c291df3b28449e9fc2769d11"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ComplexRewarderPerSec
+  - address: "0x40c3bd6d4a07117fce69b60eb1d446984e0a1383"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ComplexRewarderPerSec
+  - address: "0xf9c059a25bf9431d70a4504bd1ce3bfd9c21b477"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ComplexRewarderPerSec

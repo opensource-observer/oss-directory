@@ -782,3 +782,27 @@ blockchain:
     tags:
       - eoa
       - deployer
+  - address: "0xefdd7374551897b11a23ec7b5694c713dfda76f1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UiIncentiveDataProviderV3
+  - address: "0x35dde5599318112829d97a29f4e8f4c49aafc47c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UiIncentiveDataProviderV3
+  - address: "0x41b66b4b6b4c9dab039d96528d1b88f7baf8c5a4"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DefaultReserveInterestRateStrategy
+  - address: "0xa9f3c3cae095527061e6d270dbe163693e6fda9d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DefaultReserveInterestRateStrategy

@@ -368,11 +368,32 @@ blockchain:
     networks:
       - arbitrum
     tags:
+      - contract
       - deployer
       - eoa
+      - factory
+    name: FraxswapFactory
   - address: "0x26ce2091749059a66703cd4b998156d94ec393ef"
     networks:
       - arbitrum
     tags:
       - deployer
       - eoa
+  - address: "0x053b92ffa8a15b7db203ab66bbd5866362013566"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FraxswapPair
+  - address: "0xc2544a32872a91f4a553b404c6950e89de901fdb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FraxswapRouter
+  - address: "0xb771410e2b1d892c3469711824c44769528fdc89"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FraxswapPair

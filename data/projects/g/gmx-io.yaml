@@ -280,3 +280,75 @@ blockchain:
     tags:
       - contract
     name: MarketToken
+  - address: "0xb95db5b167d75e6d04227cfffa61069348d271f5"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RewardRouterV2
+  - address: "0x3d6ba331e3d9702c5e8a8d254e5d8a285f223aba"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PositionRouter
+  - address: "0x6a9215c9c148ca68e11aa8534a413b099fd6798f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Timelock
+  - address: "0x8960d1b45a2d15d063b84b34dfb2fb2ca7535527"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FastPriceFeed
+  - address: "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PositionRouter
+  - address: "0x11d62807dae812a0f1571243460bf94325f43bb7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FastPriceFeed
+  - address: "0xa906f338cb21815cbc4bc87ace9e68c87ef8d8f1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RewardRouterV2
+  - address: "0x75e42e6f01baf1d6022bea862a28774a9f8a4a0c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PositionManager
+  - address: "0x87a4088bd721f83b6c2e5102e2fa47022cb1c831"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: PositionManager
+  - address: "0xe7e740fa40ca16b15b621b49de8e9f0d69cf4858"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Timelock
+  - address: "0x352f684ab9e97a6321a13cf03a61316b681d9fd2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OrderHandler
+  - address: "0x51e210dc8391728e2017b2ec050e40b2f458090e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OrderHandler

@@ -52,3 +52,10 @@ blockchain:
     tags:
       - contract
     name: ERC20Bridged
+  - address: "0xec576a26335de1c360d2fc9a68cba6ba37af4a13"
+    networks:
+      - arbitrum
+      - mainnet
+    tags:
+      - deployer
+      - eoa

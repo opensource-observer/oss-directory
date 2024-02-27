@@ -831,3 +831,21 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x096760f208390250649e3e8763348e783aef5562"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: L2CustomGateway
+  - address: "0x5288c571fd7ad117bea99bf60fe0846c4e84f933"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: L2GatewayRouter
+  - address: "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ArbFiatToken
