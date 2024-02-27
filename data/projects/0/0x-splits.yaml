@@ -18,6 +18,7 @@ blockchain:
       - wallet
   - address: "0x4df01754ebd055498c8087b1e9a5c7a9ad19b0f6"
     networks:
+      - arbitrum
       - optimism
     tags:
       - contract
@@ -54,3 +55,9 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0xcbb386b801ec72a5ab02aeb723decd12f96ede41"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: Recoup

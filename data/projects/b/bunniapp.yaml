@@ -39,3 +39,9 @@ blockchain:
     tags:
       - contract
     name: Child Liquidity Gauge Factory
+  - address: "0xb45913337aca4988b08a61388c25e48ba5f6227c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: UniswapV3Swapper

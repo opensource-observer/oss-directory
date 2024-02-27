@@ -256,3 +256,21 @@ blockchain:
     tags:
       - contract
     name: EpochStakingRewardsRolling
+  - address: "0x0f0be120ca4abe6adecba7033a9699d9a53c01d1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RewardTracker
+  - address: "0x4808f4828edbf64d867d3d6c161962290da1ff9c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RewardTracker
+  - address: "0xe9645988a5e6d5efcc939bed1f3040dba94c6cbb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: RewardTracker

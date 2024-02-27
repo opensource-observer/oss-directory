@@ -91,3 +91,15 @@ blockchain:
     tags:
       - contract
     name: VestingMaster
+  - address: "0x4aef9d850a71d0f0051e8c69bf865ae34188f2e9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ArbswapSmartRouter
+  - address: "0x6947a425453d04305520e612f0cb2952e4d07d62"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ArbswapSmartRouter

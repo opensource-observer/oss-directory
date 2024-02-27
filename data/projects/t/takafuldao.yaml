@@ -42,3 +42,33 @@ blockchain:
     tags:
       - contract
     name: TakaturnDiamond_v1
+  - address: "0xd9d470e30c5ffefafa39d9081863c04a851ad7fa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: GettersFacet_v1
+  - address: "0xa1603918f95136413b7f00c782cf7328cd44ac52"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: YGFacetZaynFi_v1
+  - address: "0xed2fa02b54de23844893f67db60dd0aebc5e8f8a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: TermFacet_v1
+  - address: "0xeeb2f5f6424d219d91e9ee3226c6e8cd53f9e8fb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: FundFacet_v1
+  - address: "0x712fb3da4d0a5fd3b4bc68279ac658e9452e5860"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: CollateralFacet_v1

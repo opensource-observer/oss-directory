@@ -2260,3 +2260,63 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0x5a4842c0c1f81ebbae7bb3ec07edf7ae55aac631"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0x6d859a7d88d94870ee6510acaa48e3d8684e7b03"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0xdacee745b517c9cdfd7f749dff9eb03f51a27a13"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x4f7c8ee91d41867fe3fb564b4b293456f36a78e0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0xef4a92fcde48c84ef2b5c4a141a4cd1988fc73a9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0xb619913921356904bf62aba7271e694fd95aa10d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0xec6f3ef9481e7b8484290edbae2cedcdb0ce790e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0xe044919cf58dfb066fc9de7c69c7db19f336b20c"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x919e5e0c096002cb8a21397d724c4e3ebe77bc15"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x4b236ac3b8d4666cbdc4e725c4366382aa30d86b"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: OptionGreekCache

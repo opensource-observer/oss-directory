@@ -33,3 +33,53 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x4e59b44847b379578588920ca78fbf26c0b4956c"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x17ec73692f0adf7e7c554822fbeaacb4be781762"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SablierV2Comptroller
+  - address: "0xc245d6c9608769cef91c3858e4d2a74802b9f1bb"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SablierV2NFTDescriptor
+  - address: "0xa9efbef1a35ff80041f567391bdc9813b2d50197"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SablierV2LockupDynamic
+  - address: "0x197d655f3be03903fd25e7828c3534504bfe525e"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SablierV2LockupLinear
+  - address: "0xf390ce6f54e4dc7c5a5f7f8689062b7591f7111d"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SablierV2LockupDynamic
+  - address: "0x2fb103fc853b2f5022a840091ab1cdf5172e7cfa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SablierV2NFTDescriptor
+  - address: "0xfdd9d122b451f549f48c4942c6fa6646d849e8c1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SablierV2LockupLinear

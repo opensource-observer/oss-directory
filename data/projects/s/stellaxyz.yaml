@@ -70,3 +70,27 @@ blockchain:
     tags:
       - contract
     name: stella_univ3_pos_manager
+  - address: "0xac2047a0ad32f2ccc60c35178ed42fe48d0a9df1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: stella_reward_vault
+  - address: "0x3251f402cc06b33e742f08e1adbe0d2e4c1ea2fa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: stella_lending_proxy
+  - address: "0xa67cf61b0b9bc39c6df04095a118e53bfb9303c7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: stella_reward_vault
+  - address: "0xfff45c0b77d7c0c33a97a879576f0550b6842bff"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: stella_lending_proxy

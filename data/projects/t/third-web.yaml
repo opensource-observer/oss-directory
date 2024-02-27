@@ -686,3 +686,39 @@ blockchain:
     tags:
       - contract
     name: TokenERC20
+  - address: "0xccddcec1831646beff2753249f1b9c580327e89f"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DropERC1155
+  - address: "0x1b5947e1a2d5a29d0df20931deab0b87818209b9"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DropERC20
+  - address: "0xc4903c1ff5367b9ac2c349b63dc2409421aaee2a"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DropERC721
+  - address: "0x2df9851af45dd41c8584ac55d983c604da985bc7"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: SignatureDrop
+  - address: "0x0148b28a38efaac31b6aa0a6d9feb70fe7c91ffa"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DropERC721
+  - address: "0x2a396b2d90bacef19cda973586b2633d22710fc2"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DropERC1155

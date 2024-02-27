@@ -160,3 +160,33 @@ blockchain:
     tags:
       - contract
     name: CustomERC20
+  - address: "0x7b07164ecfaf0f0d85dfc062bc205a4674c75aa0"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DPPOracle
+  - address: "0xe05dd51e4eb5636f4f0e8e7fbe82ea31a2ecef16"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DODOFeeRouteProxy
+  - address: "0x7db214f2d46d94846936a0f8bd9044c5c5bd2b93"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DPPOracle
+  - address: "0xc4a1a152812de96b2b1861e433f42290cdd7f113"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DODOFeeRouteProxy
+  - address: "0x1506b54a1c0ea1b2f4a84866ec5776f7f6e7f0b1"
+    networks:
+      - arbitrum
+    tags:
+      - contract
+    name: DPPOracle
