@@ -33,14 +33,6 @@ blockchain:
       - deployer
       - eoa
     name: deployer.thirdweb.eth
-  - address: "0x76f948e5f13b9a84a81e5681df8682bbf524805e"
-    networks:
-      - arbitrum
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: various:DiffersByChain
   - address: "0xd24b3de085cfd8c54b94fead08a7962d343e6de0"
     networks:
       - arbitrum
