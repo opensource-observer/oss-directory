@@ -12,69 +12,69 @@ blockchain:
       - optimism
       - mainnet
       - arbitrum
-      - scroll
-      - polygon
-      - polygon zkevm
-      - base
-      - blast
-      - mode
-      - celo
-      - gnosis
-      - zora
-      - bnb
-      - linea
-      - metis
+      # - scroll
+      # - polygon
+      # - polygon zkevm
+      # - base
+      # - blast
+      # - mode
+      # - celo
+      # - gnosis
+      # - zora
+      # - bnb
+      # - linea
+      # - metis
   - address: "0x1195Cf65f83B3A5768F3C496D3A05AD6412c64B7"
     networks:
       - optimism
       - mainnet
       - arbitrum
-      - scroll
-      - polygon
-      - polygon zkevm
-      - base
-      - blast
-      - mode
-      - celo
-      - gnosis
-      - zora
-      - bnb
-      - linea
-      - metis
+      # - scroll
+      # - polygon
+      # - polygon zkevm
+      # - base
+      # - blast
+      # - mode
+      # - celo
+      # - gnosis
+      # - zora
+      # - bnb
+      # - linea
+      # - metis
     tags:
       - contract
       - proxy
     name: CUBE
-  - address: "0xF77bd7c05598E094bc06e34bB81C07Bd3B091dB1"
-    networks:
-      - zksync
-    tags:
-      - contract
-      - proxy
-    name: CUBE
-  - address: "0x1796dfBD0a0CF0e9940dd9463ee2cCf8d054E467"
-    tags:
-      - eoa
-      - deployer
-    networks:
-      - zksync
+  # - address: "0xF77bd7c05598E094bc06e34bB81C07Bd3B091dB1"
+  #   networks:
+  #     - zksync
+  #   tags:
+  #     - contract
+  #     - proxy
+  #   name: CUBE
+  # - address: "0x1796dfBD0a0CF0e9940dd9463ee2cCf8d054E467"
+  #   tags:
+  #     - eoa
+  #     - deployer
+  #   networks:
+  #     - zksync
   - address: "0x5e2b297016d41055876ff1078100c548adc3a498"
     networks:
       - optimism
       - mainnet
       - arbitrum
-      - scroll
-      - polygon
-      - polygon zkevm
-      - base
-      - blast
-      - mode
-      - celo
-      - gnosis
-      - zora
-      - bnb
-      - linea
-      - metis
+      # - scroll
+      # - polygon
+      # - polygon zkevm
+      # - base
+      # - blast
+      # - mode
+      # - celo
+      # - gnosis
+      # - zora
+      # - bnb
+      # - linea
+      # - metis
     tags:
       - contract
       - factory
