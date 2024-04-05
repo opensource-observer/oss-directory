@@ -16,28 +16,32 @@ const COLLECTIONS_GLOB = "./data/collections/*.yaml";
  * reads from the `./data` directory and returns the projects and collections.
  */
 export async function fetchData(branchOrCommit?: string) {
-  let projects: Project[] = [];
-  let collections: Collection[] = [];
-
-  await tmp.withDir(
+  return await tmp.withDir(
     async (t) => {
       const git = simpleGit();
       await git.clone(OSS_DIRECTORY_URL, t.path);
       if (branchOrCommit) {
         await git.cwd(t.path).checkout(branchOrCommit);
       }
-      const projectFiles = await glob(path.resolve(t.path, PROJECTS_GLOB));
-      const collectionFiles = await glob(
-        path.resolve(t.path, COLLECTIONS_GLOB),
-      );
-      projects = await Promise.all(projectFiles.map((f) => readProjectFile(f)));
-      collections = await Promise.all(
-        collectionFiles.map((f) => readCollectionFile(f)),
-      );
+      return loadData(t.path);
     },
     { unsafeCleanup: true },
   );
-  //console.log(projects);
-  //console.log(collections);
+}
+
+/**
+ * Loads data from some base path
+ *
+ * @param basePath The path to load data from
+ */
+export async function loadData(basePath: string) {
+  const projectFiles = await glob(path.resolve(basePath, PROJECTS_GLOB));
+  const collectionFiles = await glob(path.resolve(basePath, COLLECTIONS_GLOB));
+  const projects: Project[] = await Promise.all(
+    projectFiles.map((f) => readProjectFile(f)),
+  );
+  const collections: Collection[] = await Promise.all(
+    collectionFiles.map((f) => readCollectionFile(f)),
+  );
   return { projects, collections };
 }
