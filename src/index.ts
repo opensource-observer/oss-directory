@@ -19,5 +19,5 @@ export {
   readCollectionFile,
 };
 
-import { fetchData } from "./fetchData.js";
-export { fetchData };
+import { fetchData, loadData } from "./fetchData.js";
+export { fetchData, loadData };
