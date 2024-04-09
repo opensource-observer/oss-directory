@@ -1,0 +1,24 @@
+version: 3
+slug: clipper
+name: Clipper
+github:
+  - url: https://github.com/admiraldao
+blockchain:
+  - address: "0x5130f6ce257b8f9bf7fac0a0b519bd588120ed40"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ClipperPackedVerifiedExchange
+  - address: "0xd34a8775d06d41b36054d59ef2d09a79b7aa1fa2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LinearVestingVault
+  - address: "0xdbd4ffc32b34f630dd8ac18d37162ec8462db7db"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ClipperPackedExchange
