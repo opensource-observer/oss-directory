@@ -48,7 +48,7 @@ runs:
     - name: Run validation
       shell: bash
       run: |
-        cd oso/ops/external-prs && pnpm tools ossd validate-pr ${{ inputs.pr }} ${{ inputs.sha }} $(pwd)/main $(pwd)/pr
+        cd oso/ops/external-prs && pnpm tools ossd validate-pr ${{ inputs.pr }} ${{ inputs.sha }} ../../../main ../../../pr
       env:
         PR_TOOLS_REPO: ${{ github.repository }}
         PR_TOOLS_OPTIMISM_RPC_URL: ${{ inputs.optimism_rpc_url }}
