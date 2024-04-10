@@ -22,6 +22,12 @@ inputs:
   google_project_id:
     description: The google project id
     required: true
+  mainnet_rpc_url:
+    description: The RPC url for Ethereum Mainnet
+    required: true
+  optimism_rpc_url:
+    description: The RPC url for Optimism
+    required: true
 
 runs:
   using: "composite"
@@ -45,3 +51,5 @@ runs:
         cd oso/ops/external-prs && pnpm tools ossd validate-pr setup ${{ inputs.pr }} ${{ inputs.sha }} $(pwd)/main $(pwd)/pr
       env:
         PR_TOOLS_REPO: ${{ github.repository }}
+        PR_TOOLS_OPTIMISM_RPC_URL: ${{ inputs.optimism_rpc_url }}
+        PR_TOOLS_MAINNET_RPC_URL: ${{ inputs.mainnet_rpc_url }}
