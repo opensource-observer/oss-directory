@@ -1,0 +1,24 @@
+# THIS IS JUST A TEST. RANDOMLY PICKED THIS UP
+version: 3
+slug: rhino
+name: rhino.fi
+github:
+  - url: https://github.com/rhinofi
+blockchain:
+  - address: "0x0bCa65bf4b4c8803d2f0B49353ed57CAAF3d66Dc"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xaf8aE6955d07776aB690e565Ba6Fbc79B8dE3a5d"
+    networks:
+      - mainnet
+    tags:
+      - contract
+  # This is a randomly generated EOA
+  - address: "0x7B864893eDaE2d229b9Ed9C54873CA605db8155B"
+    networks:
+      - optimism
+      - mainnet
+    tags:
+      - eoa

@@ -30,9 +30,7 @@ runs:
     - name: Set up Node.js 18
       uses: actions/setup-node@v3
       with:
-        cache: "pnpm"
         node-version: "18.x"
-        working-directory: ./oso
 
     - name: Build the ops tooling
       shell: bash
