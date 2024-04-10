@@ -1,0 +1,60 @@
+# NOTE: This name appears in GitHub's Checks API and in workflow's status badge.
+name: test-deploy-owners
+env:
+  # CI variables
+  DOCKER_PLATFORM: "amd64"
+  # Indexer variables
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  PR_TOOLS_GITHUB_APP_PRIVATE_KEY: ${{ secrets.PR_TOOLS_GITHUB_APP_PRIVATE_KEY }}
+  PR_TOOLS_GITHUB_APP_ID: ${{ secrets.PR_TOOLS_GITHUB_APP_ID }}
+
+  PR_TOOLS_REPO: ${{ github.repository }}
+
+# Trigger the workflow when:
+on:
+  pull_request_target:
+    types: [assigned, opened, synchronize, reopened]
+
+# Cancel in progress jobs on new pushes.
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate-pr:
+    name: Validate PR
+    if: ${{ github.event.pull_request }}
+    environment: external-prs-app
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          path: main
+          fetch-depth: 1
+
+      - name: Setup external pr tools
+        uses: ./main/.github/workflows/setup-external-pr-tools
+
+      - name: Initialize check
+        run: |
+          cd ./oso/ops/external-prs &&
+          pnpm tools initialize-check ${{ github.event.pull_request.head.sha }} ${{ github.event.pull_request.user.login }} "validate"
+
+      - name: Login to google
+        uses: "google-github-actions/auth@v2"
+        with:
+          credentials_json: "${{ secrets.GOOGLE_BQ_ADMIN_CREDENTIALS_JSON }}"
+          create_credentials_file: true
+        if: ${{ contains(fromJson('["OWNER", "MEMBER", "COLLABORATOR", "CONTRIBUTOR"]'), github.event.pull_request.author_association) }}
+
+      - name: Run validation
+        uses: ./.github/workflows/test-deploy
+        with:
+          sha: ${{ github.event.pull_request.head.sha }}
+          pr: ${{ github.event.pull_request.number }}
+          requester: ${{ github.event.sender.login }}
+          author: ${{ github.event.sender.login }}
+          gcp_service_account_path: ${{ env.GOOGLE_APPLICATION_CREDENTIALS }}
+          google_project_id: ${{ vars.GOOGLE_PROJECT_ID }}
+        if: ${{ contains(fromJson('["OWNER", "MEMBER", "COLLABORATOR", "CONTRIBUTOR"]'), github.event.pull_request.author_association) }}
