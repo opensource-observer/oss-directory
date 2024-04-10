@@ -50,8 +50,8 @@ jobs:
           author: ${{ steps.parse_comment.outputs.issue_author }}
           gcp_service_account_path: ${{ env.GOOGLE_APPLICATION_CREDENTIALS }}
           google_project_id: ${{ vars.GOOGLE_PROJECT_ID }}
-          optimism_url: ${{ secrets.PR_TOOLS_OPTIMISM_RPC_URL }}
-          mainnet_url: ${{ secrets.PR_TOOLS_MAINNET_RPC_URL }}
+          optimism_rpc_url: ${{ secrets.PR_TOOLS_OPTIMISM_RPC_URL }}
+          mainnet_rpc_url: ${{ secrets.PR_TOOLS_MAINNET_RPC_URL }}
 
         # This check isn't for security it's mostly a convenience so this won't
         # fail and muddy up the actions UI

@@ -49,7 +49,7 @@ jobs:
         if: ${{ contains(fromJson('["OWNER", "MEMBER", "COLLABORATOR", "CONTRIBUTOR"]'), github.event.pull_request.author_association) }}
 
       - name: Run validation
-        uses: ./.github/workflows/test-deploy
+        uses: ./main/.github/workflows/validate
         with:
           sha: ${{ github.event.pull_request.head.sha }}
           pr: ${{ github.event.pull_request.number }}
@@ -57,4 +57,6 @@ jobs:
           author: ${{ github.event.sender.login }}
           gcp_service_account_path: ${{ env.GOOGLE_APPLICATION_CREDENTIALS }}
           google_project_id: ${{ vars.GOOGLE_PROJECT_ID }}
+          optimism_rpc_url: ${{ secrets.PR_TOOLS_OPTIMISM_RPC_URL }}
+          mainnet_rpc_url: ${{ secrets.PR_TOOLS_MAINNET_RPC_URL }}
         if: ${{ contains(fromJson('["OWNER", "MEMBER", "COLLABORATOR", "CONTRIBUTOR"]'), github.event.pull_request.author_association) }}
