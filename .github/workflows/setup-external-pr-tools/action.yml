@@ -9,7 +9,7 @@ runs:
     - name: Checkout code
       uses: actions/checkout@v3
       with:
-        repository: opensource-observer/oss-directory
+        repository: opensource-observer/oso
         path: oso
         # Check out pull request's HEAD commit instead of the merge commit to
         # prevent gitlint from failing due to too long commit message titles,
