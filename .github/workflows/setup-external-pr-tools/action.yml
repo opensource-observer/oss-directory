@@ -24,7 +24,7 @@ runs:
         run_install: |
           - recursive: true
             args: [--frozen-lockfile, --strict-peer-dependencies]
-        working-directory: ./oso
+            cwd: ./oso
 
     - name: Set up Node.js 18
       uses: actions/setup-node@v3
