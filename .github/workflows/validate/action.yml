@@ -53,3 +53,4 @@ runs:
         PR_TOOLS_REPO: ${{ github.repository }}
         PR_TOOLS_OPTIMISM_RPC_URL: ${{ inputs.optimism_rpc_url }}
         PR_TOOLS_MAINNET_RPC_URL: ${{ inputs.mainnet_rpc_url }}
+        PR_TOOLS_DUCKDB_MEMORY_LIMIT: 4GB
