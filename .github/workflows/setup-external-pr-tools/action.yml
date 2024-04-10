@@ -31,7 +31,7 @@ runs:
       with:
         cache: "pnpm"
         node-version: "18.x"
-      working-directory: ./oso
+        working-directory: ./oso
 
     - name: Build the ops tooling
       shell: bash
