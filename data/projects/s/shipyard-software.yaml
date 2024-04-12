@@ -1,8 +1,9 @@
 version: 3
 slug: shipyard-software
-name: Shipyard Software
+name: Clipper (Shipyard Software & Admiral DAO)
 github:
   - url: https://github.com/shipyard-software
+  - url: https://github.com/admiraldao
 blockchain:
   - address: "0x6eb3783165e3e9bf6f3b463524738a2147be08ff"
     networks:
@@ -146,3 +147,9 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0xd34a8775d06d41b36054d59ef2d09a79b7aa1fa2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LinearVestingVault
