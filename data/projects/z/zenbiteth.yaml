@@ -1,5 +1,53 @@
 version: 3
 slug: zenbiteth
-name: zenbitETH
+name: zenbit.eth
 github:
-  - url: https://github.com/zenbiteth
+  - url: https://github.com/zenbitETH/Ciudades-DAO
+  - url: https://github.com/zenbitETH/zengo
+  - url: https://github.com/zenbitETH/eneagon
+blockchain:
+  - address: "0x7bb99d772a5a9f37d35e1c311a95c15e8487fe30"
+    networks:
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xa7dc76ae4a98da6352f283874b4c6d3bfb817dc1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DAO
+  - address: "0xb3911d5f92181ff728c72f0a162e8d6f3bdd5b66"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Account
+  - address: "0xbace7a1b6ee3fb476fc5feb7e7bf3a60293bc3cb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PunkCity
+  - address: "0x7e41de88c46d9fb24547d01f9d396e7d2d15cc14"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x3a250dfbddf46f798ebd2ef67ddff10014946e9b"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: punkcities.eth
+  - address: "0xecb4c1245665e8a1f43826355aab0dd6bf336e05"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: zenbit.eth
