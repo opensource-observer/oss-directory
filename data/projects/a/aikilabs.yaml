@@ -1,5 +1,19 @@
 version: 3
 slug: aikilabs
-name: aikilabs
+name: Aiki Labs
 github:
   - url: https://github.com/aikilabs
+blockchain:
+  - address: "0x42859cc8b7c8092db8157cc9cc34c898171de6ce"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x2e2316088c015f4bf27d86a1458a707af536a324"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
