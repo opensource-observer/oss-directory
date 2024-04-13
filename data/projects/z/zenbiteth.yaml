@@ -6,10 +6,12 @@ github:
   - url: https://github.com/zenbitETH/zengo
   - url: https://github.com/zenbitETH/eneagon
 blockchain:
-  - address: "0x7bb99d772a5a9f37d35e1c311a95c15e8487fe30"
-    networks:
-      - optimism
-    name: Non EOA Deployer
+  # - address: "0x7bb99d772a5a9f37d35e1c311a95c15e8487fe30"
+  #   networks:
+  #     - optimism
+  #   tags:
+  #     - deployer
+  #   name: Non EOA Deployer
   - address: "0xa7dc76ae4a98da6352f283874b4c6d3bfb817dc1"
     networks:
       - optimism
