@@ -1,5 +1,12 @@
 version: 3
 slug: whitehatdao
-name: WhiteHatDAO
+name: White Hat DAO
 github:
-  - url: https://github.com/whitehatdao
+  - url: https://github.com/WhiteHatDAO
+blockchain:
+  - address: "0x7bd7de26ebd064465bb9c272513bb3bcbddb1e93"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
