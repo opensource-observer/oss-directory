@@ -13,13 +13,6 @@ blockchain:
       - deployer
       - eoa
     name: aadaiwei.eth
-  - address: "0x94650d61b940496b1bd88767b7b541b1121e0ccf"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: unverified
   - address: "0x0ba1195d53465057d137cf3c62e702c1a518bac6"
     networks:
       - optimism
@@ -111,12 +104,6 @@ blockchain:
     tags:
       - contract
     name: various:DiffersByChain
-  - address: "0x472f1c1b51b1e2dc022e9eb9673c1f2f23df6e72"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: unverified
   - address: "0xdae4db475aca613a5e2dc5fc304da7e962b3cead"
     networks:
       - arbitrum
@@ -153,26 +140,12 @@ blockchain:
     tags:
       - contract
     name: SerdeFacet
-  - address: "0x26bda683f874e7ae3e3a5d3fad44bcb82a7c107c"
-    networks:
-      - arbitrum
-      - mainnet
-      - optimism
-    tags:
-      - contract
-    name: various:DiffersByChain
   - address: "0x68aecd6f5b0df5b85c55be8b0563f788dc8b9af0"
     networks:
       - optimism
     tags:
       - contract
     name: StargateFacet
-  - address: "0xd64715afcc9015eca711d3915b3d11a5e97904e7"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: unverified
   - address: "0x0f4aedfb8da8af176deff282da86ebbe3a0ea19e"
     networks:
       - optimism
@@ -311,12 +284,6 @@ blockchain:
     tags:
       - contract
     name: BoolFacet
-  - address: "0xbebaf513a35c45141dd7fe7ed88c9bb145c91e4f"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: unverified
   - address: "0x3177d291386899f0674ef494015e132e54b7a973"
     networks:
       - arbitrum
@@ -360,13 +327,6 @@ blockchain:
     tags:
       - contract
     name: StargateFacet
-  - address: "0x361c07e1347d8e38718b70dbe3d024156d0c9b49"
-    networks:
-      - mainnet
-      - optimism
-    tags:
-      - contract
-    name: unverified
   - address: "0xd0bfbd8cc8ff5e6bb72b70086664166ba23277e8"
     networks:
       - optimism
