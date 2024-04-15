@@ -1,5 +1,12 @@
 version: 3
 slug: thescinitiative
-name: TheSCInitiative
+name: The Science Commons Initiative
 github:
-  - url: https://github.com/thescinitiative
+  - url: https://github.com/TheSCInitiative
+blockchain:
+  - address: "0x01d8aeff110a65da4052f140c19af10374e44525"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
