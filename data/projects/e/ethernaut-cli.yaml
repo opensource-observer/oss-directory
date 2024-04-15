@@ -1,0 +1,28 @@
+version: 3
+slug: ethernaut-cli
+name: Ethernaut CLI
+github:
+  - url: https://github.com/theethernaut/ethernaut-cli
+npm:
+  - url: https://www.npmjs.com/package/ethernaut-cli
+  - url: https://www.npmjs.com/package/ethernaut-ai
+  - url: https://www.npmjs.com/package/ethernaut-ai-ui
+  - url: https://www.npmjs.com/package/ethernaut-challenges
+  - url: https://www.npmjs.com/package/ethernaut-interact
+  - url: https://www.npmjs.com/package/ethernaut-interact-ui
+  - url: https://www.npmjs.com/package/ethernaut-network
+  - url: https://www.npmjs.com/package/ethernaut-network-ui
+  - url: https://www.npmjs.com/package/ethernaut-ui
+  - url: https://www.npmjs.com/package/ethernaut-util
+  - url: https://www.npmjs.com/package/ethernaut-util-ui
+  - url: https://www.npmjs.com/package/ethernaut-wallet
+  - url: https://www.npmjs.com/package/ethernaut-wallet-ui
+blockchain:
+  - address: "0x45a10F35BeFa4aB841c77860204b133118B7CcAE"
+    networks:
+      - optimism
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: theethernaut.eth
