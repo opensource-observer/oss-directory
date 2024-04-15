@@ -1,5 +1,12 @@
 version: 3
 slug: chainwayxyz
-name: chainwayxyz
+name: Chainway Labs
 github:
   - url: https://github.com/chainwayxyz
+blockchain:
+  - address: "0x09dcfde0fff76ced37a78de5e7008e7401f92b3b"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet

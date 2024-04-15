@@ -1,5 +1,14 @@
 version: 3
 slug: smartinvoicexyz
-name: SmartInvoiceXYZ
+name: Smart Invoice
 github:
   - url: https://github.com/smartinvoicexyz
+blockchain:
+  - address: "0xff16d64179a02d6a56a1183a28f1d6293646e2dd"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: plor.eth
