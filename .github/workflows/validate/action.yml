@@ -28,6 +28,9 @@ inputs:
   optimism_rpc_url:
     description: The RPC url for Optimism
     required: true
+  arbitrum_rpc_url:
+    description: The RPC url for Arbitrum
+    required: true
 
 runs:
   using: "composite"
@@ -53,3 +56,4 @@ runs:
         PR_TOOLS_REPO: ${{ github.repository }}
         PR_TOOLS_OPTIMISM_RPC_URL: ${{ inputs.optimism_rpc_url }}
         PR_TOOLS_MAINNET_RPC_URL: ${{ inputs.mainnet_rpc_url }}
+        PR_TOOLS_ARBITRUM_PRC_URL: ${{ inputs.arbitrum_rpc_url }}
