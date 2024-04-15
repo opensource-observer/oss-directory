@@ -152,12 +152,6 @@ blockchain:
     tags:
       - contract
     name: StargateFacet
-  - address: "0xcaa62b837788c0a0fbfc0c5fd8adfd74bc341423"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: MultiChainFacet
   - address: "0xb0a1656c29437dbc2a9f463482a58cc88fdaf72f"
     networks:
       - optimism
@@ -284,13 +278,6 @@ blockchain:
     tags:
       - contract
     name: BoolFacet
-  - address: "0x3177d291386899f0674ef494015e132e54b7a973"
-    networks:
-      - arbitrum
-      - optimism
-    tags:
-      - contract
-    name: unverified
   - address: "0xab937e03354a941d723feb715fb73c28f2e30fbe"
     networks:
       - optimism
@@ -327,12 +314,6 @@ blockchain:
     tags:
       - contract
     name: StargateFacet
-  - address: "0xd0bfbd8cc8ff5e6bb72b70086664166ba23277e8"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: LibCorrectSwapV1
   - address: "0xd07a44276a5c488c5d8fc794af16f1d0b323532e"
     networks:
       - optimism
