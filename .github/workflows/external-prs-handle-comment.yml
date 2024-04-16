@@ -52,6 +52,7 @@ jobs:
           google_project_id: ${{ vars.GOOGLE_PROJECT_ID }}
           optimism_rpc_url: ${{ secrets.PR_TOOLS_OPTIMISM_RPC_URL }}
           mainnet_rpc_url: ${{ secrets.PR_TOOLS_MAINNET_RPC_URL }}
+          arbitrum_rpc_url: ${{ secrets.PR_TOOLS_ARBITRUM_RPC_URL }}
 
         # This check isn't for security it's mostly a convenience so this won't
         # fail and muddy up the actions UI
