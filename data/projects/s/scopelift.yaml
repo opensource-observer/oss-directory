@@ -1,8 +1,18 @@
 version: 3
-slug: scope-lift
+slug: scopelift
 name: ScopeLift
 github:
-  - url: https://github.com/scopelift
+  - url: https://github.com/scopelift/flexible-voting
+  - url: https://github.com/scopelift/l2-flexible-voting
+  - url: https://github.com/scopelift/cove-frontend
+  - url: https://github.com/scopelift/cove-backend
+  - url: https://github.com/scopelift/stealth-address-erc-contracts
+  - url: https://github.com/scopelift/stealth-address-sdk
+  - url: https://github.com/scopelift/scopelint
+  - url: https://github.com/scopelift/optimizoors-perpetual-protocol
+  - url: https://github.com/scopelift/foundry-template
+  - url: https://github.com/scopelift/token-shielder
+  - url: https://github.com/scopelift/trueblocks-plotter
 blockchain:
   - address: "0xeac5f0d4a9a45e1f9fdd0e7e2882e9f60e301156"
     networks:
