@@ -1,5 +1,5 @@
 # NOTE: This name appears in GitHub's Checks API and in workflow's status badge.
-name: test-deploy-owners
+name: validate-pr-owners
 env:
   # CI variables
   DOCKER_PLATFORM: "amd64"
