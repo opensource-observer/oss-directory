@@ -1,5 +1,5 @@
 version: 3
-slug: omni-swap
+slug: omniswap-omnibtc
 name: OmniSwap
 github:
   - url: https://github.com/OmniBTC/OmniSwap
@@ -13,6 +13,19 @@ blockchain:
       - deployer
       - eoa
     name: aadaiwei.eth
+  - address: "0x5683921269b041fbe66882dd6cadd48b7e5b5817"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: 990123.eth
+  - address: "0xc8a3ae7ac306df0ba9f0fc90406367ac6c31765b"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
   - address: "0x0ba1195d53465057d137cf3c62e702c1a518bac6"
     networks:
       - optimism
