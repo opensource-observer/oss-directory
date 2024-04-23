@@ -100,7 +100,7 @@ def load_toml_file(file_path):
         return None, str(e)
     
 
-def process_project_toml_file(toml_path, ossd_repo_snapshot):
+def process_project_toml_file(toml_path, ossd_repo_snapshot, write_file=True):
     """
     Process a TOML file containing project information. It reads the TOML file,
     extracts the title and github_organizations, and returns a list of slugs.
@@ -125,21 +125,62 @@ def process_project_toml_file(toml_path, ossd_repo_snapshot):
             slug = parse_url(url)
             if not slug:
                 logging.error(f"Error parsing URL: {url}")
-                continue
+                continue            
             logging.info(f"Slug for {url} does not exist. Generating slug: {slug}")
-            add_project = input(f"Add new project {slug} for {url}? (Y/N): ").strip().lower()
-            if add_project == 'q':
-                return slugs
-            if add_project == 'y':
-                generate_yaml(url, slug, title)
-                ossd_repo_snapshot[url] = slug
-                logging.info(f"Added slug for {url} to ossd_repo_snapshot: {slug}")
-            else:
-                logging.info(f"Skipping {url}")
-                continue
+            if write_file:
+                add_project = input(f"Add new project {slug} for {url}? (Y/N): ").strip().lower()
+                if add_project == 'q':
+                    return slugs
+                if add_project == 'y':
+                    generate_yaml(url, slug, title)
+                    ossd_repo_snapshot[url] = slug
+                    logging.info(f"Added slug for {url} to ossd_repo_snapshot: {slug}")
+                else:
+                    logging.info(f"Skipping {url}")
+                    continue
         slugs.append(slug)
     return slugs
 
+
+def convert_collection_toml_file_to_json(ecosystem_name, crypto_ecosystems_map, ossd_repo_snapshot):
+    """
+    Process a TOML file containing collection information. It reads the TOML file,
+    extracts the title and sub_ecosystems, and creates/returns a list of project slugs.
+    For each slug, it distinguishes between existing and new projects in OSSD.
+    Finally, it prepares a JSON file with the slugs, the repo, and their status.
+    """
+
+    toml_path = crypto_ecosystems_map[ecosystem_name]
+    toml_data, error = load_toml_file(toml_path)
+    if toml_data is None:
+        logging.error(f"Error loading TOML data at {toml_path}: {error}")
+        return
+    logging.info(f"Processing TOML file at {toml_path} for ecosystem {ecosystem_name}...")
+
+    sub_ecosystem_titles = toml_data['sub_ecosystems']
+    data = []
+    for title in sub_ecosystem_titles:
+        if title in crypto_ecosystems_map:
+            sub_ecosystem_toml_path = crypto_ecosystems_map[title]
+            sub_ecosystem_slugs = process_project_toml_file(sub_ecosystem_toml_path, ossd_repo_snapshot, write_file=False)
+            if not sub_ecosystem_slugs:
+                continue
+            slugs = set(sub_ecosystem_slugs)
+            for s in slugs:
+                slug_path = f"{LOCAL_PATH}/{s[0]}/{s}.yaml"
+                exists = os.path.exists(slug_path)
+                data.append({
+                    "slug": s,
+                    "ecosystem": title,
+                    "status": "existing" if exists else "new"
+                })
+        else:
+            logging.error(f"Sub-ecosystem {title} does not exist.")
+
+    json_path = f"temp/toml_{ecosystem_name.lower()}.json"
+    with open(json_path, 'w') as file:
+        json.dump(data, file, indent=4)
+        
 
 def process_collection_toml_file(ecosystem_name, crypto_ecosystems_map, ossd_repo_snapshot):
     """
@@ -171,26 +212,6 @@ def process_collection_toml_file(ecosystem_name, crypto_ecosystems_map, ossd_rep
     slugs = sorted(list(set(slugs)))
     return slugs
 
-    '''
-    Processes all ecosystems located at the given path. It iterates through each TOML file,
-    processes the contained data, and updates the given report with any errors.
-    A progress bar is used to display processing progress.
-    '''
-    for root, dirs, files in tqdm(os.walk(ecosystems_path), desc="Directories", leave=False):
-        for file in tqdm(files, desc="Files", leave=False):
-            if file.endswith(".toml"):
-                toml_path = os.path.join(root, file)
-                try:
-                    ecosystem_data, error = load_toml_file(toml_path)
-                    if ecosystem_data is None:
-                        report['errors'].append({'file': toml_path, 'error': error})
-                        continue
-
-                    process_ecosystem(ecosystem_data, collections_directory, report)
-                except Exception as e:
-                    report['errors'].append({'file': toml_path, 'error': str(e)})
-                finally:
-                    progress_bar.update(1)
                     
 def main(version=3):
     '''
@@ -202,6 +223,12 @@ def main(version=3):
     ecosystem_name = session['ecosystem_name']
     crypto_ecosystems_map = session['crypto_ecosystems_map']
     ossd_repo_snapshot = session['ossd_repo_snapshot']
+
+    # Determine whether to process the collection or generate a JSON file
+    process_collection = input(f"Process the ecosystem as a new collection? (Y/N): ").strip().lower()
+    if process_collection == 'n':
+        convert_collection_toml_file_to_json(**session)
+        return
 
     # Process the ecosystem as a collection
     project_slugs = process_collection_toml_file(**session)
