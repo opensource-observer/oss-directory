@@ -1,5 +1,18 @@
 version: 3
 slug: discoverselab
-name: Discoverselab
+name: Soulcial
 github:
-  - url: https://github.com/discoverselab
+  - url: https://github.com/Discoverselab
+blockchain:
+  - address: "0xb39c5896a94287b9c0bce736e505234b685c0e02"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SoulCast
+  - address: "0x5707a0f0214b436c90d746636e413b8682d5d0b8"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

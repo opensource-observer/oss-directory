@@ -1,0 +1,354 @@
+version: 3
+slug: omniswap-omnibtc
+name: OmniSwap
+github:
+  - url: https://github.com/OmniBTC/OmniSwap
+blockchain:
+  - address: "0x2da7e3a7f21cce79efeb66f3b082196ea0a8b9af"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+    name: aadaiwei.eth
+  - address: "0x5683921269b041fbe66882dd6cadd48b7e5b5817"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: 990123.eth
+  - address: "0xc8a3ae7ac306df0ba9f0fc90406367ac6c31765b"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
+  - address: "0x0ba1195d53465057d137cf3c62e702c1a518bac6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GenericSwapFacet
+  - address: "0xd83abdff88b99eea6ab706e513986478f3e163bb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DiamondLoupeFacet
+  - address: "0xd8dec96b9e22a99f68d48cfb20cd6868a3dcc56b"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xdba05e1bf0c027ab59ea0f166c941c2d55ae8440"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x3dd7b63a9b52761f89bd1bbbd31324242a0dae01"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xd7ec4e3dac58e537eb24fef4c3f7b011aea50f30"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ConnextFacet
+  - address: "0xa9f63c7d66c4916848a7f9bdfdbacff27ed013e0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x2967e7bb9daa5711ac332caf874bd47ef99b3820"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: SoDiamond
+  - address: "0xb3a814a14b9c2a982576fb2e1f233bbc27badb10"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x6b23875dd0d74c767c329c4a927b4408337b65d8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SoDiamond
+  - address: "0x9ea0a053746c510006050cfce4a669568389a68e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OwnershipFacet
+  - address: "0x9feabe5a43c182b76eff480f848c0204f24158ce"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GenericSwapFacet
+  - address: "0x4adfb6aafa6257d896e7baa5026e709f71060ce8"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xcc6856099525eec28109fd5041f68f9e588a3b10"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xdae4db475aca613a5e2dc5fc304da7e962b3cead"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: DiamondCutFacet
+  - address: "0x19370be0d726a88d3e6861301418f3daae3d798e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LibSoFeeCelerV1
+  - address: "0xa7487a536968be0d563901aeb3fc07b099e2fb04"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: WithdrawFacet
+  - address: "0x0917923af85ab3adab081e3b8825fcceddbb889c"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: DexManagerFacet
+  - address: "0x85ef04b9d1a95e897bc8aac215c8cf3ca544b45c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SerdeFacet
+  - address: "0x68aecd6f5b0df5b85c55be8b0563f788dc8b9af0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StargateFacet
+  - address: "0x0f4aedfb8da8af176deff282da86ebbe3a0ea19e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StargateFacet
+  - address: "0xcaa62b837788c0a0fbfc0c5fd8adfd74bc341423"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MultiChainFacet
+  - address: "0xb0a1656c29437dbc2a9f463482a58cc88fdaf72f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: WithdrawFacet
+  - address: "0xba661e8482d62d3b33751961780df04aab373ea5"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xe4d1ebf03742a8238b546980261507fde0113d37"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: DiamondLoupeFacet
+  - address: "0x86e5be03bafb585e3e8295fca717728bb7465898"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StargateFacet
+  - address: "0x66f440252fe99454df8f8e1eb7743ea08fe7d8e2"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x092d731fdc945cf1532d161e45245ad5382ddd92"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DiamondCutFacet
+  - address: "0xad85421c47e9b830602deb83fcf149c2a1f0e8a9"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: OwnershipFacet
+  - address: "0x008fd50090e94c7a54a2e3ff66f2672562fcd958"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xd3588acd2a3b69e84a127f92da3b5f8d81951c16"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x4af9be5a3464afdefc80700b41fcc4d9713e7449"
+    networks:
+      - arbitrum
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: LibSoFeeV01
+  - address: "0x1ac958477e0873d7039b2b71ae89b51d3248fa4f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BoolFacet
+  - address: "0x73bdb15aaa8797a37cdfa236ca4fc9d6e5a223ad"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LibSoFeeCelerV1
+  - address: "0x66619cb2a51fbd9ff8eda47be3299bf781a4b899"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DexManagerFacet
+  - address: "0x81278dfc4b2e2dd39c1d2e89aab1eebd708be99f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BoolFacet
+  - address: "0xd4f0968c718e2b3f6fc2c9da3341c5a0c4720d68"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xb4011a52c1f49a8b51161485d39ba1e70906be38"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x8f3ff39fe8565b787453f3e5735bf6f0863853ac"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xb333edc3188a241668f9231ceecb2f60b02e89a0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xac7dce61faa5b130b4d3396530edce4bf9c68519"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BoolFacet
+  - address: "0x3177d291386899f0674ef494015e132e54b7a973"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xab937e03354a941d723feb715fb73c28f2e30fbe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CCTPFacet
+  - address: "0xbd1930dd4cd4e18737c7bcdacacfe450f1d231ba"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xe56a4ccfeadb140333b91f561c6b0cf308450ac5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa96caccf2e4366f0028cc3dde8668dd1e36b7904"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GenericSwapFacet
+  - address: "0x4f86555d3f73ea9db7281def8311a40f49201c79"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GenericSwapFacet
+  - address: "0xddb61a3679bb756de226c81fecb9858dc0983238"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StargateFacet
+  - address: "0xd0bfbd8cc8ff5e6bb72b70086664166ba23277e8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LibCorrectSwapV1
+  - address: "0xd07a44276a5c488c5d8fc794af16f1d0b323532e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified

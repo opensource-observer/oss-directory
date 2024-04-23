@@ -1,0 +1,129 @@
+version: 3
+slug: scopelift
+name: ScopeLift
+github:
+  - url: https://github.com/scopelift/flexible-voting
+  - url: https://github.com/scopelift/l2-flexible-voting
+  - url: https://github.com/scopelift/cove-frontend
+  - url: https://github.com/scopelift/cove-backend
+  - url: https://github.com/scopelift/stealth-address-erc-contracts
+  - url: https://github.com/scopelift/stealth-address-sdk
+  - url: https://github.com/scopelift/scopelint
+  - url: https://github.com/scopelift/optimizoors-perpetual-protocol
+  - url: https://github.com/scopelift/foundry-template
+  - url: https://github.com/scopelift/token-shielder
+  - url: https://github.com/scopelift/trueblocks-plotter
+blockchain:
+  - address: "0xeac5f0d4a9a45e1f9fdd0e7e2882e9f60e301156"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xe67308df3a37b46e16255a1af0e8b2f50f4d392a"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: RouterFactory
+  - address: "0xbf2870611603b2f02b8616e0fe65c60f7657a0f4"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: PerpetualRouterFactory
+  - address: "0xdfb453656a14c8e9ad3f4095483ce3328977eb47"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: RouterFactory
+  - address: "0x1e4376a56f357d79c6175507fa6dadeab066a713"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: RouterFactory
+  - address: "0x8ea1cec74fa7cddfe8056198ef1a3718adae2895"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0x13f7dccbfa3e17c9063ecff7299bfbcb738e6af8"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: PerpetualRouterFactory
+  - address: "0x04ece61784f0ffb50595389b59c9c6aa9e2ecd0b"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0x03fef50a0c171606e886deeb113b5ad129519968"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0xc9d243e4a44f2120244b1c7ef8f51731662f90af"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0x630567c26340da0700e6572e0ffa72e10e002b35"
+    networks:
+      - arbitrum
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x9f452c105472556ca1e901f72ecaba37e6be44fe"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0x0bde0385869433ee7716b606fd0af19c83f4248a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x57ea12a3a8e441f5fe7b1f3af1121097b7d3b6a8"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: umbra.umbra.eth
+  - address: "0x5c04e7808455ee0e22c2773328c151d0dd79dc62"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: scopelift.eth
+  - address: "0xf138f8e006947d4482458510ab701299f46c12a3"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet

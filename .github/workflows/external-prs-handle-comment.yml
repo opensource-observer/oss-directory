@@ -1,0 +1,59 @@
+# This is a test meltano pipeline
+name: external-prs-handle-comment
+env:
+  PR_TOOLS_GITHUB_APP_PRIVATE_KEY: ${{ secrets.PR_TOOLS_GITHUB_APP_PRIVATE_KEY }}
+  PR_TOOLS_GITHUB_APP_ID: ${{ secrets.PR_TOOLS_GITHUB_APP_ID }}
+
+on:
+  issue_comment:
+    types:
+      - created
+      - edited
+
+jobs:
+  external-prs-handle-comment:
+    name: external-prs-handle-comment
+    environment: external-prs-app
+    runs-on: ubuntu-latest
+
+    # This job only runs for pull request comments
+    if: github.event.issue.pull_request && contains(fromJson('["OWNER", "MEMBER", "COLLABORATOR", "CONTRIBUTOR"]'), github.event.comment.author_association)
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          path: main
+          ref: main
+          fetch-depth: 1
+
+      - name: Setup external pr tools
+        uses: ./main/.github/workflows/setup-external-pr-tools
+
+      - name: Parse the comment to see if it's a deploy comment
+        id: parse_comment
+        run: |
+          cd ./oso/ops/external-prs && pnpm tools ossd parse-comment --repo ${{ github.repository }} ${{ github.event.comment.id }} $GITHUB_OUTPUT
+
+      - name: Login to google
+        uses: "google-github-actions/auth@v2"
+        with:
+          credentials_json: "${{ secrets.GOOGLE_BQ_ADMIN_CREDENTIALS_JSON }}"
+          create_credentials_file: true
+        if: ${{ steps.parse_comment.outputs.deploy == 'true' }}
+
+      - name: Run validation
+        uses: ./main/.github/workflows/validate
+        with:
+          sha: ${{ steps.parse_comment.outputs.sha }}
+          pr: ${{ steps.parse_comment.outputs.pr }}
+          requester: ${{ steps.parse_comment.outputs.comment_author }}
+          author: ${{ steps.parse_comment.outputs.issue_author }}
+          gcp_service_account_path: ${{ env.GOOGLE_APPLICATION_CREDENTIALS }}
+          google_project_id: ${{ vars.GOOGLE_PROJECT_ID }}
+          optimism_rpc_url: ${{ secrets.PR_TOOLS_OPTIMISM_RPC_URL }}
+          mainnet_rpc_url: ${{ secrets.PR_TOOLS_MAINNET_RPC_URL }}
+          arbitrum_rpc_url: ${{ secrets.PR_TOOLS_ARBITRUM_RPC_URL }}
+
+        # This check isn't for security it's mostly a convenience so this won't
+        # fail and muddy up the actions UI
+        if: ${{ steps.parse_comment.outputs.deploy == 'true' }}

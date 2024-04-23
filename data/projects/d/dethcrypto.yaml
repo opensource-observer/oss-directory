@@ -1,5 +1,15 @@
 version: 3
 slug: dethcrypto
-name: Deth
+name: Deth and TypeChain
 github:
   - url: https://github.com/dethcrypto
+npm:
+  - url: https://www.npmjs.com/package/typechain
+blockchain:
+  - address: "0x4d2f0efdb2ad1d709d8522e7b5aa9f5181563617"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - eoa
+      - wallet

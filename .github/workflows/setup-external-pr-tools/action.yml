@@ -1,0 +1,38 @@
+# Generic worker executor. This is callable for use with cron scheduling.
+
+# Execute the worker for a specific group
+name: setup-external-pr-tools
+
+runs:
+  using: "composite"
+  steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+      with:
+        repository: opensource-observer/oso
+        path: oso
+        # Check out pull request's HEAD commit instead of the merge commit to
+        # prevent gitlint from failing due to too long commit message titles,
+        # e.g. "Merge 3e621938d65caaa67f8e35d145335d889d470fc8 into 19a39b2f66cd7a165082d1486b2f1eb36ec2354a".
+        ref: main
+        # Fetch all history so gitlint can check the relevant commits.
+        fetch-depth: "1"
+
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v2
+      with:
+        version: 8
+        run_install: |
+          - recursive: true
+            cwd: ./oso
+            args: [--frozen-lockfile, --strict-peer-dependencies]
+
+    - name: Set up Node.js 18
+      uses: actions/setup-node@v3
+      with:
+        node-version: "18.x"
+
+    - name: Build the ops tooling
+      shell: bash
+      run: pnpm build:ops
+      working-directory: ./oso

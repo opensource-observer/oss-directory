@@ -1,5 +1,13 @@
 version: 3
 slug: tickerdao
-name: TickerDao
+name: Token Name Service
 github:
-  - url: https://github.com/tickerdao
+  - url: https://github.com/TickerDao
+blockchain:
+  - address: "0x5ae8f2adbab2e37145e50b40e89dcb39dfb07ee6"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet
+    name: funding.tkn.eth

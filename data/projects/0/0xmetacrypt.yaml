@@ -1,5 +1,12 @@
 version: 3
 slug: 0xmetacrypt
-name: 0xMetacrypt
+name: Metacrypt
 github:
   - url: https://github.com/0xmetacrypt
+blockchain:
+  - address: "0x888325bc674b09cdf29dc39e05995a26346df7fc"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - wallet

@@ -1,0 +1,59 @@
+# Generic worker executor. This is callable for use with cron scheduling.
+
+# Execute the worker for a specific group
+name: external-pr-validate
+
+inputs:
+  sha:
+    description: "The sha to deploy"
+    required: true
+  pr:
+    description: The pr number
+    required: true
+  requester:
+    description: The user requesting the deploy
+    required: true
+  author:
+    description: The author of the pull
+    required: true
+  gcp_service_account_path:
+    description: The google service account
+    required: true
+  google_project_id:
+    description: The google project id
+    required: true
+  mainnet_rpc_url:
+    description: The RPC url for Ethereum Mainnet
+    required: true
+  optimism_rpc_url:
+    description: The RPC url for Optimism
+    required: true
+  arbitrum_rpc_url:
+    description: The RPC url for Arbitrum
+    required: true
+
+runs:
+  using: "composite"
+  steps:
+    - name: Set pr and sha in the environment
+      shell: bash
+      run: |
+        echo "PR_TOOLS_PR=${{ inputs.pr }}" >> "$GITHUB_ENV"
+        echo "PR_TOOLS_SHA=${{ inputs.sha }}" >> "$GITHUB_ENV"
+
+    - name: checkout the PR
+      uses: actions/checkout@v3
+      with:
+        ref: ${{ inputs.sha }}
+        fetch-depth: 1
+        path: "pr"
+
+    - name: Run validation
+      shell: bash
+      run: |
+        cd oso/ops/external-prs && pnpm tools ossd validate-pr --duckdb-memory-limit 4GB ${{ inputs.pr }} ${{ inputs.sha }} ../../../main ../../../pr
+      env:
+        PR_TOOLS_REPO: ${{ github.repository }}
+        PR_TOOLS_OPTIMISM_RPC_URL: ${{ inputs.optimism_rpc_url }}
+        PR_TOOLS_MAINNET_RPC_URL: ${{ inputs.mainnet_rpc_url }}
+        PR_TOOLS_ARBITRUM_RPC_URL: ${{ inputs.arbitrum_rpc_url }}
