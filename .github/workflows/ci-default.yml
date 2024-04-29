@@ -76,3 +76,6 @@ jobs:
           pnpm validate
         # Always run this step so that all linting errors can be seen at once.
         if: always()
+
+      - name: Setup external pr tools
+        uses: ./main/.github/workflows/setup-external-pr-tools
