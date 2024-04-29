@@ -6,14 +6,21 @@ name: setup-external-pr-tools
 runs:
   using: "composite"
   steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      with:
-        repository: opensource-observer/oso
-        path: oso
-        ref: main
-        # Fetch all history so gitlint can check the relevant commits.
-        fetch-depth: "1"
+    # - name: Checkout code
+    #   uses: actions/checkout@v4
+    #   with:
+    #     repository: opensource-observer/oso
+    #     path: oso
+    #     ref: main
+    #     # Fetch all history so gitlint can check the relevant commits.
+    #     fetch-depth: "1"
+
+    # We can't seem to use checkout code to do this due to some issues with the
+    # github token
+    - name: Git clone oso
+      shell:
+      run: |
+        git clone https://github.com/opensource-observer/oso.git
 
     - name: Setup pnpm
       uses: pnpm/action-setup@v2
