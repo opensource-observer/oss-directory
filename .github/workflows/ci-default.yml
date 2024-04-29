@@ -78,4 +78,4 @@ jobs:
         if: always()
 
       - name: Setup external pr tools
-        uses: ./main/.github/workflows/setup-external-pr-tools
+        uses: ./.github/workflows/setup-external-pr-tools
