@@ -40,7 +40,6 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
           # Fetch all history so gitlint can check the relevant commits.
           fetch-depth: "0"
-
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
@@ -48,17 +47,32 @@ jobs:
           run_install: |
             - recursive: true
               args: [--frozen-lockfile, --strict-peer-dependencies]
-
       - name: Set up Python 3
         uses: actions/setup-python@v4
         with:
           python-version: "3.x"
-
       - name: Set up Node.js 20
         uses: actions/setup-node@v3
         with:
           node-version: "20"
           cache: "pnpm"
-
-      - name: Setup external pr tools
-        uses: ./.github/workflows/setup-external-pr-tools
+      - name: Build
+        run: |
+          pnpm build
+        # Always run this step so that all linting errors can be seen at once.
+        if: always()
+      - name: Lint
+        run: |
+          pnpm lint
+        # Always run this step so that all linting errors can be seen at once.
+        if: always()
+      - name: Test
+        run: |
+          pnpm test
+        # Always run this step so that all linting errors can be seen at once.
+        if: always()
+      - name: Validate data
+        run: |
+          pnpm validate
+        # Always run this step so that all linting errors can be seen at once.
+        if: always()
