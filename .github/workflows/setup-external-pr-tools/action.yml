@@ -20,7 +20,9 @@ runs:
     - name: Git clone oso
       shell:
       run: |
-        git clone https://github.com/opensource-observer/oso.git
+        git clone https://github.com/opensource-observer/oso.git &&
+        ls -laht &&
+        pwd
 
     - name: Setup pnpm
       uses: pnpm/action-setup@v2

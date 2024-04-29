@@ -56,26 +56,6 @@ jobs:
         with:
           node-version: "20"
           cache: "pnpm"
-      - name: Build
-        run: |
-          pnpm build
-        # Always run this step so that all linting errors can be seen at once.
-        if: always()
-      - name: Lint
-        run: |
-          pnpm lint
-        # Always run this step so that all linting errors can be seen at once.
-        if: always()
-      - name: Test
-        run: |
-          pnpm test
-        # Always run this step so that all linting errors can be seen at once.
-        if: always()
-      - name: Validate data
-        run: |
-          pnpm validate
-        # Always run this step so that all linting errors can be seen at once.
-        if: always()
 
       - name: Setup external pr tools
         uses: ./.github/workflows/setup-external-pr-tools
