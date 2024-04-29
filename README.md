@@ -104,4 +104,4 @@ You can make a series of attestations about a project by running the following:
 ts-node src/scripts/optimism-attestation.ts data/projects/P/PROJECT.yaml optimism # OR optimism-goerli
 ```
 
-Make sure you have `.env` file that contains your `PRIVATE_KEY` for an account with some ETH on the appropriate network.
+Make sure you have `.env` file that contains your `PRIVATE_KEY` for an account with some ETH on the appropriate network. Adding for PR
