@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           # Check out pull request's HEAD commit instead of the merge commit to
           # prevent gitlint from failing due to too long commit message titles,
