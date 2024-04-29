@@ -6,35 +6,28 @@ name: setup-external-pr-tools
 runs:
   using: "composite"
   steps:
-    # - name: Checkout code
-    #   uses: actions/checkout@v4
-    #   with:
-    #     repository: opensource-observer/oso
-    #     path: oso
-    #     ref: main
-    #     # Fetch all history so gitlint can check the relevant commits.
-    #     fetch-depth: "1"
-
-    # We can't seem to use checkout code to do this due to some issues with the
-    # github token
-    - name: Git clone oso
-      shell:
-      run: |
-        git clone https://github.com/opensource-observer/oso.git
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        repository: opensource-observer/oso
+        path: oso
+        ref: main
+        # Fetch all history so gitlint can check the relevant commits.
+        fetch-depth: "1"
 
     - name: Setup pnpm
       uses: pnpm/action-setup@v2
       with:
-        version: 8
+        version: 9
         run_install: |
           - recursive: true
             cwd: ./oso
             args: [--frozen-lockfile, --strict-peer-dependencies]
 
-    - name: Set up Node.js 18
+    - name: Set up Node.js 20
       uses: actions/setup-node@v3
       with:
-        node-version: "18.x"
+        node-version: "20.x"
 
     - name: Build the ops tooling
       shell: bash
