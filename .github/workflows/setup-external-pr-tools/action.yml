@@ -27,16 +27,16 @@ runs:
     - name: Setup pnpm
       uses: pnpm/action-setup@v2
       with:
-        version: 8
+        version: 9
         run_install: |
           - recursive: true
             cwd: ./oso
             args: [--frozen-lockfile, --strict-peer-dependencies]
 
-    - name: Set up Node.js 18
+    - name: Set up Node.js 20
       uses: actions/setup-node@v3
       with:
-        node-version: "18.x"
+        node-version: "20.x"
 
     - name: Build the ops tooling
       shell: bash
