@@ -8,6 +8,8 @@ import { currentVersion } from "../migrations/index.js";
 import { CommonArgs } from "../types/cli.js";
 import { getFileExtension, getFileFormat } from "../types/files.js";
 
+const IGNORE_GLOB = "**/README.md";
+
 export type ValidateArgs = CommonArgs & {
   dir: string;
 };
@@ -20,6 +22,17 @@ export async function validateCollections(args: ValidateArgs) {
   const fileFormat = getFileFormat(args.format);
   const extension = getFileExtension(fileFormat);
   const files = await glob(path.resolve(args.dir, `**/*${extension}`));
+  const extraneousFiles = _.difference(
+    await glob(path.resolve(args.dir, `**/*`), {
+      nodir: true,
+      ignore: IGNORE_GLOB,
+    }),
+    files,
+  );
+  assert(
+    extraneousFiles.length === 0,
+    `These files do not belong: ${JSON.stringify(extraneousFiles, null, 2)}`,
+  );
   console.log(`Validating collections in ${args.dir}`);
   for (const file of files) {
     // Check each file conforms to `Collection` schema
@@ -50,7 +63,17 @@ export async function validateProjects(args: ValidateArgs) {
   const fileFormat = getFileFormat(args.format);
   const extension = getFileExtension(fileFormat);
   const files = await glob(path.resolve(args.dir, `**/*${extension}`));
-
+  const extraneousFiles = _.difference(
+    await glob(path.resolve(args.dir, `**/*`), {
+      nodir: true,
+      ignore: IGNORE_GLOB,
+    }),
+    files,
+  );
+  assert(
+    extraneousFiles.length === 0,
+    `These files do not belong: ${JSON.stringify(extraneousFiles, null, 2)}`,
+  );
   // Keep track of which keys we've seen to make sure they're unique
   const keyToFilename: Record<string, string[]> = {};
   const addKey = (key: string, val: string) =>
