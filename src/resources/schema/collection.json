@@ -13,6 +13,9 @@
     "name": {
       "type": "string"
     },
+    "description": {
+      "type": "string"
+    },
     "projects": {
       "type": "array",
       "minItems": 1,
