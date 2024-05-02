@@ -10,8 +10,8 @@
  */
 export interface Project {
   version: number;
-  slug: string;
   name: string;
+  display_name: string;
   description?: string;
   github?: URL[];
   npm?: URL[];
