@@ -67,8 +67,9 @@ function validateObject<T>(obj: any, schemaName: Schema): ValidationResult {
 function safeCastObject<T>(obj: any, schemaName: Schema): T {
   const result = validateObject<T>(obj, schemaName);
   if (!result.valid) {
-    console.log(obj);
-    console.warn(result.errors);
+    console.log("Invalid ", schemaName);
+    console.log(JSON.stringify(obj, null, 2));
+    console.warn(JSON.stringify(result.errors, null, 2));
     throw new Error(`Invalid ${schemaName}`);
   }
   return obj;

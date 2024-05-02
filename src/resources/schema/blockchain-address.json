@@ -28,7 +28,17 @@
       "type": "array",
       "minItems": 1,
       "items": {
-        "enum": ["mainnet", "optimism", "arbitrum"]
+        "enum": [
+          "mainnet",
+          "optimism",
+          "arbitrum-one",
+          "matic",
+          "base",
+          "pgn",
+          "zora",
+          "mode",
+          "frax"
+        ]
       }
     },
     "name": {

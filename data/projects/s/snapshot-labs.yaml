@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: snapshot-labs
 name: Snapshot
 github:
@@ -14,7 +14,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

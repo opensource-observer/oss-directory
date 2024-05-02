@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: wighawag
 name: Jolly Roger and Hardhat-deploy
 github:
@@ -16,7 +16,7 @@ blockchain:
       - wallet
   - address: "0xaddbc936ab952b6dc5c5fe090c55269a1174d173"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -26,7 +26,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

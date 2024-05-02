@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: rndao
 name: RnDAO
 github:
@@ -14,7 +14,7 @@ blockchain:
   - address: "0x75ab74d82ddc235f74680ddf42701ddfa8bf5041"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

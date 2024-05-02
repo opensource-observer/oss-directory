@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: axelar
 name: Axelar
 github:
@@ -6,14 +6,14 @@ github:
 blockchain:
   - address: "0xb8cd93c83a974649d76b1c19f311f639e62272bc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - deployer
       - eoa
   - address: "0x3d4316342acd2ded06507302404e9788ff5f4d02"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -21,7 +21,7 @@ blockchain:
       - eoa
   - address: "0xe86375704cdb8491a5ed82d90dcece02ee0ac25f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -29,7 +29,7 @@ blockchain:
       - eoa
   - address: "0x6f24a47fc8ae5441eb47effc3665e70e69ac3f05"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -37,7 +37,7 @@ blockchain:
       - eoa
   - address: "0x98b2920d53612483f91f12ed7754e51b4a77919e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -46,7 +46,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xe432150cce91c13a887f7d836923d5597add8e31"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -82,28 +82,28 @@ blockchain:
     name: unverified
   - address: "0x8a156bca562fb75385c4d41ea6903e270a34b727"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: TokenDeployer
   - address: "0x1a920b29ebd437074225caee44f78fc700b27a5d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: AxelarAuthWeighted
   - address: "0x05823c334150a48acd5d325fba16147c21ba3653"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: AxelarGateway
   - address: "0xfef5c90d84a1c93804496f5e7fbf98ec0c85243c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -111,7 +111,7 @@ blockchain:
     name: AxelarGasService
   - address: "0x4e7e2867d80af2114837e015261ef028bd3cf60e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -125,7 +125,7 @@ blockchain:
     name: SquidRouter
   - address: "0xe00bcf964f7509717c4911fe2cbd985fc2aa9728"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -138,32 +138,32 @@ blockchain:
     name: SquidFeeCollector
   - address: "0x11e32da61cac93b1c1bf6f7d02eceb6bc23bd2df"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: SquidRouter
   - address: "0xa334884bf6b0a066d553d19e507315e839409e62"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BurnableMintableCappedERC20
   - address: "0x3a18dcc9745edcd1ef33ecb93b0b6eba5671e7ca"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BurnableMintableCappedERC20
   - address: "0xce16f69375520ab01377ce7b88f5ba8c48f8d666"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SquidRouterProxy
   - address: "0xb28837949e7a3f1ac862036e8a0ae392c9ff9bb4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

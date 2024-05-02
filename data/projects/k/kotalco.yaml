@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: kotalco
 name: Kotal
 github:
@@ -7,7 +7,7 @@ blockchain:
   - address: "0x5dfa5db515748f3e2bcc8677a9332f4affad5a5e"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

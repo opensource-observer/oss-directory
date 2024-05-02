@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: ragetrade
 name: RageTrade
 github:
@@ -6,62 +6,62 @@ github:
 blockchain:
   - address: "0x400348d0db7e757277a0a06fc68b5da038973c15"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x14fcc60f9be14087fac729df48ff33f2b3052c12"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: RageTradeFactory
   - address: "0x1d42783e7eeacae12ebc315d1d2d0e3c6230a068"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CurveYieldStrategy
   - address: "0x0d7459241c71cc840d95f98c937a8687be2dc95c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ClearingHouse
   - address: "0x4ec971bd9c696394ec7e53e9577b5f34154ff0c3"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LogicLibrary
   - address: "0x04b7a474fd142d19604de4b834d337cc94bdbb86"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ChainlinkOracle
   - address: "0x3fab135e76c5c0e85a60bf50f100c8cd912f7e56"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: AccountLibrary
   - address: "0x426087ce9911c1e009a6abbce7a86789ae5b3a6d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SettlementTokenOracle
   - address: "0x4521916972a76d5bfa65fb539cf7a0c2592050ac"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x4b928afd7ca775c7f4ecdf2c00b7e608962abbdc"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: VaultPeriphery

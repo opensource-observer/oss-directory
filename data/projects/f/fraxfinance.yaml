@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: fraxfinance
 name: Frax Finance
 github:
@@ -19,14 +19,14 @@ blockchain:
       - eoa
   - address: "0x9124b49270a464ddb6f36dc212eee5b1d69d5133"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x93bc2e4061d4b256eb55446952b49c616db4ac0e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -35,7 +35,7 @@ blockchain:
     name: frax-deployer.eth
   - address: "0x4600d3b12c39af925c2c07c487d31d17c1e32a35"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -44,7 +44,7 @@ blockchain:
     name: fraxaltdeployer.eth
   - address: "0xf03e9981e3848037e1784d72b02c8c8d100e90e5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
@@ -79,7 +79,7 @@ blockchain:
     name: FraxswapFactory
   - address: "0xc70cc721d19dc7e627b81feacb6a357fb11200af"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
@@ -303,70 +303,70 @@ blockchain:
     name: CrossChainCanonicalV2
   - address: "0x95ab45875cffdba1e5f451b950bc2e42c0053f39"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: sfrxETH
   - address: "0x9d2f299715d94d8a7e6f5eaa8e654e8c74a988a7"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CrossChainCanonicalFXS
   - address: "0xddf6b5b2ba110a0267bffb86aeabfe2637cb8375"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xefa5d36debf5191328b17f2ff74090dadfda9a70"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: IncentivizerAmoV2
   - address: "0x3405e88af759992937b84e58f2fe691ef0eea320"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xcaaab0a72f781b92ba63af27477aa46ab8f653e7"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: FraxswapRouter
   - address: "0x178412e79c25968a32e89b11f63b33f733770c2a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CrossChainCanonicalV2
   - address: "0x17fc002b466eec40dae837fc4be5c67993ddbd6f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CrossChainCanonicalFRAX
   - address: "0x127963a74c07f72d862f2bdc225226c3251bd117"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2d0483fefaba4325c7521539a3dfacf94a19c472"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: FraxlendPair
   - address: "0x5ca135cb8527d76e932f34b5145575f9d8cbe08e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - deployer
@@ -375,25 +375,25 @@ blockchain:
     name: FraxswapFactory
   - address: "0x26ce2091749059a66703cd4b998156d94ec393ef"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x053b92ffa8a15b7db203ab66bbd5866362013566"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: FraxswapPair
   - address: "0xc2544a32872a91f4a553b404c6950e89de901fdb"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: FraxswapRouter
   - address: "0xb771410e2b1d892c3469711824c44769528fdc89"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: FraxswapPair

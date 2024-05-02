@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: electronic-frontier-foundation
 name: Electronic Frontier Foundation
 github:
@@ -7,7 +7,7 @@ blockchain:
   - address: "0x640c28441f9e73537c63576a0d6f44643a577e32"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

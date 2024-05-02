@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: lido
 name: Lido
 github:
@@ -12,7 +12,7 @@ blockchain:
       - eoa
   - address: "0x1824988af7a12c339784a171a514e20609896321"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
@@ -42,19 +42,19 @@ blockchain:
     name: L2ERC20TokenBridge
   - address: "0x5979d7b546e38e414f7e9822514be443a4800529"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: wstETH
   - address: "0x0fbcbaea96ce0cf7ee00a8c19c3ab6f5dc8e1921"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ERC20Bridged
   - address: "0xec576a26335de1c360d2fc9a68cba6ba37af4a13"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer

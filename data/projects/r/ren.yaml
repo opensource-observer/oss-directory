@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: ren
 name: Ren
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x90899d3cc800c0a9196aec83da43e46582cb7435"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -21,7 +21,7 @@ blockchain:
     name: RenAssetProxyBeacon
   - address: "0x2222229fb3318a6375fa78fd299a9a42ac6a8fbf"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -37,7 +37,7 @@ blockchain:
     name: MintGatewayProxyBeacon
   - address: "0xf36666c230fa12333579b9bd6196cb634d6bc506"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GatewayRegistryProxy

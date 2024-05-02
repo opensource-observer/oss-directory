@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: lifinance
 name: LI.FI
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x11f11121df7256c40339393b0fb045321022ce44"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x954e3eb8de035ec1bc8fe8fa0091d5b87ab17d47"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -22,7 +22,7 @@ blockchain:
       - eoa
   - address: "0x2fd525b8b2e2a69d054dccb033a0e33e0b4ab370"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -31,7 +31,7 @@ blockchain:
     name: unverified
   - address: "0x28c6039ef5634a9e1f6a45014ee9c5b5c64d580f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -39,7 +39,7 @@ blockchain:
     name: unverified
   - address: "0x2f16c2c6467377920c125c05b7adbc5d74ae5fa1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -47,25 +47,25 @@ blockchain:
     name: unverified
   - address: "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiFiDiamond
   - address: "0x9b11bc9fac17c058cab6286b0c785be6a65492ef"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiFiDiamondImmutable
   - address: "0x362fa9d0bca5d19f743db50738345ce2b40ec99f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiFiDiamond
   - address: "0xb0210de78e28e2633ca200609d9f528c13c26cd9"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: FeeCollector
@@ -79,7 +79,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

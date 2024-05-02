@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: itu-blockchain
 name: ITU Blockchain
 github:
@@ -18,7 +18,7 @@ blockchain:
       - wallet
   - address: "0xbec643bd5b7f5e9190617ca4187ef0455950c51c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

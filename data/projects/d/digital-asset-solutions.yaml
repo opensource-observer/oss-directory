@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: digital-asset-solutions
 name: Digital-Asset-Solutions
 github:
@@ -8,7 +8,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
@@ -16,7 +16,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

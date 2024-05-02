@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: lxdao-official
 name: LXDAO
 github:
@@ -31,7 +31,7 @@ blockchain:
     name: eipfun.eth
   - address: "0xe395b9ba2f93236489ac953146485c435d1a267b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -55,7 +55,7 @@ blockchain:
     name: 0xhardman.eth
   - address: "0xc3d7f926e57ff06e465823b100b95408e805dfa2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

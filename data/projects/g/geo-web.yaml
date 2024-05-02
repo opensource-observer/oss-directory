@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: geo-web
 name: Geo Web
 github:
@@ -121,7 +121,7 @@ blockchain:
       - wallet
   - address: "0xde798cd9c53f4806b9cc7dd27adf7c641540167c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

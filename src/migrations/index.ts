@@ -2,6 +2,7 @@ import _ from "lodash";
 import { assert } from "../utils/common.js";
 import blockchainAddressTypeToTags from "./2-blockchainAddressTypeToTags.js";
 import blockchainConsolidate from "./3-blockchainConsolidate.js";
+import renameArbitrum from "./4-renameArbitrum.js";
 
 /**
  * Migration for a single schema
@@ -34,6 +35,7 @@ const MIGRATIONS: Migration[] = [
   createNoopMigration(1),
   blockchainAddressTypeToTags,
   blockchainConsolidate,
+  renameArbitrum,
 ];
 // The highest version number among all migrations
 const currentVersion = Math.max(...MIGRATIONS.map((m) => m.version));

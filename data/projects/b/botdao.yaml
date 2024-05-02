@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: botdao
 name: BotDAO
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x163e5d3a14b30335baa362adb7819a84b894931e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet

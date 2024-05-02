@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: traderjoe-xyz
 name: Trader Joe
 github:
@@ -6,102 +6,102 @@ github:
 blockchain:
   - address: "0xc8fc59fceb8259534d8b10879273879eddf7eec0"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x1119fbb02f38764cd90f2d9fb35fedcd8378ac2a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x02ef67fc4c983e33ede836bf5aee3d92423501d9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x1886d09c9ade0c5db822d85d21678db67b6c2982"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: LBFactory
   - address: "0xae4ec9901c3076d0ddbe76a520f9e90a6227acb7"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: JoeFactory
   - address: "0x8e42f2f4101563bf679975178e880fd87d3efd4e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: LBFactory
   - address: "0x371ddfc191daaa45336f19cd4c5edf2c659074c4"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: JoePair
   - address: "0x7f281f22edb332807a039073a7f34a4a215be89e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LBQuoter
   - address: "0xbee5c10cf6e4f68f831e11c1d9e59b43560b3642"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: JoeRouter02
   - address: "0x7bfd7192e76d950832c77bb412aae841049d8d9b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LBRouter
   - address: "0x371c7ec6d8039ff7933a2aa28eb827ffe1f52f07"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: JoeTokenOFT
   - address: "0x93ee9991e664cc779d817778e096cc4dcea8b52d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: JoePair
   - address: "0x3660268ed43583a2cdd09e3fc7079ff07dbd4caa"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LBQuoter
   - address: "0xb4315e873dbcf96ffd0acd8ea43f689d8c20fb30"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LBRouter
   - address: "0x3b0abc81fa6a47135e36a513ad8845f48f1ee179"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0xc1f080be1324a2e7869ff50a4bb0e32b833be415"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa

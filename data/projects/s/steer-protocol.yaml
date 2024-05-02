@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: steer-protocol
 name: Steer Protocol
 github:
@@ -6,14 +6,14 @@ github:
 blockchain:
   - address: "0x0776752096bafc4e86e5aa46cf8620c2e3fb67cc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - deployer
       - eoa
   - address: "0xc1ecd10398a6d7036ccee1f50551ff169715081c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -33,63 +33,63 @@ blockchain:
     name: SushiWhitelistedSingleLiquidityManager
   - address: "0xf4de4180829272ae5f69acacf820f4f7d547513b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2822ee30383eabcba817ab4a7a592f4a194e14b5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xa1dd21fbd9e1f0bf28d41f18bdc22326e50c02e9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x116dba5dce9ccda828218b7eb46406810632014c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x8fb2cd40046b08f155d06c3a31b69c1bd2c971e2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x7c31a819a36e29939058b61fdaea28bc3cfb66b8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x38a07152ee64c7067feeba904d72abc9a9da0c77"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x09eb271b444d1db7163c8555919de85b20be7d1d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xdaeed7da964b212963ce207660633758fc6ecfec"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -108,21 +108,21 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x9f5b097ad23e2cf4f34e502a3e41d941678877dc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xab36d30c1a1c683037bd7aac67f29b2e3ecc6576"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x806c2240793b3738000fcb62c66bf462764b903f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -141,14 +141,14 @@ blockchain:
     name: BundleRegistry
   - address: "0x0c5c5beb833fd382b04e039f151942dc3d9a60ce"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xd5532a58e4abb6485ff4e7bcf5bed278e32a516e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -161,21 +161,21 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xd964811233b8a0185d3c93664df82136c80d1bb2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x279228aafd13bb4642abb772a248c78555dc39c4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xb27a61faf33d2f6ad7af8cc2512c3b58901f779b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

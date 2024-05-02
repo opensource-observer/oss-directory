@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: l2planet
 name: L2 Planet
 github:
@@ -19,7 +19,7 @@ blockchain:
       - wallet
   - address: "0x2d9d84f4d8a4254ea23fe18825193cbd1b21b749"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: coin-cashew
 name: Ethereum Staking Guides by CoinCashew
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xcf83d0c22dd54475cc0c52721b0ef07d9756e8c0"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

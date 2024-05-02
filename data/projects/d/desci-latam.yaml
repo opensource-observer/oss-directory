@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: desci-latam
 name: DeSci LATAM
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x7dd488f03e0a043b550e82d3c2685aa83b96407c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

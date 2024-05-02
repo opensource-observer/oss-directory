@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: set-protocol
 name: Set Protocol
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x69bdb276a17dd90f9d3a545944ccb20e593ae8e3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -21,7 +21,7 @@ blockchain:
       - eoa
   - address: "0xcf786472d37f557a80fe6daff6f2672bfda728a3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -112,7 +112,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x719e5b865de407bf38647c1625d193e0ce42111d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -278,7 +278,7 @@ blockchain:
     name: UniswapV3ExchangeAdapterV2
   - address: "0xbc587e41ad8f218e49874d5ca62e5debde59aab5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -351,7 +351,7 @@ blockchain:
     name: DeltaNeutralBasisTradingStrategyExtension
   - address: "0x14099863f0b6490759f9d8bc5653cf52b7ef38eb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -376,7 +376,7 @@ blockchain:
     name: DeltaNeutralBasisTradingStrategyExtension
   - address: "0xe99447abbd5a7730b26d2d16fccb2086319e4bc3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -444,7 +444,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4f70287526ea9ba7e799d616ea86635cdaf0de4f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -567,7 +567,7 @@ blockchain:
     name: ZeroExApiAdapter
   - address: "0x44279c2cbfaa14d354144895b0c7771c597d6944"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -629,7 +629,7 @@ blockchain:
     name: PositionV2
   - address: "0x2f8ff0546a478df380f975ca035b95df82377721"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

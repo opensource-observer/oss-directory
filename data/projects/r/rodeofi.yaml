@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: rodeofi
 name: rodeofi
 github:
@@ -6,67 +6,67 @@ github:
 blockchain:
   - address: "0x20de070f1887f82fce2bdcf5d6d9874091e6fae9"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x033f193b3fceb22a440e89a2867e8fee181594d9"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: RDO
   - address: "0x3d288c83b6030f86d83e5c8dc4150382004471a8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PoolRateModel
   - address: "0x5e4d7f61cc608485a2e4f105713d26d58a9d0cf6"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PositionManager
   - address: "0xc4327dc9ef2511706d233e813b822f196bc027ac"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TokenSaleReceipt
   - address: "0x0032f5e1520a66c6e572e96a11fbf54aea26f9be"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Pool
   - address: "0x45a58482c3b8ce0e8435e407fc7d34266f0a010d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TokenStaking
   - address: "0xab7d6293ce715f12879b9fa7cbabbfce3bac0a5a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Multisig
   - address: "0x8accf43dd31dfcd4919cc7d65912a475bfa60369"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Investor
   - address: "0x6f456005a7cfbf0228ca98358f60e6ae1d347e18"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: InvestorHelper
   - address: "0x00aa367b7692be05e47b9c461ff35410208158b0"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa

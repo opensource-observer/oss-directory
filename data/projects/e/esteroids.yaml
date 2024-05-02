@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: esteroids
 name: Esteroids
 github:
@@ -19,7 +19,7 @@ blockchain:
   - address: "0x62131a54d46351e5281c7b9acb7ee3e712f41449"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

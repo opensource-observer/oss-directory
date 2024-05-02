@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: ethdominicana
 name: Ethereum Dominicana
 github:
@@ -13,7 +13,7 @@ blockchain:
   - address: "0xa9ac44f20dd34b183062f83788c44b6b060a7e3d"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet
@@ -21,7 +21,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

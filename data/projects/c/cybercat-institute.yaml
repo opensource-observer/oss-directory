@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: cybercat-institute
 name: CyberCat-Institute
 github:
@@ -7,7 +7,7 @@ blockchain:
   - address: "0x93793660aa3bad1252548c86fed0e2e4e28dd0bc"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet

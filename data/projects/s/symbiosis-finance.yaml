@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: symbiosis-finance
 name: Symbiosis Finance
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x6dcb5e43b05918505f65bf423088af172c32be33"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0xce8f24a58d85ed5c5a6824f7be1f8d4711a0eb4c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -23,7 +23,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x2b7aa8bdc40b6d3d19d0de7480c4db8d5b6495e2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -81,7 +81,7 @@ blockchain:
     name: OnchainSwapV3
   - address: "0x5523985926aa12ba58dc5ad00ddca99678d7227e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -95,14 +95,14 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x01a3c8e513b758ebb011f7afaf6c37616c9c24d9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x1da522b35363c1eda4833bc121c8f3c67b2caa75"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -110,7 +110,7 @@ blockchain:
     name: ProxyAdmin
   - address: "0x7057ab3fb2bee9c18e0cde4240de4ff7f159e365"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -118,7 +118,7 @@ blockchain:
     name: BridgeV2
   - address: "0xb8f275fbf7a959f4bce59999a2ef122a099e81a8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

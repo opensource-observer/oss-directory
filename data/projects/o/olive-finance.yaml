@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: olive-finance
 name: Olive-Finance
 github:
@@ -6,14 +6,14 @@ github:
 blockchain:
   - address: "0x6f8e84c3d59994c897a95e8ad33d8b540958b950"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x77228cf81eaea8565ba0c5bbc05703436e1d712e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract

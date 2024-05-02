@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: givestation
 name: GiveStation
 github:
@@ -26,13 +26,13 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
   - address: "0xbf7cb57f08390ef51666ca9e4825c234c6991afa"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

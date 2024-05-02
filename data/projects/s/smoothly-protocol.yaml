@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: smoothly-protocol
 name: Smoothly
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xb645ea519d3bb18a03eb0e059e5f6a70a793b4fc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

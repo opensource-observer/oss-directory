@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: mirror
 name: Mirror
 github:
@@ -38,7 +38,7 @@ blockchain:
       - eoa
   - address: "0x03238279fa90dca3a02a65113f290cea01d48d87"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -232,7 +232,7 @@ blockchain:
     name: unverified
   - address: "0xa698713a3bc386970cdc95a720b5754cc0f96931"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

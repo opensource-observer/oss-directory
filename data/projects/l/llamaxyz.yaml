@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: llamaxyz
 name: Llama
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x50507e28ea5e74c36e1293bb5331bdbaf39645d6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

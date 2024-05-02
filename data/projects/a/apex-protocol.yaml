@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: apex-protocol
 name: ApeX Protocol
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x243a183302c5f2cffc8b842cae7fb2f7de742806"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x7b55800de02e4799f7b00a2c9963575464053f6a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract

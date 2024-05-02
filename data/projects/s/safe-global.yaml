@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: safe-global
 name: Safe
 github:
@@ -66,7 +66,7 @@ blockchain:
     name: SafeChecker
   - address: "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -74,7 +74,7 @@ blockchain:
     name: GnosisSafeProxyFactory
   - address: "0xa6b71e26c5e0845f74c812102ca7114b6a896ab2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -82,7 +82,7 @@ blockchain:
     name: GnosisSafeProxyFactory
   - address: "0xfb1bffc9d739b8d520daf37df666da4c687191ea"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

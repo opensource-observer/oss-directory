@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: de-bank
 name: DeBank
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x5853ed4f26a3fcea565b3fbc698bb19cdf6deb85"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -57,7 +57,7 @@ blockchain:
     name: unverified
   - address: "0x7bfc80a1dc182720220265e0fe0a02f0f4607748"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: DebankL2Register

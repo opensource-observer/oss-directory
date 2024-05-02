@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: balancer
 name: Balancer
 github:
@@ -6,21 +6,21 @@ github:
 blockchain:
   - address: "0x288c09d17a66a49177d3846372ed318ac16a8f42"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0xc3c2b82754e1c91ab3a2a0916f852be84d9566a5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x089775364ea24957da94348cf740375826ed3330"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -28,7 +28,7 @@ blockchain:
       - eoa
   - address: "0x398df9f7d65c177c00749ffc83cb34ba5e07bf8b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -36,7 +36,7 @@ blockchain:
       - eoa
   - address: "0x4fbe899d37fb7514adf2f41b0630e018ec275a0c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -44,14 +44,14 @@ blockchain:
       - eoa
   - address: "0x62810730b8fe56d13c5627a96af027782122eda1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x3d64fb8a2ffd08c186e8060aa57c8011d8b999cc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -60,7 +60,7 @@ blockchain:
     name: nventuro.eth
   - address: "0x1c99324edc771c82a0dccb780cc7dda0045e50e7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
@@ -68,7 +68,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1802953277fd955f9a254b80aa0582f193cf1d77"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -76,14 +76,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4f4269f7008430860693aedb86b0c55962d6e9b7"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: BatchRelayerLibrary
   - address: "0x2498a2b0d6462d2260eac50ae1c3e03f4829ba95"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -91,71 +91,71 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xaeb406b0e430bf5ea2dc0b9fe62e4e53f74b3a33"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: ComposableStablePoolFactory
   - address: "0xc7e5ed1054a24ef31d827e6f86caa58b3bc168d7"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: WeightedPoolFactory
   - address: "0x42e49b48573c725ee32d2579060ed06894f97002"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BalancerRelayer
   - address: "0x542f16da0efb162d20bf4358efa095b70a100f9e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ComposableStablePool
   - address: "0x8ea89804145c007e7d226001a96955ad53836087"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ManagedPoolFactory
   - address: "0xf23d8342881edecced51ea694ac21c2b68440929"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xc9f52540976385a84bf416903e1ca3983c539e34"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: WeightedPool
   - address: "0x7396f99b48e7436b152427bfa3dd6aa8c7c6d05b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: AaveLinearPoolFactory
   - address: "0x2794953110874981a0d301286c986992022a62a1"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ERC4626LinearPoolFactory
   - address: "0xacd615b3705b9c880e4e7293f1030b34e57b4c1c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: InvestmentPoolFactory
   - address: "0xe2e901ab09f37884ba31622df3ca7fc19aa443be"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -163,7 +163,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x8e5698dc4897dc12243c8642e77b4f21349db97c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -216,7 +216,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa0dabebaad1b243bbb243f933013d560819eb66f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -292,7 +292,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xbfd9769b061e57e478690299011a028194d66e3c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -308,7 +308,7 @@ blockchain:
     name: BeefyLinearPoolFactory
   - address: "0x0f3e0c4218b7b0108a3643cfe9d3ec0d4f57c54e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -317,7 +317,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xdae7e32adc5d490a43ccba1f0c736033f2b4efca"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -333,7 +333,7 @@ blockchain:
     name: NoProtocolFeeLiquidityBootstrappingPoolFactory
   - address: "0x7c71313d3b84728ca0fd4cdad8c86067e3548dce"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -341,7 +341,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x9bf6468facac0f71c7eca8d71a5fb5f65bdab319"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -349,7 +349,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x994086630773dc6cb54d3a5e0ef0963532789e75"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -364,7 +364,7 @@ blockchain:
     name: BatchRelayerLibrary
   - address: "0xb08e16cfc07c684daa2f93c70323badb2a6cbfd2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -408,7 +408,7 @@ blockchain:
     name: UnbuttonAaveLinearPoolFactory
   - address: "0x4c4287b07d293e361281bceee8715c8cdeb64e34"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -417,7 +417,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa3b9515a9c557455bc53f7a535a85219b59e8b2e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -425,7 +425,7 @@ blockchain:
     name: ERC4626LinearPoolFactory
   - address: "0xd8b6b96c88ad626eb6209c4876e3b14f45f8803a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -483,7 +483,7 @@ blockchain:
     name: AuthorizerAdaptorEntrypoint
   - address: "0xd7fad3bd59d6477cbe1be7f646f7f1ba25b230f8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -504,7 +504,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x41b953164995c11c81da73d212ed8af25741b7ac"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -538,7 +538,7 @@ blockchain:
     name: ERC20Mock
   - address: "0xcd7f93c86f30b90a181f81934fa4f281c7bff246"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -570,7 +570,7 @@ blockchain:
     name: ShareValueHelper
   - address: "0x5d5629fc838f5ea67d14264b7316ffd4294b0998"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -609,7 +609,7 @@ blockchain:
     name: WstethLinearBptRateProvider
   - address: "0x40f7218fa50ead995c4343eb0bb46dd414f9da7a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -705,7 +705,7 @@ blockchain:
     name: AuthorizerAdaptor
   - address: "0x72d07d7dca67b8a406ad1ec34ce969c90bfee768"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -756,7 +756,7 @@ blockchain:
     name: WeightedPoolFactory
   - address: "0x7adbdabaa80f654568421887c12f09e0c7bd9629"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -764,14 +764,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x19dfef0a828eec0c85fbb335aa65437417390b85"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: YearnLinearPoolFactory
   - address: "0x4c32a8a8fda4e24139b51b456b42290f51d6a1c4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -796,47 +796,47 @@ blockchain:
     name: AnkrEthStakingRateProvider
   - address: "0x751a0bc0e3f75b38e01cf25bfce7ff36de1c87de"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x8df6efec5547e31b0eb7d1291b511ff8a2bf987c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xef44d6786b2b4d544b7850fe67ce6381626bf2d6"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: StablePoolFactory
   - address: "0x5ef4c5352882b10893b70dbcaa0c000965bd23c5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xf1665e19bc105be4edd3739f88315cc699cc5b65"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x9098b50ee2d9e4c3c69928a691da3b192b4c9673"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x697a71353a4bc1eb1356763018a229c27a3fba0c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa

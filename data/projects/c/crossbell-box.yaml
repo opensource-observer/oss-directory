@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: crossbell-box
 name: Crossbell
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xc8b960d09c0078c18dcbe7eb9ab9d816bcca8944"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

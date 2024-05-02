@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: primex-finance
 name: primex-finance
 github:
@@ -6,52 +6,52 @@ github:
 blockchain:
   - address: "0xc110b6e93a51acf1f3ded19c754789e7a2304f07"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x97f254e6ed709d41985c96280d20c36d3b9e0400"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LimitOrderManager
   - address: "0xbe3de856eb22bf6efa03dd55e65df22ba212e6db"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SwapManager
   - address: "0xe21656d7e749299e4c635e089b8de4c3dea04a79"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PrimexUpkeep
   - address: "0x86890e30ce9e1e13db5560bbeb435c55567af1cd"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xc08ffbba8c5f42beb7e6dd29142cc61855a3076b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xf2225a8f90311daf9e989db1affd47617bb69e96"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BatchManager
   - address: "0x893047ea492659418501e3b5868abe75468e2eb6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract

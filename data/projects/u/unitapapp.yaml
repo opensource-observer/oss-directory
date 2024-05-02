@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: unitapapp
 name: Unitap
 github:
@@ -13,7 +13,7 @@ blockchain:
       - wallet
   - address: "0x88888931fbe186c8f513a1289df2639096bf7518"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

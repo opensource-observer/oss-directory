@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: niftyswap
 name: Niftyswap
 github:
@@ -12,7 +12,7 @@ blockchain:
       - eoa
   - address: "0xb70d2e30b2d2f8af8b657f5da5b305ec533f6dc2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - deployer
@@ -48,7 +48,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xf9d09d634fb818b05149329c1dccfaea53639d96"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: revert-finance
 name: Revert Finance
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x8df57e3d9ddde355dce1adb19ebce93419ffa0fb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x83681c14770b44361e21faf91d8325423365ea5c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -22,7 +22,7 @@ blockchain:
       - eoa
   - address: "0x5411894842e610c4d0f6ed4c232da689400f94a1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -72,7 +72,7 @@ blockchain:
     name: MerkleDistributor
   - address: "0xae8999da4d81cb81b42288b12176fe20d7ead578"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -110,19 +110,19 @@ blockchain:
     name: AutoExit
   - address: "0xab6998459d767eeab2c58aa0a08b7bb5990e7f1b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: AutoRange
   - address: "0xb43a613f0dd19af1cb1f5d03d8e8e5af04d9f0a1"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SelfCompoundor
   - address: "0xd82e0be376196690aae31372b25cc9025600ab06"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: AutoExit

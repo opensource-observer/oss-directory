@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: valioxyz
 name: valio.xyz
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x7d57d22bf8a1319e3cf897e1aa2347a00f11f36c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x46a368e7a412be32e36ef254aa72090ea8756792"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TransportDiamond

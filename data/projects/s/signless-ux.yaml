@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: signless-ux
 name: signless
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x77fb4fa1aba92576942ad34bc47834059b84e693"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

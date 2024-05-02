@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: stableunit
 name: Stable Unit
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xa33ac3f6c76ae645051550f56aa74f902e1b3510"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

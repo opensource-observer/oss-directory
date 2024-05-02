@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: radio-shack-swap
 name: RadioShack Swap
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x1e7b390149abb3b891e0a7027e111188032d4540"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x5ef0153590d4a762f129dcf3c59186d91365e4e1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -28,14 +28,14 @@ blockchain:
     name: unverified
   - address: "0x57b963fbb8e4bfb6d9047ac6d5ed183fbe6e7397"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: Farms
   - address: "0xf899e3909b4492859d44260e1de41a9e663e70f5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -130,7 +130,7 @@ blockchain:
     name: unverified
   - address: "0x55a5334d1a402383c5a8c622301ea00cc8cd1681"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

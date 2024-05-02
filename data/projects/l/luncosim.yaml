@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: luncosim
 name: LunCo
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xa64f2228ccec96076c82abb903021c33859082f8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -17,7 +17,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

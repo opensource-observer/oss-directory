@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: quix
 name: Quix
 github:
@@ -6,14 +6,14 @@ github:
 blockchain:
   - address: "0xec1557a67d4980c948cd473075293204f4d280fd"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - deployer
       - eoa
   - address: "0x1a3daa6f487a480c1ad312b90fd0244871940b66"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -82,14 +82,14 @@ blockchain:
     name: CampaignTracker
   - address: "0xe2648e1654fc8349b3c13c8eac7b77a22930ff8c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x7305a4d8c9d01aed3c0cba9a9f0f359e92160833"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -138,7 +138,7 @@ blockchain:
     name: ExchangeV5
   - address: "0x5d9102d6a0734fc6731a958a685de18101d98357"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -171,7 +171,7 @@ blockchain:
     name: ProxyAdmin
   - address: "0x6138b40551452b7584ad96f8207a74f002d82fa9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -283,7 +283,7 @@ blockchain:
     name: unverified
   - address: "0xc8369642f6ec99da81072388b2e6d0ecdb148620"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -296,7 +296,7 @@ blockchain:
     name: ExchangeV5
   - address: "0x3768c34646e27a91dce6fbc870580b7aadfce56f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -315,7 +315,7 @@ blockchain:
     name: ExchangeRegistry
   - address: "0xe5c7b4865d7f2b08faadf3f6d392e6d6fa7b903c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

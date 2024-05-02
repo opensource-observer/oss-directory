@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: barn-bridge
 name: BarnBridge
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x558ef269bcc4cc9f2e14e3f4301231fbeb85d95f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -55,7 +55,7 @@ blockchain:
     name: EpochAdvancer
   - address: "0x676c7d48ebd00735e082b0f1d11762c3ff305072"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -74,7 +74,7 @@ blockchain:
     name: SmartAlphaLoupe
   - address: "0x045a3438a37de5b68c9e4ed5ea26c49cce1b5f5a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -87,7 +87,7 @@ blockchain:
     name: EpochAdvancer
   - address: "0x4b8998c34810c80b5038f5928fb3a633ccbf6abb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

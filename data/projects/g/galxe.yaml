@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: galxe
 name: Galxe
 github:
@@ -12,7 +12,7 @@ blockchain:
       - eoa
   - address: "0x98422d38f6c408d0224b8fa4588b807ca5e66b17"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -20,13 +20,13 @@ blockchain:
       - eoa
   - address: "0x5ffc120734ce00002b43919d27e70d881f02f8ef"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x171e4fa249375834a6198849aca17c7889caab47"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
@@ -64,7 +64,7 @@ blockchain:
     name: unverified
   - address: "0x2f05e799c61b600c65238a9df060caba63db8e78"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -78,13 +78,13 @@ blockchain:
     name: unverified
   - address: "0x9e6ef7f75ad88d4edb4c9925c94b769c5b0d6281"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SpaceStationV2
   - address: "0x1ae981a0a3ae5f9cdc059d9478d2c37e8eb442eb"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: unverified

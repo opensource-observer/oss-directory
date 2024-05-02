@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: rigo-block
 name: RigoBlock
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x080f08076e8eadc66006c3cbfed28a34918a1fa6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

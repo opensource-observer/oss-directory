@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: data4builders
 name: Data4Builders
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xadfb64b185d25859bee3360690c9fecd3341e2b8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: dasylang
 name: Dasy
 github:
@@ -13,7 +13,7 @@ blockchain:
     name: z80.eth
   - address: "0xea7ca3bb3cb5cffe49602e4a2c96b78e3c610699"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet
