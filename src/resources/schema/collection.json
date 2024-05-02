@@ -7,10 +7,10 @@
     "version": {
       "type": "number"
     },
-    "slug": {
+    "name": {
       "type": "string"
     },
-    "name": {
+    "display_name": {
       "type": "string"
     },
     "description": {
@@ -24,5 +24,5 @@
       }
     }
   },
-  "required": ["version", "slug", "name", "projects"]
+  "required": ["version", "name", "display_name", "projects"]
 }

@@ -10,8 +10,8 @@
  */
 export interface Collection {
   version: number;
-  slug: string;
   name: string;
+  display_name: string;
   description?: string;
   /**
    * @minItems 1

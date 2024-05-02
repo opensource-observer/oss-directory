@@ -39,16 +39,16 @@ export async function validateCollections(args: ValidateArgs) {
     const collection = await readCollectionFile(file, { format: fileFormat });
     const baseName = path.basename(file, extension);
     assert(
-      collection.slug === baseName,
-      `Filename must match slug(${collection.slug}): ${file}`,
+      collection.name === baseName,
+      `Filename must match name(${collection.name}): ${file}`,
     );
     assert(
       collection.version === currentVersion,
       `Collection version(${collection.version}) must be ${currentVersion}: ${file}`,
     );
     // Make sure that all projects in the collection exist
-    for (const projectSlug of [...collection.projects]) {
-      const projectFile = getProjectPath(projectSlug);
+    for (const projectName of [...collection.projects]) {
+      const projectFile = getProjectPath(projectName);
       await readProjectFile(projectFile, { format: fileFormat });
     }
   }
@@ -87,8 +87,8 @@ export async function validateProjects(args: ValidateArgs) {
     const project = await readProjectFile(file, { format: fileFormat });
     const baseName = path.basename(file, extension);
     assert(
-      baseName === project.slug,
-      `Filename must match slug(${project.slug}): ${file}`,
+      baseName === project.name,
+      `Filename must match name(${project.name}): ${file}`,
     );
     assert(
       project.version === currentVersion,
