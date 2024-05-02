@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: f3-buidlers
 name: F3 Buidlers
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x479cba5a5c91fff90a696e448474bc396049d696"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

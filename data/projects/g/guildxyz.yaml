@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: guildxyz
 name: Guild.xyz
 github:
@@ -7,7 +7,7 @@ github:
 blockchain:
   - address: "0xf7b73f96951e7ef3f9da69b4ec6431319ade7e9f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -15,13 +15,13 @@ blockchain:
       - eoa
   - address: "0x0e6a14106497a7de36fba446628860c062e9e302"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GuildPin
   - address: "0xe6e6b676f94a6207882ac92b6014a391766fa96e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

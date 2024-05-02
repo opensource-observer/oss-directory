@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: besu-hyperledger
 name: Hyperledger Besu
 github:
@@ -8,7 +8,7 @@ blockchain:
     tags:
       - wallet
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     name: SplitWallet

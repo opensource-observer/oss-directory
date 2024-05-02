@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: rocket-pool
 name: Rocket Pool
 github:
@@ -12,7 +12,7 @@ blockchain:
       - wallet
   - address: "0x76ef4b28df1f590db4cd680675d734c27caa32ba"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - deployer

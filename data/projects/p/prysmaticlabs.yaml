@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: prysmaticlabs
 name: Prysm Ethereum Client
 github:
@@ -7,7 +7,7 @@ blockchain:
   - address: "0x9b984d5a03980d8dc0a24506c968465424c81dbe"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet

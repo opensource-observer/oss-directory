@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: quest-3
 name: Quest3
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xb32d9aa786e4f53f9484539cf44b1e092f94d483"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -28,14 +28,14 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x69318316a6a6b8c62d92736e67819d1fc037c135"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x8aab3bdee6bbbef06293bcb7c48d22015d2f86dc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -49,7 +49,7 @@ blockchain:
     name: ProxyAdmin
   - address: "0xdf5043e0008dea21b6407da5d026108a467cdf63"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -57,7 +57,7 @@ blockchain:
     name: unverified
   - address: "0xa5d1e186f22d7e289d4afc55d74c1fe06dd6548b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -65,7 +65,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xc8e0c477b06abcab3e4546a814ac157cad6e3b58"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -79,7 +79,7 @@ blockchain:
     name: unverified
   - address: "0x1b46a4b50c7ee6b50e5c57458db3736511e9e48f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -87,7 +87,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x03518ad0aaad97142262c57f0a07a1220e99805c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -108,7 +108,7 @@ blockchain:
     name: unverified
   - address: "0x6c3f41c2d712dc1701009561af5580efed574c92"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

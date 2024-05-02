@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: dsrvlabs
 name: dsrvlabs
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x60ae11efbf989485519b59fc4eeca83310a1ee42"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: abacus
 name: Abacus
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xa7eccdb9be08178f896c26b7bbd8c3d4e844d9ba"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -95,7 +95,7 @@ blockchain:
     name: ProxyAdmin
   - address: "0x0e3239277501d215e17a4d31c487f86a425e110b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -128,7 +128,7 @@ blockchain:
     name: InboxValidatorManager
   - address: "0x3a867fcffec2b790970eebdc9023e75b0a172aa7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -154,7 +154,7 @@ blockchain:
     name: UpgradeBeaconProxy
   - address: "0x0761b0827849abbf7b0cc09ce14e1c93d87f5004"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -173,7 +173,7 @@ blockchain:
     name: InboxValidatorManager
   - address: "0x1052ef3419f26bec74ed7cef4a4fa6812bc09908"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -193,7 +193,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x14c3ceee8f431ae947364f43429a98ea89800238"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -201,7 +201,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x2f9db5616fa3fad1ab06cb2c906830ba63d135e3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -221,7 +221,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x4b44e4305b42405382b7bec717f64d0552a9d9fe"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -242,7 +242,7 @@ blockchain:
     name: UpgradeBeaconProxy
   - address: "0x3a464f746d23ab22155710f44db16dca53e0775e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -262,7 +262,7 @@ blockchain:
     name: UpgradeBeacon
   - address: "0xeb9fcfdc9efdc17c1ec5e1dc085b98485da213d6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -283,7 +283,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xea87ae93fa0019a82a727bfd3ebd1cfca8f64f1d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -327,7 +327,7 @@ blockchain:
     name: unverified
   - address: "0x23ce76645ec601148fa451e751eeb75785b97a00"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -370,7 +370,7 @@ blockchain:
     name: InboxValidatorManager
   - address: "0x552d41c0b5c774f529c956e7cc77d0e054d7afa8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -402,7 +402,7 @@ blockchain:
     name: unverified
   - address: "0x8428a1a7e97fc75fb7ba5c4aec31b55e52bbe9d6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -447,7 +447,7 @@ blockchain:
     name: UpgradeBeaconProxy
   - address: "0x8f7454ac98228f3504bb91ea3d8adafe6406110a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -485,7 +485,7 @@ blockchain:
     name: Outbox
   - address: "0x398633d19f4371e1db5a8efe90468eb70b1176aa"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -534,7 +534,7 @@ blockchain:
     name: unverified
   - address: "0x02d16bc51af6bfd153d67ca61754cf912e82c4d9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -589,7 +589,7 @@ blockchain:
     name: unverified
   - address: "0x8b83fefd896faa52057798f6426e9f0b080fccce"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -622,14 +622,14 @@ blockchain:
     name: UpgradeBeaconProxy
   - address: "0x28efbcada00a7ed6772b3666f3898d276e88cae3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: InboxValidatorManager
   - address: "0x2f2afae1139ce54fefc03593fee8ab2adf4a85a7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -655,7 +655,7 @@ blockchain:
     name: UpgradeBeaconProxy
   - address: "0x2c1fabecd7bfbdebf27ccdb67baadb38b6df90fc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -668,7 +668,7 @@ blockchain:
     name: UpgradeBeaconProxy
   - address: "0xd56734d7f9979dd94fae3d67c7e928234e71cd4c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: HypERC20

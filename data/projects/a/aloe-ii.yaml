@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: aloe-ii
 name: Aloe II
 github:
@@ -35,7 +35,7 @@ blockchain:
     name: unverified
   - address: "0x95110c9806833d3d3c250112fac73c5a6f631e80"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: mux-world
 name: MUX Protocol
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x44cbfc3ce762fc0fee9ddd6372804b7b660176bc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -21,14 +21,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x29b834b4b22224b18f1df3139e11dcc348cbc90b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xb3568690bfa5ed29da99ec2f395ff1859cc90b9e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -156,122 +156,122 @@ blockchain:
     name: unverified
   - address: "0x72e6fbf88a8c0b98a28219a573d7e8ac4a741846"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x7f58f374916a612858eba1b37d7300e94785d6a0"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xa08794b19d231a0d8f8f3e09a9b7b9d11322b491"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xdf88fe94ef674d8c1ab1743ad88717e7ae893a44"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x238ad16ea6011d6481c1d38e35b0b5541e5a513f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xdf47a8c7a789dceb51c2dcc9b76d2f0d8357b57d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x86c90fc464a668469a93ca08d8b9872bdb16b356"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x8645f18a64db40660637fb362d7da7cc9d422c49"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x0eb8645e28d547e258932fdfc65e5136cc5bd3a3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xb362b8cc8c00c04447f1004f3da7f22d87987cd2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x02fae054acd7fb1615471319c4e3029dfbc2b23c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xa65ba125a25b51539a3d10910557b28215097810"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: VotingEscrow
   - address: "0x3e0199792ce69dc29a0a36146bfa68bd7c8d6633"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2ff2f1d9826ae2410979ae19b88c361073ab0918"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ProxyFactory
   - address: "0xe21d366d5042f713c0c872591e610fb6a74c775b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TradingRebateDistributor
   - address: "0x8bb2ac0dcf1e86550534cee5e9c8ded4269b679b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Mux
   - address: "0xa19fd5ab6c8dcffa2a295f78a5bb4ac543aaf5e3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x917952280770daa800e1b4912ea08450bf71d57e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Vault
@@ -290,19 +290,19 @@ blockchain:
       - wallet
   - address: "0x904b5993fc92979eeedc19ccc58bed6b7216667c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ArbMCBv2
   - address: "0x80eefa1ded44f08e2dacfab07b612be66363326e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: MCBVestingUpgradeable

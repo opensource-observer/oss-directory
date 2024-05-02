@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: layer2es
 name: Layer2es
 github:
@@ -8,7 +8,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

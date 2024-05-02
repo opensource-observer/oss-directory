@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: aqkuperu
 name: AQKU
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xa726e53bb8ef579707ef27230a35ff00ebe54b9a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

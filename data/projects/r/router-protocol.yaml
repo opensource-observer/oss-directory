@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: router-protocol
 name: Router Protocol
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xb00b19938346b745ccb3fc4fad946de0caa724a2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0xb00bc9e04698a3315b6038225a2e9e42d63c7669"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -22,7 +22,7 @@ blockchain:
       - eoa
   - address: "0x6e14f48576265272b6caa3a7cc500a26050be64e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -31,7 +31,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xe8dda2680028aa334c5bf852b8e744abdb871c4f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -39,7 +39,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xb9f7fe50dca579a65d4f872167767bc968a822b9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -47,7 +47,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x2741986f69be3d3c92b23dc2f201517939678ba2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -55,14 +55,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4c29d3d9a594dc680a3dd922c77aefd5832e6009"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x78d7fa35a0c18075b000f1acdd4f8ca23b3c5277"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -87,7 +87,7 @@ blockchain:
     name: VoterUpgradeable
   - address: "0x606285b3fe057fef83b23a56132b37d66f8740a2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -102,7 +102,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x0f1952b985188ace80006794e0a7eb710e72fbce"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -116,14 +116,14 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x2a9fed1edccb6b303e5abb8c4db169f9d303ac0b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xacb3ee994f0e87caf09e586fed6651e417347451"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -138,7 +138,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x229ed380a02f65086d492fc5bcc0e83c9515473f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -146,14 +146,14 @@ blockchain:
     name: ProxyAdmin
   - address: "0x7765bf5987cd6a2362d47d75f7d9768fa25893ff"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x6c27468b42c10cf376fdb3345cb7954fd5c30486"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -184,7 +184,7 @@ blockchain:
     name: unverified
   - address: "0xdc3375957cdf6e57837099f51da0cd56ead1c140"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -198,7 +198,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa63f3147c6bae70a53a30e30421b1a992e60aac2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -206,7 +206,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x56b2fc450bfe527e19772688ab203d13060505c7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -220,14 +220,14 @@ blockchain:
     name: ERC20HandlerUpgradeable
   - address: "0x4d68a3480e22c21f3b2c2a32d4ed2a2f4f36f680"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2d7d5f298067e81e8827eb686428881f4c988dc1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -254,7 +254,7 @@ blockchain:
     name: SequencerHandlerUpgradeable
   - address: "0x1680fe3450bd737c80e202003a9f0091c389db53"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -273,7 +273,7 @@ blockchain:
     name: BridgeUpgradeable
   - address: "0x8e4bc58ec417cfb732b78433e543c106d774cad2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -287,7 +287,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x8413041a7702603d9d991f2c4add29e4e8a241f8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -325,7 +325,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa77c7f3ba954f4a420d8c51e33de23b36daabbac"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -333,7 +333,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xb344973982d22a1dddc830b4877fb3eed5d54b65"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -359,7 +359,7 @@ blockchain:
     name: GenericHandlerUpgradeable
   - address: "0x00b8f3e184e5daaadb8fda995bbabbcc1b35ae93"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -373,21 +373,21 @@ blockchain:
     name: OneSplit
   - address: "0xb41d9b7e27757c1081092c57880641c3d4a276cc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: OneSplit
   - address: "0xf0941fc0a3521cd46973fbbbe06fcdd4ba7d7388"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: OneSplitView
   - address: "0x0427eaec63450789200a4702e23e22155428fc63"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -401,28 +401,28 @@ blockchain:
     name: OneSplit
   - address: "0x33d9291cc2eaabebd011d76765526f0c4c7ffe86"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x870dd9dce39d9da54971d52a8558ee599b1c6b9a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xafd00d2176bc435c101ef425fa57d0cd83a243d1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: OneSplit
   - address: "0x065e424d9b4136ff04ff5f1e0cb3013255a130fb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -443,14 +443,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x7383fbab142f4e81a754e49498ceb501e2020c5c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x22ef6e79e1a8448c82b56160424d67cdafbc18db"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -471,7 +471,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x6378693ae65c151ca8aa78149deabf316e58792c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -479,7 +479,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xbc565b8988f6d3963c35ca062d00b8bd5db8a68a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -500,14 +500,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4f0a416851634c2da17978837e86c5c9cb27fe15"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: ERC1967Proxy
   - address: "0xf247b4f1f97077e25c67cb8cb7e0d8718ba9be6b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -526,7 +526,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xe78d85a1a0356e02292606f2709e0c8ca737d764"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -534,7 +534,7 @@ blockchain:
     name: FeeManagerUpgradeable
   - address: "0xdacc998ec5193745b4eb6d9a9abea52d71448721"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -559,14 +559,14 @@ blockchain:
     name: HandlerReserveUpgradeable
   - address: "0x68079af32e370282908f07f3e46e928e8ac82e07"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xf18acc02628009231d7baaf9a7a24c0860dda6cb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -574,7 +574,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0xf6a101810698f5b399bab6ad95f78ee2744bab84"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -582,7 +582,7 @@ blockchain:
     name: ERC20HandlerUpgradeable
   - address: "0x8643548aa389215575cd3639c681826b8cc0d29e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -596,7 +596,7 @@ blockchain:
     name: OneSplitView
   - address: "0x8820a3ef36a35d297cdf6ca7033ac5a3b284048c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

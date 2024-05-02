@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: hashflow
 name: Hashflow
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xe8bc44ae4ba6eddb88c8c087fd9b479dff729850"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0xac6a83b29e5ff66fd558171ead7ed9d619b055d0"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -22,7 +22,7 @@ blockchain:
       - eoa
   - address: "0xbf0f7012060fa8dca53fe8042256389b24763057"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -38,7 +38,7 @@ blockchain:
     name: unverified
   - address: "0x63ae536fec0b57bdeb1fd6a893191b4239f61bff"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -89,14 +89,14 @@ blockchain:
     name: unverified
   - address: "0xe43632337d3f9a52ffd098fe71a57cc5961c041f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0xde828fdc3f497f16416d1bb645261c7c6a62dab5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
@@ -104,21 +104,21 @@ blockchain:
     name: HashflowFactory
   - address: "0x75fb2ab4d5b0de8b1a1acdc9124887d35d459084"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0x260c1a016c5708d96096ad2f653cce4b40092f28"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0xbcf096cd593f656fee04f54df955ebcf6e21d6d9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -133,7 +133,7 @@ blockchain:
     name: unverified
   - address: "0x7e277614644409a69ea70df5cfcb114e4a51676d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -153,14 +153,14 @@ blockchain:
     name: unverified
   - address: "0xf52637995c01ac88e7e7f55a8c8cc0a167120385"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0xc7e3f7bb22a4407ed9641b0c89ab06fabb5790a9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -179,7 +179,7 @@ blockchain:
     name: unverified
   - address: "0x37ab5e12d9bef0daa4399eae9cac62c6ba9e904b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -205,7 +205,7 @@ blockchain:
     name: unverified
   - address: "0xed2f78f4ceb26c2e40056fba5468d8aa0e105438"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -225,7 +225,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xab68b6213b091de92680ec57e879a20bbf12afda"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract

@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: punk-domains
 name: Punk Domains & Iggy Social
 github:
@@ -8,7 +8,7 @@ github:
 blockchain:
   - address: "0xb29050965a5ac70ab487aa47546cdcbc97dae45d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -58,7 +58,7 @@ blockchain:
     name: PunkOpPgf
   - address: "0x2b7b735857ec9badcbfa37581a76a2f1d4ac7fd0"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -83,7 +83,7 @@ blockchain:
     name: PunkOpPgf
   - address: "0xc6c17896fa051083324f2ad0ed4555dc46d96e7f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -133,7 +133,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xa562fd780b05b4c6d895ba78d5519ddf0a5d25d6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -177,7 +177,7 @@ blockchain:
     name: RevenueDistributorFactory
   - address: "0x12e838f846ffdade34b2e006f84117a370d71687"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -188,7 +188,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

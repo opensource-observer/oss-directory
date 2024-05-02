@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: trueblocks
 name: TrueBlocks
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xf503017d7baf7fbc0fff7492b751025c6a78179b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -15,7 +15,7 @@ blockchain:
     name: trueblocks.eth
   - address: "0x89d107a9f019b4dc5dca227d991c89e4e7251ff5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

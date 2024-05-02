@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: fractal-visions
 name: Fractal Visions
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xc4fc57dedd2463314a3fd2dbadb86b4404c257e5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: monkeyempire
 name: MonkeyEmpire
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xcbf4bfffaf71472cb821d8837f63f2976e51ef4a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet

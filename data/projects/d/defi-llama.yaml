@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: defi-llama
 name: DefiLlama
 github:
@@ -8,7 +8,7 @@ github:
 blockchain:
   - address: "0x91dfd5a51e7c00604e8b2521e678dd8444ea56c9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -28,7 +28,7 @@ blockchain:
       - wallet
   - address: "0x71a15ac12ee91bf7c83d08506f3a3588143898b5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -50,7 +50,7 @@ blockchain:
     name: LlamaPayFactory
   - address: "0xb93427b83573c8f27a08a909045c3e809610411a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

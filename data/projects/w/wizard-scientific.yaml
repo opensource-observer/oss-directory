@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: wizard-scientific
 name: Wizard-Scientific
 github:
@@ -7,7 +7,7 @@ blockchain:
   - address: "0xc22f47ebc79ec52b0aa5db9a47c6facffcc2ea42"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

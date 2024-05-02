@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: open-web-academy
 name: Open Web Academy
 github:
@@ -12,14 +12,14 @@ blockchain:
       - wallet
   - address: "0x2ac74ac37a4ec60335a3e9eea4cdb57aa010e310"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet
   - address: "0x70b6eaeb76596ca1378aec3ca84284f2131e8304"
     networks:
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

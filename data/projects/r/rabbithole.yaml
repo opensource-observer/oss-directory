@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: rabbithole
 name: Boost Studios
 github:
@@ -13,7 +13,7 @@ blockchain:
       - eoa
   - address: "0x017f8ad14a2e745ea0f756bd57cd4852400be78c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -28,7 +28,7 @@ blockchain:
     name: 1.rabbitholegg.eth
   - address: "0x52629961f71c1c2564c5aa22372cb1b9fa9eba3e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -36,7 +36,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xabc2f529a40a1a337e0c1da12c004b61bcbe2189"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -55,7 +55,7 @@ blockchain:
     name: TicketRenderer
   - address: "0x77c015719603aacc2a617fa861fb2c1a894099b4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -87,7 +87,7 @@ blockchain:
     name: TicketRenderer
   - address: "0x76829bd875a06ddbe41aaf5ddbf5087dd17ddbed"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -100,7 +100,7 @@ blockchain:
     name: Erc1155Quest
   - address: "0x24e215a6dbb81de5903eb1e7cb890546727f75be"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -108,14 +108,14 @@ blockchain:
     name: QuestFactory
   - address: "0x594d2e3101aad23e9d27be3b8d9127c753309162"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x5e0af2ded0fd10b0990c0b57af0d7f2af877285b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -130,7 +130,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x85ee14294d67c40a9911a63d4dd445433c219389"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -156,21 +156,21 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa6d7e5c7f7799bdae196f8bbefa4846ebc98061f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xa881276209fc2b52a2d5637f218a03c5476c452d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x8e95c2d5a4aa296c9d905d38362394cf7f91c165"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -204,7 +204,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xc1594af4c8e13a11f92ce3c887ff417be72fe6d3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -230,7 +230,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x89865676cbc34a530393ed2eca6619f75856edc8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -245,7 +245,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x77ff820dda15107879d8118cf801be05838d4625"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -253,7 +253,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xd70e8b2c85c82882e0594ee076c9d6c57f9c8371"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -261,7 +261,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xdb48afcb76242e63b8ac7c048973ae4272add973"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -293,7 +293,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa5ff63489c195b4e44727c36df7e0f61c2d457c3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -318,7 +318,7 @@ blockchain:
     name: Erc20Quest
   - address: "0xee8369a567af599e7ae75cf19dd815c7f3350a54"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -332,7 +332,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1ee88aa687051e7de94d3bf68c410c61619bba6a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -359,7 +359,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x49fbb218d6a85ef1683cc8b45f1c8ac6c19a263a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -385,14 +385,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xc9c8fabc17cf597530ff3a2b7c1be1761ac9e123"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: QuestFactory
   - address: "0x53431b13e9d353676658e6da81186301fee31526"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -425,7 +425,7 @@ blockchain:
     name: Quest
   - address: "0x7ceeed1a89cac2cd3521484723353778eeb29c2c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -458,7 +458,7 @@ blockchain:
     name: ReceiptRenderer
   - address: "0x80e13ffe9be0a9b79923f5ad9f29c72cc2f2d9fa"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -466,7 +466,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x057319be3e73ccebba3935c4bdfdfc0e853c2268"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -479,42 +479,42 @@ blockchain:
     name: QuestFactory
   - address: "0xdc159584554060f2e372cec24fa3b2c3e4b615ea"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x7744f3a3c01ffb1f1c46b7dee2145378c69b69a7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: QuestFactory
   - address: "0xbb6f8affdca29aa1a282e6a21b192b6513a57f9a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xb231a7faa1e58ee7cfef23f1dbd4e59fe641b50d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: QuestFactory
   - address: "0x148d20b7767548082d671cf03e39cadc44232a64"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: QuestFactory
   - address: "0x67b208dbb6bdcacf196568083012d170be3e6f0c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -563,13 +563,13 @@ blockchain:
       - wallet
   - address: "0x6fd74033a717ebb3c60c08b37a94b6cf96de54ab"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: QuestTerminalKey
   - address: "0xec3a9c7d612e0e0326e70d97c9310a5f57f9af9e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: RabbitHoleReceipt

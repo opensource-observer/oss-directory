@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: velodrome
 name: Velodrome
 github:
@@ -26,7 +26,7 @@ blockchain:
       - eoa
   - address: "0x51cc12e6a4fccbcd6eb6f1c5905263edc5578c5f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - deployer

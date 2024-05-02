@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: yearn
 name: Yearn
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x5b555b6fc357434eb7ba572a87f3aca30ab5d272"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -22,7 +22,7 @@ blockchain:
       - eoa
   - address: "0xc6387e937bcef8de3334f80edc623275d42457ff"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -31,7 +31,7 @@ blockchain:
     name: ydeployooor.eth
   - address: "0x4885e131c6ea7e99577fa8a2cffd2e72ccd3d216"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -39,7 +39,7 @@ blockchain:
       - eoa
   - address: "0x78d4bdebc0b4140f01bab63085f94a5a7a1294f2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -61,7 +61,7 @@ blockchain:
     name: StrategyVelodromeFactoryClonable
   - address: "0x1ba4eb0f44ab82541e56669e18972b0d6037dfe0"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -215,7 +215,7 @@ blockchain:
     name: StrategyVelodromeFactoryClonable
   - address: "0x8273217252254ad7353f227aaecd2b1c4a326fa2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -312,7 +312,7 @@ blockchain:
     name: Vyper_contract
   - address: "0x02ff746d8cb62709aeec611cec9b17d7dd1d3480"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -344,7 +344,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x84654e35e504452769757aae5a8c7c6599cbf954"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -387,7 +387,7 @@ blockchain:
     name: SimpleVaultMigrator
   - address: "0xdb8bbf2b0e28721f9bac603e687e39bcf52201f8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -461,7 +461,7 @@ blockchain:
     name: StakingRewards
   - address: "0x3d8f58774611676fd196d26149c71a9142c45296"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -616,14 +616,14 @@ blockchain:
     name: VaultsRegistryHelper
   - address: "0x0e5b46e4b2a05fd53f5a4cd974eb98a9a613bcb7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x7e08735690028cdf3d81e7165493f1c34065aba2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -648,7 +648,7 @@ blockchain:
     name: ShareValueHelper
   - address: "0xadc76430bb7cb8b17ca329972a73a2eea0affd4b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

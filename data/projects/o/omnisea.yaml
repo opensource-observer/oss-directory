@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: omnisea
 name: Omnisea
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xf285e70ca2002b796a575e473285282bbf39d790"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x00b97496700288c1bceb90ecc04a40c4aeac8bb4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -44,7 +44,7 @@ blockchain:
     name: ONFTGateway
   - address: "0xa84f13a005f978fe964e9264e33ab530fd61df3a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -59,7 +59,7 @@ blockchain:
     name: unverified
   - address: "0x2f261ed4248b798a2aa6815456fe1023e0a08e2f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -130,7 +130,7 @@ blockchain:
     name: OmniseaUniversalONFT721
   - address: "0x0d4f5b6442e6025e5865ddc5a94d03b0dffbeb33"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -139,7 +139,7 @@ blockchain:
     name: OmniseaDropsRepository
   - address: "0x071e9e576e365c06538123c5980607f0ca3ee494"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -147,7 +147,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xef0a6b7c3cf7ab2ebabbbd5ddfa57877876c27a9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -169,7 +169,7 @@ blockchain:
     name: OmniseaDropsFactory
   - address: "0x318b2dc987697a3a7ea49224a9a8a88930a70718"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -177,7 +177,7 @@ blockchain:
     name: ONFTFactory
   - address: "0xc3e5a8a1c3b0b4c81f85ec322554187b3575c478"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -208,7 +208,7 @@ blockchain:
     name: NFTDistributor
   - address: "0x6b7240aaaeb6b4223c4737f3d47fcbf5b3d95c81"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -263,7 +263,7 @@ blockchain:
     name: CollectionFactory
   - address: "0xaf598ea2c3daa9d40d19aed52a30ab59644c6414"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -288,7 +288,7 @@ blockchain:
     name: NFTDistributor
   - address: "0xde0f6167cec79a127e6973daa0923ad1e87b8bcc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -350,7 +350,7 @@ blockchain:
     name: unverified
   - address: "0xee5ce8b7fc116faa5cb1ee8cdd445668978f61db"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -456,7 +456,7 @@ blockchain:
     name: TokenFactory
   - address: "0xbb7b514673dec189dd0a753979d9f63cf57136e3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -500,14 +500,14 @@ blockchain:
     name: ONFTGateway
   - address: "0x1e72a771e3799898872a2b21f7d6f2adf8cba659"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: CollectionFactory
   - address: "0xb9fd670e32b51188b9c44c2e2226ec345f4debdc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -550,7 +550,7 @@ blockchain:
     name: TokenFactory
   - address: "0x85ab3b59a7876a9bbc9fa2f2361f839a9681c0c1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -588,7 +588,7 @@ blockchain:
     name: OmniseaERC721Psi
   - address: "0x6fdac0442a336429fb8a01bc1f4d6d10963d5c54"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -601,7 +601,7 @@ blockchain:
     name: OmniseaDropsManager
   - address: "0x9f2b000b8912406dc392b23bf6e5ae9bfd70a128"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -609,7 +609,7 @@ blockchain:
     name: OmniseaDropsManager
   - address: "0x508c8185f8d204459cda86239a600928373ff3f7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -622,7 +622,7 @@ blockchain:
     name: OmniseaERC721Psi
   - address: "0x6ef0871ed810f323ea516a77b0988353b667dfa4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -630,7 +630,7 @@ blockchain:
     name: OmniseaDropsScheduler
   - address: "0xe6ba7158a440d9458fa72dcec0ea128512d0effb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -638,14 +638,14 @@ blockchain:
     name: OmniseaDropsFactory
   - address: "0x7adccfb3ebbc589c3b4080dcf396d00a72e00708"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x4de26d7072aaa541a88d2fc5aa24871d12a8d695"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -670,14 +670,14 @@ blockchain:
     name: OmniseaERC721
   - address: "0x6c556521ad52584cfbaae29da8f54c3da66e43e7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xe58494aab1da7824a1e05cf73596e9b072f60295"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -690,14 +690,14 @@ blockchain:
     name: OmniseaDropsManager
   - address: "0xc72633f995e98ac3bb8a89e6a9c4af335c3d6e44"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: OmniseaToken
   - address: "0x20a3733909fcda6c6b465916f5d9e2f6786075f5"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OSEABridge

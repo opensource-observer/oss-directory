@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: gitcoin
 name: Gitcoin
 github:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x79427367e9be16353336d230de3031d489b1b3c3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -29,7 +29,7 @@ blockchain:
       - eoa
   - address: "0x1fd06f088c720ba3b7a3634a8f021fdd485dca42"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -342,7 +342,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0xbce556cf365e631ff50449211a6f2cb8936f40d1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -355,7 +355,7 @@ blockchain:
     name: GitcoinVerifier
   - address: "0x8e1bd5da87c14dd8e08f7ecc2abf9d1d558ea174"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -386,7 +386,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0xec77fcce4f0396bab43bc66a513157ee59ee07c7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

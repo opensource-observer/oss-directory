@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: paraswap
 name: Paraswap
 github:
@@ -6,14 +6,14 @@ github:
 blockchain:
   - address: "0x35e0c852fcb9534df65d03877c1238f8e59c53fe"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - deployer
       - eoa
   - address: "0xf01121e808f782d7f34e857c27da31ad1f151b39"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -21,7 +21,7 @@ blockchain:
       - eoa
   - address: "0x22f3bdd1135e62ba7ee980ed53ded634e412869c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -29,7 +29,7 @@ blockchain:
       - eoa
   - address: "0x05182e579fdfcf69e4390c3411d8fea1fb6467cf"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -37,7 +37,7 @@ blockchain:
       - eoa
   - address: "0xdef171fe48cf0115b1d80b88dc8eab59176fee57"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -46,14 +46,14 @@ blockchain:
     name: AugustusSwapper
   - address: "0x8373c68629191ef10f654ce8e32bbfe3c7a1d743"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: SmartVaultsFactory
   - address: "0xeef30844023b355408c44224b9d4031609d316d4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -72,14 +72,14 @@ blockchain:
     name: OptimismAdapter01
   - address: "0xfe65c468b18e620e07cfd30b33ae642ec335bec9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: ERC165
   - address: "0x2cdcce2b00978bc8788f4c7db8216f09f5d33df1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -92,7 +92,7 @@ blockchain:
     name: DystopiaExchangeRouter
   - address: "0xb41dd984730daf82f5c41489e21ac79d5e3b61bc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -106,7 +106,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x2637c588c7ca5138032992c97f437f55bd9fc782"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -133,14 +133,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x2de92a5de61feb225f411f0270ddc9f65d043521"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: ProtectedMultiPath
   - address: "0xf9234cb08edb93c0d4a4d4c70cc3ffd070e78e07"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -148,7 +148,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x554221873a75bf921e0aaa6a7564bb1e78f50f8f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -161,7 +161,7 @@ blockchain:
     name: OptimismAdapter01
   - address: "0xdc6e2b14260f972ad4e5a31c68294fba7e720701"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -175,14 +175,14 @@ blockchain:
     name: OptimismAdapter01
   - address: "0x6295cd918b48e1d2a96cbae2fc70b29623c593c2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xf3938337f7294fef84e9b2c6d548a93f956cc281"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -196,7 +196,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x50b89fa00b4513c2f58162427b9f26a5276a074c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -210,14 +210,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xf298381a2b6b072f1998ee4eb261101f2a9f9516"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: SimpleSwap
   - address: "0xa7465ccd97899edcf11c56d2d26b49125674e45f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -231,42 +231,42 @@ blockchain:
     name: OptimismAdapter01
   - address: "0x0927fd43a7a87e3e8b81df2c44b03c4756849f6d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: AugustusRFQ
   - address: "0xd63b7691dd98fa89a2ea5e1604700489c585aa7b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xe2137168cda486a2555e16c597905854c84f9127"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x8547bd5fb04737dd879d76472164eb25c47fc40b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xf3a92c8aea760a3af04a8ee59017cb9b6b834f18"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xd5b927956057075377263aab7f8afc12f85100db"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SmartVault

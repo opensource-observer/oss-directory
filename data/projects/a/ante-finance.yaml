@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: ante-finance
 name: Ante Finance
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x7df0808cfd89ea3995af99cb1374d2907c2399b6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0xb4fd0ce108e196d0c9844c48174d4c32cd42f7bc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -39,7 +39,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xe18edf05c1443eae617c704b7e9926c412926a36"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -47,7 +47,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x44d195661277f25597fe6b6d9f910d5bbe9821b3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -55,7 +55,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1cd9276f727f631eccea749371a7df27b8a3d55f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -69,7 +69,7 @@ blockchain:
     name: AnteVeloTokenBalanceAbove50KTest
   - address: "0x529dbf60ddc8b256c2bf25190de1e06d688f13eb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -77,7 +77,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xc3dcef82a8c38c20da9feb8bb1d03e9c9d842da3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -85,7 +85,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xfe2af3ab07a08a9db276a2fee9e7d8b5d3794d51"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -93,7 +93,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1a53b3500216d547186c833c35f39a82053b7223"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -101,7 +101,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x3e98673652f7bba325016517c54e41afcc786d1d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -109,7 +109,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x3ef9f8b4edc0f6fc90dccabd677db2f582a5cb49"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -131,7 +131,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x40107f542c6d7d9d9c9f7c46fb8874ef59fd3c65"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

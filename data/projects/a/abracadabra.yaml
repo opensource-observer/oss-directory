@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: abracadabra
 name: Abracadabra
 github:
@@ -12,7 +12,7 @@ blockchain:
       - eoa
   - address: "0xfddfe525054efaad204600d00ca86adb1cc2ea8a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -21,7 +21,7 @@ blockchain:
     name: 0xmerlin.eth
   - address: "0xfb3485c2e209a5cfbdc1447674256578f1a80ee3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -37,7 +37,7 @@ blockchain:
     name: unverified
   - address: "0x12ea786c9e53c5740fef04efd568e69d6e9f3e98"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -87,7 +87,7 @@ blockchain:
     name: unverified
   - address: "0x1ea71cec606f6eecc547937b549e598210ebb0e0"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -112,7 +112,7 @@ blockchain:
     name: unverified
   - address: "0x7c8fef8ea9b1fe46a7689bfb8149341c90431d38"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -142,7 +142,7 @@ blockchain:
     name: ZeroXSolidlyLikeVolatileLPLevSwapper
   - address: "0x8bee5db2315df7868295c531b36baa53439cf528"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -155,7 +155,7 @@ blockchain:
     name: ZeroXUniswapLikeLPSwapper
   - address: "0xcf4f8e9a113433046b990980ebce5c3fa883067f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -168,7 +168,7 @@ blockchain:
     name: unverified
   - address: "0x1fff78fd2e139bc1315711dd3ea176bc7028635a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -199,7 +199,7 @@ blockchain:
     name: SolidlyLikeLpLens
   - address: "0x98bf3e7da6f5a81630730d538715e35d8c0d3ede"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -232,7 +232,7 @@ blockchain:
     name: ERC20VaultOracle
   - address: "0xdfa94f2ce5bc1961f2604338f97f468592ca293d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -251,14 +251,14 @@ blockchain:
     name: ZeroXUniswapLikeLPLevSwapper
   - address: "0x7ad0e580d8458bbef71ec6a1755c59651e1eaaa7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x233332a01ebf20f770883ebff68374b015accb9c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -327,14 +327,14 @@ blockchain:
     name: LzIndirectOFTV2
   - address: "0xd076f5426bd1f4cee4054aba60331fa1d075dc49"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x4c44b16422c4cd58a37aad4fc3b8b376393a91dc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -421,7 +421,7 @@ blockchain:
     name: SolidlyStrategyLens
   - address: "0x8e266f8310e047b9900b60132e4767ffdd0878bc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -429,7 +429,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x789004ede61c9f855a0ecaad7f0616bf23f0c952"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -442,7 +442,7 @@ blockchain:
     name: unverified
   - address: "0xd8cbd5b22d7d37c978609e4e394ce8b9c003993b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -501,7 +501,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x79533f85479e04d2214305638b6586b724bec951"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -509,21 +509,21 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1e217d3ca2a19f2cb0f9f12a65b40f335286758e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x193d7e62f5b7b178a7d50cc7b9acfab919e2dae8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xd8284e7bf0ac2171b5cf6ea92edd90158ed9e020"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -543,7 +543,7 @@ blockchain:
     name: SolidlyLikeVolatileLPLevSwapper
   - address: "0x93503ab9f3aa708b757caf3238b7673bab2e3409"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -581,7 +581,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x48686c24697fe9042531b64d792304e514e74339"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -619,14 +619,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa5e9237b53c44d4b3de26e307c2034df1084c94c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xf4b36812d1645dca9d562846e3abf416d590349e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -678,7 +678,7 @@ blockchain:
     name: unverified
   - address: "0xee2f020885475759ecd6ec24d922fbb5998f143a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -697,7 +697,7 @@ blockchain:
     name: SolidlyLikeVolatileLPSwapper
   - address: "0xac6c439253987be9aff6aac047ec8501ea13d512"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -705,7 +705,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x38091ad1880c21530d5b174b10d1ce24b40a584a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -737,7 +737,7 @@ blockchain:
     name: LzIndirectOFTV2
   - address: "0xd98bfb05dd6aa37ba5624479eb4264de9a3384ee"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -762,73 +762,73 @@ blockchain:
     name: StargateLPStrategy
   - address: "0x957a8af7894e76e16db17c2a913496a4e60b7090"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LzIndirectOFTV2
   - address: "0xc89958b03a55b5de2221acb25b58b89a000215e6"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CauldronV2Multichain
   - address: "0x287176dfbec7e8cee0f876fc7b52960ee1784adc"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OFTWrapper
   - address: "0x85667409a723684fe1e57dd1abde8d88c2f54214"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: MagicGlpRewardHandler
   - address: "0x6c1e051b83eab3c10395955f7c5421a69a2520ce"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CauldronV4
   - address: "0x7962acfcfc2ccebc810045391d60040f635404fb"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CauldronV4
   - address: "0x66805f6e719d7e67d46e8b2501c1237980996c6a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CauldronV4
   - address: "0xd7659d913430945600dfe875434b6d80646d552a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CauldronV4
   - address: "0x5698135ca439f21a57bddbe8b582c62f090406d5"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CauldronV4
   - address: "0x726413d7402ff180609d0ebc79506df8633701b1"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CauldronV4
   - address: "0x4f9737e994da9811b8830775fd73e2f1c8e40741"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CauldronV4
   - address: "0x2b02bbeab8ecab792d3f4dda7a76f63aa21934fa"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CauldronV4

@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: rubicon
 name: Rubicon
 github:
@@ -15,7 +15,7 @@ blockchain:
     name: rubicon.eth
   - address: "0xc96495c314879586761d991a2b68ebeab12c03fe"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - deployer
@@ -703,20 +703,20 @@ blockchain:
     name: unverified
   - address: "0xd4dcb4e92b0f434f1297d5239a3aad875e25f675"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: RubiconMarket
   - address: "0x7b24e6f4dd84674696c2a5809c24154ec6ac7f03"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: RubiconRouter
   - address: "0xc715a30fde987637a082cf5f19c74648b67f2db8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: RubiconMarket

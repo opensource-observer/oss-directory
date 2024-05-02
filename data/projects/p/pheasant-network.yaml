@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: pheasant-network
 name: Pheasant Network
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xfc976d96ccc57bc9d04aea92a4a66abd71926298"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: zigzagexchange
 name: ZigZag Exchange
 github:
@@ -6,39 +6,39 @@ github:
 blockchain:
   - address: "0xbb256f544b8087596e8e6cdd7fe9726cc98cb400"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x60bafce7af8cc6c69d92952453acee1d4da7e7d8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x094cab67fbb074b7797ab0975c69a341b7a40641"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ZigZagExchange
   - address: "0x3d8971b77546cebcd9b7ea2b22d27483283c9a2f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: zigzag_settelment
   - address: "0x8b84cae3ec8e9481ccbb41f92cbdb8422bbadf4f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ZigZagExchange
   - address: "0x9b67d3067fa606be28e56c1ab184725c07b7b221"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

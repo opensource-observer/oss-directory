@@ -12,6 +12,7 @@ export interface Project {
   version: number;
   slug: string;
   name: string;
+  description?: string;
   github?: URL[];
   npm?: URL[];
   blockchain?: BlockchainAddress[];
@@ -58,8 +59,28 @@ export interface BlockchainAddress {
    * @minItems 1
    */
   networks: [
-    "mainnet" | "optimism" | "arbitrum",
-    ...("mainnet" | "optimism" | "arbitrum")[],
+    (
+      | "mainnet"
+      | "optimism"
+      | "arbitrum-one"
+      | "matic"
+      | "base"
+      | "pgn"
+      | "zora"
+      | "mode"
+      | "frax"
+    ),
+    ...(
+      | "mainnet"
+      | "optimism"
+      | "arbitrum-one"
+      | "matic"
+      | "base"
+      | "pgn"
+      | "zora"
+      | "mode"
+      | "frax"
+    )[],
   ];
   name?: string;
   [k: string]: unknown;

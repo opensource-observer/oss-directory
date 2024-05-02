@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: gammaswap
 name: Gamma Swap Labs
 github:
@@ -6,62 +6,62 @@ github:
 blockchain:
   - address: "0x16c2c2e818ac209f7e17a147aa10155267d880cb"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0xe048cce443e787c5b6fa886236de2981d54e244f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: GammaPoolFactory
   - address: "0x163f27e7c4041eef824ef27c1ced0538f4629040"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Liquidator
   - address: "0x9888f6206d9e1bf0ddbf031a0695c3bc9da20f89"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CPMMGammaPool
   - address: "0x6989da882f2e5ccf815f6adf6cb5dd63864ebe22"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PriceDataQueries
   - address: "0x036114a6adadaba0b8c7fee105dc0584612b9018"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PositionManagerQueries
   - address: "0x8714200da2fb69d6cd188cf02c6b6041dd245976"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PositionManager
   - address: "0x519ac91e2567133787662056b6de9130cf36e512"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PoolViewer
   - address: "0x937fd8cc7f7d2ef5b801e44c03218ade5648c3fb"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0xfd513630f697a9c1731f196185fb9eba6eaac20b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa

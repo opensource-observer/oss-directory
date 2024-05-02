@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: topianetwork
 name: Topia Network
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x934d46ae4ae4b131bfa095ca971a8cbcd3b30ea8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

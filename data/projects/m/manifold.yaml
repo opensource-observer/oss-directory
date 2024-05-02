@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: manifold
 name: Manifold
 github:
@@ -19,7 +19,7 @@ blockchain:
       - eoa
   - address: "0x3b52ad533687ce908ba0485ac177c5fb42972962"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -53,7 +53,7 @@ blockchain:
     name: ETHClaimShim
   - address: "0x64271fbe13b8eb41cfdc063ca92bbc1105441b10"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

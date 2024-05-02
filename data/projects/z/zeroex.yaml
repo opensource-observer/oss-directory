@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: zeroex
 name: zeroex
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xe750ad66de350f8110e305fb78ec6a9f594445e3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -21,7 +21,7 @@ blockchain:
       - eoa
   - address: "0x6879fab591ed0d62537a3cac9d7cd41218445a84"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -79,7 +79,7 @@ blockchain:
     name: ZeroEx
   - address: "0x6b57347d5b0846a0dce87c8e2db45c8da25b97e0"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
@@ -134,7 +134,7 @@ blockchain:
     name: BridgeAdapter
   - address: "0x75f68002fd99c700160f4287d76c2fa8b9603b58"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -195,7 +195,7 @@ blockchain:
     name: unverified
   - address: "0xdf756c9cbb0d9fce050a1b5d04d893c9b5406886"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -209,7 +209,7 @@ blockchain:
       - wallet
   - address: "0xdef1c0ded9bec7f1a1670819833240f027b25eff"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

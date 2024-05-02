@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: uniswap
 name: Uniswap
 github:
@@ -103,14 +103,14 @@ npm:
 blockchain:
   - address: "0xced01e7617bf6052a71154daa6d50d8b243f1b26"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x18dc1fccea2f4f6dd22ddbf0bed638bc358db625"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -118,7 +118,7 @@ blockchain:
       - eoa
   - address: "0x946e9c780f3c79d80e51e68d259d0d7e794f2124"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -126,7 +126,7 @@ blockchain:
       - eoa
   - address: "0x6c9fc64a53c1b71fb3f9af64d1ae3a4931a5f4e9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -134,7 +134,7 @@ blockchain:
       - eoa
   - address: "0x1b5caa1d3a1582a438e4cd93ee7a7e0e4d5624fb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -142,7 +142,7 @@ blockchain:
       - eoa
   - address: "0xd8fa8f87129c654a6dd7f34eedaf58379e176eb1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -150,7 +150,7 @@ blockchain:
       - eoa
   - address: "0x1f98431c8ad98523631ae4a59f267346ea31f984"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -159,7 +159,7 @@ blockchain:
     name: UniswapV3Factory
   - address: "0x3fc91a3afd70395cd496c647d5a6cc9d4b2b7fad"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -179,7 +179,7 @@ blockchain:
     name: UniversalRouter
   - address: "0x61ffe014ba17989e743c5f6cb21bf9697530b21e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -187,7 +187,7 @@ blockchain:
     name: QuoterV2
   - address: "0x68b3465833fb72a70ecdf485e0e4c7bd8665fc45"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -195,7 +195,7 @@ blockchain:
     name: SwapRouter02
   - address: "0x075b36de1bd11cb361c5b3b1e80a9ab0e7aa8a60"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -203,7 +203,7 @@ blockchain:
     name: SwapRouter02
   - address: "0xe34139463ba50bd61336e0c446bd8c0867c6fe65"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -217,21 +217,21 @@ blockchain:
     name: UniswapV3Staker
   - address: "0x5dc88340e1c5c6366864ee415d6034cadd1a9897"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: UnsupportedProtocol
   - address: "0x92e1fc4ae999315f17ddab195f816bf3262aca4b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: UnsupportedProtocol
   - address: "0xef1c6e67703c7bd7107eed8303fbe6ec2554bf6b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -275,21 +275,21 @@ blockchain:
     name: UnsupportedProtocol
   - address: "0x4c60051384bd2d3c01bfc845cf5f4b44bcbe9de5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: UniversalRouter
   - address: "0xec8b0f7ffe3ae75d7ffab09429e3675bb63503e4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: UniversalRouter
   - address: "0xc36442b4a4522e871399cd717abdd847ab11fe88"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
@@ -316,13 +316,13 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
   - address: "0x000000000022d473030f116ddee9f6b43ac78ba3"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Permit2

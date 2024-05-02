@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: kredeum
 name: Kredeum NFTs Factory
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x6eebae27d69fa80f0e4c0e973a2fed218a56880c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -33,7 +33,7 @@ blockchain:
     name: OpenNFTsV4
   - address: "0xbc0b437c95c7165f7d1f7c966cb2227da52a27d7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

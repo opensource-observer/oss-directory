@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: arbswap-official
 name: Arbswap
 github:
@@ -6,100 +6,100 @@ github:
 blockchain:
   - address: "0xfc0bb334948aab38c0e278f666da123d631595f7"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0xd7878bdcb6aae569dcd19bda1b29ca3ae4516e04"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0xd394e9cc20f43d2651293756f8d320668e850f1b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: SwapFactory
   - address: "0x6b23bbdddbbef5f999b9cb7e9b579231ac69507c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: ArbswapStableSwapTwoPoolDeployer
   - address: "0x5bbebd93777dfa334f6346271fbc6a56ed3718f1"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: ArbswapStableSwapLPFactory
   - address: "0xf50874f8246776ca4b89eef471e718f70f38458f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ArbswapToken
   - address: "0x3a52e9200ed7403d9d21664fdee540c2d02c099d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ArbswapStableSwapFactory
   - address: "0xc8808cd9c962bc2a69937b6404d34080e81d44ee"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ArbEgg
   - address: "0x5d4e0ddb18ae282a8fde4d8b47ead1b19efb3cae"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ArbswapAirdrop
   - address: "0xaa50d30612a58f2e7935c4482fa426b0aa770d7f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ArbswapStableSwapTwoPoolInfo
   - address: "0x41210a7c9853da7a65cad516c32c25fa5c7eb0b0"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: MasterChefV3
   - address: "0xd01319f4b65b79124549de409d36f25e04b3e551"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SwapRouter
   - address: "0xa04c348246efb67e5376da989d70175145089d36"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: MirrorARBS
   - address: "0x2b84f485c18daeb87b1ebdba4b2bc5b945f06735"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: VestingMaster
   - address: "0x4aef9d850a71d0f0051e8c69bf865ae34188f2e9"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ArbswapSmartRouter
   - address: "0x6947a425453d04305520e612f0cb2952e4d07d62"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ArbswapSmartRouter

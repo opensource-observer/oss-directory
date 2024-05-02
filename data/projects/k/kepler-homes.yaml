@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: kepler-homes
 name: KeplerHomes
 github:
@@ -13,7 +13,7 @@ blockchain:
   - address: "0xb07ff14eef5fd47d0c202e61843ad9d283387a23"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

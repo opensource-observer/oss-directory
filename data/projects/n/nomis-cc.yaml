@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: nomis-cc
 name: Nomis
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xd587404cd28bf4ee059ac84a6b7c0219d05ea6cf"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

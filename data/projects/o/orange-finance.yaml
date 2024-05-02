@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: orange-finance
 name: Orange Finance
 github:
@@ -6,158 +6,158 @@ github:
 blockchain:
   - address: "0xe66fffd2d3ade2697b3cbeb69877a1ffe8a1f275"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0xb0c757bc94704246ce0552b5ccc1a547c0633914"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x71d34147a56803dd44d5342566cb941b4b61c4d7"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0xf16f1191ac4b4cbc25f35588811f661b5fcd30a1"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: OrangeVaultFactoryV1_0
   - address: "0xf47ecd6514d66a635b2933765bc7a64895e27139"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1Initializable
   - address: "0x2854038d756aaef87e801d0d617df5219838bd05"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1Initializable
   - address: "0x16f6617680333e90f18aa89a85817d347078b7b8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeDeltaVault
   - address: "0x810fd69f58ff7ff8553d43a5d3dce3853960caa6"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeDeltaVault2
   - address: "0xe5b174f0a74986172404414cd7a13e833451be3d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: AaveLendingPoolManagerCamelotUsdceWeth
   - address: "0xd6eceb3978bf2b76958b96e8a207246b98c7d639"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1Initializable
   - address: "0x7b9d8c413ace4008e22dcf08c3a79a9178682e13"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1CamelotWethArb
   - address: "0x767901b7d185bb951c7da20cf55ae1f681953217"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CamelotV3LiquidityPoolManagerUsdceWeth
   - address: "0x32790eaf83b52e53d54bfd4779832d6adeac880e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1UniswapWethWbtc5bps
   - address: "0x1c99416c7243563ebedcbed91ec8532ff74b9a39"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeAlphaVault
   - address: "0x68ec0e9a000c2063b64dc98b8c58d019ccbfb01a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1Initializable
   - address: "0xb9c5425084671221d7d5a547dbf1bdcec26c8b7d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1CamelotUsdceWeth
   - address: "0x706b3bca6d6ded8c61d73270c228f276f4414b5e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1Initializable
   - address: "0x690633417ea231073c53f00d30f194489196dfad"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1CamelotUsdcWeth
   - address: "0x0b48540e214bc196e1d0954834876691fe19068d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1Initializable
   - address: "0xe4762eacd41bd6bfb87ecdd3ec815d242b72f4af"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1Initializable
   - address: "0xb4f003bcccd9514cba2a40e26ca9e275c93eac6c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeAlphaParameters
   - address: "0x3870eece85e6cdd013511afb4ac6a7c4c1688bea"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1CamelotWethUsdce
   - address: "0xdb8a12eec655748a74576bd8e0acabdf8e622508"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1CamelotUsdcUSdce
   - address: "0xca612e6bcdcca3d1b9828fdc912643228d4b8aa9"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeAlphaPeriphery
   - address: "0xb70671f6b436c755389d3f7a2c61a39296d1ccda"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1Initializable
   - address: "0x59671aa8f4e5adccb26f4c88f0d6047b0ae7620b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrangeVaultV1Initializable

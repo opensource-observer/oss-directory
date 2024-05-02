@@ -1,4 +1,4 @@
-version: 3
+version: 4
 slug: mechanism-institute
 name: Mechanism Institute
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x4cd6b4503d02973d78cff59c9c56f5f378688274"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
