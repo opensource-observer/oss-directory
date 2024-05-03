@@ -80,6 +80,7 @@ If you want to change the schema, you'll need to write a migration:
 3. Add the migration functions to the MIGRATIONS array in `src/migrations/index.ts`.
 4. You can run the migration by running `pnpm migrate`
 5. Make sure to commit and submit a pull request with all of the resulting changes. We will not accept any PRs where the data does not conform to the schemas.
+6. Publish a new version of the npm package. Remember to bump the version number in `package.json`. If you don't do this, you'll break all downstream dependents, because they're fetching the latest from GitHub.
 
 The framework will run migrations in sequence, so you are guaranteed that your data is valid as of the previous version.
 Note: we only currently support migrating in one direction (and not reverting)
