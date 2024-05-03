@@ -37,11 +37,19 @@ export async function fetchData(branchOrCommit?: string) {
 export async function loadData(basePath: string) {
   const projectFiles = await glob(path.resolve(basePath, PROJECTS_GLOB));
   const collectionFiles = await glob(path.resolve(basePath, COLLECTIONS_GLOB));
-  const projects: Project[] = await Promise.all(
-    projectFiles.map((f) => readProjectFile(f)),
-  );
-  const collections: Collection[] = await Promise.all(
-    collectionFiles.map((f) => readCollectionFile(f)),
-  );
-  return { projects, collections };
+  try {
+    const projects: Project[] = await Promise.all(
+      projectFiles.map((f) => readProjectFile(f)),
+    );
+    const collections: Collection[] = await Promise.all(
+      collectionFiles.map((f) => readCollectionFile(f)),
+    );
+    return { projects, collections };
+  } catch (e) {
+    const msg =
+      "[OSS-DIRECTORY] failed reading from GitHub. Are you sure you have the latest version of the 'oss-directory' package?";
+    console.error(msg);
+    console.error(e);
+    throw new Error(msg);
+  }
 }
