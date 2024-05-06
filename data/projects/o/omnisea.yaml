@@ -1,4 +1,703 @@
 version: 5
 name: omnisea
 display_name: Omnisea
-# website: https://omnisea.org/
+github:
+  - url: https://gitlab.com/omnisea
+blockchain:
+  - address: "0xf285e70ca2002b796a575e473285282bbf39d790"
+    networks:
+      - arbitrum-one
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x00b97496700288c1bceb90ecc04a40c4aeac8bb4"
+    networks:
+      - arbitrum-one
+      - mainnet
+      - optimism
+    tags:
+      - deployer
+      - eoa
+    name: omnisea.eth
+  - address: "0xa8274040644cb5916eab38bc35d772e954b41622"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: CollectionsRepository
+  - address: "0x8e94adfd0277088d43d80785f15d6b23cb46ffe9"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: CollectionsRepository
+  - address: "0xff841ce01c71ea0304c38015d193a95a6a29967c"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: ONFTGateway
+  - address: "0xa84f13a005f978fe964e9264e33ab530fd61df3a"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x256e513dde3cdf39adfec8b206389f417b915875"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0x2f261ed4248b798a2aa6815456fe1023e0a08e2f"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0xa5fe15853ece614c684e3b2221df7c06ed060ec2"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: ONFT721PsiFactory
+  - address: "0x814ec45b15c0ccba13af3f132602cbbacbcd3130"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: CollectionsRepository
+  - address: "0x9facbd6440acf8ba3fd138b8d1dea4b3a8b8b437"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0xa25056c67d5211617e4e5088d454b0eab45e4b84"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: CollectionsRepository
+  - address: "0x8c63b23811060d8c39f5797060e50545f7712135"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: ONFTGateway
+  - address: "0x0bec737d2a932706f7e24275e34c51e8c336608e"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: ONFT721PsiFactory
+  - address: "0x5bd3a92929cebe42f542f3acbcb7797708dac371"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: CollectionsRepository
+  - address: "0xbcbe3201eaf508168773660073fb4f9371513889"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0xb851e993c87e761ee88a0d2168fd90ab0449122f"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: OmniseaUniversalONFT721
+  - address: "0x0d4f5b6442e6025e5865ddc5a94d03b0dffbeb33"
+    networks:
+      - arbitrum-one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: OmniseaDropsRepository
+  - address: "0x071e9e576e365c06538123c5980607f0ca3ee494"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0xef0a6b7c3cf7ab2ebabbbd5ddfa57877876c27a9"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x1f10ab6e8fafd0a1a5672224ea038307621cff6b"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: OmniseaDropsFactory
+  - address: "0xa39b8f5a3e990fa5e25f22d40e49e265196be295"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: OmniseaDropsFactory
+  - address: "0x318b2dc987697a3a7ea49224a9a8a88930a70718"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: ONFTFactory
+  - address: "0xc3e5a8a1c3b0b4c81f85ec322554187b3575c478"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x765b1ee0c4a0afb4c8f30f4f0d0145e9cf0a11bf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OmniCounter
+  - address: "0xbbbec320a9d4b2dc0f76be7544bad34cd59ed261"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OrderRouter
+  - address: "0x3635142456a9962c0c7fa0b4387c17749ef79995"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x78061326b02d5328b60f261db8415b0d98472bd4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: NFTDistributor
+  - address: "0x6b7240aaaeb6b4223c4737f3d47fcbf5b3d95c81"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0x0030e8142364ea1165d6872d2d4fd87a7a9eb2bc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TokenFactory
+  - address: "0x73373ac6685c77c36cfdc4ca80b32e52688852e6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0x28dfca5db11595ff7aee389e22f9f7ce52f1d816"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x6db1aaa9185d5e226c3559ad1bc9e21b31ef5afb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TokenFactory
+  - address: "0x9bc728e8679d7e8c59056d06c5fd61fc3f26adac"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0x0b56dee153a67c14ea36a396a4c87bc16b59a92b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ONFT721Psi
+  - address: "0x1217101c5b117327a79fd258821703297bda08a0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TokenFactory
+  - address: "0xdddb499b74c4a5b8f126dec403c3f86ec57b949a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0xaf598ea2c3daa9d40d19aed52a30ab59644c6414"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x489bbc707c723afe2522960a9ac669d710df6e53"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0x8997d7b9e496b927300ae453ac8925ac09171e30"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0x5261b9a19632aa530a3c3875c70be530d48c5049"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: NFTDistributor
+  - address: "0xde0f6167cec79a127e6973daa0923ad1e87b8bcc"
+    networks:
+      - arbitrum-one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: TokenCrowdsale
+  - address: "0xf2289254b4579b049962225d492f3d0ebf286398"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xb868a66e1bfe53d9a23830d957ead5912e380504"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0x91d3388040f00a7cb11a4cf9be2acdc46d772a8f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0xf602daadb9860fc4c9dd0b3d76b8f5cb1cdcf30d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OrderRouter
+  - address: "0xdd51621d801832cdfb4aa3c2fddaeac8a26601ec"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: NFTDistributor
+  - address: "0xe523cc4db850045d1e53587a66c447b8df17edd2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TokenFactory
+  - address: "0xd7f0c55038683b8eb998a9588e2bf3cde712b33a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ONFTGateway
+  - address: "0xbdf04fcb4447db243f06194bdfce3224c32e5c3f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionsRepository
+  - address: "0xaaa306a77ba020a52411e98de3fd9ce9bb9a95e6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xee5ce8b7fc116faa5cb1ee8cdd445668978f61db"
+    networks:
+      - arbitrum-one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x89557e29812f1967dd40e087a9f8ba0073b5dd8a"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: TokenCrowdsale
+  - address: "0x20c285c8738f84abbf09fb0c867babd1713e403e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ONFT721Psi
+  - address: "0x2eff4f31f5013a25892f885140be4e66988c0fc8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0x12780c260c9cf5e4cfe51af84d091629c346aa2c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: NFTDistributor
+  - address: "0x5ccec7cbdb428e3e19687d903a1adce3c351afdd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0xe373abef6f3382dc96fba2f4e1c22330ba6f1dbc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0xaa3e08cc6629361d9ceb012c5e4e4a33827299d4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TokenFactory
+  - address: "0x075314b3bfdeaade554c39e70c1e8ab807618913"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionsRepository
+  - address: "0xd685d399754aa20b4766759ee50ee180c5163151"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OrderRouter
+  - address: "0x30f104bef5fd3008d7d37b784adda548f5f814bd"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x37a23c498e930af6809b23485a20a32f8f31c589"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x7bd1bd1dce0afb5b103439779f4f325589e11afb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: NFTDistributor
+  - address: "0x1171783bbfca65482868fb35ab1544182f9ae3eb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TokenFactory
+  - address: "0x526dc0cf2ef84b7ae69f8cd5ab2241af2f1656f7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x7523523720be47c37de7340c764a4e3f37ff1930"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TokenFactory
+  - address: "0x8fa3ac91b0c20ec8e2af828c445b3dd463850bfe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TokenFactory
+  - address: "0xbb7b514673dec189dd0a753979d9f63cf57136e3"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xd12787076b33ffcf32a396e4ad6e415c40bd8ecd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0x4e21ecddcff1e8c0bee0e7c0cddcf83b277f1766"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: NFTDistributor
+  - address: "0x5ee0753e3ab9a991849200ff70b342053b61ef6d"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xacc295677e35fa18bd47a10ebed22a85fa6f4afb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TokenFactory
+  - address: "0x260a22fe111940436657e1672edf005bcf9a7cab"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OmniseaSender
+  - address: "0xc39df58fbcec75d89e516cfa9c89c431e59f9a16"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ONFTGateway
+  - address: "0x1e72a771e3799898872a2b21f7d6f2adf8cba659"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0xb9fd670e32b51188b9c44c2e2226ec345f4debdc"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x3eaec4b4fa0cfa49481bcd23bb154a1465f3c73f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0x4f325fcbcea979a3f8fbcc619f202be9b8e38b25"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TokenFactory
+  - address: "0xf50e96c095d7d5f7185080200d59b133707d0678"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionsRepository
+  - address: "0x1a55f20cf416577356ac64c9416358c8de60ced8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0xb7d342565d8a22c07c793b5ee57187952050c81c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TokenFactory
+  - address: "0x16c90e70e99f452e263067fdcc7d74467964bf70"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TokenFactory
+  - address: "0x85ab3b59a7876a9bbc9fa2f2361f839a9681c0c1"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+    name: CollectionsRepository
+  - address: "0xdf39145a4c8f24631ea945781ed7181bfc16148d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: NFTDistributor
+  - address: "0xf5696de2efc5fae5c860ff52ecf9deaa02edaed2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CollectionFactory
+  - address: "0x3dcef56325b6c2bec7a059cfe92cdbbe3df013c7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OmniseaPointsRepository
+  - address: "0x1000270b3efe49dc83de59d9259f62dacb28841c"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xe8ebfbcf40adf07832af2f5300311597051799c0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OmniseaERC721Psi
+  - address: "0x6fdac0442a336429fb8a01bc1f4d6d10963d5c54"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xd7d6b3d8e71809e7e779520ad44a93a7c7b997c5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OmniseaDropsManager
+  - address: "0x9f2b000b8912406dc392b23bf6e5ae9bfd70a128"
+    networks:
+      - arbitrum-one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: OmniseaDropsManager
+  - address: "0x508c8185f8d204459cda86239a600928373ff3f7"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x7f0478fc86252d4e2e34ab6b338f168a0f0f1de0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OmniseaERC721Psi
+  - address: "0x6ef0871ed810f323ea516a77b0988353b667dfa4"
+    networks:
+      - arbitrum-one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: OmniseaDropsScheduler
+  - address: "0xe6ba7158a440d9458fa72dcec0ea128512d0effb"
+    networks:
+      - arbitrum-one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: OmniseaDropsFactory
+  - address: "0x7adccfb3ebbc589c3b4080dcf396d00a72e00708"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x4de26d7072aaa541a88d2fc5aa24871d12a8d695"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xcf7fa2575f70adbdf6c0f8d285b23a454094e07f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x97745c84b36cca51e1d464f70883a70bb59303d9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OmniseaBaseToken
+  - address: "0xf1122201ab976deab556dcf53cf8f2096b8d68ca"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OmniseaERC721
+  - address: "0x6c556521ad52584cfbaae29da8f54c3da66e43e7"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xe58494aab1da7824a1e05cf73596e9b072f60295"
+    networks:
+      - arbitrum-one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x59d7618b1c6b575a1bed48ca8fe6aa8a1df73fbd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OmniseaDropsManager
+  - address: "0xc72633f995e98ac3bb8a89e6a9c4af335c3d6e44"
+    networks:
+      - arbitrum-one
+      - mainnet
+    tags:
+      - contract
+    name: OmniseaToken
+  - address: "0x20a3733909fcda6c6b465916f5d9e2f6786075f5"
+    networks:
+      - arbitrum-one
+    tags:
+      - contract
+    name: OSEABridge
