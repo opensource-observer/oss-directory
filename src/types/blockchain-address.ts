@@ -50,6 +50,11 @@ export interface BlockchainAddress {
       | "optimism"
       | "pgn"
       | "zora"
+      | "linea"
+      | "zksync-era"
+      | "polygon-zkevm"
+      | "scroll"
+      | "mantle"
     ),
     ...(
       | "arbitrum-one"
@@ -62,6 +67,11 @@ export interface BlockchainAddress {
       | "optimism"
       | "pgn"
       | "zora"
+      | "linea"
+      | "zksync-era"
+      | "polygon-zkevm"
+      | "scroll"
+      | "mantle"
     )[],
   ];
   name?: string;
