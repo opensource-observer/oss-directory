@@ -16,6 +16,12 @@
     "description": {
       "type": "string"
     },
+    "websites": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json#"
+      }
+    },
     "github": {
       "type": "array",
       "items": {
