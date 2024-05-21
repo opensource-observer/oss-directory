@@ -80,8 +80,10 @@ github:
 blockchain:
   - address: "0xad031eee55f595df6dbd61e9ef3b908fad1b3671"
     networks:
+      - base
       - mainnet
       - optimism
+      - zora
     tags:
       - deployer
       - eoa
@@ -249,3 +251,6 @@ blockchain:
     tags:
       - safe
       - wallet
+websites:
+  - url: https://zora.co
+description: Internet Renaissance ☼☽
