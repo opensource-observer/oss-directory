@@ -1,12 +1,12 @@
-version: 3
-slug: meson-fi
-name: MesonFi
+version: 5
+name: meson-fi
+display_name: MesonFi
 github:
   - url: https://github.com/mesonfi
 blockchain:
   - address: "0x000039ddcf1f63cf3555e62a8d32a11bd1e7e1e1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x25ab3efd52e6470681ce037cd546dc60726948d3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -23,7 +23,7 @@ blockchain:
     name: ProxyToMeson
   - address: "0xac937ad539bb9737892ca9ffacff00d40311c0ca"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -31,7 +31,7 @@ blockchain:
     name: unverified
   - address: "0x529c2945c257cc737a15733d43a1fd1cbbe79c67"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -45,7 +45,7 @@ blockchain:
     name: unverified
   - address: "0x328330f2c17a55e7e36c78972947e22f2f43cbb5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -53,14 +53,14 @@ blockchain:
     name: unverified
   - address: "0x5947b60a2e22939fd5f21efdb5e8e72e1f95c8a6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0xe7fb36b4a3787cfa32fde7affded0cfb6825f255"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -68,7 +68,7 @@ blockchain:
     name: unverified
   - address: "0x7ee5866de93f2de8e435715666a9e8f0a63f2319"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -76,21 +76,21 @@ blockchain:
     name: unverified
   - address: "0x395c38f055522c7eebd85e77dc59508a0e4115aa"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x5b00e2a79d721fc22c6534273419e47a1159feae"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0xa84442f3853ce0d57f8a89ec0675044e502b8af7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -112,7 +112,7 @@ blockchain:
     name: unverified
   - address: "0x4af60d4478e2e4bf64a57fa4cef050c526980931"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -120,7 +120,7 @@ blockchain:
     name: unverified
   - address: "0x53be31942c2113633bdfe34626bdc60c7f1d12b7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -128,7 +128,7 @@ blockchain:
     name: unverified
   - address: "0x59b38e68423f4b566600f632248ec0cf13c79ade"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -172,8 +172,11 @@ blockchain:
     name: unverified
   - address: "0x9f40e1650bd580d0139728ac0f0ecd5591537184"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: unverified
+twitter: mesonfi
+websites:
+  - url: https://meson.fi

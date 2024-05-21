@@ -1,6 +1,6 @@
-version: 3
-slug: crypto-fees-dmihal
-name: CryptoFees.info
+version: 5
+name: crypto-fees-dmihal
+display_name: CryptoFees.info
 github:
   - url: https://github.com/dmihal/crypto-fees
 blockchain:
@@ -8,7 +8,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: dmihal
+websites:
+  - url: http://davidmihal.com
+description: Freelance software engineer, excited by blockchains and distributed apps!

@@ -1,6 +1,6 @@
-version: 3
-slug: ethcali
-name: ETHcali
+version: 5
+name: ethcali
+display_name: ETHcali
 github:
   - url: https://github.com/ethcali
 blockchain:
@@ -8,7 +8,10 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://www.ethereumcali.com
+description: Growing Ethereum Ecosystem in Colombia's Pacific Region

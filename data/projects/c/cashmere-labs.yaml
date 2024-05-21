@@ -1,6 +1,6 @@
-version: 3
-slug: cashmere-labs
+version: 5
 name: cashmere-labs
+display_name: cashmere-labs
 github:
   - url: https://github.com/cashmere-labs
 blockchain:
@@ -8,7 +8,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

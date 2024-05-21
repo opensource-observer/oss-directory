@@ -1,6 +1,6 @@
-version: 3
-slug: tickerdao
-name: Token Name Service
+version: 5
+name: tickerdao
+display_name: Token Name Service
 github:
   - url: https://github.com/TickerDao
 blockchain:
@@ -11,3 +11,7 @@ blockchain:
       - eoa
       - wallet
     name: funding.tkn.eth
+twitter: TokenDao_
+websites:
+  - url: https://tkn.eth.limo
+description: The internet's metadata protocol

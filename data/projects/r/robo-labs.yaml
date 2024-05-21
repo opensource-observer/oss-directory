@@ -1,14 +1,18 @@
-version: 3
-slug: robo-labs
-name: Robo Labs
+version: 5
+name: robo-labs
+display_name: Robo Labs
 github:
   - url: https://github.com/Robo-Labs
 blockchain:
   - address: "0x7601630ec802952ba1ed2b6e4db16f699a0a5a87"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
+twitter: robolabs_biz
+websites:
+  - url: https://robolabs.biz
+description: Building web3 developer tools

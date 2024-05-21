@@ -1,174 +1,174 @@
-version: 3
-slug: tigris-trade
-name: Tigris-Trade
+version: 5
+name: tigris-trade
+display_name: Tigris-Trade
 github:
   - url: https://github.com/tigris-trade
 blockchain:
   - address: "0x8c807cddb6faadf96956353f70ea60d63fab69d5"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x0cc23bf1761c85e010d257f02fd638d4e4221579"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TradingV4
   - address: "0xdde031307c185ab3fa1b51874f4ee57841b20292"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TradingV3
   - address: "0x6c5da3f6a1f1b41fee2aa4a86b935272663b4957"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TradingV5
   - address: "0x0e6e91221c46904563fafdcc814fbf342be8ba20"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PairsContract
   - address: "0x303c470c0e0342a1ccdd70b0a17a14b599ff1474"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GovNFT
   - address: "0xb75bf135a05665855377a689d39203750cba6c30"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Position
   - address: "0xe17a2829f0c23c02e662c616081dcad18dcbb7e4"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TradingV2
   - address: "0x7e491f53bf807f836e2dd6c4a4fbd193e1913efd"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: tigusd
   - address: "0x19694cf64572e6adf643ae7b13d5b2921215b4e5"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: xTIG
   - address: "0x40cde4820ec2270511d36db418a14a4aff16276b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TradingV4
   - address: "0x09d74999e5315044956ad15d5f2aeb8d393e85ed"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Position
   - address: "0xcf6d276dd9f4203ae56ba62ded3f5d1120243eaa"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TradingV2
   - address: "0x6e8bfbb31a46d0f5502426050ea28b19f8e761f4"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GovernanceStaking_v2
   - address: "0x62f0a3f138e762d08eff0651857ef3e51cee6742"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Trading
   - address: "0xafa0cb980b0ea34368b847b9b641a0453289ca62"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GovernanceStaking
   - address: "0x3c0924e5f2d793e8db8c719c416c72ebd51847e1"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GovNFTswap
   - address: "0x7346b3997c618c414f091c02a549d9150b27a5b1"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PairsContract
   - address: "0x8895b0b946b3d5bcd7d1e9e31dcfaeb51644922a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Options_V3
   - address: "0x399214ee22bf068ff207ada462ec45046468b766"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TradingV5
   - address: "0xc6d1ba6363ffe4fdda9ffbea8d91974de9775331"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: options
   - address: "0xd89b4b1c8918150f137cc68e83e3876f9e309ab9"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TradingV6
   - address: "0x2b6026d7b69f0fa4e703d965bb0fef0fa838fead"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TradingV3
   - address: "0x76e0c3bda3dd22a2cfdcdbcafdac997927f80483"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: lock_tigusd
   - address: "0x3a33473d7990a605a88ac72a78ad4efc40a54adb"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TigrisToken
   - address: "0xb93e43c81ce6d23209932ff25e0953b1e4cd2043"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PairsContract_v2
   - address: "0x36d7b9907caedd2a9acd761ae51fce5f6a03774e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BondNFT
   - address: "0x98125e58bc966894167c536652d7648f6beebf05"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Options_V2

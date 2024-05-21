@@ -1,6 +1,6 @@
-version: 3
-slug: ethereansos
-name: EthereansOS
+version: 5
+name: ethereansos
+display_name: EthereansOS
 github:
   - url: https://github.com/EthereansOS
 blockchain:
@@ -26,7 +26,11 @@ blockchain:
       - wallet
   - address: "0xce7be8ee479ad748a0dedcb8764998e9d7da766d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet
+twitter: ethereansos
+websites:
+  - url: https://ethereans.app
+description: The Operating System of Ethereum

@@ -1,6 +1,6 @@
-version: 3
-slug: ethereum-burn-stats-mohamedmansour
-name: Watch The Burn
+version: 5
+name: ethereum-burn-stats-mohamedmansour
+display_name: Watch The Burn
 github:
   - url: https://github.com/mohamedmansour/ethereum-burn-stats
 blockchain:
@@ -8,7 +8,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: mohamedmansour
+websites:
+  - url: https://mohamedmansour.com
+description: Chromium Browser Engineer

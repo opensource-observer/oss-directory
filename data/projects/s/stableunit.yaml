@@ -1,14 +1,17 @@
-version: 3
-slug: stableunit
-name: Stable Unit
+version: 5
+name: stableunit
+display_name: Stable Unit
 github:
   - url: https://github.com/StableUnit
 blockchain:
   - address: "0xa33ac3f6c76ae645051550f56aa74f902e1b3510"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://stableunit.org/
+description: Decentralized low-volatility electronic cash system

@@ -1,12 +1,12 @@
-version: 3
-slug: angle-protocol
-name: Angle Protocol
+version: 5
+name: angle-protocol
+display_name: Angle Protocol
 github:
   - url: https://github.com/AngleProtocol
 blockchain:
   - address: "0x9f76a95aa7535bb0893cf88a146396e00ed21a12"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0xfda462548ce04282f4b6d6619823a7c64fdc0185"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -61,7 +61,7 @@ blockchain:
     name: unverified
   - address: "0xc8711b1206cd3e89799ec32973f583e696cb553c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -81,7 +81,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x1033dd8415a282db52f14902e91de6e91868ac6d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -89,7 +89,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xf1ddcaca7d17f8030ab2eb54f2d9811365efe123"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -116,7 +116,7 @@ blockchain:
     name: VaultManagerLiquidationBoost
   - address: "0x16cd38b1b54e7abf307cb2697e2d9321e843d5aa"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -136,7 +136,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1a7e4e63778b4f12a199c062f3efdd288afcbce8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -150,7 +150,7 @@ blockchain:
     name: unverified
   - address: "0xaec8318a9a59baeb39861d10ff6c7f7bf1f96c57"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -163,7 +163,7 @@ blockchain:
     name: unverified
   - address: "0x42dc54fb50db556fa6ffba765f1141536d4830ea"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -182,7 +182,7 @@ blockchain:
     name: OracleOPEURChainlinkOptimism
   - address: "0xa61beb4a3d02decb01039e378237032b351125b4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -190,7 +190,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xc16b81af351ba9e64c1a069e3ab18c244a1e3049"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -204,7 +204,7 @@ blockchain:
     name: AngleBorrowHelpers
   - address: "0x9485aca5bbbe1667ad97c7fe7c4531a624c8b1ed"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -218,7 +218,7 @@ blockchain:
     name: AngleRouterOptimism
   - address: "0x97b6897aad7aba3861c04c0e6388fc02af1f227f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -246,7 +246,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x7ab641e661a9728913a44e06f6a4879481142ddb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -266,7 +266,7 @@ blockchain:
     name: LayerZeroBridgeToken
   - address: "0x0d710512e100c171139d2cf5708f22c680eccf52"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -274,14 +274,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x7f27082eabdddc9dc3cc6632c9f594d210b9d43c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x9c215206da4bf108ae5aeef9da7cad3352a36dad"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -301,7 +301,7 @@ blockchain:
     name: LayerZeroBridgeToken
   - address: "0xe9f183fc656656f1f17af1f2b0df79b8ff9ad8ed"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -309,14 +309,14 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x9201cc18965792808549566e6b06b016d915313a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x58441e37255b09f9f545e9dc957f1c41658ff665"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -347,7 +347,7 @@ blockchain:
     name: VaultManagerLiquidationBoost
   - address: "0xfa5ed56a203466cbbc2430a43c66b9d8723528e7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -366,7 +366,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x918261fa5dd9c3b1358ca911792e9bdf3c5cca35"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -374,7 +374,7 @@ blockchain:
     name: Distributor
   - address: "0x3ef3d8ba38ebe18db133cec108f4d14ce00dd9ae"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -382,7 +382,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x7db28175b63f154587bbb1cae62d39ea80a23383"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -390,7 +390,7 @@ blockchain:
     name: DistributionCreator
   - address: "0x8bb4c975ff3c250e0ceea271728547f3802b36fd"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -416,26 +416,26 @@ blockchain:
     name: Savings
   - address: "0x59153e939c5b4721543251ff3049ea04c755373b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x9a33e690aa78a4c346e72f7a5e16e5d7278be835"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: AngleRouterV2
   - address: "0x2904a4d96f88ad4bd548507ba139e892083894f7"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Swapper
   - address: "0x31429d1856ad1377a8a0079410b297e1a9e214c2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
@@ -446,3 +446,6 @@ blockchain:
     tags:
       - safe
       - wallet
+twitter: AngleProtocol
+websites:
+  - url: https://angle.money

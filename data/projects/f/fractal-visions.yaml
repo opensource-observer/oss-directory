@@ -1,12 +1,12 @@
-version: 3
-slug: fractal-visions
-name: Fractal Visions
+version: 5
+name: fractal-visions
+display_name: Fractal Visions
 github:
   - url: https://github.com/Fractal-Visions
 blockchain:
   - address: "0xc4fc57dedd2463314a3fd2dbadb86b4404c257e5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

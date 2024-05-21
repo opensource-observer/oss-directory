@@ -1,6 +1,6 @@
-version: 3
-slug: vocdoni
+version: 5
 name: vocdoni
+display_name: vocdoni
 github:
   - url: https://github.com/vocdoni
 blockchain:
@@ -8,7 +8,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: vocdoni
+websites:
+  - url: https://vocdoni.io
+description: A universally verifiable, privacy-centric and scalable digital voting protocol

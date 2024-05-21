@@ -1,32 +1,34 @@
-version: 3
-slug: compound-finance
-name: Compound
+version: 5
+name: compound-finance
+display_name: Compound
 github:
   - url: https://github.com/compound-finance
 blockchain:
   - address: "0x6103db328d4864dc16bd2f0ee1b9a92e3f87f915"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0xa5edbdd9646f8dff606d7448e414884c7d905dca"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Comet
   - address: "0xb21b06d71c75973babde35b49ffdac3f82ad3775"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x9c4ec768c28520b50860ea7a15bd7213a9ff58bf"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: cUSDCv3Native
+websites:
+  - url: https://compound.finance/

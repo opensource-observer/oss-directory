@@ -1,6 +1,6 @@
-version: 3
-slug: taterdao
-name: TaterDAO
+version: 5
+name: taterdao
+display_name: TaterDAO
 github:
   - url: https://github.com/TaterDAO/app
 blockchain:
@@ -13,7 +13,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

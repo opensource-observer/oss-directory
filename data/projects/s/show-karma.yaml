@@ -1,6 +1,6 @@
-version: 3
-slug: show-karma
-name: Karma
+version: 5
+name: show-karma
+display_name: Karma
 github:
   - url: https://github.com/show-karma
 npm:
@@ -52,7 +52,7 @@ blockchain:
     name: showkarma.eth
   - address: "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

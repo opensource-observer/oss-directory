@@ -1,6 +1,6 @@
-version: 3
-slug: itu-blockchain
-name: ITU Blockchain
+version: 5
+name: itu-blockchain
+display_name: ITU Blockchain
 github:
   - url: https://github.com/itublockchain
 blockchain:
@@ -18,10 +18,14 @@ blockchain:
       - wallet
   - address: "0xbec643bd5b7f5e9190617ca4187ef0455950c51c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: itublockchain.eth
+twitter: itublockchain
+websites:
+  - url: https://itublockchain.com
+description: ITU Blockchain 🐝 The first and biggest blockchain club in Turkey, based in Istanbul Technical University 🇹🇷 

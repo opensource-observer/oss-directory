@@ -1,12 +1,12 @@
-version: 3
-slug: scion-finance
-name: Scion Finance
+version: 5
+name: scion-finance
+display_name: Scion Finance
 github:
   - url: https://github.com/scion-finance
 blockchain:
   - address: "0xf09c27934a92c56c7c0dd6cbac858c35fbd5170f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -70,14 +70,14 @@ blockchain:
     name: IMXLendStrategy
   - address: "0x65e63475f1d006c3c2e628f66c1cb6f270124fdc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x34e125352967e55df11cef1077d89e19e83fcf60"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -90,7 +90,7 @@ blockchain:
     name: AggregatorVaultU
   - address: "0x36eeae644b247cb285f4c299c72e6a56bb50f2d6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -133,7 +133,7 @@ blockchain:
     name: IMXVault
   - address: "0x84ac58149abdc777f732f6a464c1538ae2841903"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -152,14 +152,14 @@ blockchain:
     name: IMX
   - address: "0xb3e829d2ae0944a147549330a65614cd095f34c9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: IMX
   - address: "0x92dbea6fa85a1cd839b604d1f2852abfb7fa2897"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -220,7 +220,7 @@ blockchain:
     name: IMX
   - address: "0x97b4d169014c15e7a5890123992fa543086e6b51"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -245,14 +245,14 @@ blockchain:
     name: AggregatorVaultU
   - address: "0xe17bc4de8e5d437bdda8e8c4874bf928127d441d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x8da9cd7232611fef7b1f05ab80ea9bb977f52a79"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -283,14 +283,14 @@ blockchain:
     name: IMX
   - address: "0xdb613730c823f260a1a8ac2dcdd6b8b82b491919"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x5c6079193fa38868f51eac367e622dada53cf17d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -309,7 +309,7 @@ blockchain:
     name: IMXVault
   - address: "0xcb2e195d92e9da36ea1f186b8df09aade31a5dda"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -323,7 +323,7 @@ blockchain:
     name: IMX
   - address: "0xaa47c9422fd5e12f1a364e659b593e1a10fc5436"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -336,14 +336,14 @@ blockchain:
     name: IMX
   - address: "0x0bab493632e27325a3f6c02de14c04ba006abe3e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xdbd42bcbe8f81d2da8d46fd158829c931e08cdd2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -356,7 +356,7 @@ blockchain:
     name: IMXVault
   - address: "0x728ddda91e57078794fc7be6acb84d7cc51d760a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -381,7 +381,7 @@ blockchain:
     name: unverified
   - address: "0x7abbed988145058d8fc9a0e782af01955ac337bc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -460,14 +460,14 @@ blockchain:
     name: unverified
   - address: "0x4c424155997dd42435d137fdecfc64ea619a5978"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2663a6f2768c66a8483d0bba4b9dba849686e50e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -486,14 +486,14 @@ blockchain:
     name: IMXVault
   - address: "0x75079acaeb581e28040a049ca780e543f722ebdf"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xaa40216ce9f6b9baab726fbc83a184944a993b2a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

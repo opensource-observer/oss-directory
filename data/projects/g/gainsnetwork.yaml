@@ -1,192 +1,196 @@
-version: 3
-slug: gainsnetwork
-name: Gains Network
+version: 5
+name: gainsnetwork
+display_name: Gains Network
 github:
   - url: https://github.com/gainsnetwork
 blockchain:
   - address: "0xec9581354f7750bc8194e3e801f8ee1d91e2a8ac"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x7edde7e5900633f698eab0dbc97de640fc5dc015"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSStakingV6_4_1
   - address: "0xde5750071caca8db173fc6543d23d0bcacacfec3"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSNftRewardsV6_3_1
   - address: "0x6b8d3c08072a020ac065c467ce922e3a36d3f9d6"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSStakingV6_2
   - address: "0xf67df2a4339ec1591615d94599081dd037960d4b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSPairsStorageV6
   - address: "0x6ac331b603373d0006d72d3a3159b4c35e1006e8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: EpochBasedTokenClaim
   - address: "0x18c11fd286c5ec11c3b683caa813b77f5163a122"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GainsNetworkToken
   - address: "0x6c612c804c84e3d20e3109c8efd06cd2d8b28f46"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSTradingCallbacksV6_3
   - address: "0xd85e038593d7a098614721eae955ec2022b9b91b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GToken
   - address: "0x5220ffb7307a67d41062a261fef5136516637f65"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSTradingV6_3_1
   - address: "0x298a695906e16aea0a184a2815a76ead1a0b7522"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSTradingCallbacksV6_3_1
   - address: "0x4899fefbf0a5c9881f1dffe6d13f758257298121"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSTradingV6_4_1
   - address: "0xc2d107e870927e3fb1127e6c1a33de5c863505b8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSNftRewardsV6
   - address: "0xa03e32a42c75fdddc9a39973ddd082f147393154"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSBorrowingFeesV6_3_2
   - address: "0x5e5bfda2345218c9ee92b6d60794dab5a4706342"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSTradingV6_4
   - address: "0x0f9e4375facbeb90daa850f677819b438ce50827"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ERC721MintingBridge
   - address: "0x04a5e3cf21b0080b72facdca634349a56982d497"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSPairInfosV6_1
   - address: "0x990ba9edd8a9615a23e4c452e63a80e519a4a23d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GTokenOpenPnlFeed
   - address: "0xb6cc60f71ae34becd45b2d3437b4c4c9b628e50c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSPriceAggregatorV6_2
   - address: "0x1632c38cb208df8409753729dbfba5c58626f637"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSTimelockManager
   - address: "0xcef1c791cdd8c3ea92d6ab32399119fd30e1ff21"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSPriceAggregatorV6_3
   - address: "0xcdcb434d576c5b1cf387cb272756199b7e72c44d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSTradingV6_3_2
   - address: "0x2e44a81701a8355e59b3204b4a9fe8fc43cbe0c3"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSPriceAggregatorV6_4
   - address: "0x30d8c505516ab7693e2de491bdceb028d8ae7ebf"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSCompensationHandlerV6_4_1
   - address: "0xcfa6ebd475d89db04cad5a756fff1cb2bc5be33c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSTradingStorageV5
   - address: "0x2f67a8d26f370b922b31b199c7946c3ed53c10c6"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSTradingV6_2
   - address: "0x01caaaa682ceba8cd6c02f93bb1393fb415fa5e2"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ERC20Bridge
   - address: "0x5f5e4892bab94d94dc57a3edea3c138167c4df0f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSTimelockOwner
   - address: "0x2c7e82641f03fa077f88833213210a86027f15dc"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSTrading
   - address: "0xaa379dd7ec0bae467490e89bb2055a7e01231b8f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSReferralsV6_2
   - address: "0xa3c13a8fbf49679df032d5ce8eff2e46b3b8f560"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GNSOracleRewardsV6_4_1
+twitter: GainsNetwork_io
+websites:
+  - url: https://gainsnetwork.io
+description: Gains Network is an innovative suite of DeFi products on Polygon, currently building and maintaining gTrade.

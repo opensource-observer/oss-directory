@@ -1,6 +1,6 @@
-version: 3
-slug: grateful-protocol
-name: Grateful
+version: 5
+name: grateful-protocol
+display_name: Grateful
 github:
   - url: https://github.com/grateful-protocol
 blockchain:
@@ -12,9 +12,11 @@ blockchain:
     name: Proxy
   - address: "0xff284badb6f6030c726782767fe45770570ca381"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
+twitter: imgrateful_io
+description: Grateful protocol

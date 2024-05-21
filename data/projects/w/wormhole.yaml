@@ -1,13 +1,13 @@
-version: 3
-slug: wormhole
-name: Wormhole
+version: 5
+name: wormhole
+display_name: Wormhole
 github:
   - url: https://github.com/wormhole-foundation
   - url: https://github.com/XLabs
 blockchain:
   - address: "0xe2e2d9e31d7e1cc1178fe0d1c5950f6c809816a3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -15,7 +15,7 @@ blockchain:
       - eoa
   - address: "0x1d68124e65fafc907325e3edbf8c4d84499daa8b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -23,7 +23,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xfe8cd454b4a1ca468b57d79c0cc77ef5b6f64585"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -31,28 +31,28 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xee91c335eab126df5fdb3797ea9d6ad93aec9722"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x0b3e006a6af5126e625c0e228adf31ea494246a3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xfbc2f62b6a366a177d44706f04b74ae2d60bd556"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xa5f208e072434bc67592e4c49c1b991ba79bca46"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -77,7 +77,7 @@ blockchain:
     name: BridgeImplementation
   - address: "0x126783a6cb203a3e35344528b26ca3a0489a1485"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -91,7 +91,7 @@ blockchain:
     name: unverified
   - address: "0xe69fe4b24e6288df707b68bcc2ad15c42ae50f04"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -104,7 +104,7 @@ blockchain:
     name: BridgeImplementation
   - address: "0xa6a377d75ca5c9052c9a77ed1e865cc25bd97bf3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -117,14 +117,14 @@ blockchain:
     name: TokenImplementation
   - address: "0xa321448d90d4e5b0a732867c18ea198e75cac48e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x91175aee6dac41b9c1f749ded077568ad93b84ca"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -132,7 +132,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1aafb0d5aab9ffbe09d4d30c9fd90d695c4f0881"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -140,14 +140,14 @@ blockchain:
     name: unverified
   - address: "0x6dcc0484472523ed9cdc017f711bcbf909789284"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x53b56de645b9de6e5a40ace047d1c74e8b42eccb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -166,55 +166,58 @@ blockchain:
     name: unverified
   - address: "0xdc95becd16081bf00c3cabac5820a3e18b495cad"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BridgeToken
   - address: "0x4b2c16bf8e7b4977343b5fc85c8384cb674d9091"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BridgeToken
   - address: "0x2bcc6d6cdbbdc0a4071e48bb3b969b06b3330c07"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BridgeToken
   - address: "0xa61f74247455a40b01b0559ff6274441fafa22a3"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BridgeToken
   - address: "0xd9368ae905c014f71a6216fc9f18021b9f95f61d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BridgeToken
   - address: "0xf73ce9d8f7bddcc38cb3e662cb93622b2145a47f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BridgeToken
   - address: "0x7b5eb3940021ec0e8e463d5dbb4b7b09a89ddf96"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BridgeToken
   - address: "0x5190f06eacefa2c552dc6bd5e763b81c73293293"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BridgeToken
   - address: "0x0b2402144bb366a632d14b83f244d2e0e21bd39c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TokenBridge
+twitter: wormholecrypto
+websites:
+  - url: https://wormhole.com/

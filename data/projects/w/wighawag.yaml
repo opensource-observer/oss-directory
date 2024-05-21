@@ -1,6 +1,6 @@
-version: 3
-slug: wighawag
-name: Jolly Roger and Hardhat-deploy
+version: 5
+name: wighawag
+display_name: Jolly Roger and Hardhat-deploy
 github:
   - url: https://github.com/jolly-roger-eth
   - url: https://github.com/wighawag/hardhat-deploy
@@ -16,7 +16,7 @@ blockchain:
       - wallet
   - address: "0xaddbc936ab952b6dc5c5fe090c55269a1174d173"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -26,7 +26,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: jollyroger_eth
+websites:
+  - url: https://jolly-roger.eth.limo
+description: Build and Deploy for Eternity. Production-Ready Template To Build Decentralised Apps and Games.

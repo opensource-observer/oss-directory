@@ -1,6 +1,6 @@
-version: 3
-slug: quest-chains
-name: Quest Chains
+version: 5
+name: quest-chains
+display_name: Quest Chains
 github:
   - url: https://github.com/quest-chains
 blockchain:
@@ -14,7 +14,9 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://questchains.xyz

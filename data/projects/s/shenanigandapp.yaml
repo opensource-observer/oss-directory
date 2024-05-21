@@ -1,6 +1,6 @@
-version: 3
-slug: shenanigandapp
-name: ShenaniganDApp
+version: 5
+name: shenanigandapp
+display_name: ShenaniganDApp
 github:
   - url: https://github.com/shenanigandapp
 blockchain:
@@ -8,7 +8,9 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://www.she.energy

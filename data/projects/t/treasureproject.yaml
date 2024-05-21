@@ -1,517 +1,521 @@
-version: 3
-slug: treasureproject
-name: TreasureDAO
+version: 5
+name: treasureproject
+display_name: TreasureDAO
 github:
   - url: https://github.com/treasureproject
 blockchain:
   - address: "0xed673d7d73fc1602d77d70e2783748b69348a5c4"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x2940108780b870ae8f1509be95fdf2b6fb066e41"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0xb013abd83f0bd173e9f14ce7d6e420ad711483b4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0xc0de123d0ca961a3ea9d2d29e015ce74d3ec124f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x032f84aeff59ddebc55797f321624826d873bf65"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x393248ae29a7c2128e8e27d23330b1f87e0600fc"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0xe59aec5f6f631ef380dd4e60d531ff3ae2985cfd"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: TransparentUpgradeableProxy
   - address: "0x015e379ce0ff195228b3a9ebdfa13f9afc155dd7"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: UniswapV2Factory
   - address: "0xcf51e9622471fb2bf2d66226a878280eabd71778"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SoLItem
   - address: "0x3956c81a51feaed98d7a678d53f44b9166c8ed66"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xdc758b92c7311280aeeb48096a3bf4d1c1f936d4"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ImbuedSoul
   - address: "0x3e455c3321ef4861dd8492d7fc099190a846458a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SeedEvolution
   - address: "0x7bc27907ac638dbceb74b1fb02fc154da3e15334"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: UniswapV2Pair
   - address: "0xe83c0200e93cb1496054e387bddae590c07f0194"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2ed152aa2c017fc16b690b75a9124b8ebc333a8d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: NftHandler
   - address: "0x99193ee9229b833d2aa4dbbda697c6600b944286"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LegionMetadataStore
   - address: "0x70a75ac9537f6cdac553f82b6e39484acc521067"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: AfaritHarvester
   - address: "0x5aa865ac69f481d43a7c67cde7d20781733eb612"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: afarit_nfts
   - address: "0xbfeba04384cecfaf0240b49163ed418f82e43d3a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BalancerCrystal
   - address: "0x73f66906ec2d419f70a560990b8a3691b980766b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: RecruitLevel
   - address: "0xfe8c1ac365ba6780aec5a985d989b327c27670a1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x658365026d06f00965b5bb570727100e821e6508"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xebba467ecb6b21239178033189ceae27ca12eadf"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Treasures
   - address: "0xa0a89db1c899c49f98e6326b764bafcf167fc2ce"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: AtlasMine
   - address: "0x99427ba5bcd26af9c1267d4688b27f2d636c7258"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x69540403fb839696c6bc02dff7623d664caeac82"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: MiniCrafting
   - address: "0x737eaf14061fe68f04ff4ca8205acf538555fcc8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: AdvancedQuesting
   - address: "0xc8dbdc58289474ab3e01568eb5f88f440bde6b46"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x3d54dba766cf134b137973e120cf19ac7edc3629"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TreasureTriad
   - address: "0xb9c9ed651eb173ca7fbc3a094da9ce33ec145a29"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x587dc30014e10b56907237d4880a9bf8b9518150"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: EmerionHarvester
   - address: "0x756e4f3bb69c47d492abf2a52af320190c174c55"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TreasureFragments
   - address: "0x9b58fc8c7b224ae8479da7e6ed37ca4ac58099a9"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TreasureMetadataStore
   - address: "0x08f3533acdf2b9c400204056f771bdd6f1f1c200"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xd0ed73b33789111807bd64ae2a6e1e6f92f986f5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x447c73f3ee46050d618fd956c1641274860b6c74"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xd661a18e824c8d2edf3badf75aedda5b7d142448"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Pilgrimage
   - address: "0xd58d40a9a1aaeebd48a90bbb8197e0772d0e9b51"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xa0515709fa0f520241659a91d868151e1ad263d8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: EmerionNftHandlerProxy
   - address: "0xc0df5094b3b2413e4891a2dc2ff583a2ffd3e8d3"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x1dbe15ee5bb2901ae32231e92e6efd851e7146aa"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x6b66d774a862539f84128f171db1940302c4671e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xda3cad5e4f40062ceca6c1b979766bc0baed8e33"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xf3d00a2559d84de7ac093443bcaada5f4ee4165c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x072b65f891b1a389539e921bdb9427af41a7b1f7"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: MagicDomainRegistrarController
   - address: "0xa5447d47bfd314c205bfaec8eb0a66af8f467819"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xf904469497e6a179a9d47a7b468e4be42ec56e65"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: UniswapV2Pair
   - address: "0x23805449f91bb2d2054d9ba288fdc8f09b5eac79"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: UniswapV2Router02
   - address: "0x088f2bd3667f385427d9289c28725d43d4b74ab4"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: UniswapV2Pair
   - address: "0x17dacad7975960833f374622fad08b90ed67d1b5"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SmolBodies
   - address: "0x66299ecc614b7a1920922bba7527819c841174bd"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SmolBodiesGym
   - address: "0x1f245e83fb88a1e85b4a1c3e4b3c16660d54319a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: WrappedSmols
   - address: "0x602e50ed10a90d324b35930ec0f8e5d3b28cd509"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SmolBrainsSchool
   - address: "0x8957a18a77451d762de204b61ea4f858bb3bed4d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SmolRocket
   - address: "0xdf32aed1eb841a174cb637eaa1707026319fb563"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Swolercycles
   - address: "0xc2e007c61319fcf028178fab14cd6ed6660c6e86"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SmolFarm
   - address: "0xc5295c6a183f29b7c962df076819d44e0076860e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SmolTreasures
   - address: "0xae0d0c4cc3335fd49402781e406adf3f02d41bca"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SmolBodiesPets
   - address: "0xf6cc57c45ce730496b4d3df36b9a4e4c3a1b9754"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SmolBrainsPets
   - address: "0xd666d1cc3102cd03e07794a61e5f4333b4239f53"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SmolBrainsLand
   - address: "0xd5e7c7128a4b348e2b9b2d8539bc53130b7f5789"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xb16966dad2b5a5282b99846b23dcdf8c47b6132c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SmolCars
   - address: "0xec895f620d1c103d5bbc85cce3b623c958ce35cc"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x6325439389e0797ab35752b4f43a14c004f22a9c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SmolBrains
   - address: "0x09986b4e255b3c548041a30a2ee312fe176731c2"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TreasureMarketplaceV2
   - address: "0x2e3b85f85628301a0bce300dee3a6b04195a15ee"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TreasureMarketplaceV1
   - address: "0xe50abe4756809b51b0041bb5ab12ec4c5c67af47"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: MagicDomainRegistrar
   - address: "0x83cb2b3d5de9ecf5c7aedbb45d9883d9b7a6ed36"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0xe3308af75eb867d56f595bcbaa5cee1bb61ac059"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LootBoxRevealer
   - address: "0xaa993cfbd5bf6b92e765912716b5a95317ac9ece"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiquidityStaker
   - address: "0x747910b74d2651a06563c3182838eae4120f4277"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: AoV
   - address: "0xccd05a0fcfc1380e9da27862adb2198e58e0d66f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Anima
   - address: "0xc9797a6be31f052cdfbdcc7264005c1eea0f69b9"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: AdventurerData
   - address: "0x7abf1cae387a2dc7f7876dc3f2861e6c0fc9cd54"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BattleVersus20230716
   - address: "0xe8664e49b051dd897f31a46f92930084a998dcc6"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SushiSwapLiquidityStaker
   - address: "0x8b9a20444c19656c72b14989ebcef7d8949656e8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ParticleMinterV0
   - address: "0x5862ab89eddd299f9dd1f1daa4e34f6e9261c392"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Transcendence
   - address: "0x6759724fb5013e9f265fa26f3851e532f6f1b1a2"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ParticleMinter
   - address: "0x61462ff437b630e0c2f1f4711f5b276c47af2e63"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Particle
   - address: "0xe94ba1a5560335c3a3d2f45b1b830c36bc091ce9"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SushiSwapLiquidityStaker
   - address: "0xbf074ca6f39e2cc232dd109a383af76be6754221"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LootBoxRevealerV2
   - address: "0x5561748a2a854f43efbe429ff814c7d666671c21"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SushiSwapLiquidityStaker
   - address: "0xcfcd2371f19b31f9500f4581ac52ffbfaabbb18e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BattleVersusV2
+twitter: Treasure_DAO
+websites:
+  - url: https://treasure.lol
+description: The decentralized gaming ecosystem. ✨

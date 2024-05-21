@@ -1,6 +1,6 @@
-version: 3
-slug: digital-asset-solutions
-name: Digital-Asset-Solutions
+version: 5
+name: digital-asset-solutions
+display_name: Digital-Asset-Solutions
 github:
   - url: https://github.com/digital-asset-solutions
 blockchain:
@@ -8,7 +8,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
@@ -16,7 +16,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

@@ -1,6 +1,6 @@
-version: 3
-slug: lexdao
-name: LexDAO
+version: 5
+name: lexdao
+display_name: LexDAO
 github:
   - url: https://github.com/lexDAO
   - url: https://github.com/kalidao
@@ -28,7 +28,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
@@ -36,7 +36,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
@@ -52,3 +52,7 @@ blockchain:
     tags:
       - safe
       - wallet
+twitter: lex_DAO
+websites:
+  - url: https://lexdao.org
+description: Web3 Legal Engineering Guild

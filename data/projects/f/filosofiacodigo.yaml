@@ -1,6 +1,6 @@
-version: 3
-slug: filosofiacodigo
-name: FilosofiaCodigo
+version: 5
+name: filosofiacodigo
+display_name: FilosofiaCodigo
 github:
   - url: https://github.com/FilosofiaCodigo
   - url: https://github.com/Turupawn/RandomnessCeremony
@@ -55,7 +55,7 @@ blockchain:
     name: RandomnessCeremony
   - address: "0xb6f5414bab8d5ad8f33e37591c02f7284e974fcb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

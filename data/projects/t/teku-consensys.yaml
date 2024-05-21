@@ -1,6 +1,6 @@
-version: 3
-slug: teku-consensys
-name: Teku
+version: 5
+name: teku-consensys
+display_name: Teku
 github:
   - url: https://github.com/ConsenSys/teku
 blockchain:
@@ -16,3 +16,7 @@ blockchain:
     tags:
       - safe
       - wallet
+twitter: consensys
+websites:
+  - url: https://www.consensys.net
+description: Consensys is the software engineering leader of the blockchain space. Our full-stack Ethereum products help developers build next-generation networks.

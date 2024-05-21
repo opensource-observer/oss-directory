@@ -1,6 +1,6 @@
-version: 3
-slug: prettier-solidity
-name: Prettier Solidity
+version: 5
+name: prettier-solidity
+display_name: Prettier Solidity
 github:
   - url: https://github.com/prettier-solidity
 npm:
@@ -8,7 +8,7 @@ npm:
 blockchain:
   - address: "0xfc756d8632a19cebd76560ce0a6967279e32131b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

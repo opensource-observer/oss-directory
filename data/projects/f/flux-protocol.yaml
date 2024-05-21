@@ -1,20 +1,23 @@
-version: 3
-slug: flux-protocol
-name: Flux Protocol
+version: 5
+name: flux-protocol
+display_name: Flux Protocol
 github:
   - url: https://github.com/fluxprotocol
 blockchain:
   - address: "0xbf42f27077014b91031c54751baaacf1d6e79e8e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0xf80d589b3dbe130c270a69f1a69d050f268786df"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
+websites:
+  - url: https://fluxprotocol.org
+description: Open source - open market protocol

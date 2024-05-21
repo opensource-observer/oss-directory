@@ -1,6 +1,6 @@
-version: 3
-slug: glo-foundation
-name: Glo Dollar
+version: 5
+name: glo-foundation
+display_name: Glo Dollar
 github:
   - url: https://github.com/Glo-Foundation
 blockchain:
@@ -21,7 +21,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: glodollar
+websites:
+  - url: https://glodollar.org
+description: The Glo Foundations creates the Glo Dollar - a stablecoin to end extreme poverty. This account exists to point you to https://gitlab.com/global-income-coin

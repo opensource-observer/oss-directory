@@ -1,6 +1,6 @@
-version: 3
-slug: givestation
-name: GiveStation
+version: 5
+name: givestation
+display_name: GiveStation
 github:
   - url: https://github.com/givestation
 blockchain:
@@ -26,13 +26,17 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
   - address: "0xbf7cb57f08390ef51666ca9e4825c234c6991afa"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: givestation
+websites:
+  - url: https://givestation.org
+description: A multi-chain Give-To-Earn grant protocol where contributors get rewarded for funding ideas, startups and projects in web3.

@@ -1,180 +1,184 @@
-version: 3
-slug: velaexchange
-name: Vela Exchange
+version: 5
+name: velaexchange
+display_name: Vela Exchange
 github:
   - url: https://github.com/velaexchange
 blockchain:
   - address: "0x4edc01b119a224dbc0fa1297a6aca3f02af5a58d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x05e4c7a3032c4fb4a6c5a2baef9c6cd4bebc6986"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x6647da1da67bcab3af15c0eb9f7983b3c574b08e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0xfc527781ae973f8131dc26dddb2adb080c1c1f59"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TokenFarm
   - address: "0x0dab7712138c086d02f5b87c3cc4ca2c52096bdf"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SettingsManager
   - address: "0x79e04946f0ed05a60395f3c9a4ae4a7d84eca80e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PositionVault
   - address: "0xa9f5606c3e6aab998fd4f4bc54a18d9fe13a0dd8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: eVELA
   - address: "0xc5b2d9fda8a82e8dcecd5e9e6e99b78a9188eb05"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: VLP
   - address: "0x4e0d4a5a5b4faf5c2ecc1c63c8d19bb0804a96f1"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: VLP
   - address: "0xda1a7ea276fbdb16ebabb5b38257b1d56b302e4a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: VaultUtils
   - address: "0x79babb5cb4477ee39bfd75408557844750e9155e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: vUSDC
   - address: "0xb9803f107c6102caced5039062df8b9251cb9a94"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TriggerOrderManager
   - address: "0x60b8c145235a31f1949a831803768bf37d7ab7aa"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TokenFarm
   - address: "0x088cd8f5ef3652623c22d48b1605dcfe860cd704"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: VelaToken
   - address: "0x5957582f020301a2f732ad17a69ab2d8b2741241"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Vault
   - address: "0xaa0b397b0896a864714de56aa33e3df471229268"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: VUSD
   - address: "0xc4abade3a15064f9e3596943c699032748b13352"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Vault
   - address: "0x8b97e18ee706d056a5659947a717a7971003f524"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PositionVault
   - address: "0x23fc7c88402fe3314d4e76ac42f4c5a3e01ae684"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Operators
   - address: "0x18b38d25f301a157e17358301cdd41cc18515b4a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Reader
   - address: "0xc8e027c40b25c4cd0c059763d042e79466d7bbb6"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PriceManager
   - address: "0x6f2c6010a438546242cab29bb755c1f0afaca5aa"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SettingsManager
   - address: "0xefb4ff63da3dad854aa339c1ea2d96bba831364d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SwapAndAirdrop
   - address: "0x361a5f8fa6860b5f5c021a5dd370c1180010a561"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiquidateVault
   - address: "0x52ac3eda13eb7959f918df02a72d0f6c9c703523"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OrderVault
   - address: "0x8dfc8c7d8a8a8cef0ba7d6738a063c0b5adfdddd"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TokenRewardDistributor
   - address: "0x12d4528e69e196a0c291df3b28449e9fc2769d11"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ComplexRewarderPerSec
   - address: "0x40c3bd6d4a07117fce69b60eb1d446984e0a1383"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ComplexRewarderPerSec
   - address: "0xf9c059a25bf9431d70a4504bd1ce3bfd9c21b477"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ComplexRewarderPerSec
+twitter: vela_exchange
+websites:
+  - url: https://vela.exchange
+description: Vela Exchange

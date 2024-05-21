@@ -1,12 +1,12 @@
-version: 3
-slug: definomics-labs
-name: DeFinomics Labs
+version: 5
+name: definomics-labs
+display_name: DeFinomics Labs
 github:
   - url: https://github.com/Definomics-Labs
 blockchain:
   - address: "0x9390fa8656a161442928b442300358d82bec28b0"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -17,7 +17,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: Definomicslabs
+websites:
+  - url: https://definomicslabs.com
+description: Un espacio para migrar talento de web2 a web3 y profesionalizarlo en DeFi & Tokenomics.

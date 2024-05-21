@@ -1,15 +1,17 @@
-version: 3
-slug: accountjs
-name: account.js
+version: 5
+name: accountjs
+display_name: account.js
 github:
   - url: https://github.com/accountjs
 blockchain:
   - address: "0x281fc8583fbeb10ab6090783451f832c9e5d7b34"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: skyhighfeng.eth
+websites:
+  - url: https://accountjs.xyz/

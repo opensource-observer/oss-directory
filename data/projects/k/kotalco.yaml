@@ -1,13 +1,17 @@
-version: 3
-slug: kotalco
-name: Kotal
+version: 5
+name: kotalco
+display_name: Kotal
 github:
   - url: https://github.com/kotalco
 blockchain:
   - address: "0x5dfa5db515748f3e2bcc8677a9332f4affad5a5e"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: kotalco
+websites:
+  - url: https://kotal.co
+description: Blockchain done right.

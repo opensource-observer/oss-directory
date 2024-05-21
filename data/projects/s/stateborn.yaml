@@ -1,13 +1,16 @@
-version: 3
-slug: stateborn
+version: 5
 name: stateborn
+display_name: stateborn
 github:
   - url: https://github.com/stateborn
 blockchain:
   - address: "0x0db42a3b705d99caf10f835210857275f2816b4b"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://stateborn.org
+description: where communities grow | hybrid off-chain + on-chain  DAO governance platform

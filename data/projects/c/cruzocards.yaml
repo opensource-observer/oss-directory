@@ -1,14 +1,18 @@
-version: 3
-slug: cruzocards
-name: CruzoCards
+version: 5
+name: cruzocards
+display_name: CruzoCards
 github:
   - url: https://github.com/cruzocards
 blockchain:
   - address: "0x0b39aec55662d8ded1af14e4e0efff84ee32d65d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
+twitter: CruzoCards
+websites:
+  - url: https://cruzo.io
+description: The first NFT greeting card & crypto gifts multi-chain Web3 platform.

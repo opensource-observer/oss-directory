@@ -1,12 +1,12 @@
-version: 3
-slug: loanshark
-name: Loanshark
+version: 5
+name: loanshark
+display_name: Loanshark
 github:
   - url: https://github.com/loansharktechteam
 blockchain:
   - address: "0x7d658841f8ba93299970f6e765c2ce205f1e70dd"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

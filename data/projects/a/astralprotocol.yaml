@@ -1,6 +1,6 @@
-version: 3
-slug: astralprotocol
-name: Astral Protocol
+version: 5
+name: astralprotocol
+display_name: Astral Protocol
 github:
   - url: https://github.com/AstralProtocol
 blockchain:
@@ -15,7 +15,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: astralprotocol
+websites:
+  - url: https://astral.global
+description: Building tools to enable the location-based decentralized web.

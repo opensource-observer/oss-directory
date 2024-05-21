@@ -1,6 +1,6 @@
-version: 3
-slug: streamethorg
-name: StreamETH
+version: 5
+name: streamethorg
+display_name: StreamETH
 github:
   - url: https://github.com/streamethorg
 blockchain:
@@ -23,7 +23,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: streameth
+websites:
+  - url: https://streameth.org/
+description: Fullstack decentralised video solutions for web3 event organizers.

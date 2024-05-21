@@ -1,6 +1,6 @@
-version: 3
-slug: go-ethereum
-name: geth
+version: 5
+name: go-ethereum
+display_name: geth
 github:
   - url: https://github.com/ethereum/go-ethereum
 blockchain:
@@ -16,3 +16,5 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://ethereum.org

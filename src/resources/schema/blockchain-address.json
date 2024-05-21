@@ -12,13 +12,13 @@
       "minItems": 1,
       "items": {
         "enum": [
-          "eoa",
-          "safe",
+          "contract",
           "creator",
           "deployer",
+          "eoa",
           "factory",
           "proxy",
-          "contract",
+          "safe",
           "wallet"
         ],
         "$comment": "Tags that classify the address. Options include: \n- 'eoa': Externally Owned Account \n- 'safe': Gnosis Safe or other multi-sig wallet \n- 'deployer' (or 'creator'): An address that should be monitored for contract deployment events \n- 'factory': A contract that deploys other contracts \n- 'proxy': Proxy contract \n- 'contract': A smart contract address \n- 'wallet': An address that should be monitored for funding events"
@@ -28,7 +28,23 @@
       "type": "array",
       "minItems": 1,
       "items": {
-        "enum": ["mainnet", "optimism", "arbitrum"]
+        "enum": [
+          "arbitrum-one",
+          "base",
+          "frax",
+          "mainnet",
+          "matic",
+          "metal",
+          "mode",
+          "optimism",
+          "pgn",
+          "zora",
+          "linea",
+          "zksync-era",
+          "polygon-zkevm",
+          "scroll",
+          "mantle"
+        ]
       }
     },
     "name": {

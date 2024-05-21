@@ -1,6 +1,6 @@
-version: 3
-slug: wildcards-protocol
-name: Wildcards Protocol
+version: 5
+name: wildcards-protocol
+display_name: Wildcards Protocol
 github:
   - url: https://github.com/wildcards-protocol
 blockchain:
@@ -21,7 +21,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: wildcardswtf
+websites:
+  - url: https://wildcards.wtf
+description: Adding Utility to NFTs. Link ENS Domains to NFT Collections and provide holders with free wildcard sub-domains.

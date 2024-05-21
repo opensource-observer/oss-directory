@@ -1,6 +1,6 @@
-version: 3
-slug: defieye
-name: DeFiEye
+version: 5
+name: defieye
+display_name: DeFiEye
 github:
   - url: https://github.com/DeFiEye
 blockchain:
@@ -20,7 +20,7 @@ blockchain:
       - wallet
   - address: "0x00000000000007736e2f9aa5630b8c812e1f3fc9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -30,7 +30,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
@@ -38,7 +38,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

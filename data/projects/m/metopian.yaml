@@ -1,6 +1,6 @@
-version: 3
-slug: metopian
-name: Metopian
+version: 5
+name: metopian
+display_name: Metopian
 github:
   - url: https://github.com/metopian
 blockchain:
@@ -8,7 +8,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

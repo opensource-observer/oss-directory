@@ -15,23 +15,23 @@ export interface BlockchainAddress {
    */
   tags: [
     (
-      | "eoa"
-      | "safe"
+      | "contract"
       | "creator"
       | "deployer"
+      | "eoa"
       | "factory"
       | "proxy"
-      | "contract"
+      | "safe"
       | "wallet"
     ),
     ...(
-      | "eoa"
-      | "safe"
+      | "contract"
       | "creator"
       | "deployer"
+      | "eoa"
       | "factory"
       | "proxy"
-      | "contract"
+      | "safe"
       | "wallet"
     )[],
   ];
@@ -39,8 +39,40 @@ export interface BlockchainAddress {
    * @minItems 1
    */
   networks: [
-    "mainnet" | "optimism" | "arbitrum",
-    ...("mainnet" | "optimism" | "arbitrum")[],
+    (
+      | "arbitrum-one"
+      | "base"
+      | "frax"
+      | "mainnet"
+      | "matic"
+      | "metal"
+      | "mode"
+      | "optimism"
+      | "pgn"
+      | "zora"
+      | "linea"
+      | "zksync-era"
+      | "polygon-zkevm"
+      | "scroll"
+      | "mantle"
+    ),
+    ...(
+      | "arbitrum-one"
+      | "base"
+      | "frax"
+      | "mainnet"
+      | "matic"
+      | "metal"
+      | "mode"
+      | "optimism"
+      | "pgn"
+      | "zora"
+      | "linea"
+      | "zksync-era"
+      | "polygon-zkevm"
+      | "scroll"
+      | "mantle"
+    )[],
   ];
   name?: string;
   [k: string]: unknown;

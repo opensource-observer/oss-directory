@@ -1,6 +1,6 @@
-version: 3
-slug: rentfun
-name: RentFun
+version: 5
+name: rentfun
+display_name: RentFun
 github:
   - url: https://github.com/rentfun
 blockchain:
@@ -8,7 +8,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: rentfun_io
+websites:
+  - url: https://rentfun.io
+description: Liquidity for NFT Utility

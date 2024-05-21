@@ -1,24 +1,24 @@
-version: 3
-slug: neondapp
-name: NEON Protocol
+version: 5
+name: neondapp
+display_name: NEON Protocol
 github:
   - url: https://github.com/neondapp
 blockchain:
   - address: "0xe17f3fcc2043c34acd07ddccfda67f1792e78df0"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x086a9b3e3611c6c0913f3902395dbc1ea1967793"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0xf9da3664a0bf616987feed8919623fd4fdeb9e9f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - deployer
@@ -26,37 +26,41 @@ blockchain:
     name: neonprotocol.eth
   - address: "0xf40f19cafaaa25bf9b52134646c6e325e76e0e93"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GLSDCoin
   - address: "0xb9dda89d10d13a8a2b026fbaaec4d9abec4ae79e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ArbiPenguinToken
   - address: "0xc56dc613c8ef3c57314171d73eaefe87aa469186"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TLSDCoin
   - address: "0x43cce583aa7261d22d4ae32c9e9ff8e7ca100347"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: NDCA_V2in
   - address: "0xebed736f124dc5bc2245520dedd655dc7ef3647c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ESXLSDToken
   - address: "0x70b6c8907cdb68ce030ac89b8a5bca4e3805c5dd"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ESTLSDToken
+twitter: NEONprotocolio
+websites:
+  - url: https://neonprotocol.io
+description: Dollar cost averaging made easy with DeFi

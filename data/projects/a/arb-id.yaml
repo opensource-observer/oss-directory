@@ -1,108 +1,111 @@
-version: 3
-slug: arb-id
-name: ARB-ID
+version: 5
+name: arb-id
+display_name: ARB-ID
 github:
   - url: https://github.com/arb-id
 blockchain:
   - address: "0xb522e32b6b49363f420d2546e13479c05ff27201"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x816592127416b55f8d1e98f1c569f60c59bf907f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: RegistrarController
   - address: "0x2cc5c04546fcfef63ac751ae71ad1e5647c6e447"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Auction
   - address: "0x9fa006eed523407f55f1257a76aa9bdee994b116"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ReferralHub
   - address: "0x37e2831e11ad731882e181f5e9a9a2b58bdadb2a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ARBRegistrarControllerV2
   - address: "0x73622c36a3611caa7a22fc2941cee75d1759f2d7"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ReverseRegistrar
   - address: "0x5d482d501b369f5ba034dec5c5fb7a50d2d6ca20"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BaseRegistrarImplementation
   - address: "0x3f20e8a2b6990c1712717f5dea8c532952be6c90"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ARBRegistrarControllerV6
   - address: "0xb3c12537da1060ee7ba0c2f3dffefe5d4c25f072"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SidGiftCardController
   - address: "0x7dc5101111a607c49c5d2ba6c36d5b331b5d1c7d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: RenewController
   - address: "0x2ed07e2d88ac4a35c8f04e469566a3314d889ef2"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ARBRegistrarControllerV3
   - address: "0xb7da95ec908cba7587b2243ca45d5a2fa92ce618"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ARBRegistrarControllerV5
   - address: "0xa51fe2cac39b1aaee8c0c261ddd05cc996d2ea1b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ARBRegistrarControllerV4
   - address: "0x08804c13d21da41d2f1d6334b80f3241ca72d2b7"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: StarNFTV4
   - address: "0x8f68fea3fd9108c5133f61eeac407a5e525b26a5"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: StarNFTV4
   - address: "0xd6e5e55e342236d4044fd071e710b7545d9e45de"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: StarNFTV4
   - address: "0x71bacac90bbf9a258bf86fc0288183db3ebb3924"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: StarNFTV4
+websites:
+  - url: https://www.arb.id
+description: Name Service on Arbitrum

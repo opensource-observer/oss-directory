@@ -1,12 +1,12 @@
-version: 3
-slug: weekinethnews
-name: Week in Ethereum News
+version: 5
+name: weekinethnews
+display_name: Week in Ethereum News
 github:
   - url: https://github.com/WeekinEthNews
 blockchain:
   - address: "0x13ebd3443fa5575f0eb173e323d8419f7452cfb1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -26,3 +26,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+twitter: WeekInEthNews
+websites:
+  - url: https://weekinethereumnews.com

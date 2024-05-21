@@ -1,12 +1,12 @@
-version: 3
-slug: vu3th
-name: VueDapp
+version: 5
+name: vu3th
+display_name: VueDapp
 github:
   - url: https://github.com/vu3th
 blockchain:
   - address: "0x9d75f4ebcb8e7669e59dcc27cbadc698e0f77187"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

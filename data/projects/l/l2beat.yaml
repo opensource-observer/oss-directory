@@ -1,6 +1,6 @@
-version: 3
-slug: l2beat
-name: L2BEAT
+version: 5
+name: l2beat
+display_name: L2BEAT
 github:
   - url: https://github.com/l2beat
 blockchain:
@@ -13,7 +13,7 @@ blockchain:
       - wallet
   - address: "0x41626ba92c0c2a1ad38fc83920300434082b1870"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -27,3 +27,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+twitter: l2beatcom
+websites:
+  - url: https://l2beat.com

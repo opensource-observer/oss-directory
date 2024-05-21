@@ -1,6 +1,6 @@
-version: 3
-slug: codingshdev
-name: CodingshDev
+version: 5
+name: codingshdev
+display_name: CodingshDev
 github:
   - url: https://github.com/codingshdev
 blockchain:
@@ -8,7 +8,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: codingsh
+websites:
+  - url: https://codingsh.dev
+description: The Space dock, here I build and participate in the future.

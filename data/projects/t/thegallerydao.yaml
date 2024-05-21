@@ -1,6 +1,6 @@
-version: 3
-slug: thegallerydao
-name: TheGalleryDAO
+version: 5
+name: thegallerydao
+display_name: TheGalleryDAO
 github:
   - url: https://github.com/thegallerydao
 blockchain:
@@ -8,7 +8,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

@@ -1,6 +1,6 @@
-version: 3
-slug: beacon-chain
-name: Beaconchain and Bitfly
+version: 5
+name: beacon-chain
+display_name: Beaconchain and Bitfly
 github:
   - url: https://github.com/gobitfly/eth2-beaconchain-explorer
   - url: https://github.com/gobitfly/eth2-beaconchain-explorer-app
@@ -12,3 +12,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://www.bitfly.at
+description: Innovative blockchain technology made in Vienna

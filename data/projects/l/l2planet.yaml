@@ -1,6 +1,6 @@
-version: 3
-slug: l2planet
-name: L2 Planet
+version: 5
+name: l2planet
+display_name: L2 Planet
 github:
   - url: https://github.com/l2planet
 blockchain:
@@ -19,10 +19,13 @@ blockchain:
       - wallet
   - address: "0x2d9d84f4d8a4254ea23fe18825193cbd1b21b749"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: l2planet.eth
+websites:
+  - url: https://l2planet.xyz
+description: L2 Planet is a project which works for public goods. The main goal is to accelerate Layer-2 adaptation and educate the community about it.

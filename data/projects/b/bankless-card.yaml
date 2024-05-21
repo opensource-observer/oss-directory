@@ -1,6 +1,6 @@
-version: 3
-slug: bankless-card
-name: Bankless Card
+version: 5
+name: bankless-card
+display_name: Bankless Card
 github:
   - url: https://github.com/bankless-card
 blockchain:
@@ -11,3 +11,7 @@ blockchain:
       - eoa
       - wallet
     name: monkeydlinks.eth
+twitter: getbcard
+websites:
+  - url: https://getbcard.io/
+description: Funding every community through interchange fees

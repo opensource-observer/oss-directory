@@ -1,6 +1,6 @@
-version: 3
-slug: ponder-surveys
-name: Ponder
+version: 5
+name: ponder-surveys
+display_name: Ponder
 github:
   - url: https://github.com/ponder-surveys
 blockchain:
@@ -11,3 +11,6 @@ blockchain:
       - eoa
       - wallet
     name: weponder.eth
+websites:
+  - url: https://weponder.io
+description: Curating human insight

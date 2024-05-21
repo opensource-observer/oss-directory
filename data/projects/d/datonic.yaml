@@ -1,6 +1,6 @@
-version: 3
-slug: datonic
-name: datonic & Gitcoin Grants Data Portal
+version: 5
+name: datonic
+display_name: datonic & Gitcoin Grants Data Portal
 github:
   - url: https://github.com/datonic
   - url: https://github.com/davidgasquez/gitcoin-grants-data-portal
@@ -13,3 +13,7 @@ blockchain:
       - eoa
       - wallet
     name: kalendium.eth
+twitter: datonic_io
+websites:
+  - url: https://datonic.io
+description: The best place for communities to collaborate on open data

@@ -1,6 +1,6 @@
-version: 3
-slug: idena-network
-name: IDENA
+version: 5
+name: idena-network
+display_name: IDENA
 github:
   - url: https://github.com/idena-network
 blockchain:
@@ -11,3 +11,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://idena.io
+description: Proof-of-Person blockchain that allows you to run a mining node if you prove your uniqueness by passing a synchronous validation ceremony that bots cannot pass

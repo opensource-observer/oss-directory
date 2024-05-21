@@ -1,12 +1,12 @@
-version: 3
-slug: nomis-cc
-name: Nomis
+version: 5
+name: nomis-cc
+display_name: Nomis
 github:
   - url: https://github.com/Nomis-cc
 blockchain:
   - address: "0xd587404cd28bf4ee059ac84a6b7c0219d05ea6cf"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -19,3 +19,7 @@ blockchain:
       - eoa
       - wallet
     name: cryptobrelgin.eth
+twitter: 0xNomis
+websites:
+  - url: https://nomis.cc
+description: Web3 Reputation Scoring and Identity Protocol

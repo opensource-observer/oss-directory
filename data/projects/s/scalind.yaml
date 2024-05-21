@@ -1,6 +1,6 @@
-version: 3
-slug: scalind
-name: Scalind
+version: 5
+name: scalind
+display_name: Scalind
 github:
   - url: https://github.com/Scalind
 blockchain:
@@ -11,3 +11,6 @@ blockchain:
       - eoa
       - wallet
     name: telegin.eth
+websites:
+  - url: https://scalind.com/
+description: Rollup as a Service with verifiable deployments. Build blockchains you can trust

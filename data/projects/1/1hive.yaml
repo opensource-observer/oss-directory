@@ -1,12 +1,12 @@
-version: 3
-slug: 1hive
-name: 1Hive Gardens
+version: 5
+name: 1hive
+display_name: 1Hive Gardens
 github:
   - url: https://github.com/1Hive
 blockchain:
   - address: "0x1b8c7f06f537711a7caf6770051a43b4f3e69a7e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - wallet
   - address: "0x809c9f8dd8ca93a41c3adca4972fa234c28f7714"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -29,14 +29,17 @@ blockchain:
   - address: "0x422ae3412510d6c877b259dad402ddeaf1fdb28e"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
   - address: "0x1ad44446a588010ab6b741cd0201b92f84b597bb"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://1hive.org
+description: Honey is money, for everybody.

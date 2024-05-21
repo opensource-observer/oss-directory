@@ -1,12 +1,12 @@
-version: 3
-slug: kairosresearch
-name: Kairos Research
+version: 5
+name: kairosresearch
+display_name: Kairos Research
 github:
   - url: https://github.com/KairosResearch
 blockchain:
   - address: "0x13257e783dc8ded7e227a28edb0428c42d31202e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -16,7 +16,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

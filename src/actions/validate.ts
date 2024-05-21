@@ -8,6 +8,8 @@ import { currentVersion } from "../migrations/index.js";
 import { CommonArgs } from "../types/cli.js";
 import { getFileExtension, getFileFormat } from "../types/files.js";
 
+const IGNORE_GLOB = "**/README.md";
+
 export type ValidateArgs = CommonArgs & {
   dir: string;
 };
@@ -20,22 +22,33 @@ export async function validateCollections(args: ValidateArgs) {
   const fileFormat = getFileFormat(args.format);
   const extension = getFileExtension(fileFormat);
   const files = await glob(path.resolve(args.dir, `**/*${extension}`));
+  const extraneousFiles = _.difference(
+    await glob(path.resolve(args.dir, `**/*`), {
+      nodir: true,
+      ignore: IGNORE_GLOB,
+    }),
+    files,
+  );
+  assert(
+    extraneousFiles.length === 0,
+    `These files do not belong: ${JSON.stringify(extraneousFiles, null, 2)}`,
+  );
   console.log(`Validating collections in ${args.dir}`);
   for (const file of files) {
     // Check each file conforms to `Collection` schema
     const collection = await readCollectionFile(file, { format: fileFormat });
     const baseName = path.basename(file, extension);
     assert(
-      collection.slug === baseName,
-      `Filename must match slug(${collection.slug}): ${file}`,
+      collection.name === baseName,
+      `Filename must match name(${collection.name}): ${file}`,
     );
     assert(
       collection.version === currentVersion,
       `Collection version(${collection.version}) must be ${currentVersion}: ${file}`,
     );
     // Make sure that all projects in the collection exist
-    for (const projectSlug of [...collection.projects]) {
-      const projectFile = getProjectPath(projectSlug);
+    for (const projectName of [...collection.projects]) {
+      const projectFile = getProjectPath(projectName);
       await readProjectFile(projectFile, { format: fileFormat });
     }
   }
@@ -50,7 +63,17 @@ export async function validateProjects(args: ValidateArgs) {
   const fileFormat = getFileFormat(args.format);
   const extension = getFileExtension(fileFormat);
   const files = await glob(path.resolve(args.dir, `**/*${extension}`));
-
+  const extraneousFiles = _.difference(
+    await glob(path.resolve(args.dir, `**/*`), {
+      nodir: true,
+      ignore: IGNORE_GLOB,
+    }),
+    files,
+  );
+  assert(
+    extraneousFiles.length === 0,
+    `These files do not belong: ${JSON.stringify(extraneousFiles, null, 2)}`,
+  );
   // Keep track of which keys we've seen to make sure they're unique
   const keyToFilename: Record<string, string[]> = {};
   const addKey = (key: string, val: string) =>
@@ -64,8 +87,8 @@ export async function validateProjects(args: ValidateArgs) {
     const project = await readProjectFile(file, { format: fileFormat });
     const baseName = path.basename(file, extension);
     assert(
-      baseName === project.slug,
-      `Filename must match slug(${project.slug}): ${file}`,
+      baseName === project.name,
+      `Filename must match name(${project.name}): ${file}`,
     );
     assert(
       project.version === currentVersion,

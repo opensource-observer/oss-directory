@@ -1,12 +1,12 @@
-version: 3
-slug: jobstash
-name: JobStash
+version: 5
+name: jobstash
+display_name: JobStash
 github:
   - url: https://github.com/jobstash
 blockchain:
   - address: "0xaa163c47065c22d17ed1c47e3e244337d2056c17"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -15,10 +15,13 @@ blockchain:
     name: duckdegen.eth
   - address: "0xf071e75c56ed5b162b5cb5e9d30d752bcd663f2d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: jobstash.eth
+twitter: jobstash_xyz
+websites:
+  - url: https://jobstash.xyz

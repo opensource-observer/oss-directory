@@ -1,6 +1,6 @@
-version: 3
-slug: snapshot-labs
-name: Snapshot
+version: 5
+name: snapshot-labs
+display_name: Snapshot
 github:
   - url: https://github.com/snapshot-labs
 blockchain:
@@ -14,7 +14,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: SnapshotLabs
+websites:
+  - url: https://snapshot.org
+description: Where decisions get made.

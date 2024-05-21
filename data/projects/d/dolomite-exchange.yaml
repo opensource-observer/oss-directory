@@ -1,24 +1,28 @@
-version: 3
-slug: dolomite-exchange
-name: Dolomite Exchange
+version: 5
+name: dolomite-exchange
+display_name: Dolomite Exchange
 github:
   - url: https://github.com/dolomite-exchange
 blockchain:
   - address: "0x4427040bbbc8084acf86ff409e84a83b3fad9e85"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x531bc6e97b65adf8b3683240bd594932cfb63797"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: VesterImplementation
   - address: "0x6bd780e7fdf01d77e4d475c821f1e7ae05409072"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: DolomiteMargin
+twitter: Dolomite_io
+websites:
+  - url: https://dolomite.io
+description: A next-generation decentralized margin protocol

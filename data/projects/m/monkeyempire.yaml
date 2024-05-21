@@ -1,12 +1,14 @@
-version: 3
-slug: monkeyempire
-name: MonkeyEmpire
+version: 5
+name: monkeyempire
+display_name: MonkeyEmpire
 github:
   - url: https://github.com/monkeyempire
 blockchain:
   - address: "0xcbf4bfffaf71472cb821d8837f63f2976e51ef4a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet
+websites:
+  - url: https://monkeyempire.net

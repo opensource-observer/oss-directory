@@ -1,6 +1,6 @@
-version: 3
-slug: coinpassport
-name: Coinpassport
+version: 5
+name: coinpassport
+display_name: Coinpassport
 github:
   - url: https://github.com/coinpassport
 blockchain:
@@ -16,3 +16,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://coinpassport.net/
+description: Passport verifications for Ethereum dApps

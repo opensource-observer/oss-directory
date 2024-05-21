@@ -1,14 +1,18 @@
-version: 3
-slug: zkbob
-name: zkBob
+version: 5
+name: zkbob
+display_name: zkBob
 github:
   - url: https://github.com/zkBob
 blockchain:
   - address: "0x73dce9348a03975415c6fa5296e71c1abae61407"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - safe
       - wallet
+twitter: zkBob_
+websites:
+  - url: https://zkbob.com/
+description: zkBob is a smart contract wallet with compliance-friendly privacy

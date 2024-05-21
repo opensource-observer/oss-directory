@@ -1,6 +1,6 @@
-version: 3
-slug: openzeppelin
-name: OpenZeppelin
+version: 5
+name: openzeppelin
+display_name: OpenZeppelin
 github:
   - url: https://github.com/openzeppelin/accesscontrol-explorer
   - url: https://github.com/openzeppelin/awesome-openzeppelin
@@ -119,3 +119,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://openzeppelin.com
+description: The standard for secure blockchain applications

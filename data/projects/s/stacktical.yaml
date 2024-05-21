@@ -1,19 +1,19 @@
-version: 3
-slug: stacktical
-name: Stacktical (DSLA Protocol)
+version: 5
+name: stacktical
+display_name: Stacktical (DSLA Protocol)
 github:
   - url: https://github.com/stacktical
 blockchain:
   - address: "0x972614782a893ad3139418ef00e17fe95896a7c6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x38b0cd8bb4c4608e32ee75b25a8846459cead513"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
@@ -21,26 +21,30 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x9db0b1692a56789603baee953635b4ec631a7399"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PeriodRegistry
   - address: "0x837def7a9aa8fc9480d3f5bc1d61af276eeefe73"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SLORegistry
   - address: "0xffc6dc11002a688f7995fb1ca85232c939b0139d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x834b065cf4ac904e4bffd983ec2b2a6c8af8ad7e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: StakeRegistry
+twitter: stacktical
+websites:
+  - url: https://stacktical.com
+description: Pioneers of Decentralized Risk Management since 2018

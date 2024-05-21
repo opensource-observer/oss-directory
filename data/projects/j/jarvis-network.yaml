@@ -1,6 +1,6 @@
-version: 3
-slug: jarvis-network
-name: Jarvis Network
+version: 5
+name: jarvis-network
+display_name: Jarvis Network
 github:
   - url: https://github.com/jarvis-network
 blockchain:
@@ -13,7 +13,7 @@ blockchain:
       - eoa
   - address: "0x0ae6af9c58d2830c2721ebd06f89a73bff19fb26"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -50,7 +50,7 @@ blockchain:
     name: CreditLineFactory
   - address: "0xe76b6e86cedd9f44957fe0e7729e2c6b4e009b13"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory

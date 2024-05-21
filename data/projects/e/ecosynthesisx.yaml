@@ -1,6 +1,6 @@
-version: 3
-slug: ecosynthesisx
-name: EcoSynthesisX
+version: 5
+name: ecosynthesisx
+display_name: EcoSynthesisX
 github:
   - url: https://github.com/ecosynthesisx
 blockchain:
@@ -8,7 +8,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
@@ -16,7 +16,8 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+description: Regenerative public goods 

@@ -1,13 +1,17 @@
-version: 3
-slug: decentri-fi
-name: Decentrifi
+version: 5
+name: decentri-fi
+display_name: Decentrifi
 github:
   - url: https://github.com/decentri-fi
 blockchain:
   - address: "0x715beae184768766c65d8ed4aa6d1f6893efb542"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - eoa
       - wallet
+twitter: decentrifi
+websites:
+  - url: https://decentri.fi
+description: Decentrifi Defi Hub

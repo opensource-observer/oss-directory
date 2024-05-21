@@ -1,6 +1,6 @@
-version: 3
-slug: zkemail
-name: ZK Email
+version: 5
+name: zkemail
+display_name: ZK Email
 github:
   - url: https://github.com/zkemail
 blockchain:
@@ -10,3 +10,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://blog.aayushg.com/posts/zkemail
+description: Proof of Email tooling and application home.

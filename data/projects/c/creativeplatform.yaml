@@ -1,6 +1,6 @@
-version: 3
-slug: creativeplatform
+version: 5
 name: creativeplatform
+display_name: creativeplatform
 github:
   - url: https://github.com/creativeplatform
 blockchain:
@@ -8,7 +8,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: creativecrtv
+websites:
+  - url: https://creativeplatform.xyz
+description: A creative blockchain platform for independent creators, fans, and brands to exchange services directly and earn incentives through DeFi 

@@ -1,12 +1,12 @@
-version: 3
-slug: aperture-finance
-name: Aperture-Finance
+version: 5
+name: aperture-finance
+display_name: Aperture-Finance
 github:
   - url: https://github.com/aperture-finance
 blockchain:
   - address: "0x554282cf65b42fc8fddc6041eb24ce5e8a0632ad"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,14 +14,17 @@ blockchain:
       - eoa
   - address: "0x13b0d85ccb8bf860b6b79af3029fca081ae9bef2"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: Create2Deployer
   - address: "0x00000000ede6d8d217c60f93191c060747324bca"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: UniV3Automan
+twitter: aperturefinance
+websites:
+  - url: https://aperture.finance

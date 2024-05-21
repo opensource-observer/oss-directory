@@ -1,6 +1,6 @@
-version: 3
-slug: lighthouse-web3
-name: Lighthouse Storage
+version: 5
+name: lighthouse-web3
+display_name: Lighthouse Storage
 github:
   - url: https://github.com/lighthouse-web3
 blockchain:
@@ -8,7 +8,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
@@ -18,3 +18,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+twitter: LighthouseWeb3
+websites:
+  - url: http://lighthouse.storage

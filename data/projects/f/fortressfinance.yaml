@@ -1,72 +1,75 @@
-version: 3
-slug: fortressfinance
-name: FortressFinance
+version: 5
+name: fortressfinance
+display_name: FortressFinance
 github:
   - url: https://github.com/fortressfinance
 blockchain:
   - address: "0xe81557e0a10f59b5fa9ce6d3e128b5667d847fbc"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x189b21eda0cff16461913d616a0a4f711cd986cb"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0xb900a00418bbd1a1b7e1b00a960a22ea540918a2"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: FortressLendingPair
   - address: "0xe0ef16f92ddc7f2aa3dadc0fdd3cded262df03d6"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CurveArbiCompounder
   - address: "0xa7c12b4b98e6a38c51b12668773dae855dddecf8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CurveGlpConcentrator
   - address: "0xe16f15266cd00c418fb63e505361de32ce90ac9f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CurveArbiCompounder
   - address: "0x21da5b5718ebce131071ed43d13483dd3c585f04"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: FortressLendingPair
   - address: "0x86ee39b28a7fdea01b53773aee148884db311b46"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GlpCompounder
   - address: "0x32ed4f40ce345eca65f24735ad9d35c7ff3460e5"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CurveArbiCompounder
   - address: "0x4cdee506e9130f8a8947d80dce1abfdf0fa36fb5"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CurveGlpConcentrator
   - address: "0x28c3aba27542e0680cc3706aedebfa40bbf9af1e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: DaoGovernor
+twitter: fortress_fi
+websites:
+  - url: https://fortress.finance

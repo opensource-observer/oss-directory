@@ -1,6 +1,6 @@
-version: 3
-slug: mawena-startup
+version: 5
 name: mawena-startup
+display_name: mawena-startup
 github:
   - url: https://github.com/mawena-startup
 blockchain:
@@ -14,7 +14,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

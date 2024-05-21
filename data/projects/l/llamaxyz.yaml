@@ -1,12 +1,12 @@
-version: 3
-slug: llamaxyz
-name: Llama
+version: 5
+name: llamaxyz
+display_name: Llama
 github:
   - url: https://github.com/llamaxyz/llama
 blockchain:
   - address: "0x50507e28ea5e74c36e1293bb5331bdbaf39645d6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -43,3 +43,5 @@ blockchain:
     tags:
       - contract
     name: LlamaAccount
+websites:
+  - url: https://www.llama.xyz/

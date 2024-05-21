@@ -1,6 +1,6 @@
-version: 3
-slug: stackup
-name: Stackup
+version: 5
+name: stackup
+display_name: Stackup
 github:
   - url: https://github.com/stackup-wallet
 blockchain:
@@ -13,7 +13,7 @@ blockchain:
       - eoa
   - address: "0x433704c40f80cbff02e86fd36bc8bac5e31eb0c1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -39,3 +39,7 @@ blockchain:
     tags:
       - contract
     name: VerifyingPaymaster
+twitter: stackup_fi
+websites:
+  - url: https://stackup.sh/
+description: Accounts infrastructure for web3.

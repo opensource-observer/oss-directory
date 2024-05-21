@@ -1,6 +1,6 @@
-version: 3
-slug: hardhat-nomicfoundation
-name: Hardhat
+version: 5
+name: hardhat-nomicfoundation
+display_name: Hardhat
 github:
   - url: https://github.com/nomicfoundation/hardhat
   - url: https://github.com/NomicFoundation/hardhat-vscode
@@ -20,3 +20,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://nomic.foundation/
+description: We build open source software to unlock developer productivity in the Ethereum ecosystem.

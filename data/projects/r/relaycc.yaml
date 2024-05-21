@@ -1,6 +1,6 @@
-version: 3
-slug: relaycc
+version: 5
 name: relaycc
+display_name: relaycc
 github:
   - url: https://github.com/relaycc
 blockchain:
@@ -8,7 +8,10 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: relay_eth
+websites:
+  - url: https://relay.cc

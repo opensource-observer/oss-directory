@@ -1,6 +1,6 @@
-version: 3
-slug: turbo-eth
-name: TurboETH
+version: 5
+name: turbo-eth
+display_name: TurboETH
 github:
   - url: https://github.com/turbo-eth
 npm:
@@ -27,3 +27,7 @@ blockchain:
       - eoa
       - wallet
     name: kames.eth
+twitter: KamesGeraghty
+websites:
+  - url: https://www.turboeth.xyz
+description: Build Web3 In Turbo Mode

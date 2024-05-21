@@ -1,12 +1,12 @@
-version: 3
-slug: cadcad-org
-name: "cadCAD: Computer Aided Design for Complex Systems"
+version: 5
+name: cadcad-org
+display_name: "cadCAD: Computer Aided Design for Complex Systems"
 github:
   - url: https://github.com/cadCAD-org
 blockchain:
   - address: "0x5041a1c1dcc760337e99b03db60feaf5f6f6c802"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -15,7 +15,7 @@ blockchain:
       - wallet
   - address: "0x596c7b6b7bc5331ecb682523e342a2340c074602"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
@@ -25,3 +25,7 @@ blockchain:
     tags:
       - safe
       - wallet
+twitter: cadcad_org
+websites:
+  - url: https://cadcad.org
+description: Design Framework for Generalized Dynamical Systems with a focus on Computer Aided Design and Digital Twins for Systems Incorporating Algorithmic Policy

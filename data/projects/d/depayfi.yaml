@@ -1,14 +1,18 @@
-version: 3
-slug: depayfi
-name: DePay
+version: 5
+name: depayfi
+display_name: DePay
 github:
   - url: https://github.com/DePayFi
 blockchain:
   - address: "0x4e260bb2b25ec6f3a59b478fcde5ed5b8d783b02"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
+twitter: DePay
+websites:
+  - url: https://depay.com
+description: Payments platform for blockchains. Use DePay's software, infrastructure and APIs to manage payments on blockchains.

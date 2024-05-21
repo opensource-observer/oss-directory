@@ -1,12 +1,12 @@
-version: 3
-slug: sprintcheckout
-name: Sprintcheckout
+version: 5
+name: sprintcheckout
+display_name: Sprintcheckout
 github:
   - url: https://github.com/sprintcheckout
 blockchain:
   - address: "0x986dd13ccab3b637032ebedd30ef8a7fea4d6184"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

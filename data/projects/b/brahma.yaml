@@ -1,12 +1,12 @@
-version: 3
-slug: brahma
-name: Brahma
+version: 5
+name: brahma
+display_name: Brahma
 github:
   - url: https://github.com/Brahma-fi
 blockchain:
   - address: "0xae75b29ade678372d77a8b41225654138a7e6ff1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -162,7 +162,7 @@ blockchain:
     name: unverified
   - address: "0xfbfdb1e0728f7f7631a27c19b40d5b0fbd21ab18"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -227,3 +227,7 @@ blockchain:
     tags:
       - contract
     name: Recover
+twitter: brahmafi
+websites:
+  - url: https://www.brahma.fi/
+description: The complete on-chain execution and  custody environment

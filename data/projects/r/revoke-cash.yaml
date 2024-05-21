@@ -1,6 +1,6 @@
-version: 3
-slug: revoke-cash
-name: Revoke
+version: 5
+name: revoke-cash
+display_name: Revoke
 github:
   - url: https://github.com/RevokeCash
 blockchain:
@@ -19,3 +19,6 @@ blockchain:
       - eoa
       - wallet
     name: revoke.kalis.eth
+twitter: RevokeCash
+websites:
+  - url: https://revoke.cash

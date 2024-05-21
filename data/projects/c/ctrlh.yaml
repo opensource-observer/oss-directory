@@ -1,6 +1,6 @@
-version: 3
-slug: ctrlh
+version: 5
 name: ctrlh
+display_name: ctrlh
 github:
   - url: https://github.com/ctrlh
 blockchain:
@@ -8,7 +8,10 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://pdxhackerspace.org/
+description: A 501(c)(3) non-profit educational community space

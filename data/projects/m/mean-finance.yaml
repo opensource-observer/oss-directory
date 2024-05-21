@@ -1,12 +1,12 @@
-version: 3
-slug: mean-finance
-name: Mean Finance
+version: 5
+name: mean-finance
+display_name: Mean Finance
 github:
   - url: https://github.com/mean-finance
 blockchain:
   - address: "0x5856d478832ff3a68c122388623c4ee027d0e65a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0xa71405f7d11734f03f2616b93eaed22604c978bf"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -22,7 +22,7 @@ blockchain:
       - eoa
   - address: "0xe48a5173ade669651120cb5e99e6fe140d4d73da"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -30,7 +30,7 @@ blockchain:
       - eoa
   - address: "0x0000000000933edea24f198114758e45bf9b9f14"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -59,7 +59,7 @@ blockchain:
     name: unverified
   - address: "0xd4c187cd5839bd4b0a2f0d33b199a4ec67d9c67c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -151,7 +151,7 @@ blockchain:
     name: unverified
   - address: "0xbb681d77506df5ca21d2214ab3923b4c056aa3e2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -244,7 +244,7 @@ blockchain:
     name: unverified
   - address: "0xd420ea5a1981db5f1914954ce6e012a3bb10c015"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -309,7 +309,7 @@ blockchain:
     name: unverified
   - address: "0xf6c6dbe19048d9408a2370db42853541db5ee76e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -359,7 +359,7 @@ blockchain:
     name: unverified
   - address: "0x6197032eddb984c36c5f9c8b705395d048cb1bd2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -367,7 +367,7 @@ blockchain:
     name: unverified
   - address: "0x8d2e6971cd20052794fb54e18da69ff4ee5251e6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -403,7 +403,7 @@ blockchain:
     name: unverified
   - address: "0x4db35376875dca2f14ec340da6349a7c0e3542d1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -573,7 +573,7 @@ blockchain:
     name: CompoundERC4626Factory
   - address: "0x2dfb2c5c013826a0728440d8036305b254ad9cce"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -600,31 +600,31 @@ blockchain:
     name: DeterministicFactory
   - address: "0x3fa18d0cbaf4c9d5078e758b3deade077ca525cb"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ThirdPartyDCAHubSwapper
   - address: "0x5ef74c1686455ca1b51893f5381847aa229e87a5"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ThirdPartyDCAHubSwapper
   - address: "0x059d306a25c4ce8d7437d25743a8b94520536bd5"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: DCAHub
   - address: "0xa5adc5484f9997fbf7d405b9aa62a7d88883c345"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: DCAHub
   - address: "0xc24bc8b030628b22522c5450869ee421f8c77be3"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CallerOnlyDCAHubSwapper
@@ -634,3 +634,6 @@ blockchain:
     tags:
       - safe
       - wallet
+twitter: mean_fi
+websites:
+  - url: https://mean.finance

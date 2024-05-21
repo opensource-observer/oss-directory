@@ -1,12 +1,12 @@
-version: 3
-slug: mummy-finance
-name: Mummy Finance
+version: 5
+name: mummy-finance
+display_name: Mummy Finance
 github:
   - url: https://github.com/mummy-finance
 blockchain:
   - address: "0x30b12942912cee5a719edec2dd147224fcc373a0"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - deployer
@@ -14,7 +14,7 @@ blockchain:
     name: mmyvote.eth
   - address: "0xb471865c97a271e1572ecca838b971e710498e4c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -22,7 +22,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x3c05ad1ba92906db8b9f3db03c4c4d5119ce4110"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -42,7 +42,7 @@ blockchain:
     name: unverified
   - address: "0xb54abe3fec8e1ae64620185a1e111aa0c3a81542"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -61,35 +61,35 @@ blockchain:
     name: EsGMX
   - address: "0xc5129208cb1dc2b3c916011c9d94632e602b9811"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x198634d01a8e1646fae8676904343c33b1d2c6b9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x8ad880a11172235c6800ae882cd699ffe0172fba"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x676d9fd3908112dca14b89503d6d95bf25d85831"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x766257b7ce3a5e3ad5876200ab1671d31289bc75"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -102,7 +102,7 @@ blockchain:
     name: VaultPriceFeed
   - address: "0xcebc8a8b66de9b3f4393966eab86fc9de26b2529"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -115,7 +115,7 @@ blockchain:
     name: EsGMX
   - address: "0x4c4d81aa29fbb7fe90172ad70a72f00fb1ee46c6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -128,35 +128,35 @@ blockchain:
     name: MummyClubProxyONFT
   - address: "0xf75d3c6f20fb65cc0b8f84687e5cbac3d7f4221e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x41cd8cafc24a771031b9eb9c57cfc94d86045eb6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xa48996d94322f740dcc5b182827cc66a9faae9da"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x8cbc45d772d2f127693abb8942d46fadef198b4a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x04f23404553fcc388ec73110a0206dd2e76a6d95"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -169,21 +169,21 @@ blockchain:
     name: unverified
   - address: "0xa6d7d0e650aa40ffa42d845a354c12c2bc0ab15f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2d270f66fee6ac9e27ff6551af5a8cfb5c8a7493"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x01e9b35785ef3f7ef2677c371442976bd550f320"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -208,14 +208,14 @@ blockchain:
     name: USDG
   - address: "0xc2c5968e16ec9fabc39e27f9abfc07c8cfba6f16"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xb280d03909cc18640621955cb3bc30948df2fa9a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -234,28 +234,28 @@ blockchain:
     name: MigrateVester
   - address: "0x064b59619727b5e712155eb27504e9c9a62dec27"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xc592b3add24ea30c030978e5e7f5d02e123b4263"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x727db8fa7861340d49d13ea78321d0c9a1a79cd5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xc504cb49bcadfc8fd56f1de5674ba216aeafef01"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -292,56 +292,56 @@ blockchain:
     name: FastPriceFeed
   - address: "0x65dcb38637b526305be55f14b24a4ab2bd177780"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2aef1bc2f13118009df8663705f736f77efafd5c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xfdc9b5be032216315bbe8c06b1c4f563d1689b85"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x08dfcfb0bd6e7eaf828f60021c77d273de56b1c5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x96a0f50db7b08bdaf2d7af3842f007a21e427126"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x304951d7172bcada54ccac1e4674862b3d5b3d5b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xffb69477fee0daeb64e7de89b57846afa990e99c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x28cfd8e1e83bec8ee879d21634e7dc3d93102ced"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -354,7 +354,7 @@ blockchain:
     name: unverified
   - address: "0x52cc60893d3bd8508baab835620cbf9ddfa0a13c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -367,14 +367,14 @@ blockchain:
     name: Vester
   - address: "0x68d1ca32aee9a73534429d8376743bf222ff1870"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x7b26207457a9f8ff4fd21a7a0434066935f1d8e7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -387,14 +387,14 @@ blockchain:
     name: MMYMigration
   - address: "0x7b9e962dd8aed0db9a1d8a2d7a962ad8b871ce4f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xad96d9736484e35985773bdf7dba5750dc830042"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -407,7 +407,7 @@ blockchain:
     name: unverified
   - address: "0xd94452957bc47bc59985013bc087ad5a55f251ac"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -426,28 +426,28 @@ blockchain:
     name: unverified
   - address: "0x9032aed8c1f2139e04c1ad6d9f75bdf1d6e5cf5c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xe149164d8eca659e8912dbdec35e3f7e71fb5789"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2a3e489f713ab6f652af930555b5bb3422711ac1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xa0207802b0953b17421bf9cb10b3acf5823496ab"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -466,7 +466,7 @@ blockchain:
     name: FeeController
   - address: "0x702488750a4efda4f18912291fd4e65e51135df8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -479,7 +479,7 @@ blockchain:
     name: GLP
   - address: "0xa1a65d3639a1efbfb18c82003330a4b1fb620c5a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -492,21 +492,21 @@ blockchain:
     name: unverified
   - address: "0x3b2732c1e5a248bbdd0315e9e8845c64f5a6faf5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xb2a477c6ba5e96f6decbced836cb7d3d32ef9ecd"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xa30b1c3c8ede3841de05f9cdd4d0e097ac4c6d92"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -527,7 +527,7 @@ blockchain:
   - address: "0x0393856410e8f78553479c6d39527adbaaebc51c"
     networks:
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

@@ -1,5 +1,9 @@
-version: 3
-slug: wasmedge
-name: WasmEdge-based FVM
+version: 5
+name: wasmedge
+display_name: WasmEdge-based FVM
 github:
   - url: https://github.com/wasmedge
+twitter: realwasmedge
+websites:
+  - url: https://wasmedge.org/
+description: A cloud native WebAssembly runtime. A secure, lightweight, portable and high-performance alternative to Linux containers.

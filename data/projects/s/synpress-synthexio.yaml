@@ -1,6 +1,6 @@
-version: 3
-slug: synpress-synthexio
-name: Synpress
+version: 5
+name: synpress-synthexio
+display_name: Synpress
 github:
   - url: https://github.com/Synthetixio/synpress
 npm:
@@ -14,3 +14,6 @@ blockchain:
       - eoa
       - wallet
     name: synpress.eth
+websites:
+  - url: https://synthetix.io
+description: Crypto backed synthetic asset platform

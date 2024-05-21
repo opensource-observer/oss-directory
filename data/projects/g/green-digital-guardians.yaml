@@ -1,6 +1,6 @@
-version: 3
-slug: green-digital-guardians
-name: Green Digital Guardians
+version: 5
+name: green-digital-guardians
+display_name: Green Digital Guardians
 github:
   - url: https://github.com/Green-Digital-Guardians
 blockchain:
@@ -12,9 +12,13 @@ blockchain:
       - wallet
   - address: "0xdd8422da958d7b9773b033717eccce0fbb26ce01"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
+twitter: dg_guardians
+websites:
+  - url: https://www.dgguuardians.com
+description: We have to protect the Green Arks of the Planet

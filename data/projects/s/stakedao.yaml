@@ -1,12 +1,12 @@
-version: 3
-slug: stakedao
-name: Stake DAO
+version: 5
+name: stakedao
+display_name: Stake DAO
 github:
   - url: https://github.com/stakedao
 blockchain:
   - address: "0xb36a0671b3d49587236d7833b01e79798175875f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0xe9b3c292904114e6e6f04a363ae4c0f800f3236d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -22,27 +22,30 @@ blockchain:
       - eoa
   - address: "0xb17640796e4c27a39af51887aff3f8dc0daf9567"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: CurveVaultFactoryXChain
   - address: "0xe490a4517f1e8a1551ecb03af5eb116c6bbd450b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: AdminUpgradeabilityProxy
   - address: "0xb76c16d77b8c7d08477db4141055ffda3f93bca4"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Stakedao
   - address: "0x26acff2adc9104fe1c26c958dc4c9a5180840c35"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
+websites:
+  - url: https://stakedao.org/
+description: https://stakedao.org/

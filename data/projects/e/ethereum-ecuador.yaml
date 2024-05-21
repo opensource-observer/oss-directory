@@ -1,12 +1,12 @@
-version: 3
-slug: ethereum-ecuador
-name: Ethereum Ecuador
+version: 5
+name: ethereum-ecuador
+display_name: Ethereum Ecuador
 github:
   - url: https://github.com/ethereum-ecuador
 blockchain:
   - address: "0x9ffa790731d0406b553f6fbd418a4580ec3e0269"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

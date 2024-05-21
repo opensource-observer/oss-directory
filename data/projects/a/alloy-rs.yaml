@@ -1,6 +1,6 @@
-version: 3
-slug: alloy-rs
-name: Alloy
+version: 5
+name: alloy-rs
+display_name: Alloy
 github:
   - url: https://github.com/alloy-rs
 blockchain:
@@ -10,3 +10,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://www.paradigm.xyz/oss/alloy
+description: Alloy implements high-performance, well-tested & documented libraries for interacting with Ethereum and other EVM-based chains.

@@ -1,12 +1,12 @@
-version: 3
-slug: bitkeep
-name: Bitkeep
+version: 5
+name: bitkeep
+display_name: Bitkeep
 github:
   - url: https://github.com/bitkeepwallet
 blockchain:
   - address: "0x5defa9c83085c7f606ceb3b5f75fc107945ed7de"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0xc522c16e88b6bf457389566d22550bce157d3875"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -29,7 +29,7 @@ blockchain:
     name: ConduitController
   - address: "0x4d176ac0caaa85fc2fd0594573e06458c62a1465"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -44,7 +44,11 @@ blockchain:
     name: unverified
   - address: "0x9afd2948f573dd8684347924ebce1847d50621ed"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BKRegistry
+twitter: BitgetWallet
+websites:
+  - url: https://web3.bitget.com/en
+description: Bitget Wallet is a leading multi-chain decentralized wallet that is committed to providing a wide range of asset management and DeFi services for its users.

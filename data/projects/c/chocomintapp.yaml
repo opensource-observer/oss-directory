@@ -1,6 +1,6 @@
-version: 3
-slug: chocomintapp
+version: 5
 name: chocomintapp
+display_name: chocomintapp
 github:
   - url: https://github.com/chocomintapp
 blockchain:
@@ -8,7 +8,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: chocomintapp
+websites:
+  - url: https://chocomint.app
+description: Let's make nft!

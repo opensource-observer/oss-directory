@@ -1,12 +1,12 @@
-version: 3
-slug: f3-buidlers
-name: F3 Buidlers
+version: 5
+name: f3-buidlers
+display_name: F3 Buidlers
 github:
   - url: https://github.com/F3-Buidlers
 blockchain:
   - address: "0x479cba5a5c91fff90a696e448474bc396049d696"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -19,3 +19,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://github.com/F3-Buidlers
+description: F3 Builders is a Web3 consulting and freelance firm. We've developed 14+ Web3 projects and won 6x hackathons. Our customized solutions help clients leverage dec

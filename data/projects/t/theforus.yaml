@@ -1,14 +1,16 @@
-version: 3
-slug: theforus
-name: The Forus
+version: 5
+name: theforus
+display_name: The Forus
 github:
   - url: https://github.com/TheForus
 blockchain:
   - address: "0x0daa1d7ec140f26fb1f8de77b355b72fbadf7f84"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
+twitter: The_Forus
+description: Receive funds secretly in stealth address without revealing identity

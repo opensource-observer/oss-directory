@@ -1,6 +1,6 @@
-version: 3
-slug: geo-web
-name: Geo Web
+version: 5
+name: geo-web
+display_name: Geo Web
 github:
   - url: https://github.com/geo-web-project
 blockchain:
@@ -121,7 +121,7 @@ blockchain:
       - wallet
   - address: "0xde798cd9c53f4806b9cc7dd27adf7c641540167c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -140,3 +140,7 @@ blockchain:
     tags:
       - safe
       - wallet
+twitter: thegeoweb
+websites:
+  - url: https://geoweb.network/
+description: Augmented shared reality. Radical markets and governance for the spatial computing era.

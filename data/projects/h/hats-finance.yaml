@@ -1,12 +1,12 @@
-version: 3
-slug: hats-finance
+version: 5
 name: hats-finance
+display_name: hats-finance
 github:
   - url: https://github.com/hats-finance
 blockchain:
   - address: "0x1885b7c7a3ae1f35ba71c0392c13153a95c4914f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0xa80d0a371f4d37afcc55188233bb4ad463af9e48"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract

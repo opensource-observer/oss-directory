@@ -1,12 +1,12 @@
-version: 3
-slug: snipermonke-projects
+version: 5
 name: snipermonke-projects
+display_name: snipermonke-projects
 github:
   - url: https://github.com/snipermonke-projects
 blockchain:
   - address: "0x9a6de84bf23ed9ba92bdb8027037975ef181b1c4"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet

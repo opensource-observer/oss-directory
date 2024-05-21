@@ -1,6 +1,6 @@
-version: 3
-slug: carmineoptions
-name: Carmine Options AMM
+version: 5
+name: carmineoptions
+display_name: Carmine Options AMM
 github:
   - url: https://github.com/CarmineOptions
 blockchain:
@@ -12,3 +12,5 @@ blockchain:
       - eoa
       - wallet
     name: carminefinance.eth
+websites:
+  - url: https://carmine.finance

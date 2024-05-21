@@ -1,6 +1,6 @@
-version: 3
-slug: 1w3
-name: 1W3
+version: 5
+name: 1w3
+display_name: 1W3
 github:
   - url: https://github.com/1w3io
 blockchain:
@@ -12,10 +12,13 @@ blockchain:
     name: DropERC1155
   - address: "0x2ac6a3561a43f06d62602ef9728c2b9eec393326"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: 1w3.eth
+twitter: 1w3io
+websites:
+  - url: https://1W3.io

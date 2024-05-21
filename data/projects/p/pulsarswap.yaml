@@ -1,15 +1,19 @@
-version: 3
-slug: pulsarswap
-name: Pulsar Protocol
+version: 5
+name: pulsarswap
+display_name: Pulsar Protocol
 github:
   - url: https://github.com/PulsarSwap
 blockchain:
   - address: "0x63c3742f92b6144876dc9a36ac373d0346f4f2e3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: 0xshowen.eth
+twitter: PulsarSwap
+websites:
+  - url: https://pulsarswap.com
+description: Swap and long-term invest crypto on TWAMM protocol

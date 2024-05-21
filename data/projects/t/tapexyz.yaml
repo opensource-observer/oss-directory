@@ -1,6 +1,6 @@
-version: 3
-slug: tapexyz
+version: 5
 name: tapexyz
+display_name: tapexyz
 github:
   - url: https://github.com/tapexyz
   - url: https://github.com/lenstube-xyz
@@ -9,8 +9,12 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
     name: sasi.eth
+twitter: tapeexyz
+websites:
+  - url: https://tape.xyz
+description: Talk, Amplify, Post, Explore.

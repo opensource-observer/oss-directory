@@ -1,15 +1,18 @@
-version: 3
-slug: crossbell-box
-name: Crossbell
+version: 5
+name: crossbell-box
+display_name: Crossbell
 github:
   - url: https://github.com/Crossbell-Box
 blockchain:
   - address: "0xc8b960d09c0078c18dcbe7eb9ab9d816bcca8944"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: diygod.eth
+twitter: _Crossbell
+websites:
+  - url: https://crossbell.io/

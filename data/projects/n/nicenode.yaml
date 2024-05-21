@@ -1,15 +1,18 @@
-version: 3
-slug: nicenode
-name: NiceNode
+version: 5
+name: nicenode
+display_name: NiceNode
 github:
   - url: https://github.com/NiceNode
 blockchain:
   - address: "0x9cce47e9cf12c6147c9844adbb81fe85880c4df4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: nicenode.eth
+websites:
+  - url: https://nicenode.xyz
+description: Run a node at home, the easy way

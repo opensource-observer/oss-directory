@@ -1,6 +1,6 @@
-version: 3
-slug: alto-io
-name: OP Games
+version: 5
+name: alto-io
+display_name: OP Games
 github:
   - url: https://github.com/alto-io
 blockchain:
@@ -8,7 +8,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: OPGames_
+websites:
+  - url: https://opgames.org
+description: Where game developers come to build the future of Web 3 gaming one block at a time

@@ -1,14 +1,17 @@
-version: 3
-slug: thunder-chat-app
-name: Thunder Chat
+version: 5
+name: thunder-chat-app
+display_name: Thunder Chat
 github:
   - url: https://github.com/thunderchatapp
 blockchain:
   - address: "0x8d92dc3a19bf44343b42f76ac91ed26ff69a2029"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
+twitter: thunderchatapp
+websites:
+  - url: https://thunder.im

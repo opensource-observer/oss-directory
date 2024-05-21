@@ -1,6 +1,6 @@
-version: 3
-slug: nimbus-status-im
-name: Nimbus
+version: 5
+name: nimbus-status-im
+display_name: Nimbus
 github:
   - url: https://github.com/status-im/nimbus-eth2
   - url: https://github.com/status-im/nimbus-eth1
@@ -11,3 +11,6 @@ blockchain:
     tags:
       - safe
       - wallet
+websites:
+  - url: https://status.app
+description: The open source, decentralised crypto communication super app.  Communities, Messenger, Wallet, Browser.

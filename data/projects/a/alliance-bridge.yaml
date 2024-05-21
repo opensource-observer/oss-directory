@@ -1,12 +1,12 @@
-version: 3
-slug: alliance-bridge
-name: AllianceBridge
+version: 5
+name: alliance-bridge
+display_name: AllianceBridge
 github:
   - url: https://github.com/allbridge-io
 blockchain:
   - address: "0xc602aaf1b61fdf7834c4138cd96400738d298807"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x3a1c5dd9735d39e961205ac57f95c1b5b1bb9626"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -22,7 +22,7 @@ blockchain:
     name: unverified
   - address: "0x7db0dc65dfd8cd6aa5100418dd7da38aac786123"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -30,7 +30,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4a0c2d99d2b8028f0d8facde9ac0e631614f4293"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -38,28 +38,28 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x8e442e46d7f009cac7c1ee82d6453353ae7a463c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x74f3acbee8e6a2a5e1f20b57b18989fc5a63c04b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0xaab714bc8721789db092ad406517b394503733e4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x0468531e2b17f03639dc5dac5eb9c534e576565c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -67,14 +67,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa5262d39bad2c7194dfe489fdb4074e2b5eea307"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x1f4c8223ffa6e4940527953d1646cd89503ba191"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

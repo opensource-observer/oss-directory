@@ -1,15 +1,18 @@
-version: 3
-slug: coin-cashew
-name: Ethereum Staking Guides by CoinCashew
+version: 5
+name: coin-cashew
+display_name: Ethereum Staking Guides by CoinCashew
 github:
   - url: https://github.com/coincashew
 blockchain:
   - address: "0xcf83d0c22dd54475cc0c52721b0ef07d9756e8c0"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: coincashew.eth
+twitter: coincashew_
+websites:
+  - url: https://coincashew.com

@@ -1,6 +1,6 @@
-version: 3
-slug: ethdominicana
-name: Ethereum Dominicana
+version: 5
+name: ethdominicana
+display_name: Ethereum Dominicana
 github:
   - url: https://github.com/ethdominicana
 blockchain:
@@ -13,7 +13,7 @@ blockchain:
   - address: "0xa9ac44f20dd34b183062f83788c44b6b060a7e3d"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet
@@ -21,7 +21,9 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://linktr.ee/ethdominicana

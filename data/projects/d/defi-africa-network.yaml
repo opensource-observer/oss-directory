@@ -1,12 +1,12 @@
-version: 3
-slug: defi-africa-network
-name: DeFi Africa
+version: 5
+name: defi-africa-network
+display_name: DeFi Africa
 github:
   - url: https://github.com/DeFi-Africa-Network
 blockchain:
   - address: "0xd952010bafcadb7a2052ee697c883a0565a8c01e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -18,3 +18,6 @@ blockchain:
     tags:
       - safe
       - wallet
+twitter: defiafrica
+websites:
+  - url: https://www.defiafrica.net

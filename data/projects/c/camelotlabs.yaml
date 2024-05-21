@@ -1,147 +1,150 @@
-version: 3
-slug: camelotlabs
-name: Camelot
+version: 5
+name: camelotlabs
+display_name: Camelot
 github:
   - url: https://github.com/camelotlabs
 blockchain:
   - address: "0x01bb7b44cc398aaa2b76ac6253f0f5634279db9d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x6c0db7c063dd28bbf6c4bad43a21169f4565bc41"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x6eccab422d763ac031210895c81787e87b43a652"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: CamelotFactory
   - address: "0xe0a6b372ac6af4b37c7f3a989fe5d5b194c24569"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: NitroPoolFactory
   - address: "0x6db1ef0df42e30acf139a70c1ed0b7e6c51dbf6d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: NFTPoolFactory
   - address: "0x436e36f4dee9ac06c68f93f6d510d210f0e709be"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: NitroPool
   - address: "0x2eb79edc1533d39d0f7ab3983650eb76ce36ffe1"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: FairAuction
   - address: "0xe458018ad4283c90fb7f5460e24c4016f81b8175"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PositionHelper
   - address: "0x55401a4f396b3655f66bf6948a1a4dc61dfc21f4"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CamelotMaster
   - address: "0x3caae25ee616f2c8e13c74da0813402eae3f496b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: XGrailToken
   - address: "0x5422aa06a38fd9875fc2501380b40659feebd3bb"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: DividendsV2
   - address: "0x6a63830e24f9a2f9c295fb2150107d0390ed1448"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ProtocolEarnings
   - address: "0xd27c373950e7466c53e5cd6ee3f70b240dc0b1b1"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: YieldBooster
   - address: "0x594fb2ec5c7adf3cb68db1e90ace58e643c118a5"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Launchpad
   - address: "0x3d9907f9a368ad0a51be60f7da3b97cf940982d8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GrailTokenV2
   - address: "0xc873fecbd354f5a56e00e710b90ef4201db2448d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CamelotRouter
   - address: "0x42d74789c4290d0aa2824a305de0e2d4a618a5c3"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: DataStorageOperator
   - address: "0x00c7f3082833e796a5b3e4bd59f6642ff44dcd15"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: NonfungiblePositionManager
   - address: "0x1f721e2e82f6676fce4ea07a5958cf098d339e18"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SwapRouter
   - address: "0x0ca4fc142e3b0a26f34b52faa1a022fc70f6c20b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: FairAuction
   - address: "0x279427df97b34da65d96e92efdd2b961085356af"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: RvlPNP
   - address: "0xb09a7414445217666ddce5f652c18c6524f6c88d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: FairAuction
   - address: "0x81E3a6f46715855B439F93e4023eD86bED619cf8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CamelotYakRouter
+twitter: camelotdex
+websites:
+  - url: https://app.camelot.exchange

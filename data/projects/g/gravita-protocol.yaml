@@ -1,12 +1,12 @@
-version: 3
-slug: gravita-protocol
-name: Gravita Protocol
+version: 5
+name: gravita-protocol
+display_name: Gravita Protocol
 github:
   - url: https://github.com/gravita-protocol
 blockchain:
   - address: "0xfc8d2f6d1937cd4ccaad5c26fbb42a3dfc9dac85"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x89f1eccf2644902344db02788a790551bb070351"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -22,7 +22,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xdb5dacb1dfbe16326c3656a88017f0cb4ece0977"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -30,7 +30,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xc49b737fa56f9142974a54f6c66055468ec631d0"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -38,7 +38,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4928c8f8c20a1e3c295dddbe05095a9abbdb3d14"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -46,14 +46,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xf0e0915d233c616cb727e0b2ca29ff0cbd51b66a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x84446698694b348eaece187b55df06ab4ce72b35"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -61,14 +61,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x6adaa3eba85c77e8566b73aefb4c2f39df4046ca"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x894134a25a5fac1c2c26f1d8fbf05111a3cb9487"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -76,7 +76,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xf31d88232f36098096d1eb69f0de48b53a1d18ce"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -84,7 +84,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x0a3137e103a8f268fa065f6d5922ed6173b7bdfa"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -92,7 +92,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x15f74458ae0bfdaa1a96ca1aa779d715cc1eefe4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -100,7 +100,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x9d8bb5496332cbeed59f1211f28db8b5eb214b6d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -108,7 +108,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4f39f12064d83f6dd7a2bdb0d53af8be560356a6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -116,9 +116,13 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x09dfdf392a56e4316e97a13e20b09c415fcd3d7b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
+twitter: gravitaprotocol
+websites:
+  - url: https://gravitaprotocol.com
+description: Defi Lending Protocol

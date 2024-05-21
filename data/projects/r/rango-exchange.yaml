@@ -1,12 +1,12 @@
-version: 3
-slug: rango-exchange
-name: Rango Exchange
+version: 5
+name: rango-exchange
+display_name: Rango Exchange
 github:
   - url: https://github.com/rango-exchange
 blockchain:
   - address: "0x7e8a8b130272430008eca062419acd8b423d339d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -20,7 +20,7 @@ blockchain:
     name: RangoCBridge
   - address: "0x75c9d9a49c62a31e307794d5b9959daac22aab0b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -40,14 +40,14 @@ blockchain:
     name: RangoV1
   - address: "0xe48f23956bd88f68399a72f996364d9b50bbdd18"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0xe569d45803c76a6651f466f6b16da4c8705d4257"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -79,7 +79,7 @@ blockchain:
     name: RangoMultichain
   - address: "0xc4300be7878f42b39bdfb6a57d0f88eb87b842c3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -92,7 +92,7 @@ blockchain:
     name: unverified
   - address: "0x0e3eb2eab0e524b69c79e24910f4318db46baa9c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -106,9 +106,13 @@ blockchain:
     name: unverified
   - address: "0x6e47adf8a0bb4e3f4252f87beefc373752869b17"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - contract
     name: ProxyAdmin
+twitter: RangoExchange
+websites:
+  - url: https://rango.exchange/
+description: Cross-Chain DEX/Bridge Aggregator, +50 Supported Blockchains (EVM, Cosmos, Solana, Tron, ...)

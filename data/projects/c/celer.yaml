@@ -1,12 +1,12 @@
-version: 3
-slug: celer
-name: Celer
+version: 5
+name: celer
+display_name: Celer
 github:
   - url: https://github.com/celer-network
 blockchain:
   - address: "0x1b9dfc56e38b0f92448659c114e2347bd803911c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x00778c4222c7d837cbfe4c1539ad10c127ec1c1f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -35,7 +35,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x6de33698e9e9b787e09d3bd7771ef63557e148bb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -85,7 +85,7 @@ blockchain:
     name: WithdrawInbox
   - address: "0x1619de6b6b20ed217a58d00f37b9d47c7663feca"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -98,7 +98,7 @@ blockchain:
     name: MintSwapCanonicalToken
   - address: "0x3b53d2c7b44d40be05fa5e2309ffeb6eb2492d88"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -184,25 +184,25 @@ blockchain:
     name: OptimizedTransparentUpgradeableProxy
   - address: "0xfe31bfc4f7c9b69246a6dc0087d91a91cb040f76"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OriginalTokenVault
   - address: "0xea4b1b0aa3c110c55f650d28159ce4ad43a4a58b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OriginalTokenVaultV2
   - address: "0xbdd2739ae69a054895be33a22b2d2ed71a1de778"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PeggedTokenBridge
   - address: "0xdd90e5e87a2081dcf0391920868ebc2ffb81a1af"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: cBridge_V2
@@ -213,3 +213,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://www.celer.network
+description: Bring Internet Scale to Every Blockchain

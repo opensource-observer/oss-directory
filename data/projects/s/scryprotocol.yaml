@@ -1,6 +1,6 @@
-version: 3
-slug: scryprotocol
-name: Scry Protocol
+version: 5
+name: scryprotocol
+display_name: Scry Protocol
 github:
   - url: https://github.com/ScryProtocol
 blockchain:
@@ -12,7 +12,7 @@ blockchain:
     name: NostradamusSS
   - address: "0x9d31e30003f253563ff108bc60b16fdf2c93abb5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

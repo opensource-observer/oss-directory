@@ -1,13 +1,15 @@
-version: 3
-slug: examp-llc
-name: Examp-LLC
+version: 5
+name: examp-llc
+display_name: Examp-LLC
 github:
   - url: https://github.com/examp-llc
 blockchain:
   - address: "0x0d538d6253eb5cebaef94a873a7d3df22d6f936c"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://examp.com

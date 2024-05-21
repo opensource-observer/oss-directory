@@ -1,6 +1,6 @@
-version: 3
-slug: onchain-reads-matallo
-name: Onchain Reads
+version: 5
+name: onchain-reads-matallo
+display_name: Onchain Reads
 github:
   - url: https://github.com/matallo/onchain-reads
 blockchain:
@@ -11,3 +11,6 @@ blockchain:
       - eoa
       - wallet
     name: matallo.eth
+websites:
+  - url: https://matall.in/
+description: Explorer. Code, design, and mountains. Building @Shopify

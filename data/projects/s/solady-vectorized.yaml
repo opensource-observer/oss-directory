@@ -1,6 +1,6 @@
-version: 3
-slug: solady-vectorized
-name: Solady
+version: 5
+name: solady-vectorized
+display_name: Solady
 github:
   - url: https://github.com/Vectorized/solady
 npm:
@@ -8,7 +8,7 @@ npm:
 blockchain:
   - address: "0x1f5d295778796a8b9f29600a585ab73d452acb1c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -18,7 +18,7 @@ blockchain:
     name: vectorized.eth
   - address: "0x0000000000006396ff2a80c067f99b3d2ab4df24"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -26,8 +26,10 @@ blockchain:
     name: ERC1967Factory
   - address: "0xfa92a368d5e6d12e31acdfc7a226e4110e699012"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
+twitter: optimizoor
+description: Let's accelerate the code.

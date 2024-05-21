@@ -1,6 +1,6 @@
-version: 3
-slug: cryptosmartnow
-name: CryptoSmartNow
+version: 5
+name: cryptosmartnow
+display_name: CryptoSmartNow
 github:
   - url: https://github.com/cryptosmartnow
 blockchain:
@@ -8,7 +8,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

@@ -1,12 +1,12 @@
-version: 3
-slug: interest-protocol
-name: Interest Protocol
+version: 5
+name: interest-protocol
+display_name: Interest Protocol
 github:
   - url: https://github.com/interest-protocol
 blockchain:
   - address: "0x085909388fc0ce9e5761ac8608af8f2f52cb8b89"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -80,7 +80,7 @@ blockchain:
     name: AnchoredViewRelay
   - address: "0x48fa7528bfd6164ddf09df0ed22451cf59c84130"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -100,7 +100,7 @@ blockchain:
     name: CappedNonStandardToken
   - address: "0x2db08783f13c4225a1963b2437f0d459a5bcb4d8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -318,3 +318,7 @@ blockchain:
     tags:
       - safe
       - wallet
+twitter: ipxsui
+websites:
+  - url: https://www.interestprotocol.com/
+description: DeFi Infrastructure

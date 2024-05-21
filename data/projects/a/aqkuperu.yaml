@@ -1,14 +1,17 @@
-version: 3
-slug: aqkuperu
-name: AQKU
+version: 5
+name: aqkuperu
+display_name: AQKU
 github:
   - url: https://github.com/aqkuperu
 blockchain:
   - address: "0xa726e53bb8ef579707ef27230a35ff00ebe54b9a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://www.aqku.pe
+description: Somos una organización que desarrolla productos con blockchain para servicios financieros y loyalty

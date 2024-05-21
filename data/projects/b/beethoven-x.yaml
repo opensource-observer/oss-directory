@@ -1,12 +1,12 @@
-version: 3
-slug: beethoven-x
-name: Beethoven X
+version: 5
+name: beethoven-x
+display_name: Beethoven X
 github:
   - url: https://github.com/beethovenxfi
 blockchain:
   - address: "0xa1fa945425ed2e08acb932e000bcc2f21b21588a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -15,7 +15,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xdfcea9088c8a88a76ff74892c1457c17dfeef9c1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -24,7 +24,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xba12222222228d8ba445958a75a0704d566bf2c8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -33,7 +33,7 @@ blockchain:
     name: Vault
   - address: "0xa1f998a5775cd85f33039a9b5c29b09097d211f3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -42,7 +42,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa331d84ec860bf466b4cdccfb4ac09a1b43f3ae6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -57,38 +57,38 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xce88686553686da562ce7cea497ce749da109f9f"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ProtocolFeesCollector
   - address: "0x7dfdef5f355096603419239ce743bfaf1120312b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: WeightedPoolFactory
   - address: "0x142b9666a0a3a30477b052962dda81547e7029ab"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiquidityBootstrappingPoolFactory
   - address: "0x2433477a10fc5d31b9513c638f19ee85caed53fd"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xebfd5681977e38af65a7487dc70b8221d089ccad"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: MetaStablePoolFactory
   - address: "0xcf0a32bbef8f064969f21f7e02328fb577382018"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract

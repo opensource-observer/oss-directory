@@ -1,6 +1,6 @@
-version: 3
-slug: relinkd
-name: "{r}elinkd"
+version: 5
+name: relinkd
+display_name: "{r}elinkd"
 github:
   - url: https://github.com/relinkd
 blockchain:
@@ -12,3 +12,5 @@ blockchain:
       - eoa
       - wallet
     name: relinkd.eth
+websites:
+  - url: https://relinkd.xyz

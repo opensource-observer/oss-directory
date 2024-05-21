@@ -1,12 +1,12 @@
-version: 3
-slug: gameland0
-name: Gameland
+version: 5
+name: gameland0
+display_name: Gameland
 github:
   - url: https://github.com/Gameland0
 blockchain:
   - address: "0x7a387e6f725a837df5922e3fe71827450a76a3e5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

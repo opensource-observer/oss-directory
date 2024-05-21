@@ -1,6 +1,6 @@
-version: 3
-slug: bitcoindesign
-name: BitcoinDesign
+version: 5
+name: bitcoindesign
+display_name: BitcoinDesign
 github:
   - url: https://github.com/bitcoindesign
 blockchain:
@@ -10,3 +10,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://bitcoin.design
+description: A free, open-source community resource for designers, developers and others working on non-custodial bitcoin products.

@@ -1,12 +1,12 @@
-version: 3
-slug: gooddollar
-name: GoodDollar
+version: 5
+name: gooddollar
+display_name: GoodDollar
 github:
   - url: https://github.com/GoodDollar
 blockchain:
   - address: "0x15512f77bfe1d6ac44bee26135978c8d27ba521b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - safe
@@ -23,3 +23,7 @@ blockchain:
     tags:
       - deployer
       - eoa
+twitter: gooddollarorg
+websites:
+  - url: https://gooddollar.org
+description: GoodDollar is a new standard to create, finance and distribute a global basic income via G$ crypto-asset.

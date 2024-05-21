@@ -1,6 +1,6 @@
-version: 3
-slug: arpa-network
-name: ARPA Randcast
+version: 5
+name: arpa-network
+display_name: ARPA Randcast
 github:
   - url: https://github.com/arpa-network/bls-tss-network
   - url: https://github.com/arpa-network/randcast-user-contract
@@ -11,3 +11,7 @@ blockchain:
     tags:
       - eoa
       - wallet
+twitter: arpaofficial
+websites:
+  - url: https://arpachain.io/
+description: A Privacy-Preserving Computation Network

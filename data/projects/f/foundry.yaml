@@ -1,6 +1,6 @@
-version: 3
-slug: foundry
-name: Foundry
+version: 5
+name: foundry
+display_name: Foundry
 github:
   - url: https://github.com/foundry-rs
 blockchain:
@@ -16,3 +16,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://getfoundry.sh
+description: Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.

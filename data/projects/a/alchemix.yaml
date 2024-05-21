@@ -1,12 +1,12 @@
-version: 3
-slug: alchemix
-name: Alchemix
+version: 5
+name: alchemix
+display_name: Alchemix
 github:
   - url: https://github.com/alchemix-finance
 blockchain:
   - address: "0x13c716188c38ce27b9b2b672a59543cf1170eabe"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x7a6468f8161ef39d7639c67dfa5637ba1b7ba74b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -83,7 +83,7 @@ blockchain:
     name: StaticATokenV3
   - address: "0x843b66a06a4f00c0703fd2ae2e67c9399f7fad92"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -110,14 +110,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xcb8fa9a76b8e203d8c3797bf438d8fb81ea3326a"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xa44f69aeac480e23c0abfa9a55d99c9f098beac6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -334,7 +334,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x9d4c27802238c96270bd3913e5dbbadba92715e1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -424,7 +424,7 @@ blockchain:
     name: MigrationTool
   - address: "0x870d36b8ad33919cc57ffe17bb5d3b84f3adee4f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -449,7 +449,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xd4bd68da9bf9112cf2137d500c37bd9b842eae85"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -503,3 +503,6 @@ blockchain:
     tags:
       - safe
       - wallet
+twitter: AlchemixFi
+websites:
+  - url: https://alchemix.fi

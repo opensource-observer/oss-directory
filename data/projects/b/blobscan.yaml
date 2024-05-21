@@ -1,6 +1,6 @@
-version: 3
-slug: blobscan
-name: Blobscan
+version: 5
+name: blobscan
+display_name: Blobscan
 github:
   - url: https://github.com/Blobscan
 blockchain:
@@ -18,3 +18,7 @@ blockchain:
       - eoa
       - wallet
     name: blobscan.eth
+twitter: blobscan
+websites:
+  - url: https://blobscan.com
+description: The first explorer for shard blob transactions

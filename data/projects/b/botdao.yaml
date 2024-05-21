@@ -1,12 +1,16 @@
-version: 3
-slug: botdao
-name: BotDAO
+version: 5
+name: botdao
+display_name: BotDAO
 github:
   - url: https://github.com/botdao
 blockchain:
   - address: "0x163e5d3a14b30335baa362adb7819a84b894931e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet
+twitter: BO7DAO
+websites:
+  - url: https://botdao.io
+description: BOTs love BITs

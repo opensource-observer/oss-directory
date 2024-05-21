@@ -1,6 +1,6 @@
-version: 3
-slug: soulwallet
-name: Soul Wallet
+version: 5
+name: soulwallet
+display_name: Soul Wallet
 github:
   - url: https://github.com/soulwallet
 blockchain:
@@ -12,3 +12,7 @@ blockchain:
       - eoa
       - wallet
     name: zjj.eth
+twitter: soulwallet_eth
+websites:
+  - url: https://soulwallet.io
+description: We're here to make using Ethereum easy and secure.

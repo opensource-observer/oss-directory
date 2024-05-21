@@ -1,6 +1,6 @@
-version: 3
-slug: opscientia
-name: OpSci
+version: 5
+name: opscientia
+display_name: OpSci
 github:
   - url: https://github.com/opscientia
 blockchain:
@@ -16,7 +16,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: opscientia
+websites:
+  - url: https://opsci.io
+description: decentralized science framework

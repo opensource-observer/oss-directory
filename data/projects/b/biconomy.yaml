@@ -1,12 +1,12 @@
-version: 3
-slug: biconomy
-name: Biconomy
+version: 5
+name: biconomy
+display_name: Biconomy
 github:
   - url: https://github.com/bcnmy
 blockchain:
   - address: "0xdc0d4bdcc70362cedd23d3997c31528ec1502fc4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x1ff1db6a9ee9df4c7fa1e7d91dfa5db0229ed3ee"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -22,13 +22,13 @@ blockchain:
       - eoa
   - address: "0x90f05c1e52fafb4577a4f5f869b804318d56a1ee"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x988c135a1049ce61730724afd342fb7c56cd2776"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -65,7 +65,7 @@ blockchain:
     name: unverified
   - address: "0x000000f9ee1842bb72f6bbdd75e6d3d4e3e9594c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -73,7 +73,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x70717b44011c2f92709168e132e71b02628fbb0c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -207,7 +207,7 @@ blockchain:
     name: unverified
   - address: "0xd7eeaa15047b1f6b76dde1d50e298557468d8546"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -236,7 +236,7 @@ blockchain:
     name: unverified
   - address: "0x000000a56aaca3e9a4c479ea6b6cd0dbcb6634f5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -250,77 +250,77 @@ blockchain:
     name: UniswapAdaptor
   - address: "0x3a3e4dae2d1acd16028d12fd59044e8f2c452c53"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: WhitelistPeriodManager
   - address: "0x4c5ccff7fa764ce150f07dd9ec9805a7c9260be1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xe1a9afffadb8e095ec861272a040bd488b24c085"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: LiquidityProviders
   - address: "0xb4778f5aefeb4605ed96e893417271d4a55e32ee"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x3678b953e87e8137ae220a1560fa80401e0200ad"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: ProxyAdmin
   - address: "0xfac79f6b18ade2e9973b590472ea9f079af9668e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xf46c7d442bc9e279d1e7bc4bfa57813d5f32c239"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x6ae108dde26de9ca70e70defb1913c8726136b37"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xaf8fe2c2f6ae85dde4599b9baba02f59fb736443"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xd016e072642030fa0813ff62acda5c8feb17c448"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: LPToken
   - address: "0x9bcf58cd6d22c532e77dcaa196fc45589042bc5b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -328,21 +328,21 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x451f4594e12ac35929a909ce32fc6afd3eb7e50c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: TokenManager
   - address: "0xb8eaa2feebf4605b1f4212d1a308641cd3186874"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2766ec868b1fd3461b956947dd41d5bd5529bd89"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -355,28 +355,28 @@ blockchain:
     name: OPTUSDT
   - address: "0x9c0dd7c93139ca6ab62470f65c173f1eefdc9ef9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x856cb5c3cbbe9e2e21293a644aa1f9363cee11e8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x126be6a9ec71a1fea19d2288ba2ce4cdc0facb68"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xd881d88a575d9d6f1b6f062d8d494588abbb0c41"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -387,3 +387,5 @@ blockchain:
     tags:
       - safe
       - wallet
+websites:
+  - url: https://biconomy.io

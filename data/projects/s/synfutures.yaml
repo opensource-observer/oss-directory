@@ -1,19 +1,22 @@
-version: 3
-slug: synfutures
-name: SynFutures
+version: 5
+name: synfutures
+display_name: SynFutures
 github:
   - url: https://github.com/synfutures
 blockchain:
   - address: "0xbf6cdd5c0c4ec4f10916a06527157ef2753243a8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x1e7db497d664e77fc96321a1ad0bf018e55cbff8"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: Factory
+twitter: SynFuturesDefi
+websites:
+  - url: https://www.synfutures.com/

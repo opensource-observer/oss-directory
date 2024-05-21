@@ -1,12 +1,12 @@
-version: 3
-slug: tipcc
-name: Tipcc
+version: 5
+name: tipcc
+display_name: Tipcc
 github:
   - url: https://github.com/tipccjs
 blockchain:
   - address: "0x820f92c1b3ad8e962e6c6d9d7caf2a550aec46fb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,9 +14,11 @@ blockchain:
       - eoa
   - address: "0x689f6606538d063d2687b0ca38b2369b1ed33e53"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
       - factory
     name: unverified
+websites:
+  - url: https://tipccjs.org/

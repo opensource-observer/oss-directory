@@ -1,19 +1,19 @@
-version: 3
-slug: aura
-name: Aura
+version: 5
+name: aura
+display_name: Aura
 github:
   - url: https://github.com/aurafinance
 blockchain:
   - address: "0xb07d2d6a03f2d4878dc1680f8581e871dae47494"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - deployer
       - eoa
   - address: "0x30019eb135532bddf2da17659101cc000c73c8e4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -21,7 +21,7 @@ blockchain:
       - eoa
   - address: "0x53c09096b1dc52e2ef223b2969a714ee75da364f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -99,7 +99,7 @@ blockchain:
     name: ExtraRewardStashV3
   - address: "0x956ccab09898c0af2aca5e6c229c3ad4e93d9288"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -108,7 +108,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x85a80afee867adf27b50bdb7b76da70f1e853062"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -117,7 +117,7 @@ blockchain:
     name: ComposableStablePoolFactory
   - address: "0xf23b4db826dba14c0e857029dff076b1c0264843"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -126,7 +126,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa523f47a933d5020b23629ddf689695aa94612dc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -142,7 +142,7 @@ blockchain:
     name: ComposableStablePoolFactory
   - address: "0x96484f2abf5e58b15176dbf1a799627b53f13b6d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -212,7 +212,7 @@ blockchain:
     name: RewardPoolDepositWrapper
   - address: "0x8d803f7f7e26e586ee90e5a872cf7830e21f7727"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -238,7 +238,7 @@ blockchain:
     name: OptimismBridgeSender
   - address: "0xe39b5e3b6d74016b2f6a9673d7d7493b6df549d5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -246,7 +246,7 @@ blockchain:
     name: BalancerQueries
   - address: "0xf24917fb88261a37cc57f686ebc831a5c0b9fd39"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -254,7 +254,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xe42ffa682a26ef8f25891db4882932711d42e467"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -262,7 +262,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x36cac20dd805d128c1a6dd16eea845c574b5a17c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -270,7 +270,7 @@ blockchain:
     name: AuthorizerAdaptorEntrypoint
   - address: "0x76578ecf9a141296ec657847fb45b0585bcda3a6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -278,7 +278,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xb9f8ab3ed3f3acba64bc6cd2dca74b7f38fd7b88"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -286,7 +286,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x9805dcfd25e6de36bad8fe9d3fe2c9b44b764102"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -294,7 +294,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xe3881627b8deebccf9c23b291430a549fc0be5f7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -302,14 +302,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x5cf4928a3205728bd12830e1840f7db85c62a4b9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x4fb47126fa83a8734991e41b942ac29a3266c968"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -317,7 +317,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xc3ccace87f6d3a81724075adcb5ddd85a8a1bb68"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -325,7 +325,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x9da18982a33fd0c7051b19f0d7c76f2d5e7e017c"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -333,7 +333,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x81cfae226343b24ba12ec6521db2c79e7aeeb310"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -341,7 +341,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x6817149cb753bf529565b4d023d7507ed2ff4bc0"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -349,7 +349,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x6b5da774890db7b7b96c6f44e6a4b0f657399e2e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -357,7 +357,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x5dbad78818d4c8958eff2d5b95b28385a22113cd"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -379,55 +379,55 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x223738a747383d6f9f827d95964e4d8e8ac754ce"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: AuraBalOFT
   - address: "0x1509706a6c66ca549ff0cb464de88231ddbe213b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: AuraOFT
   - address: "0xf24074a1a6ad620adc14745f9cc1fb1e7ba6ca71"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: PoolManagerLite
   - address: "0xec1c780a275438916e7ceb174d80878f29580606"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: L2Coordinator
   - address: "0xc181edc719480bd089b94647c2dc504e2700a2b0"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: VoterProxyLite
   - address: "0xeeda9b5b9b18c5f6b77e96dfe076cd46b7af9701"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ChildStashRewardDistro
   - address: "0xee19ea4b56a3350cfb6fc1b746972809fde238a6"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ChildGaugeVoteRewards
   - address: "0x98ef32edd24e2c92525e59afc4475c1242a30184"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: BoosterLite
   - address: "0xa8920455934da4d853faac1f94fe7bef72943ef1"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ComposableStablePoolFactory

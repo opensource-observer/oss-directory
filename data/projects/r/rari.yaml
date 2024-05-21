@@ -1,14 +1,16 @@
-version: 3
-slug: rari
-name: Rari
+version: 5
+name: rari
+display_name: Rari
 github:
   - url: https://github.com/rari-capital
 blockchain:
   - address: "0x7ed52863829ab99354f3a0503a622e82acd5f7d3"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
     name: t11s.eth
+websites:
+  - url: https://rari.capital

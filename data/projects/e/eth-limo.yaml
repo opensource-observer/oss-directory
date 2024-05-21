@@ -1,15 +1,18 @@
-version: 3
-slug: eth-limo
-name: eth.limo
+version: 5
+name: eth-limo
+display_name: eth.limo
 github:
   - url: https://github.com/ethlimo
 blockchain:
   - address: "0xb352bb4e2a4f27683435f153a259f1b207218b1b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: ethdotlimo.eth
+twitter: eth_limo
+websites:
+  - url: https://eth.limo

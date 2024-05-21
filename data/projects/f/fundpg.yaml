@@ -1,12 +1,12 @@
-version: 3
-slug: fundpg
-name: FundPG
+version: 5
+name: fundpg
+display_name: FundPG
 github:
   - url: https://github.com/fundpg
 blockchain:
   - address: "0x12a5dcabbfaf963db743377937b3ca00308600f2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -17,7 +17,9 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://fundpg.xyz

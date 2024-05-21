@@ -1,12 +1,12 @@
-version: 3
-slug: across
-name: Across
+version: 5
+name: across
+display_name: Across
 github:
   - url: https://github.com/across-protocol
 blockchain:
   - address: "0x9a8f92a830a5cb89a3816e3d267cb7791c16b04d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -265,43 +265,43 @@ blockchain:
     name: Optimism_SpokePool
   - address: "0xd8c6dd978a3768f7ddfe3a9aad2c3fd75fa9b6fd"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: AVM_BridgeDepositBox
   - address: "0xe35e9842fceaca96570b734083f4a58e8f7c5f2a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: UBA_Arbitrum_SpokePool
   - address: "0xb88690461ddbab6f04dfad7df66b7725942feb9c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Arbitrum_SpokePool
   - address: "0x30679ca4ea452d3df8a6c255a806e08810321763"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OptimisticGovernor
   - address: "0x88ad27c41ad06f01153e7cd9b10cbedf4616f4d5"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OptimisticOracleV2
   - address: "0x031a7882ce3e8b4462b057ebb0c3f23cd731d234"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OptimisticOracle
   - address: "0xa6147867264374f324524e30c02c331cf28aa879"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OptimisticOracleV3
@@ -317,3 +317,6 @@ blockchain:
     tags:
       - safe
       - wallet
+websites:
+  - url: https://across.to
+description: Across Bridging Protocol

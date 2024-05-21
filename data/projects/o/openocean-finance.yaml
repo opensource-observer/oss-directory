@@ -1,12 +1,12 @@
-version: 3
-slug: openocean-finance
-name: OpenOcean
+version: 5
+name: openocean-finance
+display_name: OpenOcean
 github:
   - url: https://github.com/openocean-finance
 blockchain:
   - address: "0x920fae61b835bbcc50f0e8883f7de26ce9a2047b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
@@ -18,7 +18,7 @@ blockchain:
     name: OpenOceanExchangeProxy
   - address: "0x30424981429c8b944e9d44d5bd992ee874f1b188"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OpenOcean
@@ -28,3 +28,7 @@ blockchain:
     tags:
       - eoa
       - wallet
+twitter: OpenOceanGlobal
+websites:
+  - url: https://openocean.finance
+description: OpenOcean is a leading DEX Aggregator, a cross-chain swap aggregator, and Web 3 middleware developer in the crypto space, offering a suite of tools across 20+ n

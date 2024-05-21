@@ -1,6 +1,6 @@
-version: 3
-slug: tradao-xyz
-name: Tradao
+version: 5
+name: tradao-xyz
+display_name: Tradao
 github:
   - url: https://github.com/tradao-xyz
 blockchain:
@@ -14,7 +14,10 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: Tradaoperp
+websites:
+  - url: https://tradao.xyz

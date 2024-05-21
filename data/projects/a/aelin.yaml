@@ -1,6 +1,6 @@
-version: 3
-slug: aelin
-name: Aelin
+version: 5
+name: aelin
+display_name: Aelin
 github:
   - url: https://github.com/AelinXYZ
 blockchain:
@@ -26,7 +26,7 @@ blockchain:
     name: ethlegends.eth
   - address: "0x7856f2a12a7a18b4a115d295f548434a9b078fa1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -250,7 +250,7 @@ blockchain:
     name: MerkleDistributor
   - address: "0x1fa677ca369b97ab30707373531cb050b1c3a7c6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -307,7 +307,7 @@ blockchain:
     name: Distribution
   - address: "0x25855b3e23c770f1effc17bfb1bbb111eed668b5"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -376,7 +376,7 @@ blockchain:
     name: VAelinConverter
   - address: "0x2d662befe161379837829944d5948ed84ced659e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -396,7 +396,7 @@ blockchain:
     name: AelinToken
   - address: "0x91fcea33d02d11621b7f90ebd5e44ed393ed7b5e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -416,7 +416,7 @@ blockchain:
     name: unverified
   - address: "0xef1c0b40016d0ea08e4f409f48e618b41edf66d9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

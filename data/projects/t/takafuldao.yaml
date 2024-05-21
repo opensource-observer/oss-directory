@@ -1,74 +1,77 @@
-version: 3
-slug: takafuldao
-name: Takaturn
+version: 5
+name: takafuldao
+display_name: Takaturn
 github:
   - url: https://github.com/takafuldao
 blockchain:
   - address: "0xf5c5b85ea5f255495e037563cb8cde3513ee602e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x5833457cecce8395c094fca83f231c28b83eb0c6"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x55eb2d69ecefd4487651285ca83bb8888830137a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: CollateralFactory
   - address: "0x991cebcf1c8bac763c5ede7a508ceabecf5c40d2"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: Collateral
   - address: "0xb643bda8a23a8dc04bbbf11c464a035fc2a3d587"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Fund
   - address: "0x00042e3895f5ef16b96bc904b9acc92509624ea2"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TakaturnDiamond_v1
   - address: "0xd9d470e30c5ffefafa39d9081863c04a851ad7fa"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GettersFacet_v1
   - address: "0xa1603918f95136413b7f00c782cf7328cd44ac52"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: YGFacetZaynFi_v1
   - address: "0xed2fa02b54de23844893f67db60dd0aebc5e8f8a"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: TermFacet_v1
   - address: "0xeeb2f5f6424d219d91e9ee3226c6e8cd53f9e8fb"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: FundFacet_v1
   - address: "0x712fb3da4d0a5fd3b4bc68279ac658e9452e5860"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: CollateralFacet_v1
+websites:
+  - url: https://takadao.io/
+description: Takadao offers a halal insurance alternative powered by the blockchain for the new, global age.

@@ -1,12 +1,12 @@
-version: 3
-slug: viaprize
-name: viaPrize
+version: 5
+name: viaprize
+display_name: viaPrize
 github:
   - url: https://github.com/viaprize
 blockchain:
   - address: "0x850a146d7478daaa98fc26fd85e6a24e50846a9d"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -38,3 +38,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+twitter: viaprize
+websites:
+  - url: https://www.viaprize.org

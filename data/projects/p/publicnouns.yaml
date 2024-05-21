@@ -1,6 +1,6 @@
-version: 3
-slug: publicnouns
-name: PublicNouns
+version: 5
+name: publicnouns
+display_name: PublicNouns
 github:
   - url: https://github.com/publicnouns
 blockchain:
@@ -8,7 +8,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet
@@ -16,7 +16,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

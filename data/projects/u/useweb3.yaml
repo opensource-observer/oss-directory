@@ -1,6 +1,6 @@
-version: 3
-slug: useweb3
-name: useWeb3
+version: 5
+name: useweb3
+display_name: useWeb3
 github:
   - url: https://github.com/wslyvh/useWeb3
   - url: https://github.com/wslyvh/nexth
@@ -8,7 +8,7 @@ github:
 blockchain:
   - address: "0xa512c3cf9a63715ced87de5058c684cbff9f4321"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -17,7 +17,7 @@ blockchain:
   - address: "0xcbc3dc48ba005cd292de77e582d5b9c55e43b95c"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
@@ -25,7 +25,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
@@ -33,7 +33,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: useweb3
+websites:
+  - url: https://www.useweb3.xyz/
+description: A Web3 developer platform

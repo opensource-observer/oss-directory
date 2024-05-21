@@ -1,15 +1,19 @@
-version: 3
-slug: permetsystems
-name: Permet
+version: 5
+name: permetsystems
+display_name: Permet
 github:
   - url: https://github.com/permetsystems
 blockchain:
   - address: "0x1a6ef6cc28cf60aa0504cfb21cdffa48cfe3a8fb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: permet.eth
+twitter: permetsystems
+websites:
+  - url: https://permet.co/
+description: Building blockchain & open-source contracts for the garment creator economy. 

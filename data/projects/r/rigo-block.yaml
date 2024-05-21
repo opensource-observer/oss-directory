@@ -1,12 +1,12 @@
-version: 3
-slug: rigo-block
-name: RigoBlock
+version: 5
+name: rigo-block
+display_name: RigoBlock
 github:
   - url: https://github.com/rigoblock
 blockchain:
   - address: "0x080f08076e8eadc66006c3cbfed28a34918a1fa6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -32,3 +32,6 @@ blockchain:
     tags:
       - contract
     name: HSendBatchTokens
+websites:
+  - url: https://rigoblock.com/
+description: The Protocol for Organizing Tokens

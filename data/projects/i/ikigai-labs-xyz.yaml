@@ -1,6 +1,6 @@
-version: 3
-slug: ikigai-labs-xyz
-name: Ikigai Labs
+version: 5
+name: ikigai-labs-xyz
+display_name: Ikigai Labs
 github:
   - url: https://github.com/ikigai-labs-xyz
 blockchain:
@@ -12,8 +12,12 @@ blockchain:
       - wallet
   - address: "0x99d5ce23335bffc8289f67eb2723270776f2785e"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - eoa
       - wallet
+twitter: turtleshell_xyz
+websites:
+  - url: https://turtleshell.xyz/
+description: ikigai Labs is the organization behind the development of TurtleShell & EIP-7265

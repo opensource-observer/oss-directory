@@ -1,6 +1,6 @@
-version: 3
-slug: gnosischain
+version: 5
 name: gnosischain
+display_name: gnosischain
 github:
   - url: https://github.com/gnosischain
 blockchain:
@@ -14,7 +14,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
@@ -24,3 +24,6 @@ blockchain:
     tags:
       - safe
       - wallet
+twitter: gnosischain
+websites:
+  - url: https://www.gnosischain.com/

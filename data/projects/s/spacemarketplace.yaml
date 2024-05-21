@@ -1,12 +1,12 @@
-version: 3
-slug: spacemarketplace
-name: Space Marketplace
+version: 5
+name: spacemarketplace
+display_name: Space Marketplace
 github:
   - url: https://github.com/spacemarketplace
 blockchain:
   - address: "0xddd5d97e6442e0a5372841b41421d90ffe712ca2"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

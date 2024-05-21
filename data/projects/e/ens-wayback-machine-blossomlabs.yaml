@@ -1,6 +1,6 @@
-version: 3
-slug: ens-wayback-machine-blossomlabs
-name: ENS Wayback Machine
+version: 5
+name: ens-wayback-machine-blossomlabs
+display_name: ENS Wayback Machine
 github:
   - url: https://github.com/BlossomLabs/ens-wayback-machine
 blockchain:
@@ -12,3 +12,5 @@ blockchain:
       - eoa
       - wallet
     name: wayback-machine.eth
+websites:
+  - url: https://blossom.software

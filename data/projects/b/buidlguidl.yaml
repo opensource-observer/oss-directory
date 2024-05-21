@@ -1,6 +1,6 @@
-version: 3
-slug: buidlguidl
-name: Buidl Guidl
+version: 5
+name: buidlguidl
+display_name: Buidl Guidl
 github:
   - url: https://github.com/BuidlGuidl
   - url: https://github.com/scaffold-eth
@@ -51,7 +51,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

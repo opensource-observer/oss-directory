@@ -1,13 +1,16 @@
-version: 3
-slug: amphitheatre-app
+version: 5
 name: amphitheatre-app
+display_name: amphitheatre-app
 github:
   - url: https://github.com/amphitheatre-app
 blockchain:
   - address: "0xff6378cdd5cc30ba9f3556ae33e1f73f07cd4b31"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://amphitheatre.app
+description: Instantly spin up fresh, automated dev environments in the cloud and start developing within seconds.

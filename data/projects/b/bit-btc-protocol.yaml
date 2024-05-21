@@ -1,12 +1,12 @@
-version: 3
-slug: bit-btc-protocol
-name: BitBTC Protocol
+version: 5
+name: bit-btc-protocol
+display_name: BitBTC Protocol
 github:
   - url: https://github.com/iBitLabs
 blockchain:
   - address: "0x3e579180cf01f0e2abf6ff4d566b7891fbf9b868"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -112,7 +112,7 @@ blockchain:
     name: RedEnvelope
   - address: "0xa61f98fd2bd043bb7c2d560b67204334b0641b92"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -120,7 +120,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x581ee9ad4a8f5767b0b17d3c350e4c01366004b6"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
@@ -137,3 +137,7 @@ blockchain:
     tags:
       - contract
     name: unverified
+twitter: SatoshiNJunior
+websites:
+  - url: https://bitbtc.money
+description: BitBTC makes it easier for BTC to buy everything !

@@ -1,12 +1,12 @@
-version: 3
-slug: x-dao
-name: XDao
+version: 5
+name: x-dao
+display_name: XDao
 github:
   - url: https://github.com/xdao-app
 blockchain:
   - address: "0x1a37aa615c3bd23b5c1cecd506a59927133414b9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x5befa2d163e40e148df83921e1cc59e044df5471"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -22,7 +22,7 @@ blockchain:
       - eoa
   - address: "0x72cc6e4de47f673062c41c67505188144a0a3d84"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -31,7 +31,7 @@ blockchain:
     name: Factory
   - address: "0xca49ecf7e7bb9bbc9d1d295384663f6ba5c0e366"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -40,7 +40,7 @@ blockchain:
     name: Shop
   - address: "0x71eeba415a523f5c952cc2f06361d5443545ad28"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -48,7 +48,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x3730bdc5ddf4286a8778dcb19da638db1da981ad"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -56,41 +56,45 @@ blockchain:
     name: DaoViewer
   - address: "0x2d5cd78400b0fe5f9a1cec903a799c4b4b559d18"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - contract
     name: ERC1967Proxy
   - address: "0x0cf784bba0ffa0a7006f3ee7e4357e643a07f6e7"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x55144b8e938be86ebac342fcc9fd153b97160361"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: SubscriptionManager
   - address: "0xb42dd79c056d4b511c07c29d4c35403b47be29b9"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x03e40db4dce9fec44232b942440a1bc65563f001"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: DaoVestingModule
   - address: "0x41185246595eade95ec0acf9adf6417fe7a94f39"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
+twitter: xdaoapp
+websites:
+  - url: https://xdao.app/
+description: XDAO is a DeFi protocol for quick and easy creation of Decentralized Autonomous Organizations — DAOs.

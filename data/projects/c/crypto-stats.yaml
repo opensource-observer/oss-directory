@@ -1,15 +1,18 @@
-version: 3
-slug: crypto-stats
-name: CryptoStats
+version: 5
+name: crypto-stats
+display_name: CryptoStats
 github:
   - url: https://github.com/crypto-stats
 blockchain:
   - address: "0x69aa21403244889832609963b0028e337a834953"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: cryptostats.eth
+twitter: CryptoStats_
+websites:
+  - url: https://cryptostats.community

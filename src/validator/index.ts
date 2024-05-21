@@ -67,8 +67,9 @@ function validateObject<T>(obj: any, schemaName: Schema): ValidationResult {
 function safeCastObject<T>(obj: any, schemaName: Schema): T {
   const result = validateObject<T>(obj, schemaName);
   if (!result.valid) {
-    console.log(obj);
-    console.warn(result.errors);
+    console.log("Invalid ", schemaName);
+    console.log(JSON.stringify(obj, null, 2));
+    console.warn(JSON.stringify(result.errors, null, 2));
     throw new Error(`Invalid ${schemaName}`);
   }
   return obj;
@@ -83,10 +84,13 @@ function safeCastObject<T>(obj: any, schemaName: Schema): T {
  */
 async function readFileToObject<T>(
   filename: string,
-  format: FileFormat,
   schemaName: Schema,
+  opts: ReadOptions,
 ): Promise<T> {
-  const obj = await readFileParse(filename, format);
+  const obj = await readFileParse(filename, opts.format);
+  if (opts.skipValidation) {
+    return obj;
+  }
   return safeCastObject<T>(obj, schemaName);
 }
 
@@ -167,7 +171,8 @@ function safeCastBlockchainAddress(obj: any): BlockchainAddress {
 }
 
 type ReadOptions = {
-  format?: FileFormat;
+  format: FileFormat;
+  skipValidation: boolean;
 };
 
 /**
@@ -178,13 +183,12 @@ type ReadOptions = {
  */
 async function readProjectFile(
   filename: string,
-  opts?: ReadOptions,
+  opts?: Partial<ReadOptions>,
 ): Promise<Project> {
-  return readFileToObject<Project>(
-    filename,
-    opts?.format ?? DEFAULT_FORMAT,
-    PROJECT_SCHEMA,
-  );
+  return readFileToObject<Project>(filename, PROJECT_SCHEMA, {
+    format: opts?.format ?? DEFAULT_FORMAT,
+    skipValidation: opts?.skipValidation ?? false,
+  });
 }
 
 /**
@@ -195,13 +199,12 @@ async function readProjectFile(
  */
 async function readCollectionFile(
   filename: string,
-  opts?: ReadOptions,
+  opts?: Partial<ReadOptions>,
 ): Promise<Collection> {
-  return readFileToObject<Collection>(
-    filename,
-    opts?.format ?? DEFAULT_FORMAT,
-    COLLECTION_SCHEMA,
-  );
+  return readFileToObject<Collection>(filename, COLLECTION_SCHEMA, {
+    format: opts?.format ?? DEFAULT_FORMAT,
+    skipValidation: opts?.skipValidation || false,
+  });
 }
 
 export {

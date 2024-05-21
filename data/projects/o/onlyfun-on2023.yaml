@@ -1,13 +1,13 @@
-version: 3
-slug: onlyfun-on2023
-name: Onlyfun
+version: 5
+name: onlyfun-on2023
+display_name: Onlyfun
 github:
   - url: https://github.com/onlyfun-on2023
   - url: https://github.com/onlyfun2023/onlyfun
 blockchain:
   - address: "0x3d4f69b24f4d2b151dc53da52ddac887e8c237f0"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

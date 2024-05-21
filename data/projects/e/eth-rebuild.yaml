@@ -1,6 +1,6 @@
-version: 3
-slug: eth-rebuild
-name: Eth-Rebuild
+version: 5
+name: eth-rebuild
+display_name: Eth-Rebuild
 github:
   - url: https://github.com/eth-rebuild
 blockchain:
@@ -8,7 +8,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet

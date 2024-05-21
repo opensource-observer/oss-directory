@@ -1,15 +1,19 @@
-version: 3
-slug: pepemon-dao
-name: "Pepemon: Degen Battleground"
+version: 5
+name: pepemon-dao
+display_name: "Pepemon: Degen Battleground"
 github:
   - url: https://github.com/pepemon-dao
 blockchain:
   - address: "0xe71fbb197bc8fd11090fa657c100d52dbb407662"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: pepemonworld.eth
+twitter: pepemonfinance
+websites:
+  - url: https://pepemon.world
+description: Play and earn web3 card game owned by the players, since 2020.

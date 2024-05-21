@@ -1,26 +1,26 @@
-version: 3
-slug: vmex-finance
-name: VMEX Finance
+version: 5
+name: vmex-finance
+display_name: VMEX Finance
 github:
   - url: https://github.com/vmex-finance
 blockchain:
   - address: "0x464ed76c6b2ddecc9aa1e990211670a81b93474b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - deployer
       - eoa
   - address: "0x47a61eb4a66e68ca522e998e6c163c880845c5a9"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
       - factory
     name: LendingPoolAddressesProvider
   - address: "0x23aea7d17b63682b4f7d4a78d5929796def836cb"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: InitializableImmutableAdminUpgradeabilityProxy
@@ -30,3 +30,6 @@ blockchain:
     tags:
       - safe
       - wallet
+twitter: vmexfinance
+websites:
+  - url: https://vmex.finance

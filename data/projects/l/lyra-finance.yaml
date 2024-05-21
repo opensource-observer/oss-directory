@@ -1,6 +1,6 @@
-version: 3
-slug: lyra-finance
-name: Lyra Finance
+version: 5
+name: lyra-finance
+display_name: Lyra Finance
 github:
   - url: https://github.com/lyra-finance
 blockchain:
@@ -24,7 +24,7 @@ blockchain:
       - eoa
   - address: "0xebe8078f9bb79f8c90c1a8dcfc6a830ab75a6b33"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
@@ -2214,43 +2214,43 @@ blockchain:
     name: ListingManager
   - address: "0x48d077e0938b845b06c162a5e28ac703d9475250"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiquidityPool
   - address: "0x7964355735dc8f6583bfbddde1914f09c654636e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OptionMarket
   - address: "0xbdf4e630ded14a129ae302f930d1ae1b40fd02aa"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiquidityToken
   - address: "0x4cdb992fdefcb840125dd344f87bdcbb8fefa3e7"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OptionMarketWrapper
   - address: "0x7d135662818d3540bd6f23294bfdb6946c52c9ab"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GMXAdapter
   - address: "0x92a612729bf7e832072540222306aebd6ba0f891"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: GMXFuturesPoolHedger
   - address: "0xe485155ce647157624c5e2a41db45a9cc88098c3"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OptionToken
@@ -2262,61 +2262,65 @@ blockchain:
       - wallet
   - address: "0x5a4842c0c1f81ebbae7bb3ec07edf7ae55aac631"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ShortCollateral
   - address: "0x6d859a7d88d94870ee6510acaa48e3d8684e7b03"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OptionMarketPricer
   - address: "0xdacee745b517c9cdfd7f749dff9eb03f51a27a13"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OptionMarketPricer
   - address: "0x4f7c8ee91d41867fe3fb564b4b293456f36a78e0"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OptionGreekCache
   - address: "0xef4a92fcde48c84ef2b5c4a141a4cd1988fc73a9"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ShortCollateral
   - address: "0xb619913921356904bf62aba7271e694fd95aa10d"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiquidityPool
   - address: "0xec6f3ef9481e7b8484290edbae2cedcdb0ce790e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiquidityPool
   - address: "0xe044919cf58dfb066fc9de7c69c7db19f336b20c"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OptionMarket
   - address: "0x919e5e0c096002cb8a21397d724c4e3ebe77bc15"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OptionMarket
   - address: "0x4b236ac3b8d4666cbdc4e725c4366382aa30d86b"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: OptionGreekCache
+twitter: lyrafinance
+websites:
+  - url: https://docs.lyra.finance
+description: Lyra is a decentralized options and perpetuals protocol built on Ethereum and the OP Stack.

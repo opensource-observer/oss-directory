@@ -1,18 +1,21 @@
-version: 3
-slug: arbirise
+version: 5
 name: arbirise
+display_name: arbirise
 github:
   - url: https://github.com/arbirise
 blockchain:
   - address: "0x1d427f8f08cd8b40bf07f58f11acf39cf45504b0"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0xeb6f8eebc83d85120f9299b84da558825685570e"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: ArbiRise
+twitter: ArbiRiseFinance
+websites:
+  - url: https://www.arbirise.finance

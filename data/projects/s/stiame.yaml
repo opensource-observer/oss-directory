@@ -1,6 +1,6 @@
-version: 3
-slug: stiame
+version: 5
 name: stiame
+display_name: stiame
 github:
   - url: https://github.com/stiame
 blockchain:
@@ -8,7 +8,8 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: stiamee

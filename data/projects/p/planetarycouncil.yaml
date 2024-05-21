@@ -1,6 +1,6 @@
-version: 3
-slug: planetarycouncil
-name: Planetary Council
+version: 5
+name: planetarycouncil
+display_name: Planetary Council
 github:
   - url: https://github.com/PlanetaryCouncil
 blockchain:
@@ -13,7 +13,7 @@ blockchain:
       - wallet
   - address: "0x85a363699c6864248a6ffca66e4a1a5ccf9f5567"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

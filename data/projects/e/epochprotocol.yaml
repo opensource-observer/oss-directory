@@ -1,12 +1,12 @@
-version: 3
-slug: epochprotocol
-name: Epoch Protocol
+version: 5
+name: epochprotocol
+display_name: Epoch Protocol
 github:
   - url: https://github.com/epochprotocol
 blockchain:
   - address: "0xe223af979bff3397ce02b6741b5d43566b2f3f38"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:

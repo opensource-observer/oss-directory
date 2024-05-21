@@ -1,6 +1,6 @@
-version: 3
-slug: goerli-eth-clients
-name: Department of Decentralization
+version: 5
+name: goerli-eth-clients
+display_name: Department of Decentralization
 github:
   - url: https://github.com/eth-clients/goerli
   - url: https://github.com/eth-clients/holesky
@@ -13,3 +13,4 @@ blockchain:
       - eoa
       - wallet
     name: dezent.eth
+description: A place to coordinate ethereum chain configurations.

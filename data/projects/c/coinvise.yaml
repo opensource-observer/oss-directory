@@ -1,6 +1,6 @@
-version: 3
-slug: coinvise
+version: 5
 name: coinvise
+display_name: coinvise
 github:
   - url: https://github.com/coinvise
 blockchain:
@@ -8,7 +8,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: CoinviseCo
+websites:
+  - url: https://coinvise.co
+description: Powerful tools for creators to build & operate web3 communities.

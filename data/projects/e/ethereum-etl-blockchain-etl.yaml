@@ -1,6 +1,6 @@
-version: 3
-slug: ethereum-etl-blockchain-etl
-name: EthereumETL
+version: 5
+name: ethereum-etl-blockchain-etl
+display_name: EthereumETL
 github:
   - url: https://github.com/blockchain-etl/ethereum-etl
 blockchain:
@@ -17,3 +17,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://t.me/BlockchainETL
+description: Facilitating data science on blockchain data. Available in Google BigQuery https://goo.gl/oY5BCQ

@@ -1,6 +1,6 @@
-version: 3
-slug: troopfinance
-name: TroopFinance
+version: 5
+name: troopfinance
+display_name: TroopFinance
 github:
   - url: https://github.com/troopfinance
 blockchain:
@@ -14,7 +14,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
@@ -25,3 +25,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+twitter: gmTroops
+websites:
+  - url: https://troo.ps

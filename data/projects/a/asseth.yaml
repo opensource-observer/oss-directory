@@ -1,6 +1,6 @@
-version: 3
-slug: asseth
+version: 5
 name: asseth
+display_name: asseth
 github:
   - url: https://github.com/asseth
 blockchain:
@@ -8,7 +8,10 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+websites:
+  - url: http://asseth.fr
+description: Non profit organization [ASSociation ETHereum

@@ -1,15 +1,18 @@
-version: 3
-slug: rotki
+version: 5
 name: rotki
+display_name: rotki
 github:
   - url: https://github.com/rotki
 blockchain:
   - address: "0x9531c059098e3d194ff87febb587ab07b30b1306"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: rotki.eth
+websites:
+  - url: https://rotki.com
+description: An opensource asset management, tracking and analytics application

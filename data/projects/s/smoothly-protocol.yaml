@@ -1,12 +1,12 @@
-version: 3
-slug: smoothly-protocol
-name: Smoothly
+version: 5
+name: smoothly-protocol
+display_name: Smoothly
 github:
   - url: https://github.com/Smoothly-Protocol
 blockchain:
   - address: "0xb645ea519d3bb18a03eb0e059e5f6a70a793b4fc"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -20,3 +20,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://smoothly.money
+description: MEV Smoothing Pool for Solo Stakers 

@@ -1,14 +1,18 @@
-version: 3
-slug: taho-wallet
-name: Taho
+version: 5
+name: taho-wallet
+display_name: Taho
 github:
   - url: https://github.com/tahowallet
 blockchain:
   - address: "0x99b36fdbc582d113af36a21eba06bfeab7b9be12"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - safe
       - wallet
+twitter: taho_xyz
+websites:
+  - url: https://taho.xyz
+description: Taho, the community owned and operated Web3 wallet.

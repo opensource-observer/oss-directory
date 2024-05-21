@@ -1,6 +1,6 @@
-version: 3
-slug: metagov
-name: The Metagovernance Project
+version: 5
+name: metagov
+display_name: The Metagovernance Project
 github:
   - url: https://github.com/metagov
 blockchain:
@@ -31,7 +31,7 @@ blockchain:
       - wallet
   - address: "0xd39d6d3f7433a0cabd90c0ea74d76da29b718314"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -45,7 +45,7 @@ blockchain:
       - wallet
   - address: "0xc38b9fbb57b0c33f85cb0a03669a9d6127538369"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - eoa
@@ -56,3 +56,7 @@ blockchain:
     tags:
       - eoa
       - wallet
+twitter: metagov_project
+websites:
+  - url: https://www.metagov.org
+description: The Metagovernance Project is an interdisciplinary research collective. We build standards and infrastructure for digital self-governance.

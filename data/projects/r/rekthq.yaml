@@ -1,13 +1,13 @@
-version: 3
-slug: rekthq
-name: RektHQ
+version: 5
+name: rekthq
+display_name: RektHQ
 github:
   - url: https://github.com/rekthq
 blockchain:
   - address: "0x3c5c2f4bcec51a36494682f91dbc6ca7c63b514c"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - safe
       - wallet

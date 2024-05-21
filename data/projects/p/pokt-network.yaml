@@ -1,6 +1,6 @@
-version: 3
-slug: pokt-network
-name: Pocket Network
+version: 5
+name: pokt-network
+display_name: Pocket Network
 github:
   - url: https://github.com/pokt-network
 blockchain:
@@ -11,3 +11,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: http://pokt.network
+description: Decentralized infrastructure for developers to build peer to peer applications

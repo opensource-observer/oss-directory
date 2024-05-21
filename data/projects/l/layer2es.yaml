@@ -1,6 +1,6 @@
-version: 3
-slug: layer2es
-name: Layer2es
+version: 5
+name: layer2es
+display_name: Layer2es
 github:
   - url: https://github.com/layer2es
 blockchain:
@@ -8,7 +8,9 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: Layer2es
+description: Comunidad dedicada al estudio de soluciones de escalabilidad en Ethereum.

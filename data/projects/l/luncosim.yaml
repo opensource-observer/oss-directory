@@ -1,12 +1,12 @@
-version: 3
-slug: luncosim
-name: LunCo
+version: 5
+name: luncosim
+display_name: LunCo
 github:
   - url: https://github.com/LunCoSim
 blockchain:
   - address: "0xa64f2228ccec96076c82abb903021c33859082f8"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
@@ -17,7 +17,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: LunCoSim
+websites:
+  - url: https://lunco.space
+description: Full-cycle space operations sim

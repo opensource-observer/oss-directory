@@ -1,14 +1,18 @@
-version: 3
-slug: treejer
-name: Treejer Protocol
+version: 5
+name: treejer
+display_name: Treejer Protocol
 github:
   - url: https://github.com/treejer
 blockchain:
   - address: "0x81c776d0d7f7d9d3699851993ecaa88a46187f11"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
+twitter: treejertalks
+websites:
+  - url: https://treejer.com
+description: A blockchain-based reforestation platform rewarding businesses & individuals to stop Climate Change with the help of local communities. #PlantersWithoutBorders

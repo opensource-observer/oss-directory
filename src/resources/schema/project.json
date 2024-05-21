@@ -7,11 +7,23 @@
     "version": {
       "type": "number"
     },
-    "slug": {
-      "type": "string"
-    },
     "name": {
       "type": "string"
+    },
+    "display_name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "websites": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json#"
+      }
     },
     "github": {
       "type": "array",
@@ -32,5 +44,5 @@
       }
     }
   },
-  "required": ["version", "slug", "name"]
+  "required": ["version", "name", "display_name"]
 }

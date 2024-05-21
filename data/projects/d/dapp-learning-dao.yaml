@@ -1,6 +1,6 @@
-version: 3
-slug: dapp-learning-dao
-name: Dapp-Learning
+version: 5
+name: dapp-learning-dao
+display_name: Dapp-Learning
 github:
   - url: https://github.com/Dapp-Learning-DAO
 blockchain:
@@ -18,10 +18,11 @@ blockchain:
       - wallet
   - address: "0x1f7b953113f4dfcbf56a1688529cc812865840e1"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: dapplearning.eth
+twitter: Dapp_Learning

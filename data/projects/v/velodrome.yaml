@@ -1,6 +1,6 @@
-version: 3
-slug: velodrome
-name: Velodrome
+version: 5
+name: velodrome
+display_name: Velodrome
 github:
   - url: https://github.com/velodrome-finance
 blockchain:
@@ -26,13 +26,14 @@ blockchain:
       - eoa
   - address: "0x51cc12e6a4fccbcd6eb6f1c5905263edc5578c5f"
     networks:
-      - arbitrum
+      - arbitrum-one
       - optimism
     tags:
       - deployer
       - eoa
   - address: "0xd42c7914cf8dc24a1075e29c283c581bd1b0d3d3"
     networks:
+      - base
       - optimism
     tags:
       - deployer
@@ -351,3 +352,7 @@ blockchain:
       - eoa
       - wallet
     name: aerodromefinance.eth
+twitter: VelodromeFi
+websites:
+  - url: https://velodrome.finance
+description: The trading and liquidity marketplace on Superchain

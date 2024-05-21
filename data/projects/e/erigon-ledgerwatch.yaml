@@ -1,6 +1,6 @@
-version: 3
-slug: erigon-ledgerwatch
-name: Erigon
+version: 5
+name: erigon-ledgerwatch
+display_name: Erigon
 github:
   - url: https://github.com/ledgerwatch
 blockchain:
@@ -11,3 +11,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://erigon.tech
+description: Sibling org of github.com/erigontech

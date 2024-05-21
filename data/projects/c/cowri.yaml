@@ -1,73 +1,73 @@
-version: 3
-slug: cowri
-name: Cowri (Shell Protocol)
+version: 5
+name: cowri
+display_name: Cowri (Shell Protocol)
 github:
   - url: https://github.com/cowri
 blockchain:
   - address: "0x07c648648a6bd4ab688a1995fc049285f541fe20"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - deployer
       - eoa
   - address: "0x02a52dbc85ffcc15400ef80d8f67ea5923a7e67b"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0xc32eb36f886f638fffd836df44c124074cfe3584"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Ocean
   - address: "0x2eab95a938d1fabb1b62132bdb0c5a2405a57887"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiquidityPoolProxy_wstETH_ETH
   - address: "0x642ffab2752df3bce97083709f36080fb1482c80"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Toucans
   - address: "0x0cb736ea2ad425221c368407caafdd323b7bdc83"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiquidityPoolProxy_USDT_USDC
   - address: "0x4f9d367636d5d2056f848803c11872fdbc2afc47"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiquidityPoolProxy_Stablepool
   - address: "0xa2db39e781a5eee0eaa625dace6f097c17dff7ea"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiquidityPoolProxy_ETH_USD
   - address: "0x3402d87df0817b2a96b210b8873d33dd979c8d19"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiquidityPoolProxy_WBTC_USD
   - address: "0x96c7dc9d473e621a1e3968cb862803eaede21888"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: LiquidityPoolProxy_DAI_USDC
   - address: "0x619f1f68a9a3cf939327801012e12f95b0312bb9"
     networks:
-      - arbitrum
+      - arbitrum-one
     tags:
       - contract
     name: Booty

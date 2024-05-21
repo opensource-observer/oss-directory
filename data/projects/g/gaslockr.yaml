@@ -1,15 +1,18 @@
-version: 3
-slug: gaslockr
-name: GasLockR
+version: 5
+name: gaslockr
+display_name: GasLockR
 github:
   - url: https://github.com/GasLockR
 blockchain:
   - address: "0xa953324614dde24532b1d2179cf2667fda9acfdb"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: qinsir.eth
+twitter: gaslockr
+websites:
+  - url: https://www.gaslockr.xyz

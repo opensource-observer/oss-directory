@@ -1,6 +1,6 @@
-version: 3
-slug: descier
-name: deScier
+version: 5
+name: descier
+display_name: deScier
 github:
   - url: https://github.com/deScier
 blockchain:
@@ -15,7 +15,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: desciers
+websites:
+  - url: https://descier.science
+description: decentralized science ecosystem

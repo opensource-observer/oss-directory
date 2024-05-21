@@ -1,6 +1,6 @@
-version: 3
-slug: tor-project
-name: The Tor Project
+version: 5
+name: tor-project
+display_name: The Tor Project
 github:
   - url: https://github.com/torproject
 blockchain:
@@ -15,7 +15,11 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+twitter: torproject
+websites:
+  - url: https://gitlab.torproject.org/tpo
+description: Anonymity Online | Circumvent Censorship

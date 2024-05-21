@@ -1,6 +1,6 @@
-version: 3
-slug: tenderly
-name: Tenderly
+version: 5
+name: tenderly
+display_name: Tenderly
 github:
   - url: https://github.com/tenderly
 blockchain:
@@ -10,3 +10,6 @@ blockchain:
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://tenderly.co
+description: Start monitoring your contracts with error tracking, detailed contract analytics and smart alerts that notify you when something happens.

@@ -1,15 +1,18 @@
-version: 3
-slug: us3r-network
-name: US3R Network
+version: 5
+name: us3r-network
+display_name: US3R Network
 github:
   - url: https://github.com/us3r-network
 blockchain:
   - address: "0xee3ca4dd4ceb3416915eddc6cdadb4a6060434d4"
     networks:
-      - arbitrum
+      - arbitrum-one
       - mainnet
       - optimism
     tags:
       - eoa
       - wallet
     name: qiaoliang.eth
+twitter: getus3r
+websites:
+  - url: https://us3r.network

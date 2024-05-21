@@ -1,13 +1,15 @@
-version: 3
-slug: electronic-frontier-foundation
-name: Electronic Frontier Foundation
+version: 5
+name: electronic-frontier-foundation
+display_name: Electronic Frontier Foundation
 github:
   - url: https://github.com/EFForg
 blockchain:
   - address: "0x640c28441f9e73537c63576a0d6f44643a577e32"
     networks:
       - mainnet
-      - arbitrum
+      - arbitrum-one
     tags:
       - eoa
       - wallet
+websites:
+  - url: https://www.eff.org/
