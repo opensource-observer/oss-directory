@@ -71,9 +71,9 @@ def get_yaml_data_from_path(path: str = LOCAL_PATH) -> List[Dict]:
     return list(get_yaml_data(yaml_files))
 
 
-def map_addresses_to_slugs(yaml_data: List[Dict], chain: str, lowercase: bool = True) -> Dict[str, str]:
+def map_addresses_to_names(yaml_data: List[Dict], chain: str, lowercase: bool = True) -> Dict[str, str]:
     """
-    Create a mapping of blockchain addresses to project slugs based on the YAML data.
+    Create a mapping of blockchain addresses to project names based on the YAML data.
 
     Args:
     yaml_data (List[Dict]): A list of dictionaries containing YAML data.
@@ -81,14 +81,14 @@ def map_addresses_to_slugs(yaml_data: List[Dict], chain: str, lowercase: bool = 
     lowercase (bool, optional): Whether to convert addresses to lowercase. Defaults to True.
 
     Returns:
-    Dict[str, str]: A dictionary mapping blockchain addresses to project slugs.
+    Dict[str, str]: A dictionary mapping blockchain addresses to project names.
     """
     addresses = {}
     for data in yaml_data:
         if not data:
             continue
-        slug = data.get('slug')
-        if not slug:
+        name = data.get('name')
+        if not name:
             continue
         blockchain_entries = data.get('blockchain', [])
         for entry in blockchain_entries:
@@ -96,45 +96,45 @@ def map_addresses_to_slugs(yaml_data: List[Dict], chain: str, lowercase: bool = 
                 continue
             address = entry.get('address')
             if address:
-                addresses[address.lower() if lowercase else address] = slug
+                addresses[address.lower() if lowercase else address] = name
     return addresses
 
 
-def map_repos_to_slugs(yaml_data: List[Dict], lowercase: bool = True) -> Dict[str, str]:
+def map_repos_to_names(yaml_data: List[Dict], lowercase: bool = True) -> Dict[str, str]:
     """
-    Create a mapping of GitHub repository URLs to project slugs based on the YAML data.
+    Create a mapping of GitHub repository URLs to project names based on the YAML data.
 
     Args:
     yaml_data (List[Dict]): A list of dictionaries containing YAML data.
     lowercase (bool, optional): Whether to convert repository URLs to lowercase. Defaults to True.
 
     Returns:
-    Dict[str, str]: A dictionary mapping GitHub repository URLs to project slugs.
+    Dict[str, str]: A dictionary mapping GitHub repository URLs to project names.
     """
     repos = {}
     for data in yaml_data:
         if not data:
             continue
-        slug = data.get('slug')
-        if not slug:
+        name = data.get('name')
+        if not name:
             continue
         repo_entries = data.get('github', [])
         for entry in repo_entries:
             url = entry.get('url')
             if url and url.startswith('https://github.com/'):
-                repos[url.lower().strip('/') if lowercase else url] = slug
+                repos[url.lower().strip('/') if lowercase else url] = name
     return repos
 
 
 def generate_repo_snapshot(outpath: str) -> None:
     """
-    Generate a YAML snapshot of the mapping between GitHub repositories and project slugs.
+    Generate a YAML snapshot of the mapping between GitHub repositories and project names.
 
     Args:
     outpath (str): The file path to save the generated YAML snapshot.
     """
     yaml_data = get_yaml_data_from_path()
-    repos = map_repos_to_slugs(yaml_data)
+    repos = map_repos_to_names(yaml_data)
     with open(outpath, 'w') as outfile:
         yaml.dump(repos, outfile, default_flow_style=False, sort_keys=True, indent=2)
     print(f"Generated repo snapshot at {outpath} with {len(repos)} entries.")
@@ -142,14 +142,14 @@ def generate_repo_snapshot(outpath: str) -> None:
 
 def generate_address_snapshot(outpath: str, chain: str = 'mainnet') -> None:
     """
-    Generate a YAML snapshot of the mapping between blockchain addresses and project slugs.
+    Generate a YAML snapshot of the mapping between blockchain addresses and project names.
 
     Args:
     outpath (str): The file path to save the generated YAML snapshot.
     chain (str, optional): The blockchain name to use for filtering addresses. Defaults to 'mainnet'.
     """
     yaml_data = get_yaml_data_from_path()
-    addresses = map_addresses_to_slugs(yaml_data, chain)
+    addresses = map_addresses_to_names(yaml_data, chain)
     with open(outpath, 'w') as outfile:
         yaml.dump(addresses, outfile, default_flow_style=False, sort_keys=True, indent=2)
     print(f"Generated address snapshot at {outpath} with {len(addresses)} entries.")
@@ -170,18 +170,18 @@ def map_addresses_to_names(outpath: str) -> None:
         blockchain_entries = data.get('blockchain', [])
         for entry in blockchain_entries:
             address = entry.get('address')
-            name = entry.get('name')
-            if name:
-                addresses[address.lower()] = name
+            display_name = entry.get('display_name')
+            if display_name:
+                addresses[address.lower()] = display_name
 
     with open(outpath, 'w') as outfile:
         yaml.dump(addresses, outfile, default_flow_style=False, sort_keys=True, indent=2)
     print(f"Generated name snapshot at {outpath} with {len(addresses)} entries.")
 
 
-def map_dune_snapshot_to_slugs(json_data: Dict, chain: str) -> Dict[str, str]:
+def map_dune_snapshot_to_names(json_data: Dict, chain: str) -> Dict[str, str]:
     """
-    Create a mapping of blockchain addresses to project slugs based on the Dune Analytics snapshot data.
+    Create a mapping of blockchain addresses to project names based on the Dune Analytics snapshot data.
 
     Args:
     json_data (Dict): A dictionary containing Dune Analytics snapshot data. The keys are Dune namespaces.
@@ -189,13 +189,13 @@ def map_dune_snapshot_to_slugs(json_data: Dict, chain: str) -> Dict[str, str]:
     chain (str): The blockchain name to use for filtering addresses.
 
     Returns:
-    Dict[str, str]: A dictionary mapping Dune namespaces to OSS Directory slugs.
+    Dict[str, str]: A dictionary mapping Dune namespaces to OSS Directory names.
     """
 
     project_yaml_data = get_yaml_data_from_path(LOCAL_PATH)
-    project_addresses = map_addresses_to_slugs(project_yaml_data, chain)
+    project_addresses = map_addresses_to_names(project_yaml_data, chain)
 
-    # map the dune namespaces to ossd slugs, ordered by how many addresses they have (descending)
+    # map the dune namespaces to ossd names, ordered by how many addresses they have (descending)
     namespaces = {}
     for namespace, data in json_data.items():
         addresses = [address for address, details in data.items() if chain in details.get('networks',[])]
@@ -204,20 +204,20 @@ def map_dune_snapshot_to_slugs(json_data: Dict, chain: str) -> Dict[str, str]:
         namespaces[namespace] = len(addresses)
     namespaces = dict(sorted(namespaces.items(), key=lambda item: item[1], reverse=True))    
 
-    # map the namespaces to slugs
-    slugs = {}
+    # map the namespaces to names
+    names = {}
     for namespace, _ in namespaces.items():
         addresses = json_data[namespace]
         for address, details in addresses.items():
-            slug = details.get('slug')
-            if slug:
+            name = details.get('name')
+            if name:
                 break
-            slug = project_addresses.get(address.lower())
-            if slug:                
+            name = project_addresses.get(address.lower())
+            if name:                
                 break
-        slugs[namespace] = slug    
+        names[namespace] = name    
     
-    return slugs
+    return names
 
 if __name__ == "__main__":
     #generate_repo_snapshot('repo_snapshot.yaml')
