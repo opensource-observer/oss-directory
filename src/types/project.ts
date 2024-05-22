@@ -13,6 +13,8 @@ export interface Project {
   name: string;
   display_name: string;
   description?: string;
+  twitter?: string;
+  websites?: URL[];
   github?: URL[];
   npm?: URL[];
   blockchain?: BlockchainAddress[];
@@ -70,6 +72,11 @@ export interface BlockchainAddress {
       | "optimism"
       | "pgn"
       | "zora"
+      | "linea"
+      | "zksync-era"
+      | "polygon-zkevm"
+      | "scroll"
+      | "mantle"
     ),
     ...(
       | "arbitrum-one"
@@ -82,6 +89,11 @@ export interface BlockchainAddress {
       | "optimism"
       | "pgn"
       | "zora"
+      | "linea"
+      | "zksync-era"
+      | "polygon-zkevm"
+      | "scroll"
+      | "mantle"
     )[],
   ];
   name?: string;
