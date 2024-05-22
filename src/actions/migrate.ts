@@ -49,7 +49,8 @@ async function migrate(
     for (const migration of greaterVersions) {
       console.log(`Migrating ${file} to version ${migration.version}`);
       // Do the migration
-      obj = await getSingleMigration(migration).up(obj);
+      const inputObj = _.cloneDeep(obj);
+      obj = await getSingleMigration(migration).up(inputObj);
       // Stamp the version
       obj.version = migration.version;
     }
