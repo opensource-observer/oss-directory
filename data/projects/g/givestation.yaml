@@ -3,6 +3,7 @@ name: givestation
 display_name: GiveStation
 github:
   - url: https://github.com/givestation
+  - url: https://github.com/givestation/youbuidl-quadraticfunding
 blockchain:
   - address: "0x187a9763FCC7EcFFA9bc50B0fE5BbAe71cDA7b59"
     networks:
@@ -15,8 +16,14 @@ blockchain:
       - arbitrum-one
     tags:
       - contract
-      name: CrowdFunding
+    name: CrowdFunding
+       - address: "0xabF763013d5B2dEfcB7BEaD1342962b24828C7Cf"
+    networks:
+      - optimism
+      - arbitrum-one
+    tags:
+      - deployer
 twitter: givestation
 websites:
   - url: https://givestation.org
-description: A multi-chain grant dapp where contributors get rewarded for funding ideas, startups and projects in web3.
+description: A multi-chain grant dapp where contributors get rewarded for funding ideas and projects in web3.
