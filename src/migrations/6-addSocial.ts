@@ -1,4 +1,3 @@
-import _ from "lodash";
 import { Migration } from "./index.js";
 
 /**
