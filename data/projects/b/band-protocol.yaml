@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: band-protocol
 display_name: Band Protocol
 github:
@@ -918,7 +918,9 @@ blockchain:
     tags:
       - contract
     name: TransparentUpgradeableProxy
-twitter: bandprotocol
 websites:
   - url: https://bandprotocol.com
 description: An open standard for decentralized management of data in Web3 stack
+social:
+  twitter:
+    - url: https://twitter.com/bandprotocol

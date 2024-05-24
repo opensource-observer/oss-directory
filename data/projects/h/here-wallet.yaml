@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: here-wallet
 display_name: HERE Wallet
 github:
@@ -11,7 +11,9 @@ blockchain:
     tags:
       - eoa
       - wallet
-twitter: here_wallet
 websites:
   - url: https://herewallet.app
 description: Mobile wallet for NEAR Protocol
+social:
+  twitter:
+    - url: https://twitter.com/here_wallet

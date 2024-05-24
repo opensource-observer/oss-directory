@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: open-sea
 display_name: OpenSea
 github:
@@ -146,7 +146,9 @@ blockchain:
     tags:
       - contract
     name: Conduit
-twitter: opensea
 websites:
   - url: https://opensea.io
 description: A marketplace for the decentralized web
+social:
+  twitter:
+    - url: https://twitter.com/opensea

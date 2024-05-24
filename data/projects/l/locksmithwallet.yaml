@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: locksmithwallet
 display_name: Locksmith Wallet
 github:
@@ -11,7 +11,9 @@ blockchain:
       - eoa
       - wallet
     name: scottconner.eth
-twitter: locksmithwallet
 websites:
   - url: https://locksmithwallet.com
 description: A Soulbound NFT Smart Wallet
+social:
+  twitter:
+    - url: https://twitter.com/locksmithwallet

@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: wido
 display_name: Wido
 github:
@@ -119,7 +119,9 @@ blockchain:
     tags:
       - contract
     name: VerifyingPaymaster
-twitter: walnut_dev
 websites:
   - url: https://walnut.dev
 description: Building @walnuthq on Starknet
+social:
+  twitter:
+    - url: https://twitter.com/walnut_dev

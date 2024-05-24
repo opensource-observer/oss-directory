@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: fuji-finance
 display_name: Fuji Finance
 github:
@@ -518,7 +518,9 @@ blockchain:
     tags:
       - contract
     name: BorrowingVaultBeaconFactory_arbitrum
-twitter: FujiFinance
 websites:
   - url: https://www.fuji.finance
 description: Cross-chain Defi Money Market Aggregator
+social:
+  twitter:
+    - url: https://twitter.com/FujiFinance

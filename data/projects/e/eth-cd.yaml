@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: eth-cd
 display_name: eth-cd
 github:
@@ -11,7 +11,11 @@ blockchain:
     tags:
       - eoa
       - wallet
-twitter: ethdotcd
 websites:
   - url: https://eth.cd
-description: eth.cd is a Web3 social networking platform that leverages Ethereum Name Service (ENS) to create dynamic, decentralized profiles based on users' ENS records.
+description: eth.cd is a Web3 social networking platform that leverages Ethereum
+  Name Service (ENS) to create dynamic, decentralized profiles based on users'
+  ENS records.
+social:
+  twitter:
+    - url: https://twitter.com/ethdotcd

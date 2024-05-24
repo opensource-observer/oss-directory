@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: aave
 display_name: Aave
 github:
@@ -806,7 +806,9 @@ blockchain:
     tags:
       - contract
     name: DefaultReserveInterestRateStrategy
-twitter: aave
 websites:
   - url: http://aave.com
 description: Building the future of DeFi.
+social:
+  twitter:
+    - url: https://twitter.com/aave

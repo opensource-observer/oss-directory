@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: livepeer
 display_name: Livepeer
 github:
@@ -42,7 +42,10 @@ blockchain:
     tags:
       - contract
     name: various:DiffersByChain
-twitter: Livepeer
 websites:
   - url: https://livepeer.org
-description: The world's open video infrastructure.  For bug bounties, visit https://immunefi.com/bounty/livepeer/
+description: The world's open video infrastructure.  For bug bounties, visit
+  https://immunefi.com/bounty/livepeer/
+social:
+  twitter:
+    - url: https://twitter.com/Livepeer

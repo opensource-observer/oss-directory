@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: questbook
 display_name: Questbook
 github:
@@ -12,6 +12,8 @@ blockchain:
       - eoa
       - wallet
     name: questbook.eth
-twitter: questbookapp
 websites:
   - url: https://questbook.xyz
+social:
+  twitter:
+    - url: https://twitter.com/questbookapp

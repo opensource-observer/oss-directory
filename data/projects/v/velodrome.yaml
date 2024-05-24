@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: velodrome
 display_name: Velodrome
 github:
@@ -352,7 +352,9 @@ blockchain:
       - eoa
       - wallet
     name: aerodromefinance.eth
-twitter: VelodromeFi
 websites:
   - url: https://velodrome.finance
 description: The trading and liquidity marketplace on Superchain
+social:
+  twitter:
+    - url: https://twitter.com/VelodromeFi

@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: endaoment
 display_name: Endaoment
 github:
@@ -52,7 +52,9 @@ blockchain:
       - eoa
       - wallet
     name: admin.ndao.eth
-twitter: endaomentdotorg
 websites:
   - url: https://endaoment.org
 description: Smart Contract Donor-Advised Funds
+social:
+  twitter:
+    - url: https://twitter.com/endaomentdotorg

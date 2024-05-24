@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: besu-hyperledger
 display_name: Hyperledger Besu
 github:
@@ -12,6 +12,8 @@ blockchain:
       - mainnet
       - optimism
     name: SplitWallet
-twitter: hyperledger
 websites:
   - url: https://www.hyperledger.org
+social:
+  twitter:
+    - url: https://twitter.com/hyperledger

@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: stackup
 display_name: Stackup
 github:
@@ -39,7 +39,9 @@ blockchain:
     tags:
       - contract
     name: VerifyingPaymaster
-twitter: stackup_fi
 websites:
   - url: https://stackup.sh/
 description: Accounts infrastructure for web3.
+social:
+  twitter:
+    - url: https://twitter.com/stackup_fi

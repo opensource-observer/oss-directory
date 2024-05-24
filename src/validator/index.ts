@@ -3,10 +3,12 @@ import addFormats from "ajv-formats";
 import projectSchema from "../resources/schema/project.json" assert { type: "json" };
 import collectionSchema from "../resources/schema/collection.json" assert { type: "json" };
 import urlSchema from "../resources/schema/url.json" assert { type: "json" };
+import socialProfileSchema from "../resources/schema/social-profile.json" assert { type: "json" };
 import blockchainAddressSchema from "../resources/schema/blockchain-address.json" assert { type: "json" };
 import { Project } from "../types/project.js";
 import { Collection } from "../types/collection.js";
 import { URL } from "../types/url.js";
+import { SocialProfile } from "../types/social-profile.js";
 import { BlockchainAddress } from "../types/blockchain-address.js";
 import { DEFAULT_FORMAT, FileFormat } from "../types/files.js";
 import { readFileParse } from "../utils/files.js";
@@ -16,16 +18,19 @@ type Schema =
   | "project.json"
   | "collection.json"
   | "url.json"
+  | "social-profile.json"
   | "blockchain-address.json";
 const PROJECT_SCHEMA: Schema = "project.json";
 const COLLECTION_SCHEMA: Schema = "collection.json";
 const URL_SCHEMA: Schema = "url.json";
+const SOCIAL_PROFILE_SCHEMA: Schema = "social-profile.json";
 const BLOCKCHAIN_ADDRESS_SCHEMA: Schema = "blockchain-address.json";
 const ajv = new Ajv.default({ allErrors: true }); // options can be passed, e.g. {allErrors: true}
 addFormats.default(ajv);
 ajv.addSchema(projectSchema, PROJECT_SCHEMA);
 ajv.addSchema(collectionSchema, COLLECTION_SCHEMA);
 ajv.addSchema(urlSchema, URL_SCHEMA);
+ajv.addSchema(socialProfileSchema, SOCIAL_PROFILE_SCHEMA);
 ajv.addSchema(blockchainAddressSchema, BLOCKCHAIN_ADDRESS_SCHEMA);
 
 /**
@@ -161,6 +166,16 @@ function safeCastUrl(obj: any): URL {
 }
 
 /**
+ * Casts an object into a URL
+ * @param obj - JSON object
+ * @returns SocialProfile
+ * @throws if not a valid URL
+ */
+function safeCastSocialProfile(obj: any): SocialProfile {
+  return safeCastObject<SocialProfile>(obj, SOCIAL_PROFILE_SCHEMA);
+}
+
+/**
  * Casts an object into a BlockchainAddress
  * @param obj - JSON object
  * @returns BlockchainAddress
@@ -215,6 +230,7 @@ export {
   safeCastProject,
   safeCastCollection,
   safeCastUrl,
+  safeCastSocialProfile,
   safeCastBlockchainAddress,
   readProjectFile,
   readCollectionFile,

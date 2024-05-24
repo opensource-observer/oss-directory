@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: makewaterorg
 display_name: MakeWater
 github:
@@ -11,7 +11,9 @@ blockchain:
     networks:
       - mainnet
       - optimism
-twitter: makewaterorg
 websites:
   - url: https://www.makewater.org/
 description: Education through water innovation.
+social:
+  twitter:
+    - url: https://twitter.com/makewaterorg

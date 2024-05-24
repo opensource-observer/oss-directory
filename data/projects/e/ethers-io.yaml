@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: ethers-io
 display_name: ethers.js
 github:
@@ -23,7 +23,9 @@ blockchain:
       - eoa
       - wallet
     name: donations.ethers.eth
-twitter: ethersproject
 websites:
   - url: https://ethers.org
 description: Hub to use, share and develop Ethereum Applications.
+social:
+  twitter:
+    - url: https://twitter.com/ethersproject

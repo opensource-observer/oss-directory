@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: kyber-swap
 display_name: KyberSwap
 github:
@@ -508,7 +508,11 @@ blockchain:
     tags:
       - contract
     name: DMM_Pool
-twitter: kybernetwork
 websites:
   - url: http://kyber.network
-description: Kyber Network is a multi-chain crypto trading and liquidity hub that connects liquidity from different sources to enable trades at the best rates
+description: Kyber Network is a multi-chain crypto trading and liquidity hub
+  that connects liquidity from different sources to enable trades at the best
+  rates
+social:
+  twitter:
+    - url: https://twitter.com/kybernetwork

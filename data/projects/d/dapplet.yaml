@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: dapplet
 display_name: Dapplet
 github:
@@ -12,7 +12,9 @@ blockchain:
       - eoa
       - safe
       - wallet
-twitter: dappletapp
 websites:
   - url: https://dapplet.io
 description: A modular dApp interface.
+social:
+  twitter:
+    - url: https://twitter.com/dappletapp
