@@ -40,6 +40,7 @@ export interface BlockchainAddress {
    */
   networks: [
     (
+      | "any_evm"
       | "arbitrum-one"
       | "base"
       | "frax"
@@ -57,6 +58,7 @@ export interface BlockchainAddress {
       | "mantle"
     ),
     ...(
+      | "any_evm"
       | "arbitrum-one"
       | "base"
       | "frax"
