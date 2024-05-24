@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: walletconnect
 display_name: Wallet Connect
 github:
@@ -11,7 +11,9 @@ blockchain:
     tags:
       - eoa
       - wallet
-twitter: walletconnect
 websites:
   - url: https://walletconnect.com
 description: Open protocol connecting Wallets to Dapps
+social:
+  twitter:
+    - url: https://twitter.com/walletconnect

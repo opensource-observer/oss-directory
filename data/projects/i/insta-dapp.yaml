@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: insta-dapp
 display_name: InstaDapp
 github:
@@ -550,7 +550,9 @@ blockchain:
     tags:
       - contract
     name: various:DiffersByChain
-twitter: instadapp
 websites:
   - url: https://instadapp.io
 description: Scaling DeFi for users and developers with Smart Accounts.
+social:
+  twitter:
+    - url: https://twitter.com/instadapp

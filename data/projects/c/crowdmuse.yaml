@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: crowdmuse
 display_name: Crowdmuse
 github:
@@ -24,7 +24,9 @@ blockchain:
       - eoa
       - wallet
     name: crowdmuse.eth
-twitter: crowdmuse
 websites:
   - url: https://crowdmuse.com
 description: the collaboration network
+social:
+  twitter:
+    - url: https://twitter.com/crowdmuse

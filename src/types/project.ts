@@ -13,11 +13,11 @@ export interface Project {
   name: string;
   display_name: string;
   description?: string;
-  twitter?: string;
   websites?: URL[];
   github?: URL[];
   npm?: URL[];
   blockchain?: BlockchainAddress[];
+  social?: SocialProfile;
   [k: string]: unknown;
 }
 /**
@@ -99,5 +99,14 @@ export interface BlockchainAddress {
     )[],
   ];
   name?: string;
+  [k: string]: unknown;
+}
+/**
+ * All social profile
+ */
+export interface SocialProfile {
+  medium?: URL[];
+  twitter?: URL[];
+  telegram?: URL[];
   [k: string]: unknown;
 }

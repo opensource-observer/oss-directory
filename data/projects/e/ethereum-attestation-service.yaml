@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: ethereum-attestation-service
 display_name: Ethereum Attestation Service
 github:
@@ -41,7 +41,9 @@ blockchain:
     tags:
       - eoa
       - wallet
-twitter: eas_eth
 websites:
   - url: https://attest.sh
 description: Public good for making attestations on or off-chain.
+social:
+  twitter:
+    - url: https://twitter.com/eas_eth

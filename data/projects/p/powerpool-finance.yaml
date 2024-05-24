@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: powerpool-finance
 display_name: powerpool-finance
 github:
@@ -24,7 +24,11 @@ blockchain:
     tags:
       - contract
     name: TransparentUpgradeableProxy
-twitter: powerpoolcvp
 websites:
   - url: http://powerpool.finance/
-description: Decentralized network for guaranteed automatic, gasless, transaction execution and off-chain computations for Defi/Web3 apps and individuals.
+description: Decentralized network for guaranteed automatic, gasless,
+  transaction execution and off-chain computations for Defi/Web3 apps and
+  individuals.
+social:
+  twitter:
+    - url: https://twitter.com/powerpoolcvp

@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: neondapp
 display_name: NEON Protocol
 github:
@@ -60,7 +60,9 @@ blockchain:
     tags:
       - contract
     name: ESTLSDToken
-twitter: NEONprotocolio
 websites:
   - url: https://neonprotocol.io
 description: Dollar cost averaging made easy with DeFi
+social:
+  twitter:
+    - url: https://twitter.com/NEONprotocolio

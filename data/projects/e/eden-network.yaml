@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: eden-network
 display_name: Eden Network
 github:
@@ -167,7 +167,9 @@ blockchain:
     tags:
       - contract
     name: unverified
-twitter: lastmjs
 websites:
   - url: https://sudograph.org
 description: GraphQL database for the Internet Computer
+social:
+  twitter:
+    - url: https://twitter.com/lastmjs

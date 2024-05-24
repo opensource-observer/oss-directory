@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: ethstaker
 display_name: EthStaker
 github:
@@ -13,7 +13,10 @@ blockchain:
       - eoa
       - wallet
     name: ethstaker.eth
-twitter: ethstaker
 websites:
   - url: http://discord.io/ethstaker
-description: This is the official Github repo for EthStaker, an independent community resource for guidance around staking on Ethereum
+description: This is the official Github repo for EthStaker, an independent
+  community resource for guidance around staking on Ethereum
+social:
+  twitter:
+    - url: https://twitter.com/ethstaker

@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: pyth-network
 display_name: Pyth Network
 github:
@@ -90,7 +90,9 @@ blockchain:
     tags:
       - eoa
       - wallet
-twitter: PythNetwork
 websites:
   - url: https://pyth.network
 description: Bringing real-world data on-chain at a sub-second timescale
+social:
+  twitter:
+    - url: https://twitter.com/PythNetwork

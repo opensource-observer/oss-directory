@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: gitcoin
 display_name: Gitcoin
 github:
@@ -478,7 +478,9 @@ blockchain:
     tags:
       - eoa
       - wallet
-twitter: Gitcoin
 websites:
   - url: https://gitcoin.co
 description: We empower communities to build and fund their shared needs
+social:
+  twitter:
+    - url: https://twitter.com/Gitcoin

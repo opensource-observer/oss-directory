@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: ante-finance
 display_name: Ante Finance
 github:
@@ -152,7 +152,9 @@ blockchain:
       - eoa
       - wallet
     name: antelabs.eth
-twitter: AnteFinance
 websites:
   - url: https://ante.finance
 description: Building the Schelling Point of Decentralized Trust
+social:
+  twitter:
+    - url: https://twitter.com/AnteFinance

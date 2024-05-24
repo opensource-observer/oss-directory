@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: wagmi-dev
 display_name: wagmi
 github:
@@ -26,7 +26,9 @@ blockchain:
       - eoa
       - wallet
     name: wevm.eth
-twitter: wevm_dev
 websites:
   - url: https://wevm.dev
 description: TypeScript tooling for Ethereum
+social:
+  twitter:
+    - url: https://twitter.com/wevm_dev

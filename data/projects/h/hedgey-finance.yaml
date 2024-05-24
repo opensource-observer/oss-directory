@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: hedgey-finance
 display_name: Hedgey Finance
 github:
@@ -59,7 +59,9 @@ blockchain:
       - eoa
       - wallet
     name: nevergoingtogiveyouup.eth
-twitter: hedgeyfinance
 websites:
   - url: https://app.hedgey.finance
 description: Hedgey Finance core solidity repository
+social:
+  twitter:
+    - url: https://twitter.com/hedgeyfinance

@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: anyswap
 display_name: Multichain (Anyswap)
 github:
@@ -27,7 +27,9 @@ blockchain:
     tags:
       - contract
     name: AnyswapV5ERC20
-twitter: multichainorg
 websites:
   - url: https://multichain.org
 description: Cross-Chain Router Protocol (CRP).
+social:
+  twitter:
+    - url: https://twitter.com/multichainorg

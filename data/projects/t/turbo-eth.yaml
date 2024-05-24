@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: turbo-eth
 display_name: TurboETH
 github:
@@ -27,7 +27,9 @@ blockchain:
       - eoa
       - wallet
     name: kames.eth
-twitter: KamesGeraghty
 websites:
   - url: https://www.turboeth.xyz
 description: Build Web3 In Turbo Mode
+social:
+  twitter:
+    - url: https://twitter.com/KamesGeraghty

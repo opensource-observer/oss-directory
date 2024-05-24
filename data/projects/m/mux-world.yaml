@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: mux-world
 display_name: MUX Protocol
 github:
@@ -306,7 +306,9 @@ blockchain:
     tags:
       - contract
     name: MCBVestingUpgradeable
-twitter: muxprotocol
 websites:
   - url: https://mux.network/
 description: Leveraged Trading with Zero Price Impact and Universal Liquidity
+social:
+  twitter:
+    - url: https://twitter.com/muxprotocol

@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: beamer-bridge
 display_name: Beamer Bridge
 github:
@@ -529,7 +529,9 @@ blockchain:
     tags:
       - contract
     name: various:DiffersByChain
-twitter: BeamerBridge
 websites:
   - url: https://www.beamerbridge.com
 description: Optimistic rollup to rollup bridge
+social:
+  twitter:
+    - url: https://twitter.com/BeamerBridge

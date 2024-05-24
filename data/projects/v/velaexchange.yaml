@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: velaexchange
 display_name: Vela Exchange
 github:
@@ -178,7 +178,9 @@ blockchain:
     tags:
       - contract
     name: ComplexRewarderPerSec
-twitter: vela_exchange
 websites:
   - url: https://vela.exchange
 description: Vela Exchange
+social:
+  twitter:
+    - url: https://twitter.com/vela_exchange

@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: adrastia-oracle
 display_name: Adrastia Oracle
 github:
@@ -232,7 +232,10 @@ blockchain:
     tags:
       - contract
     name: AdrastiaPriceVolatilityOracle
-twitter: AdrastiaOracle
 websites:
   - url: https://adrastia.io/
-description: Adrastia aggregates prices across the top decentralized exchanges, providing a secure source of truth for the price of any token.
+description: Adrastia aggregates prices across the top decentralized exchanges,
+  providing a secure source of truth for the price of any token.
+social:
+  twitter:
+    - url: https://twitter.com/AdrastiaOracle

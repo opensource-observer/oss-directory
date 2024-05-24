@@ -1,4 +1,4 @@
-version: 5
+version: 6
 name: granary
 display_name: Granary
 github:
@@ -445,7 +445,9 @@ blockchain:
     tags:
       - contract
     name: Rewarder
-twitter: GranaryFinance
 websites:
   - url: https://granary.finance
 description: Decentralized non-custodial liquidity markets protocol.
+social:
+  twitter:
+    - url: https://twitter.com/GranaryFinance

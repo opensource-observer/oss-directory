@@ -4,6 +4,7 @@ import blockchainAddressTypeToTags from "./2-blockchainAddressTypeToTags.js";
 import blockchainConsolidate from "./3-blockchainConsolidate.js";
 import renameArbitrum from "./4-renameArbitrum.js";
 import schemav1 from "./5-schemav1.js";
+import addSocial from "./6-addSocial.js";
 
 /**
  * Migration for a single schema
@@ -38,6 +39,7 @@ const MIGRATIONS: Migration[] = [
   blockchainConsolidate,
   renameArbitrum,
   schemav1,
+  addSocial,
 ];
 // The highest version number among all migrations
 const currentVersion = Math.max(...MIGRATIONS.map((m) => m.version));
