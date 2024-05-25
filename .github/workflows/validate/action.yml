@@ -42,7 +42,7 @@ runs:
         echo "PR_TOOLS_SHA=${{ inputs.sha }}" >> "$GITHUB_ENV"
 
     - name: checkout the PR
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: ${{ inputs.sha }}
         fetch-depth: 1
