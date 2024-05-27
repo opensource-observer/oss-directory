@@ -10,17 +10,12 @@ blockchain:
     tags:
       - contract
     name: CrowdFunding
-  - address: "0xcFB8Bf1d64bf4baE08582B5EF464E53326E5bCd4"
-    networks:
-      - arbitrum-one
-    tags:
-      - contract
-    name: CrowdFunding
   - address: "0xabF763013d5B2dEfcB7BEaD1342962b24828C7Cf"
     networks:
       - optimism
     tags:
       - deployer
+      - eoa
 twitter: givestation
 websites:
   - url: https://givestation.org
