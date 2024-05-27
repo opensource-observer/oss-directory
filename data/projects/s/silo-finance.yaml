@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: silo-finance
 display_name: Silo Finance
 github:
@@ -6,21 +6,21 @@ github:
 blockchain:
   - address: "0x9c3832db9f3c1375aa3542c55f6ee9b54f38d944"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0xe919afa9a8953d9f746d7aa5e9b9ba25e055688c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x4166487056a922d784b073d4d928a516b074b719"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
@@ -28,86 +28,86 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x9992f660137979c1ca7f8b119cd16361594e3681"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SiloRouter
   - address: "0x19d3f8d09773065867e9fd11716229e73481c55a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Silo
   - address: "0x0696e6808ee11a5750733a3d821f9bb847e584fb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Silo
   - address: "0xd592f705bdc8c1b439bd4d665ed99c4faad5a680"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SiloIncentivesController
   - address: "0xae1eb69e880670ca47c50c9ce712ec2b48fac3b6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Silo
   - address: "0x8658047e48cc09161f4152c79155dac1d710ff0a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x82622a6bdd2f1fa757a08837633971d42c17241a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Silo
   - address: "0x8922225135acbac6f49aaccc638a8fb79119795c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Silo
   - address: "0x170a90981843461295a6ce0e0a631ee440222e29"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Silo
   - address: "0xa8897b4552c075e884bdb8e7b704eb10db29bf0d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Silo
   - address: "0xea9961280b48fe521ece83f6cd8a7e9b2c4ffc2e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Silo
   - address: "0xb9d098e61ec165d3c530dd67ce77b18be426ea91"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Silo
   - address: "0xa4487d52a5ac147f249d44d5af8b3c71eba77478"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Silo
   - address: "0x69ec552be56e6505703f0c861c40039e5702037a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Silo

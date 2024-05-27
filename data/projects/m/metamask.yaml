@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: metamask
 display_name: Metamask
 github:
@@ -18,14 +18,14 @@ npm:
 blockchain:
   - address: "0x4b327372a347ad97e45881428af26a4c28840c66"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - deployer
       - eoa
   - address: "0xcbe0edd07345a98542d779e1f6b897103eea0ab5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -33,7 +33,7 @@ blockchain:
       - eoa
   - address: "0x2252e2407e61efa6e6ab3a7d33ac6f033486c700"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -49,7 +49,7 @@ blockchain:
     name: MetaBridge
   - address: "0x9dda6ef3d919c9bc8885d5560999a3640431e8e6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -64,7 +64,7 @@ blockchain:
     name: Create2Factory
   - address: "0x432d6ff079a3073b9076e8ff16ef71d7071e1a9e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -72,7 +72,7 @@ blockchain:
     name: unverified
   - address: "0xbc59f7bdd506011cc6848d50ebef849466ea4fae"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -88,7 +88,7 @@ blockchain:
     name: MetaBridge
   - address: "0x23981fc34e69eedfe2bd9a0a9fcb0719fe09dbfc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MetaBridge

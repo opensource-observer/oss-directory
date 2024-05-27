@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: dspytdao
 display_name: Pin Save
 github:
@@ -7,7 +7,7 @@ blockchain:
   - address: "0x4c11ba2ed1d936d769d0cce34cbc7ea1e85182d0"
     networks:
       - mainnet
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

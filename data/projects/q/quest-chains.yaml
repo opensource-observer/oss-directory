@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: quest-chains
 display_name: Quest Chains
 github:
@@ -14,7 +14,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

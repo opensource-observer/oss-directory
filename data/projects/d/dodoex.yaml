@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: dodoex
 display_name: DODO
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xb37136b338c6cc0e459a35fe9aa036f6b5a147c0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -14,13 +14,13 @@ blockchain:
       - eoa
   - address: "0x7081685ff3ff16fb6c0df08ac93bdb7299eeefc9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0x1dc662d3d7de14a57cd369e3a9e774f8f80d4214"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -28,165 +28,165 @@ blockchain:
       - eoa
   - address: "0xda4c4411c55b0785e501332354a036c04833b72b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DVMFactory
   - address: "0xa867241cdc8d3b0c07c85cc06f25a0cd3b5474d8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DODOApprove
   - address: "0x311e670c3305a0bd55184c1c6580ebea1fa611f0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DODOApproveProxy
   - address: "0x9340e3296121507318874ce9c04afb4492af0284"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DSP
   - address: "0xc8fe2440744dcd733246a4db14093664defd5a53"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DSPFactory
   - address: "0x3b6067d4caa8a14c63fdbe6318f27a0bbc9f9237"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DODORouteProxy
   - address: "0xff83897590ac2f48adfdeb9f497fe68a34b893c0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DPP
   - address: "0x3dd629473a2ed7f3c6299ffd9f3e0c283d073f11"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x8e0dbba493a4b7d54d431351d85b07b0ff5035bb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DVM
   - address: "0x36e5238b4479d1ba0bfe47550b0b8e4f4f500eaa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DODODspProxy
   - address: "0xd0751f77d36adaba0067a151a8cf11475880c874"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DSP
   - address: "0xddb13e6dd168e1a68dc2285cb212078ae10394a9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DPPFactory
   - address: "0xeac4bfef7d1c872ed705b01856af7f9802adc596"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DODOCpProxy
   - address: "0x88cbf433471a0cd8240d2a12354362988b4593e5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DODOV2Proxy02
   - address: "0xcd536b4decfd2fa0443666b6becd145f8ade2e48"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x790b4a80fb1094589a3c0efc8740aa9b0c1733fb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DVM
   - address: "0x91fbd0c9dba8c42b7fa636cc60344c72e7d065c9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DODOLimitOrder
   - address: "0x9a74b169798be874ef1c23b4092e5689969ef45e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DODOMineV3Proxy
   - address: "0x5ca5e03228a3c16ef262d29e588adb6c2445fdbc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ERC20V3Factory
   - address: "0x0f278ee5fdd139f9ae8c6498cca0f2c2208684a2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DODOLimitOrderBot
   - address: "0x60854243052f6dd8d83812ff059a1a875962221f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: InitializableERC20
   - address: "0x2707299fa7b0819d2734ccfc57c2737fcd931da2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: CustomERC20
   - address: "0x7b07164ecfaf0f0d85dfc062bc205a4674c75aa0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DPPOracle
   - address: "0xe05dd51e4eb5636f4f0e8e7fbe82ea31a2ecef16"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DODOFeeRouteProxy
   - address: "0x7db214f2d46d94846936a0f8bd9044c5c5bd2b93"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DPPOracle
   - address: "0xc4a1a152812de96b2b1861e433f42290cdd7f113"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DODOFeeRouteProxy
   - address: "0x1506b54a1c0ea1b2f4a84866ec5776f7f6e7f0b1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DPPOracle

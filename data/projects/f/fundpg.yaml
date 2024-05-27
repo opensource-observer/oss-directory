@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: fundpg
 display_name: FundPG
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x12a5dcabbfaf963db743377937b3ca00308600f2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -17,7 +17,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

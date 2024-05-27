@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: l2beat
 display_name: L2BEAT
 github:
@@ -13,7 +13,7 @@ blockchain:
       - wallet
   - address: "0x41626ba92c0c2a1ad38fc83920300434082b1870"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

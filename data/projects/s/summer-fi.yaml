@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: summer-fi
 display_name: Summer.fi
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x0b5a3c04d1199283938fbe887a2c82c808aa89fb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -37,7 +37,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xf22f17b1d2354b4f4f52e4d164e4eb5e1f0a6ba6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -52,7 +52,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa0cb87300ab07d00468704cd8f016f8de47d8e0a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -97,7 +97,7 @@ blockchain:
     name: AaveV3Payback
   - address: "0x7e7eb65a93441a2d2bf0941216b4c1116b554d85"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -144,7 +144,7 @@ blockchain:
     name: unverified
   - address: "0xeb54c366512c4d59a222a251ea7316568859e08c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -152,7 +152,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xd4feaf1023cd6998053a1eb02460000980cc908f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -160,7 +160,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xb3f0c5e4012af22359c9ab233dabd80cd81f5ec5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -168,7 +168,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x392acebea829373a3efdc0da80a16003106d8f6e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -188,7 +188,7 @@ blockchain:
     name: AaveV3Borrow
   - address: "0xac0b1652388ea425884e6b60e2ed30155f43d50b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -209,7 +209,7 @@ blockchain:
     name: OperationStorage
   - address: "0x063e4242cd7c2421f67e21d7297c74bbdfef7b0e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -224,7 +224,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x63059cc2533344b65372983d4b6258b2cbbbf0da"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -244,7 +244,7 @@ blockchain:
     name: OperationsRegistry
   - address: "0x2006d4e76a398c78964f7e311bfd7ccb149eafe2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -259,7 +259,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x43c9a445fcf3bc3d1483c0b90dc0346249c0d84c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -267,7 +267,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x9319710c25cdaddd1766f0bde40f1a4034c17c7e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -282,7 +282,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x645325494a37d35cf6bafc82c3e6bce4473f2685"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -297,7 +297,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x5ab3e51608cea26090445ca89bc91628c8bb99f9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

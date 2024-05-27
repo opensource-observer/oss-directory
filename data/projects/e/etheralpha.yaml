@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: etheralpha
 display_name: Ether Alpha
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x0194325bf525be0d4fbb0856894ced74da3b8356"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ikigai-labs-xyz
 display_name: Ikigai Labs
 github:
@@ -12,7 +12,7 @@ blockchain:
       - wallet
   - address: "0x99d5ce23335bffc8289f67eb2723270776f2785e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - eoa

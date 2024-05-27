@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: nacion-bankless
 display_name: Nación Bankless
 github:
@@ -14,13 +14,13 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet
   - address: "0xd31e40b399d515e55b7cd94ffd7eccbbff44282d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - safe
       - wallet

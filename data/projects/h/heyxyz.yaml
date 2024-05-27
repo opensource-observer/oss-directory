@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: heyxyz
 display_name: heyxyz
 github:
@@ -16,7 +16,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

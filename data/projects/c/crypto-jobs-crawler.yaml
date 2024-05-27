@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: crypto-jobs-crawler
 display_name: Crypto Jobs
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x589a0d87d600a6c6faa34c491c9e779f434bc51d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: metagov
 display_name: The Metagovernance Project
 github:
@@ -31,7 +31,7 @@ blockchain:
       - wallet
   - address: "0xd39d6d3f7433a0cabd90c0ea74d76da29b718314"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -45,7 +45,7 @@ blockchain:
       - wallet
   - address: "0xc38b9fbb57b0c33f85cb0a03669a9d6127538369"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - eoa

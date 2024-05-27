@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: bunniapp
 display_name: Bunniapp by Timeless Finance
 github:
@@ -7,7 +7,7 @@ github:
 blockchain:
   - address: "0xfbe09b7a6c6cc3a72b4ca41cdd9c88ac62bb7937"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -15,33 +15,33 @@ blockchain:
       - eoa
   - address: "0xbfbaa134ed5da64eca6b6fd39c04b273b6bb600d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0x0ed37f546c7b70cd787eee94a521f24cd6653442"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0xb5087f95643a9a4069471a28d32c569d9bd57fe4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BunniHub
   - address: "0xe4666f0937b62d64c10316db0b7061549f87e95f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Child Liquidity Gauge Factory
   - address: "0xb45913337aca4988b08a61388c25e48ba5f6227c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UniswapV3Swapper

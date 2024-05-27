@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: stackup
 display_name: Stackup
 github:
@@ -13,7 +13,7 @@ blockchain:
       - eoa
   - address: "0x433704c40f80cbff02e86fd36bc8bac5e31eb0c1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: solve3-org
 display_name: Solve3
 github:
@@ -15,7 +15,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

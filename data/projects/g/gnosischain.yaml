@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: gnosischain
 display_name: gnosischain
 github:
@@ -14,7 +14,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: useweb3
 display_name: useWeb3
 github:
@@ -8,7 +8,7 @@ github:
 blockchain:
   - address: "0xa512c3cf9a63715ced87de5058c684cbff9f4321"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -17,7 +17,7 @@ blockchain:
   - address: "0xcbc3dc48ba005cd292de77e582d5b9c55e43b95c"
     networks:
       - mainnet
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet
@@ -25,7 +25,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet
@@ -33,7 +33,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

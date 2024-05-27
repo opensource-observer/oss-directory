@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: growthepie
 display_name: growthepie
 github:
@@ -14,13 +14,13 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet
   - address: "0x18f79d6d2166997c9a237c25c4692647cd4faf59"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - safe
       - wallet

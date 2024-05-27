@@ -41,7 +41,7 @@ export interface BlockchainAddress {
   networks: [
     (
       | "any_evm"
-      | "arbitrum-one"
+      | "arbitrum_one"
       | "base"
       | "frax"
       | "mainnet"
@@ -52,14 +52,14 @@ export interface BlockchainAddress {
       | "pgn"
       | "zora"
       | "linea"
-      | "zksync-era"
-      | "polygon-zkevm"
+      | "zksync_era"
+      | "polygon_zkevm"
       | "scroll"
       | "mantle"
     ),
     ...(
       | "any_evm"
-      | "arbitrum-one"
+      | "arbitrum_one"
       | "base"
       | "frax"
       | "mainnet"
@@ -70,8 +70,8 @@ export interface BlockchainAddress {
       | "pgn"
       | "zora"
       | "linea"
-      | "zksync-era"
-      | "polygon-zkevm"
+      | "zksync_era"
+      | "polygon_zkevm"
       | "scroll"
       | "mantle"
     )[],

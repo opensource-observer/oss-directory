@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: sablier
 display_name: Sablier
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x0298f4332e3857631385b39766325058a93e249f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -20,14 +20,14 @@ blockchain:
     name: Sablier
   - address: "0xadb944b478818d95659067e70d2e5fc43fa3ede9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: Sablier
   - address: "0xb1bef51ebca01eb12001a639bdbbff6eeca12b9f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -35,43 +35,43 @@ blockchain:
       - eoa
   - address: "0x17ec73692f0adf7e7c554822fbeaacb4be781762"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SablierV2Comptroller
   - address: "0xc245d6c9608769cef91c3858e4d2a74802b9f1bb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SablierV2NFTDescriptor
   - address: "0xa9efbef1a35ff80041f567391bdc9813b2d50197"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SablierV2LockupDynamic
   - address: "0x197d655f3be03903fd25e7828c3534504bfe525e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SablierV2LockupLinear
   - address: "0xf390ce6f54e4dc7c5a5f7f8689062b7591f7111d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SablierV2LockupDynamic
   - address: "0x2fb103fc853b2f5022a840091ab1cdf5172e7cfa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SablierV2NFTDescriptor
   - address: "0xfdd9d122b451f549f48c4942c6fa6646d849e8c1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SablierV2LockupLinear

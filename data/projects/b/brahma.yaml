@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: brahma
 display_name: Brahma
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xae75b29ade678372d77a8b41225654138a7e6ff1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -162,7 +162,7 @@ blockchain:
     name: unverified
   - address: "0xfbfdb1e0728f7f7631a27c19b40d5b0fbd21ab18"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

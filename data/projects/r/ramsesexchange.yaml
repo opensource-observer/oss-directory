@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ramsesexchange
 display_name: Ramses
 github:
@@ -6,25 +6,25 @@ github:
 blockchain:
   - address: "0xb1d7db9998356e876e44538d6372a8c94a6c6571"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0x9cf91d36146ab033bf0f6a605c8951527a22f8ba"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0x937effc10a3e6d1b92d8561697097fb984429ca4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0xcf2c2fdc9a5a6fa2fc237dc3f5d14dd9b49f66a3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -32,123 +32,123 @@ blockchain:
       - eoa
   - address: "0x000057b10855dedd84ec8869dbd75f94fda098b4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0xe9524a3635d1d417da7e317b42c41ca747292a01"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: TransparentUpgradeableProxy
   - address: "0xb3e423ab9ce6c03d98326a3a2a0d7d96b0829f22"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: RamsesDeployer
   - address: "0xaaa95622f8570389a9b62bf2ae541f3a313f93e3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesTransparentUpgradeableProxy
   - address: "0xaaa20d08e59f6561f242b08513d36266c5a29415"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesTransparentUpgradeableProxy
   - address: "0xaaa35aaea18b0187e82a3a7f2996c9ee7bad9696"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesTransparentUpgradeableProxy
   - address: "0xaa2cd7477c451e703f3b9ba5663334914763edf8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesTransparentUpgradeableProxy
   - address: "0xaaa343032aa79ee9a6897dab03bef967c3289a06"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesTransparentUpgradeableProxy
   - address: "0xa388d2ddb9ee3c4d84c04eaa396eadb3357d052d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ProxyAdmin
   - address: "0xc5d60d38064ce3c11bcac66e5f189166e40264ce"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesLGE
   - address: "0xaaaa0b6baefaec478eb2d1337435623500ad4594"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesTransparentUpgradeableProxy
   - address: "0xaaa2564deb34763e3d05162ed3f5c2658691f499"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesTransparentUpgradeableProxy
   - address: "0xaa277cb7914b7e5514946da92cb9de332ce610ef"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesTransparentUpgradeableProxy
   - address: "0xaaa6c1e32c55a7bfa8066a6fae9b42650f262418"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesTransparentUpgradeableProxy
   - address: "0xad426ab13bca2f0b8cd87689f643718150cedc12"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesLens
   - address: "0xaaa87963efeb6f7e0a2711f397663105acb1805e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesTransparentUpgradeableProxy
   - address: "0xaa2fbd0c9393964af7c66c1513e44a8caaae4fda"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesTransparentUpgradeableProxy
   - address: "0xaaa86b908a3b500a0de661301ea63966923a97b1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesTransparentUpgradeableProxy
   - address: "0xaaa1ee8dc1864ae49185c368e8c64dd780a50fb7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesTransparentUpgradeableProxy
   - address: "0x64b6b726c47eba266da090776b3170bb6eb100cc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RamsesV2Factory

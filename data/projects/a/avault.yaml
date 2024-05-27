@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: avault
 display_name: Avault
 github:
@@ -6,14 +6,14 @@ github:
 blockchain:
   - address: "0x41ba3387e1a5a592e27b9ee33935957ce5f872c1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - deployer
       - eoa
   - address: "0xbce212ea0474f464488e963e793010205175f123"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -57,7 +57,7 @@ blockchain:
     name: unverified
   - address: "0x7745d489dc858d07313bc18ba48930066c019590"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -70,7 +70,7 @@ blockchain:
     name: UOExecutorL2
   - address: "0xb89aadf84f118d59d5770e6fee9cf1b55244ea8b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -131,7 +131,7 @@ blockchain:
     name: UOExecutorL2
   - address: "0x38325f901a698af88d855f061d0fea70825856c5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

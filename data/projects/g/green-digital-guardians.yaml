@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: green-digital-guardians
 display_name: Green Digital Guardians
 github:
@@ -12,7 +12,7 @@ blockchain:
       - wallet
   - address: "0xdd8422da958d7b9773b033717eccce0fbb26ce01"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

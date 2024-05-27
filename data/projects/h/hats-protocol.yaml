@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: hats-protocol
 display_name: Hats Protocol
 github:
@@ -16,7 +16,7 @@ blockchain:
       - eoa
   - address: "0x3bc1a0ad72417f2d411118085256fc53cbddd137"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -31,19 +31,19 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - safe
       - wallet
   - address: "0x9d2dfd6066d5935267291718e8aa16c8ab729e9d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Hats
   - address: "0x850f3384829d7bab6224d141afed9a559d745e3d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Hats

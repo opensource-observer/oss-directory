@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: open-sea
 display_name: OpenSea
 github:
@@ -12,7 +12,7 @@ blockchain:
       - eoa
   - address: "0xfba662e1a8e91a350702cf3b87d0c2d2fb4ba57f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -26,7 +26,7 @@ blockchain:
       - eoa
   - address: "0x86d26897267711ea4b173c8c124a0a73612001da"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -41,7 +41,7 @@ blockchain:
     name: arr00.eth
   - address: "0x000000008924d42d98026c656545c3c1fb3ad31c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -84,14 +84,14 @@ blockchain:
     name: SignedZoneController
   - address: "0x00000000f9490004c11cef243f5400493c00ad63"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: ConduitController
   - address: "0x61b6f67f5f997dc31a050548285957fde1cf526d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -110,7 +110,7 @@ blockchain:
     name: unverified
   - address: "0x50075f151abc5b6b448b1272a0a1cfb5cfa25828"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -124,25 +124,25 @@ blockchain:
     name: ERC721SeaDrop
   - address: "0x498120aa6c73ae6af680b9dc01ce94a4a96a1a4c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ERC721SeaDropCloneable
   - address: "0xf97d88f82c0b23a45d1946214664577ace75ed25"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ERC721SeaDropCloneable
   - address: "0xa57b8e3c9310a47f72528067a3e58cd31e58022d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Conduit
   - address: "0x1e0049783f008a0085193e00003d00cd54003c71"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Conduit

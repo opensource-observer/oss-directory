@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: taterdao
 display_name: TaterDAO
 github:
@@ -13,7 +13,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

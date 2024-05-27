@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: dappnode
 display_name: DAppNode
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x53390590476dc98860316e4b46bb9842af55efc4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

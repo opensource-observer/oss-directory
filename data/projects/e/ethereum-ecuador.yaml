@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ethereum-ecuador
 display_name: Ethereum Ecuador
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x9ffa790731d0406b553f6fbd418a4580ec3e0269"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

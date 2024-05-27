@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: wido
 display_name: Wido
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x2313f80d53c649c7b2c9c4d101b796f34cbe80f3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x9b2ed3c2a92ad366ebf90bbcec31be231320ac26"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -22,7 +22,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x2fbab6fdc1b9236e74375ac4331f867967e6b309"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -30,14 +30,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x74436167012475749168f33324e84990c8013647"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x6196ac4c950817d23918bb643f4d315ebe0a09b1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -45,7 +45,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x919df3adbf5cfc9fcfd43198edfe5aa5561cb456"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -53,7 +53,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa2e08590f6f0ed44a65361defce090c00e8e6e10"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -68,7 +68,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x227f1f14213bece5c084c41fd73b9f4f7c48c108"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -76,7 +76,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x17000cdcccff2d0b2d8958ba40c751fa9b4be089"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -91,7 +91,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x0a8a3866c2e6fc7845aae1096d54ff9ff3afcf8d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -99,7 +99,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xb0fc7612bbe59ce5967bb418e7207cd176ca7681"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -107,7 +107,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x2f6427d6437d69a2a2ae5cc7cd6496fd4c170365"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -115,7 +115,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x039ba1b27d514ebda7a0e97aa77c62bcaeaca93b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VerifyingPaymaster

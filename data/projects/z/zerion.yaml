@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: zerion
 display_name: Zerion
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x161b29d1919d4e06b53ee449376181b5082b30b9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -14,14 +14,14 @@ blockchain:
       - eoa
   - address: "0x014040c6a9cd6366f8fa858535b7ddfac507db20"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - deployer
       - eoa
   - address: "0xd7f1dd5d49206349cae8b585fcb0ce3d96f1696f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -29,14 +29,14 @@ blockchain:
     name: Router
   - address: "0xd832cc2d05b42c687a1190c548395e8fa34011a1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: Router
   - address: "0xc629bf86f02ef13e8f1f5f75ade8a8165587998f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

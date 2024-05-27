@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: bond-protocol
 display_name: Bond Protocol
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x1a5309f208f161a393e8b5a253de8ab894a67188"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -70,7 +70,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x20b3834091f038ce04d8686fac99ca44a0fb285c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: CrossChainBridge
