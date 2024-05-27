@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: holonym-foundation
 display_name: Holonym
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xc8834c1fcf0df6623fc8c8ed25064a4148d99388"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - deployer
@@ -59,7 +59,7 @@ blockchain:
     name: Roots
   - address: "0xdf10310d2c72f5358b19bf6a7c817ec4570b270f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

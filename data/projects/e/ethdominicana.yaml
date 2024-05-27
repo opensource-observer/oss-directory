@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ethdominicana
 display_name: Ethereum Dominicana
 github:
@@ -13,7 +13,7 @@ blockchain:
   - address: "0xa9ac44f20dd34b183062f83788c44b6b060a7e3d"
     networks:
       - mainnet
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - safe
       - wallet
@@ -21,7 +21,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

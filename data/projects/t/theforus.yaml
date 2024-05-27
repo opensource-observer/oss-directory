@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: theforus
 display_name: The Forus
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x0daa1d7ec140f26fb1f8de77b355b72fbadf7f84"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

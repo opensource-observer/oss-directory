@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: xy-finance
 display_name: XY Finance
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x0132613b3a1061816f4661ad301612910e3cce0b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x33383265290421c704c6b09f4bf27ce574dc4203"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: XSwapper

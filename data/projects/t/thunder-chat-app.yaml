@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: thunder-chat-app
 display_name: Thunder Chat
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x8d92dc3a19bf44343b42f76ac91ed26ff69a2029"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

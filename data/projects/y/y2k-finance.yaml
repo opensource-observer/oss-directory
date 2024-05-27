@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: y2k-finance
 display_name: Y2K
 github:
@@ -6,83 +6,83 @@ github:
 blockchain:
   - address: "0xac0d2cf77a8f8869069fc45821483701a264933b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - deployer
       - eoa
   - address: "0x45aa9d8b9d567489be9defcd085c6ba72bbf344f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0xc3179ac01b7d68aed4f27a19510ffe2bfb78ab3e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: CarouselFactory
   - address: "0x984e0eb8fb687afa53fc8b33e12e04967560e092"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: VaultFactory
   - address: "0x9889fca1d9a5d131f5d4306a2bc2f293cafad2f3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: RewardsFactory
   - address: "0x225acf1d32f0928a96e49e6110aba1fdf777c85f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Controller
   - address: "0xaefd22d0153e69f3316dca9095e7279b3a2f8af2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LockRewards
   - address: "0xdff5d76a5ecd9e3190fe8974c920775c987c442e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ControllerGeneric
   - address: "0xc0655f3dace795cc48ea1e2e7bc012c1eec912dc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ControllerPeggedAssetV2
   - address: "0x442fd67f2ccf92ed73e7b7e4ff435835eca890c9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: CarouselFactory
   - address: "0xddfd1f17a80f088b9acf1aef0a86fbd181f361f3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ControllerGeneric
   - address: "0xbdaa858fd7b0dc05f8256330facb35de86283ca0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LockRewards
   - address: "0xe386e6a5238c32e3fc6f2202f42158cdd15eb514"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ControllerPeggedAssetV2

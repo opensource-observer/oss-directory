@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: trusted-seed
 display_name: Trusted Seed
 github:
@@ -7,7 +7,7 @@ github:
 blockchain:
   - address: "0xb604cda24cca1838428be7d40fcd830451c23a0e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

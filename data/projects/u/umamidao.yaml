@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: umamidao
 display_name: UmamiDAO
 github:
@@ -6,183 +6,183 @@ github:
 blockchain:
   - address: "0x7a53700c4d2dd1eb9809a63679a6a5b6c4e31d97"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0xa5674071fae436b646a6f9823f17fe4db2661054"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0x131b4e746ca5a5a8be68d2bb5f5a8533a4dd99c1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x7466bbde36975842851cbff8c67f9bbaa9c6ea24"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0xbb84d79159d6bbe1de148dc82640caa677e06126"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpETHVault
   - address: "0x7e23170807f3578971e8b37cf02d9ac13e49ec7b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UmamiOArbVester
   - address: "0x1922c36f3bc762ca300b4a46bb2102f84b1684ab"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MarinateAutoCompounder
   - address: "0xf2ad33e12a9780f1e42d878a29a3e0756008c838"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpETHbVault
   - address: "0xee57e7e3776e4868976f315e07a883955c9225d5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpUNIbVault
   - address: "0x2e2153fd13459eba1f277ab9acd624f045d676ce"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpUSDCVault
   - address: "0x44e5486e38f2164ab4694cd3ca6fab71dfdeeed2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: oArbMasterChef
   - address: "0xb0d9e1832bd973abd8f3b4d710ead21fcbefcb7c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpLINKbVault
   - address: "0x1622bf67e6e5747b81866fe0b85178a93c7f86e3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xf9b6b8db1cc623dfd484cbeccaa4f3e0e8bfee12"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MasterChefUmami
   - address: "0xdca4e88c00a8800ebcebad63abdbaaaa755557f9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpUSDCbVault
   - address: "0x37c0705a65948ea5e0ae1add13552bcad7711a23"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpUNIVault
   - address: "0x9491300d42f9b1929df4c1a3308f68a482b91a30"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MarinateReceiver
   - address: "0x0263eeb2ad6add69b635b66ebcb0cebca47ec931"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: oArbUmami
   - address: "0xc69adac3d27672c6907aae429eee3e69f76f7106"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AggregateVault
   - address: "0x83c19ec75d649aec7c99e2c6663ca055569da7c0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpBTCbVault
   - address: "0xe0a21a475f8da0ee7fa5af8c1809d8ac5257607d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpLINKVault
   - address: "0x727ed4ef04bb2a96ec77e44c1a91dbb01b605e42"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpUSDCVault
   - address: "0x891c4e52166a98ca7941e928b885c5b55e533e14"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OARBMasterChefUmami
   - address: "0xc442cdf1178dca7053c540d558f6a0596794ec06"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OARBVester
   - address: "0x6a89faf99587a12e6bb0351f2fa9006c6cd12257"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpBTCVault
   - address: "0xe474fcee7666f4b4754ef26d3f6bd18ffc1f7051"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OARB
   - address: "0xf6a675705ffb379659bb26ec2fd204bd9241c165"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: oArbVester
   - address: "0x2adabd6e8ce3e82f52d9998a7f64a90d294a92a4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MarinateV2
   - address: "0x14a3619f882f46e396085b02c68b602aa73343e9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UmamiOArb
   - address: "0xb00ecdf42fdc9dd5c65681385a60385f546cae32"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: 0x-splits
 display_name: 0xSplits
 github:
@@ -9,7 +9,7 @@ npm:
 blockchain:
   - address: "0x9ebc8e61f87a301ff25a606d7c06150f856f24e2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -18,7 +18,7 @@ blockchain:
       - wallet
   - address: "0x4df01754ebd055498c8087b1e9a5c7a9ad19b0f6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -26,7 +26,7 @@ blockchain:
     name: WaterfallModuleFactory
   - address: "0x2ed6c4b5da6378c7897ac67ba9e43102feb694ee"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -42,7 +42,7 @@ blockchain:
     name: LiquidSplitFactory
   - address: "0x0a2841630f198745a55c4dab3fe98f77271949e5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -57,7 +57,7 @@ blockchain:
       - wallet
   - address: "0xcbb386b801ec72a5ab02aeb723decd12f96ede41"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Recoup

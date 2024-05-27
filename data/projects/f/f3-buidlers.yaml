@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: f3-buidlers
 display_name: F3 Buidlers
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x479cba5a5c91fff90a696e448474bc396049d696"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

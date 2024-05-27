@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ethers-io
 display_name: ethers.js
 github:
@@ -8,7 +8,7 @@ npm:
 blockchain:
   - address: "0x8ba1f109551bd432803012645ac136ddd64dba72"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

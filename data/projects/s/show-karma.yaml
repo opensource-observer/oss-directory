@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: show-karma
 display_name: Karma
 github:
@@ -52,7 +52,7 @@ blockchain:
     name: showkarma.eth
   - address: "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

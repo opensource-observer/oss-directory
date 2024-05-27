@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: bit-btc-protocol
 display_name: BitBTC Protocol
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x3e579180cf01f0e2abf6ff4d566b7891fbf9b868"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -112,7 +112,7 @@ blockchain:
     name: RedEnvelope
   - address: "0xa61f98fd2bd043bb7c2d560b67204334b0641b92"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -120,7 +120,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x581ee9ad4a8f5767b0b17d3c350e4c01366004b6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

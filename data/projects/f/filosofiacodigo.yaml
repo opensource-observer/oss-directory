@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: filosofiacodigo
 display_name: FilosofiaCodigo
 github:
@@ -55,7 +55,7 @@ blockchain:
     name: RandomnessCeremony
   - address: "0xb6f5414bab8d5ad8f33e37591c02f7284e974fcb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

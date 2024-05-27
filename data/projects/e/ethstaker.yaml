@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ethstaker
 display_name: EthStaker
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xd165df4296c85e780509fa1eace0150d945d49fd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

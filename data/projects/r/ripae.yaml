@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ripae
 display_name: Ripae
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xda2d96eadab3671d9dfc6b2901aa85e99f8f0eb3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - deployer
@@ -45,7 +45,7 @@ blockchain:
     name: GenesisRewardPool
   - address: "0xa60b1b4b4518b2eb719742e66d64821a5bd07e18"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

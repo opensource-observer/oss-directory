@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: urbanika
 display_name: Urbanika
 github:
@@ -12,7 +12,7 @@ blockchain:
       - wallet
   - address: "0x0442a9abbc93058a873c371f21cc366338254a88"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

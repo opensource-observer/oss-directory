@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: us3r-network
 display_name: US3R Network
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xee3ca4dd4ceb3416915eddc6cdadb4a6060434d4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: nested
 display_name: Nested
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xb7eb3f6a9abcae7559484fb126b8f872781cf9dd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -21,7 +21,7 @@ blockchain:
     name: OwnerProxy
   - address: "0x25fd6e8940b6fd0a5ec3b1c45216a3eb2dcd707e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -29,7 +29,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x74afada131db545df782d196c8736d97593fd330"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -45,14 +45,14 @@ blockchain:
     name: OwnerProxy
   - address: "0x6692de0c00dbb510ecb569700a423f2668f308a4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: NestedFactory
   - address: "0x6bdc58d3287176b40ad2243ec0cf35f33f2119da"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -65,7 +65,7 @@ blockchain:
     name: Withdrawer
   - address: "0xf81072908070a0f290ef149e3a93187ad1daf449"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -91,7 +91,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xbd847b0bd0f78f46176dbab7b187ce2934ad6171"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -99,7 +99,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xe8ec1a3a637c47d2a17378eb199b523bc2742272"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -131,7 +131,7 @@ blockchain:
     name: unverified
   - address: "0x27f80488078bc485c9cf5a989fcbab27d561ced9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -151,7 +151,7 @@ blockchain:
     name: NestedRecords
   - address: "0xdfcfe6ad28c18f4078b9f0d52017c406ec033064"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -159,7 +159,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x40c6e25b2b7cf95afd323905ecb4901eed31043a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -180,7 +180,7 @@ blockchain:
     name: NestedFactory
   - address: "0x9a065e500cdcd01c0a506b0eb1a8b060b0ce1379"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -200,7 +200,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa91be36cc6ef0013046b0b0fd65fed842b11edf1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -208,7 +208,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xf84d9a7ed9a885f5d81d6de6476b58682fc9a6d2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -228,7 +228,7 @@ blockchain:
     name: OperatorScripts
   - address: "0x61634a46e6e58581253452844bc0c82bda7d46a5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -242,7 +242,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x449d088c9f184af598fe72d26742a58a11c5200f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

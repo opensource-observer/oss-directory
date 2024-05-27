@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: opensensepw
 display_name: OpenSense
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x798bc384e20d5d16987a07487fc695985f1742c5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

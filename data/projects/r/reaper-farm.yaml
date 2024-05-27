@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: reaper-farm
 display_name: Reaper Farm
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x1e71aee6081f62053123140aacc7a06021d77348"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - deployer
@@ -19,7 +19,7 @@ blockchain:
       - eoa
   - address: "0x4c3490df15edfa178333445ce568ec6d99b5d71c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - deployer
@@ -845,7 +845,7 @@ blockchain:
     name: ReaperVaultv1_4
   - address: "0x56fd6d268334741c7d56464dd5b01f6132972818"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

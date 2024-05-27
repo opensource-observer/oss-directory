@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: blockhead-darryl-yeo
 display_name: Blockhead
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x048669c431230a9a8298b7ec045f1e1137827cca"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

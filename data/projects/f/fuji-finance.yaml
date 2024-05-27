@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: fuji-finance
 display_name: Fuji Finance
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x4325018916b082b91e277c7165fd8da6467b71f8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0xb98d4d4e205aff4d4755e9df19bd0b8bd4e0f148"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - deployer
@@ -167,7 +167,7 @@ blockchain:
     name: ConnextRouter
   - address: "0x1cbf7f06c04226488b4d5b2d5ea5c8b965130500"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -182,14 +182,14 @@ blockchain:
     name: ConnextRouter
   - address: "0x60a048475ee20d8fce3ef18d4134d4be7771c204"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x4dcc76fffd9b8345b8daa15414fbd787a3b226db"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -203,7 +203,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xddadb5dca827f8d59000d610e456630695928660"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -229,7 +229,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x190b9e10c3a02896386be180767cf6e89df5e798"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -249,14 +249,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x48cdd2531b35cfa35061125ce977d796571e4627"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x749a2a8850c1861afa1003d876d90c9b730ca58e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -276,7 +276,7 @@ blockchain:
     name: unverified
   - address: "0x03e074bb834f7c4940dfde8b29e63584b3de3a87"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -296,7 +296,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xac9448604f09b9e16c5e99d298e54c055bbbe983"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -309,7 +309,7 @@ blockchain:
     name: RebalancerManager
   - address: "0xfef427628770136f1b9b3252b05f6b06a7754f3b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -329,7 +329,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa9c29ea1a067740be6db1f98fcba0043c475041a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -342,7 +342,7 @@ blockchain:
     name: DForceOptimism
   - address: "0x3e57e261f1420f11688783534dd4a462a6b63bbc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -363,21 +363,21 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xb41fd44a65bb5e974726cfe061b6d20f224b2671"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xaab2aafbff7419ff85181d3a846ba9045803dd67"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x76e77921341e4414e60bde4a3f56822c70e3adf6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -385,14 +385,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x645c72e90ef4d56c6a37802024467170a618f3e9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x66211ab72fb0a06e9e6ed8b21aa3c1a01f171521"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -405,7 +405,7 @@ blockchain:
     name: WePiggyOptimism
   - address: "0x07d1c8e181a1b8694d43577656fddf53df9afc20"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -418,14 +418,14 @@ blockchain:
     name: BorrowingVaultUpgradeable
   - address: "0xdc0f52145292e8191befcb427ae5c6d1ad47dbc6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x4b62c0369a13b68f75bbbda9fd91ba8270ca4862"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -450,7 +450,7 @@ blockchain:
     name: DForceOptimism
   - address: "0x88ed3b8d03e5a70bf23286872b24cffd76e91922"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -458,7 +458,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x43b007888191ad30aa4548599a7bf5fa8cbd90f9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -501,20 +501,20 @@ blockchain:
     name: RebalancerManager
   - address: "0x7ae316c62d04f150ccd31ae49155e408c6079025"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: F2FujiVault
   - address: "0xc79fcb669b505b5217c477974a1a8f5c86c3de66"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2bb069a248ba1c62062143462ae7bdb5c4360e3d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BorrowingVaultBeaconFactory_arbitrum

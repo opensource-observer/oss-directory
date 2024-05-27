@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: data4builders
 display_name: Data4Builders
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xadfb64b185d25859bee3360690c9fecd3341e2b8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

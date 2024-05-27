@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: eth-rebuild
 display_name: Eth-Rebuild
 github:
@@ -8,7 +8,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

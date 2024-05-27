@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: defiedge
 display_name: Defiedge
 github:
@@ -12,14 +12,14 @@ blockchain:
       - eoa
   - address: "0x9645fcdc4f740fde63388bdda9b7bddcde99c9cc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0xe50952b00178e09e3773b26429832abf34697339"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -27,7 +27,7 @@ blockchain:
       - eoa
   - address: "0x001530e763fe9de4dcfe31bbd8548bcb579ebf3a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -49,7 +49,7 @@ blockchain:
     name: unverified
   - address: "0x2dfa59576583f1dc2df3f8d9e375af8d47bb846e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -64,7 +64,7 @@ blockchain:
     name: DefiEdgeStrategyDeployer
   - address: "0x8acc13002cbeaa31339b792b8f554842b88da7f1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -79,7 +79,7 @@ blockchain:
     name: unverified
   - address: "0xe1fd038cbe37475faab39c9d676d9daeaa47da0c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -123,7 +123,7 @@ blockchain:
     name: DefiEdgeStrategyFactory
   - address: "0x96123f8480d565c8946023892831bf4bb40dcc87"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -131,7 +131,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1f5ec2fa88d2d28dcf1dcdbd192bae5df8dff736"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -139,7 +139,7 @@ blockchain:
     name: unverified
   - address: "0x3f2186f1057cec50b52238490b71ae5ce95441ef"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -169,28 +169,28 @@ blockchain:
     name: unverified
   - address: "0x006b61675a64027144c9eb7cb628becbd14aafa4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: DefiEdgeTwapStrategyDeployer
   - address: "0xe1f2331b70ed2dc3723e4e282ec30ecb11359c81"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: WrapperFactory
   - address: "0xbd6df46aa3cbed7c23e6f844a2db9b1d12cbe033"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: DefiEdgeStrategyDeployer
   - address: "0xe43b4cde662165ba1f646022e7d41aade8993b11"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -198,7 +198,7 @@ blockchain:
     name: unverified
   - address: "0x866331abe0546eb2ceda4cb5d528de718b2b7a6d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -206,14 +206,14 @@ blockchain:
     name: unverified
   - address: "0x28977a96894af29f582c6e1281a5ec74ecdc911d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x65028b18ee8216100e1edbb66ef7dd77192f1575"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -245,7 +245,7 @@ blockchain:
     name: MiniChefV2
   - address: "0x5bb95d1b824bddd1e7fbf6e011ed3bc21dcbcf11"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -253,7 +253,7 @@ blockchain:
     name: unverified
   - address: "0x61622417f3c3a7f6b29784ec1a5297bae6eeafc4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -261,14 +261,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xe54bfe6018cbaeaf844b0083147af68d48367b63"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x055405f46344447efd7f771c747a5d09a81413fd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -300,7 +300,7 @@ blockchain:
     name: MiniChefV2
   - address: "0x98b9b1903f14c59b9f86041512ea9284b63205f8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -314,7 +314,7 @@ blockchain:
     name: unverified
   - address: "0x7deb95eb81b25e50400271b478b5766bf74579c2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -327,7 +327,7 @@ blockchain:
     name: unverified
   - address: "0x1be6a71b0fec6b1071714c2390e306655e91512b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -353,14 +353,14 @@ blockchain:
     name: unverified
   - address: "0x3c8d158e8a44b52418515dc37be75af286bfccdd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x3171ba3acfa9a4858549ca508a66d63e3f820edb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -373,28 +373,28 @@ blockchain:
     name: unverified
   - address: "0xda1cee888a5c917e4ce671b41fcd9e75bba07922"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0xbae41647fe77244a2cfcffdbad3e0052ab7b5e5b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0xe28232728e3eb11b4512b3901c61b6a7ea35fc1b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0xa2eb3223c24b1246fd38e9b20b8ae564fd5c9700"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -419,7 +419,7 @@ blockchain:
     name: unverified
   - address: "0xe8e151a8138a914862c6e34b797e809f8eb8491f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -432,19 +432,19 @@ blockchain:
     name: MiniChefV2
   - address: "0xbc805030469c36a483713efaf9ffc8f0e8a81aed"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DefiEdgeStrategyFactory
   - address: "0x7d55d4ff054f5e2b748ea2cf0765fbfba7ae222f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: defiedge_chainlink_factory
   - address: "0x4082c6aef2cc2e478e624f6ac89dd6e8e0483b90"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: defiedge_twap_factory

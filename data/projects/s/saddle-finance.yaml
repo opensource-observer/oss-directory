@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: saddle-finance
 display_name: Saddle Finance
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x979b44cfc7a9b54bed8a3c4fd674b09c194219fd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x5bdb37d0ddea3a90f233c7b7f6b9394b6b2eef34"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -81,7 +81,7 @@ blockchain:
     name: MetaSwap
   - address: "0xbea9f78090bdb9e662d8cb301a00ad09a5b756e9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -89,7 +89,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa5bd85ed9fa27ba23bfb702989e7218e44fd4706"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
@@ -97,14 +97,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xb2a2764d0dcab445e24f4b813be3f6ef8ae5f84d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: MetaSwap
   - address: "0xf8504e92428d65e56e495684a38f679c1b1dc30b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
@@ -112,14 +112,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x5dd186f8809147f96d3ffc4508f3c82694e58c9c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: MetaSwap
   - address: "0x401afbc31ad2a3bc0ed8960d63efcdea749b4849"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
@@ -127,7 +127,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xfeea4d1bacb0519e8f952460a70719944fe56ee0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
@@ -141,7 +141,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4f6a43ad7cba042606decaca730d4ce0a57ac62e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -169,7 +169,7 @@ blockchain:
     name: MetaSwapDeposit
   - address: "0xcf70e2f3567ba396f3dd04822f78ecd70ba46894"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -238,7 +238,7 @@ blockchain:
     name: PermissionlessSwap
   - address: "0x19a5ec09ee74f64573ac53f48a48616ce943c047"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -246,79 +246,79 @@ blockchain:
     name: Vyper_contract
   - address: "0x1e491122f3c096392b40a4ea27aa1a29360d38a1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPToken
   - address: "0x721dac7d5acc8aa62946fd583c1f999e1570b97d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPToken
   - address: "0x166680852ae9dec3d63374c5ebf89e974448bfe9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPToken
   - address: "0xa815b134294580692482e321dd1a191ac1454192"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPToken
   - address: "0x38262c17a06a6b3588d3e5b70dfa768c06bf4ef1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PoolRegistry
   - address: "0x896935b02d3cbeb152192774e4f1991bb1d2ed3f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPToken
   - address: "0x0a20c2ffa10cd43f67d06170422505b7d6fc0953"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPToken
   - address: "0xc969dd0a7ab0f8a0c5a69c0839db39b6c928bc08"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPToken
   - address: "0xab94a2c0d8f044aa439a5654f06b5797928396cf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MasterRegistry
   - address: "0x18d2469a9788fafd0df277a0044da5ea637a3760"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MetaSwapDeposit
   - address: "0xc8dfcfc329e19fdaf43a338ad6038dba02a5079b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MetaSwapDeposit
   - address: "0xdca5b16a96f984ffb2a3022cff339eb049126101"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MetaSwapDeposit
   - address: "0x1d434f50acf16ba013be3536e9a3cdb5d7d4e694"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MetaSwapDeposit

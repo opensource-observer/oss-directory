@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: powerpool-finance
 display_name: powerpool-finance
 github:
@@ -6,21 +6,21 @@ github:
 blockchain:
   - address: "0x29bff390fc12c900aaf0f2e51c06675df691337a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - deployer
       - eoa
   - address: "0x8ecece9ee4582d614875cc7c2b81c7e808d617f5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: ProxyBuilder
   - address: "0xad1e507f8a0cb1b91421f3bb86bbe29f001cbcc6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TransparentUpgradeableProxy

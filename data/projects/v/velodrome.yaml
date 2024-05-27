@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: velodrome
 display_name: Velodrome
 github:
@@ -26,7 +26,7 @@ blockchain:
       - eoa
   - address: "0x51cc12e6a4fccbcd6eb6f1c5905263edc5578c5f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - deployer

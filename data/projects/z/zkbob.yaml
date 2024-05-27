@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: zkbob
 display_name: zkBob
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x73dce9348a03975415c6fa5296e71c1abae61407"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

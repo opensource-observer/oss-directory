@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: loanshark
 display_name: Loanshark
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x7d658841f8ba93299970f6e765c2ce205f1e70dd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

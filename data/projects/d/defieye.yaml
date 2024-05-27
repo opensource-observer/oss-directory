@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: defieye
 display_name: DeFiEye
 github:
@@ -20,7 +20,7 @@ blockchain:
       - wallet
   - address: "0x00000000000007736e2f9aa5630b8c812e1f3fc9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -30,7 +30,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet
@@ -38,7 +38,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

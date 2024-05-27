@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: beamer-bridge
 display_name: Beamer Bridge
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x42405d66fda09dbdac90ff25fc5a4c2353f43e70"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x068053f77e321c8828f5fea91b6917011b1a77fe"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -22,7 +22,7 @@ blockchain:
       - eoa
   - address: "0x62249fcb288f0a4734072ab899b926ef9845bc8f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -66,7 +66,7 @@ blockchain:
     name: FillManager
   - address: "0x85267688ce7677d69d75f288ff3064431030af9f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -316,7 +316,7 @@ blockchain:
     name: unverified
   - address: "0xa6faeee4df263cab9be09b747f4be760940c884a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -441,7 +441,7 @@ blockchain:
     name: FeeSub
   - address: "0x843e83e1e4d3dbb7240330d5086c4f62ecf1ca3c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -449,14 +449,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x9208242fc2148a21737d73de036c6a5b1e934db5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x71f64aeb9bfcca42ed6768a5ff30b624c4a3e72e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -464,7 +464,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xdedf727f56a19d536e1fbbd1181fe1a7af1b57b6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -472,7 +472,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa120ac2dcd06903bf812f1c2671d00a16fde4d64"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -485,46 +485,46 @@ blockchain:
     name: MintableToken
   - address: "0x6d00f6994f36ec1a3bd008dbbc84dfa46a939001"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RequestManager
   - address: "0x913b5ac7e1124ea3429593193bf44eb967fb7658"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x8868eded0b126f0c9bd3388a3003f13fb91c31bb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ArbitrumL2Messenger
   - address: "0x27f72b9745cde0fbafe0a0d1119d75f4082bfc47"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x13baf73f48fcf6a8aab8431ca3a38c624cdfd8f3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x8e3823e77492182ea7d3baf6b240c16a446fd863"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ArbitrumL2Messenger
   - address: "0xef169821403d13345e2b24450601567cd1d781a7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract

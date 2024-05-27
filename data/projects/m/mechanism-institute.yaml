@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: mechanism-institute
 display_name: Mechanism Institute
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x4cd6b4503d02973d78cff59c9c56f5f378688274"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

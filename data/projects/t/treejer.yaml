@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: treejer
 display_name: Treejer Protocol
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x81c776d0d7f7d9d3699851993ecaa88a46187f11"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

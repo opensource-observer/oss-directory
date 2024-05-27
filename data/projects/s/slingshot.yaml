@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: slingshot
 display_name: Slingshot
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x44045fd5d3840fec51b76fb6a87cbcda735a8629"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -37,7 +37,7 @@ blockchain:
     name: unverified
   - address: "0x9629c505ed89111530a0766a4ff4b20cab535d04"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -52,7 +52,7 @@ blockchain:
     name: unverified
   - address: "0x71c9ac784513fd58ee174ee851e993afeda1a0b1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -60,7 +60,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xe31fe9ee0828f255ec3179b45bbdc5f6076e550d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -100,7 +100,7 @@ blockchain:
     name: unverified
   - address: "0x58df0e225033227c0a376d45e4e950fcf3bc9519"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -108,7 +108,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x2efbd59c43cb1716f08ebcd132314d32a74a5d95"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -147,14 +147,14 @@ blockchain:
     name: unverified
   - address: "0x831d6c0a82c3c734a55e80029b1b4e2a04ed3fd0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x8a1d036be71c9c4a6c3d951cc2a3ee028d12d3fa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -162,7 +162,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xbddbc5d14e977b1a4f65ecaa977f2c192e3df903"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -175,7 +175,7 @@ blockchain:
     name: unverified
   - address: "0x8f12491f3f067b8570cfb75f95f8c79b62bea438"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -190,7 +190,7 @@ blockchain:
     name: unverified
   - address: "0x20ea267fea6502cedf46020486443ac416276bac"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -205,7 +205,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x2c0677636cec1852f992a4cc3ff5e4691253ba77"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -251,14 +251,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x407da3e66095e28852774d5b88a575d75fdc6af4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x92a4cbfe0013153e70d2b1f9c5a07beb8aaad097"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -299,7 +299,7 @@ blockchain:
     name: unverified
   - address: "0x93a753891d6d32c56c6557a2015de238a3830556"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -340,7 +340,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x965a25cfbbe8185246f4d96b80cc4dc860546f1a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -379,7 +379,7 @@ blockchain:
     name: unverified
   - address: "0x59b344fdb56887b91ac2e6c3cd820f26cfb6d128"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -387,7 +387,7 @@ blockchain:
     name: unverified
   - address: "0x0909256fd0f4f450fb2cb770ed4bec23d36c163c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -406,21 +406,21 @@ blockchain:
     name: unverified
   - address: "0x56cce1ebe7b640fc7bd56710cc0c453d282ff927"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xfd555512d1e5eceb74335521dd696555ea81ea93"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xe8c97bf6d084880de38aec1a56d97ed9fdfa0c9b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: cosmosforhumanity
 display_name: Cosmos for Humanity | C4H
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x65ad2bf7e09af2597c140df6386a3003d0f5f8ee"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

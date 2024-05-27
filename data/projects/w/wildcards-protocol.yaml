@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: wildcards-protocol
 display_name: Wildcards Protocol
 github:
@@ -21,7 +21,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

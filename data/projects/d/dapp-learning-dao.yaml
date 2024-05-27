@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: dapp-learning-dao
 display_name: Dapp-Learning
 github:
@@ -18,7 +18,7 @@ blockchain:
       - wallet
   - address: "0x1f7b953113f4dfcbf56a1688529cc812865840e1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

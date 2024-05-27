@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: geo-web
 display_name: Geo Web
 github:
@@ -121,7 +121,7 @@ blockchain:
       - wallet
   - address: "0xde798cd9c53f4806b9cc7dd27adf7c641540167c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

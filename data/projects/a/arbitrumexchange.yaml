@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: arbitrumexchange
 display_name: ArbiDex
 github:
@@ -6,104 +6,104 @@ github:
 blockchain:
   - address: "0x2084e8ecdca037e4751a8ead62ebd324425ff3f8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0xe89db1bde3a3a996db0e0db915455ba7f4b4b895"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0x9aa54193aa3b23262e737c853e93e6b364a987a4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0x086cdb9aa631270f4d14e9360735eee86c6505e9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: SmartChefFactory
   - address: "0x3e48298a5fe88e4d62985dff65dee39a25914975"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ArbiDexRouter
   - address: "0xee1d57ace6350d70e8161632769d29d34b2fbfc8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ARXPool
   - address: "0x6d6da6f5d018341899187ed0a9f38790bd92af3d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TimelockController
   - address: "0x489732e4d028e500c327f1424931d428ba695df6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ARXFlexiblePool
   - address: "0xc2989cbdb414d2ff3bde98c95836f52ddcac13e7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeefyVaultV6_USDCe
   - address: "0xc0a1b0ae9ee6c065e6cb2c302784697513d9a3d1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeefyVaultV6_GNS
   - address: "0xd2bcfd6b84e778d2de5bb6a167ecbbef5d053a06"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MasterChef
   - address: "0x494203aa41ac067beb684912ad546d113925a13b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeefyVaultV6_WBTC
   - address: "0xda594c20925712d60d0e7f8d70c9b8586bcd353f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeefyVaultV6_ARB
   - address: "0x86b89ce3190724e370313a63d528f444627575b8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeefyVaultV6_CGLD
   - address: "0xd5954c3084a1ccd70b4da011e67760b8e78aee84"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ArxToken
   - address: "0x5bfb6a5c42cc12fde7f846d133bde8e58db8aa24"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StrategyCommonChefSingle_WBTC
   - address: "0xd0d55b4c435823c1c2f4ed83877dc5b6e6e6200a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeefyVaultV6_WETH

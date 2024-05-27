@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: pwnfinance
 display_name: PWN
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x0cfc62c2e82da2f580fd54a2f526f65b6cc8d6de"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -14,14 +14,14 @@ blockchain:
       - eoa
   - address: "0x706c9f2dd328e2c01483ecf705d2d9708f4ab727"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: PWNDeployer
   - address: "0x57c88d78f6d08b5c88b4a3b7bbb0c1aa34c3280a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PWNSimpleLoan

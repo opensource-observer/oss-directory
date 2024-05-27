@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: arrakis-finance
 display_name: Arrakis Finance
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x8a598f5629d3e6a8747afbfd6b9b982a2d1078a1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0xaa2e0c5c85acb7717e58060ab3c96d2b184ee07c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -22,7 +22,7 @@ blockchain:
       - eoa
   - address: "0x88215a2794ddc031439c72922ec8983bde831c78"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -30,7 +30,7 @@ blockchain:
       - eoa
   - address: "0x2845c6929d621e32b7596520c8a1e5a37e616f09"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -38,7 +38,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xecb8ffcb2369ef188a082a662f496126f66c8288"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -47,7 +47,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x055b6d3919042be29c5f044a55529933e1273a88"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -56,7 +56,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x51da89df572633d2baf6a9260d3d5a1f0d146747"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -75,7 +75,7 @@ blockchain:
     name: EIP173Proxy
   - address: "0x2ff5d1da4985113f467bbbff015e76ce8ab05f29"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -101,7 +101,7 @@ blockchain:
     name: EIP173Proxy
   - address: "0xb9bb2856e0af9d3e855b0173a40059fc29b632da"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -109,7 +109,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xe03311d30bdeb60511bae8de135c6524b9576b2e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -189,7 +189,7 @@ blockchain:
     name: EIP173Proxy
   - address: "0xd158ccfabef917ae2f01e454d07e1f2055e44c79"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -233,7 +233,7 @@ blockchain:
     name: EIP173Proxy
   - address: "0xb9bfd9807ef39821beaeab51acdf32e23e195b5d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -259,7 +259,7 @@ blockchain:
     name: EIP173Proxy
   - address: "0x336649aeb266f3182d63f4fad7b3cf0dba15f4c8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -312,7 +312,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x5c00be319ecf60ec35d00094d192e97becb4d06c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -375,7 +375,7 @@ blockchain:
     name: ArrakisFactoryV1
   - address: "0xd68b055fb444d136e3ac4df023f4c42334f06395"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -407,7 +407,7 @@ blockchain:
     name: EIP173Proxy
   - address: "0xaf0f96e8702cb1b8160e43c8c020c608cd7b134d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -415,7 +415,7 @@ blockchain:
     name: ArrakisV2
   - address: "0x26673a336a720532ebf1d225bfc7092772b3b775"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -423,7 +423,7 @@ blockchain:
     name: ArrakisV2Factory
   - address: "0x0a7d53ff9c56a3bd6a4a369f14ba3ba523b3013e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -431,7 +431,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xecf6a02a8bfc046ff75e893d8a5ae993b069c38f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -475,7 +475,7 @@ blockchain:
     name: EIP173Proxy
   - address: "0x25e9b0576f92d431882f158bb8fb4ac47bdd7b96"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -483,7 +483,7 @@ blockchain:
     name: RouterSwapExecutor
   - address: "0xc00e8acb7d8caaa1a9338cc42875097c319b7b19"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -491,7 +491,7 @@ blockchain:
     name: ProxyAdmin
   - address: "0xfe3d837317d420e9c40c30dcb49892ad9ef15e3d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -499,7 +499,7 @@ blockchain:
     name: ArrakisV2Router
   - address: "0x4bc385b1ddf0121cc40a0715cfd3befe52f905f5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -507,7 +507,7 @@ blockchain:
     name: ArrakisV2Resolver
   - address: "0xdf4433a2b8850c49c2ef2cff6447637002d8d8dd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -515,7 +515,7 @@ blockchain:
     name: ProxyAdmin
   - address: "0x3522df5c13a40dfaa9cec17e12f5fbd29dc811e1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -523,7 +523,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x8eebba5f7f433a8afd2794eabd6a7fc9bb92856e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -531,7 +531,7 @@ blockchain:
     name: PALMManager
   - address: "0x4cd41204aa4c7438374256bd7be850ef9fcfab84"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -539,7 +539,7 @@ blockchain:
     name: Pool
   - address: "0xf7cb77c8dcb22a1bb4435932f3515319721faf44"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -547,7 +547,7 @@ blockchain:
     name: Position
   - address: "0xf90aafabb1a4c0ce318be12da73f0f31fabe865d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -555,7 +555,7 @@ blockchain:
     name: ArrakisV2Factory
   - address: "0xbd39e85499944556300b93851e01082ca17ce78e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -563,7 +563,7 @@ blockchain:
     name: PALMTerms
   - address: "0xca0e1b56007df7d22214aa584678618b3be96a25"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -571,7 +571,7 @@ blockchain:
     name: Pool
   - address: "0x8e0cfa182425ae40774a4a9a25af25bfe5b3d511"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -579,7 +579,7 @@ blockchain:
     name: PALMManager
   - address: "0x891e7e4baffef0ef7bc4b1e85d122bdd7363b8b3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -587,7 +587,7 @@ blockchain:
     name: ArrakisV2Beacon
   - address: "0x89dc63264dab74a4350d7f44bd62eec3b22c9ca0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -595,7 +595,7 @@ blockchain:
     name: ProxyAdmin
   - address: "0xb041f628e961598af9874bcf30cc865f67fad3ee"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -603,7 +603,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x92cb4f7e4cb623e73d5ec84a43669adc757c2bd2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -611,7 +611,7 @@ blockchain:
     name: Underlying
   - address: "0x8638fbd429b19249bb3bcf3ec72d07a657e49642"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -619,7 +619,7 @@ blockchain:
     name: Position
   - address: "0xccee73ea4c7a42491c68fea78b1bddd1a35c8d9c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -627,7 +627,7 @@ blockchain:
     name: ArrakisV2Helper
   - address: "0x50763a665dc24692e25ec8e2c203a79e602d2890"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -635,7 +635,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x89e4be1f999e3a58d16096fbe405fc2a1d7f07d6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -643,7 +643,7 @@ blockchain:
     name: ArrakisV2Helper
   - address: "0x6ac8bab8b775a03b8b72b2940251432442f61b94"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -651,7 +651,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x65b87a8a6c173d9ffde1f4c1d97187820495c515"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -659,7 +659,7 @@ blockchain:
     name: PALMTerms
   - address: "0xb11bb8ad710579cc5ed16b1c8587808109c1f193"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -667,7 +667,7 @@ blockchain:
     name: ArrakisV2Resolver
   - address: "0xf90ec87ba0ba9ac92f5374f112740ce291b8877e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -675,7 +675,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x39b9891ba3c5a8fe69c19f54db2fd90a483b780a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -683,7 +683,7 @@ blockchain:
     name: Underlying
   - address: "0xd0db41560276832c78ea7b8fe0620feeea9c0d8a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -691,7 +691,7 @@ blockchain:
     name: ProxyAdmin
   - address: "0x07d2ceb4869dfe17e8d48c92a71edc3ae564449f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -699,7 +699,7 @@ blockchain:
     name: ArrakisV2Helper
   - address: "0x453f7d013ca100ade3ab77e007ffcfbdf753857c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -707,7 +707,7 @@ blockchain:
     name: ArrakisV2Factory
   - address: "0x2ce9e840b69a86c965f4d732e39e389fe69fda51"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -715,7 +715,7 @@ blockchain:
     name: RouterSwapResolver
   - address: "0xec0634d79e67ce143b71f0dc8ee74cdf798a6fa7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -723,7 +723,7 @@ blockchain:
     name: ProxyAdmin
   - address: "0x1d91f6d917ec51de53a5789c34fff777a58759b6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -731,7 +731,7 @@ blockchain:
     name: ArrakisV2Beacon
   - address: "0x535c5fdf31477f799366df6e4899a12a801cc7b8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -739,7 +739,7 @@ blockchain:
     name: ArrakisV2Resolver
   - address: "0xe1de7bd72a568f66e60ed17570fbd725205b4baf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -747,7 +747,7 @@ blockchain:
     name: ProxyAdmin
   - address: "0x7f346f1eb7a65ff83f51b3fd76dcc70979e6df38"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -755,7 +755,7 @@ blockchain:
     name: ArrakisV2
   - address: "0x3b8d59e7048c8efe3492d23e4dae1967fbbc0988"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -763,7 +763,7 @@ blockchain:
     name: Underlying
   - address: "0x64ab6c28423bd60611199a01c6720a0576d9a9fa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -771,7 +771,7 @@ blockchain:
     name: SimpleManager
   - address: "0xb5c3b286dd591282fe87dfab0613488e1b6b09ba"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

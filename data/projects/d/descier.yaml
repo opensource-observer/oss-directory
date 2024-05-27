@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: descier
 display_name: deScier
 github:
@@ -15,7 +15,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

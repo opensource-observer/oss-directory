@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: unit-blocktree-toknowwhy
 display_name: UNIT & Blocktree
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xa3e3e7277d4eba425eb4e51bc2a2dd50f853ec9c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: jiffy-labs
 display_name: JiffyScan
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xdd347ad6aa6d26ae6840ed3574e6ce4b0e002066"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - eoa

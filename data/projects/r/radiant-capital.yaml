@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: radiant-capital
 display_name: Radiant
 github:
@@ -6,239 +6,239 @@ github:
 blockchain:
   - address: "0x47399364835b6c58191f6350bf63a755f80b0ffb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0x7759124915160e94c77ece5b96e8a7fcec44aa19"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0x43aa90c66b88ff904adc195987c0f3e3b09be0f1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - deployer
       - eoa
   - address: "0xe51dfe7188d0b9a84141ff47d04ab07aeb82b89d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: InitializableImmutableAdminUpgradeabilityProxy
   - address: "0xe21b295ed46528efd5f3ef66e18bc6ad1c87f003"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: LendingPoolAddressesProvider
   - address: "0x7130b521c0e361626eceb353455bcddcbebdb121"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: InitializableImmutableAdminUpgradeabilityProxy
   - address: "0x091d52cace1edc5527c99cdcfa6937c1635330e4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: LendingPoolAddressesProvider
   - address: "0xc23ad41516b6892bb304ada420c84933096188b8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LockerList
   - address: "0xff785de8a851048a65cbe92c84d4167ef3ce9bac"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AaveOracle
   - address: "0x48a29e756cc1c097388f3b2f3b570ed270423b3d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: InitializableImmutableAdminUpgradeabilityProxy
   - address: "0x2032b9a8e9f7e76768ca9271003d3e43e1616b1f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: InitializableImmutableAdminUpgradeabilityProxy
   - address: "0x47a9f664fe89387c09eae0b0e171734ce0aea8b7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ProxyAdmin
   - address: "0x987553cfa824b6afe80191723abee285e86f273f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ATokensAndRatesHelper
   - address: "0x0c4681e6c0235179ec3d4f4fc4df3d14fdd96017"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RadiantToken
   - address: "0xebf9746af2c757a20db467b007f4fa6317385e9a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WETHGateway
   - address: "0xe10997b8d5c6e8b660451f61accf4bba00bc901f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MiddleFeeDistribution
   - address: "0x75206c2a29b646706c8856df0e8acaea38921bad"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: QuickLock
   - address: "0xfc05ec21b106e0c1e035ec4718c1394f098fbb57"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BalancerPoolHelper
   - address: "0x0b6f135db3a621ab9041ac261276d8f38e1dc7a9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Timelock
   - address: "0x90abacec5deeff349223eea076c946c2a630b672"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BountyManager
   - address: "0xf4b1486dd74d07706052a33d31d7c0aafd0659e1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: InitializableImmutableAdminUpgradeabilityProxy
   - address: "0x9441fcd3e538a84e122ac6ffe3c07417cbe51dc9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StargateBorrow
   - address: "0xe36d523ad4febaa09b9bc043999252f96375c621"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WalletBalanceProvider
   - address: "0x287ff908b4db0b29b65b8442b0a5840455f0db32"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ChefIncentivesController
   - address: "0xc2054a8c33bfce28de8af4af548c48915c455c13"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MultiFeeDistribution
   - address: "0x196bf3a63c50bca1eff5a5809b72dfc58f0c2c1a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Leverager
   - address: "0xa3e42d11d8cc148160cc3aced757fb44696a9cca"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AaveProtocolDataProvider
   - address: "0x3082cc23568ea640225c2467653db90e9250aaa0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RadiantOFT
   - address: "0xc963ef7d977ecb0ab71d835c4cb1bf737f28d010"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MasterChef
   - address: "0xc8e3bedf35f23037a1067f6ed72625caf72fa5d8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UiPoolDataProviderV2V3
   - address: "0x76ba3ec5f5adbf1c58c91e86502232317eea72de"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MultiFeeDistribution
   - address: "0xed60be096713de7c98558d4e5206bdb397f1f68f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StargateBorrow
   - address: "0xebc85d44cefb1293707b11f707bd3cec34b4d5fa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ChefIncentivesController_V2
   - address: "0x8991c4c347420e476f1cf09c03aba224a76e2997"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LockZap
   - address: "0xefab5c6f57f301f87875b3270bb4659e27a23a82"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MerkleDistributor
   - address: "0x5682a39078edce41a65f1bd8733bf9ca2bbe3b1b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Leverager
   - address: "0x795ada2e75be36b40ad43e35bdd8253890fd3f79"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LendingRateOracle
   - address: "0x76663727c39dd46fed5414d6801c4e8890df85cf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: priceProvider
   - address: "0x727354712bdfcd8596a3852fd2065b3c34f4f770"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: InitializableImmutableAdminUpgradeabilityProxy

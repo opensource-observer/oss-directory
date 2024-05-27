@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: torquefi
 display_name: torquefi
 github:
@@ -7,7 +7,7 @@ blockchain:
   - address: "0x0f773b3d518d0885dbf0ae304d87a718f68eeed5"
     networks:
       - mainnet
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

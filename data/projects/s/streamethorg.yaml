@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: streamethorg
 display_name: StreamETH
 github:
@@ -23,7 +23,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: rari
 display_name: Rari
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x7ed52863829ab99354f3a0503a622e82acd5f7d3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - deployer

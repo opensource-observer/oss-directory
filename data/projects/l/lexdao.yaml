@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: lexdao
 display_name: LexDAO
 github:
@@ -28,7 +28,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet
@@ -36,7 +36,7 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - eoa
       - wallet

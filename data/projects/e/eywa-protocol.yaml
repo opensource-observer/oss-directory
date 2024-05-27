@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: eywa-protocol
 display_name: EYWA Protocol
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xf8e3961792c0a9d8bff4aac772ef35edde700416"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -14,7 +14,7 @@ blockchain:
       - eoa
   - address: "0x624e0bd3114e333375f10883b0d7621547939cd5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -22,7 +22,7 @@ blockchain:
       - eoa
   - address: "0x21bc44b7b0b6d7d69b0b0a54c85bd88aab40c87d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -30,7 +30,7 @@ blockchain:
       - eoa
   - address: "0xece9cf6a8f2768a3b8b65060925b646afeaa5167"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -38,7 +38,7 @@ blockchain:
     name: BridgeV2
   - address: "0x9af02523431e9ec1cc649c75ab0322ff34cde337"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -46,7 +46,7 @@ blockchain:
     name: CryptoRouterV2
   - address: "0xe7db62c7960183895190274f26925388db4a3be4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
