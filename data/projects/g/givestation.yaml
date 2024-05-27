@@ -1,45 +1,27 @@
 version: 6
-name: givestation
 display_name: GiveStation
 github:
   - url: https://github.com/givestation
 blockchain:
-  - address: "0x4243cfb8d5cefa0087e3cf8e9aea86e6ec38e0d9"
+  - address: "0x187a9763FCC7EcFFA9bc50B0fE5BbAe71cDA7b59"
     networks:
       - optimism
     tags:
-      - eoa
-      - wallet
-  - address: "0x96cd3ac1e5c2e4fb021b97da3a6d57e8e665edc3"
-    networks:
-      - optimism
-    tags:
-      - eoa
-      - wallet
-  - address: "0xf5bc8280403b198feccc35f3e7f8c7f4919eeb53"
-    networks:
-      - mainnet
-    tags:
-      - eoa
-      - wallet
-  - address: "0x3953017af23ab99a7d40f3d26f1595f27c91345f"
-    networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
-    tags:
-      - eoa
-      - wallet
-  - address: "0xbf7cb57f08390ef51666ca9e4825c234c6991afa"
+      - contract
+    name: CrowdFunding
+  - address: "0xcFB8Bf1d64bf4baE08582B5EF464E53326E5bCd4"
     networks:
       - arbitrum-one
     tags:
-      - eoa
-      - wallet
+      - contract
+    name: CrowdFunding
+  - address: "0xabF763013d5B2dEfcB7BEaD1342962b24828C7Cf"
+    networks:
+      - optimism
+      - arbitrum-one
+    tags:
+      - deployer
+twitter: givestation
 websites:
   - url: https://givestation.org
-description: A multi-chain Give-To-Earn grant protocol where contributors get
-  rewarded for funding ideas, startups and projects in web3.
-social:
-  twitter:
-    - url: https://twitter.com/givestation
+description: A multi-chain grant dapp where contributors get rewarded for funding ideas and projects in web3.
