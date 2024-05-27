@@ -85,6 +85,8 @@ If you want to change the schema, you'll need to write a migration:
 The framework will run migrations in sequence, so you are guaranteed that your data is valid as of the previous version.
 Note: we only currently support migrating in one direction (and not reverting)
 
+![Schema](src/resources/.data/schema.png)
+
 ## Making onchain attestations about projects
 
 ### EAS schemas
