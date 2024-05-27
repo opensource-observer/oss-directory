@@ -1,0 +1,76 @@
+// All social profile
+Table social_profile {
+  id int [pk, increment]
+  medium varchar[] [null]
+  twitter varchar[] [null]
+  telegram varchar[] [null]
+}
+
+// Tags that classify the address. Options include: \n- 'eoa': Externally Owned Account \n- 'safe': Gnosis Safe or other multi-sig wallet \n- 'deployer' (or 'creator'): An address that should be monitored for contract deployment events \n- 'factory': A contract that deploys other contracts \n- 'proxy': Proxy contract \n- 'contract': A smart contract address \n- 'wallet': An address that should be monitored for funding events
+enum blockchain_address_tags {
+    contract
+    creator
+    deployer
+    eoa
+    factory
+    proxy
+    safe
+    wallet
+}
+
+enum blockchain_address_networks {
+    "any_evm"
+    "arbitrum-one"
+    "base"
+    "frax"
+    "mainnet"
+    "matic"
+    "metal"
+    "mode"
+    "optimism"
+    "pgn"
+    "zora"
+    "linea"
+    "zksync-era"
+    "polygon-zkevm"
+    "scroll"
+    "mantle"
+}
+
+// An address on a blockchain
+Table blockchain_address {
+  id int [pk, increment]
+  address varchar
+  tags blockchain_address_tags[]
+  networks blockchain_address_networks[]
+  name varchar [null]
+}
+
+// A collection of projects
+Table collection {
+  id int [pk, increment]
+  version int
+  name varchar
+  display_name varchar
+  description text [null]
+  projects int [ref: > project.id] 
+}
+
+// A project is a collection of artifacts
+Table project {
+  id int [pk, increment]
+  version int
+  name varchar
+  display_name varchar
+  description text [null]
+  websites int [ref: > url.id]
+  github int [ref: > url.id]
+  npm int [ref: > url.id]
+  blockchain int [ref: > blockchain_address.id]
+  social int [ref: > social_profile.id]
+}
+
+Table url {
+  id int [pk, increment]
+  url varchar
+}
