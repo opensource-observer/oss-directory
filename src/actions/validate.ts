@@ -35,21 +35,32 @@ export async function validateCollections(args: ValidateArgs) {
   );
   console.log(`Validating collections in ${args.dir}`);
   for (const file of files) {
-    // Check each file conforms to `Collection` schema
-    const collection = await readCollectionFile(file, { format: fileFormat });
-    const baseName = path.basename(file, extension);
-    assert(
-      collection.name === baseName,
-      `Filename must match name(${collection.name}): ${file}`,
-    );
-    assert(
-      collection.version === currentVersion,
-      `Collection version(${collection.version}) must be ${currentVersion}: ${file}`,
-    );
-    // Make sure that all projects in the collection exist
-    for (const projectName of [...collection.projects]) {
-      const projectFile = getProjectPath(projectName);
-      await readProjectFile(projectFile, { format: fileFormat });
+    let currentProjectFile = null;
+    try {
+      // Check each file conforms to `Collection` schema
+      const collection = await readCollectionFile(file, { format: fileFormat });
+      const baseName = path.basename(file, extension);
+      assert(
+        collection.name === baseName,
+        `Filename must match name(${collection.name}): ${file}`,
+      );
+      assert(
+        collection.version === currentVersion,
+        `Collection version(${collection.version}) must be ${currentVersion}: ${file}`,
+      );
+      // Make sure that all projects in the collection exist
+      for (const projectName of [...collection.projects]) {
+        const projectFile = getProjectPath(projectName);
+        currentProjectFile = projectFile;
+        await readProjectFile(projectFile, { format: fileFormat });
+      }
+    } catch (e) {
+      if (!currentProjectFile) {
+        console.error("Error validating ", file);
+      } else {
+        console.error("Error validating ", currentProjectFile);
+      }
+      throw e;
     }
   }
   console.log(`Success! Validated ${files.length} files`);
@@ -84,21 +95,26 @@ export async function validateProjects(args: ValidateArgs) {
   console.log(`Validating projects in ${args.dir}`);
   for (const file of files) {
     // Check each file conforms to `Project` schema
-    const project = await readProjectFile(file, { format: fileFormat });
-    const baseName = path.basename(file, extension);
-    assert(
-      baseName === project.name,
-      `Filename must match name(${project.name}): ${file}`,
-    );
-    assert(
-      project.version === currentVersion,
-      `Project version(${project.version}) must be ${currentVersion}: ${file}`,
-    );
-    project.github?.forEach((x) => addKey(x.url, file));
-    project.npm?.forEach((x) => addKey(x.url, file));
-    project.blockchain?.forEach((x) =>
-      x.networks.forEach((n) => addKey(`${n}:${x.address}`, file)),
-    );
+    try {
+      const project = await readProjectFile(file, { format: fileFormat });
+      const baseName = path.basename(file, extension);
+      assert(
+        baseName === project.name,
+        `Filename must match name(${project.name}): ${file}`,
+      );
+      assert(
+        project.version === currentVersion,
+        `Project version(${project.version}) must be ${currentVersion}: ${file}`,
+      );
+      project.github?.forEach((x) => addKey(x.url, file));
+      project.npm?.forEach((x) => addKey(x.url, file));
+      project.blockchain?.forEach((x) =>
+        x.networks.forEach((n) => addKey(`${n}:${x.address}`, file)),
+      );
+    } catch (e) {
+      console.error("Error validating ", file);
+      throw e;
+    }
   }
 
   // Make sure that there's only 1 project per key

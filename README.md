@@ -15,9 +15,27 @@ This directory is a public good, free to use and distribute. We hope it serves t
 
 Currently the main way to contribute is by submitting a pull request. You can update any `.yaml` file under `./data/` or submit a new one. Fork this repository, commit your changes, and open a pull request from your fork to this repository.
 
-If you are adding a new project, please make sure to include a unique slug to identify the project and at least one GitHub url. In most cases, we adopt the GitHub organization name as the slug. If the project is not associated with a GitHub organization, you can use the project name followed by the repo owner as the slug.
+If you are adding a new project, please make sure to include a unique project name to identify the project and at least one GitHub url. In most cases, we adopt the GitHub organization name as the project name.
 
 Submissions will be validated to ensure they conform to the schema and don't contain any artifacts that are already in the directory. If you are unsure or have additional questions about contributing, please open an issue or message us on [Telegram](https://t.me/osocommunity).
+
+### Setup for local development
+
+You can install dependencies with `pnpm`.
+
+```bash
+pnpm install
+```
+
+### Validation
+
+Our GitHub actions CI will reject any contributions that do not conform to the schema defined in `./src/resources/schema`.
+
+To check for validation errors locally, run
+
+```bash
+pnpm run validate
+```
 
 ## Using as a library
 
@@ -61,12 +79,12 @@ The directory is organized into two main folders:
 
 - `./data/projects` - each file represents a single open source project and contains all of the artifacts for that project.
   - See `./src/resources/schema/project.json` for the expected JSON schema
-  - Files should be named by the project "slug"
-  - Project slugs must be globally unique. If there is a conflict in chosen slug, we will give priority to the project that has the associated GitHub organization
-  - In most cases, we adopt the GitHub organization name as the slug. If the project is not associated with a GitHub organization, you try to use the project name followed by the repo owner as the slug.
+  - Files should be named by the project "name"
+  - Project names must be globally unique. If there is a conflict in chosen name, we will give priority to the project that has the associated GitHub organization
+  - In most cases, we adopt the GitHub organization name as the `name`.
 - `./data/collections` - each file represents a collection of projects that have some collective meaning (e.g. all projects in an ecosystem).
   - See `./src/resources/schema/collection.json` for the expected JSON schema
-  - Projects are identified by their unique slug
+  - Projects are identified by their unique project `name`.
 
 ## Changing the schemas
 
