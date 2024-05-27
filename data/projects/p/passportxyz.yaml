@@ -1,0 +1,40 @@
+version: 6
+name: passportxyz
+display_name: Passport XYZ
+github:
+  - url: https://github.com/passportxyz
+  - url: https://github.com/gitcoinco/awesome-gitcoin-passports
+  - url: https://github.com/gitcoinco/eas-proxy
+  - url: https://github.com/gitcoinco/gh-workflows
+  - url: https://github.com/gitcoinco/id-staking
+  - url: https://github.com/gitcoinco/id-staking-v2
+  - url: https://github.com/gitcoinco/id-staking-v2-app
+  - url: https://github.com/gitcoinco/linea-attestation-registry
+  - url: https://github.com/gitcoinco/passport
+  - url: https://github.com/gitcoinco/passport-components
+  - url: https://github.com/gitcoinco/passport-docs
+  - url: https://github.com/gitcoinco/passport-reader
+  - url: https://github.com/gitcoinco/passport-redash
+  - url: https://github.com/gitcoinco/passport-scorer
+  - url: https://github.com/gitcoinco/passport-scoring
+  - url: https://github.com/gitcoinco/passport-sdk
+  - url: https://github.com/gitcoinco/scorer
+  - url: https://github.com/gitcoinco/tulons-ts
+blockchain:
+  - address: "0xe700CCEB04d34b798B5f8b7c35E91231445Ff6C0"
+    networks:
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0x4B70C4308ea49d17FD946dDacD6884e8e1e18B56"
+    networks:
+      - optimism
+    tags:
+      - deployer
+      - eoa
+websites:
+  - url: https://www.passport.xyz/
+description: Protect your project from bots and bad actors
+twitter:
+  - url: https://twitter.com/gitcoinpassport
