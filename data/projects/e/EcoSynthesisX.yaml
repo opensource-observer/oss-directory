@@ -1,0 +1,24 @@
+version: 5
+name: EcoSynthesisX
+display_name: EcoSynthesisX
+github:
+- url: https://github.com/EcoSynthesisX
+npm:
+- url: https://www.npmjs.com/package/oss-directory
+blockchain:
+- address: "0x4A5599597c0b30742163933A2e7B0F91AdD87fD6"
+    tags:
+    - deployer
+    networks:
+    - optimism
+    - arbitrum-one
+    - base
+
+- address: "0x7380A42137D16a0E7684578d8b3d32e1fbD021B5"
+    networks:
+    - optimism
+    - arbitrum-one
+    - base
+    tags:
+    - deployer
+    
