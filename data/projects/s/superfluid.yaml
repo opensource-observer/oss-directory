@@ -658,6 +658,12 @@ blockchain:
     tags:
       - contract
     name: CFAv1Forwarder
+  - address: "0x65377d4dfE9c01639A41952B5083D58964782892"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VestingScheduler
   - address: "0x137d1053cb9bb6a32a90e092cbe9ed23c1e86358"
     networks:
       - optimism
@@ -777,6 +783,24 @@ blockchain:
     tags:
       - eoa
       - wallet
+  - address: "0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74"
+    networks:
+      - base
+    tags:
+      - contract
+    name: UUPSProxy
+  - address: "0xcfA132E353cB4E398080B9700609bb008eceB125"
+    networks:
+      - base
+    tags:
+      - contract
+    name: CFAv1Forwarder
+  - address: "0xDF92D0E6Bcb9385FDe99aD21Ff5e47Fb47E3c6b2"
+    networks:
+      - base
+    tags:
+      - contract
+    name: VestingScheduler
 websites:
   - url: https://www.superfluid.finance/
 description: Rails for realtime finance
