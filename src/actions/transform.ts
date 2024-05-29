@@ -1,28 +1,29 @@
 import { writeFile } from "fs/promises";
 import path from "path";
-import _ from "lodash";
 import { glob } from "glob";
-import { Migration, SingleMigration } from "../types.js";
-import { MIGRATIONS } from "../migrations/index.js";
+import { SingleMigration, Transformation } from "../types.js";
+import { TRANSFORMATIONS } from "../transformations/index.js";
 import { CommonArgs } from "../types/cli.js";
 import { FileFormat, getFileExtension, getFileFormat } from "../types/files.js";
 import { safeCastCollection, safeCastProject } from "../validator/index.js";
-import { NullOrUndefinedValueError } from "../utils/error.js";
+import { NullOrUndefinedValueError, UserError } from "../utils/error.js";
 import { readFileParse, stringify } from "../utils/files.js";
 
-export type MigrationArgs = CommonArgs & {
+export type TransformationArgs = CommonArgs & {
+  name: string;
   collectionsDir: string;
   projectsDir: string;
 };
 
 /**
- * Generic migration logic
+ * Generic transformation logic
  * @param args
  */
-async function migrate(
+async function transform(
+  transformName: string,
   directory: string,
   fileFormat: FileFormat,
-  getSingleMigration: (m: Migration) => SingleMigration,
+  getSingleTransformation: (m: Transformation) => SingleMigration,
   validateStringify: (obj: any) => string,
 ) {
   const extension = getFileExtension(fileFormat);
@@ -30,46 +31,42 @@ async function migrate(
   let count = 0;
   console.log(`Migrating files in ${directory}`);
   for (const file of files) {
-    let obj = await readFileParse(file, fileFormat);
+    const obj = await readFileParse(file, fileFormat);
+
     if (!obj?.version) {
       throw new NullOrUndefinedValueError(`version missing from ${file}`);
     }
 
     // Look for applicable migrations
-    const greaterVersions = _.filter(
-      MIGRATIONS,
-      (m) => m.version > obj.version,
+    const transformation = TRANSFORMATIONS.find(
+      (x: Transformation) => x.name === transformName,
     );
 
-    // Skip if no migrations to run
-    if (greaterVersions.length <= 0) {
-      continue;
-    } else {
-      count++;
+    if (!transformation) {
+      throw new UserError(
+        `'${transformName}' does not exist in list of transformation`,
+      );
     }
 
-    for (const migration of greaterVersions) {
-      console.log(`Migrating ${file} to version ${migration.version}`);
-      // Do the migration
-      const inputObj = _.cloneDeep(obj);
-      obj = await getSingleMigration(migration).up(inputObj);
-      // Stamp the version
-      obj.version = migration.version;
-    }
+    count++;
+    console.log(`Running '${transformName}' on ${file}`);
+    // Do the transformation
+    const newObj = await getSingleTransformation(transformation).up(obj);
     // Write back to disk after done migrating
-    const objStr = validateStringify(obj);
+    const objStr = validateStringify(newObj);
     await writeFile(file, objStr, { encoding: "utf-8" });
   }
-  console.log(`Success! Migrated ${count} files`);
+  console.log(`Success! Transformed ${count} files`);
 }
 
 /**
  * Migrate all files in a projects directory
  * @param args
  */
-async function migrateProjects(args: MigrationArgs) {
+async function transformProjects(args: TransformationArgs) {
   const fileFormat = getFileFormat(args.format);
-  await migrate(
+  await transform(
+    args.name,
     args.projectsDir,
     fileFormat,
     (x) => x.project,
@@ -84,9 +81,10 @@ async function migrateProjects(args: MigrationArgs) {
  * Migrate all files in a collections directory
  * @param args
  */
-async function migrateCollections(args: MigrationArgs) {
+async function transformCollections(args: TransformationArgs) {
   const fileFormat = getFileFormat(args.format);
-  await migrate(
+  await transform(
+    args.name,
     args.collectionsDir,
     fileFormat,
     (x) => x.collection,
@@ -101,9 +99,9 @@ async function migrateCollections(args: MigrationArgs) {
  * This the action that gets exposed to the CLI
  * @param args
  */
-async function runMigrations(args: MigrationArgs) {
-  await migrateCollections(args);
-  await migrateProjects(args);
+async function runTransformation(args: TransformationArgs) {
+  await transformCollections(args);
+  await transformProjects(args);
 }
 
-export { runMigrations };
+export { runTransformation };
