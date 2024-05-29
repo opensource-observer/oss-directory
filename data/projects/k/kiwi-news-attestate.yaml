@@ -5,31 +5,49 @@ github:
   - url: https://github.com/attestate/kiwistand
   - url: https://github.com/attestate/awesome-kiwinews
   - url: https://github.com/attestate/delegator2
+  - url: https://github.com/attestate/purchase-delegator
+  - url: https://github.com/attestate/svg-line-chart
+  - url: https://github.com/attestate/crawler
+  - url: https://github.com/attestate/eth-fun
+  - url: https://github.com/attestate/extraction-worker
+  - url: https://github.com/attestate/crawler-call-block-logs
 blockchain:
   - address: "0x66747bdc903d17c586fa09ee5d6b54cc85bbea45"
     networks:
       - optimism
     tags:
       - contract
-    name: unverified
+    name: KiwiPassNFT
   - address: "0xea3b341b1f189f8e56b00c8e387b770acae121cf"
     networks:
       - optimism
     tags:
       - contract
-    name: PurchaseDelegator
+    name: PurchaseDelegatorv1
+  - address: "0xA86a9222daf3367474831145A07C868B598183fE"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PurchaseDelegatorv2
+  - address: "0xe657d8b936fFd1890540E43829c3330C4A93De82"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PurchaseDelegatorv3
+  - address: "0xd315bF56F04aC93352b6a78E7952eEfC2A7A0494"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PurchaseDelegatorv4
   - address: "0x08b7ecfac2c5754abafb789c84f8fa37c9f088b0"
     networks:
       - optimism
     tags:
       - contract
     name: Delegator2
-  - address: "0x1633451ff7cd3688c944634b08829326df316dd7"
-    networks:
-      - optimism
-    tags:
-      - safe
-      - wallet
   - address: "0xee324c588cef1bf1c1360883e4318834af66366d"
     networks:
       - optimism
@@ -37,5 +55,15 @@ blockchain:
       - eoa
       - wallet
     name: timdaub.eth
+  - address: "0x3e6c23CdAa52B1B6621dBb30c367d16ace21F760"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - wallet
+    name: macbudkowski.eth
 websites:
   - url: https://attestate.com
+  - url: https://news.kiwistand.com
+  - url: https://kiwinews.xyz
+  - url: https://kiwinews.io
