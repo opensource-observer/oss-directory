@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x0298f4332e3857631385b39766325058a93e249f"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -27,9 +25,7 @@ blockchain:
     name: Sablier
   - address: "0xb1bef51ebca01eb12001a639bdbbff6eeca12b9f"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

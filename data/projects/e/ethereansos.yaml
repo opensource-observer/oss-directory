@@ -12,15 +12,14 @@ blockchain:
     name: unverified
   - address: "0xdc0090f8add5db06de0897a54e753af143668668"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: nonlabs.eth
   - address: "0x8f1f29a0007b01d721d4e04da4180249041f88f4"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

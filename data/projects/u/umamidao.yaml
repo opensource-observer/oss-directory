@@ -6,26 +6,25 @@ github:
 blockchain:
   - address: "0x7a53700c4d2dd1eb9809a63679a6a5b6c4e31d97"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xa5674071fae436b646a6f9823f17fe4db2661054"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x131b4e746ca5a5a8be68d2bb5f5a8533a4dd99c1"
     networks:
-      - arbitrum_one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x7466bbde36975842851cbff8c67f9bbaa9c6ea24"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -182,7 +181,7 @@ blockchain:
     name: UmamiOArb
   - address: "0xb00ecdf42fdc9dd5c65681385a60385f546cae32"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa

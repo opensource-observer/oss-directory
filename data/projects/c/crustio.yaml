@@ -24,7 +24,7 @@ blockchain:
     name: PriceOracle
   - address: "0x95529fde0524c8763286288e3d17294bb9dc3f66"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

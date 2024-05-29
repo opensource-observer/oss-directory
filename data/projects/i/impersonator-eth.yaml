@@ -6,15 +6,14 @@ github:
 blockchain:
   - address: "0xf90e6125c8918f1adac31f85d80728db62f17d9b"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: swiss-knife.eth
   - address: "0x63a556c75443b176b5a4078e929e38beb37a1ff2"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

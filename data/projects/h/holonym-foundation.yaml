@@ -6,15 +6,14 @@ github:
 blockchain:
   - address: "0xc8834c1fcf0df6623fc8c8ed25064a4148d99388"
     networks:
-      - arbitrum_one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: holonym-internal.eth
   - address: "0xcafe2ef59688187ee312c8aca10ceb798338f7e3"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

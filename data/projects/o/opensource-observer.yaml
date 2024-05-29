@@ -14,8 +14,7 @@ blockchain:
       - wallet
   - address: "0x87feed6162cb7dfe6b62f64366742349bf4d1b05"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

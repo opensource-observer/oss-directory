@@ -10,5 +10,4 @@ blockchain:
       - deployer
       - eoa
     networks:
-      - mainnet
-      - optimism
+      - any_evm

@@ -34,26 +34,25 @@ npm:
 blockchain:
   - address: "0xa05c4256ff0dd38697e63d48df146e6e2fe7fe4a"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xd7df5bf3b8d2bd159664df54a30101d7faf6ca26"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xab0d90fde397a4362acbe1d3a1c17f24b5b53266"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x68108902de3a5031197a6eb3b74b3b033e8e8e4d"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

@@ -9,8 +9,7 @@ blockchain:
       - eoa
       - wallet
     networks:
-      - mainnet
-      - optimism
+      - any_evm
 websites:
   - url: https://www.makewater.org/
 description: Education through water innovation.

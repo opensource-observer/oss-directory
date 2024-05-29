@@ -8,9 +8,7 @@ npm:
 blockchain:
   - address: "0xfc756d8632a19cebd76560ce0a6967279e32131b"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -12,9 +12,7 @@ blockchain:
     name: DropERC1155
   - address: "0x2ac6a3561a43f06d62602ef9728c2b9eec393326"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -310,8 +310,7 @@ github:
 blockchain:
   - address: "0x075da589886ba445d7c7e81c472059de7ae65250"
     networks:
-      - arbitrum_one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa

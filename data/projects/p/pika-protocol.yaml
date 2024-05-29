@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x80898b704baa55e7e37f1128fc6ae5836661f54a"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -2561,7 +2559,7 @@ blockchain:
     name: DummyPriceFeed
   - address: "0xa9cd2563c2cce7db8edbe7aacdb0393c68151a28"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

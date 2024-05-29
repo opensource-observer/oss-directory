@@ -12,11 +12,12 @@ blockchain:
     name: CrowdFunding
   - address: "0xabF763013d5B2dEfcB7BEaD1342962b24828C7Cf"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
 twitter: givestation
 websites:
   - url: https://givestation.org
-description: A multi-chain grant dapp where contributors get rewarded for funding ideas and projects in web3.
+description: A multi-chain grant dapp where contributors get rewarded for
+  funding ideas and projects in web3.

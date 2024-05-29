@@ -24,15 +24,14 @@ blockchain:
       - wallet
   - address: "0x003eb864477c8858bec0916e23785aca46f6ba34"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: 2046inc.eth
   - address: "0xef43993d36145a74ed34bc17656789a28a7c60c7"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

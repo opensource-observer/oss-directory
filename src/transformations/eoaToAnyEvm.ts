@@ -12,7 +12,7 @@ async function updateProjects(existing: any): Promise<any> {
   return {
     ...existing,
     blockchain: existing.blockchain.map((x: any) => {
-      if (!x.tags.includes("deployer")) {
+      if (!x.tags.includes("eoa")) {
         return x;
       }
       return {
@@ -24,7 +24,7 @@ async function updateProjects(existing: any): Promise<any> {
 }
 
 const transformation: Transformation = {
-  name: "deployersToAnyEvm",
+  name: "eoaToAnyEvm",
   collection: {
     up: async (existing: any) => existing, // No change for collections
   },

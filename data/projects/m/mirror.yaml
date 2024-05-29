@@ -6,47 +6,43 @@ github:
 blockchain:
   - address: "0x59ca05674f5073f95f292aaca2d28a7dc80f12d6"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x60e1980343558c4c9d8f323f45d3e0e256bdb16c"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x6102d098c063a1f282a9196428946d4e3a7bb754"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x57ade2f6723dea166d17694a576403ba9750762d"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x3527a204a5260a0e36ca695312379370328e4e6c"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x03238279fa90dca3a02a65113f290cea01d48d87"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x687be8d213d49bc353d60298c51d8823632d8158"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -343,7 +339,7 @@ blockchain:
     name: MirrorSignatureMinter
   - address: "0xe60ac07be8bd7f7f33d446e1399c329928ba8114"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

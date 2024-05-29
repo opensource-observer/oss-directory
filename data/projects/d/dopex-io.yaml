@@ -6,40 +6,38 @@ github:
 blockchain:
   - address: "0xde485812e28824e542b9c2270b6b8ed9232b7d0b"
     networks:
-      - arbitrum_one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x29ed22a9e56ee1813e6ff69fc6cac676aa24c09c"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x9c21ca464a2ee450d05d605d74ad415c6baaa054"
     networks:
-      - arbitrum_one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x2fecfb2ebe995c9dea38a6235c807a58ede7fe7f"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
     name: psytama.eth
   - address: "0x1337731dc6be067a823efc450b0fe659356068fa"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xee82496d3ed1f5afbeb9b29f3f59289fd899d9d0"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa

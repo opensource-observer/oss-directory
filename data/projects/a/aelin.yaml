@@ -6,29 +6,27 @@ github:
 blockchain:
   - address: "0x1e957a10796552cbd7d5c31439a5e8345db569a4"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xd6846289dd3df8c563bcc837b273b06d5e7dd25f"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: hannyayoh.eth
   - address: "0x2245be89fc8fab94ed982e859aa3212a4e4eb7e5"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: ethlegends.eth
   - address: "0x7856f2a12a7a18b4a115d295f548434a9b078fa1"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

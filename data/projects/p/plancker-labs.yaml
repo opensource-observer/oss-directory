@@ -6,14 +6,14 @@ github:
 blockchain:
   - address: "0xfede2257dc043f53a24ac7947218bacfb0013b09"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
     name: chaomons.eth
   - address: "0x883e49dd95fbe06be4e77768c2517f13801a8c6a"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

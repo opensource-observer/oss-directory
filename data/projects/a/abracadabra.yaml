@@ -6,24 +6,20 @@ github:
 blockchain:
   - address: "0x9ce2d870865b837578eaacfb41c81758e6aff71a"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xfddfe525054efaad204600d00ca86adb1cc2ea8a"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: 0xmerlin.eth
   - address: "0xfb3485c2e209a5cfbdc1447674256578f1a80ee3"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -87,8 +83,7 @@ blockchain:
     name: unverified
   - address: "0x1ea71cec606f6eecc547937b549e598210ebb0e0"
     networks:
-      - arbitrum_one
-      - optimism
+      - any_evm
     tags:
       - contract
       - deployer
@@ -112,9 +107,7 @@ blockchain:
     name: unverified
   - address: "0x7c8fef8ea9b1fe46a7689bfb8149341c90431d38"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - contract
       - deployer

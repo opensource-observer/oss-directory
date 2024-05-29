@@ -6,20 +6,19 @@ github:
 blockchain:
   - address: "0x6a885bd0086368b56dbf2005bb72bbcc5fd7e2b9"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x992ebe8be326ea0cd7d30a98740d9899612330bb"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x97b62cd23a04be0e0dc4a5f03ddbd0addc8ba29a"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

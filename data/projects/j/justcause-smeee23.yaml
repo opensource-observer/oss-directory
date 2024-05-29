@@ -13,7 +13,7 @@ blockchain:
     name: PoolTracker
   - address: "0x1623b06f4cf1dd0f88b2ccdaeb0811c064c9e982"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

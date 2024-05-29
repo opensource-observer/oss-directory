@@ -6,17 +6,13 @@ github:
 blockchain:
   - address: "0x8df57e3d9ddde355dce1adb19ebce93419ffa0fb"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x83681c14770b44361e21faf91d8325423365ea5c"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -128,8 +124,7 @@ blockchain:
     name: AutoExit
   - address: "0x8cadb20a4811f363dadb863a190708bed26245f8"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

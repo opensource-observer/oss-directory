@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xe7a9ecdb56af2bb86fdaaa3e3b2d1f0f7a9fe664"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -74,7 +73,7 @@ blockchain:
     name: MerkleDistributor
   - address: "0x93501fddb36ea67ffa2c361b3da035c142299d4f"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

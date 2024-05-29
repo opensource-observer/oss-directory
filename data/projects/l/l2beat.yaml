@@ -13,17 +13,14 @@ blockchain:
       - wallet
   - address: "0x41626ba92c0c2a1ad38fc83920300434082b1870"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: l2beat.eth
   - address: "0xea78912803be5e356eac2b8e127d4ba87230a48e"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
