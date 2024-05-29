@@ -8,12 +8,14 @@ blockchain:
     networks:
       - any_evm
     tags:
+      - deployer
       - eoa
       - wallet
   - address: "0xa8258ed271bb9be9d7e16c5818e45ef6f2577d92"
     networks:
       - any_evm
     tags:
+      - deployer
       - eoa
       - wallet
 description: Regenerative public goods
