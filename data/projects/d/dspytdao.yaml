@@ -1,10 +1,30 @@
 version: 7
 name: dspytdao
-display_name: Pin Save
+display_name: Pin Save (by Dsypt DAO)
 github:
   - url: https://github.com/dspytdao
+  - url: https://github.com/pinsavedao
 blockchain:
   - address: "0x4c11ba2ed1d936d769d0cce34cbc7ea1e85182d0"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+  - address: "0x40f320cd3cd616e59599568c4ea011e2ee49a175"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LSP8PinSave
+  - address: "0x48294a067d1bc5a58bcbab4b3be329d078d9e1af"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+      - wallet
+  - address: "0xad851ef1ad2ccf8f87413e6c274bccbec37469d2"
     networks:
       - any_evm
     tags:
