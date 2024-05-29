@@ -1,5 +1,5 @@
 import _ from "lodash";
-import { Migration } from "./index.js";
+import { Migration } from "../types.js";
 
 /**
  * This does not change the schema. It just looks for duplicate optimism addresses
