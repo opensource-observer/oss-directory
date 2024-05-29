@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x5b0390bccca1f040d8993eb6e4ce8ded93721765"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -499,8 +497,7 @@ blockchain:
     name: Pool
   - address: "0x63d5554b748598c191ab0cbd0e0e1c638ffebee6"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

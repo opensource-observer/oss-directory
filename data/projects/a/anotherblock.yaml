@@ -12,7 +12,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x6d18bbeca13387e3851877e433da1efeb77e0804"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

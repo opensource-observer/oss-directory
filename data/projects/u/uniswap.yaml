@@ -103,48 +103,37 @@ npm:
 blockchain:
   - address: "0xced01e7617bf6052a71154daa6d50d8b243f1b26"
     networks:
-      - arbitrum_one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x18dc1fccea2f4f6dd22ddbf0bed638bc358db625"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x946e9c780f3c79d80e51e68d259d0d7e794f2124"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x6c9fc64a53c1b71fb3f9af64d1ae3a4931a5f4e9"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x1b5caa1d3a1582a438e4cd93ee7a7e0e4d5624fb"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xd8fa8f87129c654a6dd7f34eedaf58379e176eb1"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -314,9 +303,7 @@ blockchain:
       - wallet
   - address: "0x11e4857bb9993a50c685a79afad4e6f65d518dda"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum_one
+      - any_evm
     tags:
       - eoa
       - wallet

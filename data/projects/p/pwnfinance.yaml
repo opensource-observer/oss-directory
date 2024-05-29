@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x0cfc62c2e82da2f580fd54a2f526f65b6cc8d6de"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -27,7 +25,7 @@ blockchain:
     name: PWNSimpleLoan
   - address: "0xd26a52885d80e4aa206a283912fdca94ccb7844b"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

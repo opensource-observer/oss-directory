@@ -6,17 +6,13 @@ github:
 blockchain:
   - address: "0xe5cd62ac8d2ca2a62a04958f07dd239c1ffe1a9e"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x81a662065d5c83fa9c5c12d0dc0104df57f85a12"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -60,7 +56,7 @@ blockchain:
     name: Unlock
   - address: "0xf5c28ce24acf47849988f147d5c75787c0103534"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

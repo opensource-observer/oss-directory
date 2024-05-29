@@ -1,10 +1,10 @@
 import _ from "lodash";
 import { Transformation } from "../types.js";
 import { assert } from "../utils/common.js";
-import deployersToAnyEvm from "./deployersToAnyEvm.js";
+import eoaToAnyEvm from "./eoaToAnyEvm.js";
 
 // List of migrations to run
-const TRANSFORMATIONS: Transformation[] = [deployersToAnyEvm];
+const TRANSFORMATIONS: Transformation[] = [eoaToAnyEvm];
 // The highest version number among all migrations
 const transformationNames = TRANSFORMATIONS.map((t) => t.name);
 // Make sure TRANSFORMATIONS has no duplicates

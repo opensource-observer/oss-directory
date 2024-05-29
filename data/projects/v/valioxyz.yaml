@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x7d57d22bf8a1319e3cf897e1aa2347a00f11f36c"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -20,7 +18,7 @@ blockchain:
     name: TransportDiamond
   - address: "0xd0ba8a15952924e78a8285477c08e23643c5f37d"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

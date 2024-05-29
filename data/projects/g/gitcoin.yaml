@@ -8,30 +8,25 @@ github:
 blockchain:
   - address: "0x4b70c4308ea49d17fd946ddacd6884e8e1e18b56"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x79427367e9be16353336d230de3031d489b1b3c3"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xb8cef765721a6da910f14be93e7684e9a3714123"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x1fd06f088c720ba3b7a3634a8f021fdd485dca42"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -49,21 +44,19 @@ blockchain:
       - wallet
   - address: "0xc92d76e01bd4e7ce25819c94fc6c3aea7b2cd155"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xaeddc8b2aa5e331b53c22f1da8069c18d02ef6ac"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x6bf1eba9740441d0a8822eda4e116a74f850d81b"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

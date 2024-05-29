@@ -6,19 +6,19 @@ github:
 blockchain:
   - address: "0x47399364835b6c58191f6350bf63a755f80b0ffb"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x7759124915160e94c77ece5b96e8a7fcec44aa19"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x43aa90c66b88ff904adc195987c0f3e3b09be0f1"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa

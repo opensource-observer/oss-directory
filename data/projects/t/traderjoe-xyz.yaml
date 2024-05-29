@@ -6,20 +6,19 @@ github:
 blockchain:
   - address: "0xc8fc59fceb8259534d8b10879273879eddf7eec0"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x1119fbb02f38764cd90f2d9fb35fedcd8378ac2a"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x02ef67fc4c983e33ede836bf5aee3d92423501d9"
     networks:
-      - arbitrum_one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -95,13 +94,13 @@ blockchain:
     name: LBRouter
   - address: "0x3b0abc81fa6a47135e36a513ad8845f48f1ee179"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xc1f080be1324a2e7869ff50a4bb0e32b833be415"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa

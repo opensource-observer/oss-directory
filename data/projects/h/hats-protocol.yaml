@@ -10,7 +10,7 @@ npm:
 blockchain:
   - address: "0x2a069e21395dc7f89f780f8cf5383a0ff598b672"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

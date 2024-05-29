@@ -8,9 +8,7 @@ github:
 blockchain:
   - address: "0xb29050965a5ac70ab487aa47546cdcbc97dae45d"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -177,18 +175,14 @@ blockchain:
     name: RevenueDistributorFactory
   - address: "0x12e838f846ffdade34b2e006f84117a370d71687"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: punkdomains.eth
   - address: "0xbcedb3e27f2650f4698e1cc6a02bbd2cef123b4b"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum_one
+      - any_evm
     tags:
       - eoa
       - wallet

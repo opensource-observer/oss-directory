@@ -12,7 +12,7 @@ blockchain:
     name: unverified
   - address: "0x1626cc835842c480c1689a0a69aa419b9f761a4e"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

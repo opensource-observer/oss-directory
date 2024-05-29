@@ -6,17 +6,13 @@ github:
 blockchain:
   - address: "0x11f11121df7256c40339393b0fb045321022ce44"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x954e3eb8de035ec1bc8fe8fa0091d5b87ab17d47"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -71,15 +67,13 @@ blockchain:
     name: FeeCollector
   - address: "0x4d218d77cddd700565826a31837277e9e2ea0564"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x8932eb23bad9bddb5cf81426f78279a53c6c3b71"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum_one
+      - any_evm
     tags:
       - eoa
       - wallet

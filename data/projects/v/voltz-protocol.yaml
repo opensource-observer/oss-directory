@@ -6,15 +6,14 @@ github:
 blockchain:
   - address: "0xdb4a84ee2f9065d2819a050ba8c1503fe3730622"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
     name: kanskey.eth
   - address: "0xf8f6b70a36f4398f0853a311dc6699aba8333cc1"
     networks:
-      - arbitrum_one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa

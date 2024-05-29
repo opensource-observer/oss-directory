@@ -6,17 +6,13 @@ github:
 blockchain:
   - address: "0x1247f36104f71d5849d4d4f8a5a95e56b03e7fdd"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x320bcb681ce7023edfe48ade9cf5bf67a11bcd36"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -54,7 +50,7 @@ blockchain:
     name: TokenVestingPlans
   - address: "0x6cce9bae11b01e9fff30dbe790f64b459a614b0f"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -10,15 +10,14 @@ github:
 blockchain:
   - address: "0xc8d65e1bd67f16522e3117b980e1c9d2caeb9dc3"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: generalmagic.eth
   - address: "0xd1b8db70ded72db850713b2ce7e1a4ffafad95d1"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

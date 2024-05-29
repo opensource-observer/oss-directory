@@ -6,39 +6,37 @@ github:
 blockchain:
   - address: "0xed673d7d73fc1602d77d70e2783748b69348a5c4"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x2940108780b870ae8f1509be95fdf2b6fb066e41"
     networks:
-      - arbitrum_one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xb013abd83f0bd173e9f14ce7d6e420ad711483b4"
     networks:
-      - arbitrum_one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xc0de123d0ca961a3ea9d2d29e015ce74d3ec124f"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x032f84aeff59ddebc55797f321624826d873bf65"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x393248ae29a7c2128e8e27d23330b1f87e0600fc"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -421,7 +419,7 @@ blockchain:
     name: MagicDomainRegistrar
   - address: "0x83cb2b3d5de9ecf5c7aedbb45d9883d9b7a6ed36"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa

@@ -6,24 +6,21 @@ github:
 blockchain:
   - address: "0x9b55d80af9dd8d23c372915ad55c010799010b4d"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: curiousrabbit.eth
   - address: "0x29567bdbcc92acf37ac6b56b69180857bb69f7d1"
     networks:
-      - arbitrum_one
-      - optimism
+      - any_evm
     tags:
       - eoa
       - safe
       - wallet
   - address: "0xb2821c0df0c414ff51d3e8033cba26df6aac587b"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

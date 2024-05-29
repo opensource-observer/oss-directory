@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x20de070f1887f82fce2bdcf5d6d9874091e6fae9"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -66,7 +66,7 @@ blockchain:
     name: InvestorHelper
   - address: "0x00aa367b7692be05e47b9c461ff35410208158b0"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa

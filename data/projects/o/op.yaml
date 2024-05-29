@@ -6,19 +6,19 @@ github:
 blockchain:
   - address: "0xcde47c1a5e2d60b9ff262b0a3b6d486048575ad9"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xab1ef74d2c461e95f4b658ca1f94ac519ad80ba2"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x057dd0333d0ef737c72ca39403e7d478b1f1d0b3"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -55,7 +55,7 @@ blockchain:
     name: MintManager
   - address: "0x36bde71c97b33cc4729cf772ae268934f7ab70b2"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
     name: "Optimism: Aliased Cross-Domain Messenger "

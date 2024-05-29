@@ -24,7 +24,7 @@ blockchain:
     name: GaslessSwapAdapter
   - address: "0x49ca434088a569019f2e31d5b15a55d59a3e7d66"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

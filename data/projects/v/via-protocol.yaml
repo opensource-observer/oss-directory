@@ -6,17 +6,13 @@ github:
 blockchain:
   - address: "0xc82c018db54b894853cacb878d0f3e481e8c6b96"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x4bbbdf6562daf495bc2eb8114b990ad95e1177f6"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -117,24 +113,20 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1a27cdf069f2e8cc5b77b72bea43851086af5d83"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: korablev.eth
   - address: "0x3ccb0f1f6cc0709f491a2d25b4fbca5fe78870e8"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum_one
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xdb0c831283c003686aef40ca228e42bdabf6674c"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum_one
+      - any_evm
     tags:
       - eoa
       - wallet

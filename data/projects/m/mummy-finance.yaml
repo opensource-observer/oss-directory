@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x30b12942912cee5a719edec2dd147224fcc373a0"
     networks:
-      - arbitrum_one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -526,8 +525,7 @@ blockchain:
     name: Pair
   - address: "0x0393856410e8f78553479c6d39527adbaaebc51c"
     networks:
-      - optimism
-      - arbitrum_one
+      - any_evm
     tags:
       - eoa
       - wallet

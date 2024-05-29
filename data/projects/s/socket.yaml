@@ -8,50 +8,38 @@ npm:
 blockchain:
   - address: "0xe8dd38e673a93ccfc2e3d7053efccb5c93f49365"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xfbe184415f4893e4e9f918f5e0e22d759c9794a7"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x86791c7b7ea5f77b1612ecc300dd44ba3a1c9083"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x0e1b5ab67af1c99f8c7ebc71f41f75d4d6211e53"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x5fd7d0d6b91cc4787bcb86ca47e0bd4ea0346d34"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: socketadmin.eth
   - address: "0x4a21c588c93c38833bcf3c0fe0425bc114fe8271"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

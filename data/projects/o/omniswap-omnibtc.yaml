@@ -6,23 +6,21 @@ github:
 blockchain:
   - address: "0x2da7e3a7f21cce79efeb66f3b082196ea0a8b9af"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: aadaiwei.eth
   - address: "0x5683921269b041fbe66882dd6cadd48b7e5b5817"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
     name: 990123.eth
   - address: "0xc8a3ae7ac306df0ba9f0fc90406367ac6c31765b"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

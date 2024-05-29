@@ -6,32 +6,25 @@ github:
 blockchain:
   - address: "0xb8cd93c83a974649d76b1c19f311f639e62272bc"
     networks:
-      - arbitrum_one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x3d4316342acd2ded06507302404e9788ff5f4d02"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xe86375704cdb8491a5ed82d90dcece02ee0ac25f"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x6f24a47fc8ae5441eb47effc3665e70e69ac3f05"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -163,9 +156,7 @@ blockchain:
     name: SquidRouterProxy
   - address: "0xb28837949e7a3f1ac862036e8a0ae392c9ff9bb4"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
