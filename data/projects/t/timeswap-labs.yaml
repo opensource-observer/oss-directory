@@ -156,7 +156,7 @@ blockchain:
     name: TimeswapV2PeripheryNoDexRemoveLiquidityGivenPosition
   - address: "0x1ee933d5a94797f8f6aa66baecb3f4e764427e9a"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa

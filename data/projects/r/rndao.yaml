@@ -13,8 +13,7 @@ blockchain:
       - wallet
   - address: "0x75ab74d82ddc235f74680ddf42701ddfa8bf5041"
     networks:
-      - mainnet
-      - arbitrum_one
+      - any_evm
     tags:
       - eoa
       - wallet

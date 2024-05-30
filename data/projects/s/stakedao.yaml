@@ -6,17 +6,13 @@ github:
 blockchain:
   - address: "0xb36a0671b3d49587236d7833b01e79798175875f"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xe9b3c292904114e6e6f04a363ae4c0f800f3236d"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -42,7 +38,7 @@ blockchain:
     name: Stakedao
   - address: "0x26acff2adc9104fe1c26c958dc4c9a5180840c35"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa

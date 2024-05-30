@@ -24,35 +24,31 @@ blockchain:
     name: EIP4824Registration
   - address: "0xff2abef3af9655d96da983916e066134adea6390"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xd39d6d3f7433a0cabd90c0ea74d76da29b718314"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x539bde90cc8005727a7f2dd5dea5f6d83e82bba2"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xc38b9fbb57b0c33f85cb0a03669a9d6127538369"
     networks:
-      - arbitrum_one
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x24c492413fcfd5a8370f43f69205563c3d39cc5d"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

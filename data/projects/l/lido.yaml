@@ -6,13 +6,13 @@ github:
 blockchain:
   - address: "0x2c01f405e3c525c0cb867789aaf077f3553ccbb7"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x1824988af7a12c339784a171a514e20609896321"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -54,8 +54,7 @@ blockchain:
     name: ERC20Bridged
   - address: "0xec576a26335de1c360d2fc9a68cba6ba37af4a13"
     networks:
-      - arbitrum_one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa

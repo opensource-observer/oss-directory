@@ -6,26 +6,20 @@ github:
 blockchain:
   - address: "0x924ac9910c09a0215b06458653b30471a152022f"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xfefec7d3eb14a004029d278393e6ab8b46fb4fca"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: hopprotocol.eth
   - address: "0x9aa99c23f67c81701c772b106b4f83f6e858dd2e"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

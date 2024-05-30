@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0xc8d7d0bd61c5ca5a493a229f6754da5560f486ae"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -22,7 +20,7 @@ blockchain:
     name: Diamond
   - address: "0xdd05e8df6c51e4186d765e387316e37b29a76a0b"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -40,7 +38,7 @@ blockchain:
     name: BribeRewardPool
   - address: "0x0cdb34e6a4d635142bb92fe403d38f636bbb77b8"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa

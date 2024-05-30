@@ -9,9 +9,7 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - optimism
-      - mainnet
-      - arbitrum_one
+      - any_evm
   - address: "0x1195Cf65f83B3A5768F3C496D3A05AD6412c64B7"
     networks:
       - optimism

@@ -13,14 +13,13 @@ blockchain:
     name: LSP8PinSave
   - address: "0x48294a067d1bc5a58bcbab4b3be329d078d9e1af"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xad851ef1ad2ccf8f87413e6c274bccbec37469d2"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -6,15 +6,14 @@ github:
 blockchain:
   - address: "0xb1ab77dd31080f1db27533dfe6e8104131d792a3"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
     name: simonsallstrom.eth
   - address: "0xa18d7f3960ef7c9d708dd623589359c5ee00263f"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

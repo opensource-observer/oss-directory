@@ -16,8 +16,7 @@ github:
 blockchain:
   - address: "0xeac5f0d4a9a45e1f9fdd0e7e2882e9f60e301156"
     networks:
-      - arbitrum_one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -107,23 +106,21 @@ blockchain:
     name: unverified
   - address: "0x57ea12a3a8e441f5fe7b1f3af1121097b7d3b6a8"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: umbra.umbra.eth
   - address: "0x5c04e7808455ee0e22c2773328c151d0dd79dc62"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: scopelift.eth
   - address: "0xf138f8e006947d4482458510ab701299f46c12a3"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

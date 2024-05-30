@@ -32,15 +32,14 @@ blockchain:
       - wallet
   - address: "0x3a250dfbddf46f798ebd2ef67ddff10014946e9b"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: punkcities.eth
   - address: "0xecb4c1245665e8a1f43826355aab0dd6bf336e05"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

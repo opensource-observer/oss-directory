@@ -6,29 +6,26 @@ github:
 blockchain:
   - address: "0x2a88a454a7b0c29d36d5a121b7cf582db01bfcec"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xc8ce0ac725f914dbf1d743d51b6e222b79f479f1"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
     name: JonesDpxVaultV3
   - address: "0x4817ca4df701d554d78aa3d142b62c162c682ee1"
     networks:
-      - arbitrum_one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xd83055eb9d43a7dac64c9ef3e117d43964dd01fe"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa

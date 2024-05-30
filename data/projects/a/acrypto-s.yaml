@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x8888888841b669313cdc735910214313d7420e25"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -444,7 +442,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x5bd97307a40dfbfdbaef4b3d997adb816f2dadcc"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

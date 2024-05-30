@@ -10,25 +10,20 @@ github:
 blockchain:
   - address: "0x985a29e88e75394dbdae41a269409f701ccf6a43"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: maifinance.eth
   - address: "0xe00eaa2787a8830a485153b7bf508bc781e4a220"
     networks:
-      - arbitrum_one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x93798ef7e3a621d7c4eff22eda50b931fe57a3cf"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

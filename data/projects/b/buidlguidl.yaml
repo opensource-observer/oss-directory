@@ -21,37 +21,33 @@ blockchain:
       - wallet
   - address: "0xa81a6a910fed20374361b35c451a4a44f86ced46"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: signer.buidlguidl.eth
   - address: "0x6746e304b9e37cb4b878ca9878f8b6fd7f7fbf85"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: op.buidlguidl.eth
   - address: "0xb4f53bd85c00ef22946d24ae26bc38ac64f5e7b1"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x4985ad3d7d81c9e9a4cb2cc080f0c6baa55d8f74"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x5dcb5f4f39caa6ca25380cfc42280330b49d3c93"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum_one
+      - any_evm
     tags:
       - eoa
       - wallet

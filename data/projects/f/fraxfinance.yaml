@@ -6,47 +6,39 @@ github:
 blockchain:
   - address: "0x68d03de837cc395ec34c61c078fa901468a3bb29"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x11978d32619cfefc2e7c75a70ef8beb077b503ca"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x9124b49270a464ddb6f36dc212eee5b1d69d5133"
     networks:
-      - arbitrum_one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x93bc2e4061d4b256eb55446952b49c616db4ac0e"
     networks:
-      - arbitrum_one
-      - frax
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: frax-deployer.eth
   - address: "0x4600d3b12c39af925c2c07c487d31d17c1e32a35"
     networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: fraxaltdeployer.eth
   - address: "0xf03e9981e3848037e1784d72b02c8c8d100e90e5"
     networks:
-      - arbitrum_one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -367,7 +359,7 @@ blockchain:
     name: FraxlendPair
   - address: "0x5ca135cb8527d76e932f34b5145575f9d8cbe08e"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - contract
       - deployer
@@ -376,7 +368,7 @@ blockchain:
     name: FraxswapFactory
   - address: "0x26ce2091749059a66703cd4b998156d94ec393ef"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa

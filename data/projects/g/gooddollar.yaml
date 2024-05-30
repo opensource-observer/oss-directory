@@ -19,7 +19,7 @@ blockchain:
       - wallet
   - address: "0x5128E3C1f8846724cc1007Af9b4189713922E4BB"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa

@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x95a807bcab5a16901628acf90fc3057061a3fce9"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum_one
+      - any_evm
     tags:
       - eoa
       - wallet

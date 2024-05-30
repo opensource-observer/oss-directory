@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x16c2c2e818ac209f7e17a147aa10155267d880cb"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -55,13 +55,13 @@ blockchain:
     name: PoolViewer
   - address: "0x937fd8cc7f7d2ef5b801e44c03218ade5648c3fb"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xfd513630f697a9c1731f196185fb9eba6eaac20b"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - deployer
       - eoa
