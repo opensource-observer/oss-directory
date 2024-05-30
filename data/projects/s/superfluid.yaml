@@ -170,6 +170,36 @@ blockchain:
     tags:
       - contract
     name: Resolver
+  - address: "0x204C6f131bb7F258b2Ea1593f5309911d8E458eD"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: CFAv1
+  - address: "0x68Ae17fa7a31b86F306c383277552fd4813b0d35"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GDAv1
+  - address: "0xc4ce5118C3B20950ee288f086cb7FC166d222D4c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: IDAv1
+  - address: "0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SuperfluidLoaderv1
+  - address: "0x55c8fc400833eEa791087cF343Ff2409A39DeBcC"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FlowScheduler
   - address: "0x4ac8bd1bdae47beef2d1c6aa62229509b962aa0d"
     networks:
       - optimism
@@ -650,9 +680,17 @@ blockchain:
       - arbitrum_one
       - mainnet
       - optimism
+      - base
     tags:
       - contract
     name: CFAv1Forwarder
+  - address: "0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08"
+    networks:
+      - optimism
+      - base
+    tags:
+      - contract
+    name: GDAv1Forwarder
   - address: "0x65377d4dfE9c01639A41952B5083D58964782892"
     networks:
       - optimism
@@ -777,18 +815,75 @@ blockchain:
     tags:
       - eoa
       - wallet
+  - address: "0x6a214c324553F96F04eFBDd66908685525Da0E0d"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Resolver
+  - address: "0x19ba78B9cDB05A877718841c574325fdB53601bb"
+    networks:
+      - base
+    tags:
+      - contract
+    name: CFAv1
+  - address: "0x66DF3f8e14CF870361378d8F61356D15d9F425C4"
+    networks:
+      - base
+    tags:
+      - contract
+    name: IDAv1
+  - address: "0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa"
+    networks:
+      - base
+    tags:
+      - contract
+    name: GDAv1
+  - address: "0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534"
+    networks:
+      - base
+    tags:
+      - contract
+    name: SuperfluidLoaderv1
+  - address: "0x889ebeCaD5F8C34Fd96023456d0fC5cE54eb74Cb"
+    networks:
+      - base
+    tags:
+      - contract
+    name: BatchLiquidator
+  - address: "0xC72CEd15204d02183c83fEbb918b183E400811Ee"
+    networks:
+      - base
+    tags:
+      - contract
+    name: FlowScheduler
+  - address: "0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: SuperTokenFactory
+  - address: "0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09"
+    networks:
+      - base
+    tags:
+      - contract
+    name: TOGA
+  - address: "0x642332562BC60a4Bd9681E7bb1588f7456A497aC"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: ExistentialNFTCloneFactory
   - address: "0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74"
     networks:
       - base
     tags:
       - contract
+      - factory
     name: UUPSProxy
-  - address: "0xcfA132E353cB4E398080B9700609bb008eceB125"
-    networks:
-      - base
-    tags:
-      - contract
-    name: CFAv1Forwarder
   - address: "0xDF92D0E6Bcb9385FDe99aD21Ff5e47Fb47E3c6b2"
     networks:
       - base
