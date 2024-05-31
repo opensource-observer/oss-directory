@@ -1,0 +1,53 @@
+version: 7
+name: Keng Lernitas  
+display_name: Lernitas
+github:
+  - url: https://github.com/KengLernitas
+blockchain:
+  - address: "0x3Ed9AcAac7Bd974eB83a8eA6432a239e3C829D5D"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Token
+  - address: "0xd75f5bee37168f97552f843076adc2ea9a8a0935"
+    networks:
+      - base
+    tags:
+      - contract
+    name: BridgeToken
+  - address: "0xa0690b7bf65967508bfcaa9a999db44723553ba2"
+    networks:
+      - base
+    tags:
+      - contract
+    name: BridgeToken
+  - address: "0xe7FeB747BB3c16338117e31F0D2A792A4B9088e5"
+    networks:
+    - optimism
+    tags:
+    - safe
+    - wallet
+  - address: "todo"
+    networks:
+    - base
+    tags:
+    - safe
+    - wallet
+  - address: "0xf86358b208a177050eaee6b5552cf24e49f11cff"
+    networks:
+    - base
+    tags:
+    - wallet
+  - address: "0x42f9134E9d3Bf7eEE1f8A5Ac2a4328B059E7468c"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+websites:
+  - url: https://kenglernitas.wtf
+description: Keng Lernitas is a meme coin project founded by Kain Warwick
+social:
+  twitter:
+    - url: https://twitter.com/kenglernitas
