@@ -54,6 +54,7 @@ runs:
         cd oso/ops/external-prs && pnpm tools ossd validate-pr --duckdb-memory-limit 4GB ${{ inputs.pr }} ${{ inputs.sha }} ../../../main ../../../pr
       env:
         PR_TOOLS_REPO: ${{ github.repository }}
-        PR_TOOLS_OPTIMISM_RPC_URL: ${{ inputs.optimism_rpc_url }}
         PR_TOOLS_MAINNET_RPC_URL: ${{ inputs.mainnet_rpc_url }}
         PR_TOOLS_ARBITRUM_RPC_URL: ${{ inputs.arbitrum_rpc_url }}
+        PR_TOOLS_BASE_RPC_URL: ${{ inputs.base_rpc_url }}
+        PR_TOOLS_OPTIMISM_RPC_URL: ${{ inputs.optimism_rpc_url }}
