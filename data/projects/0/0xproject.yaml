@@ -3,6 +3,213 @@ name: 0xproject
 display_name: 0x
 github:
   - url: https://github.com/0xproject
+blockchain:
+  - address: "0xe750ad66de350f8110e305fb78ec6a9f594445e3"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x60908c4037cbb8f3aa040d9fb668ab36280eb871"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x6879fab591ed0d62537a3cac9d7cd41218445a84"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xedcd79f34db8b78cd7a55e04dbf991ecd1a5c0f4"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x1e9b8208081b47e76b6d6803832e14a5adb94fbc"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransformerDeployer
+  - address: "0x3a539ed6bd42de8fbaf3899fb490c792e153d647"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransformerDeployer
+  - address: "0x3899b63bfcf85e5fedc2cda43e3153e19f976aed"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: TransformerDeployer
+  - address: "0x843c1ae003a7217a122e9e2a7336377ee51b660f"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x80a36559ab9a497fb658325ed771a584eb0f13da"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0xdef1abe32c034e558cdd535791643c58a13acc10"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: ZeroEx
+  - address: "0x6b57347d5b0846a0dce87c8e2db45c8da25b97e0"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+      - factory
+    name: unverified
+  - address: "0xd16ae399f561265d895e0e2703cb34f8e47a9754"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BridgeAdapter
+  - address: "0x62c0077baa246ab15cacc4e3f9c04f7467cb4593"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xee9aa6ce83ef6aac5cd66115d2f2aa2fb011b164"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x665a63e3c18d121d72cd281ebf6be2ffeb739738"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xecb3f41d906b2407fbe679f3e3aed85c27050fb6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BridgeAdapter
+  - address: "0x6d506b2847df0c6f04d2628da1adaf4d8fb2e81b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ZeroExGovernor
+  - address: "0xdd4a12da198b367751481db286bce99717bed11f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x0dd99980a85dba5cc03afef716926ce5471bde23"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BridgeAdapter
+  - address: "0x75f68002fd99c700160f4287d76c2fa8b9603b58"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x23e1fcf553a7db590562f8a47bd76a28e358455e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransformERC20Feature
+  - address: "0x254d39d6e8b40f31d104ccb8d00dab5dcfeb79d5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OwnableFeature
+  - address: "0xbb2dd92567cd3308bb0dcd5a9d2430e1e7420428"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x6c0459bdfb9352a1d4cb8e80310b3e4d957ab132"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SimpleFunctionRegistryFeature
+  - address: "0x78b853dd3dd3271fa5edd2944155fc907f411819"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x6c1503b6258d9632ecd9c45c82da8d581d9c7e6f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x38a613beedc82571de21f9dfc3a688275fb30ee5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ZeroExGovernor
+  - address: "0x4292e4a3418e5908b88194e724e72fc2bac747e3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: InitialMigration
+  - address: "0x6cfbc77ba5ec023a03b2f5c3a4c367e7519ae786"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xdf756c9cbb0d9fce050a1b5d04d893c9b5406886"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xba9493f97bef07a272998139a268398b80ab9dd5"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+  - address: "0xdef1c0ded9bec7f1a1670819833240f027b25eff"
+    networks:
+      - arbitrum_one
+      - base
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: ZeroEx
 websites:
   - url: https://0x.org
 description: Exchange Infrastructure for the Internet
