@@ -3,6 +3,10 @@ name: biconomy
 display_name: Biconomy
 github:
   - url: https://github.com/bcnmy
+npm:
+  - url: https://www.npmjs.com/package/@biconomy/account
+  - url: https://www.npmjs.com/package/@biconomy/paymaster
+  - url: https://www.npmjs.com/package/@biconomy/bundler
 blockchain:
   - address: "0xdc0d4bdcc70362cedd23d3997c31528ec1502fc4"
     networks:
@@ -30,7 +34,7 @@ blockchain:
     tags:
       - contract
       - factory
-    name: unverified
+    name: Deployer
   - address: "0xcb922edae8b57ebca84cffba5e6c10de9772e91f"
     networks:
       - optimism
@@ -234,6 +238,7 @@ blockchain:
     networks:
       - arbitrum_one
       - optimism
+      - base
     tags:
       - contract
       - factory
@@ -383,5 +388,87 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0x0000002512019Dafb59528B82CB92D3c5D2423aC"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+    tags:
+      - contract
+    name: SmartAccount
+  - address: "0x00000f79b7faf42eebadba19acc07cd08af44789"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+    tags:
+      - contract
+    name: VerifyingSingletonPaymaster
+  - address: "0x00000f7365cA6C59A2C93719ad53d567ed49c14C"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+    tags:
+      - contract
+    name: VerifyingPaymaster
+  - address: "0x00000f7748595E46527413574A9327942E744e91"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+    tags:
+      - contract
+    name: ChainlinkOracleAggregator
+  - address: "0x0000001c5b32F37F5beA87BDD5374eB2aC54eA8e"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+    tags:
+      - contract
+    name: EcdsaOwnershipRegistryModule
+  - address: "0x000000824dc138db84FD9109fc154bdad332Aa8E"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+    tags:
+      - contract
+    name: MultichainECDSAValidator
+  - address: "0x0000008fB325a39093516Df3E1F0bde7c59AC961"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+    tags:
+      - contract
+    name: PasskeyRegistryModule
+  - address: "0x000002FbFfedd9B33F4E7156F2DE8D48945E7489"
+    networks: 
+      - arbitrum_one
+      - optimism
+      - base
+    tags:
+      - contract
+    name: SessionKeyManager
+  - address: "0x000008dA71757C0E1D83CE56c823e25Aa49bC058"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+    tags:
+      - contract
+    name: BatchedSessionRouter
+  - address: "0x000000D50C68705bd6897B2d17c7de32FB519fDA"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+    tags:
+      - contract
+    name: ERC20SessionValidationModule
+
+  
 websites:
   - url: https://biconomy.io
