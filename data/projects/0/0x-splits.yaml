@@ -4,8 +4,9 @@ display_name: 0xSplits
 github:
   - url: https://github.com/0xSplits
 npm:
+  - url: https://www.npmjs.com/package/@0xsplits/splits-kit
   - url: https://www.npmjs.com/package/@0xsplits/splits-sdk
-  - url: https://www.npmjs.com/package/@0xsplits/splits-contracts
+  - url: https://www.npmjs.com/package/@0xsplits/splits-sdk-react
 blockchain:
   - address: "0x9ebc8e61f87a301ff25a606d7c06150f856f24e2"
     networks:
@@ -59,6 +60,60 @@ blockchain:
     tags:
       - contract
     name: Recoup
+  - address: 0x8fb66F38cF86A3d5e8768f8F1754A24A6c661Fb8
+    networks:
+      - base
+    tags:
+      - contract
+    name: SplitsWarehouse
+  - address: 0xaDC87646f736d6A82e9a6539cddC488b2aA07f38
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: PushSplitFactory
+  - address: 0x80f1B766817D04870f115fEBbcCADF8DBF75E017
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: PullSplitFactory
+  - address: 0x8fb66F38cF86A3d5e8768f8F1754A24A6c661Fb8
+    networks:
+      - zora
+    tags:
+      - contract
+    name: SplitsWarehouse
+  - address: 0xaDC87646f736d6A82e9a6539cddC488b2aA07f38
+    networks:
+      - zora
+    tags:
+      - contract
+      - factory
+    name: PushSplitFactory
+  - address: 0x80f1B766817D04870f115fEBbcCADF8DBF75E017
+    networks:
+      - zora
+    tags:
+      - contract
+      - factory
+    name: PullSplitFactory
+  - address: 0xaDC87646f736d6A82e9a6539cddC488b2aA07f38
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: PushSplitFactory
+  - address: 0x80f1B766817D04870f115fEBbcCADF8DBF75E017
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: PullSplitFactory
 websites:
   - url: https://splits.org
 description: The standard for splitting onchain income
