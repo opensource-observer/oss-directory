@@ -25,11 +25,14 @@ inputs:
   mainnet_rpc_url:
     description: The RPC url for Ethereum Mainnet
     required: true
-  optimism_rpc_url:
-    description: The RPC url for Optimism
-    required: true
   arbitrum_rpc_url:
     description: The RPC url for Arbitrum
+    required: true
+  base_rpc_url:
+    description: The RPC url for Base
+    required: true
+  optimism_rpc_url:
+    description: The RPC url for Optimism
     required: true
 
 runs:
