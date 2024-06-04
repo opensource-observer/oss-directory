@@ -1,15 +1,15 @@
 version: 7
-name: zerodev-kernel
+name: zerodev
 display_name: ZeroDev
 github:
   - url: https://github.com/zerodevapp
 blockchain:
   - address: "0x4a25D28d10B02BCF13a16068F56d167D8F96d093"
-    networks:
-      - any_evm
-    tags:
-      - safe
-      - wallet
+networks:
+  - any_evm
+tags:
+  - safe
+  - wallet
 websites:
   - url: https://zerodev.app
 description: ZeroDev is Instant Smart Wallets for your customers, powered by Account Abstraction (ERC-4337)
