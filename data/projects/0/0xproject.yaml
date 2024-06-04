@@ -24,7 +24,7 @@ blockchain:
       - eoa
   - address: "0xedcd79f34db8b78cd7a55e04dbf991ecd1a5c0f4"
     networks:
-      - any_evm
+      - optimism
     tags:
       - deployer
       - eoa
@@ -185,10 +185,10 @@ blockchain:
       - wallet
   - address: "0xdef1c0ded9bec7f1a1670819833240f027b25eff"
     networks:
-      - arbitrum_one
-      - base
+      #- arbitrum_one
+      #- base
       - mainnet
-      - optimism
+      #- optimism
     tags:
       - contract
       - proxy
