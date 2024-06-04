@@ -1,0 +1,44 @@
+version: 7
+name: CreateMyToken
+display_name: Create My Token
+github:
+  - url: https://github.com/CreateMyToken
+websites:
+  - url: https://www.createmytoken.com
+description: Create your own token in just 1 minute and deploy it on Ethereum, Base, Optimism and more! No code, no setup, no login, and free!
+blockchain:
+  - address: "0x85a1F113eEA53A68189157914F320c0Cc5093773"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0xD3bf35D0A047DCccD51325Fe6490bdAcf11042e0"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x781d963b5c94590A324a6300d9AdA11cAedf7260"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0xC710077CEe595E3E0745c3BB117c5c7793e52731"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x119De62e76c1be37A10b30c64FA5406C531AccCf"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x3669c9E2467fef198FB7963A2dF887D0a005216C"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x4e08e94e560AeE9b3440D08A9CaAA34b29f32bf5"
+    networks:
+      - any_evm
+    tags:
+      - contract
