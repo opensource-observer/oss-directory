@@ -24,7 +24,7 @@ blockchain:
       - eoa
   - address: "0xedcd79f34db8b78cd7a55e04dbf991ecd1a5c0f4"
     networks:
-      - any_evm
+      - optimism
     tags:
       - deployer
       - eoa
@@ -85,18 +85,6 @@ blockchain:
     tags:
       - contract
     name: BridgeAdapter
-  - address: "0x62c0077baa246ab15cacc4e3f9c04f7467cb4593"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: unverified
-  - address: "0xee9aa6ce83ef6aac5cd66115d2f2aa2fb011b164"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: unverified
   - address: "0x665a63e3c18d121d72cd281ebf6be2ffeb739738"
     networks:
       - optimism
@@ -115,12 +103,6 @@ blockchain:
     tags:
       - contract
     name: ZeroExGovernor
-  - address: "0xdd4a12da198b367751481db286bce99717bed11f"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: unverified
   - address: "0x0dd99980a85dba5cc03afef716926ce5471bde23"
     networks:
       - optimism
@@ -203,12 +185,13 @@ blockchain:
       - wallet
   - address: "0xdef1c0ded9bec7f1a1670819833240f027b25eff"
     networks:
-      - arbitrum_one
-      - base
+      #- arbitrum_one
+      #- base
       - mainnet
-      - optimism
+      #- optimism
     tags:
       - contract
+      - proxy
     name: ZeroEx
 websites:
   - url: https://0x.org
