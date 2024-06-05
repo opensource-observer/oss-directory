@@ -21,7 +21,7 @@ blockchain:
     networks:
       - any_evm
     tags:
-      - deployer
+      #- deployer
       - eoa
   - address: "0x11F1022cA6AdEF6400e5677528a80d49a069C00c"
     networks:
@@ -39,7 +39,7 @@ blockchain:
     networks:
       - any_evm
     tags:
-      - deployer
+      #- deployer
       - eoa
 
   # Wallets
@@ -170,19 +170,19 @@ blockchain:
   # FeeCollectors
   - address: "0xb0210de78e28e2633ca200609d9f528c13c26cd9"
     networks:
-      - any_evm
+      - arbitrum_one
     tags:
       - contract
     name: FeeCollector
   - address: "0xbD6C7B0d2f68c2b7805d88388319cfB6EcB50eA9"
     networks:
-      - any_evm
+      - optimism
     tags:
       - contract
     name: FeeCollector
   - address: "0x0A6d96E7f4D7b96CFE42185DF61E64d255c12DFf"
     networks:
-      - any_evm
+      - mainnet
     tags:
       - contract
     name: FeeCollector
