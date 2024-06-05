@@ -1,0 +1,23 @@
+version: 7
+name: pixel-based-hypodropcom
+display_name: Pixel Based
+github:
+  - url: https://github.com/HypoDropCom/Pixel-Based
+blockchain:
+  - address: "0x4d7D85Df9D9Dd17c41FCcA32aA8fC49ed0D973ab"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x400326aEEeC608716B12dBEC4E1619D915595A37"
+    networks:
+      - base
+    tags:
+      - contract
+websites:
+  - url: https://zora.co/collect/base:0x400326aeeec608716b12dbec4e1619d915595a37/1
+description: A Free Boost Token for Early Users And HypoDrop Community On Zora 💚
+social:
+  twitter:
+    - url: https://x.com/Hypodrop

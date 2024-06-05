@@ -1,0 +1,23 @@
+version: 7
+name: base-land-hypodropcom
+display_name: Base Land
+github:
+  - url: https://github.com/HypoDropCom/Base-Land
+blockchain:
+  - address: "0xF5dd11c8394c92483D462ffE78bcD0e2A72BCb0c"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x5D4aA9c96c81AcbD201cF979215c72f6e5487e81"
+    networks:
+      - base
+    tags:
+      - contract
+websites:
+  - url: https://zora.co/collect/oeth:0x8d3e56eb51e5d139f58f6423e6fcfbbaf54cf103/1
+description: Base Land, the first Land NFT collection on Base Network, showcase stunning digital 1/1 landscapes. Nestled within the expanse of the Lands collection on Base Network lies a breathtaking tapestry of virtual landscapes, each weaving its own tale of allure and wonder.
+social:
+  twitter:
+    - url: https://x.com/baselandz
