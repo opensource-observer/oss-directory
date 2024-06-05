@@ -73,6 +73,31 @@ blockchain:
     tags:
       - eoa
       - wallet
+    name: deployerKey1
+  - address: "0x06263e1A856B36e073ba7a50D240123411501611"
+    networks:
+      - optimism
+    tags:
+      - eoa
+    name: deployerKey2
+  - address: "0xe1ce7720f9b434ec98382f776e5C3A48C8BA6673"
+    networks: 
+      - any_evm
+    tags:
+      - eoa
+    name: TreasuryHandler
+  - address: "0x9cd1E4A6b3361abcCC90C7F8E788ac246d194303"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+    name: UUPSProxy
+  - address: "0x4caB5B9930210E2EdC6A905B9C75D615872A1A7E"
+    networks: 
+      - optimism
+    tags:
+      - contract
 websites:
   - url: http://www.giveth.io
 description: Building the Future of Giving
