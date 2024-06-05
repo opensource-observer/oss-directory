@@ -4,6 +4,7 @@ display_name: LI.FI
 github:
   - url: https://github.com/lifinance
 blockchain:
+  # Deployers
   - address: "0x11f11121df7256c40339393b0fb045321022ce44"
     networks:
       - any_evm
@@ -16,6 +17,209 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xCB1e9fA11Edd27098A6B2Ff23cB6b79183ccf8Ee"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x11F1022cA6AdEF6400e5677528a80d49a069C00c"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x552008c0f6870c2f77e5cC1d2eb9bdff03e30Ea0"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x29DaCdF7cCaDf4eE67c923b4C22255A4B2494eD7"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+
+  # Wallets
+  - address: "0x8932eb23bad9bddb5cf81426f78279a53c6c3b71"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+  - address: "0x4d218d77cddd700565826a31837277e9e2ea0564"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+  - address: "0x4577a46A3eCf44E0ed44410B7793977ffbe22CE0"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+
+  # Safe
+  - address: "0x9e606d0d2BbA344b911e2F4Eab95d9235A83fe15"
+    networks:
+      - arbitrum_one
+    tags:
+      - safe
+  - address: "0x1F6974C11B833Eb52ea07E0B442510165D87d82e"
+    networks:
+      - base
+    tags:
+      - safe
+  - address: "0x37347dD595C49212C5FC2D95EA10d1085896f51E"
+    networks:
+      - mainnet
+    tags:
+      - safe
+  - address: "0x8BCC385948C73736423D38cc567cFEdE0F1826A3"
+    networks:
+      - matic
+    tags:
+      - safe
+  - address: "0xdf61270fDC1A892874Fd3C0143A0A4CBA74F4EF1"
+    networks:
+      - mode
+    tags:
+      - safe
+  - address: "0xa8892eA3fdDeF2aa8AfB1E3643a3284f978A5114"
+    networks:
+      - optimism
+    tags:
+      - safe
+  - address: "0xdf61270fDC1A892874Fd3C0143A0A4CBA74F4EF1"
+    networks:
+      - linea
+    tags:
+      - safe
+  - address: "0x02f1272aEaCaf7BD8b30278bc2AA381Cc623A744"
+    networks:
+      - zksync_era
+    tags:
+      - safe
+  - address: "0x9575B9fC42dec56D3772B3df5DA047a1f1D55582"
+    networks:
+      - polygon_zkevm
+    tags:
+      - safe
+  - address: "0xdf61270fDC1A892874Fd3C0143A0A4CBA74F4EF1"
+    networks:
+      - scroll
+    tags:
+      - safe
+  - address: "0xa89a87986e8ee1Ac8fDaCc5Ac91627010Ec9f772"
+    networks:
+      - mantle
+    tags:
+      - safe
+
+  # Create Factories
+  - address: "0x93FEC2C00BfE902F733B57c5a6CeeD7CD1384AE1"
+    networks:
+      - any_evm
+    tags:
+      - contract
+      - factory
+    name: CREATE3Factory
+  - address: "0x8437A5fE47A4Df14700c96DF1870824e72FA8499"
+    networks:
+      - linea
+    tags:
+      - contract
+      - factory
+    name: CREATE3Factory
+
+  # Diamonds
+  - address: "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae"
+    networks:
+      - any_evm
+    tags:
+      - contract
+    name: LiFiDiamond
+  - address: "0x341e94069f53234fe6dabef707ad424830525715"
+    networks:
+      - zksync_era
+    tags:
+      - contract
+    name: LiFiDiamond
+  - address: "0xde1e598b81620773454588b85d6b5d4eec32573e"
+    networks:
+      - linea
+    tags:
+      - contract
+    name: LiFiDiamond
+  - address: "0x9b11bc9fac17c058cab6286b0c785be6a65492ef"
+    networks:
+      - any_evm
+    tags:
+      - contract
+    name: LiFiDiamondImmutable
+  - address: "0x362fa9d0bca5d19f743db50738345ce2b40ec99f"
+    networks:
+      - any_evm
+    tags:
+      - contract
+    name: LiFiDiamond
+
+  # FeeCollectors
+  - address: "0xb0210de78e28e2633ca200609d9f528c13c26cd9"
+    networks:
+      - any_evm
+    tags:
+      - contract
+    name: FeeCollector
+  - address: "0xbD6C7B0d2f68c2b7805d88388319cfB6EcB50eA9"
+    networks:
+      - any_evm
+    tags:
+      - contract
+    name: FeeCollector
+  - address: "0x0A6d96E7f4D7b96CFE42185DF61E64d255c12DFf"
+    networks:
+      - any_evm
+    tags:
+      - contract
+    name: FeeCollector
+  - address: "0x8dBf6f59187b2EB36B980F3D8F4cFC6DC4E4642e"
+    networks:
+      - zksync_era
+    tags:
+      - contract
+    name: FeeCollector
+  - address: "0xA4A24BdD4608D7dFC496950850f9763B674F0DB2"
+    networks:
+      - linea
+    tags:
+      - contract
+    name: FeeCollector
+
+  # Executor
+  - address: "0x2dfaDAB8266483beD9Fd9A292Ce56596a2D1378D"
+    networks:
+      - any_evm
+    tags:
+      - contract
+    name: FeeCollector
+  - address: "0xa9bfa49F26733271f4FD34A4b57bB7C563Ae056A"
+    networks:
+      - zksync_era
+    tags:
+      - contract
+    name: Executor
+  - address: "0x2a202Ed587F0BC7dfa80ea1DD943d8470492Dd0F"
+    networks:
+      - linea
+    tags:
+      - contract
+    name: Executor
+
+  # other contracts
   - address: "0x2fd525b8b2e2a69d054dccb033a0e33e0b4ab370"
     networks:
       - arbitrum_one
@@ -31,7 +235,6 @@ blockchain:
       - optimism
     tags:
       - contract
-      - factory
     name: unverified
   - address: "0x2f16c2c6467377920c125c05b7adbc5d74ae5fa1"
     networks:
@@ -39,47 +242,15 @@ blockchain:
       - optimism
     tags:
       - contract
-      - factory
     name: unverified
-  - address: "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-    name: LiFiDiamond
-  - address: "0x9b11bc9fac17c058cab6286b0c785be6a65492ef"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-    name: LiFiDiamondImmutable
-  - address: "0x362fa9d0bca5d19f743db50738345ce2b40ec99f"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-    name: LiFiDiamond
-  - address: "0xb0210de78e28e2633ca200609d9f528c13c26cd9"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-    name: FeeCollector
-  - address: "0x4d218d77cddd700565826a31837277e9e2ea0564"
-    networks:
-      - any_evm
-    tags:
-      - eoa
-      - wallet
-  - address: "0x8932eb23bad9bddb5cf81426f78279a53c6c3b71"
-    networks:
-      - any_evm
-    tags:
-      - eoa
-      - wallet
 websites:
   - url: https://li.fi
 description: The DeFi Liquidity Mesh - Bridge & DEX aggregation out of the box
 social:
   twitter:
     - url: https://twitter.com/lifiprotocol
+npm:
+  - url: https://www.npmjs.com/package/@lifi/sdk
+  - url: https://www.npmjs.com/package/@lifi/widget
+  - url: https://www.npmjs.com/package/@lifi/types
+  - url: https://www.npmjs.com/package/@lifi/data-types
