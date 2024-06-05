@@ -8,8 +8,8 @@ github:
   - url: https://github.com/basepunkorg/basepunk-landing
 blockchain:
   - address: "0x919364818153ef009d6ad6ef9644066b24fa2f04"
-    networks:base
-      - any_evm
+    networks:
+      - base
     tags:
       - eoa
       - wallet
