@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: sushi
 display_name: Sushi
 github:
@@ -6,30 +6,26 @@ github:
 blockchain:
   - address: "0x4bb4c1b0745ef7b4642feeccd0740dec417ca0a0"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: 🍣👨‍🍳.eth
   - address: "0xf87bc5535602077d340806d71f805ea9907a843d"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x32464be3d71ed9105c142fb6bdee98a0c649cdd3"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x827179dd56d07a7eea32e3873493835da2866976"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -38,7 +34,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x9c6522117e2ed1fe5bdb72bb0ed5e3f2bde7dbe0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -46,7 +42,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x93395129bd3fcf49d95730d3c2737c17990ff328"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -54,7 +50,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x0769fd68dfb93167989c6f7254cd0d766fb2841f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -62,7 +58,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xc79ae87e9f55761c08e346b98dddf070c9872787"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -70,7 +66,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xc35dadb65012ec5796536bd9864ed8773abc74c4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -79,7 +75,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1af415a1eba07a4986a52b6f2e7de7003d82231e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -108,7 +104,7 @@ blockchain:
     name: SushiXSwap
   - address: "0x011e52e4e40cf9498c79273329e8827b21e2e581"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -128,7 +124,7 @@ blockchain:
     name: unverified
   - address: "0x7a4af156379f512de147ed3b96393047226d923f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -159,7 +155,7 @@ blockchain:
     name: TridentRouter
   - address: "0x1be211d8da40bc0ae8719c6663307bfc987b1d6c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -173,7 +169,7 @@ blockchain:
     name: SushiXSwap
   - address: "0x1c5771e96c9d5524fb6e606f5b356d08c40eb194"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -202,21 +198,21 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x0367a647a68f304f2a6e453c25033a4249d7f2c6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x843d0aad40295f2198ef528ad747cdf6ab9000e4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: SushiXSwap
   - address: "0x67468e6c4418d58b1b41bc0a795bacb824f70792"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -224,7 +220,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x3db923fbab372ab8c796fef9bb8341cdb37cb9ec"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -232,7 +228,7 @@ blockchain:
     name: unverified
   - address: "0xf4d73326c13a4fc5fd7a064217e12780e9bd62c3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -240,7 +236,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x2f686751b19a9d91cc3d57d90150bc767f050066"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -248,7 +244,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x96e04591579f298681361c6122dc4ef405c19385"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -261,14 +257,14 @@ blockchain:
     name: TridentRouter
   - address: "0xd08b5f3e89f1e2d6b067e0a0cbdb094e6e41e77c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: SushiXSwap
   - address: "0x438a2b1c6c715fb1b051c04ca65755560d8b8d43"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -276,7 +272,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1b02da8cb0d097eb8d57a175b88c7d8b47997506"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -302,7 +298,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x3d2f8ae0344d38525d2ae96ab750b83480c0844f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -315,7 +311,7 @@ blockchain:
     name: ComplexRewarderTime
   - address: "0xbd87bef520f8cec45d73b0413b6cbb8b061736d9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -340,7 +336,7 @@ blockchain:
     name: SushiFundsReturner
   - address: "0xeae23c766a1b25481025a02b2d82a1db3fc130ca"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -354,7 +350,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x2f255d3f3c0a3726c6c99e74566c4b18e36e3ce6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -368,7 +364,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x8dacffa7f69ce572992132697252e16254225d38"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -376,7 +372,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xd9988b4b5bbc53a794240496cfa9bf5b1f8e0523"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -384,14 +380,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4c5d5234f232bd2d76b96aa33f5ae4fcf0e4bfab"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x258f7e97149afd7d7f84fa63b10e4a3f0c38b788"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -399,7 +395,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xf0cbce1942a68beb3d1b73f0dd86c8dcc363ef49"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -420,14 +416,14 @@ blockchain:
     name: SushiXSwap
   - address: "0xcaabdd9cf4b61813d4a52f980d6bc1b713fe66f5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x5629ce74ddcad7cc72b3ea30444da7172ad851d9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -440,38 +436,38 @@ blockchain:
     name: RouteProcessor3_2
   - address: "0x09bd2a33c47746ff03b86bce4e885d03c74a8e8c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RouteProcessor3_2
   - address: "0x53b08dbd70327b7ba3b7886fc9987bc985d27262"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SushiXSwap
   - address: "0xfc506aaa1340b4dedffd88be278bee058952d674"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RouteProcessor3
   - address: "0x74c764d41b77dbbb4fe771dab1939b00b146894a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: BentoBoxV1
   - address: "0x4ff2cd6a3575ecf5057cb5ff320e9f6613e693d8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UniswapV3Pool
   - address: "0x15e444da5b343c5a0931f5d3e85d158d1efc3d40"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UniswapV3Pool
@@ -481,6 +477,8 @@ blockchain:
     tags:
       - safe
       - wallet
-twitter: SushiSwap
 websites:
   - url: https://sushi.com
+social:
+  twitter:
+    - url: https://twitter.com/SushiSwap

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: eggcess-tech
 display_name: eggcess-tech
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0xc8c9ba511d780729e19e4a10e3ffe7cc2442c904"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: EggcessTech
 websites:
   - url: https://eggcess.tech/
 description: Enabling simple access to your favorite people
+social:
+  twitter:
+    - url: https://twitter.com/EggcessTech

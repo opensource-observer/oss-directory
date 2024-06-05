@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: jojoexchange
 display_name: JOJO Exchange
 github:
@@ -6,56 +6,55 @@ github:
 blockchain:
   - address: "0xbd0c01649f81109984e659043a0d898014a75622"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x4049c0a9a11816c79c35dc7206bd48301878a735"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x46fdc15e3e2d79b508e6d70e68e9a7127071ee04"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JOJODealer
   - address: "0x9313e231d8b571561f2bb7b7a3c65426d426c906"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Perpetual_eth
   - address: "0x747282eadcd331e3a8725dcd9e358514d723b3a3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JUSDBank
   - address: "0xaae987a9a39d6fcf86bc64d4dda582dfd4754528"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Perpetual_btc
   - address: "0x189a2eadf09683c580217b3ee7e881649728b2ca"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Perpetual
   - address: "0xcdf9eed57fe8dfaacecf40699e5861517143bcc7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JOJODealer
   - address: "0x2c9f3780bfcbcccf65f3aa7bbbdbe13708e0ef4a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Perpetual

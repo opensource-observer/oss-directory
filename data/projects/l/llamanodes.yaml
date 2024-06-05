@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: llamanodes
 display_name: LlamaNodes
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x697008c9cca249eb5abe9583f041a18a850453a4"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: LlamaNodes
 websites:
   - url: https://llamanodes.com
 description: Fast and secure access to the blockchain designed for Web3 native teams.
+social:
+  twitter:
+    - url: https://twitter.com/LlamaNodes

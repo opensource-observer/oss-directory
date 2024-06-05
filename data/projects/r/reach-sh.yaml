@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: reach-sh
 display_name: reach-sh
 github:
@@ -6,10 +6,12 @@ github:
 blockchain:
   - address: "0x0639092a9c3d9467dd6f89a13213541c8a1e58b2"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: reachlang
 websites:
   - url: https://reach.sh/
+social:
+  twitter:
+    - url: https://twitter.com/reachlang

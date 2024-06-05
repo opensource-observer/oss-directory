@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: overnight
 display_name: Overnight+
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x5cb01385d3097b6a189d1ac8ba3364d900666445"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -74,7 +73,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0xe4e59fc6a475cdbf12299513461f0f52644ee16d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -105,7 +104,7 @@ blockchain:
     name: StrategyEtsUsdcDai
   - address: "0xcdac414c104dd22b2f7157331f6b725168842aa5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -166,14 +165,14 @@ blockchain:
     name: unverified
   - address: "0x114fde2581921cb54d7f48e4abd010fe5e03b6fa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x1f4947cd5a5c058dd5ea6fd1ccd5c311ada9e6fb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -186,7 +185,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0xfac722133a19d38833cc105b1349715717cf050e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -199,21 +198,21 @@ blockchain:
     name: StrategyPikaV4
   - address: "0x18dfd867a29fa57d5cf23ad0eb9f2cf477b488df"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xe2fe8783cdc724ec021ff9052ee8ebed00e6248e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x873a2654c73639132caa0afb8938bd81279e4e45"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -286,7 +285,7 @@ blockchain:
     name: unverified
   - address: "0x1595eefcebe3f4c24a4afad14962cbd31c02420d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -299,7 +298,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0xe80772eaf6e2e18b651f160bc9158b2a5cafca65"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -330,7 +329,7 @@ blockchain:
     name: unverified
   - address: "0xa78be2fd2a7357961d950a235ff52ce0b8f31201"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -367,21 +366,21 @@ blockchain:
     name: unverified
   - address: "0x413fa8a46bb9401875d20c321c8a5901ae0dff27"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2427db2b6a709899cc6605675dacff8f79e4d788"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x74e18efd99a16b124fc3e5b475f9eff9673254a0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -394,7 +393,7 @@ blockchain:
     name: unverified
   - address: "0x40d993afa2f4ec9db718bcb8476bb1cb69c70af2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -431,7 +430,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x894bca255f25471aa507fec0a6a116434b72cc1f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -444,7 +443,7 @@ blockchain:
     name: StrategySynapseUsdc
   - address: "0xde34852c58304a09497d2f59064d76ea60385d28"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -469,7 +468,7 @@ blockchain:
     name: unverified
   - address: "0xc62a6b6048657b9e86a2b3ff21197d079c8b85d8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -482,7 +481,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x7f343c16c0c69a714e0ef8d508c28ad82a7cb373"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -507,7 +506,7 @@ blockchain:
     name: unverified
   - address: "0x6b4313a412d2cdef9317aaadc0fd518f60889443"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -574,7 +573,7 @@ blockchain:
     name: unverified
   - address: "0xe01c261501301b925379b222da603f54a64c634f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -593,7 +592,7 @@ blockchain:
     name: unverified
   - address: "0x6cdfd6872adeeb0d0dc708cedf6f89de62abe3a4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -636,7 +635,7 @@ blockchain:
     name: unverified
   - address: "0xf1e736bd81a64f7bbb42882628cab7754b11d956"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -661,7 +660,7 @@ blockchain:
     name: unverified
   - address: "0xc8261dc93428f0d2dc04d675b7852cdcdc19d4fd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -674,7 +673,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0xdbab307f2f19a678f90ad309c8b34dad3da8d334"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -687,14 +686,14 @@ blockchain:
     name: PortfolioManager
   - address: "0xd48f25ec821b3ae3e11b53fe1795abdd2e2d1578"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x8416d215b71a5c91b04e326140bbbdcda82c01da"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -713,7 +712,7 @@ blockchain:
     name: StrategyRubiconDai
   - address: "0x9af655c4dbe940962f776b685d6700f538b90fcf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -756,7 +755,7 @@ blockchain:
     name: unverified
   - address: "0x6035d915eb7e0e79726830e39c41b23bc52e4f4e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -811,7 +810,7 @@ blockchain:
     name: unverified
   - address: "0xbf21cbe292b40347b3691c3187645501fc0e5f97"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -854,14 +853,14 @@ blockchain:
     name: unverified
   - address: "0xd50553944abf29bf5653083489b88dcffc73e14a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xc356e0c69bad729c9cc157ee3d833dfcace481dc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -976,7 +975,7 @@ blockchain:
     name: unverified
   - address: "0x5d9841e343d0a8529db2c4f3cfbfd3ee652ec645"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1031,7 +1030,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x9bd68df6617bcff5ee475554c08b511e09c33bbd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1062,7 +1061,7 @@ blockchain:
     name: OptimismPayoutListener
   - address: "0x52b2ccddabe5c346c1a0c929a31a153125f251ea"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1081,7 +1080,7 @@ blockchain:
     name: unverified
   - address: "0x3271371d5ad147140bf321b6ed859cc02afce973"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1124,7 +1123,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0xf06fdbf0793fee3728e01c5119bf4a67f02869e9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1155,7 +1154,7 @@ blockchain:
     name: unverified
   - address: "0x378a7da7179f8f98b3cf3e87d8a6c3e6cdf3589b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1180,7 +1179,7 @@ blockchain:
     name: unverified
   - address: "0x2d4ebfae4d8ae622c5a7216a638fcecdcca32bd1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1211,7 +1210,7 @@ blockchain:
     name: unverified
   - address: "0x6a9d96f5eaca97d61ad8f82c98591462af9a7fc8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1236,7 +1235,7 @@ blockchain:
     name: unverified
   - address: "0x5335e87930b410b8c5bb4d43c3360aca15ec0c8c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1279,7 +1278,7 @@ blockchain:
     name: unverified
   - address: "0x11732e21d9dab3b6ff6e7dd9edcb24770260c7b4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1304,7 +1303,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x815e309df4bf6957e8ebd99106e5fd50af084a0f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1341,7 +1340,7 @@ blockchain:
     name: unverified
   - address: "0xd976106896678ff615a9525e9954775e52f2fdf7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1384,7 +1383,7 @@ blockchain:
     name: unverified
   - address: "0x7ffb6371af31fac5829239f51ba3cb191c855fd7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1409,7 +1408,7 @@ blockchain:
     name: unverified
   - address: "0x8368ffeef892082ad0f6ed9821ab83ca430bd0fe"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1446,7 +1445,7 @@ blockchain:
     name: unverified
   - address: "0x6c93a2a9ebc61ce664ee3d44531b76365150bfd8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1459,7 +1458,7 @@ blockchain:
     name: unverified
   - address: "0xc5ae29d85e8dbd357d4bb01d8463dcf6d0c129ce"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1478,7 +1477,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0xd69fab1ff729aa352feb722bcae753ca84ca5827"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1515,7 +1514,7 @@ blockchain:
     name: unverified
   - address: "0xd3cc82085f34d9c500fcbcdb176edde17a82335c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1564,7 +1563,7 @@ blockchain:
     name: unverified
   - address: "0xe965f51008b0a1fbeb2b82d407179696c4716830"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1583,7 +1582,7 @@ blockchain:
     name: unverified
   - address: "0x849b45d86c24bf8d33bc3cf7c6e37e9f83e2351f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1596,7 +1595,7 @@ blockchain:
     name: unverified
   - address: "0x83c13c1e1b3b6eb64fee20a3f7c3d407f7e46ca2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1621,7 +1620,7 @@ blockchain:
     name: StrategyRubiconUsdt
   - address: "0xc24c8dc3a40d92940fd9b9b0570589564fe755bb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1652,7 +1651,7 @@ blockchain:
     name: OptimismPayoutListener
   - address: "0xe07d376e0f132cd1a72e5125b6dace7f2a0ba106"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1719,7 +1718,7 @@ blockchain:
     name: unverified
   - address: "0x211efbaad81378e8dd161b802ce938b8b053dc10"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1786,7 +1785,7 @@ blockchain:
     name: HedgeExchanger
   - address: "0x4594b02860c3f4738c7c863faaffd6f41ee3e50f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1829,7 +1828,7 @@ blockchain:
     name: unverified
   - address: "0x6ead6c6788aa2d5b8bb95efdc12a9e8d48045633"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1956,7 +1955,7 @@ blockchain:
     name: unverified
   - address: "0x36ca37949bc6b94d97d49a7898f9f259f8021af7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2059,7 +2058,7 @@ blockchain:
     name: StrategyEtsDaiUsdt
   - address: "0xf3ba4884591fd04263b3015132bf675c7ea510a4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2180,7 +2179,7 @@ blockchain:
     name: unverified
   - address: "0x7d3045d464b40875dbdcbc1e75cfd7e256b5cc3c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2277,7 +2276,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x1c5888e286672bfb50977445ad5e41eb081f7dd4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2320,7 +2319,7 @@ blockchain:
     name: unverified
   - address: "0xf7d693ce960e70721f0353f967360046ba7d4efa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2357,7 +2356,7 @@ blockchain:
     name: unverified
   - address: "0x73cb180bf0521828d8849bc8cf2b920918e23032"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2388,7 +2387,7 @@ blockchain:
     name: unverified
   - address: "0xf73b0d870836b0914b7fa24d44231f5a7f54c304"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2437,7 +2436,7 @@ blockchain:
     name: unverified
   - address: "0x0cadbd2c6e91f78aeb5d76ecd1cfc8bad289f9c2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2462,14 +2461,14 @@ blockchain:
     name: unverified
   - address: "0xd45165e76132fc8e94921932775fd9519eded6da"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x4332b77f3c8c5b5a650555b01a404f8b4bc272a7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2530,7 +2529,7 @@ blockchain:
     name: unverified
   - address: "0xb79dd08ea68a908a97220c76d19a6aa9cbde4376"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2585,7 +2584,7 @@ blockchain:
     name: unverified
   - address: "0x61f657547f7ed2f238c99468106cd555fe80cbd3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2640,7 +2639,7 @@ blockchain:
     name: unverified
   - address: "0x307418340f5991cd895ca0fc4eba04995e9be861"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2665,7 +2664,7 @@ blockchain:
     name: unverified
   - address: "0x78508f3be076a6beaa688217e85a87703a44cd21"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2684,21 +2683,21 @@ blockchain:
     name: unverified
   - address: "0xdfdb274765b569c243c627c9d8b0a514844ec64d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x39a6ca4bbe0906e7ad4ebfc2d264a57420d54312"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x7beb951ad60f36142738ad3e4248229037dfff48"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2711,7 +2710,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x81a0576da9938235288e25fe96a1f6739489076d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2730,7 +2729,7 @@ blockchain:
     name: unverified
   - address: "0x7d8d66020cd461798a86e550e1d56a982042b515"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2749,14 +2748,14 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x7cb1b38591021309c64f451859d79312d8ca2789"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: Mark2Market
   - address: "0x77020e5b2f9a77667db39712408cb86c172aeae9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2787,7 +2786,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x4de1a5746be0b5df757fa2b14c4125cd9c828023"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2818,7 +2817,7 @@ blockchain:
     name: unverified
   - address: "0x544c09424dfc2865c05dedcadf5801e09a1f8dcc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2867,7 +2866,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0xa457a6aed9679eb3018bed7ff7209192aa841084"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2910,14 +2909,14 @@ blockchain:
     name: unverified
   - address: "0x318bd91dae9f5e091bb925f00f19faa0b4214fca"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x5b17f800def53fb26b7827732b0b2a28dea566ed"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2960,7 +2959,7 @@ blockchain:
     name: unverified
   - address: "0x6eca9df4528a00cb0d3715116d4d5629bfb14c7a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2979,7 +2978,7 @@ blockchain:
     name: unverified
   - address: "0xafbcb41c5d5a388440eb11fa59d45d09a5d3c212"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2992,7 +2991,7 @@ blockchain:
     name: unverified
   - address: "0x4395ab761ebaa01ec22940f32568845c2a8baf3e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3023,7 +3022,7 @@ blockchain:
     name: StrategySushiswapUsdcUsdt
   - address: "0xe1487c93c84054a5052760a0ab29a51582c63035"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3078,7 +3077,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x06468f03c7eed2507936d1e90d9a3359d91d9cd8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3181,21 +3180,21 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x4f7dda94b10b2414b7eeb2fb4152de2d6c91b0f9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x01092b6966725099b0105c2925df91d1f026512d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0xbfbf474551e4252ee5bb23943e213201ff75ccd3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3244,7 +3243,7 @@ blockchain:
     name: unverified
   - address: "0x695368a1a3b2acc6b9ac3c84ef8881cab6b5a58d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3347,7 +3346,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x7fcc5d4ac5e27a9f6d9bc0b87d57e4e82b9d42b9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3408,7 +3407,7 @@ blockchain:
     name: unverified
   - address: "0x9220b9b3f64a494089947c32a2ef3926c6f2c0f5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3493,7 +3492,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x7d28555ef6d0ae1a1683f854df394818fe679393"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3584,7 +3583,7 @@ blockchain:
     name: unverified
   - address: "0xa3c35dcd2ae4abe412715b1283293527e35a9b59"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3633,7 +3632,7 @@ blockchain:
     name: unverified
   - address: "0xb090afe2aac35778706bf447a52ad5c69604180f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3658,7 +3657,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x3bd22a13cc45c063a5872332f83afb905110cd3c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3683,7 +3682,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0xd4d441021e3f142cb6c6bcbcc8f27b0c3dd71e13"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3720,7 +3719,7 @@ blockchain:
     name: unverified
   - address: "0x16114ccf0e3cb07df4e8b6178e5cb896fb69692d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3781,7 +3780,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x33b15a1b4e7bbecfa2e67318d661ece53421d72a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3896,7 +3895,7 @@ blockchain:
     name: unverified
   - address: "0x6389d1f4b50f06c19a63a8f80bc67804f5d77e5d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3945,7 +3944,7 @@ blockchain:
     name: unverified
   - address: "0xab386160e7047d048a83af419b7e0c2431d7f5fe"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3958,14 +3957,14 @@ blockchain:
     name: unverified
   - address: "0x27cce547762fa29363b42bd20b95d2d02b0e2da7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x618cac699266e795d4045d1136b1b3dddc2eb267"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4002,14 +4001,14 @@ blockchain:
     name: unverified
   - address: "0x75d5db90cd909bd074c0174d11ccfefc8057e8df"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x237acbdc9e0739f155c62290c44e9b878ee1dd7d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4100,7 +4099,7 @@ blockchain:
     name: unverified
   - address: "0xaa6cfd8a0ba4fa23f1a24a6ac72717ba977fa739"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4185,7 +4184,7 @@ blockchain:
     name: StrategyReaperSonneUsdt
   - address: "0x4957653e0fdd3ea8a76577b81e12e89dd3e56f8e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4258,14 +4257,14 @@ blockchain:
     name: unverified
   - address: "0xaf51b1933782233c0151f1e8ccb5764b365880cb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x3f401cfdff59047b9eb0f07d844961d13415445d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4320,14 +4319,14 @@ blockchain:
     name: ERC1967Proxy
   - address: "0xa3fc09afe488acf95a325d170c4f353d3a5136bd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xd6cd67583aa76c0a13a4130f4988e8f808f8c8b2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4376,14 +4375,14 @@ blockchain:
     name: unverified
   - address: "0x05e85b0ce11b874f3d8c8b5c65f2468aa29f63be"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x67f4d2332b2985816e95cfe0179d885d119aa5df"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4474,7 +4473,7 @@ blockchain:
     name: unverified
   - address: "0x2c80d9ee6f42a9af2f681fe569ab409df3aa46f7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4487,7 +4486,7 @@ blockchain:
     name: unverified
   - address: "0xa45df21a497e3e31a7e0fbde52c10d8158cb13e8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4500,7 +4499,7 @@ blockchain:
     name: unverified
   - address: "0xf967addbb57143d92dc08d72660bf00dfbc70eae"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4519,7 +4518,7 @@ blockchain:
     name: unverified
   - address: "0x2e7a13dd36ca9111d45e88d55ccdc0f2877b051e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4544,7 +4543,7 @@ blockchain:
     name: unverified
   - address: "0xd3da26165a1d8a89f02a09d51940e9e8777b800a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4593,28 +4592,28 @@ blockchain:
     name: unverified
   - address: "0x44842b7b3f2744f0af958858cec08b6761da2a9d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x2955ba0fa44202090d840d36b2cae53036d018ec"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xe3f0aeff2a1829664fc3608d38a8dcf25199ff92"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0xfcce4611d810e93d823b351c53a01b9d27923a82"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4663,14 +4662,14 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x1c1ff6c58bada787ea5361ca33c20968a72cf184"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x542bde36670d066d9386bd7b174cc81199b2e6a7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4707,7 +4706,7 @@ blockchain:
     name: StrategyAave
   - address: "0x7f4f84c02e63a83e52e48b60eec33c1fe6700e57"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4726,7 +4725,7 @@ blockchain:
     name: unverified
   - address: "0x1459e45794f5a784613682af42f86793038eeab1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4859,7 +4858,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x5a5c6aa6164750b530b8f7658b827163b3549a4d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4926,7 +4925,7 @@ blockchain:
     name: unverified
   - address: "0x362c4d308515e69f3205bc698135512d87417ef6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4939,14 +4938,14 @@ blockchain:
     name: unverified
   - address: "0x3afba15c076e5c393315c2dd957f3f336163037b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x159f28f598b5c5340d6a902d34eb373d30499660"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4959,7 +4958,7 @@ blockchain:
     name: StrategyArrakisDaiUsdc
   - address: "0x7f10ff4fe9ec4080c1f5c957bb630b4b623f3e4d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -5002,7 +5001,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0xe04d714381762db13c59d0cad873fb2db3a964fd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -5027,7 +5026,7 @@ blockchain:
     name: unverified
   - address: "0xa8378515c3434bae28ec84ecbc0c479fb677f957"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -5052,7 +5051,7 @@ blockchain:
     name: unverified
   - address: "0x8fe350fed4ece9854a1fe762d04e335d81c15f7d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -5137,7 +5136,7 @@ blockchain:
     name: OptimismPayoutListener
   - address: "0x088b22502d3df4a55c73e341f6990114b629d074"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -5732,8 +5731,7 @@ blockchain:
     name: unverified
   - address: "0xe497285e466227f4e8648209e34b465daa1f90a0"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

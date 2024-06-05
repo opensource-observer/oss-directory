@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: onlyfun-on2023
 display_name: Onlyfun
 github:
@@ -7,9 +7,7 @@ github:
 blockchain:
   - address: "0x3d4f69b24f4d2b151dc53da52ddac887e8c237f0"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

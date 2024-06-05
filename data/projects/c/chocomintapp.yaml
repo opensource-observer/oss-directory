@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: chocomintapp
 display_name: chocomintapp
 github:
@@ -6,13 +6,13 @@ github:
 blockchain:
   - address: "0x84e9445f43995b0c6a4d4c1d40bb123571c2eb06"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: chocomintapp
 websites:
   - url: https://chocomint.app
 description: Let's make nft!
+social:
+  twitter:
+    - url: https://twitter.com/chocomintapp

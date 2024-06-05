@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: coinvise
 display_name: coinvise
 github:
@@ -6,13 +6,13 @@ github:
 blockchain:
   - address: "0x8df737904ab678b99717ef553b4efda6e3f94589"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: CoinviseCo
 websites:
   - url: https://coinvise.co
 description: Powerful tools for creators to build & operate web3 communities.
+social:
+  twitter:
+    - url: https://twitter.com/CoinviseCo

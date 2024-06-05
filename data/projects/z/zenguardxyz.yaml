@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: zenguardxyz
 display_name: zenguardxyz
 github:
@@ -6,10 +6,12 @@ github:
 blockchain:
   - address: "0x31b7232f2f7f21a030444e2b570d18d264e4bfb7"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: zenguardxyz
 websites:
   - url: https://zenguard.xyz
+social:
+  twitter:
+    - url: https://twitter.com/zenguardxyz

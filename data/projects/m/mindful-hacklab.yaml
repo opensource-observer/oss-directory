@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: mindful-hacklab
 display_name: Mindful-HackLab
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xdcd5f58ed05ed34a4c0a99f34029bd8313f5d529"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

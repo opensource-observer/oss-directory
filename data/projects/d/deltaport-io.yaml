@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: deltaport-io
 display_name: Deltaport.io
 github:
@@ -6,10 +6,12 @@ github:
 blockchain:
   - address: "0x29bca92d522d5a87b0f65e1208980262f235a423"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: deltaport_io
 websites:
   - url: https://deltaport.io
+social:
+  twitter:
+    - url: https://twitter.com/deltaport_io

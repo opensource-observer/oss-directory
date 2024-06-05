@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: basin-global
 display_name: basin.global
 github:
@@ -6,12 +6,15 @@ github:
 blockchain:
   - address: "0xeaf9830bb7a38a3cebcaca3ff9f626c424f3fb55"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
     name: basinllc.eth
-twitter: dot_basin
 websites:
   - url: https://www.basin.global/
-description: basin.global scales real estate restoration and conservation to solve the climate, nature and carbon crises
+description: basin.global scales real estate restoration and conservation to
+  solve the climate, nature and carbon crises
+social:
+  twitter:
+    - url: https://twitter.com/dot_basin

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: hummingbot
 display_name: Hummingbot Foundation
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x08940dc9b5a19fab9319b77c61dda7b8067e6843"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: _hummingbot
 websites:
   - url: https://hummingbot.org
 description: Democratizing HFT with open source software
+social:
+  twitter:
+    - url: https://twitter.com/_hummingbot

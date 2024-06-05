@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: coinpassport
 display_name: Coinpassport
 github:
@@ -12,7 +12,7 @@ blockchain:
     name: Verification
   - address: "0xfe3ad87636a174f2d603d6653872395143e860c9"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

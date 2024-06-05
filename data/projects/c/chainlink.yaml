@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: chainlink
 display_name: Chainlink
 github:
@@ -6,115 +6,109 @@ github:
 blockchain:
   - address: "0xdd0bb8431dd98595024a73c8895d3e6327ce9437"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x65543da87649f716d0db9807d0c40cef6419ec32"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xed3bd4af9e12e87ad59d211dc3817fb871b58e72"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x71c05a4ea5e9d5b1ac87bf962a043f5265d4bdc8"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xc26e1d9b5acb285b24ea461f02eeed44cab8c0ee"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x65297307a79df0c33425720a8e747a428c5271fb"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xee895d2955e0ff6bd398cfeccd07a0f879bdc863"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x88e104d83599dab09050b4fe9486b3dfa2d3c0de"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xf663a1d22ec5cec99c4bb404ec3e948895afcd73"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x42f4802128c56740d77824046bb13e6a38874331"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x473ab11a7b649064ee50b255b5b14dfe284a0373"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x84f3b18e0c17ee9e6f8787a1ad7d13635df629a0"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x057c75c9b1072be82ddd90b64501f525a9a300e7"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x83bc3055649f9a829bebeccbc86e090d6a157161"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x03863f6ad36f1fcd908517e3c56c6b3fd3f50752"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xdead1cb30b3ca13cd67d1d6f4e2790d12484fdd8"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x9f6798ec61a30e27f94db7e6af678d179662b27c"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x9e3d8dcd4c4c67eaa752457a51efbf98cb5439c6"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -1507,7 +1501,7 @@ blockchain:
     name: EACAggregatorProxy
   - address: "0x02777053d6764996e594c3e88af1d58d5363a2e6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2030,20 +2024,20 @@ blockchain:
     name: CommitStore
   - address: "0xfdb631f5ee196f0ed6faa767959853a9f217697d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2d159ae3bff04a10a355b608d22bdec092e934fa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VRFV2Wrapper
   - address: "0xe92634289a1841a979c11c2f618b33d376e4ba85"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Router
@@ -2055,589 +2049,589 @@ blockchain:
       - wallet
   - address: "0x86e53cf1b870786351da77a57575e79cb55812cb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xfe92fa509ac5a0742aad3e419af6ab8663528c85"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x07c5b924399cc23c24a95c8743de4006a32b7f2a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xde9f0894670c4efcacf370426f10c3ad2cdf147e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x761aaebf021f19f198d325d7979965d0c7c9e53b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x5ab0b1e2604d4b708721bc3cd1ce962958b4297e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0xf6da27749484843c4f02f5ad1378cee723dd61d4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x923b42ae13dac73191949c1b124cc78d2b8e7719"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xd9f615a9b820225edba2d821c4a696a0924051c6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xc195ba27455182e3bb6f86dab5838901604ba72c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0xcc3370bde6afe51e1205a5038947b9836371eccb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x81a065e74943a8b6380c23f8b440aea1dc3530ca"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x80dd57c45b73f3c70feaf1bfe1bcdf384703e558"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xc5c8e77b397e531b8ec06bfb0048328b30e9ecfb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x50834f3163758fcc1df9973b6e91f0f0f0434ad3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xcda67618e51762235eaca373894f0c79256768fa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x221912ce795669f628c51c69b7d0873eda9c03bb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x1f954dc24a49708c26e0c1777f16750b5c6d5a2c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xff82aaf635645fd0bcc7b619c3f28004cdb58574"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x9854e9a850e7c354c1de177ea953a6b1fba8fc22"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xde89a55d04ded40a410877ab87d4f567ee66a1f0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xbf539d4c2106dd4d9ab6d56aed3d9023529db145"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x77b911dbe147ed5b4554997860d6362a5652fc91"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0x745ab5b69e01e2be1104ca84937bb71f96f5fb21"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x9c917083fdb403ab5adbec26ee294f6ecada2720"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xe5b5be82015444c04b281cf4afa6a99130ed83a2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0xc5a90a6d7e4af242da238ffe279e9f2ba0c64b2e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x52099d4523531f678dfc568a7b1e5038aadce1d6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x3607e46698d218b3a5cae44bf381475c0a5e2ca7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0x9a7fb1b3950837a8d9b40517626e11d4127c098c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x8fcb0f3715a82d83270777b3a5f3a7cf95ce8eec"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x55efaffc2764389a08ffdfcd36aee2c30610d42c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0x4cfc4ab701cf5e45ef12f50458da6bb279d7ed5b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xb1552c5e96b312d0bf8b554186f846c40614a540"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xd35b0e1fd468bd264570c64f28ea48f778bc0dfc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0x1fa1c3c6371a723a0773421e20ea86bb02a637ae"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0xb7c8fb1db45007f98a68da0588e1aa524c317f27"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x7a96b01ac02a2f3303c27cbfc5cb3d3abc36d041"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x24cea4b8ce57cda5058b924b9b9987992450590c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x7519bca20e21725557bb98d9032124f8885a26c2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xe4a492420ebda03b04973ed1e46d5fe9f3b077ef"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0xbf1cd5cb759f8e21c98a4367b665f43d607e8885"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0xefbc6f8c9806b066fa0da149349450be60e5e136"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0x851175a919f36c8e30197c09a9a49da932c2cc00"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xb1f70a229fe7cced0428245db8b1f6c48c7ea82a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x1fe010e64b5df97bcb034870334ff8fbb02ad019"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0x48c4721354a3b29d80ef03c65e6644a37338a0b1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x6ce185860a4963106506c203335a2910413708e9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xbf5c3fb2633e924598a46b9d07a174a9dbcf57c0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x5b58aa6e0651ae311864876a55411f481ad86080"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xbcd8bea7831f392bb019ef3a672cc15866004536"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x5cfb778d34207f6cdfaa6bbc64704fa54d5d1db8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xe32accc8c4ec03f6e75bd3621bfc9fbb234e1fc3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xb2a8ba74cbca38508ba1632761b56c897060147c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x87121f6c9a9f6e90e59591e4cf4804873f54a95b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xc56765f04b248394cf1619d20db8082edbfa75b1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xe7c53ffd03eb6cef7d208bc4c13446c76d1e5884"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xaebda2c976cfd1ee1977eac079b4382acb849325"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x383b3624478124697bef675f07ca37570b73992f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xa33a06c119ec08f92735f9cca37e07af08c4f281"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xba4492a430fe9bef7abbd9c78b953a6e1aa48cfa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0x594b919ad828e693b935705c3f816221729e7ae8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xe0685dd3c3dcfc31b7e747510788fa09fd8a3fc8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x20870d99455b6f9d7c0e6f2608245719d789ff53"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0xb2a824043730fe05f3da2efafa1cbbe83fa548d6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x85bb02e0ae286600d1c68bb6ce22cc998d411916"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x2489462e64ea205386b7b8737609b3701047a77d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0xb4ad57b52ab9141de9926a3e0c8dc6264c2ef205"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xb39bfad6295724e01e079ee3aa78a378eff6deb0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0xc1ced1da9cf1967a2c9be6304072c10d867bad7f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xf6bacc7750c23a34b996a355a6e78b17fc4baedc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0xbe5ea816870d11239c543f84b71439511d70b94f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xc373b9db0707fd451bc56ba5e9b029ba26629df0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xd615e3f58368ee0e613c240dd6f0317f87269c44"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x4763b84cdbc5211b9e0a57d5e39af3b3b2440012"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x52df0481c6d2ad7e50889afd03c8ddd8413ac63d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0x36a121448d74fa81450c992a1a44b9b7377cd3a5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x46de66f10343b59bacc37df9b3f67cd0ccc121a3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0x0809e3d38d1b4214958faf06d8b1b1a2b73f2ab8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x639fe6ab55c921f74e7fac1ee960c0b6293ba612"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x9c4424fd84c6661f97d8d6b3fc3c1aac2bedd137"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xa6bc5baf2000424e90434ba7104ee399dee80dec"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xa4a2b2000d447cc1086d15c077730008b0251ffd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0xf0d38324d1f86a176ac727a4b0c43c9f9d9c5eb1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xad1d5344aade45f43e596773bcc4c423eabdd034"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0xa14d53bc1f1c0f31b4aa3bd109344e5009051a84"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x2ba975d4d7922cd264267af16f3bd177f206fe3c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x7c4720086e6feb755dab542c46de4f728e88304d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x3f3f5df88dc9f13eac63df89ec16ef6e7e25dde7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x87a79519345922e2babcef6b8ee3674b90bb9f7f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x307c371c301b9162824dc3ab1e5754f3a6b8a915"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x47e55ccec6582838e173f252d08afd8116c2202d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x2e4c363449e2ec7e93cd9ed4f3843c2ca4497108"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0x3dd6e51cb9cae717d5a8778cf79a04029f9cfdf8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x6970460aabf80c5be983c6b74e5d06dedca95d4a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x8bf61728eedce2f32c456454d87b5d6ed6150208"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy
   - address: "0x53368bc6a7eb4f4af3d6974520feba0295a5daab"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AccessControlledOffchainAggregator
   - address: "0x0aaf77e9c3f3ffc4771579af3b4921a740876392"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EACAggregatorProxy

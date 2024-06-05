@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: lensplay
 display_name: LensPlay
 github:
@@ -6,12 +6,14 @@ github:
 blockchain:
   - address: "0x8cc8752aa3e968cc87f062c1181be6b98fd49ae2"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: lensplayxyz
 websites:
   - url: https://www.lensplay.xyz/
-description: Lensplay is a decentralised mobile-first social graph built on top of Lens Protocol.
+description: Lensplay is a decentralised mobile-first social graph built on top
+  of Lens Protocol.
+social:
+  twitter:
+    - url: https://twitter.com/lensplayxyz

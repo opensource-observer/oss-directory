@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: scamsniffer
 display_name: scamsniffer
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x79a9c3aee79793c2873e6686c22ebf2311778c19"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: realScamSniffer
 websites:
   - url: http://www.scamsniffer.io/
 description: Building The Real-Time Web3 Anti-Scam Platform.
+social:
+  twitter:
+    - url: https://twitter.com/realScamSniffer

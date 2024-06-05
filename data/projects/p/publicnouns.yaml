@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: publicnouns
 display_name: PublicNouns
 github:
@@ -8,15 +8,13 @@ blockchain:
     networks:
       - mainnet
       - optimism
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - safe
       - wallet
   - address: "0x56d579a23c2d37d1e42923858ce33856df0ae5db"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

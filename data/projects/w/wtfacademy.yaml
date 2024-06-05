@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: wtfacademy
 display_name: WTF Academy
 github:
@@ -12,14 +12,14 @@ blockchain:
     name: WTFSBT1155
   - address: "0x25df6da2f4e5c178ddff45038378c0b08e0bce54"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: wtfacademy.eth
-twitter: 0xAA_Science
 websites:
   - url: https://wtf.academy
 description: Web3 Open-Source University for Developers
+social:
+  twitter:
+    - url: https://twitter.com/0xAA_Science

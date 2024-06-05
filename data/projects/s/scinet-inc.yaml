@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: scinet-inc
 display_name: SCINET-INC
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x1963a6cc8deb426ae196a95d9e91ac3dfffc67cb"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: SCINET_INC
 websites:
   - url: https://www.scinet.one
 description: DeSci in the works
+social:
+  twitter:
+    - url: https://twitter.com/SCINET_INC

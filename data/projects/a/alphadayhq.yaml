@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: alphadayhq
 display_name: Alphaday
 github:
@@ -6,10 +6,12 @@ github:
 blockchain:
   - address: "0x48e239fa0b364cd92fc750a50045c9f9e04dd781"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: AlphadayHQ
 websites:
   - url: https://alphaday.com
+social:
+  twitter:
+    - url: https://twitter.com/AlphadayHQ

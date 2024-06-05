@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: vendorfinance
 display_name: Vendor Finance
 github:
@@ -6,27 +6,26 @@ github:
 blockchain:
   - address: "0x9018639e739010a25f3aa3106a16c52fa4d9a0df"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x70d397a54496a176da9481ea13d94726056f1283"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x0b2b8fbf3dfd6237921a89355cfc08f107bfbf98"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: ERC1967Proxy
   - address: "0x3f53936e45b50e38c25d6e52da294e66b8909609"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
@@ -34,44 +33,44 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xf0dbf74cef39e5cd4e54d0ffd59075024c7d8857"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PoolFactory
   - address: "0x4af0b7cb2a426833922c4e19c902d5a84dd72942"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x88ad0e7fff0cbc9be23f72058db29c7e85a87717"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Vendor4626Strategy
   - address: "0xd02d8025a76ff40b54575b281fc85eaaec644d1f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AaveV3ERC4626
   - address: "0x6c58d106c613627bd11a885fc15a1572a358aa27"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: FeesManager
   - address: "0xc000281a3ae4f82cd0a430f0ae8b2a0610ca26a5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Oracle
   - address: "0x93e73571a71d27cd35a20e14ba5b352c3c2236fc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract

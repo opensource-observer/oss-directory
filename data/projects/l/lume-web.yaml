@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: lume-web
 display_name: Lume Web
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x63cd2c691632720ff2abdd0b6aaba2466d3fe468"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
     name: lumeweb.eth
-twitter: lumeweb3
 websites:
   - url: https://lumeweb.com
+social:
+  twitter:
+    - url: https://twitter.com/lumeweb3

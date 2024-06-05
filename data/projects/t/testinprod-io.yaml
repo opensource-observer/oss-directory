@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: testinprod-io
 display_name: Test in Prod
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x955f815dc8fe61cedb0da413c8ac466aac209a41"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: testinprod_io
 websites:
   - url: https://www.testinprod.io
 description: We scale Ethereum by delivering Superchain with Optimism Collective.
+social:
+  twitter:
+    - url: https://twitter.com/testinprod_io

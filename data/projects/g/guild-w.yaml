@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: guild-w
 display_name: Guild Waterdrop
 github:
@@ -6,18 +6,20 @@ github:
 blockchain:
   - address: "0x895f63111b97c7ad0d620f8610dd360a9c567f31"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
     name: 0xdark.eth
   - address: "0x47c10ce3c2bfe7f45974f0475730d8aed4b42513"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: marrowdao
-description: Guild W is the first on-chain e-sports team, incubated by MarrowDAO. The main members are Solidity developers, node operators and blockchain game players.
+description: Guild W is the first on-chain e-sports team, incubated by
+  MarrowDAO. The main members are Solidity developers, node operators and
+  blockchain game players.
+social:
+  twitter:
+    - url: https://twitter.com/marrowdao

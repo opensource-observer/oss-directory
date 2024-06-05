@@ -16,9 +16,6 @@
     "description": {
       "type": "string"
     },
-    "twitter": {
-      "type": "string"
-    },
     "websites": {
       "type": "array",
       "items": {
@@ -42,6 +39,9 @@
       "items": {
         "$ref": "blockchain-address.json#"
       }
+    },
+    "social": {
+      "$ref": "social-profile.json#"
     }
   },
   "required": ["version", "name", "display_name"]

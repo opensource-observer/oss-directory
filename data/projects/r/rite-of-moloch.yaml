@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: rite-of-moloch
 display_name: rite-of-moloch
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x411f7b9b5fa1e5e2a5c7440b96271c6059529813"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: riteofmoloch
 websites:
   - url: https://www.rom.wtf
 description: No HR for DAOs.
+social:
+  twitter:
+    - url: https://twitter.com/riteofmoloch

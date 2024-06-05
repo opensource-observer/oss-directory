@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: mindgames-io
 display_name: MIND Games
 github:
@@ -6,162 +6,166 @@ github:
 blockchain:
   - address: "0x3f71f7d683729688be4e6dd4bfedf71012e1c707"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x446eb204c624fbca56d36c73fd3079b024387ef6"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xb0dc1fc9ec7508dc2d838dfd4616ca5ae2062bcc"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xf94e07bf0b569aee4bfe27d561cd2c656f6c9358"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x844c85e7f8f5e0b8c44fa5365324782ee1d08436"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x7c7f1c8e2b38d4c06218565bc4c9d8231b0628c0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: UniswapV2Factory
   - address: "0x99f5a9dbdaf7f0946dc0879a9824c812048667bc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LP_CRX_GMX
   - address: "0x757f682983d21e7695bd33f7849f26c2807ccb21"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Tavern
   - address: "0x235a6b2fdecd44800e161cd4b87b12dc74b06b8b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Scientist
   - address: "0xbed07417d5df6322aed99528d2274026680edbfc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TavernV2
   - address: "0x2e95e4a691bb2e3b82cb5246b74ad110ffbd4d1e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AirdropClaim
   - address: "0x963125b5bf0044c04578afde1825422330a087ca"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MindsV2
   - address: "0xbfcad87eb74e5855d72808aba3d7dd2d790ffefd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GFMToken
   - address: "0xd8291f849fc6c792c5c28522b258b6ab18faa11e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Minds
   - address: "0x137c91ea4e46516a0ae1fbe9d75aeb63c4f0b021"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Multicall2
   - address: "0xb21be1caf592a5dc1e75e418704d1b6d50b0d083"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Cortex
   - address: "0x7a3f1d1a6632a997c5e87d182c295d640742f53d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LP_ARB_WETH
   - address: "0xf7305d209bfecf40bd53ccbdbe5303b3153d0660"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LP_CRX_USDC
   - address: "0xd0c193a87c0d91b3f6e03af123c4887a84fe429e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LP_CRX_USDT
   - address: "0x33521cfd2ba909fabc6415c92e98daddefa70e94"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LP_CRX_WBTC
   - address: "0xd75528908c0981b92758ad6ce7d18c0dd163f8ae"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LP_CRX_WETH
   - address: "0x784fcf7f9a94c82c72bbf723a5412a080db31e45"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LP_WETH_USDC
   - address: "0x54162e71f9d1e8ddcac07d549c8e47b9ccc841f2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MasterMind
   - address: "0x35afe95662fdf442762a11e4ed5172c81fbcef7e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ResearchFacility
   - address: "0x750ed5cf0f5278be9c6562399f0791dd221c4f83"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UniswapV2Router02
   - address: "0x2d9c0e1b4f97efc6aa8984ddc632cfc50f8b212d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WETH9
-twitter: MINDGames_io
 websites:
   - url: https://mindgames.io
-description: A Game on top of DeFi instruments, DEX, Liquidity Pools, Staking & Farms. MIND Games also has usable NFTs, talents, missions, battles, cookies, and rewards!
+description: A Game on top of DeFi instruments, DEX, Liquidity Pools, Staking &
+  Farms. MIND Games also has usable NFTs, talents, missions, battles, cookies,
+  and rewards!
+social:
+  twitter:
+    - url: https://twitter.com/MINDGames_io

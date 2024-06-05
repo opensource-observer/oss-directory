@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: kleros
 display_name: Kleros
 description: A decentralized arbitration protocol for disputes in the onchain economy.
@@ -39,7 +39,7 @@ blockchain:
     name: Pinakion Token (PNK)
   - address: "0x330bd769382cfc6d50175903434ccc8d206dcae5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Pinakion Token on Arbitrum (PNK)

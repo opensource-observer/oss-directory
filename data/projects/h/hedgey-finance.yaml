@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: hedgey-finance
 display_name: Hedgey Finance
 github:
@@ -6,23 +6,19 @@ github:
 blockchain:
   - address: "0x1247f36104f71d5849d4d4f8a5a95e56b03e7fdd"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x320bcb681ce7023edfe48ade9cf5bf67a11bcd36"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x1b03d75094884714973f22867359de4b81af2f00"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -30,7 +26,7 @@ blockchain:
     name: VotingTokenVestingPlans
   - address: "0x1e9ffaa25d5f8206c697c92bcdee9fa16455cf94"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -38,7 +34,7 @@ blockchain:
     name: ClaimCampaigns
   - address: "0x3466eb008edd8d5052446293d1a7d212cb65c646"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -46,7 +42,7 @@ blockchain:
     name: BatchPlanner
   - address: "0x2cde9919e81b20b4b33dd562a48a84b54c48f00c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -54,12 +50,14 @@ blockchain:
     name: TokenVestingPlans
   - address: "0x6cce9bae11b01e9fff30dbe790f64b459a614b0f"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: nevergoingtogiveyouup.eth
-twitter: hedgeyfinance
 websites:
   - url: https://app.hedgey.finance
 description: Hedgey Finance core solidity repository
+social:
+  twitter:
+    - url: https://twitter.com/hedgeyfinance

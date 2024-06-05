@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: orbiter-finance
 display_name: Orbiter Finance
 github:
@@ -6,15 +6,13 @@ github:
 blockchain:
   - address: "0x8a700fdb6121a57c59736041d9aa21dfd8820660"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xd9d74a29307cc6fc8bf424ee4217f1a587fbc8dc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -22,12 +20,13 @@ blockchain:
     name: OBSource
   - address: "0x10c7eebf2ff90807ca24347cd9c7d4a42345d583"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: Orbiter_Finance
 websites:
   - url: https://www.orbiter.finance
 description: 🛸A decentralized cross-rollup bridge, which is the infrastructure of Layer 2
+social:
+  twitter:
+    - url: https://twitter.com/Orbiter_Finance

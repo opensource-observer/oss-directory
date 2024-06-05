@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: ato-nft
 display_name: Ato
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x5874d5d530d1f969fd962579c445a0f3a8682d48"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: ATO_nft
 websites:
   - url: https://ato.network/
 description: Share your art.
+social:
+  twitter:
+    - url: https://twitter.com/ATO_nft

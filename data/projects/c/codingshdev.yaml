@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: codingshdev
 display_name: CodingshDev
 github:
@@ -6,13 +6,13 @@ github:
 blockchain:
   - address: "0xd1a8dd23e356b9fae27df5def9ea025a602ec81e"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: codingsh
 websites:
   - url: https://codingsh.dev
 description: The Space dock, here I build and participate in the future.
+social:
+  twitter:
+    - url: https://twitter.com/codingsh

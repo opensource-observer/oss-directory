@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: metricsdao
 display_name: MetricsDAO
 github:
@@ -12,11 +12,14 @@ blockchain:
       - wallet
   - address: "0x35a9660c173d08e4cf4ce2f5a82456d10ecd7334"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: metricsdao
 websites:
   - url: https://metricsdao.xyz
-description: Uniting the best analytical minds in the space to build the future of crypto analytics.
+description: Uniting the best analytical minds in the space to build the future
+  of crypto analytics.
+social:
+  twitter:
+    - url: https://twitter.com/metricsdao

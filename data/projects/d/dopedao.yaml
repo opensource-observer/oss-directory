@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: dopedao
 display_name: Dope Wars DAO
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xf8c3875bfa461a38532fedf90453985901c55114"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -433,6 +432,8 @@ blockchain:
     tags:
       - safe
       - wallet
-twitter: thedopewars
 websites:
   - url: https://dopewars.gg
+social:
+  twitter:
+    - url: https://twitter.com/thedopewars

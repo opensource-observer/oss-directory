@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: plebbit
 display_name: Plebbit
 github:
@@ -6,13 +6,15 @@ github:
 blockchain:
   - address: "0x5bc4ff33f86e0272be53fa25861294489ab2fe2a"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: estebanabaroa.eth
-twitter: getplebbit
 websites:
   - url: https://github.com/plebbit/whitepaper/discussions/2
-description: serverless, adminless, decentralized reddit alternative with no transaction fees and captchas over peer-to-peer pubsub to prevent spam
+description: serverless, adminless, decentralized reddit alternative with no
+  transaction fees and captchas over peer-to-peer pubsub to prevent spam
+social:
+  twitter:
+    - url: https://twitter.com/getplebbit

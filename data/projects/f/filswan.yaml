@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: filswan
 display_name: S3 Compatible Storage Gateway
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xcdfac98e6965550050109c8935416b73daeaf6ab"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

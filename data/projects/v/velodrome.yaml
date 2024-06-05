@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: velodrome
 display_name: Velodrome
 github:
@@ -6,41 +6,38 @@ github:
 blockchain:
   - address: "0x8321926c8aae281ef9d8520a772eb1d94a9ec6dd"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: pegahcarter.eth
   - address: "0x07537d4360af2489fc1ca086ea9741c054d804de"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x725bd51dccd08272c63efdc1a5112002da0c5540"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x51cc12e6a4fccbcd6eb6f1c5905263edc5578c5f"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xd42c7914cf8dc24a1075e29c283c581bd1b0d3d3"
     networks:
-      - base
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xc0de1436c4e247f8652476a0b9ff55699801e1d0"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -346,13 +343,14 @@ blockchain:
       - wallet
   - address: "0x892ff98a46e5bd141e2d12618f4b2fe6284debac"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: aerodromefinance.eth
-twitter: VelodromeFi
 websites:
   - url: https://velodrome.finance
 description: The trading and liquidity marketplace on Superchain
+social:
+  twitter:
+    - url: https://twitter.com/VelodromeFi

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: crowdfundedcures
 display_name: Crowd Funded Cures
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x1ab75fea1f27a6dfaff81b0371ab6d57e112906b"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

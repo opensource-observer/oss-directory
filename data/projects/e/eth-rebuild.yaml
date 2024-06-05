@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: eth-rebuild
 display_name: Eth-Rebuild
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x807a1752402d21400d555e1cd7f175566088b955"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

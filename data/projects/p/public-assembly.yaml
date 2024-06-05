@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: public-assembly
 display_name: Public Assembly
 github:
@@ -18,11 +18,13 @@ blockchain:
       - wallet
   - address: "0x368b87eab8f92737deb64bea7fcf1bd0e4b16aa4"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: pblcasmbly
 websites:
   - url: https://public---assembly.com
 description: Create what's missing
+social:
+  twitter:
+    - url: https://twitter.com/pblcasmbly

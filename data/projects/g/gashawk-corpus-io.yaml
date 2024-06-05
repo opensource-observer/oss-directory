@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: gashawk-corpus-io
 display_name: Gashawk
 github:
@@ -7,7 +7,7 @@ github:
 blockchain:
   - address: "0x44f00c29a0b8514d017ac20fbdb0aa5078b860ce"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

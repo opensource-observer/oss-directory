@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: dappykit
 display_name: DappyKit
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x65671615f3b0b0a08fcbea7248c5f886f10003c9"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: kzg-marble-machine-xofee
 display_name: KZG-Marble-machine by Xofee
 github:
@@ -6,10 +6,13 @@ github:
 blockchain:
   - address: "0xff141bfc450c57ad84ebafbd09ffa94a268a7aae"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: xofee.eth
-twitter: Xofee3
-description: You can find my work on http://ethstakerincentives.org 👁️ and http://github.com/XofEE 🕯️
+description: You can find my work on http://ethstakerincentives.org 👁️ and
+  http://github.com/XofEE 🕯️
+social:
+  twitter:
+    - url: https://twitter.com/Xofee3

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: planetarycouncil
 display_name: Planetary Council
 github:
@@ -13,9 +13,7 @@ blockchain:
       - wallet
   - address: "0x85a363699c6864248a6ffca66e4a1a5ccf9f5567"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: dandelion-collective
 display_name: Dandelion
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x84a57c709482d44ce49511adac7ed7f1db299455"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

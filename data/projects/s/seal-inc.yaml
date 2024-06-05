@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: seal-inc
 display_name: "seal: UI for smart contracts"
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x811cc10d5a80b037dccbc467c33736ce7e6690fb"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

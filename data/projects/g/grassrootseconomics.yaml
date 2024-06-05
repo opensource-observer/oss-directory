@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: grassrootseconomics
 display_name: Grassroots Economics
 github:
@@ -6,12 +6,15 @@ github:
 blockchain:
   - address: "0xba0fee8490118fc4f46bd0974d7bf93d0e2f1064"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: grassecon
 websites:
   - url: https://grassrootseconomics.org
-description: Grassroots Economics facilitates the development of resilient economies and thriving communities through the creation of community asset vouchers
+description: Grassroots Economics facilitates the development of resilient
+  economies and thriving communities through the creation of community asset
+  vouchers
+social:
+  twitter:
+    - url: https://twitter.com/grassecon

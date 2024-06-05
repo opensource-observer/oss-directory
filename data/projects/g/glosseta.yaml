@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: glosseta
 display_name: Glosseta
 github:
@@ -6,10 +6,12 @@ github:
 blockchain:
   - address: "0xf88df48be7da15cba750d9eadf5b6c50a8ca9fe2"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: glossetadotcom
 websites:
   - url: https://www.glosseta.com
+social:
+  twitter:
+    - url: https://twitter.com/glossetadotcom

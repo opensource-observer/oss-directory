@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: thedreamdao-eth
 display_name: thedreamdao-eth
 github:
@@ -6,11 +6,15 @@ github:
 blockchain:
   - address: "0x048501df14184f0d3cf4fe5662c4b9d2d99fbbe7"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: DreamDAO_
 websites:
   - url: https://dreamdao.xyz/
-description: Dream DAO is here to create meaningful relationships through collaborating and building inter-generationally at the intersection of web3 x social impact.
+description: Dream DAO is here to create meaningful relationships through
+  collaborating and building inter-generationally at the intersection of web3 x
+  social impact.
+social:
+  twitter:
+    - url: https://twitter.com/DreamDAO_

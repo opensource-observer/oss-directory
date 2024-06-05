@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: ethernaut-cli
 display_name: Ethernaut CLI
 github:
@@ -20,13 +20,14 @@ npm:
 blockchain:
   - address: "0x45a10F35BeFa4aB841c77860204b133118B7CcAE"
     networks:
-      - optimism
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
     name: theethernaut.eth
-twitter: the_ethernaut
 websites:
   - url: https://ajsantander.github.io/
 description: Educator and creator, working with Ethereum tech.
+social:
+  twitter:
+    - url: https://twitter.com/the_ethernaut

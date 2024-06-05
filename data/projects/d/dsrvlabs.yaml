@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: dsrvlabs
 display_name: dsrvlabs
 github:
@@ -6,11 +6,14 @@ github:
 blockchain:
   - address: "0x60ae11efbf989485519b59fc4eeca83310a1ee42"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: dsrvlabs
 websites:
   - url: https://dsrvlabs.com
-description: A leading blockchain technology company, DSRV validates for 40+ global networks and provides infrastructure products for next-level building.
+description: A leading blockchain technology company, DSRV validates for 40+
+  global networks and provides infrastructure products for next-level building.
+social:
+  twitter:
+    - url: https://twitter.com/dsrvlabs

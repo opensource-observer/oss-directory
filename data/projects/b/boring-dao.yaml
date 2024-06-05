@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: boring-dao
 display_name: BoringDAO
 github:
@@ -6,21 +6,20 @@ github:
 blockchain:
   - address: "0xf7c1daf7443d7307df13c81f5f0328d4c7803e7b"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x017ff87ab312301ade54f7cf9cc5aea28c9de024"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xd01a5051253007ae0b7123b50410e3b5a3f6cf95"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -87,7 +86,7 @@ blockchain:
     name: unverified
   - address: "0xbe4a5438ad89311d8c67882175d0ffcc65dc9c03"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -100,7 +99,7 @@ blockchain:
     name: unverified
   - address: "0x11e4bed429b239a1a0c594adeb71b99e8fa1011a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

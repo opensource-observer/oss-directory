@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: flux-protocol
 display_name: Flux Protocol
 github:
@@ -6,14 +6,13 @@ github:
 blockchain:
   - address: "0xbf42f27077014b91031c54751baaacf1d6e79e8e"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xf80d589b3dbe130c270a69f1a69d050f268786df"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract

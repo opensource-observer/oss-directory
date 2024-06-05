@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: gnosischain
 display_name: gnosischain
 github:
@@ -12,9 +12,7 @@ blockchain:
       - wallet
   - address: "0x4dd05e12d0244575c77c31c24f0e273610c085d9"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
@@ -24,6 +22,8 @@ blockchain:
     tags:
       - safe
       - wallet
-twitter: gnosischain
 websites:
   - url: https://www.gnosischain.com/
+social:
+  twitter:
+    - url: https://twitter.com/gnosischain

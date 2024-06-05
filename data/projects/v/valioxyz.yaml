@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: valioxyz
 display_name: valio.xyz
 github:
@@ -6,21 +6,19 @@ github:
 blockchain:
   - address: "0x7d57d22bf8a1319e3cf897e1aa2347a00f11f36c"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x46a368e7a412be32e36ef254aa72090ea8756792"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TransportDiamond
   - address: "0xd0ba8a15952924e78a8285477c08e23643c5f37d"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

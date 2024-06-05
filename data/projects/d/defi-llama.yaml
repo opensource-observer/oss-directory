@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: defi-llama
 display_name: DefiLlama
 github:
@@ -8,29 +8,25 @@ github:
 blockchain:
   - address: "0x91dfd5a51e7c00604e8b2521e678dd8444ea56c9"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xf6b171b1d778194b4bde6af91ce0cdeb01825a9b"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xb06b411b094c06d5c4bc759bcae97d62ac82543c"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x71a15ac12ee91bf7c83d08506f3a3588143898b5"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -50,7 +46,7 @@ blockchain:
     name: LlamaPayFactory
   - address: "0xb93427b83573c8f27a08a909045c3e809610411a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -113,38 +109,38 @@ blockchain:
     name: LlamaZip
   - address: "0x08a3c2a819e3de7aca384c798269b3ce1cd0e437"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x3754a10c1ca723961068b2653109e6201982dd9c"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x5a9d07ed3d7318ed5cb932776d2ceeb177a68bcd"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xaecaedc21c3ea0d84c596c126e2fd2e51e54d274"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: Chainlist Wallet
   - address: "0xe2bbcf440d0f1419f93cd84dda24759188c3185d"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: Chainlist Wallet
-twitter: defillama
 websites:
   - url: https://defillama.com
+social:
+  twitter:
+    - url: https://twitter.com/defillama

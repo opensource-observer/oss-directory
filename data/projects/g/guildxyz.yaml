@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: guildxyz
 display_name: Guild.xyz
 github:
@@ -7,42 +7,41 @@ github:
 blockchain:
   - address: "0xf7b73f96951e7ef3f9da69b4ec6431319ade7e9f"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x0e6a14106497a7de36fba446628860c062e9e302"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GuildPin
   - address: "0xe6e6b676f94a6207882ac92b6014a391766fa96e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x4f8f9f9469c4ece49eaefb9b0cde35a652d9c1d6"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: 0xagora.eth
   - address: "0xa934b56be3ec0bddfa8bfd1cb141e66d1bbd0f69"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: agoraxyz.eth
-twitter: guildxyz
 websites:
   - url: https://guild.xyz
-description: On a mission to build full interoperability for communities between all their platforms for sharing, interactions, and collaboration.
+description: On a mission to build full interoperability for communities between
+  all their platforms for sharing, interactions, and collaboration.
+social:
+  twitter:
+    - url: https://twitter.com/guildxyz

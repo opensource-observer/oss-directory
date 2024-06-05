@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: 0xbcamp
 display_name: Optimism Solidity Survivor Bootcamp
 github:
@@ -6,8 +6,10 @@ github:
 blockchain:
   - address: "0x0e73f03b5b553cd295842cb5f9a04768b6225aac"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: 0xBcamp
+social:
+  twitter:
+    - url: https://twitter.com/0xBcamp

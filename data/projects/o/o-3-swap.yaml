@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: o-3-swap
 display_name: O3 Swap
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x72c1a1c24917eef19e7f5dea146d950841f37662"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -42,7 +40,7 @@ blockchain:
     name: unverified
   - address: "0xd9fb513766e60a569697d1f17ae466b0cb887454"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -89,7 +87,7 @@ blockchain:
     name: Bridge
   - address: "0x4c66a27ecec5af2e87ad8c8ce5fb4cfc30437ec3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -117,14 +115,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4af3246adca72ccdfb5afc31bdf7f17f91fa712c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x8ebc788752a3df9e03dfe2fe605cfb89f46946b9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -132,7 +130,7 @@ blockchain:
     name: unverified
   - address: "0x8a2ae0cf4674e8f83a1d823f57dc5735c5677c21"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -183,7 +181,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xca2462c4203259e0ae1c21c0849e3fed71be6cc6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -224,7 +222,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x3a5292101a26c1dc75f97965b9091d4761a5d1e3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -250,7 +248,7 @@ blockchain:
     name: unverified
   - address: "0x5ae7ff97f40df101edaba31d5f89b70f600d9820"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

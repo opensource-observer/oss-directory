@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: cosmosforhumanity
 display_name: Cosmos for Humanity | C4H
 github:
@@ -6,14 +6,15 @@ github:
 blockchain:
   - address: "0x65ad2bf7e09af2597c140df6386a3003d0f5f8ee"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: cosmosforhumanity.eth
-twitter: cosmos4humanity
 websites:
   - url: https://cosmosforhumanity.eu/
-description: The first NGO dedicated to sustainable development of space activities. Mothership of the Cosmos Rangers community.
+description: The first NGO dedicated to sustainable development of space
+  activities. Mothership of the Cosmos Rangers community.
+social:
+  twitter:
+    - url: https://twitter.com/cosmos4humanity

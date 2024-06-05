@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: merkletreejs
 display_name: MerkleTreeJS
 github:
@@ -8,8 +8,7 @@ npm:
 blockchain:
   - address: "0x358fdccde25e0aae7fba01f088da89b08abf61db"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

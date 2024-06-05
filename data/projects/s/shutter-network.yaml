@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: shutter-network
 display_name: Shutter Network
 github:
@@ -6,8 +6,10 @@ github:
 blockchain:
   - address: "0xb476ee7d610dae7b23b671ebc7bd6112e9772969"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: project_shutter
+social:
+  twitter:
+    - url: https://twitter.com/project_shutter

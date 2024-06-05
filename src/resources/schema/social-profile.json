@@ -1,0 +1,26 @@
+{
+  "$id": "social-profile.json",
+  "title": "Social Profile",
+  "type": "object",
+  "description": "All social profile",
+  "properties": {
+    "medium": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json#"
+      }
+    },
+    "twitter": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json#"
+      }
+    },
+    "telegram": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json#"
+      }
+    }
+  }
+}

@@ -1,8 +1,9 @@
-import path from "path";
 import { writeFile } from "fs/promises";
+import path from "path";
 import _ from "lodash";
 import { glob } from "glob";
-import { MIGRATIONS, Migration, SingleMigration } from "../migrations/index.js";
+import { Migration, SingleMigration } from "../types.js";
+import { MIGRATIONS } from "../migrations/index.js";
 import { CommonArgs } from "../types/cli.js";
 import { FileFormat, getFileExtension, getFileFormat } from "../types/files.js";
 import { safeCastCollection, safeCastProject } from "../validator/index.js";
@@ -10,7 +11,8 @@ import { NullOrUndefinedValueError } from "../utils/error.js";
 import { readFileParse, stringify } from "../utils/files.js";
 
 export type MigrationArgs = CommonArgs & {
-  dir: string;
+  collectionsDir: string;
+  projectsDir: string;
 };
 
 /**
@@ -18,15 +20,15 @@ export type MigrationArgs = CommonArgs & {
  * @param args
  */
 async function migrate(
-  args: MigrationArgs,
+  directory: string,
   fileFormat: FileFormat,
   getSingleMigration: (m: Migration) => SingleMigration,
   validateStringify: (obj: any) => string,
 ) {
   const extension = getFileExtension(fileFormat);
-  const files = await glob(path.resolve(args.dir, `**/*${extension}`));
+  const files = await glob(path.resolve(directory, `**/*${extension}`));
   let count = 0;
-  console.log(`Migrating files in ${args.dir}`);
+  console.log(`Migrating files in ${directory}`);
   for (const file of files) {
     let obj = await readFileParse(file, fileFormat);
     if (!obj?.version) {
@@ -65,10 +67,10 @@ async function migrate(
  * Migrate all files in a projects directory
  * @param args
  */
-export async function migrateProjects(args: MigrationArgs) {
+async function migrateProjects(args: MigrationArgs) {
   const fileFormat = getFileFormat(args.format);
   await migrate(
-    args,
+    args.projectsDir,
     fileFormat,
     (x) => x.project,
     (obj: any) => {
@@ -82,10 +84,10 @@ export async function migrateProjects(args: MigrationArgs) {
  * Migrate all files in a collections directory
  * @param args
  */
-export async function migrateCollections(args: MigrationArgs) {
+async function migrateCollections(args: MigrationArgs) {
   const fileFormat = getFileFormat(args.format);
   await migrate(
-    args,
+    args.collectionsDir,
     fileFormat,
     (x) => x.collection,
     (obj: any) => {
@@ -94,3 +96,14 @@ export async function migrateCollections(args: MigrationArgs) {
     },
   );
 }
+
+/**
+ * This the action that gets exposed to the CLI
+ * @param args
+ */
+async function runMigrations(args: MigrationArgs) {
+  await migrateCollections(args);
+  await migrateProjects(args);
+}
+
+export { runMigrations };

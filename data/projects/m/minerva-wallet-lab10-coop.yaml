@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: minerva-wallet-lab10-coop
 display_name: Minerva Wallet
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x9fc13b4e1c4206970a1c4520d2f77336cd5d0e0a"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: lab10collective
 websites:
   - url: https://lab10.coop/
 description: Sustainable blockchain solutions to co-create a zero-carbon society.
+social:
+  twitter:
+    - url: https://twitter.com/lab10collective

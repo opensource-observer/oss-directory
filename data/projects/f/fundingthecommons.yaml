@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: fundingthecommons
 display_name: fundingthecommons
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x576edced7475d8f64a5e2d5227c93ca57d7f5d20"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

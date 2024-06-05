@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: grindery-io
 display_name: Grindery
 github:
@@ -6,10 +6,12 @@ github:
 blockchain:
   - address: "0xf7dda96007bcf22c6e42e90c8d94737172fb754f"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: grindery_io
 websites:
   - url: https://www.grindery.com/
+social:
+  twitter:
+    - url: https://twitter.com/grindery_io

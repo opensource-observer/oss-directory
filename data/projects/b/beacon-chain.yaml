@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: beacon-chain
 display_name: Beaconchain and Bitfly
 github:
@@ -8,7 +8,7 @@ github:
 blockchain:
   - address: "0x9d4e94db689bc471e45b0a18b7bda36fccec9c3b"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

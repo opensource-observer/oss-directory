@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: lemma-finance
 display_name: Lemma Finance
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x0f3bf5c241b6625c0fa781ed137fde6786b2e66f"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -128,7 +126,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x90356c24c1f95cf29543d45122f2554b6a74f201"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -307,7 +305,10 @@ blockchain:
     tags:
       - contract
     name: xLemmaSynth
-twitter: infpools
 websites:
   - url: https://infinityPools.finance/
-description: The first DEX to offer unlimited leverage on any asset, with no liquidations, no counterparty risk & no oracles.
+description: The first DEX to offer unlimited leverage on any asset, with no
+  liquidations, no counterparty risk & no oracles.
+social:
+  twitter:
+    - url: https://twitter.com/infpools

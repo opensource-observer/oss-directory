@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: magpiexyz
 display_name: Magpie
 github:
@@ -6,15 +6,13 @@ github:
 blockchain:
   - address: "0xc8d7d0bd61c5ca5a493a229f6754da5560f486ae"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xba7bac71a8ee550d89b827fe6d67bc3dca07b104"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -22,421 +20,421 @@ blockchain:
     name: Diamond
   - address: "0xdd05e8df6c51e4186d765e387316e37b29a76a0b"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x25492df1c3617a858e23a11f09356a9c3d5ba776"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0xf69bc2a78f6589b442571455523c892e647f4f7c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x0cdb34e6a4d635142bb92fe403d38f636bbb77b8"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x5f94174ac2e2d0bf53a16c3e41620e76c1406dc1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WomUp5STIP1
   - address: "0xdda54a478f77dc0e2ad8c4131d39c1dc023ba893"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0xa511f46ba7c766fbd28f2132ab7b8b2c2d8b2935"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WomUp4
   - address: "0x8ae8d80e55a13ffc3d84bc293ab31cf2b7a5af0d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0xd72d40b3a9326b8ed6d76d3e83b4a62195e7624f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MGPBurnEventManager
   - address: "0x8fb79be2325af95c5e3dd7df1666fbd9f09c0360"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x4ee526d00ac7bb36c10c9af2ee935e0512f048d7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x21804fb90593458630298f10a85094cb6d3b07db"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: mWomSV
   - address: "0x7dfe1f031f7aa8632a306262a695a70dc2e6b5d3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x6878f2f0cd92d745392e3c46d7d6a6e84fb0d845"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0xc08d4e1010742311c9a70246bd05b95ef2061599"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x103d520db679c90bbb9d4c94f8041e8879a1d5ad"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x427657ed6887836623d6a822e0ff027bd3a280d5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x653c3d75870308e028b2cb458f65a148659afd9d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0xc5c8163cec5a010a45dabd00b6581d198151be96"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0xfa96a026e55eeaa869e6cc1ded80697fd33fc31f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x783caa1f38f8c75bf581d92a7dac747ed34375ec"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0xfaa7234cdb0e87d45423d80c1ea12b5b28a92c3c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x258044b3bcf2b83f7f2d8f92cf0b1a83a28bc95f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0xbaa361b167dd20031d8dc2d015f1bc7295765c7c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SmartWomConvert
   - address: "0x3cbfc97f87f534b42bb58276b7b5dcad29e57eac"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WombatStaking
   - address: "0x664cc2bcae1e057eb1ec379598c5b743ad9db6e7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MasterMagpie
   - address: "0xd08e14fdbf12e9f0082c12ac5f569513a7e88138"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x33ac9eec9b89402da4763496007541c8bea1c6a2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x1c2dab859b9d598fb165a8f749fdf9d917592932"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0xc06a5d3014b9124bf215287980305af2f793eb30"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendleMarketDepositHelper
   - address: "0x4e47d553fd423316094abb07e42970a689e1f5f7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: vlMGPBaseRewarder
   - address: "0x17b5fb131c85ccb2b17942808be7da2243d092b9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x7b8d1e11cd96f146ab0284e761d18b3e1152914a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x536599497ce6a35fc65c7503232fec71a84786b9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VLMGP
   - address: "0x15c48f56fbdb5187b88204fead4a73b5ce9beb56"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BribeRewardPool
   - address: "0x16296859c15289731521f199f0a5f762df6347d0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WombatBribeManager
   - address: "0x509fd25ee2ac7833a017f17ee8a6fb4aaf947876"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: mWOM
   - address: "0x0be9863bb53c6364f51b72a4c919a2b118b39027"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Launchpad
   - address: "0x2d30a29a8a129cd6b2d5d80074c6fc9c80b13c35"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PenpieAirdrop
   - address: "0x2a21a084bab4e13169b7d4f7f50474aa96c94acd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendleVoteManagerSideChain
   - address: "0xfce3799a084774460f76ad913644976f3f9c7fcb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendleRush5
   - address: "0x96c855ceb5e3db2c6f3c20cd15cd9e77a40119af"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: vlPenpieBaseRewarder
   - address: "0x2ac2b254bc18cd4999f64773a966e4f4869c34ee"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PenpieOFT
   - address: "0xb688ba096b7bb75d7841e47163cd12d18b36a5bf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: mPendleOFT
   - address: "0x2881cb2eb7e8f785e8089e2d20e02be590a28c08"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendleRush6
   - address: "0x8bf06db445704bcdde0c18be219442314869e634"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendleRush
   - address: "0x3ab9aef996d922552402e6ac12c486da37bfc802"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendleRush7
   - address: "0x96db7174d7039948227955ef3a6103ec47f196e8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PenpieBribeManager
   - address: "0x1962b4b90bdf6c93037b8afd0294efd62f686f73"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PenpieLuckySpin
   - address: "0xc61d3c70cfc9dedaa090fdd0760eb9291253feff"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VLPenpie
   - address: "0x8ce523cf1120d9b7703806c745b69663a2847504"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PenpieBribeRewardDistributor
   - address: "0x0e7931e7ecf0074e7ce18c5254c949322b933df4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendleRushV2
   - address: "0x212e7b5e1242ecd92c29318c5087c44d10328cf9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PenpieLuckySpin
   - address: "0xddd041ba10dd020958cac3fea0e19d1be7e289f6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PenpieVesting
   - address: "0x6361dbc67046db326b1dda663cc5b350b7c40e3a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendleRush4
   - address: "0x8aa84e8a2d33f6e0e28be265d6f088e0b97210bb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendleMarketDepositHelper
   - address: "0x6db96bbeb081d2a85e0954c252f2c1dc108b3f81"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendleStakingSideChain
   - address: "0x0776c06907ce6ff3d9dbf84ba9b3422d7225942d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MasterPenpie
   - address: "0xc1c13bde3e3a2f55361180c9bae0c1514b6f04d6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendleRush3
   - address: "0x4a5f48616ad968b6775b244574e65909f7a30c95"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: mPendleConvertorSideChain
   - address: "0xd97ebdd4a104e8336760c6350930a96a9a659a66"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RDNTRewardManager
   - address: "0xaa81e1d4bebfb7f6b2898e365ab81db2b769bfcc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DlpRush
   - address: "0x07973730596e7dba60e586cdc3dd48d2886df9dd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VLRDP
   - address: "0x4ade86667760f45cbd5255a5bc8b4c3a703dda7a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RadpiePoolHelper
   - address: "0xfe14f790da92971131544d915c4ada6f1abce3bd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: mDLP
   - address: "0x18a192dfe0be1e5e9aa424738fdad800646283b2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RadiantStaking
   - address: "0xc9cb578d613d729c3c4c8ef7d46cb814570f2baa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MasterRadpie
   - address: "0xca5d2e025c5fb4705760f6f54e9848278a23d03b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RewardDistributor
   - address: "0xd09124e8a1e3d620e8807ad1d968021a5495cee8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DlpRush
   - address: "0x314f4d688f45b8de2bc160bb361df682c68f81a9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RDNTVestManager

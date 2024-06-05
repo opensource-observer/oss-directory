@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: jones-dao
 display_name: Jones DAO
 github:
@@ -6,35 +6,32 @@ github:
 blockchain:
   - address: "0x2a88a454a7b0c29d36d5a121b7cf582db01bfcec"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xc8ce0ac725f914dbf1d743d51b6e222b79f479f1"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
     name: JonesDpxVaultV3
   - address: "0x4817ca4df701d554d78aa3d142b62c162c682ee1"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xd83055eb9d43a7dac64c9ef3e117d43964dd01fe"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x873066f098e6a3a4febf65c9e437f7f71c8ef314"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -42,281 +39,283 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xb98976a008191948a6857df824034d3c5f3aabc5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesRdpxCallStrategy
   - address: "0x5ba98ad75ab87eb90ffc2b680bcfc6b9030e1246"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesDPXVaultV3
   - address: "0xcc21349b6b1c82530d5da6ed310380d980f75497"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x6ecaa3203aeb4d0cc21745f2752a73b41ced7c24"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesDpxCallStrategy
   - address: "0xf3e914c15d0baa1f6537b0966d6f3394ba260747"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RdpxEthBearVault
   - address: "0xe6c548b9443b8a296a5bc084903b569594e89cd0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesRdpxEthBearStrategy
   - address: "0x5369b3eb4c9e87d0b349557034faa20c6ce72315"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesDpxEthBullStrategy
   - address: "0x7a82a0ca7a2569d6cd3df2afeaf508f6d85fd2c3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxEthBearVault
   - address: "0xb94d1959084081c5a11c460012ab522f5a0fd756"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MillinerV2
   - address: "0x7aa12db079c901400e22a5b912204dc575ff9c19"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxEthBullVault
   - address: "0x64f6c761d855a6eff9ef8b025b0258bddede5393"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RdpxEthBullVault
   - address: "0x7bd8955b131e4576e7525ac47bef77a3ea4ecdc4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesDpxEthBearStrategy
   - address: "0x10393c20975cf177a3513071bc110f7962cd67da"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesToken
   - address: "0x711f1bf759d3f749b938cf040ab65110b8524de9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesRdpxEthBullStrategy
   - address: "0x0aefad19aa454bcc1b1dd86e18a7d58d0a6fac38"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MiniChefV2
   - address: "0xcb9295ac65de60373a25c18d2044d517ed5da8a9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xe0a28b93371fe494a2f6025a2b6dd0edfbe24f3e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ProxyAdmin
   - address: "0x6157e2dee2938efca144e507865f10cd93b0a04f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ArbitrumWrappedJonesAura
   - address: "0x2f43c6475f1ecbd051ce486a9f3ccc4b03f3d713"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpVaultRouter1
   - address: "0xeb23c7e19db72f9a728fd64e1caa459e457cfaca"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpRewardTracker
   - address: "0x3c5376bf032cec70c342b64f43778dc06bbd6673"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpJonesRewards
   - address: "0xa79d813912959acb06f131d3ec30482af5ad9400"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpAdapter
   - address: "0x15df56a82c194fefec9337c37a41964b69b584d5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpLeverageStrategy1
   - address: "0xe66998533a1992ece9ea99cdf47686f4fc8458e0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpCompoundRewards
   - address: "0x8e53d1b71bf7c6487cff5156257a687c8704cd31"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpLeverageStrategy
   - address: "0x6911132effaee3d1116a96c1357830a35400883b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpPriceAggregator
   - address: "0x13c6bed5aa16823aba5bba691caec63788b19d9d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpRewardTracker
   - address: "0xb77289d3bf29baadfc7d301aa305fd4acabf889a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpRewardsSplitter
   - address: "0x17ff154a329e37282eb9a76c3ae848fc277f24c7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpVault
   - address: "0x64ecc55a4f5d61ead9b966bcb59d777593afbd6f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpStrategy
   - address: "0x38333a2e4fc57b954fd454a3aa9fee1bd17d50fd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: jGlpViewer
   - address: "0x43cc8e7026077e4b21ddc658ea26f39475ad7216"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpRewardsSplitter
   - address: "0x42efe3e686808cca051a49bcde34c5cba2ebefc1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpAdapter1
   - address: "0xda04b5f54756774ad405de499bb5100c80980a12"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpRewardDistributor
   - address: "0xa485a0bc44988b95245d5f20497ccaff58a73e99"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpStableVault
   - address: "0x65ab0ad9f0e6db36aac10f28e97505c199a689b4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpRewardsSwapper
   - address: "0x5a446ba4d4bf482a3e63648e76e9404e784f7bbc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: IncentiveReceiver
   - address: "0x7241bc8035b65865156ddb5edef3eb32874a3af6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpCompoundRewards
   - address: "0x01ad96292cdc627307817c428562226fd905aec2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesGlpVaultRouter
   - address: "0xf46ce0c13577232d5f29d9bd78a9cab278755346"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesERC20VaultV3
   - address: "0x42448fddcec02124cf6db19a9f91dea7bb0e88e5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesERC20VaultV3
   - address: "0x8883e5bb2920bbe766a2c9e86ad9aa45a573f3f5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesERC20VaultV3
   - address: "0x1f6fa7a58701b3773b08a1a16d06b656b0eccb23"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesAsset
   - address: "0x662d0f9ff837a51cf89a1fe7e0882a906dac08a3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesAsset
   - address: "0x5375616bb6c52a90439ff96882a986d8fcdce421"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesAsset
   - address: "0xf018865b26ffab9cd1735dcca549d95b0cb9ea19"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesAsset
-twitter: JonesDAO_io
 websites:
   - url: https://jonesdao.io/
+social:
+  twitter:
+    - url: https://twitter.com/JonesDAO_io

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: vesper
 display_name: Vesper
 github:
@@ -6,15 +6,13 @@ github:
 blockchain:
   - address: "0x169e2ffc1c6b229b04e65a431434bf0e8ed9563d"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x76d266dfd3754f090488ae12f6bd115cd7e77ebd"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -379,6 +377,8 @@ blockchain:
     tags:
       - contract
     name: TransparentUpgradeableProxy
-twitter: vesperfi
 websites:
   - url: https://vesper.finance/
+social:
+  twitter:
+    - url: https://twitter.com/vesperfi

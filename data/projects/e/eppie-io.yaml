@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: eppie-io
 display_name: Eppie
 github:
@@ -6,13 +6,14 @@ github:
 blockchain:
   - address: "0x26938b1a8f0b70e78a9fe03810eddeb03e4d1fe3"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: eppie.eth
-twitter: EppieApp
 websites:
   - url: https://eppie.io/en
 description: Encrypted Peer to Peer Independent Email
+social:
+  twitter:
+    - url: https://twitter.com/EppieApp

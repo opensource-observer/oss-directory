@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: useweb3
 display_name: useWeb3
 github:
@@ -8,36 +8,31 @@ github:
 blockchain:
   - address: "0xa512c3cf9a63715ced87de5058c684cbff9f4321"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xcbc3dc48ba005cd292de77e582d5b9c55e43b95c"
     networks:
-      - mainnet
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xcfd38669d8cbdb7c933740db35bc83f64ff8b251"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x8289432acd5eb0214b1c2526a5edb480aa06a9ab"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: useweb3
 websites:
   - url: https://www.useweb3.xyz/
 description: A Web3 developer platform
+social:
+  twitter:
+    - url: https://twitter.com/useweb3

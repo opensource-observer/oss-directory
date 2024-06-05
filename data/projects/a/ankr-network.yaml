@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: ankr-network
 display_name: Ankr
 github:
@@ -6,13 +6,13 @@ github:
 blockchain:
   - address: "0x3a78741ac7f96724bf32cd33de68d54438c1ef9b"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xf3eeef50009e604682d64facd814c63576b1ffcb"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

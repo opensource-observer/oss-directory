@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: luncosim
 display_name: LunCo
 github:
@@ -6,22 +6,20 @@ github:
 blockchain:
   - address: "0xa64f2228ccec96076c82abb903021c33859082f8"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: lunco.eth
   - address: "0x020673a52560b50a70544d7f841fbc73626648f4"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: LunCoSim
 websites:
   - url: https://lunco.space
 description: Full-cycle space operations sim
+social:
+  twitter:
+    - url: https://twitter.com/LunCoSim

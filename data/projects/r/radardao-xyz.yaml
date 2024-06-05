@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: radardao-xyz
 display_name: RadarDAO
 github:
@@ -6,13 +6,16 @@ github:
 blockchain:
   - address: "0x149d46ec060e75ae188876adb6b24024637003c7"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: radarcommunity.eth
-twitter: Radarxyz
 websites:
   - url: https://www.radardao.xyz/
-description: We are a collective of innovators, trendmakers, degens, scouts, strategists, creators, curators, big idea thinkers, coming together to share their knowledge.
+description: We are a collective of innovators, trendmakers, degens, scouts,
+  strategists, creators, curators, big idea thinkers, coming together to share
+  their knowledge.
+social:
+  twitter:
+    - url: https://twitter.com/Radarxyz

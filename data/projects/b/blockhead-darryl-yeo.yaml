@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: blockhead-darryl-yeo
 display_name: Blockhead
 github:
@@ -6,14 +6,16 @@ github:
 blockchain:
   - address: "0x048669c431230a9a8298b7ec045f1e1137827cca"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: blockhead.eth
-twitter: darryl__yeo
 websites:
   - url: https://darryl-yeo.com
-description: frontend dev・UI/UX abstractionist・DeFi/web3 builder・blockhead.info 🅱・decentralized data wrangler・hackathon bounty hunter・dropout・23
+description:
+  frontend dev・UI/UX abstractionist・DeFi/web3 builder・blockhead.info
+  🅱・decentralized data wrangler・hackathon bounty hunter・dropout・23
+social:
+  twitter:
+    - url: https://twitter.com/darryl__yeo

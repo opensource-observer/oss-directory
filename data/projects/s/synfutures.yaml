@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: synfutures
 display_name: SynFutures
 github:
@@ -6,17 +6,19 @@ github:
 blockchain:
   - address: "0xbf6cdd5c0c4ec4f10916a06527157ef2753243a8"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x1e7db497d664e77fc96321a1ad0bf018e55cbff8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: Factory
-twitter: SynFuturesDefi
 websites:
   - url: https://www.synfutures.com/
+social:
+  twitter:
+    - url: https://twitter.com/SynFuturesDefi

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: zeropoolnetwork
 display_name: ZeroPool
 github:
@@ -6,12 +6,13 @@ github:
 blockchain:
   - address: "0x947f8a49640b4770a8c7fe3c1e69ffc974295448"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: zeropoolnetwork
 websites:
   - url: https://zeropool.network/
 description: Non-custodial privacy for blockchain
+social:
+  twitter:
+    - url: https://twitter.com/zeropoolnetwork

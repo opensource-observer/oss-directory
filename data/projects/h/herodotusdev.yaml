@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: herodotusdev
 display_name: Herodotus
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x17c2d875cb397d813eae817dafd25807e348df07"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: kozi.eth
-twitter: HerodotusDev
 websites:
   - url: https://herodotus.dev/
+social:
+  twitter:
+    - url: https://twitter.com/HerodotusDev

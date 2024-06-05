@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: op-ai-web-asharibali
 display_name: Optimism AI - ChatBot
 github:
@@ -7,12 +7,17 @@ github:
 blockchain:
   - address: "0x6087470d55109fc34802a50a01982b9d0c0b8668"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: asharib.eth
-twitter: 0xAsharib
 websites:
   - url: https://asharib.xyz
-description: ✨ Building products with latest tech-stack | Blockchain and AI ⚡ | Passionate Developer. Designer. Manager. 👨‍💻 | Talk about state-of-the-art🚀 | open-source.
+description:
+  ✨ Building products with latest tech-stack | Blockchain and AI ⚡ |
+  Passionate Developer. Designer. Manager. 👨‍💻 | Talk about state-of-the-art🚀
+  | open-source.
+social:
+  twitter:
+    - url: https://twitter.com/0xAsharib

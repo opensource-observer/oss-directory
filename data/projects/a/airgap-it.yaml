@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: airgap-it
 display_name: Airgap Wallet
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x276dcbb22b41f272f626c6d7348e93618c0ec5b4"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: airgap_it
 websites:
   - url: https://www.airgap.it
 description: Turn your smartphone into a hardware wallet
+social:
+  twitter:
+    - url: https://twitter.com/airgap_it

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: chainwayxyz
 display_name: Chainway Labs
 github:
@@ -6,10 +6,12 @@ github:
 blockchain:
   - address: "0x09dcfde0fff76ced37a78de5e7008e7401f92b3b"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: chainway_xyz
 websites:
   - url: https://chainway.xyz
+social:
+  twitter:
+    - url: https://twitter.com/chainway_xyz

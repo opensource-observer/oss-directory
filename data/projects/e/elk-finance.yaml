@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: elk-finance
 display_name: Elk Finance
 github:
@@ -6,39 +6,31 @@ github:
 blockchain:
   - address: "0x72f0a08d8f8102cafbb3974566b9861a1ba74d34"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x2afaeca15ac8a62e9bfa3eaf0285315abaecf334"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x111617795c52555d45cf100d0cbf01c82e157e81"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x6bc5fc9d0d908ef8444a7d8f6a7e1a7050a82084"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x38f2ad967328f246763d052cea13ebde47d54518"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -63,7 +55,7 @@ blockchain:
     name: unverified
   - address: "0xb1f120578a7589fd9336315c4df7d5a5d90173a8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -83,7 +75,7 @@ blockchain:
     name: unverified
   - address: "0xeeeeeb57642040be42185f49c52f7e9b38f8eeee"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -95,6 +87,8 @@ blockchain:
     tags:
       - contract
     name: SingleStakingRewards
-twitter: elkfinance
 websites:
   - url: https://elk.finance
+social:
+  twitter:
+    - url: https://twitter.com/elkfinance

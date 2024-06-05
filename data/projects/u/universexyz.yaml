@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: universexyz
 display_name: universexyz
 github:
@@ -9,7 +9,6 @@ blockchain:
       - creator
       - eoa
     networks:
-      - mainnet
-      - optimism
+      - any_evm
 websites:
   - url: https://universe.xyz

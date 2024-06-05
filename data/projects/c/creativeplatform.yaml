@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: creativeplatform
 display_name: creativeplatform
 github:
@@ -6,13 +6,14 @@ github:
 blockchain:
   - address: "0x1fde40a4046eda0ca0539dd6c77abf8933b94260"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: creativecrtv
 websites:
   - url: https://creativeplatform.xyz
-description: A creative blockchain platform for independent creators, fans, and brands to exchange services directly and earn incentives through DeFi
+description: A creative blockchain platform for independent creators, fans, and
+  brands to exchange services directly and earn incentives through DeFi
+social:
+  twitter:
+    - url: https://twitter.com/creativecrtv

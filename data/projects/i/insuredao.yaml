@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: insuredao
 display_name: InsureDAO
 github:
@@ -6,15 +6,13 @@ github:
 blockchain:
   - address: "0x79f5dc19bc96ec1db776d39535bde169e67e33f4"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x2c9bc901f39f847c2fe5d2d7ac9c5888a2ab8fcf"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -34,7 +32,7 @@ blockchain:
     name: Factory
   - address: "0xeace965860d5a33695a2d08f9fa8c4118a38712f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
@@ -110,13 +108,13 @@ blockchain:
     name: AaveV3Strategy
   - address: "0x2ce353ea9a341f67e7c4a5f391d93123afb2d8ac"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MarketTemplate
   - address: "0x0fa85c39c96a9172ccca7f84ce68e08a2bb971c1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Registry
@@ -126,6 +124,8 @@ blockchain:
     tags:
       - safe
       - wallet
-twitter: insuredao
 websites:
   - url: https://www.insuredao.fi/
+social:
+  twitter:
+    - url: https://twitter.com/insuredao

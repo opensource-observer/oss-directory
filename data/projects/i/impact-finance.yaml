@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: impact-finance
 display_name: inTheory Research Funding
 github:
@@ -6,13 +6,14 @@ github:
 blockchain:
   - address: "0xc0f060632e0bfbe52e48b63dac225de9b0f856f1"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: impact-finance.eth
-twitter: DeSci_Impact
 websites:
   - url: https://impact-finance.io
 description: Building sustainable digital economies to support high-impact causes.
+social:
+  twitter:
+    - url: https://twitter.com/DeSci_Impact

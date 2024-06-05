@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: pokt-network
 display_name: Pocket Network
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x5f1feefc4bb7a414096ccf070beef94da8ff88a6"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

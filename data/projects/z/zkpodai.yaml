@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: zkpodai
 display_name: zkpod.ai
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x0aaaa801939ea2b87fb84a44a0b93831f4476fe0"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: zkpodai
 websites:
   - url: https://zkpod.ai
 description: Your friendly ZK bot containing the entirety of the ZKPodcast knowledge.
+social:
+  twitter:
+    - url: https://twitter.com/zkpodai

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: freezingmoon
 display_name: FreezingMoon
 github:
@@ -6,13 +6,13 @@ github:
 blockchain:
   - address: "0x21f53db4d2eacde70a2e4f0407d073c971ec1a33"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: TheFreezingMoon
 websites:
   - url: https://FreezingMoon.org
 description: Open Source Game Development
+social:
+  twitter:
+    - url: https://twitter.com/TheFreezingMoon

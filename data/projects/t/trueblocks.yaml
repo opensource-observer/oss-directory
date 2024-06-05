@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: trueblocks
 display_name: TrueBlocks
 github:
@@ -6,20 +6,18 @@ github:
 blockchain:
   - address: "0xf503017d7baf7fbc0fff7492b751025c6a78179b"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: trueblocks.eth
   - address: "0x89d107a9f019b4dc5dca227d991c89e4e7251ff5"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: trueblocks
 description: Web 3.0 Native Desktop Applications on Ethereum
+social:
+  twitter:
+    - url: https://twitter.com/trueblocks

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: neume-network
 display_name: neume
 github:
@@ -6,13 +6,13 @@ github:
 blockchain:
   - address: "0x80e451777dcd4e4a589a038a61b1dca72d718045"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: danfowler.eth
-twitter: neumenetwork
 websites:
   - url: https://neume.network
+social:
+  twitter:
+    - url: https://twitter.com/neumenetwork

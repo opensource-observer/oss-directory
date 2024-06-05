@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: 0xeigenlabs
 display_name: Eigen Network
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0xd73ebfad38707cb2ab4d127a43a193bc526f5151"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: Eigen_Network
 websites:
   - url: https://eigen.cash/
 description: Where Smart Contract Becomes Private
+social:
+  twitter:
+    - url: https://twitter.com/Eigen_Network

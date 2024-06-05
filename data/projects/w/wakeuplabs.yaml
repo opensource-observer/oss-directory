@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: wakeuplabs
 display_name: WakeUp Labs
 github:
@@ -12,12 +12,13 @@ blockchain:
       - wallet
   - address: "0xab4f5a7fcd1bb66c8c5f01bb77f6142759f46107"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: wakeuplabs
 websites:
   - url: https://www.wakeuplabs.io
 description: Web3 infrastructure
+social:
+  twitter:
+    - url: https://twitter.com/wakeuplabs

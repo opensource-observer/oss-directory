@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: idena-network
 display_name: IDENA
 github:
@@ -6,11 +6,12 @@ github:
 blockchain:
   - address: "0x8917418abe36e6e788068e96ef5a47d7484c06b1"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
 websites:
   - url: https://idena.io
-description: Proof-of-Person blockchain that allows you to run a mining node if you prove your uniqueness by passing a synchronous validation ceremony that bots cannot pass
+description: Proof-of-Person blockchain that allows you to run a mining node if
+  you prove your uniqueness by passing a synchronous validation ceremony that
+  bots cannot pass

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: ctrlh
 display_name: ctrlh
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x7ab874eeef0169ada0d225e9801a3ffffa26aac3"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

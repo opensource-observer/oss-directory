@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: ekonavi
 display_name: Ekonavi
 github:
@@ -6,13 +6,14 @@ github:
 blockchain:
   - address: "0x934ca93d9380f7d72b84304b1b00ac192488590d"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: ekonavi.eth
-twitter: ekonavi_com
 websites:
   - url: https://ekonavi.com
 description: Open platform for distributed, real-time, market relayer network.
+social:
+  twitter:
+    - url: https://twitter.com/ekonavi_com

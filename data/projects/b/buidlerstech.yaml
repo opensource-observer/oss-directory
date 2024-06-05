@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: buidlerstech
 display_name: Buidlers
 github:
@@ -6,11 +6,14 @@ github:
 blockchain:
   - address: "0xe23e0cccc91b11b3fe2d3dd140e28b598e395289"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: buidlerstech
 websites:
   - url: https://buidlers.tech
-description: Formamos el hub de desarrolladores Web3 en español donde la descentralización, calidad y colaboración son parte de nuestra identidad.
+description: Formamos el hub de desarrolladores Web3 en español donde la
+  descentralización, calidad y colaboración son parte de nuestra identidad.
+social:
+  twitter:
+    - url: https://twitter.com/buidlerstech

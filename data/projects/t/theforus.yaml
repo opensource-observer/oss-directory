@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: theforus
 display_name: The Forus
 github:
@@ -6,11 +6,11 @@ github:
 blockchain:
   - address: "0x0daa1d7ec140f26fb1f8de77b355b72fbadf7f84"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: The_Forus
 description: Receive funds secretly in stealth address without revealing identity
+social:
+  twitter:
+    - url: https://twitter.com/The_Forus

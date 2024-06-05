@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: revolte-pgrandne
 display_name: Revolte
 github:
@@ -7,19 +7,19 @@ github:
 blockchain:
   - address: "0x1a2b8bd408413179524e3e61ffa1378b7b7688d5"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x9743f723c8cbd9eea522e9feb2656a0db8457497"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: IrruptionLab
 websites:
   - url: https://www.irruptionlab.com/
 description: Buidling applications for Web3 democratization
+social:
+  twitter:
+    - url: https://twitter.com/IrruptionLab

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: evmcrispr
 display_name: EVMcrispr
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x0035cc37599241d007d0aba1fb931c5fa757f7a1"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

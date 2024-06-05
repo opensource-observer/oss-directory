@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: gwamilabs
 display_name: GwamiLabs (KNS Domains)
 github:
@@ -6,10 +6,12 @@ github:
 blockchain:
   - address: "0x931884dfeaac21ac4b7809f032ae850432a0d1c0"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: knsdomains_
 websites:
   - url: https://kns.earth/#/
+social:
+  twitter:
+    - url: https://twitter.com/knsdomains_

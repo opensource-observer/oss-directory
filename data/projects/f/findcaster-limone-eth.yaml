@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: findcaster-limone-eth
 display_name: Findcaster
 github:
@@ -7,12 +7,15 @@ github:
 blockchain:
   - address: "0x1358155a15930f89ebc787a34eb4ccfd9720bc62"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: limone.eth
-twitter: limone_eth
 websites:
   - url: https://limone.lol
-description: your friendly neighborhood lemon 🍋 squeezing in web3 & frontier tech | serial hacker and community builder
+description: your friendly neighborhood lemon 🍋 squeezing in web3 & frontier
+  tech | serial hacker and community builder
+social:
+  twitter:
+    - url: https://twitter.com/limone_eth

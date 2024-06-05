@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: revm-bluealloy
 display_name: Revm
 github:
@@ -6,9 +6,11 @@ github:
 blockchain:
   - address: "0x98ea1e15e93ff392755fd79e739c3ed60808b56b"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: rakitadragan
 description: One man company
+social:
+  twitter:
+    - url: https://twitter.com/rakitadragan

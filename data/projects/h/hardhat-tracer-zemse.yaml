@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: hardhat-tracer-zemse
 display_name: Hardhat Tracer
 github:
@@ -8,9 +8,11 @@ npm:
 blockchain:
   - address: "0xf51c53b2c184aa43a7d24aa4f0cf13d0e8b56c51"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: zemse.eth
-twitter: zemse_
+social:
+  twitter:
+    - url: https://twitter.com/zemse_

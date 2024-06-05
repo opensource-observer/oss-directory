@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: cashmere-labs
 display_name: cashmere-labs
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x95a807bcab5a16901628acf90fc3057061a3fce9"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: raiden1411
 display_name: 0xRaiden
 description: OSS Developer and contributor to wagmi, viem, abitype, Solady, and
@@ -8,7 +8,7 @@ github:
 blockchain:
   - address: "0xbdb14cffc78b901299dc878add11273c621ff5b8"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: openleveragedev
 display_name: OpenLeverage
 github:
@@ -6,72 +6,74 @@ github:
 blockchain:
   - address: "0xbc2beee86f74fe7e86f58d46d2a6c09019be0c3c"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xabb0abfada4ec3c3e582932f2248e4fff512aaa7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: ControllerDelegator
   - address: "0x13157286e8be274dd83f37ae7cc5ed2b691600f0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ArbitrumDexAggregatorV1
   - address: "0xe7779ebb5c28ccd6d3dcf13920b06402ca52189c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OPBorrowing
   - address: "0x2925671dc7f2def9e4ad3fa878afd997f0b4db45"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OpenLevDelegator
   - address: "0x3c54c8309c6ae22ceaef9b6aeb94668d7ad7846b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPoolDepositorDelegator
   - address: "0x2a74076b9cd2f0825a339092cad0824f96ec058f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPoolDepositor
   - address: "0xb936dcd9035eca0e958f67bd553443dfbc6153d4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ControllerV1
   - address: "0x58fdf612ccf996b58d43db59bfc1d8f0f21d8cac"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OpenLevV1
   - address: "0xb037ae390c15fb94ea98b07dece43aefcf3bf8ba"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: QueryHelper
   - address: "0x94025780a1ab58868d9b2dbbb775f44b32e8e6e5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BETS_v2
-twitter: OpenLeverage
 websites:
   - url: https://openleverage.finance
 description: Dev team for OpenLeverage
+social:
+  twitter:
+    - url: https://twitter.com/OpenLeverage

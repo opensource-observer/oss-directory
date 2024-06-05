@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: stiame
 display_name: stiame
 github:
@@ -6,10 +6,10 @@ github:
 blockchain:
   - address: "0x7587cfbd20e5a970209526b4d1f69dbaae8bed37"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: stiamee
+social:
+  twitter:
+    - url: https://twitter.com/stiamee

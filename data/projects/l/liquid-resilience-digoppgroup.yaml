@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: liquid-resilience-digoppgroup
 display_name: Liquid Resilience
 github:
@@ -6,10 +6,12 @@ github:
 blockchain:
   - address: "0x0ff67aca2b2fd18c7caa5fc0b0a6d2e057898afd"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: DigOppGroup
 websites:
   - url: https://digopp.group
+social:
+  twitter:
+    - url: https://twitter.com/DigOppGroup

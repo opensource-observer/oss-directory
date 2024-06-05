@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: upnodedev
 display_name: Upnode
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xc26e6125b3ec9255ff2b576258742d448e941635"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

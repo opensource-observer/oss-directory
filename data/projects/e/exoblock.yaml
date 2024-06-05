@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: exoblock
 display_name: exoblock
 github:
@@ -6,12 +6,14 @@ github:
 blockchain:
   - address: "0x6c8ac916e3be062a563c2f706be0593d91e72d94"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: exoblockBV
 websites:
   - url: https://www.exoblock.it
-description: Building enterprise blockchain-based ecosystems for food and healthcare across the EMEA region
+description: Building enterprise blockchain-based ecosystems for food and
+  healthcare across the EMEA region
+social:
+  twitter:
+    - url: https://twitter.com/exoblockBV

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: beepopula
 display_name: Popula
 github:
@@ -6,18 +6,20 @@ github:
 blockchain:
   - address: "0x9e8779a144f0734adefd6f7e5265347054e4fc7f"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: edz93.eth
   - address: "0x33da6e671278bff932e126ee6658031a40f3346f"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: beepopula
 websites:
   - url: https://popula.io
 description: Reimagining community and ownership.
+social:
+  twitter:
+    - url: https://twitter.com/beepopula

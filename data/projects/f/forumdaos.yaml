@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: forumdaos
 display_name: Forum
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xeec7e4b2287e98b6ca30242e2d2d2f283a78fc82"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

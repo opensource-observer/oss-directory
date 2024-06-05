@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: tapexyz
 display_name: tapexyz
 github:
@@ -7,14 +7,14 @@ github:
 blockchain:
   - address: "0x01d79bceaeaadfb8fd2f2f53005289cfcf483464"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
     name: sasi.eth
-twitter: tapeexyz
 websites:
   - url: https://tape.xyz
 description: Talk, Amplify, Post, Explore.
+social:
+  twitter:
+    - url: https://twitter.com/tapeexyz

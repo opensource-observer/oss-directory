@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: motus-dao
 display_name: Motus-DAO
 github:
@@ -6,13 +6,13 @@ github:
 blockchain:
   - address: "0xac51531b0b62c2e4b0740d79d2504186a47239cc"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: MotusDAO
 websites:
   - url: https://www.motusdao.org/
 description: Universal healthcare system
+social:
+  twitter:
+    - url: https://twitter.com/MotusDAO

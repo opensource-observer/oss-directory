@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: kredeum
 display_name: Kredeum NFTs Factory
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x6eebae27d69fa80f0e4c0e973a2fed218a56880c"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -33,14 +31,14 @@ blockchain:
     name: OpenNFTsV4
   - address: "0xbc0b437c95c7165f7d1f7c966cb2227da52a27d7"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: kredeum.eth
-twitter: kredeum
 websites:
   - url: https://www.kredeum.com/
 description: Kredeum NFTs Factory
+social:
+  twitter:
+    - url: https://twitter.com/kredeum

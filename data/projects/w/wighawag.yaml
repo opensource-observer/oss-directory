@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: wighawag
 display_name: Jolly Roger and Hardhat-deploy
 github:
@@ -9,28 +9,26 @@ npm:
 blockchain:
   - address: "0xf0d7a8198d75e10517f035cf11b928e9e2ab20f4"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xaddbc936ab952b6dc5c5fe090c55269a1174d173"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xf78cd306b23031de9e739a5bcde61764e82ad5ef"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: jollyroger_eth
 websites:
   - url: https://jolly-roger.eth.limo
-description: Build and Deploy for Eternity. Production-Ready Template To Build Decentralised Apps and Games.
+description: Build and Deploy for Eternity. Production-Ready Template To Build
+  Decentralised Apps and Games.
+social:
+  twitter:
+    - url: https://twitter.com/jollyroger_eth

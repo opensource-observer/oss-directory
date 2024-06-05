@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: foundry
 display_name: Foundry
 github:
@@ -6,16 +6,17 @@ github:
 blockchain:
   - address: "0x4baa1fcae9ba8f9e1247b5cfd71e2463e85b2284"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x38c00ce327ea4411cc3ed632f9e8f989907a9c72"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
 websites:
   - url: https://getfoundry.sh
-description: Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.
+description: Foundry is a blazing fast, portable and modular toolkit for
+  Ethereum application development written in Rust.

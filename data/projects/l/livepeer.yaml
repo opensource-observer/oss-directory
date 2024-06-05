@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: livepeer
 display_name: Livepeer
 github:
@@ -6,43 +6,45 @@ github:
 blockchain:
   - address: "0x74b5ba17b2fee90fdae8f252d3e7998022069ba0"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xb5af4138f0f33be0d6414eb25271b9c2dc245fb5"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x0b9c254837e72ebe9fe04960c43b69782e68169a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BondingVotes
   - address: "0x35bcf3c30594191d53231e4ff333e8a770453e40"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BondingManager
   - address: "0xa8bb618b1520e284046f3dfc448851a1ff26e41b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TicketBroker
   - address: "0x289ba1701c2f088cf0faf8b3705246331cb8a839"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
-twitter: Livepeer
 websites:
   - url: https://livepeer.org
-description: The world's open video infrastructure.  For bug bounties, visit https://immunefi.com/bounty/livepeer/
+description: The world's open video infrastructure.  For bug bounties, visit
+  https://immunefi.com/bounty/livepeer/
+social:
+  twitter:
+    - url: https://twitter.com/Livepeer

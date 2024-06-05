@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: rareskills
 display_name: RareSkills
 github:
@@ -6,12 +6,14 @@ github:
 blockchain:
   - address: "0x4879df2ba195a69c178133f44e278c0f64797ca5"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: RareSkills_io
 websites:
   - url: https://RareSkills.io
-description: The longest and hardest blockchain engineering fellowship (46 weeks). Join as a fellow or recruit web3 developers at https://RareSkills.io
+description: The longest and hardest blockchain engineering fellowship (46
+  weeks). Join as a fellow or recruit web3 developers at https://RareSkills.io
+social:
+  twitter:
+    - url: https://twitter.com/RareSkills_io

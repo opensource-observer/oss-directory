@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: dethcrypto
 display_name: Deth and TypeChain
 github:
@@ -8,10 +8,11 @@ npm:
 blockchain:
   - address: "0x4d2f0efdb2ad1d709d8522e7b5aa9f5181563617"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: dethcrypto
 description: Ethereum dev tools
+social:
+  twitter:
+    - url: https://twitter.com/dethcrypto

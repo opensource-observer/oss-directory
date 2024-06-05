@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: soliditylabs
 display_name: soliditylabs
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x15ae150d7dc03d3b635ee90b85219dbfe071ed35"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: gorgos
 websites:
   - url: https://soliditydeveloper.com/
 description: Solidity Dev Studio
+social:
+  twitter:
+    - url: https://twitter.com/gorgos

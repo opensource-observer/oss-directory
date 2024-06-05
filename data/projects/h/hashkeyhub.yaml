@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: hashkeyhub
 display_name: HashKey Hub
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x499d2f8732b4e1a5b8692c4dc23f6fee3a53c216"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

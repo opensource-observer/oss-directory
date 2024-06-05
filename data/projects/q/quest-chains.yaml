@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: quest-chains
 display_name: Quest Chains
 github:
@@ -6,15 +6,13 @@ github:
 blockchain:
   - address: "0xcdba6263ac0a162848380a1ed117b48d973eabfc"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x89bf9baaee2d451477cf850fe4c0d89bb796b1ad"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: journodao
 display_name: JournoDAO
 github:
@@ -6,12 +6,13 @@ github:
 blockchain:
   - address: "0xec8e47e050a122970cbb4baf44413f3f070b543d"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: journodao.eth
-twitter: JournoDAO
 websites:
   - url: https://journodao.xyz
+social:
+  twitter:
+    - url: https://twitter.com/JournoDAO

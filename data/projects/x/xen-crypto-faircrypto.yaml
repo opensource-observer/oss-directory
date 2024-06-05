@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: xen-crypto-faircrypto
 display_name: Xen Crypto
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xc73fc08c931efe3fce850c09278472e8a81c2e05"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -93,6 +92,8 @@ blockchain:
     tags:
       - contract
     name: various:DiffersByChain
-twitter: mrjacklevin
 websites:
   - url: https://faircrypto.org
+social:
+  twitter:
+    - url: https://twitter.com/mrjacklevin

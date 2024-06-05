@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: smallbraingames
 display_name: Small Brain Games
 github:
@@ -6,13 +6,13 @@ github:
 blockchain:
   - address: "0xc152cc22488f1383e675f5738df9a4244fb113a5"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x5bdff0380f67a6347f0ea4ff4a7da04009c2f71a"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

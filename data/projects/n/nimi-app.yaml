@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: nimi-app
 display_name: nimi-app
 github:
@@ -6,10 +6,12 @@ github:
 blockchain:
   - address: "0xde81d67af572ec0f22841da702c1edc25608dbbb"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: 0xNimi
 websites:
   - url: https://nimi.io
+social:
+  twitter:
+    - url: https://twitter.com/0xNimi

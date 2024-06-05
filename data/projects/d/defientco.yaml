@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: defientco
 display_name: 6551 Studio
 github:
@@ -6,12 +6,14 @@ github:
 blockchain:
   - address: "0x97a5810acddf54371e3bba01c41efba8ada268d6"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: defient.eth
-twitter: defientco
 websites:
   - url: https://defient.co
 description: A web3 entertainment company.
+social:
+  twitter:
+    - url: https://twitter.com/defientco

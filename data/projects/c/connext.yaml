@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: connext
 display_name: Connext
 github:
@@ -6,47 +6,37 @@ github:
 blockchain:
   - address: "0x155b15a7e9ff0e34ceaf2439589d5c661adc9493"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xfd8c6ebe0d284f9d2c9665f17bba47032259e907"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xade09131c6f43fe22c2cbabb759636c43cfc181e"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xdcde7a069deee7b73a795a76f97eb9dca7f812d4"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x2ccc94579056713b2357cb7ce8de054228a1e94b"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x5a041ec279a81f5421667f665767b30dd8e3e36d"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -75,7 +65,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x73a37b3eb030cc3f9739ca5c16b7e6802f294122"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -98,7 +88,7 @@ blockchain:
     name: ConnextDiamond
   - address: "0x9963a1e4fd60ba4a89e92930c8d8686514705bb6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -106,7 +96,7 @@ blockchain:
     name: Diamond
   - address: "0x9f8bd11b264132def2a605091b8cd0ee036804f6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -170,7 +160,7 @@ blockchain:
     name: unverified
   - address: "0x58b9cb810a68a7f3e1e4f8cb45d1b9b3c79705e8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -185,14 +175,14 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xee9dec2712cce65174b561151701bf54b99c24c8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: ConnextDiamond
   - address: "0xdfa5fafac70a610e4224b85b7fc4764a0b90d2ea"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -214,7 +204,7 @@ blockchain:
     name: ConnextPriceOracle
   - address: "0xa28de94d2e6f84659c2c32df14334daa08dd6461"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -235,14 +225,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x924e679c3c23017aef214c9ea1fbc22e97ff9e2e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xf659a7b83fd9f69b52f4bcf9389991515acf4fd0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -268,7 +258,7 @@ blockchain:
     name: ConnextPriceOracle
   - address: "0xafb88881e53589f5e6eb1cc27e9207cc7f03023f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -312,7 +302,7 @@ blockchain:
     name: UpgradeBeaconProxy
   - address: "0x3da402d5cd4bf0a7c6003c0b9c3c19fdf1e90fd0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -380,14 +370,14 @@ blockchain:
     name: Multicall
   - address: "0x8888759373137b84e9f0ef13ecb13e321c251ee3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: xDonate
   - address: "0x785a4c7ee79778e9670a6a02c60c1bd148bcd525"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -395,7 +385,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x72c393d9ae5e352877b4adc585b1939b670213d8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -415,7 +405,7 @@ blockchain:
     name: UpgradeBeacon
   - address: "0xfd9b8b1b7e44b39dfa04d66159ac21b68141ed38"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -467,7 +457,7 @@ blockchain:
     name: TokenFacet
   - address: "0xf5be67922914c0b933d13802e834be9e532c09a5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -501,7 +491,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa3e91aefadecb8919180f581f5be897c763be593"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -545,7 +535,7 @@ blockchain:
     name: MerkleTreeManager
   - address: "0x9e40a8a535d4875848e1821e3c59ab5c5dd86135"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -571,7 +561,7 @@ blockchain:
     name: unverified
   - address: "0x7dd2bcc0828e0a43c67c1baeb3cc075695ac8b9b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -618,43 +608,43 @@ blockchain:
     name: TestERC20Votes
   - address: "0xe6b7ab9ebcfbf1a72e489ff00cdf9c6473ff6224"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AirdropClaim
   - address: "0xb4fc20fc39cd82394565907a1e79bf446d0ba455"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ConxLbpSwapSourceV1
   - address: "0x4d48738e98992eb5b3fe9915560df432cacea37c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ConxLbpSwapTargetV1
   - address: "0xb86af5eb59a8e871bfa573fa656123ea86f47c3a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPToken
   - address: "0xda492c29d88ffe9b7cbfa6dc068c2f9befae851b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPToken
   - address: "0xcf4d2994088a8cde52fb584fe29608b63ec063b2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TransactionManager
   - address: "0x1861e2a790143284ec1d03b4fcb94f3c3761c00d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: FjordLbpProxyV6
@@ -666,13 +656,13 @@ blockchain:
       - wallet
   - address: "0xb82119772ded0318b1930c6ed45bc4bcd3009cff"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
-twitter: Connext
 websites:
   - url: https://connext.network
 description: Fast, trustless communication between blockchains & L2s.
+social:
+  twitter:
+    - url: https://twitter.com/Connext

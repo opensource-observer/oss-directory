@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: chainpatrol
 display_name: ChainPatrol
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x3d9d22e1821be3b1ce2a8acb6fe47ffef04243c3"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: niksparrow.eth
-twitter: ChainPatrol
 websites:
   - url: https://chainpatrol.io/
+social:
+  twitter:
+    - url: https://twitter.com/ChainPatrol

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: lodestarfinance
 display_name: Lodestar Finance
 github:
@@ -6,318 +6,320 @@ github:
 blockchain:
   - address: "0x67e57a0ec37768eaf99a364975ec4e1f98920d01"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x0f01756bc6183994d90773c8f22e3f44355ffa0e"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x41c2f1af5a4a4c65b580c1397141684f96b68aab"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x0edfa3fbe365cbf269ddc4b286ebd4797c78b21a"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
     name: humblepepefarmer.eth
   - address: "0x3d95b33852e49ea4f22ee0c307bbcf4c1e1a4e7d"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x8f2354f9464514efdae441314b8325e97bf96cdc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Comptroller
   - address: "0x4640ce81be1f64d03b4731b7ac2c93a7e426beaa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JumpRateModel_2_V2
   - address: "0x5d27cff80df09f28534bb37d386d43aa60f88e25"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lDPX_V3
   - address: "0x2193c45244af12c280941281c8aa67dd08be0a64"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lETH_V3
   - address: "0x12997c5c005acc6933edd5e91d9338e7635fc0bb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: IMAGIC
   - address: "0x8df8e39103f196820ea56403733a79c60086608c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TokenFix
   - address: "0x7b571111daff9428f7563582242ed29e5949970e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lUSDC_V2
   - address: "0xd77febe1eb7823de6e006d96066bb3ba3b5bca69"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Loopy
   - address: "0xf81263eb84dfa118261cb9377f2c46ca04689e6e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lDPX_V2
   - address: "0xe57390eb5f0dd76b545d7349845839ad6a4faee8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lARB_V2
   - address: "0xd2835b08795adfefa0c2009b294ae84b08c6a67e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: IWBTC
   - address: "0x5e3f2abaecb51a182f05b4b7c0f7a5da1942de90"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: IUSDC
   - address: "0x46178d84339a04f140934ee830cdafdacd29fba9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: IMIM
   - address: "0x5ffa22244d8273d899b6c20cec12a88a7cd9e460"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lFRAX
   - address: "0xc33ccf8d387db5e84de13496e40dd83934f3251b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: IDPX
   - address: "0x8991d64fe388fa79a4f7aa7826e8da09f0c3c96a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lARB_V3
   - address: "0x9365181a7df82a1cc578eae443efd89f00dbb643"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lUSDT_V3
   - address: "0xf19e4c9757ae4d22b97dd43c30aead7f8a533dc3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LodestarLens
   - address: "0xc37896bf3ee5a2c62cdbd674035069776f721668"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lWBTC_V3
   - address: "0xcc25dac54a1a62061b596fd3baf7d454f34c56ff"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lplvGLP
   - address: "0x8c7b5f470251fed433e38215a959eeefc900d995"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lDAI_V2
   - address: "0xf21ef887cb667f84b8ec5934c1713a7ade8c38cf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lMAGIC_V3
   - address: "0x01c7068ea92d3da2a1dad145c96c0f9398be93f2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lMAGIC_V2
   - address: "0xc9c043a7f80258d492121d2f34e829eb6517eb17"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lFRAX_V2
   - address: "0x4c9aaed3b8c443b4b634d1a189a5e25c604768de"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lUSDC_V3
   - address: "0xd12d43cdf498e377d3bfa2c6217f05b466e14228"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lFRAX_V3
   - address: "0xf19547f9ed24aa66b03c3a552d181ae334fbb8db"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LodeToken
   - address: "0x2d5a5306e6cd7133ae576eb5edb2128d79d11a88"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lUSDT_V2
   - address: "0xea0a73c17323d1a9457d722f10e7bab22dc0cb83"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lplvGLP_V3
   - address: "0x79b6c5e1a7c0ad507e1db81ec7cf269062bab4eb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lGMX
   - address: "0x4ce0c8c8944205c0a134ef37a772ceee327b4c11"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LodestarChef
   - address: "0x810c0cee2d8004dd6fc5083023724cfc923f5cdc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JumpRateModel_5_V2
   - address: "0xf367462541dab82c789f113178137b10debf8c93"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JumpRateModel_4_V2
   - address: "0x8ab1774a6fc5ee51559964e13ecd54155340c116"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StakingRewards
   - address: "0xff4ef7844faff2bb20a8ba5e479b0a67d8642146"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VotingPower
   - address: "0xa23fe46995154592974019e7a943cb4c68a98b14"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JumpRateModel_3_V2
   - address: "0xeb156f76ef69be485c18c297dee5c45390345187"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: IUSDT
   - address: "0x4987782da9a63bc3abace48648b15546d821c720"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lDAI_V3
   - address: "0xd917d67f9dd5fa3a193f1e076c8c636867a3571b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lWBTC_V2
   - address: "0x941a4ee8a96e0eed086d5853c3661bc4f2357ef2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Reservoir
   - address: "0x04d28f57bd9e47723f17b03e86c0d7e54de9821c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JumpRateModel_1_V2
   - address: "0xcc3d0d211df6157cb94b5aacfd55d41acd3a9a7a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: IDAI
   - address: "0x7a472988bd094a09f045120e78bb0cea44558b52"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lETH_V2
   - address: "0x7a668f56affd511ffc83c31666850eae9fd5bcc8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: IDAI_updated
   - address: "0xb4d58c1f5870efa4b05519a72851227f05743273"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: IETH
   - address: "0xd006e90a4a1abfc560999ba2c3b0b70aa6b1b2f4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lplvGLP_V2
   - address: "0xfece754d92bd956f681a941cef4632ab65710495"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: lwstETH
-twitter: LodestarFinance
 websites:
   - url: https://lodestarfinance.io
 description: An algorithmic lending and borrowing protocol built on Arbitrum One.
+social:
+  twitter:
+    - url: https://twitter.com/LodestarFinance

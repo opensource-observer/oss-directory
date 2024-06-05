@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: wildcards-protocol
 display_name: Wildcards Protocol
 github:
@@ -12,20 +12,20 @@ blockchain:
     name: Optimism_Wildcard_Registry
   - address: "0x1d7b8d3c6c896d7eb4f9118ea377c359073d4083"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x1208a26faa0f4ac65b42098419eb4daa5e580ac6"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: wildcardswtf
 websites:
   - url: https://wildcards.wtf
-description: Adding Utility to NFTs. Link ENS Domains to NFT Collections and provide holders with free wildcard sub-domains.
+description: Adding Utility to NFTs. Link ENS Domains to NFT Collections and
+  provide holders with free wildcard sub-domains.
+social:
+  twitter:
+    - url: https://twitter.com/wildcardswtf

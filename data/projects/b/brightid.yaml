@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: brightid
 display_name: BrightID
 github:
@@ -6,12 +6,11 @@ github:
 blockchain:
   - address: "0x4b8810b079eb22ecf2d1f75e08e0abbd6fd87dbf"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
 websites:
   - url: https://www.brightid.org
-description: Social identity network of unique humans. BrightID allows people to prove to applications that they're only using one account.
+description: Social identity network of unique humans. BrightID allows people to
+  prove to applications that they're only using one account.

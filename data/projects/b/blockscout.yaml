@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: blockscout
 display_name: Blockscout
 github:
@@ -13,11 +13,14 @@ blockchain:
       - wallet
   - address: "0xc97f252c07111c058129a9d68622f7d5c418c737"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: blockscoutcom
 websites:
   - url: https://www.blockscout.com/
-description: Blockscout is a robust open-source tool for exploring, confirming, and inspecting transactions on any EVM blockchain.
+description: Blockscout is a robust open-source tool for exploring, confirming,
+  and inspecting transactions on any EVM blockchain.
+social:
+  twitter:
+    - url: https://twitter.com/blockscoutcom

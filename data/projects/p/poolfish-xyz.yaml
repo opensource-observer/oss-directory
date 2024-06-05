@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: poolfish-xyz
 display_name: Poolfish
 github:
@@ -6,12 +6,16 @@ github:
 blockchain:
   - address: "0x79a375fefbf90878502eadba4a89697896b60c4d"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
     name: thechun.eth
-twitter: noahwbragg
 websites:
   - url: https://www.noahbragg.com
-description: Building Poolfish - a website for Liquidity Providers that helps them calculate fees and find opportunities. Built and sold Potion solo for $300k.
+description: Building Poolfish - a website for Liquidity Providers that helps
+  them calculate fees and find opportunities. Built and sold Potion solo for
+  $300k.
+social:
+  twitter:
+    - url: https://twitter.com/noahwbragg

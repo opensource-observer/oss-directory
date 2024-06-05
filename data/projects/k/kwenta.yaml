@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: kwenta
 display_name: Kwenta
 github:
@@ -7,38 +7,37 @@ github:
 blockchain:
   - address: "0x12d970154ac171293323f20757130d5731850deb"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x652c46a302060b324a02d2d3e4a56e3da07fa91b"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xb7cefe980d41f2f83d4272526b0a0f04617da96b"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xe029c32d412972c5f3d107da6d6ecf8f1c1e788c"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x39cfca7b389529ac861cbb05add802e5b06e5101"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xd6820e85b60e11c7d2c1279c583edfb51e90717d"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -516,6 +515,8 @@ blockchain:
     tags:
       - safe
       - wallet
-twitter: kwenta_io
 websites:
   - url: https://kwenta.eth.limo
+social:
+  twitter:
+    - url: https://twitter.com/kwenta_io

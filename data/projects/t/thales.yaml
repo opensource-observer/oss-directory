@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: thales
 display_name: Thales
 github:
@@ -6,37 +6,31 @@ github:
 blockchain:
   - address: "0x34ad8d8c3e12b5a500fe983c43f2a0306dcf0ad1"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x8559027bac39638438ddb32d713f0b12ef66ea7b"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x9841484a4a6c0b61c4eea71376d76453fd05ec9c"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x8314125c8b68af2afd0d151eb4a551e88128a2ae"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x310a7ca95b4c2156621591dfbd77557d729bed0e"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -91,7 +85,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xe0b31640b07e4bcfafc190d7dde951ba3286dd63"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -135,7 +129,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xe2881cad27db4c27fb3814ad97cca694b80c0fa0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -163,7 +157,7 @@ blockchain:
     name: TherundownConsumer
   - address: "0x33bf0378242c7c814942197ea4ae584b52681197"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -308,7 +302,7 @@ blockchain:
     name: ThalesAMM
   - address: "0x9b91d27568c51cef3c4e04d504ef3ce11d5f2427"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -387,7 +381,7 @@ blockchain:
     name: ThalesAMM
   - address: "0xec1101a160d5b29351b0dee11c823b16ea81e7c6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -466,7 +460,7 @@ blockchain:
     name: SportsAMM
   - address: "0x160ca569999601bca06109d42d561d85d6bb4b57"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -551,7 +545,7 @@ blockchain:
     name: MarchMadness
   - address: "0xbe086e0a2c588ad64c8530048ce4356190d6a6f3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -702,7 +696,7 @@ blockchain:
     name: BinaryOptionMastercopy
   - address: "0xac47c388d52c443fd854848ef1fa57171679e7b1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -895,7 +889,7 @@ blockchain:
     name: SportsAMM
   - address: "0x89df505c693ac7e07d8d5d6308fe0bd041033cdb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -950,7 +944,7 @@ blockchain:
     name: ExoticPositionalMarketManager
   - address: "0xbd39d496eeba3842521e8886a04312795c2bc799"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1017,7 +1011,7 @@ blockchain:
     name: ThalesRoyalePass
   - address: "0xdf0a5bf80e8009f2702e7d164a7bdeaa79013eba"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1030,7 +1024,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x2b89275efb9509c33d9ad92a4586bdf8c4d21505"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1103,7 +1097,7 @@ blockchain:
     name: SportPositionalMarketManager
   - address: "0x72ca0765d4be0529377d656c9645600606214610"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1212,7 +1206,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xd1fe5a0256acaea497ecd30dc0b816cce95e23e9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1345,7 +1339,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xe41cd3a25cbdeda0bc46d48c380393d953bd2034"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -1395,7 +1389,7 @@ blockchain:
     name: ExoticPositionalFixedMarket
   - address: "0xece0eefff3003d23e366c917104c6cf5cdb404f1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1510,7 +1504,7 @@ blockchain:
     name: ParlayMarketsAMM
   - address: "0x57faada9e5a3098a38151e4de8426135b0fa4fd0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1547,7 +1541,7 @@ blockchain:
     name: ThalesAMMLiquidityPoolRoundMastercopy
   - address: "0x1ebce103b528bbce8c3bf0bd594cdf18d284cef7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1644,14 +1638,14 @@ blockchain:
     name: StakingThales
   - address: "0xe10a2743a1ce709693d3ad5f06ea47df3e0b3ec9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x5ae7454827d83526261f3871c1029792644ef1b1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1892,7 +1886,7 @@ blockchain:
     name: SportsAMM
   - address: "0xd0418b847255b9e55e1f1d5a52241ada23e5197c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1923,7 +1917,7 @@ blockchain:
     name: ThalesAMM
   - address: "0x3dfe6fab38d20d189cd7d28b04f8714c289de2ae"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2002,7 +1996,7 @@ blockchain:
     name: SportsAMM
   - address: "0xa3c2b9ade3c2345700c0fb878cb91a5a18293038"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2303,7 +2297,7 @@ blockchain:
     name: unverified
   - address: "0x339e4557cd9c6f7ea0536d80418e692b55b8a33d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2352,7 +2346,7 @@ blockchain:
     name: RangedMarketsAMM
   - address: "0x8947da500eb47f82df21143d0c01a29862a8c3c5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -2420,7 +2414,7 @@ blockchain:
     name: ExoticPositionalMarketManager
   - address: "0x5c779cfae4b6b7a02c32938ddabdada8ab60fb14"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2511,14 +2505,14 @@ blockchain:
     name: RangedMarketsAMM
   - address: "0x6b33b99e3d3213df963375e6d94aba968351f803"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x56ef50083fa7aeea923feed7907f4714e4c7a374"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2531,7 +2525,7 @@ blockchain:
     name: SportPositionalMarketMastercopy
   - address: "0x391a45f31c1837e3d837c23e05f42a098329d50d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2562,7 +2556,7 @@ blockchain:
     name: ThalesAMMLiquidityPool
   - address: "0x261c4500a87f0203ce5eb6706645f7f1bd614b5d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2941,7 +2935,7 @@ blockchain:
     name: MultiCollateralOnOffRamp
   - address: "0xae56177e405929c95e5d4b04c0c87e428cb6432b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -3027,14 +3021,14 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x42b6e9b5bb96a02e02e651d3104fc3546e1313f2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x170a5714112daeff20e798b6e92e25b86ea603c1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3144,7 +3138,7 @@ blockchain:
     name: ThalesAMM
   - address: "0x0eb894b1cf3415538b9d64f12a3b3ab013966f50"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3367,7 +3361,7 @@ blockchain:
     name: SportsAMM
   - address: "0x3ec543c220443ad0d30f53fca52dbfa346763256"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3386,7 +3380,7 @@ blockchain:
     name: SportPositionalMarketManager
   - address: "0x5c64a0be3cf1f5655d28c80353ee7f5bd8326a83"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3579,7 +3573,7 @@ blockchain:
     name: DeciMath
   - address: "0x50b532adaf5378f59dbd619dfd03e4d4ab3586bc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3622,7 +3616,7 @@ blockchain:
     name: OvertimeVoucher
   - address: "0x73043369f8efdd6e0fcb09c1201ee787583a7425"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3689,7 +3683,7 @@ blockchain:
     name: BinaryOptionMarketMastercopy
   - address: "0x80559f187ab7b373c39a04df434f33d5462ac1bb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3720,7 +3714,7 @@ blockchain:
     name: TherundownConsumer
   - address: "0xcd9c0e99396627c7746b4363b880939ac2828d3e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3793,7 +3787,7 @@ blockchain:
     name: SportsAMM
   - address: "0x5c936675212cb832aa82ba4b8a1f237cf8db97ad"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -4082,193 +4076,193 @@ blockchain:
     name: MultiCollateralOnOffRamp
   - address: "0xff9d1b34f369caf91c6b69761e2a06f78ed3cd9d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ParlayMarketData
   - address: "0xb233aa4cba1c6f24974a4a7f9e32d054e4a51342"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GamesQueue
   - address: "0xa852a651377fbe23f3d3acf5919c3d092ad4b77d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SportVaultDegen
   - address: "0x012f03882db1a27a3697fe7729dafcda9b5cc1d0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SportPositionalMarketMastercopy
   - address: "0x0abdaf0c4cff91f96f817809d4735929fca75b80"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TherundownConsumer
   - address: "0x74b9765ad588d7e8036f6c785ebf8b489a557a43"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TherundownConsumerWrapper
   - address: "0x95d97c6116c3a1d27b25c9448fdf3889d6dd7c05"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SportsAMMUtils
   - address: "0x8e9018b48456202aa9bb3e485192b8475822b874"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SportAMMLiquidityPool
   - address: "0x230893c24804b89d0ec3ffffa243ce32c6b6541b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SportAMMLiquidityPoolData
   - address: "0x0b13071b5f3f860f4d52c836d898a79fe104c9b4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TherundownConsumerVerifier
   - address: "0x7b065de3fd7190a6c2cb6d51e946e82b6b2c4358"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MultiCollateralOnOffRamp
   - address: "0x1ac7ebfa70ab18bf0a8c36e51ecd6c969e88b1d1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SportPositionalMarketFactory
   - address: "0xd7c5df8f490e0efe8c043f888a39ea247d4d3e10"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GamesOddsObtainer
   - address: "0x6848f7c1b5aa2da86f6529bed9d641a67663f0be"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ParlayAMMLiquidityPool
   - address: "0xe26374c7afe71a2a6ab4a61080772547c43b87e6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SportVaultSafu
   - address: "0x652f74591683cdaba32a21ac87f2d4cb840c252a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GamesOddsReceiver
   - address: "0xab9e5fc491c743ae0b45f7100faf611deb8fec4a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ParlayVault
   - address: "0xda00b46a924da3019b2f5fc13e770956f75c04c7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SportAMMLiquidityPool
   - address: "0xff7aea98740fa1e2a9eb81680583e62aaff1e3ad"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SportVault
   - address: "0x0f32dc40b8d26fb7d5104bc6ca639c1d8800bff0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RangedMarketsAMM
   - address: "0xe42517a1bf3e6bd088bf26ead8d8754e0e2beba3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TaleOfThalesNFTs
   - address: "0x642682d2fa61c49d204b657ade5ab0142295e227"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PositionalMarketMastercopy
   - address: "0xe9f5e7579931a46e4beac08ca9ab52961ad66203"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SafeBoxBuyback
   - address: "0xea4c2343fd3c239c23dd37dd3ee51aec84544735"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ThalesAMMLiquidityPool
   - address: "0xe92b4c614b04c239d30c31a7ea1290addcb8217d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ChainedSpeedMarketsAMM
   - address: "0x2bb7d689780e7a34dd365359bd7333ab24903268"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ParlayMarketsAMM
   - address: "0x739d25922010a727b1fc842c483494d4d7a4c90e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ThalesStakingRewardsPool
   - address: "0x5cf3b1882357bb66cf3cd2c85b81abbc85553962"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RangedMarketsAMM
   - address: "0x02d0123a89ae6ef27419d5ebb158d1ed4cf24fa3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SpeedMarketsAMM
   - address: "0x91fae7d06d8d831ae9054614516fe8802711a32a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PositionMastercopy
   - address: "0x95d93c88c1b5190fa7fa4350844e0663e5a11ff0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PositionalMarketManager
   - address: "0x8bb872a298342858f5416c735fc90f831ed570b6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SportAMMLiquidityPoolRoundMastercopy
@@ -4280,29 +4274,31 @@ blockchain:
       - wallet
   - address: "0x9ee26dcb9a3f1104b37a5dcc8573c8b144c7ce42"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OvertimeVoucher
   - address: "0x0a29cddbdaaf56342507574820864dac967d2683"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AmmVault
   - address: "0x008a4e30a8b41781f5cb017b197aa9aa4cd53b46"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AmmVault
   - address: "0x640c34d9595ad5351da8c5c833bbd1afd20519ea"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AmmVault
-twitter: thalesmarket
 websites:
   - url: https://thalesmarket.io
 description: Permissionless Parimutuel markets
+social:
+  twitter:
+    - url: https://twitter.com/thalesmarket

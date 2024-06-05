@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: robots-txt-legato-labs
 display_name: ROBOTS.TXT
 github:
@@ -6,10 +6,12 @@ github:
 blockchain:
   - address: "0xf4a96d0025717b37252dce516e33541eadcf1e70"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: legatomusicxyz
 websites:
   - url: https://legatohq.com
+social:
+  twitter:
+    - url: https://twitter.com/legatomusicxyz

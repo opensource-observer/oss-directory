@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: wagmifund
 display_name: wagmi fund
 github:
@@ -6,13 +6,14 @@ github:
 blockchain:
   - address: "0x191a02b27c288b52c7906f3d751d9a158e24040a"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: abhishk.eth
-twitter: wagmidotfund
 websites:
   - url: https://wagmi.fund
 description: Fueling the decentralized future with web3 funding.
+social:
+  twitter:
+    - url: https://twitter.com/wagmidotfund

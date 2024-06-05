@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: layerswap
 display_name: Layerswap
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0xb9228e60fb71ab886950ecbc196d0dec58ff8e11"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: layerswap
 websites:
   - url: https://layerswap.io
 description: Fast and reliable crypto transfers across networks
+social:
+  twitter:
+    - url: https://twitter.com/layerswap

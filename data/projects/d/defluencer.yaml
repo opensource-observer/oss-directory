@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: defluencer
 display_name: Prolly Trees in Rust
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x687844114ccc819c4262ca8ca21c27e62e44e878"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: defluencermedia
 websites:
   - url: https://social.defluencer.eth.limo
 description: Decentralized social media protocol
+social:
+  twitter:
+    - url: https://twitter.com/defluencermedia

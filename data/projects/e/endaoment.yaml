@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: endaoment
 display_name: Endaoment
 github:
@@ -6,21 +6,19 @@ github:
 blockchain:
   - address: "0x2987f4271db74625b2716d444327b9a4f47ff2b3"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x51a2813aae4e763be93a18d45dd06c5a1803de86"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xe095827db80cbb716d79823a3c4964f18d48a6bc"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -46,13 +44,14 @@ blockchain:
     name: Registry
   - address: "0xa41406f86cc65063c25021422e2ee8e93e680b4c"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: admin.ndao.eth
-twitter: endaomentdotorg
 websites:
   - url: https://endaoment.org
 description: Smart Contract Donor-Advised Funds
+social:
+  twitter:
+    - url: https://twitter.com/endaomentdotorg

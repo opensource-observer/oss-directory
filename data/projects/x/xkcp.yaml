@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: xkcp
 display_name: Keccak hashing
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x399aa07a970ea3711d002566cafdbe021f9dd0e8"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

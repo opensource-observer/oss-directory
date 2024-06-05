@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: voteagora
 display_name: Agora
 github:
@@ -20,10 +20,12 @@ blockchain:
       - wallet
   - address: "0x0e2cd794602152772a19c5eb7bf221ccafdabd9d"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: nounsagora
 websites:
   - url: https://www.nounsagora.com/
+social:
+  twitter:
+    - url: https://twitter.com/nounsagora

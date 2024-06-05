@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: forta-network
 display_name: Forta Network
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x516d34d147dda218cbec1eada374ca2cec1a6e93"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

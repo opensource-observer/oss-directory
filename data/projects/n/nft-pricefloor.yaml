@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: nft-pricefloor
 display_name: NFT-PriceFloor
 github:
@@ -6,13 +6,14 @@ github:
 blockchain:
   - address: "0x31856e11ddaabc67e3b7b5de50dd0efce86e361e"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: nftpricefloor
 websites:
   - url: https://nftpricefloor.com/
-description: NFT data aggregation dashboard. We are the data curation layer of the NFT ecosystem, we track price floors, volume, and much more.
+description: NFT data aggregation dashboard. We are the data curation layer of
+  the NFT ecosystem, we track price floors, volume, and much more.
+social:
+  twitter:
+    - url: https://twitter.com/nftpricefloor

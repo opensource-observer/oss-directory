@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: honest-work-dao
 display_name: HonestWork
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xc370b50ec6101781ed1f1690a00bf91cd27d77c4"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

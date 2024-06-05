@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: dataverse-os
 display_name: DataverseOS
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x2d1036d679f3cdca0ea86bb0e29540d52346cbc9"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: DataverseOS
 websites:
   - url: https://dataverse-os.com
 description: Internet Data Operating System built for personal world computer
+social:
+  twitter:
+    - url: https://twitter.com/DataverseOS

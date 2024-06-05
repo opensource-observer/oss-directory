@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: tradao-xyz
 display_name: Tradao
 github:
@@ -12,12 +12,12 @@ blockchain:
       - wallet
   - address: "0x53e0819372f5fd5eb1650884ebdeb61b0183ec78"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: Tradaoperp
 websites:
   - url: https://tradao.xyz
+social:
+  twitter:
+    - url: https://twitter.com/Tradaoperp

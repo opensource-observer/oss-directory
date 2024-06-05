@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: erigon-ledgerwatch
 display_name: Erigon
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x9d20893054afc4a74b856089c44f9a09d1c38db0"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

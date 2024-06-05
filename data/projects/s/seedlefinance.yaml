@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: seedlefinance
 display_name: Seedle
 github:
@@ -12,10 +12,12 @@ blockchain:
       - wallet
   - address: "0x764c676feacb0766d43f7f66287ca63cae7a6a64"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: SeedleFinance
 websites:
   - url: https://seedle.finance
+social:
+  twitter:
+    - url: https://twitter.com/SeedleFinance

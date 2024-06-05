@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: onchainmonopoly
 display_name: OnChainMonopoly
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xee98d3e1907999b63d755c8f50977d29b01ef8c2"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: superfluid
 display_name: Superfluid
 github:
@@ -6,36 +6,31 @@ github:
 blockchain:
   - address: "0xd15d5d0f5b1b56a4daef75cfe108cb825e97d015"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xd82fbd545f8205f67006309773b2e065c6764ee5"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x83a15cb9781458b421ad11def469586242cd06cb"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x8b1727d9322e7bb82e87018f0a4f0d60a3d0866d"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xcd6596071e9cb8fc358796f2839a5704496795f9"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -69,7 +64,7 @@ blockchain:
     name: unverified
   - address: "0x0fb7694c990cf19001127391dbe53924dd7a61c7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -118,21 +113,21 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x0c6d90a98426bfd572a5c5be572a7f6bd1c5ed76"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x5735c32c38f5af0fb04a7c77c832ba4d7abffec8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x95b9f4a244dba7aaadb8f7c837ee681811b9e73d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -151,14 +146,14 @@ blockchain:
     name: Superfluid
   - address: "0xf06a4a23a0b1cf436cf0f1c0af8ed20380f01d0b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x554a8acef6c689a74b25b1c41f58fa2e678162b5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -195,21 +190,21 @@ blockchain:
     name: InstantDistributionAgreementV1
   - address: "0x5487d078ca8933e83d91d5e7afbe3a7bfc3412d6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x609b9d9d6ee9c3200745a79b9d3398dbd63d509f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: Resolver
   - address: "0xfbe332e001d6b54e1f4b63c2343b8e7746d99ece"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -228,14 +223,14 @@ blockchain:
     name: unverified
   - address: "0xf04f2c525819691ed9abd3d2b7109e1633795e68"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x6c66e5c5d201a753ff497f2e9ec5d545631854d0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -248,14 +243,14 @@ blockchain:
     name: unverified
   - address: "0xcc09225a656a08b5333bab909362bda32f8d79a2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x36f91179551fb2516e242c527c2552c2f14b2cf8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -268,14 +263,14 @@ blockchain:
     name: InstantDistributionAgreementV1
   - address: "0x72e92c548fbc7066a108f641715850bc94dd4931"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x1eece78f76843001039f5f4de41d68ec9a80a1f7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -288,7 +283,7 @@ blockchain:
     name: SuperTokenFactory
   - address: "0xdf3f4b9e4e67a21c868d043a92ae921ff0ebadbb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -307,7 +302,7 @@ blockchain:
     name: UUPSProxy
   - address: "0x04515b6c0bf314efbdedece646432357deb3cbb7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -326,7 +321,7 @@ blockchain:
     name: InstantDistributionAgreementV1
   - address: "0xe3cf7619448415e857fbc76fa806a0eccbad1274"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -351,7 +346,7 @@ blockchain:
     name: Superfluid
   - address: "0xbf7bcce8d60a9c3f6bfaec9346aa85b9f781a4e9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -371,7 +366,7 @@ blockchain:
     name: UUPSProxy
   - address: "0xd0de1486f69495d49c02d8f541b7dadf9cf5cd91"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -391,7 +386,7 @@ blockchain:
     name: SuperTokenFactory
   - address: "0x507c3a7c6ccc253884a2e3a3ee2a211cc7e796a6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -416,7 +411,7 @@ blockchain:
     name: Superfluid
   - address: "0x5bb5908dccc9bb0fc39a78cfdf9e47b4c08e9521"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -442,7 +437,7 @@ blockchain:
     name: unverified
   - address: "0x463a5fdc1991242a70df90bc7afd89a8dd53586c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -462,7 +457,7 @@ blockchain:
     name: unverified
   - address: "0x74b57883f8ce9f2bd330286e884cfd8bb24ac4ed"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -488,7 +483,7 @@ blockchain:
     name: UUPSProxy
   - address: "0x9b815f3b8a0ce0ced76bb652f4b9e9a473d1dd04"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -514,7 +509,7 @@ blockchain:
     name: Superfluid
   - address: "0xdf2f3a7e116575478b72a7a4cc80c219ece4ca5b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -527,7 +522,7 @@ blockchain:
     name: unverified
   - address: "0xf21019b8688e7730ca6d9002569ecbaf8d1a3083"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -594,7 +589,7 @@ blockchain:
     name: Superfluid
   - address: "0x18f9e9c72c8dd094792446c2a195ed6843c5ec2e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -613,14 +608,14 @@ blockchain:
     name: Superfluid
   - address: "0x30a6933ca9230361972e413a15dc8114c952414e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xbe49ac1eadac65dccf204d4df81d650b50122ab2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -639,7 +634,7 @@ blockchain:
     name: Resolver
   - address: "0xadcf0ac9f2aa04a79fc64a1fdf0a0c9f3ae0556a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -652,7 +647,7 @@ blockchain:
     name: Superfluid
   - address: "0xcfa132e353cb4e398080b9700609bb008eceb125"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -666,7 +661,7 @@ blockchain:
     name: unverified
   - address: "0x36df169dbf5ce3c6f58d46f0addef58f01381232"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -685,21 +680,21 @@ blockchain:
     name: SuperfluidGovernanceII
   - address: "0xc8dcf0cbb0f02475ebadabe7daebc5b8b6b81f57"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x42b709822f18595443c308c1be5e63cbfef06481"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xf353978890204756fc5fa6dfbd16a91eac9e6f4d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -772,12 +767,13 @@ blockchain:
     name: ExistentialNFTCloneFactory
   - address: "0x719cf569ffc5c09625b2b5c68a1078f73c6a1a6f"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: Superfluid_HQ
 websites:
   - url: https://www.superfluid.finance/
 description: Rails for realtime finance
+social:
+  twitter:
+    - url: https://twitter.com/Superfluid_HQ

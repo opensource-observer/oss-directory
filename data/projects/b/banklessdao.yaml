@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: banklessdao
 display_name: Bankless DAO
 github:
@@ -12,52 +12,52 @@ blockchain:
       - wallet
   - address: "0xe1887ff140bfa9d3b45d0b2077b7471124acd242"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: banklessacademy.eth
   - address: "0xe3a9ad8a2b39ff6983f1582abd26c06afa6cce96"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x918ceb96deeaba2db06b18d7fc8f52fe0a206040"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x4b785041d6a705d41f7578b13f93a7e315d2f8ff"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - deployer
   - address: "0xf80cd14ec747b2adf7b1a9911b38c65a885daeea"
     networks:
       - mainnet
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - safe
       - wallet
   - address: "0xf26d1bb347a59f6c283c53156519cc1b1abaca51"
     networks:
       - mainnet
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - safe
       - wallet
   - address: "0x03fa0b1fd97014de62c4dc22120f92b71f7ee9d8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - safe
       - wallet
-twitter: banklessDAO
 websites:
   - url: https://www.bankless.community/
 description: Go bankless
+social:
+  twitter:
+    - url: https://twitter.com/banklessDAO

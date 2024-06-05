@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: internet-archive
 display_name: Internet Archive
 github:
@@ -6,18 +6,20 @@ github:
 blockchain:
   - address: "0xc1b36d18642f0ff4b6be1c64d67e5f275114b7fe"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x1dd8ec683e8b53c57ba5a01c5d2f866a3fbd3ce8"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: internetarchive
 websites:
   - url: https://archive.org/
-description: The Internet Archive is "the library of the Internet", and a big supporter of Free Software.
+description: The Internet Archive is "the library of the Internet", and a big
+  supporter of Free Software.
+social:
+  twitter:
+    - url: https://twitter.com/internetarchive

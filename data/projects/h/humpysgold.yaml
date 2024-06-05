@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: humpysgold
 display_name: HumpysGold
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x82fe5244335d3d91bf2241199a116aaf97102d3b"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

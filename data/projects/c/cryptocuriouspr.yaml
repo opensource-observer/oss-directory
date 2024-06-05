@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: cryptocuriouspr
 display_name: CryptoCurious- Puerto Rico Blockchain Trade Association
 github:
@@ -6,8 +6,10 @@ github:
 blockchain:
   - address: "0xadab78f71290b469dbae5fc4ff5e937ad5b800b3"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: cryptocuriouspr
+social:
+  twitter:
+    - url: https://twitter.com/cryptocuriouspr

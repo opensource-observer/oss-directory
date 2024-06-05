@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: rentfun
 display_name: RentFun
 github:
@@ -6,13 +6,13 @@ github:
 blockchain:
   - address: "0xa7debb68f2684074ec4354b68e36c34af363fd57"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: rentfun_io
 websites:
   - url: https://rentfun.io
 description: Liquidity for NFT Utility
+social:
+  twitter:
+    - url: https://twitter.com/rentfun_io

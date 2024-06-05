@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: bloomnetwork
 display_name: Bloom Network
 github:
@@ -13,12 +13,13 @@ blockchain:
       - wallet
   - address: "0x5219ffb88175588510e9752a1ecaa3cd217ca783"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: ourbloomnetwork
 websites:
   - url: http://bloomnetwork.earth
 description: Our codebase is now maintained on Gitlab.
+social:
+  twitter:
+    - url: https://twitter.com/ourbloomnetwork

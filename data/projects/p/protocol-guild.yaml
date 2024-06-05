@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: protocol-guild
 display_name: Protocol Guild
 description: A collective of Ethereum"s active core protocol contributors.
@@ -20,16 +20,13 @@ blockchain:
       - wallet
   - address: "0x0b916095200313900104bacfc288462682c38700"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xf29ff96aaea6c9a1fba851f74737f3c069d4f1a9"
     networks:
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

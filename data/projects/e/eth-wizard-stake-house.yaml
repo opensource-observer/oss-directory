@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: eth-wizard-stake-house
 display_name: "eth-wizard: An Ethereum validator installation wizard"
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xdbb16c68aa373229db9f37d85087264361691ab9"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

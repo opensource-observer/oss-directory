@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: digital-asset-solutions
 display_name: Digital-Asset-Solutions
 github:
@@ -6,17 +6,13 @@ github:
 blockchain:
   - address: "0x6fac2bcca1f5397bf2bc96aa4ae8f35728882761"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x31304ccdd28e62ef552824db08a350d752068c39"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

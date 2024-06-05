@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: newzchain
 display_name: Newzchain
 github:
@@ -6,12 +6,14 @@ github:
 blockchain:
   - address: "0x16ca53cb1c624228ae26d9be3850b755616ec538"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: NewzchainHQ
 websites:
   - url: https://newzchain.com/
-description: Empowering Startups to Thrive, Connect, and Flourish. Developing a Blockchain-powered platform for startups!
+description: Empowering Startups to Thrive, Connect, and Flourish. Developing a
+  Blockchain-powered platform for startups!
+social:
+  twitter:
+    - url: https://twitter.com/NewzchainHQ

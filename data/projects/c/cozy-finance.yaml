@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: cozy-finance
 display_name: Cozy Finance
 github:
@@ -6,13 +6,13 @@ github:
 blockchain:
   - address: "0x6b8a8035601da0c9d31c5fc11fa66aae485654fc"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x682bd405073dd248527e40184898ed45bb827527"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -2888,6 +2888,8 @@ blockchain:
     tags:
       - contract
     name: unverified
-twitter: CozyFinance
 websites:
   - url: https://cozy.finance
+social:
+  twitter:
+    - url: https://twitter.com/CozyFinance

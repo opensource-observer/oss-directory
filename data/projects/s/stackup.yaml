@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: stackup
 display_name: Stackup
 github:
@@ -6,16 +6,13 @@ github:
 blockchain:
   - address: "0x8cf905c50f25a481171e7f5936625754d44a9537"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x433704c40f80cbff02e86fd36bc8bac5e31eb0c1"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -39,7 +36,9 @@ blockchain:
     tags:
       - contract
     name: VerifyingPaymaster
-twitter: stackup_fi
 websites:
   - url: https://stackup.sh/
 description: Accounts infrastructure for web3.
+social:
+  twitter:
+    - url: https://twitter.com/stackup_fi

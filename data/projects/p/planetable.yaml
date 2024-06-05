@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: planetable
 display_name: Planetable
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x18deee9699526f8c8a87004b2e4e55029fb26b9a"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

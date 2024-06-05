@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: vself-project
 display_name: vself-project
 github:
@@ -6,12 +6,13 @@ github:
 blockchain:
   - address: "0x3ebf3662d02872f24c3a96fc667666229a20a343"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: vself_meta
 websites:
   - url: https://vself.app
 description: vSelf is Web3 platform for growth hacking and community engagement
+social:
+  twitter:
+    - url: https://twitter.com/vself_meta

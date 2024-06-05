@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: zkvrf
 display_name: zkvrf
 github:
@@ -6,9 +6,11 @@ github:
 blockchain:
   - address: "0x5771f698f2cd16d25674327999d11420386a4dd8"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: zkvrf
 description: Verifiable random function enabled by ZKP
+social:
+  twitter:
+    - url: https://twitter.com/zkvrf

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: troopfinance
 display_name: TroopFinance
 github:
@@ -12,19 +12,18 @@ blockchain:
       - wallet
   - address: "0x84e1056ed1b76fb03b43e924ef98833dba394b2b"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x3102b41f4b028dbd5ab2908c29541e15d5ddfff8"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: gmTroops
 websites:
   - url: https://troo.ps
+social:
+  twitter:
+    - url: https://twitter.com/gmTroops

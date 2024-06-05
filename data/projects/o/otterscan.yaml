@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: otterscan
 display_name: Otterscan
 github:
@@ -6,18 +6,18 @@ github:
 blockchain:
   - address: "0xb7081fd06e7039d198d10a8b72b824e60c1b1e16"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x43a0744e8a1a63c481aadd5cea12833d6976f851"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: otterscan
 websites:
   - url: https://otterscan.io/
+social:
+  twitter:
+    - url: https://twitter.com/otterscan

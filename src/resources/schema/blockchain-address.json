@@ -29,21 +29,22 @@
       "minItems": 1,
       "items": {
         "enum": [
-          "arbitrum-one",
+          "any_evm",
+          "arbitrum_one",
           "base",
           "frax",
+          "linea",
           "mainnet",
+          "mantle",
           "matic",
           "metal",
           "mode",
           "optimism",
           "pgn",
-          "zora",
-          "linea",
-          "zksync-era",
-          "polygon-zkevm",
+          "polygon_zkevm",
           "scroll",
-          "mantle"
+          "zksync_era",
+          "zora"
         ]
       }
     },

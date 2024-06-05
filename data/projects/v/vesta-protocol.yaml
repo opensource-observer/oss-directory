@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: vesta-protocol
 display_name: Vesta Protocol
 github:
@@ -6,165 +6,164 @@ github:
 blockchain:
   - address: "0x15ad39c4e5aff2d6ad278b3d335f48fdfb91e6fb"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x87209dc4b76b14b67bc5e5e5c0737e7d002a219c"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x2ba039c16b75c93e6ff33db12accd97d1f7fd0e0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: AdminContract
   - address: "0x3eedf348919d130954929d4ff62d626f26adbfa2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BorrowerOperations
   - address: "0xb9b8f95568d5a305c6d70d10cc1361d9df3e9f9a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VestaGMXStaking
   - address: "0x5f51b0a5e940a3a20502b5f59511b13788ec6ddb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VestaParameters
   - address: "0xefd767f55534b09617150434d9e35bff4b1c96b0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VestingVesta
   - address: "0xbe3de7fb9aa09b3fa931868fb49d5ba5fee2ebb1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ActivePool
   - address: "0x996b43aadd750371ff81cb1100f7dcb6d3321247"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DefaultPool
   - address: "0x6c7511f378867225fafea0cc8e862bd344d5d1b0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavingModule
   - address: "0x3282dfaf0fbba4d3e771c4e5f669cb4e14d8adb0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x62842cedfe0f7d203fc4cfd086a6649412d904b5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SortedTroves
   - address: "0x64343594ab9b56e99087bfa6f2335db24c2d1f17"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VSTToken
   - address: "0x78d46cecf0ae4757f430d95b2d7eaa18d7087872"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x626420ae6986a4941df830f57775aa7df4aac9d3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: CommunityIssuance
   - address: "0x65207da01293c692a37f59d1d9b1624f0f21177c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VestaFarming
   - address: "0x8aa2e4b1e9a626954b183966eb6665543c03f386"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StabilityPoolManager
   - address: "0x64ca46508ad4559e1fd94b3cf48f3164b4a77e42"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x6008301e94658384bdccee1837265fae4df8b8e8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StabilityPool
   - address: "0x100ec08129e0fd59959df93a8b914944a3bbd5df"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TroveManager
   - address: "0x057fdd5cd208daa715393982aaf7508350104b04"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: CollSurplusPool
   - address: "0x0b1be49dcb62d6cbc27e510361e910a8a30f37a9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xf9b46bff75d185a8ffbf74072dc9c698e1ec6851"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: HintHelpers
   - address: "0x135043dd73c851787ee6bb257c8e8db471bef5f7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MultiTroveGetter
   - address: "0xa684cd057951541187f288294a1e1c2646aa2d24"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VSTAToken
   - address: "0x6e53d20d674c27b858a005cf4a72cfaaf4434ecb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xd218ba424a6166e37a454f8ece2bf8eb2264ecca"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PriceFeedV2

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: basepunkorg
 display_name: Base Punk
 github:
@@ -8,11 +8,13 @@ github:
 blockchain:
   - address: "0x919364818153ef009d6ad6ef9644066b24fa2f04"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: Punkonbase
 websites:
   - url: https://basepunk.xyz
 description: NFT collection on base
+social:
+  twitter:
+    - url: https://twitter.com/Punkonbase

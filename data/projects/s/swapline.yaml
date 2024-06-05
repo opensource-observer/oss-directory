@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: swapline
 display_name: Swapline
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xded212b8bab662b98f49e757cbb409bb7808dc10"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -64,7 +63,7 @@ blockchain:
     name: OracleVault
   - address: "0x5a5c0c4832828ff878ce3ab4fec44d21200b1496"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -113,7 +112,7 @@ blockchain:
     name: ProxyAdmin
   - address: "0x0e221e65f85336db137b22596c5c5c259a629d15"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -150,7 +149,7 @@ blockchain:
     name: Strategy
   - address: "0x25b320a7c69e66515d7f6c044ec9af49fa1588bb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -193,12 +192,14 @@ blockchain:
     name: unverified
   - address: "0xee0616a2deaa5331e2047bc61e0b588195a49cea"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
-twitter: SwaplineDEX
 websites:
   - url: https://swapline.com
 description: Use the Power of Liquidity Book!
+social:
+  twitter:
+    - url: https://twitter.com/SwaplineDEX

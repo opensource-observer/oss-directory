@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: moss-drive
 display_name: moss-drive
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x16bb8ce90da02575f56f31980f8e8a6e2126ea13"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

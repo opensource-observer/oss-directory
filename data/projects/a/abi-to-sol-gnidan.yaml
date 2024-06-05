@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: abi-to-sol-gnidan
 display_name: abi-to-sol
 github:
@@ -6,9 +6,11 @@ github:
 blockchain:
   - address: "0xefef50ebacd8da3c13932ac204361b704eb8292c"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: gnidan.eth
-twitter: gnidan
+social:
+  twitter:
+    - url: https://twitter.com/gnidan

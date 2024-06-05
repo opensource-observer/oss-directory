@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: heavenstoolsllc
 display_name: HeavensToolsLLC
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0xa74fc66e75f883ee8e60e287335436ca8e6a303c"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

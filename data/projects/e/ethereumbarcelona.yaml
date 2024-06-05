@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: ethereumbarcelona
 display_name: ETHBarcelona
 github:
@@ -7,7 +7,7 @@ github:
 blockchain:
   - address: "0xb605745f67e8027ffe2df603b67529421c717ee8"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

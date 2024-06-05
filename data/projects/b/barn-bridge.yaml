@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: barn-bridge
 display_name: BarnBridge
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x558ef269bcc4cc9f2e14e3f4301231fbeb85d95f"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -55,7 +53,7 @@ blockchain:
     name: EpochAdvancer
   - address: "0x676c7d48ebd00735e082b0f1d11762c3ff305072"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -74,7 +72,7 @@ blockchain:
     name: SmartAlphaLoupe
   - address: "0x045a3438a37de5b68c9e4ed5ea26c49cce1b5f5a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -87,7 +85,7 @@ blockchain:
     name: EpochAdvancer
   - address: "0x4b8998c34810c80b5038f5928fb3a633ccbf6abb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -98,7 +96,9 @@ blockchain:
     tags:
       - contract
     name: EpochAdvancer
-twitter: barn_bridge
 websites:
   - url: https://www.BarnBridge.com
 description: Tokenized Risk Protocol | Smart Bonds on Ethereum
+social:
+  twitter:
+    - url: https://twitter.com/barn_bridge

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: iberoam
 display_name: IberoAM
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x1e91264736008082bf63b6c20d36a93a329083d8"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

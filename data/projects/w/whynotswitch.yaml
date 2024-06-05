@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: whynotswitch
 display_name: Switch Electric
 github:
@@ -6,11 +6,14 @@ github:
 blockchain:
   - address: "0x5e1b920d26abbed943b4e0f91b3ad373e7519b41"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: WhyNotSwitch
 websites:
   - url: https://www.WhyNotSwitch.com
-description: Introducing the first smart metering service designed specifically for decentralized energy projects
+description: Introducing the first smart metering service designed specifically
+  for decentralized energy projects
+social:
+  twitter:
+    - url: https://twitter.com/WhyNotSwitch

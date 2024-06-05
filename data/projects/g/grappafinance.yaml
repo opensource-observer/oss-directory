@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: grappafinance
 display_name: Grappa Finance
 github:
@@ -6,10 +6,12 @@ github:
 blockchain:
   - address: "0xaf92caaeea48bbd5486f756e4403e392e33503fe"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: grappafinance
 websites:
   - url: https://grappa.finance
+social:
+  twitter:
+    - url: https://twitter.com/grappafinance

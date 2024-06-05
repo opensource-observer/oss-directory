@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: zaratandotworld
 display_name: Zaratan
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xa2e6ac0fc55c5e16d00cf302aa54ba4423253d21"
     networks:
-      - mainnet
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

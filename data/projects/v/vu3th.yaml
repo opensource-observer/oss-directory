@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: vu3th
 display_name: VueDapp
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x9d75f4ebcb8e7669e59dcc27cbadc698e0f77187"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

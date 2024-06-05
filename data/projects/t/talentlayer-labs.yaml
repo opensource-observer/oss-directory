@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: talentlayer-labs
 display_name: TalentLayer
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x5e5c70b176e8d9239d2a8e759fac6a22719d4d1d"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

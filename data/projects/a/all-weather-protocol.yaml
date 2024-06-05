@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: all-weather-protocol
 display_name: all-weather-protocol
 github:
@@ -6,12 +6,12 @@ github:
 blockchain:
   - address: "0x78000b0605e81ea9df54b33f72ebc61b5f5c8077"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: all_weather_p
 websites:
   - url: https://all-weather-protocol.on.fleek.co/
+social:
+  twitter:
+    - url: https://twitter.com/all_weather_p

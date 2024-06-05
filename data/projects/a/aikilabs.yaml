@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: aikilabs
 display_name: Aiki Labs
 github:
@@ -12,8 +12,7 @@ blockchain:
       - wallet
   - address: "0x2e2316088c015f4bf27d86a1458a707af536a324"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

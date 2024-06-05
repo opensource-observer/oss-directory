@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: dappreader
 display_name: DappReader
 github:
@@ -6,8 +6,10 @@ github:
 blockchain:
   - address: "0x9a472fe48d2947c60d919220bb7ea1a063e17fc1"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: dappreader
+social:
+  twitter:
+    - url: https://twitter.com/dappreader

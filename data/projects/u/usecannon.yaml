@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: usecannon
 display_name: Cannon
 github:
@@ -10,8 +10,7 @@ npm:
 blockchain:
   - address: "0x07aeeb7e544a070a2553e142828fb30c214a1f86"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

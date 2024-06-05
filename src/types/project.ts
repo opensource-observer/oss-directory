@@ -13,11 +13,11 @@ export interface Project {
   name: string;
   display_name: string;
   description?: string;
-  twitter?: string;
   websites?: URL[];
   github?: URL[];
   npm?: URL[];
   blockchain?: BlockchainAddress[];
+  social?: SocialProfile;
   [k: string]: unknown;
 }
 /**
@@ -62,40 +62,51 @@ export interface BlockchainAddress {
    */
   networks: [
     (
-      | "arbitrum-one"
+      | "any_evm"
+      | "arbitrum_one"
       | "base"
       | "frax"
+      | "linea"
       | "mainnet"
+      | "mantle"
       | "matic"
       | "metal"
       | "mode"
       | "optimism"
       | "pgn"
-      | "zora"
-      | "linea"
-      | "zksync-era"
-      | "polygon-zkevm"
+      | "polygon_zkevm"
       | "scroll"
-      | "mantle"
+      | "zksync_era"
+      | "zora"
     ),
     ...(
-      | "arbitrum-one"
+      | "any_evm"
+      | "arbitrum_one"
       | "base"
       | "frax"
+      | "linea"
       | "mainnet"
+      | "mantle"
       | "matic"
       | "metal"
       | "mode"
       | "optimism"
       | "pgn"
-      | "zora"
-      | "linea"
-      | "zksync-era"
-      | "polygon-zkevm"
+      | "polygon_zkevm"
       | "scroll"
-      | "mantle"
+      | "zksync_era"
+      | "zora"
     )[],
   ];
   name?: string;
+  [k: string]: unknown;
+}
+/**
+ * All social profile
+ */
+export interface SocialProfile {
+  medium?: URL[];
+  twitter?: URL[];
+  telegram?: URL[];
   [k: string]: unknown;
 }

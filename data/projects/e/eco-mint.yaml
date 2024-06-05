@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: eco-mint
 display_name: EcoMint
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x3460bf837b6741035d20ea2d894a4423a859af12"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: theecomint
 websites:
   - url: https://ecomint.org
 description: Investing In Natural Work
+social:
+  twitter:
+    - url: https://twitter.com/theecomint

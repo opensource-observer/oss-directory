@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: mevboost-pics-nerolation
 display_name: mevboost.pics
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x87d810397d22fb99213f008da9cc9ed54366fbd2"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: nero_eth
 websites:
   - url: https://toniwahrstaetter.com/
 description: Ethereum Researcher
+social:
+  twitter:
+    - url: https://twitter.com/nero_eth

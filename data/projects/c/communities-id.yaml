@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: communities-id
 display_name: communities-id
 github:
@@ -6,12 +6,14 @@ github:
 blockchain:
   - address: "0x1e6a198c5f4676d986a40b9889d29c0424101fb9"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: CommunitiesID
 websites:
   - url: https://www.communities.id/
-description: Communities ID is the first Decentralized Identity as a Service (DaaS) platform for Crypto communities.
+description: Communities ID is the first Decentralized Identity as a Service
+  (DaaS) platform for Crypto communities.
+social:
+  twitter:
+    - url: https://twitter.com/CommunitiesID

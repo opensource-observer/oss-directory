@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: rantomdotapp
 display_name: rantomdotapp
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x254b42cacf7290e72e2c84c0337e36e645784ce1"
     networks:
-      - mainnet
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

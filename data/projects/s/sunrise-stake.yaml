@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: sunrise-stake
 display_name: sunrise-stake
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x43fa25b52f64d2de6fc62f9ac92f1b96a3c4096e"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: sunrisestake
 websites:
   - url: https://www.sunrisestake.com/
 description: Climate-Positive Staking on Solana
+social:
+  twitter:
+    - url: https://twitter.com/sunrisestake

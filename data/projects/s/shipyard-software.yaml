@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: shipyard-software
 display_name: Clipper (Shipyard Software & Admiral DAO)
 github:
@@ -7,48 +7,43 @@ github:
 blockchain:
   - address: "0x6eb3783165e3e9bf6f3b463524738a2147be08ff"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x48cff7ff77b2bf83e4a6f843b5b1709601671e83"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xb9f8e55ac4353e0edd65f11b4a4384a718e78189"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xb48bc8fbb6283740389ef69eac58fbee07d42f1a"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xa12b36b31eab47bdc9fc5346d2dbbc0d360b6a75"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x3d5a771e690af1bbd854df638ed945baf1066ed0"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x4f350ba97d9e4bd9713763126a907960949c8101"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -96,7 +91,7 @@ blockchain:
     name: VestingMerkleDistributor
   - address: "0x154b08ca083bab868f8794e8b517ea0fdd92d6e5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -110,33 +105,33 @@ blockchain:
     name: ClipperPermitRouter
   - address: "0x9e233dd6a90678baacd89c05ce5c48f43fcc106e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xb873921b1add94ea47bf983b060ce812e97873df"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ClipperCove_v2
   - address: "0xe7b0ce0526fbe3969035a145c9e9691d4d9d216c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x4c16dd6e9b402ea4fb5be647be2f49e3d59bb08a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPTransfer_v2
   - address: "0x769728b5298445ba2828c0f3f5384227fbf590c5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

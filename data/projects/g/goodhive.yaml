@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: goodhive
 display_name: GoodHive
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x92ed8f6a9211f9eb0f16c83a052e75099b7bf4a5"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

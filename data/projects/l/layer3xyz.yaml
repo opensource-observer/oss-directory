@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: layer3xyz
 display_name: Layer3
 github:
@@ -9,14 +9,12 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - optimism
-      - mainnet
-      - arbitrum-one
+      - any_evm
   - address: "0x1195Cf65f83B3A5768F3C496D3A05AD6412c64B7"
     networks:
       - optimism
       - mainnet
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - proxy
@@ -25,11 +23,14 @@ blockchain:
     networks:
       - optimism
       - mainnet
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
-twitter: layer3xyz
 websites:
   - url: https://layer3.xyz
-description: Scaling crypto through advanced onchain experiences, digital identity, and smart-contract based infrastructure.
+description: Scaling crypto through advanced onchain experiences, digital
+  identity, and smart-contract based infrastructure.
+social:
+  twitter:
+    - url: https://twitter.com/layer3xyz

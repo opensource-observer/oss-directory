@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: datonic
 display_name: datonic & Gitcoin Grants Data Portal
 github:
@@ -7,13 +7,14 @@ github:
 blockchain:
   - address: "0xb9ecee9a0e273d8a1857f3b8eea30e5dd3cb6335"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: kalendium.eth
-twitter: datonic_io
 websites:
   - url: https://datonic.io
 description: The best place for communities to collaborate on open data
+social:
+  twitter:
+    - url: https://twitter.com/datonic_io

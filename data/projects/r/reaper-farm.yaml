@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: reaper-farm
 display_name: Reaper Farm
 github:
@@ -6,27 +6,25 @@ github:
 blockchain:
   - address: "0x1e71aee6081f62053123140aacc7a06021d77348"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x6539519e69343535a2af6583d9bae3ad74c6a293"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x4c3490df15edfa178333445ce568ec6d99b5d71c"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x3b410908e71ee04e7de2a87f8f9003afe6c1c7ce"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -845,7 +843,7 @@ blockchain:
     name: ReaperVaultv1_4
   - address: "0x56fd6d268334741c7d56464dd5b01f6132972818"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2674,7 +2672,9 @@ blockchain:
     tags:
       - contract
     name: ERC1967Proxy
-twitter: ByteMasons
 websites:
   - url: https://bytemasons.com
 description: Engineering efficient, open, and transparent decentralized financial systems.
+social:
+  twitter:
+    - url: https://twitter.com/ByteMasons

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: topianetwork
 display_name: Topia Network
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x934d46ae4ae4b131bfa095ca971a8cbcd3b30ea8"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

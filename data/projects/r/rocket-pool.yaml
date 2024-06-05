@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: rocket-pool
 display_name: Rocket Pool
 github:
@@ -12,12 +12,13 @@ blockchain:
       - wallet
   - address: "0x76ef4b28df1f590db4cd680675d734c27caa32ba"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
-twitter: Rocket_Pool
 websites:
   - url: https://rocketpool.net
 description: Rocket Pool - Decentralised Ethereum Proof of Stake Protocol
+social:
+  twitter:
+    - url: https://twitter.com/Rocket_Pool

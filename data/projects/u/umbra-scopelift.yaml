@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: umbra-scopelift
 display_name: Umbra (by ScopeLift)
 github:
@@ -7,15 +7,13 @@ github:
 blockchain:
   - address: "0x5777aa6f437399af6cef2fce0be8d4b4ed7c7232"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xfb2dc580eed955b528407b4d36ffafe3da685401"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -23,13 +21,15 @@ blockchain:
     name: Umbra
   - address: "0x31fe56609c65cd0c510e7125f051d440424d38f3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
       - contract
     name: StealthKeyRegistry
-twitter: scopelift
 websites:
   - url: http://www.scopelift.co
 description: High Caliber Crypto
+social:
+  twitter:
+    - url: https://twitter.com/scopelift

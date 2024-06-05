@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: web3j
 display_name: Web3j
 github:
@@ -6,12 +6,13 @@ github:
 blockchain:
   - address: "0xe8a17e2f1bd4bfcbfbecb8a90be08780949a0cac"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: web3labs
 websites:
   - url: https://www.web3labs.com
 description: JVM language projects for working with Blockchains
+social:
+  twitter:
+    - url: https://twitter.com/web3labs

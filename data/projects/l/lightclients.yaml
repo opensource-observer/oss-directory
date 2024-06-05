@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: lightclients
 display_name: lightclients
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x1937d2fd3dafa2ca090682e37c037047d2f06c55"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

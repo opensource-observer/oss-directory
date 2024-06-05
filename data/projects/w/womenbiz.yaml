@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: womenbiz
 display_name: Women Biz - Optimism education
 github:
@@ -12,11 +12,13 @@ blockchain:
       - wallet
   - address: "0x0693401df5cbae158be6bbaddd69d52283a8076e"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: HiWomenbiz
 websites:
   - url: https://hiwomenbiz.com/
 description: Comunidad creada por mujeres para empoderar mujeres a través de la Web 3.0.
+social:
+  twitter:
+    - url: https://twitter.com/HiWomenbiz

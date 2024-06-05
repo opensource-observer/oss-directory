@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: slugs-protocol-bernatfp
 display_name: Slugs
 github:
@@ -12,11 +12,13 @@ blockchain:
     name: Slugs
   - address: "0x4db5ed285ae33cfd0d6a6ab9ec775f7350f55e6d"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: brnt
 websites:
   - url: https://bernat.xyz
 description: Always Be Creating
+social:
+  twitter:
+    - url: https://twitter.com/brnt

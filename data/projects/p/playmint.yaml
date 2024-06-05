@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: playmint
 display_name: Playmint
 github:
@@ -8,13 +8,13 @@ github:
 blockchain:
   - address: "0x484be269f871741805f78e9f1afffd25d72adcea"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xfe4aab053fed3cfbb7e5f6434e1585b4f17cc207"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

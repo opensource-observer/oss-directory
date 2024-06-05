@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: slice-analytics
 display_name: Slice Analytics
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x07c1e61874b6f706018fefd8489f554f3d3fca17"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: SliceAnalytics
 websites:
   - url: https://www.sliceanalytics.xyz/
 description: We make understanding the Blockchain simple
+social:
+  twitter:
+    - url: https://twitter.com/SliceAnalytics

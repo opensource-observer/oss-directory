@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: tarot-finance
 display_name: Tarot Finance
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x5b0390bccca1f040d8993eb6e4ce8ded93721765"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -49,7 +47,7 @@ blockchain:
     name: unverified
   - address: "0x54950cae3d8513ea041066f31697903de5909f57"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -178,7 +176,7 @@ blockchain:
     name: CDeployer
   - address: "0x19283dd283c31bf3920f7a530aa3a81a2792dc52"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -259,7 +257,7 @@ blockchain:
     name: Router02
   - address: "0x82b3413d575aa93806308a04b53c78ae2037da11"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -279,7 +277,7 @@ blockchain:
     name: TarotSolidlyPriceOracleV2
   - address: "0x3b47f0e57a6c537ecc198833728ccd5d02e29771"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -287,7 +285,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xd4a6a05081fd270dc111332845a778a49fe01741"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -312,7 +310,7 @@ blockchain:
     name: TarotMigrator
   - address: "0xc20099a3f0728634c1136489074508be7b406d3a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -320,7 +318,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xc5a39712229a109fee54fd2d1cb78f9a3151382a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -333,7 +331,7 @@ blockchain:
     name: unverified
   - address: "0x46fcde1b89d61f5cbfaab05c2914c367f8301f30"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -347,7 +345,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x2217aec3440e8fd6d49a118b1502e539f88dba55"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -372,7 +370,7 @@ blockchain:
     name: Factory
   - address: "0x6108feaa628155b073150f408d0b390ec3121834"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -427,7 +425,7 @@ blockchain:
     name: Factory
   - address: "0x36df0a76a124d8b2205fa11766ec2eff8ce38a35"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -441,7 +439,7 @@ blockchain:
     name: unverified
   - address: "0xa516b9c7378799799e6dfadbdabf45d5b584405f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -460,7 +458,7 @@ blockchain:
     name: Router02
   - address: "0x981bd9f77c8aafc14ebc86769503f86a3cc29af5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -479,7 +477,7 @@ blockchain:
     name: Factory
   - address: "0x13278cd824d33a7adb9f0a9a84aca7c0d2deebf7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TarotOFT
@@ -499,11 +497,12 @@ blockchain:
     name: Pool
   - address: "0x63d5554b748598c191ab0cbd0e0e1c638ffebee6"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: TarotFinance
 websites:
   - url: https://tarot.to
+social:
+  twitter:
+    - url: https://twitter.com/TarotFinance

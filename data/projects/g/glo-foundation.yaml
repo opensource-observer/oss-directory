@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: glo-foundation
 display_name: Glo Dollar
 github:
@@ -19,13 +19,15 @@ blockchain:
       - wallet
   - address: "0x1bbfc95b826693bf17665f36a66ac9c389b7e581"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: glodollar
 websites:
   - url: https://glodollar.org
-description: The Glo Foundations creates the Glo Dollar - a stablecoin to end extreme poverty. This account exists to point you to https://gitlab.com/global-income-coin
+description: The Glo Foundations creates the Glo Dollar - a stablecoin to end
+  extreme poverty. This account exists to point you to
+  https://gitlab.com/global-income-coin
+social:
+  twitter:
+    - url: https://twitter.com/glodollar

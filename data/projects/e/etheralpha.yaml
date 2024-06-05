@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: etheralpha
 display_name: Ether Alpha
 github:
@@ -6,14 +6,14 @@ github:
 blockchain:
   - address: "0x0194325bf525be0d4fbb0856894ced74da3b8356"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: hanniabu.eth
-twitter: etheralphateam
 websites:
   - url: https://etheralpha.org
 description: We develop open source tools and resources.
+social:
+  twitter:
+    - url: https://twitter.com/etheralphateam

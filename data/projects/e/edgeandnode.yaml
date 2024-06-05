@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: edgeandnode
 display_name: Edge & Node / The Graph
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x9e8b73b5563c9af1c35e5aad588b67b6a414576b"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

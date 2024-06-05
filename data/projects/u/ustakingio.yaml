@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: ustakingio
 display_name: uSTAKING
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xa386d5576860fbd516d2aff4da9743f41c8a17b8"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

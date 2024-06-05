@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: fusion-drum-n-bass
 display_name: Fusion - Open Source Web3 Icon Set
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xbadcddea250f1e317ba59999232464933c4e8d90"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: pika-protocol
 display_name: Pika Protocol
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x80898b704baa55e7e37f1128fc6ae5836661f54a"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -548,7 +546,7 @@ blockchain:
     name: VaultTokenReward
   - address: "0x365324e5045df8c886ebe6ad5449f5ceb5881a40"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1551,7 +1549,7 @@ blockchain:
     name: PikaStaking
   - address: "0x250e7ab9b5ea0e95bf68f9fbe2f4f9dc5c8af746"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1762,7 +1760,7 @@ blockchain:
     name: PositionRouter
   - address: "0x58488bb666d2da33f8e8938dbdd582d2481d4183"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2561,7 +2559,7 @@ blockchain:
     name: DummyPriceFeed
   - address: "0xa9cd2563c2cce7db8edbe7aacdb0393c68151a28"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

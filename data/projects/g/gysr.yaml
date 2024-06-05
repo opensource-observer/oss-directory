@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: gysr
 display_name: Gysr
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xa80481e3f9098602954b2e5cf306e6dee053ef3e"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -233,7 +232,9 @@ blockchain:
     tags:
       - contract
     name: unverified
-twitter: gysr_io
 websites:
   - url: https://gysr.io
 description: GYSR is an open platform for on-chain incentives
+social:
+  twitter:
+    - url: https://twitter.com/gysr_io

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: eth-infinitism-account-abstraction
 display_name: Infinitism (ERC-4337) - Account Abstraction
 github:
@@ -12,11 +12,14 @@ blockchain:
     name: EntryPoint
   - address: "0x6a957e69a251d37cfd1f538f18ec1416fbdfa501"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: infinitism8
 websites:
   - url: http://discord.gg/fbDyENb6Y9
-description: An infinite game is not played for winning, but for continuing the play — James Carse, Finite & Infinite Games 1986
+description: An infinite game is not played for winning, but for continuing the
+  play — James Carse, Finite & Infinite Games 1986
+social:
+  twitter:
+    - url: https://twitter.com/infinitism8

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: changeth
 display_name: Changeth
 github:
@@ -6,10 +6,11 @@ github:
 blockchain:
   - address: "0x501210ed988ba1e4ba4cb2f2e2122a2fdcacdecd"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: changeth_pgf
 description: Changeth brings privacy and Sybil-resistance to public petitions
+social:
+  twitter:
+    - url: https://twitter.com/changeth_pgf

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: social-dev-token
 display_name: Social-Dev-Token
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x48a0f98a7b4d6823d7ecdac87cce8672130fef17"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

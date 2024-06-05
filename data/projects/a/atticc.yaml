@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: atticc
 display_name: Atticc
 github:
@@ -6,12 +6,13 @@ github:
 blockchain:
   - address: "0x4bcdd74a35e028dae62cb1d48528e71843e2ac7d"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: atticc.eth
-twitter: atticc_xyz
 websites:
   - url: https://atticc.xyz
+social:
+  twitter:
+    - url: https://twitter.com/atticc_xyz

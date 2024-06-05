@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: unitapapp
 display_name: Unitap
 github:
@@ -13,9 +13,7 @@ blockchain:
       - wallet
   - address: "0x88888931fbe186c8f513a1289df2639096bf7518"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

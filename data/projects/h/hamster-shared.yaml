@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: hamster-shared
 display_name: Hamster
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x402118b500e37e9a948195fd55822fc393cb215f"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

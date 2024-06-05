@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: examp-llc
 display_name: Examp-LLC
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x0d538d6253eb5cebaef94a873a7d3df22d6f936c"
     networks:
-      - mainnet
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

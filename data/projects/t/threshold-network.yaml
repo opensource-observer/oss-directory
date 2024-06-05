@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: threshold-network
 display_name: Threshold Network
 github:
@@ -6,15 +6,13 @@ github:
 blockchain:
   - address: "0x123694886dbf5ac94dda07135349534536d14caf"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x41c9b5639e3f2f6c61e9b78b2c6ff3746e79d91a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -22,7 +20,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x6c84a8f1c29108f47a79964b5fe888d4f4d0de40"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -30,7 +28,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1293a54e160d1cd7075487898d65266081a15458"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -45,7 +43,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xda534b567099ca481384133bc121d5843f681365"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -53,7 +51,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x02612d20cc087670a959bb12ca3c5fd56c8a3db3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

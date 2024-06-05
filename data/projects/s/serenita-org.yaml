@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: serenita-org
 display_name: serenita-org
 github:
@@ -6,11 +6,12 @@ github:
 blockchain:
   - address: "0xff74a280f1514d064d31ff7dd83f7e799cc0a0b7"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: serenitaio
 websites:
   - url: https://serenita.io
+social:
+  twitter:
+    - url: https://twitter.com/serenitaio

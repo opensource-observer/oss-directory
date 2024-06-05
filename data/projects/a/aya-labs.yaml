@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: aya-labs
 display_name: AyaHQ
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xf203d6c796b99d0f2f861d1b838074822dd64d7c"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

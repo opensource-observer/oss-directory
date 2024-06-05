@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: stampnetwork
 display_name: Stamp Network
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x289f935e88f7ff7648b2189b949c29f5cc90123b"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

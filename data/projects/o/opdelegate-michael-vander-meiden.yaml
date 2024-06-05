@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: opdelegate-michael-vander-meiden
 display_name: "OPdelegate.com "
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x6eda5acaff7f5964e1ecc3fd61c62570c186ca0c"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

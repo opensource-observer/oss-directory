@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: pyth-network
 display_name: Pyth Network
 github:
@@ -6,23 +6,19 @@ github:
 blockchain:
   - address: "0x78357316239040e19fc823372cc179ca75e64b81"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xc42e9476b0a458097087336e2395dbf45b0bdc12"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x1c6cd107fb71768fbc46f8b6180eec155c03eeb5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -30,7 +26,7 @@ blockchain:
     name: unverified
   - address: "0xb2eeb93d778c364e7e2274d6299e2aa0c2bea090"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -38,7 +34,7 @@ blockchain:
     name: PythUpgradable
   - address: "0xff1a0f4744e8582df1ae09d5611b887b6a12925c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -71,7 +67,7 @@ blockchain:
     name: unverified
   - address: "0xe9d69cdd6fe41e7b621b4a688c5d1a68cb5c8adc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -86,11 +82,13 @@ blockchain:
     name: unverified
   - address: "0xf238bfb8c323123439b3c811eb7223f4fa84cc18"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: PythNetwork
 websites:
   - url: https://pyth.network
 description: Bringing real-world data on-chain at a sub-second timescale
+social:
+  twitter:
+    - url: https://twitter.com/PythNetwork

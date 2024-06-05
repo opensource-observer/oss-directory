@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: hypeshothq
 display_name: HypeshotHQ
 github:
@@ -13,7 +13,7 @@ blockchain:
     name: unverified
   - address: "0x5561974f0d35d8c355241a5568894df7b691bb28"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

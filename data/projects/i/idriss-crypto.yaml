@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: idriss-crypto
 display_name: IDriss
 github:
@@ -25,12 +25,13 @@ blockchain:
       - wallet
   - address: "0x88d7709ce401e4e7b5068156423ecb4f60a99f75"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: IDriss_xyz
 websites:
   - url: https://IDriss.xyz
 description: A more usable web3 for everyone 🤝
+social:
+  twitter:
+    - url: https://twitter.com/IDriss_xyz

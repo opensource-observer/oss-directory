@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: concrete-geth-therealbytes
 display_name: Concrete
 github:
@@ -6,8 +6,10 @@ github:
 blockchain:
   - address: "0x5b71c4b33a871f32a402ce243195a727d1775512"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: therealbytes
+social:
+  twitter:
+    - url: https://twitter.com/therealbytes

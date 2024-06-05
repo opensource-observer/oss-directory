@@ -1,48 +1,55 @@
-version: 5
+version: 7
 name: 0x-splits
 display_name: 0xSplits
 github:
   - url: https://github.com/0xSplits
 npm:
+  - url: https://www.npmjs.com/package/@0xsplits/splits-kit
   - url: https://www.npmjs.com/package/@0xsplits/splits-sdk
-  - url: https://www.npmjs.com/package/@0xsplits/splits-contracts
+  - url: https://www.npmjs.com/package/@0xsplits/splits-sdk-react
 blockchain:
   - address: "0x9ebc8e61f87a301ff25a606d7c06150f856f24e2"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
       - wallet
   - address: "0x4df01754ebd055498c8087b1e9a5c7a9ad19b0f6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
+      - base
+      - zora
     tags:
       - contract
       - factory
     name: WaterfallModuleFactory
   - address: "0x2ed6c4b5da6378c7897ac67ba9e43102feb694ee"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
+      - base
+      - zora
     tags:
       - contract
       - factory
     name: SplitMain
   - address: "0xdecd8b99b7f763e16141450daa5ea414b7994831"
     networks:
+      - base
+      - mainnet
       - optimism
+      - zora
     tags:
       - contract
       - factory
     name: LiquidSplitFactory
   - address: "0x0a2841630f198745a55c4dab3fe98f77271949e5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
+      - base
       - mainnet
       - optimism
     tags:
@@ -57,11 +64,89 @@ blockchain:
       - wallet
   - address: "0xcbb386b801ec72a5ab02aeb723decd12f96ede41"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Recoup
-twitter: 0xsplits
+  - address: "0x8fb66F38cF86A3d5e8768f8F1754A24A6c661Fb8"
+    networks:
+      - base
+      - mainnet
+      - optimism
+      - zora
+    tags:
+      - contract
+    name: SplitsWarehouse
+  - address: "0xaDC87646f736d6A82e9a6539cddC488b2aA07f38"
+    networks:
+      - base
+      - mainnet
+      - optimism
+      - zora
+    tags:
+      - contract
+      - factory
+    name: PushSplitFactory
+  - address: "0x80f1B766817D04870f115fEBbcCADF8DBF75E017"
+    networks:
+      - base
+      - mainnet
+      - optimism
+      - zora
+    tags:
+      - contract
+      - factory
+    name: PullSplitFactory
+  - address: "0xa244bbe019cf1BA177EE5A532250be2663Fb55cA"
+    networks:
+      - base
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: SwapperFactory
+  - address: "0x074827E8bD77B0A66c6008a51AF9BD1F33105caf"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: UniV3OracleL2Factory
+  - address: "0x73b3B74865eE1dc996Ac8EbD31C45CFb4f38e39F"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: UniV3OracleL2Factory
+  - address: "0xD28182C2E11519ad081E7fa9da711274b7096098"
+    networks:
+      - base
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: ChainlinkOracleL2Factory
+  - address: "0x52d6838957ec268cc5B50F17F9b490cbAb0A9E40"
+    networks:
+      - base
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: PassThroughWalletFactory
+  - address: "0x1f3f5C7342Ae19E2b35b657864106f227201eF8A"
+    networks:
+      - base
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: DiversifierFactory
 websites:
   - url: https://splits.org
 description: The standard for splitting onchain income
+social:
+  twitter:
+    - url: https://twitter.com/0xsplits

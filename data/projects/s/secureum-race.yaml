@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: secureum-race
 display_name: RACE by Secureum
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x7e026a0c061382b0f5935a90bc7324ab0a5a3acc"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: rajeev.eth
-twitter: TheSecureum
 websites:
   - url: https://www.secureum.xyz
+social:
+  twitter:
+    - url: https://twitter.com/TheSecureum

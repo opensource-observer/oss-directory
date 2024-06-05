@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: ethereum-attestation-service
 display_name: Ethereum Attestation Service
 github:
@@ -24,24 +24,26 @@ blockchain:
       - wallet
   - address: "0xc63cabe93bb29c61e337a87b2e3d4d7c5f5556c0"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: eas.eth
   - address: "0x1702fc183e6ad12138cf768dae7717bd48c3a48e"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xcabf67f2c6ef266d68e4206d0a78e035121730bd"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: eas_eth
 websites:
   - url: https://attest.sh
 description: Public good for making attestations on or off-chain.
+social:
+  twitter:
+    - url: https://twitter.com/eas_eth

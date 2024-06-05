@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: nethermindeth
 display_name: Nethermind
 github:
@@ -12,12 +12,14 @@ blockchain:
       - wallet
   - address: "0xbc11295936aa79d594139de1b2e12629414f3bdb"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: nethermindeth
 websites:
   - url: http://nethermind.io
-description: Ethereum and Starknet researchers and builders developing the Nethermind Ethereum client, Juno, Voyager, and Sedge.
+description: Ethereum and Starknet researchers and builders developing the
+  Nethermind Ethereum client, Juno, Voyager, and Sedge.
+social:
+  twitter:
+    - url: https://twitter.com/nethermindeth

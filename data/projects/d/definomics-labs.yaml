@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: definomics-labs
 display_name: DeFinomics Labs
 github:
@@ -6,22 +6,21 @@ github:
 blockchain:
   - address: "0x9390fa8656a161442928b442300358d82bec28b0"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: edfernandezg.eth
   - address: "0xe351625d4e07d185880fdcc3a8fa6e2558d2f470"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: Definomicslabs
 websites:
   - url: https://definomicslabs.com
-description: Un espacio para migrar talento de web2 a web3 y profesionalizarlo en DeFi & Tokenomics.
+description: Un espacio para migrar talento de web2 a web3 y profesionalizarlo
+  en DeFi & Tokenomics.
+social:
+  twitter:
+    - url: https://twitter.com/Definomicslabs

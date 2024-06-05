@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: kontext-app
 display_name: kontext-app
 github:
@@ -6,12 +6,11 @@ github:
 blockchain:
   - address: "0xb7de690a60a968fc844148d75bfff9716382b145"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
 websites:
   - url: https://kontext.app/
-description: Free your online identity from data silos and experience a fully personalized internet.
+description: Free your online identity from data silos and experience a fully
+  personalized internet.

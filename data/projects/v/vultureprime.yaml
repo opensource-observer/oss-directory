@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: vultureprime
 display_name: VulturePrime
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xcd871059852ad25945370f9d58851c1d0d813564"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: dexfinance-com
 display_name: dexfinance
 github:
@@ -6,146 +6,144 @@ github:
 blockchain:
   - address: "0x9544e0500407dad0765b11c67d6c94645cf343ca"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x96116c5c5c760bffc0d06017f96dbbbf25621ada"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0xec1a337e9848130c23352bb9b18ab836268e9420"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0x6380edde457eb5728b4912c9c7845804457deb06"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0x02cd95a7dd0255b0c6d435958945abc3b4b220cd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0x401260ea9b16ede1e3deb9594ff903176f5c0529"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0x869d6d5ad801c2e132201abb3c02a153ac80f99f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0x48e3131979d8f20a9d4960568f99193db5dcb9f3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0x3e40739d8478c58f9b973266974c58998d4f9e8b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: DexSwapFactory
   - address: "0xc73b3ee1eb8237b90a41db3260912e1ffbdf07b4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0xd482e9d9ae8de8fdfe45f3f1090c613dd566e049"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0x75b0394186843a073b662faa98ab8df193bd3e6d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0x98bd77962a37bf0f8071a720d80cc7da7b0d289e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0xb247b4a06734f1a4f15e0ea77e05381b0c19f3e1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0xb98c8d07a6922a21cf9e7bab043b71906ff71d06"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0x4214239abcbf37d4225e2ec5c84c853110c851f1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0xfed235fa94b2469e841f71a5a1faa6fe17f7d133"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0x96aaacd697474371a9ca6d7292a21828e594d9df"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0x4117ec0a779448872d3820f37ba2060ae0b7c34b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: USDEX2
   - address: "0x88d7d527e0d8740f5eb0afb286afaa3bcb189231"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DexFiVaultProfitStorage
   - address: "0x6f76ca57603709d1e5d774263c9dc8b29d65a5c2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -153,117 +151,119 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x6ca46bae84137d0e90ff723b3a75587bbf400d45"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DexFiVaultProfitStorage
   - address: "0x92a212d9f5eef0b262ac7d84aea64a0d0758b94f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GDEX2
   - address: "0x9c66a9008e55a7557fb457607f3f028762326a4a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0xe8e29dfaefcf06fb238029dda3fb0982b09985e7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DexFiVaultProfitStorage
   - address: "0xda064d44871ba31dae33a65b3e23b37e44e9168a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x8926ca240230763835631099f35cea526e98a3ba"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x07800fc6fcdfc43c182fc8c28a6b5ee4dc92a898"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DexFiVaultProfitStorage
   - address: "0xaa0cd9db9e54e3115bf4ca2db508def0c3b72f41"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DexFiVaultProfitStorage
   - address: "0x4f0c395a17ce8647a28486dc7fbac74f8f031482"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DexFiVaultHarvester2
   - address: "0x6513b561c61d6032d0ac2db54739dfafb8381d62"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DexSwapRouter
   - address: "0xcf7716fe2f4e698cc49f22d82d7994248fc565e5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DexFiVaultProfitStorage
   - address: "0x0d99838765a1b35dd8104da794bcda14232db0fd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DirectUSDEXMinter
   - address: "0x141ef1ca623c9480e28ff24bd875f78ed559d247"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DexFiTreasury
   - address: "0x8e3b66ed6865ce6ac5a9c64e5099e86c7cdab6be"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x8101f742d2ce08a1d7d863255d41480f8782f44d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GDEXStaking
   - address: "0xeb4a877108de041c362a13e6892d4d83dded1e22"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DexFiVaultProfitStorage
   - address: "0x088923fd6f67550011790b2ef82bc743c1044e8e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: dexETF
   - address: "0x2c093f7d7db41057a2ddd3cb1ad8b4e9c3dffbec"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: USDEX
-twitter: DexFinance
 websites:
   - url: https://www.dexfinance.com/
+social:
+  twitter:
+    - url: https://twitter.com/DexFinance

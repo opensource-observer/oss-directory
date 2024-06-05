@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: stereum-dev
 display_name: Stereum - Ethereum Node Installer & Manager
 github:
@@ -6,11 +6,12 @@ github:
 blockchain:
   - address: "0x6e41fe2f8303b89c9dbccabe59a7f7f8f4312ca9"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: stereumdev
 websites:
   - url: https://stereum.net
+social:
+  twitter:
+    - url: https://twitter.com/stereumdev

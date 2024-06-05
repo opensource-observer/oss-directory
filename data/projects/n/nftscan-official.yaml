@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: nftscan-official
 display_name: NFTScan
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0x0003603f7a929c304be73661c254312647a5e4ba"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: nftscan_com
 websites:
   - url: https://www.nftscan.com/
 description: The world's largest NFT data infrastructure, supporting 20+ chains.
+social:
+  twitter:
+    - url: https://twitter.com/nftscan_com

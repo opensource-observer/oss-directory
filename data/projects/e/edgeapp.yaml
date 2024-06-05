@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: edgeapp
 display_name: Edge Wallet
 github:
@@ -6,11 +6,13 @@ github:
 blockchain:
   - address: "0xf473edfaaef8cb2e5cdd246b7d5b285e4f56f721"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: edgewallet
 websites:
   - url: https://edge.app
 description: Edge Mobile App & Security platform for Bitcoin and blockchain technologies
+social:
+  twitter:
+    - url: https://twitter.com/edgewallet

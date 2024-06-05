@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: bit-btc-protocol
 display_name: BitBTC Protocol
 github:
@@ -6,28 +6,25 @@ github:
 blockchain:
   - address: "0x3e579180cf01f0e2abf6ff4d566b7891fbf9b868"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xdbeabb16b017d321cbaa00c7412ce76d08ec2fc1"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xe69d24dd645d3d6a9985665dc0d5f8d57597e915"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xc841a5fb20d2395316ff9d7cfa2032ab51e70f00"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -112,7 +109,7 @@ blockchain:
     name: RedEnvelope
   - address: "0xa61f98fd2bd043bb7c2d560b67204334b0641b92"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -120,7 +117,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x581ee9ad4a8f5767b0b17d3c350e4c01366004b6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -137,7 +134,9 @@ blockchain:
     tags:
       - contract
     name: unverified
-twitter: SatoshiNJunior
 websites:
   - url: https://bitbtc.money
 description: BitBTC makes it easier for BTC to buy everything !
+social:
+  twitter:
+    - url: https://twitter.com/SatoshiNJunior

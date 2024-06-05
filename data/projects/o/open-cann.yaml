@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: open-cann
 display_name: OpenCann
 github:
@@ -6,20 +6,20 @@ github:
 blockchain:
   - address: "0x4fb544dedd9583b156a60e8afe9afb45dcc3be56"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: cannabisgenome.eth
   - address: "0x66cd14267fb5a1609496cdc37eb55e6fe3f59c75"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: OpenCann_
 websites:
   - url: https://opencann.net
 description: To incentivize participation in open-source cannabis genome research.
+social:
+  twitter:
+    - url: https://twitter.com/OpenCann_

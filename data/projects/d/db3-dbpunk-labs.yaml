@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: db3-dbpunk-labs
 display_name: db3 network
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x02c928ffa29f25a0e40d81d2787b6e1b0ead5c92"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

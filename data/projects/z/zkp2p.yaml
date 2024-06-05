@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: zkp2p
 display_name: ZKP2P Fiat On Ramp
 github:
@@ -12,8 +12,7 @@ blockchain:
       - wallet
   - address: "0x43737376755b1549a086e9b218057d1dbdc139cc"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

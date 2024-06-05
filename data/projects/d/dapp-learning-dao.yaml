@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: dapp-learning-dao
 display_name: Dapp-Learning
 github:
@@ -18,11 +18,11 @@ blockchain:
       - wallet
   - address: "0x1f7b953113f4dfcbf56a1688529cc812865840e1"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: dapplearning.eth
-twitter: Dapp_Learning
+social:
+  twitter:
+    - url: https://twitter.com/Dapp_Learning

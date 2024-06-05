@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: ens-redirect
 display_name: ENSRedirect
 github:
@@ -13,8 +13,7 @@ blockchain:
       - wallet
   - address: "0xe6339ad5f7e42e1ad347e95f19689f1f8cb56a68"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

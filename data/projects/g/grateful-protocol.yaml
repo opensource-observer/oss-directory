@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: grateful-protocol
 display_name: Grateful
 github:
@@ -12,11 +12,11 @@ blockchain:
     name: Proxy
   - address: "0xff284badb6f6030c726782767fe45770570ca381"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: imgrateful_io
 description: Grateful protocol
+social:
+  twitter:
+    - url: https://twitter.com/imgrateful_io

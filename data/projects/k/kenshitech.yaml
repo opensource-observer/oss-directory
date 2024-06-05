@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: kenshitech
 display_name: Kenshi
 github:
@@ -6,13 +6,15 @@ github:
 blockchain:
   - address: "0xa2dec4f8089f89f426e6beb76b555f3cf9e7f499"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
     name: pouyae.eth
-twitter: KenshiTech
 websites:
   - url: https://kenshi.io
-description: Kenshi is a blockchain tech company offering services such as Custom Oracle Network, blockchain IoT SDK, and Deep Indexing on 8 EVM chains.
+description: Kenshi is a blockchain tech company offering services such as
+  Custom Oracle Network, blockchain IoT SDK, and Deep Indexing on 8 EVM chains.
+social:
+  twitter:
+    - url: https://twitter.com/KenshiTech

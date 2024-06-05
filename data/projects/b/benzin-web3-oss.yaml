@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: benzin-web3-oss
 display_name: Benzin
 github:
@@ -6,9 +6,11 @@ github:
 blockchain:
   - address: "0xac9fed890ffcf60469dccdfc879ffaaefb4451dd"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: drakeshot.eth
-twitter: DrakeShot10559
+social:
+  twitter:
+    - url: https://twitter.com/DrakeShot10559

@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: nftearth
 display_name: NFTEarth
 github:
@@ -6,15 +6,13 @@ github:
 blockchain:
   - address: "0xcd0b087e113152324fca962488b4d9beb6f4caf6"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x3e173b825adeef9661920b91a8d50b075ad51ba5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -23,7 +21,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x0f9b80fc3c8b9123d0aef43df58ebdbc034a8901"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -55,14 +53,14 @@ blockchain:
     name: Proxy
   - address: "0x4829b4e552036006b0caececcee6dd9c6642ba1c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x5ebc985bae47400a2355ee247dd5b1cbe779a9d1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -93,7 +91,7 @@ blockchain:
     name: NftEarthV1_0_0
   - address: "0xf4a3e3679a943aae9da5ca212769c057bec26f86"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -106,7 +104,7 @@ blockchain:
     name: Proxy
   - address: "0x4d4c71f187a330de95a01d4925691453309f7cb6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -119,14 +117,14 @@ blockchain:
     name: NFTEarthOFT
   - address: "0x2140ea50bc3b6ac3971f9e9ea93a1442665670e4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: SeaportModule
   - address: "0x7c173d178b437287608d6105886ddc77cd40c089"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -151,25 +149,25 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0xe57bd15448c3b2d1dbad598775dd2f36f93ebf90"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VotingEscrow
   - address: "0x8827e1c62a6bc98fb3c19003729c357a311c6e5e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RaffleV2
   - address: "0xb11ed4d3b3d8ace516ceae0a8d4764bbf2b08c50"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Fortune
   - address: "0x51b902f19a56f0c8e409a34a215ad2673edf3284"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: NFTEarthOFT
@@ -181,12 +179,14 @@ blockchain:
       - wallet
   - address: "0xd131f1bcdd547e067af447dd3c36c99d6be9fdeb"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: westonnelson.eth
-twitter: NFTEarth_L2
 websites:
   - url: https://nftearth.exchange
 description: Trade and Create NFTs, Earn Rewards.
+social:
+  twitter:
+    - url: https://twitter.com/NFTEarth_L2

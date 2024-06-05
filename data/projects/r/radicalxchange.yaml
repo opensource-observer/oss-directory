@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: radicalxchange
 display_name: RadicalxChange Foundation
 github:
@@ -6,11 +6,11 @@ github:
 blockchain:
   - address: "0x3945d766185e2264900c84fac10958b3619c2bd4"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
 websites:
   - url: https://www.radicalxchange.org/
-description: We are a community of activists, artists, entrepreneurs, and scholars committed to using mechanism design to inspire radical social change.
+description: We are a community of activists, artists, entrepreneurs, and
+  scholars committed to using mechanism design to inspire radical social change.

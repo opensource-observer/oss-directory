@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: hildobby
 display_name: hildobby"s Dune dashboards
 github:
@@ -6,13 +6,14 @@ github:
 blockchain:
   - address: "0x09a5943a6d10919571ee2c9f63380aea747eca97"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: hildobby.eth
-twitter: hildobby_
 websites:
   - url: https://dune.com/hildobby
 description: data @ dragonfly
+social:
+  twitter:
+    - url: https://twitter.com/hildobby_

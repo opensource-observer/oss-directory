@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: klayoracle
 display_name: DigiOracle
 github:
@@ -6,12 +6,16 @@ github:
 blockchain:
   - address: "0x3472059945ee170660a9a97892a3cf77857eba3a"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: malsatalupo🐺.eth
-twitter: KlayOracle
 websites:
   - url: https://digioracle.link
-description: DigiOracle is a highly modular blockchain oracle that allows you securely connect your Web3 applications with events, data and assets from the real world.
+description: DigiOracle is a highly modular blockchain oracle that allows you
+  securely connect your Web3 applications with events, data and assets from the
+  real world.
+social:
+  twitter:
+    - url: https://twitter.com/KlayOracle

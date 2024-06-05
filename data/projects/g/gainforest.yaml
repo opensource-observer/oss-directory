@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: gainforest
 display_name: GainForest
 github:
@@ -19,12 +19,14 @@ blockchain:
       - wallet
   - address: "0x64bc15e0a5a12ddbe321eedd832d057775d11f56"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
-twitter: GainForestNow
 websites:
   - url: https://gainforest.earth
-description: GainForest™ is a decentralised fund using artificial intelligence to measure and reward sustainable nature stewardship.
+description: GainForest™ is a decentralised fund using artificial intelligence
+  to measure and reward sustainable nature stewardship.
+social:
+  twitter:
+    - url: https://twitter.com/GainForestNow

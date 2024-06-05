@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: galaxchat
 display_name: GalaxChat
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xc99c2204297b15cdde4b0a08b62becf4f10dc6dd"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

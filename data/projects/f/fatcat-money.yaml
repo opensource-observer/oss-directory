@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: fatcat-money
 display_name: fatcat.money
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xf754ebcff01cc96a42c393432c93aa7df2fee990"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

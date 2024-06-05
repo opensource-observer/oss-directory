@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: ens-wayback-machine-blossomlabs
 display_name: ENS Wayback Machine
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x6ea869b6870dd98552b0c7e47da90702a436358b"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

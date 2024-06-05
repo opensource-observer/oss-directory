@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: scalind
 display_name: Scalind
 github:
@@ -6,11 +6,12 @@ github:
 blockchain:
   - address: "0x3eb6bf5b7ac2b683c787f7aac59683a8d05d885d"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: telegin.eth
 websites:
   - url: https://scalind.com/
-description: Rollup as a Service with verifiable deployments. Build blockchains you can trust
+description: Rollup as a Service with verifiable deployments. Build blockchains
+  you can trust

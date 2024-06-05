@@ -1,4 +1,4 @@
-version: 5
+version: 7
 name: aave
 display_name: Aave
 github:
@@ -7,60 +7,49 @@ github:
 blockchain:
   - address: "0x9a187663e454e99cafd40a2712606cc306e301b2"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x982486bd81ecc9ad0ce830f72b19dfd22fab07d5"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x246e20bf778b3e16cb71eca535f40f8c4e6c4185"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xae0b890a625a87c23a1fccdefb4c26a798719f17"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x4365f8e70cf38c6ca67de41448508f2da8825500"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x7a1285a7381a3099bfe6706549859316e6f90e6a"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x076d6da60aaac6c97a8a0fe8057f9564203ee545"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x2401ae9bbef67458362710f90302eb52b5ce835a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -69,7 +58,7 @@ blockchain:
     name: unverified
   - address: "0x8145edddf43f50276641b55bd3ad95944510021e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -77,7 +66,7 @@ blockchain:
     name: InitializableImmutableAdminUpgradeabilityProxy
   - address: "0xa97684ead0e402dc232d5a977953df7ecbab3cdb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -147,7 +136,7 @@ blockchain:
     name: DefaultReserveInterestRateStrategy
   - address: "0xa5595a5664c59e405af3455040ae759af4c225a4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -160,14 +149,14 @@ blockchain:
     name: InitializableAdminUpgradeabilityProxy
   - address: "0x78fd22a13d0b71e55dd0f0075189f97375db0bdc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2a44a04cee1e6e49881e77874e3d7bde7c6a2db2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -234,7 +223,7 @@ blockchain:
     name: UiIncentiveDataProviderV3
   - address: "0x16623256f3c216025cbcab1280ea6b83c5e8a148"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -278,7 +267,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x76fb31fb4af56892a25e32cfc43de717950c9278"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -291,14 +280,14 @@ blockchain:
     name: UiIncentiveDataProviderV3
   - address: "0x0aadee9418641b5749e872edef9844200143865d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x5f4d15d761528c57a5c30c43c1dab26fc5452731"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -306,35 +295,35 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa25d9f14cfa40d3227ed9a48b124667ddffcfddd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xfe76366a986b72c3f2923e05e6ba07b7de5401e4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: BridgeLogic
   - address: "0xaa84d489f71d2a8d71e992143a2de8b3aa54aaa9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: ConfiguratorLogic
   - address: "0x70bf6ec6fca41a7d08dcbb9909985ac0a4510b5e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: EModeLogic
   - address: "0xd1b3e25fd7c8ae7caddc6f71b461b79cd4ddcfa3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -342,7 +331,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1d69c48a35ddd241e72a31db0e637676d89fc553"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -350,7 +339,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x398808db36da6ba4e30d4fb88d72c3473921bc6e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -358,28 +347,28 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x8be473dcfa93132658821e67cbeb684ec8ea2e74"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: PoolLogic
   - address: "0xb04280b09f47cfd81906817505f24cefe1ba86d2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: SupplyLogic
   - address: "0x15196d30bc37d2fc5c718ffcd9d7687d76f3ad1f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: L2Pool
   - address: "0x3e05eb6e12a3c9ed5e46a710bcf052efd6d73fbd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -387,7 +376,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xf1cd4193bbc1ad4a23e833170f49d60f3d35a621"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -395,7 +384,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xe88fb4eaf67ea87bb458e24c94bef0eb02b5f449"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -423,7 +412,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x3cd1dfb81c50a5300c60a181ed145a7286d81e0a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -451,14 +440,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x729b3ea8c005abc58c9150fb57ec161296f06766"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x764594f8e9757ede877b75716f8077162b251460"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -472,14 +461,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xd9ca4878dd38b021583c1b669905592eae76e044"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xbcb167bdcf14a8f791d6f4a6edd964aed2f8813b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -487,14 +476,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x04a8d477ee202adce1682f5902e1160455205b12"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x6b4e260b765b3ca1514e618c0215a6b7839ff93e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -513,7 +502,7 @@ blockchain:
     name: PriceOracleSentinel
   - address: "0x5e76e98e0963ecdc6a065d1435f84065b7523f39"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -527,7 +516,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x0c2c95b24529664fe55d4437d7a31175cfe6c4f7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -540,7 +529,7 @@ blockchain:
     name: ParaSwapDebtSwapAdapterV3
   - address: "0x209ad99bd808221293d03827b86cc544bca0023b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -548,7 +537,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xadf86b537ef08591c2777e144322e8b0ca7e82a7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -556,7 +545,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x31976dc2ea27e75cc5a3687ed594d17127f9b72e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -564,7 +553,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xac63290bc16fbc33353b14f139cef1c660ba56f0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -572,7 +561,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4393277b02ef3ca293990a772b7160a8c76f2443"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -594,7 +583,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xf22c8255ea615b3da6ca5cf5aecc8956bff07aa8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -602,7 +591,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x6bce15b789e537f3aba3c60cb183f0e8737f05ec"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -610,7 +599,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xc026f5dd7869e0ddc44a759ea3dec6d5cd8d996b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -618,7 +607,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x0568a3aeb8e78262deff75ee68fac20ae35ffa91"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -626,7 +615,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4c68fda91bfb4683eab90017d9b76a99f2d77eed"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -634,7 +623,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x0f36dda2b47984434051aecaa5f9587dea7f95b7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -648,7 +637,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x24bdacf6bbebaf567123da16cdb79a266597e92b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -656,7 +645,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xe1dd796dbeb5a67ce37cbc52dcd164d0535c901e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -670,103 +659,103 @@ blockchain:
     name: AaveV3OptimismUpdate20231002wethPayload
   - address: "0x794a61358d6845594f94dc1db02a252b5b4814ad"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: InitializableImmutableAdminUpgradeabilityProxy
   - address: "0x053d55f9b5af8694c503eb288a1b7e552f590710"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Collector
   - address: "0x69fa688f1dc47d4b5d8029d5a35fb7a548310654"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AaveProtocolDataProvider
   - address: "0x929ec64c34a17401f460460d4b9390518e5b473e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: InitializableAdminUpgradeabilityProxy
   - address: "0x85272bf6ddccbdea45cf0535ea5c65bf91b480c4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UiPoolDataProviderV3
   - address: "0x9abadecd08572e0ea5af4d47a9c7984a5aa503dc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: L2Encoder
   - address: "0xa72636cbcaa8f5ff95b2cc47f3cdee83f3294a0b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ACLManager
   - address: "0xbc790382b3686abffe4be14a030a96ac6154023a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WalletBalanceProvider
   - address: "0xb5ee21786d28c5ba61661550879475976b707099"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WrappedTokenGatewayV3
   - address: "0x9b34e3e183c9b0d1a08ff57a8fb59c821616295f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DefaultReserveInterestRateStrategy
   - address: "0xc09e69e79106861df5d289da88349f10e2dc6b5c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WETHGateway
   - address: "0x8aa68ca9e25aab6f9f41bf341d12ab407ae099e2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PriceOracle
   - address: "0xc3301b30f4ecbfd59de0d74e89690c1a70c6f21b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: CollectorController
   - address: "0x770ef9f4fe897e59dacc474ef11238303f9552b6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PoolAddressesProviderRegistry
   - address: "0xb56c2f0b653b2e0b10c9b928c8580ac5df02c7c7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AaveOracle
   - address: "0x3f960bb91e85ae2db561bdd01b515c5a5c65802b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UiPoolDataProviderV3
   - address: "0xcf85ff1c37c594a10195f7a9ab85cbb0a03f69de"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ParaSwapDebtSwapAdapterV3
@@ -778,35 +767,37 @@ blockchain:
       - wallet
   - address: "0xe6ef45a2ef96791685cdee512f36f16ee85d891d"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - deployer
   - address: "0xefdd7374551897b11a23ec7b5694c713dfda76f1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UiIncentiveDataProviderV3
   - address: "0x35dde5599318112829d97a29f4e8f4c49aafc47c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UiIncentiveDataProviderV3
   - address: "0x41b66b4b6b4c9dab039d96528d1b88f7baf8c5a4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DefaultReserveInterestRateStrategy
   - address: "0xa9f3c3cae095527061e6d270dbe163693e6fda9d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DefaultReserveInterestRateStrategy
-twitter: aave
 websites:
   - url: http://aave.com
 description: Building the future of DeFi.
+social:
+  twitter:
+    - url: https://twitter.com/aave
