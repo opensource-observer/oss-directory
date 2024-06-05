@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: dm3-protocol
 display_name: dm3 protocol
 github:
@@ -8,7 +8,7 @@ github:
 blockchain:
   - address: "0x99c19ab10b9ec8ac6fcda9586e81f6b73a298870"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -21,8 +21,7 @@ blockchain:
     name: L2PublicResolver
   - address: "0x11ee133a1408fe2d7c62296d7eb33f234b774503"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

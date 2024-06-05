@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: paideia-ai
 display_name: Paideia Copilot
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xf5d6348b82e2049d72dbfc91c41e224dc19c7296"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

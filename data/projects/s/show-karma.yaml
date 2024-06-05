@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: show-karma
 display_name: Karma
 github:
@@ -44,25 +44,22 @@ blockchain:
     name: DelegateRegistry
   - address: "0x627f84bb4bba3333f253f09fe22a445f195bcf34"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: showkarma.eth
   - address: "0xc98786d5a7a03c1e74affcb97ff7ef8a710da09b"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: karmahq.eth
   - address: "0xf768f5f340e89698465fc7c12f31cb485fff98d2"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
+      - deployer
       - eoa
       - wallet

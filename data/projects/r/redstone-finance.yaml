@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: redstone-finance
 display_name: Redstone Finance
 github:
@@ -6,22 +6,20 @@ github:
 blockchain:
   - address: "0xe7b38950a6396fae5df3e6f2b3f7bb8f65a81703"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x2e441adc345daeb11ff9c2cae7efd461e5525850"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0xe6b210f1299a3b0d74bfa24d678a9dc1e2a27e34"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: inverse-finance
 display_name: Inverse Finance
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xc253af7b80f3dd3d469bf4b94aa9e3df59e71e43"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

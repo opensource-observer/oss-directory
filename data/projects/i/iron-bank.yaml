@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: iron-bank
 display_name: Iron Bank
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x1ba608d6a354fbeb41fd7cc799e7f09b2612ab26"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -114,7 +112,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x970d6b8c1479ec2bfe5a82dc69cafe4003099bc0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -287,7 +285,7 @@ blockchain:
     name: CWrappedNativeDelegator
   - address: "0x00a35fd824c717879bf370e70ac6868b95870dfb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

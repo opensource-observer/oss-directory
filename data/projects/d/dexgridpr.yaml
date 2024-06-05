@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: dexgridpr
 display_name: DexGrid Community Microgrids
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x7aa2dab71adef6e9172f836904fcd562e56da3b5"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

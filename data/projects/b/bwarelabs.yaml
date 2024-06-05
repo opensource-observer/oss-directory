@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: bwarelabs
 display_name: BwareLabs
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xb8950c47e8b9e539601cb47a167de8bf4cb1289e"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

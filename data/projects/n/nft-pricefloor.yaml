@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: nft-pricefloor
 display_name: NFT-PriceFloor
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x31856e11ddaabc67e3b7b5de50dd0efce86e361e"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

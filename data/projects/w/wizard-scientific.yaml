@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: wizard-scientific
 display_name: Wizard-Scientific
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xc22f47ebc79ec52b0aa5db9a47c6facffcc2ea42"
     networks:
-      - mainnet
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

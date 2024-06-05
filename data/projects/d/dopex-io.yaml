@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: dopex-io
 display_name: Dopex
 github:
@@ -6,669 +6,667 @@ github:
 blockchain:
   - address: "0xde485812e28824e542b9c2270b6b8ed9232b7d0b"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x29ed22a9e56ee1813e6ff69fc6cac676aa24c09c"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x9c21ca464a2ee450d05d605d74ad415c6baaa054"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x2fecfb2ebe995c9dea38a6235c807a58ede7fe7f"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
     name: psytama.eth
   - address: "0x1337731dc6be067a823efc450b0fe659356068fa"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xee82496d3ed1f5afbeb9b29f3f59289fd899d9d0"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x32449df9c617c59f576dfc461d03f261f617ad5a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EthWeeklyPutsSsovV3
   - address: "0x9e722e233646e1edea4a913489a75262a181c911"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EthCallsSsovV3
   - address: "0x7c5ac7e4e352b733cf65721d9fe28a17da890159"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: CrvWeeklyPutsSsovV3
   - address: "0x80789d252a288e93b01d82373d767d71a75d9f16"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxVeLocking
   - address: "0x10fd85ec522c245a63239b9fc64434f58520bd1f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxWeeklyCallsSsovV3
   - address: "0x6c62ecec9cf50fb763576f0ff9c7e7f6339c96cc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AtlanticPutsPool
   - address: "0x8d66b80e03fceff5d825b77433b62400c00db22d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RdpxMonthlyCallsSsovV3
   - address: "0xf71b2b6fe3c1d94863e751d6b455f750e714163c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxWeeklyPutsSsovV3
   - address: "0xcdaacf37726bf1017821b5169e22eb34734b28a8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RdpxWeeklyCallsSsovV3
   - address: "0x252c07e0356d3b1a8ce273e39885b094053137b9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxCustomPriceOracle
   - address: "0xfca313e2be55957ac628a6193a60d38adc2da64e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AtlanticStraddle_eth
   - address: "0x3f3c58ccb0655fa9161d0b4b49b217b3f6478d5a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: FeeStrategy
   - address: "0xb4ec6b4ec9e42a42b0b8cdd3d6df8867546cf11d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RdpxWeeklyPutsSsovV3
   - address: "0x0dc96f38980144ebffe745706dfee92622dba829"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AtlanticStraddle_dpx
   - address: "0xfca61e79f38a7a82c62f469f55a9df54cb8df678"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StEthWeeklyCallsSsovV3
   - address: "0xd74c61ca8917be73377d74a007e6f002c25efb4e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RdpxMonthlyCallsSsovV3Active
   - address: "0xafd90af84ae892c2dfeea6d379087a7b4d21ec34"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RdpxMonthlyCallsSsovV3DiffIndex
   - address: "0x1f80c96ca521d7247a818a09b0b15c38e3e58a28"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxEthLpFarm
   - address: "0xdaf4ffb05bfcb2c328c19135e3e74e1182c88283"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ARBOptionScalpV1
   - address: "0x546cd36f761f1d984eee1dbe67cc4f86e75caf0c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GohmWeeklyCallsSsovV3
   - address: "0x2b99e3d67dad973c1b9747da742b7e26c8bdd67b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OptionPricingSimple
   - address: "0x5847a350a388454a76f34ceb6eb386bf652dd0dd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AtlanticStraddle_rdpx
   - address: "0xf071f0c56543a2671a2dfc5ff51d5d858be91514"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GmxWeeklyPutsSsovV3
   - address: "0x32eb7902d4134bf98a28b963d26de779af92a212"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: rdpx_token
   - address: "0x4269af9076586230bf5fa3655144a5fe9cb877fd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GohmWeeklyPutsSsovV3
   - address: "0x8c73b6d3c81c6cc42e8285c8c147a7563d71add0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SsovV3FeeStrategy
   - address: "0x00e66bc08a54597e7d2661deb90f683c4c1f28cf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: InsuredLongsStrategy
   - address: "0x9cc9beffe64868cb4b97890a19219449890e6ea0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EthWeeklyCallsSsovV3
   - address: "0x49f517cfed2679fb8b31df102150b81b25ee552b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ETHOptionScalpV1
   - address: "0xa7507c48d78345475b85bc27b9ce9b84b354caf7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BtcWeeklyPutsSsovV3
   - address: "0xede5ad2d3c1e774dfe3eab2cafecf2e8347c9635"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OptionScalp
   - address: "0x1640eda814072286fddc5b952d1c56e576621379"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AtlanticPutsPool
   - address: "0xaba7a4cf6cfad82bc31ffe08944da79cab715a85"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OptionScalpUpdated
   - address: "0xede855ced3e5a59aaa267abdddb0db21ccfe5072"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DiamondPepesNFT
   - address: "0x54552cb564f4675bceda644e47de3e35d1c88e1b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GohmSSOVV2
   - address: "0xeb0f03a203f25f08c7aff0e1b1c2e0ee25ca29eb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RdpxEthLpFarm
   - address: "0x9bade4013a7601aa1f3e9f1361a4ebe60d91b1b5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xfe351e85eb6b4292088dc28b66e9e92ab62fb663"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RdpxSSOV
   - address: "0xa5151f4796636beb84dddf793fdf0a8117e941c6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RewardsDistributionV3
   - address: "0x7af6399e4dd8c1d5b7c53dc2c6ad04b39049c83e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EthMonthlyCallsSsovsMay
   - address: "0xdf3d96299275e2fb40124b8ad9d270acfdcc6148"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ArbMonthlyCallsSsovV3
   - address: "0x8c44c0ab9a15bacad7a4b663a89593c406c6b4ea"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxBonds
   - address: "0x6607c5e39a43cce1760288dc33f20ead51b14d7b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SSOVRdpx
   - address: "0x09a454fd7a7f6f66cb2cc0196860f94ced5b952b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RewardsDistribution
   - address: "0x675ca5708c8db099f3db9cdff06995c7653278fc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DP2
   - address: "0x4ee9fe9500e7c4fe849add9b14beec5ec5b7d955"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DopexBridgoorNFT
   - address: "0x2c9c1e9b4bdf6bf9cb59c77e0e8c0892ce3a9d5f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x0359b4dcd2412ff0dafa8b020bcb57aa8bd13a33"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxSSOV
   - address: "0xdb62c01c23e247cea558e90814dbeb215b92c81f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxMonthlyCallsSsovV3
   - address: "0xeec2be5c91ae7f8a338e1e5f3b5de49d07afdc81"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x3154b747c4bfd35c67607d860b884d28f32ed00f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ArbEthSSOVDecember
   - address: "0x89836d5f178141aaf013412b12abd754802d2318"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GohmSSOV
   - address: "0x558df6bb25f754aea5fa2f3ed8e78e7afe23a1a6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BasicStakingStrategy
   - address: "0x0ff5a8451a839f5f0bb3562689d9a44089738d11"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xe5953cd5c1046c5428aba3a1e8797218e5156e5d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DopexSantasNFT
   - address: "0x77b6f45a3dcf0493f1b9ac9874e5982ab526aa9e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DopexV2OptionMarket
   - address: "0x475a5a712b741b9ab992e6af0b9e5adee3d1851b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StEthMonthlyCallsSsovV3
   - address: "0x711da677a0d61ee855dad4241b552a706f529c70"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ArbEthSSOVV2January
   - address: "0xcbbfb7e0e6782df0d3e91f8d785a5bf9e8d9775f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: veDPXYieldDistributor
   - address: "0xc4e63f3be080d932f6d2d1ba1936be72b37fc134"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x818ced3d446292061913f1f74b2eaee6341a76ec"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SSOVDpx
   - address: "0xe11d346757d052214686bcbc860c94363afb4a9a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UniswapV3SingleTickLiquidityHandler
   - address: "0x764fa09d0b3de61eed242099bd9352c1c61d3d27"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DopexV2OptionMarket
   - address: "0xe4ba6740af4c666325d49b3112e4758371386adc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DopexV2PositionManager
   - address: "0x0393352c7c28903e7deaa5508f01cc89f25bcb5c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RdpxSSOVV2
   - address: "0x1ae38835bf3afbec178e8a59ca82aa383dc3df57"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxMonthlyCallsSsovV3
   - address: "0x6a1142681b74fbea5dea07258f573484d80e4435"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RdpxSSOVV2
   - address: "0xd4cafe592be189aeb7826ee5062b29405ee63488"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RdpxSSOVV2
   - address: "0x8161033b2776a9556b326d5eb468b2b76b7b4a23"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EthMonthlyCallsSsovV3
   - address: "0x05e7aced3b7727f9129e6d302b488cd8a1e0c817"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxMonthlyCallsSsovV3
   - address: "0xc59836fec63cfb2e48b0aa00515056436d74dc03"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EthMonthlyCallsSsovV3
   - address: "0xa206a0531299821294a9bba48726022d429c6892"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RdpxSSOVV2
   - address: "0xbd36e1f24d1bc7561cd82889f22058badb003792"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0x4f06645416a38a020cffaa97ce4dad04c1be9906"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0x7e513b848cfaf3bc9ffb69a35981e5e1279ace59"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GmxWeeklyPutsSsovV3
   - address: "0x9d973c4c04df928f18081e952b407d718d2dae4e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0xeda8f8d555a89d1ce5c631027ab89fd761d614f7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GohmMonthlyCallsSsovV3
   - address: "0x52c70138fff1a5a6d821ab4bb39d3df0346f98bd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GohmMonthlyCallsSsovV3
   - address: "0x54565213927794d7ca31436d01b799f487e204ba"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BtcWeeklyPutsSsovV3
   - address: "0x04996afcf40a14d0892b00c816874f9c1a52c93b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GmxSSOV
   - address: "0x8d481245801907b45823fb032e6848d0d3c29ae5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StakingRewardsV2
   - address: "0x69617dba76585230c14a2b94d3c42f4541b986a8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0x9f2a0ffaa27a2f0fef91fd6de19507a278c6302e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0xed5dedf81ccdc7c9f94ef2330685dacf10656373"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0xbb741dc1a519995eac67ec1f2bfeecbe5c02f46e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxSSOVV2
   - address: "0x29d5d552bde776abf45c75fe4fe01a3b59f26798"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0x920063b722d4fa90866f2aa3c150d129a10546ff"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0xc8067b488a77d84e85aedbb2de5d094a5e1c469a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0x411982342c0d41cebb1706ed80ef32d48f3fef3b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BtcWeeklyPutsSsovV3
   - address: "0x541fdd2284852dacc5ba7e31241ff5bc646b8985"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GohmWeeklyPutsSsovV3
   - address: "0xebf0ac8896fddeec5b8592f4c9eb5b8ea3d4dc82"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Zdte
   - address: "0x7904ea09b0ce9a98af8f4a2ed2f060364fb65042"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GohmWeeklyPutsSsovV3
   - address: "0xb73fed58a603fe6be5b3403174c9b9598a3272a1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0xcd280e80dc3522f98eef14ddcc00ebc30853b68c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0x03475494dc89d378c4268e90a62876efb0278a1a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: CrvWeeklyPutsSsovV3
   - address: "0x7e00ab584c3dcab784fe8a04c471088c34386415"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: CrvWeeklyPutsSsovV3
   - address: "0x5be3c77ed3cd42fc2c702c9fcd665f515862b0ae"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GmxSSOV
   - address: "0x134707f83168b9220c8d08447c1ba96a04797b96"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0xf8ce3cf6371bdae43a260445e6de61575334391c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0xb5acc94d901eab4206b49652bbf80e14ed8a79a0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GmxWeeklyPutsSsovV3
   - address: "0x0a9efaddab01c0a00edfaf24377460fafba9411d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Zdte
   - address: "0xc05200769ecb8ab6cc3641397c6785f3a6d0a42a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Curve2PoolSsovPut
   - address: "0x48252edbfcc8a27390827950ccfc1c00152894e3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DpxSSOVV2
   - address: "0x125cc7cce81a809c825c945e5aa874e60cccb6bb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StakingRewardsV2

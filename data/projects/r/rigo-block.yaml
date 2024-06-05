@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: rigo-block
 display_name: RigoBlock
 github:
@@ -6,16 +6,14 @@ github:
 blockchain:
   - address: "0x080f08076e8eadc66006c3cbfed28a34918a1fa6"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
       - wallet
   - address: "0x000f05552f24850e75793d38c2bd0cbd249a9ff4"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa

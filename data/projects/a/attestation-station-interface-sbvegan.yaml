@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: attestation-station-interface-sbvegan
 display_name: Attestation Station Interface
 github:
@@ -12,8 +12,7 @@ blockchain:
       - wallet
   - address: "0x5eff4b8c042aa6003cbda6e32c4aa23657d3b6af"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

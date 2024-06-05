@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: akula-bft
 display_name: Akula
 github:
@@ -6,15 +6,14 @@ github:
 blockchain:
   - address: "0x9d6d3b09f8ac8615805bd82e53b80d956f451cfa"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: vorot93.eth
   - address: "0x048a9ea34fce0b2828a2703e486648c21acccc1a"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

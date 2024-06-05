@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: kotalco
 display_name: Kotal
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x5dfa5db515748f3e2bcc8677a9332f4affad5a5e"
     networks:
-      - mainnet
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

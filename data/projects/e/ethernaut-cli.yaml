@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ethernaut-cli
 display_name: Ethernaut CLI
 github:
@@ -20,8 +20,7 @@ npm:
 blockchain:
   - address: "0x45a10F35BeFa4aB841c77860204b133118B7CcAE"
     networks:
-      - optimism
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

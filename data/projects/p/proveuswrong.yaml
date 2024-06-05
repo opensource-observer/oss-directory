@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: proveuswrong
 display_name: Prove Us Wrong
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x387e8b40e332831b7a8ad629966df3e9f969c6ad"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

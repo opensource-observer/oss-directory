@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: delegatexyz
 display_name: Delegate
 github:
@@ -18,8 +18,9 @@ blockchain:
     name: DelegationRegistry
   - address: "0x6ed7d526b020780f694f3c10dfb25e1b134d3215"
     networks:
-      - optimism
+      - any_evm
     tags:
+      - deployer
       - eoa
       - wallet
 websites:

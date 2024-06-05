@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: pulsarswap
 display_name: Pulsar Protocol
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x63c3742f92b6144876dc9a36ac373d0346f4f2e3"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: oceanprotocol
 display_name: Ocean Protocol
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x275ab2f4e5dd3cb7aa8ec4f16a79f4023cc5f7ef"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

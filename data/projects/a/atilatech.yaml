@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: atilatech
 display_name: Atila Tech
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x27f7e8d7c63c414eae2bb07e1a9b9057a1d382cf"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

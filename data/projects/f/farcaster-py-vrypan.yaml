@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: farcaster-py-vrypan
 display_name: farcaster-py & fario
 github:
@@ -7,7 +7,7 @@ github:
 blockchain:
   - address: "0x8b0573d1c80362db589eda39c2e30f5190d7eb51"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

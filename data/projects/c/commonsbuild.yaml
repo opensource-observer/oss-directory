@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: commonsbuild
 display_name: Token Engineering Commons
 github:
@@ -18,7 +18,7 @@ blockchain:
       - wallet
   - address: "0x763d7d362b59aea3858a92a302e18cd41b1252d4"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: locksmithwallet
 display_name: Locksmith Wallet
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xb66f8eb1682589f9dfa3cfc3da9faecefcd7e525"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

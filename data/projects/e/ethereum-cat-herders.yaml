@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ethereum-cat-herders
 display_name: Ethereum Cat Herders
 description: Decentralized project management to support the Ethereum Network,
@@ -9,7 +9,7 @@ github:
 blockchain:
   - address: "0xa463e703a938ba181a274f01312c35012ce5ec69"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

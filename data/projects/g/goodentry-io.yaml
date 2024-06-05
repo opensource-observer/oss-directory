@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: goodentry-io
 display_name: GoodEntry
 github:
@@ -6,100 +6,98 @@ github:
 blockchain:
   - address: "0xae016ff3c8029cf2c023229a5fa9184428cc6562"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x0928c1f7a7eae94cac6f333d83f0768aaa836d05"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x7433d4158c702dc6bf0974e0bb4eea152cfbdd6a"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xddec418c1a825ac09ad83cc1a28a2c5bcd746050"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: unverified
   - address: "0xf360e073efc1fd4cc2d21551a13781ddefe888de"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: esGOOD
   - address: "0x36003a975bfc56f650590c26b1479ba423217931"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeaconProxy
   - address: "0x553fe5115392e2f024f1099e41a2f8ccb5ed2bca"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Fairsale
   - address: "0x17176a9868f321411b15ccb9b934cf95597e89c4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GOOD
   - address: "0x47c4f38704681c4c16f9b17ab14c4d5836c0b4bc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OptionsPositionManager
   - address: "0xbb59f5324fea11e538fc7f46c3c7bfe5ad36e8b9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GeVault
   - address: "0x14475be7d59895739207a9e5518903f4b94345b7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GeVault
   - address: "0x0d3caa624e3a0076a6bc96ba8d632d37f460bc74"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GeVault
   - address: "0x48e455852669adb747b3d16f2bd8b541d696b697"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GeVault
   - address: "0xa82577af74ae9d450dc04df62fc5c14748a0b3ae"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GeVault
   - address: "0x41d0ebb0f0bcf7a06e395d0551cc695e4318594d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GeVault
   - address: "0x819356bf26d384e7e70cd26c07fc807e6b354f08"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GeVault

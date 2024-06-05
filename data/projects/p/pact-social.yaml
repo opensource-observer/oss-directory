@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: pact-social
 display_name: pact-social
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x5e0f74b62934631087b7c0b73329003aa872755f"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

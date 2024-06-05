@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: 0x-boring-security
 display_name: Boring Security
 github:
@@ -13,7 +13,7 @@ blockchain:
       - wallet
   - address: "0x52c45bab6d0827f44a973899666d9cd18fd90bcf"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

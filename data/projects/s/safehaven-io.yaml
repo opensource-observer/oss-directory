@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: safehaven-io
 display_name: Safe Haven
 github:
@@ -7,7 +7,7 @@ github:
 blockchain:
   - address: "0xf5b286151558ffedae80cce3a98246eeda34fa08"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

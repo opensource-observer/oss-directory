@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: tide-protocol-fiveelementslabs
 display_name: Tide Protocol
 github:
@@ -7,9 +7,7 @@ github:
 blockchain:
   - address: "0x607291c9b3b03d8c2dc1f5f7f8db2b6a06c91183"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -30,7 +28,7 @@ blockchain:
     name: WaveFactory
   - address: "0xfb51d25c88819e25eea78933c82d3985835eda95"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
@@ -57,14 +55,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x46d27f14305fb231f54c38dfc779f512d4bf5704"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xf40cba950163941bef7733f5958a00e5458325fb"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

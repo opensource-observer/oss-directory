@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: evm-diff
 display_name: EVM Diff
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xdfc01ad32e52e7fbe2fb6ace17ec73978cf377b0"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

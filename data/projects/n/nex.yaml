@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: nex
 display_name: NEX
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xa52fecfe3f0d4a77a572dec9b72277abc5dfd9c6"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

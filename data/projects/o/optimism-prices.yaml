@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: optimism-prices
 display_name: Optimism Prices Contracts
 github:
@@ -12,14 +12,13 @@ blockchain:
     name: OptimismPrices
   - address: "0x82d54397b88ce80ea2df9ad049213acb47dc2523"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xf131c9efb039aadff5e0d7fb3b69adbd913afdc0"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

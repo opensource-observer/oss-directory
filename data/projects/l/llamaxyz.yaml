@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: llamaxyz
 display_name: Llama
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x50507e28ea5e74c36e1293bb5331bdbaf39645d6"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

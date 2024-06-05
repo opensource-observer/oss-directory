@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: 4everland
 display_name: 4EVERLAND
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xa0f92821c3ac20fa71a701efc5ca5d3c82e29fee"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

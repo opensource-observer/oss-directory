@@ -15,9 +15,27 @@ This directory is a public good, free to use and distribute. We hope it serves t
 
 Currently the main way to contribute is by submitting a pull request. You can update any `.yaml` file under `./data/` or submit a new one. Fork this repository, commit your changes, and open a pull request from your fork to this repository.
 
-If you are adding a new project, please make sure to include a unique slug to identify the project and at least one GitHub url. In most cases, we adopt the GitHub organization name as the slug. If the project is not associated with a GitHub organization, you can use the project name followed by the repo owner as the slug.
+If you are adding a new project, please make sure to include a unique project name to identify the project and at least one GitHub url. In most cases, we adopt the GitHub organization name as the project name.
 
 Submissions will be validated to ensure they conform to the schema and don't contain any artifacts that are already in the directory. If you are unsure or have additional questions about contributing, please open an issue or message us on [Telegram](https://t.me/osocommunity).
+
+### Setup for local development
+
+You can install dependencies with `pnpm`.
+
+```bash
+pnpm install
+```
+
+### Validation
+
+Our GitHub actions CI will reject any contributions that do not conform to the schema defined in `./src/resources/schema`.
+
+To check for validation errors locally, run
+
+```bash
+pnpm run validate
+```
 
 ## Using as a library
 
@@ -61,29 +79,49 @@ The directory is organized into two main folders:
 
 - `./data/projects` - each file represents a single open source project and contains all of the artifacts for that project.
   - See `./src/resources/schema/project.json` for the expected JSON schema
-  - Files should be named by the project "slug"
-  - Project slugs must be globally unique. If there is a conflict in chosen slug, we will give priority to the project that has the associated GitHub organization
-  - In most cases, we adopt the GitHub organization name as the slug. If the project is not associated with a GitHub organization, you try to use the project name followed by the repo owner as the slug.
+  - Files should be named by the project "name"
+  - Project names must be globally unique. If there is a conflict in chosen name, we will give priority to the project that has the associated GitHub organization
+  - In most cases, we adopt the GitHub organization name as the `name`.
 - `./data/collections` - each file represents a collection of projects that have some collective meaning (e.g. all projects in an ecosystem).
   - See `./src/resources/schema/collection.json` for the expected JSON schema
-  - Projects are identified by their unique slug
+  - Projects are identified by their unique project `name`.
 
-## Changing the schemas
+## Scripting changs
+
+Sometimes you need to make a bunch of changes all at once. We have a framework that supports 2 types of such changes:
+
+1. **Migrations**: If you are changing the schema of the data files, you'll need to write a migration that changes all data files to adhere to the new schema
+2. **Transformations**: If you want to write a one-off transformation that does not change the schema, use this
+
+### Changing the schema with migrations
+
+🚨⚠️ **Note**: Please use this sparingly. In the current setup, all upstream dependents of this package will break anytime there is a schema change. This is because older versions of the library will try to get the latest data from the main branch and break when validating it against an older schema ️️🚨⚠️
 
 All files under `./data` must conform to schemas defined in `./src/resources/schema`.
-Our continuous integration system will reject any pull requests that do not validate against the schema.
 
 If you want to change the schema, you'll need to write a migration:
 
 1. Update the schema in `src/resources/schema/`
 2. Add a [version]-[desc].ts file to the `src/migrations/` folder, exporting functions that migrate each file type.
 3. Add the migration functions to the MIGRATIONS array in `src/migrations/index.ts`.
-4. You can run the migration by running `pnpm migrate`
-5. Make sure to commit and submit a pull request with all of the resulting changes. We will not accept any PRs where the data does not conform to the schemas.
-6. Publish a new version of the npm package. Remember to bump the version number in `package.json`. If you don't do this, you'll break all downstream dependents, because they're fetching the latest from GitHub.
+4. You can run the migration by running `pnpm migrate`.
+5. Please run `pnpm validate` to make sure your migration adheres to the schema. We will not accept any PRs where the data does not conform to the schemas.
+6. Commit and submit a pull request with all of the resulting changes.
+7. Publish a new version of the npm package. Remember to bump the version number in `package.json`. If you don't do this, you'll break all downstream dependents, because they're fetching the latest from GitHub.
+8. Notify all upstream dependents of this package that there is a new major version number and they need to update. Schema changes **will** break any dependent builds until they upgrade.
 
 The framework will run migrations in sequence, so you are guaranteed that your data is valid as of the previous version.
-Note: we only currently support migrating in one direction (and not reverting)
+Note: we currently only support migrating in one direction (and not reverting)
+
+### Running a one-off transformation
+
+If you need to make a wide-ranging change that does not affect the schema, use these steps to script the change
+
+1. Add a [transformName].ts file to the `src/transformations/` folder, exporting functions that transform each file type.
+2. Add the transformation functions to the TRANSFORMATIONS array in `src/transformations/index.ts`.
+3. You can run the transformation by running `pnpm transform --name <transformName>`
+4. Please run `pnpm validate` to make sure your migration adheres to the schema. We will not accept any PRs where the data does not conform to the schemas.
+5. Commit and submit a pull request with all of the resulting changes.
 
 ## Making onchain attestations about projects
 

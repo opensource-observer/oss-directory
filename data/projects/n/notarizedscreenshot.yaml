@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: notarizedscreenshot
 display_name: NotarizedScreenshot
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xcb50c681f503821566c91228366f9d210fe32d2e"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

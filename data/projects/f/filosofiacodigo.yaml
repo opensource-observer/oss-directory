@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: filosofiacodigo
 display_name: FilosofiaCodigo
 github:
@@ -55,24 +55,22 @@ blockchain:
     name: RandomnessCeremony
   - address: "0xb6f5414bab8d5ad8f33e37591c02f7284e974fcb"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
+      - deployer
       - eoa
       - wallet
     name: filosofiacodigo.eth
   - address: "0xfe568475cfc25563b5a5e9769f56b61df85e7dec"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: sucito.eth
   - address: "0x730bf3b67090511a64aba060fbd2f7903536321e"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

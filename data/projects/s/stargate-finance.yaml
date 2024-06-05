@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: stargate-finance
 display_name: Stargate Finance
 github:
@@ -6,39 +6,31 @@ github:
 blockchain:
   - address: "0x5c85a7ae2b6d29c38cdf360553f8acbc4e684c31"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x937b94dc8c81ed42b2ada5855b220f098568b2be"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x1d7c6783328c145393e84fb47a7f7c548f5ee28d"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x6ece61d29b90642941c41240da924690da145696"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x034e4b219ec4e58aa45a587d0bd85bc098674c7a"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -51,14 +43,14 @@ blockchain:
     name: Factory
   - address: "0x55bdb4164d28fbaf0898e0ef14a589ac09ac9970"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: Factory
   - address: "0x296f55f8fb28e498b858d0bcda06d955b2cb3f97"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -78,7 +70,7 @@ blockchain:
     name: RouterETH
   - address: "0xaf54be5b6eec24d6bfacf1cce4eaf680a8239398"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -129,35 +121,35 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa96b576f3f117158176e396467d591a1f5dba9df"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x693604e757ac7e2c4a8263594a18d69c35562341"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x6694340fc020c5e6b96567843da2df01b2ce1eb6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: StargateToken
   - address: "0x8731d54e9d02c286767d56ac03e8037c07e01e98"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -177,7 +169,7 @@ blockchain:
     name: unverified
   - address: "0x343fa3559f99ebb0dc1f5221d0654d7bd7bc011f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -204,14 +196,14 @@ blockchain:
     name: StargateFeeLibraryV04
   - address: "0x5c1a97c144a97e9b370f833a06c70ca8f2f30de5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x45a01e4e04f14f7a4a6702c74187c5f6222033cd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -219,7 +211,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x45f1a95a4d3f3836523f5c83673c797f4d4d263b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -238,7 +230,7 @@ blockchain:
     name: StargateEthVault
   - address: "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -246,14 +238,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xd47711f0aa5f34ad0a17fea6599f45664dd201b5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: ProxyAdmin
   - address: "0x712a326b7c0dd4d1c319dedaf0122330de25dd44"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -268,14 +260,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa6681e7863410491efb2b8d6ea7f740114614e49"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x9d1b1669c73b033dfe47ae5a0164ab96df25b944"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -289,7 +281,7 @@ blockchain:
     name: StargateFeeLibraryV05
   - address: "0x959d0037a71e8d1a1a369a417910dd05dfe22366"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -309,67 +301,67 @@ blockchain:
     name: StargateComposer
   - address: "0x6c33a7b29c8b012d060f3a5046f3ee5ac48f4780"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WidgetSwap
   - address: "0xfbd849e6007f9bc3cc2d6eb159c045b8dc660268"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VotingEscrow
   - address: "0x53bf833a5d6c4dda888f69c22c88c9f356a41614"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Router
   - address: "0x1cf31666c06ac3401ed0c1c6346c4a9425dd7de4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StargateFeeLibraryV07
   - address: "0x82cbecf39bee528b5476fe6d1550af59a9db6fc0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StargateEthVault
   - address: "0xbf22f0f184bccbea268df387a49ff5238dd23e40"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RouterETH
   - address: "0xea8dfee1898a7e0a59f7527f076106d7e44c2176"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPStaking
   - address: "0x30e148a79b898efa1ab1285f5eca71972a7e0ace"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ProxyOFT
   - address: "0xb1641d94684225b72f97e52b2b02ad07f7ba9089"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StargateFeeLibraryV05
   - address: "0xaa94240d9398bc7d447b567ce0402786c2c47089"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ProxyOFT
   - address: "0x352d8275aae3e0c2404d9f68f6cee084b5beb3dd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Bridge

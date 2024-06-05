@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: lemonatio
 display_name: Lemon Cash
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xbbea9ba18e457303d666b6bd27ade10221e3635f"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

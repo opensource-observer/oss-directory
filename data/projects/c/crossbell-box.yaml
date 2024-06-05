@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: crossbell-box
 display_name: Crossbell
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0xc8b960d09c0078c18dcbe7eb9ab9d816bcca8944"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

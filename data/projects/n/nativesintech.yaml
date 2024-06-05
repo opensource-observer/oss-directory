@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: nativesintech
 display_name: Natives in Tech
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x2dee5d7e77a1212b21139bc1d98b249dcc52055d"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

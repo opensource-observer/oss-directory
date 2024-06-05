@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: blobscan
 display_name: Blobscan
 github:
@@ -12,8 +12,7 @@ blockchain:
       - wallet
   - address: "0xa2a4b583782b8523ec563a4e42319c40c2b7a29c"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

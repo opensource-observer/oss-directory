@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: wallet-guard
 display_name: Wallet Guard
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xb4d06c1ac7d0e91b087016fa09c9a6eab289351c"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

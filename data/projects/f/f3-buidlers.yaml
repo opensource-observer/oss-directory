@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: f3-buidlers
 display_name: F3 Buidlers
 github:
@@ -6,16 +6,14 @@ github:
 blockchain:
   - address: "0x479cba5a5c91fff90a696e448474bc396049d696"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: chachajee.eth
   - address: "0x97688c5d7be601adfa9537a17320f614916b758a"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

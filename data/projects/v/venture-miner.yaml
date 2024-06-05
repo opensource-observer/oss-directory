@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: venture-miner
 display_name: Venture Miner Academy
 github:
@@ -12,8 +12,7 @@ blockchain:
       - wallet
   - address: "0x33a8cdd353fb8842dcea6163fa76ed10e81edcf1"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

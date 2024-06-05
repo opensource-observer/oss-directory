@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: compound-finance
 display_name: Compound
 github:
@@ -6,29 +6,48 @@ github:
 blockchain:
   - address: "0x6103db328d4864dc16bd2f0ee1b9a92e3f87f915"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xa5edbdd9646f8dff606d7448e414884c7d905dca"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Comet
   - address: "0xb21b06d71c75973babde35b49ffdac3f82ad3775"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x9c4ec768c28520b50860ea7a15bd7213a9ff58bf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: cUSDCv3Native
+  - address: "0x2e44e174f7D53F0212823acC11C01A11d58c5bCB"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: cUSDCv3
+  - address: "0x7e7d4467112689329f7E06571eD0E8CbAd4910eE"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: COMP
+  - address: "0x2501713A67a3dEdde090E42759088A7eF37D4EAb"
+    # deployed contract 0x7e7d4467112689329f7E06571eD0E8CbAd4910eE using Optimism bridge 0x4200000000000000000000000000000000000012
+    # in this trx - https://optimistic.etherscan.io/tx/0x579283b7dd4abad911946f69fdb5bfb4693397e048af4dc58a42681195741649
+    networks:
+      - optimism
+    tags:
+      - deployer
+      - eoa
 websites:
   - url: https://compound.finance/

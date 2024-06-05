@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: opensource-observer
 display_name: Open Source Observer
 github:
@@ -14,15 +14,14 @@ blockchain:
       - wallet
   - address: "0x87feed6162cb7dfe6b62f64366742349bf4d1b05"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: impactevaluator.eth
   - address: "0x5cbd6362e6f222d2a0feb89f32566ebd27091b98"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - safe
       - wallet

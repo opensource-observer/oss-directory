@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: poapin-glory-lab
 display_name: POAPin
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x5afc7720b161788f9d833555b7ebc3274fd98da1"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

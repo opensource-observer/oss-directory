@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: asseth
 display_name: asseth
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x04a8a22e5ef364c5237df13317c4f083f32c2cc4"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

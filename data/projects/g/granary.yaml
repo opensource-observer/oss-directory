@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: granary
 display_name: Granary
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0xe027880ceb8114f2e367211df977899d00e66138"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -22,7 +20,7 @@ blockchain:
     name: InitializableImmutableAdminUpgradeabilityProxy
   - address: "0xdde5dc81e40799750b92079723da2acaf9e1c6d6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -67,7 +65,7 @@ blockchain:
     name: UiDataProvider
   - address: "0x158b0b1414f153e58f8acac50e777feec234dd9d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -87,7 +85,7 @@ blockchain:
     name: DefaultReserveInterestRateStrategy
   - address: "0xd539294830eaf5c22467ce6e085ae4e02861845a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -108,7 +106,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x7c8e7536c5044e1b3693eb564c6de3a3ce58bbda"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -151,14 +149,14 @@ blockchain:
     name: WETHGateway
   - address: "0x5a89ec095e6466379dcad8b60059a95977e14fee"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xff50bcda308254549be68e5f3e79cd6304d95478"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -171,7 +169,7 @@ blockchain:
     name: GranaryRewardsVault
   - address: "0xc01a7ad7fb8a085a3cc16be8eaa10302c78a1783"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -210,7 +208,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x9aeefef549323511e027d70562f0c7edcdeb294c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -237,14 +235,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x872b9e8aea5d65fbf29b8b05bfa4aa3fe94cc11f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xf6d1cabe63237970b0e5fec45afc5b2c1312d8e0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -258,21 +256,21 @@ blockchain:
     name: TestGrainLGEUniV3
   - address: "0x44998eee6fe3bfead1e6a69cd15208e2ca4a5280"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xb839c82630a36b5f7a5320cd0814886bf4900f1e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x10615d451a5b91c92ce8538703e7aaba5d5ccc4d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -309,28 +307,28 @@ blockchain:
     name: unverified
   - address: "0x7b48eb52c1314b4ee374315b343caae38ff00e90"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xb3ac95152e9ab64f8f2bbae4f0024a6c01cddda5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x3884fcd0db58c0fe9f6da852fa43db898524be95"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x7366c31311ce84e0009334d2731e262f17f8b217"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -343,14 +341,14 @@ blockchain:
     name: MerkleDistributorWithDeadline
   - address: "0x3cc0a623f1affab5d5514a453965ce8c80b45549"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x025d9d36c616946530ff8ea32d912abf73170947"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -365,7 +363,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x27d72395a9b6170b846dc9283d5b041a4413426a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -390,7 +388,7 @@ blockchain:
     name: WETHGateway
   - address: "0x6387c7193b5563dd17d659b9398acd7b03ff0080"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -415,14 +413,14 @@ blockchain:
     name: GrainSaleClaim
   - address: "0xe2dfcb86c99599dafc12028f67b8456f99c9de4c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xfd389dc9533717239856190f42475d3f263a270d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -435,13 +433,13 @@ blockchain:
     name: DefaultReserveInterestRateStrategy
   - address: "0x80bb30d62a16e1f2084deae84dc293531c3ac3a1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Grain
   - address: "0x7a191973eaf8cdcc4de683d10c1e11c5a5bc717d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Rewarder

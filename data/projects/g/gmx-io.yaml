@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: gmx-io
 display_name: GMX
 github:
@@ -6,349 +6,348 @@ github:
 blockchain:
   - address: "0x5f799f365fa8a2b60ac0429c48b153ca5a6f0cf8"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
     name: xvix.eth
   - address: "0xe7bfff2ab721264887230037940490351700a068"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x3ca273a31de5c6989790ac66d57e117f9924f3bc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: bonusgmx
   - address: "0x1de098faf30bd74f22753c28db17a2560d4f5554"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GmxWethArbitrumRewardsDistributor
   - address: "0xa75287d2f8b217273e7fcd7e86ef07d33972042e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: vGLP
   - address: "0x03f349b3cc4f200d7fae4d8ddaf1507f5a40d356"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x489ee077994b6658eafa855c308275ead8097c4a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Vault
   - address: "0x908c4d94d34924765f1edc22a1dd098397c59dd4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x5c04a12eb54a093c396f61355c6da0b15890150d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpWethArbitrumRewardsDistributor
   - address: "0x199070ddfd1cfb69173aa2f7e20906f26b363004"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Vester
   - address: "0xabbc5f99639c9b6bcb58544ddf04efa6802f4064"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Router
   - address: "0x4277f8f2c384827b5273592ff7cebd9f2c1ac258"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GLP
   - address: "0x4d268a7d4c16ceb5a606c173bd974984343fea13"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x23208b91a98c7c1cd9fe63085bff68311494f193"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GMX
   - address: "0xa27c20a7cf0e1c68c0460706bb674f98f362bc21"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OrderBookReader
   - address: "0xf42ae1d54fd613c9bb14810b0588faaa09a426ca"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: esGMX
   - address: "0x60519b48ec4183a61ca2b8e37869e675fd203b34"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpEsgmxArbitrumRewardsDistributor
   - address: "0x22199a49a999c351ef7927602cfb187ec3cae489"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Reader
   - address: "0x1addd80e6039594ee970e5872d247bf0414c8903"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: fsGLP
   - address: "0x3963ffc9dff443c2a94f21b129d429891e32ec18"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpManager_updated
   - address: "0x5402b5f40310bded796c7d0f3ff6683f5c0cffdf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: sGLP
   - address: "0x8bfb8e82ee4569aee78d03235ff465bd436d40e0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RewardReader
   - address: "0xd2d1162512f927a7e282ef43a362659e4f2a728f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RewardTracker
   - address: "0x4e971a87900b931ff39d1aad67697f49835400b6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: fGLP
   - address: "0x35247165119b69a40edd5304969560d0ef486921"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: bnGMX
   - address: "0x4530b7de1958270a2376be192a24175d795e1b07"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: FastPriceEvents
   - address: "0x321f653eed006ad1c29d174e17d96351bde22649"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GlpManager
   - address: "0x09f77e8a13de9a35a7231028187e9fd5db8a2acb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OrderBook
   - address: "0x2d68011bca022ed0e474264145f46cc4de96a002"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VaultPriceFeed
   - address: "0x2f546ad4edd93b956c8999be404cdcafde3e89ae"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StakedGlp
   - address: "0xc73d553473dc65ce56db96c58e6a091c20980fba"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RewardRouter
   - address: "0xc8ee91a54287db53897056e12d9819156d3822fb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: EventEmitter
   - address: "0xf5f30b10141e1f63fc11ed772931a8294a591996"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MarketFactory
   - address: "0xbf56a2f030c3f920f0e2ad9cf456b9954c49383a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: FeeHandler
   - address: "0x5384e6cad96b2877b5b3337a277577053bd1941d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BatchSender
   - address: "0x9dc4f12eb2d8405b499fb5b8af79a5f64ab8a457"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DepositHandler
   - address: "0x9e0521c3dbb18e849f4955087e065e5c9c879917"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LiquidationHandler
   - address: "0xf6b804f6cc847a22f2d022c9b0373190850be34d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SwapHandler
   - address: "0x9e32088f3c1a5eb38d32d1ec6ba0bcbf499dc9ac"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WithdrawalHandler
   - address: "0x3c3d99fd298f679dbc2cecd132b4ec4d0f5e6e72"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RoleStore
   - address: "0x8514fc704317057fa86961ba9b9490956993a5ed"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AdlHandler
   - address: "0x3b070aa6847bd0fb56efadb351f49bbb7619dbc2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ExchangeRouter
   - address: "0xfd70de6b91282d8017aa4e741e9ae325cab992d8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DataStore
   - address: "0x47c031236e19d024b42f8ae6780e44a573170703"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MarketToken
   - address: "0xb95db5b167d75e6d04227cfffa61069348d271f5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RewardRouterV2
   - address: "0x3d6ba331e3d9702c5e8a8d254e5d8a285f223aba"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PositionRouter
   - address: "0x6a9215c9c148ca68e11aa8534a413b099fd6798f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Timelock
   - address: "0x8960d1b45a2d15d063b84b34dfb2fb2ca7535527"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: FastPriceFeed
   - address: "0xb87a436b93ffe9d75c5cfa7bacfff96430b09868"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PositionRouter
   - address: "0x11d62807dae812a0f1571243460bf94325f43bb7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: FastPriceFeed
   - address: "0xa906f338cb21815cbc4bc87ace9e68c87ef8d8f1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RewardRouterV2
   - address: "0x75e42e6f01baf1d6022bea862a28774a9f8a4a0c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PositionManager
   - address: "0x87a4088bd721f83b6c2e5102e2fa47022cb1c831"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PositionManager
   - address: "0xe7e740fa40ca16b15b621b49de8e9f0d69cf4858"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Timelock
   - address: "0x352f684ab9e97a6321a13cf03a61316b681d9fd2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OrderHandler
   - address: "0x51e210dc8391728e2017b2ec050e40b2f458090e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OrderHandler

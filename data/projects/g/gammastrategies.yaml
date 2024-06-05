@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: gammastrategies
 display_name: Gamma Strategies
 github:
@@ -6,65 +6,61 @@ github:
 blockchain:
   - address: "0xac789308a29783f507f1f3baacbd43326c5767f4"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xade38bd2e8d5a52e60047affe6e595bb5e61923a"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x851525d90405e60bd59249beaed364b02a9bc48e"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xf08bdbc590c59cb7b27a8d224e419ef058952b5f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Hypervisor
   - address: "0x22ae0da638b4c4074a683045cce759e8ba990b1f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Rewarders_UniProxy
   - address: "0x4faa2c69a759d7f0c66c256ffd2e306ccae2cbb1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LiquidityGeneratorToken
   - address: "0x7f7a93a458fea8f6c2abeb163d087d5d68c42479"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LiquidityGeneratorToken
   - address: "0x66cd859053c458688044d816117d5bdf42a56813"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: HypeRegistry
   - address: "0x37595fcaf29e4fbac0f7c1863e3df2fe6e2247e9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: HypeRegistry
   - address: "0xa216c2b6554a0293f69a1555dd22f4b7e60fe907"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: HypeRegistry

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: jedi-swap
 display_name: JediSwap
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x18aa467e40e1defb1956708830a343c1d01d3d7c"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

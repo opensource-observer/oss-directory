@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: raho11
 display_name: raho11
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x146424a93270c188328ee5ab732cc586e8a9e535"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

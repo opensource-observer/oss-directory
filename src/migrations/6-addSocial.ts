@@ -1,4 +1,4 @@
-import { Migration } from "./index.js";
+import { Migration } from "../types.js";
 
 /**
  * Move `twitter` to `social` and set the name of `social` to the project name.

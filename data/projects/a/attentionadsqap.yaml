@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: attentionadsqap
 display_name: attentionadsqap
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x24eb84f2c45eb0bde32183662b417cbc8896e34f"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

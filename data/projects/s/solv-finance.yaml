@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: solv-finance
 display_name: Solv Protocol
 github:
@@ -6,84 +6,83 @@ github:
 blockchain:
   - address: "0x55c09707fd7afd670e82a62faee312903940013e"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x5531f96bb9e9559ae9880cc0109e06ef477aef8e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: PayableBeaconFactory
   - address: "0xdde4b08e7f9bb7792f73438a8e1a29271e06ebf6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x1d9e979f89d044d5a7bea2206e941b485d9958e0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeaconProxy
   - address: "0x689020287883dfeba3382158ade309a5963952ba"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x5fc1dd6ce1744b8a45f815fe808e936f5dc97320"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeaconProxy
   - address: "0x629ad7bc14726e9cea4fcb3a7b363d237bb5dbe8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OpenFundMarket
   - address: "0x66e6b4c8aa1b8ca548cc4ebcd6f3a8c6f4f3d04d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeaconProxy
   - address: "0x9d9aaf63d073b4c0547285e98d126770a80c4dce"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeaconProxy
   - address: "0x59cf3db95bdf5c545877871c3863c9dbe6b0b7cf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xe9bd233b2b34934fb83955ec15c2ac48f31a0e8c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeaconProxy
   - address: "0x6ec1fec6c6af53624733f671b490b8250ff251ed"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: NavOracle
   - address: "0x22799daa45209338b7f938edf251bdfd1e6dcb32"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeaconProxy

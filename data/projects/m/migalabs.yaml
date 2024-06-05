@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: migalabs
 display_name: Miga Labs
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x492d683a51613abcef3ad233149d69b7fe60fbd7"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

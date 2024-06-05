@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: streamethorg
 display_name: StreamETH
 github:
@@ -6,24 +6,21 @@ github:
 blockchain:
   - address: "0x7b21f4b4c1d3320e9955a89729d31cce4635b2bd"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: xshorten.eth
   - address: "0xa93950a195877f4ebc8a4af3f6ce2a109404b575"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: pablov.eth
   - address: "0xba5af4407797f74771dd35684fcfcd65467a2e90"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

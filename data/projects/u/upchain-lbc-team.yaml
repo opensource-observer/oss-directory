@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: upchain-lbc-team
 display_name: Upchain DAO
 github:
@@ -6,9 +6,9 @@ github:
 blockchain:
   - address: "0xd6823f807c45efdc56c9ae8db0226ca10af6e8ab"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
+      - deployer
       - eoa
       - wallet
     name: tinyxiong.eth

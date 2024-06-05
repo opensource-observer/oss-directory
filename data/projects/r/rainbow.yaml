@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: rainbow
 display_name: Rainbow
 github:
@@ -12,24 +12,20 @@ npm:
 blockchain:
   - address: "0x7a3d05c70581bd345fe117c06e45f9669205384f"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: rainbowwallet.eth
   - address: "0x0c36a5b01e1668c867a5e58f23bb6cb4d83a4cc8"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x12a39421c23f4d3f788c33f0f9281652ac4f909a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -38,7 +34,7 @@ blockchain:
     name: unverified
   - address: "0xceec95425de041b8c83dd9e019f7597b7a356d4a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -58,7 +54,7 @@ blockchain:
     name: unverified
   - address: "0x00000000009726632680fb29d3f7a9734e3010e2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

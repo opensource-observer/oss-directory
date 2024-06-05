@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: commons-stack
 display_name: Commons Stack
 github:
@@ -6,33 +6,32 @@ github:
 blockchain:
   - address: "0x8110d1d04ac316fdcace8f24fd60c86b810ab15a"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: commonsstack.eth
   - address: "0xb25fef9755dd6e3635fbc7770b1f6c588f379689"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xfa4ee6b523fc1e8b53015d7d81331d568cdb5906"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x1251a94b6d800979d2d933b8bd5914b892772ac6"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xa0527ba80d811cd45d452481caf902dfd6f5b8c2"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: givepraise
 display_name: Praise
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x0b7246ef74ca7b37fdc3d15be4f0b49876622f95"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

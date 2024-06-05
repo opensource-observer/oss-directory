@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: dagora-playground
 display_name: dAgora
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x40350ab3c7111bc32096c5a86398eaa32b37e3dd"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

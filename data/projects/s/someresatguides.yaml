@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: someresatguides
 display_name: Somer Esat Ethereum Staking Guides (Ubuntu)
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x32b74b90407309f6637245292cd90347de658a37"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

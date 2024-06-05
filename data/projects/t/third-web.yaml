@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: third-web
 display_name: ThirdWeb
 github:
@@ -26,16 +26,14 @@ npm:
 blockchain:
   - address: "0xdd99b75f095d0c4d5112ace938e4e6ed962fb024"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: deployer.thirdweb.eth
   - address: "0xd24b3de085cfd8c54b94fead08a7962d343e6de0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -43,7 +41,7 @@ blockchain:
     name: TWFactory
   - address: "0x10c06f8b3695813276b4a921c06bb3b122aaf9d2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -84,7 +82,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xe9d53b11d6531b0e56990755a7856889fc59848d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -92,7 +90,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa7d58d2bd95330c7efb2b6219759aec359a9e270"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -119,7 +117,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x227549075404eb458452e8bd3bf6638dfe6a4764"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -138,14 +136,14 @@ blockchain:
     name: Multiwrap
   - address: "0xcf4c511551ae4dab1f997866fc3900cd2aaec40d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: DropERC721
   - address: "0x31d8eaff8af8c1207644b1e04980d3e821fdde05"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -159,14 +157,14 @@ blockchain:
     name: AirdropERC1155
   - address: "0x5bb3dcac11fa075d4f362bb2d0de93fa821f1da9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: DropERC20
   - address: "0xa01ce7cafe37504040dc365e72f2ef77131964ed"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -179,14 +177,14 @@ blockchain:
     name: TokenERC20
   - address: "0x8f18067d118b1dd1d7a503b0b6ed255341068029"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: VoteERC20
   - address: "0x4616fc6060d6d6176f49edc6bb6975197f0d2e4a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -206,7 +204,7 @@ blockchain:
     name: AirdropERC721Claimable
   - address: "0x135fc9d26e5ec51260ece1df4ed424e2f55c7766"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -220,21 +218,21 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x902dd246e66d8c3ce652375a723f2a52b43b9aae"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x7185fbf58db5f3df186197406cec2e253a1f5fe6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: TokenERC721
   - address: "0x8a4cd3549e548bbeeb38c16e041fff040a5acabd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -242,7 +240,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4a70ee403a71f39dbdf53f2b7bac728ea6787724"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -256,7 +254,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x710baa1e42ddc0bcc972920601b0236b1be600a3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -269,7 +267,7 @@ blockchain:
     name: TokenERC721_OSRoyaltyFilter
   - address: "0x52cad924093414cf7e0eadd597ad985b33d17a7c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -289,49 +287,49 @@ blockchain:
     name: Pack
   - address: "0x0e1d366475709ef677275e4161a20456cac2071f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: TokenERC20
   - address: "0xf58d5d56aefdf755dbbf6e636b83f39af2f31977"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xb0435b47ad26115a39c59735b814f3769f07c2c1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: DropERC1155
   - address: "0x4f247c69184ad61036ec2bb3213b69f10fbede1f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x6284c3c151fe74bd0096865019a4092134397f20"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xfabf408b0a476672c0ba05b9efaa1a3ed1149d35"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x3ecc47016c47948ed6c88fff689429fa0141e92d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -357,7 +355,7 @@ blockchain:
     name: TokenStake
   - address: "0xe87765b2e864db282a03e3b88494e08c2635e4a9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -383,7 +381,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x00808581f24f017f2a4225cf3bb6cff968982d1f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -391,7 +389,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x83ccfaaa705bf3b734b50121d47b82d58ae91796"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -425,7 +423,7 @@ blockchain:
     name: EnglishAuctionsLogic
   - address: "0x7c487845f98938bb955b1d5ad069d9a30e4131fd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -453,7 +451,7 @@ blockchain:
     name: DropERC721
   - address: "0x31787f747d98a24fabdac09b1d0a23f91b972d91"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -473,14 +471,14 @@ blockchain:
     name: Pack_OSRoyaltyFilter
   - address: "0x7181aca2a01bc98596b1d5375c97389f0d136b2b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: Marketplace
   - address: "0xc6b309fdc8f3e0eb20c0f0691f2a81f2fc8c3e36"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -512,14 +510,14 @@ blockchain:
     name: unverified
   - address: "0x8fca03e0e8c04a9d6824fda9305a09f98543a450"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xe135ef65c2b2213c3fd56d0bd6500a2ca147ac10"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -527,14 +525,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xac4190bff783b19812137c38e7d3c724b655f1d5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: SignatureDrop
   - address: "0x8cbc8b5d71702032904750a66aefe8b603ebc538"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -542,7 +540,7 @@ blockchain:
     name: Forwarder
   - address: "0x8c4b615040ebd2618e8fc3b20cefe9abafdeb0ea"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -550,14 +548,14 @@ blockchain:
     name: TWFee
   - address: "0xfb967f8ebb9b9cef32dcb4d33fc1559cef16bc15"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xa2a4cec0ec6b39299fcf36c9a6f4bb21a15e5abe"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -584,141 +582,141 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x1a671803cf24c00d186c778e565bd7178cd7ed79"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DropERC721
   - address: "0x58f5019b506417dbc87fc714ce28655e7ae388c4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TokenERC20
   - address: "0xe5b68556c12f37fa12f15ae87ea32f15a8c4e7b9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DropERC721
   - address: "0x79d4860d9cd2f7f2e5edcf22cdf70b58a73e92d0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TokenERC20
   - address: "0xb2a88b1cc10691557328f7cd64280cf3f667469c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TokenERC20
   - address: "0xc1e3eaa17edd58b60070d9534a308914d4d2658c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DropERC721
   - address: "0x39435557dfb4e0a2fc1f3424ae0e66914ee0ff58"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TokenERC20
   - address: "0x1672310528ce0d099ad6a8a76b2106cfa1e9ae3c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DropERC20
   - address: "0xd11df9e6a557f20faf6ec53d05427f770e9a9bc4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TokenERC20
   - address: "0x8cc5b22d4356a45e0a18778079051c8cf640a14a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TokenERC20
   - address: "0x1921054a4f8817f9783628f0694744f91dd9d34e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TokenStake
   - address: "0x18f803fbd9143dd59537969e48eba47e2f91a175"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TokenERC20
   - address: "0x0cc1f2f6b2b6bb24b07c6e6131a52404f0f7fedd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AirdropERC721
   - address: "0x935e909fa02f75180b28c52d396022911fcb1892"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xe8dd2ff0212f86d3197b4afdc6dac6ac47eb10ac"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xeaabc71311e07a12f005df5a0a106052cf3e35af"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TokenERC20
   - address: "0x59708edc1a55a78acd3087df4424dabd661d577b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: TokenERC20
   - address: "0xccddcec1831646beff2753249f1b9c580327e89f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DropERC1155
   - address: "0x1b5947e1a2d5a29d0df20931deab0b87818209b9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DropERC20
   - address: "0xc4903c1ff5367b9ac2c349b63dc2409421aaee2a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DropERC721
   - address: "0x2df9851af45dd41c8584ac55d983c604da985bc7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SignatureDrop
   - address: "0x0148b28a38efaac31b6aa0a6d9feb70fe7c91ffa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DropERC721
   - address: "0x2a396b2d90bacef19cda973586b2633d22710fc2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DropERC1155

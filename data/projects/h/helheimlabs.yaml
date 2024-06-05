@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: helheimlabs
 display_name: HelheimLabs (AutoChessia)
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xb0ee1755460dddb01f73104df2e61a89b0464885"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

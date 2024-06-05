@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: copper-protocol
 display_name: Copper Protocol
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x3d9da641741447784298a2d58db0ee5801dcabbd"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

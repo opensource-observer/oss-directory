@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: crunchdao
 display_name: CrunchDAO
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x6279e0bddc76b8adca38585fee25d763da058b03"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

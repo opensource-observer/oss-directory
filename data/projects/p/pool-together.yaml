@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: pool-together
 display_name: PoolTogether
 github:
@@ -6,29 +6,26 @@ github:
 blockchain:
   - address: "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: lonser.eth
   - address: "0xd7f73cbf2b6ac915976cc96706b76d6425fbc234"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x4d40eb12430a57965cee3015348d490c6156df20"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xc516fe1fee5122d66e9427721a63d6c27e1201ca"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -373,7 +370,7 @@ blockchain:
       - wallet
   - address: "0x42cd8312d2bce04277dd5161832460e95b24262e"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

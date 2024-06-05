@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: defilab-xyz
 display_name: DefiLab
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x9fe6764778db6ad5c5ed86242485d1a868a8c52a"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

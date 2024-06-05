@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: beefy-finance
 display_name: Beefy Finance
 github:
@@ -6,59 +6,49 @@ github:
 blockchain:
   - address: "0x010da5ff62b6e45f89fa7b2d8ced5a8b5754ec1b"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x982f264ce97365864181df65df4931c593a515ad"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xd927ce147f098ce634301e6c4281541b1939a132"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xfb41cbf2ce16e8f626013a2f465521d27ba9a610"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x6453bd91c3b06dcc24f588fffa384b0eeb0178b3"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x123e2974efc726fabc16ea729c3e84f17a788db1"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x161d61e30284a33ab1ed227bedcac6014877b3de"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x859dad715971e5ec84f1793e37f328d4f691fca7"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -299,7 +289,7 @@ blockchain:
     name: BeefyVaultV6
   - address: "0xc5be4084b3d945fe83e1be4bd96522fa1d1c722d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -499,7 +489,7 @@ blockchain:
     name: BeefyZapAggregator
   - address: "0xdc036ab31d2f105e15c1896f88d13b7bcf3e9292"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -608,7 +598,7 @@ blockchain:
     name: StrategyBalancerComposableMultiRewardGaugeUniV3
   - address: "0x2bdfbd329984cf0dc9027734681a16f542cf3bb4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -663,7 +653,7 @@ blockchain:
     name: BeefyVaultV6
   - address: "0xe95a759946b0f9a21ef08da65b782ab6b26d2764"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -881,7 +871,7 @@ blockchain:
     name: BeefyLaunchpool
   - address: "0x6598d84f2bec8eeb2e05f71f0a012d4aec21bda3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -900,7 +890,7 @@ blockchain:
     name: BeefyHarvestWatcher
   - address: "0x7e240c368272da4bfd77bf5dd0151c8cb57ab609"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1100,7 +1090,7 @@ blockchain:
     name: BeefyVaultV6
   - address: "0x107dbf9c9c0ef2df114159e5c7dc2baf7c444cff"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1155,7 +1145,7 @@ blockchain:
     name: StrategyAaveSupplyOnlyOptimismBeets
   - address: "0xc9737c178d327b410068a1d0ae2d30ef8e428754"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1253,7 +1243,7 @@ blockchain:
     name: StrategyExactlySupply
   - address: "0x1198f78efd67dfc917510aaa07d49545f4b24f11"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1284,7 +1274,7 @@ blockchain:
     name: StrategyCommonSolidlyGaugeLP
   - address: "0xda2307a45d298e855415675bf388e2bd64351d5b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1363,7 +1353,7 @@ blockchain:
     name: BeefyVaultV6
   - address: "0x8396f3d25d07531a80770ce3dea025932c4953f7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1490,7 +1480,7 @@ blockchain:
     name: unverified
   - address: "0x405ee7f4f067604b787346bc22acb66b06b15a4b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1528,7 +1518,7 @@ blockchain:
     name: ProxyAdmin
   - address: "0x6e2dcebf8c14c72329f224a26edfd547d3c3e09c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1541,7 +1531,7 @@ blockchain:
     name: StrategyCommonSolidlyGaugeLP
   - address: "0x40324434a0b53dd1ed167ba30dcb6b4bd7a9536d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1584,7 +1574,7 @@ blockchain:
     name: StrategyCommonSolidlyGaugeLP
   - address: "0xf0a7626eccbee00af144bb1f77cd187af85bbf41"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1688,7 +1678,7 @@ blockchain:
     name: BeefyVaultV6
   - address: "0x936aad8da1364b0940d0e882d3d468f4e0f65421"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1876,7 +1866,7 @@ blockchain:
     name: AuraSrcSwapper
   - address: "0xe2f035f59de6a952ff699b4edd0f99c466f25fec"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -1889,7 +1879,7 @@ blockchain:
     name: BeefyVaultV6
   - address: "0xfcdd5a02c611ba6fe2802f885281500ec95805d7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2132,7 +2122,7 @@ blockchain:
     name: BeefyVaultV6
   - address: "0xfe40f6ead11099d91d51a945c145cfad1dd15bb8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2187,7 +2177,7 @@ blockchain:
     name: BeefyVaultV6
   - address: "0x6b88a921785b593f05c83badaf8bf7ba9e077b3e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2236,7 +2226,7 @@ blockchain:
     name: unverified
   - address: "0xcbab6076b4b0c482e7127a201b79a13d117e2b53"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2303,7 +2293,7 @@ blockchain:
     name: StrategyCommonVelodromeGaugeV2
   - address: "0x216eee15d1e3faad34181f66dd0b665f556a638d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2370,7 +2360,7 @@ blockchain:
     name: unverified
   - address: "0xb708038c1b4cf9f91ccb918dad1b9fd757ada5c1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2408,7 +2398,7 @@ blockchain:
     name: unverified
   - address: "0x994ab71f95a8de4daaf6de3d9862284693fb2bdf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2421,14 +2411,14 @@ blockchain:
     name: StrategyCommonSolidlyGaugeLP
   - address: "0xa8fd81a0ec43841b64cdae13f1f6816108fd37ff"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x346967b0c7d9fd394cc7b3a9a7f10a6729c6debe"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2471,14 +2461,14 @@ blockchain:
     name: StrategyHopSolidlyUniV3
   - address: "0x587c3e2e17c59b09b120fc2d27e0ead6edd2c71d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xe00232a57b6b39b6cabaf9222866d99751f28af2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2491,7 +2481,7 @@ blockchain:
     name: BeefyUniV2ZapSolidly
   - address: "0xe5a01497bff17f4f0f7b771a2c05e78f84292b4c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2584,7 +2574,7 @@ blockchain:
     name: VeloRewards
   - address: "0xef46ea3e79c2d75a6bcb8ba7a3869d9a6e54258b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2640,7 +2630,7 @@ blockchain:
     name: BeefyVaultV6
   - address: "0x50d6945632e6d89cc9c9d38e1fe5b6250f6213af"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2779,7 +2769,7 @@ blockchain:
     name: StargateCurveReceiver
   - address: "0x0892a178c363b4739e5ac89e9155b9c30214c0c0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -2822,7 +2812,7 @@ blockchain:
     name: StrategyCommonSolidlyGaugeLP
   - address: "0x6b2cfabf0703d807784d11eee07759559edeff6a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3058,7 +3048,7 @@ blockchain:
     name: BeefyUniV2ZapSolidly
   - address: "0x241cd1944dbafaa9fe86106d93dd2bb549ea20a4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3205,7 +3195,7 @@ blockchain:
     name: BeefyVaultV6
   - address: "0x499287c138aed9a107d748ddfd53668d104378b1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3350,7 +3340,7 @@ blockchain:
     name: StrategyAuraSideChain
   - address: "0x16ab7178b1b062a326c007a52e32a67218151b59"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -3369,25 +3359,25 @@ blockchain:
     name: XERC20Factory
   - address: "0xae2262c6ed576b2a25b0e2d71054a530169b7075"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StrategyBalancerMultiRewardGaugeUniV3
   - address: "0x55dd65993cb918cda55ea02fcc6d417a364833d9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StrategyBalancerComposableMultiRewardGaugeUniV3
   - address: "0xb80318aab313d54274358eec637f18affd03df8b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeefyZapOneInch
   - address: "0x80514cfb7cb438f1f997ab62ffd1314c1a1c0f12"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeefyVaultV6
@@ -3406,13 +3396,13 @@ blockchain:
       - wallet
   - address: "0x225555f86f6b0fa4f418f41a4865c66096b7452e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeefyVaultV6
   - address: "0x41ca66f328a589249212e5dcf924a7d363682d56"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BeefyVaultV6

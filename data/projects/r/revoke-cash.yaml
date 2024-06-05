@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: revoke-cash
 display_name: Revoke
 github:
@@ -6,15 +6,14 @@ github:
 blockchain:
   - address: "0xe126b3e5d052f1f575828f61feba4f4f2603652a"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: kalis.eth
   - address: "0xfcbf17200c64e860f6639aa12b525015d115f863"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

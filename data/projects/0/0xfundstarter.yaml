@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: 0xfundstarter
 display_name: FundStarter
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x7174c29c73ca0fb48da91aa5cfdc361bae4c87d2"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: polysensus-chaintrap
 display_name: Polysensus Chaintrap
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xb053216998e4e11c655e3c9cee086bf3cc7c8ed7"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

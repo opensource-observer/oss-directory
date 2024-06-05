@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: hundred-finance
 display_name: Hundred Finance
 github:
@@ -6,39 +6,32 @@ github:
 blockchain:
   - address: "0x8286dc6df929c4bfa4f6951cab4dae2ec02d4d72"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xb16a11442878d6f1ef202ae63233a7c13e98fd7f"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
     name: deployer.hnd.eth
   - address: "0x8fcba7279af1d5d12c77e7062caf1e09a0623f97"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x383ea12347e56932e08638767b8a2b3c18700493"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x8a0d639f272f4b966b2dea42d4b743dce7e82c28"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -46,7 +39,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x28707252fdea41b72cf321d153a6c01fa9f6fb79"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -54,7 +47,7 @@ blockchain:
     name: JumpRateModelV4
   - address: "0x10010069de6bd5408a6ded075cf6ae2498073c73"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -62,7 +55,7 @@ blockchain:
     name: ChainlinkPriceOracleProxy
   - address: "0xe8f12f5492ec28609d2932519456b7436d6c93bd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -70,7 +63,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x8c6139ff1e9d7c1e32bdafd79948d0895ba0a831"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -78,7 +71,7 @@ blockchain:
     name: Comptroller
   - address: "0x9d56800b8ae23b79fe9d4822aa3245fa527caf3f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -86,7 +79,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x0f390559f258eb8591c8e31cf0905e97cf36ace2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -94,7 +87,7 @@ blockchain:
     name: Unitroller
   - address: "0x090a00a2de0ea83def700b5e216f87a5d4f394fe"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -102,7 +95,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xe4e43864ea18d5e5211352a4b810383460ab7fcc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -110,7 +103,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x8e15a22853a0a60a0fbb0d875055a8e66cff0235"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -118,7 +111,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xbb93c7f378b9b531216f9ad7b5748be189a55807"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -126,7 +119,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xfcd8570ad81e6c77b8d252bebeba62ed980bd64d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -134,7 +127,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x243e33aa7f6787154a8e59d3c27a66db3f8818ee"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -142,7 +135,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x10010078a54396f62c96df8532dc2b4847d47ed3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -150,7 +143,7 @@ blockchain:
     name: Hundred
   - address: "0xedba32185baf7fef9a26ca567bc4a6cbe426e499"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -158,84 +151,84 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xa8cd5d59827514bcf343ec19f531ce1788ea48f8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x1f8e8472e124f58b7f0d2598eae3f4f482780b09"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x1747d329cb37e0a0f387f24065addbc60eab69dd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: Vyper_contract
   - address: "0xff39252ce6a8fc5657235eefeb45702b86c42e8f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xec378cdd60e890332f7a8cc251315327a4f244b6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xac8204a9d79ca87d192ea98a9381600642a66a5f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x3ffd03ef31f6d5a6c517cefa9cdf43efebee8399"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xba57440fa35fdb671e58f6f56c1a4447ab1f6c2b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: Vyper_contract
   - address: "0x4adf575dbe0e6f1c5909ae9c7119927b4faabbbd"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: Vyper_contract
   - address: "0xb4bafc3d60662de362c0cb0f5e2de76603ea77d7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: Vyper_contract
   - address: "0x3a4148dddd121fbced8717cb7b82370be27f76bf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: Vyper_contract
   - address: "0xc3cc9369fcb8491dad4fa64ce1fbd3dd2d70034f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -254,14 +247,14 @@ blockchain:
     name: Vyper_contract
   - address: "0xf191d17dee9943f06bb784c0492805280aee0bf9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x607312a5c671d0c511998171e634de32156e69d0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -269,7 +262,7 @@ blockchain:
     name: CErc20Delegator
   - address: "0x103f2ca2148b863942397dbc50a425cc4f4e9a27"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -277,7 +270,7 @@ blockchain:
     name: CErc20Delegator
   - address: "0xa8236eafbaf1c3d39396de566ceea6f320e3db00"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -285,7 +278,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xd7f3bf2085ad32ff95e1bcc408d37f10f6949270"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -346,7 +339,7 @@ blockchain:
     name: MultiChainMirrorGate
   - address: "0x772918d032cfd4ff09ea7af623e56e2d8d96bb65"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -366,7 +359,7 @@ blockchain:
     name: Vyper_contract
   - address: "0xb426c1b7fabea9ea6a273e8427040568a8c7df13"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -380,7 +373,7 @@ blockchain:
     name: MultiChainMirrorGateV2
   - address: "0x89db3b59381bc06fe9bf74532afd777e5f78ef02"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -406,7 +399,7 @@ blockchain:
     name: MiniChefV2
   - address: "0x816e21c33fa5f8440ebcdf6e01d39314541bea72"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -419,14 +412,14 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x8f8bbdbae2814aa1c41a4000e213eb89c7ddefb5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x929c697c557d2ed4c8c446e60614cfcce0b1d680"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -572,7 +565,7 @@ blockchain:
     name: Vyper_contract
   - address: "0xd46db083de31c64af3f680f139a31ff37bac004f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

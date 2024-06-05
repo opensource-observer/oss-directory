@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: newzchain
 display_name: Newzchain
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x16ca53cb1c624228ae26d9be3850b755616ec538"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

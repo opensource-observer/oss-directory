@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: bg-expiriments
 display_name: bg-expiriments
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xa5b9fe680bb0e10e044e1d7b17dc532651c68845"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

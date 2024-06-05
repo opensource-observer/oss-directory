@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: footprintanalytics
 display_name: Footprint Analytics
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x1f0a4eb02d9befbd1538e8d230699d4e434cdbee"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

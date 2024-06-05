@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: asilodigital
 display_name: Asilo Digital
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0xf0e57c78092ef49bbba945279e09939d2b6bb391"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

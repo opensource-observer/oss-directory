@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: dexkit
 display_name: DexKit
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x5265bde27f57e738be6c1f6ab3544e82cdc92a8f"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

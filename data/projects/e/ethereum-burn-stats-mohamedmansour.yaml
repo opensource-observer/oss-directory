@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ethereum-burn-stats-mohamedmansour
 display_name: Watch The Burn
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x1c6f6dae4e19b80eb42801cde0ba873ad5ff2e2d"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

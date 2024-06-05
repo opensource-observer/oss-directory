@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: decentri-fi
 display_name: Decentrifi
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x715beae184768766c65d8ed4aa6d1f6893efb542"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

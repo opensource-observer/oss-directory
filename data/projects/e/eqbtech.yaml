@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: eqbtech
 display_name: Equilibria Finance
 github:
@@ -6,23 +6,19 @@ github:
 blockchain:
   - address: "0xc493bd1d8d794357e79da84613b67533afc4d337"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x4ee0d104505efddf7db607d77ae59c29cc8010e7"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x70f61901658aafb7ae57da0c30695ce4417e72b9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -30,7 +26,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x479603de0a8b6d2f4d4eaa1058eea0d7ac9e218d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -38,14 +34,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x64627901dadb46ed7f275fd4fc87d086cff1e6e3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0x96c4a48abdf781e9c931cfa92ec0167ba219ad8e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -53,14 +49,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xfff4b05a10c5df1382272e554254ea8b097ec03e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xb3c40b02f38f61f3d141c325c19f35b1f9df99ca"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract

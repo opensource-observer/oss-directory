@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: wallet-test-framework
 display_name: wallet-test-framework
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x004f67dabb603aaa58ed52641ccaff09c559704a"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

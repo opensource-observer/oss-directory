@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ethereumphone
 display_name: EthereumPhone
 github:
@@ -6,13 +6,13 @@ github:
 blockchain:
   - address: "0x12dc5ff4ab146d9f70e50bd5f9854114a115e6c9"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x2cf3d95f67901d7d944898b7b05504c454105bc8"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

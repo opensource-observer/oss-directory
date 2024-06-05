@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: f-o-a-m
 display_name: FOAM
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x2195beaed7b0783f2c13c75fc439396583c1a37d"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

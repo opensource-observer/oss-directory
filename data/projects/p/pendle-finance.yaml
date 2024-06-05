@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: pendle-finance
 display_name: Pendle
 github:
@@ -6,21 +6,19 @@ github:
 blockchain:
   - address: "0x1fccc097db89a86bfc474a1028f93958295b1fb7"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xc107dacaf1d6e369cfdc67695beadf5e2068191e"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x28de02ac3c3f5ef427e55c321f73fdc7f192e8e4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -28,7 +26,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x5c3ddc827c40964728336229808e27c6374f07bf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -43,7 +41,7 @@ blockchain:
     name: PendleMarketFactoryV2
   - address: "0xa6dc67ff3b241dedec6af907ff24bb5cfc3eeeaf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -65,7 +63,7 @@ blockchain:
     name: BaseSplitCodeFactoryContract
   - address: "0xf5a7de2d276dbda3eef1b62a9e718eff4d29ddc8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -80,7 +78,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x9581931527eba1b27666a4669c51057cf57bcd4b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -93,7 +91,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x1fbacedf510daa79dfd9b41227a7ba192d5d548d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -113,7 +111,7 @@ blockchain:
     name: ActionMintRedeemStatic
   - address: "0x429e497eb2b4cfdbb28e63d64eef537438b222ee"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -127,7 +125,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x963ddbb35c1ae44e2a159e3b5fb5177e0b32660d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -146,7 +144,7 @@ blockchain:
     name: BaseSplitCodeFactoryContract
   - address: "0x9d6d509c0354aca187aac6bea7d063d3ef68e2a0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -161,14 +159,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xb6168f597cd37a232cb7cb94cd1786be20ead156"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x25d43b56e3e7c4fd119d137e081e93412995d93c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -208,7 +206,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x4106fc9811a792130502bb3a5b693894cca7bd8e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -228,14 +226,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x29deaee5413a07c933c15b37d7deb6eb744ba9c8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x704478dd72fd7f9b83d1f1e0fc18c14b54f034d0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -243,14 +241,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x5202f7477685686284b3f47b0a5334b15ea0393d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x96a528f4414ac3ccd21342996c93f2ecdec24286"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -258,14 +256,14 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x6952eb0c152d683ea2f2b8b90a5e888c1550b69d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xf3f560164979fe7f8f3eb2b64669eac00e7043a6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -292,7 +290,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x16648548d12d1f71663f712211d56ae7322f58b9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -305,7 +303,7 @@ blockchain:
     name: unverified
   - address: "0x59968008a703dc13e6beaeced644bdce4ee45d13"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -313,32 +311,32 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x2066a650af4b6895f72e618587aad5e8120b7790"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x7d49e5adc0eaad9c027857767638613253ef125f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendleMarket
   - address: "0x3209e9412cca80b18338f2a56ada59c484c39644"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VotingEscrowPendleSidechain
   - address: "0x96015d0fb97139567a9ba675951816a0bb719e3c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendlePrincipalTokenV2
   - address: "0x56051f8e46b67b4d286454995dbc6f5f3c433e34"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: PendleYieldTokenV2

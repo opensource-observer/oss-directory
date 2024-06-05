@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ren
 display_name: Ren
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x90899d3cc800c0a9196aec83da43e46582cb7435"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -21,7 +19,7 @@ blockchain:
     name: RenAssetProxyBeacon
   - address: "0x2222229fb3318a6375fa78fd299a9a42ac6a8fbf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -37,7 +35,7 @@ blockchain:
     name: MintGatewayProxyBeacon
   - address: "0xf36666c230fa12333579b9bd6196cb634d6bc506"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GatewayRegistryProxy

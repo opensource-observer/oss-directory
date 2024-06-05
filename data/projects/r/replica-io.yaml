@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: replica-io
 display_name: Replica_IO
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xdb52af06c2d029c5408fff31f6c6cd5e81731ec2"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

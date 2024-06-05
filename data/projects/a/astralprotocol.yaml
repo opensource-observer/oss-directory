@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: astralprotocol
 display_name: Astral Protocol
 github:
@@ -13,9 +13,7 @@ blockchain:
       - wallet
   - address: "0x25bdff8db8d80971935a7f38a0cf31dec62f7696"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

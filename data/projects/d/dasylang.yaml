@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: dasylang
 display_name: Dasy
 github:
@@ -6,14 +6,14 @@ github:
 blockchain:
   - address: "0x07a145dbbc7e425d0f1b3b9982f955e97abad7a2"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: z80.eth
   - address: "0xea7ca3bb3cb5cffe49602e4a2c96b78e3c610699"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - safe
       - wallet

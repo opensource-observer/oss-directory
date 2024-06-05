@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: poolfish-xyz
 display_name: Poolfish
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x79a375fefbf90878502eadba4a89697896b60c4d"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

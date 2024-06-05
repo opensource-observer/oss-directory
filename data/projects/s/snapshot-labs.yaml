@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: snapshot-labs
 display_name: Snapshot
 github:
@@ -12,9 +12,7 @@ blockchain:
       - wallet
   - address: "0x8c28cf33d9fd3d0293f963b1cd27e3ff422b425c"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

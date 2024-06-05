@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: rysk-finance
 display_name: Rysk Finance
 github:
@@ -6,74 +6,74 @@ github:
 blockchain:
   - address: "0xa67d0c1180e0e183f482304a9b5436a3478f0674"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xaf7f68c50de6dd885d91ced7a6572ed764d6a0b8"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xca19f26c52b11186b4b1e76a662a14da5149ea5a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: AddressBook
   - address: "0xc10b976c671ce9bff0723611f01422acbae100a5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LiquidityPool
   - address: "0xb9f33349db1d0711d95c1198acba9511b8269626"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MarginPool
   - address: "0xa802795269588bf33739816f76b53fd6cd099b27"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AlphaOptionHandler
   - address: "0xc63717c4436043781a63c8c64b02ff774350e8f8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AlphaOptionHandler
   - address: "0x44227dc2a1d71fc07dc254dfd42b1c44aff12168"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OptionCatalogue
   - address: "0x217749d9017cb87712654422a1f5856aaa147b80"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LiquidityPool
   - address: "0xc117bf3103bd09552f9a721f0b8bce9843aae1fa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OptionExchange
   - address: "0x77617bcb00f497f53ce8fdf70e405bab612c2aa6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RyskDisperseArbSTIP
   - address: "0x594bd4ec29f7900ae29549c140ac53b5240d4019"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: OwnedUpgradeabilityProxy

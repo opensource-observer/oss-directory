@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: farcasterxyz
 display_name: Farcaster
 github:
@@ -6,13 +6,13 @@ github:
 blockchain:
   - address: "0x299707E127CC77DE01b9Fd968Bc0ff475f3C6342"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x6D2b70e39C6bc63763098e336323591eb77Cd0C6"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

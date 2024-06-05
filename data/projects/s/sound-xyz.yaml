@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: sound-xyz
 display_name: Sound.xyz
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xa66cdda1817c85ed3d232a5affd17673e933d8a7"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

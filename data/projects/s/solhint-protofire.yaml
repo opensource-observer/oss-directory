@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: solhint-protofire
 display_name: Solhint
 github:
@@ -7,8 +7,7 @@ github:
 blockchain:
   - address: "0x5fc34d03cfdf145db5f3c5b5558e39a4164aaa30"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

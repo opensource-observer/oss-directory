@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: forkinwisdom
 display_name: forkinwisdom
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xa7c6a8782632733d48246bf516475341dac6d65b"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: wise-crowds-liberating-structures
 display_name: Wise Crowds Liberating Structures
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xca63608615de005339652c0eca93c5836eb0c2bd"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

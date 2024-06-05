@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: kromatika-finance
 display_name: Kromatika
 github:
@@ -6,15 +6,13 @@ github:
 blockchain:
   - address: "0x9e77c5b95222908d9b0b42e79f6e476c4e7cbf2d"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xdbaabc182e5fcebf216c353a3ebe32cdb7390094"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -92,7 +90,7 @@ blockchain:
     name: unverified
   - address: "0x37bb03a0c5464da8886d40f733e1d383d75ceccf"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -123,7 +121,7 @@ blockchain:
     name: TransparentUpgradeableProxy
   - address: "0x90ae03f8a0f9942ba02ab6c45cf7e0b905a2dad4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -172,13 +170,13 @@ blockchain:
     name: L2StandardERC20
   - address: "0x4ab78b894611f185cd7378e25c8f80d63cfbaa71"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MetaSwapRouter
   - address: "0x02c282f60fb2f3299458c2b85eb7e303b25fc6f0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LimitOrderManager

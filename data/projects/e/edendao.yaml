@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: edendao
 display_name: Eden DAO
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x58b36156a268ec1e28ac781554c556e5152f7450"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

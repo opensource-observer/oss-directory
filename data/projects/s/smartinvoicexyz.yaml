@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: smartinvoicexyz
 display_name: Smart Invoice
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xff16d64179a02d6a56a1183a28f1d6293646e2dd"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

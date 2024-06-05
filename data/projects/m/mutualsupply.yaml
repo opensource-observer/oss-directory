@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: mutualsupply
 display_name: MUTUAL
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xeffe6b3dba2e39aa1085f88a93ab8563ba45baa6"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

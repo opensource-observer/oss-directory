@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: yubiai
 display_name: Yubiai
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x245bd6b5d8f494df8256ae44737a1e5d59769ab4"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

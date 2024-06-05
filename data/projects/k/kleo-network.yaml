@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: kleo-network
 display_name: Kleo Network
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x86b06319b906e61631f7edbe5a3fe2edb95a3fae"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

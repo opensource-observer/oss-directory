@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: pheasant-network
 display_name: Pheasant Network
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0xfc976d96ccc57bc9d04aea92a4a66abd71926298"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -21,7 +19,7 @@ blockchain:
     name: unverified
   - address: "0x0cdef21714e12a518b818c9a70c7aa39d4a69974"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

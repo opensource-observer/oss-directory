@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: mawena-startup
 display_name: mawena-startup
 github:
@@ -6,15 +6,13 @@ github:
 blockchain:
   - address: "0x3ecac36a6d1399ccc0b0ee85d3c1a46abd4760fe"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xf4030ddd79fc7fd49b25c976c5021d07568b4f91"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

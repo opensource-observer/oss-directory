@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: jobstash
 display_name: JobStash
 github:
@@ -6,18 +6,14 @@ github:
 blockchain:
   - address: "0xaa163c47065c22d17ed1c47e3e244337d2056c17"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: duckdegen.eth
   - address: "0xf071e75c56ed5b162b5cb5e9d30d752bcd663f2d"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

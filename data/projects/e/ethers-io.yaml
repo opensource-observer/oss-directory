@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ethers-io
 display_name: ethers.js
 github:
@@ -8,17 +8,14 @@ npm:
 blockchain:
   - address: "0x8ba1f109551bd432803012645ac136ddd64dba72"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: ricmoo.firefly.eth
   - address: "0x643aa0a61eadcc9cc202d1915d942d35d005400c"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

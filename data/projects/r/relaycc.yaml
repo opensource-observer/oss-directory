@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: relaycc
 display_name: relaycc
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x0cb27e883e207905ad2a94f9b6ef0c7a99223c37"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

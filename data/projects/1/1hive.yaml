@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: 1hive
 display_name: 1Hive Gardens
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x1b8c7f06f537711a7caf6770051a43b4f3e69a7e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -14,9 +14,7 @@ blockchain:
       - wallet
   - address: "0x809c9f8dd8ca93a41c3adca4972fa234c28f7714"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
@@ -28,15 +26,13 @@ blockchain:
       - wallet
   - address: "0x422ae3412510d6c877b259dad402ddeaf1fdb28e"
     networks:
-      - mainnet
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x1ad44446a588010ab6b741cd0201b92f84b597bb"
     networks:
-      - mainnet
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

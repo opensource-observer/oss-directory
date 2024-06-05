@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: interest-protocol
 display_name: Interest Protocol
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x085909388fc0ce9e5761ac8608af8f2f52cb8b89"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -80,7 +78,7 @@ blockchain:
     name: AnchoredViewRelay
   - address: "0x48fa7528bfd6164ddf09df0ed22451cf59c84130"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -100,7 +98,7 @@ blockchain:
     name: CappedNonStandardToken
   - address: "0x2db08783f13c4225a1963b2437f0d459a5bcb4d8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

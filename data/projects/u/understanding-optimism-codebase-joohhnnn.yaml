@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: understanding-optimism-codebase-joohhnnn
 display_name: Understanding Optimism Codebase
 github:
@@ -8,7 +8,7 @@ github:
 blockchain:
   - address: "0xf8e30c251aa7974aa0a2d9e452d863681f8b59ac"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: othub-io
 display_name: othub-io
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xec654cbfd1ca5ff00466defb5dcd7ff519aeee33"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

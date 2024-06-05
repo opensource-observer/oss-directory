@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: warden-swap
 display_name: WardenSwap
 github:
@@ -6,42 +6,40 @@ github:
 blockchain:
   - address: "0xbe9228ce3b7ed30c8646143d0e56ee16fec6c07c"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x5e12ae8e436cd25f0041d931f8e4c7a3bb42cc1f"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x7ea8c22e6dcd7bd69eb180664da68e1f1f11d696"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x8860dc637a513027e4883a77a5567cfeaa718ae2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x2208705b6f232ef498d46514b5130192789e9dc8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x493f1b81b05e29e86d9a4762944ed8b5fd2924a5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -54,21 +52,21 @@ blockchain:
     name: TopOptiPunk
   - address: "0xe2f50042766bdea8bcbfa0ff6a94bab65f897826"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x2c49bdff3acb931491d1c0231952d9718c516539"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x755db0a2c1041b20ad123792181c55a3d6e2ffde"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -93,35 +91,35 @@ blockchain:
     name: unverified
   - address: "0x02800d3d33e7e9d32c586fcaaea0412e5a57792d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x2c7a8122a1b512adc848024ce72e837001ecb586"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x71762f1fdc36afc769a25dcd73226c6edca6832a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x81d10cbea2b7e2ce9589cfe48442a83f013885ab"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: unverified
   - address: "0x815f667a542653d89d44ff9d09b11dd7d4d78004"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -134,7 +132,7 @@ blockchain:
     name: unverified
   - address: "0xdcc3a56e97a7448c64341e38867241f65168817d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -147,20 +145,19 @@ blockchain:
     name: unverified
   - address: "0x79a556ef2c5b613db3dfa8797e6772c5aaf86834"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WardenRouterV2
   - address: "0x3657952d7ba5a0a4799809b5b6fdff9ec5b46293"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WardenCosmicBrain
   - address: "0xc146a672c85b408a9a7bc00f74ad567b7684134c"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

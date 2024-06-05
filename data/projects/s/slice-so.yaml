@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: slice-so
 display_name: Slice
 github:
@@ -6,15 +6,15 @@ github:
 blockchain:
   - address: "0xb05ba6660b9fade3634466bf7834cdfc76fa4886"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
+      - deployer
       - eoa
       - wallet
 websites:

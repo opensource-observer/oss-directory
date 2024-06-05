@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: cryptosmartnow
 display_name: CryptoSmartNow
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x9dcba70b2dfe5807e2a847e065ebb666791f8b8a"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: opendataforweb3
 display_name: Open Data Community
 github:
@@ -24,7 +24,7 @@ blockchain:
       - wallet
   - address: "0xb62e762af637b49eb4870bce8fe21bfff189e495"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

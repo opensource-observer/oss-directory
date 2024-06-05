@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: sonne-finance
 display_name: Sonne Finance
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xfb59ce8986943163f14c590755b29db2998f2322"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: questbook
 display_name: Questbook
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x89ce0f71d7387a580c6c07032f74f393a65d77f4"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

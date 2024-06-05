@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: copin-protocol
 display_name: Copin.io
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x1a561e43f264952d7b4f25fb4967122c87618beb"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

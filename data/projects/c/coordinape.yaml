@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: coordinape
 display_name: Coordinape
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xcb21ed4ca5c5fff8b1e21ddb7bbff8c6546ce5e6"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

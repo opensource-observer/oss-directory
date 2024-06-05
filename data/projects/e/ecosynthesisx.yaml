@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ecosynthesisx
 display_name: EcoSynthesisX
 github:
@@ -6,18 +6,20 @@ github:
 blockchain:
   - address: "0x7380a42137d16a0e7684578d8b3d32e1fbd021b5"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xa8258ed271bb9be9d7e16c5818e45ef6f2577d92"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
+  - address: "0x4A5599597c0b30742163933A2e7B0F91AdD87fD6"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
 description: Regenerative public goods

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: defi-wonderland
 display_name: Wonderland
 github:
@@ -22,7 +22,7 @@ blockchain:
       - wallet
   - address: "0xf58e95124d655731664c509c07e733348d7081c0"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

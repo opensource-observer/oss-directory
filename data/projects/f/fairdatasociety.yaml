@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: fairdatasociety
 display_name: Fairdrive
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x537720479015ccca7544c4e4754de6310a3198ea"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

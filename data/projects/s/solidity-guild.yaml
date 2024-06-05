@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: solidity-guild
 display_name: The Solidity Guild
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xc127ef6868daddb33ffeeb39a8aee05ba37c919b"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

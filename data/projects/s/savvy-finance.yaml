@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: savvy-finance
 display_name: Savvy DeFi
 github:
@@ -6,211 +6,211 @@ github:
 blockchain:
   - address: "0x223a809f9252a9c6948141b878b1537679e7d16c"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x6d356e6085769f4a1c755703a59e087b55da51a9"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xb5231e17596beaf436a25b018bd63e5b42e14135"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvySwapWETH
   - address: "0xbcdab0382c17f58b828db3ad840f0140c4f00156"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvyPriceFeed
   - address: "0x3e30fdae04c08fc20fa2fe0cf55c95d99a9c2d8f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LBsvUSDandUSDC
   - address: "0x09dde6661fd023cf7c3751555347a5cb8687f806"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: YieldStrategyManagerUSD
   - address: "0x882e251c1e010205a9f9b0147f3331b4728bb640"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: WrapTokenGateway
   - address: "0x2dfbced8a7b40143e9c8513e788a0c8b3325e035"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Allowlist
   - address: "0xca728c2593ac1912457c8060836cc13bb61f1b08"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AaveAdapterUSDC
   - address: "0x39440d2528abc6fbd2e539da28bbc581f9078161"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AaveAdapterWBTC
   - address: "0xbf837f2c7894cff859a01d078d7aaa8c47221a2f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvyBooster
   - address: "0xf202ab403cd7e90197ec0f010ee897e283037706"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: svUSD
   - address: "0xf7728582002ef82908c8242cf552e969ba863ffa"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: svETH
   - address: "0x5c4eb1909fb21e39fc45ee753420aedeba07f3ef"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvyPositionManagerETH
   - address: "0xdc82e20111767f4a2a76a65bd85e41f7859c7b9f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: YieldStrategyManagerBTC
   - address: "0x9a3a3ba687fcb8afe6367eff3a5f5a11f51626da"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvySwapWBTC
   - address: "0x0d6554a8c6a7d98d4aa05206daddbcb3372b8f7f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvyRedlist
   - address: "0x68d54ff41ba47355b95bd477bcf4d5ff4b2c2a59"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: InfoAggregator
   - address: "0xcd5156fdd53fd9a0f5bfc37b212dd9c989c10533"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvySageETH
   - address: "0x78a370c3d5fff93da53a2b088a117244c52af857"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvySageUSD
   - address: "0x3204d81c73f8100766c1691a67078b16ec7c142c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvyPositionManagerBTC
   - address: "0xd9565ab01aa30d7aa2b982b8b1c740480c1c8497"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvySwapUSDCe
   - address: "0x2fccd0f67d0722f5eb7c1a404dff0224544155e3"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvySageBTC
   - address: "0x43ab8f7d2a8dd4102ccea6b438f6d747b1b9f034"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvyProtocolToken
   - address: "0xeee18334c414a47fb886a7317e1885b2bfb8c2a6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: svBTC
   - address: "0x722399ceebc51c648fbba56c743e802cac4edb95"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AllowlistForRedlist
   - address: "0x0e56d518e5d3f5e6cfcfd46095b6b4024541027b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvySwapUSDT
   - address: "0x4056e92c635595e9b9d5f4f85ba04220cbd0cbb6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AaveAdapterWETH
   - address: "0x9aeee4656f67034b06d99294062feba1015430ad"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VeSVY
   - address: "0x23627eb1c6692adf25ad79285fde2bc6bdf12c82"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: YieldStrategyManagerETH
   - address: "0x03fa5a7fa80e5ea464559d21b8843e15b7969c07"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvySwapDAI
   - address: "0x43be188901f529c11337f28bc1f753a878b2f691"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvySwapBTCb
   - address: "0x9394b6b85beab8cba1e4aa35fbbb5c31c258224a"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: JonesDAOAdapter
   - address: "0x36358a1597db299033b16fda567010d53c0a4eda"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvyPositionManagerUSD
   - address: "0x97dca4000b2b89afd926f5987ad7b054b3e39db2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SavvyFrontendInfoAggregator

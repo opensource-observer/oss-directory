@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: 153x153x153
 display_name: 153 <> Vouch by Blockravers
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xe7392514177398a3818d8e92afd1c69d004fa119"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: flipside-crypto
 display_name: Flipside Crypto
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x75ee82787c548daeac58af6cba5bd2a9ff863d28"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -19,8 +19,7 @@ blockchain:
     name: FlipsideAttestation
   - address: "0x1ef753934c40a72a60eab12a68b6f8854439aa78"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

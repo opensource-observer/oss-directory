@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: descier
 display_name: deScier
 github:
@@ -13,9 +13,7 @@ blockchain:
       - wallet
   - address: "0x98f42f33c9ec06a585f1a97edfd61661ccfea033"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

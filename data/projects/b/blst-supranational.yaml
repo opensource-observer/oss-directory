@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: blst-supranational
 display_name: blst by Supranational
 github:
@@ -6,14 +6,13 @@ github:
 blockchain:
   - address: "0x0a6cd04ca9ce730c709276c6868d9f2c4d9ef1d6"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x756678bd0d2358d2198511c3adf50502fdf45597"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

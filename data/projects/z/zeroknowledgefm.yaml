@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: zeroknowledgefm
 display_name: Zero Knowledge Podcast
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x0b0e6486648fbbb8e9ab33e3ae9d0b44b6faa701"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

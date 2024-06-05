@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: chokepoint-dao
 display_name: chokepoint-dao
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x134538aa584d2f087cea2385b4f738336319fd83"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

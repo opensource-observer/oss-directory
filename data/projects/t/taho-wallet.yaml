@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: taho-wallet
 display_name: Taho
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x99b36fdbc582d113af36a21eba06bfeab7b9be12"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:

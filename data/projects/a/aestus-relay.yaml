@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: aestus-relay
 display_name: Aestus Relay
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xa31895c358d899030a1eb78feaadf28c8000cf47"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

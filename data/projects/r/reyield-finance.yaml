@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: reyield-finance
 display_name: Reyield Finance
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x68b431671938a4be82907ebcd5661b9df8d0af69"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

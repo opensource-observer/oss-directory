@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: gameland0
 display_name: Gameland
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x7a387e6f725a837df5922e3fe71827450a76a3e5"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

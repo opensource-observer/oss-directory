@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: walletx-inc
 display_name: WalletX-Inc
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x06c9ad27ca815d6e8370580c6397b70f87c4ffa5"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

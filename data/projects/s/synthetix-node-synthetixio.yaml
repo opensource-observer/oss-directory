@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: synthetix-node-synthetixio
 display_name: Synthetix IPFS Node
 github:
@@ -10,7 +10,7 @@ github:
 blockchain:
   - address: "0x98f763ceb9d4d921cdfa688cb7d6419f967d28e7"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

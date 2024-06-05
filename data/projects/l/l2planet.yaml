@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: l2planet
 display_name: L2 Planet
 github:
@@ -19,9 +19,7 @@ blockchain:
       - wallet
   - address: "0x2d9d84f4d8a4254ea23fe18825193cbd1b21b749"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

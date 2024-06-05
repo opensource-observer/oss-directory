@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: zeropoolnetwork
 display_name: ZeroPool
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x947f8a49640b4770a8c7fe3c1e69ffc974295448"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: w3projecthub
 display_name: W3 Project Hub │ W3展報
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xe37fd00db1637eeca67427193e88e28790ab1e21"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: alchemyplatform
 display_name: Alchemy
 github:
@@ -16,7 +16,7 @@ blockchain:
     name: SimpleAccountFactory
   - address: "0xa43c51aacae41aec73e1eff2d13d69ed13de8dab"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

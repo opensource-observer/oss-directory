@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: therougeproject
 display_name: Rouge Ticket
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xeb439eed5642641968f9d8b52f2788e0f19b443b"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

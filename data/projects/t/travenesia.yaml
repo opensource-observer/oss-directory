@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: travenesia
 display_name: Travenesia
 github:
@@ -7,8 +7,9 @@ github:
 blockchain:
   - address: "0xa49cee842116a89299a721d831bcf0511e8f6a15"
     networks:
-      - optimism
+      - any_evm
     tags:
+      - deployer
       - eoa
       - wallet
     name: aethernity.eth

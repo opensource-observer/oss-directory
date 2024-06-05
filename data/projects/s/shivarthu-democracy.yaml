@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: shivarthu-democracy
 display_name: Shivarthu Democracy
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x7e30fb962f951ef78d901865f87dd036fc5aa946"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

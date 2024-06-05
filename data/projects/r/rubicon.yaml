@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: rubicon
 display_name: Rubicon
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x3204ac6f848e05557c6c7876e09059882e07962f"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -15,8 +14,7 @@ blockchain:
     name: rubicon.eth
   - address: "0xc96495c314879586761d991a2b68ebeab12c03fe"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -703,20 +701,20 @@ blockchain:
     name: unverified
   - address: "0xd4dcb4e92b0f434f1297d5239a3aad875e25f675"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: RubiconMarket
   - address: "0x7b24e6f4dd84674696c2a5809c24154ec6ac7f03"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RubiconRouter
   - address: "0xc715a30fde987637a082cf5f19c74648b67f2db8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: RubiconMarket

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ethcali
 display_name: ETHcali
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x55c9fbf09c056acac807cd674e34f1f8df0e711d"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

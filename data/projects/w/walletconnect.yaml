@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: walletconnect
 display_name: Wallet Connect
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xcbec15583a21c3ddad5fab658be5b4fe85df730b"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

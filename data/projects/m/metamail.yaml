@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: metamail
 display_name: MetaMail
 github:
@@ -19,8 +19,7 @@ blockchain:
       - wallet
   - address: "0x045ff23cf3413f6a355f0acc6ec6cb2721b95d99"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: perpetual-protocol
 display_name: Perpetual Protocol
 github:
@@ -6,31 +6,31 @@ github:
 blockchain:
   - address: "0x512472840327530ea03cce6f58966b221f3a8b6a"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x8ac863a9142781378ed302ab96105cada1697e85"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x849a19c0746fb0d335e02dec0d0b3e057e585176"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x2ae8831a00b3ebd603c0028b317cf30e578a4a3c"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x8b395bb4d7f458df7b83246bc81c74af655b87f1"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

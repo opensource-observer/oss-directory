@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: yokifinance
 display_name: Yoki Finance
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x2d9a8be931f1eab82abfcb9697023424e440cd43"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -19,7 +19,7 @@ blockchain:
     name: DCAV3Factory
   - address: "0xd9d0aa3fc1616ee96fe38f3ebaf9eac3862a9d4e"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

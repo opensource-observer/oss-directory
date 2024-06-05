@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: 2-pi-network
 display_name: 2Pi Network
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xe25831c97ac161ad58aef70b6cee507b0e49688c"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

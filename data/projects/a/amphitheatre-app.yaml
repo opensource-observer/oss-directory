@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: amphitheatre-app
 display_name: amphitheatre-app
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xff6378cdd5cc30ba9f3556ae33e1f73f07cd4b31"
     networks:
-      - mainnet
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

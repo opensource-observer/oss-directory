@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: crowdmuse
 display_name: Crowdmuse
 github:
@@ -19,8 +19,9 @@ blockchain:
       - wallet
   - address: "0xb38b6c236347603e0705f912b877d6308ec10f13"
     networks:
-      - optimism
+      - any_evm
     tags:
+      - deployer
       - eoa
       - wallet
     name: crowdmuse.eth

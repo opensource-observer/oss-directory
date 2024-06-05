@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: gaia-os
 display_name: Digital Gaia
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x4bd87f86824a1577e705489780376da5ad309180"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

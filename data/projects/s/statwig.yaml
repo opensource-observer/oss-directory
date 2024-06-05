@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: statwig
 display_name: StaTwig Supply Chain Visibility for Life Saving Vaccines and Food
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x06fd1a0356a1e58852721331a3aed1b7ebe214ed"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

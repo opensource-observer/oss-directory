@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ipfs
 display_name: IPFS
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xdffd121d2654efba388a95631d0fe221a6ec5ce7"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

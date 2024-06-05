@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: thescinitiative
 display_name: The Science Commons Initiative
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x01d8aeff110a65da4052f140c19af10374e44525"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

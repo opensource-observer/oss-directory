@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: exoblock
 display_name: exoblock
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x6c8ac916e3be062a563c2f706be0593d91e72d94"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

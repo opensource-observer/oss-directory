@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: uxuycom
 display_name: uxuycom
 github:
@@ -6,43 +6,43 @@ github:
 blockchain:
   - address: "0x167fd617774bafba7bc66145ee7fd6b652ada2dd"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xde3e620e792557066b4d1a3baf2713872f8efb93"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xfb8ef54729f97f3c7b28d6969f9941735fbcb192"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xa15aab1c6281b07b9c59ae828d58572e08be2382"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: ExpertSpiderPass
   - address: "0x336227f062d20b322d81b13dfd033591850290f9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UxuyToken
   - address: "0xe3c8206fd456d189f89514c8a780b8da611057eb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: BabySpiderPass
   - address: "0xfc83441011e194f493abab9887fe0a65b7b980d6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: UPUXUYToken

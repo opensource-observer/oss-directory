@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: scribe-dao
 display_name: Scribe-DAO
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xa602a5777730da808e54fd96a77402b667974e68"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

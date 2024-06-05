@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: kenshitech
 display_name: Kenshi
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xa2dec4f8089f89f426e6beb76b555f3cf9e7f499"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

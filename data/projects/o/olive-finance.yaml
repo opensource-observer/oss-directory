@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: olive-finance
 display_name: Olive-Finance
 github:
@@ -6,14 +6,13 @@ github:
 blockchain:
   - address: "0x6f8e84c3d59994c897a95e8ad33d8b540958b950"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x77228cf81eaea8565ba0c5bbc05703436e1d712e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract

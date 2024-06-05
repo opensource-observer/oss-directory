@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: hypercerts
 display_name: Hypercerts
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xdc6d6f9ab5fcc398b92b017e8482749ae5afbf35"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -36,8 +36,7 @@ blockchain:
       - wallet
   - address: "0xb6091aab544ef253c23a37295953aafc9d836681"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

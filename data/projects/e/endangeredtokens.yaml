@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: endangeredtokens
 display_name: "Endangered Tokens: Endangered Trees as ReFi Biodiversity Assets "
 github:
@@ -12,9 +12,7 @@ blockchain:
       - wallet
   - address: "0xce849efc35a0a0a046e67c76b477c5432e4ba58b"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

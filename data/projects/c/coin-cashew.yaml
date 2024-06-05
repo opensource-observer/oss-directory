@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: coin-cashew
 display_name: Ethereum Staking Guides by CoinCashew
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0xcf83d0c22dd54475cc0c52721b0ef07d9756e8c0"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

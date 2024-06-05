@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: membranefi
 display_name: Membrane Finance
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xf15722c5f90a8e104b284098254b3949d212672c"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

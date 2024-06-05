@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: chronosex
 display_name: Chronos Exchange
 github:
@@ -6,203 +6,201 @@ github:
 blockchain:
   - address: "0x7754d8b057cc1d2d857d897461dac6c3235b4aae"
     networks:
-      - arbitrum-one
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x0ffc5a81f38d5b6ac15edacdd35a76578f59bbf2"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xaabc1e014ceb22c63ea385118625b7a57eb04e83"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: TransparentUpgradeableProxy
   - address: "0xce9240869391928253ed9cc9bcb8cb98cb5b0722"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: TransparentUpgradeableProxy
   - address: "0x538f0127d85e5c096f906396f5f6357a9c17c819"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: TransparentUpgradeableProxy
   - address: "0xa4276f9aa72b927c4751a0c6852569599463741f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: TransparentUpgradeableProxy
   - address: "0x24917af386e2fcf1aa1994fd3949f080740aeb23"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: TransparentUpgradeableProxy
   - address: "0x4db9d624f67e00dbf8ef7ae0e0e8ee54af1dee49"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: UniswapV3Factory
   - address: "0x3dc04b793afb8b6207122cfd0f6b1d7ed57fc2ba"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: TransparentUpgradeableProxy
   - address: "0x9a01857f33aa382b1d5bb96c3180347862432b0d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VotingEscrow
   - address: "0x9774ae804e6662385f5ab9b01417bc2c6e548468"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MaLPNFT
   - address: "0x233001101d35d7a5cab7d51bcfbab3679ae4dc15"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Minter
   - address: "0x520caf43e3c6481b71db95711802ed9179cca403"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: NonfungiblePositionManager
   - address: "0x15b2fb8f08e4ac1ce019eadae02ee92aedf06851"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Chronos
   - address: "0xe0abdfd837d451640cf43cb1ec4ee87976efbb41"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SwapRouter
   - address: "0xa32e5b70c3f1d6b1b63c3ff9a37a4174c9a46bd2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StakingNFTFeeConverter
   - address: "0xc72b5c6d2c33063e89a50b2f77c99193ae6cee6c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Voter
   - address: "0x5d9dba2d0ec06f44da7e234cbb0d7ba921834ae8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MasterChef
   - address: "0xe708aa9e887980750c040a6a2cb901c37aa34f3b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: GaugeFactory
   - address: "0x2157033ee7b0c9db90fbe879dae50b2fe26ad497"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MigrateMaNFT
   - address: "0x9aab66944d66516fefa26d27267e02af03d17c02"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: NFTDescriptor
   - address: "0x55d26d7e20bfb42948a05d6d9a69af8fd5400fa0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xcc5382fe1ecadbf18629c87b9c89a27b438889d4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: VoterV2
   - address: "0xca830f6d34d03c07b2a79021186c2ee4e0a3da58"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: AirdropClaim
   - address: "0x5e74e05771f0d1222834e66de5326c82a2c852e0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: NonfungibleTokenPositionDescriptor
   - address: "0x9b036dbb4dee6b1fc62eb7d4fcae2530200c90f6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Royalties
   - address: "0xe5493db8806a1f504a6420b3a5902a60b210db8c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: NFTSalesSplitter
   - address: "0xcd7e3bdbe5f4053f0c9e51013887aba8ccec239c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DysonPoolCL
   - address: "0x9a56f822babfbfdc2f25cb34eb952ff38af869d8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DysonPoolCL
   - address: "0x2e62d340cdc21848d444d6b454f89a541f9969d6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DysonPoolCL
   - address: "0x951966d474f13260f90a3e770b53589013d49241"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DysonPoolCL
   - address: "0xd416063128bf5a81d20547adadf29b74440d6699"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: DysonPoolCL

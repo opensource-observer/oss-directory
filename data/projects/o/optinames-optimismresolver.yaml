@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: optinames-optimismresolver
 display_name: Optinames & OptimismResolver
 github:
@@ -14,7 +14,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xf50831b4857ec32f6b9ca3b7145e47068014cf15"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: 88-mph
 display_name: 88mph
 github:
@@ -10,8 +10,7 @@ blockchain:
       - deployer
       - eoa
     networks:
-      - mainnet
-      - optimism
+      - any_evm
   - address: "0x332d87209f7c8296389c307eae170c2440830a47"
     networks:
       - mainnet

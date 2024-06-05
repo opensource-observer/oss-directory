@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: codingshdev
 display_name: CodingshDev
 github:
@@ -6,10 +6,9 @@ github:
 blockchain:
   - address: "0xd1a8dd23e356b9fae27df5def9ea025a602ec81e"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
+      - deployer
       - eoa
       - wallet
 websites:

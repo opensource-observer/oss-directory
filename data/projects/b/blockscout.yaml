@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: blockscout
 display_name: Blockscout
 github:
@@ -13,7 +13,7 @@ blockchain:
       - wallet
   - address: "0xc97f252c07111c058129a9d68622f7d5c418c737"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

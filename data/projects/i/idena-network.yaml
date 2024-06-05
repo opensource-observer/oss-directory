@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: idena-network
 display_name: IDENA
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0x8917418abe36e6e788068e96ef5a47d7484c06b1"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

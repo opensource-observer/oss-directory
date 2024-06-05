@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: seamless-protocol
 display_name: Seamless Protocol
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x53352a00316573e8f52696c572f1293ac877ef4d"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

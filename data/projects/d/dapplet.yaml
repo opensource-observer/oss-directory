@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: dapplet
 display_name: Dapplet
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xe02aae2cc50763b22e268593237ef822339853cf"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - safe

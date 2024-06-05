@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: project-squallet-refractor-labs
 display_name: Project Squallet from Lore
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xf647422bacd1ade547cff6882bb96527cf3bed2d"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -26,7 +25,7 @@ blockchain:
     name: ERC1967Proxy
   - address: "0x266b650f92753fd7be17b7487c8cc3bd05efab8a"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

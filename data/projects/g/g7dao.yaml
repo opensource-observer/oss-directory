@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: g7dao
 display_name: Game7 DAO
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xe5f48897e47530af72a818e03381a8c7d13e1db9"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

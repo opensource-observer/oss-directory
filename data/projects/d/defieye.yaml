@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: defieye
 display_name: DeFiEye
 github:
@@ -6,39 +6,32 @@ github:
 blockchain:
   - address: "0xe6d7b9fb31b93e542f57c7b6bfa0a5a48efc9d0f"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
     name: w3buidler.eth
   - address: "0xd250018939931691ef30fae31b3cbfdffaa14091"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0x00000000000007736e2f9aa5630b8c812e1f3fc9"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
     name: "Chaineye: Mini Bridge"
   - address: "0x393e4c83247d1af1c3fc4070688432479ef18297"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xeb0cf83c80e4b4cd82196dac94e2c579672b6b1c"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

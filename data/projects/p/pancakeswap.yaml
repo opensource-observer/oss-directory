@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: pancakeswap
 display_name: PancakeSwap
 github:
@@ -6,42 +6,38 @@ github:
 blockchain:
   - address: "0xdfa1a2df1ff153ab2afc327661e8414f2d04b3e3"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x42571b8414c68b63a2729146ce93f23639d25399"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x40492810a7de793eef0dfb3a58338fdfea511047"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x3af75af6f056d4d72c1675da919aebf908a109d6"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x02a84c1b3bbd7401a5f7fa98a384ebc70bb5749e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: PancakeFactory
   - address: "0x41ff9aa7e16b8b1a8a8dc4f0efacd93d02d071c9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
@@ -49,53 +45,53 @@ blockchain:
     name: PancakeV3PoolDeployer
   - address: "0xd621a46e8d8d077ceffd080c6bd4be60a1783d6c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
       - factory
     name: SmartChefFactory
   - address: "0x8cfe327cec66d1c090dd72bd0ff11d690c33a2eb"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x5e09acf80c0296740ec5d6f643005a4ef8daa694"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: MasterChefV3
   - address: "0x32226588378236fd0c7c4053999f88ac0e5cac77"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: SmartRouter
   - address: "0x0bfbcf9fa4f9c56b0f40a671ad40e0805a091865"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: PancakeV3Factory
   - address: "0x1b81d678ffb9c0263b24a97847620c99d213eb14"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: SwapRouter
   - address: "0x1b896893dfc86bb67cf57767298b9073d2c1ba2c"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: CakeOFT
   - address: "0x46a15b0b27311cedf172ab29e4f4766fbe7f4364"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract

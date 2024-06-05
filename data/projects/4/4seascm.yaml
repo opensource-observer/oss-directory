@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: 4seascm
 display_name: 4seasCM
 github:
@@ -13,8 +13,7 @@ blockchain:
       - wallet
   - address: "0x932a54b9e916ab39c974743f2065cb4384f2fdea"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

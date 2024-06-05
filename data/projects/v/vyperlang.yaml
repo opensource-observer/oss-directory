@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: vyperlang
 display_name: Vyper
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xabfa48bcc0f96fc70be7a4156b0a74ea350167fd"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: culture-blocks
 display_name: Culture Blocks
 github:
@@ -6,8 +6,7 @@ github:
 blockchain:
   - address: "0xabeeb05ba4764f45e5c0e8acb02059d7164ad35d"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: unruggable-labs
 display_name: Unruggable Names
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x8b1f85a93ac6e4f62695ea8ef2410d248605feff"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

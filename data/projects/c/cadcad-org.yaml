@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: cadcad-org
 display_name: "cadCAD: Computer Aided Design for Complex Systems"
 github:
@@ -6,16 +6,14 @@ github:
 blockchain:
   - address: "0x5041a1c1dcc760337e99b03db60feaf5f6f6c802"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - safe
       - wallet
   - address: "0x596c7b6b7bc5331ecb682523e342a2340c074602"
     networks:
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

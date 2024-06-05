@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: onchain-reads-matallo
 display_name: Onchain Reads
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xcf7eca52de76e72e562adddb513cef4c609f1fd2"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

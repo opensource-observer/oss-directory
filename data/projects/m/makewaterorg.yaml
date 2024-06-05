@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: makewaterorg
 display_name: MakeWater
 github:
@@ -9,8 +9,7 @@ blockchain:
       - eoa
       - wallet
     networks:
-      - mainnet
-      - optimism
+      - any_evm
 websites:
   - url: https://www.makewater.org/
 description: Education through water innovation.

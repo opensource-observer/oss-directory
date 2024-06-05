@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: adrastia-oracle
 display_name: Adrastia Oracle
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x056c7933d2f25904787bb92c26e9f90655529f8e"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -21,7 +19,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0xbf4b4c46a2070f2dbb60d41462ef704751c5b777"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -110,14 +108,14 @@ blockchain:
     name: PythiaTwapOracle
   - address: "0xad96e6c9e5d2b5639d3490abe23274660fa876dc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x6ee3b0daef79522784d8e63ebb62f10f8008eb3b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -136,14 +134,14 @@ blockchain:
     name: AdrastiaAaveV3RateAccumulator
   - address: "0xf403d00217b1c97cde7cc08b35f0d3c8f939bf14"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x5ab0ad95263c9ebdda6b17baed1bc28f97690f26"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -195,7 +193,7 @@ blockchain:
     name: AdrastiaTwapOracle
   - address: "0x4dd2886836eb5966dd2f5a223182e7889cd7f8a6"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -215,7 +213,7 @@ blockchain:
     name: AdrastiaUniswapV3LA
   - address: "0xfa84f31f3187b921bab4d3e3206d0b0de7a3d94b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

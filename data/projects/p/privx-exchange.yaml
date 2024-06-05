@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: privx-exchange
 display_name: PrivX
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x56bb0402b550bc1083e227982fcc1ff90354f628"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

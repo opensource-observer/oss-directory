@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: dinngo
 display_name: Furucombo
 github:
@@ -6,15 +6,13 @@ github:
 blockchain:
   - address: "0xbcb909975715dc8fde643ee44b89e3fd6a35a259"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xd2d63812c72d2455a9613efdf41feb4b0b58a7a9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

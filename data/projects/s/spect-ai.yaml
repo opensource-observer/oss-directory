@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: spect-ai
 display_name: Spect
 github:
@@ -13,9 +13,7 @@ blockchain:
       - wallet
   - address: "0x55b23ed53fe13060183b92979c737a8ef9a73b73"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

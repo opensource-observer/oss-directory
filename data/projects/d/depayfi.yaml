@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: depayfi
 display_name: DePay
 github:
@@ -6,10 +6,9 @@ github:
 blockchain:
   - address: "0x4e260bb2b25ec6f3a59b478fcde5ed5b8d783b02"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
+      - deployer
       - eoa
       - wallet
 websites:

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: maker-dao
 display_name: MakerDAO
 github:
@@ -310,14 +310,13 @@ github:
 blockchain:
   - address: "0x075da589886ba445d7c7e81c472059de7ae65250"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x283cc5c26e53d66ed2ea252d986f094b37e6e895"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -325,21 +324,21 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x467194771dae2967aef3ecbedd3bf9a310c76c65"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0x10e6593cdda8c58a1d0f14c5164b376352a55f2f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
     tags:
       - contract
     name: various:DiffersByChain
   - address: "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: L2Dai

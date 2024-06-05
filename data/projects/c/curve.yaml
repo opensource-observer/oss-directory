@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: curve
 display_name: Curve
 github:
@@ -6,68 +6,55 @@ github:
 blockchain:
   - address: "0x7eeac6cddbd1d0b8af061742d41877d7f707289a"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x919124f5f5135d3020a0b075412679755545f7c5"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xba22746d79e75931dd8c0336760332e5d4a372a5"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x745748bcfd8f9c2de519a71d789be8a63dd7d66c"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x3711ae92429ccef7581c4c6efe0cf6042ba0b1e2"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x7492ce19d83b3a0bac1bebc9706ce0df4add105f"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xbabe61887f1de2713c6f97e567623453d3c79f67"
     networks:
-      - arbitrum-one
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x71f718d3e4d1449d1502a6a7595eb84ebccb1683"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xabc000d88f23bb45525e447528dbf656a9d55bf5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -103,7 +90,7 @@ blockchain:
     name: Vyper_contract
   - address: "0xbf7e49483881c76487b0989cd7d9a8239b20ca41"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -128,7 +115,7 @@ blockchain:
     name: OFT Bridger
   - address: "0x7f90122bf0700f9e7e1f688fe926940e8839f353"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -136,7 +123,7 @@ blockchain:
     name: Vyper_contract
   - address: "0x16a7da911a4dd1d83f3ff066fe28f3c792c50d90"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -169,7 +156,7 @@ blockchain:
     name: Vyper_contract
   - address: "0x8664742f18f94065ed02f39a56bc55750dcc9e56"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -183,7 +170,7 @@ blockchain:
     name: Vyper_contract
   - address: "0x13fc868d6571b8a9371e70c4e404342deec0f2ac"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -191,7 +178,7 @@ blockchain:
     name: Vyper_contract
   - address: "0x0f9cb53ebe405d49a0bbdbd291a65ff571bc83e1"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -230,7 +217,7 @@ blockchain:
     name: Vyper_contract
   - address: "0xc5cfada84e902ad92dd40194f0883ad49639b023"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -244,7 +231,7 @@ blockchain:
     name: Vyper_contract
   - address: "0x12f407340697ae0b177546e535b91a5be021fbf9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -252,7 +239,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x54e8a25d0ac0e4945b697c80b8372445fea17a62"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -260,7 +247,7 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x44c7a35ecb0cf37a3d6fb38b4085d9328658e01d"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -268,7 +255,7 @@ blockchain:
     name: Vyper_contract
   - address: "0x445fe580ef8d70ff569ab36e80c647af338db351"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -306,7 +293,7 @@ blockchain:
     name: Vyper_contract
   - address: "0x7da64233fefb352f8f501b357c018158ed8aa455"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -319,7 +306,7 @@ blockchain:
     name: Vyper_contract
   - address: "0x78cf256256c8089d68cde634cf7cdefb39286470"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -333,7 +320,7 @@ blockchain:
     name: unverified
   - address: "0xb7de33440b7171159a9718cbe748086cecdd9685"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -347,7 +334,7 @@ blockchain:
     name: Vyper_contract
   - address: "0x89287c32c2cac1c76227f6d300b2dbbab6b75c08"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -360,7 +347,7 @@ blockchain:
     name: Vyper_contract
   - address: "0x62e0031b7f87da1fe3a54d13c51c2b535e5c921f"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -385,14 +372,14 @@ blockchain:
     name: Vyper_contract
   - address: "0x0100fbf414071977b19fc38e6fc7c32fe444f5c9"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: Vyper_contract
   - address: "0xc2b1df84112619d190193e48148000e3990bf627"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -412,7 +399,7 @@ blockchain:
     name: Vyper_contract
   - address: "0x4f3e8f405cf5afc05d68142f3783bdfe13811522"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - mainnet
       - optimism
     tags:
@@ -457,14 +444,14 @@ blockchain:
     name: Vyper_contract
   - address: "0xe35a879e5efb4f1bb7f70dcf3250f2e19f096bd8"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
     name: Vyper_contract
   - address: "0xe5de15a9c9bbedb4f5ec13b131e61245f2983a69"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -491,73 +478,73 @@ blockchain:
     name: various:DiffersByChain
   - address: "0x6eb2dc694eb516b16dc9fbc678c60052bbdd7d80"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: wstETH_swap
   - address: "0x960ea3e3c7fb317332d990873d354e18d7645590"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: tricrypto
   - address: "0xa827a652ead76c6b0b3d19dba05452e06e25c27e"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Vyper_contract_2CRV_EURS
   - address: "0xdbcd16e622c95acb2650b38ec799f76bfc557a0b"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: LPToken
   - address: "0xb17b674d9c5cb2e441f8e196a2f048a81355d031"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StableSwap_Factory
   - address: "0xb34a7d1444a707349bc7b981b7f2e1f20f81f013"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Vyper_contract
   - address: "0x30df229cefa463e991e29d42db0bae2e122b2ac7"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Vyper_contract
   - address: "0xc9b8a3fdecb9d5b218d02555a8baf332e5b740d5"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Vyper_contract
   - address: "0x755d6688ad74661add2fb29212ef9153d40fca46"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: StableSwap2EMAOracle
   - address: "0x59bf0545fca0e5ad48e13da269facd2e8c886ba4"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Vyper_contract
   - address: "0x0a824b5d4c96ea0ec46306efbd34bf88fe1277e0"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Vyper_contract
   - address: "0xd79138c49c49200a1afc935171d1bdad084fdc95"
     networks:
-      - arbitrum-one
+      - arbitrum_one
     tags:
       - contract
     name: Vyper_contract

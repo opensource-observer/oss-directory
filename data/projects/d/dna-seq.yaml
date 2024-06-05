@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: dna-seq
 display_name: Just DNA-Seq
 github:
@@ -12,8 +12,7 @@ blockchain:
       - wallet
   - address: "0xbc7beb2d44eb0cddf6c0f2560a21475c2e2ac19c"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: likecoin
 display_name: LikeCoin
 github:
@@ -12,13 +12,13 @@ blockchain:
       - wallet
   - address: "0xc42b28e5dbdef1e6e543bb063a4cf5f2f55894a3"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet
   - address: "0xc0ebefadcbf1d2a85fbfddc226a95860f5152b5f"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

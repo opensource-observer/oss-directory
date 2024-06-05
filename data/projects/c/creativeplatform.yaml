@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: creativeplatform
 display_name: creativeplatform
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0x1fde40a4046eda0ca0539dd6c77abf8933b94260"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

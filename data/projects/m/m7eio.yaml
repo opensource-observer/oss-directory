@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: m7eio
 display_name: m7eio
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x8b87fc63de32a3df145a9dfc1cf2501a458e8253"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

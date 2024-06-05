@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: chronicleprotocol
 display_name: Chronicle Labs (formerly Maker Oracle team)
 github:
@@ -7,7 +7,7 @@ github:
 blockchain:
   - address: "0x2f64d1d5d9504ac7731bcc90dce5510cb0ca057d"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa

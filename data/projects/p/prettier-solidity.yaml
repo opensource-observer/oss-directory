@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: prettier-solidity
 display_name: Prettier Solidity
 github:
@@ -8,9 +8,7 @@ npm:
 blockchain:
   - address: "0xfc756d8632a19cebd76560ce0a6967279e32131b"
     networks:
-      - arbitrum-one
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

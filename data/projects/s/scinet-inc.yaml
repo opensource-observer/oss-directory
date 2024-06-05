@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: scinet-inc
 display_name: SCINET-INC
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x1963a6cc8deb426ae196a95d9e91ac3dfffc67cb"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

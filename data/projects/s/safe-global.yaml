@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: safe-global
 display_name: Safe
 github:
@@ -34,26 +34,25 @@ npm:
 blockchain:
   - address: "0xa05c4256ff0dd38697e63d48df146e6e2fe7fe4a"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xd7df5bf3b8d2bd159664df54a30101d7faf6ca26"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0xab0d90fde397a4362acbe1d3a1c17f24b5b53266"
     networks:
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x68108902de3a5031197a6eb3b74b3b033e8e8e4d"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -66,7 +65,7 @@ blockchain:
     name: SafeChecker
   - address: "0xc22834581ebc8527d974f8a1c97e1bea4ef910bc"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -74,7 +73,7 @@ blockchain:
     name: GnosisSafeProxyFactory
   - address: "0xa6b71e26c5e0845f74c812102ca7114b6a896ab2"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract
@@ -82,7 +81,7 @@ blockchain:
     name: GnosisSafeProxyFactory
   - address: "0xfb1bffc9d739b8d520daf37df666da4c687191ea"
     networks:
-      - arbitrum-one
+      - arbitrum_one
       - optimism
     tags:
       - contract

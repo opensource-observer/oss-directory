@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: justcause-smeee23
 display_name: JustCause
 github:
@@ -13,7 +13,7 @@ blockchain:
     name: PoolTracker
   - address: "0x1623b06f4cf1dd0f88b2ccdaeb0811c064c9e982"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

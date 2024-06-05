@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: layer2es
 display_name: Layer2es
 github:
@@ -6,9 +6,7 @@ github:
 blockchain:
   - address: "0xcc167c4b4c4e2b72ee2aedd7bff9bd0b6eabdacb"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet

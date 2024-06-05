@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: gpad-lab
 display_name: GPAD Protocol
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x2475dcd4fe333be814ef7c8f8ce8a1e9b5fcdea0"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
       - wallet

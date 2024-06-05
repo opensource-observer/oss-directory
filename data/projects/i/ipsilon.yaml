@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: ipsilon
 display_name: Ipsilon
 github:
@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0xf96aa4a25fde246d9dd498b145f52fab0ead29f3"
     networks:
-      - optimism
+      - any_evm
     tags:
       - eoa
       - wallet

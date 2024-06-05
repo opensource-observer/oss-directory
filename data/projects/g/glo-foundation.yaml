@@ -1,4 +1,4 @@
-version: 6
+version: 7
 name: glo-foundation
 display_name: Glo Dollar
 github:
@@ -19,9 +19,7 @@ blockchain:
       - wallet
   - address: "0x1bbfc95b826693bf17665f36a66ac9c389b7e581"
     networks:
-      - mainnet
-      - optimism
-      - arbitrum-one
+      - any_evm
     tags:
       - eoa
       - wallet
