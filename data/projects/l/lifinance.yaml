@@ -35,12 +35,6 @@ blockchain:
     tags:
       - deployer
       - eoa
-  - address: "0x4577a46A3eCf44E0ed44410B7793977ffbe22CE0"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
   - address: "0x29DaCdF7cCaDf4eE67c923b4C22255A4B2494eD7"
     networks:
       - any_evm
@@ -56,6 +50,12 @@ blockchain:
       - eoa
       - wallet
   - address: "0x4d218d77cddd700565826a31837277e9e2ea0564"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+  - address: "0x4577a46A3eCf44E0ed44410B7793977ffbe22CE0"
     networks:
       - any_evm
     tags:
@@ -122,15 +122,7 @@ blockchain:
   # Create Factories
   - address: "0x93FEC2C00BfE902F733B57c5a6CeeD7CD1384AE1"
     networks:
-      - arbitrum_one
-      - base
-      - mainnet
-      - matic
-      - mode
-      - optimism
-      - polygon_zkevm
-      - scroll
-      - mantle
+      - any_evm
     tags:
       - contract
       - factory
@@ -146,15 +138,7 @@ blockchain:
   # Diamonds
   - address: "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae"
     networks:
-      - arbitrum_one
-      - base
-      - mainnet
-      - matic
-      - mode
-      - optimism
-      - polygon_zkevm
-      - scroll
-      - mantle
+      - any_evm
     tags:
       - contract
     name: LiFiDiamond
@@ -172,20 +156,13 @@ blockchain:
     name: LiFiDiamond
   - address: "0x9b11bc9fac17c058cab6286b0c785be6a65492ef"
     networks:
-      - arbitrum_one
-      - mainnet
-      - matic
-      - optimism
-      - polygon_zkevm
+      - any_evm
     tags:
       - contract
     name: LiFiDiamondImmutable
   - address: "0x362fa9d0bca5d19f743db50738345ce2b40ec99f"
     networks:
-      - arbitrum_one
-      - mainnet
-      - matic
-      - optimism
+      - any_evm
     tags:
       - contract
     name: LiFiDiamond
@@ -193,15 +170,19 @@ blockchain:
   # FeeCollectors
   - address: "0xb0210de78e28e2633ca200609d9f528c13c26cd9"
     networks:
-      - arbitrum_one
-      - base
-      - mainnet
-      - matic
-      - mode
-      - optimism
-      - polygon_zkevm
-      - scroll
-      - mantle
+      - any_evm
+    tags:
+      - contract
+    name: FeeCollector
+  - address: "0xbD6C7B0d2f68c2b7805d88388319cfB6EcB50eA9"
+    networks:
+      - any_evm
+    tags:
+      - contract
+    name: FeeCollector
+  - address: "0x0A6d96E7f4D7b96CFE42185DF61E64d255c12DFf"
+    networks:
+      - any_evm
     tags:
       - contract
     name: FeeCollector
@@ -221,15 +202,7 @@ blockchain:
   # Executor
   - address: "0x2dfaDAB8266483beD9Fd9A292Ce56596a2D1378D"
     networks:
-      - arbitrum_one
-      - base
-      - mainnet
-      - matic
-      - mode
-      - optimism
-      - polygon_zkevm
-      - scroll
-      - mantle
+      - any_evm
     tags:
       - contract
     name: FeeCollector
