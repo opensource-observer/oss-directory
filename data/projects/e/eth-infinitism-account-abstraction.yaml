@@ -9,7 +9,13 @@ blockchain:
       - optimism
     tags:
       - contract
-    name: EntryPoint
+    name: EntryPoint (v0.6)
+  - address: "0x0000000071727De22E5E9d8BAf0edAc6f37da032"
+    networks:
+      - any_evm
+    tags:
+      - contract
+    name: EntryPoint (v0.7)
   - address: "0x6a957e69a251d37cfd1f538f18ec1416fbdfa501"
     networks:
       - any_evm
