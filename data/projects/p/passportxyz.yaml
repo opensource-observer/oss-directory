@@ -22,12 +22,21 @@ github:
   - url: https://github.com/gitcoinco/tulons-ts
 blockchain:
   - address: "0xe700CCEB04d34b798B5f8b7c35E91231445Ff6C0"
+   # deployed decoder 0x5558D441779Eca04A329BcD6b47830D2C6607769
     networks:
       - any_evm
     tags:
       - deployer
       - eoa
   - address: "0x4B70C4308ea49d17FD946dDacD6884e8e1e18B56"
+  # deployed attestor, verifier, resolver: 0x843829986e895facd330486a61Ebee9E1f1adB1a, 0xa8eD4d2C3f6f98A55cdDEd97C5aE9B932B0633A4, 0xc94aBf0292Ac04AAC18C251d9C8169a8dd2BBbDC
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x64337bC28d3236e4A5F2FbDD697F8Ce8879621D5"
+  # deployed staking app
     networks:
       - any_evm
     tags:
@@ -35,6 +44,6 @@ blockchain:
       - eoa
 websites:
   - url: https://www.passport.xyz/
-description: Protect your project from bots and bad actors
+description: Facilitate trusted interactions based on unique humanity and reputation proofs.
 twitter:
   - url: https://twitter.com/gitcoinpassport
