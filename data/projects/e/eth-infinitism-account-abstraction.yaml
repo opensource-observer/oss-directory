@@ -6,7 +6,7 @@ github:
 blockchain:
   - address: "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
     networks:
-      - optimism
+      - any_evm
     tags:
       - contract
     name: EntryPoint (v0.6)
@@ -23,9 +23,10 @@ blockchain:
       - eoa
       - wallet
 websites:
+  - url: https://erc4337.io/
   - url: http://discord.gg/fbDyENb6Y9
 description: An infinite game is not played for winning, but for continuing the
   play — James Carse, Finite & Infinite Games 1986
 social:
   twitter:
-    - url: https://twitter.com/infinitism8
+    - url: https://twitter.com/erc4337
