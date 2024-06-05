@@ -8,6 +8,7 @@ blockchain:
     networks:
       - any_evm
     tags:
+      - deployer
       - eoa
       - wallet
   - address: "0x35308ee1ed9e7bc5979da7101a3eb1d7fe26dd33"

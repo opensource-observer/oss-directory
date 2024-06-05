@@ -15,6 +15,7 @@ blockchain:
     networks:
       - any_evm
     tags:
+      - deployer
       - eoa
       - wallet
     name: dearmoon.eth
