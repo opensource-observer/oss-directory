@@ -32,6 +32,7 @@ blockchain:
     networks:
       - any_evm
     tags:
+      - deployer
       - eoa
       - wallet
     name: 0xdonate3.eth

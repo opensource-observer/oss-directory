@@ -1,0 +1,15 @@
+version: 7
+name: 0xsequence
+display_name: Sequence
+github:
+  - url: https://github.com/0xsequence
+npm:
+  - url: https://www.npmjs.com/package/0xsequence
+blockchain:
+  - address: "0xB70d2E30B2D2f8af8B657f5Da5B305eC533F6DC2"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+      - wallet
