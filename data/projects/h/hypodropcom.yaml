@@ -4,29 +4,20 @@ display_name: HypoDrop
 github:
   - url: https://github.com/HypoDropCom
 blockchain:
-  - address: "0x777777C338d93e2C7adf08D102d45CA7CC4Ed021"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
   - address: "0xF5dd11c8394c92483D462ffE78bcD0e2A72BCb0c"
     networks:
       - any_evm
     tags:
-      - deployer
       - eoa
   - address: "0x4d7D85Df9D9Dd17c41FCcA32aA8fC49ed0D973ab"
     networks:
       - any_evm
     tags:
-      - deployer
       - eoa
   - address: "0x61b84CaB9dd4B629cC934Bb2D1D69f9Dc43f0d34"
     networks:
       - any_evm
     tags:
-      - deployer
       - eoa
   - address: "0x72C55001A08C122577aC30A45B1AC09562feFF4E"
     networks:
