@@ -37,6 +37,12 @@ blockchain:
       - eoa
       - wallet
     name: punkcities.eth
+  - address: "0x7Bb99d772A5A9F37d35E1c311A95C15e8487fE30"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+    name: zenbit.eth
   - address: "0xecb4c1245665e8a1f43826355aab0dd6bf336e05"
     networks:
       - any_evm

@@ -1,20 +1,21 @@
 version: 7
 name: basepunkorg
-display_name: Base Punk
+display_name: Base Punk NFT & Social-Fi Dapps
 github:
-  - url: https://github.com/basepunkorg/basepunk-landing
+  - url: https://github.com/BasePunkOrg/staking
   - url: https://github.com/basepunkorg/basepunk-names-frontend
   - url: https://github.com/basepunkorg/basepunk-chat
+  - url: https://github.com/basepunkorg/basepunk-landing
 blockchain:
   - address: "0x919364818153ef009d6ad6ef9644066b24fa2f04"
     networks:
-      - any_evm
+      - base
     tags:
       - eoa
       - wallet
 websites:
   - url: https://basepunk.xyz
-description: NFT collection on base
+description: First Social Fi Punk NFT collection on base with lots of utility for user like Staking of NFTs to earn passively, .basepunk domain, Social fi dapps, Friends key,etc
 social:
   twitter:
     - url: https://twitter.com/Punkonbase
