@@ -247,6 +247,22 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0x3e2Ea9B92B7E48A52296fD261dc26fd995284631"
+    networks:
+      - mainnet
+    tags:
+      - bridge
+      - contract
+      - proxy
+    name: "Zora: L1StandardBridge"
+  - address: "0x4200000000000000000000000000000000000010"
+    networks:
+      - zora
+    tags:
+      - bridge
+      - contract
+      - proxy
+    name: "Zora: L2StandardBridge"
 websites:
   - url: https://zora.co
 description: Internet Renaissance ☼☽

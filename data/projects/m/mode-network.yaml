@@ -8,10 +8,11 @@ websites:
 blockchain:
   - address: "0x735aDBbE72226BD52e818E7181953f42E3b0FF21"
     networks:
-      - mode
+      - mainnet
     tags:
       - bridge
-      - eoa
+      - contract
+      - proxy
     name: "Mode: L1StandardBridge"
   - address: "0x4200000000000000000000000000000000000010"
     networks:
