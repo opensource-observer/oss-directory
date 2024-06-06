@@ -1,0 +1,28 @@
+version: 7
+name: nnsprotocol
+display_name: NOGS
+github:
+  - url: https://github.com/nnsprotocol
+blockchain:
+  - address: "0x5Fa20D59d2A907E5FEd9Fb80B4A8D9F0d069a48D"
+    tags:
+      - contract
+    networks:
+      - mainnet
+    name: NOGS Token
+  - address: "0x13741c5df9ab03e7aa9fb3bf1f714551dd5a5f8a"
+    tags:
+      - contract
+    networks:
+      - base
+    name: NOGS Token
+  - address: "0x9Ea39C35EE1a133B642377f407f6C955f86b2FF0"
+    tags:
+      - deployer
+    networks:
+      - base
+      - mainnet
+    name: NOGS Deployer
+websites:
+  - url: https://noggles.com
+description: A Nounish Currency
