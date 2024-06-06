@@ -7,6 +7,9 @@ blockchain:
  - address: "0x59C7C832e96D2568bea6db468C1aAdcbbDa08A52"
     networks:
       - base
+    tags:
+      - contract
+      - factory
   - address: "0x35e0c852fcb9534df65d03877c1238f8e59c53fe"
     networks:
       - any_evm
