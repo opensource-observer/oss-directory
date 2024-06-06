@@ -371,6 +371,54 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0x45f1a95a4d3f3836523f5c83673c797f4d4d263b"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Router
+  - address: "0x50B6EbC2103BFEc165949CC946d739d5650d7ae4"
+    networks:
+      - base
+    tags:
+      - contract
+    name: RouterETH
+  - address: "0xAF54BE5B6eEc24d6BFACf1cce4eaF680A8239398"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Bridge
+  - address: "0xaf5191b0de278c7286d6c7cc6ab6bb8a73ba2cd6"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Factory
+  - address: "0xE3B53AF74a4BF62Ae5511055290838050bf764Df"
+    networks:
+      - base
+    tags:
+      - contract
+    name: StargateToken
+  - address: "0x9d1b1669c73b033dfe47ae5a0164ab96df25b944"
+    networks:
+      - base
+    tags:
+      - contract
+    name: StargateFeeLibraryV07
+  - address: "0xeCc19E177d24551aA7ed6Bc6FE566eCa726CC8a9"
+    networks:
+      - base
+    tags:
+      - contract
+    name: StargateComposer
+  - address: "0x06Eb48763f117c7Be887296CDcdfad2E4092739C"
+    networks:
+      - base
+    tags:
+      - contract
+    name: LPStakingTime
 websites:
   - url: https://stargate.finance
 social:
