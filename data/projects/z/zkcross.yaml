@@ -1,0 +1,15 @@
+version: 7
+name: zkCross
+display_name: zkCross Network
+github:
+- url: https://github.com/zkCross-Network
+blockchain:
+  - address: "0x80705283d1e2caa3fb126f1262aec6c260c7c205"
+    networks:
+      - any_evm
+    tags:
+      - contracts
+    name: TransparentUpgradeableProxy
+websites:
+  - url: https://zkcross.network/
+description: One-Click Limitless Liquidity Across Blockchains
