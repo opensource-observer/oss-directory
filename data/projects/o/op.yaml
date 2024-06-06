@@ -65,6 +65,22 @@ blockchain:
     tags:
       - eoa
     name: "Optimism: Aliased Cross-Domain Messenger "
+  - address: "0x99C9fc46f92E8a1c0deC1b1747d010903E884bE1"
+    networks:
+      - mainnet
+    tags:
+      - bridge
+      - contract
+      - proxy
+    name: "Optimism: L1StandardBridge"
+  - address: "0x4200000000000000000000000000000000000010"
+    networks:
+      - optimism
+    tags:
+      - bridge
+      - contract
+      - proxy
+    name: "Optimism: L2StandardBridge"
 websites:
   - url: https://optimism.io
 social:
