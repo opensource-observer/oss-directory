@@ -1,0 +1,19 @@
+version: 1
+name: farcards
+display_name: farcards
+blockchain:
+  - address: "0x2b53f75ff7e037ba322d6bba35a7bb46f497c2eb"
+    networks:
+      - base
+    tags:
+      - wallet
+  - address: "0x0c6eeb2f6df3c805e0b731f1a0572f41a6eed321"
+    networks:
+      - base
+    tags:
+      - wallet
+websites:
+  - url: https://far.cards
+social:
+  warpcast:
+    - url: https://warpcast.com/~/channel/farcards
