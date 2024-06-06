@@ -15,6 +15,7 @@ export interface BlockchainAddress {
    */
   tags: [
     (
+      | "bridge"
       | "contract"
       | "creator"
       | "deployer"
@@ -25,6 +26,7 @@ export interface BlockchainAddress {
       | "wallet"
     ),
     ...(
+      | "bridge"
       | "contract"
       | "creator"
       | "deployer"
