@@ -1,5 +1,5 @@
-version: 7 # Ensure this is the latest version
-name: TrashNFTs
+version: 7
+name: trashnfts
 display_name: Trash NFTs
 github:
   - url: https://github.com/TrashNFTs
@@ -14,13 +14,11 @@ blockchain:
     - deployer
     networks:
     - base
-
   - address: "0xfC0d8e8B077DA481F5309825a88604188C2FBD7F"
     tags:
     - contract
     networks:
     - base
-
   - address: "0xd76fe30f32c5c103bb9c85d65c262dcc845c1e46"
     tags:
     - deployer
