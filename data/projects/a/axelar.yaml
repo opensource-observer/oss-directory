@@ -3,6 +3,12 @@ name: axelar
 display_name: Axelar
 github:
   - url: https://github.com/axelarnetwork
+npm:
+  - url: https://www.npmjs.com/package/@axelar-network/axelar-cgp-solidity
+  - url: https://www.npmjs.com/package/@axelar-network/interchain-token-service
+  - url: https://www.npmjs.com/package/@axelar-network/axelar-gmp-sdk-solidity
+  - url: https://www.npmjs.com/package/@axelar-network/axelar-chains-config
+  - url: https://www.npmjs.com/package/@axelar-network/axelarjs-sdk
 blockchain:
   - address: "0xb8cd93c83a974649d76b1c19f311f639e62272bc"
     networks:
@@ -41,6 +47,8 @@ blockchain:
     networks:
       - arbitrum_one
       - optimism
+      - base
+      - frax
     tags:
       - contract
       - factory
@@ -160,9 +168,89 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x2d5d7d31F671F86C782533cc367F14109a082712"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+      - frax
+      - mainnet
+    tags:
+      - contract
+    name: AxelarGasServiceProxy
+  - address: "0xB5FB4BE02232B1bBA4dC8f81dc24C26980dE9e3C"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+      - frax
+      - mainnet
+    tags:
+      - contract
+    name: InterchainTokenServiceProxy
+  - address: "0x83a93500d23Fbc3e82B410aD07A6a9F7A0670D66"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+      - frax
+      - mainnet
+    tags:
+      - contract
+      - factory
+    name: InterchainTokenFactoryProxy
+  - address: "0xc1DCb196BA862B337Aa23eDA1Cb9503C0801b955"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+      - mainnet
+    tags:
+      - contract
+    name: AxelarDepositServiceProxy
+  - address: "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+      - frax
+    tags:
+      - contract
+  - address: "0xEB466342C4d449BC9f53A865D5Cb90586f405215"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+      - frax
+    tags:
+      - contract
+  - address: "0xb829b68f57CC546dA7E5806A929e53bE32a4625D"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+      - frax
+    tags:
+      - contract
+  - address: "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+      - frax
+    tags:
+      - contract
+  - address: "0x1a35EE4640b0A3B87705B0A4B45D227Ba60Ca2ad"
+    networks:
+      - arbitrum_one
+      - optimism
+      - base
+      - frax
+    tags:
+      - contract
 websites:
   - url: https://axelar.network
 description: Powering the Chain-Agnostic Future
 social:
   twitter:
-    - url: https://twitter.com/axelarcore
+    - url: https://x.com/axelarnetwork
