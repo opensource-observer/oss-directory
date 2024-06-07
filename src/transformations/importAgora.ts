@@ -110,7 +110,7 @@ const agoraToOsoProject = (agoraProj: AgoraProject): Project => {
 // Load the data just once globally
 let loaded = false;
 // OSO slug => AgoraProject
-let data: Record<string, AgoraProject>;
+let data: AgoraProject[];
 // Used to read the input CSV file
 async function readInput() {
   // First check if we've already loaded the data to a global
@@ -142,25 +142,22 @@ async function readInput() {
   //console.log(_.values(agoraProjectsWithoutArtifacts));
   // Used to prepend 'https://'
   const normalizeUrl = (url: string): string[] => {
-    if (!url) {
-      return [];
-    } else if (!url.startsWith("https://")) {
-      return [`https://${url}`];
-    }
-    return [url];
+    return !url
+      ? []
+      : !url.startsWith("https://")
+        ? [`https://${url.trim()}`]
+        : [url.trim()];
   };
   // Sometimes we get a JSON stringified String array
   const normalizeJsonArrayString = (arr: string): string[] => {
     const parsed = JSON.parse(arr);
-    if (_.isArray(parsed)) {
-      return _.flatten(parsed.map(normalizeUrl));
-    } else {
-      return normalizeUrl(parsed);
-    }
+    return _.isArray(parsed)
+      ? _.flatten(parsed.map(normalizeUrl))
+      : normalizeUrl(parsed);
   };
   // Flatten a CSV row to an array of artifacts
   const rowToArtifacts = (row: any): string[] => [
-    row[COL.deployerAddress],
+    row[COL.deployerAddress].trim(),
     ...normalizeUrl(row[COL.twitter]),
     //...normalizeUrl(row[COL.mirror]),
     ...normalizeUrl(row[COL.url]),
@@ -173,7 +170,6 @@ async function readInput() {
   console.log("Collapsed");
   const collapsedDedupe = _.mapValues(collapsed, _.uniq);
   console.log("Deduped");
-  //console.log(collapsedDedupe["0x4b987d79912367ada6c3fa1bf6ad1daa6d164078f8c5efc8db2128b9231087a9"]);
 
   // Load oss-directory from local filesystem
   const osoData = await loadData(OSO_BASE_PATH);
@@ -208,8 +204,8 @@ async function readInput() {
   //console.log(agoraProjectList.slice(0,1));
 
   // Store this data globally
-  data = _.keyBy(agoraProjectList, "osoProjectSlug");
   loaded = true;
+  data = agoraProjectList;
 }
 
 /**
@@ -218,15 +214,20 @@ async function readInput() {
  * @returns
  */
 async function updateProjects(existing: any): Promise<any> {
+  // Read the CSV only on the first run of this function
   await readInput();
 
-  const agoraProject = data[existing.name];
+  // Look for the relevant project from Agora dataset
+  const agoraProjectMap = _.keyBy(data, "osoProjectSlug");
+  const agoraProject = agoraProjectMap[existing.name];
   if (!agoraProject) {
     return existing;
   }
+  // Merge it!
   const toMerge = agoraToOsoProject(agoraProject);
   const merged = _.merge(toMerge, existing);
   //console.log(JSON.stringify(merged, null, 2));
+  // We will validate the schema before writing to disk
   return merged;
 }
 
