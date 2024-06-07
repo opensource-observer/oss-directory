@@ -1,0 +1,66 @@
+
+version: 7
+name: Kromatika
+display_name: Kromatika
+version: 3
+
+description: "MetaDEX aggregator, offering Fees Earning Limit Orders, Gasless Swaps and Perpetual Trading"
+websites:
+  - url: https://kromatika.finance
+  - url: https://app.kromatika.finance
+github:
+  - url: https://github.com/Kromatika-Finance
+blockchain:
+  - address: "0xdbAABc182e5FCEbf216C353A3EBE32cDB7390094"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+    name: "Kromatika:Deployer"
+  - address: "0x6FE9F5616Ac30E0A66B5Bc68D05F081471835bf7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: "MetaSwapRouter"
+
+  - address: "0x9d0827A272b9E1C354Fc7a15d68c37153FaA35aa"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: "MetaSwapRouter" todo: update this
+
+  - address: "0x7314Af7D05e054E96c44D7923E68d66475FfaAb8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: "OpLimitOrderManagerV3"
+
+
+  - address: "0xF98dCd95217E15E05d8638da4c91125E59590B07"
+    networks:
+      - optimism
+    tags:
+      - contract
+
+  - address: "0x8F42F726e9222DbBd8958D006aa88F1d2D8e6D91"
+    networks:
+      - base
+    tags:
+      - contract
+    name: "MetaSwapRouter"
+
+
+
+  - address: "0x05d235d8Ba95bfc457f9a11F64cf869f0f3f60F9"
+    networks:
+      - optimism
+    tags:
+      - safe
+
+social:
+  twitter:
+    - url: https://x.com/kromatikafi
