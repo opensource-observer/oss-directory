@@ -4,12 +4,19 @@ import { parse } from "csv/sync";
 import { Transformation } from "../types.js";
 import { loadData } from "../fetchData.js";
 import { Project } from "../types/project.js";
+import { getProjectPath, mergeProjects } from "../utils/format.js";
+import { stringify } from "../utils/files.js";
 
-// We don't have a good way to pass in arguments to transformations
-// Let's just grab the file from .env
-const inputFile = process.env.INPUT_FILE;
+// We don't have a good way to pass in arguments to transformations,
+// so we'll grab them from the .env file
+// This should be an absolute path to the file from Agora
+const INPUT_FILE = process.env.INPUT_FILE;
+// Set this to true if we want to create non-existing projects
+const CREATE_NEW_FILES = process.env.CREATE_NEW_FILES ?? false;
 // For loading oss-directory data locally
 const OSO_BASE_PATH = "./";
+// FileFormat
+const FILE_FORMAT = "YAML";
 // Mappings of all column names in the CSV
 const COL = {
   projectId: "Project ID",
@@ -107,6 +114,21 @@ const agoraToOsoProject = (agoraProj: AgoraProject): Project => {
   return result;
 };
 
+/**
+ * Creates a project file per new Agora project
+ * - Be careful to only use this with confirmed new projects
+ *  It will overwrite existing files if they exist
+ */
+async function createNewOsoProjectFiles(agoraProjects: AgoraProject[]) {
+  const osoProjects = agoraProjects.map(agoraToOsoProject);
+  const promises = osoProjects.map(async (p) => {
+    const filePath = getProjectPath(p.name);
+    const content = stringify(p, FILE_FORMAT);
+    await fs.writeFile(filePath, content, { encoding: "utf-8" });
+  });
+  await Promise.all(promises);
+}
+
 // Load the data just once globally
 let loaded = false;
 // OSO slug => AgoraProject
@@ -116,12 +138,12 @@ async function readInput() {
   // First check if we've already loaded the data to a global
   if (loaded) {
     return;
-  } else if (!inputFile) {
+  } else if (!INPUT_FILE) {
     throw new Error("Missing INPUT_FILE environment variable");
   }
 
   // Read the CSV
-  const fileContent = await fs.readFile(inputFile);
+  const fileContent = await fs.readFile(INPUT_FILE);
   const csvRows = parse(fileContent, {
     columns: true,
     skip_empty_lines: true,
@@ -201,6 +223,11 @@ async function readInput() {
       agoraProjectList.length - newProjects.length
     } existing ones`,
   );
+
+  // Opt-in to write new project files
+  if (CREATE_NEW_FILES) {
+    await createNewOsoProjectFiles(newProjects);
+  }
   //console.log(agoraProjectList.slice(0,1));
 
   // Store this data globally
@@ -223,9 +250,10 @@ async function updateProjects(existing: any): Promise<any> {
   if (!agoraProject) {
     return existing;
   }
+
   // Merge it!
   const toMerge = agoraToOsoProject(agoraProject);
-  const merged = _.merge(toMerge, existing);
+  const merged = mergeProjects(toMerge, existing);
   //console.log(JSON.stringify(merged, null, 2));
   // We will validate the schema before writing to disk
   return merged;
