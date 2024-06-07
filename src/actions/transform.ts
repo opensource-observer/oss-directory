@@ -29,7 +29,7 @@ async function transform(
   const extension = getFileExtension(fileFormat);
   const files = await glob(path.resolve(directory, `**/*${extension}`));
   let count = 0;
-  console.log(`Migrating files in ${directory}`);
+  console.log(`Transforming files in ${directory}`);
   for (const file of files) {
     const obj = await readFileParse(file, fileFormat);
 
