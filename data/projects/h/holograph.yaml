@@ -1,21 +1,33 @@
 version: 7
 name: holograph
 display_name: Holograph
+websites:
+  - url: https://www.holograph.xyz
+  - url: https://@hlgfoundation
 github:
   - url: https://github.com/holographxyz
+npm:
+  - url: https://www.npmjs.com/package/@holographxyz/networks
+  - url: https://www.npmjs.com/package/@holographxyz/sdk
+  - url: https://www.npmjs.com/package/@holographxyz/cli
+  - url: https://www.npmjs.com/package/@holographxyz/environment
+  - url: https://www.npmjs.com/package/@holographxyz/holograph-genesis
+social:
+  twitter:
+    - url: https://twitter.com/holographxyz
 blockchain:
   - address: "0xc0ffee78121f208475abdd2cf0853a7afed64749"
-    networks:
-      - any_evm
     tags:
       - deployer
       - eoa
+    networks:
+      - any_evm
   - address: "0xdeadfed00b7848545d8fe5cb4e7c51ed37e5a2fa"
-    networks:
-      - any_evm
     tags:
       - deployer
       - eoa
+    networks:
+      - any_evm
   - address: "0x0c8af56f7650a6e3685188d212044338c21d3f73"
     networks:
       - arbitrum_one
@@ -63,9 +75,4 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://www.holograph.xyz
 description: Omnichain Tokenization Infrastructure
-social:
-  twitter:
-    - url: https://twitter.com/holographxyz

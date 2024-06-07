@@ -1,6 +1,8 @@
 version: 7
 name: wagmi-dev
 display_name: wagmi
+websites:
+  - url: https://wevm.dev
 github:
   - url: https://github.com/wagmi-dev
   - url: https://github.com/wevm
@@ -12,13 +14,18 @@ npm:
   - url: https://www.npmjs.com/package/@wagmi/connectors
   - url: https://www.npmjs.com/package/@wagmi/mipd
   - url: https://www.npmjs.com/package/@wagmi/cli
+social:
+  twitter:
+    - url: https://twitter.com/wevm_dev
+  farcaster:
+    - url: https://warpcast.com/~/channel/talent
 blockchain:
   - address: "0x4557b18e779944bfe9d78a672452331c186a9f48"
-    networks:
-      - optimism
     tags:
       - safe
       - wallet
+    networks:
+      - optimism
   - address: "0xd2135cfb216b74109775236e36d4b433f1df507b"
     networks:
       - any_evm
@@ -26,9 +33,4 @@ blockchain:
       - eoa
       - wallet
     name: wevm.eth
-websites:
-  - url: https://wevm.dev
 description: TypeScript tooling for Ethereum
-social:
-  twitter:
-    - url: https://twitter.com/wevm_dev

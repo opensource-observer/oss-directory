@@ -1,21 +1,29 @@
 version: 7
 name: gammastrategies
 display_name: Gamma Strategies
+websites:
+  - url: https://gamma.xyz/
+  - url: https://docs.gamma.xyz/
+  - url: https://discord.gg/gammastrategies
 github:
   - url: https://github.com/gammastrategies
+  - url: https://github.com/GammaStrategies
+social:
+  twitter:
+    - url: https://twitter.com/GammaStrategies
 blockchain:
   - address: "0xac789308a29783f507f1f3baacbd43326c5767f4"
-    networks:
-      - any_evm
     tags:
       - deployer
       - eoa
+    networks:
+      - any_evm
   - address: "0xade38bd2e8d5a52e60047affe6e595bb5e61923a"
-    networks:
-      - any_evm
     tags:
       - deployer
       - eoa
+    networks:
+      - any_evm
   - address: "0x851525d90405e60bd59249beaed364b02a9bc48e"
     networks:
       - any_evm
@@ -64,10 +72,5 @@ blockchain:
     tags:
       - contract
     name: HypeRegistry
-websites:
-  - url: https://gamma.xyz/
 description: An organization dedicated to funding ‘Active LP’ strategies and
   research. Applications now accepted.
-social:
-  twitter:
-    - url: https://twitter.com/GammaStrategies

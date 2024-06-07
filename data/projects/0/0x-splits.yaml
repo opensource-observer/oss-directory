@@ -1,40 +1,56 @@
 version: 7
 name: 0x-splits
 display_name: 0xSplits
+websites:
+  - url: https://splits.org
 github:
   - url: https://github.com/0xSplits
+  - url: https://github.com/0xSplits/splits-sdk
+  - url: https://github.com/0xSplits/splits-utils
+  - url: https://github.com/0xSplits/splits-contracts-monorepo
+  - url: https://github.com/0xSplits/splits-oracle
+  - url: https://github.com/0xSplits/splits-liquid
+  - url: https://github.com/0xSplits/splits-vesting
+  - url: https://github.com/0xSplits/splits-swapper
+  - url: https://github.com/0xSplits/splits-waterfall
+  - url: https://github.com/0xSplits/splits-contracts
 npm:
   - url: https://www.npmjs.com/package/@0xsplits/splits-kit
   - url: https://www.npmjs.com/package/@0xsplits/splits-sdk
   - url: https://www.npmjs.com/package/@0xsplits/splits-sdk-react
+social:
+  twitter:
+    - url: https://twitter.com/0xsplits
+  farcaster:
+    - url: https://warpcast.com/~/channel/splits
 blockchain:
   - address: "0x9ebc8e61f87a301ff25a606d7c06150f856f24e2"
-    networks:
-      - any_evm
     tags:
       - deployer
       - eoa
       - wallet
+    networks:
+      - any_evm
   - address: "0x4df01754ebd055498c8087b1e9a5c7a9ad19b0f6"
+    tags:
+      - contract
+      - factory
     networks:
       - arbitrum_one
       - optimism
       - base
       - zora
+    name: WaterfallModuleFactory
+  - address: "0x2ed6c4b5da6378c7897ac67ba9e43102feb694ee"
     tags:
       - contract
       - factory
-    name: WaterfallModuleFactory
-  - address: "0x2ed6c4b5da6378c7897ac67ba9e43102feb694ee"
     networks:
       - arbitrum_one
       - mainnet
       - optimism
       - base
       - zora
-    tags:
-      - contract
-      - factory
     name: SplitMain
   - address: "0xdecd8b99b7f763e16141450daa5ea414b7994831"
     networks:
@@ -144,9 +160,4 @@ blockchain:
       - contract
       - factory
     name: DiversifierFactory
-websites:
-  - url: https://splits.org
 description: The standard for splitting onchain income
-social:
-  twitter:
-    - url: https://twitter.com/0xsplits

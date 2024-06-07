@@ -1,18 +1,28 @@
 version: 7
 name: clearpool-finance
 display_name: "Clearpool "
-github:
-  - url: https://github.com/clearpool-finance
-blockchain:
-  - address: "0x70ad50958312814e7370a52bda2b5da797ab64bc"
-    networks:
-      - optimism
-    tags:
-      - safe
-      - wallet
 websites:
   - url: https://clearpool.finance
-description: The best place to lend stablecoins to market-leading institutions.
+  - url: https://drive.google.com/file/d/10YrrZoKpnqjNnFaMRG5VNLw9zgcDBd96/view
+github:
+  - url: https://github.com/clearpool-finance
+  - url: https://github.com/clearpool-finance/dynamic-pools-public
 social:
   twitter:
     - url: https://twitter.com/ClearpoolFin
+  farcaster:
+    - url: https://warpcast.com/va-rinder
+blockchain:
+  - address: "0x70ad50958312814e7370a52bda2b5da797ab64bc"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
+  - address: "0xa333e18249D0E31ae6a57C9bE6E4CDF5CE0837ec"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+description: The best place to lend stablecoins to market-leading institutions.

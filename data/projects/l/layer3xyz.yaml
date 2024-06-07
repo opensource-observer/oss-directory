@@ -1,8 +1,15 @@
 version: 7
 name: layer3xyz
 display_name: Layer3
+websites:
+  - url: https://layer3.xyz
 github:
   - url: https://github.com/layer3xyz
+social:
+  twitter:
+    - url: https://twitter.com/layer3xyz
+  farcaster:
+    - url: https://warpcast.com/layer3xyz
 blockchain:
   - address: "0xF1C0dF2381Ac4a6Cac9C866DdbdE3c3D641a1337"
     tags:
@@ -27,10 +34,5 @@ blockchain:
     tags:
       - contract
       - factory
-websites:
-  - url: https://layer3.xyz
 description: Scaling crypto through advanced onchain experiences, digital
   identity, and smart-contract based infrastructure.
-social:
-  twitter:
-    - url: https://twitter.com/layer3xyz

@@ -1,15 +1,24 @@
 version: 7
 name: exactly
 display_name: Exactly
+websites:
+  - url: https://exact.ly
 github:
   - url: https://github.com/exactly
+  - url: https://github.com/exactly/lib
+  - url: https://github.com/exactly/subgraph
+  - url: https://github.com/exactly/protocol
+  - url: https://github.com/exactly/app
+social:
+  twitter:
+    - url: https://twitter.com/exactlyprotocol
 blockchain:
   - address: "0xe61bdef3fff4c3cf7a07996dcb8802b5c85b665a"
-    networks:
-      - any_evm
     tags:
       - deployer
       - eoa
+    networks:
+      - any_evm
   - address: "0x86f6d8b717d49527db3126f31bdd3b0047694bf9"
     networks:
       - mainnet
@@ -801,11 +810,6 @@ blockchain:
     tags:
       - contract
     name: Market
-websites:
-  - url: https://exact.ly
 description: exactly protocol is a decentralized, non-custodial and autonomous
   marketplace for depositing and borrowing crypto assets at a variable or fixed
   interest rate.
-social:
-  twitter:
-    - url: https://twitter.com/exactlyprotocol

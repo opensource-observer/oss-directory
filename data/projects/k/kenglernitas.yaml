@@ -1,14 +1,24 @@
 version: 7
 name: kenglernitas
 display_name: Keng Lernitas
+websites:
+  - url: https://kenglernitas.wtf
+  - url: https://vote.kenglernitas.wtf
+  - url: https://proposals.kenglernitas.wtf
+  - url: https://@kenglernitas
 github:
   - url: https://github.com/KengLernitas
+  - url: https://github.com/kenglernitas/zorksees
+social:
+  twitter:
+    - url: https://twitter.com/kenglernitas
 blockchain:
   - address: "0x3Ed9AcAac7Bd974eB83a8eA6432a239e3C829D5D"
-    networks:
-      - optimism
     tags:
       - contract
+      - deployer
+    networks:
+      - optimism
     name: Token
   - address: "0xd75f5bee37168f97552f843076adc2ea9a8a0935"
     networks:
@@ -46,9 +56,4 @@ blockchain:
     tags:
       - deployer
       - eoa
-websites:
-  - url: https://kenglernitas.wtf
 description: Keng Lernitas is a meme project focused on gamification founded by Kain Warwick
-social:
-  twitter:
-    - url: https://twitter.com/kenglernitas

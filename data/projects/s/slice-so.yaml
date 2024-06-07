@@ -1,15 +1,25 @@
 version: 7
 name: slice-so
 display_name: Slice
+websites:
+  - url: https://slice.so
 github:
   - url: https://github.com/slice-so
+  - url: https://github.com/slice-so/contracts-pricing
+  - url: https://github.com/slice-so/contracts-hooks
+  - url: https://github.com/slice-so/subgraph
+social:
+  twitter:
+    - url: https://twitter.com/slice__so
+  farcaster:
+    - url: https://warpcast.com/slice
 blockchain:
   - address: "0xb05ba6660b9fade3634466bf7834cdfc76fa4886"
-    networks:
-      - any_evm
     tags:
       - eoa
       - wallet
+    networks:
+      - any_evm
   - address: "0xae009d532328ff09e09e5d506ab5bbec3c25c0ff"
     networks:
       - any_evm
@@ -17,9 +27,4 @@ blockchain:
       - deployer
       - eoa
       - wallet
-websites:
-  - url: https://slice.so
 description: The decentralized slicing platform
-social:
-  twitter:
-    - url: https://twitter.com/slice__so

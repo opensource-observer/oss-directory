@@ -1,32 +1,65 @@
 version: 7
 name: hats-protocol
 display_name: Hats Protocol
+websites:
+  - url: https://hatsprotocol.xyz
 github:
   - url: https://github.com/hats-protocol
+  - url: https://github.com/Hats-Protocol/hats-account-sdk
+  - url: https://github.com/Hats-Protocol/sdk-v1-core
+  - url: https://github.com/Hats-Protocol/hat-wearing-eligibility
+  - url: https://github.com/Hats-Protocol/subgraph
+  - url: https://github.com/hats-protocol/hats-protocol
+  - url: https://github.com/Hats-Protocol/multi-claims-hatter
+  - url: https://github.com/Hats-Protocol/allowlist-eligibility
+  - url: https://github.com/Hats-Protocol/hats-zodiac
+  - url: https://github.com/Hats-Protocol/subgraph-ancillary
+  - url: https://github.com/Hats-Protocol/hsg-sdk
+  - url: https://github.com/Hats-Protocol/hats-auth
+  - url: https://github.com/Hats-Protocol/jokerace-eligibility
+  - url: https://github.com/Hats-Protocol/passthrough-modules
+  - url: https://github.com/Hats-Protocol/season-toggle
+  - url: https://github.com/Hats-Protocol/staking-eligibility
+  - url: https://github.com/Hats-Protocol/colinks-eligibility
+  - url: https://github.com/Hats-Protocol/chain-modules
+  - url: https://github.com/Hats-Protocol/hats-module-template
+  - url: https://github.com/Hats-Protocol/hats-account
+  - url: https://github.com/Hats-Protocol/modules-sdk
+  - url: https://github.com/Hats-Protocol/agreement-eligibility
+  - url: https://github.com/Hats-Protocol/farcaster-delegator
+  - url: https://github.com/Hats-Protocol/hats-elections-eligibility
 npm:
   - url: https://www.npmjs.com/package/@hatsprotocol/sdk-v1-subgraph
   - url: https://www.npmjs.com/package/@hatsprotocol/modules-sdk
   - url: https://www.npmjs.com/package/@hatsprotocol/sdk-v1-core
+  - url: https://www.npmjs.com/package/@hatsprotocol/sdk-v1-core
+  - url: https://www.npmjs.com/package/@hatsprotocol/modules-sdk
+social:
+  twitter:
+    - url: https://twitter.com/hatsprotocol
+  farcaster:
+    - url: https://warpcast.com/hatsprotocol
 blockchain:
   - address: "0x2a069e21395dc7f89f780f8cf5383a0ff598b672"
-    networks:
-      - any_evm
     tags:
       - deployer
       - eoa
+    networks:
+      - any_evm
   - address: "0x3bc1a0ad72417f2d411118085256fc53cbddd137"
+    tags:
+      - contract
+      - deployer
     networks:
       - arbitrum_one
       - optimism
-    tags:
-      - contract
     name: Hats
   - address: "0x58c8854a8e51bdce9f00726b966905fe2719b4d9"
-    networks:
-      - optimism
     tags:
       - safe
       - wallet
+    networks:
+      - optimism
   - address: "0x2d785497c6c8ce3f4ccff4937d321c37e80705e8"
     networks:
       - mainnet
@@ -47,8 +80,3 @@ blockchain:
     tags:
       - contract
     name: Hats
-websites:
-  - url: https://hatsprotocol.xyz
-social:
-  twitter:
-    - url: https://twitter.com/hatsprotocol

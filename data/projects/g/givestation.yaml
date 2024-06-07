@@ -1,23 +1,29 @@
 version: 7
 name: givestation
 display_name: GiveStation
+websites:
+  - url: https://givestation.org
+  - url: https://Youbuidl.dev
+  - url: https://givestation.gitbook.io/givestation
 github:
   - url: https://github.com/givestation
+social:
+  twitter:
+    - url: https://x.com/givestation
 blockchain:
   - address: "0x187a9763FCC7EcFFA9bc50B0fE5BbAe71cDA7b59"
-    networks:
-      - optimism
     tags:
       - contract
+      - deployer
+    networks:
+      - optimism
     name: CrowdFunding
   - address: "0xabF763013d5B2dEfcB7BEaD1342962b24828C7Cf"
-    networks:
-      - any_evm
     tags:
       - deployer
       - eoa
+    networks:
+      - any_evm
 twitter: givestation
-websites:
-  - url: https://givestation.org
 description: A multi-chain grant dapp where contributors get rewarded for
   funding ideas and projects in web3.

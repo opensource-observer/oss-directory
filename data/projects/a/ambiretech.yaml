@@ -1,20 +1,26 @@
 version: 7
 name: ambiretech
 display_name: AmbireTech
-github:
-  - url: https://github.com/ambiretech
-blockchain:
-  - address: "0x23c2c34f38ce66ccc10e71e9bb2a06532d52c5e9"
-    networks:
-      - mainnet
-    tags:
-      - safe
-      - wallet
 websites:
   - url: https://www.ambire.com
-description: Ambire makes Web3 self-custody easy and secure for everyone through
-  account abstraction. We're also building a fully transparent ad network
-  (AdEx).
+github:
+  - url: https://github.com/ambiretech
+  - url: https://github.com/AmbireTech/wallet
+npm:
+  - url: https://www.npmjs.com/package/@ambire/common
+  - url: https://www.npmjs.com/package/@ambire/signature-validator
 social:
   twitter:
     - url: https://twitter.com/AmbireWallet
+  farcaster:
+    - url: https://warpcast.com/ambirewallet
+blockchain:
+  - address: "0x23c2c34f38ce66ccc10e71e9bb2a06532d52c5e9"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - mainnet
+description: Ambire makes Web3 self-custody easy and secure for everyone through
+  account abstraction. We're also building a fully transparent ad network
+  (AdEx).

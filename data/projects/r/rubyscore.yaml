@@ -1,7 +1,25 @@
 version: 7
 name: rubyscore
 display_name: RubyScore
-github:
-  - url: https://github.com/Rubyscoreio
 websites:
   - url: https://rubyscore.io/
+github:
+  - url: https://github.com/Rubyscoreio
+social:
+  twitter:
+    - url: https://twitter.com/rubyscore_io
+  farcaster:
+    - url: https://warpcast.com/rubyscore
+blockchain:
+  - address: "0x72f46FFBd3213218137015EBCcf70bFAaF619513"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x381c031bAA5995D0Cc52386508050Ac947780815"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
