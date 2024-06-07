@@ -4,19 +4,31 @@
   "type": "object",
   "description": "All social profile",
   "properties": {
+    "farcaster": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json#"
+      }
+    },
     "medium": {
       "type": "array",
       "items": {
         "$ref": "url.json#"
       }
     },
-    "twitter": {
+    "mirror": {
       "type": "array",
       "items": {
         "$ref": "url.json#"
       }
     },
     "telegram": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json#"
+      }
+    },
+    "twitter": {
       "type": "array",
       "items": {
         "$ref": "url.json#"

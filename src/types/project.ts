@@ -14,10 +14,10 @@ export interface Project {
   display_name: string;
   description?: string;
   websites?: URL[];
+  social?: SocialProfile;
   github?: URL[];
   npm?: URL[];
   blockchain?: BlockchainAddress[];
-  social?: SocialProfile;
   [k: string]: unknown;
 }
 /**
@@ -25,6 +25,17 @@ export interface Project {
  */
 export interface URL {
   url: string;
+  [k: string]: unknown;
+}
+/**
+ * All social profile
+ */
+export interface SocialProfile {
+  farcaster?: URL[];
+  medium?: URL[];
+  mirror?: URL[];
+  telegram?: URL[];
+  twitter?: URL[];
   [k: string]: unknown;
 }
 /**
@@ -101,14 +112,5 @@ export interface BlockchainAddress {
     )[],
   ];
   name?: string;
-  [k: string]: unknown;
-}
-/**
- * All social profile
- */
-export interface SocialProfile {
-  medium?: URL[];
-  twitter?: URL[];
-  telegram?: URL[];
   [k: string]: unknown;
 }

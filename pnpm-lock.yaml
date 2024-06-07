@@ -19,6 +19,9 @@ importers:
       chalk:
         specifier: ^5.3.0
         version: 5.3.0
+      csv:
+        specifier: ^6.3.9
+        version: 6.3.9
       dayjs:
         specifier: ^1.11.10
         version: 1.11.10
@@ -2198,6 +2201,31 @@ packages:
         integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==,
       }
     engines: { node: ">= 8" }
+
+  csv-generate@4.4.1:
+    resolution:
+      {
+        integrity: sha512-O/einO0v4zPmXaOV+sYqGa02VkST4GP5GLpWBNHEouIU7pF3kpGf3D0kCCvX82ydIY4EKkOK+R8b1BYsRXravg==,
+      }
+
+  csv-parse@5.5.6:
+    resolution:
+      {
+        integrity: sha512-uNpm30m/AGSkLxxy7d9yRXpJQFrZzVWLFBkS+6ngPcZkw/5k3L/jjFuj7tVnEpRn+QgmiXr21nDlhCiUK4ij2A==,
+      }
+
+  csv-stringify@6.5.0:
+    resolution:
+      {
+        integrity: sha512-edlXFVKcUx7r8Vx5zQucsuMg4wb/xT6qyz+Sr1vnLrdXqlLD1+UKyWNyZ9zn6mUW1ewmGxrpVwAcChGF0HQ/2Q==,
+      }
+
+  csv@6.3.9:
+    resolution:
+      {
+        integrity: sha512-eiN+Qu8NwSLxZYia6WzB8xlX/rAQ/8EgK5A4dIF7Bz96mzcr5dW1jlcNmjG0QWySWKfPdCerH3RQ96ZqqsE8cA==,
+      }
+    engines: { node: ">= 0.1.90" }
 
   d@1.0.1:
     resolution:
@@ -4754,6 +4782,12 @@ packages:
         integrity: sha512-rT00SPnTVyRsaSz5zgSPma/aHSOic5U1prhYdRy5HS2kTZviFpmDgzilbtsJsxiroqACmayynDN/9VzIbX5DOw==,
       }
 
+  stream-transform@3.3.2:
+    resolution:
+      {
+        integrity: sha512-v64PUnPy9Qw94NGuaEMo+9RHQe4jTBYf+NkTtqkCgeuiNo8NlL0LtLR7fkKWNVFtp3RhIm5Dlxkgm5uz7TDimQ==,
+      }
+
   streamsearch@1.1.0:
     resolution:
       {
@@ -7073,6 +7107,19 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
+  csv-generate@4.4.1: {}
+
+  csv-parse@5.5.6: {}
+
+  csv-stringify@6.5.0: {}
+
+  csv@6.3.9:
+    dependencies:
+      csv-generate: 4.4.1
+      csv-parse: 5.5.6
+      csv-stringify: 6.5.0
+      stream-transform: 3.3.2
+
   d@1.0.1:
     dependencies:
       es5-ext: 0.10.62
@@ -8848,6 +8895,8 @@ snapshots:
   stream-combiner@0.0.4:
     dependencies:
       duplexer: 0.1.2
+
+  stream-transform@3.3.2: {}
 
   streamsearch@1.1.0: {}
 
