@@ -1,4 +1,4 @@
-version: 1
+version: 7
 name: farcards
 display_name: farcards
 blockchain:
@@ -6,12 +6,12 @@ blockchain:
     networks:
       - base
     tags:
-      - wallet
+      - deployer
   - address: "0x0c6eeb2f6df3c805e0b731f1a0572f41a6eed321"
     networks:
       - base
     tags:
-      - wallet
+      - deployer
 websites:
   - url: https://far.cards
 social:
