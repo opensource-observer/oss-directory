@@ -8,6 +8,7 @@ import { FileFormat, getFileExtension, getFileFormat } from "../types/files.js";
 import { safeCastCollection, safeCastProject } from "../validator/index.js";
 import { NullOrUndefinedValueError, UserError } from "../utils/error.js";
 import { readFileParse, stringify } from "../utils/files.js";
+import { orderProjectFields } from "../utils/format.js";
 
 export type TransformationArgs = CommonArgs & {
   name: string;
@@ -71,8 +72,9 @@ async function transformProjects(args: TransformationArgs) {
     fileFormat,
     (x) => x.project,
     (obj: any) => {
-      const p = safeCastProject(obj);
-      return stringify(p, fileFormat);
+      const unordered = safeCastProject(obj);
+      const ordered = orderProjectFields(unordered);
+      return stringify(ordered, fileFormat);
     },
   );
 }

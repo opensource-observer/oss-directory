@@ -53,6 +53,24 @@ function getProjectPath(slug: string, opts?: PathOptions) {
   });
 }
 
+function orderProjectFields(p: Project): Project {
+  const ordered = {
+    version: p.version,
+    name: p.name,
+    display_name: p.display_name,
+    description: p.description,
+    websites: p.websites,
+    social: p.social,
+    github: p.github,
+    npm: p.npm,
+    blockchain: p.blockchain,
+  };
+  return {
+    ...ordered,
+    ..._.omit(p, Object.keys(ordered)),
+  };
+}
+
 /**
  * This will take 2 Project files and merge them
  * - The `src` will overwrite literals in the `dst`
@@ -75,4 +93,4 @@ function mergeProjects(dst: any, src: any): Project {
   return project;
 }
 
-export { getCollectionPath, getProjectPath, mergeProjects };
+export { getCollectionPath, getProjectPath, mergeProjects, orderProjectFields };
