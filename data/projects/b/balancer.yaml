@@ -1,9 +1,44 @@
 version: 7
 name: balancer
 display_name: Balancer
+websites:
+  - url: https://balancer.fi
+social:
+  twitter:
+    - url: https://twitter.com/Balancer
 github:
+  - url: https://github.com/balancer/balancer-v2-monorepo
+  - url: https://github.com/balancer/backend
+  - url: https://github.com/balancer/frontend-v2
+  - url: https://github.com/balancer/balancer-subgraph-v2
+  - url: https://github.com/balancer/b-sdk
+  - url: https://github.com/balancer/balancer-sdk
   - url: https://github.com/balancer
 blockchain:
+  - address: "0x697A71353A4BC1eb1356763018a229c27a3fbA0C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x089775364EA24957dA94348cf740375826Ed3330"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x9098b50ee2d9E4c3C69928A691DA3b192b4C9673"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x3d64fb8a2fFd08C186e8060aA57c8011D8b999cC"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x288c09d17a66a49177d3846372ed318ac16a8f42"
     networks:
       - any_evm
@@ -829,6 +864,4 @@ blockchain:
     tags:
       - deployer
       - eoa
-websites:
-  - url: https://balancer.fi
 description: Balancer is a protocol for programmable liquidity

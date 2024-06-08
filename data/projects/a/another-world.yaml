@@ -1,9 +1,25 @@
 version: 7
 name: another-world
 display_name: Another World
+websites:
+  - url: https://anotherworld.gg
+social:
+  twitter:
+    - url: https://twitter.com/anotherworldgg
+    - url: https://twitter.com/anotherworlddao
 github:
+  - url: https://github.com/AnotherWorldDAO/Game-Release
+  - url: https://github.com/AnotherWorldDAO/Game-Contracts
+  - url: https://github.com/AnotherWorldDAO/ue5-treasurehunt
+  - url: https://github.com/AnotherWorldDAO/L2MintWithAPE
   - url: https://github.com/AnotherWorldDAO
 blockchain:
+  - address: "0xe7A9ECDb56af2Bb86fdaAa3e3B2D1F0f7a9Fe664"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xe7a9ecdb56af2bb86fdaaa3e3b2d1f0f7a9fe664"
     networks:
       - any_evm
@@ -78,8 +94,3 @@ blockchain:
       - eoa
       - wallet
     name: anotherworldgg.eth
-websites:
-  - url: https://anotherworld.gg
-social:
-  twitter:
-    - url: https://twitter.com/anotherworlddao

@@ -1,9 +1,33 @@
 version: 7
 name: d-hedge
 display_name: dHedge
+websites:
+  - url: https://dhedge.org/
+social:
+  twitter:
+    - url: https://x.com/dHedgeOrg
+    - url: https://twitter.com/dhedgeorg
+  farcaster:
+    - url: https://warpcast.com/dhedge
 github:
+  - url: https://github.com/dhedge/V2-Public
   - url: https://github.com/dhedge
+npm:
+  - url: https://www.npmjs.com/package/@dhedge/trading-widget
+  - url: https://www.npmjs.com/package/@dhedge/v2-sdk
 blockchain:
+  - address: "0xef31D75A2f85CfDD9032158A2CEB773C84d79192"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xF17ae5c8C4acf680A2c9551AF441Cc3725FD401b"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xef31d75a2f85cfdd9032158a2ceb773c84d79192"
     networks:
       - any_evm
@@ -2417,9 +2441,4 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://dhedge.org/
 description: Explore the universe of top-tier tokenized vaults
-social:
-  twitter:
-    - url: https://twitter.com/dhedgeorg

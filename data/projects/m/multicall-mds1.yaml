@@ -1,9 +1,18 @@
 version: 7
 name: multicall-mds1
 display_name: Multicall3
+websites:
+  - url: https://www.multicall3.com/
+  - url: https://mattsolomon.dev
 github:
   - url: https://github.com/mds1/multicall
 blockchain:
+  - address: "0x05f32B3cC3888453ff71B01135B34FF8e41263F2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x60a5dcb2fc804874883b797f37cbf1b0582ac2dd"
     networks:
       - any_evm
@@ -11,8 +20,6 @@ blockchain:
       - eoa
       - wallet
     name: msolomon.eth
-websites:
-  - url: https://mattsolomon.dev
 social:
   twitter:
     - url: https://twitter.com/msolomon44

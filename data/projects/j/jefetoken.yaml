@@ -1,9 +1,26 @@
 version: 7
 name: jefetoken
 display_name: JEFE TOKEN
+websites:
+  - url: https://jefetoken.com
+  - url: https://rewards.jefetoken.com
+social:
+  twitter:
+    - url: https://x.com/JefeTOKEN
+  farcaster:
+    - url: https://warpcast.com/jefetoken
 github:
+  - url: https://github.com/jefetoken/JEFE-COMPASS
+  - url: https://github.com/jefetoken/JEFE-OPTIMISM
+  - url: https://github.com/jefetoken/Rewards
   - url: https://github.com/jefetoken
 blockchain:
+  - address: "0xdBeA55Bad7404F00DF5cd12d30d2086151E83950"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xdbea55bad7404f00df5cd12d30d2086151e83950"
     networks:
       - any_evm
@@ -12,5 +29,3 @@ blockchain:
       - eoa
       - wallet
     name: jefetoken.eth
-websites:
-  - url: https://jefetoken.com

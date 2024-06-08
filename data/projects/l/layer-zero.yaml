@@ -1,9 +1,104 @@
 version: 7
 name: layer-zero
 display_name: LayerZero
+websites:
+  - url: https://layerzero.network
+social:
+  twitter:
+    - url: https://x.com/LayerZero_Labs
+  farcaster:
+    - url: https://warpcast.com/layerzero-fc
 github:
+  - url: https://github.com/LayerZero-Labs/LayerZero
+  - url: https://github.com/LayerZero-Labs/LayerZero-v2
   - url: https://github.com/layerzero-labs
+npm:
+  - url: https://www.npmjs.com/package/@layerzerolabs/hardhat-deploy-mnemonic
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-proof-utility
+  - url: https://www.npmjs.com/package/@layerzerolabs/create3-factory
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-core
+  - url: https://www.npmjs.com/package/@layerzerolabs/toolbox-foundry
+  - url: https://www.npmjs.com/package/@layerzerolabs/solidity-bytes-utils
+  - url: https://www.npmjs.com/package/@layerzerolabs/typechain-hardhat
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-definitions
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-v2-utilities
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-evm-oapp-v2
+  - url: https://www.npmjs.com/package/@layerzerolabs/verify-contract
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-bridge-sdk
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-core
+  - url: https://www.npmjs.com/package/@layerzerolabs/error-parser
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-evm-v1-0.7
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-sdk
+  - url: https://www.npmjs.com/package/@layerzerolabs/scan-client
+  - url: https://www.npmjs.com/package/@layerzerolabs/prettier-config-next
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-aptos
+  - url: https://www.npmjs.com/package/@layerzerolabs/evm-sdks-core
+  - url: https://www.npmjs.com/package/@layerzerolabs/typescript-config-next
+  - url: https://www.npmjs.com/package/@layerzerolabs/test-devtools-evm-hardhat
+  - url: https://www.npmjs.com/package/@layerzerolabs/ua-devtools
+  - url: https://www.npmjs.com/package/@layerzerolabs/export-deployments
+  - url: https://www.npmjs.com/package/@layerzerolabs/protocol-devtools
+  - url: https://www.npmjs.com/package/@layerzerolabs/devtools
+  - url: https://www.npmjs.com/package/@layerzerolabs/app-counter-v1-evm
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-aptos
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-erc20-sdk
+  - url: https://www.npmjs.com/package/@layerzerolabs/tron-utilities
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-evm-sdk-v1
+  - url: https://www.npmjs.com/package/@layerzerolabs/solidity-examples
+  - url: https://www.npmjs.com/package/@layerzerolabs/test-devtools-evm-foundry
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-solana-sdk-v2
+  - url: https://www.npmjs.com/package/@layerzerolabs/omnicounter-devtools
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-bridge-oft
+  - url: https://www.npmjs.com/package/@layerzerolabs/sdk-utilities
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-solana
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-wallet-evm
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-wallet
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-bridge-oft-wrapper
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-app-config
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-bridge-onft
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-bridge-wrapped-token
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-wallet-solana
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-wallet-aptos
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-app-index
+  - url: https://www.npmjs.com/package/@layerzerolabs/toolbox-hardhat
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-evm-oapp-v1
+  - url: https://www.npmjs.com/package/@layerzerolabs/hardhat-collect-outcomes
+  - url: https://www.npmjs.com/package/@layerzerolabs/evm-sdks-build
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-bridge-oft-v1
+  - url: https://www.npmjs.com/package/@layerzerolabs/typescript-config
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-log
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-price-sdk
+  - url: https://www.npmjs.com/package/@layerzerolabs/ua-devtools-evm
+  - url: https://www.npmjs.com/package/@layerzerolabs/io-devtools
+  - url: https://www.npmjs.com/package/@layerzerolabs/ua-devtools-evm-hardhat
+  - url: https://www.npmjs.com/package/@layerzerolabs/protocol-devtools-evm
+  - url: https://www.npmjs.com/package/@layerzerolabs/nextjs-config
+  - url: https://www.npmjs.com/package/@layerzerolabs/omnicounter-devtools-evm
+  - url: https://www.npmjs.com/package/@layerzerolabs/test-devtools
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-evm
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-evm-protocol-v2
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-utilities
+  - url: https://www.npmjs.com/package/@layerzerolabs/eslint-config-next
+  - url: https://www.npmjs.com/package/@layerzerolabs/prettier-config
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-evm-messagelib-v2
+  - url: https://www.npmjs.com/package/@layerzerolabs/ui-gas-drop
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-evm-sdk-v2
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-corekit-solana
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-corekit-evm
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-corekit-aptos
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-corekit-tron
+  - url: https://www.npmjs.com/package/@layerzerolabs/lz-corekit
+  - url: https://www.npmjs.com/package/@layerzerolabs/devtools-evm
+  - url: https://www.npmjs.com/package/@layerzerolabs/devtools-evm-hardhat
+  - url: https://www.npmjs.com/package/@layerzerolabs/solhint-config
+  - url: https://www.npmjs.com/package/@layerzerolabs/tsup-config-next
 blockchain:
+  - address: "0x9F403140Bc0574D7d36eA472b82DAa1Bbd4eF327"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x45208e8d6d09d6bfce5094083ab36f22bdfc8456"
     networks:
       - any_evm
@@ -556,5 +651,3 @@ blockchain:
     tags:
       - contract
     name: AptosTokenBridge
-websites:
-  - url: https://layerzero.network

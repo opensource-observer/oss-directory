@@ -1,9 +1,30 @@
 version: 7
 name: beefy-finance
 display_name: Beefy Finance
+websites:
+  - url: https://beefy.com
+  - url: https://beefy.finance
+social:
+  twitter:
+    - url: https://twitter.com/beefyfinance
+  farcaster:
+    - url: https://warpcast.com/beefy
 github:
+  - url: https://github.com/beefyfinance/beefy-contracts
   - url: https://github.com/beefyfinance
 blockchain:
+  - address: "0x010dA5FF62B6e45f89FA7B2d8CEd5a8b5754eC1b"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x161D61e30284A33Ab1ed227beDcac6014877B3DE"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x010da5ff62b6e45f89fa7b2d8ced5a8b5754ec1b"
     networks:
       - any_evm
@@ -3406,9 +3427,4 @@ blockchain:
     tags:
       - contract
     name: BeefyVaultV6
-websites:
-  - url: https://beefy.com
 description: THE Multichain Yield Optimizer
-social:
-  twitter:
-    - url: https://twitter.com/beefyfinance

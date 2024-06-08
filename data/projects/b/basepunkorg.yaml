@@ -1,8 +1,19 @@
 version: 7
 name: basepunkorg
 display_name: Base Punk NFT & Social-Fi Dapps
+websites:
+  - url: https://www.basepunk.xyz/
+  - url: https://basepunk.xyz
+social:
+  twitter:
+    - url: https://x.com/punkonbase
+    - url: https://twitter.com/Punkonbase
+  farcaster:
+    - url: https://warpcast.com/basepunk
 github:
+  - url: https://github.com/BasePunkOrg/basepunk-chat
   - url: https://github.com/BasePunkOrg/staking
+  - url: https://github.com/BasePunkOrg/basepunk-names-frontend
   - url: https://github.com/basepunkorg/basepunk-names-frontend
   - url: https://github.com/basepunkorg/basepunk-chat
   - url: https://github.com/basepunkorg/basepunk-landing
@@ -13,9 +24,6 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://basepunk.xyz
-description: First Social Fi Punk NFT collection on base with lots of utility for user like Staking of NFTs to earn passively, .basepunk domain, Social fi dapps, Friends key,etc
-social:
-  twitter:
-    - url: https://twitter.com/Punkonbase
+description: First Social Fi Punk NFT collection on base with lots of utility
+  for user like Staking of NFTs to earn passively, .basepunk domain, Social fi
+  dapps, Friends key,etc

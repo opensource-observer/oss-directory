@@ -1,9 +1,23 @@
 version: 7
 name: nnsprotocol
 display_name: NOGS
+websites:
+  - url: https://noggles.com
+social:
+  twitter:
+    - url: https://x.com/nogglescoin
+  farcaster:
+    - url: https://warpcast.com/noggles
 github:
+  - url: https://github.com/nnsprotocol/nogs-contracts
   - url: https://github.com/nnsprotocol
 blockchain:
+  - address: "0x9Ea39C35EE1a133B642377f407f6C955f86b2FF0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x5Fa20D59d2A907E5FEd9Fb80B4A8D9F0d069a48D"
     tags:
       - contract
@@ -23,6 +37,4 @@ blockchain:
       - base
       - mainnet
     name: NOGS Deployer
-websites:
-  - url: https://noggles.com
 description: A Nounish Currency

@@ -1,7 +1,17 @@
 version: 7
 name: alchemix
 display_name: Alchemix
+websites:
+  - url: https://alchemix.fi
+  - url: https://TBD
+social:
+  twitter:
+    - url: https://x.com/AlchemixFi
+    - url: https://twitter.com/AlchemixFi
 github:
+  - url: https://github.com/alchemix-finance/deployments
+  - url: https://github.com/alchemix-finance/v2-foundry
+  - url: https://github.com/alchemix-finance/alchemix-v2-frontend
   - url: https://github.com/alchemix-finance
 blockchain:
   - address: "0x13c716188c38ce27b9b2b672a59543cf1170eabe"
@@ -499,8 +509,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://alchemix.fi
-social:
-  twitter:
-    - url: https://twitter.com/AlchemixFi

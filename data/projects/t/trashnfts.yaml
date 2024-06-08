@@ -1,31 +1,41 @@
 version: 7
 name: trashnfts
 display_name: Trash NFTs
-github:
-  - url: https://github.com/TrashNFTs
-blockchain:
-  - address: "0xdf00fdE26A6819507649904Ca52FE5062eF75Ba7"
-    tags:
-    - contract
-    networks:
-    - base
-  - address: "0x8f251c7696689efb2ad9adb107699bedfe180fd8"
-    tags:
-    - deployer
-    networks:
-    - base
-  - address: "0xfC0d8e8B077DA481F5309825a88604188C2FBD7F"
-    tags:
-    - contract
-    networks:
-    - base
-  - address: "0xd76fe30f32c5c103bb9c85d65c262dcc845c1e46"
-    tags:
-    - deployer
-    networks:
-    - base  
 websites:
   - url: https://www.trashnfts.com/
+  - url: https://dumpster.trashnfts.com/
 social:
   twitter:
     - url: https://x.com/trashNFTs404
+  farcaster:
+    - url: https://warpcast.com/trashnfts
+github:
+  - url: https://github.com/TrashNFTs/Dumpster-Divers
+  - url: https://github.com/TrashNFTs
+blockchain:
+  - address: "0xD76fE30f32c5c103Bb9C85D65C262dCC845C1E46"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xdf00fdE26A6819507649904Ca52FE5062eF75Ba7"
+    tags:
+      - contract
+    networks:
+      - base
+  - address: "0x8f251c7696689efb2ad9adb107699bedfe180fd8"
+    tags:
+      - deployer
+    networks:
+      - base
+  - address: "0xfC0d8e8B077DA481F5309825a88604188C2FBD7F"
+    tags:
+      - contract
+    networks:
+      - base
+  - address: "0xd76fe30f32c5c103bb9c85d65c262dcc845c1e46"
+    tags:
+      - deployer
+    networks:
+      - base

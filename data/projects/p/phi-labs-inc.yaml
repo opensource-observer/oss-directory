@@ -1,18 +1,30 @@
 version: 7
 name: phi-labs-inc
 display_name: PHI-LABS-INC
+websites:
+  - url: https://phiprotocol.xyz/
+  - url: https://philand.xyz/
+social:
+  twitter:
+    - url: https://x.com/phi_xyz
+    - url: https://twitter.com/phi_xyz
+  farcaster:
+    - url: https://warpcast.com/~/channel/phi
+    - url: https://warpcast.com/phi
 github:
+  - url: https://github.com/PHI-LABS-INC/phi-teaser
   - url: https://github.com/phi-labs-inc
 blockchain:
+  - address: "0x6D83cac25CfaCdC7035Bed947B92b64e6a8B8090"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xc8decd7aaf036f4cc7c673fd5b172082c66c289a"
     networks:
       - any_evm
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://philand.xyz/
 description: Build your web3 suite with your on-chain identity.
-social:
-  twitter:
-    - url: https://twitter.com/phi_xyz

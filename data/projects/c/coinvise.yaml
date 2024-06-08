@@ -1,18 +1,28 @@
 version: 7
 name: coinvise
 display_name: coinvise
+websites:
+  - url: https://coinvise.co
+social:
+  twitter:
+    - url: https://x.com/coinviseco
+    - url: https://twitter.com/CoinviseCo
+  farcaster:
+    - url: https://warpcast.com/coinvise
 github:
+  - url: https://github.com/coinvise/contracts
   - url: https://github.com/coinvise
 blockchain:
+  - address: "0x33d73cc0E060939476A10E47b86A4568c7DcF261"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x8df737904ab678b99717ef553b4efda6e3f94589"
     networks:
       - any_evm
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://coinvise.co
 description: Powerful tools for creators to build & operate web3 communities.
-social:
-  twitter:
-    - url: https://twitter.com/CoinviseCo

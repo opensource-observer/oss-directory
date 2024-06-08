@@ -1,9 +1,28 @@
 version: 7
 name: revert-finance
 display_name: Revert Finance
+websites:
+  - url: https://revert.finance
+social:
+  twitter:
+    - url: https://twitter.com/revertfinance
 github:
+  - url: https://github.com/revert-finance/v3utils
+  - url: https://github.com/revert-finance/compoundor
   - url: https://github.com/revert-finance
 blockchain:
+  - address: "0x8df57E3D9dDde355dCE1adb19eBCe93419ffa0FB"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x83681C14770b44361e21Faf91D8325423365eA5C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x8df57e3d9ddde355dce1adb19ebce93419ffa0fb"
     networks:
       - any_evm
@@ -130,9 +149,4 @@ blockchain:
       - eoa
       - wallet
     name: revertfinance.eth
-websites:
-  - url: https://revert.finance
 description: Actionable analytics for DeFi liquidity providers
-social:
-  twitter:
-    - url: https://twitter.com/revertfinance

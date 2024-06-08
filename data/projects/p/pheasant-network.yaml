@@ -1,9 +1,28 @@
 version: 7
 name: pheasant-network
 display_name: Pheasant Network
+websites:
+  - url: https://pheasant.network/
+  - url: https://docs.pheasant.network/
+  - url: https://discord.gg/pRYSEUVERT
+  - url: https://l2learn.io
+  - url: https://t.me/pheasant_network
+social:
+  twitter:
+    - url: https://twitter.com/PheasantNetwork
+  farcaster:
+    - url: https://warpcast.com/pheasant-network
 github:
+  - url: https://github.com/Pheasant-Network
+  - url: https://github.com/Pheasant-Network/contracts
   - url: https://github.com/pheasant-network
 blockchain:
+  - address: "0xfc976D96ccc57bC9D04AeA92A4a66Abd71926298"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xfc976d96ccc57bc9d04aea92a4a66abd71926298"
     networks:
       - any_evm
@@ -23,5 +42,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://pheasant.network/

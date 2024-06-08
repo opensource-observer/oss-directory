@@ -1,7 +1,26 @@
 version: 7
 name: api3-dao
 display_name: Api3
-github:
-  - url: https://github.com/API3DAO
 websites:
   - url: https://api3.org/
+  - url: https://docs.api3.org/
+  - url: https://market.api3.org/
+  - url: https://ecosystem.api3.org/
+social:
+  twitter:
+    - url: https://x.com/API3DAO
+github:
+  - url: https://github.com/api3dao/contracts
+  - url: https://github.com/api3dao/signed-api
+  - url: https://github.com/api3dao/airnode
+  - url: https://github.com/api3dao/airseeker-v2
+  - url: https://github.com/API3DAO
+npm:
+  - url: https://www.npmjs.com/search?q=%40api3
+blockchain:
+  - address: "0x07b589f06bD0A5324c4E2376d66d2F4F25921DE1"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

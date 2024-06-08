@@ -1,9 +1,31 @@
 version: 7
 name: nifty-kit
 display_name: NiftyKit
+websites:
+  - url: https://niftykit.com
+social:
+  twitter:
+    - url: https://x.com/niftykitapp
+    - url: https://twitter.com/niftykitapp
+  farcaster:
+    - url: https://warpcast.com/niftykitapp
 github:
+  - url: https://github.com/niftykit-inc/niftykit-contracts-v3
+  - url: https://github.com/niftykit-inc/niftykit-contracts
   - url: https://github.com/niftykit-inc
 blockchain:
+  - address: "0x9DB006063ee2049a35624bCCe32945E524105401"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x338b06ba713354c3c68a1235E206e93F97bFdD79"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x9db006063ee2049a35624bcce32945e524105401"
     networks:
       - any_evm
@@ -457,9 +479,4 @@ blockchain:
     tags:
       - contract
     name: DiamondCollection
-websites:
-  - url: https://niftykit.com
 description: No-code smart contract platform for NFTs
-social:
-  twitter:
-    - url: https://twitter.com/niftykitapp

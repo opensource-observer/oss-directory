@@ -1,12 +1,23 @@
 version: 7
 name: reservoirprotocol
 display_name: Reservoir Protocol
-github:
-  - url: https://github.com/reservoirprotocol
 websites:
   - url: https://reservoir.tools/
-description: Open-source NFT trading infrastructure enabling the next generation
-  of NFT products
 social:
   twitter:
+    - url: https://x.com/reservoir0x
     - url: https://twitter.com/reservoir0x
+  farcaster:
+    - url: https://warpcast.com/~/channel/reservoir
+github:
+  - url: https://github.com/reservoirprotocol/reservoir-contracts
+  - url: https://github.com/reservoirprotocol
+blockchain:
+  - address: "0xf3d63166F0Ca56C3c1A3508FcE03Ff0Cf3Fb691e"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+description: Open-source NFT trading infrastructure enabling the next generation
+  of NFT products

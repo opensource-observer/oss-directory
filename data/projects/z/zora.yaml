@@ -1,7 +1,15 @@
 version: 7
 name: zora
 display_name: Zora
+websites:
+  - url: https://zora.co
+social:
+  twitter:
+    - url: https://x.com/ourZORA
+  farcaster:
+    - url: https://warpcast.com/~/channel/zora
 github:
+  - url: https://github.com/ourzora/zora-protocol
   - url: https://github.com/ourzora/assets
   - url: https://github.com/ourzora/auction-house
   - url: https://github.com/ourzora/auction-houses-twitter-bot
@@ -70,7 +78,6 @@ github:
   - url: https://github.com/ourzora/zora-docs
   - url: https://github.com/ourzora/zora-drop-frontend
   - url: https://github.com/ourzora/zora-drops-extensions
-  - url: https://github.com/ourzora/zora-protocol
   - url: https://github.com/ourzora/zora-token-factory-deprecated-
   - url: https://github.com/ourzora/zora-v1-subgraph
   - url: https://github.com/ourzora/zora-zine-reader
@@ -78,6 +85,30 @@ github:
   - url: https://github.com/ourzora/zorb
   - url: https://github.com/ourzora/zorb-zenerator
 blockchain:
+  - address: "0xf69fEc6d858c77e969509843852178bd24CAd2B6"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x12125c8a52B8E4ed1A28e1f964023b4477f11300"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xaD031EeE55f595dF6Dbd61e9ef3B908FaD1B3671"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x680E26B472d8cae8148ee21FCAd6A69D73766436"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xad031eee55f595df6dbd61e9ef3b908fad1b3671"
     networks:
       - any_evm
@@ -263,6 +294,4 @@ blockchain:
       - contract
       - proxy
     name: "Zora: L2StandardBridge"
-websites:
-  - url: https://zora.co
 description: Internet Renaissance ☼☽

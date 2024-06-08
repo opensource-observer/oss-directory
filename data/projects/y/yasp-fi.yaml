@@ -1,12 +1,20 @@
 version: 7
 name: yasp-fi
 display_name: yasp-fi
-github:
-  - url: https://github.com/yasp-fi
 websites:
   - url: https://yasp.fi
-description: All-in-one DeFi wallet and dashboard focused on data-based
-  investment decisions.
 social:
   twitter:
     - url: https://twitter.com/YaspFi
+github:
+  - url: https://github.com/yasp-fi/defi-router
+  - url: https://github.com/yasp-fi
+blockchain:
+  - address: "0x777BcC85d91EcE0C641a6F03F35a2A98F4049777"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+description: All-in-one DeFi wallet and dashboard focused on data-based
+  investment decisions.

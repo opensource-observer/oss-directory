@@ -1,9 +1,35 @@
 version: 7
 name: delegatexyz
 display_name: Delegate
+websites:
+  - url: https://delegate.xyz
+social:
+  twitter:
+    - url: https://twitter.com/delegatedotxyz
 github:
+  - url: https://github.com/delegatexyz/delegate-registry
   - url: https://github.com/delegatexyz
+npm:
+  - url: https://www.npmjs.com/package/@delegatexyz/sdk
 blockchain:
+  - address: "0x6Ed7D526b020780f694f3c10Dfb25E1b134D3215"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x4bE6369ceaB4719108E9fbfC9b304201F1fe58aa"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xe5ee2B9d5320f2D1492e16567F36b578372B3d9F"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x00000000000000447e69651d841bd8d104bed493"
     networks:
       - optimism
@@ -23,8 +49,3 @@ blockchain:
       - deployer
       - eoa
       - wallet
-websites:
-  - url: https://delegate.xyz
-social:
-  twitter:
-    - url: https://twitter.com/delegatedotxyz

@@ -1,10 +1,31 @@
 version: 7
 name: lifinance
 display_name: LI.FI
+websites:
+  - url: https://li.fi/
+  - url: https://jumper.exchange/
+  - url: https://li.fi
+social:
+  twitter:
+    - url: https://x.com/lifiprotocol
+    - url: https://twitter.com/lifiprotocol
+  farcaster:
+    - url: https://warpcast.com/lifiprotocol
 github:
+  - url: https://github.com/lifinance/contracts
   - url: https://github.com/lifinance
+npm:
+  - url: https://www.npmjs.com/package/@lifi/sdk
+  - url: https://www.npmjs.com/package/@lifi/widget
+  - url: https://www.npmjs.com/package/@lifi/types
+  - url: https://www.npmjs.com/package/@lifi/data-types
 blockchain:
-  # Deployers
+  - address: "0x11F11121DF7256C40339393b0FB045321022ce44"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x11f11121df7256c40339393b0fb045321022ce44"
     networks:
       - any_evm
@@ -21,7 +42,6 @@ blockchain:
     networks:
       - any_evm
     tags:
-      #- deployer
       - eoa
   - address: "0x11F1022cA6AdEF6400e5677528a80d49a069C00c"
     networks:
@@ -39,10 +59,7 @@ blockchain:
     networks:
       - any_evm
     tags:
-      #- deployer
       - eoa
-
-  # Wallets
   - address: "0x8932eb23bad9bddb5cf81426f78279a53c6c3b71"
     networks:
       - any_evm
@@ -61,8 +78,6 @@ blockchain:
     tags:
       - eoa
       - wallet
-
-  # Safe
   - address: "0x9e606d0d2BbA344b911e2F4Eab95d9235A83fe15"
     networks:
       - arbitrum_one
@@ -118,8 +133,6 @@ blockchain:
       - mantle
     tags:
       - safe
-
-  # Create Factories
   - address: "0x93FEC2C00BfE902F733B57c5a6CeeD7CD1384AE1"
     networks:
       - any_evm
@@ -134,8 +147,6 @@ blockchain:
       - contract
       - factory
     name: CREATE3Factory
-
-  # Diamonds
   - address: "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae"
     networks:
       - any_evm
@@ -166,8 +177,6 @@ blockchain:
     tags:
       - contract
     name: LiFiDiamond
-
-  # FeeCollectors
   - address: "0xb0210de78e28e2633ca200609d9f528c13c26cd9"
     networks:
       - arbitrum_one
@@ -198,8 +207,6 @@ blockchain:
     tags:
       - contract
     name: FeeCollector
-
-  # Executor
   - address: "0x2dfaDAB8266483beD9Fd9A292Ce56596a2D1378D"
     networks:
       - any_evm
@@ -218,8 +225,6 @@ blockchain:
     tags:
       - contract
     name: Executor
-
-  # other contracts
   - address: "0x2fd525b8b2e2a69d054dccb033a0e33e0b4ab370"
     networks:
       - arbitrum_one
@@ -243,14 +248,4 @@ blockchain:
     tags:
       - contract
     name: unverified
-websites:
-  - url: https://li.fi
 description: The DeFi Liquidity Mesh - Bridge & DEX aggregation out of the box
-social:
-  twitter:
-    - url: https://twitter.com/lifiprotocol
-npm:
-  - url: https://www.npmjs.com/package/@lifi/sdk
-  - url: https://www.npmjs.com/package/@lifi/widget
-  - url: https://www.npmjs.com/package/@lifi/types
-  - url: https://www.npmjs.com/package/@lifi/data-types

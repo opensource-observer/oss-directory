@@ -1,10 +1,25 @@
 version: 7
 name: travenesia
 display_name: Travenesia
+websites:
+  - url: https://aethernity.xyz/
+  - url: https://www.aethernity.xyz/
+social:
+  twitter:
+    - url: https://x.com/travenesia
+    - url: https://twitter.com/travenesia
+  farcaster:
+    - url: https://warpcast.com/travenesia
 github:
   - url: https://github.com/travenesia/travenesia
   - url: https://github.com/travenesia/aethernity
 blockchain:
+  - address: "0xA49CEE842116A89299A721D831BCf0511E8F6A15"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xA49CEE842116A89299A721D831BCf0511E8F6A15"
     networks:
       - any_evm
@@ -37,8 +52,3 @@ blockchain:
       - contract
       - factory
 description: Traveler, digital artist and IT enthusiast
-websites:
-  - url: https://www.aethernity.xyz/
-social:
-  twitter:
-    - url: https://twitter.com/travenesia

@@ -1,13 +1,50 @@
 version: 7
 name: 0x-splits
 display_name: 0xSplits
+websites:
+  - url: https://splits.org/
+  - url: https://splits.org
+social:
+  twitter:
+    - url: https://x.com/0xsplits
+    - url: https://twitter.com/0xsplits
+  farcaster:
+    - url: https://warpcast.com/~/channel/splits
 github:
+  - url: https://github.com/0xSplits/splits-swapper
+  - url: https://github.com/0xSplits/splits-waterfall
+  - url: https://github.com/0xSplits/splits-contracts
+  - url: https://github.com/0xSplits/splits-sdk
+  - url: https://github.com/0xSplits/splits-utils
+  - url: https://github.com/0xSplits/splits-contracts-monorepo
+  - url: https://github.com/0xSplits/splits-oracle
+  - url: https://github.com/0xSplits/splits-liquid
+  - url: https://github.com/0xSplits/splits-vesting
+  - url: https://github.com/0xSplits/splits-diversifier
   - url: https://github.com/0xSplits
 npm:
-  - url: https://www.npmjs.com/package/@0xsplits/splits-kit
   - url: https://www.npmjs.com/package/@0xsplits/splits-sdk
   - url: https://www.npmjs.com/package/@0xsplits/splits-sdk-react
+  - url: https://www.npmjs.com/package/@0xsplits/splits-kit
 blockchain:
+  - address: "0x9ebC8E61f87A301fF25a606d7C06150f856F24E2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x8cC55811d2610ece1997658Bef35B290e55c9186"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x3aad7A3E59e478BB4C76a4813De5F4107b3D61bD"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x9ebc8e61f87a301ff25a606d7c06150f856f24e2"
     networks:
       - any_evm
@@ -144,9 +181,4 @@ blockchain:
       - contract
       - factory
     name: DiversifierFactory
-websites:
-  - url: https://splits.org
 description: The standard for splitting onchain income
-social:
-  twitter:
-    - url: https://twitter.com/0xsplits

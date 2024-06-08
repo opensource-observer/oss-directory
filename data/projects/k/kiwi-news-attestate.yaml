@@ -1,17 +1,41 @@
 version: 7
 name: kiwi-news-attestate
 display_name: Kiwi News
+websites:
+  - url: https://kiwinews.xyz
+  - url: https://attestate.com
+  - url: https://news.kiwistand.com
+  - url: https://kiwinews.io
+social:
+  twitter:
+    - url: https://x.com/KiwiNewsHQ
+  farcaster:
+    - url: https://warpcast.com/~/channel/kiwi-news
 github:
   - url: https://github.com/attestate/kiwistand
-  - url: https://github.com/attestate/awesome-kiwinews
-  - url: https://github.com/attestate/delegator2
   - url: https://github.com/attestate/purchase-delegator
   - url: https://github.com/attestate/svg-line-chart
   - url: https://github.com/attestate/crawler
   - url: https://github.com/attestate/eth-fun
   - url: https://github.com/attestate/extraction-worker
   - url: https://github.com/attestate/crawler-call-block-logs
+  - url: https://github.com/attestate/delegator2
+  - url: https://github.com/attestate/awesome-kiwinews
+npm:
+  - url: https://www.npmjs.com/package/@attestate/crawler
+  - url: https://www.npmjs.com/package/@attestate/extraction-worker
+  - url: https://www.npmjs.com/package/@attestate/delegator2
+  - url: https://www.npmjs.com/package/kiwistand
+  - url: https://www.npmjs.com/package/svg-line-chart
+  - url: https://www.npmjs.com/package/eth-fun
+  - url: https://www.npmjs.com/package/@attestate/crawler-call-block-logs
 blockchain:
+  - address: "0xee324c588ceF1BF1c1360883E4318834af66366d"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x66747bdc903d17c586fa09ee5d6b54cc85bbea45"
     networks:
       - optimism
@@ -62,8 +86,3 @@ blockchain:
       - eoa
       - wallet
     name: macbudkowski.eth
-websites:
-  - url: https://attestate.com
-  - url: https://news.kiwistand.com
-  - url: https://kiwinews.xyz
-  - url: https://kiwinews.io

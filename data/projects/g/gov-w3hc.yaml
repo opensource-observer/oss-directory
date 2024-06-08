@@ -1,10 +1,22 @@
 version: 7
 name: gov-w3hc
 display_name: Gov by w3hc
+websites:
+  - url: https://w3hc.org/
+  - url: https://w3hc.org
 github:
+  - url: https://github.com/w3hc/pattini
   - url: https://github.com/w3hc/gov
+  - url: https://github.com/w3hc/web3dd
+  - url: https://github.com/w3hc/w3hc-hardhat-template
   - url: https://github.com/w3hc/gov-deployer
 blockchain:
+  - address: "0xa30189949cD8F662582b10eB6E353374419EDf67"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x83e2403a8b94af988b4f4ae9869577783b8cd216"
     networks:
       - optimism
@@ -17,8 +29,6 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://w3hc.org
 description: We want to build integrations through mentoring and learning.
 social:
   twitter:

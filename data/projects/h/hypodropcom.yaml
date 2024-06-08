@@ -1,9 +1,34 @@
 version: 7
 name: hypodropcom
 display_name: HypoDrop
+websites:
+  - url: https://opensea.io/collection/op-land
+  - url: https://hypodrop.com
+  - url: https://zora.co/collect/zora:0xed4700171b96848282b21e9099ee9a28253cc168/1
+  - url: https://zora.co/collect/base:0x9f0763ddbeaf0de55ce6e13a4ed3c37e0f2445c7
+  - url: https://zora.co/collect/oeth:0x65ef4e42f20a7d16561e0d9d9da8a6e25823febf/1
+  - url: https://zora.co/collect/zora:0x1d6f3311b72347518fd5fa0b27ca15404b65a8d5/1
+  - url: https://zora.co/collect/base:0x72c55001a08c122577ac30a45b1ac09562feff4e
+  - url: https://zora.co/collect/base:0x400326aeeec608716b12dbec4e1619d915595a37/1
+  - url: https://zora.co/collect/oeth:0x0768b06e0c21a200d1995f7c7ca7d51e07d09184/1
+  - url: https://zora.co/collect/oeth:0x826f05f66b057689df93caa404c4e18348b969c8/1
+  - url: https://zora.co/collect/oeth:0x8d3e56eb51e5d139f58f6423e6fcfbbaf54cf103/1
+social:
+  twitter:
+    - url: https://x.com/baselandz
+    - url: https://x.com/Hypodrop
+  farcaster:
+    - url: https://warpcast.com/hypodropd
 github:
+  - url: https://github.com/HypoDropCom/OP-Land
   - url: https://github.com/HypoDropCom
 blockchain:
+  - address: "0xF5dd11c8394c92483D462ffE78bcD0e2A72BCb0c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xF5dd11c8394c92483D462ffE78bcD0e2A72BCb0c"
     networks:
       - any_evm
@@ -64,18 +89,5 @@ blockchain:
       - base
     tags:
       - contract
-websites:
-  - url: https://hypodrop.com
-  - url: https://zora.co/collect/zora:0xed4700171b96848282b21e9099ee9a28253cc168/1
-  - url: https://zora.co/collect/base:0x9f0763ddbeaf0de55ce6e13a4ed3c37e0f2445c7
-  - url: https://zora.co/collect/oeth:0x65ef4e42f20a7d16561e0d9d9da8a6e25823febf/1
-  - url: https://zora.co/collect/zora:0x1d6f3311b72347518fd5fa0b27ca15404b65a8d5/1
-  - url: https://zora.co/collect/base:0x72c55001a08c122577ac30a45b1ac09562feff4e
-  - url: https://zora.co/collect/base:0x400326aeeec608716b12dbec4e1619d915595a37/1
-  - url: https://zora.co/collect/oeth:0x0768b06e0c21a200d1995f7c7ca7d51e07d09184/1
-  - url: https://zora.co/collect/oeth:0x826f05f66b057689df93caa404c4e18348b969c8/1
-  - url: https://zora.co/collect/oeth:0x8d3e56eb51e5d139f58f6423e6fcfbbaf54cf103/1
-description: Advertising Platform and Community based DAO Supporting Early NFT, Web3 Projects
-social:
-  twitter:
-    - url: https://x.com/Hypodrop
+description: Advertising Platform and Community based DAO Supporting Early NFT,
+  Web3 Projects

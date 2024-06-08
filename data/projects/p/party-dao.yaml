@@ -1,7 +1,27 @@
 version: 7
 name: party-dao
 display_name: Party DAO
-github:
-  - url: https://github.com/PartyDAO
 websites:
   - url: https://www.party.app/
+  - url: https://docs.partydao.org/
+social:
+  twitter:
+    - url: https://x.com/prtyDAO
+  farcaster:
+    - url: https://warpcast.com/partydao
+github:
+  - url: https://github.com/PartyDAO/party-protocol
+  - url: https://github.com/PartyDAO
+blockchain:
+  - address: "0x0e63D6f414b40BaFCa676810ef1aBf05ECc8E459"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x26022D2740CF222805D08e05145C373798f3fbC6"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

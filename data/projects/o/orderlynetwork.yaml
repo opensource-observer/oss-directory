@@ -1,11 +1,30 @@
 version: 7
 name: orderlynetwork
 display_name: Orderly Network
-github:
-  - url: https://github.com/orderlynetwork
 websites:
   - url: https://orderly.network
-description: The permissionless liquidity layer for Web3 trading
+  - url: https://@orderlynetwork
 social:
+  farcaster:
+    - url: https://warpcast.com/orderly
   twitter:
     - url: https://twitter.com/OrderlyNetwork
+github:
+  - url: https://github.com/OrderlyNetwork/contract-evm
+  - url: https://github.com/orderlynetwork
+npm:
+  - url: https://www.npmjs.com/package/@orderly.network/hooks
+blockchain:
+  - address: "0x43E3E4d002BA65c6a26d2e4c998b46e427370e6c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x295e0fC7ab0F86df5597F38c9568a2da217E6673"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+description: The permissionless liquidity layer for Web3 trading

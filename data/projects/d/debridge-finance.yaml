@@ -1,9 +1,52 @@
 version: 7
 name: debridge-finance
 display_name: deBridge
+websites:
+  - url: https://debridge.finance/
+social:
+  twitter:
+    - url: https://x.com/deBridgeFinance
+    - url: https://twitter.com/deBridgeFinance
+  farcaster:
+    - url: https://warpcast.com/debridge
 github:
+  - url: https://github.com/debridge-finance/debridge-contracts-v1
+  - url: https://github.com/debridge-finance/dln-taker
+  - url: https://github.com/debridge-finance/hardhat-debridge
+  - url: https://github.com/debridge-finance/debridge-node
+  - url: https://github.com/debridge-finance/dln-contracts
   - url: https://github.com/debridge-finance
+npm:
+  - url: https://www.npmjs.com/package/@debridge-finance/dln-taker
+  - url: https://www.npmjs.com/package/@debridge-finance/dln-client
+  - url: https://www.npmjs.com/package/@debridge-finance/legacy-dln-profitability
+  - url: https://www.npmjs.com/package/@debridge-finance/desdk
+  - url: https://www.npmjs.com/package/@debridge-finance/debridge-protocol-evm-interfaces
 blockchain:
+  - address: "0xd6F0DabbBccd143f7d526a82Ca176b5395cCc844"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xbda458dfc28021dEbD72060671Fc350fA5CB39e5"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xFD830dd9B446c9b880b32A03FB9A750AaE4A68aa"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x6c4F99a78b38a079FCcE208b7e6CF909c4b7e4cc"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xbda458dfc28021debd72060671fc350fa5cb39e5"
     networks:
       - any_evm
@@ -166,9 +209,4 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://debridge.finance/
 description: Cross-chain interoperability and liquidity transfer protocol
-social:
-  twitter:
-    - url: https://twitter.com/deBridgeFinance

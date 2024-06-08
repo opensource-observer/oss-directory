@@ -1,11 +1,28 @@
 version: 7
 name: cyberconnecthq
 display_name: CyberConnect
-github:
-  - url: https://github.com/cyberconnecthq
 websites:
   - url: https://cyber.co/
-description: Building on web3
 social:
   twitter:
+    - url: https://x.com/cyberconnecthq
     - url: https://twitter.com/CyberConnectHQ
+  farcaster:
+    - url: https://warpcast.com/buildoncyber
+github:
+  - url: https://github.com/cyberconnecthq/cybergraph
+  - url: https://github.com/cyberconnecthq
+blockchain:
+  - address: "0x0e0bE581B17684f849AF6964D731FCe0F7d366BD"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x7884f7F04F994da14302a16Cf15E597e31eebECf"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+description: Building on web3

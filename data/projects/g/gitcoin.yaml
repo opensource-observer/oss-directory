@@ -1,11 +1,27 @@
 version: 7
 name: gitcoin
 display_name: Gitcoin
+websites:
+  - url: https://gitcoin.co
+social:
+  twitter:
+    - url: https://twitter.com/gitcoin
+    - url: https://twitter.com/Gitcoin
+  farcaster:
+    - url: https://warpcast.com/gitcoin
 github:
+  - url: https://github.com/gitcoinco/grants-stack
+  - url: https://github.com/allo-protocol/allo-v2
   - url: https://github.com/gitcoinco
   - url: https://github.com/allo-protocol
   - url: https://github.com/moonshotcollective
 blockchain:
+  - address: "0x8C180840fcBb90CE8464B4eCd12ab0f840c6647C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x4b70c4308ea49d17fd946ddacd6884e8e1e18b56"
     networks:
       - any_evm
@@ -60,9 +76,4 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://gitcoin.co
 description: We empower communities to build and fund their shared needs
-social:
-  twitter:
-    - url: https://twitter.com/Gitcoin

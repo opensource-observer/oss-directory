@@ -1,9 +1,28 @@
 version: 7
 name: velodrome
 display_name: Velodrome
+websites:
+  - url: https://velodrome.finance
+social:
+  twitter:
+    - url: https://twitter.com/VelodromeFi
+  farcaster:
+    - url: https://warpcast.com/velodrome
 github:
+  - url: https://github.com/velodrome-finance/sugar
+  - url: https://github.com/velodrome-finance/slipstream
+  - url: https://github.com/velodrome-finance/relay
+  - url: https://github.com/velodrome-finance/contracts
+  - url: https://github.com/velodrome-finance/universal-router
+  - url: https://github.com/velodrome-finance/oracle
   - url: https://github.com/velodrome-finance
 blockchain:
+  - address: "0x892Ff98a46e5bd141E2D12618f4B2Fe6284debac"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x8321926c8aae281ef9d8520a772eb1d94a9ec6dd"
     networks:
       - any_evm
@@ -608,9 +627,4 @@ blockchain:
     tags:
       - contract
     name: UniversalRouter
-websites:
-  - url: https://velodrome.finance
 description: The trading and liquidity marketplace on Superchain
-social:
-  twitter:
-    - url: https://twitter.com/VelodromeFi

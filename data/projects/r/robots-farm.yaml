@@ -3,3 +3,23 @@ name: robots-farm
 display_name: Robots.farm
 websites:
   - url: https://robots.farm/
+social:
+  twitter:
+    - url: https://x.com/robotsfarm
+  farcaster:
+    - url: https://warpcast.com/robotsfarm
+github:
+  - url: https://github.com/robotsfarm/contracts
+blockchain:
+  - address: "0xAd1613CF70b62c4e1542Ae29b3fADDFCeFFbe8Fc"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x41d055587eA1B401365757cbBBf9e172483B6dC3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

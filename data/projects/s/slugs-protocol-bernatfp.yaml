@@ -1,9 +1,20 @@
 version: 7
 name: slugs-protocol-bernatfp
 display_name: Slugs
+websites:
+  - url: https://s.box
+  - url: https://slugs.box
+  - url: https://dune.com/bernat/slugs-protocol
+  - url: https://bernat.xyz
 github:
   - url: https://github.com/bernatfp/slugs-protocol
 blockchain:
+  - address: "0x4Db5eD285AE33cFd0D6A6AB9ec775f7350f55e6d"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x48fbf0b7e6bdaa9d7452feb34507b2bddb148e54"
     networks:
       - optimism
@@ -16,8 +27,6 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://bernat.xyz
 description: Always Be Creating
 social:
   twitter:

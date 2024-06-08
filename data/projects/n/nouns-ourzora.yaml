@@ -1,11 +1,25 @@
 version: 7
 name: nouns-ourzora
 display_name: Builder Protocol (Nouns)
+websites:
+  - url: https://nouns.build/
+  - url: https://zora.co
+social:
+  twitter:
+    - url: https://x.com/nounsbuilder
+  farcaster:
+    - url: https://warpcast.com/builder-dao
 github:
   - url: https://github.com/ourzora/nouns-builder
-  - url: https://github.com/ourzora/nouns-builder-bot
   - url: https://github.com/ourzora/nouns-protocol
+  - url: https://github.com/ourzora/nouns-builder-bot
 blockchain:
+  - address: "0x4c276F7FF3893a68cc9A947544B32E9F1e6d9912"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xDC9b96Ea4966d063Dd5c8dbaf08fe59062091B6D"
     tags:
       - contract
@@ -14,6 +28,4 @@ blockchain:
       - mainnet
       - optimism
     name: RPGF3 Payout Address
-websites:
-  - url: https://zora.co
 description: Internet Renaissance ☼☽

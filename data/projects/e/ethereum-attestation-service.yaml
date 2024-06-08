@@ -1,8 +1,20 @@
 version: 7
 name: ethereum-attestation-service
 display_name: Ethereum Attestation Service
+websites:
+  - url: https://attest.org
+  - url: https://docs.attest.org
+  - url: https://attest.sh
+social:
+  twitter:
+    - url: https://twitter.com/eas_eth
+  farcaster:
+    - url: https://warpcast.com/~/channel/eas
 github:
+  - url: https://github.com/ethereum-attestation-service/eas-contracts
   - url: https://github.com/ethereum-attestation-service
+npm:
+  - url: https://www.npmjs.com/package/@ethereum-attestation-service/eas-contracts
 blockchain:
   - address: "0x4200000000000000000000000000000000000020"
     networks:
@@ -41,9 +53,4 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://attest.sh
 description: Public good for making attestations on or off-chain.
-social:
-  twitter:
-    - url: https://twitter.com/eas_eth

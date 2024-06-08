@@ -1,11 +1,24 @@
 version: 7
 name: artgenexyz
 display_name: artgenexyz
-github:
-  - url: https://github.com/artgenexyz
 websites:
   - url: https://artgene.xyz
-description: Drop your generative art collection on Ethereum
 social:
   twitter:
     - url: https://twitter.com/artgenexyz
+github:
+  - url: https://github.com/artgenexyz/nft-contracts
+  - url: https://github.com/artgenexyz/webflow-nft-components
+  - url: https://github.com/artgenexyz/web3-login
+  - url: https://github.com/artgenexyz/stream
+  - url: https://github.com/artgenexyz
+npm:
+  - url: https://www.npmjs.com/package/@buildship/web3-login
+blockchain:
+  - address: "0xe5cc6F5bbB3Eee408A1C022D235e6903656f2509"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+description: Drop your generative art collection on Ethereum

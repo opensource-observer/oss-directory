@@ -1,9 +1,26 @@
 version: 7
 name: rabbithole
 display_name: Boost Studios
+websites:
+  - url: https://boost.xyz
+social:
+  twitter:
+    - url: https://twitter.com/boost_xyz
+    - url: https://twitter.com/rabbithole_gg
+  farcaster:
+    - url: https://warpcast.com/boostxyz
 github:
+  - url: https://github.com/rabbitholegg/quest-protocol
   - url: https://github.com/rabbitholegg
+npm:
+  - url: https://www.npmjs.com/package/@rabbitholegg/questdk
 blockchain:
+  - address: "0x017F8Ad14A2E745ea0F756Bd57CD4852400be78c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x221a8da83f675f1fd97105a5b2b3bb65916a5101"
     networks:
       - any_evm
@@ -570,10 +587,5 @@ blockchain:
     tags:
       - contract
     name: RabbitHoleReceipt
-websites:
-  - url: https://boost.xyz
 description: (formerly RabbitHole) A protocol to deploy incentive offers to
   perform actions onchain
-social:
-  twitter:
-    - url: https://twitter.com/rabbithole_gg

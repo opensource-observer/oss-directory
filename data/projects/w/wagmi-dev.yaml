@@ -1,18 +1,39 @@
 version: 7
 name: wagmi-dev
 display_name: wagmi
+websites:
+  - url: https://talentprotocol.com
+  - url: https://wevm.dev
+social:
+  twitter:
+    - url: https://x.com/TalentProtocol
+    - url: https://twitter.com/wevm_dev
+  farcaster:
+    - url: https://warpcast.com/~/channel/talent
 github:
+  - url: https://github.com/talentprotocol/contracts
   - url: https://github.com/wagmi-dev
   - url: https://github.com/wevm
 npm:
-  - url: https://www.npmjs.com/package/wagmi
   - url: https://www.npmjs.com/package/viem
+  - url: https://www.npmjs.com/package/hardhat
+  - url: https://www.npmjs.com/package/@nomicfoundation/hardhat-viem
+  - url: https://www.npmjs.com/package/ethers
+  - url: https://www.npmjs.com/package/openzeppelin-solidity
+  - url: https://www.npmjs.com/package/@openzeppelin/contracts
+  - url: https://www.npmjs.com/package/wagmi
   - url: https://www.npmjs.com/package/@wagmi/core
   - url: https://www.npmjs.com/package/@wagmi/chains
   - url: https://www.npmjs.com/package/@wagmi/connectors
   - url: https://www.npmjs.com/package/@wagmi/mipd
   - url: https://www.npmjs.com/package/@wagmi/cli
 blockchain:
+  - address: "0x3C16C7092FE83d874BC4dd52c3b51510C69F1D7b"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x4557b18e779944bfe9d78a672452331c186a9f48"
     networks:
       - optimism
@@ -26,9 +47,4 @@ blockchain:
       - eoa
       - wallet
     name: wevm.eth
-websites:
-  - url: https://wevm.dev
 description: TypeScript tooling for Ethereum
-social:
-  twitter:
-    - url: https://twitter.com/wevm_dev

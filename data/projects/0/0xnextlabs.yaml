@@ -1,9 +1,26 @@
 version: 7
 name: 0xnextlabs
 display_name: Nextme
+websites:
+  - url: https://nextme.one
+  - url: https://docs.nextme.one
+  - url: https://nextme.one/nextme.eth
+social:
+  twitter:
+    - url: https://x.com/NextmeOne
+    - url: https://twitter.com/NextmeOne
+  farcaster:
+    - url: https://warpcast.com/Nextme
 github:
+  - url: https://github.com/0xNextLabs/Nextme-Whitepaper
   - url: https://github.com/0xNextLabs
 blockchain:
+  - address: "0xC19A8A7bcfF4bfaC344d95EF7146Db8fa7169370"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xc19a8a7bcff4bfac344d95ef7146db8fa7169370"
     networks:
       - any_evm
@@ -11,9 +28,4 @@ blockchain:
       - eoa
       - wallet
     name: nextme.eth
-websites:
-  - url: https://nextme.one
 description: Discover Interesting People and Stories.
-social:
-  twitter:
-    - url: https://twitter.com/NextmeOne

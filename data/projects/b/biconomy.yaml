@@ -1,7 +1,17 @@
 version: 7
 name: biconomy
 display_name: Biconomy
+websites:
+  - url: https://www.biconomy.io/
+  - url: https://biconomy.io
+social:
+  twitter:
+    - url: https://x.com/biconomy
+  farcaster:
+    - url: https://warpcast.com/biconomy
 github:
+  - url: https://github.com/bcnmy/scw-contracts
+  - url: https://github.com/bcnmy/biconomy-paymasters
   - url: https://github.com/bcnmy
 npm:
   - url: https://www.npmjs.com/package/@biconomy/account
@@ -444,7 +454,7 @@ blockchain:
       - contract
     name: PasskeyRegistryModule
   - address: "0x000002FbFfedd9B33F4E7156F2DE8D48945E7489"
-    networks: 
+    networks:
       - arbitrum_one
       - optimism
       - base
@@ -467,7 +477,3 @@ blockchain:
     tags:
       - contract
     name: ERC20SessionValidationModule
-
-  
-websites:
-  - url: https://biconomy.io

@@ -1,9 +1,32 @@
 version: 7
 name: decent
 display_name: Decent
+websites:
+  - url: https://decent.xyz
+  - url: https://launch.decent.xyz
+  - url: https://app.decent.xyz
+  - url: https://console.decent.xyz
+social:
+  twitter:
+    - url: https://twitter.com/decentxyz
+  farcaster:
+    - url: https://warpcast.com/decentxyz
 github:
+  - url: https://github.com/decentxyz/decentV2-contracts
+  - url: https://github.com/decentxyz/launch-nfts
   - url: https://github.com/decentxyz
+npm:
+  - url: https://www.npmjs.com/package/@decent.xyz/box-common
+  - url: https://www.npmjs.com/package/@decent.xyz/box-hooks
+  - url: https://www.npmjs.com/package/@decent.xyz/box-ui
+  - url: https://www.npmjs.com/package/@decent.xyz/the-box
 blockchain:
+  - address: "0x690f4e2f19717A06E1C146B2dCE68c2d23e36f4c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xfbe304258dcf193b9a320541985e2078ddb34287"
     networks:
       - any_evm
@@ -588,9 +611,4 @@ blockchain:
       - eoa
       - wallet
     name: willcollier.eth
-websites:
-  - url: https://decent.xyz
 description: Official team repository for https://decent.xyz
-social:
-  twitter:
-    - url: https://twitter.com/decentxyz

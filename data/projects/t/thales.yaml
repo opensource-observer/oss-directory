@@ -1,9 +1,38 @@
 version: 7
 name: thales
 display_name: Thales
+websites:
+  - url: https://thales.io
+  - url: https://thalesmarket.io
+  - url: https://overtimemarkets.xyz
+social:
+  twitter:
+    - url: https://x.com/thales_io
+    - url: https://twitter.com/thalesmarket
+  farcaster:
+    - url: https://warpcast.com/thales
 github:
+  - url: https://github.com/thales-markets/contracts
   - url: https://github.com/thales-markets
 blockchain:
+  - address: "0x9841484A4a6C0B61C4EEa71376D76453fd05eC9C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x8314125C8B68aF2AfD0D151eb4A551E88128A2aE"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x5aAb1dAE1ef9d93B7095D9De9C0EBB150d0c37F0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x34ad8d8c3e12b5a500fe983c43f2a0306dcf0ad1"
     networks:
       - any_evm
@@ -4296,9 +4325,4 @@ blockchain:
     tags:
       - contract
     name: AmmVault
-websites:
-  - url: https://thalesmarket.io
 description: Permissionless Parimutuel markets
-social:
-  twitter:
-    - url: https://twitter.com/thalesmarket

@@ -3,3 +3,15 @@ name: tokepad-xyz
 display_name: Tokepad
 websites:
   - url: https://tokepad.xyz/
+social:
+  twitter:
+    - url: https://x.com/tokepadxyz
+github:
+  - url: https://github.com/smolstudios/tokepad-contract
+blockchain:
+  - address: "0xeee47e88A8176c0774673E0E78ed0AFFfd5F7fFF"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

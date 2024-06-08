@@ -1,9 +1,23 @@
 version: 7
 name: aloe-ii
 display_name: Aloe II
+websites:
+  - url: https://aloe.capital
+social:
+  twitter:
+    - url: https://x.com/aloecapital
+    - url: https://twitter.com/aloecapital
 github:
+  - url: https://github.com/aloelabs/aloe-ii
+  - url: https://github.com/aloelabs/aloe-frontend
   - url: https://github.com/aloelabs
 blockchain:
+  - address: "0xC3feD7757CD3eb12b155F230Fa057396e9D78EAa"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xbbc2cd847bdf10468861dab854cd2b2e315e28c8"
     networks:
       - any_evm
@@ -44,9 +58,4 @@ blockchain:
     tags:
       - contract
     name: VolatilityOracle
-websites:
-  - url: https://aloe.capital
 description: Aloe Labs builds decentralized asset management technology
-social:
-  twitter:
-    - url: https://twitter.com/aloecapital
