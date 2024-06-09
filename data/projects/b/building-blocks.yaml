@@ -1,0 +1,18 @@
+version: 7
+name: building-blocks
+display_name: Building Blocks
+websites:
+  - url: https://buildingblocks.art/
+  - url: https://@jhekub
+social:
+  farcaster:
+    - url: https://warpcast.com/~/channel/buildingblocks
+github:
+  - url: https://github.com/Jhekub/Building-Blocks
+blockchain:
+  - address: "0xDF464B3759a515e2bfE348Ba66A081B139eA58C3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

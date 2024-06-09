@@ -1,0 +1,24 @@
+version: 7
+name: umbra
+display_name: Umbra
+websites:
+  - url: https://app.umbra.cash
+  - url: https://umbracash
+github:
+  - url: https://github.com/ScopeLift/umbra-protocol
+npm:
+  - url: https://www.npmjs.com/package/@umbracash/umbra-js
+  - url: https://www.npmjs.com/package/@scopelift/stealth-address-sdk
+blockchain:
+  - address: "0x5777Aa6F437399Af6cef2Fce0BE8D4B4eD7C7232"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xB7EE870E2c49B2DEEe70003519cF056247Aac3D4"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

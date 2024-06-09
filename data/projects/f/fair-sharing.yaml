@@ -1,0 +1,21 @@
+version: 7
+name: fair-sharing
+display_name: FairSharing
+websites:
+  - url: https://fairsharing.xyz/
+social:
+  twitter:
+    - url: https://twitter.com/eth_mikely
+  farcaster:
+    - url: https://warpcast.com/mikely
+github:
+  - url: https://github.com/lxdao-official/fairsharing-contract
+  - url: https://github.com/lxdao-official/fairsharing-frontend
+  - url: https://github.com/lxdao-official/fairsharing-backend
+blockchain:
+  - address: "0x9324AD72F155974dfB412aB6078e1801C79A8b78"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

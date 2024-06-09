@@ -1,0 +1,17 @@
+version: 7
+name: totemheads
+display_name: Totemheads
+websites:
+  - url: https://totemheads.com/
+social:
+  twitter:
+    - url: https://x.com/totemheads
+github:
+  - url: https://github.com/martincalder/Totemheads
+blockchain:
+  - address: "0xE9C20C08Dadd97945b1Abd54d3EC5c730921Fb72"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

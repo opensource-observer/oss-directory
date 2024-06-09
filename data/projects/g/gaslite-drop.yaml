@@ -1,0 +1,17 @@
+version: 7
+name: gaslite-drop
+display_name: Gaslite Drop
+websites:
+  - url: https://drop.gaslite.org
+social:
+  twitter:
+    - url: https://x.com/gaslitegg
+github:
+  - url: https://github.com/PopPunkLLC/GasliteDrop
+blockchain:
+  - address: "0x3d4aaFbe86059d17C6263332c560f18C4F1Fec34"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

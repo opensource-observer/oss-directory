@@ -1,0 +1,17 @@
+version: 7
+name: ironclad-finance
+display_name: Ironclad Finance
+websites:
+  - url: https://app.ironclad.finance/
+social:
+  twitter:
+    - url: https://x.com/IroncladFinance
+github:
+  - url: https://github.com/The-Granary/Ironclad_Finance
+blockchain:
+  - address: "0xe027880CEB8114F2e367211dF977899d00e66138"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,19 @@
+version: 7
+name: gifme-beer
+display_name: GifmeBeer
+websites:
+  - url: https://www.gifmebeer.com
+social:
+  twitter:
+    - url: https://twitter.com/GifmeBeer
+  farcaster:
+    - url: https://warpcast.com/gifmebeernft
+github:
+  - url: https://github.com/Gifmebeer/Lager
+blockchain:
+  - address: "0x84762bF3B049C3B77C6De4338A2ba32D5435AFe6"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

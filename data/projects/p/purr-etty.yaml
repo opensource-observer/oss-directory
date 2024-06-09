@@ -1,0 +1,19 @@
+version: 7
+name: purr-etty
+display_name: purr-etty
+websites:
+  - url: https://stipinp.notion.site/stipinpixel-f3ae7675b2034c14a5579cba7c76480a
+social:
+  twitter:
+    - url: https://x.com/stipinpixel
+  farcaster:
+    - url: https://warpcast.com/stipinpixel
+github:
+  - url: https://github.com/stipinp/stipinpixel
+blockchain:
+  - address: "0x8A725b6A4a4CE08bd03f4DEB2bc0EaC2321A2608"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

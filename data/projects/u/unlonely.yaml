@@ -1,0 +1,19 @@
+version: 7
+name: unlonely
+display_name: Unlonely
+websites:
+  - url: https://www.unlonely.app
+social:
+  twitter:
+    - url: https://x.com/unlonely_app
+  farcaster:
+    - url: https://warpcast.com/br1an.eth
+github:
+  - url: https://github.com/bguan2020/unlonely-alpha
+blockchain:
+  - address: "0x141Edb16C70307Cf2F0f04aF2dDa75423a0E1bEa"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

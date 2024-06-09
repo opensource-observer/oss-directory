@@ -1,0 +1,14 @@
+version: 7
+name: air-deployer
+display_name: AirDeployer
+websites:
+  - url: https://airdeployer.app
+github:
+  - url: https://github.com/0xyittle/AirDeployerGit
+blockchain:
+  - address: "0x75963B63D551Fc3723F3Ca40bc43c45201b35f33"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

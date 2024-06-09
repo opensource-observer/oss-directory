@@ -1,0 +1,19 @@
+version: 7
+name: daily-active-users-dau
+display_name: Daily Active Users - DAU
+websites:
+  - url: https://dau.quest
+social:
+  twitter:
+    - url: https://x.com/fc_dau
+  farcaster:
+    - url: https://warpcast.com/~/channel/dau
+github:
+  - url: https://github.com/dauquest/assets
+blockchain:
+  - address: "0x86e1e86626FB88E2650808dd2dC204392dA1E29F"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

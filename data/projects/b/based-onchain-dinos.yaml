@@ -1,0 +1,21 @@
+version: 7
+name: based-onchain-dinos
+display_name: Based Onchain Dinos
+websites:
+  - url: https://www.onchaindinos.xyz/
+  - url: https://medium.com/@apexethdev/onchain-dinos-take-over-base-11e209dea8b4
+social:
+  twitter:
+    - url: https://x.com/apex_ether
+    - url: https://x.com/OnChainDinos
+  farcaster:
+    - url: https://warpcast.com/~/channel/onchain-dinos
+github:
+  - url: https://github.com/apexethdev/dino_contracts
+blockchain:
+  - address: "0xa1447bb4b3940Aeb646cC786b2581a81bF670FfD"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

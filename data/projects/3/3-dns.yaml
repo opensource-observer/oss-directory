@@ -1,0 +1,19 @@
+version: 7
+name: 3-dns
+display_name: 3DNS
+websites:
+  - url: https://3dns.box
+social:
+  twitter:
+    - url: https://x.com/3dns_inc
+  farcaster:
+    - url: https://warpcast.com/3dns
+github:
+  - url: https://github.com/3dns-xyz/contracts
+blockchain:
+  - address: "0x62C9eC1eb7c10bb7Eb91fBed74d5F7cB861a1074"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

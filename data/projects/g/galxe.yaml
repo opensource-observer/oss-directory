@@ -1,102 +1,23 @@
 version: 7
 name: galxe
 display_name: Galxe
-github:
-  - url: https://github.com/Galxe
-blockchain:
-  - address: "0x000061c160273811279508582a4afabc263d98d2"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
-  - address: "0x98422d38f6c408d0224b8fa4588b807ca5e66b17"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
-  - address: "0x5ffc120734ce00002b43919d27e70d881f02f8ef"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
-  - address: "0x171e4fa249375834a6198849aca17c7889caab47"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-      - factory
-    name: unverified
-  - address: "0x2f374f704e0fa8cfa9f393eddbd0527c8008e993"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: unverified
-  - address: "0x580b9b9eb2d98c47752ecfe9e555d2d85450feae"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: unverified
-  - address: "0xd570812e9553a03797246836f307e990d787ac0d"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: unverified
-  - address: "0x2e42f214467f647fe687fd9a2bf3baddfa737465"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: unverified
-  - address: "0x406b02e7ab35d4e1dbc8be8695f03b1f39fde734"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: unverified
-  - address: "0x2f05e799c61b600c65238a9df060caba63db8e78"
-    networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
-    tags:
-      - contract
-    name: unverified
-  - address: "0x965a9b29e5661e412e259dd3c34551e83719b610"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: unverified
-  - address: "0x9e6ef7f75ad88d4edb4c9925c94b769c5b0d6281"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-    name: SpaceStationV2
-  - address: "0x1ae981a0a3ae5f9cdc059d9478d2c37e8eb442eb"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-    name: unverified
-  - address: "0x5ab0fdc6f0ca9ea178c95ceccf944a4ce1aedddd"
-    networks:
-      - any_evm
-    tags:
-      - eoa
-      - wallet
-    name: galxe.eth
 websites:
-  - url: https://galxe.com
-description: Enabling seamless Web3 experiences through modular AI, digital
-  identity, and blockchain solutions.
+  - url: https://www.galxe.com/
 social:
   twitter:
-    - url: https://twitter.com/Galxe
+    - url: https://x.com/Galxe
+github:
+  - url: https://github.com/Galxe/galxe-contracts
+blockchain:
+  - address: "0xba5e24A43886C62676F06615dE9eeDd0281b5bb4"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x000061c160273811279508582A4AfaBc263D98d2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

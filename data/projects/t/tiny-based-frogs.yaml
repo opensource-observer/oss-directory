@@ -1,0 +1,20 @@
+version: 7
+name: tiny-based-frogs
+display_name: Tiny Based Frogs
+websites:
+  - url: https://www.tinybasedfrogs.xyz/
+  - url: https://opensea.io/collection/tinybasedfrogs
+social:
+  twitter:
+    - url: https://x.com/dailofrog
+  farcaster:
+    - url: https://warpcast.com/dailofrog
+github:
+  - url: https://github.com/dailofrog/tinybasedfrog
+blockchain:
+  - address: "0xE3F414db54873aBC3ECe1D23C6D5BB3673923A57"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

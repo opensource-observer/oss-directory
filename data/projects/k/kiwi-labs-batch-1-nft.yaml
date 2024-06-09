@@ -1,0 +1,14 @@
+version: 7
+name: kiwi-labs-batch-1-nft
+display_name: Kiwi Labs Batch 1 NFT
+websites:
+  - url: https://kiwilabs.xyz
+github:
+  - url: https://github.com/bswags/web3keystore
+blockchain:
+  - address: "0xF0A72469853Db74bEc02301333F29780285b863d"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

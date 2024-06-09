@@ -1,0 +1,17 @@
+version: 7
+name: atlendis
+display_name: Atlendis
+websites:
+  - url: https://www.atlendis.io/
+social:
+  twitter:
+    - url: https://x.com/AtlendisLabs
+github:
+  - url: https://github.com/Atlendis/protocol-v1
+blockchain:
+  - address: "0x52Be9Ab6C5629AE7358c0f2C73E7d109C863893a"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

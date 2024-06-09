@@ -1,0 +1,19 @@
+version: 7
+name: pike-finance
+display_name: Pike Finance
+websites:
+  - url: https://pike.finance
+social:
+  twitter:
+    - url: https://twitter.com/pikefinance
+  farcaster:
+    - url: https://warpcast.com/pikefinance
+github:
+  - url: https://github.com/nutsfinance/pike-protocol
+blockchain:
+  - address: "0xb1eA97c9F68978905fB1Bf5089E71A073bC4f5C8"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,26 @@
+version: 7
+name: ora-onchain-ai-oracle-on-optimism
+display_name: ORA Onchain AI Oracle on Optimism
+websites:
+  - url: https://ai.ora.io/
+  - url: https://docs.ora.io/doc/oao-onchain-ai-oracle/introduction
+  - url: https://ora.io/
+social:
+  twitter:
+    - url: https://twitter.com/ORAprotocol
+github:
+  - url: https://github.com/ora-io/OAO
+  - url: https://github.com/ora-io/Interaction_With_OAO_Template
+blockchain:
+  - address: "0x4Ca146039C567a8CbfDe83c23a515B587d9Be469"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xf5aeB5A4B35be7Af7dBfDb765F99bCF479c917BD"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

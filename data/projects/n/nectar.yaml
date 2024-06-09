@@ -1,0 +1,20 @@
+version: 7
+name: nectar
+display_name: Nectar
+websites:
+  - url: https://nectarx.io
+social:
+  twitter:
+    - url: https://x.com/jooddang
+github:
+  - url: https://github.com/WASD3Rplay/aadex-contract
+  - url: https://github.com/WASD3Rplay/nectar-sdk-examples
+npm:
+  - url: https://www.npmjs.com/package/@wasd3rplay/aadex-contract
+blockchain:
+  - address: "0x4fA97Ef47BC9c502B6545deaB01F6Ec3Fcbafb2c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

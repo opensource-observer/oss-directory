@@ -1,0 +1,12 @@
+version: 7
+name: drift-bottle-seeds
+display_name: DriftBottleSeeds
+github:
+  - url: https://github.com/shupeng2002/DriftBottleSeeds
+blockchain:
+  - address: "0x8931BFef126F67A152f00f0A1d1A6d1D3b943cDd"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

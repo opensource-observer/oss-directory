@@ -1,0 +1,19 @@
+version: 7
+name: timeswap
+display_name: Timeswap
+websites:
+  - url: https://www.app.timeswap.io
+social:
+  twitter:
+    - url: https://x.com/timeswaplabs
+  farcaster:
+    - url: https://warpcast.com/timeswap
+github:
+  - url: https://github.com/Timeswap-Labs/Timeswap-V2-Contracts
+blockchain:
+  - address: "0xD6cB50081A0087bE91066723211B50ee3753f0DA"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

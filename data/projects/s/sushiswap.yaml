@@ -1,0 +1,21 @@
+version: 7
+name: sushiswap
+display_name: Sushiswap
+websites:
+  - url: https://www.sushi.com/
+social:
+  twitter:
+    - url: https://x.com/SushiSwap
+github:
+  - url: https://github.com/sushiswap/v2-core
+  - url: https://github.com/sushiswap/v3-core
+  - url: https://github.com/sushiswap/v3-periphery
+npm:
+  - url: https://www.npmjs.com/package/sushi
+blockchain:
+  - address: "0xe91b49A652671AEF1B9416A2DA6994DBDde23054"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,19 @@
+version: 7
+name: me
+display_name: ME
+websites:
+  - url: https://singular.app/me
+social:
+  twitter:
+    - url: https://x.com/SingularRMRK
+  farcaster:
+    - url: https://warpcast.com/rmrk
+github:
+  - url: https://github.com/rmrk-team/me-pfp-example
+blockchain:
+  - address: "0xD38c5De0a2DE53da1552f9eEAd15Be167d8B2e8D"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,26 @@
+version: 7
+name: zk-syndication
+display_name: ZK Syndication
+websites:
+  - url: https://zksyndication.com/
+  - url: https://opensea.io/collection/zk-helmets
+social:
+  twitter:
+    - url: https://x.com/GreekChlef
+  farcaster:
+    - url: https://warpcast.com/greekchief
+github:
+  - url: https://github.com/Greekchief/ZK-Nano-Syndicates
+blockchain:
+  - address: "0x1DbCAA002E5cC9d6DA3D8728142448117910bC95"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x0bCBfcf3fdba607091c6c27Ad69B197FE2d15992"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

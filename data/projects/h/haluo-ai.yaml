@@ -1,0 +1,17 @@
+version: 7
+name: haluo-ai
+display_name: Haluo AI
+websites:
+  - url: https://www.haluo.ai/
+social:
+  twitter:
+    - url: https://twitter.com/haluopro
+github:
+  - url: https://github.com/haluo-ai/haluo-core
+blockchain:
+  - address: "0xd1d377c37840A4Ff8539b4d8213e83A78E35705B"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

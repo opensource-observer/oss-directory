@@ -1,0 +1,23 @@
+version: 7
+name: across-protocol
+display_name: Across Protocol
+websites:
+  - url: https://across.to/
+social:
+  twitter:
+    - url: https://x.com/AcrossProtocol
+  farcaster:
+    - url: https://warpcast.com/acrossprotocol
+github:
+  - url: https://github.com/across-protocol/contracts
+  - url: https://github.com/across-protocol/relayer
+  - url: https://github.com/across-protocol/sdk
+npm:
+  - url: https://www.npmjs.com/package/@across-protocol/contracts?activeTab=readme
+blockchain:
+  - address: "0x9A8f92a830A5cB89a3816e3D267CB7791c16b04D"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

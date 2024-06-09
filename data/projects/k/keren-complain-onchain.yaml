@@ -1,0 +1,20 @@
+version: 7
+name: keren-complain-onchain
+display_name: Keren - Complain Onchain
+websites:
+  - url: https://www.basedkeren.com/
+  - url: https://www.complainonchain.xyz/
+social:
+  twitter:
+    - url: https://x.com/kerenbase
+  farcaster:
+    - url: https://warpcast.com/basedkeren
+github:
+  - url: https://github.com/hyphenwave/keren
+blockchain:
+  - address: "0x82CfB115E2fEa9d9185cF11a5C2d0FadC3f4e83C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

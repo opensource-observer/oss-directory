@@ -1,0 +1,19 @@
+version: 7
+name: evm-warfare
+display_name: EVM Warfare
+websites:
+  - url: https://evmwarfare.com
+social:
+  twitter:
+    - url: https://x.com/evmwarfare
+  farcaster:
+    - url: https://warpcast.com/~/channel/evmwarfare
+github:
+  - url: https://github.com/harshitsiwach/evm_working
+blockchain:
+  - address: "0x29769e04275795c87446C7Ee101021C6a675CF06"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

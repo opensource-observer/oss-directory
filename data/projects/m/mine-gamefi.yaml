@@ -1,0 +1,12 @@
+version: 7
+name: mine-gamefi
+display_name: Mine Gamefi
+github:
+  - url: https://github.com/najmashish/Mine-Gamefi
+blockchain:
+  - address: "0x738813514f5e7a3EcE46018C8949cC0E5B39d542"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

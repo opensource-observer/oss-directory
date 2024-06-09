@@ -1,0 +1,14 @@
+version: 7
+name: frameception
+display_name: Frameception
+websites:
+  - url: https://frameception.art
+github:
+  - url: https://github.com/smallbraingames/frameception
+blockchain:
+  - address: "0x79421a19f9AC808aaA74239254144c4Ef8Bf1d48"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

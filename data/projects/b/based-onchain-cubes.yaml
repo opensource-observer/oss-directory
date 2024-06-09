@@ -1,0 +1,14 @@
+version: 7
+name: based-onchain-cubes
+display_name: Based Onchain Cubes
+websites:
+  - url: https://opensea.io/collection/basedonchaincubes
+github:
+  - url: https://github.com/dailofrog/onchain-cubes
+blockchain:
+  - address: "0xE3F414db54873aBC3ECe1D23C6D5BB3673923A57"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

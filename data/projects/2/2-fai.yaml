@@ -1,0 +1,19 @@
+version: 7
+name: 2-fai
+display_name: 2fai
+websites:
+  - url: https://2fai.xyz/
+social:
+  twitter:
+    - url: https://twitter.com/2FAi_erc
+  farcaster:
+    - url: https://warpcast.com/2faixyz
+github:
+  - url: https://github.com/2fai/erc2faiDapp
+blockchain:
+  - address: "0x5012f99fe002EA044492a59826026C88A96d535f"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

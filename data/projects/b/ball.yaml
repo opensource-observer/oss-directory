@@ -1,0 +1,18 @@
+version: 7
+name: ball
+display_name: /ball
+websites:
+  - url: https://theball.fun
+  - url: https://airport.theball.fun
+social:
+  farcaster:
+    - url: https://warpcast.com/~/channel/ball
+github:
+  - url: https://github.com/senspace-studio/gasha
+blockchain:
+  - address: "0xb17e447d0Eb15c444789886F2bff6A4907140bC5"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

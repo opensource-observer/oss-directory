@@ -1,0 +1,19 @@
+version: 7
+name: botto
+display_name: Botto
+websites:
+  - url: https://botto.com
+social:
+  twitter:
+    - url: https://twitter.com/bottoproject
+  farcaster:
+    - url: https://warpcast.com/botto
+github:
+  - url: https://github.com/elevenyellow/botto-base-access-pass
+blockchain:
+  - address: "0xcC23e5a344EB4E99114a8F25f6037951A39AA858"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

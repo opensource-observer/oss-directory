@@ -1,79 +1,25 @@
 version: 7
 name: sound-xyz
 display_name: Sound.xyz
-github:
-  - url: https://github.com/soundxyz
-blockchain:
-  - address: "0xa66cdda1817c85ed3d232a5affd17673e933d8a7"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
-    name: vigneshka.eth
-  - address: "0x5bcf5773bcf1f131a0cad5c74aa9be1a80b63c55"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: SoundCreatorV1
-  - address: "0x403471cbcab399896004bc0af2b4674d4ab3b53b"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: RangeEditionMinterV2_1
-  - address: "0xf6cbe9226e58f2700b4df42a35cb14078c679076"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: MerkleDropMinterV2_1
-  - address: "0x65d21a94c78a5f9ef68a2be141d0c91afc51a7d3"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: MerkleDropMinterV2
-  - address: "0x12a1458b9162dbf50983e72e78e41e37f5bf1a80"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: SAMV1_1
-  - address: "0x385e9f438a8b5ca54bc87e2b826fb7adfdc3fd7f"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: GoldenEggMetadata
-  - address: "0xdc2fe45974c30c2c7cd16149dd5fc00b3d31ebde"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: RangeEditionMinterV2_1
-  - address: "0x46f81107e99adf80b8ea49ab7281b984f826fbd0"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: MerkleDropMinterV2_1
-  - address: "0x2a3a42c653e427f4d44ea47007a99ee6bbae65af"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: SAM
-  - address: "0x1a36729fc276c3649da2cf1eb986d7dabd5d5d99"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: RangeEditionMinterV2
 websites:
-  - url: https://www.sound.xyz
+  - url: https://sound.xyz
 social:
   twitter:
-    - url: https://twitter.com/soundxyz_
+    - url: https://x.com/soundxyz_
+  farcaster:
+    - url: https://warpcast.com/~/channel/soundxyz
+github:
+  - url: https://github.com/soundxyz/sound-protocol
+blockchain:
+  - address: "0xA66CDDA1817C85eD3D232a5Affd17673E933D8a7"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x1F5D295778796a8b9f29600A585Ab73D452AcB1c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

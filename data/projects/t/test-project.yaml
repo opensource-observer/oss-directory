@@ -1,0 +1,12 @@
+version: 7
+name: test-project
+display_name: Test Project
+github:
+  - url: https://github.com/JSeiferth/Testing-Retro-sign-up
+blockchain:
+  - address: "0x4a6894Dd556fab996f8D50b521f900CAEedC168e"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

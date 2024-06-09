@@ -1,0 +1,26 @@
+version: 7
+name: basepaint
+display_name: Basepaint
+websites:
+  - url: https://basepaint.xyz/
+social:
+  twitter:
+    - url: https://twitter.com/basepaint_xyz
+  farcaster:
+    - url: https://warpcast.com/~/channel/basepaint
+github:
+  - url: https://github.com/BasePaint/basepaint-ponder
+  - url: https://github.com/BasePaint/basepaint-contracts
+blockchain:
+  - address: "0xa0aE5DeBD67c6ff314fF57642B6C9bAc7e12FA43"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x0F0FBcC9CADA222E7960e5e7B3b6E1462088239a"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

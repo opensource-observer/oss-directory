@@ -1,0 +1,17 @@
+version: 7
+name: rounds-wtf
+display_name: Rounds.wtf
+websites:
+  - url: https://rounds.wtf
+social:
+  farcaster:
+    - url: https://warpcast.com/~/channel/rounds
+github:
+  - url: https://github.com/Prop-House/round-contracts
+blockchain:
+  - address: "0x262A8D2F2aEdb692A1332C50C90DF83B5046eAD2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

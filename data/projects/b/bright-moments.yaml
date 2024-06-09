@@ -1,0 +1,21 @@
+version: 7
+name: bright-moments
+display_name: Bright Moments
+websites:
+  - url: https://brightmoments.io
+social:
+  twitter:
+    - url: https://twitter.com/brtmoments
+  farcaster:
+    - url: https://warpcast.com/brightmoments
+    - url: https://warpcast.com/~/channel/bright-moments/
+github:
+  - url: https://github.com/Bright-Moments/retropgf-contracts
+  - url: https://github.com/Bright-Moments/Smart-Contracts-Public
+blockchain:
+  - address: "0x5778B0B140Fa7a62B96c193cC8621e6E96c088A5"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

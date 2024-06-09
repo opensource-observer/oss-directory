@@ -1,0 +1,17 @@
+version: 7
+name: mini-match
+display_name: MiniMatch
+websites:
+  - url: https://www.minimatch.gg/
+social:
+  twitter:
+    - url: https://x.com/minimatch_gg
+github:
+  - url: https://github.com/Mini-Match/minimatch-contract
+blockchain:
+  - address: "0x94421fa19803E333Af51B91F71Feb8301B4C2401"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

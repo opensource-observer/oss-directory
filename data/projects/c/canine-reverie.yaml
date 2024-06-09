@@ -1,0 +1,12 @@
+version: 7
+name: canine-reverie
+display_name: CanineReverie
+github:
+  - url: https://github.com/cctv688/CanineReverie
+blockchain:
+  - address: "0x327870cf61A4bC92548Feb3eF5969708A6dd87c1"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

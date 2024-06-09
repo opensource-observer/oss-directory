@@ -1,0 +1,12 @@
+version: 7
+name: nocturnal-azure
+display_name: Nocturnal Azure
+github:
+  - url: https://github.com/rgsgv/Nocturnal-Azure
+blockchain:
+  - address: "0x6e5277187925FE2adf37592C597e7321B607fCdA"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

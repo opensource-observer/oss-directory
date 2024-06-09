@@ -1,0 +1,27 @@
+version: 7
+name: para-swap
+display_name: ParaSwap
+websites:
+  - url: https://paraswap.io/
+social:
+  twitter:
+    - url: https://twitter.com/Paraswap
+  farcaster:
+    - url: https://warpcast.com/~/channel/paraswap
+    - url: https://warpcast.com/oxytocin
+    - url: https://warpcast.com/agrosso
+    - url: https://warpcast.com/mouph
+github:
+  - url: https://github.com/paraswap/paraswap-dex-lib
+  - url: https://github.com/paraswap/paraswap-sdk
+  - url: https://github.com/paraswap/augustus-v5
+npm:
+  - url: https://www.npmjs.com/package/@paraswap/dex-lib
+  - url: https://www.npmjs.com/package/@paraswap/sdk
+blockchain:
+  - address: "0x90dD83E62396D7385B1D70166Aafb8A9E528e813"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

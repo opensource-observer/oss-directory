@@ -1,0 +1,19 @@
+version: 7
+name: retro-list
+display_name: RetroList
+websites:
+  - url: https://retrolist.app
+social:
+  twitter:
+    - url: https://x.com/retrolistapp
+github:
+  - url: https://github.com/Retrolist/rpgf3-projects-data
+  - url: https://github.com/Retrolist/rpgf3-lists-data
+  - url: https://github.com/Retrolist/retrolist-contracts
+blockchain:
+  - address: "0x2E120f9d9c70a46b43b743Ca95d0570ed114D700"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

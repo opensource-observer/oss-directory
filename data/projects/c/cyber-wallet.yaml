@@ -1,0 +1,21 @@
+version: 7
+name: cyber-wallet
+display_name: CyberWallet
+websites:
+  - url: https://wallet.cyber.co/assets
+  - url: https://N/A
+social:
+  twitter:
+    - url: https://x.com/thecyberwallet
+github:
+  - url: https://github.com/cyberconnecthq/cyberid
+npm:
+  - url: https://www.npmjs.com/package/@cyberlab/cyber-app-sdk
+  - url: https://www.npmjs.com/package/@cyberlab/cyber-account
+blockchain:
+  - address: "0x0e0bE581B17684f849AF6964D731FCe0F7d366BD"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

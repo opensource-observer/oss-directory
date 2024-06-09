@@ -1,0 +1,17 @@
+version: 7
+name: opti-names-your-ens-identity-on-optimism
+display_name: OptiNames | Your ENS Identity on Optimism
+websites:
+  - url: https://optinames.xyz
+social:
+  twitter:
+    - url: https://twitter.com/optinames
+github:
+  - url: https://github.com/WildcardLabs/optinames
+blockchain:
+  - address: "0xaFd91ef047189f7e894d0fAc71dccE8687E9b893"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,20 @@
+version: 7
+name: air-3
+display_name: Air3
+websites:
+  - url: https://air3.app
+social:
+  twitter:
+    - url: https://x.com/air3app
+  farcaster:
+    - url: https://warpcast.com/blockbaron
+    - url: https://warpcast.com/kunggalot
+github:
+  - url: https://github.com/air3app/buildair3
+blockchain:
+  - address: "0x3cD76a3E1Ae288c11459b986362ff2f63Ba0A379"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

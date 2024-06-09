@@ -1,0 +1,25 @@
+version: 7
+name: nf-ts-2-me
+display_name: NFTs2Me
+websites:
+  - url: https://nfts2me.com/
+social:
+  twitter:
+    - url: https://twitter.com/NFTs2Me
+  farcaster:
+    - url: https://warpcast.com/nfts2me
+github:
+  - url: https://github.com/nfts2me/contracts
+blockchain:
+  - address: "0xd5EAfe3B55EF086F9C422D2091b8fC1ddaD0a0aB"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xC5557771673109CAB9d05358E1D280fab5225977"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

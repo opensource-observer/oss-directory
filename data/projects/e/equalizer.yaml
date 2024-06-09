@@ -1,0 +1,19 @@
+version: 7
+name: equalizer
+display_name: Equalizer
+websites:
+  - url: https://www.equalizer.exchange
+social:
+  twitter:
+    - url: https://x.com/ScaleOnBase
+  farcaster:
+    - url: https://warpcast.com/scaleonbase
+github:
+  - url: https://github.com/ftm1337/equalizer-exchange-core
+blockchain:
+  - address: "0x5C146cd18fa53914580573C9b9604588529406Ca"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

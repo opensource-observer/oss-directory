@@ -1,0 +1,27 @@
+version: 7
+name: blockflow
+display_name: Blockflow
+websites:
+  - url: https://www.blockflow.network/
+social:
+  twitter:
+    - url: https://x.com/flow_block
+  farcaster:
+    - url: https://warpcast.com/blockflow
+github:
+  - url: https://github.com/BlockFloww/cli-examples
+npm:
+  - url: https://www.npmjs.com/package/@blockflow-labs/cli/v/1.0.7-beta.1
+blockchain:
+  - address: "0x85B40eb65e49eB61De78a3a989752249f8837fc5"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x9F60699cE23f1Ab86Ec3e095b477Ff79d4f409AD"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

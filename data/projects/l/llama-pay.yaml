@@ -1,0 +1,30 @@
+version: 7
+name: llama-pay
+display_name: LlamaPay
+websites:
+  - url: https://llamapay.io/
+social:
+  twitter:
+    - url: https://x.com/llamapay_io
+github:
+  - url: https://github.com/llamasubs/contracts
+  - url: https://github.com/LlamaPay/llamapay
+blockchain:
+  - address: "0x71a15Ac12ee91BF7c83D08506f3a3588143898B5"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x91dfd5A51e7c00604e8b2521E678Dd8444Ea56c9"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x9fE36b2d3cC3Fb56F35225c2912EE5283464842e"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

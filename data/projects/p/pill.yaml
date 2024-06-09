@@ -1,0 +1,19 @@
+version: 7
+name: pill
+display_name: PILL
+websites:
+  - url: https://pillonbase.site/
+social:
+  twitter:
+    - url: https://x.com/pillonbasee
+  farcaster:
+    - url: https://warpcast.com/pilll
+github:
+  - url: https://github.com/skorolevskiy/zora-mint-frame
+blockchain:
+  - address: "0x8b8E219439bd31761A81333ae1dd041376EC22C8"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

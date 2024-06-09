@@ -1,0 +1,26 @@
+version: 7
+name: open-cover
+display_name: OpenCover
+websites:
+  - url: https://opencover.com/app
+social:
+  twitter:
+    - url: https://x.com/OpenCover
+  farcaster:
+    - url: https://warpcast.com/opencover
+    - url: https://warpcast.com/itsjeremiahs
+github:
+  - url: https://github.com/OpenCoverDeFi/opencover-contracts-v1
+blockchain:
+  - address: "0x0CeCfEb968cF51Ec88d834a65e3281c70026BA5E"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x0C000F9e42D0bbcAA455651e7049a7D8EFE7E31D"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

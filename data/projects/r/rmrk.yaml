@@ -1,0 +1,40 @@
+version: 7
+name: rmrk
+display_name: RMRK
+websites:
+  - url: https://www.rmrk.app/
+  - url: https://singular.app
+  - url: https://mintaur.app/
+social:
+  twitter:
+    - url: https://x.com/RmrkApp
+  farcaster:
+    - url: https://warpcast.com/rmrk
+github:
+  - url: https://github.com/rmrk-team/rmrk-examples
+  - url: https://github.com/rmrk-team/rmrk-composable-nft-creator
+  - url: https://github.com/rmrk-team/rmrk-js
+  - url: https://github.com/rmrk-team/evm
+npm:
+  - url: https://www.npmjs.com/package/@rmrk-team/evm-contracts
+  - url: https://www.npmjs.com/package/@rmrk-team/nft-renderer
+  - url: https://www.npmjs.com/package/@rmrk-team/rmrk-hooks
+blockchain:
+  - address: "0xA6cc9397d29b631b69782e5F7fB9801224C8FA90"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xD38c5De0a2DE53da1552f9eEAd15Be167d8B2e8D"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x855dF0303Fec3a56c02fE35d8fb4d5e80A8c79A0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

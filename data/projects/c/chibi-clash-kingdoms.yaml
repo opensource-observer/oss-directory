@@ -1,0 +1,17 @@
+version: 7
+name: chibi-clash-kingdoms
+display_name: Chibi Clash Kingdoms
+websites:
+  - url: https://www.chibi.gg/kingdom
+social:
+  twitter:
+    - url: https://twitter.com/ChibiClash
+github:
+  - url: https://github.com/925gg/chibi-kingdoms-contracts
+blockchain:
+  - address: "0x99eEc15D0d0b7a8fadf3c7FfedE582b93202a793"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

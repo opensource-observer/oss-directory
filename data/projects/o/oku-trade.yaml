@@ -2,4 +2,25 @@ version: 7
 name: oku-trade
 display_name: Oku Trade
 websites:
-  - url: https://oku.trade/
+  - url: https://oku.trade
+  - url: https://oku.trade/info
+social:
+  twitter:
+    - url: https://x.com/okutrade
+  farcaster:
+    - url: https://warpcast.com/oku
+github:
+  - url: https://github.com/gfx-labs/uniswap-v3-limit-orders
+blockchain:
+  - address: "0x1a97F102C791fB50E51Af3b3B43BBBd933c894D7"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xe75358526Ef4441Db03cCaEB9a87F180fAe80eb9"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

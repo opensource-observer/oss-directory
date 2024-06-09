@@ -1,0 +1,23 @@
+version: 7
+name: lotto-pgf
+display_name: LottoPGF
+websites:
+  - url: https://lottopgf.org/
+  - url: https://powerbald.xyz/
+  - url: https://zora.co/@otto_lotto
+social:
+  twitter:
+    - url: https://x.com/LottoPGF
+  farcaster:
+    - url: https://warpcast.com/lottopgf
+    - url: https://warpcast.com/~/channel/lotto
+    - url: https://warpcast.com/~/channel/ottodao
+github:
+  - url: https://github.com/lottopgf/lootery-v1-contracts
+blockchain:
+  - address: "0x77769134B8181e7eb4462D565BF362eC63A4f12d"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,17 @@
+version: 7
+name: "2048"
+display_name: "2048"
+websites:
+  - url: https://app.manifold.xyz/c/2048x
+social:
+  twitter:
+    - url: https://twitter.com/alperaym
+github:
+  - url: https://github.com/alperaym/2048
+blockchain:
+  - address: "0xC9A420E7586D5efEdAa1289f31635aA7DE3FE910"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

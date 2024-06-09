@@ -1,0 +1,15 @@
+version: 7
+name: batch-money
+display_name: Batch Money
+websites:
+  - url: https://batch.money
+  - url: https://0xAA_Science
+github:
+  - url: https://github.com/AmazingAng/BatchMoney
+blockchain:
+  - address: "0x25df6DA2f4e5C178DdFF45038378C0b08E0Bce54"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,17 @@
+version: 7
+name: oasis-x
+display_name: OasisX
+websites:
+  - url: https://oasisx.world
+social:
+  twitter:
+    - url: https://x.com/oasisxworld
+github:
+  - url: https://github.com/prakashith/Oasisx-BaseContracts
+blockchain:
+  - address: "0xf11CEF79f29dB0814A826518d6E57b2704Dc1030"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

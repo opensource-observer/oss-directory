@@ -1,0 +1,17 @@
+version: 7
+name: cyber-dex
+display_name: CyberDEX
+websites:
+  - url: https://www.cyberdex.xyz
+social:
+  twitter:
+    - url: https://twitter.com/cyberdex_xyz
+github:
+  - url: https://github.com/cyberdex-exchange/frontend
+blockchain:
+  - address: "0x306c894fB45D84e73B709F3Ac5FDd5b89d69d738"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

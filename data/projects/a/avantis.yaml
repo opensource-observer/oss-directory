@@ -1,0 +1,19 @@
+version: 7
+name: avantis
+display_name: Avantis
+websites:
+  - url: https://www.avantisfi.com/
+social:
+  twitter:
+    - url: https://x.com/avantisfinance
+  farcaster:
+    - url: https://warpcast.com/avantisfinance
+github:
+  - url: https://github.com/Avantis-Labs/avantis-smart-contracts
+blockchain:
+  - address: "0xDef54C048119eE522D73d8bA08F4641578da142f"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

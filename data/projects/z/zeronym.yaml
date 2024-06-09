@@ -1,0 +1,33 @@
+version: 7
+name: zeronym
+display_name: Zeronym
+websites:
+  - url: https://holonym.id
+social:
+  twitter:
+    - url: https://x.com/zer0nym
+  farcaster:
+    - url: https://warpcast.com/zeronym
+github:
+  - url: https://github.com/holonym-foundation/id-hub-contracts
+  - url: https://github.com/holonym-foundation/holonym-relayer
+  - url: https://github.com/holonym-foundation/vole-zk-prover
+blockchain:
+  - address: "0xC8834C1FcF0Df6623Fc8C8eD25064A4148D99388"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x51fEb8C526F40825953912d572f6b64B4897D073"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xcaFe2eF59688187EE312C8aca10CEB798338f7e3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

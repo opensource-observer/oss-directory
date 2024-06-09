@@ -1,0 +1,17 @@
+version: 7
+name: mini-bridge
+display_name: MiniBridge
+websites:
+  - url: https://minibridge.chaineye.tools/
+social:
+  twitter:
+    - url: https://x.com/Chaineye_tools
+github:
+  - url: https://github.com/DeFiEye/Mini-Bridge
+blockchain:
+  - address: "0xe179383DE91AB7300b2f30f83d743c7cA557eb23"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

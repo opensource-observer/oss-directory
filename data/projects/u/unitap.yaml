@@ -1,0 +1,24 @@
+version: 7
+name: unitap
+display_name: Unitap
+websites:
+  - url: https://Unitap.app
+  - url: https://@Unitap_app
+  - url: https://@Unitap
+github:
+  - url: https://github.com/UnitapApp/funds-manager
+  - url: https://github.com/UnitapApp/TokenTap
+  - url: https://github.com/UnitapApp/prizetap-contracts
+blockchain:
+  - address: "0xe9239a6Fe26985eB5B21DdaCDc904cDa7f7551a0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xB10f8E218A9cD738b0F1E2f7169Aa3c0897F2d83"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

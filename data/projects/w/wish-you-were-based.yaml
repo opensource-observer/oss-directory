@@ -1,0 +1,19 @@
+version: 7
+name: wish-you-were-based
+display_name: Wish You Were Based
+websites:
+  - url: https://tweaklabs.xyz
+social:
+  twitter:
+    - url: https://x.com/tweak_labs
+  farcaster:
+    - url: https://warpcast.com/tweak
+github:
+  - url: https://github.com/colinmcdonnell22/creator-core-extensions-solidity
+blockchain:
+  - address: "0xf4140f2721f5Fd76eA2A3b6864ab49e0fBa1f7d0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

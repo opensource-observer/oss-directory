@@ -1,5 +1,23 @@
 version: 7
 name: bonadocs
 display_name: Bonadocs
+websites:
+  - url: https://bonadocs.com
+social:
+  twitter:
+    - url: https://x.com/bonadocs
 github:
-  - url: https://github.com/bonadocs
+  - url: https://github.com/bonadocs/protocol-registry
+npm:
+  - url: https://www.npmjs.com/package/@bonadocs/zimulatoor
+  - url: https://www.npmjs.com/package/@bonadocs/core
+  - url: https://www.npmjs.com/package/@bonadocs/docgen
+  - url: https://www.npmjs.com/package/@bonadocs/widget
+  - url: https://www.npmjs.com/package/@bonadocs/cli
+blockchain:
+  - address: "0xa4d3e318A00416fc8932aF9ac570ECfC50511502"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

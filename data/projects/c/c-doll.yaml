@@ -1,0 +1,12 @@
+version: 7
+name: c-doll
+display_name: C doll
+github:
+  - url: https://github.com/bxkehs/Cdoll
+blockchain:
+  - address: "0x00B3b856f26B66b0104eBBd7d230080BD88FB586"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

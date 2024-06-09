@@ -1,0 +1,17 @@
+version: 7
+name: zk-email
+display_name: ZK Email
+websites:
+  - url: https://prove.email
+  - url: https://@zkemail
+github:
+  - url: https://github.com/zkemail/zk-email-verify
+npm:
+  - url: https://www.npmjs.com/package/@zk-email/contracts
+blockchain:
+  - address: "0xdd93E0f5fC32c86A568d87Cb4f08598f55E980F3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

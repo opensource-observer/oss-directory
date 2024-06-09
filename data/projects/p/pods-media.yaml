@@ -1,0 +1,19 @@
+version: 7
+name: pods-media
+display_name: pods.media
+websites:
+  - url: https://pods.media/
+social:
+  twitter:
+    - url: https://x.com/CollectPods
+  farcaster:
+    - url: https://warpcast.com/pods
+github:
+  - url: https://github.com/pods-media/pods-1155
+blockchain:
+  - address: "0x247d4A505cDcB3C715465d4BB988aaCfE6d6Affc"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

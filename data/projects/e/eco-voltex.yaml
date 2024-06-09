@@ -1,0 +1,19 @@
+version: 7
+name: eco-voltex
+display_name: EcoVoltex
+websites:
+  - url: https://rainbow-hotteok-d62e8e.netlify.app/
+social:
+  twitter:
+    - url: https://x.com/0xesnaf
+  farcaster:
+    - url: https://warpcast.com/stonema
+github:
+  - url: https://github.com/mhmtalitas/energytrading
+blockchain:
+  - address: "0xfeEd3813b6555A1fedF3aa4Bd6330B88AB66E038"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

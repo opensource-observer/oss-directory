@@ -1,0 +1,26 @@
+version: 7
+name: omni-hub
+display_name: OmniHub
+websites:
+  - url: https://launchpad.omnihub.xyz/
+  - url: https://omnihub.xyz/
+social:
+  twitter:
+    - url: https://x.com/omni_hub
+  farcaster:
+    - url: https://warpcast.com/omnihub
+github:
+  - url: https://github.com/omnihub-xyz/blockchain
+blockchain:
+  - address: "0xeD59D863310d387455B5077de2D08055d7E39C61"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x638a0D55c184aAe3d227D656Be5E8d269bF5373C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

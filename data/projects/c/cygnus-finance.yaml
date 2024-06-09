@@ -1,0 +1,19 @@
+version: 7
+name: cygnus-finance
+display_name: Cygnus Finance
+websites:
+  - url: https://www.cygnus.finance/
+social:
+  twitter:
+    - url: https://x.com/CygnusFi
+  farcaster:
+    - url: https://warpcast.com/cygnusfi
+github:
+  - url: https://github.com/arks-labs/cygnus-contracts-public
+blockchain:
+  - address: "0x3A644bE412A718Ea5C33ec77a133DB70d3cc6Ebd"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

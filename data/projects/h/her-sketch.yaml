@@ -1,0 +1,12 @@
+version: 7
+name: her-sketch
+display_name: Her Sketch
+github:
+  - url: https://github.com/rgsgv/Her-Sketch
+blockchain:
+  - address: "0x6e5277187925FE2adf37592C597e7321B607fCdA"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

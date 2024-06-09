@@ -1,0 +1,19 @@
+version: 7
+name: base-runners
+display_name: Base Runners
+websites:
+  - url: https://baserunners404.xyz/
+social:
+  twitter:
+    - url: https://twitter.com/runnersbase404
+  farcaster:
+    - url: https://warpcast.com/baserunners404
+github:
+  - url: https://github.com/runners-dev/runners-erc404
+blockchain:
+  - address: "0xcEBAf590AC6759B779957c616B815ed790ac6E9c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

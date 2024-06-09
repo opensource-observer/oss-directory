@@ -1,0 +1,17 @@
+version: 7
+name: crypto-rank
+display_name: CryptoRank
+websites:
+  - url: https://app.cryptorank.io/
+social:
+  twitter:
+    - url: https://x.com/CryptoRank_io
+github:
+  - url: https://github.com/CryptoRank/l0-contract
+blockchain:
+  - address: "0x49989540E127A6953Cf0C4434F7a2b7c021846C7"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

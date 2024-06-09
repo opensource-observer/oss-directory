@@ -1,0 +1,19 @@
+version: 7
+name: builder-fi
+display_name: builder.fi
+websites:
+  - url: https://www.builder.fi
+social:
+  twitter:
+    - url: https://x.com/builderfi
+  farcaster:
+    - url: https://warpcast.com/builderfi
+github:
+  - url: https://github.com/talentprotocol/buidlerfi
+blockchain:
+  - address: "0x6e42d3f06CcA58e33cDFCfF74ec66FC0cA1D80aa"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

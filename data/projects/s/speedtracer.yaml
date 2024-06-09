@@ -1,0 +1,19 @@
+version: 7
+name: speedtracer
+display_name: Speedtracer
+websites:
+  - url: https://speedtracer.xyz
+social:
+  twitter:
+    - url: https://x.com/speedtracergame
+  farcaster:
+    - url: https://warpcast.com/~/channel/speedtracer
+github:
+  - url: https://github.com/sbauch/speedtracer-contracts
+blockchain:
+  - address: "0x0090720FeD7Fed66eD658118b7B3BB0189D3A495"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

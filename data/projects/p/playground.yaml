@@ -1,0 +1,15 @@
+version: 7
+name: playground
+display_name: Playground
+websites:
+  - url: https://playground.ooo
+github:
+  - url: https://github.com/DegenEngine/gearslots-contract
+  - url: https://github.com/DegenEngine/zitherin-contract
+blockchain:
+  - address: "0x84466133F0c887Ee8FA1641FcFE23dF6C7f88696"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

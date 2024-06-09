@@ -1,0 +1,19 @@
+version: 7
+name: happy-puppy-club
+display_name: Happy Puppy Club
+websites:
+  - url: https://www.happypuppyclub.xyz
+social:
+  twitter:
+    - url: https://x.com/hpconbase
+  farcaster:
+    - url: https://warpcast.com/hpconbase
+github:
+  - url: https://github.com/Happy-Puppy-Club/hpc-token
+blockchain:
+  - address: "0x5b0390bccCa1F040d8993eB6e4ce8DeD93721765"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

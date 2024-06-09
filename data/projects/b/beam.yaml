@@ -1,0 +1,27 @@
+version: 7
+name: beam
+display_name: Beam
+websites:
+  - url: https://about.beam.eco/
+  - url: https://eco.org/
+  - url: https://beam.eco/
+social:
+  twitter:
+    - url: https://x.com/beam_eco
+  farcaster:
+    - url: https://warpcast.com/~/channel/beam
+github:
+  - url: https://github.com/eco/beam-contracts
+blockchain:
+  - address: "0xFD027ac96Ed5fBdd4F0462fEde2B82Df4748173E"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x812cd30D7645c015606767FbcCDaec54C9914E8e"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

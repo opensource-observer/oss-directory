@@ -1,0 +1,19 @@
+version: 7
+name: ghost-warrior
+display_name: ghost warrior
+websites:
+  - url: https://mint.fun/base/0xc4583cD8166e976744B27855a7debADbe815D2a6?ref=0xc2CFE4CfcC16488d07153351e85469983f8c9F85
+social:
+  twitter:
+    - url: https://x.com/AlehGonzalez11
+  farcaster:
+    - url: https://warpcast.com/aleh11
+github:
+  - url: https://github.com/alehgonzalez11/ghost-warrior
+blockchain:
+  - address: "0xc2CFE4CfcC16488d07153351e85469983f8c9F85"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

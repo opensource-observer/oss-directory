@@ -1,0 +1,19 @@
+version: 7
+name: meta-fe-web-3-gaming-ecosystem-on-base
+display_name: MetaFe - Web3 Gaming Ecosystem on Base
+websites:
+  - url: https://metafe.io/
+social:
+  twitter:
+    - url: https://x.com/metarrior
+  farcaster:
+    - url: https://warpcast.com/metafe
+github:
+  - url: https://github.com/paditech-jsc/metafe_sc
+blockchain:
+  - address: "0xB4C0C9EFC345b8cc2B58F0adc2BE871F7cE8682D"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

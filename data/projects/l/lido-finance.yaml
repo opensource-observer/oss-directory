@@ -1,0 +1,17 @@
+version: 7
+name: lido-finance
+display_name: Lido Finance
+websites:
+  - url: https://lido.fi/
+social:
+  twitter:
+    - url: https://x.com/LidoFinance
+github:
+  - url: https://github.com/lidofinance/lido-l2
+blockchain:
+  - address: "0x2C01F405e3C525C0cB867789AAf077f3553ccbB7"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

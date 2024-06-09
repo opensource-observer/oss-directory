@@ -1,0 +1,18 @@
+version: 7
+name: dappy-kit-smart-accounts-for-farcaster
+display_name: DappyKit Smart Accounts for Farcaster
+websites:
+  - url: https://dappykit.org/
+  - url: https://dappykit
+github:
+  - url: https://github.com/DappyKit/farcaster-auth
+  - url: https://github.com/DappyKit/contracts
+  - url: https://github.com/DappyKit/frame-examples
+  - url: https://github.com/DappyKit/sdk
+blockchain:
+  - address: "0x6A8dE9614c26eAdCAA8CEf01Ed64EC5463720f89"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

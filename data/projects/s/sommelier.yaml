@@ -1,0 +1,18 @@
+version: 7
+name: sommelier
+display_name: Sommelier
+websites:
+  - url: https://sommelier.finance
+social:
+  twitter:
+    - url: https://x.com/sommfinance
+github:
+  - url: https://github.com/PeggyJV/sommelier
+  - url: https://github.com/PeggyJV/cellar-contracts
+blockchain:
+  - address: "0x61bfcdAFA35999FA93C10Ec746589EB93817a8b9"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,26 @@
+version: 7
+name: paragraph
+display_name: Paragraph
+websites:
+  - url: https://paragraph.xyz
+social:
+  twitter:
+    - url: https://twitter.com/paragraph_xyz
+  farcaster:
+    - url: https://warpcast.com/channels/paragraph
+github:
+  - url: https://github.com/paragraph-xyz/docs
+  - url: https://github.com/paragraph-xyz/wNFTs
+blockchain:
+  - address: "0x8f1e16BE9B6F88acF2cd58Da84A335463350B9fb"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xc9ddb5E37165827BBBFf15b582E232C06862C4E8"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

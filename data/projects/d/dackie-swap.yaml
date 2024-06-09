@@ -1,0 +1,20 @@
+version: 7
+name: dackie-swap
+display_name: DackieSwap
+websites:
+  - url: https://www.dackieswap.xyz/?chain=base
+social:
+  twitter:
+    - url: https://x.com/DackieSwap
+  farcaster:
+    - url: https://warpcast.com/dackie.eth
+github:
+  - url: https://github.com/DackieSwap/dackieswap-contracts-v3
+  - url: https://github.com/DackieSwap/dackieswap-contracts
+blockchain:
+  - address: "0xe1581C10EE235F0DEbb655EA365100bCBD84BAD2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

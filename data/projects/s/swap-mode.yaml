@@ -1,0 +1,30 @@
+version: 7
+name: swap-mode
+display_name: SwapMode
+websites:
+  - url: https://swapmode.fi/
+social:
+  twitter:
+    - url: https://twitter.com/SwapModeFi
+  farcaster:
+    - url: https://warpcast.com/swapmode
+github:
+  - url: https://github.com/SwapMode/v3-core
+  - url: https://github.com/SwapMode/v3-periphery
+  - url: https://github.com/SwapMode/staking-pools
+  - url: https://github.com/SwapMode/nft-pools
+  - url: https://github.com/SwapMode/pancake-v2
+  - url: https://github.com/SwapMode/nft-pool-chef
+blockchain:
+  - address: "0xf6A76Dd2f802226a757B875AF3da36B0bf5f7ec7"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x03d4C4b1B115c068Ef864De2e21E724a758892A2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,63 @@
+version: 7
+name: blocklive
+display_name: Blocklive
+websites:
+  - url: https://blocklive.io/
+social:
+  twitter:
+    - url: https://x.com/blocklive_
+  farcaster:
+    - url: https://warpcast.com/blocklive
+    - url: https://warpcast.com/spatializes
+    - url: https://warpcast.com/4ormund
+github:
+  - url: https://github.com/BlockLive/live-protocol
+blockchain:
+  - address: "0x1d56AbEFEC79e302808C9e392d846E8666152C1C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x8A7762e9118D06e9C621d1c0a44698e7f3Bf5B2f"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xc98f5Be61ef54d8551B59E8bC428C1AFAAd77653"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xeC0c6d203902824c9074f25DF8C3156089d9E353"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x3BFcC0517f61cBb1cc656E3147Ca2FEfe2d9903e"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xE74D9699F59fd4202EEaC43B0aF4fC7AE0C58A7D"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x70d476359b086C5b444920c8cc01082880EF8e5f"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xEe06cd787AFAb039240E89d37efd6879377dc4D9"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

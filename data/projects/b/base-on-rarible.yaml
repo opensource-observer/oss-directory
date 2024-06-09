@@ -1,0 +1,21 @@
+version: 7
+name: base-on-rarible
+display_name: Base on Rarible
+websites:
+  - url: https://rarible.com
+social:
+  twitter:
+    - url: https://x.com/rarible
+  farcaster:
+    - url: https://warpcast.com/rarible
+github:
+  - url: https://github.com/rarible/sdk
+npm:
+  - url: https://www.npmjs.com/package/@rarible/sdk
+blockchain:
+  - address: "0x256eFfCeA2ab308D31e318728D2615545171d85B"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

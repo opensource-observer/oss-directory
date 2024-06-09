@@ -1,0 +1,18 @@
+version: 7
+name: hard-hit
+display_name: HardHit
+websites:
+  - url: https://hardhit.fun
+social:
+  twitter:
+    - url: https://twitter.com/hardhitserve
+github:
+  - url: https://github.com/hardhitserve/contracts
+  - url: https://github.com/hardhitserve/hardhit
+blockchain:
+  - address: "0xd3Ae73F4fa5ba54Db8bfd8f80371351e49647EfD"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

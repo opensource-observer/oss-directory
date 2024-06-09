@@ -1,0 +1,21 @@
+version: 7
+name: maverick-protocol
+display_name: Maverick Protocol
+websites:
+  - url: https://http://mav.xyz
+  - url: https://http://app.mav.xyz
+social:
+  twitter:
+    - url: https://twitter.com/mavprotocol
+  farcaster:
+    - url: https://warpcast.com/maverickprotocol
+github:
+  - url: https://github.com/maverickprotocol/maverick-v1-interfaces
+  - url: https://github.com/maverickprotocol/router-v1
+blockchain:
+  - address: "0xEc219699D2FAEB3F416C116dE60Cdb4AAF2f8D7c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

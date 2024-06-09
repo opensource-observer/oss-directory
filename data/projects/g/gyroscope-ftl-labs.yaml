@@ -1,0 +1,18 @@
+version: 7
+name: gyroscope-ftl-labs
+display_name: Gyroscope (FTL Labs)
+websites:
+  - url: https://gyro.finance/
+  - url: https://@gyroscope
+social:
+  twitter:
+    - url: https://x.com/GyroStable
+github:
+  - url: https://github.com/gyrostable/gyro-pools
+blockchain:
+  - address: "0x725e704b6933be9896c717F735E5a5edbFc7193f"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

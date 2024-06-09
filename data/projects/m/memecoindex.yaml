@@ -1,0 +1,15 @@
+version: 7
+name: memecoindex
+display_name: Memecoindex
+websites:
+  - url: https://www.memecoindex.xyz
+  - url: https://@creadores_web3
+github:
+  - url: https://github.com/tony1908/memecoinindex
+blockchain:
+  - address: "0xb49D58c2a54F5c6a61c8fbAAd4C7f265196D9666"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

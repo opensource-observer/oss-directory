@@ -1,0 +1,38 @@
+version: 7
+name: buidl-guidl
+display_name: 🏰 BuidlGuidl
+websites:
+  - url: https://buidlguidl.com/
+social:
+  twitter:
+    - url: https://x.com/buidlguidl
+  farcaster:
+    - url: https://warpcast.com/~/channel/buidlguidl
+github:
+  - url: https://github.com/scaffold-eth/se-2-challenges
+  - url: https://github.com/scaffold-eth/scaffold-eth
+  - url: https://github.com/scaffold-eth/se2-docs
+  - url: https://github.com/BuidlGuidl/scaffold-base
+  - url: https://github.com/BuidlGuidl/sandgarden.buidlguidl.com
+  - url: https://github.com/scaffold-eth/scaffold-eth-2
+npm:
+  - url: https://www.npmjs.com/package/burner-connector
+blockchain:
+  - address: "0x24a81Ca18B220388563fBD751ac0b911a17a3Bc3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xF98350dB64e9982Bda4bd28B78dC06F23B3f0359"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xDc045D56E146844e899Ad3b1A979180BDedbF15B"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

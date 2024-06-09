@@ -1,0 +1,17 @@
+version: 7
+name: eth-fs-ethereum-file-system
+display_name: "EthFS: Ethereum File System"
+websites:
+  - url: https://ethfs.xyz/
+social:
+  twitter:
+    - url: https://x.com/frolic/status/1749058887372636455
+github:
+  - url: https://github.com/holic/ethfs
+blockchain:
+  - address: "0x645fE88B33080b5B954aB45D6f44B0BE0B66297d"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

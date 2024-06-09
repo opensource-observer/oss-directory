@@ -1,0 +1,17 @@
+version: 7
+name: valio-xyz
+display_name: valio.xyz
+websites:
+  - url: https://www.valio.xyz/
+social:
+  twitter:
+    - url: https://x.com/valio_xyz
+github:
+  - url: https://github.com/valioxyz/ownership-proof
+blockchain:
+  - address: "0x7D57D22bf8a1319E3cF897E1aa2347A00f11f36c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

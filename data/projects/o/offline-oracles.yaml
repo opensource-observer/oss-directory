@@ -1,20 +1,13 @@
 version: 7
 name: offline-oracles
 display_name: Offline Oracles
-description: An NFT project powering infrastructure to unbreak the internet
-github:
-  - url: https://github.com/offline-Protocol
-blockchain:
-  - address: "0x0c0d590531ada69b56c4e24dcaceb0528e4e3ac9"
-    networks:
-      - base
-    tags:
-      - contract
-  - address: "0xE183dF30fd23cc15daf73a123E777B0aCb517C44"
-    networks:
-      - base 
-    tags:
-      - safe
-      - wallet
 websites:
-  - url: https://www.offlineoracles.com/
+  - url: https://arcade.offlineoracles.com
+  - url: https://offlineoracles.com
+social:
+  twitter:
+    - url: https://twitter.com/offlineoracles
+  farcaster:
+    - url: https://warpcast.com/offlineoracles
+github:
+  - url: https://github.com/Offline-Protocol/oracles_arcade_frontend

@@ -1,0 +1,22 @@
+version: 7
+name: bsx
+display_name: BSX
+websites:
+  - url: https://bsx.exchange/
+  - url: https://pypi.org/project/bsx-sdk-py/
+social:
+  twitter:
+    - url: https://x.com/bsx_labs
+  farcaster:
+    - url: https://warpcast.com/bsx
+github:
+  - url: https://github.com/bsx-exchange/contracts-core
+npm:
+  - url: https://www.npmjs.com/package/@bsx-exchange/client
+blockchain:
+  - address: "0xB077370265F479Dd51f5f20bdccDdf75210562D0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

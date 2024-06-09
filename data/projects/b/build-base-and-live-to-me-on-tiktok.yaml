@@ -1,0 +1,12 @@
+version: 7
+name: build-base-and-live-to-me-on-tiktok
+display_name: Build base and live to me on tiktok
+github:
+  - url: https://github.com/Fibonaccinewton/candymachine
+blockchain:
+  - address: "0x8029906fd001e4E8816531958fBff060Ff918dc7"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

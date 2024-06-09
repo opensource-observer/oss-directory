@@ -1,0 +1,16 @@
+version: 7
+name: scenes-by-sound-of-fractures
+display_name: SCENES by Sound of Fractures
+websites:
+  - url: https://scenes.soundoffractures.com/
+  - url: https://@sofractures
+  - url: https://@soundoffractures
+github:
+  - url: https://github.com/tomathyg/sof-cms-contentful-app
+blockchain:
+  - address: "0x3585CA22dF80D70f6D1cC0867D8387c360181349"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

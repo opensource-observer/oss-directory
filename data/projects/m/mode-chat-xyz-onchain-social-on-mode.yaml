@@ -1,0 +1,25 @@
+version: 7
+name: mode-chat-xyz-onchain-social-on-mode
+display_name: ModeChat.xyz | Onchain Social on Mode
+websites:
+  - url: https://modechat.xyz/
+social:
+  twitter:
+    - url: https://x.com/modechat_xyz
+github:
+  - url: https://github.com/iggy-social/modechat
+  - url: https://github.com/iggy-social/modechat-contracts
+  - url: https://github.com/punk-domains-2/modechat-id-contracts
+blockchain:
+  - address: "0x6771F33Cfd8C6FC0A1766331f715f5d2E1d4E0e2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xb29050965A5AC70ab487aa47546cdCBc97dAE45D"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

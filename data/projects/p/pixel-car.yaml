@@ -1,0 +1,12 @@
+version: 7
+name: pixel-car
+display_name: Pixel car
+github:
+  - url: https://github.com/shupeng2002/Pixel
+blockchain:
+  - address: "0x521c5b983Eed932Adfa2eCEF7FA447D067692d06"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

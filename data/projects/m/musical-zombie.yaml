@@ -1,0 +1,14 @@
+version: 7
+name: musical-zombie
+display_name: MusicalZombie
+websites:
+  - url: https://mint.fun/base/0x2497d04290C50E346A68888Fde72319E2b5Eab95
+github:
+  - url: https://github.com/cctv688/MusicalZombie
+blockchain:
+  - address: "0x327870cf61A4bC92548Feb3eF5969708A6dd87c1"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

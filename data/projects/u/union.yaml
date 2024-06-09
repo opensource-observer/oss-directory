@@ -1,0 +1,20 @@
+version: 7
+name: union
+display_name: Union
+websites:
+  - url: https://union.finance
+social:
+  twitter:
+    - url: https://x.com/unionprotocol
+  farcaster:
+    - url: https://warpcast.com/union
+github:
+  - url: https://github.com/unioncredit/union-v2-contracts
+  - url: https://github.com/unioncredit/union-interface
+blockchain:
+  - address: "0xCbD1c32A1b3961cC43868B8bae431Ab0dA65beEb"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

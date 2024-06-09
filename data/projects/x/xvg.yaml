@@ -1,0 +1,17 @@
+version: 7
+name: xvg
+display_name: XVG
+websites:
+  - url: https://xvg.area.tech/
+social:
+  twitter:
+    - url: https://x.com/areatechnology_
+github:
+  - url: https://github.com/Area-Technology/xvg-contract
+blockchain:
+  - address: "0xe4B7164aFc9CC143a355611A2CD89D10bEA37c73"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

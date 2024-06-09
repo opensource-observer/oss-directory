@@ -1,0 +1,19 @@
+version: 7
+name: paws-wildlife-room-onchain-vote-in-a-frame
+display_name: PAWS Wildlife Room Onchain Vote in a Frame
+websites:
+  - url: https://www.paws.org/donate/cryptocurrency-giving/pawthereum/
+  - url: https://pawthereum.com
+  - url: https://www.pawswap.exchange/vote/paws
+social:
+  farcaster:
+    - url: https://warpcast.com/myk/0x409e6b03
+github:
+  - url: https://github.com/mykcryptodev/paws-vote
+blockchain:
+  - address: "0x9036464e4ecD2d40d21EE38a0398AEdD6805a09B"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

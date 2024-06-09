@@ -1,0 +1,26 @@
+version: 7
+name: archly
+display_name: Archly
+websites:
+  - url: https://docs.archly.fi/
+social:
+  twitter:
+    - url: https://twitter.com/ArchlyFinance
+  farcaster:
+    - url: https://warpcast.com/archly
+github:
+  - url: https://github.com/ArchlyFi/op-rf-rainbow-road-contracts
+  - url: https://github.com/ArchlyFi/op-rf-dex-contracts
+blockchain:
+  - address: "0xf087491dbb6d94a1332501BC087390B887B3Ec92"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x82d3c9246890e672BA4Dfbf2038c791727BCB34A"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

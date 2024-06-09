@@ -1,0 +1,18 @@
+version: 7
+name: frameme
+display_name: Frameme
+websites:
+  - url: https://frameme.xyz
+social:
+  farcaster:
+    - url: https://warpcast.com/ok/0x001724d3
+    - url: https://warpcast.com/ok/0x8f4bc1b4
+github:
+  - url: https://github.com/andrewjiang/frameme
+blockchain:
+  - address: "0x760e7B42c920c2a0FeB58DDD610c14A6Bdd2Ebea"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

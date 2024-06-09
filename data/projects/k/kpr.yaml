@@ -1,0 +1,19 @@
+version: 7
+name: kpr
+display_name: KPR
+websites:
+  - url: https://kprverse.com/
+social:
+  twitter:
+    - url: https://twitter.com/KPRVERSE
+  farcaster:
+    - url: https://warpcast.com/kprverse
+github:
+  - url: https://github.com/frantrick/chibigo-contract
+blockchain:
+  - address: "0xbA005604BC2B929fdD13e7cfb135C95df1800349"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

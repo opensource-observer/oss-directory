@@ -1,0 +1,21 @@
+version: 7
+name: nogem
+display_name: Nogem
+websites:
+  - url: https://nogem.app/
+  - url: https://nogem.gitbook.io/nogem/smart-contracts
+social:
+  twitter:
+    - url: https://twitter.com/nogem_app
+  farcaster:
+    - url: https://warpcast.com/nogem
+github:
+  - url: https://github.com/nogem-app/nogem
+  - url: https://github.com/nogem-app/LayerZero-Filler-V2
+blockchain:
+  - address: "0x004fbB1E3Ae907fA7fECcbCF8e3607C9911Eb523"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

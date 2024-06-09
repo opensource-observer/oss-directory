@@ -1,0 +1,15 @@
+version: 7
+name: sonic-zorb
+display_name: Sonic Zorb
+websites:
+  - url: https://opensea.io/assets/zora/0xb3d0ba3c295fdb0918fe4bcde04f62f36e60f50c/0
+  - url: https://mint.fun/zora/0xb3d0bA3c295FdB0918Fe4BcDE04f62f36E60F50c
+github:
+  - url: https://github.com/mazlomiarad/Sonic-Zorb
+blockchain:
+  - address: "0x82a546157F2ca11820590b0764Efc019050A1f93"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

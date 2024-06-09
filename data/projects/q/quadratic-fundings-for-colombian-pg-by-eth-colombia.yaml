@@ -1,0 +1,20 @@
+version: 7
+name: quadratic-fundings-for-colombian-pg-by-eth-colombia
+display_name: Quadratic Fundings for Colombian PG by ETH Colombia
+websites:
+  - url: https://qf.ethcolombia.org/
+  - url: https://www.ethcolombia.org/
+social:
+  twitter:
+    - url: https://x.com/EthColombia
+  farcaster:
+    - url: https://warpcast.com/ethcolombia
+github:
+  - url: https://github.com/ethereumcolombia/QF-ETHCO-2024Q1
+blockchain:
+  - address: "0x971E7Df3b132fdfDa98F7cF3b74Ddb438d6ff3ca"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

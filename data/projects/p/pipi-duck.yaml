@@ -1,0 +1,12 @@
+version: 7
+name: pipi-duck
+display_name: Pipi duck
+github:
+  - url: https://github.com/ghuinfd/duck
+blockchain:
+  - address: "0x880022fDF754450375CBBc86989dF10A5ECe1989"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

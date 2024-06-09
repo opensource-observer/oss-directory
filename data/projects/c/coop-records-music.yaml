@@ -1,0 +1,22 @@
+version: 7
+name: coop-records-music
+display_name: Coop Records Music
+websites:
+  - url: https://music.cooprecords.xyz/
+social:
+  twitter:
+    - url: https://twitter.com/cooprecsmusic
+  farcaster:
+    - url: https://warpcast.com/cooprecs
+github:
+  - url: https://github.com/Coop-Records/sonata
+  - url: https://github.com/Coop-Records/frames
+  - url: https://github.com/Coop-Records/boombox
+  - url: https://github.com/Coop-Records/farconcert
+blockchain:
+  - address: "0x3c10FAED26a6bb341322d1BAaf2c6ecf5B957D61"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

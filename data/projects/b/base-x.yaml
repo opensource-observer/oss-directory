@@ -1,0 +1,19 @@
+version: 7
+name: base-x
+display_name: BaseX
+websites:
+  - url: https://www.basex.fi/
+social:
+  twitter:
+    - url: https://twitter.com/basex_fi
+  farcaster:
+    - url: https://warpcast.com/basex-fi
+github:
+  - url: https://github.com/basex-fi/v3-core
+blockchain:
+  - address: "0xE4DE24CeA85C9bEB09D2269A86dcc364910Ea130"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

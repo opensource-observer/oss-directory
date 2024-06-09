@@ -1,0 +1,12 @@
+version: 7
+name: my-art-collection
+display_name: My art collection
+github:
+  - url: https://github.com/ghuinfd/PsychedelicWorld
+blockchain:
+  - address: "0x79BBf1fF770Aeb6cA5f8aC5C6Dc26aC6d35c93BE"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

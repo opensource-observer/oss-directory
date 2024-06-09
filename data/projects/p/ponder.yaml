@@ -1,0 +1,24 @@
+version: 7
+name: ponder
+display_name: Ponder
+websites:
+  - url: https://www.weponder.io
+  - url: https://ponder.social (coming soon)
+social:
+  farcaster:
+    - url: https://warpcast.com/survey
+github:
+  - url: https://github.com/ponder-surveys/farcaster-survey-bot
+blockchain:
+  - address: "0xCcaF182195e3423B5101AB1c7D67E403F8CaCa3a"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x81947AAdF64Cd22cE96999E4c76eFB0765839bEf"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

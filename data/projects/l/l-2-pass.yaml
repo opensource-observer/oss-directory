@@ -1,0 +1,29 @@
+version: 7
+name: l-2-pass
+display_name: L2Pass
+websites:
+  - url: https://l2pass.com/
+social:
+  twitter:
+    - url: https://x.com/L2_Pass
+github:
+  - url: https://github.com/L2PASS/contracts
+blockchain:
+  - address: "0x19CbF0D2850314E8C1e60f090CfF5f2D3dB26266"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x16Bf5C7597C20Df2795e9Bd42403ba3c90c8Cebb"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xDBe973B3B731d320e13D903bAfA905bd742D5633"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,12 @@
+version: 7
+name: crimson-tide
+display_name: Crimson Tide
+github:
+  - url: https://github.com/nurabura/Crimson-Tide
+blockchain:
+  - address: "0x96765ADF36bA5435581193E51ebb88D81bC6c9A8"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

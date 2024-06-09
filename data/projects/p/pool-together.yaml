@@ -1,379 +1,48 @@
 version: 7
 name: pool-together
 display_name: PoolTogether
-github:
-  - url: https://github.com/pooltogether
-blockchain:
-  - address: "0xe0e7b7c5ae92fe94d2ae677d81214d6ad7a11c27"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
-    name: lonser.eth
-  - address: "0xd7f73cbf2b6ac915976cc96706b76d6425fbc234"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
-  - address: "0x4d40eb12430a57965cee3015348d490c6156df20"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
-  - address: "0xc516fe1fee5122d66e9427721a63d6c27e1201ca"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
-  - address: "0xa206773ed77be8ccd48acd6e0e241b08e5d1b611"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: TWABDelegator
-  - address: "0x469c6f4c1ada45eb2e251685ac2bf05aed591e70"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: TWABDelegator
-  - address: "0x43069a907a69ab1f66b1f8417ddc790346920323"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: VaultBoosterFactory
-  - address: "0x4d5f2cd31701f3e5de77b3f89ee7b80eb87b4acc"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: TwabDelegator
-  - address: "0x6cb52020204a526c2a86998b8dc3b0b4fac9fbc1"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: AaveV3ERC4626Factory
-  - address: "0xf93329e78feff1145fce03a79d5b356588dea215"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: TwabDelegator
-  - address: "0xa469deff6d52c9571d13513e3cd7d94496082d81"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: VaultFactory
-  - address: "0xa1697e8f6b11d0e2f00d9dc8a5aeae2b2665650a"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: LiquidationPairFactory
-  - address: "0x574834c934b3784aa8430a5b45724aaa2fcf2c7f"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: Reserve
-  - address: "0x8e4f3098192948e342fb11ed7c4a23cd5a306973"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeDistributionBuffer
-  - address: "0xa6ec73c91d0ae39a854bd50a6b1cf9aa7da46ba4"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeSplitStrategy
-  - address: "0x73a7d35bb34e6c7b0bc06e6399cdde05320bcbc3"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: YieldSourcePrizePool
-  - address: "0xc88f04d5d00367ecd016228302a1eacfab164dba"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeTierHistory
-  - address: "0x1bd4745df0b5286d410f22fe6d43e797c4d5ce98"
-    networks:
-      - mainnet
-      - optimism
-    tags:
-      - contract
-    name: various:DiffersByChain
-  - address: "0xcddfa3bfc0e548d9a526e3355fefdf987f4e1aae"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: EIP2612PermitAndDeposit
-  - address: "0x79ed98ef5561f1ed3058acb5a30f05e8f64e560b"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeDistributionBuffer
-  - address: "0x4ecb5300d9ec6bca09d66bfd8dcb532e3192dda1"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: AaveV3YieldSource
-  - address: "0x85c0d1c1714da886052c1b04c42ff7076ff5e222"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: DrawExecutor
-  - address: "0x314060502e823de08d15ff3f5208b8e82f51acfc"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: AaveV3YieldSource
-  - address: "0xa365317291122b44a549c34a383ccd117b71941e"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeDistributor
-  - address: "0x722e9bfc008358ac2d445a8d892cf7b62b550f3f"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeDistributor
-  - address: "0x94db8aaae2b1d143dbab67257cfa608374a4ac40"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: DrawCalculator
-  - address: "0xa843cfbf6549e3c93453a74e762f1af66575ee89"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeDistributionFactory
-  - address: "0xb47e3984b81298f10c0ba75e26362e044b8488f9"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeFlush
-  - address: "0x79a80e8f952cfb4249613315eb71bc63b1d2b685"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: DrawCalculatorTimelock
-  - address: "0x8e6670d62ea8d0ba4662de8b4db690c70af9440e"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: ReceiverTimelockTrigger
-  - address: "0x74312cab0d0ab42d4b4f7ae424ef2ea35e3cd472"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: TwabRewards
-  - address: "0x5e5b54cd73872ba3103cd95a58067a7079d0259b"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: Ticket
-  - address: "0x62bb4fc73094c83b5e952c2180b23fa7054954c4"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: Ticket
-  - address: "0xdd96e37d6dd515a5e7325503fb3958192f98e49f"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: ReceiverTimelockTrigger
-  - address: "0x1470c87e2db5247a36c60de3d65d7c972c62ea0f"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: TwabRewards
-  - address: "0x890a87e71e731342a6d10e7628bd1f0733ce3296"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: MessageExecutorOptimism
-  - address: "0x79bc8bd53244bc8a9c8c27509a2d573650a83373"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: YieldSourcePrizePool
-  - address: "0x01a1f0699356afeb850f5a80226c35a9319caf74"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeDistributionFactory
-  - address: "0x4c65f496b78b7e81c15723f56a43925e5dc3a0e1"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeFlush
-  - address: "0x267dd4034830bb4ba9314e0471c1ddfd79849777"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: DrawBuffer
-  - address: "0x46d2f8e4d8ff3d76cf252d89dd9b422f04123d2c"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: DrawCalculator
-  - address: "0xa2c882c66797b201788eef25e3ca3411204bf3d7"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: DrawBuffer
-  - address: "0x8d7355075b85b2add775e02ec581e0da66326e49"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeSplitStrategy
-  - address: "0x7e8b7b3ad23caa7155603db3f51e4529fdc606c2"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeDistributionFactoryV2
-  - address: "0x2eb3f768a00ec81e8a0ac337870572907d3b953d"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeTierHistoryV2
-  - address: "0xb75c7e8d65fdc32678617fd20f4c2404cb492562"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: EIP2612PermitAndDeposit
-  - address: "0xd23723fef8a16b77eadc1fc822ae4170ba9d4009"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: DrawCalculatorTimelock
-  - address: "0xeef2297e15cd085a0ad33197ce8c2eab6f023c2b"
-    networks:
-      - mainnet
-      - optimism
-    tags:
-      - contract
-    name: various:DiffersByChain
-  - address: "0x91a252e0bc6082e6ca0fc554968177bc5dbd53f1"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: PrizeTierHistory
-  - address: "0x2589ff8614f74704741ee3b51851b4ae812f1a21"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: Claimer
-  - address: "0xf4c47dacfda99be38793181af9fd1a2ec7576bbf"
-    networks:
-      - mainnet
-      - optimism
-    tags:
-      - contract
-    name: various:DiffersByChain
-  - address: "0xf4cfa53df258d78aad153ac11c644703651983f5"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: LiquidationRouter
-  - address: "0x38449a6b7bb76638452273925c9a2ba818bd130d"
-    networks:
-      - mainnet
-      - optimism
-    tags:
-      - contract
-    name: various:DiffersByChain
-  - address: "0x47b55748243314be6a341668ecda2066c0625f70"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: Claimer
-  - address: "0x0d51a33975024e8afc55fde9f6b070c10aa71dd9"
-    networks:
-      - mainnet
-      - optimism
-    tags:
-      - contract
-    name: various:DiffersByChain
-  - address: "0x8cfffffa42407db9dcb974c2c744425c3e58d832"
-    networks:
-      - mainnet
-      - optimism
-    tags:
-      - contract
-    name: various:DiffersByChain
-  - address: "0x40757859a6e45c66bb384bc0fe7f78f0f4b2ff05"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: Pool
-  - address: "0xfb0dadb835fade151abf6780beafb12fc5ba0e1f"
-    networks:
-      - optimism
-    tags:
-      - safe
-      - wallet
-  - address: "0x42cd8312d2bce04277dd5161832460e95b24262e"
-    networks:
-      - any_evm
-    tags:
-      - eoa
-      - wallet
 websites:
-  - url: https://www.pooltogether.com
-description: PoolTogether is a protocol for no-loss prize games on the Ethereum blockchain
+  - url: https://pooltogether.com
+social:
+  twitter:
+    - url: https://x.com/PoolTogether_
+  farcaster:
+    - url: https://warpcast.com/pooltogether
+github:
+  - url: https://github.com/GenerationSoftware/pt-v5-draw-manager
+  - url: https://github.com/GenerationSoftware/pt-v5-liquidator-interfaces
+  - url: https://github.com/GenerationSoftware/pt-v5-twab-rewards
+  - url: https://github.com/GenerationSoftware/pt-v5-cgda-liquidator
+  - url: https://github.com/GenerationSoftware/pt-v5-twab-delegator
+  - url: https://github.com/GenerationSoftware/pooltogether-client-monorepo
+  - url: https://github.com/GenerationSoftware/pt-v5-testnet
+  - url: https://github.com/GenerationSoftware/pt-v5-mainnet
+  - url: https://github.com/GenerationSoftware/pt-v5-prize-pool
+  - url: https://github.com/GenerationSoftware/pt-v5-twab-controller
+  - url: https://github.com/GenerationSoftware/pt-v5-vault
+  - url: https://github.com/GenerationSoftware/pt-v5-vault-boost
+  - url: https://github.com/GenerationSoftware/pt-v5-rng-witnet
+  - url: https://github.com/GenerationSoftware/pt-v5-claimer
+  - url: https://github.com/GenerationSoftware/pt-v5-claimable-interface
+npm:
+  - url: https://www.npmjs.com/package/@generationsoftware/hyperstructure-client-js
+  - url: https://www.npmjs.com/package/@generationsoftware/hyperstructure-react-hooks
+blockchain:
+  - address: "0x13A751faFd4214CfC1f95F7b027Ef432965312c4"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xb1e4f56590cA358548696d9eC161cd16Cc3BB135"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x226e71e2165249494532c0BdE6303E7c025e30cD"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

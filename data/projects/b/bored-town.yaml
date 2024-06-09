@@ -1,0 +1,25 @@
+version: 7
+name: bored-town
+display_name: Bored Town
+websites:
+  - url: https://www.bored.town/
+social:
+  twitter:
+    - url: https://x.com/BoredTownNFT
+github:
+  - url: https://github.com/bored-town/op-airdrop4
+  - url: https://github.com/bored-town/contracts
+  - url: https://github.com/bored-town/sonocrew
+blockchain:
+  - address: "0x83116F4B6571E42F12E22175a9Bc501e257301A5"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xcFa1Bf8CA39A89B6c0E9AFF55454B20e589c0dA0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,17 @@
+version: 7
+name: omni-art
+display_name: OmniArt
+websites:
+  - url: https://omniart.app
+social:
+  twitter:
+    - url: https://twitter.com/Omni_Art_
+github:
+  - url: https://github.com/omniart-app/omniart-frontend
+blockchain:
+  - address: "0x8D935B2DdD20755E3cdb10039805EECb4c2a7a73"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

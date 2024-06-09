@@ -1,0 +1,23 @@
+version: 7
+name: aura-finance
+display_name: Aura Finance
+websites:
+  - url: https://aura.finance/
+social:
+  twitter:
+    - url: https://x.com/AuraFinance
+github:
+  - url: https://github.com/aurafinance/aura-contracts
+blockchain:
+  - address: "0x30019eB135532bDdF2Da17659101cc000C73c8e4"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xB07d2d6a03F2d4878Dc1680F8581E871dae47494"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

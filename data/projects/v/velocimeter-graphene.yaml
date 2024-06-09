@@ -1,0 +1,25 @@
+version: 7
+name: velocimeter-graphene
+display_name: Velocimeter/Graphene
+websites:
+  - url: https://velocimeter.xyz
+  - url: https://graphene.velocimeter.xyz
+social:
+  twitter:
+    - url: https://x.com/VelocimeterDEX
+github:
+  - url: https://github.com/Velocimeter/carbon-contracts
+  - url: https://github.com/Velocimeter/v3-contracts
+blockchain:
+  - address: "0xe0F7921414e79fE4459148d2e38fb68C9186DECC"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x3b91Ca4D89B5156d456CbD0D6305F7f36B1517a4"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,22 @@
+version: 7
+name: perp-v-2-curie
+display_name: Perp V2 - Curie
+websites:
+  - url: https://perp.com
+social:
+  twitter:
+    - url: https://x.com/perpprotocol
+  farcaster:
+    - url: https://warpcast.com/perpprotocol
+github:
+  - url: https://github.com/perpetual-protocol/perp-curie-contract
+npm:
+  - url: https://www.npmjs.com/package/@perp/curie-contract
+  - url: https://www.npmjs.com/package/@perp/curie-deployments
+blockchain:
+  - address: "0x849a19c0746fB0d335E02deC0d0B3E057e585176"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

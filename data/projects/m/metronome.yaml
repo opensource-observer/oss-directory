@@ -1,0 +1,25 @@
+version: 7
+name: metronome
+display_name: Metronome
+websites:
+  - url: https://metronome.io/
+social:
+  twitter:
+    - url: https://x.com/MetronomeDAO
+  farcaster:
+    - url: https://warpcast.com/metronome
+github:
+  - url: https://github.com/autonomoussoftware/metronome-synth-public
+blockchain:
+  - address: "0xdf826ff6518e609E4cEE86299d40611C148099d5"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x7EEeF54Df0596633dbf6Fa3C88dEB1E3eA85ECE8"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

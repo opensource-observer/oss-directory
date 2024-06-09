@@ -1,5 +1,19 @@
 version: 7
 name: amet-finance
 display_name: Amet Finance
+websites:
+  - url: https://amet.finance
+social:
+  twitter:
+    - url: https://x.com/amet_finance
 github:
-  - url: https://github.com/amet-finance
+  - url: https://github.com/Amet-Finance/contracts
+npm:
+  - url: https://www.npmjs.com/package/amet-utils
+blockchain:
+  - address: "0xE0d3523Bf2351dE8a24D56C7255FbC3b20a3D7dc"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

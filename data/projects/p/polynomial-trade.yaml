@@ -1,0 +1,22 @@
+version: 7
+name: polynomial-trade
+display_name: Polynomial Trade
+websites:
+  - url: https://polynomial.fi/
+  - url: https://www.polynomial.trade/
+  - url: https://trade.polynomial.fi/
+social:
+  twitter:
+    - url: https://x.com/PolynomialFi
+  farcaster:
+    - url: https://warpcast.com/polynomialfi
+github:
+  - url: https://github.com/Polynomial-Protocol/fx-connectors
+  - url: https://github.com/Polynomial-Protocol/fx-wallet
+blockchain:
+  - address: "0x9f76043B23125024Ce5f0Fb4AE707482107dd2a8"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

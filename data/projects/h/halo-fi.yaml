@@ -1,0 +1,19 @@
+version: 7
+name: halo-fi
+display_name: HaloFi
+websites:
+  - url: https://halofi.me
+social:
+  twitter:
+    - url: https://x.com/halofi_me
+  farcaster:
+    - url: https://warpcast.com/halofi
+github:
+  - url: https://github.com/Good-Ghosting/goodghosting-protocol-v2
+blockchain:
+  - address: "0xF8848F85831A5C19Cd9a6DFA40C40DbB288380e7"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,21 @@
+version: 7
+name: perfect-pool
+display_name: Perfect Pool
+websites:
+  - url: https://perfectpool.io/
+  - url: https://dev.perfectpool.io/
+  - url: https://dappv2-one.vercel.app/games/coinflip/
+  - url: https://dappv2-one.vercel.app/games/dice/
+social:
+  twitter:
+    - url: https://x.com/perfectpoolplay
+github:
+  - url: https://github.com/tribesxapp/tribex-smart-contracts
+  - url: https://github.com/tribesxapp/march-madness
+blockchain:
+  - address: "0x30dF3855147f73d6981f515A02B2c8Dd2dd00ba2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

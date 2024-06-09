@@ -1,0 +1,18 @@
+version: 7
+name: blo-bz
+display_name: BLOBz
+websites:
+  - url: https://www.blobz.xyz/
+social:
+  twitter:
+    - url: https://x.com/BLOBz4844
+github:
+  - url: https://github.com/bored-town/blobz-bt
+  - url: https://github.com/bored-town/cdn
+blockchain:
+  - address: "0x83116F4B6571E42F12E22175a9Bc501e257301A5"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

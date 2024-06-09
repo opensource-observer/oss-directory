@@ -1,0 +1,25 @@
+version: 7
+name: nftrex-web-3
+display_name: NFTREX WEB3
+websites:
+  - url: https://mint-rex.fun/
+social:
+  twitter:
+    - url: https://twitter.com/NFTRexWeb3
+  farcaster:
+    - url: https://warpcast.com/mintrexfun
+github:
+  - url: https://github.com/mint-rex-fun/mint-rex-contracts
+blockchain:
+  - address: "0xdd0A0a60ee13cAd25498582B2415AC79776f52F4"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xefe50209F15eDC61E10e6974A9bb7939313dD40e"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

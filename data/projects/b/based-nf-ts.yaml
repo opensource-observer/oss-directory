@@ -1,0 +1,17 @@
+version: 7
+name: based-nf-ts
+display_name: Based NFTs
+social:
+  twitter:
+    - url: https://x.com/AspynPalatnick
+  farcaster:
+    - url: https://warpcast.com/aspyn
+github:
+  - url: https://github.com/stuckinaboot/based-nfts-op
+blockchain:
+  - address: "0xcf75Bf188c5CA5198eF571aed3D75ECDe3bcD9D9"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

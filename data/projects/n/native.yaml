@@ -1,0 +1,19 @@
+version: 7
+name: native
+display_name: Native
+websites:
+  - url: https://native.org/
+social:
+  twitter:
+    - url: https://x.com/native_fi
+github:
+  - url: https://github.com/Native-org/native-widget-demo
+npm:
+  - url: https://www.npmjs.com/package/@native_org/widgets/v/0.4.7
+blockchain:
+  - address: "0xDB714C6c6bd7D1bab01C8E8787f41a8E6B9F2d0c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

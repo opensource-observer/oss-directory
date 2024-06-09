@@ -1,0 +1,21 @@
+version: 7
+name: mochimons
+display_name: Mochimons
+websites:
+  - url: https://mochithecatcoin.com/
+  - url: https://mochimons.com/
+social:
+  twitter:
+    - url: https://twitter.com/MochimonsNFT
+  farcaster:
+    - url: https://warpcast.com/~/channel/mochi
+    - url: https://warpcast.com/~/channel/mochimons
+github:
+  - url: https://github.com/MochimonsDev/Mochimons
+blockchain:
+  - address: "0xea1B1cc2D72e32B34821aD06aE7cC7016e7ECf09"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

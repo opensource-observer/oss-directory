@@ -1,0 +1,18 @@
+version: 7
+name: mellow
+display_name: Mellow
+websites:
+  - url: https://mellow.to
+  - url: https://docs.mellow.to
+social:
+  twitter:
+    - url: https://x.com/join_mellow
+github:
+  - url: https://github.com/0xDontBlink/mellow-contracts
+blockchain:
+  - address: "0x3f83D44e7c6EF5eb1D3F096f4cb3955AbE92Cf55"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

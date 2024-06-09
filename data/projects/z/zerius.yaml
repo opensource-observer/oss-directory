@@ -1,0 +1,26 @@
+version: 7
+name: zerius
+display_name: Zerius
+websites:
+  - url: https://zerius.io/
+  - url: https://zerius.gitbook.io/zerius/smart-contracts
+social:
+  twitter:
+    - url: https://twitter.com/Zerius_io
+  farcaster:
+    - url: https://warpcast.com/zerius
+github:
+  - url: https://github.com/zerius-io/contracts
+blockchain:
+  - address: "0xdF2f595541307c31F879A17E7C0BBeaca6375634"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x4C19E3B6902Ac817cdC84d1521E5e27Bc15fccD9"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,19 @@
+version: 7
+name: trugly-labs
+display_name: Trugly Labs
+websites:
+  - url: https://www.trugly.meme
+social:
+  twitter:
+    - url: https://x.com/TruglyMeme
+  farcaster:
+    - url: https://warpcast.com/trugly
+github:
+  - url: https://github.com/trugly-labs/contracts-v1
+blockchain:
+  - address: "0x941ED155434841531Caf70757588F4a4870dAC25"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

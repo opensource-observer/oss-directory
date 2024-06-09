@@ -1,0 +1,17 @@
+version: 7
+name: gangster-arena
+display_name: Gangster Arena
+websites:
+  - url: https://gangsterarena.com
+social:
+  twitter:
+    - url: https://twitter.com/gangsterarena
+github:
+  - url: https://github.com/wearedayone/casino-tycoon
+blockchain:
+  - address: "0xc3e671530Ea187549c7349Ba94a11A64c29f4106"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

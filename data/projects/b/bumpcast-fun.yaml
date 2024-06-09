@@ -1,0 +1,19 @@
+version: 7
+name: bumpcast-fun
+display_name: Bumpcast.Fun
+websites:
+  - url: https://bumpcast.fun
+social:
+  twitter:
+    - url: https://x.com/bumpcastdotfun
+  farcaster:
+    - url: https://warpcast.com/bumpcast
+github:
+  - url: https://github.com/bumpcast/Bumpcast-contracts
+blockchain:
+  - address: "0x2204b5e50A9Da6853C9451B47aF9BC5Cbde13905"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

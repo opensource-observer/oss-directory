@@ -1,0 +1,25 @@
+version: 7
+name: dackie-nft
+display_name: DackieNFT
+websites:
+  - url: https://www.dackieofficial.com/
+social:
+  twitter:
+    - url: https://x.com/Dackie_Official
+  farcaster:
+    - url: https://warpcast.com/dackie.eth
+github:
+  - url: https://github.com/DackieSwap/dackienft-contracts
+blockchain:
+  - address: "0x857e7eE37252621345d3225Db8f74f9aC0a57953"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x2636D9F1604B8e3aA4E004085706Ad67C81C8D5d"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

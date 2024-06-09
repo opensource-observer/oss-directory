@@ -1,0 +1,22 @@
+version: 7
+name: eth-xy
+display_name: EthXY
+websites:
+  - url: https://ethxy.com
+  - url: https://basescan.org/address/0x46ebaa6df85900200b6b6cf15248f3f1adca13b2#code
+social:
+  twitter:
+    - url: https://twitter.com/ethxy
+  farcaster:
+    - url: https://warpcast.com/~/channel/ethxy
+    - url: https://warpcast.com/ethxy
+    - url: https://warpcast.com/jethid
+github:
+  - url: https://github.com/z80dev/ethxy_poker
+blockchain:
+  - address: "0xC72C8a251DD8240A1c11D8ee3233C2ea6Eca9a73"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

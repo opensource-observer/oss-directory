@@ -1,0 +1,20 @@
+version: 7
+name: multicaller
+display_name: Multicaller
+github:
+  - url: https://github.com/Vectorized/multicaller
+npm:
+  - url: https://www.npmjs.com/package/multicaller
+blockchain:
+  - address: "0x1F5D295778796a8b9f29600A585Ab73D452AcB1c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xf3d63166F0Ca56C3c1A3508FcE03Ff0Cf3Fb691e"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

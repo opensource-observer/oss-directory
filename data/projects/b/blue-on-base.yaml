@@ -1,0 +1,19 @@
+version: 7
+name: blue-on-base
+display_name: Blue on base
+websites:
+  - url: https://thebluecoin.xyz/
+social:
+  twitter:
+    - url: https://x.com/bluebasecoin
+  farcaster:
+    - url: https://warpcast.com/~/channel/blueonbase
+github:
+  - url: https://github.com/lomonoshka/blue
+blockchain:
+  - address: "0xC572fF5017BF71921Bf2226c3B8245cFCd3e827f"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

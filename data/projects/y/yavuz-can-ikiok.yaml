@@ -1,0 +1,19 @@
+version: 7
+name: yavuz-can-ikiok
+display_name: Yavuz Can İKİOK
+websites:
+  - url: https://baseturkiye.org/
+social:
+  twitter:
+    - url: https://x.com/BaseTurkiye
+  farcaster:
+    - url: https://warpcast.com/baseturkiye
+github:
+  - url: https://github.com/vadafaka/Base-T-rkiye
+blockchain:
+  - address: "0x83AaF193E0A5A413976A87f979aC8BBB8813F306"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

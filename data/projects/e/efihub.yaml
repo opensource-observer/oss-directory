@@ -1,0 +1,19 @@
+version: 7
+name: efihub
+display_name: EFIHUB
+websites:
+  - url: https://efihub.io/
+social:
+  twitter:
+    - url: https://x.com/EFihubdotio
+  farcaster:
+    - url: https://warpcast.com/efihub
+github:
+  - url: https://github.com/Efihubdotio/Efihub-blockchain
+blockchain:
+  - address: "0xCdF62147da2eE390e8848C4ad8aB92A2A46f35Ef"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

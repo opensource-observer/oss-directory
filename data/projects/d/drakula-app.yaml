@@ -1,0 +1,20 @@
+version: 7
+name: drakula-app
+display_name: Drakula.app
+websites:
+  - url: https://drakula.app
+social:
+  twitter:
+    - url: https://x.com/Drakulaapp
+  farcaster:
+    - url: https://warpcast.com/drakula
+    - url: https://warpcast.com/~/channel/drakula
+github:
+  - url: https://github.com/showtime-xyz/creator-tokens
+blockchain:
+  - address: "0x43A4DAA053B63606e1dc9108641AACaD0cdd5B9f"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

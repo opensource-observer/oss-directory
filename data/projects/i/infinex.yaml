@@ -1,0 +1,18 @@
+version: 7
+name: infinex
+display_name: Infinex
+websites:
+  - url: https://infinex.xyz/
+  - url: https://proposals.infinex.xyz/
+social:
+  twitter:
+    - url: https://x.com/infinex_app
+github:
+  - url: https://github.com/infinex-io/infinex-governance
+blockchain:
+  - address: "0xEBfB6fCa54436bCD97E1066Bce2603B3d702593F"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

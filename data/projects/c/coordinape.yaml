@@ -1,54 +1,20 @@
 version: 7
 name: coordinape
 display_name: Coordinape
-github:
-  - url: https://github.com/coordinape
-blockchain:
-  - address: "0xcb21ed4ca5c5fff8b1e21ddb7bbff8c6546ce5e6"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
-  - address: "0xc86fa04e2916f3558de23124fd90d1173666011d"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: ProxyAdmin
-  - address: "0x47c2a56176335fb2b1ded8e7b5acb136d307dc2d"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-  - address: "0x65898cb482a821005e30ab98c0d7dc1032a48805"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: CoSoul
-  - address: "0xd0d0cf7be1273b9267e1a80c5de867748fb84b14"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: CoSoul
-  - address: "0xce1538a8f42617585cd3c42734d5079c0628c9c8"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: CoSoul
-  - address: "0x5b932c9effe55f9627c1c8d5a6ceb5a4ff82c866"
-    networks:
-      - optimism
-    tags:
-      - safe
-      - wallet
 websites:
-  - url: https://coordinape.com
-description: Decentralized grant distribution platform
+  - url: https://www.coordinape.com
 social:
   twitter:
-    - url: https://twitter.com/coordinape
+    - url: https://x.com/coordinape
+  farcaster:
+    - url: https://warpcast.com/coordinape
+github:
+  - url: https://github.com/coordinape/coordinape
+  - url: https://github.com/coordinape/coordinape-protocol
+blockchain:
+  - address: "0xcb21ed4ca5C5fff8B1E21DdB7Bbff8c6546cE5e6"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

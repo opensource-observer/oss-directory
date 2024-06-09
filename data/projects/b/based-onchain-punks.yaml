@@ -1,0 +1,19 @@
+version: 7
+name: based-onchain-punks
+display_name: Based Onchain Punks
+websites:
+  - url: https://opensea.io/collection/based-onchain-punks
+social:
+  twitter:
+    - url: https://x.com/OnChainPunksNFT
+  farcaster:
+    - url: https://warpcast.com/apex777
+github:
+  - url: https://github.com/apexethdev/basepunks
+blockchain:
+  - address: "0xD1aE551db0b0De25FA34baF1c054062f0CB9BBDA"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

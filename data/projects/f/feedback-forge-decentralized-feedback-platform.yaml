@@ -1,0 +1,16 @@
+version: 7
+name: feedback-forge-decentralized-feedback-platform
+display_name: Feedback Forge - Decentralized Feedback Platform
+websites:
+  - url: https://feedback-forge.vercel.app/
+github:
+  - url: https://github.com/cleanerzkp/Feedback-Forge
+npm:
+  - url: https://www.npmjs.com/package/create-eth
+blockchain:
+  - address: "0x872f1fFdeEe35a6074658B4FB185E2582Db7896A"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

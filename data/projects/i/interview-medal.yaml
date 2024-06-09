@@ -1,0 +1,12 @@
+version: 7
+name: interview-medal
+display_name: Interview Medal
+github:
+  - url: https://github.com/najmashish/InterviewMedal
+blockchain:
+  - address: "0x863A290ddA0Cc6ad43DD648C51Ce8bF043c8352a"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

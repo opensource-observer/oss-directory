@@ -1,0 +1,17 @@
+version: 7
+name: solis-protocol
+display_name: Solis Protocol
+websites:
+  - url: https://www.solis.ink
+social:
+  twitter:
+    - url: https://x.com/digitalsize
+github:
+  - url: https://github.com/Solis-Protocol/solis-ink
+blockchain:
+  - address: "0x3136934dca767AeA8EA5d6485A9cDb62ed2EFA45"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

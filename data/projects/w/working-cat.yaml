@@ -1,0 +1,12 @@
+version: 7
+name: working-cat
+display_name: Working Cat
+github:
+  - url: https://github.com/bxkehs/Meow
+blockchain:
+  - address: "0x95BD38c9e05BCf905F6aDED2e1c8F2A0e25c46Dc"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

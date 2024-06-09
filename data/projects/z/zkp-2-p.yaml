@@ -1,0 +1,25 @@
+version: 7
+name: zkp-2-p
+display_name: ZKP2P
+websites:
+  - url: https://zkp2p.xyz
+  - url: https://@zkp2p
+github:
+  - url: https://github.com/zkp2p/zk-p2p
+  - url: https://github.com/zkp2p/zk-p2p-periphery
+npm:
+  - url: https://www.npmjs.com/package/@zkp2p/circuits-circom
+  - url: https://www.npmjs.com/package/@zkp2p/circuits-circom-helpers
+blockchain:
+  - address: "0xdd93E0f5fC32c86A568d87Cb4f08598f55E980F3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xeAC1f6bd8339B9DC71D08beeA14EBFd454183640"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

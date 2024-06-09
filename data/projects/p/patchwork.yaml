@@ -1,0 +1,22 @@
+version: 7
+name: patchwork
+display_name: Patchwork
+websites:
+  - url: https://http://patchwork.dev
+social:
+  twitter:
+    - url: https://x.com/PatchworkProto
+  farcaster:
+    - url: https://warpcast.com/patchwork
+github:
+  - url: https://github.com/runic-inc/patchwork
+  - url: https://github.com/runic-inc/pdk
+npm:
+  - url: https://www.npmjs.com/package/@patchworkdev/pdk
+blockchain:
+  - address: "0x3fEAb664aAC5550765cddA720Dd10A2874A63601"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

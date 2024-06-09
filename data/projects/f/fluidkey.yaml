@@ -1,5 +1,21 @@
 version: 7
 name: fluidkey
 display_name: Fluidkey
+websites:
+  - url: https://fluidkey.com
+  - url: https://fluidkey
+social:
+  farcaster:
+    - url: https://warpcast.com/~/channel/fluidkey
 github:
-  - url: https://github.com/fluidkey
+  - url: https://github.com/fluidkey/fluidkey-stealth-account-kit
+  - url: https://github.com/fluidkey/fluidkey-hydrator
+npm:
+  - url: https://www.npmjs.com/package/@fluidkey/stealth-account-kit
+blockchain:
+  - address: "0x629F72215a9914F6d3D061F306E923F5DD9dFc60"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

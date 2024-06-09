@@ -1,0 +1,24 @@
+version: 7
+name: superchain-synergy-hub
+display_name: SuperchainSynergyHub
+websites:
+  - url: https://www.x.com/aaronvick
+social:
+  farcaster:
+    - url: https://warpcast.com/~/channel/aaron
+    - url: https://warpcast.com/~/channel/askaaron
+    - url: https://warpcast.com/~/channel/rides
+    - url: https://warpcast.com/~/channel/empower
+    - url: https://warpcast.com/~/channel/jeep
+    - url: https://warpcast.com/~/channel/stormchasers
+    - url: https://warpcast.com/~/channel/remember
+    - url: https://warpcast.com/~/channel/kayaking
+github:
+  - url: https://github.com/AaronVick/SuperchainSynergyHub
+blockchain:
+  - address: "0x0998fc77b101E4C538F57bc7616c5ecd77dEab5A"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

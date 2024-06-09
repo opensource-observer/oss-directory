@@ -1,0 +1,12 @@
+version: 7
+name: stanford-lloyd
+display_name: Stanford Lloyd
+github:
+  - url: https://github.com/ghuinfd/SeaDrop
+blockchain:
+  - address: "0x5C7123C41c1C984a7De24e3a58B844B3923d0b3b"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,19 @@
+version: 7
+name: vfat-io
+display_name: vfat.io
+websites:
+  - url: https://vfat.io/yield
+social:
+  twitter:
+    - url: https://twitter.com/vfat_io
+  farcaster:
+    - url: https://warpcast.com/~/channel/vfat-io
+github:
+  - url: https://github.com/vfat-io/sickle-public
+blockchain:
+  - address: "0xd4627eCb405B64448EE6B07dcf860BF55590c83D"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

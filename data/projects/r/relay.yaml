@@ -1,0 +1,20 @@
+version: 7
+name: relay
+display_name: Relay
+websites:
+  - url: https://www.relay.link/
+social:
+  twitter:
+    - url: https://x.com/RelayProtocol
+  farcaster:
+    - url: https://warpcast.com/~/channel/reservoir
+    - url: https://warpcast.com/relay
+github:
+  - url: https://github.com/reservoirprotocol/relay-contracts
+blockchain:
+  - address: "0xf3d63166F0Ca56C3c1A3508FcE03Ff0Cf3Fb691e"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

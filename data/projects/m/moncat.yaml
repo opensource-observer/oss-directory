@@ -1,0 +1,20 @@
+version: 7
+name: moncat
+display_name: MONCAT
+websites:
+  - url: https://moncat.pet/
+  - url: https://monc.at/
+social:
+  twitter:
+    - url: https://x.com/moncat_xyz
+  farcaster:
+    - url: https://warpcast.com/moncat
+github:
+  - url: https://github.com/5ably/catonthemoon
+blockchain:
+  - address: "0xE09154F93aD9c9885b7bd828807655C05a2803B0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

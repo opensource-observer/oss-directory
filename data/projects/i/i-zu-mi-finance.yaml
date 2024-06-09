@@ -1,0 +1,24 @@
+version: 7
+name: i-zu-mi-finance
+display_name: iZUMi Finance
+websites:
+  - url: https://izumi.finance/home
+  - url: https://docs.izumi.finance/
+  - url: https://izumi-finance.medium.com/
+social:
+  twitter:
+    - url: https://x.com/izumi_Finance
+github:
+  - url: https://github.com/izumiFinance/iZiSwap-periphery
+  - url: https://github.com/izumiFinance/iZiSwap-core
+  - url: https://github.com/izumiFinance/iZiSwap-sdk
+  - url: https://github.com/izumiFinance/iZiSwap-farm
+npm:
+  - url: https://www.npmjs.com/package/iziswap-sdk
+blockchain:
+  - address: "0xC802A5a140224ed72E7c821F637C1E5759744045"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

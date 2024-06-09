@@ -1,0 +1,17 @@
+version: 7
+name: sturdy
+display_name: Sturdy
+websites:
+  - url: https://sturdy.finance
+social:
+  twitter:
+    - url: https://twitter.com/sturdyfinance
+github:
+  - url: https://github.com/sturdyfi/v2-aggregator
+blockchain:
+  - address: "0x2532C3D363306fA6d625e4cBAD996bcf534E8154"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

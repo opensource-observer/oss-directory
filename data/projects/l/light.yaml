@@ -1,0 +1,22 @@
+version: 7
+name: light
+display_name: Light
+websites:
+  - url: https://light.so
+  - url: https://light.so/demo
+  - url: https://light.so/home
+social:
+  twitter:
+    - url: https://twitter.com/LightDotSo
+  farcaster:
+    - url: https://warpcast.com/lightdotso
+    - url: https://warpcast.com/~/channel/lightdotso
+github:
+  - url: https://github.com/LightDotSo/LightDotSo
+blockchain:
+  - address: "0x35da762a35FCb3160738EeCd60fa18438C273D5E"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

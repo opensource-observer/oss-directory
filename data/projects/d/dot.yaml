@@ -1,0 +1,19 @@
+version: 7
+name: dot
+display_name: Dot
+websites:
+  - url: https://dot.fan
+social:
+  twitter:
+    - url: https://twitter.com/dotdotfan
+  farcaster:
+    - url: https://warpcast.com/~/channel/dot
+github:
+  - url: https://github.com/freshdots/contracts
+blockchain:
+  - address: "0xF35365763A881475F4c1ba4AD8e41f6078011bDA"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

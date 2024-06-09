@@ -1,0 +1,19 @@
+version: 7
+name: streamz
+display_name: Streamz
+websites:
+  - url: https://streamzonbase.com
+social:
+  twitter:
+    - url: https://twitter.com/streamzonbase
+  farcaster:
+    - url: https://warpcast.com/streamzonbase
+github:
+  - url: https://github.com/lnrz-xyz/streamz-frontend
+blockchain:
+  - address: "0x49D4de8Fc7fD8FceEf03AA5b7b191189bFbB637b"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

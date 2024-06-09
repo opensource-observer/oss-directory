@@ -1,0 +1,21 @@
+version: 7
+name: higher-swap-nft
+display_name: higher swap nft
+websites:
+  - url: https://higherframes.vercel.app/
+social:
+  twitter:
+    - url: https://x.com/yungwknd
+  farcaster:
+    - url: https://warpcast.com/yungwknd/0xb40753b8
+    - url: https://warpcast.com/yungwknd
+github:
+  - url: https://github.com/yungwkndllc/highercontract
+  - url: https://github.com/yungwkndllc/higherframes
+blockchain:
+  - address: "0x6140F00e4Ff3936702E68744f2b5978885464cbB"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

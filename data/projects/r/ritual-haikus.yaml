@@ -1,0 +1,17 @@
+version: 7
+name: ritual-haikus
+display_name: Ritual Haikus
+websites:
+  - url: https://www.buildingcastl.es/
+social:
+  twitter:
+    - url: https://x.com/ownsacomputer
+github:
+  - url: https://github.com/ghgoodreau/ritual-haiku-contract
+blockchain:
+  - address: "0xb84869f5291D37F47eF593381eEB4C679a7D7012"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

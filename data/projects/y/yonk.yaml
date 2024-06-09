@@ -1,0 +1,19 @@
+version: 7
+name: yonk
+display_name: Yonk
+websites:
+  - url: https://joinyonk.com
+social:
+  twitter:
+    - url: https://x.com/0xsmallbrain/status/1763082651119010254
+  farcaster:
+    - url: https://warpcast.com/0xsmallbrain
+github:
+  - url: https://github.com/smallbraingames/yonk-contracts
+blockchain:
+  - address: "0x1138264D1Fe19d8175D75d07e1C85E9B2A18A28b"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

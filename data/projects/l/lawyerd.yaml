@@ -1,0 +1,20 @@
+version: 7
+name: lawyerd
+display_name: Lawyerd
+websites:
+  - url: https://lawyerd.xyz/
+  - url: https://lawyerd.net/Home/Nft
+social:
+  twitter:
+    - url: https://x.com/Lawyerd_net
+  farcaster:
+    - url: https://warpcast.com/lawyerd
+github:
+  - url: https://github.com/lawyerd999/frame
+blockchain:
+  - address: "0xea1f33630E6C54853c68D27E48e6D826Ec9001BC"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,19 @@
+version: 7
+name: cult
+display_name: Cult
+websites:
+  - url: https://cult.bz/
+social:
+  twitter:
+    - url: https://x.com/CULT8453
+  farcaster:
+    - url: https://warpcast.com/cultdao/
+github:
+  - url: https://github.com/aexomainnet/cult-main-ui
+blockchain:
+  - address: "0x05f29e1d8A5c09d723d1566CABf0a2049077A717"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

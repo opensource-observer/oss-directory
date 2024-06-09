@@ -1,0 +1,19 @@
+version: 7
+name: degenfers
+display_name: Degenfers
+websites:
+  - url: https://degenfers.art
+social:
+  twitter:
+    - url: https://x.com/degenfers
+  farcaster:
+    - url: https://warpcast.com/~/channel/degenfers
+github:
+  - url: https://github.com/markcarey/degenfers
+blockchain:
+  - address: "0xE2442C3D7E52AfDf15431159a013675e61E68960"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

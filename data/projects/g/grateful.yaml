@@ -1,0 +1,18 @@
+version: 7
+name: grateful
+display_name: Grateful
+websites:
+  - url: https://www.imgrateful.io/
+  - url: https://app.imgrateful.io/
+social:
+  twitter:
+    - url: https://x.com/imgrateful_io
+github:
+  - url: https://github.com/Grateful-protocol/grateful-contracts
+blockchain:
+  - address: "0xdead1426ed8b637Ae26fE55F4FB71e65f90374A1"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

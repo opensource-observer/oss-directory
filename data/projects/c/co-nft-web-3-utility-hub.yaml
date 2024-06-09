@@ -1,0 +1,17 @@
+version: 7
+name: co-nft-web-3-utility-hub
+display_name: coNFT — Web3 Utility Hub
+websites:
+  - url: https://conft.app
+social:
+  twitter:
+    - url: https://twitter.com/ConftApp
+github:
+  - url: https://github.com/EvgenyZamatevsky/conft-contracts
+blockchain:
+  - address: "0x4E62412a63deCfF713f31a4401f372CC8d6c83ed"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

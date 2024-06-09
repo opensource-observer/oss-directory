@@ -1,0 +1,20 @@
+version: 7
+name: peach-tycoon
+display_name: Peach Tycoon
+websites:
+  - url: https://peachtycoon.com/
+social:
+  twitter:
+    - url: https://twitter.com/PeachDropNFT
+  farcaster:
+    - url: https://warpcast.com/peachtycoon
+github:
+  - url: https://github.com/odyssy-automaton/peaches-s2-contracts
+  - url: https://github.com/odyssy-automaton/peaches-s2-dapp
+blockchain:
+  - address: "0xEB8C7E21b847a7B9CA33209e9e4EdCc5e45054b4"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

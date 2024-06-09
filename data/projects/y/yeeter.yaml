@@ -1,0 +1,17 @@
+version: 7
+name: yeeter
+display_name: Yeeter
+websites:
+  - url: https://yeet.haus/
+social:
+  farcaster:
+    - url: https://warpcast.com/~/channel/yeet
+github:
+  - url: https://github.com/yeet-haus/mvp
+blockchain:
+  - address: "0x7F95B2eBBEaE06985A9d8a1632436d178429eC98"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

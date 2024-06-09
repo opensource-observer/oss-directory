@@ -1,0 +1,18 @@
+version: 7
+name: farcaster-frames-marketsense
+display_name: Farcaster-Frames-Marketsense
+websites:
+  - url: https://fc-market-price-polls.vercel.app/
+social:
+  farcaster:
+    - url: https://warpcast.com/~/conversations/0x685ffaa3d034cfd50098092d33ba4e96d33fd05b
+github:
+  - url: https://github.com/starit/fc-prediction-frames
+  - url: https://github.com/starit/Farcaster-MarketSense-contracts
+blockchain:
+  - address: "0xC794A61abb70EAe62ac8e90De5051D36fFA82705"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

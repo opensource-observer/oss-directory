@@ -1,0 +1,16 @@
+version: 7
+name: myk-bois
+display_name: Myk Bois
+social:
+  farcaster:
+    - url: https://warpcast.com/myk/0x85803115
+    - url: https://warpcast.com/base/0x771923e4
+github:
+  - url: https://github.com/mykcryptodev/farcaster-frame
+blockchain:
+  - address: "0x9036464e4ecD2d40d21EE38a0398AEdD6805a09B"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

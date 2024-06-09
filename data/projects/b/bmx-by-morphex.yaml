@@ -1,0 +1,35 @@
+version: 7
+name: bmx-by-morphex
+display_name: BMX by Morphex
+websites:
+  - url: https://www.bmx.trade/
+  - url: https://freestyle.bmx.trade/
+  - url: https://bmx-analytics-v2.morphex.trade/
+  - url: https://freestyle-analytics.bmx.trade/
+social:
+  twitter:
+    - url: https://x.com/MorphexBMX
+  farcaster:
+    - url: https://warpcast.com/daedboi
+github:
+  - url: https://github.com/morphex-labs/morphex-contracts
+  - url: https://github.com/morphex-labs/morphex-subgraph
+blockchain:
+  - address: "0xB1dD2Fdb023cB54b7cc2a0f5D9e8d47a9F7723ce"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x89955a99552F11487FFdc054a6875DF9446B2902"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x3b91Ca4D89B5156d456CbD0D6305F7f36B1517a4"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

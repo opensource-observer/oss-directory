@@ -1,0 +1,19 @@
+version: 7
+name: preon-finance
+display_name: Preon Finance
+websites:
+  - url: https://www.preon.finance
+social:
+  twitter:
+    - url: https://x.com/PreonFinance
+  farcaster:
+    - url: https://warpcast.com/preonfinance
+github:
+  - url: https://github.com/PreonMoney/preon-contracts-public
+blockchain:
+  - address: "0x443Af6E1195bBf12876be3DA891aD5c67c0Efc56"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

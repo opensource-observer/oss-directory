@@ -1,0 +1,25 @@
+version: 7
+name: drop-x-by-station-x
+display_name: DropX (by StationX)
+websites:
+  - url: https://stationx.network
+social:
+  twitter:
+    - url: https://x.com/stationxnetwork
+  farcaster:
+    - url: https://warpcast.com/stationxnetwork
+github:
+  - url: https://github.com/StationX-Network/dropx-contracts
+blockchain:
+  - address: "0x321126f3771Bf28b2b757e664d0648A3f243c8fE"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x1A17beA23DFa5D9CF5B0d0838C826Ad88537c6fb"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

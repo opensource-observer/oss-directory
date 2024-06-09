@@ -1,0 +1,15 @@
+version: 7
+name: midas
+display_name: Midas
+social:
+  farcaster:
+    - url: https://warpcast.com/slither
+github:
+  - url: https://github.com/Geleodor/MidasNFT
+blockchain:
+  - address: "0x4d51c2E16004911Fe9bD048DFe9989d72a6d1fb9"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

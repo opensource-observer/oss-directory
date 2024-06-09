@@ -1,0 +1,26 @@
+version: 7
+name: overnight-finance
+display_name: Overnight Finance
+websites:
+  - url: https://overnight.fi/
+  - url: https://app.overnight.fi
+social:
+  twitter:
+    - url: https://x.com/overnight_fi
+github:
+  - url: https://github.com/ovnstable/ovnstable-core
+  - url: https://github.com/ovnstable/ovnstable-dex-pools
+  - url: https://github.com/ovnstable/ovnstable-landing-page
+blockchain:
+  - address: "0x5CB01385d3097b6a189d1ac8BA3364D900666445"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x66B439c0a695cc3Ed3d9f50aA4E6D2D917659FfD"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

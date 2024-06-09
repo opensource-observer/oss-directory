@@ -1,0 +1,39 @@
+version: 7
+name: qi-dao-mai-finance
+display_name: QiDao - Mai.Finance
+websites:
+  - url: https://app.mai.finance/
+social:
+  twitter:
+    - url: https://x.com/QiDaoProtocol
+  farcaster:
+    - url: https://warpcast.com/qidao
+github:
+  - url: https://github.com/publu/pegstabilitymodule
+npm:
+  - url: https://www.npmjs.com/package/@qidao/sdk
+blockchain:
+  - address: "0x985A29E88E75394DbDaE41a269409f701ccf6a43"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xe00EaA2787a8830A485153b7Bf508Bc781E4A220"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x93798Ef7e3A621d7C4EfF22eDA50B931fE57a3cF"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x37AF7d1638b36744e8bd5FC29b0149dE838FDA5E"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

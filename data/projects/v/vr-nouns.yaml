@@ -1,0 +1,17 @@
+version: 7
+name: vr-nouns
+display_name: VRNouns
+websites:
+  - url: https://vrnouns.wtf/
+social:
+  twitter:
+    - url: https://x.com/vrnouns
+github:
+  - url: https://github.com/omgbbqhaxx/VRNouns
+blockchain:
+  - address: "0x8bD9cd843CD604c4b4484312DeD00985219f6F7C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

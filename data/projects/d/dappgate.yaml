@@ -1,0 +1,19 @@
+version: 7
+name: dappgate
+display_name: Dappgate
+websites:
+  - url: https://www.dappgate.io/apps/dappgate
+  - url: https://www.dappgate.io/
+social:
+  twitter:
+    - url: https://twitter.com/DappGate
+github:
+  - url: https://github.com/dappadapp/dappgate-frontend
+  - url: https://github.com/dappadapp/dappgate-contracts
+blockchain:
+  - address: "0x3D6a34D8ECe4640adFf2f38a5bD801E51B07e49C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

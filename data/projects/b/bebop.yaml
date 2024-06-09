@@ -1,0 +1,31 @@
+version: 7
+name: bebop
+display_name: Bebop
+websites:
+  - url: https://bebop.xyz/
+social:
+  twitter:
+    - url: https://x.com/bebop_dex
+  farcaster:
+    - url: https://warpcast.com/bebopdex
+github:
+  - url: https://github.com/bebop-dex/bebop-jam-contracts
+blockchain:
+  - address: "0x1dAFf9714042F3b6b2bF91c0a102BdaB70016512"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x4dfAF5307c3CC62c69811C3C9E7152a4EC0D32Cc"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x20be22B36D155b812089782c29f95273C72Dca9d"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

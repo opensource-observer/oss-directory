@@ -2,4 +2,28 @@ version: 7
 name: swap-based
 display_name: SwapBased
 websites:
-  - url: https://swapbased.finance/#/
+  - url: https://swapbased.finance
+  - url: https://perps.swapbased.finance
+social:
+  twitter:
+    - url: https://x.com/swap_based
+  farcaster:
+    - url: https://warpcast.com/swapbased
+github:
+  - url: https://github.com/SwapBased/swapbased-main-contracts
+  - url: https://github.com/SwapBased/swapbased-v2-core-contracts
+  - url: https://github.com/SwapBased/swapbased-perps-contracts
+  - url: https://github.com/SwapBased/swapbased-v3-core-and-farming-contracts
+blockchain:
+  - address: "0xfD5844867387Cecc3A0393b3e0BE32479Ea9e61a"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x61C891907c987D46Ce273e2cAEeF6F9f460098b3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

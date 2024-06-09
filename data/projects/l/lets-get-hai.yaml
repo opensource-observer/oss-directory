@@ -1,0 +1,26 @@
+version: 7
+name: lets-get-hai
+display_name: Let's Get HAI
+websites:
+  - url: https://www.letsgethai.com/
+social:
+  twitter:
+    - url: https://x.com/letsgethai
+  farcaster:
+    - url: https://warpcast.com/letsgethai
+github:
+  - url: https://github.com/hai-on-op/app
+  - url: https://github.com/hai-on-op/sdk
+  - url: https://github.com/hai-on-op/scripts
+  - url: https://github.com/hai-on-op/core
+  - url: https://github.com/hai-on-op/subgraph
+npm:
+  - url: https://www.npmjs.com/package/@hai-on-op/sdk
+  - url: https://www.npmjs.com/package/@hai-on-op/abis
+blockchain:
+  - address: "0xbd8EC4cb226EBaE228F8829E2ec23070b09165d3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,22 @@
+version: 7
+name: payflow
+display_name: Payflow
+websites:
+  - url: https://payflow.me
+  - url: https://app.payflow.me
+social:
+  twitter:
+    - url: https://x.com/0xSinaver | https://x.com/payflowme
+  farcaster:
+    - url: https://warpcast.com/sinaver.eth
+    - url: https://warpcast.com/payflow
+    - url: https://warpcast.com/~/channel/payflow
+github:
+  - url: https://github.com/sidrisov/payflow
+blockchain:
+  - address: "0x0dEe77c83cB8b14fA95497825dF93202AbF6ad83"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

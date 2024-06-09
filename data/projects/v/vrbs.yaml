@@ -1,0 +1,21 @@
+version: 7
+name: vrbs
+display_name: Vrbs
+websites:
+  - url: https://vrbs.build
+social:
+  twitter:
+    - url: https://twitter.com/vrbsdao
+  farcaster:
+    - url: https://warpcast.com/~/channel/vrbs
+github:
+  - url: https://github.com/collectivexyz/revolution-protocol
+npm:
+  - url: https://www.npmjs.com/package/@cobuild/revolution
+blockchain:
+  - address: "0x2563C0316F85e10aCD0b66DAaA7a9B62F7Df3DA2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,22 @@
+version: 7
+name: donate-3
+display_name: Donate3
+websites:
+  - url: https://www.donate3.xyz/
+social:
+  twitter:
+    - url: https://twitter.com/donate3official
+github:
+  - url: https://github.com/lxdao-official/donate3-website-new
+  - url: https://github.com/lxdao-official/donate3-backend-new
+  - url: https://github.com/lxdao-official/donate3-contract
+  - url: https://github.com/lxdao-official/donate3-sdk
+npm:
+  - url: https://www.npmjs.com/package/donate3-sdk
+blockchain:
+  - address: "0xe395B9bA2F93236489ac953146485C435D1A267B"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

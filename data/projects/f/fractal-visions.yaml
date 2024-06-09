@@ -1,13 +1,33 @@
 version: 7
 name: fractal-visions
 display_name: Fractal Visions
+websites:
+  - url: https://www.fractalvisions.io/
+  - url: https://www.fractalvisions.xyz/
+social:
+  twitter:
+    - url: https://twitter.com/Fractal_Visions
+  farcaster:
+    - url: https://warpcast.com/fractalvisions.eth
+    - url: https://warpcast.com/~/channel/fractalvisions
+    - url: https://warpcast.com/fractalicia
+    - url: https://warpcast.com/igli
 github:
-  - url: https://github.com/Fractal-Visions
+  - url: https://github.com/FractalVisionsNFT/Database-Summary
+  - url: https://github.com/FractalVisionsNFT/FractalVisionsV2
+  - url: https://github.com/FractalVisionsNFT/FractalVisionsV3
+  - url: https://github.com/Fractal-Visions/marketplace-v3-OP
+  - url: https://github.com/Fractal-Visions/dynamic-contracts
 blockchain:
-  - address: "0xc4fc57dedd2463314a3fd2dbadb86b4404c257e5"
-    networks:
-      - any_evm
+  - address: "0xC4FC57Dedd2463314A3fD2DBadB86B4404C257e5"
     tags:
       - eoa
-      - wallet
-    name: impactoverprofit.eth
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x9CAfD5D52af08483b321bf4d20BB9a56adcFCF14"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

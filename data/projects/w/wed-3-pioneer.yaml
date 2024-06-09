@@ -1,0 +1,12 @@
+version: 7
+name: wed-3-pioneer
+display_name: Wed3 Pioneer
+github:
+  - url: https://github.com/ghuinfd/Wed3Pioneer
+blockchain:
+  - address: "0x880022fDF754450375CBBc86989dF10A5ECe1989"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

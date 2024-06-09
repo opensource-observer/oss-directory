@@ -1,0 +1,17 @@
+version: 7
+name: idle
+display_name: Idle
+websites:
+  - url: https://idle.finance/
+social:
+  twitter:
+    - url: https://x.com/idlefinance
+github:
+  - url: https://github.com/Idle-Labs/idle-tranches
+blockchain:
+  - address: "0xE5Dab8208c1F4cce15883348B72086dBace3e64B"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

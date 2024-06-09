@@ -1,0 +1,19 @@
+version: 7
+name: bodhi
+display_name: Bodhi
+websites:
+  - url: https://bodhi.wtf
+  - url: https://bodhi.wtf/space
+social:
+  twitter:
+    - url: https://x.com/bodhi_wtf
+github:
+  - url: https://github.com/levi0214/Bodhi
+  - url: https://github.com/levi0214/bodhi-subgraph
+blockchain:
+  - address: "0xD10be77aD727ce32C85809a2ae8Ff4d86EbC068D"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
