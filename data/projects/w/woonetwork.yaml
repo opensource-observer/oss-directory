@@ -10,8 +10,6 @@ social:
   farcaster:
     - url: https://warpcast.com/~/channel/woofi
 github:
-  - url: https://github.com/woonetwork/WooPoolV2
-  - url: https://github.com/woonetwork/WooStakingV2
   - url: https://github.com/woonetwork
 blockchain:
   - address: "0xe86e40cD910bd7B36EEe4eac5D8968ec23aAc427"
@@ -69,12 +67,6 @@ blockchain:
       - deployer
       - eoa
   - address: "0x97471c0fdddb5e5cc34cb08cb17961bd3a53f38f"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
-  - address: "0x43e3e4d002ba65c6a26d2e4c998b46e427370e6c"
     networks:
       - any_evm
     tags:

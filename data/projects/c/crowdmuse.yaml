@@ -10,9 +10,6 @@ social:
   farcaster:
     - url: https://warpcast.com/crowdmuse
 github:
-  - url: https://github.com/Crowdmuse/contracts
-  - url: https://github.com/chiru-labs/ERC721A
-  - url: https://github.com/OpenZeppelin/openzeppelin-contracts
   - url: https://github.com/Crowdmuse
 blockchain:
   - address: "0xb38b6c236347603e0705f912B877D6308Ec10f13"
@@ -26,7 +23,7 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
   - address: "0xCBfa3c438EBb86FF17b075a0a0b6f15a08DAFEA8"
     tags:
       - eoa
