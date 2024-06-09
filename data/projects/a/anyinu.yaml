@@ -1,0 +1,26 @@
+version: 7
+name: anyinu
+display_name: AnyInu
+github:
+  - url: https://github.com/anyinu
+blockchain:
+  - address: "0xC9eA626921d6AD1F1BD15A98E2173f9FCB47A03d"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x2598c30330D5771AE9F983979209486aE26dE875"
+    networks:
+      - base
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: InterchainToken
+websites:
+  - url: https://anyinu.xyz
+description: The most multichain dogcoin
+social:
+  twitter:
+    - url: https://x.com/anyinucoin
