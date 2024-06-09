@@ -12,7 +12,9 @@ blockchain:
       - eoa
   - address: "0x2598c30330D5771AE9F983979209486aE26dE875"
     networks:
-      - any_evm
+      - base
+      - mainnet
+      - optimism
     tags:
       - contract
     name: InterchainToken
