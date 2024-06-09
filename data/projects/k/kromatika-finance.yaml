@@ -131,7 +131,7 @@ blockchain:
       - optimism
     tags:
       - contract
-    name: TransparentUpgradeableProxy
+    name: OpLimitOrderManagerV3
   - address: "0x87ab1c824dff612686b45b43504bbea63b7b4d2e"
     networks:
       - optimism
@@ -191,10 +191,28 @@ blockchain:
       - optimism
     tags:
       - deployer
+  - address: "0x6FE9F5616Ac30E0A66B5Bc68D05F081471835bf7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MetaSwapRouter
+  - address: "0x9d0827A272b9E1C354Fc7a15d68c37153FaA35aa"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FlashWallet
+  - address: "0x8F42F726e9222DbBd8958D006aa88F1d2D8e6D91"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MetaSwapRouter
 websites:
   - url: https://kromatika.finance
-description: Kromatika.Dev contains open source software for a decentralized
-  non-custodial, permissionless DEX protocol called the Kromatika Protocol.
+  - url: https://app.kromatika.finance
+description: MetaDEX aggregator, offering Fees Earning Limit Orders, Gasless Swaps and Perpetual Trading
 social:
   twitter:
-    - url: https://twitter.com/KromatikaFi
+    - url: https://x.com/KromatikaFi
