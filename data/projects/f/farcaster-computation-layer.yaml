@@ -1,0 +1,16 @@
+version: 7
+name: farcaster-computation-layer
+display_name: DegenPad
+github:
+  - url: https://github.com/farcaster-computation-layer
+blockchain:
+  - address: "0xF3296E26dEEc66621A5D74FaDb4000968FC37Ebd"
+    networks:
+      - base
+    tags:
+      - deployer
+  - address: "0x7e1EFfFdfa0c4ff2126b1fAf3cE570fc5e56b371"
+    networks:
+      - base
+    tags:
+      - deployer
