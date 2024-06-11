@@ -1,9 +1,27 @@
 version: 7
 name: aerodrome-finance
 display_name: Aerodrome Finance
+websites:
+  - url: https://aerodrome.finance
+description: The trading and liquidity marketplace on Base network
+social:
+  twitter:
+    - url: https://twitter.com/aerodromefi
 github:
   - url: https://github.com/aerodrome-finance
 blockchain:
+  - address: "0x892ff98a46e5bd141e2d12618f4b2fe6284debac"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
+  - address: "0xe83f922C34A1962e9aE9F52B59e18239764f2818"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
   - address: "0xE4c69af018B2EA9e575026c0472B6531A2bC382F"
     networks:
       - base
@@ -288,9 +306,3 @@ blockchain:
     tags:
       - contract
     name: RelayFactoryRegistry
-websites:
-  - url: https://aerodrome.finance
-description: The trading and liquidity marketplace on Base network
-social:
-  twitter:
-    - url: https://twitter.com/aerodromefi
