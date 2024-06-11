@@ -42,6 +42,12 @@
       "items": {
         "$ref": "blockchain-address.json#"
       }
+    },
+    "comments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   },
   "required": ["version", "name", "display_name"]
