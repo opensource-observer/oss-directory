@@ -9,6 +9,7 @@ import { FileFormat, getFileExtension, getFileFormat } from "../types/files.js";
 import { safeCastCollection, safeCastProject } from "../validator/index.js";
 import { NullOrUndefinedValueError } from "../utils/error.js";
 import { readFileParse, stringify } from "../utils/files.js";
+import { orderProjectFields } from "../utils/format.js";
 
 export type MigrationArgs = CommonArgs & {
   collectionsDir: string;
@@ -74,8 +75,9 @@ async function migrateProjects(args: MigrationArgs) {
     fileFormat,
     (x) => x.project,
     (obj: any) => {
-      const p = safeCastProject(obj);
-      return stringify(p, fileFormat);
+      const unordered = safeCastProject(obj);
+      const ordered = orderProjectFields(unordered);
+      return stringify(ordered, fileFormat);
     },
   );
 }

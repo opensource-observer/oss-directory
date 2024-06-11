@@ -37,6 +37,9 @@ importers:
       lodash:
         specifier: ^4.17.21
         version: 4.17.21
+      mkdirp:
+        specifier: ^3.0.1
+        version: 3.0.1
       simple-git:
         specifier: ^3.21.0
         version: 3.21.0
@@ -3975,6 +3978,14 @@ packages:
     resolution:
       {
         integrity: sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==,
+      }
+    engines: { node: ">=10" }
+    hasBin: true
+
+  mkdirp@3.0.1:
+    resolution:
+      {
+        integrity: sha512-+NsyUUAZDmo6YVHzL/stxSu3t9YS1iljliy3BSDrXJ/dkn1KYdmtZODGGjLcc9XLgVVpH4KshHB8XmZgMhaBXg==,
       }
     engines: { node: ">=10" }
     hasBin: true
@@ -8474,6 +8485,8 @@ snapshots:
   minipass@7.0.2: {}
 
   mkdirp@1.0.4: {}
+
+  mkdirp@3.0.1: {}
 
   mnemonist@0.38.5:
     dependencies:
