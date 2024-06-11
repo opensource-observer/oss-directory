@@ -545,19 +545,6 @@ blockchain:
       - contract
       - factory
     name: AutoConverterFactory
-  - address: "0x3a63171DD9BebF4D07BC782FECC7eb0b890C2A45"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: Router
-  - address: "0x31832f2a97Fd20664D76Cc421207669b55CE4BC0"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: PoolFactory
   - address: "0x52DCddAFdD31bcD44881F6591A97dA1fF5808891"
     networks:
       - mode
@@ -571,24 +558,12 @@ blockchain:
       - contract
       - factory
     name: ModeStakingRewardsFactory
-  - address: "0x8d9c67488c154286b9d4ccac6c4cbf30589107a7"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: TokenRegistry
   - address: "0x29EC19fA20db90BeD7F813298C45A4f4cD90eE18"
     networks:
       - mode
     tags:
       - contract
     name: ModeUniversalRouter
-  - address: "0x0f3887909C548C41Eb8a6667a4B23FC6683EF8ba"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: Quoter
   - address: "0x8Eb6838B4e998DA08aab851F3d42076f21530389"
     networks:
       - optimism
