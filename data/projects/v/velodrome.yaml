@@ -6,38 +6,38 @@ github:
 blockchain:
   - address: "0x8321926c8aae281ef9d8520a772eb1d94a9ec6dd"
     networks:
-      - any_evm
+      - optimism
     tags:
       - deployer
       - eoa
     name: pegahcarter.eth
   - address: "0x07537d4360af2489fc1ca086ea9741c054d804de"
     networks:
-      - any_evm
+      - optimism
     tags:
       - deployer
       - eoa
   - address: "0x725bd51dccd08272c63efdc1a5112002da0c5540"
     networks:
-      - any_evm
+      - optimism
     tags:
       - deployer
       - eoa
   - address: "0x51cc12e6a4fccbcd6eb6f1c5905263edc5578c5f"
     networks:
-      - any_evm
+      - optimism
     tags:
       - deployer
       - eoa
   - address: "0xd42c7914cf8dc24a1075e29c283c581bd1b0d3d3"
     networks:
-      - any_evm
+      - optimism
     tags:
       - deployer
       - eoa
   - address: "0xc0de1436c4e247f8652476a0b9ff55699801e1d0"
     networks:
-      - any_evm
+      - optimism
     tags:
       - deployer
       - eoa
@@ -343,7 +343,7 @@ blockchain:
       - wallet
   - address: "0x892ff98a46e5bd141e2d12618f4b2fe6284debac"
     networks:
-      - any_evm
+      - optimism
     tags:
       - eoa
       - wallet
@@ -547,13 +547,13 @@ blockchain:
     name: AutoConverterFactory
   - address: "0x3a63171DD9BebF4D07BC782FECC7eb0b890C2A45"
     networks:
-      - any_evm
+      - optimism
     tags:
       - contract
     name: Router
   - address: "0x31832f2a97Fd20664D76Cc421207669b55CE4BC0"
     networks:
-      - any_evm
+      - optimism
     tags:
       - contract
       - factory
@@ -573,7 +573,7 @@ blockchain:
     name: ModeStakingRewardsFactory
   - address: "0x8d9c67488c154286b9d4ccac6c4cbf30589107a7"
     networks:
-      - any_evm
+      - optimism
     tags:
       - contract
     name: TokenRegistry
@@ -585,26 +585,26 @@ blockchain:
     name: ModeUniversalRouter
   - address: "0x0f3887909C548C41Eb8a6667a4B23FC6683EF8ba"
     networks:
-      - any_evm
+      - optimism
     tags:
       - contract
     name: Quoter
   - address: "0x8Eb6838B4e998DA08aab851F3d42076f21530389"
     networks:
-      - any_evm
+      - optimism
     tags:
       - contract
       - factory
     name: StakingRewardsFactory
   - address: "0x593d092bb28ccefe33bfdd3d9457e77bd3084271"
     networks:
-      - any_evm
+      - optimism
     tags:
       - contract
     name: StakingRewards
   - address: "0xc3F14F34EA43943e6fd677A2BDceA65882e67783"
     networks:
-      - any_evm
+      - optimism
     tags:
       - contract
     name: UniversalRouter
