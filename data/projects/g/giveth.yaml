@@ -3,13 +3,28 @@ name: giveth
 display_name: Giveth
 description: Building the Future of Giving
 websites:
+  - url: https://giveth.io
   - url: http://www.giveth.io
 social:
   twitter:
     - url: https://twitter.com/Giveth
+  farcaster:
+    - url: https://warpcast.com/giveth
 github:
   - url: https://github.com/Giveth
 blockchain:
+  - address: "0x826976d7C600d45FB8287CA1d7c76FC8eb732030"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x839395e20bbB182fa440d08F850E6c7A8f6F0780"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x528cdc92eab044e1e39fe43b9514bfdab4412b98"
     networks:
       - optimism

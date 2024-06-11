@@ -7,11 +7,20 @@ websites:
   - url: https://guild.xyz
 social:
   twitter:
+    - url: https://x.com/guildxyz
     - url: https://twitter.com/guildxyz
+  farcaster:
+    - url: https://warpcast.com/~/channel/guild
 github:
   - url: https://github.com/guildxyz
   - url: https://github.com/agoraxyz
 blockchain:
+  - address: "0x7CD8C45A83d97d74bbd6b94c307919DD6600Ccec"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xf7b73f96951e7ef3f9da69b4ec6431319ade7e9f"
     networks:
       - any_evm

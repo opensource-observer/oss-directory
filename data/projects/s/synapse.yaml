@@ -1,11 +1,23 @@
 version: 7
 name: synapse
 display_name: Synapse
+websites:
+  - url: https://synapseprotocol.com
+  - url: https://explorer.synapseprotocol.com
+social:
+  twitter:
+    - url: https://x.com/SynapseProtocol
 github:
   - url: https://github.com/synapsecns
 npm:
   - url: https://www.npmjs.com/package/@synapsecns/sdk-router
 blockchain:
+  - address: "0x0fea3e5840334Fc758A3DECf14546bFdfBef5cd3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x890bc5691e6011f580e264065d09a7a1a6902131"
     networks:
       - any_evm

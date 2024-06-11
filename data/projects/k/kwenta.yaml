@@ -2,14 +2,24 @@ version: 7
 name: kwenta
 display_name: Kwenta
 websites:
+  - url: https://kwenta.io/
   - url: https://kwenta.eth.limo
 social:
   twitter:
+    - url: https://twitter.com/Kwenta_io
     - url: https://twitter.com/kwenta_io
+  farcaster:
+    - url: https://warpcast.com/kwenta.eth
 github:
   - url: https://github.com/kwenta
   - url: https://github.com/synthetixio/kwenta
 blockchain:
+  - address: "0x777777125C91be606997038d50aD039dD7caa1a3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x12d970154ac171293323f20757130d5731850deb"
     networks:
       - any_evm

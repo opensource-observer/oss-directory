@@ -2,10 +2,22 @@ version: 7
 name: hai-on-op
 display_name: Let"s Get HAI
 websites:
+  - url: https://www.letsgethai.com/
   - url: https://letsgethai.com/
+social:
+  twitter:
+    - url: https://x.com/letsgethai
+  farcaster:
+    - url: https://warpcast.com/letsgethai
 github:
   - url: https://github.com/hai-on-op
 blockchain:
+  - address: "0xbd8EC4cb226EBaE228F8829E2ec23070b09165d3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x7cb4a147a54e1406aea3c8be623a26bdd554322b"
     networks:
       - optimism

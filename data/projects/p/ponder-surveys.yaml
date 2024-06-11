@@ -3,10 +3,21 @@ name: ponder-surveys
 display_name: Ponder
 description: Curating human insight
 websites:
+  - url: https://www.weponder.io
+  - url: https://ponder.social
   - url: https://weponder.io
+social:
+  farcaster:
+    - url: https://warpcast.com/survey
 github:
   - url: https://github.com/ponder-surveys
 blockchain:
+  - address: "0xCcaF182195e3423B5101AB1c7D67E403F8CaCa3a"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x81947aadf64cd22ce96999e4c76efb0765839bef"
     networks:
       - any_evm

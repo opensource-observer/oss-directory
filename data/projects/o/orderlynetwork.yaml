@@ -4,8 +4,18 @@ display_name: Orderly Network
 description: The permissionless liquidity layer for Web3 trading
 websites:
   - url: https://orderly.network
+  - url: https://@orderlynetwork
 social:
+  farcaster:
+    - url: https://warpcast.com/orderly
   twitter:
     - url: https://twitter.com/OrderlyNetwork
 github:
   - url: https://github.com/orderlynetwork
+blockchain:
+  - address: "0x295e0fC7ab0F86df5597F38c9568a2da217E6673"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -3,13 +3,40 @@ name: hedgey-finance
 display_name: Hedgey Finance
 description: Hedgey Finance core solidity repository
 websites:
+  - url: https://hedgey.finance
   - url: https://app.hedgey.finance
 social:
   twitter:
     - url: https://twitter.com/hedgeyfinance
+  farcaster:
+    - url: https://warpcast.com/~/channel/hedgey
 github:
   - url: https://github.com/hedgey-finance
 blockchain:
+  - address: "0x6dC7e77c31D47650bd4947AB551d11d7e97A3e66"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x5a4bC2bdA1f6B9929b6efdCef4728246bEc4C635"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x78A9e2Be064A2edB08A861a20bab2CFfcE91b761"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x26ADb982D061b5E667D75F9Dec1360cC671007f3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x1247f36104f71d5849d4d4f8a5a95e56b03e7fdd"
     networks:
       - any_evm

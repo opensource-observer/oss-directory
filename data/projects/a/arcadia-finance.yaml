@@ -3,13 +3,23 @@ name: arcadia-finance
 display_name: Arcadia Finance
 description: Building the foundations of an open financial system.
 websites:
+  - url: https://arcadia.finance
   - url: https://www.arcadia.finance
 social:
   twitter:
+    - url: https://x.com/ArcadiaFi
     - url: https://twitter.com/ArcadiaFi
+  farcaster:
+    - url: https://warpcast.com/~/channel/arcadia
 github:
   - url: https://github.com/arcadia-finance
 blockchain:
+  - address: "0x0f518becFC14125F23b8422849f6393D59627ddB"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xba32a3d407353fc3adaa6f7ec6264df5bca51c4b"
     networks:
       - any_evm

@@ -4,9 +4,23 @@ display_name: Niftyswap
 description: modular web3 stack and smart wallet for Ethereum chains
 websites:
   - url: https://sequence.xyz
+  - url: https://0xsequence
+  - url: https://sequence
 github:
   - url: https://github.com/0xsequence/niftyswap
 blockchain:
+  - address: "0xe8db071f698aBA1d60babaE8e08F5cBc28782108"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x8B55a6f550F333530e7a2805592F56D1B5CB9fc1"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x749d9b5c3c7c1b4e6a6baa4ced19b1abe03b823a"
     networks:
       - any_evm

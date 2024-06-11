@@ -1,11 +1,22 @@
 version: 7
 name: punk-domains
 display_name: Punk Domains & Iggy Social
+websites:
+  - url: https://modechat.xyz/
+social:
+  twitter:
+    - url: https://x.com/modechat_xyz
 github:
   - url: https://github.com/punk-domains-2
   - url: https://github.com/punk-domains
   - url: https://github.com/iggy-social
 blockchain:
+  - address: "0x6771F33Cfd8C6FC0A1766331f715f5d2E1d4E0e2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xb29050965a5ac70ab487aa47546cdcbc97dae45d"
     networks:
       - any_evm

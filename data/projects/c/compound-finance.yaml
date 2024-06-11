@@ -2,8 +2,14 @@ version: 7
 name: compound-finance
 display_name: Compound
 websites:
+  - url: https://app.compound.finance/markets/usdc-op
+  - url: https://app.compound.finance/
   - url: https://compound.finance/
+social:
+  twitter:
+    - url: https://x.com/compgovernance
 github:
+  - url: https://github.com/woof-software/comet
   - url: https://github.com/compound-finance
 blockchain:
   - address: "0x6103db328d4864dc16bd2f0ee1b9a92e3f87f915"

@@ -3,6 +3,8 @@ name: umbra-scopelift
 display_name: Umbra (by ScopeLift)
 description: High Caliber Crypto
 websites:
+  - url: https://app.umbra.cash
+  - url: https://umbracash
   - url: http://www.scopelift.co
 social:
   twitter:
@@ -11,6 +13,12 @@ github:
   - url: https://github.com/scopelift/umbra-protocol
   - url: https://github.com/scopelift/umbra-subgraph
 blockchain:
+  - address: "0xB7EE870E2c49B2DEEe70003519cF056247Aac3D4"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x5777aa6f437399af6cef2fce0be8d4b4ed7c7232"
     networks:
       - any_evm

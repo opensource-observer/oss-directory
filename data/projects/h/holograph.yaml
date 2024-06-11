@@ -4,12 +4,26 @@ display_name: Holograph
 description: Omnichain Tokenization Infrastructure
 websites:
   - url: https://www.holograph.xyz
+  - url: https://@hlgfoundation
 social:
   twitter:
+    - url: https://x.com/holographxyz
     - url: https://twitter.com/holographxyz
 github:
   - url: https://github.com/holographxyz
 blockchain:
+  - address: "0xBB566182f35B9E5Ae04dB02a5450CC156d2f89c1"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xFfCA0d6986099FbDb3b6AD9b6aa5DF5ed1d44f0C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xc0ffee78121f208475abdd2cf0853a7afed64749"
     networks:
       - any_evm

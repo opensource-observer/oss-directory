@@ -1,5 +1,20 @@
 version: 7
 name: defilens
 display_name: DefiLens
+websites:
+  - url: https://defilens.tech
+  - url: https://app.defilens.tech
+social:
+  twitter:
+    - url: https://x.com/DefiLensTech
+  farcaster:
+    - url: https://warpcast.com/degenfi
 github:
   - url: https://github.com/defilens
+blockchain:
+  - address: "0xb50685c25485CA8C520F5286Bbbf1d3F216D6989"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

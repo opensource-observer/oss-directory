@@ -6,6 +6,8 @@ websites:
 social:
   twitter:
     - url: https://twitter.com/hatsprotocol
+  farcaster:
+    - url: https://warpcast.com/hatsprotocol
 github:
   - url: https://github.com/hats-protocol
 npm:
@@ -13,6 +15,18 @@ npm:
   - url: https://www.npmjs.com/package/@hatsprotocol/modules-sdk
   - url: https://www.npmjs.com/package/@hatsprotocol/sdk-v1-core
 blockchain:
+  - address: "0x60EdE337dDe466c0839553579c81BFe1e795BFd2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x88DE599267304dAF412872D83294210C5Bee8fC0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x2a069e21395dc7f89f780f8cf5383a0ff598b672"
     networks:
       - any_evm

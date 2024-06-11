@@ -1,9 +1,24 @@
 version: 7
 name: scryprotocol
 display_name: Scry Protocol
+websites:
+  - url: https://scry.finance/
+  - url: https://scryprotocol
 github:
   - url: https://github.com/ScryProtocol
 blockchain:
+  - address: "0x14B214CA36249b516B59401B3b221CB87483b53C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xE108746C7B044813fDe35D03e767563809461cde"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x0000000000071821e8033345a7be174647be0706"
     networks:
       - optimism

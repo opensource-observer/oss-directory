@@ -3,13 +3,23 @@ name: ethglobal
 display_name: ETHGlobal
 description: Ethereum's developer community
 websites:
+  - url: https://ethglobal.com/packs
   - url: https://ethglobal.com
 social:
   twitter:
+    - url: https://x.com/ETHGlobal
     - url: https://twitter.com/ethglobal
+  farcaster:
+    - url: https://warpcast.com/ethglobal
 github:
   - url: https://github.com/ethglobal
 blockchain:
+  - address: "0x4057cf55ba6E203D2fE587164719AC861d4B901f"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x336dee4022d6cc2f95cfe9e0949b9e0eddac457d"
     networks:
       - optimism
