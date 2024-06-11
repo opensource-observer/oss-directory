@@ -1,6 +1,12 @@
 version: 7
 name: me3-eth
 display_name: me3
+description: Build identity on web3.
+websites:
+  - url: https://me3.is
+social:
+  twitter:
+    - url: https://twitter.com/me3doteth
 github:
   - url: https://github.com/me3-eth
 blockchain:
@@ -11,9 +17,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://me3.is
-description: Build identity on web3.
-social:
-  twitter:
-    - url: https://twitter.com/me3doteth

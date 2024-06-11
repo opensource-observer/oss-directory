@@ -1,6 +1,8 @@
 version: 7
 name: relinkd
 display_name: "{r}elinkd"
+websites:
+  - url: https://relinkd.xyz
 github:
   - url: https://github.com/relinkd
 blockchain:
@@ -11,5 +13,3 @@ blockchain:
       - eoa
       - wallet
     name: relinkd.eth
-websites:
-  - url: https://relinkd.xyz

@@ -1,6 +1,12 @@
 version: 7
 name: flashstake
 display_name: Flashstake
+description: We launch experimental tokens into the decentralized world.
+websites:
+  - url: https://blockzerolabs.io
+social:
+  twitter:
+    - url: https://twitter.com/blockzerolabs
 github:
   - url: https://github.com/BlockzeroLabs/flashv3-contracts
 blockchain:
@@ -118,9 +124,3 @@ blockchain:
     tags:
       - contract
     name: LiquidStake
-websites:
-  - url: https://blockzerolabs.io
-description: We launch experimental tokens into the decentralized world.
-social:
-  twitter:
-    - url: https://twitter.com/blockzerolabs

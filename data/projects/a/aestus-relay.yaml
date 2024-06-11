@@ -1,6 +1,8 @@
 version: 7
 name: aestus-relay
 display_name: Aestus Relay
+websites:
+  - url: https://goerli.aestus.live
 github:
   - url: https://github.com/aestus-relay
 blockchain:
@@ -10,5 +12,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://goerli.aestus.live

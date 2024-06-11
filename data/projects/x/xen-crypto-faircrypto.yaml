@@ -1,6 +1,11 @@
 version: 7
 name: xen-crypto-faircrypto
 display_name: Xen Crypto
+websites:
+  - url: https://faircrypto.org
+social:
+  twitter:
+    - url: https://twitter.com/mrjacklevin
 github:
   - url: https://github.com/FairCrypto/XEN-crypto
 blockchain:
@@ -92,8 +97,3 @@ blockchain:
     tags:
       - contract
     name: various:DiffersByChain
-websites:
-  - url: https://faircrypto.org
-social:
-  twitter:
-    - url: https://twitter.com/mrjacklevin

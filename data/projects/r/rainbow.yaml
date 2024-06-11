@@ -1,6 +1,12 @@
 version: 7
 name: rainbow
 display_name: Rainbow
+description: Explore the new world of Ethereum!
+websites:
+  - url: https://rainbow.me
+social:
+  twitter:
+    - url: https://twitter.com/rainbowdotme
 github:
   - url: https://github.com/rainbow-me
 npm:
@@ -71,9 +77,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://rainbow.me
-description: Explore the new world of Ethereum!
-social:
-  twitter:
-    - url: https://twitter.com/rainbowdotme

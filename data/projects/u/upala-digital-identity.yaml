@@ -1,6 +1,12 @@
 version: 7
 name: upala-digital-identity
 display_name: Upala
+description: An anti-Sybil system for DApps and the decentralized identity of the future
+websites:
+  - url: https://upala-docs.readthedocs.io/en/latest/
+social:
+  twitter:
+    - url: https://twitter.com/TheUpala
 github:
   - url: https://github.com/upala-digital-identity
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://upala-docs.readthedocs.io/en/latest/
-description: An anti-Sybil system for DApps and the decentralized identity of the future
-social:
-  twitter:
-    - url: https://twitter.com/TheUpala

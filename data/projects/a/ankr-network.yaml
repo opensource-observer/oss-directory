@@ -1,6 +1,9 @@
 version: 7
 name: ankr-network
 display_name: Ankr
+description: Web3 Infrastructure
+websites:
+  - url: https://ankr.com/
 github:
   - url: https://github.com/Ankr-network
 blockchain:
@@ -16,6 +19,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://ankr.com/
-description: Web3 Infrastructure

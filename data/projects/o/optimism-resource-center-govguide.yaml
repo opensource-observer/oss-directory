@@ -1,6 +1,9 @@
 version: 7
 name: optimism-resource-center-govguide
 display_name: Optimism Resource Center
+description: Building the Optimism Resource Center
+websites:
+  - url: https://optimism.help
 github:
   - url: https://github.com/govguide/optimism-resource-center
 blockchain:
@@ -10,6 +13,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://optimism.help
-description: Building the Optimism Resource Center

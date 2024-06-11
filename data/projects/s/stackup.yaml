@@ -1,6 +1,12 @@
 version: 7
 name: stackup
 display_name: Stackup
+description: Accounts infrastructure for web3.
+websites:
+  - url: https://stackup.sh/
+social:
+  twitter:
+    - url: https://twitter.com/stackup_fi
 github:
   - url: https://github.com/stackup-wallet
 blockchain:
@@ -36,9 +42,3 @@ blockchain:
     tags:
       - contract
     name: VerifyingPaymaster
-websites:
-  - url: https://stackup.sh/
-description: Accounts infrastructure for web3.
-social:
-  twitter:
-    - url: https://twitter.com/stackup_fi

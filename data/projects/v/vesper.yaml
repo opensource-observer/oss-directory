@@ -1,6 +1,11 @@
 version: 7
 name: vesper
 display_name: Vesper
+websites:
+  - url: https://vesper.finance/
+social:
+  twitter:
+    - url: https://twitter.com/vesperfi
 github:
   - url: https://github.com/vesperfi
 blockchain:
@@ -377,8 +382,3 @@ blockchain:
     tags:
       - contract
     name: TransparentUpgradeableProxy
-websites:
-  - url: https://vesper.finance/
-social:
-  twitter:
-    - url: https://twitter.com/vesperfi

@@ -1,6 +1,12 @@
 version: 7
 name: bunniapp
 display_name: Bunniapp by Timeless Finance
+description: Timeless is a yield market protocol that lets you boost, hedge, and trade yield
+websites:
+  - url: https://timelessfi.com
+social:
+  twitter:
+    - url: https://twitter.com/Timeless_Fi
 github:
   - url: https://github.com/bunniapp
   - url: https://github.com/timeless-fi
@@ -43,9 +49,3 @@ blockchain:
     tags:
       - contract
     name: UniswapV3Swapper
-websites:
-  - url: https://timelessfi.com
-description: Timeless is a yield market protocol that lets you boost, hedge, and trade yield
-social:
-  twitter:
-    - url: https://twitter.com/Timeless_Fi

@@ -1,6 +1,9 @@
 version: 7
 name: slither-crytic
 display_name: Slither
+description: Blockchain Security, by @trailofbits
+websites:
+  - url: https://www.trailofbits.com/
 github:
   - url: https://github.com/crytic/slither
 blockchain:
@@ -10,6 +13,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://www.trailofbits.com/
-description: Blockchain Security, by @trailofbits

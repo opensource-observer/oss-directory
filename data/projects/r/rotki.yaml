@@ -1,6 +1,9 @@
 version: 7
 name: rotki
 display_name: rotki
+description: An opensource asset management, tracking and analytics application
+websites:
+  - url: https://rotki.com
 github:
   - url: https://github.com/rotki
 blockchain:
@@ -11,6 +14,3 @@ blockchain:
       - eoa
       - wallet
     name: rotki.eth
-websites:
-  - url: https://rotki.com
-description: An opensource asset management, tracking and analytics application

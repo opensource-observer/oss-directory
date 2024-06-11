@@ -1,6 +1,12 @@
 version: 7
 name: tor-project
 display_name: The Tor Project
+description: Anonymity Online | Circumvent Censorship
+websites:
+  - url: https://gitlab.torproject.org/tpo
+social:
+  twitter:
+    - url: https://twitter.com/torproject
 github:
   - url: https://github.com/torproject
 blockchain:
@@ -16,9 +22,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://gitlab.torproject.org/tpo
-description: Anonymity Online | Circumvent Censorship
-social:
-  twitter:
-    - url: https://twitter.com/torproject

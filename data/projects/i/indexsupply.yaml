@@ -1,6 +1,12 @@
 version: 7
 name: indexsupply
 display_name: Index Supply
+description: Software for indexing Ethereum
+websites:
+  - url: https://indexsupply.com
+social:
+  twitter:
+    - url: https://twitter.com/indexsupply
 github:
   - url: https://github.com/indexsupply
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://indexsupply.com
-description: Software for indexing Ethereum
-social:
-  twitter:
-    - url: https://twitter.com/indexsupply

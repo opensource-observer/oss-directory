@@ -1,6 +1,14 @@
 version: 7
 name: poolfish-xyz
 display_name: Poolfish
+description: Building Poolfish - a website for Liquidity Providers that helps
+  them calculate fees and find opportunities. Built and sold Potion solo for
+  $300k.
+websites:
+  - url: https://www.noahbragg.com
+social:
+  twitter:
+    - url: https://twitter.com/noahwbragg
 github:
   - url: https://github.com/normdoow/uniswap.fish
 blockchain:
@@ -11,11 +19,3 @@ blockchain:
       - eoa
       - wallet
     name: thechun.eth
-websites:
-  - url: https://www.noahbragg.com
-description: Building Poolfish - a website for Liquidity Providers that helps
-  them calculate fees and find opportunities. Built and sold Potion solo for
-  $300k.
-social:
-  twitter:
-    - url: https://twitter.com/noahwbragg

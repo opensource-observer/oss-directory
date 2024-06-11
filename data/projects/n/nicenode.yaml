@@ -1,6 +1,9 @@
 version: 7
 name: nicenode
 display_name: NiceNode
+description: Run a node at home, the easy way
+websites:
+  - url: https://nicenode.xyz
 github:
   - url: https://github.com/NiceNode
 blockchain:
@@ -11,6 +14,3 @@ blockchain:
       - eoa
       - wallet
     name: nicenode.eth
-websites:
-  - url: https://nicenode.xyz
-description: Run a node at home, the easy way

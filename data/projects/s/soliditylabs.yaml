@@ -1,6 +1,12 @@
 version: 7
 name: soliditylabs
 display_name: soliditylabs
+description: Solidity Dev Studio
+websites:
+  - url: https://soliditydeveloper.com/
+social:
+  twitter:
+    - url: https://twitter.com/gorgos
 github:
   - url: https://github.com/soliditylabs
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://soliditydeveloper.com/
-description: Solidity Dev Studio
-social:
-  twitter:
-    - url: https://twitter.com/gorgos

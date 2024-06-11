@@ -1,6 +1,10 @@
 version: 7
 name: eywa-protocol
 display_name: EYWA Protocol
+description: EYWA is a genuinely decentralized medium for transferring data
+  between blockchains and creating aggregated cross-chain assets.
+websites:
+  - url: https://eywa.fi
 github:
   - url: https://github.com/eywa-protocol
 blockchain:
@@ -46,7 +50,3 @@ blockchain:
     tags:
       - contract
     name: UnifiedRouterV2
-websites:
-  - url: https://eywa.fi
-description: EYWA is a genuinely decentralized medium for transferring data
-  between blockchains and creating aggregated cross-chain assets.

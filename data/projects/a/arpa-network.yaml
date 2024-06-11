@@ -1,6 +1,12 @@
 version: 7
 name: arpa-network
 display_name: ARPA Randcast
+description: A Privacy-Preserving Computation Network
+websites:
+  - url: https://arpachain.io/
+social:
+  twitter:
+    - url: https://twitter.com/arpaofficial
 github:
   - url: https://github.com/arpa-network/bls-tss-network
   - url: https://github.com/arpa-network/randcast-user-contract
@@ -11,9 +17,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://arpachain.io/
-description: A Privacy-Preserving Computation Network
-social:
-  twitter:
-    - url: https://twitter.com/arpaofficial

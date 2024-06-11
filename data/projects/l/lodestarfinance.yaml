@@ -1,6 +1,12 @@
 version: 7
 name: lodestarfinance
 display_name: Lodestar Finance
+description: An algorithmic lending and borrowing protocol built on Arbitrum One.
+websites:
+  - url: https://lodestarfinance.io
+social:
+  twitter:
+    - url: https://twitter.com/LodestarFinance
 github:
   - url: https://github.com/lodestarfinance
 blockchain:
@@ -317,9 +323,3 @@ blockchain:
     tags:
       - contract
     name: lwstETH
-websites:
-  - url: https://lodestarfinance.io
-description: An algorithmic lending and borrowing protocol built on Arbitrum One.
-social:
-  twitter:
-    - url: https://twitter.com/LodestarFinance

@@ -1,6 +1,13 @@
 version: 7
 name: wallidprotocol
 display_name: walliDprotocol
+description: The aggregator of verifiable data sources. WalliD product suite
+  makes onboarding and data verification easy and safe for users and developers
+websites:
+  - url: https://wallid.io
+social:
+  twitter:
+    - url: https://twitter.com/WalliDonchain
 github:
   - url: https://github.com/wallidprotocol
 blockchain:
@@ -10,10 +17,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://wallid.io
-description: The aggregator of verifiable data sources. WalliD product suite
-  makes onboarding and data verification easy and safe for users and developers
-social:
-  twitter:
-    - url: https://twitter.com/WalliDonchain

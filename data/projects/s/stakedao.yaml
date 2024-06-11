@@ -1,6 +1,9 @@
 version: 7
 name: stakedao
 display_name: Stake DAO
+description: https://stakedao.org/
+websites:
+  - url: https://stakedao.org/
 github:
   - url: https://github.com/stakedao
 blockchain:
@@ -42,6 +45,3 @@ blockchain:
     tags:
       - deployer
       - eoa
-websites:
-  - url: https://stakedao.org/
-description: https://stakedao.org/

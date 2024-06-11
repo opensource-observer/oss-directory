@@ -1,6 +1,10 @@
 version: 7
 name: amphitheatre-app
 display_name: amphitheatre-app
+description: Instantly spin up fresh, automated dev environments in the cloud
+  and start developing within seconds.
+websites:
+  - url: https://amphitheatre.app
 github:
   - url: https://github.com/amphitheatre-app
 blockchain:
@@ -10,7 +14,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://amphitheatre.app
-description: Instantly spin up fresh, automated dev environments in the cloud
-  and start developing within seconds.

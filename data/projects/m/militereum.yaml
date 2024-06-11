@@ -1,6 +1,9 @@
 version: 7
 name: militereum
 display_name: Militereum
+description: Militereum is a web3 firewall
+websites:
+  - url: https://militereum.com
 github:
   - url: https://github.com/Militereum
 blockchain:
@@ -11,6 +14,3 @@ blockchain:
       - eoa
       - wallet
     name: militereum.eth
-websites:
-  - url: https://militereum.com
-description: Militereum is a web3 firewall

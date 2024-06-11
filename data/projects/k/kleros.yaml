@@ -2,10 +2,22 @@ version: 7
 name: kleros
 display_name: Kleros
 description: A decentralized arbitration protocol for disputes in the onchain economy.
-github:
-  - url: https://github.com/kleros
 websites:
   - url: https://kleros.io
+github:
+  - url: https://github.com/kleros
+npm:
+  - url: https://www.npmjs.com/package/@kleros/scout-snap
+  - url: https://www.npmjs.com/package/@kleros/ui-components-library
+  - url: https://www.npmjs.com/package/@kleros/kleros-sdk
+  - url: https://www.npmjs.com/package/@kleros/kleros-v2-contracts
+  - url: https://www.npmjs.com/package/@kleros/vea-sdk
+  - url: https://www.npmjs.com/package/@kleros/multicall-relayer
+  - url: https://www.npmjs.com/package/@kleros/address-tags-sdk
+  - url: https://www.npmjs.com/package/@kleros/gtcr-encoder
+  - url: https://www.npmjs.com/package/@kleros/gtcr-sdk
+  - url: https://www.npmjs.com/package/@kleros/archon
+  - url: https://www.npmjs.com/package/@kleros/erc-792
 blockchain:
   - address: "0x988b3A538b618C7A603e1c11Ab82Cd16dbE28069"
     networks:
@@ -43,15 +55,3 @@ blockchain:
     tags:
       - contract
     name: Pinakion Token on Arbitrum (PNK)
-npm:
-  - url: https://www.npmjs.com/package/@kleros/scout-snap
-  - url: https://www.npmjs.com/package/@kleros/ui-components-library
-  - url: https://www.npmjs.com/package/@kleros/kleros-sdk
-  - url: https://www.npmjs.com/package/@kleros/kleros-v2-contracts
-  - url: https://www.npmjs.com/package/@kleros/vea-sdk
-  - url: https://www.npmjs.com/package/@kleros/multicall-relayer
-  - url: https://www.npmjs.com/package/@kleros/address-tags-sdk
-  - url: https://www.npmjs.com/package/@kleros/gtcr-encoder
-  - url: https://www.npmjs.com/package/@kleros/gtcr-sdk
-  - url: https://www.npmjs.com/package/@kleros/archon
-  - url: https://www.npmjs.com/package/@kleros/erc-792

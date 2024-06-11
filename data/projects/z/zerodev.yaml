@@ -1,6 +1,13 @@
 version: 7
 name: zerodev
 display_name: ZeroDev
+description: ZeroDev is Instant Smart Wallets for your customers, powered by
+  Account Abstraction (ERC-4337)
+websites:
+  - url: https://zerodev.app
+social:
+  twitter:
+    - url: https://twitter.com/zerodev_app
 github:
   - url: https://github.com/zerodevapp
 blockchain:
@@ -10,9 +17,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://zerodev.app
-description: ZeroDev is Instant Smart Wallets for your customers, powered by Account Abstraction (ERC-4337)
-social:
-  twitter:
-    - url: https://twitter.com/zerodev_app

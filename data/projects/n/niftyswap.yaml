@@ -1,6 +1,9 @@
 version: 7
 name: niftyswap
 display_name: Niftyswap
+description: modular web3 stack and smart wallet for Ethereum chains
+websites:
+  - url: https://sequence.xyz
 github:
   - url: https://github.com/0xsequence/niftyswap
 blockchain:
@@ -59,6 +62,3 @@ blockchain:
       - contract
       - factory
     name: unverified
-websites:
-  - url: https://sequence.xyz
-description: modular web3 stack and smart wallet for Ethereum chains

@@ -1,6 +1,11 @@
 version: 7
 name: ephemery-testnet
 display_name: Ephemery Testnet
+websites:
+  - url: https://ephemery.dev
+social:
+  twitter:
+    - url: https://twitter.com/ephemerytestnet
 github:
   - url: https://github.com/ephemery-testnet
 blockchain:
@@ -10,8 +15,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://ephemery.dev
-social:
-  twitter:
-    - url: https://twitter.com/ephemerytestnet

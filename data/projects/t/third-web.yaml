@@ -1,6 +1,11 @@
 version: 7
 name: third-web
 display_name: ThirdWeb
+websites:
+  - url: https://thirdweb.com
+social:
+  twitter:
+    - url: https://twitter.com/thirdweb
 github:
   - url: https://github.com/thirdweb-dev
 npm:
@@ -720,8 +725,3 @@ blockchain:
     tags:
       - contract
     name: DropERC1155
-websites:
-  - url: https://thirdweb.com
-social:
-  twitter:
-    - url: https://twitter.com/thirdweb

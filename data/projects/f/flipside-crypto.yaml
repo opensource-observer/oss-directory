@@ -1,6 +1,8 @@
 version: 7
 name: flipside-crypto
 display_name: Flipside Crypto
+websites:
+  - url: https://flipsidecrypto.com
 github:
   - url: https://github.com/FlipsideCrypto
 blockchain:
@@ -24,5 +26,3 @@ blockchain:
       - eoa
       - wallet
     name: flipsidecrypto1.eth
-websites:
-  - url: https://flipsidecrypto.com

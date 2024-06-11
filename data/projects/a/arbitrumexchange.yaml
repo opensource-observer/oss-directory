@@ -1,6 +1,9 @@
 version: 7
 name: arbitrumexchange
 display_name: ArbiDex
+description: The People's DEX. Embrace the Ape.
+websites:
+  - url: https://arbidex.fi
 github:
   - url: https://github.com/arbitrumexchange
 blockchain:
@@ -107,6 +110,3 @@ blockchain:
     tags:
       - contract
     name: BeefyVaultV6_WETH
-websites:
-  - url: https://arbidex.fi
-description: The People's DEX. Embrace the Ape.

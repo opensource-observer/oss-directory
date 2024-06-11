@@ -1,6 +1,14 @@
 version: 7
 name: kromatika-finance
 display_name: Kromatika
+description: MetaDEX aggregator, offering Fees Earning Limit Orders, Gasless
+  Swaps and Perpetual Trading
+websites:
+  - url: https://kromatika.finance
+  - url: https://app.kromatika.finance
+social:
+  twitter:
+    - url: https://x.com/KromatikaFi
 github:
   - url: https://github.com/Kromatika-Finance
 blockchain:
@@ -209,10 +217,3 @@ blockchain:
     tags:
       - contract
     name: MetaSwapRouter
-websites:
-  - url: https://kromatika.finance
-  - url: https://app.kromatika.finance
-description: MetaDEX aggregator, offering Fees Earning Limit Orders, Gasless Swaps and Perpetual Trading
-social:
-  twitter:
-    - url: https://x.com/KromatikaFi

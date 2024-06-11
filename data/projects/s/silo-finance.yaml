@@ -1,6 +1,12 @@
 version: 7
 name: silo-finance
 display_name: Silo Finance
+description: Isolated money markets protocol
+websites:
+  - url: https://www.silo.finance/
+social:
+  twitter:
+    - url: https://twitter.com/SiloFinance
 github:
   - url: https://github.com/silo-finance
 blockchain:
@@ -109,9 +115,3 @@ blockchain:
     tags:
       - contract
     name: Silo
-websites:
-  - url: https://www.silo.finance/
-description: Isolated money markets protocol
-social:
-  twitter:
-    - url: https://twitter.com/SiloFinance

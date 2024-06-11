@@ -1,6 +1,12 @@
 version: 7
 name: velodrome
 display_name: Velodrome
+description: The trading and liquidity marketplace on Superchain
+websites:
+  - url: https://velodrome.finance
+social:
+  twitter:
+    - url: https://twitter.com/VelodromeFi
 github:
   - url: https://github.com/velodrome-finance
 blockchain:
@@ -583,9 +589,3 @@ blockchain:
     tags:
       - contract
     name: UniversalRouter
-websites:
-  - url: https://velodrome.finance
-description: The trading and liquidity marketplace on Superchain
-social:
-  twitter:
-    - url: https://twitter.com/VelodromeFi

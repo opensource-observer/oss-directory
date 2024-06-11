@@ -1,6 +1,14 @@
 version: 7
 name: bitkeep
 display_name: Bitkeep
+description: Bitget Wallet is a leading multi-chain decentralized wallet that is
+  committed to providing a wide range of asset management and DeFi services for
+  its users.
+websites:
+  - url: https://web3.bitget.com/en
+social:
+  twitter:
+    - url: https://twitter.com/BitgetWallet
 github:
   - url: https://github.com/bitkeepwallet
 blockchain:
@@ -44,11 +52,3 @@ blockchain:
     tags:
       - contract
     name: BKRegistry
-websites:
-  - url: https://web3.bitget.com/en
-description: Bitget Wallet is a leading multi-chain decentralized wallet that is
-  committed to providing a wide range of asset management and DeFi services for
-  its users.
-social:
-  twitter:
-    - url: https://twitter.com/BitgetWallet

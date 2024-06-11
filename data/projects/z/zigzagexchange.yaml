@@ -1,6 +1,12 @@
 version: 7
 name: zigzagexchange
 display_name: ZigZag Exchange
+description: ZK Rollup order book DEX
+websites:
+  - url: https://zigzag.exchange
+social:
+  twitter:
+    - url: https://twitter.com/ZigZagExchange
 github:
   - url: https://github.com/zigzagexchange
 blockchain:
@@ -40,9 +46,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://zigzag.exchange
-description: ZK Rollup order book DEX
-social:
-  twitter:
-    - url: https://twitter.com/ZigZagExchange

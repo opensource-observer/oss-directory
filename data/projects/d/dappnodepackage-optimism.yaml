@@ -1,6 +1,11 @@
 version: 7
 name: dappnodepackage-optimism
 display_name: Optimism DAppNode Package
+websites:
+  - url: https://danielesalatti.com
+social:
+  twitter:
+    - url: https://twitter.com/DanieleSalatti
 github:
   - url: https://github.com/DanieleSalatti/DAppNodePackage-optimism
 blockchain:
@@ -11,8 +16,3 @@ blockchain:
       - eoa
       - wallet
     name: salatti.eth
-websites:
-  - url: https://danielesalatti.com
-social:
-  twitter:
-    - url: https://twitter.com/DanieleSalatti

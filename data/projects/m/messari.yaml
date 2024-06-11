@@ -1,6 +1,12 @@
 version: 7
 name: messari
 display_name: Messari Protocol Services
+description: An open data library for the cryptoasset class.
+websites:
+  - url: https://messari.io
+social:
+  twitter:
+    - url: https://twitter.com/MessariCrypto
 github:
   - url: https://github.com/messari
 blockchain:
@@ -16,9 +22,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://messari.io
-description: An open data library for the cryptoasset class.
-social:
-  twitter:
-    - url: https://twitter.com/MessariCrypto

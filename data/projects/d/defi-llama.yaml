@@ -1,6 +1,11 @@
 version: 7
 name: defi-llama
 display_name: DefiLlama
+websites:
+  - url: https://defillama.com
+social:
+  twitter:
+    - url: https://twitter.com/defillama
 github:
   - url: https://github.com/DefiLlama
   - url: https://github.com/LlamaPay
@@ -139,8 +144,3 @@ blockchain:
       - eoa
       - wallet
     name: Chainlist Wallet
-websites:
-  - url: https://defillama.com
-social:
-  twitter:
-    - url: https://twitter.com/defillama

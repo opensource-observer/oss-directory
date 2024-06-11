@@ -1,6 +1,12 @@
 version: 7
 name: wakeuplabs
 display_name: WakeUp Labs
+description: Web3 infrastructure
+websites:
+  - url: https://www.wakeuplabs.io
+social:
+  twitter:
+    - url: https://twitter.com/wakeuplabs
 github:
   - url: https://github.com/wakeuplabs
 blockchain:
@@ -16,9 +22,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://www.wakeuplabs.io
-description: Web3 infrastructure
-social:
-  twitter:
-    - url: https://twitter.com/wakeuplabs

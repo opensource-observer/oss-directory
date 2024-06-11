@@ -1,6 +1,8 @@
 version: 7
 name: layer-zero
 display_name: LayerZero
+websites:
+  - url: https://layerzero.network
 github:
   - url: https://github.com/layerzero-labs
 blockchain:
@@ -556,5 +558,3 @@ blockchain:
     tags:
       - contract
     name: AptosTokenBridge
-websites:
-  - url: https://layerzero.network

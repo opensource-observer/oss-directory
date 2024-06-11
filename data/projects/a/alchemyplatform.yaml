@@ -1,6 +1,12 @@
 version: 7
 name: alchemyplatform
 display_name: Alchemy
+description: The Web3 Developer Platform
+websites:
+  - url: https://www.alchemy.com
+social:
+  twitter:
+    - url: https://twitter.com/AlchemyPlatform
 github:
   - url: https://github.com/alchemyplatform/aa-sdk
   - url: https://github.com/alchemyplatform/rundler
@@ -20,9 +26,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://www.alchemy.com
-description: The Web3 Developer Platform
-social:
-  twitter:
-    - url: https://twitter.com/AlchemyPlatform

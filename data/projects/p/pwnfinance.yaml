@@ -1,6 +1,12 @@
 version: 7
 name: pwnfinance
 display_name: PWN
+description: PWN is a p2p lending platform for *any* token on Ethereum
+websites:
+  - url: https://pwn.xyz
+social:
+  twitter:
+    - url: https://twitter.com/PWNdao
 github:
   - url: https://github.com/pwnfinance
 blockchain:
@@ -30,9 +36,3 @@ blockchain:
       - eoa
       - wallet
     name: victornotaro.eth
-websites:
-  - url: https://pwn.xyz
-description: PWN is a p2p lending platform for *any* token on Ethereum
-social:
-  twitter:
-    - url: https://twitter.com/PWNdao

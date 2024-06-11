@@ -1,6 +1,11 @@
 version: 7
 name: givepraise
 display_name: Praise
+websites:
+  - url: https://givepraise.xyz
+social:
+  twitter:
+    - url: https://twitter.com/givepraise
 github:
   - url: https://github.com/givepraise
 blockchain:
@@ -11,8 +16,3 @@ blockchain:
       - eoa
       - wallet
     name: givepraise.eth
-websites:
-  - url: https://givepraise.xyz
-social:
-  twitter:
-    - url: https://twitter.com/givepraise

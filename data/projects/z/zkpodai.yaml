@@ -1,6 +1,12 @@
 version: 7
 name: zkpodai
 display_name: zkpod.ai
+description: Your friendly ZK bot containing the entirety of the ZKPodcast knowledge.
+websites:
+  - url: https://zkpod.ai
+social:
+  twitter:
+    - url: https://twitter.com/zkpodai
 github:
   - url: https://github.com/zkpodai
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://zkpod.ai
-description: Your friendly ZK bot containing the entirety of the ZKPodcast knowledge.
-social:
-  twitter:
-    - url: https://twitter.com/zkpodai

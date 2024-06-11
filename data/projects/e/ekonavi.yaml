@@ -1,6 +1,12 @@
 version: 7
 name: ekonavi
 display_name: Ekonavi
+description: Open platform for distributed, real-time, market relayer network.
+websites:
+  - url: https://ekonavi.com
+social:
+  twitter:
+    - url: https://twitter.com/ekonavi_com
 github:
   - url: https://github.com/Ekonavi
 blockchain:
@@ -11,9 +17,3 @@ blockchain:
       - eoa
       - wallet
     name: ekonavi.eth
-websites:
-  - url: https://ekonavi.com
-description: Open platform for distributed, real-time, market relayer network.
-social:
-  twitter:
-    - url: https://twitter.com/ekonavi_com

@@ -1,6 +1,9 @@
 version: 7
 name: blst-supranational
 display_name: blst by Supranational
+description: hardware accelerated cryptography
+websites:
+  - url: https://supranational.net
 github:
   - url: https://github.com/supranational/blst
 blockchain:
@@ -16,6 +19,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://supranational.net
-description: hardware accelerated cryptography
