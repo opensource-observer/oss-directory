@@ -1,6 +1,14 @@
 version: 7
 name: impactscribe
 display_name: ImpactScribe
+description: Protocol for minting Impact Certificates with Token Bound Accounts
+  which are used to store Claim of Impact and Proof of Impact NFTs using several
+  composable im
+websites:
+  - url: https://ecodapp.vercel.app/explore
+social:
+  twitter:
+    - url: https://twitter.com/spark_eco
 github:
   - url: https://github.com/impactscribe
 blockchain:
@@ -10,11 +18,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://ecodapp.vercel.app/explore
-description: Protocol for minting Impact Certificates with Token Bound Accounts
-  which are used to store Claim of Impact and Proof of Impact NFTs using several
-  composable im
-social:
-  twitter:
-    - url: https://twitter.com/spark_eco

@@ -1,6 +1,13 @@
 version: 7
 name: proof-of-humanity
 display_name: Proof of Humanity
+description: Sybil-resistant registry of Humans using social verification +
+  @Kleros_io courts.
+websites:
+  - url: https://proofofhumanity.id
+social:
+  twitter:
+    - url: https://twitter.com/proofofhumanity
 github:
   - url: https://github.com/Proof-Of-Humanity
 blockchain:
@@ -17,10 +24,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://proofofhumanity.id
-description: Sybil-resistant registry of Humans using social verification +
-  @Kleros_io courts.
-social:
-  twitter:
-    - url: https://twitter.com/proofofhumanity

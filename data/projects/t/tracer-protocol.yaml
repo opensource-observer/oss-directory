@@ -1,6 +1,11 @@
 version: 7
 name: tracer-protocol
 display_name: Tracer
+websites:
+  - url: https://tracer.finance
+social:
+  twitter:
+    - url: https://twitter.com/TracerDAO
 github:
   - url: https://github.com/tracer-protocol
 blockchain:
@@ -76,8 +81,3 @@ blockchain:
     tags:
       - contract
     name: 3ETHUSD_USDC_SMAOracle
-websites:
-  - url: https://tracer.finance
-social:
-  twitter:
-    - url: https://twitter.com/TracerDAO

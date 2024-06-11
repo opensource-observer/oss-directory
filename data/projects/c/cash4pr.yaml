@@ -1,6 +1,11 @@
 version: 7
 name: cash4pr
 display_name: Cash4PR
+description: we aim to create an open-source contribution reward system that
+  fairly and transparently rewards developers for their code contributions.
+social:
+  twitter:
+    - url: https://twitter.com/CashforPR
 github:
   - url: https://github.com/cash4pr
 blockchain:
@@ -11,8 +16,3 @@ blockchain:
       - eoa
       - wallet
     name: fushang318.eth
-description: we aim to create an open-source contribution reward system that
-  fairly and transparently rewards developers for their code contributions.
-social:
-  twitter:
-    - url: https://twitter.com/CashforPR

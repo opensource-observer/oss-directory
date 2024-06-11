@@ -1,6 +1,9 @@
 version: 7
 name: synthetix-node-synthetixio
 display_name: Synthetix IPFS Node
+description: Crypto backed synthetic asset platform
+websites:
+  - url: https://synthetix.io
 github:
   - url: https://github.com/Synthetixio/synthetix-node
   - url: https://github.com/Synthetixio/ipfs-follower
@@ -14,6 +17,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://synthetix.io
-description: Crypto backed synthetic asset platform

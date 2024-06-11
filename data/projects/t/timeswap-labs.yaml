@@ -1,9 +1,24 @@
 version: 7
 name: timeswap-labs
 display_name: Timeswap
+description: Contributes to Timeswap, a decentralized money market protocol
+websites:
+  - url: https://www.app.timeswap.io
+social:
+  twitter:
+    - url: https://x.com/timeswaplabs
+    - url: https://twitter.com/TimeswapLabs
+  farcaster:
+    - url: https://warpcast.com/timeswap
 github:
   - url: https://github.com/timeswap-labs
 blockchain:
+  - address: "0xD6cB50081A0087bE91066723211B50ee3753f0DA"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xea45312c915adc912e681728a5bf55441c08fcd7"
     networks:
       - arbitrum_one
@@ -160,7 +175,3 @@ blockchain:
     tags:
       - deployer
       - eoa
-description: Contributes to Timeswap, a decentralized money market protocol
-social:
-  twitter:
-    - url: https://twitter.com/TimeswapLabs

@@ -1,11 +1,18 @@
 version: 7
 name: artgenexyz
 display_name: artgenexyz
-github:
-  - url: https://github.com/artgenexyz
+description: Drop your generative art collection on Ethereum
 websites:
   - url: https://artgene.xyz
-description: Drop your generative art collection on Ethereum
 social:
   twitter:
     - url: https://twitter.com/artgenexyz
+github:
+  - url: https://github.com/artgenexyz
+blockchain:
+  - address: "0xe5cc6F5bbB3Eee408A1C022D235e6903656f2509"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,6 +1,9 @@
 version: 7
 name: nnsprotocol
 display_name: NOGS
+description: A Nounish Currency
+websites:
+  - url: https://noggles.com
 github:
   - url: https://github.com/nnsprotocol
 blockchain:
@@ -23,6 +26,3 @@ blockchain:
       - base
       - mainnet
     name: NOGS Deployer
-websites:
-  - url: https://noggles.com
-description: A Nounish Currency

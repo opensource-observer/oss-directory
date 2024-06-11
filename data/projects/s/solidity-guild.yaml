@@ -1,6 +1,13 @@
 version: 7
 name: solidity-guild
 display_name: The Solidity Guild
+description: A collective of smart contract engineers. You've already used a
+  contract we wrote. https://join.solidityguild.com/
+websites:
+  - url: https://solidityguild.com/
+social:
+  twitter:
+    - url: https://twitter.com/solidityguild
 github:
   - url: https://github.com/Solidity-Guild
 blockchain:
@@ -10,10 +17,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://solidityguild.com/
-description: A collective of smart contract engineers. You've already used a
-  contract we wrote. https://join.solidityguild.com/
-social:
-  twitter:
-    - url: https://twitter.com/solidityguild

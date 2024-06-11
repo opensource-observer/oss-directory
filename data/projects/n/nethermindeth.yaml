@@ -1,6 +1,13 @@
 version: 7
 name: nethermindeth
 display_name: Nethermind
+description: Ethereum and Starknet researchers and builders developing the
+  Nethermind Ethereum client, Juno, Voyager, and Sedge.
+websites:
+  - url: http://nethermind.io
+social:
+  twitter:
+    - url: https://twitter.com/nethermindeth
 github:
   - url: https://github.com/NethermindEth
 blockchain:
@@ -16,10 +23,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: http://nethermind.io
-description: Ethereum and Starknet researchers and builders developing the
-  Nethermind Ethereum client, Juno, Voyager, and Sedge.
-social:
-  twitter:
-    - url: https://twitter.com/nethermindeth

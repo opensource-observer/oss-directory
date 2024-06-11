@@ -1,12 +1,23 @@
 version: 7
 name: jokerace-jk-labs-inc
 display_name: Jokedao
-github:
-  - url: https://github.com/jk-labs-inc/jokerace
-websites:
-  - url: https://jokerace.io
 description: a development lab building decentralized infrastructure for
   communities across the web
+websites:
+  - url: https://www.jokerace.io
+  - url: https://www.twitter.com/jokerace_io
+  - url: https://jokerace.io
 social:
+  farcaster:
+    - url: https://warpcast.com/~/channel/jokerace
   twitter:
     - url: https://twitter.com/jokerace_io
+github:
+  - url: https://github.com/jk-labs-inc/jokerace
+blockchain:
+  - address: "0xd56e3E325133EFEd6B1687C88571b8a91e517ab0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

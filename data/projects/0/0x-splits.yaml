@@ -1,6 +1,12 @@
 version: 7
 name: 0x-splits
 display_name: 0xSplits
+description: The standard for splitting onchain income
+websites:
+  - url: https://splits.org
+social:
+  twitter:
+    - url: https://twitter.com/0xsplits
 github:
   - url: https://github.com/0xSplits
 npm:
@@ -144,9 +150,3 @@ blockchain:
       - contract
       - factory
     name: DiversifierFactory
-websites:
-  - url: https://splits.org
-description: The standard for splitting onchain income
-social:
-  twitter:
-    - url: https://twitter.com/0xsplits

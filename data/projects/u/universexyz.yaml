@@ -1,6 +1,8 @@
 version: 7
 name: universexyz
 display_name: universexyz
+websites:
+  - url: https://universe.xyz
 github:
   - url: https://github.com/universexyz
 blockchain:
@@ -10,5 +12,3 @@ blockchain:
       - eoa
     networks:
       - any_evm
-websites:
-  - url: https://universe.xyz

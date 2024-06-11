@@ -1,6 +1,13 @@
 version: 7
 name: wildcards-protocol
 display_name: Wildcards Protocol
+description: Adding Utility to NFTs. Link ENS Domains to NFT Collections and
+  provide holders with free wildcard sub-domains.
+websites:
+  - url: https://wildcards.wtf
+social:
+  twitter:
+    - url: https://twitter.com/wildcardswtf
 github:
   - url: https://github.com/wildcards-protocol
 blockchain:
@@ -23,10 +30,3 @@ blockchain:
       - deployer
       - eoa
       - wallet
-websites:
-  - url: https://wildcards.wtf
-description: Adding Utility to NFTs. Link ENS Domains to NFT Collections and
-  provide holders with free wildcard sub-domains.
-social:
-  twitter:
-    - url: https://twitter.com/wildcardswtf

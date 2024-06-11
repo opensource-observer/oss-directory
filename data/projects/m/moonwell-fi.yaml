@@ -1,17 +1,44 @@
 version: 7
 name: moonwell-fi
 display_name: Moonwell
+websites:
+  - url: https://moonwell.fi
+social:
+  twitter:
+    - url: https://x.com/MoonwellDeFi
+    - url: https://twitter.com/MoonwellDeFi
+  farcaster:
+    - url: https://warpcast.com/moonwell
 github:
   - url: https://github.com/moonwell-fi
 blockchain:
+  - address: "0xC84065601e39A623D75DFddd278346b9778D8943"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xC3F9774aF21a030Ab785CB45510BA9EdC9d0c8CD"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xdDbf679d6332d9E5b409865b9671d1927255B52A"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x3073fCAD986fbE9F94CC6Caa44f76c12e34516d4"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x4f56443f075ef5c972a76365606bfbdbd37e146f"
     networks:
       - optimism
     tags:
       - safe
       - wallet
-websites:
-  - url: https://moonwell.fi
-social:
-  twitter:
-    - url: https://twitter.com/MoonwellDeFi

@@ -1,10 +1,23 @@
 version: 7
 name: wormhole
 display_name: Wormhole
+websites:
+  - url: https://wormhole.com/
+  - url: https://wormhole.foundation/
+social:
+  twitter:
+    - url: https://x.com/wormhole
+    - url: https://twitter.com/wormholecrypto
 github:
   - url: https://github.com/wormhole-foundation
   - url: https://github.com/XLabs
 blockchain:
+  - address: "0x085909388fc0cE9E5761ac8608aF8f2F52cb8B89"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xe2e2d9e31d7e1cc1178fe0d1c5950f6c809816a3"
     networks:
       - any_evm
@@ -216,8 +229,3 @@ blockchain:
     tags:
       - contract
     name: TokenBridge
-websites:
-  - url: https://wormhole.com/
-social:
-  twitter:
-    - url: https://twitter.com/wormholecrypto

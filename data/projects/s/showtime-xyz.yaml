@@ -1,12 +1,24 @@
 version: 7
 name: showtime-xyz
 display_name: Showtime
-github:
-  - url: https://github.com/showtime-xyz
-websites:
-  - url: https://showtime-xyz.notion.site/Join-Showtime-Public-fa6282938e284134b302184062d7e329
 description: Showtime aims to make digital collectibles useful, social and
   accessible to all.
+websites:
+  - url: https://drakula.app
+  - url: https://showtime-xyz.notion.site/Join-Showtime-Public-fa6282938e284134b302184062d7e329
 social:
   twitter:
+    - url: https://x.com/Drakulaapp
     - url: https://twitter.com/showtime_xyz
+  farcaster:
+    - url: https://warpcast.com/drakula
+    - url: https://warpcast.com/~/channel/drakula
+github:
+  - url: https://github.com/showtime-xyz
+blockchain:
+  - address: "0x43A4DAA053B63606e1dc9108641AACaD0cdd5B9f"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

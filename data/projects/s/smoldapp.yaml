@@ -1,17 +1,27 @@
 version: 7
 name: smoldapp
 display_name: Smol Dapp
+websites:
+  - url: https://smold.app/
+  - url: https://smold.app
+social:
+  twitter:
+    - url: https://x.com/smoldapp
+    - url: https://twitter.com/smoldapp
+  farcaster:
+    - url: https://warpcast.com/~/channel/smol
 github:
   - url: https://github.com/smoldapp
 blockchain:
+  - address: "0x0aa8aa45B1EB8CCdd2c742E7db796B0a589b86b5"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x55537a67607d1985698d41ce2e53a6eb6b8bd555"
     networks:
       - optimism
     tags:
       - safe
       - wallet
-websites:
-  - url: https://smold.app
-social:
-  twitter:
-    - url: https://twitter.com/smoldapp

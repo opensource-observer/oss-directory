@@ -1,6 +1,10 @@
 version: 7
 name: l2planet
 display_name: L2 Planet
+description: L2 Planet is a project which works for public goods. The main goal
+  is to accelerate Layer-2 adaptation and educate the community about it.
+websites:
+  - url: https://l2planet.xyz
 github:
   - url: https://github.com/l2planet
 blockchain:
@@ -24,7 +28,3 @@ blockchain:
       - eoa
       - wallet
     name: l2planet.eth
-websites:
-  - url: https://l2planet.xyz
-description: L2 Planet is a project which works for public goods. The main goal
-  is to accelerate Layer-2 adaptation and educate the community about it.

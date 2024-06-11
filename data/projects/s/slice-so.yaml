@@ -1,7 +1,17 @@
 version: 7
 name: slice-so
 display_name: Slice
+description: The decentralized slicing platform
+websites:
+  - url: https://slice.so
+social:
+  twitter:
+    - url: https://x.com/slice__so
+    - url: https://twitter.com/slice__so
+  farcaster:
+    - url: https://warpcast.com/slice
 github:
+  - url: https://github.com/decentralizedlabs/uniswap-v3-price-feed
   - url: https://github.com/slice-so
 blockchain:
   - address: "0xb05ba6660b9fade3634466bf7834cdfc76fa4886"
@@ -17,9 +27,3 @@ blockchain:
       - deployer
       - eoa
       - wallet
-websites:
-  - url: https://slice.so
-description: The decentralized slicing platform
-social:
-  twitter:
-    - url: https://twitter.com/slice__so

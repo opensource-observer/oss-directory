@@ -1,6 +1,13 @@
 version: 7
 name: plebbit
 display_name: Plebbit
+description: serverless, adminless, decentralized reddit alternative with no
+  transaction fees and captchas over peer-to-peer pubsub to prevent spam
+websites:
+  - url: https://github.com/plebbit/whitepaper/discussions/2
+social:
+  twitter:
+    - url: https://twitter.com/getplebbit
 github:
   - url: https://github.com/plebbit
 blockchain:
@@ -11,10 +18,3 @@ blockchain:
       - eoa
       - wallet
     name: estebanabaroa.eth
-websites:
-  - url: https://github.com/plebbit/whitepaper/discussions/2
-description: serverless, adminless, decentralized reddit alternative with no
-  transaction fees and captchas over peer-to-peer pubsub to prevent spam
-social:
-  twitter:
-    - url: https://twitter.com/getplebbit

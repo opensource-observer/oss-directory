@@ -1,9 +1,26 @@
 version: 7
 name: unitapapp
 display_name: Unitap
+websites:
+  - url: https://Unitap.app
+  - url: https://@Unitap_app
+  - url: https://@Unitap
+  - url: https://unitap.app
 github:
   - url: https://github.com/UnitapApp
 blockchain:
+  - address: "0xe9239a6Fe26985eB5B21DdaCDc904cDa7f7551a0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xB10f8E218A9cD738b0F1E2f7169Aa3c0897F2d83"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x4adc8cc149a03f44386bee80bab36f9e8022b195"
     networks:
       - mainnet
@@ -17,5 +34,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://unitap.app

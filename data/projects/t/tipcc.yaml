@@ -1,6 +1,8 @@
 version: 7
 name: tipcc
 display_name: Tipcc
+websites:
+  - url: https://tipccjs.org/
 github:
   - url: https://github.com/tipccjs
 blockchain:
@@ -18,5 +20,3 @@ blockchain:
       - contract
       - factory
     name: unverified
-websites:
-  - url: https://tipccjs.org/

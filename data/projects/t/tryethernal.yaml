@@ -1,6 +1,12 @@
 version: 7
 name: tryethernal
 display_name: Ethernal
+description: Ethernal is a block explorer for EVM-based chains
+websites:
+  - url: https://www.tryethernal.com
+social:
+  twitter:
+    - url: https://twitter.com/tryethernal
 github:
   - url: https://github.com/tryethernal
 npm:
@@ -12,9 +18,3 @@ blockchain:
       - wallet
     networks:
       - optimism
-websites:
-  - url: https://www.tryethernal.com
-description: Ethernal is a block explorer for EVM-based chains
-social:
-  twitter:
-    - url: https://twitter.com/tryethernal

@@ -1,6 +1,8 @@
 version: 7
 name: notional-finance
 display_name: Notional
+websites:
+  - url: https://notional.finance
 github:
   - url: https://github.com/notional-finance
 blockchain:
@@ -60,5 +62,3 @@ blockchain:
     tags:
       - contract
     name: Curve2TokenConvexVaultUsdcFraxBorrowFrax
-websites:
-  - url: https://notional.finance

@@ -1,17 +1,24 @@
 version: 7
 name: dappradar
 display_name: DappRadar
+websites:
+  - url: https://dappradar.com
+social:
+  twitter:
+    - url: https://x.com/DappRadar
+    - url: https://twitter.com/DappRadar
 github:
   - url: https://github.com/dappradar
 blockchain:
+  - address: "0xCB32308e4Bd1B8B32C499cAE955632E4A68d5C48"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x46896fe996b0e771b22c43e26d94fe2daccc027c"
     networks:
       - any_evm
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://dappradar.com
-social:
-  twitter:
-    - url: https://twitter.com/DappRadar

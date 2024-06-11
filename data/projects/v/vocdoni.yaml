@@ -1,6 +1,12 @@
 version: 7
 name: vocdoni
 display_name: vocdoni
+description: A universally verifiable, privacy-centric and scalable digital voting protocol
+websites:
+  - url: https://vocdoni.io
+social:
+  twitter:
+    - url: https://twitter.com/vocdoni
 github:
   - url: https://github.com/vocdoni
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://vocdoni.io
-description: A universally verifiable, privacy-centric and scalable digital voting protocol
-social:
-  twitter:
-    - url: https://twitter.com/vocdoni

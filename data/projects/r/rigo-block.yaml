@@ -1,6 +1,9 @@
 version: 7
 name: rigo-block
 display_name: RigoBlock
+description: The Protocol for Organizing Tokens
+websites:
+  - url: https://rigoblock.com/
 github:
   - url: https://github.com/rigoblock
 blockchain:
@@ -30,6 +33,3 @@ blockchain:
     tags:
       - contract
     name: HSendBatchTokens
-websites:
-  - url: https://rigoblock.com/
-description: The Protocol for Organizing Tokens

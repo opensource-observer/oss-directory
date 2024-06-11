@@ -2,6 +2,15 @@ version: 7
 name: 0xproject
 display_name: 0x
 description: Exchange Infrastructure for the Internet
+websites:
+  - url: https://0xprotocol.org
+social:
+  twitter:
+    - url: https://twitter.com/zeroexprotocol
+  mirror:
+    - url: https://mirror.xyz/zeroexprotocol.eth
+  reddit:
+    - url: https://www.reddit.com/r/0xProject
 github:
   - url: https://github.com/0xproject
 blockchain:
@@ -186,20 +195,8 @@ blockchain:
       - wallet
   - address: "0xdef1c0ded9bec7f1a1670819833240f027b25eff"
     networks:
-      #- arbitrum_one
-      #- base
       - mainnet
-      #- optimism
     tags:
       - contract
       - proxy
     name: ZeroEx
-websites:
-  - url: https://0xprotocol.org
-social:
-  twitter:
-    - url: https://twitter.com/zeroexprotocol
-  mirror:
-    - url: https://mirror.xyz/zeroexprotocol.eth
-  reddit:
-    - url: https://www.reddit.com/r/0xProject

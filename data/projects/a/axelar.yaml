@@ -1,6 +1,12 @@
 version: 7
 name: axelar
 display_name: Axelar
+description: Powering the Chain-Agnostic Future
+websites:
+  - url: https://axelar.network
+social:
+  twitter:
+    - url: https://x.com/axelarnetwork
 github:
   - url: https://github.com/axelarnetwork
 npm:
@@ -248,9 +254,3 @@ blockchain:
       - frax
     tags:
       - contract
-websites:
-  - url: https://axelar.network
-description: Powering the Chain-Agnostic Future
-social:
-  twitter:
-    - url: https://x.com/axelarnetwork

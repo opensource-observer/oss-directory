@@ -1,6 +1,12 @@
 version: 7
 name: airgap-it
 display_name: Airgap Wallet
+description: Turn your smartphone into a hardware wallet
+websites:
+  - url: https://www.airgap.it
+social:
+  twitter:
+    - url: https://twitter.com/airgap_it
 github:
   - url: https://github.com/airgap-it
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://www.airgap.it
-description: Turn your smartphone into a hardware wallet
-social:
-  twitter:
-    - url: https://twitter.com/airgap_it

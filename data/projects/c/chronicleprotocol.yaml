@@ -1,6 +1,12 @@
 version: 7
 name: chronicleprotocol
 display_name: Chronicle Labs (formerly Maker Oracle team)
+description: Redefining ubiquitous access to verifiable data
+websites:
+  - url: https://chroniclelabs.org
+social:
+  twitter:
+    - url: https://twitter.com/chroniclelabs
 github:
   - url: https://github.com/makerdao/dss-teleport
   - url: https://github.com/chronicleprotocol
@@ -17,9 +23,3 @@ blockchain:
     tags:
       - contract
     name: L2DaiTeleportGateway
-websites:
-  - url: https://chroniclelabs.org
-description: Redefining ubiquitous access to verifiable data
-social:
-  twitter:
-    - url: https://twitter.com/chroniclelabs

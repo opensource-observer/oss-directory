@@ -1,6 +1,12 @@
 version: 7
 name: pepemon-dao
 display_name: "Pepemon: Degen Battleground"
+description: Play and earn web3 card game owned by the players, since 2020.
+websites:
+  - url: https://pepemon.world
+social:
+  twitter:
+    - url: https://twitter.com/pepemonfinance
 github:
   - url: https://github.com/pepemon-dao
 blockchain:
@@ -11,9 +17,3 @@ blockchain:
       - eoa
       - wallet
     name: pepemonworld.eth
-websites:
-  - url: https://pepemon.world
-description: Play and earn web3 card game owned by the players, since 2020.
-social:
-  twitter:
-    - url: https://twitter.com/pepemonfinance

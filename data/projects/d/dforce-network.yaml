@@ -1,6 +1,13 @@
 version: 7
 name: dforce-network
 display_name: dForce
+description: A complete set of decentralized finance protocols covering assets,
+  lending, and trading, serving as DeFi infrastructure in Web3.
+websites:
+  - url: https://www.dforce.network
+social:
+  twitter:
+    - url: https://twitter.com/dForcenet
 github:
   - url: https://github.com/dforce-network
 blockchain:
@@ -846,10 +853,3 @@ blockchain:
     tags:
       - contract
     name: ArbFiatToken
-websites:
-  - url: https://www.dforce.network
-description: A complete set of decentralized finance protocols covering assets,
-  lending, and trading, serving as DeFi infrastructure in Web3.
-social:
-  twitter:
-    - url: https://twitter.com/dForcenet

@@ -1,6 +1,13 @@
 version: 7
 name: worldcoin
 display_name: Worldcoin
+description: Building the world’s largest identity and financial network as a
+  public utility, giving ownership to everyone.
+websites:
+  - url: https://www.worldcoin.org
+social:
+  twitter:
+    - url: https://twitter.com/worldcoin
 github:
   - url: https://github.com/worldcoin
 blockchain:
@@ -404,10 +411,3 @@ blockchain:
     tags:
       - contract
     name: WLDTransfer
-websites:
-  - url: https://www.worldcoin.org
-description: Building the world’s largest identity and financial network as a
-  public utility, giving ownership to everyone.
-social:
-  twitter:
-    - url: https://twitter.com/worldcoin

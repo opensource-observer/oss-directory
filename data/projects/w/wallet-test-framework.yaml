@@ -1,6 +1,8 @@
 version: 7
 name: wallet-test-framework
 display_name: wallet-test-framework
+websites:
+  - url: https://wtf.allwallet.dev
 github:
   - url: https://github.com/wallet-test-framework
 blockchain:
@@ -10,5 +12,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://wtf.allwallet.dev

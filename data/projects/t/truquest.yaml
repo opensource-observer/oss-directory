@@ -1,6 +1,8 @@
 version: 7
 name: truquest
 display_name: TruQuest
+websites:
+  - url: https://truquest.io
 github:
   - url: https://github.com/TruQuest
 blockchain:
@@ -11,5 +13,3 @@ blockchain:
       - eoa
       - wallet
     name: rho9cas.eth
-websites:
-  - url: https://truquest.io

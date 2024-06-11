@@ -1,6 +1,12 @@
 version: 7
 name: eoa-blockchain-labs
 display_name: Ethereum on ARM
+description: Ethereum on ARM repositories
+websites:
+  - url: https://ethereum-on-arm-documentation.readthedocs.io/
+social:
+  twitter:
+    - url: https://twitter.com/EthereumOnARM
 github:
   - url: https://github.com/EOA-Blockchain-Labs
 blockchain:
@@ -16,9 +22,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://ethereum-on-arm-documentation.readthedocs.io/
-description: Ethereum on ARM repositories
-social:
-  twitter:
-    - url: https://twitter.com/EthereumOnARM

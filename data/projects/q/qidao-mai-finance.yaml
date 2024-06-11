@@ -1,13 +1,27 @@
 version: 7
 name: qidao-mai-finance
 display_name: Mai Finance (Qi Dao Protocol)
+websites:
+  - url: https://app.mai.finance/
+social:
+  twitter:
+    - url: https://x.com/QiDaoProtocol
+  farcaster:
+    - url: https://warpcast.com/qidao
 github:
+  - url: https://github.com/publu/pegstabilitymodule
   - url: https://github.com/0xlaozi/mai-finance-subgraph
   - url: https://github.com/0xlaozi/qidao
   - url: https://github.com/publu/qidao_gov
   - url: https://github.com/publu/maitoken
   - url: https://github.com/royalaid/qidao-sdk
 blockchain:
+  - address: "0x37AF7d1638b36744e8bd5FC29b0149dE838FDA5E"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x985a29e88e75394dbdae41a269409f701ccf6a43"
     networks:
       - any_evm

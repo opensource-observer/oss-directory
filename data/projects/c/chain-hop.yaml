@@ -1,6 +1,7 @@
 version: 7
 name: chain-hop
 display_name: ChainHop
+description: The multi-chain swap protocol
 github:
   - url: https://github.com/chainhop-dex
 blockchain:
@@ -520,4 +521,3 @@ blockchain:
     tags:
       - contract
     name: unverified
-description: The multi-chain swap protocol

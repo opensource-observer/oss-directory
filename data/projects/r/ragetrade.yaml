@@ -1,6 +1,12 @@
 version: 7
 name: ragetrade
 display_name: RageTrade
+description: Perp Aggregator - Best prices, Aggregated Liquidity, Multichain
+websites:
+  - url: https://rage.trade
+social:
+  twitter:
+    - url: https://twitter.com/rage_trade
 github:
   - url: https://github.com/ragetrade
 blockchain:
@@ -65,9 +71,3 @@ blockchain:
     tags:
       - contract
     name: VaultPeriphery
-websites:
-  - url: https://rage.trade
-description: Perp Aggregator - Best prices, Aggregated Liquidity, Multichain
-social:
-  twitter:
-    - url: https://twitter.com/rage_trade

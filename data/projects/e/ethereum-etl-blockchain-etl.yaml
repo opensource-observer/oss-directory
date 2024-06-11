@@ -1,6 +1,11 @@
 version: 7
 name: ethereum-etl-blockchain-etl
 display_name: EthereumETL
+description: Facilitating data science on blockchain data. Available in Google
+  BigQuery https://goo.gl/oY5BCQ
+social:
+  telegram:
+    - url: https://t.me/BlockchainETL
 github:
   - url: https://github.com/blockchain-etl/ethereum-etl
 blockchain:
@@ -16,8 +21,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-description: Facilitating data science on blockchain data. Available in Google
-  BigQuery https://goo.gl/oY5BCQ
-social:
-  telegram:
-    - url: https://t.me/BlockchainETL

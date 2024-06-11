@@ -1,6 +1,12 @@
 version: 7
 name: eppie-io
 display_name: Eppie
+description: Encrypted Peer to Peer Independent Email
+websites:
+  - url: https://eppie.io/en
+social:
+  twitter:
+    - url: https://twitter.com/EppieApp
 github:
   - url: https://github.com/Eppie-io
 blockchain:
@@ -11,9 +17,3 @@ blockchain:
       - eoa
       - wallet
     name: eppie.eth
-websites:
-  - url: https://eppie.io/en
-description: Encrypted Peer to Peer Independent Email
-social:
-  twitter:
-    - url: https://twitter.com/EppieApp

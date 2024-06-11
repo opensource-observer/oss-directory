@@ -1,6 +1,11 @@
 version: 7
 name: 0x-boring-security
 display_name: Boring Security
+websites:
+  - url: https://www.boringsecurity.com
+social:
+  twitter:
+    - url: https://twitter.com/BoringSecDAO
 github:
   - url: https://github.com/0xBoringSecurity
   - url: https://github.com/boringsecdao
@@ -18,8 +23,3 @@ blockchain:
       - eoa
       - wallet
     name: boringsecurity.eth
-websites:
-  - url: https://www.boringsecurity.com
-social:
-  twitter:
-    - url: https://twitter.com/BoringSecDAO

@@ -1,6 +1,12 @@
 version: 7
 name: sherlock-audit
 display_name: Sherlock Audits
+description: Decentralized exploit protection
+websites:
+  - url: https://app.sherlock.xyz/audits
+social:
+  twitter:
+    - url: https://twitter.com/sherlockdefi
 github:
   - url: https://github.com/sherlock-audit
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://app.sherlock.xyz/audits
-description: Decentralized exploit protection
-social:
-  twitter:
-    - url: https://twitter.com/sherlockdefi

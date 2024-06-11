@@ -1,6 +1,11 @@
 version: 7
 name: stargate-finance
 display_name: Stargate Finance
+websites:
+  - url: https://stargate.finance
+social:
+  twitter:
+    - url: https://twitter.com/StargateFinance
 github:
   - url: https://github.com/stargate-protocol
 blockchain:
@@ -419,8 +424,3 @@ blockchain:
     tags:
       - contract
     name: LPStakingTime
-websites:
-  - url: https://stargate.finance
-social:
-  twitter:
-    - url: https://twitter.com/StargateFinance

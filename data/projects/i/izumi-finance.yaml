@@ -1,7 +1,18 @@
 version: 7
 name: izumi-finance
 display_name: iZUMi Finance
+websites:
+  - url: https://izumi.finance/home
+  - url: https://izumi.finance/
+social:
+  twitter:
+    - url: https://x.com/izumi_Finance
 github:
   - url: https://github.com/izumiFinance
-websites:
-  - url: https://izumi.finance/
+blockchain:
+  - address: "0xC802A5a140224ed72E7c821F637C1E5759744045"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

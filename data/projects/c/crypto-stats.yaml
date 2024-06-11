@@ -1,6 +1,11 @@
 version: 7
 name: crypto-stats
 display_name: CryptoStats
+websites:
+  - url: https://cryptostats.community
+social:
+  twitter:
+    - url: https://twitter.com/CryptoStats_
 github:
   - url: https://github.com/crypto-stats
 blockchain:
@@ -11,8 +16,3 @@ blockchain:
       - eoa
       - wallet
     name: cryptostats.eth
-websites:
-  - url: https://cryptostats.community
-social:
-  twitter:
-    - url: https://twitter.com/CryptoStats_

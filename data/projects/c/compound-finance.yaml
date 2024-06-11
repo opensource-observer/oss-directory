@@ -1,7 +1,15 @@
 version: 7
 name: compound-finance
 display_name: Compound
+websites:
+  - url: https://app.compound.finance/markets/usdc-op
+  - url: https://app.compound.finance/
+  - url: https://compound.finance/
+social:
+  twitter:
+    - url: https://x.com/compgovernance
 github:
+  - url: https://github.com/woof-software/comet
   - url: https://github.com/compound-finance
 blockchain:
   - address: "0x6103db328d4864dc16bd2f0ee1b9a92e3f87f915"
@@ -42,12 +50,8 @@ blockchain:
       - contract
     name: COMP
   - address: "0x2501713A67a3dEdde090E42759088A7eF37D4EAb"
-    # deployed contract 0x7e7d4467112689329f7E06571eD0E8CbAd4910eE using Optimism bridge 0x4200000000000000000000000000000000000012
-    # in this trx - https://optimistic.etherscan.io/tx/0x579283b7dd4abad911946f69fdb5bfb4693397e048af4dc58a42681195741649
     networks:
       - optimism
     tags:
       - deployer
       - eoa
-websites:
-  - url: https://compound.finance/

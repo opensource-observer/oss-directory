@@ -1,6 +1,12 @@
 version: 7
 name: makewaterorg
 display_name: MakeWater
+description: Education through water innovation.
+websites:
+  - url: https://www.makewater.org/
+social:
+  twitter:
+    - url: https://twitter.com/makewaterorg
 github:
   - url: https://github.com/makewaterorg
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
       - wallet
     networks:
       - any_evm
-websites:
-  - url: https://www.makewater.org/
-description: Education through water innovation.
-social:
-  twitter:
-    - url: https://twitter.com/makewaterorg

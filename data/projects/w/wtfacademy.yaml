@@ -1,6 +1,12 @@
 version: 7
 name: wtfacademy
 display_name: WTF Academy
+description: Web3 Open-Source University for Developers
+websites:
+  - url: https://wtf.academy
+social:
+  twitter:
+    - url: https://twitter.com/0xAA_Science
 github:
   - url: https://github.com/WTFAcademy
 blockchain:
@@ -17,9 +23,3 @@ blockchain:
       - eoa
       - wallet
     name: wtfacademy.eth
-websites:
-  - url: https://wtf.academy
-description: Web3 Open-Source University for Developers
-social:
-  twitter:
-    - url: https://twitter.com/0xAA_Science

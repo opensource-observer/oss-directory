@@ -1,7 +1,26 @@
 version: 7
 name: owlto-finance
 display_name: Owlto Finance
+websites:
+  - url: https://owlto.finance
+  - url: https://owlto.finance/
+social:
+  twitter:
+    - url: https://x.com/Owlto_Finance
+  farcaster:
+    - url: https://warpcast.com/owltofinance
 github:
   - url: https://github.com/owlto-finance
-websites:
-  - url: https://owlto.finance/
+blockchain:
+  - address: "0x1B2EBfb9D27E298388625457b18d78aa5D4ed4B7"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xAADEd943BeF6115DaB272C90ef3a1E01a358336d"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

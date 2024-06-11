@@ -1,6 +1,12 @@
 version: 7
 name: ipfs
 display_name: IPFS
+description: A peer-to-peer hypermedia protocol
+websites:
+  - url: https://ipfs.tech
+social:
+  twitter:
+    - url: https://twitter.com/IPFS
 github:
   - url: https://github.com/ipfs
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://ipfs.tech
-description: A peer-to-peer hypermedia protocol
-social:
-  twitter:
-    - url: https://twitter.com/IPFS

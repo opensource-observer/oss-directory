@@ -1,6 +1,8 @@
 version: 7
 name: usecannon
 display_name: Cannon
+websites:
+  - url: https://usecannon.com
 github:
   - url: https://github.com/usecannon/cannon
 npm:
@@ -15,5 +17,3 @@ blockchain:
       - eoa
       - wallet
     name: noahlitvin.eth
-websites:
-  - url: https://usecannon.com

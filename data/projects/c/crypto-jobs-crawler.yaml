@@ -1,6 +1,8 @@
 version: 7
 name: crypto-jobs-crawler
 display_name: Crypto Jobs
+websites:
+  - url: https://crypto-jobs-fyi.github.io/web/
 github:
   - url: https://github.com/crypto-jobs-fyi
 blockchain:
@@ -11,5 +13,3 @@ blockchain:
       - eoa
       - wallet
     name: kuramori.eth
-websites:
-  - url: https://crypto-jobs-fyi.github.io/web/

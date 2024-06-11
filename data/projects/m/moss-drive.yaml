@@ -1,15 +1,24 @@
 version: 7
 name: moss-drive
 display_name: moss-drive
+description: Moss is a social document management and sharing platform based on Web3.
+websites:
+  - url: https://mymoss.io
+social:
+  twitter:
+    - url: https://twitter.com/mymoss_io
 github:
   - url: https://github.com/moss-drive
 blockchain:
+  - address: "0xe5bab2D79EB833FA25906Cd90540339C9aB8AE70"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x16bb8ce90da02575f56f31980f8e8a6e2126ea13"
     networks:
       - any_evm
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://mymoss.io
-description: Moss is a social document management and sharing platform based on Web3.
