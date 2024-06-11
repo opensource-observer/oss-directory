@@ -1,6 +1,9 @@
 version: 7
 name: arb-id
 display_name: ARB-ID
+description: Name Service on Arbitrum
+websites:
+  - url: https://www.arb.id
 github:
   - url: https://github.com/arb-id
 blockchain:
@@ -106,6 +109,3 @@ blockchain:
     tags:
       - contract
     name: StarNFTV4
-websites:
-  - url: https://www.arb.id
-description: Name Service on Arbitrum

@@ -1,6 +1,12 @@
 version: 7
 name: gitcoin
 display_name: Gitcoin
+description: We empower communities to build and fund their shared needs
+websites:
+  - url: https://gitcoin.co
+social:
+  twitter:
+    - url: https://twitter.com/Gitcoin
 github:
   - url: https://github.com/gitcoinco
   - url: https://github.com/allo-protocol
@@ -60,9 +66,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://gitcoin.co
-description: We empower communities to build and fund their shared needs
-social:
-  twitter:
-    - url: https://twitter.com/Gitcoin

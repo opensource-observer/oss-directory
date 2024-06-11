@@ -1,6 +1,8 @@
 version: 7
 name: jefetoken
 display_name: JEFE TOKEN
+websites:
+  - url: https://jefetoken.com
 github:
   - url: https://github.com/jefetoken
 blockchain:
@@ -12,5 +14,3 @@ blockchain:
       - eoa
       - wallet
     name: jefetoken.eth
-websites:
-  - url: https://jefetoken.com

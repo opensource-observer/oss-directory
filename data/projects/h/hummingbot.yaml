@@ -1,6 +1,12 @@
 version: 7
 name: hummingbot
 display_name: Hummingbot Foundation
+description: Democratizing HFT with open source software
+websites:
+  - url: https://hummingbot.org
+social:
+  twitter:
+    - url: https://twitter.com/_hummingbot
 github:
   - url: https://github.com/hummingbot
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://hummingbot.org
-description: Democratizing HFT with open source software
-social:
-  twitter:
-    - url: https://twitter.com/_hummingbot

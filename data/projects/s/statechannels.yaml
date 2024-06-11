@@ -1,6 +1,9 @@
 version: 7
 name: statechannels
 display_name: State Channels
+description: Protocol to enable scalable peer-to-peer blockchain interactions.
+websites:
+  - url: https://statechannels.org
 github:
   - url: https://github.com/statechannels
 blockchain:
@@ -10,6 +13,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://statechannels.org
-description: Protocol to enable scalable peer-to-peer blockchain interactions.

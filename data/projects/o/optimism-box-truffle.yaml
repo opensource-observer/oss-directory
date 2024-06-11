@@ -1,6 +1,10 @@
 version: 7
 name: optimism-box-truffle
 display_name: Optimism Box
+description: A set of boilerplates to help developers quickly build distributed
+  applications on the Ethereum blockchain with Truffle.
+websites:
+  - url: https://truffle-box.github.io/
 github:
   - url: https://github.com/truffle-box/optimism-box
 blockchain:
@@ -11,7 +15,3 @@ blockchain:
       - eoa
       - wallet
     name: faina.eth
-websites:
-  - url: https://truffle-box.github.io/
-description: A set of boilerplates to help developers quickly build distributed
-  applications on the Ethereum blockchain with Truffle.

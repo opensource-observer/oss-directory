@@ -1,6 +1,12 @@
 version: 7
 name: defi-wonderland
 display_name: Wonderland
+description: We're all mad here
+websites:
+  - url: https://defi.sucks/
+social:
+  twitter:
+    - url: https://twitter.com/DeFi_Wonderland
 github:
   - url: https://github.com/defi-wonderland/check-crypto-action
   - url: https://github.com/defi-wonderland/crypto-husky-checks
@@ -27,9 +33,3 @@ blockchain:
       - eoa
       - wallet
     name: defisucks.eth
-websites:
-  - url: https://defi.sucks/
-description: We're all mad here
-social:
-  twitter:
-    - url: https://twitter.com/DeFi_Wonderland

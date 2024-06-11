@@ -1,6 +1,12 @@
 version: 7
 name: yearn
 display_name: Yearn
+description: we build yearn and yearn builds itself
+websites:
+  - url: https://docs.yearn.fi
+social:
+  twitter:
+    - url: https://twitter.com/yearnfi
 github:
   - url: https://github.com/yearn
 blockchain:
@@ -819,9 +825,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://docs.yearn.fi
-description: we build yearn and yearn builds itself
-social:
-  twitter:
-    - url: https://twitter.com/yearnfi

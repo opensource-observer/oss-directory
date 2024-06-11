@@ -1,6 +1,8 @@
 version: 7
 name: biconomy
 display_name: Biconomy
+websites:
+  - url: https://biconomy.io
 github:
   - url: https://github.com/bcnmy
 npm:
@@ -444,7 +446,7 @@ blockchain:
       - contract
     name: PasskeyRegistryModule
   - address: "0x000002FbFfedd9B33F4E7156F2DE8D48945E7489"
-    networks: 
+    networks:
       - arbitrum_one
       - optimism
       - base
@@ -467,7 +469,3 @@ blockchain:
     tags:
       - contract
     name: ERC20SessionValidationModule
-
-  
-websites:
-  - url: https://biconomy.io

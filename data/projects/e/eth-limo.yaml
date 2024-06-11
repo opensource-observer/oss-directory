@@ -1,6 +1,11 @@
 version: 7
 name: eth-limo
 display_name: eth.limo
+websites:
+  - url: https://eth.limo
+social:
+  twitter:
+    - url: https://twitter.com/eth_limo
 github:
   - url: https://github.com/ethlimo
 blockchain:
@@ -11,8 +16,3 @@ blockchain:
       - eoa
       - wallet
     name: ethdotlimo.eth
-websites:
-  - url: https://eth.limo
-social:
-  twitter:
-    - url: https://twitter.com/eth_limo

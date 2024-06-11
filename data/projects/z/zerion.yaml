@@ -1,6 +1,12 @@
 version: 7
 name: zerion
 display_name: Zerion
+description: Your crypto wallet for everything onchain.
+websites:
+  - url: https://zerion.io
+social:
+  twitter:
+    - url: https://twitter.com/zerion
 github:
   - url: https://github.com/zeriontech
 blockchain:
@@ -38,9 +44,3 @@ blockchain:
     tags:
       - contract
     name: SimpleCaller
-websites:
-  - url: https://zerion.io
-description: Your crypto wallet for everything onchain.
-social:
-  twitter:
-    - url: https://twitter.com/zerion

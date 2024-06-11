@@ -1,6 +1,9 @@
 version: 7
 name: balancer
 display_name: Balancer
+description: Balancer is a protocol for programmable liquidity
+websites:
+  - url: https://balancer.fi
 github:
   - url: https://github.com/balancer
 blockchain:
@@ -829,6 +832,3 @@ blockchain:
     tags:
       - deployer
       - eoa
-websites:
-  - url: https://balancer.fi
-description: Balancer is a protocol for programmable liquidity

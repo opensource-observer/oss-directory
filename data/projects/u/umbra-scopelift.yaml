@@ -1,6 +1,12 @@
 version: 7
 name: umbra-scopelift
 display_name: Umbra (by ScopeLift)
+description: High Caliber Crypto
+websites:
+  - url: http://www.scopelift.co
+social:
+  twitter:
+    - url: https://twitter.com/scopelift
 github:
   - url: https://github.com/scopelift/umbra-protocol
   - url: https://github.com/scopelift/umbra-subgraph
@@ -27,9 +33,3 @@ blockchain:
     tags:
       - contract
     name: StealthKeyRegistry
-websites:
-  - url: http://www.scopelift.co
-description: High Caliber Crypto
-social:
-  twitter:
-    - url: https://twitter.com/scopelift

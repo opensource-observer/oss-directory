@@ -1,6 +1,9 @@
 version: 7
 name: sperax
 display_name: Sperax
+description: DeFI protocol on Arbitrum
+websites:
+  - url: https://sperax.io
 github:
   - url: https://github.com/sperax
 blockchain:
@@ -106,6 +109,3 @@ blockchain:
     tags:
       - contract
     name: Demeter_UniswapFarmDeployer
-websites:
-  - url: https://sperax.io
-description: DeFI protocol on Arbitrum

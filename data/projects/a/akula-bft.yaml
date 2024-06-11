@@ -1,6 +1,7 @@
 version: 7
 name: akula-bft
 display_name: Akula
+description: Fast Ethereum full-node implementation
 github:
   - url: https://github.com/akula-bft
 blockchain:
@@ -17,4 +18,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-description: Fast Ethereum full-node implementation

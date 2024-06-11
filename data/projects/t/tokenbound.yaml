@@ -1,6 +1,9 @@
 version: 7
 name: tokenbound
 display_name: "Tokenbound: Tooling for 6551"
+description: Building abstract accounts for NFTs with ERC-6551
+websites:
+  - url: https://tokenbound.org
 github:
   - url: https://github.com/tokenbound
 blockchain:
@@ -10,6 +13,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://tokenbound.org
-description: Building abstract accounts for NFTs with ERC-6551

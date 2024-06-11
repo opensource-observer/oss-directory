@@ -1,6 +1,12 @@
 version: 7
 name: unlock-protocol
 display_name: Unlock Protocol
+description: Unlock is a protocol for memberships built on a blockchain.
+websites:
+  - url: https://unlock-protocol.com/
+social:
+  twitter:
+    - url: https://twitter.com/unlockProtocol
 github:
   - url: https://github.com/unlock-protocol
 blockchain:
@@ -61,9 +67,3 @@ blockchain:
       - eoa
       - wallet
     name: unlock-protocol.eth
-websites:
-  - url: https://unlock-protocol.com/
-description: Unlock is a protocol for memberships built on a blockchain.
-social:
-  twitter:
-    - url: https://twitter.com/unlockProtocol

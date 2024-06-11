@@ -1,6 +1,11 @@
 version: 7
 name: smoldapp
 display_name: Smol Dapp
+websites:
+  - url: https://smold.app
+social:
+  twitter:
+    - url: https://twitter.com/smoldapp
 github:
   - url: https://github.com/smoldapp
 blockchain:
@@ -10,8 +15,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://smold.app
-social:
-  twitter:
-    - url: https://twitter.com/smoldapp

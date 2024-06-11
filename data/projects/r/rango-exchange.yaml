@@ -1,6 +1,13 @@
 version: 7
 name: rango-exchange
 display_name: Rango Exchange
+description: Cross-Chain DEX/Bridge Aggregator, +50 Supported Blockchains (EVM,
+  Cosmos, Solana, Tron, ...)
+websites:
+  - url: https://rango.exchange/
+social:
+  twitter:
+    - url: https://twitter.com/RangoExchange
 github:
   - url: https://github.com/rango-exchange
 blockchain:
@@ -110,10 +117,3 @@ blockchain:
     tags:
       - contract
     name: ProxyAdmin
-websites:
-  - url: https://rango.exchange/
-description: Cross-Chain DEX/Bridge Aggregator, +50 Supported Blockchains (EVM,
-  Cosmos, Solana, Tron, ...)
-social:
-  twitter:
-    - url: https://twitter.com/RangoExchange

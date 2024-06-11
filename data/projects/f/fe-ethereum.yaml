@@ -1,6 +1,8 @@
 version: 7
 name: fe-ethereum
 display_name: Fe
+websites:
+  - url: https://ethereum.org
 github:
   - url: https://github.com/ethereum/fe
 blockchain:
@@ -10,5 +12,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://ethereum.org

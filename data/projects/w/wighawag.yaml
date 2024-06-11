@@ -1,6 +1,13 @@
 version: 7
 name: wighawag
 display_name: Jolly Roger and Hardhat-deploy
+description: Build and Deploy for Eternity. Production-Ready Template To Build
+  Decentralised Apps and Games.
+websites:
+  - url: https://jolly-roger.eth.limo
+social:
+  twitter:
+    - url: https://twitter.com/jollyroger_eth
 github:
   - url: https://github.com/jolly-roger-eth
   - url: https://github.com/wighawag/hardhat-deploy
@@ -25,10 +32,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://jolly-roger.eth.limo
-description: Build and Deploy for Eternity. Production-Ready Template To Build
-  Decentralised Apps and Games.
-social:
-  twitter:
-    - url: https://twitter.com/jollyroger_eth

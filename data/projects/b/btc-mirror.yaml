@@ -1,6 +1,9 @@
 version: 7
 name: btc-mirror
 display_name: BtcMirror
+description: Real world ethereum
+websites:
+  - url: https://daimo.com
 github:
   - url: https://github.com/dcposch/btcmirror
 blockchain:
@@ -16,6 +19,3 @@ blockchain:
     tags:
       - contract
     name: BtcMirror
-websites:
-  - url: https://daimo.com
-description: Real world ethereum

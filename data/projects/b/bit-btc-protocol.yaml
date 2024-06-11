@@ -1,6 +1,12 @@
 version: 7
 name: bit-btc-protocol
 display_name: BitBTC Protocol
+description: BitBTC makes it easier for BTC to buy everything !
+websites:
+  - url: https://bitbtc.money
+social:
+  twitter:
+    - url: https://twitter.com/SatoshiNJunior
 github:
   - url: https://github.com/iBitLabs
 blockchain:
@@ -134,9 +140,3 @@ blockchain:
     tags:
       - contract
     name: unverified
-websites:
-  - url: https://bitbtc.money
-description: BitBTC makes it easier for BTC to buy everything !
-social:
-  twitter:
-    - url: https://twitter.com/SatoshiNJunior

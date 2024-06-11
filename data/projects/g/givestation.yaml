@@ -1,6 +1,10 @@
 version: 7
 name: givestation
 display_name: GiveStation
+description: A multi-chain grant dapp where contributors get rewarded for
+  funding ideas and projects in web3.
+websites:
+  - url: https://givestation.org
 github:
   - url: https://github.com/givestation
 blockchain:
@@ -17,7 +21,3 @@ blockchain:
       - deployer
       - eoa
 twitter: givestation
-websites:
-  - url: https://givestation.org
-description: A multi-chain grant dapp where contributors get rewarded for
-  funding ideas and projects in web3.

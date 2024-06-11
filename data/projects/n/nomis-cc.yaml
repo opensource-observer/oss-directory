@@ -1,6 +1,12 @@
 version: 7
 name: nomis-cc
 display_name: Nomis
+description: Web3 Reputation Scoring and Identity Protocol
+websites:
+  - url: https://nomis.cc
+social:
+  twitter:
+    - url: https://twitter.com/0xNomis
 github:
   - url: https://github.com/Nomis-cc
 blockchain:
@@ -17,9 +23,3 @@ blockchain:
       - eoa
       - wallet
     name: cryptobrelgin.eth
-websites:
-  - url: https://nomis.cc
-description: Web3 Reputation Scoring and Identity Protocol
-social:
-  twitter:
-    - url: https://twitter.com/0xNomis

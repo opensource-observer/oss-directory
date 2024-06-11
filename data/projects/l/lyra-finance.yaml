@@ -1,6 +1,13 @@
 version: 7
 name: lyra-finance
 display_name: Lyra Finance
+description: Lyra is a decentralized options and perpetuals protocol built on
+  Ethereum and the OP Stack.
+websites:
+  - url: https://docs.lyra.finance
+social:
+  twitter:
+    - url: https://twitter.com/lyrafinance
 github:
   - url: https://github.com/lyra-finance
 blockchain:
@@ -2320,10 +2327,3 @@ blockchain:
     tags:
       - contract
     name: OptionGreekCache
-websites:
-  - url: https://docs.lyra.finance
-description: Lyra is a decentralized options and perpetuals protocol built on
-  Ethereum and the OP Stack.
-social:
-  twitter:
-    - url: https://twitter.com/lyrafinance

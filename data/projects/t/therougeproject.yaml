@@ -1,6 +1,12 @@
 version: 7
 name: therougeproject
 display_name: Rouge Ticket
+description: Credentials NFT protocol
+websites:
+  - url: https://rouge.network/
+social:
+  twitter:
+    - url: https://twitter.com/rougetoken
 github:
   - url: https://github.com/therougeproject
 blockchain:
@@ -11,9 +17,3 @@ blockchain:
       - eoa
       - wallet
     name: rougetoken.eth
-websites:
-  - url: https://rouge.network/
-description: Credentials NFT protocol
-social:
-  twitter:
-    - url: https://twitter.com/rougetoken

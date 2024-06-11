@@ -1,6 +1,11 @@
 version: 7
 name: upchain-lbc-team
 display_name: Upchain DAO
+websites:
+  - url: https://learnblockchain.cn
+social:
+  twitter:
+    - url: https://twitter.com/UpchainDAO
 github:
   - url: https://github.com/lbc-team
 blockchain:
@@ -12,8 +17,3 @@ blockchain:
       - eoa
       - wallet
     name: tinyxiong.eth
-websites:
-  - url: https://learnblockchain.cn
-social:
-  twitter:
-    - url: https://twitter.com/UpchainDAO

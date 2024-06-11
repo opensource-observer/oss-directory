@@ -1,6 +1,12 @@
 version: 7
 name: kakarot-kkrt-labs
 display_name: Kakarot zkEVM
+description: building the modular zkEVM
+websites:
+  - url: https://www.kakarot.org
+social:
+  twitter:
+    - url: https://twitter.com/KakarotZkEvm
 github:
   - url: https://github.com/kkrt-labs
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://www.kakarot.org
-description: building the modular zkEVM
-social:
-  twitter:
-    - url: https://twitter.com/KakarotZkEvm

@@ -1,6 +1,12 @@
 version: 7
 name: ethernaut-cli
 display_name: Ethernaut CLI
+description: Educator and creator, working with Ethereum tech.
+websites:
+  - url: https://ajsantander.github.io/
+social:
+  twitter:
+    - url: https://twitter.com/the_ethernaut
 github:
   - url: https://github.com/theethernaut/ethernaut-cli
 npm:
@@ -25,9 +31,3 @@ blockchain:
       - eoa
       - wallet
     name: theethernaut.eth
-websites:
-  - url: https://ajsantander.github.io/
-description: Educator and creator, working with Ethereum tech.
-social:
-  twitter:
-    - url: https://twitter.com/the_ethernaut

@@ -1,6 +1,12 @@
 version: 7
 name: nftscan-official
 display_name: NFTScan
+description: The world's largest NFT data infrastructure, supporting 20+ chains.
+websites:
+  - url: https://www.nftscan.com/
+social:
+  twitter:
+    - url: https://twitter.com/nftscan_com
 github:
   - url: https://github.com/nftscan-official
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://www.nftscan.com/
-description: The world's largest NFT data infrastructure, supporting 20+ chains.
-social:
-  twitter:
-    - url: https://twitter.com/nftscan_com

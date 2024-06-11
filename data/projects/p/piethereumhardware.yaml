@@ -1,6 +1,10 @@
 version: 7
 name: piethereumhardware
 display_name: PiEthereumHardware
+description: Build hardware for all. Recently imported Pi Ethereum Hardware
+  Wallet repository from snar!
+websites:
+  - url: https://nftydaze.com/opensource/
 github:
   - url: https://github.com/piethereumhardware
 blockchain:
@@ -10,7 +14,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://nftydaze.com/opensource/
-description: Build hardware for all. Recently imported Pi Ethereum Hardware
-  Wallet repository from snar!

@@ -1,6 +1,12 @@
 version: 7
 name: gammaswap
 display_name: Gamma Swap Labs
+description: Oracle Free Volatility Dex
+websites:
+  - url: https://gammaswap.com/
+social:
+  twitter:
+    - url: https://twitter.com/GammaSwapLabs
 github:
   - url: https://github.com/gammaswap
 blockchain:
@@ -65,9 +71,3 @@ blockchain:
     tags:
       - deployer
       - eoa
-websites:
-  - url: https://gammaswap.com/
-description: Oracle Free Volatility Dex
-social:
-  twitter:
-    - url: https://twitter.com/GammaSwapLabs

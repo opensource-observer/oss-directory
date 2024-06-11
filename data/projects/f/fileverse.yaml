@@ -1,6 +1,12 @@
 version: 7
 name: fileverse
 display_name: Fileverse
+description: Self-sovereign collaboration suite –onchain, p2p, encrypted
+websites:
+  - url: https://fileverse.io/
+social:
+  twitter:
+    - url: https://twitter.com/fileverse
 github:
   - url: https://github.com/Fileverse
 blockchain:
@@ -11,9 +17,3 @@ blockchain:
       - eoa
       - wallet
     name: filevs.eth
-websites:
-  - url: https://fileverse.io/
-description: Self-sovereign collaboration suite –onchain, p2p, encrypted
-social:
-  twitter:
-    - url: https://twitter.com/fileverse

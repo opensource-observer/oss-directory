@@ -1,6 +1,7 @@
 version: 7
 name: crate-crypto
 display_name: Crate Crypto
+description: Open source cryptographic implementations. Mostly from IACR.
 github:
   - url: https://github.com/crate-crypto
 blockchain:
@@ -10,4 +11,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-description: Open source cryptographic implementations. Mostly from IACR.

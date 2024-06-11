@@ -1,6 +1,12 @@
 version: 7
 name: hausdao
 display_name: Public HAUS
+description: Community governance of the DAOhaus ecosystem
+websites:
+  - url: https://daohaus.club/
+social:
+  twitter:
+    - url: https://twitter.com/daohaus
 github:
   - url: https://github.com/hausdao
 blockchain:
@@ -22,9 +28,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://daohaus.club/
-description: Community governance of the DAOhaus ecosystem
-social:
-  twitter:
-    - url: https://twitter.com/daohaus

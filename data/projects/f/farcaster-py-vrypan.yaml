@@ -1,6 +1,11 @@
 version: 7
 name: farcaster-py-vrypan
 display_name: farcaster-py & fario
+websites:
+  - url: http://vrypan.net/
+social:
+  twitter:
+    - url: https://twitter.com/vrypan
 github:
   - url: https://github.com/vrypan/farcaster-py
   - url: https://github.com/vrypan/fario
@@ -12,8 +17,3 @@ blockchain:
       - eoa
       - wallet
     name: tx.vrypan.eth
-websites:
-  - url: http://vrypan.net/
-social:
-  twitter:
-    - url: https://twitter.com/vrypan

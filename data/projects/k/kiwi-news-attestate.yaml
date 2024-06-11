@@ -1,6 +1,11 @@
 version: 7
 name: kiwi-news-attestate
 display_name: Kiwi News
+websites:
+  - url: https://attestate.com
+  - url: https://news.kiwistand.com
+  - url: https://kiwinews.xyz
+  - url: https://kiwinews.io
 github:
   - url: https://github.com/attestate/kiwistand
   - url: https://github.com/attestate/awesome-kiwinews
@@ -62,8 +67,3 @@ blockchain:
       - eoa
       - wallet
     name: macbudkowski.eth
-websites:
-  - url: https://attestate.com
-  - url: https://news.kiwistand.com
-  - url: https://kiwinews.xyz
-  - url: https://kiwinews.io

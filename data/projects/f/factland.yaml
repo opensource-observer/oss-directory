@@ -1,6 +1,12 @@
 version: 7
 name: factland
 display_name: Factland
+description: Decentralized fact checking.
+websites:
+  - url: https://factland.org
+social:
+  twitter:
+    - url: https://twitter.com/FactlandDAO
 github:
   - url: https://github.com/Factland
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://factland.org
-description: Decentralized fact checking.
-social:
-  twitter:
-    - url: https://twitter.com/FactlandDAO

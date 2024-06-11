@@ -1,6 +1,12 @@
 version: 7
 name: opensensepw
 display_name: OpenSense
+description: A Smart Contract Security Collective
+websites:
+  - url: https://opensense.pw
+social:
+  twitter:
+    - url: https://twitter.com/opensensepw
 github:
   - url: https://github.com/opensensepw
 blockchain:
@@ -11,9 +17,3 @@ blockchain:
       - eoa
       - wallet
     name: alexmelo.eth
-websites:
-  - url: https://opensense.pw
-description: A Smart Contract Security Collective
-social:
-  twitter:
-    - url: https://twitter.com/opensensepw

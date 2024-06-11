@@ -1,6 +1,12 @@
 version: 7
 name: pancakeswap
 display_name: PancakeSwap
+description: Decentralized trading protocol on BNB Smart Chain
+websites:
+  - url: https://pancakeswap.finance
+social:
+  twitter:
+    - url: https://twitter.com/PancakeSwap
 github:
   - url: https://github.com/pancakeswap
 blockchain:
@@ -96,9 +102,3 @@ blockchain:
     tags:
       - contract
     name: NonfungiblePositionManager
-websites:
-  - url: https://pancakeswap.finance
-description: Decentralized trading protocol on BNB Smart Chain
-social:
-  twitter:
-    - url: https://twitter.com/PancakeSwap

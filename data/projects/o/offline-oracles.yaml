@@ -2,6 +2,8 @@ version: 7
 name: offline-oracles
 display_name: Offline Oracles
 description: An NFT project powering infrastructure to unbreak the internet
+websites:
+  - url: https://www.offlineoracles.com/
 github:
   - url: https://github.com/offline-Protocol
 blockchain:
@@ -12,9 +14,7 @@ blockchain:
       - contract
   - address: "0xE183dF30fd23cc15daf73a123E777B0aCb517C44"
     networks:
-      - base 
+      - base
     tags:
       - safe
       - wallet
-websites:
-  - url: https://www.offlineoracles.com/

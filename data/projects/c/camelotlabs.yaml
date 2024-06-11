@@ -1,6 +1,11 @@
 version: 7
 name: camelotlabs
 display_name: Camelot
+websites:
+  - url: https://app.camelot.exchange
+social:
+  twitter:
+    - url: https://twitter.com/camelotdex
 github:
   - url: https://github.com/camelotlabs
 blockchain:
@@ -145,8 +150,3 @@ blockchain:
     tags:
       - contract
     name: CamelotYakRouter
-websites:
-  - url: https://app.camelot.exchange
-social:
-  twitter:
-    - url: https://twitter.com/camelotdex

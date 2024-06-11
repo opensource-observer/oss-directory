@@ -1,6 +1,10 @@
 version: 7
 name: hardhat-nomicfoundation
 display_name: Hardhat
+description: We build open source software to unlock developer productivity in
+  the Ethereum ecosystem.
+websites:
+  - url: https://nomic.foundation/
 github:
   - url: https://github.com/nomicfoundation/hardhat
   - url: https://github.com/NomicFoundation/hardhat-vscode
@@ -20,7 +24,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://nomic.foundation/
-description: We build open source software to unlock developer productivity in
-  the Ethereum ecosystem.

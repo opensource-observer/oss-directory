@@ -1,6 +1,11 @@
 version: 7
 name: mirror
 display_name: Mirror
+websites:
+  - url: https://mirror.xyz
+social:
+  twitter:
+    - url: https://twitter.com/viamirror
 github:
   - url: https://github.com/mirror-xyz
 blockchain:
@@ -344,8 +349,3 @@ blockchain:
       - eoa
       - wallet
     name: discover.mirror.xyz
-websites:
-  - url: https://mirror.xyz
-social:
-  twitter:
-    - url: https://twitter.com/viamirror

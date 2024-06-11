@@ -1,6 +1,8 @@
 version: 7
 name: crunchdao
 display_name: CrunchDAO
+websites:
+  - url: https://www.crunchdao.com/
 github:
   - url: https://github.com/crunchdao
 blockchain:
@@ -11,5 +13,3 @@ blockchain:
       - eoa
       - wallet
     name: datacrunch.eth
-websites:
-  - url: https://www.crunchdao.com/

@@ -1,6 +1,8 @@
 version: 7
 name: crowdfundedcures
 display_name: Crowd Funded Cures
+websites:
+  - url: https://crowdfundedcures.org
 github:
   - url: https://github.com/crowdfundedcures
 blockchain:
@@ -11,5 +13,3 @@ blockchain:
       - eoa
       - wallet
     name: pfs.eth
-websites:
-  - url: https://crowdfundedcures.org

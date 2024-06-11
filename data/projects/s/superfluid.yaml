@@ -1,6 +1,12 @@
 version: 7
 name: superfluid
 display_name: Superfluid
+description: Rails for realtime finance
+websites:
+  - url: https://www.superfluid.finance/
+social:
+  twitter:
+    - url: https://twitter.com/Superfluid_HQ
 github:
   - url: https://github.com/superfluid-finance
 blockchain:
@@ -890,9 +896,3 @@ blockchain:
     tags:
       - contract
     name: VestingScheduler
-websites:
-  - url: https://www.superfluid.finance/
-description: Rails for realtime finance
-social:
-  twitter:
-    - url: https://twitter.com/Superfluid_HQ

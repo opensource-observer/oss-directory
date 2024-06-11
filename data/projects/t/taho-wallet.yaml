@@ -1,6 +1,12 @@
 version: 7
 name: taho-wallet
 display_name: Taho
+description: Taho, the community owned and operated Web3 wallet.
+websites:
+  - url: https://taho.xyz
+social:
+  twitter:
+    - url: https://twitter.com/taho_xyz
 github:
   - url: https://github.com/tahowallet
 blockchain:
@@ -12,9 +18,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://taho.xyz
-description: Taho, the community owned and operated Web3 wallet.
-social:
-  twitter:
-    - url: https://twitter.com/taho_xyz

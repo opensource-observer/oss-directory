@@ -1,6 +1,11 @@
 version: 7
 name: voteagora
 display_name: Agora
+websites:
+  - url: https://www.nounsagora.com/
+social:
+  twitter:
+    - url: https://twitter.com/nounsagora
 github:
   - url: https://github.com/voteagora/agora
   - url: https://github.com/voteagora/liquid-delegator
@@ -24,8 +29,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://www.nounsagora.com/
-social:
-  twitter:
-    - url: https://twitter.com/nounsagora

@@ -1,6 +1,11 @@
 version: 7
 name: op
 display_name: OP
+websites:
+  - url: https://optimism.io
+social:
+  twitter:
+    - url: https://twitter.com/optimismFND
 github:
   - url: https://github.com/ethereum-optimism
 blockchain:
@@ -26,7 +31,6 @@ blockchain:
     networks:
       - optimism
     tags:
-      # - deployer
       - eoa
   - address: "0x1b36291ff8f503cfb4e3babe198a40398bcf54ad"
     networks:
@@ -81,8 +85,3 @@ blockchain:
       - contract
       - proxy
     name: "Optimism: L2StandardBridge"
-websites:
-  - url: https://optimism.io
-social:
-  twitter:
-    - url: https://twitter.com/optimismFND

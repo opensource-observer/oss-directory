@@ -1,6 +1,12 @@
 version: 7
 name: pulsarswap
 display_name: Pulsar Protocol
+description: Swap and long-term invest crypto on TWAMM protocol
+websites:
+  - url: https://pulsarswap.com
+social:
+  twitter:
+    - url: https://twitter.com/PulsarSwap
 github:
   - url: https://github.com/PulsarSwap
 blockchain:
@@ -11,9 +17,3 @@ blockchain:
       - eoa
       - wallet
     name: 0xshowen.eth
-websites:
-  - url: https://pulsarswap.com
-description: Swap and long-term invest crypto on TWAMM protocol
-social:
-  twitter:
-    - url: https://twitter.com/PulsarSwap

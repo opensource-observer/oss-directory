@@ -1,6 +1,9 @@
 version: 7
 name: pool-together
 display_name: PoolTogether
+description: PoolTogether is a protocol for no-loss prize games on the Ethereum blockchain
+websites:
+  - url: https://www.pooltogether.com
 github:
   - url: https://github.com/pooltogether
 blockchain:
@@ -374,6 +377,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://www.pooltogether.com
-description: PoolTogether is a protocol for no-loss prize games on the Ethereum blockchain

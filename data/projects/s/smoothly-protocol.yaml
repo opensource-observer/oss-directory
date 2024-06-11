@@ -1,6 +1,9 @@
 version: 7
 name: smoothly-protocol
 display_name: Smoothly
+description: MEV Smoothing Pool for Solo Stakers
+websites:
+  - url: https://smoothly.money
 github:
   - url: https://github.com/Smoothly-Protocol
 blockchain:
@@ -17,6 +20,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://smoothly.money
-description: MEV Smoothing Pool for Solo Stakers

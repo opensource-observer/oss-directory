@@ -1,6 +1,12 @@
 version: 7
 name: rocket-pool
 display_name: Rocket Pool
+description: Rocket Pool - Decentralised Ethereum Proof of Stake Protocol
+websites:
+  - url: https://rocketpool.net
+social:
+  twitter:
+    - url: https://twitter.com/Rocket_Pool
 github:
   - url: https://github.com/rocket-pool
 blockchain:
@@ -16,9 +22,3 @@ blockchain:
     tags:
       - deployer
       - eoa
-websites:
-  - url: https://rocketpool.net
-description: Rocket Pool - Decentralised Ethereum Proof of Stake Protocol
-social:
-  twitter:
-    - url: https://twitter.com/Rocket_Pool
