@@ -5,7 +5,6 @@ description: Curating human insight
 websites:
   - url: https://www.weponder.io
   - url: https://ponder.social
-  - url: https://weponder.io
 social:
   farcaster:
     - url: https://warpcast.com/survey
@@ -17,7 +16,7 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
   - address: "0x81947aadf64cd22ce96999e4c76efb0765839bef"
     networks:
       - any_evm
