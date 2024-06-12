@@ -16,7 +16,9 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
+      - mode
+      - optimism
   - address: "0xb29050965a5ac70ab487aa47546cdcbc97dae45d"
     networks:
       - any_evm
