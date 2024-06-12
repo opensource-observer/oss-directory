@@ -7,7 +7,6 @@ websites:
 social:
   twitter:
     - url: https://x.com/dHedgeOrg
-    - url: https://twitter.com/dhedgeorg
   farcaster:
     - url: https://warpcast.com/dhedge
 github:
@@ -18,7 +17,7 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
   - address: "0xef31d75a2f85cfdd9032158a2ceb773c84d79192"
     networks:
       - any_evm
