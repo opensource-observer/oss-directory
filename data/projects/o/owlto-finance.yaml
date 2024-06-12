@@ -17,10 +17,13 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
+      - zora
   - address: "0xAADEd943BeF6115DaB272C90ef3a1E01a358336d"
     tags:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - optimism
+      - base
+      - zora
