@@ -5,13 +5,9 @@ websites:
   - url: https://zkp2p.xyz
 github:
   - url: https://github.com/zkp2p
+npm:
+  - url: https://www.npmjs.com/package/@zkp2p/circuits-circom-helpers
 blockchain:
-  - address: "0xdd93E0f5fC32c86A568d87Cb4f08598f55E980F3"
-    tags:
-      - eoa
-      - deployer
-    networks:
-      - base
   - address: "0xeAC1f6bd8339B9DC71D08beeA14EBFd454183640"
     tags:
       - eoa
@@ -30,3 +26,43 @@ blockchain:
     tags:
       - eoa
       - wallet
+  - address: "0xB084f36C5B7193af8Dd17025b36FBe2DD496a06f"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xbcE0B9e082F6619411dd8d029DFf8116BA36A76D"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xf3c9a6CA0DF1950a62ea868704678b1e8C34918a"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x4Edc42B8925CF307C3DD5e7Fd9a3B04453A3e37d"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xB4739590a00b47AF7461AbBC013b9047f66Dd678"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x4281ceE3aE43D19a2cF9a6002cb7EA90869ad4D5"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xaB6b0b5666DC2C8357fdcD8A1E96973932dd1545"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x94874B3A294BEcc3DEa2c320c300d2D2a4b25451"
+    networks:
+      - base
+    tags:
+      - contract
