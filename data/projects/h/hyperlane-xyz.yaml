@@ -3,5 +3,16 @@ name: hyperlane-xyz
 display_name: Hyperlane
 websites:
   - url: https://www.hyperlane.xyz/
+  - url: https://docs.hyperlane.xyz/
+social:
+  twitter:
+    - url: https://x.com/hyperlane
 github:
   - url: https://github.com/hyperlane-xyz
+blockchain:
+  - address: "0xa7ECcdb9Be08178f896c26b7BbD8C3D4E844d9Ba"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

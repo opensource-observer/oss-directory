@@ -2,10 +2,22 @@ version: 7
 name: zkp2p
 display_name: ZKP2P Fiat On Ramp
 websites:
-  - url: https://zkp2p.xyz/
+  - url: https://zkp2p.xyz
 github:
   - url: https://github.com/zkp2p
 blockchain:
+  - address: "0xdd93E0f5fC32c86A568d87Cb4f08598f55E980F3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+  - address: "0xeAC1f6bd8339B9DC71D08beeA14EBFd454183640"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
   - address: "0x41c41ed0db0ed8bdb0bb3a6e9d0399b88e98c4c2"
     networks:
       - optimism

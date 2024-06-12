@@ -6,6 +6,16 @@ websites:
   - url: https://aragon.org
 social:
   twitter:
+    - url: https://x.com/AragonProject
     - url: https://twitter.com/AragonProject
+  farcaster:
+    - url: https://warpcast.com/aragon
 github:
   - url: https://github.com/aragon
+blockchain:
+  - address: "0x187a34c86aA6378333cE9033Aa34718D2CEdEd2C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,9 +1,20 @@
 version: 7
 name: defieye
 display_name: DeFiEye
+websites:
+  - url: https://minibridge.chaineye.tools/
+social:
+  twitter:
+    - url: https://x.com/Chaineye_tools
 github:
   - url: https://github.com/DeFiEye
 blockchain:
+  - address: "0xe179383DE91AB7300b2f30f83d743c7cA557eb23"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xe6d7b9fb31b93e542f57c7b6bfa0a5a48efc9d0f"
     networks:
       - any_evm

@@ -5,10 +5,26 @@ websites:
   - url: https://copin.io
 social:
   twitter:
-    - url: https://twitter.com/Copin_io
+    - url: https://x.com/Copin_io
+  farcaster:
+    - url: https://warpcast.com/~/channel/copin
 github:
   - url: https://github.com/copin-protocol
 blockchain:
+  - address: "0xd1b8Ba87FE7e8997Ac77Ab8acA37a95b300dD39c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+      - mode
+      - optimism
+  - address: "0x312EcE2E30C812311A3B9eC4B16cD93cd64841E3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism
   - address: "0x1a561e43f264952d7b4f25fb4967122c87618beb"
     networks:
       - any_evm

@@ -1,9 +1,22 @@
 version: 7
 name: opti-domains
 display_name: Opti.domains
+websites:
+  - url: https://opti.domains
+social:
+  twitter:
+    - url: https://x.com/optidomains
+  farcaster:
+    - url: https://warpcast.com/optidomains.eth
 github:
   - url: https://github.com/Opti-domains
 blockchain:
+  - address: "0x888811AC3DC01628eBD22b1Aa01a35825aD997e8"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
   - address: "0x8b6c27ec466923fad66ada94c78aa320ea876969"
     networks:
       - any_evm

@@ -2,6 +2,18 @@ version: 7
 name: odos-xyz
 display_name: Odos
 websites:
-  - url: https://www.odos.xyz/
+  - url: https://www.odos.xyz
+social:
+  twitter:
+    - url: https://x.com/odosprotocol
+  farcaster:
+    - url: https://warpcast.com/odos
 github:
   - url: https://github.com/Odos-xyz
+blockchain:
+  - address: "0x6De9109a2333845A15ddE1f2F0c020b37421e1f5"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

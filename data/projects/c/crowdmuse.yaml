@@ -3,13 +3,27 @@ name: crowdmuse
 display_name: Crowdmuse
 description: the collaboration network
 websites:
-  - url: https://crowdmuse.com
+  - url: https://crowdmuse.xyz
 social:
   twitter:
     - url: https://twitter.com/crowdmuse
+  farcaster:
+    - url: https://warpcast.com/crowdmuse
 github:
   - url: https://github.com/Crowdmuse
 blockchain:
+  - address: "0x4B921B8AFDc9cCFc7297Bbe6c3a7eACe7dA93D92"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+  - address: "0xCBfa3c438EBb86FF17b075a0a0b6f15a08DAFEA8"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
   - address: "0xaec54e3a2f9a1745ff724c5cd91c9beed77a0651"
     networks:
       - mainnet

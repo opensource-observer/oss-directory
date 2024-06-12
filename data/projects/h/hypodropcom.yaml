@@ -4,6 +4,7 @@ display_name: HypoDrop
 description: Advertising Platform and Community based DAO Supporting Early NFT,
   Web3 Projects
 websites:
+  - url: https://opensea.io/collection/crystal-demons
   - url: https://hypodrop.com
   - url: https://zora.co/collect/zora:0xed4700171b96848282b21e9099ee9a28253cc168/1
   - url: https://zora.co/collect/base:0x9f0763ddbeaf0de55ce6e13a4ed3c37e0f2445c7
@@ -16,10 +17,19 @@ websites:
   - url: https://zora.co/collect/oeth:0x8d3e56eb51e5d139f58f6423e6fcfbbaf54cf103/1
 social:
   twitter:
+    - url: https://x.com/everythinglass
     - url: https://x.com/Hypodrop
+  farcaster:
+    - url: https://warpcast.com/hypodropd
 github:
   - url: https://github.com/HypoDropCom
 blockchain:
+  - address: "0xAc279Cf9c0Bbd672fBECB4dB81c2ee2F3E2C4753"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism
   - address: "0xF5dd11c8394c92483D462ffE78bcD0e2A72BCb0c"
     networks:
       - any_evm

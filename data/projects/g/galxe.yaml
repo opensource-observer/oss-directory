@@ -4,13 +4,19 @@ display_name: Galxe
 description: Enabling seamless Web3 experiences through modular AI, digital
   identity, and blockchain solutions.
 websites:
-  - url: https://galxe.com
+  - url: https://www.galxe.com
 social:
   twitter:
-    - url: https://twitter.com/Galxe
+    - url: https://x.com/Galxe
 github:
   - url: https://github.com/Galxe
 blockchain:
+  - address: "0xba5e24A43886C62676F06615dE9eeDd0281b5bb4"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
   - address: "0x000061c160273811279508582a4afabc263d98d2"
     networks:
       - any_evm

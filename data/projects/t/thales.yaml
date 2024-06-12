@@ -3,13 +3,25 @@ name: thales
 display_name: Thales
 description: Permissionless Parimutuel markets
 websites:
+  - url: https://thales.io
   - url: https://thalesmarket.io
+  - url: https://overtimemarkets.xyz
 social:
   twitter:
+    - url: https://x.com/thales_io
     - url: https://twitter.com/thalesmarket
+  farcaster:
+    - url: https://warpcast.com/thales
 github:
   - url: https://github.com/thales-markets
 blockchain:
+  - address: "0x5aAb1dAE1ef9d93B7095D9De9C0EBB150d0c37F0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+      - optimism
   - address: "0x34ad8d8c3e12b5a500fe983c43f2a0306dcf0ad1"
     networks:
       - any_evm

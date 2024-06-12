@@ -1,9 +1,22 @@
 version: 7
 name: jojoexchange
 display_name: JOJO Exchange
+websites:
+  - url: https://app.jojo.exchange
+social:
+  twitter:
+    - url: https://x.com/jojo_exchange
+  farcaster:
+    - url: https://warpcast.com/jojo-exchange
 github:
   - url: https://github.com/jojoexchange
 blockchain:
+  - address: "0x9C9DD45db8045954309078dC5f235024bC75Cb81"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
   - address: "0xbd0c01649f81109984e659043a0d898014a75622"
     networks:
       - any_evm

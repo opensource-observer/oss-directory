@@ -1,9 +1,14 @@
 version: 7
 name: lxdao-official
 display_name: LXDAO
+websites:
+  - url: https://fairsharing.xyz/
 social:
   twitter:
+    - url: https://twitter.com/eth_mikely
     - url: https://twitter.com/LXDAO_Official
+  farcaster:
+    - url: https://warpcast.com/mikely
 github:
   - url: https://github.com/lxdao-official
 npm:
@@ -11,6 +16,12 @@ npm:
   - url: https://www.npmjs.com/package/@lxdao/uploader3
   - url: https://www.npmjs.com/package/@lxdao/uploader3-connector
 blockchain:
+  - address: "0x9324AD72F155974dfB412aB6078e1801C79A8b78"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x36c4f0d9fd9ed768491ec2c492634218bc3e5a72"
     networks:
       - mainnet

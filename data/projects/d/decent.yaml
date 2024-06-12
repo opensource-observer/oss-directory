@@ -1,15 +1,22 @@
 version: 7
 name: decent
 display_name: Decent
-description: Official team repository for https://decent.xyz
 websites:
   - url: https://decent.xyz
 social:
   twitter:
     - url: https://twitter.com/decentxyz
+  farcaster:
+    - url: https://warpcast.com/decentxyz
 github:
   - url: https://github.com/decentxyz
 blockchain:
+  - address: "0x690f4e2f19717A06E1C146B2dCE68c2d23e36f4c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xfbe304258dcf193b9a320541985e2078ddb34287"
     networks:
       - any_evm

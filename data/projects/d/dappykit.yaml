@@ -1,9 +1,17 @@
 version: 7
 name: dappykit
 display_name: DappyKit
+websites:
+  - url: https://dappykit.org
 github:
   - url: https://github.com/DappyKit
 blockchain:
+  - address: "0x6A8dE9614c26eAdCAA8CEf01Ed64EC5463720f89"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism
   - address: "0x65671615f3b0b0a08fcbea7248c5f886f10003c9"
     networks:
       - any_evm

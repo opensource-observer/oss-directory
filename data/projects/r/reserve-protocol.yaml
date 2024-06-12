@@ -1,5 +1,38 @@
 version: 7
 name: reserve-protocol
 display_name: Reserve Protocol
+websites:
+  - url: https://reserve.org/
+  - url: https://app.reserve.org/
+social:
+  twitter:
+    - url: https://x.com/reserveprotocol/
+  farcaster:
+    - url: https://warpcast.com/reserve
 github:
   - url: https://github.com/reserve-protocol
+blockchain:
+  - address: "0xD46B8bB0c1D1884e2cE6356b20CC66E1378410C5"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x1f4b58851cE2F1b2FF906042D32287A0FDF1B899"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xa31d555b08fAA0701cb0a8B2A334f7fC629984CF"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xD4fda2C612dDc8822206446C81927936A63368E5"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

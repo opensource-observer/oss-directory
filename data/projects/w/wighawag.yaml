@@ -4,16 +4,60 @@ display_name: Jolly Roger and Hardhat-deploy
 description: Build and Deploy for Eternity. Production-Ready Template To Build
   Decentralised Apps and Games.
 websites:
+  - url: https://ronan.eth.limo
+  - url: https://etherplay.io
+  - url: https://stratagems.world
   - url: https://jolly-roger.eth.limo
 social:
   twitter:
+    - url: https://x.com/wighawag
     - url: https://twitter.com/jollyroger_eth
+  farcaster:
+    - url: https://warpcast.com/ronan.eth
 github:
+  - url: https://github.com/wighawag/solidity-kit
+  - url: https://github.com/wighawag/fuzd
+  - url: https://github.com/wighawag/missiv
+  - url: https://github.com/etherplay/ethernal
+  - url: https://github.com/etherplay/conquest-eth
+  - url: https://github.com/wighawag/named-logs
+  - url: https://github.com/wighawag/stratagems
+  - url: https://github.com/wighawag/catacombs
+  - url: https://github.com/wighawag/bomber-woman
+  - url: https://github.com/wighawag/ldenv
+  - url: https://github.com/wighawag/as-soon
+  - url: https://github.com/wighawag/rocketh
+  - url: https://github.com/etherplay/secp256k1-db
+  - url: https://github.com/wighawag/clones-with-immutable-args
+  - url: https://github.com/wighawag/autonomous-dungeon
+  - url: https://github.com/wighawag/vitest-solidity-coverage
+  - url: https://github.com/wighawag/solidity-proxy
+  - url: https://github.com/wighawag/bleeps
+  - url: https://github.com/wighawag/forge-exec
+  - url: https://github.com/wighawag/forge-deploy
+  - url: https://github.com/wighawag/ethereum-tx-observer
+  - url: https://github.com/wighawag/the-bleep-machine
+  - url: https://github.com/wighawag/mandalas
+  - url: https://github.com/wighawag/transfer-gateway
+  - url: https://github.com/wighawag/eip721-subgraph
+  - url: https://github.com/wighawag/hardhat-preprocessor
+  - url: https://github.com/wighawag/blockies-nft
+  - url: https://github.com/wighawag/pwag
+  - url: https://github.com/wighawag/yooloot
+  - url: https://github.com/wighawag/universal-forwarder
+  - url: https://github.com/wighawag/erc721-lease
+  - url: https://github.com/wighawag/ethereum-contracts-test-suite
   - url: https://github.com/jolly-roger-eth
   - url: https://github.com/wighawag/hardhat-deploy
 npm:
   - url: https://www.npmjs.com/package/hardhat-deploy
 blockchain:
+  - address: "0xbE19B59E8C588d68f475A407C7BA5fE813AEb792"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
   - address: "0xf0d7a8198d75e10517f035cf11b928e9e2ab20f4"
     networks:
       - any_evm

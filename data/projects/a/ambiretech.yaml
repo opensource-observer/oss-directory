@@ -8,10 +8,18 @@ websites:
   - url: https://www.ambire.com
 social:
   twitter:
-    - url: https://twitter.com/AmbireWallet
+    - url: https://x.com/ambirewallet
+  farcaster:
+    - url: https://warpcast.com/ambirewallet
 github:
   - url: https://github.com/ambiretech
 blockchain:
+  - address: "0x093bf230818BdB59D33494Fa95F0BD6F05083c64"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x23c2c34f38ce66ccc10e71e9bb2a06532d52c5e9"
     networks:
       - mainnet
