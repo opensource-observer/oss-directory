@@ -7,7 +7,6 @@ websites:
 social:
   twitter:
     - url: https://x.com/niftykitapp
-    - url: https://twitter.com/niftykitapp
   farcaster:
     - url: https://warpcast.com/niftykitapp
 github:
@@ -18,7 +17,7 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
   - address: "0x9db006063ee2049a35624bcce32945e524105401"
     networks:
       - any_evm
