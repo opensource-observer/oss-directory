@@ -8,15 +8,10 @@ websites:
 github:
   - url: https://github.com/zkemail
 blockchain:
-  - address: "0xdd93E0f5fC32c86A568d87Cb4f08598f55E980F3"
-    tags:
-      - eoa
-      - deployer
-    networks:
-      - any_evm
   - address: "0x35292bbd442373046a6fb4bf7e2529fa9a8d5bb0"
     networks:
       - any_evm
     tags:
       - eoa
       - wallet
+  
