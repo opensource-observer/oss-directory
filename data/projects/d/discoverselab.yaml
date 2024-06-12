@@ -3,7 +3,6 @@ name: discoverselab
 display_name: Soulcial
 websites:
   - url: https://soulcial.network
-  - url: https://app.soulcial.network
 social:
   twitter:
     - url: https://twitter.com/SoulcialGlobal
@@ -15,7 +14,7 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - optimism
   - address: "0xb4d48d20DA75965C38007B4BaD7F284828661838"
     tags:
       - eoa
