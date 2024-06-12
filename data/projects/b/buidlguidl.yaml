@@ -17,19 +17,19 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - optimism
   - address: "0xF98350dB64e9982Bda4bd28B78dC06F23B3f0359"
     tags:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
   - address: "0xDc045D56E146844e899Ad3b1A979180BDedbF15B"
     tags:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - optimism
   - address: "0x0eb2ab241210900aeac2fba054dd605355fe2490"
     networks:
       - mainnet
