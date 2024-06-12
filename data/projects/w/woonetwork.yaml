@@ -8,7 +8,6 @@ websites:
 social:
   twitter:
     - url: https://x.com/_WOOFi
-    - url: https://twitter.com/_woofi
   farcaster:
     - url: https://warpcast.com/~/channel/woofi
 github:
@@ -25,7 +24,8 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
+      - optimism
   - address: "0xa113d3b08df49d442fa1c0b47a82ad95ad19c0fb"
     networks:
       - any_evm
