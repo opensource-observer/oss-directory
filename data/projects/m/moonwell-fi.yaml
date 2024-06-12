@@ -6,7 +6,6 @@ websites:
 social:
   twitter:
     - url: https://x.com/MoonwellDeFi
-    - url: https://twitter.com/MoonwellDeFi
   farcaster:
     - url: https://warpcast.com/moonwell
 github:
@@ -35,7 +34,7 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
   - address: "0x4f56443f075ef5c972a76365606bfbdbd37e146f"
     networks:
       - optimism
