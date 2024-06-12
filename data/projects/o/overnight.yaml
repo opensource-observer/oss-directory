@@ -2,8 +2,6 @@ version: 7
 name: overnight
 display_name: Overnight+
 websites:
-  - url: https://overnight.fi/
-  - url: https://app.overnight.fi
   - url: https://overnight.fi
 social:
   twitter:
@@ -16,7 +14,8 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
+      - optimism
   - address: "0x5cb01385d3097b6a189d1ac8ba3364d900666445"
     networks:
       - any_evm
