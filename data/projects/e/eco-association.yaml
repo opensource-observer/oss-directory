@@ -9,7 +9,7 @@ websites:
 social:
   twitter:
     - url: https://x.com/beam_eco
-    - url: https://twitter.com/ecodotorg
+    - url: https://x.com/ecodotorg
   farcaster:
     - url: https://warpcast.com/~/channel/beam
 github:
@@ -40,3 +40,9 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0xaE0c5140744bfC6bC33CE73298F10F7B538f02DD"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
