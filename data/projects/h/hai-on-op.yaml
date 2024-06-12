@@ -3,7 +3,6 @@ name: hai-on-op
 display_name: Let"s Get HAI
 websites:
   - url: https://www.letsgethai.com/
-  - url: https://letsgethai.com/
 social:
   twitter:
     - url: https://x.com/letsgethai
@@ -17,7 +16,7 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - optimism
   - address: "0x7cb4a147a54e1406aea3c8be623a26bdd554322b"
     networks:
       - optimism
