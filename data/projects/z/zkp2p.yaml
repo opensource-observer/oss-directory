@@ -11,13 +11,13 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
   - address: "0xeAC1f6bd8339B9DC71D08beeA14EBFd454183640"
     tags:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
   - address: "0x41c41ed0db0ed8bdb0bb3a6e9d0399b88e98c4c2"
     networks:
       - optimism
