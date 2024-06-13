@@ -1,0 +1,20 @@
+version: 7
+name: ogs-base
+display_name: onchain gaias
+websites:
+  - url: https://gaias.xyz
+  - url: https://zora.co/collect/base:0x3a56ed006593740eb90e0dc9c45005933d27c8a2/2
+social:
+  twitter:
+    - url: https://x.com/onchaingaias
+  farcaster:
+    - url: https://warpcast.com/~/channel/ogs
+github:
+  - url: https://github.com/ogs-base
+blockchain:
+  - address: "0x72c3c8b0CAcDF6e36b39C9462A42756B2a294cCb"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base

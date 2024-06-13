@@ -1,0 +1,22 @@
+version: 7
+name: nogem-app
+display_name: Nogem
+websites:
+  - url: https://nogem.app/
+social:
+  twitter:
+    - url: https://twitter.com/nogem_app
+  farcaster:
+    - url: https://warpcast.com/nogem
+github:
+  - url: https://github.com/nogem-app
+blockchain:
+  - address: "0x004fbB1E3Ae907fA7fECcbCF8e3607C9911Eb523"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+      - mode
+      - optimism
+      - zora

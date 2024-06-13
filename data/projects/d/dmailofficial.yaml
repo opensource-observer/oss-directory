@@ -1,0 +1,27 @@
+version: 7
+name: dmailofficial
+display_name: Dmail Network
+websites:
+  - url: https://dmail.ai/
+  - url: https://mail.dmail.ai/
+  - url: https://subscription.dmail.ai/
+social:
+  twitter:
+    - url: https://x.com/Dmailofficial
+  farcaster:
+    - url: https://warpcast.com/alphayiyi
+github:
+  - url: https://github.com/dmailofficial
+blockchain:
+  - address: "0x0fF213846D42528A4CA24f8079f85b8044AcfA7B"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+  - address: "0x21fE28d5A0b6d5dbd1D72Ceb3F0326D420989Db9"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism

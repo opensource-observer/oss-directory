@@ -1,0 +1,22 @@
+version: 7
+name: morkiexyz
+display_name: Morkie
+websites:
+  - url: https://morkie.xyz/
+social:
+  twitter:
+    - url: https://x.com/_morkie
+  farcaster:
+    - url: https://warpcast.com/morkie
+github:
+  - url: https://github.com/Morkiexyz
+blockchain:
+  - address: "0xA239366d40b724dD2b7F1E5750E82cf4D56Aa7c2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+      - mode
+      - optimism
+      - zora

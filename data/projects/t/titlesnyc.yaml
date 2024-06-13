@@ -1,0 +1,19 @@
+version: 7
+name: titlesnyc
+display_name: TITLES
+websites:
+  - url: https://titles.xyz/
+social:
+  twitter:
+    - url: https://x.com/titlesxyz
+  farcaster:
+    - url: https://warpcast.com/titlesxyz
+github:
+  - url: https://github.com/titlesnyc
+blockchain:
+  - address: "0xEf915757D49d75FB6E9062Fb433ECf9D53caF4AB"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

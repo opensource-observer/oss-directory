@@ -1,0 +1,21 @@
+version: 7
+name: withfabricxyz
+display_name: Hypersub
+websites:
+  - url: https://hypersub.xyz
+social:
+  twitter:
+    - url: https://twitter.com/withfabricxyz
+  farcaster:
+    - url: https://warpcast.com/nonlinear.eth
+    - url: https://warpcast.com/fabric
+    - url: https://warpcast.com/hypersub
+github:
+  - url: https://github.com/withfabricxyz
+blockchain:
+  - address: "0xc0A223038dc923fdEf407c741a4d187ef22c2889"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

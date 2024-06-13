@@ -1,0 +1,17 @@
+version: 7
+name: synonymfinance
+display_name: Synonym Finance
+websites:
+  - url: https://www.synonym.finance/
+social:
+  twitter:
+    - url: https://x.com/synonymfinance
+github:
+  - url: https://github.com/SynonymFinance
+blockchain:
+  - address: "0x0362C2f89a548e9c246C27D5846A77421A2B7e44"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

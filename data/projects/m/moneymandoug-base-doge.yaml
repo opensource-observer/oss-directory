@@ -1,0 +1,17 @@
+version: 7
+name: moneymandoug-base-doge
+display_name: BaseDoge
+websites:
+  - url: https://www.basedoge.xyz/
+social:
+  twitter:
+    - url: https://twitter.com/DogeOfBase
+github:
+  - url: https://github.com/MoneyManDoug/BaseDoge-contract
+blockchain:
+  - address: "0xA5eEb05F133D3ed8adD363b05c227921f2Cf0a85"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
