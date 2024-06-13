@@ -9,9 +9,11 @@ social:
 github:
   - url: https://github.com/dropframe-xyz
 blockchain:
-  - address: "0x82103090b7A166F39E28aA5c867FeB96AF7B0204"
+  - address: "0x0000000000003d61b3d0a96b70b9c9006947759c"
     tags:
-      - eoa
-      - deployer
+      - contract
+      - factory
     networks:
       - base
+    name:
+      - MintFactory

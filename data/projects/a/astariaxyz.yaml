@@ -14,4 +14,9 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
+  - address: "0x00000000000cC7ba78E64E86B2Bd59B1ae7F569E"
+    tags:
+      - contract
+    networks:
+      - base
