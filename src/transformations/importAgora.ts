@@ -153,6 +153,9 @@ const agoraToOsoProject = (agoraProj: AgoraProject): Project => {
   }
   if (githubUrls.length > 0) {
     result.github = strArrToUrlArr(githubUrls);
+    // Extract GitHub repo owner
+    const repoOwner = _.toLower(githubUrls[0].split("/")[3]);
+    result.name = `${repoOwner}-${getOsoName(agoraProj.name)}`;
   }
   if (npmUrls.length > 0) {
     result.npm = strArrToUrlArr(npmUrls);
