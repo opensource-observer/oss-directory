@@ -14,7 +14,7 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - mode
   - address: "0xDd655969E158efEDD57A4c483B420af51f357c79"
     tags:
       - eoa
