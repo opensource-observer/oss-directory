@@ -5,14 +5,14 @@ github:
   - url: https://github.com/swapmode
 blockchain:
   - address: "0x03d4c4b1b115c068ef864de2e21e724a758892a2"
+    networks:
+      - mode
     tags:
       - eoa
       - deployer
-    networks:
-      - mode
   - address: "0xf6a76dd2f802226a757b875af3da36b0bf5f7ec7"
+    networks:
+      - mode
     tags:
       - eoa
       - deployer
-    networks:
-      - mode
