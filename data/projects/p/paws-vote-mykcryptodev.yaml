@@ -1,0 +1,11 @@
+version: 7
+name: paws-vote-mykcryptodev
+display_name: PAWS Wildlife Room Onchain Vote in a Frame
+github:
+  - url: https://github.com/mykcryptodev/paws-vote
+blockchain:
+  - address: "0xd1fcb4bdbde69f04540d2c52a81ae33abea46400"
+    networks:
+      - base
+    tags:
+      - contract
