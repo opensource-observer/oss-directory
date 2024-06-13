@@ -17,4 +17,5 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - any_evm
+      - base
+      - mode
