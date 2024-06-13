@@ -1,0 +1,23 @@
+version: 7
+name: bored-town
+display_name: Bored Town
+github:
+  - url: https://github.com/bored-town/contracts
+  - url: https://github.com/bored-town/op-airdrop4
+  - url: https://github.com/bored-town/sonocrew
+blockchain:
+  - address: "0x28e43bb3ee202e1da587c88b0a8398309e8d4c2d"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x0ff79617696445c4a0cbf48bc1c23d5cbb65d335"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xc14f462e63f36d9be62b2fbb7595e844d3bc18ee"
+    networks:
+      - mode
+    tags:
+      - contract

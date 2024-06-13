@@ -1,0 +1,16 @@
+version: 7
+name: guacbase-dailofrog
+display_name: Guac (Farcaster)
+github:
+  - url: https://github.com/dailofrog/guacbase
+blockchain:
+  - address: "0xa5117bc0eb877559a7de4d8f994b3a790f409099"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x9a2270cc7d21be4225d2c5c588e86c24395f77c1"
+    networks:
+      - base
+    tags:
+      - contract
