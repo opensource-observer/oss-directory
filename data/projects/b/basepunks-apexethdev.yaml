@@ -1,0 +1,11 @@
+version: 7
+name: basepunks-apexethdev
+display_name: Based Onchain Punks
+github:
+  - url: https://github.com/apexethdev/basepunks
+blockchain:
+  - address: "0x9e7a06c281355f60570E47a12650c89Fe1d36Ff3"
+    networks:
+      - base
+    tags:
+      - contract
