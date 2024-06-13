@@ -1,0 +1,19 @@
+version: 7
+name: bsx-exchange
+display_name: BSX
+websites:
+  - url: https://bsx.exchange/
+social:
+  twitter:
+    - url: https://x.com/bsx_labs
+  farcaster:
+    - url: https://warpcast.com/bsx
+github:
+  - url: https://github.com/bsx-exchange
+blockchain:
+  - address: "0xB077370265F479Dd51f5f20bdccDdf75210562D0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

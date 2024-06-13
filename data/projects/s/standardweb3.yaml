@@ -1,0 +1,19 @@
+version: 7
+name: standardweb3
+display_name: Standard Protocol
+websites:
+  - url: https://standardweb3.com
+social:
+  twitter:
+    - url: https://x.com/standardweb3
+  farcaster:
+    - url: https://warpcast.com/standardweb3
+github:
+  - url: https://github.com/standardweb3
+blockchain:
+  - address: "0x34CCCa03631830cD8296c172bf3c31e126814ce9"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

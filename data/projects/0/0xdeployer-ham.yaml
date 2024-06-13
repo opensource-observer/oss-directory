@@ -1,0 +1,19 @@
+version: 7
+name: 0xdeployer-ham
+display_name: Ham
+websites:
+  - url: https://ham.fun
+social:
+  twitter:
+    - url: https://x.com/HamOnWarpcast
+  farcaster:
+    - url: https://warpcast.com/~/channel/lp
+github:
+  - url: https://github.com/0xdeployer/the-lp-sol
+blockchain:
+  - address: "0x16760803046fFa4D05878333B0953bBDDc0C20Cb"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

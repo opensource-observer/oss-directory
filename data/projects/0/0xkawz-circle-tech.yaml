@@ -1,0 +1,18 @@
+version: 7
+name: 0xkawz-circle-tech
+display_name: Circle.tech
+websites:
+  - url: https://circle.tech
+  - url: https://time.fun
+social:
+  twitter:
+    - url: https://x.com/timedotfun
+github:
+  - url: https://github.com/0xkawz/circletech
+blockchain:
+  - address: "0x43bCEe2A23F6D2Bc5696FD328880525921a65cfE"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

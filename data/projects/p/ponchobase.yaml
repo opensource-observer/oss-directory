@@ -1,0 +1,19 @@
+version: 7
+name: ponchobase
+display_name: Poncho On BASE
+websites:
+  - url: https://www.ponchobase.com/
+social:
+  twitter:
+    - url: https://x.com/ponchoBASE
+  farcaster:
+    - url: https://warpcast.com/ponchobase
+github:
+  - url: https://github.com/ponchobase
+blockchain:
+  - address: "0x81783d4F41F0ba0AEe6803c269C6de7Dc1d41231"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

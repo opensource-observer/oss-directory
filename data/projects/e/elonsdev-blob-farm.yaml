@@ -1,0 +1,32 @@
+version: 7
+name: elonsdev-blob-farm
+display_name: Blob Farm
+websites:
+  - url: https://blob.farm
+github:
+  - url: https://github.com/elonsdev/blobfarmcontracts
+blockchain:
+  - address: "0x7cDCEbe2e56a20095aF243c28d5E8bc905DA9107"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x42B899ebAd83f74390E64Bdae9B099e6cbA8b1Bf"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xd1EbcD9C38323fC14c287959c38628995047c238"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xFCf0FaAebc35Dd1Df4cAE62e6927CB2c5cB55868"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

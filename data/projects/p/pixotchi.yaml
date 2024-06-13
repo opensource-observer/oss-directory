@@ -1,0 +1,19 @@
+version: 7
+name: pixotchi
+display_name: Pixotchi
+websites:
+  - url: https://pixotchi.tech
+social:
+  twitter:
+    - url: https://x.com/pixotchi
+  farcaster:
+    - url: https://warpcast.com/pixotchi.eth
+github:
+  - url: https://github.com/pixotchi
+blockchain:
+  - address: "0x44e156CBb4506cee55A96b45D10A77806E012469"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,20 @@
+version: 7
+name: stephharris-receipts
+display_name: Receipts
+websites:
+  - url: https://receipts.xyz
+  - url: https://leaderboard.receipts.xyz
+social:
+  twitter:
+    - url: https://x.com/receiptsxyz
+  farcaster:
+    - url: https://warpcast.com/~/channel/receipts
+github:
+  - url: https://github.com/stephharris/receipts-contract
+blockchain:
+  - address: "0x77a3b79a2De700AfcfC761fED837a67D7d8fAe1B"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

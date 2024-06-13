@@ -1,0 +1,17 @@
+version: 7
+name: byte-masons-ethos-reserve
+display_name: Ethos Reserve
+websites:
+  - url: https://www.ethos.finance/
+social:
+  twitter:
+    - url: https://twitter.com/EthosReserve
+github:
+  - url: https://github.com/Byte-Masons/Ethos-V2-contracts
+blockchain:
+  - address: "0xe00691e65Cd4400c84a174a4C56f20bA43dffD89"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

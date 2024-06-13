@@ -1,0 +1,17 @@
+version: 7
+name: uncx-network
+display_name: UNCX Network
+websites:
+  - url: https://uncx.network/
+social:
+  twitter:
+    - url: https://x.com/UNCX_token
+github:
+  - url: https://github.com/uncx-network
+blockchain:
+  - address: "0x692C7972cd975EF122F3D0FAb5718f8A167075c6"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

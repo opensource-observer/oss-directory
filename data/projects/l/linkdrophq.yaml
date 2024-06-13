@@ -1,0 +1,30 @@
+version: 7
+name: linkdrophq
+display_name: Linkdrop
+websites:
+  - url: https://linkdrop.io
+  - url: https://p2p.linkdrop.io
+social:
+  twitter:
+    - url: https://x.com/linkdropHQ
+github:
+  - url: https://github.com/LinkdropHQ
+blockchain:
+  - address: "0xd503Ac7d187238d42eD3ce0FE81e9930fcad69B0"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x3C2F0873bE11B0d3840fd8279A2994e66b76E498"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x0f3846281730be3D7e808348556bf82396b62b94"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

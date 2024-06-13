@@ -1,0 +1,23 @@
+version: 7
+name: brine-finance
+display_name: tanX - The World's Leading Institutional DEX
+websites:
+  - url: https://tanx.fi
+social:
+  twitter:
+    - url: https://x.com/tanXfinance
+github:
+  - url: https://github.com/brine-finance
+blockchain:
+  - address: "0x05822D7fcCB8e2d6291Db3701A1C22a5df262Aee"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xDd655969E158efEDD57A4c483B420af51f357c79"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,0 +1,23 @@
+version: 7
+name: ashwwwin-liquidify
+display_name: Liquidify
+websites:
+  - url: https://liquidify.gg
+social:
+  twitter:
+    - url: https://x.com/Liquidify_gg
+github:
+  - url: https://github.com/ashwwwin/liquidifyv3
+blockchain:
+  - address: "0xA292B89AB7B5afa119fAEB780443a01D1E33077E"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x5ccb58680206D6d63e34c7AF0AD44d52B7B1bC67"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

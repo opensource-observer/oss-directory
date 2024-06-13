@@ -1,0 +1,19 @@
+version: 7
+name: infusion-finance
+display_name: Infusion
+websites:
+  - url: https://infusion.finance/
+social:
+  twitter:
+    - url: https://x.com/infusionfinance
+  farcaster:
+    - url: https://warpcast.com/infusion
+github:
+  - url: https://github.com/Infusion-Finance
+blockchain:
+  - address: "0x628C4951a34d8f1990940dbDa33532b0cf5CF164"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

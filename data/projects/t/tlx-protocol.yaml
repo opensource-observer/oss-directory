@@ -1,0 +1,23 @@
+version: 7
+name: tlx-protocol
+display_name: TLX
+websites:
+  - url: https://tlx.fi/
+social:
+  twitter:
+    - url: https://x.com/tlx_fi
+github:
+  - url: https://github.com/TLX-Protocol
+blockchain:
+  - address: "0x48b96d8044d14EC5E592990989270789899bAf9B"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x559822cf7213bC2DDa0aeCffA0b66Bd083C169CD"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

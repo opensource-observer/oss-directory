@@ -1,0 +1,19 @@
+version: 7
+name: zwergdev-whale-bridge
+display_name: Whale
+websites:
+  - url: https://whale-app.com
+social:
+  twitter:
+    - url: https://x.com/Whale_app_
+  farcaster:
+    - url: https://warpcast.com/whale-app
+github:
+  - url: https://github.com/zwergdev/whale-bridge
+blockchain:
+  - address: "0xe1EA2a7FF6864Aa8555c85B61F506E1f674028ce"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

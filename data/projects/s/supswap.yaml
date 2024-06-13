@@ -1,0 +1,17 @@
+version: 7
+name: supswap
+display_name: Supswap
+websites:
+  - url: https://supswap.xyz
+social:
+  twitter:
+    - url: https://x.com/SupswapXyz
+github:
+  - url: https://github.com/SupSwap
+blockchain:
+  - address: "0xeD5C73F229D1f085c441CAc3D9d8dee9C44dd475"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

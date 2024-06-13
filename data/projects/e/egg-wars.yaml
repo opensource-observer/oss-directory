@@ -1,0 +1,17 @@
+version: 7
+name: egg-wars
+display_name: "Egg Wars: A Game on Base"
+websites:
+  - url: https://www.eggwars.xyz/
+social:
+  farcaster:
+    - url: https://warpcast.com/eggwars
+github:
+  - url: https://github.com/egg-wars
+blockchain:
+  - address: "0xA24E48eA9AF5d122b99Af734Aaadfd9405D59697"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

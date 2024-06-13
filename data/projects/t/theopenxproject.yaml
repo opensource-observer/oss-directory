@@ -1,0 +1,20 @@
+version: 7
+name: theopenxproject-the-open-x-project
+display_name: The Open X Project
+websites:
+  - url: https://app.openxswap.exchange/#/
+  - url: https://marketplace.openxswap.exchange/
+  - url: https://@OpenXSwap
+social:
+  farcaster:
+    - url: https://warpcast.com/openxproject
+github:
+  - url: https://github.com/TheOpenXproject/OpenXSwap-Optimism-Contracts
+  - url: https://github.com/TheOpenXproject/OpenXVaults
+blockchain:
+  - address: "0xFC8367eF6bcfC10746e5B9B034314812db8D7213"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

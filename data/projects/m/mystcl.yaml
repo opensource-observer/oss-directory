@@ -1,0 +1,19 @@
+version: 7
+name: mystcl
+display_name: MYSTCL ($MYST)
+websites:
+  - url: https://mystcl.com
+social:
+  twitter:
+    - url: https://x.com/WeMYSTCL
+  farcaster:
+    - url: https://warpcast.com/~/channel/mystcl
+github:
+  - url: https://github.com/MYSTCL
+blockchain:
+  - address: "0xB305c74DAF33fCFC59020DA0A7AdD54A881254C9"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

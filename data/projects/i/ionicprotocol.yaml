@@ -1,0 +1,19 @@
+version: 7
+name: ionicprotocol
+display_name: Ionic Protocol
+websites:
+  - url: https://ionic.money
+social:
+  twitter:
+    - url: https://twitter.com/ionicmoney
+  farcaster:
+    - url: https://warpcast.com/ionicmoney
+github:
+  - url: https://github.com/ionicprotocol
+blockchain:
+  - address: "0x1155b614971f16758C92c4890eD338C9e3ede6b7"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

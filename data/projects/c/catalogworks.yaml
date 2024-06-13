@@ -1,0 +1,19 @@
+version: 7
+name: catalogworks
+display_name: Catalog Radio
+websites:
+  - url: https://catalog.radio
+social:
+  twitter:
+    - url: https://twitter.com/catalogworks
+  farcaster:
+    - url: https://warpcast.com/catalog
+github:
+  - url: https://github.com/catalogworks
+blockchain:
+  - address: "0xB4bA57B82a6A5c85CF5C2428384EC97747735cd3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

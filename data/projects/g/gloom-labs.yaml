@@ -1,0 +1,32 @@
+version: 7
+name: gloom-labs
+display_name: Gloom
+websites:
+  - url: https://gloomtoken.com
+  - url: https://app.gloomtoken.xyz
+social:
+  twitter:
+    - url: https://x.com/gloomtoken
+  farcaster:
+    - url: https://warpcast.com/~/channel/gloomtoken
+github:
+  - url: https://github.com/Gloom-Labs
+blockchain:
+  - address: "0x073f0DC58e9989C827bA5b7b35570B7315652e63"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x63e2a7Ac6970dc11562A98732f93fbB28404d43d"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x7941142c79b18b988B7FD22C09e17DBf85F1B0A1"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
