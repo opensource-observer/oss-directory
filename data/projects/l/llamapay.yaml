@@ -1,0 +1,48 @@
+version: 7
+name: llamapay
+display_name: LlamaPay
+github:
+  - url: https://github.com/llamapay
+blockchain:
+  - address: "0x91dfd5a51e7c00604e8b2521e678dd8444ea56c9"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x9fe36b2d3cc3fb56f35225c2912ee5283464842e"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xb93427b83573c8f27a08a909045c3e809610411a"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: Vyper_contract
+  - address: "0xc21d1416cb92112c054d83aadd006e184722d50f"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: LlamaPayFactory
+  - address: "0xde1c04855c2828431ba637675b6929a684f84c7f"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: LlamaPayFactory
+  - address: "0xf31bf037023fa8506095a90243ab460b83b81974"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: SubsFactory
