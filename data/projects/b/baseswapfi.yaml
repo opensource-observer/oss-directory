@@ -10,6 +10,11 @@ social:
     - url: https://warpcast.com/baseswap
 github:
   - url: https://github.com/baseswapfi
+npm:
+  - url: https://www.npmjs.com/package/@baseswapfi/v2-sdk
+  - url: https://www.npmjs.com/package/@baseswapfi/v3-sdk2
+  - url: https://www.npmjs.com/package/@baseswapfi/default-token-list
+  - url: https://www.npmjs.com/package/@baseswapfi/contracts
 blockchain:
   - address: "0x03d4C4b1B115c068Ef864De2e21E724a758892A2"
     tags:
@@ -17,7 +22,6 @@ blockchain:
       - deployer
     networks:
       - base
-      - mode
   - address: "0xA87FbE1B95e58aD2505ff7a7827c78cfb99375B0"
     tags:
       - eoa
