@@ -27,10 +27,14 @@ blockchain:
       - contract
     networks:
       - base
-  - address: "0x81947AAdF64Cd22cE96999E4c76eFB0765839bEf"
+  - address: "0x3F08B90f60630192c57Cf7e8cf6047a902a524bF"
     tags:
-      - deployer
-      - eoa
+      - contract
+    networks:
+      - base
+  - address: "0xFF86FED03755B8F3f11AB13E52E0DDA78641Fdfc"
+    tags:
+      - contract
     networks:
       - base
   - address: "0x81947aadf64cd22ce96999e4c76efb0765839bef"
