@@ -832,3 +832,209 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xa523f47a933d5020b23629ddf689695aa94612dc"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x043a2dad730d585c44fb79d2614f295d2d625412"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: ComposableStablePoolFactory
+  - address: "0x85a80afee867adf27b50bdb7b76da70f1e853062"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: ComposableStablePoolFactory
+  - address: "0xa8920455934da4d853faac1f94fe7bef72943ef1"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: ComposableStablePoolFactory
+  - address: "0x76578ecf9a141296ec657847fb45b0585bcda3a6"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xb9f8ab3ed3f3acba64bc6cd2dca74b7f38fd7b88"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x9805dcfd25e6de36bad8fe9d3fe2c9b44b764102"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xe3881627b8deebccf9c23b291430a549fc0be5f7"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x5cf4928a3205728bd12830e1840f7db85c62a4b9"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x4fb47126fa83a8734991e41b942ac29a3266c968"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xc3ccace87f6d3a81724075adcb5ddd85a8a1bb68"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x9da18982a33fd0c7051b19f0d7c76f2d5e7e017c"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x81cfae226343b24ba12ec6521db2c79e7aeeb310"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x6817149cb753bf529565b4d023d7507ed2ff4bc0"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x6b5da774890db7b7b96c6f44e6a4b0f657399e2e"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x5dbad78818d4c8958eff2d5b95b28385a22113cd"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x7372ece4c18beabc19981a53b557be90dcbd2b66"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xc4ef943b7c2f6b387b37689f1e9fa6ecb738845d"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x956ccab09898c0af2aca5e6c229c3ad4e93d9288"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0xf23b4db826dba14c0e857029dff076b1c0264843"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0x96484f2abf5e58b15176dbf1a799627b53f13b6d"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: various:DiffersByChain
+  - address: "0xe42ffa682a26ef8f25891db4882932711d42e467"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xf24917fb88261a37cc57f686ebc831a5c0b9fd39"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xe39b5e3b6d74016b2f6a9673d7d7493b6df549d5"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: BalancerQueries
+  - address: "0xBA12222222228d8Ba445958a75a0704d566BF2C8"
+    networks:
+      - base
+      - optimism
+    tags:
+      - contract
+    name: Vault
+  - address: "0x36cac20dd805d128c1a6dd16eea845c574b5a17c"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: AuthorizerAdaptorEntrypoint
