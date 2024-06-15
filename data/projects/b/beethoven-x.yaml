@@ -4,69 +4,6 @@ display_name: Beethoven X
 github:
   - url: https://github.com/beethovenxfi
 blockchain:
-  - address: "0xa1fa945425ed2e08acb932e000bcc2f21b21588a"
-    networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: various:DiffersByChain
-  - address: "0xdfcea9088c8a88a76ff74892c1457c17dfeef9c1"
-    networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: various:DiffersByChain
-  - address: "0xba12222222228d8ba445958a75a0704d566bf2c8"
-    networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: Vault
-  - address: "0xa1f998a5775cd85f33039a9b5c29b09097d211f3"
-    networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: various:DiffersByChain
-  - address: "0xa331d84ec860bf466b4cdccfb4ac09a1b43f3ae6"
-    networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
-    tags:
-      - contract
-    name: Authorizer
-  - address: "0x8e9aa87e45e92bad84d5f8dd1bff34fb92637de9"
-    networks:
-      - mainnet
-      - optimism
-    tags:
-      - contract
-    name: various:DiffersByChain
-  - address: "0xce88686553686da562ce7cea497ce749da109f9f"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-    name: ProtocolFeesCollector
-  - address: "0x7dfdef5f355096603419239ce743bfaf1120312b"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-    name: WeightedPoolFactory
   - address: "0x142b9666a0a3a30477b052962dda81547e7029ab"
     networks:
       - arbitrum_one
@@ -79,23 +16,87 @@ blockchain:
       - mainnet
     tags:
       - contract
-    name: various:DiffersByChain
+    name: RefundLogic
   - address: "0xebfd5681977e38af65a7487dc70b8221d089ccad"
     networks:
       - arbitrum_one
     tags:
       - contract
     name: MetaStablePoolFactory
-  - address: "0xcf0a32bbef8f064969f21f7e02328fb577382018"
-    networks:
-      - arbitrum_one
-      - mainnet
-    tags:
-      - contract
-    name: various:DiffersByChain
   - address: "0x2a185c8a3c63d7bfe63ad5d950244ffe9d0a4b60"
     networks:
       - optimism
     tags:
       - safe
       - wallet
+  # Unclear whether contracts below are balancer or beethoven-x
+  - address: "0x8e9aa87e45e92bad84d5f8dd1bff34fb92637de9"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: WeightedPoolFactory
+  - address: "0x7dfdef5f355096603419239ce743bfaf1120312b"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: WeightedPoolFactory
+  - address: "0xcf0a32bbef8f064969f21f7e02328fb577382018"
+    networks:
+      - arbitrum_one
+      - mainnet
+    tags:
+      - contract
+    name: TkMrsR
+  - address: "0xa1f998a5775cd85f33039a9b5c29b09097d211f3"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: Authorizer
+  - address: "0xa1fa945425ed2e08acb932e000bcc2f21b21588a"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: Authorizer
+  - address: "0xdfcea9088c8a88a76ff74892c1457c17dfeef9c1"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: Authorizer
+  - address: "0xba12222222228d8ba445958a75a0704d566bf2c8"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: Vault
+  - address: "0xa331d84ec860bf466b4cdccfb4ac09a1b43f3ae6"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: Authorizer
+  - address: "0xce88686553686da562ce7cea497ce749da109f9f"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: ProtocolFeesCollector
