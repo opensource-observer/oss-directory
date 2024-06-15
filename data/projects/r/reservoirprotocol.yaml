@@ -13,15 +13,29 @@ social:
 github:
   - url: https://github.com/reservoirprotocol
 blockchain:
-  - address: "0xf3d63166F0Ca56C3c1A3508FcE03Ff0Cf3Fb691e"
-    tags:
-      - eoa
-      - deployer
-    networks:
-      - any_evm
   - address: "0xf3d63166f0ca56c3c1a3508fce03ff0cf3fb691e"
     networks:
       - any_evm
     tags:
       - deployer
       - eoa
+  - address: "0x0000000000DC15c67e0bfE2c0820E620dF9C4Ef4"
+    networks:
+      - base
+      - optimism
+      - zora
+    tags:
+      - contract
+  - address: "0xa5F565650890fBA1824Ee0F21EbBbF660a179934"
+    networks:
+      - base
+      - optimism
+      - zora
+    tags:
+      - contract
+  - address: "0x0000000000000A9eFE52e741bcB25da0E4438E71"
+    networks:
+      - base
+      - zora
+    tags:
+      - contract

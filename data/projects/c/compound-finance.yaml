@@ -15,6 +15,12 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x2501713A67a3dEdde090E42759088A7eF37D4EAb"
+    networks:
+      - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0xa5edbdd9646f8dff606d7448e414884c7d905dca"
     networks:
       - arbitrum_one
@@ -46,9 +52,3 @@ blockchain:
     tags:
       - contract
     name: COMP
-  - address: "0x2501713A67a3dEdde090E42759088A7eF37D4EAb"
-    networks:
-      - optimism
-    tags:
-      - deployer
-      - eoa
