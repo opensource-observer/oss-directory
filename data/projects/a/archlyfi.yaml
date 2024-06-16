@@ -1,0 +1,18 @@
+version: 7
+name: archlyfi
+display_name: Archly
+github:
+  - url: https://github.com/archlyfi
+blockchain:
+  - address: "0xf087491dbb6d94a1332501bc087390b887b3ec92"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x82d3c9246890e672ba4dfbf2038c791727bcb34a"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
