@@ -1,0 +1,19 @@
+version: 7
+name: robotsfarm
+display_name: Robots.farm
+websites:
+  - url: https://robots.farm/
+github:
+  - url: https://github.com/robotsfarm
+blockchain:
+  - address: "0xAd1613CF70b62c4e1542Ae29b3fADDFCeFFbe8Fc"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
+  - address: "0x7F3E74826A05b5F572010E9f741d7d30f27733b8"
+    networks:
+      - base
+    tags:
+      - contract

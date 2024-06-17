@@ -1,0 +1,20 @@
+version: 7
+name: swapbased
+display_name: SwapBased
+websites:
+  - url: https://swapbased.finance/#/
+github:
+  - url: https://github.com/SwapBased
+blockchain:
+  - address: "0xfD5844867387Cecc3A0393b3e0BE32479Ea9e61a"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
+  - address: "0x61C891907c987D46Ce273e2cAEeF6F9f460098b3"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
