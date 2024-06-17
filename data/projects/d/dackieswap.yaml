@@ -1,7 +1,21 @@
 version: 7
 name: dackieswap
 display_name: DackieSwap
+websites:
+  - url: https://www.dackieswap.xyz
+social:
+  twitter:
+    - url: https://x.com/DackieSwap
+  farcaster:
+    - url: https://warpcast.com/dackie.eth
 github:
   - url: https://github.com/dackieswap
-websites:
-  - url: https://www.dackieswap.xyz/
+blockchain:
+  - address: "0xe1581C10EE235F0DEbb655EA365100bCBD84BAD2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+      - mode
+      - optimism

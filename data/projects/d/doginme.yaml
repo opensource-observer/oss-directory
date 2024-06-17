@@ -1,0 +1,19 @@
+version: 7
+name: doginme
+display_name: doginme memecoin
+websites:
+  - url: https://dogin.meme
+social:
+  twitter:
+    - url: https://x.com/doginmeonbase
+  farcaster:
+    - url: https://warpcast.com/doginme
+github:
+  - url: https://github.com/doginme
+blockchain:
+  - address: "0x330875BED67074B0c261Ec147Ab535806E21EE2D"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base

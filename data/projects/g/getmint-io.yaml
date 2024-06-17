@@ -1,0 +1,27 @@
+version: 7
+name: getmint-io
+display_name: Get Mint
+websites:
+  - url: https://www.GetMint.io
+social:
+  twitter:
+    - url: https://x.com/GetMint_io
+  farcaster:
+    - url: https://warpcast.com/getmint
+github:
+  - url: https://github.com/getmint-io
+blockchain:
+  - address: "0x00BB3c144ccdd0c5d5400a9B4A416C3200211000"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+      - optimism
+      - zora
+  - address: "0x01914BD28f627031BD6fa0D82bC717548208D000"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base

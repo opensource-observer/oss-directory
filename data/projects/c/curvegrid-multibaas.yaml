@@ -1,6 +1,13 @@
 version: 7
 name: curvegrid-multibaas
 display_name: MultiBaas
+description: Curvegrid's MultiBaas blockchain application server makes it faster
+  and easier to build a decentralized application on one or more blockchains.
+websites:
+  - url: https://www.curvegrid.com
+social:
+  twitter:
+    - url: https://twitter.com/curvegridinc
 github:
   - url: https://github.com/curvegrid
 blockchain:
@@ -16,10 +23,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://www.curvegrid.com
-description: Curvegrid's MultiBaas blockchain application server makes it faster
-  and easier to build a decentralized application on one or more blockchains.
-social:
-  twitter:
-    - url: https://twitter.com/curvegridinc

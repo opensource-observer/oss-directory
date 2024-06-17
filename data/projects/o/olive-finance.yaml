@@ -1,6 +1,10 @@
 version: 7
 name: olive-finance
 display_name: Olive-Finance
+description: A fully EVM-compatible, modular, zero-knowledge rollup with native
+  staking and re-staking yield
+websites:
+  - url: https://olivenetwork.xyz/
 github:
   - url: https://github.com/olive-finance
 blockchain:
@@ -17,7 +21,3 @@ blockchain:
     tags:
       - contract
     name: various:DiffersByChain
-websites:
-  - url: https://olivenetwork.xyz/
-description: A fully EVM-compatible, modular, zero-knowledge rollup with native
-  staking and re-staking yield

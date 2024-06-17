@@ -1,6 +1,12 @@
 version: 7
 name: revert-finance
 display_name: Revert Finance
+description: Actionable analytics for DeFi liquidity providers
+websites:
+  - url: https://revert.finance
+social:
+  twitter:
+    - url: https://twitter.com/revertfinance
 github:
   - url: https://github.com/revert-finance
 blockchain:
@@ -130,9 +136,3 @@ blockchain:
       - eoa
       - wallet
     name: revertfinance.eth
-websites:
-  - url: https://revert.finance
-description: Actionable analytics for DeFi liquidity providers
-social:
-  twitter:
-    - url: https://twitter.com/revertfinance

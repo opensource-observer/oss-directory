@@ -1,6 +1,12 @@
 version: 7
 name: plutusdao
 display_name: PlutusDAO
+description: Layer 2 Governance Blackhole.
+websites:
+  - url: https://plutusdao.io
+social:
+  twitter:
+    - url: https://twitter.com/PlutusDAO_io
 github:
   - url: https://github.com/plutusdao
 blockchain:
@@ -274,9 +280,3 @@ blockchain:
     tags:
       - contract
     name: RewardTracker
-websites:
-  - url: https://plutusdao.io
-description: Layer 2 Governance Blackhole.
-social:
-  twitter:
-    - url: https://twitter.com/PlutusDAO_io

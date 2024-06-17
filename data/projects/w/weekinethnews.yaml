@@ -1,6 +1,11 @@
 version: 7
 name: weekinethnews
 display_name: Week in Ethereum News
+websites:
+  - url: https://weekinethereumnews.com
+social:
+  twitter:
+    - url: https://twitter.com/WeekInEthNews
 github:
   - url: https://github.com/WeekinEthNews
 blockchain:
@@ -23,8 +28,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://weekinethereumnews.com
-social:
-  twitter:
-    - url: https://twitter.com/WeekInEthNews

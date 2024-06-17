@@ -1,6 +1,12 @@
 version: 7
 name: bloomnetwork
 display_name: Bloom Network
+description: Our codebase is now maintained on Gitlab.
+websites:
+  - url: http://bloomnetwork.earth
+social:
+  twitter:
+    - url: https://twitter.com/ourbloomnetwork
 github:
   - url: https://github.com/BloomNetwork
 blockchain:
@@ -17,9 +23,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: http://bloomnetwork.earth
-description: Our codebase is now maintained on Gitlab.
-social:
-  twitter:
-    - url: https://twitter.com/ourbloomnetwork

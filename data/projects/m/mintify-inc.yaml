@@ -1,0 +1,22 @@
+version: 7
+name: mintify-inc
+display_name: Mintify
+websites:
+  - url: https://mintify.xyz
+  - url: https://trade.mintify.xyz
+  - url: https://blast.mintify.xyz
+  - url: https://base.mintify.xyz
+social:
+  twitter:
+    - url: https://twitter.com/mintify
+  farcaster:
+    - url: https://warpcast.com/mintify
+github:
+  - url: https://github.com/Mintify-Inc
+blockchain:
+  - address: "0x2DCC7c4Ab800bF67380e2553BE1E6891A36F18E7"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

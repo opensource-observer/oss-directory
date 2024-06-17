@@ -1,6 +1,11 @@
 version: 7
 name: sourcify-ethereum
 display_name: Sourcify
+websites:
+  - url: https://sourcify.dev
+social:
+  twitter:
+    - url: https://twitter.com/sourcifyeth
 github:
   - url: https://github.com/ethereum/sourcify
   - url: https://github.com/sourcifyeth
@@ -18,8 +23,3 @@ blockchain:
       - eoa
       - wallet
     name: sourcify.eth
-websites:
-  - url: https://sourcify.dev
-social:
-  twitter:
-    - url: https://twitter.com/sourcifyeth

@@ -1,6 +1,13 @@
 version: 7
 name: baseddotfarm
 display_name: Based Farm
+description: The first Solidly powered seigniorage protocol on Base Chain,
+  pegged to Ethereum!
+websites:
+  - url: https://based.farm/
+social:
+  twitter:
+    - url: https://twitter.com/BasedDotFarm
 github:
   - url: https://github.com/baseddotfarm
 blockchain:
@@ -10,10 +17,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://based.farm/
-description: The first Solidly powered seigniorage protocol on Base Chain,
-  pegged to Ethereum!
-social:
-  twitter:
-    - url: https://twitter.com/BasedDotFarm

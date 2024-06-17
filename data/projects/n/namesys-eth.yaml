@@ -1,6 +1,9 @@
 version: 7
 name: namesys-eth
 display_name: NameSys
+description: Welcome to NameSys.eth
+websites:
+  - url: https://namesys.eth.limo/
 github:
   - url: https://github.com/namesys-eth
 blockchain:
@@ -11,6 +14,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://namesys.eth.limo/
-description: Welcome to NameSys.eth

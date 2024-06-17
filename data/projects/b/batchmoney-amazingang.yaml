@@ -1,0 +1,20 @@
+version: 7
+name: batchmoney-amazingang
+display_name: BatchMoney
+description: Efficiently transfer ether or tokens to many addresses in batch,
+  powered by Huff and WTF Academy, supporting 15 chains!
+websites:
+  - url: https://batch.money/
+github:
+  - url: https://github.com/AmazingAng/BatchMoney
+blockchain:
+  - address: "0x3484593c456D9C598C47754341718062318066Ba"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x1b285Ffd0B19805947E7F285A922d2fFe5c4FE4d"
+    networks:
+      - base
+    tags:
+      - contract

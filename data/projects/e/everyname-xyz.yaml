@@ -1,6 +1,13 @@
 version: 7
 name: everyname-xyz
 display_name: Everyname
+description: Everyname is an advanced protocol that fetches wallet addresses and
+  names from any blockchain name service.
+websites:
+  - url: https://everyname.xyz
+social:
+  twitter:
+    - url: https://twitter.com/everyname_xyz
 github:
   - url: https://github.com/everyname-xyz
 blockchain:
@@ -11,10 +18,3 @@ blockchain:
       - eoa
       - wallet
     name: everyname.eth
-websites:
-  - url: https://everyname.xyz
-description: Everyname is an advanced protocol that fetches wallet addresses and
-  names from any blockchain name service.
-social:
-  twitter:
-    - url: https://twitter.com/everyname_xyz

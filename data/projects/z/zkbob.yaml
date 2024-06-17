@@ -1,9 +1,21 @@
 version: 7
 name: zkbob
 display_name: zkBob
+description: zkBob is a smart contract wallet with compliance-friendly privacy
+websites:
+  - url: https://www.zkbob.com
+social:
+  twitter:
+    - url: https://twitter.com/zkBob_
 github:
   - url: https://github.com/zkBob
 blockchain:
+  - address: "0x39F0bD56c1439a22Ee90b4972c16b7868D161981"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x73dce9348a03975415c6fa5296e71c1abae61407"
     networks:
       - arbitrum_one
@@ -12,9 +24,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://zkbob.com/
-description: zkBob is a smart contract wallet with compliance-friendly privacy
-social:
-  twitter:
-    - url: https://twitter.com/zkBob_

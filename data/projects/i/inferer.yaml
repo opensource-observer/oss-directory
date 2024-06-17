@@ -1,6 +1,14 @@
 version: 7
 name: inferer
 display_name: Inferer
+description: Inferer is a user identity analysis service on blockchain. We try
+  to build a label-rich user portrait system, which is based on on-chain and
+  off-chain data anal
+websites:
+  - url: https://inferer.xyz
+social:
+  twitter:
+    - url: https://twitter.com/inferer_xyz
 github:
   - url: https://github.com/inferer
 blockchain:
@@ -11,11 +19,3 @@ blockchain:
       - eoa
       - wallet
     name: inferer.eth
-websites:
-  - url: https://inferer.xyz
-description: Inferer is a user identity analysis service on blockchain. We try
-  to build a label-rich user portrait system, which is based on on-chain and
-  off-chain data anal
-social:
-  twitter:
-    - url: https://twitter.com/inferer_xyz

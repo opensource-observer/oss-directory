@@ -1,7 +1,21 @@
 version: 7
 name: poppunk-llc
-display_name: Gaslite
+display_name: Gaslite by PopPunk LLC
+websites:
+  - url: https://www.gaslite.org
 github:
   - url: https://github.com/PopPunkLLC
-websites:
-  - url: https://www.gaslite.org/
+blockchain:
+  - address: "0x09350f89e2d7b6e96ba730783c2d76137b045fef"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GasliteDrop
+  - address: "0x3d4aafbe86059d17c6263332c560f18c4f1fec34"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+    name: pop-punk.eth

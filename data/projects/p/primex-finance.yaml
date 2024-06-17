@@ -1,6 +1,11 @@
 version: 7
 name: primex-finance
 display_name: primex-finance
+websites:
+  - url: https://primex.finance/
+social:
+  twitter:
+    - url: https://twitter.com/primex_official
 github:
   - url: https://github.com/primex-finance
 blockchain:
@@ -55,8 +60,3 @@ blockchain:
     tags:
       - contract
     name: TransparentUpgradeableProxy
-websites:
-  - url: https://primex.finance/
-social:
-  twitter:
-    - url: https://twitter.com/primex_official

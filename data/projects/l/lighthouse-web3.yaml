@@ -1,6 +1,11 @@
 version: 7
 name: lighthouse-web3
 display_name: Lighthouse Storage
+websites:
+  - url: http://lighthouse.storage
+social:
+  twitter:
+    - url: https://twitter.com/LighthouseWeb3
 github:
   - url: https://github.com/lighthouse-web3
 blockchain:
@@ -17,8 +22,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: http://lighthouse.storage
-social:
-  twitter:
-    - url: https://twitter.com/LighthouseWeb3

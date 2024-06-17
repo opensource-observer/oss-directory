@@ -1,0 +1,14 @@
+version: 7
+name: sixonchain-blocks
+display_name: BLOCKS
+websites:
+  - url: https://mint.fun/zora/0x1F781d47cD59257D7AA1Bd7b2fbaB50D57AF8587
+github:
+  - url: https://github.com/sixonchain/blocks-contracts
+blockchain:
+  - address: "0x44b1b486Ce8d9C82f605626347a7B1F74ADD11DE"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

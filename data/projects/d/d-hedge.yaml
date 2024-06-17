@@ -1,9 +1,23 @@
 version: 7
 name: d-hedge
 display_name: dHedge
+description: Explore the universe of top-tier tokenized vaults
+websites:
+  - url: https://dhedge.org/
+social:
+  twitter:
+    - url: https://x.com/dHedgeOrg
+  farcaster:
+    - url: https://warpcast.com/dhedge
 github:
   - url: https://github.com/dhedge
 blockchain:
+  - address: "0xF17ae5c8C4acf680A2c9551AF441Cc3725FD401b"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
   - address: "0xef31d75a2f85cfdd9032158a2ceb773c84d79192"
     networks:
       - any_evm
@@ -2417,9 +2431,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://dhedge.org/
-description: Explore the universe of top-tier tokenized vaults
-social:
-  twitter:
-    - url: https://twitter.com/dhedgeorg

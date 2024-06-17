@@ -1,6 +1,8 @@
 version: 7
 name: radio-shack-swap
 display_name: RadioShack Swap
+websites:
+  - url: https://www.radioshack.org
 github:
   - url: https://github.com/radioshackswap
 blockchain:
@@ -314,5 +316,3 @@ blockchain:
     tags:
       - contract
     name: LaunchToken
-websites:
-  - url: https://www.radioshack.org

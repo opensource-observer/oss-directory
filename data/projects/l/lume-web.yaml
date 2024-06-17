@@ -1,6 +1,11 @@
 version: 7
 name: lume-web
 display_name: Lume Web
+websites:
+  - url: https://lumeweb.com
+social:
+  twitter:
+    - url: https://twitter.com/lumeweb3
 github:
   - url: https://github.com/LumeWeb
 blockchain:
@@ -11,8 +16,3 @@ blockchain:
       - eoa
       - wallet
     name: lumeweb.eth
-websites:
-  - url: https://lumeweb.com
-social:
-  twitter:
-    - url: https://twitter.com/lumeweb3

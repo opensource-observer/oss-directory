@@ -1,6 +1,13 @@
 version: 7
 name: lemma-finance
 display_name: Lemma Finance
+description: The first DEX to offer unlimited leverage on any asset, with no
+  liquidations, no counterparty risk & no oracles.
+websites:
+  - url: https://infinityPools.finance/
+social:
+  twitter:
+    - url: https://twitter.com/infpools
 github:
   - url: https://github.com/lemma-finance
 blockchain:
@@ -305,10 +312,3 @@ blockchain:
     tags:
       - contract
     name: xLemmaSynth
-websites:
-  - url: https://infinityPools.finance/
-description: The first DEX to offer unlimited leverage on any asset, with no
-  liquidations, no counterparty risk & no oracles.
-social:
-  twitter:
-    - url: https://twitter.com/infpools

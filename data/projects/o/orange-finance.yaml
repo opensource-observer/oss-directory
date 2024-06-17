@@ -1,6 +1,10 @@
 version: 7
 name: orange-finance
 display_name: Orange Finance
+description: LPDfi Liquidity Manager
+social:
+  twitter:
+    - url: https://twitter.com/0xOrangeFinance
 github:
   - url: https://github.com/orange-finance
 blockchain:
@@ -161,7 +165,3 @@ blockchain:
     tags:
       - contract
     name: OrangeVaultV1Initializable
-description: LPDfi Liquidity Manager
-social:
-  twitter:
-    - url: https://twitter.com/0xOrangeFinance

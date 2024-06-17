@@ -1,10 +1,19 @@
 version: 7
 name: talentprotocol
 display_name: Talent Protocol
-github:
-  - url: https://github.com/talentprotocol
 websites:
   - url: https://talentprotocol.com
 social:
   twitter:
-    - url: https://twitter.com/talentprotocol
+    - url: https://x.com/TalentProtocol
+  farcaster:
+    - url: https://warpcast.com/~/channel/talent
+github:
+  - url: https://github.com/talentprotocol
+blockchain:
+  - address: "0x3C16C7092FE83d874BC4dd52c3b51510C69F1D7b"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base

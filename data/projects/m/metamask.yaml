@@ -1,6 +1,9 @@
 version: 7
 name: metamask
 display_name: Metamask
+description: MetaMask brings Ethereum to your web browser
+websites:
+  - url: https://metamask.io
 github:
   - url: https://github.com/metamask
 npm:
@@ -89,6 +92,3 @@ blockchain:
     tags:
       - contract
     name: MetaBridge
-websites:
-  - url: https://metamask.io
-description: MetaMask brings Ethereum to your web browser

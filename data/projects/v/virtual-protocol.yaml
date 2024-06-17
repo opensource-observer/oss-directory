@@ -1,0 +1,31 @@
+version: 7
+name: virtual-protocol
+display_name: Virtuals Protocol
+websites:
+  - url: https://www.virtuals.io/
+social:
+  twitter:
+    - url: https://x.com/virtuals_io
+  farcaster:
+    - url: https://warpcast.com/virtualprotocol
+github:
+  - url: https://github.com/Virtual-Protocol
+blockchain:
+  - address: "0x9547e85f3016303A2996271314BDE78b02021A28"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+  - address: "0xEcB8d8eb7523cE9d4bD8316F0f180C4dDbd10794"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+  - address: "0x97cF38bB06Da57b6418083998b09976eC40A90a3"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -1,9 +1,21 @@
 version: 7
 name: overnight
 display_name: Overnight+
+websites:
+  - url: https://overnight.fi
+social:
+  twitter:
+    - url: https://x.com/overnight_fi
 github:
   - url: https://github.com/ovnstable
 blockchain:
+  - address: "0x66B439c0a695cc3Ed3d9f50aA4E6D2D917659FfD"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+      - optimism
   - address: "0x5cb01385d3097b6a189d1ac8ba3364d900666445"
     networks:
       - any_evm
@@ -5735,5 +5747,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://overnight.fi

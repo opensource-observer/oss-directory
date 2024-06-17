@@ -1,6 +1,7 @@
 version: 7
 name: deezstealth
 display_name: DeezStealth
+description: Bulk create stealth addresses and batch send tokens
 github:
   - url: https://github.com/deezstealth
 blockchain:
@@ -10,4 +11,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-description: Bulk create stealth addresses and batch send tokens

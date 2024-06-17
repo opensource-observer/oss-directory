@@ -1,0 +1,25 @@
+version: 7
+name: wieldlabs
+display_name: far.quest - Farcaster Super App (by Wield Labs)
+websites:
+  - url: https://far.quest
+social:
+  twitter:
+    - url: https://x.com/wieldlabs
+  farcaster:
+    - url: https://warpcast.com/farquest
+github:
+  - url: https://github.com/wieldlabs
+blockchain:
+  - address: "0x64a571634e77e43999D80cde959726cDEACd65e9"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x79F6D03D54dCfF1081988f2F886BB235493742F1"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism

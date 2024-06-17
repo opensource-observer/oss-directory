@@ -1,6 +1,14 @@
 version: 7
 name: teku-consensys
 display_name: Teku
+description: Consensys is the software engineering leader of the blockchain
+  space. Our full-stack Ethereum products help developers build next-generation
+  networks.
+websites:
+  - url: https://www.consensys.net
+social:
+  twitter:
+    - url: https://twitter.com/consensys
 github:
   - url: https://github.com/ConsenSys/teku
 blockchain:
@@ -16,11 +24,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://www.consensys.net
-description: Consensys is the software engineering leader of the blockchain
-  space. Our full-stack Ethereum products help developers build next-generation
-  networks.
-social:
-  twitter:
-    - url: https://twitter.com/consensys

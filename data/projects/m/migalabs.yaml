@@ -1,6 +1,11 @@
 version: 7
 name: migalabs
 display_name: Miga Labs
+websites:
+  - url: https://migalabs.io/
+social:
+  twitter:
+    - url: https://twitter.com/miga_labs
 github:
   - url: https://github.com/migalabs
 blockchain:
@@ -11,8 +16,3 @@ blockchain:
       - eoa
       - wallet
     name: migalabs.eth
-websites:
-  - url: https://migalabs.io/
-social:
-  twitter:
-    - url: https://twitter.com/miga_labs

@@ -1,6 +1,10 @@
 version: 7
 name: zkvrf
 display_name: zkvrf
+description: Verifiable random function enabled by ZKP
+social:
+  twitter:
+    - url: https://twitter.com/zkvrf
 github:
   - url: https://github.com/zkvrf
 blockchain:
@@ -10,7 +14,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-description: Verifiable random function enabled by ZKP
-social:
-  twitter:
-    - url: https://twitter.com/zkvrf

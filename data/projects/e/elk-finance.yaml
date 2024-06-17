@@ -1,6 +1,11 @@
 version: 7
 name: elk-finance
 display_name: Elk Finance
+websites:
+  - url: https://elk.finance
+social:
+  twitter:
+    - url: https://twitter.com/elkfinance
 github:
   - url: https://github.com/elkfinance
 blockchain:
@@ -87,8 +92,3 @@ blockchain:
     tags:
       - contract
     name: SingleStakingRewards
-websites:
-  - url: https://elk.finance
-social:
-  twitter:
-    - url: https://twitter.com/elkfinance

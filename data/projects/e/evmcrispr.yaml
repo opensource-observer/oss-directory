@@ -1,6 +1,8 @@
 version: 7
 name: evmcrispr
 display_name: EVMcrispr
+websites:
+  - url: https://evmcrispr.com
 github:
   - url: https://github.com/EVMcrispr
 blockchain:
@@ -11,5 +13,3 @@ blockchain:
       - eoa
       - wallet
     name: evmcrispr.eth
-websites:
-  - url: https://evmcrispr.com

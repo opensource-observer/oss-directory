@@ -1,0 +1,23 @@
+version: 7
+name: morphex-labs
+display_name: MorpheX
+github:
+  - url: https://github.com/morphex-labs
+blockchain:
+  - address: "0x89955a99552f11487ffdc054a6875df9446b2902"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
+  - address: "0xb1dd2fdb023cb54b7cc2a0f5d9e8d47a9f7723ce"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
+  - address: "0x3Ff7AB26F2dfD482C40bDaDfC0e88D01BFf79713"
+    networks:
+      - base
+    tags:
+      - contract

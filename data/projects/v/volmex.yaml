@@ -1,6 +1,8 @@
 version: 7
 name: volmex
 display_name: Volmex
+websites:
+  - url: http://www.volmex.finance/
 github:
   - url: https://github.com/volmexfinance
 blockchain:
@@ -9,5 +11,3 @@ blockchain:
       - creator
     networks:
       - optimism
-websites:
-  - url: http://www.volmex.finance/

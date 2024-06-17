@@ -9,9 +9,11 @@
  * All social profile
  */
 export interface SocialProfile {
+  farcaster?: URL[];
   medium?: URL[];
-  twitter?: URL[];
+  mirror?: URL[];
   telegram?: URL[];
+  twitter?: URL[];
   [k: string]: unknown;
 }
 /**

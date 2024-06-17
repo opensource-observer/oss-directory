@@ -1,6 +1,9 @@
 version: 7
 name: synthetix
 display_name: Synthetix
+description: Crypto backed synthetic asset platform
+websites:
+  - url: https://synthetix.io
 github:
   - url: https://github.com/synthetixio/bfp-market
   - url: https://github.com/synthetixio/blockchain-security-contacts
@@ -7938,6 +7941,3 @@ blockchain:
     tags:
       - contract
     name: ProxyFeePool
-websites:
-  - url: https://synthetix.io
-description: Crypto backed synthetic asset platform

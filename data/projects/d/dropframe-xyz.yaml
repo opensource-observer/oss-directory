@@ -1,0 +1,18 @@
+version: 7
+name: dropframe-xyz
+display_name: DropFrame
+websites:
+  - url: https://dropframe.xyz/
+social:
+  farcaster:
+    - url: https://warpcast.com/~/channel/dropframe
+github:
+  - url: https://github.com/dropframe-xyz
+blockchain:
+  - address: "0x0000000000003d61b3d0a96b70b9c9006947759c"
+    tags:
+      - contract
+      - factory
+    networks:
+      - base
+    name: MintFactory

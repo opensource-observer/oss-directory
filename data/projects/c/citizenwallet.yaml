@@ -1,6 +1,12 @@
 version: 7
 name: citizenwallet
 display_name: Citizen Wallet
+description: A mobile wallet for your community
+websites:
+  - url: https://citizenwallet.xyz
+social:
+  twitter:
+    - url: https://twitter.com/citizenwallet
 github:
   - url: https://github.com/citizenwallet
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://citizenwallet.xyz
-description: A mobile wallet for your community
-social:
-  twitter:
-    - url: https://twitter.com/citizenwallet

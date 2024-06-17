@@ -1,6 +1,12 @@
 version: 7
 name: lido
 display_name: Lido
+description: liquid staking 🏖️
+websites:
+  - url: https://lido.fi
+social:
+  twitter:
+    - url: https://twitter.com/lidofinance
 github:
   - url: https://github.com/lidofinance
 blockchain:
@@ -58,9 +64,3 @@ blockchain:
     tags:
       - deployer
       - eoa
-websites:
-  - url: https://lido.fi
-description: liquid staking 🏖️
-social:
-  twitter:
-    - url: https://twitter.com/lidofinance

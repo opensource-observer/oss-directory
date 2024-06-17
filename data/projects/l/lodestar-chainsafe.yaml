@@ -1,6 +1,12 @@
 version: 7
 name: lodestar-chainsafe
 display_name: Lodestar
+description: Building infrastructure for the web3.
+websites:
+  - url: https://chainsafe.io
+social:
+  twitter:
+    - url: https://twitter.com/chainsafeth
 github:
   - url: https://github.com/ChainSafe/lodestar
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://chainsafe.io
-description: Building infrastructure for the web3.
-social:
-  twitter:
-    - url: https://twitter.com/chainsafeth

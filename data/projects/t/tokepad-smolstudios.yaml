@@ -1,0 +1,13 @@
+version: 7
+name: tokepad-smolstudios
+display_name: Tokepad
+websites:
+  - url: https://tokepad.xyz/
+github:
+  - url: https://github.com/smolstudios/tokepad-contract
+blockchain:
+  - address: "0xb140C1907C76E8BeA77d5A0E859d448f5Ca33E70"
+    networks:
+      - base
+    tags:
+      - contract

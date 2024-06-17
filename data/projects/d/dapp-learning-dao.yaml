@@ -1,9 +1,22 @@
 version: 7
 name: dapp-learning-dao
 display_name: Dapp-Learning
+websites:
+  - url: https://dapplearning.org/reward
+social:
+  twitter:
+    - url: https://x.com/Dapp_Learning
+  farcaster:
+    - url: https://warpcast.com/dapplearning
 github:
   - url: https://github.com/Dapp-Learning-DAO
 blockchain:
+  - address: "0xa084E906a39927f35F22B63f1D46469106AA7ed2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism
   - address: "0xdbeb213b3c8b08c240013f38122dc154f70e6422"
     networks:
       - optimism
@@ -23,6 +36,3 @@ blockchain:
       - eoa
       - wallet
     name: dapplearning.eth
-social:
-  twitter:
-    - url: https://twitter.com/Dapp_Learning

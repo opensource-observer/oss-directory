@@ -1,9 +1,28 @@
 version: 7
 name: omni-x-nft
 display_name: Omni-X-NFT
-github:
-  - url: https://github.com/omni-x-nft
 description: The first natively omnichain NFT platform powered by LayerZero and Stargate
+websites:
+  - url: https://omni-x.io
 social:
   twitter:
-    - url: https://twitter.com/OmniX_NFT
+    - url: https://x.com/OmniX_NFT
+  farcaster:
+    - url: https://warpcast.com/~/channel/omni-x
+github:
+  - url: https://github.com/omni-x-nft
+blockchain:
+  - address: "0xBb5d8FC17421a9a71101032d4Fc1ec0984Fc85f8"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+      - optimism
+      - zora
+  - address: "0x8636FA411113D1b40B5D76F6766D16b3aA829D30"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

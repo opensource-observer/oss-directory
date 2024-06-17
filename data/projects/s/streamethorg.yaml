@@ -1,9 +1,21 @@
 version: 7
 name: streamethorg
 display_name: StreamETH
+description: Fullstack decentralised video solutions for web3 event organizers.
+websites:
+  - url: https://streameth.org
+social:
+  twitter:
+    - url: https://twitter.com/streameth
 github:
   - url: https://github.com/streamethorg
 blockchain:
+  - address: "0x261C8CFE5Afbad9a1827123bb4597C33F7C95529"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
   - address: "0x7b21f4b4c1d3320e9955a89729d31cce4635b2bd"
     networks:
       - any_evm
@@ -24,9 +36,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://streameth.org/
-description: Fullstack decentralised video solutions for web3 event organizers.
-social:
-  twitter:
-    - url: https://twitter.com/streameth

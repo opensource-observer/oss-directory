@@ -1,9 +1,26 @@
 version: 7
 name: discoverselab
 display_name: Soulcial
+websites:
+  - url: https://soulcial.network
+social:
+  twitter:
+    - url: https://twitter.com/SoulcialGlobal
 github:
   - url: https://github.com/Discoverselab
 blockchain:
+  - address: "0x732621066Bd361A509bC91dC4b3Dc8ceDcAd3c3e"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism
+  - address: "0xb4d48d20DA75965C38007B4BaD7F284828661838"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism
   - address: "0xb39c5896a94287b9c0bce736e505234b685c0e02"
     networks:
       - optimism

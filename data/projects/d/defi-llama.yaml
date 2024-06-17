@@ -1,17 +1,16 @@
 version: 7
 name: defi-llama
 display_name: DefiLlama
+websites:
+  - url: https://defillama.com
+social:
+  twitter:
+    - url: https://x.com/defillama
 github:
+  - url: https://github.com/0xngmi/llamazip
   - url: https://github.com/DefiLlama
-  - url: https://github.com/LlamaPay
   - url: https://github.com/llamaswap
 blockchain:
-  - address: "0x91dfd5a51e7c00604e8b2521e678dd8444ea56c9"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
   - address: "0xf6b171b1d778194b4bde6af91ce0cdeb01825a9b"
     networks:
       - any_evm
@@ -24,35 +23,6 @@ blockchain:
     tags:
       - eoa
       - wallet
-  - address: "0x71a15ac12ee91bf7c83d08506f3a3588143898b5"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
-  - address: "0xc21d1416cb92112c054d83aadd006e184722d50f"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: LlamaPayFactory
-  - address: "0xde1c04855c2828431ba637675b6929a684f84c7f"
-    networks:
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: LlamaPayFactory
-  - address: "0xb93427b83573c8f27a08a909045c3e809610411a"
-    networks:
-      - arbitrum_one
-      - mainnet
-      - optimism
-    tags:
-      - contract
-      - factory
-    name: Vyper_contract
   - address: "0xd510dbac17f4afead860f4cfb172fbf7a020ce4f"
     networks:
       - optimism
@@ -139,8 +109,3 @@ blockchain:
       - eoa
       - wallet
     name: Chainlist Wallet
-websites:
-  - url: https://defillama.com
-social:
-  twitter:
-    - url: https://twitter.com/defillama

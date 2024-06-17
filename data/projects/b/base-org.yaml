@@ -1,7 +1,24 @@
 version: 7
 name: base-org
 display_name: Base
-github:
-  - url: https://github.com/base-org
 websites:
   - url: https://www.base.org/
+github:
+  - url: https://github.com/base-org
+blockchain:
+  - address: "0x3154Cf16ccdb4C6d922629664174b904d80F2C35"
+    networks:
+      - mainnet
+    tags:
+      - bridge
+      - contract
+      - proxy
+    name: "Base: L1StandardBridge"
+  - address: "0x4200000000000000000000000000000000000010"
+    networks:
+      - base
+    tags:
+      - bridge
+      - contract
+      - proxy
+    name: "Base: L2StandardBridge"

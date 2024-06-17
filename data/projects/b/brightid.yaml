@@ -1,6 +1,10 @@
 version: 7
 name: brightid
 display_name: BrightID
+description: Social identity network of unique humans. BrightID allows people to
+  prove to applications that they're only using one account.
+websites:
+  - url: https://www.brightid.org
 github:
   - url: https://github.com/BrightID
 blockchain:
@@ -10,7 +14,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://www.brightid.org
-description: Social identity network of unique humans. BrightID allows people to
-  prove to applications that they're only using one account.

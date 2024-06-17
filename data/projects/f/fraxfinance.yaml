@@ -1,6 +1,11 @@
 version: 7
 name: fraxfinance
 display_name: Frax Finance
+websites:
+  - url: https://frax.finance
+social:
+  twitter:
+    - url: https://twitter.com/fraxfinance
 github:
   - url: https://github.com/FraxFinance
 blockchain:
@@ -390,8 +395,3 @@ blockchain:
     tags:
       - contract
     name: FraxswapPair
-websites:
-  - url: https://frax.finance
-social:
-  twitter:
-    - url: https://twitter.com/fraxfinance

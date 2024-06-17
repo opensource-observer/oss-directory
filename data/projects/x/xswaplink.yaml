@@ -1,0 +1,19 @@
+version: 7
+name: xswaplink
+display_name: XSwap
+websites:
+  - url: https://xswap.link/
+social:
+  twitter:
+    - url: https://x.com/xswap_link
+  farcaster:
+    - url: https://warpcast.com/xswap
+github:
+  - url: https://github.com/xswaplink
+blockchain:
+  - address: "0x8ebD04b2fbA00418Be00329146837dcE51F02c00"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

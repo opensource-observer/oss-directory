@@ -1,6 +1,13 @@
 version: 7
 name: likecoin
 display_name: LikeCoin
+description: LikeCoin decentralizes publishing by allowing everyone to publish
+  their content as NFTs with a suite of open tools.
+websites:
+  - url: https://like.co
+social:
+  twitter:
+    - url: https://twitter.com/likecoin
 github:
   - url: https://github.com/likecoin
 blockchain:
@@ -22,10 +29,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://like.co
-description: LikeCoin decentralizes publishing by allowing everyone to publish
-  their content as NFTs with a suite of open tools.
-social:
-  twitter:
-    - url: https://twitter.com/likecoin

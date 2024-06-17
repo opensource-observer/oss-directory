@@ -1,9 +1,20 @@
 version: 7
 name: cashmere-labs
 display_name: cashmere-labs
+websites:
+  - url: https://cashmere.exchange
+social:
+  twitter:
+    - url: https://twitter.com/CashmereLabs
 github:
   - url: https://github.com/cashmere-labs
 blockchain:
+  - address: "0xd29063369E508DE4Ed6C8A0C7AE7Ca5eF13c6de7"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism
   - address: "0x95a807bcab5a16901628acf90fc3057061a3fce9"
     networks:
       - any_evm

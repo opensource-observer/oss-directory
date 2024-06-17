@@ -1,6 +1,16 @@
 version: 7
 name: rabbithole
 display_name: Boost Studios
+description: (formerly RabbitHole) A protocol to deploy incentive offers to
+  perform actions onchain
+websites:
+  - url: https://boost.xyz
+social:
+  twitter:
+    - url: https://twitter.com/boost_xyz
+    - url: https://twitter.com/rabbithole_gg
+  farcaster:
+    - url: https://warpcast.com/boostxyz
 github:
   - url: https://github.com/rabbitholegg
 blockchain:
@@ -570,10 +580,3 @@ blockchain:
     tags:
       - contract
     name: RabbitHoleReceipt
-websites:
-  - url: https://boost.xyz
-description: (formerly RabbitHole) A protocol to deploy incentive offers to
-  perform actions onchain
-social:
-  twitter:
-    - url: https://twitter.com/rabbithole_gg

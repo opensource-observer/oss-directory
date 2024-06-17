@@ -1,0 +1,11 @@
+version: 7
+name: dino_contracts-apexethdev
+display_name: Based Onchain Dinos
+github:
+  - url: https://github.com/apexethdev/dino_contracts
+blockchain:
+  - address: "0xd4c5292b9689238f0a51c8505b1d1d6714ce95a0"
+    networks:
+      - base
+    tags:
+      - contract

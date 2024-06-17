@@ -1,6 +1,12 @@
 version: 7
 name: farcasterxyz
 display_name: Farcaster
+description: A protocol for building sufficiently decentralized social networks
+websites:
+  - url: https://farcaster.xyz
+social:
+  twitter:
+    - url: https://twitter.com/farcaster_xyz
 github:
   - url: https://github.com/farcasterxyz
 blockchain:
@@ -16,9 +22,3 @@ blockchain:
     tags:
       - deployer
       - eoa
-websites:
-  - url: https://farcaster.xyz
-description: A protocol for building sufficiently decentralized social networks
-social:
-  twitter:
-    - url: https://twitter.com/farcaster_xyz

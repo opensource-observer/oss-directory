@@ -1,6 +1,12 @@
 version: 7
 name: prysmaticlabs
 display_name: Prysm Ethereum Client
+description: Building Ethereum Proof of Stake
+websites:
+  - url: http://prysmaticlabs.com/
+social:
+  twitter:
+    - url: https://twitter.com/prylabs
 github:
   - url: https://github.com/prysmaticlabs
 blockchain:
@@ -11,9 +17,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: http://prysmaticlabs.com/
-description: Building Ethereum Proof of Stake
-social:
-  twitter:
-    - url: https://twitter.com/prylabs

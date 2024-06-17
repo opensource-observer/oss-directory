@@ -1,9 +1,25 @@
 version: 7
 name: paraswap
 display_name: Paraswap
+websites:
+  - url: https://paraswap.io
+social:
+  twitter:
+    - url: https://twitter.com/Paraswap
+  farcaster:
+    - url: https://warpcast.com/~/channel/paraswap
+    - url: https://warpcast.com/oxytocin
+    - url: https://warpcast.com/agrosso
+    - url: https://warpcast.com/mouph
 github:
   - url: https://github.com/paraswap
 blockchain:
+  - address: "0x59C7C832e96D2568bea6db468C1aAdcbbDa08A52"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
   - address: "0x35e0c852fcb9534df65d03877c1238f8e59c53fe"
     networks:
       - any_evm
@@ -263,5 +279,3 @@ blockchain:
     tags:
       - contract
     name: SmartVault
-websites:
-  - url: https://paraswap.io

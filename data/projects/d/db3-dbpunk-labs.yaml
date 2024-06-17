@@ -1,6 +1,8 @@
 version: 7
 name: db3-dbpunk-labs
 display_name: db3 network
+websites:
+  - url: https://octogen.dev
 github:
   - url: https://github.com/dbpunk-labs/db3
 blockchain:
@@ -11,5 +13,3 @@ blockchain:
       - eoa
       - wallet
     name: muran.eth
-websites:
-  - url: https://octogen.dev

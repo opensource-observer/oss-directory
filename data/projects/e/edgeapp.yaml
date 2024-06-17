@@ -1,6 +1,12 @@
 version: 7
 name: edgeapp
 display_name: Edge Wallet
+description: Edge Mobile App & Security platform for Bitcoin and blockchain technologies
+websites:
+  - url: https://edge.app
+social:
+  twitter:
+    - url: https://twitter.com/edgewallet
 github:
   - url: https://github.com/EdgeApp
 blockchain:
@@ -10,9 +16,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://edge.app
-description: Edge Mobile App & Security platform for Bitcoin and blockchain technologies
-social:
-  twitter:
-    - url: https://twitter.com/edgewallet

@@ -1,9 +1,23 @@
 version: 7
 name: router-protocol
 display_name: Router Protocol
+description: Blockchain Company
+websites:
+  - url: https://app.routernitro.com
+  - url: https://routerprotocol.com
+social:
+  twitter:
+    - url: https://x.com/routerprotocol
+    - url: https://twitter.com/routerprotocol
 github:
   - url: https://github.com/router-protocol
 blockchain:
+  - address: "0xB1b64005B11350a94c4D069eff4215592d98F2E2"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xb00b19938346b745ccb3fc4fad946de0caa724a2"
     networks:
       - any_evm
@@ -657,9 +671,3 @@ blockchain:
     tags:
       - contract
     name: ERC1967Proxy
-websites:
-  - url: https://www.routerprotocol.com/
-description: Blockchain Company
-social:
-  twitter:
-    - url: https://twitter.com/routerprotocol

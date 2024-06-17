@@ -1,6 +1,11 @@
 version: 7
 name: neume-network
 display_name: neume
+websites:
+  - url: https://neume.network
+social:
+  twitter:
+    - url: https://twitter.com/neumenetwork
 github:
   - url: https://github.com/neume-network
 blockchain:
@@ -11,8 +16,3 @@ blockchain:
       - eoa
       - wallet
     name: danfowler.eth
-websites:
-  - url: https://neume.network
-social:
-  twitter:
-    - url: https://twitter.com/neumenetwork

@@ -1,18 +1,24 @@
 version: 7
 name: idle-finance
 display_name: Idle Finance
+websites:
+  - url: https://idle.finance
+social:
+  twitter:
+    - url: https://x.com/idlefinance
 github:
   - url: https://github.com/Idle-Finance
   - url: https://github.com/Idle-Labs
 blockchain:
+  - address: "0xE5Dab8208c1F4cce15883348B72086dBace3e64B"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0xfdbb4d606c199f091143bd604c85c191a526fbd0"
     networks:
       - optimism
     tags:
       - safe
       - wallet
-websites:
-  - url: https://idle.finance
-social:
-  twitter:
-    - url: https://twitter.com/idlefinance

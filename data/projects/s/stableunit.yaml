@@ -1,6 +1,9 @@
 version: 7
 name: stableunit
 display_name: Stable Unit
+description: Decentralized low-volatility electronic cash system
+websites:
+  - url: https://stableunit.org/
 github:
   - url: https://github.com/StableUnit
 blockchain:
@@ -10,6 +13,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://stableunit.org/
-description: Decentralized low-volatility electronic cash system

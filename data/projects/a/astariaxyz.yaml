@@ -1,0 +1,22 @@
+version: 7
+name: astariaxyz
+display_name: Astaria
+websites:
+  - url: https://astaria.xyz/
+social:
+  twitter:
+    - url: https://x.com/AstariaXYZ
+github:
+  - url: https://github.com/AstariaXYZ
+blockchain:
+  - address: "0x27FB8A80D38F505E84873615297274c78697d575"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+  - address: "0x00000000000cC7ba78E64E86B2Bd59B1ae7F569E"
+    tags:
+      - contract
+    networks:
+      - base

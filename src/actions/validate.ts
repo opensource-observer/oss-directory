@@ -31,7 +31,11 @@ export async function validateCollections(args: ValidateArgs) {
   );
   assert(
     extraneousFiles.length === 0,
-    `These files do not belong: ${JSON.stringify(extraneousFiles, null, 2)}`,
+    `These files do not belong: ${JSON.stringify(
+      extraneousFiles,
+      null,
+      2,
+    )}\nAre you sure all files end in '${extension}'?`,
   );
   console.log(`Validating collections in ${args.dir}`);
   for (const file of files) {
@@ -83,7 +87,11 @@ export async function validateProjects(args: ValidateArgs) {
   );
   assert(
     extraneousFiles.length === 0,
-    `These files do not belong: ${JSON.stringify(extraneousFiles, null, 2)}`,
+    `These files do not belong: ${JSON.stringify(
+      extraneousFiles,
+      null,
+      2,
+    )}\nAre you sure all files end in '${extension}'?`,
   );
   // Keep track of which keys we've seen to make sure they're unique
   const keyToFilename: Record<string, string[]> = {};

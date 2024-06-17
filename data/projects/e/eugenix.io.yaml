@@ -1,7 +1,19 @@
 version: 7
 name: eugenix.io
 display_name: LogX
+websites:
+  - url: https://logx.trade
+social:
+  twitter:
+    - url: https://x.com/LogX_trade
+  farcaster:
+    - url: https://warpcast.com/logx-trade
 github:
   - url: https://github.com/eugenix-io
-websites:
-  - url: https://www.logx.trade/
+blockchain:
+  - address: "0x3b74E7651EB12Ca680D9b6278699E4482cCD70B1"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - mode

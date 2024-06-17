@@ -1,6 +1,12 @@
 version: 7
 name: tproof
 display_name: tProof
+description: Blockchain-based legal evidence that a file exists at a certain date
+websites:
+  - url: https://tproof.io
+social:
+  twitter:
+    - url: https://twitter.com/tproofio
 github:
   - url: https://github.com/tproofio
 blockchain:
@@ -16,9 +22,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://tproof.io
-description: Blockchain-based legal evidence that a file exists at a certain date
-social:
-  twitter:
-    - url: https://twitter.com/tproofio

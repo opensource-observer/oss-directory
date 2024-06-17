@@ -1,0 +1,11 @@
+version: 7
+name: onchain-cubes-dailofrog
+display_name: Based Onchain Cubes
+github:
+  - url: https://github.com/dailofrog/onchain-cubes
+blockchain:
+  - address: "0x55ecb436f274f6f788076a1a5e1572ff17bd73be"
+    networks:
+      - base
+    tags:
+      - contract

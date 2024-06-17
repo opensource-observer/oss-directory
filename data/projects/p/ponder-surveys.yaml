@@ -1,9 +1,42 @@
 version: 7
 name: ponder-surveys
 display_name: Ponder
+description: Curating human insight
+websites:
+  - url: https://www.weponder.io
+  - url: https://ponder.social
+social:
+  farcaster:
+    - url: https://warpcast.com/survey
 github:
   - url: https://github.com/ponder-surveys
 blockchain:
+  - address: "0xCcaF182195e3423B5101AB1c7D67E403F8CaCa3a"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+  - address: "0x50E2Eade4B000474e509fE266208EFBd60BB5CfE"
+    tags:
+      - contract
+    networks:
+      - base
+  - address: "0xe0231bb166D09A3f0739F7AFAd68438C0fA142a5"
+    tags:
+      - contract
+    networks:
+      - base
+  - address: "0x3F08B90f60630192c57Cf7e8cf6047a902a524bF"
+    tags:
+      - contract
+    networks:
+      - base
+  - address: "0xFF86FED03755B8F3f11AB13E52E0DDA78641Fdfc"
+    tags:
+      - contract
+    networks:
+      - base
   - address: "0x81947aadf64cd22ce96999e4c76efb0765839bef"
     networks:
       - any_evm
@@ -11,6 +44,3 @@ blockchain:
       - eoa
       - wallet
     name: weponder.eth
-websites:
-  - url: https://weponder.io
-description: Curating human insight

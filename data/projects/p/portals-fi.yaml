@@ -1,0 +1,19 @@
+version: 7
+name: portals-fi
+display_name: Portals
+websites:
+  - url: https://www.portals.fi
+social:
+  twitter:
+    - url: https://twitter.com/portals_fi
+  farcaster:
+    - url: https://warpcast.com/portalsfi
+github:
+  - url: https://github.com/portals-fi
+blockchain:
+  - address: "0xB27446d86890F3F35d010b9aDAEB135D2771a720"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

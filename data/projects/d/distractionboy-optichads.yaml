@@ -1,0 +1,40 @@
+version: 7
+name: distractionboy-optichads
+display_name: OptiChads NFT Community
+websites:
+  - url: https://optichads.art
+  - url: https://dicks.wtf
+  - url: https://opensea.io/collection/optichads
+  - url: https://opensea.io/collection/basebrigade
+  - url: https://opensea.io/collection/basedickverse
+  - url: https://www.sound.xyz/optichads/optichads
+social:
+  twitter:
+    - url: https://x.com/BaseBrigade
+    - url: https://x.com/BaseDickverse
+    - url: https://x.com/OptiChads
+  farcaster:
+    - url: https://warpcast.com/optichads
+    - url: https://warpcast.com/basebrigadenft
+github:
+  - url: https://github.com/DistractionBoy/optichads
+blockchain:
+  - address: "0x10850762bAc0dc6660630c1EfFe188A7cbFDdc88"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+      - optimism
+  - address: "0xb55aBda335ed39e844FD013d08610f75800C4CB6"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism
+  - address: "0x215a110075B032A63eC154F4A4507eaa3eF50D99"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

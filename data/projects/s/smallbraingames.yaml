@@ -1,9 +1,23 @@
 version: 7
 name: smallbraingames
 display_name: Small Brain Games
+websites:
+  - url: https://joinyonk.com
+  - url: https://www.draw.tech
+social:
+  twitter:
+    - url: https://x.com/0xsmallbrain
+  farcaster:
+    - url: https://warpcast.com/0xsmallbrain
 github:
   - url: https://github.com/smallbraingames
 blockchain:
+  - address: "0x1138264D1Fe19d8175D75d07e1C85E9B2A18A28b"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
   - address: "0xc152cc22488f1383e675f5738df9a4244fb113a5"
     networks:
       - any_evm
@@ -16,3 +30,8 @@ blockchain:
     tags:
       - eoa
       - wallet
+  - address: "0xE233198863b75Acc6e1AF43DAfF3f5918e35875E"
+    networks:
+      - base
+    tags:
+      - contract

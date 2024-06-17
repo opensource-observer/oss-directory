@@ -1,9 +1,20 @@
 version: 7
 name: sushi
 display_name: Sushi
+websites:
+  - url: https://www.sushi.com
+social:
+  twitter:
+    - url: https://x.com/SushiSwap
 github:
   - url: https://github.com/sushiswap
 blockchain:
+  - address: "0xe91b49A652671AEF1B9416A2DA6994DBDde23054"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x4bb4c1b0745ef7b4642feeccd0740dec417ca0a0"
     networks:
       - any_evm
@@ -477,8 +488,3 @@ blockchain:
     tags:
       - safe
       - wallet
-websites:
-  - url: https://sushi.com
-social:
-  twitter:
-    - url: https://twitter.com/SushiSwap

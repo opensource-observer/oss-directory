@@ -1,6 +1,12 @@
 version: 7
 name: uniswap
 display_name: Uniswap
+description: Web3 infrastructure and products
+websites:
+  - url: https://uniswap.org
+social:
+  twitter:
+    - url: https://twitter.com/Uniswap
 github:
   - url: https://github.com/uniswap/interface
   - url: https://github.com/uniswap/token-lists
@@ -313,9 +319,3 @@ blockchain:
     tags:
       - contract
     name: Permit2
-websites:
-  - url: https://uniswap.org
-description: Web3 infrastructure and products
-social:
-  twitter:
-    - url: https://twitter.com/Uniswap

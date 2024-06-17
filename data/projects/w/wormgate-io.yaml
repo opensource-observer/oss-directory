@@ -1,0 +1,28 @@
+version: 7
+name: wormgate-io
+display_name: Womex
+websites:
+  - url: https://www.Womex.io
+social:
+  twitter:
+    - url: https://x.com/Womex_io
+  farcaster:
+    - url: https://warpcast.com/womex
+github:
+  - url: https://github.com/wormgate-io
+blockchain:
+  - address: "0x2E593087CffeD0dc5b651eCecacF3c66a9530000"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+      - optimism
+      - zora
+  - address: "0x149676D254f9C01f1011C580B8F3DFD702DA3333"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+      - optimism

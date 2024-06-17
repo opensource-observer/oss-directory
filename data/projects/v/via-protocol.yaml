@@ -1,6 +1,12 @@
 version: 7
 name: via-protocol
 display_name: Via Protocol
+description: Router
+websites:
+  - url: https://via.exchange
+social:
+  twitter:
+    - url: https://twitter.com/via_protocol
 github:
   - url: https://github.com/viaprotocol
 blockchain:
@@ -130,9 +136,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://via.exchange
-description: Router
-social:
-  twitter:
-    - url: https://twitter.com/via_protocol

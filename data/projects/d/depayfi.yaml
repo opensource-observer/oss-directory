@@ -1,6 +1,13 @@
 version: 7
 name: depayfi
 display_name: DePay
+description: Payments platform for blockchains. Use DePay's software,
+  infrastructure and APIs to manage payments on blockchains.
+websites:
+  - url: https://depay.com
+social:
+  twitter:
+    - url: https://twitter.com/DePay
 github:
   - url: https://github.com/DePayFi
 blockchain:
@@ -11,10 +18,3 @@ blockchain:
       - deployer
       - eoa
       - wallet
-websites:
-  - url: https://depay.com
-description: Payments platform for blockchains. Use DePay's software,
-  infrastructure and APIs to manage payments on blockchains.
-social:
-  twitter:
-    - url: https://twitter.com/DePay

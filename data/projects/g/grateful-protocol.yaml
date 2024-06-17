@@ -1,9 +1,23 @@
 version: 7
 name: grateful-protocol
 display_name: Grateful
+description: Grateful protocol
+websites:
+  - url: https://www.imgrateful.io/
+  - url: https://app.imgrateful.io/
+social:
+  twitter:
+    - url: https://x.com/imgrateful_io
+    - url: https://twitter.com/imgrateful_io
 github:
   - url: https://github.com/grateful-protocol
 blockchain:
+  - address: "0xdead1426ed8b637Ae26fE55F4FB71e65f90374A1"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism
   - address: "0xa503a55eb196aaae0baa6ae68a4710a4e990df09"
     networks:
       - optimism
@@ -16,7 +30,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-description: Grateful protocol
-social:
-  twitter:
-    - url: https://twitter.com/imgrateful_io

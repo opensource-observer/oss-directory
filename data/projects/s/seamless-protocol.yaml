@@ -1,18 +1,26 @@
 version: 7
 name: seamless-protocol
 display_name: Seamless Protocol
+description: Welcome to the Modern Era of DeFi
+websites:
+  - url: https://seamlessprotocol.com
+social:
+  twitter:
+    - url: https://x.com/SeamlessFi
+  farcaster:
+    - url: https://warpcast.com/seamless
 github:
   - url: https://github.com/seamless-protocol
 blockchain:
+  - address: "0x33EB4dEa4931e5d607531Fb08Bd393944aA01Faa"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
   - address: "0x53352a00316573e8f52696c572f1293ac877ef4d"
     networks:
       - any_evm
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://www.seamlessprotocol.com/
-description: Welcome to the Modern Era of DeFi
-social:
-  twitter:
-    - url: https://twitter.com/SeamlessFi

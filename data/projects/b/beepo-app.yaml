@@ -1,6 +1,13 @@
 version: 7
 name: beepo-app
 display_name: Beepo
+description: Beepo is a blockchain powered chat app with full wallet integration
+  allowing you to trade assets with friends at the touch of a button.
+websites:
+  - url: https://beepoapp.net
+social:
+  twitter:
+    - url: https://twitter.com/BeepoApp
 github:
   - url: https://github.com/beepo-app
 blockchain:
@@ -10,10 +17,3 @@ blockchain:
     tags:
       - eoa
       - wallet
-websites:
-  - url: https://beepoapp.net
-description: Beepo is a blockchain powered chat app with full wallet integration
-  allowing you to trade assets with friends at the touch of a button.
-social:
-  twitter:
-    - url: https://twitter.com/BeepoApp

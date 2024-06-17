@@ -1,0 +1,67 @@
+version: 7
+name: velocimeter
+display_name: Velocimeter/Graphene
+github:
+  - url: https://github.com/velocimeter
+blockchain:
+  - address: "0xe0f7921414e79fe4459148d2e38fb68c9186decc"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
+  - address: "0xC5d4E462b96cC73283EB452B15147c17Af413313"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x9D0752CbaC36D58AaBd685a9ACf849Ca28756bf9"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x5490B6D4b7Ec901cC727bE6a92da35521E23a1e9"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xEC349A7D532B99f37649F3c05684d075C1cA867a"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x9052385e624FC2907a22aDD19EC63eFd46c89e43"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x7503E653Fb91d5531c3A597BcAF0635FB096d795"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xA36B73043Ded64586aaF28D3A70fA9a20bc514fC"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xA1278aa621cFa6eA30C2Ad4Eaea5bB4C7D2084AA"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x426C415DB905611459B0Eb073C50A83d7E2f6fDD"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x702a069c86CA48df996C5f3BB5Eb053753c04FaA"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xF02cdc73716DCBd1E28D80eF39Ac9080A2394926"
+    networks:
+      - base
+    tags:
+      - contract

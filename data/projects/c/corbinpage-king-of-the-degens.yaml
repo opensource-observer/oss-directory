@@ -1,0 +1,20 @@
+version: 7
+name: corbinpage-king-of-the-degens
+display_name: 👑 King of the Degens 🎩 - Farcaster Frame Game
+websites:
+  - url: https://degen.game/kotd
+  - url: https://s1.degen.game/
+  - url: https://s2.degen.game/
+social:
+  farcaster:
+    - url: https://warpcast.com/~/channel/degengame
+github:
+  - url: https://github.com/corbinpage/kotd-contracts-public
+blockchain:
+  - address: "0xf0d5D3FcBFc0009121A630EC8AB67e012117f40c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+      - optimism

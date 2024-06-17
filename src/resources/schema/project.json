@@ -22,6 +22,9 @@
         "$ref": "url.json#"
       }
     },
+    "social": {
+      "$ref": "social-profile.json#"
+    },
     "github": {
       "type": "array",
       "items": {
@@ -40,8 +43,11 @@
         "$ref": "blockchain-address.json#"
       }
     },
-    "social": {
-      "$ref": "social-profile.json#"
+    "comments": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   },
   "required": ["version", "name", "display_name"]
