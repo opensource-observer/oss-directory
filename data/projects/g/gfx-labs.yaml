@@ -1,0 +1,18 @@
+version: 7
+name: gfx-labs
+display_name: gfx labs
+github:
+  - url: https://github.com/gfx-labs
+websites:
+  - url: https://oku.trade/
+blockchain:
+  - address: "0x54dF9e11c7933a9cA3BD1E540B63dA15edAe40bf"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xfF8b754c64e9a8473Bd6E1118d0eaC67F0A8Ae27"
+    networks:
+      - base
+    tags:
+      - contract
