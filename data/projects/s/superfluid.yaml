@@ -689,6 +689,8 @@ blockchain:
       - mainnet
       - optimism
       - base
+      - matic
+      - scroll
     tags:
       - contract
     name: CFAv1Forwarder
@@ -696,6 +698,9 @@ blockchain:
     networks:
       - optimism
       - base
+      - matic
+      - arbitrum_one
+      - scroll
     tags:
       - contract
     name: GDAv1Forwarder
@@ -898,3 +903,303 @@ blockchain:
     tags:
       - contract
     name: VestingScheduler
+  - address: "0x8bDCb5613153f41B2856F71Bd7A7e0432F6dbe58"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: resolver
+  - address: "0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: governance
+  - address: "0x6EeE6060f715257b970700bc2656De21dEdF074C"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: cfaV1
+  - address: "0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: idaV1
+  - address: "0x961dd5A052741B49B6CBf6759591f9D8576fCFb0"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: gdaV1
+  - address: "0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34"
+    networks:
+      - matic
+    tags:
+      - contract
+      - factory
+    name: superTokenFactory
+  - address: "0x554e2bbaCF43FD87417b7201A9F1649a3ED89d68"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: constantOutflowNFT
+  - address: "0x55909bB8cd8276887Aae35118d60b19755201c68"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: constantInflowNFT
+  - address: "0x444A48dA32649Ed03eeC9B9cD416748262c320E6"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: superfluidLoader
+  - address: "0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: toga
+  - address: "0xA6Cdb472e7E22Bf30ae6fB752E4a13eBF3c12165"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: batchLiquidator
+  - address: "0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: flowScheduler
+  - address: "0xcFE6382B33F2AdaFbE46e6A26A88E0182ae32b0c"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: vestingScheduler
+  - address: "0x497aa106Da00BFa8f8BC266EF0793131930Fa630"
+    networks:
+      - matic
+    tags:
+      - contract
+      - factory
+    name: existentialNFTCloneFactory
+  - address: "0x609b9d9d6Ee9C3200745A79B9d3398DBd63d509F"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: resolver
+  - address: "0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: governance
+  - address: "0x731FdBB12944973B500518aea61942381d7e240D"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: cfaV1
+  - address: "0x2319C7e07EB063340D2a0E36709B0D65fda75986"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: idaV1
+  - address: "0x1e299701792a2aF01408B122419d65Fd2dF0Ba02"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: gdaV1
+  - address: "0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+      - factory
+    name: superTokenFactory
+  - address: "0x051e766e2d8dc65ae2bFCF084A50AD0447634227"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: constantOutflowNFT
+  - address: "0x0043d7c85C8b96a49A72A92C0B48CdC4720437d7"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: constantInflowNFT
+  - address: "0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: superfluidLoader
+  - address: "0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: toga
+  - address: "0x6C66e5c5D201A753ff497F2e9eC5D545631854d0"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: batchLiquidator
+  - address: "0x3fA8B653F9abf91428800C0ba0F8D145a71F97A1"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: flowScheduler
+  - address: "0x55c8fc400833eEa791087cF343Ff2409A39DeBcC"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: vestingScheduler
+  - address: "0xF353978890204756fc5fa6dfbD16a91eac9E6f4d"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+      - factory
+    name: existentialNFTCloneFactory
+  - address: "0xeE4cD028f5fdaAdeA99f8fc38e8bA8A57c90Be53"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: resolver
+  - address: "0xe2E14e2C4518cB06c32Cd0818B4C01f53E1Ba653"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: governance
+  - address: "0x2844c1BBdA121E9E43105630b9C8310e5c72744b"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: cfaV1
+  - address: "0xbCF9cfA8Da20B591790dF27DE65C1254Bf91563d"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: idaV1
+  - address: "0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1"
+    networks:
+      - mainnet
+    tags:
+      - contract
+      - factory
+    name: superTokenFactory
+  - address: "0x9775EEBdfF8AE845e7Ad3d1D04B85e6c6d284aCB"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: superfluidLoader
+  - address: "0x8B5a2CF69a56d7F8Fa027edcA23594cdDF544dDc"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: toga
+  - address: "0x554c06487bEc8c890A0345eb05a5292C1b1017Bd"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: batchLiquidator
+  - address: "0xAA0cD305eD020137E302CeCede7b18c0A05aCCDA"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: flowScheduler
+  - address: "0x39D5cBBa9adEBc25085a3918d36D5325546C001B"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: vestingScheduler
+  - address: "0xb25a19c0e7d10c8D37E5b63Ed3213b67f7ebfF80"
+    networks:
+      - scroll
+    tags:
+      - contract
+    name: resolver
+  - address: "0xC2C9a709A6744816b3712D520BD314fe610AEa33"
+    networks:
+      - scroll
+    tags:
+      - contract
+    name: governance
+  - address: "0xB3bcD6da1eeB6c97258B3806A853A6dcD3B6C00c"
+    networks:
+      - scroll
+    tags:
+      - contract
+    name: cfaV1
+  - address: "0x4112557F0F228A18654d3C39599421DE9F61144d"
+    networks:
+      - scroll
+    tags:
+      - contract
+    name: idaV1
+  - address: "0x97a9f293d7eD13f3fbD499cE684Ed4F103295a28"
+    networks:
+      - scroll
+    tags:
+      - contract
+    name: gdaV1
+  - address: "0x0de05fe0fF8F5eA9475CA8425e2D05Dd38ccED84"
+    networks:
+      - scroll
+    tags:
+      - contract
+    name: constantOutflowNFT
+  - address: "0x8c24Fc82c8fDd763F08E654212fc27e577EbD934"
+    networks:
+      - scroll
+    tags:
+      - contract
+    name: constantInflowNFT
+  - address: "0x7613030429E95cDFC76FE70f9573037068B51815"
+    networks:
+      - scroll
+    tags:
+      - contract
+    name: superfluidLoader
+  - address: "0x1bF9D75d50fD828a93f69ECB06f2B85767792CEB"
+    networks:
+      - scroll
+    tags:
+      - contract
+    name: toga
+  - address: "0x3024A39099D4FAE7c9eA8329FAfe05576AEd2c00"
+    networks:
+      - scroll
+    tags:
+      - contract
+    name: batchLiquidator
+  - address: "0xacFBED2bC9344C158DD3dC229b84Bd7220e7c673"
+    networks:
+      - scroll
+    tags:
+      - contract
+      - factory
+    name: superTokenFactory
