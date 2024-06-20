@@ -26,7 +26,11 @@ blockchain:
       - wallet
   - address: "0xf29ff96aaea6c9a1fba851f74737f3c069d4f1a9"
     networks:
-      - any_evm
+      - arbitrum_one
+      - base
+      - mainnet
+      - optimism
+      - zora
     tags:
-      - eoa
+      - contract
       - wallet
