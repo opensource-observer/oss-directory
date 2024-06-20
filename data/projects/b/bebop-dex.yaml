@@ -1,0 +1,24 @@
+version: 7
+name: bebop-dex
+display_name: Bebop
+github:
+  - url: https://github.com/bebop-dex
+blockchain:
+  - address: "0xbbbbbbb520d69a9775e85b458c58c648259fad5f"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xbeb09000fa59627dc02bb55448ac1893eaa501a5"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xbebebeb035351f58602e0c1c8b59ecbff5d5f47b"
+    networks:
+      - base
+      - mode
+      - optimism
+    tags:
+      - contract
+      - factory
