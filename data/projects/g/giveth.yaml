@@ -99,6 +99,7 @@ blockchain:
     networks:
       - any_evm
     tags:
+      - deployer
       - eoa
     name: TreasuryHandler
   - address: "0x9cd1E4A6b3361abcCC90C7F8E788ac246d194303"
