@@ -67,7 +67,9 @@ blockchain:
       - eoa
   - address: "0xfd513630f697a9c1731f196185fb9eba6eaac20b"
     networks:
-      - any_evm
+      - arbitrum_one
+      - base
+      - mainnet
     tags:
-      - deployer
-      - eoa
+      - contract
+      - factory

@@ -124,7 +124,11 @@ blockchain:
       - safe
   - address: "0x93FEC2C00BfE902F733B57c5a6CeeD7CD1384AE1"
     networks:
-      - any_evm
+      - arbitrum_one
+      - base
+      - mainnet
+      - mode
+      - optimism
     tags:
       - contract
       - factory
@@ -138,7 +142,11 @@ blockchain:
     name: CREATE3Factory
   - address: "0x1231deb6f5749ef6ce6943a275a1d3e7486f4eae"
     networks:
-      - any_evm
+      - arbitrum_one
+      - base
+      - mainnet
+      - mode
+      - optimism
     tags:
       - contract
     name: LiFiDiamond
@@ -156,13 +164,17 @@ blockchain:
     name: LiFiDiamond
   - address: "0x9b11bc9fac17c058cab6286b0c785be6a65492ef"
     networks:
-      - any_evm
+      - arbitrum_one
+      - mainnet
+      - optimism
     tags:
       - contract
     name: LiFiDiamondImmutable
   - address: "0x362fa9d0bca5d19f743db50738345ce2b40ec99f"
     networks:
-      - any_evm
+      - arbitrum_one
+      - mainnet
+      - optimism
     tags:
       - contract
     name: LiFiDiamond
@@ -198,10 +210,12 @@ blockchain:
     name: FeeCollector
   - address: "0x2dfaDAB8266483beD9Fd9A292Ce56596a2D1378D"
     networks:
-      - any_evm
+      - arbitrum_one
+      - mainnet
+      - optimism
     tags:
       - contract
-    name: FeeCollector
+    name: Executor
   - address: "0xa9bfa49F26733271f4FD34A4b57bB7C563Ae056A"
     networks:
       - zksync_era
