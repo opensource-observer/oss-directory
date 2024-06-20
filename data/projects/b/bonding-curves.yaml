@@ -13,9 +13,10 @@ blockchain:
     name: curiousrabbit.eth
   - address: "0x29567bdbcc92acf37ac6b56b69180857bb69f7d1"
     networks:
-      - any_evm
+      - arbitrum_one
+      - mainnet
+      - optimism
     tags:
-      - eoa
       - safe
       - wallet
   - address: "0xb2821c0df0c414ff51d3e8033cba26df6aac587b"

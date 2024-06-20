@@ -87,15 +87,6 @@ blockchain:
       - contract
       - factory
     name: unverified
-  - address: "0x1ea71cec606f6eecc547937b549e598210ebb0e0"
-    networks:
-      - any_evm
-    tags:
-      - contract
-      - deployer
-      - eoa
-      - factory
-    name: unverified
   - address: "0x2b95bf93b5873c8cb9ae3374e3054736a5b79676"
     networks:
       - mainnet
@@ -113,13 +104,9 @@ blockchain:
     name: unverified
   - address: "0x7c8fef8ea9b1fe46a7689bfb8149341c90431d38"
     networks:
-      - any_evm
+      - mainnet
     tags:
       - contract
-      - deployer
-      - eoa
-      - factory
-    name: various:DiffersByChain
   - address: "0x8176c5408c5dec30149232a74ef8873379b59982"
     networks:
       - mainnet
