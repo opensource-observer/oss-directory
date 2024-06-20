@@ -18,8 +18,10 @@ blockchain:
   - address: "0x00000000000cC7ba78E64E86B2Bd59B1ae7F569E"
     tags:
       - contract
+      - factory
     networks:
       - base
+      - mode
   - address: "0x0000000000a6f5d91204b3bb226c2e3a6350b234"
     tags:
       - contract
