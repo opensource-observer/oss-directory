@@ -18,15 +18,15 @@ blockchain:
   - address: "0xfE661c01891172046feE16D3a57c3Cf456729efA"
     tags:
       - contract
+      - factory
     networks:
+      - base
       - optimism
   - address: "0x88DE599267304dAF412872D83294210C5Bee8fC0"
     tags:
       - eoa
-      - deployer
     networks:
-      - base
-      - optimism
+      - any_evm
   - address: "0x2a069e21395dc7f89f780f8cf5383a0ff598b672"
     networks:
       - any_evm
