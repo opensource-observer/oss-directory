@@ -15,4 +15,11 @@ blockchain:
       - factory
     networks:
       - base
+      - zora
     name: MintFactory
+  - address: "0x61fc46fe4B5fA66Db1aCD6CC89B2668DD6F0c8a3"
+    tags:
+      - contract
+    networks:
+      - base
+    name: Hacker Pizza

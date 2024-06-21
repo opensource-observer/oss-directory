@@ -18,14 +18,15 @@ blockchain:
   - address: "0xfE661c01891172046feE16D3a57c3Cf456729efA"
     tags:
       - contract
+      - factory
     networks:
+      - base
       - optimism
   - address: "0x88DE599267304dAF412872D83294210C5Bee8fC0"
     tags:
       - eoa
-      - deployer
     networks:
-      - base
+      - any_evm
   - address: "0x2a069e21395dc7f89f780f8cf5383a0ff598b672"
     networks:
       - any_evm
@@ -65,3 +66,62 @@ blockchain:
     tags:
       - contract
     name: Hats
+  - address: "0x050079a8fbfce76818c62481ba015b89567d2d35"
+    networks:
+      - base
+      - optimism
+    tags:
+      - contract
+  - address: "0x55e408657c06a812d78dc9169369f0f28a12cba6"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x9e01030af633be5a439df122f2eef750b44b8ac7"
+    networks:
+      - optimism
+      - base
+    tags:
+      - contract
+  - address: "0xac208e6668de569c6ea1db76decea70430335ed5"
+    networks:
+      - optimism
+      - base
+    tags:
+      - contract
+  - address: "0xae0e56a0c509da713722c1affcf4b5f1c6cdc73a"
+    networks:
+      - optimism
+      - base
+    tags:
+      - contract
+  - address: "0xb985ea1be961f7c4a4c45504444c02c88c4fdef9"
+    networks:
+      - optimism
+      - base
+    tags:
+      - contract
+  - address: "0xd3b916a8f0c4f9d1d5b6af29c3c012dbd4f3149e"
+    networks:
+      - optimism
+      - base
+    tags:
+      - contract
+  - address: "0xf6bc6dd30403e6ff5b3bebead32b8fce1b753aa1"
+    networks:
+      - optimism
+      - base
+    tags:
+      - contract
+  - address: "0xfb6bd2e96b123d0854064823f6cb59420a285c00"
+    networks:
+      - base
+      - optimism
+    tags:
+      - contract
+  - address: "0xfef83a660b7c10a3edafdcf62deee1fd8a875d29"
+    networks:
+      - optimism
+      - base
+    tags:
+      - contract

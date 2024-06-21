@@ -18,5 +18,37 @@ blockchain:
   - address: "0x00000000000cC7ba78E64E86B2Bd59B1ae7F569E"
     tags:
       - contract
+      - factory
+    networks:
+      - base
+      - mode
+  - address: "0x0000000000a6f5d91204b3bb226c2e3a6350b234"
+    tags:
+      - contract
+    networks:
+      - base
+  - address: "0x000000000066e90e8615e1722776765552f7942b"
+    tags:
+      - contract
+    networks:
+      - base
+  - address: "0x0000000000e1b745934e6c7e8d86a9818ab09a87"
+    tags:
+      - contract
+    networks:
+      - base
+  - address: "0x000000000095bcfcb627bbb6224e2aee0a395203"
+    tags:
+      - contract
+    networks:
+      - base
+  - address: "0x0000000000a6f0986c92cf1ec4d2e77afbe1466d"
+    tags:
+      - contract
+    networks:
+      - base
+  - address: "0x0000000002546f9c641e000dd4b22875236bc147"
+    tags:
+      - contract
     networks:
       - base
