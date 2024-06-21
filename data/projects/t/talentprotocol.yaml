@@ -9,11 +9,17 @@ social:
   farcaster:
     - url: https://warpcast.com/~/channel/talent
 github:
-  - url: https://github.com/talentprotocol
+  - url: https://github.com/talentprotocol/contracts
+  - url: https://github.com/talentprotocol/lambda-functions
 blockchain:
   - address: "0x3C16C7092FE83d874BC4dd52c3b51510C69F1D7b"
     tags:
       - eoa
       - deployer
+    networks:
+      - base
+  - address: "0x5f3aA689C4DCBAe505E6F6c8548DbD9b908bA71d"
+    tags:
+      - contract
     networks:
       - base

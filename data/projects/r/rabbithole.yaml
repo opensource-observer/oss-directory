@@ -36,7 +36,9 @@ blockchain:
   - address: "0x52629961f71c1c2564c5aa22372cb1b9fa9eba3e"
     networks:
       - arbitrum_one
+      - base
       - optimism
+      - zora
     tags:
       - contract
       - factory
