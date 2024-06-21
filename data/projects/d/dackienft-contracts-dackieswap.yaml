@@ -1,0 +1,21 @@
+version: 7
+name: dackienft-contracts-dackieswap
+display_name: DackieNFT
+github:
+  - url: https://github.com/dackieswap/dackienft-contracts
+blockchain:
+  - address: "0xEb5A14a0a5A9e36aD20CFFFFa4a8797015F25EAE"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xEBceC2e959baD4137925f9dDB68e163cCA72242B"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x754fa2F31386f8AfeD6230011Da955D0DBED53A5"
+    networks:
+      - base
+    tags:
+      - contract
