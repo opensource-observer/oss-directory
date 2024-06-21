@@ -6,9 +6,9 @@ github:
 blockchain:
   - address: "0xc2b78104907f722dabac4c69f826a522b2754de4"
     networks:
+      - base
       - optimism
     tags:
-      - base
       - contract
     name: P256Verifier
   - address: "0xeeee8b1371f1664b7c2a8c111d6062b6576fa6f0"
