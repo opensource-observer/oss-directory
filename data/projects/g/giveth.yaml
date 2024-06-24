@@ -93,6 +93,7 @@ blockchain:
     networks:
       - optimism
     tags:
+      - deployer
       - eoa
     name: deployerKey2
   - address: "0xe1ce7720f9b434ec98382f776e5C3A48C8BA6673"
@@ -114,3 +115,15 @@ blockchain:
       - optimism
     tags:
       - contract
+  - address: "0xbbDb3BEbdbD607362AAF93f45ef72256C5496FbA"
+    networks:
+      - base
+    tags:
+      - safe
+      - wallet
+  - address: "0x6e8873085530406995170Da467010565968C7C62"
+    networks:
+      - base
+    tags:
+      - safe
+      - wallet
