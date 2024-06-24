@@ -30,9 +30,17 @@ blockchain:
       - wallet
   - address: "0x00000000000007736e2f9aa5630b8c812e1f3fc9"
     networks:
-      - any_evm
+      - arbitrum_one
+      - base
+      - frax
+      - mainnet
+      - metal
+      - mode
+      - optimism
+      - zora
     tags:
       - eoa
+      - bridge
     name: "Chaineye: Mini Bridge"
   - address: "0x393e4c83247d1af1c3fc4070688432479ef18297"
     networks:
