@@ -14,4 +14,10 @@ blockchain:
       - eoa
       - deployer
     networks:
+      - base
       - optimism
+  - address: "0x1a93629bfcc6e9c7241e587094fae26f62503fad"
+    tags:
+      - contract
+    networks:
+      - base

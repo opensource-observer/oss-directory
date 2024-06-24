@@ -1,14 +1,13 @@
 version: 7
 name: router-protocol
 display_name: Router Protocol
-description: Blockchain Company
+description: A secure, scalable, modular, composable framework for cross-chain interoperability.
 websites:
   - url: https://app.routernitro.com
   - url: https://routerprotocol.com
 social:
   twitter:
     - url: https://x.com/routerprotocol
-    - url: https://twitter.com/routerprotocol
 github:
   - url: https://github.com/router-protocol
 blockchain:
@@ -671,3 +670,8 @@ blockchain:
     tags:
       - contract
     name: ERC1967Proxy
+  - address: "0xFF13A7A12fd485BC9687fF88D8Ae1A6b655Ab469"
+    networks:
+      - mode
+    tags:
+      - contract

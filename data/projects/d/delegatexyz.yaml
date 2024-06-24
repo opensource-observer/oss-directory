@@ -17,6 +17,7 @@ blockchain:
     name: DelegateRegistry
   - address: "0x00000000000076a84fef008cdabe6409d2fe638b"
     networks:
+      - base
       - optimism
     tags:
       - contract
