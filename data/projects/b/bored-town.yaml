@@ -2,13 +2,13 @@ version: 7
 name: bored-town
 display_name: Bored Town
 github:
-  - url: https://github.com/bored-town/contracts
-  - url: https://github.com/bored-town/op-airdrop4
-  - url: https://github.com/bored-town/sonocrew
+  - url: https://github.com/bored-town
 blockchain:
   - address: "0x28e43bb3ee202e1da587c88b0a8398309e8d4c2d"
     networks:
       - optimism
+      - base
+      - zora
     tags:
       - contract
   - address: "0x0ff79617696445c4a0cbf48bc1c23d5cbb65d335"
@@ -17,6 +17,26 @@ blockchain:
     tags:
       - contract
   - address: "0xc14f462e63f36d9be62b2fbb7595e844d3bc18ee"
+    networks:
+      - mode
+    tags:
+      - contract
+  - address: "0x0676f7f33bfe9d4d0ad5649f002184503d2f2c45"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x128a1e35398c72a9a060f482963f594752beccef"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x7ce36e275cd41506b4be330d1650824cc677f925"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x4cbda159d77eddce9eba4b8ecddba88040bb3f6f"
     networks:
       - mode
     tags:
