@@ -7,6 +7,8 @@ blockchain:
   - address: "0x28e43bb3ee202e1da587c88b0a8398309e8d4c2d"
     networks:
       - optimism
+      - base
+      - zora
     tags:
       - contract
   - address: "0x0ff79617696445c4a0cbf48bc1c23d5cbb65d335"
@@ -32,12 +34,6 @@ blockchain:
   - address: "0x7ce36e275cd41506b4be330d1650824cc677f925"
     networks:
       - optimism
-    tags:
-      - contract
-  - address: "0x28e43bb3ee202e1da587c88b0a8398309e8d4c2d"
-    networks:
-      - base
-      - zora
     tags:
       - contract
   - address: "0x4cbda159d77eddce9eba4b8ecddba88040bb3f6f"
