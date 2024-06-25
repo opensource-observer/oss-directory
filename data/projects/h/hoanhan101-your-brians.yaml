@@ -3,13 +3,17 @@ name: hoanhan101-your-brians
 display_name: Your Brians
 websites:
   - url: https://opensea.io/collection/yourbrians
+  - url: https://opensea.io/collection/1337-brians
 social:
   twitter:
     - url: https://x.com/hoanhan101
+    - url: https://x.com/1337skulls
   farcaster:
     - url: https://warpcast.com/hoanhan/0x4c31c001
+    - url: https://warpcast.com/~/channel/1337
 github:
   - url: https://github.com/hoanhan101/yourbrians
+  - url: https://github.com/leetship/brians
 blockchain:
   - address: "0x7B27c0cfaBD0941577624eDDdc8ad0fd12fd7480"
     tags:
@@ -17,3 +21,9 @@ blockchain:
       - deployer
     networks:
       - base
+  - address: "0xEd0822a7Ef145Baf1065B500E89420Ed1bDEF243"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
