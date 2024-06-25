@@ -1,0 +1,42 @@
+version: 7
+name: multicaller-vectorized
+display_name: Multicaller (by Vectorized)
+description: Let's accelerate the code.
+social:
+  twitter:
+    - url: https://twitter.com/optimizoor
+github:
+  - url: https://github.com/Vectorized/multicaller
+npm:
+  - url: https://www.npmjs.com/package/multicaller
+blockchain:
+  - address: "0x0000000000002Bdbf1Bf3279983603Ec279CC6dF"
+    networks:
+      - arbitrum_one
+      - base
+      - mainnet
+      - optimism
+      - zora
+    tags:
+      - contract
+    name: Multicaller
+  - address: "0x00000000002Fd5Aeb385D324B580FCa7c83823A0"
+    networks:
+      - arbitrum_one
+      - base
+      - mainnet
+      - optimism
+      - zora
+    tags:
+      - contract
+    name: MulticallerWithSender
+  - address: "0x000000000000D9ECebf3C23529de49815Dac1c4c"
+    networks:
+      - arbitrum_one
+      - base
+      - mainnet
+      - optimism
+      - zora
+    tags:
+      - contract
+    name: MulticallerWithSigner
