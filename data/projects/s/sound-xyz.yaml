@@ -11,12 +11,6 @@ social:
 github:
   - url: https://github.com/soundxyz
 blockchain:
-  - address: "0x1F5D295778796a8b9f29600A585Ab73D452AcB1c"
-    tags:
-      - eoa
-      - deployer
-    networks:
-      - any_evm
   - address: "0xa66cdda1817c85ed3d232a5affd17673e933d8a7"
     networks:
       - any_evm
@@ -85,3 +79,35 @@ blockchain:
     tags:
       - contract
     name: RangeEditionMinterV2
+  - address: "0x0000000000aec84F5BFc2af15EAfb943bf4e3522"
+    networks:
+      - base
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: SoundCreatorV2
+  - address: "0x000000000001A36777f9930aAEFf623771b13e70"
+    networks:
+      - base
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: SuperMinterV2
+  - address: "0x000000000000dB7a98221b2c663e4150a5117343"
+    networks:
+      - base
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: SuperMinterV1_1
+  - address: "0x0000000000CF4558c36229ac0026ee16D3aE35Cd"
+    networks:
+      - base
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: SuperMinter
