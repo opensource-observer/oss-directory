@@ -1,7 +1,7 @@
 import glob
 import yaml
 import os
-from typing import Callable, List, Optional, TypedDict, Unpack, Any
+from typing import Callable, List, Optional, Any
 from dataclasses import dataclass
 
 from .schema import validate_project, validate_collection, ValidationResponse
