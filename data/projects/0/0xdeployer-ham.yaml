@@ -11,9 +11,23 @@ social:
 github:
   - url: https://github.com/0xdeployer/the-lp-sol
 blockchain:
-  - address: "0x16760803046fFa4D05878333B0953bBDDc0C20Cb"
+  - address: "0x5B5dee44552546ECEA05EDeA01DCD7Be7aa6144A"
     tags:
-      - eoa
-      - deployer
+      - contract
+    networks:
+      - base
+  - address: "0x56B10bf5E47C8262569F3119Dfb4bE457795C8a2"
+    tags:
+      - contract
+    networks:
+      - base
+  - address: "0x8Ce608cE2B5004397fAEF1556bFE33bdFbE4696d"
+    tags:
+      - contract
+    networks:
+      - base
+  - address: "0xAD896fDa5E5008151045C4A1D89F6dE3B008dF54"
+    tags:
+      - contract
     networks:
       - base
