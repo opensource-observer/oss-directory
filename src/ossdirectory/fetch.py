@@ -19,7 +19,7 @@ def load_yaml_files(
 ):
     # Construct the glob pattern to match YAML files
     search_pattern = os.path.join(directory, pattern)
-    yaml_files = glob.glob(search_pattern)
+    yaml_files = glob.glob(search_pattern, recursive=True)
 
     # List to hold parsed YAML data from all files
     all_yaml_data = []
