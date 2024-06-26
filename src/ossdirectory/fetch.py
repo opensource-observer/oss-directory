@@ -1,7 +1,7 @@
 import glob
 import yaml
 import os
-from typing import Callable, List, Optional
+from typing import Callable, List, Optional, Any
 from dataclasses import dataclass
 
 from .schema import validate_project, validate_collection, ValidationResponse
@@ -15,7 +15,7 @@ class OSSDirectory:
 
 
 def load_yaml_files(
-    directory, validator: Callable[[any], ValidationResponse], pattern="**/*.yaml"
+    directory, validator: Callable[[Any], ValidationResponse], pattern="**/*.yaml"
 ):
     # Construct the glob pattern to match YAML files
     search_pattern = os.path.join(directory, pattern)

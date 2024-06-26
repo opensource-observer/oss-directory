@@ -1,4 +1,3 @@
-import os
 import tempfile
 import contextlib
 from git import Repo

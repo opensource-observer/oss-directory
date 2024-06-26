@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "oss-directory"
-version = "0.0.1"
+version = "0.0.2"
 description = "Open source software directory"
 authors = ["Kariba Labs"]
 license = "Apache-2.0"
@@ -16,8 +16,17 @@ python = ">=3.11,<3.13"
 pyyaml = "^6.0.1"
 jsonschema = "^4.22.0"
 gitpython = "^3.1.43"
+ruff = "^0.4.10"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.pyright]
+pythonVersion = "3.12"
+typeCheckingMode = "standard"
+ignore = ["src/scripts"]
+
+[tool.ruff]
+exclude = ["src/scripts"]
