@@ -17,6 +17,7 @@ blockchain:
       - deployer
     networks:
       - base
+      - optimism
   - address: "0x8b6c27ec466923fad66ada94c78aa320ea876969"
     networks:
       - any_evm
