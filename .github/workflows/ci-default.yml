@@ -30,6 +30,9 @@ jobs:
     name: test
     environment: testing
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        component: ["node", "python"]
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -40,6 +43,7 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
           # Fetch all history so gitlint can check the relevant commits.
           fetch-depth: "0"
+
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
@@ -47,32 +51,49 @@ jobs:
           run_install: |
             - recursive: true
               args: [--frozen-lockfile, --strict-peer-dependencies]
-      - name: Set up Python 3
-        uses: actions/setup-python@v5
+
+      - name: "Setup Python, Poetry and Dependencies"
+        uses: packetcoders/action-setup-cache-python-poetry@main
         with:
-          python-version: "3.x"
+          python-version: 3.12
+          poetry-version: 1.8.2
+
       - name: Set up Node.js 20
         uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: "pnpm"
-      - name: Build
+
+      - name: Build (node)
         run: |
           pnpm build
         # Always run this step so that all linting errors can be seen at once.
-        if: always()
-      - name: Lint
+        if: ${{ always() && matrix.component == 'node' }}
+
+      - name: Lint (node)
         run: |
           pnpm lint
         # Always run this step so that all linting errors can be seen at once.
-        if: always()
-      - name: Test
+        if: ${{ always() && matrix.component == 'node' }}
+
+      - name: Test (node)
         run: |
           pnpm test
         # Always run this step so that all linting errors can be seen at once.
-        if: always()
-      - name: Validate data
+        if: ${{ always() && matrix.component == 'node' }}
+
+      - name: Validate data (node)
         run: |
           pnpm validate
         # Always run this step so that all linting errors can be seen at once.
-        if: always()
+        if: ${{ always() && matrix.component == 'node' }}
+
+      - name: Type check (python)
+        run: |
+          pnpm pyright
+        if: ${{ always() && matrix.component == 'python' }}
+
+      - name: Lint (python)
+        run: |
+          poetry run ruff check
+        if: ${{ always() && matrix.component == 'python' }}

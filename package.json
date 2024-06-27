@@ -38,7 +38,8 @@
     "types:mv": "find src/types/ -name '*.d.ts' -type f | sed s/\\.d.ts$// | xargs -I _ bash -c 'mv _.d.ts _.ts'",
     "validate": "pnpm validate:collections && pnpm validate:projects",
     "validate:collections": "pnpm start validate-collections",
-    "validate:projects": "pnpm start validate-projects"
+    "validate:projects": "pnpm start validate-projects",
+    "pyright": "pyright --pythonpath $(poetry env info --path)/bin/python"
   },
   "keywords": [],
   "devDependencies": {
@@ -71,6 +72,7 @@
     "glob": "^10.3.10",
     "lodash": "^4.17.21",
     "mkdirp": "^3.0.1",
+    "pyright": "^1.1.369",
     "simple-git": "^3.21.0",
     "tmp-promise": "^3.0.3",
     "ts-adt": "^2.1.2",

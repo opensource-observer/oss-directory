@@ -17,3 +17,13 @@ blockchain:
       - deployer
     networks:
       - any_evm
+  - address: "0x454ba74c599340b1d868c693ccdb1a55feb8965d"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xb76d6fb6fabf0b1b6d08878e95f9bae630033b16"
+    networks:
+      - optimism
+    tags:
+      - contract
