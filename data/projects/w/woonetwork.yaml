@@ -63,13 +63,6 @@ blockchain:
     tags:
       - contract
     name: various:DiffersByChain
-  - address: "0x816f722424b49cf1275cc86da9840fbd5a6167e9"
-    networks:
-      - arbitrum_one
-      - optimism
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
   - address: "0xeff23b4be1091b53205e35f3afcd9c7182bf3062"
     networks:
       - arbitrum_one
