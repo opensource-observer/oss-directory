@@ -1,48 +1,13 @@
 version: 7
 name: morkiexyz
 display_name: Morkie
+description: Multi-chain NFT Marketplace on Taiko
 websites:
-  - url: https://morkie.xyz/
+- url: https://www.morkie.xyz/
+github:
+- url: https://github.com/Morkiexyz
 social:
   twitter:
-    - url: https://x.com/_morkie
-  farcaster:
-    - url: https://warpcast.com/morkie
-github:
-  - url: https://github.com/Morkiexyz
-blockchain:
-  - address: "0xA239366d40b724dD2b7F1E5750E82cf4D56Aa7c2"
-    tags:
-      - eoa
-      - deployer
-    networks:
-      - base
-      - mode
-      - optimism
-      - zora
-  - address: "0xfe03Db4ffaebe20281862c0edFD8718484F344f3"
-    tags:
-      - contract
-    networks:
-      - base
-  - address: "0x911E49F1733D3994E7903Ff61C40D2728B1f3A3E"
-    tags:
-      - contract
-    networks:
-      - zora
-  - address: "0xAbE03B7b78275a22e129eb3da43d11CD640271aC"
-    tags:
-      - contract
-      - factory
-    networks:
-      - optimism
-  - address: "0x2A0Be415862dD85654457e5bf5147630FE5AF17B"
-    tags:
-      - contract
-    networks:
-      - optimism
-  - address: "0x7a919fe97a3B4A605CAB69ec1Ae38f31a784C825"
-    tags:
-      - contract
-    networks:
-      - mode
+  - url: https://x.com/_morkie
+  telegram:
+  - url: https://t.me/morkiechat
