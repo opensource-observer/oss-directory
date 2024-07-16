@@ -10,7 +10,7 @@ from write_yaml import dump
 
 
 LOCAL_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "projects")
-
+VERSION = 7
 
 def parse_url(url: str) -> Optional[str]:
     """
@@ -53,7 +53,7 @@ def input_project() -> Tuple[str, str, str]:
     return url, name, project_name
 
 
-def generate_yaml(url: str, name: str, project_name: str, version: int = 5, repo_to_name_mapping: dict = {}) -> bool:
+def generate_yaml(url: str, name: str, project_name: str, repo_to_name_mapping: dict = {}) -> bool:
     """
     Generate a YAML file for a given project. This function checks for duplicate entries based on the URL 
     and verifies if a YAML file already exists for the given name before proceeding to create a new YAML file.
@@ -62,7 +62,6 @@ def generate_yaml(url: str, name: str, project_name: str, version: int = 5, repo
     url (str): The URL of the GitHub repository.
     name (str): The name derived from the GitHub URL, used as a filename.
     display_name (str): The name of the project.
-    version (int, optional): Version number for the YAML structure. Defaults to 5.
     repo_to_name_mapping (dict, optional): A dictionary mapping GitHub URLs to names. Used to check for duplicates.
 
     Returns:
@@ -80,7 +79,7 @@ def generate_yaml(url: str, name: str, project_name: str, version: int = 5, repo
         print("File already exists.")
         return False
 
-    yaml_data = {"version": version, "name": name, "display_name": project_name, "github": [{"url": url}]}
+    yaml_data = {"version": VERSION, "name": name, "display_name": project_name, "github": [{"url": url}]}
     dump(yaml_data, path)
     print(f"Generated YAML file at {path}")
     repo_to_name_mapping[url] = name
