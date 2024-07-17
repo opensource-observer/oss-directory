@@ -3,9 +3,10 @@ from write_yaml import dump
 
 
 LOCAL_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "collections")
+VERSION = 7
 
 
-def generate_collection_yaml(collection_slug: str, collection_name: str, project_slugs: list, version: int = 3):
+def generate_collection_yaml(collection_slug: str, collection_name: str, project_slugs: list, version: int = VERSION) -> bool:
     """
     Generate a YAML file for a given collection. This function verifies if a YAML file 
     already exists for the given slug before proceeding to create a new YAML file.
