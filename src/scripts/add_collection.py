@@ -16,8 +16,8 @@ def generate_collection_yaml(collection_slug: str, collection_name: str, project
     
     yaml_data = {
         "version": version, 
-        "slug": collection_slug, 
-        "name": collection_name, 
+        "name": collection_slug, 
+        "display_name": collection_name, 
         "projects": project_slugs
     }
     
