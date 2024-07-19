@@ -43,16 +43,25 @@ pnpm run validate
 
 We have also published this repository as a library that you can use in your own projects. This is useful if you want to build a tool that uses the data in this repository or perform your own custom analysis.
 
-### Installation
+We have libraries for JavaScript and Python. We don't store the entire dataset with the package. Under the hood, this will clone the repository into a temporary directory, read all the data files, validate the schema, and return the objects. This way, you know you're getting the latest data, even if the package hasn't been updated in a while.
+
+_Note: These do not work in a browser-environment_
+
+### JavaScript library
+
+[npm page](https://www.npmjs.com/package/oss-directory)
+
+#### Installation
 
 Install the library
 
 ```bash
 npm install oss-directory
 # OR yarn add oss-directory
+# OR pnpm add oss-directory
 ```
 
-### Fetch all of the data
+#### Fetch all of the data
 
 You can fetch all of the data in this repo with the following:
 
@@ -64,9 +73,7 @@ const projects: Project[] = data.projects;
 const collections: Collection[] = data.collections;
 ```
 
-We don't store the entire dataset with the npm package. Under the hood, this will clone the repository into a temporary directory, read all the data files, validate the schema, and return the objects. This way, you know you're getting the latest data, even if the npm package hasn't been updated in a while.
-
-### Utility functions
+#### Utility functions
 
 We also include functions for casting and validating data:
 
@@ -74,6 +81,32 @@ We also include functions for casting and validating data:
 - `validateCollection`
 - `safeCastProject`
 - `safeCastCollection`
+
+### Python library
+
+[PyPI page](https://pypi.org/project/oss-directory/)
+
+#### Installation
+
+Install the library
+
+```bash
+pip install oss-directory
+# OR poetry add oss-directory
+```
+
+#### Fetch all of the data
+
+You can fetch all of the data in this repo with the following:
+
+```python
+from ossdirectory import fetch_data
+from ossdirectory.fetch import OSSDirectory
+
+data: OSSDirectory = fetch_data()
+projects: List[dict] = data.projects;
+collections: List[dict] = data.collections;
+```
 
 ## Organization
 
