@@ -36,7 +36,7 @@ def load_yaml_files(
     # Iterate over each YAML file found
 
     for file_path in yaml_files:
-        with open(file_path, "r") as file:
+        with open(file_path, "r", encoding="utf-8") as file:
             try:
                 # Load YAML data from file
                 yaml_data = yaml.safe_load(file)
