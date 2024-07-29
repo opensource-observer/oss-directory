@@ -23,4 +23,5 @@ def temp_clone_repo(repo_url):
             yield TempClonedRepo(repo, temp_dir)
         finally:
             # Clean up: the temporary directory and its contents will be deleted automatically
+            repo.close()
             pass

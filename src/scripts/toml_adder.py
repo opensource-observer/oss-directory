@@ -6,7 +6,6 @@ import yaml
 
 from map_artifacts import generate_repo_snapshot
 from add_project import parse_url, generate_yaml
-from update_project import append_github_urls
 from add_collection import generate_collection_yaml
 
 LOCAL_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "projects")
@@ -14,6 +13,7 @@ CRYPTO_SNAPSHOT = "crypto_ecosystems_snapshot.yaml"
 OSSD_SNAPSHOT = LOCAL_PATH + "/ossd_repo_snapshot.yaml"
 LOGGING_PATH = "data/logs/toml_adder.log"
 
+SCHEMA_VERSION = 7
 
 def map_crypto_ecosystems(ecosystems_path, load_snapshot=False):
     '''
@@ -54,7 +54,7 @@ def initialize_session():
     while not os.path.isdir(ecosystems_path):
         print(f"The directory '{ecosystems_path}' does not exist. Please enter a valid directory.")
         ecosystems_path = input("Enter the path to the ecosystems directory: ")
-    create_new_snapshot = input(f"Do you want to load from a previous snapshot of the crypto ecosystems database? (yes/no): ").strip().lower()
+    create_new_snapshot = input("Do you want to load from a previous snapshot of the crypto ecosystems database? (yes/no): ").strip().lower()
     if create_new_snapshot == 'yes':
         crypto_ecosystems_map = map_crypto_ecosystems(ecosystems_path, load_snapshot=True)        
     else:
@@ -209,11 +209,34 @@ def process_collection_toml_file(ecosystem_name, crypto_ecosystems_map, ossd_rep
         else:
             logging.error(f"Sub-ecosystem {title} does not exist.")
 
+    for github_organizations in toml_data['github_organizations']:
+        url = github_organizations.lower().strip().strip("/")
+        if url in ossd_repo_snapshot:
+            slug = ossd_repo_snapshot[url]
+            print(f"Slug for {url} already exists: {slug}")
+            logging.info(f"Slug for {url} already exists: {slug}")
+        else:
+            slug = parse_url(url)
+            if not slug:
+                logging.error(f"Error parsing URL: {url}")
+                continue            
+            logging.info(f"Slug for {url} does not exist. Generating slug: {slug}")
+            add_project = input(f"Add new project {slug} for {url}? (Y/N): ").strip().lower()
+            if add_project == 'y':
+                display_name = input("Enter a display name for the project: ").strip()
+                generate_yaml(url, slug, display_name)
+                ossd_repo_snapshot[url] = slug
+                logging.info(f"Added slug for {url} to ossd_repo_snapshot: {slug}")
+            else:
+                logging.info(f"Skipping {url}")
+                continue
+        slugs.append(slug)
+
     slugs = sorted(list(set(slugs)))
     return slugs
 
                     
-def main(version=3):
+def main(version=SCHEMA_VERSION):
     '''
     Main function that orchestrates the processing of ecosystems, projects, and collections.
     '''
@@ -221,11 +244,9 @@ def main(version=3):
     # Initialize a new session
     session = initialize_session()
     ecosystem_name = session['ecosystem_name']
-    crypto_ecosystems_map = session['crypto_ecosystems_map']
-    ossd_repo_snapshot = session['ossd_repo_snapshot']
 
     # Determine whether to process the collection or generate a JSON file
-    process_collection = input(f"Process the ecosystem as a new collection? (Y/N): ").strip().lower()
+    process_collection = input("Process the ecosystem as a new collection? (Y/N): ").strip().lower()
     if process_collection == 'n':
         convert_collection_toml_file_to_json(**session)
         return
@@ -237,8 +258,8 @@ def main(version=3):
             print(f"- {slug}")
         make_collection = input(f"Make collection for {ecosystem_name}? (Y/N): ").strip().lower()
         if make_collection == 'y':
-            collection_slug = input(f"Enter a slug for the collection: ").strip().lower()
-            collection_name = input(f"Enter a name for the collection: ").strip()
+            collection_slug = input("Enter a slug for the collection: ").strip().lower()
+            collection_name = input("Enter a name for the collection: ").strip()
             if not collection_name:
                 collection_name = ecosystem_name
             collection_path = generate_collection_yaml(collection_slug, collection_name, project_slugs, version=version)

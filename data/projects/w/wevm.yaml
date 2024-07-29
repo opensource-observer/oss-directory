@@ -1,0 +1,41 @@
+version: 7
+name: wevm
+display_name: wevm
+description: TypeScript tooling for Ethereum
+websites:
+  - url: https://wevm.dev
+social:
+  twitter:
+    - url: https://twitter.com/wevm_dev
+github:
+  - url: https://github.com/wevm
+  - url: https://github.com/wagmi-dev
+npm:
+  - url: https://www.npmjs.com/package/@wagmi/chains
+  - url: https://www.npmjs.com/package/@wagmi/cli
+  - url: https://www.npmjs.com/package/@wagmi/connectors
+  - url: https://www.npmjs.com/package/@wagmi/core
+  - url: https://www.npmjs.com/package/@wagmi/vue
+  - url: https://www.npmjs.com/package/@viem/anvil
+  - url: https://www.npmjs.com/package/abitype
+  - url: https://www.npmjs.com/package/frog
+  - url: https://www.npmjs.com/package/mipd
+  - url: https://www.npmjs.com/package/prool
+  - url: https://www.npmjs.com/package/viem
+  - url: https://www.npmjs.com/package/vocs
+  - url: https://www.npmjs.com/package/wagmi
+  - url: https://www.npmjs.com/package/webauthn-p256
+blockchain:
+  - address: "0x4557b18e779944bfe9d78a672452331c186a9f48"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xd2135cfb216b74109775236e36d4b433f1df507b"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+    name: wevm.eth
