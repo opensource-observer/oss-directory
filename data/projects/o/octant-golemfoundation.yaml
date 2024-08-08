@@ -1,0 +1,12 @@
+version: 7
+name: octant-golemfoundation
+display_name: Octant
+github:
+  - url: https://github.com/golemfoundation/octant
+blockchain:
+  - address: "0xc64783f0be60a81a716535287539a694403183ba"
+    networks:
+      - mainnet
+    tags:
+      - contract
+      - wallet

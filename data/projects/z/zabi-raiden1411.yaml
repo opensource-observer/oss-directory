@@ -1,0 +1,19 @@
+version: 7
+name: zabi-raiden1411
+display_name: zabi
+description: Interact with EVM based chains via Zig
+websites:
+  - url: https://zabi.sh/
+social:
+  twitter:
+    - url: https://x.com/0xRaiden_
+github:
+  - url: https://github.com/Raiden1411/zabi
+blockchain:
+  - address: "0x75EF32C862b8fe2915D49b38a2AECc8744622864"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+    name: zzabi.eth
