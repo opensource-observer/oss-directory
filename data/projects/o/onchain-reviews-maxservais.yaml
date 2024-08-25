@@ -1,5 +1,5 @@
 version: 7
-name: onchain-reviews
+name: onchain-reviews-maxservais
 display_name: Onchain Reviews
 websites:
   - url: https://onchain-reviews.vercel.app/
@@ -8,10 +8,3 @@ social:
     - url: https://x.com/web3xplore
 github:
   - url: https://github.com/Maxservais/onchain-reviews
-blockchain:
-  - address: "0x4200000000000000000000000000000000000021"
-    tags:
-      - deployer
-    networks:
-      - optimism
-      - base
