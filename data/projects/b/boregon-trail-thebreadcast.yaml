@@ -1,5 +1,5 @@
 version: 7
-name: boregon-trail
+name: boregon-trail-thebreadcast
 display_name: Boregon-Trail
 description: A game made for the $BORED Token on Base that serves as a love-letter to Oregon Trail and endless adventure
 github:
@@ -9,7 +9,7 @@ blockchain:
     networks:
       - base
     tags:
-      - eoa
+      - contract
   - address: "0xb584fa26C3112A9f441e6661aa1684F60F1daFE5"
     networks:
       - base
