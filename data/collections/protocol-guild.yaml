@@ -1,7 +1,7 @@
 version: 7
 name: protocol-guild
 display_name: Protocol Guild
-projects:
+projects: 
   - protocol-guild
   - ethpandaops
   - ipsilon
@@ -22,7 +22,6 @@ projects:
   - consensus-specs-ethereum
   - distributed-validator-specs-ethereum
   - eth-portal-ethereum
-  - ethereum-org-website-ethereum
   - execution-apis-ethereum
   - execution-spec-tests-ethereum
   - execution-specs-ethereum
@@ -37,3 +36,9 @@ projects:
   - portal-network-specs-ethereum
   - trin-ethereum
   - utp-ethereum
+  - go-verkle
+  - teku-Consensys
+  - Prysm-Prysmaticlabs
+  - reth-paradigmxyz
+  - beacon-APIs-ethereum
+  - protocol-security-ethereum
