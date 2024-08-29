@@ -1,0 +1,19 @@
+version: 7
+name: boregon-trail-thebreadcast
+display_name: Boregon-Trail
+description: A game made for the $BORED Token on Base that serves as a love-letter to Oregon Trail and endless adventure
+github:
+  - url: https://github.com/thebreadcat/boregon-trail
+blockchain:
+  - address: "0x70737489DFDf1A29b7584d40500d3561bD4Fe196"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xb584fa26C3112A9f441e6661aa1684F60F1daFE5"
+    networks:
+      - base
+    tags:
+      - eoa
+websites:
+  - url: https://admin.boregontrail.io
