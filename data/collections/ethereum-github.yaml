@@ -2,6 +2,7 @@ version: 7
 name: ethereum-github
 display_name: Ethereum GitHub Repos
 projects:
+  - beacon-apis-ethereum
   - beaconrunner-ethereum
   - c-kzg-4844-ethereum
   - consensus-specs-ethereum
@@ -18,6 +19,7 @@ projects:
   - kzg-ceremony-specs-ethereum
   - meteor-dapp-wallet-ethereum
   - pm-ethereum
+  - protocol-security-ethereum
   - py-evm-ethereum
   - remix-ethereum
   - research-ethereum
