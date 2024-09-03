@@ -1,0 +1,34 @@
+version: 7
+name: op-oracle-gelatodigital
+display_name: Optimism Price Oracle
+description: Natively integrated OP Stack price oracle deriving prices from L1.
+websites:
+  - url: https://www.gelato.network
+  - url: https://docs.gelato.network/developer-services/experimental/1-click-price-oracle
+social:
+  twitter:
+    - url: https://x.com/gelatonetwork
+  telegram:
+    - url: https://t.me/gelatonetwork
+  discord:
+    - url: https://discord.com/invite/ApbA39BKyJ
+github:
+  - url: https://github.com/gelatodigital/optimism/tree/gelato/oracle
+  - url: https://github.com/gelatodigital/gelato-native-oracle-periphery
+  - url: https://github.com/gelatodigital/gelato-native-oracle-sdk
+  - url: https://github.com/gelatodigital/gelato-native-oracle-nft-example
+npm:
+  - url: https://www.npmjs.com/package/@gelatonetwork/gelato-native-oracle-sdk
+blockchain:
+  - address: "0xc69F1c96364DbD7e2F6f082D58f34538FfE9Ded4"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x9E5Ed77d01bB393cC69CCB5e3d67a53991279ED0"
+    networks:
+      - base
+    tags:
+      - contract
+    name: L1PriceOracle
