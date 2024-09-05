@@ -1,0 +1,16 @@
+version: 7
+name: Stylide
+display_name: Stylide
+description: Stylide is a browser-based IDE designed to facilitate learning and development for Stylus, a Rust-based smart contract language on Arbitrum. It provides an accessible and robust environment for developers, integrating tools like MetaMask and enabling seamless interactions with Stylus-based blockchains.
+websites:
+  - https://stylus.solide0x.tech/
+social:
+  - twitter: https://x.com/SolideProject
+github:
+  - url: https://github.com/solide-project
+blockchain:
+  - address: "0xb2D88a5634a53159C20D4A11209AbC5273b1a963"
+    networks:
+      - arbitrum_one
+    tags:
+      - eoa

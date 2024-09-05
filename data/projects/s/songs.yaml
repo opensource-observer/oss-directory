@@ -1,0 +1,16 @@
+version: 7
+name: SONGS | Open Music Distribution Protocol
+display_name: SONGS | Open Music Distribution Protocol
+description: SONGS creates a standard framework for tokenizing and trading music royalties, and aims to integrate this system with Arbitrum to build native features related to tokenization and distribution. This will enable innovative projects in music finance, including futures markets for royalties, collateralization of master shares, and more.
+websites:
+  - https://songs-tools.com/
+social:
+  - twitter: https://x.com/songs_tools
+github:
+  - url: https://github.com/SONGS-TOOLS
+blockchain:
+  - address: "0x4BC42881E2A4994088641590796314feb2799008"
+    networks:
+      - arbitrum_one
+    tags:
+      - eoa
