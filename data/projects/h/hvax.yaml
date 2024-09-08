@@ -1,5 +1,16 @@
 version: 7
 name: hvax
 display_name: Event Horizon
+description: Event Horizon is a metagovernance layer on Arbitrum and the broader EVM space, providing a platform for community governance through voter pools. It allows members to mint voter passes and participate in governance with a 1-pass-1-vote model, supported by Gitcoin Passports for sybil prevention.
 github:
   - url: https://github.com/hvax
+websites:
+  - https://EventHorizon.vote
+social:
+  - twitter: https://x.com/EventHorizonDAO
+blockchain:
+  - address: "0xE67192302E444a8D28F60F6737a8bc7c672b8aC6"
+    networks:
+      - any_evm
+    tags:
+      - eoa

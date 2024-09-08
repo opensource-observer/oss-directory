@@ -1,6 +1,6 @@
 version: 7
-name: namespace-thenamespace
-display_name: Namespace - ENS Subname Sorcery
+name: namespace
+display_name: Namespace
 description: Namespace provides a platform for managing ENS subnames with tools for minting, storing, and managing them on various L2 chains, including Arbitrum. It enhances user experience and developer integration with comprehensive documentation and community support.
 websites:
   - https://namespace.tech
@@ -11,7 +11,7 @@ github:
 blockchain:
   - address: "0x14Eaf911D7108fc434C79fC6ce99654Ac046299D"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - eoa
     contracts:

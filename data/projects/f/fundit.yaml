@@ -1,5 +1,5 @@
 version: 7
-name: FundIt
+name: fundit
 display_name: FundIt
 description: FundIt is a decentralized funding platform on Arbitrum, designed to enhance financial infrastructure with on-chain voting and transparent fund distribution. It aims to reduce barriers for innovative projects and improve governance primitives within the ecosystem.
 websites:
@@ -11,6 +11,6 @@ github:
 blockchain:
   - address: "0xc8f0bae52D42f42d1Aed7b4af00CA3EF6C516c23"
     networks:
-      - arbitrum_one
+      - any_evm
     tags:
       - eoa
