@@ -18,3 +18,23 @@ blockchain:
       - eoa
       - wallet
     name: basinllc.eth
+  - address: "0x79c2D72552Df1C5d551B812Eca906a90Ce9D840A"
+    networks:
+      - arbitrum_one
+    tags:
+      - wallet
+  - address: "0xc6e4e6e5a11e70af6334bf3274f4d4c2e0ce3571"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0xdD46F133f266638cb28248554008a5e0243E0787"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0x0ea010dCB1DfBE5c9d1AC475901a59642bad90f4"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
