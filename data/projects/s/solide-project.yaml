@@ -1,5 +1,15 @@
 version: 7
 name: solide-project
 display_name: Solide Smart Contract Knowledge Hub
+websites:
+  - url: https://stylus.solide0x.tech/
+social:
+  - twitter: https://x.com/SolideProject
 github:
   - url: https://github.com/solide-project
+blockchain:
+  - address: "0xb2D88a5634a53159C20D4A11209AbC5273b1a963"
+    networks:
+      - any_evm
+    tags:
+      - eoa
