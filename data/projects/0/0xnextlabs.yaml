@@ -22,3 +22,8 @@ blockchain:
       - optimism
     tags:
       - contract
+  - address: "0xE0964682F12385abCC8AFD2C8eA90e50eA9594F6"
+    networks:
+      - any_evm
+    tags:
+      - eoa

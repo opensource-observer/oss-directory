@@ -3,8 +3,15 @@ name: ecoland-world
 display_name: ecoland-world
 websites:
   - url: https://ecoland.world
+  - url: https://grant-protocol.vercel.app
 social:
   twitter:
     - url: https://twitter.com/EcoLandWorld
 github:
   - url: https://github.com/ecoland-world
+blockchain:
+  - address: "0xc8f0bae52D42f42d1Aed7b4af00CA3EF6C516c23"
+    networks:
+      - any_evm
+    tags:
+      - eoa

@@ -1,5 +1,17 @@
 version: 7
 name: sherlock-protocol
 display_name: Sherlock
+description: Sherlock offers a unique approach to smart contract security through its audit contests, combining the benefits of traditional audits with the extensive participation of security experts. By subsidizing audit costs for builders on Arbitrum, Sherlock aims to improve the ecosystem's security, attract more users and TVL, and foster a robust developer community.
+websites:
+  - url: https://sherlock.xyz
+social:
+  twitter: 
+    - url: https://twitter.com/sherlockdefi
 github:
   - url: https://github.com/sherlock-protocol
+blockchain:
+  - address: "0xe400820f3d60d77a3ec8018d44366ed0d334f93c"
+    networks:
+      - any_evm
+    tags:
+      - eoa

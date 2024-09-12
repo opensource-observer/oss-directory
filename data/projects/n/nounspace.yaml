@@ -1,0 +1,22 @@
+version: 7
+name: nounspace
+display_name: nounspace
+description: nounspace is an innovative Farcaster client that allows users to create customized spaces for sharing NFTs, music, governance participation, and more. It supports Arbitrum with features like Snapshot governance, Frame integration, and iFrame embedding for Arbitrum-based applications and websites. Future plans include support for music NFTs and Arbitrum-based NFT galleries.
+websites:
+  - url: https://nounspace.com
+social:
+  twitter: 
+    - url: https://x.com/thenounspace
+github:
+  - url: https://github.com/Nounspace
+blockchain:
+  - address: "0xf487ff9BC30afDcABe3DC8d003ACa0156bE1f9eb"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+  - address: "0x13116FAEDA111A45217D510e075e7Ecda3494E95"
+    networks:
+      - any_evm
+    tags:
+      - eoa

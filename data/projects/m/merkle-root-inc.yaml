@@ -1,0 +1,17 @@
+version: 7
+name: merkle-root-inc
+display_name: Hexman
+description: Hexman enhances the Arbitrum ecosystem by providing native support, improving developer experience, and accelerating adoption through cross-chain functionality. It offers tools for seamless interaction with Arbitrum's Layer 2 architecture and facilitates multi-chain application development.
+websites:
+  - url: https://hexman.io
+social:
+  twitter: 
+    - url: https://x.com/HexmanApp
+github:
+  - url: https://github.com/MerkleRootInc
+blockchain:
+  - address: "0x1aC1c76164bADF507E6214127876b79bC0985218"
+    networks:
+      - any_evm
+    tags:
+      - eoa

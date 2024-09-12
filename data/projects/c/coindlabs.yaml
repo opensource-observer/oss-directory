@@ -1,0 +1,17 @@
+version: 7
+name: coindlabs
+display_name: CoindPay
+description: CoindPay is fully integrated with the Arbitrum chain, offering cross-chain Exchange (Swap/Bridge) Payments, automatic compounding of idle funds, and other services. It aims to enhance asset liquidity and simplify crypto payments for users, merchants, and creators within the Arbitrum ecosystem. It supports transactions and investments across 17 chains and provides an easy-to-use platform for managing payments and investments.
+websites:
+  - url: https://coindpay.xyz
+social:
+  twitter: 
+    - url: https://x.com/CoindPay
+github:
+  - url: https://github.com/CoindLabs
+blockchain:
+  - address: "0xa323b49Fe61742527D081ECf8D5fE396515a3bFe"
+    networks:
+      - any_evm
+    tags:
+      - eoa

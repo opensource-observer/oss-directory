@@ -19,3 +19,8 @@ blockchain:
       - eoa
       - wallet
     name: inferer.eth
+  - address: "0xd815ecd85248f82ac48e12aad2c23efad86a89ea"
+    networks:
+      - arbitrum_one
+    tags:
+      - deployer

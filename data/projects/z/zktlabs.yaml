@@ -1,5 +1,18 @@
 version: 7
 name: zktlabs
 display_name: ZKT Network
+description: ZKT Network provides a decentralized Trust Score Oracle and zero-knowledge proof systems within the Arbitrum ecosystem. It enhances compliance and security features for DeFi and GameFi applications, offers Orbit-based L2 solutions for scalability, and simplifies developer integration through comprehensive SDK and API solutions.
+websites:
+  - url: https://zkt.network
+social:
+  twitter:
+    - url: https://x.com/ZKTNetwork
 github:
-  - url: https://github.com/zktlabs
+  - url: https://github.com/ZKTLabs
+blockchain:
+  - address: "0xBB80eADb6Ccc27484125f92a6ceb16fBDdc23851"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - arbitrum_one

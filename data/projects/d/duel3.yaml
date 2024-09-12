@@ -1,0 +1,32 @@
+version: 7
+name: duel3
+display_name: DUEL3
+description: DUEL3 is an on-chain game designed to enhance the Arbitrum ecosystem by increasing transaction volume and attracting more users. The project aims to utilize Arbitrum’s Orbit Chains to provide an improved user experience for on-chain games.
+websites:
+  - url: https://duel3.vercel.app
+social:
+  twitter: 
+    - url: https://twitter.com/DuelThree
+github:
+  - url: https://github.com/DUEL3
+blockchain:
+  - address: "0x2C2E7dCa11C0cf96E27ba53e196Ab79b4c123B0a"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+  - address: "0x4fe3fc701504ac72bff774e42e78fb349607de56"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+  - address: "0x053cb170062bb18a0071aceea923fa377b8bc321"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+  - address: "0x6c4502b639ab01cb499cecca7d84eb21fde928f8"
+    networks:
+      - any_evm
+    tags:
+      - deployer

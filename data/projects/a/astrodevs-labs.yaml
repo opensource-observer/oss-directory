@@ -1,0 +1,17 @@
+version: 7
+name: astrodevs-labs
+display_name: Osmium
+description: Osmium is a developer tooling project focused on creating a comprehensive VSCode extension for Solidity developers. This tool helps developers author, test, debug, and deploy smart contracts directly within VSCode, aiming to streamline the development process on Arbitrum. The project has integrated several features to enhance the developer experience, including Foundry formatter integration, gas estimation, and auto-completion.
+websites:
+  - url: https://osmium-toolchains.xyz
+social:
+  twitter: 
+    - url: https://x.com/osmiumtoolchain
+github:
+  - url: https://github.com/astrodevs-labs
+blockchain:
+  - address: "0xE5F426fE1536b04Bd4aF8C7c405564C5B80F723C"
+    networks:
+      - any_evm
+    tags:
+      - eoa

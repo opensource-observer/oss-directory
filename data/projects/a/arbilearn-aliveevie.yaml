@@ -1,0 +1,17 @@
+version: 7
+name: arbilearn-aliveevie
+display_name: ArbiLearn
+description: ArbiLearn is focused on advancing the Arbitrum ecosystem through educational resources. It aims to develop courses and interactive tutorials on Arbitrum’s technology, including its Layer 2 solutions. By enhancing developer knowledge and providing practical guidance, ArbiLearn supports the broader adoption and integration of Arbitrum technology.
+websites:
+  - url: https://github.com/aliveevie/ArbiLearn
+social:
+  twitter: 
+    - url: https://twitter.com/iabdulkarim472
+github:
+  - url: https://github.com/ArbiLearn
+blockchain:
+  - address: "0x85ba183Fb4c16D435B076DDe459dAfc8eFF864d8"
+    networks:
+      - any_evm
+    tags:
+      - eoa

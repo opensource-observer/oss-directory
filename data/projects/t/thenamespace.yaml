@@ -1,0 +1,41 @@
+version: 7
+name: thenamespace
+display_name: Namespace
+description: Namespace provides a platform for managing ENS subnames with tools for minting, storing, and managing them on various L2 chains, including Arbitrum. It enhances user experience and developer integration with comprehensive documentation and community support.
+websites:
+  - url: https://namespace.tech
+social:
+  twitter: 
+    - url: https://x.com/namespace_eth
+github:
+  - url: https://github.com/thenamespace
+blockchain:
+  - address: "0x14Eaf911D7108fc434C79fC6ce99654Ac046299D"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+  - address: "0x5c658a26D6e094A180e494FD79B25bC2E6652B9A"
+    name: NameRegistyController
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0x3352F10F3737988A86715c2Cf888603bD3370146"
+    name: NamePublicResolver
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0x560d5b159c46d219e45affa47b2b9fFdecf6c31D"
+    name: NameRegistryResolver
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0x5978B2231Adec00322F3695E3eD91A50Ea9D4443"
+    name: RegistryEmitter
+    networks:
+      - arbitrum_one
+    tags:
+      - contract

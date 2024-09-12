@@ -1,0 +1,17 @@
+version: 7
+name: togethercrew
+display_name: TogetherCrew
+description: TogetherCrew empowers communities by leveraging their data for various applications, such as Reputation NFTs, AI-powered Q&A, and behavioral analytics to enhance community engagement and participation within the Arbitrum ecosystem.
+websites:
+  - url: https://www.togethercrew.com
+social:
+  twitter: 
+    - url: https://x.com/together_crew
+github:
+  - url: https://github.com/TogetherCrew
+blockchain:
+  - address: "0x929600D6622C51D495997f8F1b6cadd1D661C753"
+    networks:
+      - any_evm
+    tags:
+      - eoa
