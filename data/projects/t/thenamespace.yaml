@@ -14,16 +14,27 @@ blockchain:
       - any_evm
     tags:
       - eoa
-    contracts:
-      - name: NameRegistyController
-        address: "0x5c658a26D6e094A180e494FD79B25bC2E6652B9A"
-        explorer_url: https://arbiscan.io/address/0x5c658a26D6e094A180e494FD79B25bC2E6652B9A#code
-      - name: NamePublicResolver
-        address: "0x3352F10F3737988A86715c2Cf888603bD3370146"
-        explorer_url: https://arbiscan.io/address/0x3352F10F3737988A86715c2Cf888603bD3370146#code
-      - name: NameRegistryResolver
-        address: "0x560d5b159c46d219e45affa47b2b9fFdecf6c31D"
-        explorer_url: https://arbiscan.io/address/0x560d5b159c46d219e45affa47b2b9fFdecf6c31D#code
-      - name: RegistryEmitter
-        address: "0x5978B2231Adec00322F3695E3eD91A50Ea9D4443"
-        explorer_url: https://arbiscan.io/address/0x5978B2231Adec00322F3695E3eD91A50Ea9D4443#code
+  - address: "0x5c658a26D6e094A180e494FD79B25bC2E6652B9A"
+    name: NameRegistyController
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x3352F10F3737988A86715c2Cf888603bD3370146"
+    name: NamePublicResolver
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x560d5b159c46d219e45affa47b2b9fFdecf6c31D"
+    name: NameRegistryResolver
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x5978B2231Adec00322F3695E3eD91A50Ea9D4443"
+    name: RegistryEmitter
+    networks:
+      - any_evm
+    tags:
+      - contract

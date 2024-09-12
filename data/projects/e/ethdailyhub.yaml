@@ -14,10 +14,15 @@ blockchain:
       - any_evm
     tags:
       - eoa
-contracts:
-  - name: ETH Daily
-    address: "ethdaily.eth"
-    network: arbitrum_one
-  - name: ETH Daily Donation
-    address: "donate.ethdaily.eth"
-    network: arbitrum_one
+  - address: "ethdaily.eth"
+    name: ETH Daily
+    networks: 
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "donate.ethdaily.eth"
+    name: ETH Daily Donation
+    networks: 
+      - arbitrum_one
+    tags:
+      - contract
