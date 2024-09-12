@@ -43,12 +43,18 @@ blockchain:
   - address: "0xDbD0f5EBAdA6632Dde7d47713ea200a7C2ff91EB"
     networks: 
       - arbitrum_one
+    tags:
+      - contract
     name: UmbraBatchSend
   - address: "0x55649E01B5Df198D18D95b5cc5051630cfD45564"
     networks:
       - arbitrum_one
+    tags:
+      - contract
     name: ERC5564Announcer
   - address: "0x6538E6bf4B0eBd30A8Ea093027Ac2422ce5d6538"
     networks: 
       - arbitrum_one
+    tags:
+      - contract
     name: ERC6538Registry
