@@ -3,13 +3,25 @@ name: zenbiteth
 display_name: zenbit.eth
 websites:
   - url: https://zenbit.mx
+  - url: https://badges.zenbit.mx
+  - url: https://easdefi.zenbit.mx
 social:
   twitter:
     - url: https://twitter.com/zenbitMX
+    - url: https://twitter.com/HabacucMX
+    - url: https://twitter.com/shyampkira
+  warpcast:
+    - url: https://warpcast.com/zenbit/
 github:
   - url: https://github.com/zenbitETH/Ciudades-DAO
   - url: https://github.com/zenbitETH/zengo
+  - url: https://github.com/zenbitETH/Zenbit-Badges
+  - url: https://github.com/zenbitETH/Punk-Cities
+  - url: https://github.com/zenbitETH/Bright-Forest
+  - url: https://github.com/zenbitETH/OPcity
+  - url: https://github.com/zenbitETH/AttestDeFi
   - url: https://github.com/zenbitETH/eneagon
+  - url: https://github.com/zenbitETH/eas-onboarding
 blockchain:
   - address: "0xa7dc76ae4a98da6352f283874b4c6d3bfb817dc1"
     networks:
@@ -17,6 +29,18 @@ blockchain:
     tags:
       - contract
     name: DAO
+  - address: "0xE383f2B3Ff9024bAa09b33923b8DBd0F2AF98ad0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: EASOnboarding
+  - address: "0x7c6F40f29C45c6B4E37d1620b8a7568B40913a5a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AttestDeFi
   - address: "0xb3911d5f92181ff728c72f0a162e8d6f3bdd5b66"
     networks:
       - optimism
