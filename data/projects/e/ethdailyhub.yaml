@@ -10,20 +10,16 @@ social:
 github:
   - url: https://github.com/ethdailyhub
 blockchain:
-  - address: "0x6Cc567128e8Cae88dBE162E712cD0985D78b0F33"
-    networks:
+  - address: "0xEB40A065854bd90126A4E697aeA0976BA51b2eE7"
+    name: ethdaily.eth
+    networks: 
       - any_evm
     tags:
       - eoa
-  - address: "ethdaily.eth"
-    name: ETH Daily
+  - address: "0x6Cc567128e8Cae88dBE162E712cD0985D78b0F33"
+    name: donate.ethdaily.eth
     networks: 
-      - arbitrum_one
+      - any_evm
     tags:
-      - contract
-  - address: "donate.ethdaily.eth"
-    name: ETH Daily Donation
-    networks: 
-      - arbitrum_one
-    tags:
-      - contract
+      - eoa
+      - wallet
