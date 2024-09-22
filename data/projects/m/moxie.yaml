@@ -1,0 +1,35 @@
+version: 7
+name: moxie
+display_name: Moxie
+description: Moxie is the economic engine of Farcaster
+websites:
+- url: https://moxie.xyz/
+social:
+  twitter:
+    - url: https://x.com/moxie_xyz
+  farcaster:
+    - url: https://warpcast.com/moxie.eth
+github:
+  - url: https://github.com/moxie-protocol
+blockchain:
+  - address: "0x1626eb1b25f819377acb6d72913618fb93e2fcb9"
+    networks:
+      - base
+    tags:
+      - eoa
+      - deployer
+    name: Moxie Protocol Deployer
+  - address: "0xc853D3B5F801e6eDD922E6690D4b813B683600aB"
+    networks:
+      - base
+    tags:
+      - eoa 
+      - deployer
+    name: Moxie Protocol Deployer
+  - address: "0x6BC093AA3594945D70ceD19B31f6D2662ce076A7"
+    networks:
+      - base
+    tags:
+      - eoa
+      - deployer
+    name: Moxie Protocol Deployer
