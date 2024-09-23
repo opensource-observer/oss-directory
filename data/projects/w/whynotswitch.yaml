@@ -1,8 +1,19 @@
 version: 7
 name: whynotswitch
 display_name: Switch Electric
-description: The M3tering Protocol is a system that uses tokens to encourage investment in solar energy projects, bringing electricity to underserved communities.
+description: Introducing the first smart metering service designed specifically
+  for decentralized energy projects
 websites:
-  - url: https://m3tering.whynotswitch.com/
+  - url: https://www.WhyNotSwitch.com
+social:
+  twitter:
+    - url: https://twitter.com/WhyNotSwitch
 github:
-  - url: https://github.com/orgs/WhyNotSwitch
+  - url: https://github.com/WhyNotSwitch
+blockchain:
+  - address: "0x5e1b920d26abbed943b4e0f91b3ad373e7519b41"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
