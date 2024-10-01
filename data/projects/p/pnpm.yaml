@@ -1,0 +1,24 @@
+version: 7
+name: pnpm
+display_name: pnpm
+websites:
+  - url: https://pnpm.io
+social:
+  twitter:
+    - url: https://x.com/pnpmjs
+github:
+  - url: https://github.com/pnpm
+npm:
+  - url: https://www.npmjs.com/package/pnpm
+  - url: https://www.npmjs.com/package/find-packages
+  - url: https://www.npmjs.com/package/pkgs-graph
+  - url: https://www.npmjs.com/package/dependencies-hierarchy
+  - url: https://www.npmjs.com/package/dependency-path
+  - url: https://www.npmjs.com/package/@pnpm/self-installer
+  - url: https://www.npmjs.com/package/@pnpm/types
+  - url: https://www.npmjs.com/package/@pnpm/logger
+  - url: https://www.npmjs.com/package/@pnpm/npm-resolver
+  - url: https://www.npmjs.com/package/@pnpm/git-resolver
+
+open_collective:
+  - url: https://opencollective.com/pnpm
