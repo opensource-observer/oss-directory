@@ -44,7 +44,7 @@ jobs:
       - name: Check if the user is an admin
         id: prs_permissions
         run: |
-          cd ./oso/ops/external-prs &&
+          cd ops/external-prs &&
           pnpm tools common is-repo-admin ${{ github.event.pull_request.user.login }} --output-file $GITHUB_OUTPUT
 
       - name: Login to google
