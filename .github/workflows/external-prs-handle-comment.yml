@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
 
     # This job only runs for pull request comments
-    if: github.event.issue.pull_request
+    if: github.event.issue.pull_request && contains(fromJson('["OWNER", "MEMBER", "COLLABORATOR", "CONTRIBUTOR"]'), github.event.comment.author_association)
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -29,17 +29,10 @@ jobs:
       - name: Setup external pr tools
         uses: ./main/.github/workflows/setup-external-pr-tools
 
-      - name: Check if the user is an admin
-        id: prs_permissions
-        run: |
-          cd ./oso/ops/external-prs &&
-          pnpm tools common is-repo-admin ${{ github.event.pull_request.user.login }} --output-file $GITHUB_OUTPUT
-
       - name: Parse the comment to see if it's a deploy comment
         id: parse_comment
         run: |
           cd ./oso/ops/external-prs && pnpm tools ossd parse-comment --repo ${{ github.repository }} ${{ github.event.comment.id }} $GITHUB_OUTPUT
-        if: ${{ steps.prs_permissions.outputs.is_admin == '1' }}
 
       - name: Login to google
         uses: "google-github-actions/auth@v2"
