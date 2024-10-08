@@ -7,6 +7,7 @@ env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   PR_TOOLS_GITHUB_APP_PRIVATE_KEY: ${{ secrets.PR_TOOLS_GITHUB_APP_PRIVATE_KEY }}
   PR_TOOLS_GITHUB_APP_ID: ${{ secrets.PR_TOOLS_GITHUB_APP_ID }}
+  PR_TOOLS_ADMIN_TEAM_NAME: ${{ secrets.PR_TOOLS_ADMIN_TEAM_NAME }}
 
   PR_TOOLS_REPO: ${{ github.repository }}
 
@@ -41,12 +42,17 @@ jobs:
           cd ./oso/ops/external-prs &&
           pnpm tools initialize-check ${{ github.event.pull_request.head.sha }} ${{ github.event.pull_request.user.login }} "validate"
 
+      - name: Check if the user is an admin
+        id: prs_permissions
+        run: |
+          cd ./oso/ops/external-prs && pnpm tools common is-repo-admin ${{ github.event.pull_request.user.login }} --output-file $GITHUB_OUTPUT
+
       - name: Login to google
         uses: "google-github-actions/auth@v2"
         with:
           credentials_json: "${{ secrets.GOOGLE_BQ_ADMIN_CREDENTIALS_JSON }}"
           create_credentials_file: true
-        if: ${{ contains(fromJson('["OWNER", "MEMBER", "COLLABORATOR" ]'), github.event.pull_request.author_association) }}
+        if: ${{ steps.prs_permissions.outputs.is_admin == '1' }}
 
       - name: Run validation
         uses: ./main/.github/workflows/validate
@@ -61,4 +67,4 @@ jobs:
           arbitrum_rpc_url: ${{ secrets.PR_TOOLS_ARBITRUM_RPC_URL }}
           base_rpc_url: ${{ secrets.PR_TOOLS_BASE_RPC_URL }}
           optimism_rpc_url: ${{ secrets.PR_TOOLS_OPTIMISM_RPC_URL }}
-        if: ${{ contains(fromJson('["OWNER", "MEMBER", "COLLABORATOR" ]'), github.event.pull_request.author_association) }}
+        if: ${{ steps.prs_permissions.outputs.is_admin == '1' }}
