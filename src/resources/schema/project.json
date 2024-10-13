@@ -37,6 +37,12 @@
         "$ref": "url.json#"
       }
     },
+    "open_collective": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json#"
+      }
+    },
     "blockchain": {
       "type": "array",
       "items": {
