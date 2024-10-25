@@ -10,7 +10,9 @@ description: |
 github:
   - url: https://github.com/filecoin-project/curio
 blockchain: 
-  address: 0xa36EcC2989E594e246BE46D0020F04F3afe8ADad
-  tags: wallet
-  networks: mainnet
+- address: 0xa36EcC2989E594e246BE46D0020F04F3afe8ADad
+   tags: 
+   - wallet
+   networks: 
+   - mainnet
   
