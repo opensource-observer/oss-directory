@@ -1,0 +1,8 @@
+version: 7
+name: ipfs-force-community-sophon-miner
+display_name: ipfs-force community sophon-miner
+description: Sophon-Miner is a cutting-edge tool crafted to boost the efficiency and profitability of storage providers by refining block generation and message management within the Filecoin network. It ensures that when multiple blocks are generated at the same height, each block contains unique messages, preventing redundancy and optimizing the block generation process, especially when blocks are separated. By configuring multiple miners, their sealers, and wallets, Sophon-Miner consolidates the rights associated with earning block rewards, enabling simultaneous block generation across various storage providers.
+websites:
+  - url: https://sophon.venus-fil.io/operation/venus-miner.html
+github:
+  - url: https://github.com/ipfs-force-community/sophon-miner
