@@ -1,0 +1,7 @@
+version: 7
+name: filedrive-team-go-parallel-graphsync
+display_name: filedrive-team go-parallel-graphsync
+description: Go-Parallel-GraphSync is an innovative solution designed to enhance data synchronization within the Filecoin Retrieval Market. By addressing the limitations of traditional GraphSync methods, particularly for large files, Go-Parallel-GraphSync optimizes network resource utilization and significantly improves content delivery speed. 
+In the Filecoin Retrieval Market, GraphSync is widely used for data synchronization. While effective for small files, its one-to-one synchronization approach faces challenges with larger files, leading to increased bandwidth load on individual nodes and underutilization of network resources. Go-Parallel-GraphSync offers a dynamic synchronization strategy for large files by enabling parallel downloads from multiple nodes. This approach leverages the availability of duplicate data across nodes and measures synchronization speeds to optimize performance.
+github:
+  - url: https://github.com/filedrive-team/go-parallel-graphsync

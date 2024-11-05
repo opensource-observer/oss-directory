@@ -1,0 +1,7 @@
+version: 7
+name: filedag-project-filedag-storage
+display_name: filedag-project filedag-storage
+description: FileDAG Storage is a robust, distributed storage service built on the IPFS technology stack, designed to address challenges that extend beyond the official IPFS implementation. It focuses on data management, reliability, availability, fault tolerance, and the clustering of storage nodes.
+The minimum storage unit in FileDAG Storage is a "dag," or data block, which is organized in a Merkle-DAG structure to minimize data redundancy and conserve network bandwidth—particularly advantageous for multi-version systems. Unlike traditional IPFS, FileDAG supports multiple users sharing the DAG pool, thereby magnifying the benefits of reduced redundancy and bandwidth savings. This, however, adds complexity to data management, a challenge that FileDAG effectively addresses. By utilizing distributed storage nodes and erasure coding technology, FileDAG enhances data reliability and fault tolerance, making it well-suited for commercial storage services.
+github:
+  - url:https://github.com/filedag-project/filedag-storage

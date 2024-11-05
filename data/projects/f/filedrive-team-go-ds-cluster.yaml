@@ -1,0 +1,7 @@
+version: 7
+name: filedrive-team-go-ds-cluster
+display_name: filedrive-team go-ds-cluster
+description: Go-DS-Cluster is an innovative project designed to transform distributed key-value datastores into a unified cluster, enhancing the capabilities of IPFS for data sharing. By leveraging the go-datastore implementation, Go-DS-Cluster enables even a single IPFS peer to benefit from distributed storage, significantly improving efficiency and scalability.
+While IPFS is an excellent tool for data sharing, its current implementations are constrained by the I/O limitations of a single PC. Although IPFS-Cluster provides a method to manage pin-sets across multiple peers, it is mainly geared towards data backups and recovery. Go-DS-Cluster envisions a system where even a single IPFS peer can utilize distributed storage, overcoming these limitations and enhancing the overall functionality of IPFS.
+github:
+  - url:https://github.com/filedrive-team/go-ds-cluster

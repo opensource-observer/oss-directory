@@ -1,0 +1,7 @@
+version: 7
+name: filedrive-team-go-graphsplit
+display_name: filedrive-team go-graphsplit
+description: Go-Graphsplit is a powerful tool designed to efficiently partition large datasets into manageable graph slices, facilitating deal-making in the Filecoin Network. By leveraging advanced data structures and protocols, Go-Graphsplit offers a solution that not only enhances storage efficiency but also improves data retrieval processes. 
+Go-Graphsplit divides large datasets into smaller pieces that fit the sector sizes of 32GiB or 64GiB, optimizing storage deals with miners. This process allows for storing substantial amounts of data, potentially reaching hundreds of TiB in a month. Traditional methods require retrieving and decompressing entire tarballs to access a single file, causing inefficiencies. Graphsplit addresses this by cutting datasets into smaller graphs using the IPLD protocol and Unixfs format. This approach maintains the original file system structure as much as possible, enabling efficient retrieval of individual files using payload CIDs through the Lotus client.Graphsplit generates a manifest.csv file that records the mapping between graph slice names, payload CIDs, piece CIDs, and the internal file structure. This ensures transparency and ease of access to stored data.
+github:
+  - url: https://github.com/filedrive-team/go-graphsplit
