@@ -1,0 +1,16 @@
+version: 7
+name: brewitmoney
+display_name: Brewit
+social:
+  twitter:
+    - url: https://twitter.com/brewitmoney
+websites:
+  - url: https://brewit.money
+github:
+  - url: https://github.com/brewitmoney
+blockchain:
+  - address: '0x31b7232F2f7f21a030444E2b570d18d264e4bFb7'
+    networks:
+    - arbitrum_one
+    tags:
+    - wallet

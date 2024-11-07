@@ -1,6 +1,8 @@
 version: 7
 name: stogramhq
 display_name: StogramHQ
+websites:
+  - url: https://stogram.vercel.app
 github:
   - url: https://github.com/stogramhq
 blockchain:
@@ -14,3 +16,5 @@ blockchain:
       - arbitrum_one
     tags:
       - eoa
+
+

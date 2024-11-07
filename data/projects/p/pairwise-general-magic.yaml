@@ -2,16 +2,21 @@ version: 7
 name: pairwise-general-magic
 display_name: Pairwise
 websites:
+  - url: https://pairwise.vote
   - url: https://generalmagic.io
 social:
   twitter:
     - url: https://twitter.com/Generalmagicio
+  farcaster:
+    - url: https://warpcast.com/pairwise
 github:
   - url: https://github.com/GeneralMagicio/pairwise
   - url: https://github.com/GeneralMagicio/pw-backend
   - url: https://github.com/GeneralMagicio/pw-frontend
   - url: https://github.com/generalmagicio/pw-retropgf3-categorize
-  - url: https://github.com/GeneralMagicio/pairwise-RPGF4
+  - url: https://github.com/GeneralMagicio/pairwise-rf4
+  - url: https://github.com/GeneralMagicio/pairwise-rf5
+
 blockchain:
   - address: "0xc8d65e1bd67f16522e3117b980e1c9d2caeb9dc3"
     networks:
@@ -27,3 +32,8 @@ blockchain:
       - eoa
       - wallet
     name: pairwise.eth
+  - address: "0xd00b6Da2278CE5c8ca18065ccecAd3417e77893E"
+    networks:
+      - optimism
+    tags:
+      - contract
