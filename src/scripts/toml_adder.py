@@ -232,7 +232,7 @@ def process_collection_toml_file(ecosystem_name, crypto_ecosystems_map, ossd_rep
                 logging.error(f"Error parsing URL: {url}")
                 continue            
             logging.info(f"Slug for {url} does not exist. Generating slug: {slug}")
-            if auto_generate != 'yes':
+            if auto_generate != 'y':
                 add_project = input(f"Add new project '{slug}' for {url}? (Y/N): ").strip().lower()
                 if add_project == 'y':
                     display_name = input("Enter a display name for the project: ").strip()
