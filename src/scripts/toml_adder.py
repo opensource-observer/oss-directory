@@ -8,10 +8,11 @@ from map_artifacts import generate_repo_snapshot
 from add_project import parse_url, generate_yaml
 from add_collection import generate_collection_yaml
 
+DEFAULT_CRYPTO_ECOSYSTEMS_PATH = "../_external/crypto-ecosystems/data/ecosystems"
 LOCAL_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "projects")
-LOGGING_PATH = "data/logs/toml_adder.log"
-CRYPTO_SNAPSHOT = os.path.join("data", "logs", "crypto_ecosystems_snapshot.yaml")  # Updated path
-OSSD_SNAPSHOT = os.path.join("data", "logs", "ossd_repo_snapshot.yaml")  # Updated path
+LOGGING_PATH = os.path.join("data", "logs", "toml_adder.log")
+CRYPTO_SNAPSHOT = os.path.join("data", "logs", "crypto_ecosystems_snapshot.yaml")
+OSSD_SNAPSHOT = os.path.join("data", "logs", "ossd_repo_snapshot.yaml")
 
 SCHEMA_VERSION = 7
 
@@ -20,7 +21,7 @@ def map_crypto_ecosystems(ecosystems_path, load_snapshot=False):
     Creates a mapping of ecosystem titles to TOML file paths.
     '''
 
-    yaml_path = CRYPTO_SNAPSHOT  # Updated to use new path
+    yaml_path = CRYPTO_SNAPSHOT
     if load_snapshot:
         with open(yaml_path, 'r', encoding='utf-8') as f:
             return yaml.safe_load(f)
@@ -46,10 +47,19 @@ def initialize_session():
     Returns a dictionary with the ecosystem name, ecosystem mapping, and the snapshot of repositories in the oss directory.
     '''
     # Generate log for the session
-    logging.basicConfig(filename=LOGGING_PATH, filemode='a', format='%(asctime)s - %(levelname)s - %(message)s', level=logging.INFO)
+    logging.basicConfig(
+        filename=LOGGING_PATH,
+        filemode='a',
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        level=logging.INFO
+    )
 
     # Prompt user to enter the path to the ecosystems directory
-    ecosystems_path = input("Enter the path to the ecosystems directory: ").strip()
+    use_default_path = input("Use default path to ecosystems directory? (Y/N): ").strip().lower()
+    if use_default_path == 'y':
+        ecosystems_path = DEFAULT_CRYPTO_ECOSYSTEMS_PATH
+    else:
+        ecosystems_path = input("Enter the path to the ecosystems directory: ").strip()
     while not os.path.isdir(ecosystems_path):
         print(f"Directory '{ecosystems_path}' does not exist. Please enter a valid directory.")
         ecosystems_path = input("Enter the path to the ecosystems directory: ").strip()
@@ -124,7 +134,7 @@ def process_project_toml_file(toml_path, ossd_repo_snapshot, write_file=True, au
                 continue            
             logging.info(f"Slug for {url} does not exist. Generating slug: {slug}")
             if write_file:
-                if auto_generate == 'yes':
+                if auto_generate == 'y':
                     generate_yaml(url, slug, title)
                     ossd_repo_snapshot[url] = slug
                     logging.info(f"Automatically added slug for {url} to ossd_repo_snapshot: {slug}")
@@ -201,7 +211,7 @@ def process_collection_toml_file(ecosystem_name, crypto_ecosystems_map, ossd_rep
             sub_ecosystem_slugs = process_project_toml_file(sub_ecosystem_toml_path, ossd_repo_snapshot, auto_generate=auto_generate)
             if not sub_ecosystem_slugs:
                 continue
-            if auto_generate != 'yes':
+            if auto_generate != 'y':
                 add_slugs = input(f"Add slugs {sub_ecosystem_slugs} for '{title}' to '{ecosystem_name}' collection? (Y/N): ").strip().lower()
                 if add_slugs == 'y':
                     slugs.extend(sub_ecosystem_slugs)
@@ -222,7 +232,7 @@ def process_collection_toml_file(ecosystem_name, crypto_ecosystems_map, ossd_rep
                 logging.error(f"Error parsing URL: {url}")
                 continue            
             logging.info(f"Slug for {url} does not exist. Generating slug: {slug}")
-            if auto_generate != 'yes':
+            if auto_generate != 'y':
                 add_project = input(f"Add new project '{slug}' for {url}? (Y/N): ").strip().lower()
                 if add_project == 'y':
                     display_name = input("Enter a display name for the project: ").strip()
