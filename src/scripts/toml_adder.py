@@ -10,9 +10,9 @@ from add_collection import generate_collection_yaml
 
 DEFAULT_CRYPTO_ECOSYSTEMS_PATH = "../_external/crypto-ecosystems/data/ecosystems"
 LOCAL_PATH = os.path.join(os.path.dirname(__file__), "..", "..", "data", "projects")
-LOGGING_PATH = os.path.join("data", "logs", "toml_adder.log")
-CRYPTO_SNAPSHOT = os.path.join("data", "logs", "crypto_ecosystems_snapshot.yaml")
-OSSD_SNAPSHOT = os.path.join("data", "logs", "ossd_repo_snapshot.yaml")
+LOGGING_PATH = os.path.join("logs", "toml_adder.log")
+CRYPTO_SNAPSHOT = os.path.join("logs", "crypto_ecosystems_snapshot.yaml")
+OSSD_SNAPSHOT = os.path.join("logs", "ossd_repo_snapshot.yaml")
 
 SCHEMA_VERSION = 7
 
@@ -46,6 +46,9 @@ def initialize_session():
     Initializes a new session by creating a log file and asking the user for the path to the ecosystems directory.
     Returns a dictionary with the ecosystem name, ecosystem mapping, and the snapshot of repositories in the oss directory.
     '''
+    # Create logs directory if it doesn't exist
+    os.makedirs(os.path.dirname(LOGGING_PATH), exist_ok=True)
+    
     # Generate log for the session
     logging.basicConfig(
         filename=LOGGING_PATH,
