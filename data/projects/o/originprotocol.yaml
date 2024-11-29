@@ -3,3 +3,17 @@ name: originprotocol
 display_name: Origin Dollar
 github:
   - url: https://github.com/originprotocol
+blockchain:
+  - address: '0x6E3fddab68Bf1EBaf9daCF9F7907c7Bc0951D1dc'
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+    name: Grant multi-sig on Optimism
+  - address: '0x70843CE8E54d2b87Ee02B1911c06EA5632cd07d3'
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Optimism Chainlink wOETH/OETH exchange rate
