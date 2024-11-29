@@ -319,3 +319,69 @@ blockchain:
     tags:
       - contract
     name: Permit2
+  - address: "0x1026D3D219098D7b1B0A180F7E557DEeA7DA82C1"
+    networks:
+      - optimism
+    tags:
+      - gnosis-safe
+    name: Uniswap Metagovernance Program
+  - address: "0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae"
+    networks:
+      - optimism
+    tags:
+      - angle-protocol-distributer
+    name: Angle Protocol Distributer
+  - address: "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD"
+    networks:
+      - optimism
+    tags:
+      - uniswap
+    name: UniversalRouter
+  - address: "0xB753548F6E010e7e680BA186F9Ca1BdAB2E90cf2"
+    networks:
+      - optimism
+    tags:
+      - uniswap
+    name: ProxyAdmin
+  - address: "0xbfd8137f7d1516D3ea5cA83523914859ec47F573"
+    networks:
+      - optimism
+    tags:
+      - uniswap
+    name: TickLens
+  - address: "0x42B24A95702b9986e82d421cC3568932790A48Ec"
+    networks:
+      - optimism
+    tags:
+      - uniswap
+    name: NFTDescriptor
+  - address: "0x91ae842A5Ffd8d12023116943e72A606179294f3"
+    networks:
+      - optimism
+    tags:
+      - uniswap
+    name: NonfungibleTokenPositionDescriptor
+  - address: "0xEe6A57eC80ea46401049E92587E52f5Ec1c24785"
+    networks:
+      - optimism
+    tags:
+      - uniswap
+    name: Descriptor Proxy
+  - address: "0xA5644E29708357803b5A882D272c41cC0dF92B34"
+    networks:
+      - optimism
+    tags:
+      - uniswap
+    name: V3Migrator
+  - address: "0x732f5baac411e427d130fed03c2e82a3e0d64d35"
+    networks:
+      - optimism
+    tags:
+      - uniswap
+    name: Multicall
+  - address: "0x54dF9e11c7933a9cA3BD1E540B63dA15edAe40bf"
+    networks:
+      - optimism
+    tags:
+      - uniswap
+    name: LimitOrderRegistry
