@@ -9,8 +9,15 @@ websites:
 github:
   - url: https://github.com/wannabet-cc
 blockchain:
+  # Existing wallet on Arbitrum One
   - address: '0x66D9640783719C13d6A106924000bC6153661a97'
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet
+  # New wallet on Optimism (Relevant to Growth Grant)
+  - address: '0x14e09A1a78950B38Ab3B203cdaa0fCB331B9Ee26'
+    networks:
+      - optimism
+    tags:
+      - wallet
