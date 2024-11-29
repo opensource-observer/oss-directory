@@ -5,3 +5,47 @@ websites:
   - url: https://contango.exchange/
 github:
   - url: https://github.com/contango-xyz
+blockchain:
+  - address: "0x6a189E0E8d3b6B0455DC49e81cC0df33904AF9E8"
+    networks:
+      - optimism
+    tags:
+      - grant-receiver
+    name: "Contango Grant Receiver Multisig"
+  - address: "0x17a7F6a839fea3b716b43f9414ffc93131878BD2"
+    networks:
+      - optimism
+    tags:
+      - merkl-fees
+    name: "Merkl Distributor Fees"
+  - address: "0x3Ef3D8bA38EBe18DB133cEc108f4D14CE00Dd9Ae"
+    networks:
+      - optimism
+    tags:
+      - distributor
+    name: "Contango Distributor"
+spot_markets:
+  - 0x/Matcha
+  - 1inch
+  - Balancer
+  - Balmy
+  - Bebop
+  - Changelly
+  - DEX Conveyor
+  - DODO
+  - Enso
+  - Kyberswap
+  - LIFI
+  - Magpie
+  - Odos
+  - Oku
+  - OKX Dex
+  - Open Ocean
+  - Paraswap
+  - Portalsfi
+  - Rango
+  - Squid
+  - Uniswap
+  - XY Finance
+integration: 
+  - Balmy.xyz SDK
