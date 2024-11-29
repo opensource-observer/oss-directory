@@ -1,8 +1,7 @@
 version: 7
 name: hildr-optimism-java
 display_name: Hildr
-description: Combination of  @ethereum-optimism  x  @ java  ecosystem ,
-  accelerate the decentralization process of @ethereum-optimism
+description: Combination of @ethereum-optimism x @java ecosystem, accelerate the decentralization process of @ethereum-optimism
 github:
   - url: https://github.com/optimism-java/hildr
 blockchain:
@@ -13,3 +12,9 @@ blockchain:
       - eoa
       - wallet
     name: grapebaba.eth
+  - address: "0xB6B9E9e56AB5a4AF927faa802ac93786352f3af9"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
