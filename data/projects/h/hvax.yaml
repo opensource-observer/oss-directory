@@ -10,8 +10,64 @@ social:
   twitter: 
     - url: https://x.com/EventHorizonDAO
 blockchain:
+  # Existing address
   - address: "0xE67192302E444a8D28F60F6737a8bc7c672b8aC6"
     networks:
       - any_evm
     tags:
       - eoa
+
+  # Event Horizon Optimism Multi-Sig
+  - address: "0x5F451dA1b3Ad7bf2845573FccA2808d75065a6f4"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+
+  # Ethereum Multisig where funds will be received
+  - address: "0xc0DdBAAeed6fC3E2f4f4Efa5778383B0E356621E"
+    networks:
+      - mainnet
+    tags:
+      - safe
+      - wallet
+
+  # Delegation Address (Event Horizon Public Access Voter Pool)
+  - address: "0xb35659cbac913D5E4119F2Af47fD490A45e2c826"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - delegate
+
+  # Deployer Address (if applicable)
+  - address: "0x77c0f84E730c9121eEEa22a79F6181AE7643d347"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - deployer
+
+  # Signer Addresses (if relevant)
+  - address: "0x9eb516290582424B603E76D66B55D0b268880eD1"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - signer
+
+  - address: "0x50c28a42AC91F6E6437A036D320c9242432CCE3F"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - signer
+
+  - address: "0xB251b4a49de4dA1Ef8758F78c02678E762388FC0"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - signer
