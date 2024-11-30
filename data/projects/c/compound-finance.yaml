@@ -9,6 +9,7 @@ social:
 github:
   - url: https://github.com/compound-finance
 blockchain:
+  # Existing Deployers and Contracts
   - address: "0x6103db328d4864dc16bd2f0ee1b9a92e3f87f915"
     networks:
       - any_evm
@@ -45,7 +46,7 @@ blockchain:
       - optimism
     tags:
       - contract
-    name: cUSDCv3
+    name: cUSDCv3 (USDC Market)
   - address: "0x7e7d4467112689329f7E06571eD0E8CbAd4910eE"
     networks:
       - optimism
@@ -57,3 +58,26 @@ blockchain:
       - base
     tags:
       - contract
+
+  # Added Addresses Relevant to the Growth Grant on Optimism
+  - address: "0xcb54808F5ef6FD88b933C55Dd4f4c365E61828bB"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+    name: Grant Multisig
+
+  - address: "0xE36A30D249f7761327fd973001A32010b521b6Fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: cETHv3 (ETH Market)
+
+  - address: "0x995E394b8B2437aC8Ce61Ee0bC610D617962B214"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: cUSDTv3 (USDT Market)

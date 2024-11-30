@@ -22,3 +22,9 @@ blockchain:
       - contract
       - proxy
     name: "Mode: L2StandardBridge"
+  - address: "0xbe7946B7988a6556CFB78258592350e706786d36"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: "Mode Network Contract"

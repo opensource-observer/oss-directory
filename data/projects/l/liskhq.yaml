@@ -3,3 +3,11 @@ name: liskhq
 display_name: Lisk
 github:
   - url: https://github.com/liskhq
+blockchain:
+  - address: "0xDe79e22b1b0b02CDbFF3325bfB62dbcF1e65Ca19"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+    name: Lisk

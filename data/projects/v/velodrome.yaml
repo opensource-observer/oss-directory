@@ -595,3 +595,16 @@ blockchain:
     tags:
       - contract
     name: Velodrome Finance LP Sugar v3
+  - address: "0x3b5a0Fc12f8fd8B26d251F28258D1d172F930f8A"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+    name: Grant Receiver Multisig
+  - address: "0xc78d4395f6ed4e7037faffe634b7b3f8af376a8d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Incentive Contract (wstETH/WETH)

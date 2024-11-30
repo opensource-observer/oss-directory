@@ -19,3 +19,10 @@ blockchain:
       - deployer
     networks:
       - any_evm
+  # Multisig address to receive OP (Grant Recipient Address)
+  - address: "0xD6B270DFEE268B452c86251Fd7e12Db8dE9200FB"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
