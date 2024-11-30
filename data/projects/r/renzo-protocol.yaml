@@ -6,17 +6,16 @@ websites:
 github:
   - url: https://github.com/Renzo-Protocol
 blockchain:
-  # Renzo Protocol Multisig on Optimism (Grant Recipient Address)
   - address: "0xdBdfd5b04fc3a19C40f2B12F6Ca29Bd772CCB822"
     networks:
       - optimism
     tags:
       - safe
       - wallet
-
-  # Renzo Contract Address on Optimism
+    name: Renzo Multisig
   - address: "0x2416092f143378750bb29b79eD961ab195CcEea5"
     networks:
       - optimism
     tags:
       - contract
+    name: Renzo Contract
