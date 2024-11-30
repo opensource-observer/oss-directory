@@ -29,10 +29,9 @@ blockchain:
       - wallet
   - address: "0xb35659cbac913D5E4119F2Af47fD490A45e2c826"
     networks:
-      - mainnet
-      - optimism
+      - any_evm
     tags:
-      - contract
+      - eoa
     name: Delegation Address
   - address: "0x77c0f84E730c9121eEEa22a79F6181AE7643d347"
     networks:

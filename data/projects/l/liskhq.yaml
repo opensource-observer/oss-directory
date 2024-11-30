@@ -6,7 +6,8 @@ github:
 blockchain:
   - address: "0xDe79e22b1b0b02CDbFF3325bfB62dbcF1e65Ca19"
     networks:
-      - optimism
+      - any_evm
     tags:
-      - contract
-    name: Lisk Contract
+      - eoa
+      - wallet
+    name: Lisk
