@@ -9,7 +9,6 @@ social:
 github:
   - url: https://github.com/TLX-Protocol
 blockchain:
-  # Existing deployer addresses
   - address: "0x48b96d8044d14EC5E592990989270789899bAf9B"
     tags:
       - eoa
@@ -22,16 +21,12 @@ blockchain:
       - deployer
     networks:
       - optimism
-
-  # Grant Multisig (Grant Recipient Address)
   - address: "0x1BcBB33Ff4272c4fE3A00EAa7958953037A3a471"
     tags:
       - safe
       - wallet
     networks:
       - optimism
-
-  # Multi-send Contract
   - address: "0xA1dabEF33b3B82c7814B6D82A79e50F4AC44102B"
     tags:
       - contract
