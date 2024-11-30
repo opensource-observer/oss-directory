@@ -7,7 +7,7 @@ github:
 websites:
   - url: https://EventHorizon.vote
 social:
-  twitter: 
+  twitter:
     - url: https://x.com/EventHorizonDAO
 blockchain:
   - address: "0xE67192302E444a8D28F60F6737a8bc7c672b8aC6"
@@ -48,13 +48,13 @@ blockchain:
     name: Signer
   - address: "0x50c28a42AC91F6E6437A036D320c9242432CCE3F"
     networks:
-      - mainnet
+      - any_evm
     tags:
       - eoa
-      - signer
+    name: Signer
   - address: "0xB251b4a49de4dA1Ef8758F78c02678E762388FC0"
     networks:
       - mainnet
     tags:
       - eoa
-      - signer
+    name: Signer
