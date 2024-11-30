@@ -107,7 +107,7 @@ blockchain:
       - contract
       - factory
     name: XERC20Factory
-  - address: "0xdd5e199c1be7fcfeeff4652268236457c3d2af5c"
+  - address: "0xdd5e199c1be7fcfeeff4652268236457c3d2af5b"
     networks:
       - optimism
     tags:
@@ -154,17 +154,3266 @@ blockchain:
     tags:
       - contract
     name: BeefyVaultV6
-  # ... (remaining addresses)
+  - address: "0x22e277cb2961bdf00fdc6b2cb351d4413ae6ba30"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xab3104695471c983ff5b65621f76caa1a22cb3e3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xe9a792d3814c0eb20ffbc99147a3c8922c24c493"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x0f5333983d4b59aa5fe692fac8475dab924ec7ac"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBalancerComposableMultiRewardGaugeUniV3
+  - address: "0x235761c80ba5128266073c8738f0b5150e349323"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xf25083cfdd903f82310a3c2099c9ffeab6b2216f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x2c3d263b560b2700fcf19e78f2ebd4d59eb7b3c5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x81f2f132465ffb4b3c5d11f3d94582cc5c281c04"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xe75e9cc79c2d1daa00f30991fbb413c8d4a86537"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x9fe2921fe00e48b88bde16102627e750924b96bb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xdd77d377506faa3bd4e70c6f9b0e4eb6925b70b2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x18ecce7f6b8bb54933643751d3c2d4b3ea034463"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyLaunchpool
+  - address: "0x2275527112c94733081f2893de25c85f252defab"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeVeloRewardPool
+  - address: "0xaee7400a6e567e133ea53e71ab018e13c555a024"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyKyberLP
+  - address: "0xb25eb9105549627050aab3a1c909fbd454014bea"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x5af5d27f10dd8fb317d7766a4457becd3e7cc1c7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x70051ba744889e67579f9a0d89737abb82cf5ae8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonVelodromeGaugeV2
+  - address: "0xff8f9002a8cdb22aa70f0dce3e83b6908e0e56e2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x34e5b7b4f9b7ff85e311792a2613f5308f25f379"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x51d95884f64abc5a38d79607b0fbecb4b5840914"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc4f8ce2a495f0ebdf77b3559942fe6e9c7a97fd5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsMultiRewardGauge
+  - address: "0x2e0a7064a5ba7b9b7499997d91885badd5fc45f6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyFarmingToken
+  - address: "0x65bcbaa188318dd8cd4b894fbca627aeb845e620"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xc5be4084b3d945fe83e1be4bd96522fa1d1c722d"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x9cc1cda6e682a902c4e4409065ad5de85cf9d89a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAaveSupplyOnlyOptimism
+  - address: "0x3142d9195171f08f659f7a0cf3c3cc75c0ebb756"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x1a00e13cd8cbc61c8c342afd46592f4234172005"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x1ea73427874dccb2e01c53e25a21e92ada3dc65b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x6dfc0e12643a23f0642945d4cc54fed72d0d5a37"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyKyberLP
+  - address: "0xb0af86f18c6155cefae1a6d6da35b05f176f6278"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloStaker
+  - address: "0x0521b9c8d92d39d0cabe7bb3dcad72d474ecdc7b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xbdbf8558ff45b9ed9572d80e5357b05834e6e496"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AuraSrcSwapper
+  - address: "0x4bbde7dbd03b8df31d1c3918bfa1b73d15fc4c35"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x0b76632e6f7abd7c356d185a756a36177a4b954c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BifiBalancesInLp
+  - address: "0x621ab9a2ef4256a43defeb37f0a1eacb276bbf97"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyUniV2ZapSolidly
+  - address: "0xe9831aefcf8c35ba3f99239391b19eba05336c10"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x88b549ba984d3c7725f4dc32abb5389d127f7a6f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyRegistry
+  - address: "0x7680639e51155a2c7c9cc98872f0c12a15990241"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyRewardPool
+  - address: "0x03a5fea242ac9064e23c542b6b6020ab0e647400"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyOPX
+  - address: "0x829288ac86a29f1bb9561719c61eb38ca289030a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BifiBalancesInLp
+  - address: "0xcaf32063591b573fa1cef3f3e0e14483538a5c1c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x8f755873546f4d0edf7d41ff8604c8a632113eb7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyLaunchpool
+  - address: "0xea23b6562cd76277825263b4d58470939014d8f1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xf6c80aa28ab3d5c1b608c5ffb9a260de287a8b16"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyExactlyLeverage
+  - address: "0x579640e5d9f4e20fc1231ec9620385f75b5784a5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x5380d7d83297e1c402bed404918256d0b815c9f5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AuraSrcSwapper
+  - address: "0x9ae0b186db2378a33d63c5d8af59272db3de6b99"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xa970e68f9390bb735735a5f7b6ed8a1de22b8705"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x0495a700407975b2641fa61aef5ccd0106f525cc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x1d11b9babbe531c9bc2d34fccdd53a43f7449658"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloRewards
+  - address: "0x2d9a90b88367360fb09b0d0d7d0ea0f99d688e5c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyZapAggregator
+  - address: "0x6095505639c0c143412bda33606664c9141d0d12"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeVeloRewardPool
+  - address: "0xa448e9833095ad50693b025c275f48b271ade882"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x165f290c9861249c59d2c1302a5c120a6a102f71"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6Native
+  - address: "0x00dd62424a79c971d6f6a10bac531f33185e6d5b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x32e0b5400fa4f94454d37973f172f326bb3d430b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyZapAggregator
+  - address: "0xdc036ab31d2f105e15c1896f88d13b7bcf3e9292"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x6934eb0f454acaaa86db0ca8e1c4c91ea3f40e8b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAaveSupplyOnlyOptimism
+  - address: "0x48ae9c58af01b3ddd522fc3e161ac4318964c4ee"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x533b886320e197268436346a1001717f6582ed0a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeVeloRewardPool
+  - address: "0xd4b95a7e8faa968a90fbef6bdaf870d89b4fc327"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x33a2341da45447300f6c7bbf6bef48e70d026cb1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyKyberLP
+  - address: "0xce6a6b6935a1ab3af7be53fbc8a149791b418278"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xdd63306a9792ecbd1cd6baed3f1b18bea638aace"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x601cef46e7e31bda332ae370f019e9d9ce69f01f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyUniV2ZapSolidly
+  - address: "0x23343d47111abc4b1699fed61276c06ff8a0d081"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x323818ba51c7ff001cc1daafb6143a9ab7f292a9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyOPX
+  - address: "0xb01c5ff0909196b5f4e799003a89f3aa0095f380"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyHopSolidly
+  - address: "0xd6f88235aa09431083867c4dab92327a21003fb5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BifiBalancesInLp
+  - address: "0x4d153f47f03c237f6360a6eccd185b4ae09c63d0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x4287b5e79436632170a1175c9c7babae1c8676ba"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xda875a511860f2752b891677489d08caedac00ea"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsMultiRewardGauge
+  - address: "0x7b554337fda6677e9d2e78a565ba74f4ff4e7c46"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVelodromeV2Zap
+  - address: "0x64fda2f7b42b14e2714175f5b0d4552b74770189"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBalancerComposableMultiRewardGaugeUniV3
+  - address: "0x2bdfbd329984cf0dc9027734681a16f542cf3bb4"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x44baebeb626f1ad048f0c15e84bb24196f214c23"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BifiBalancesInLp
+  - address: "0xe0574995c40de14a4a5590f53a67d93b5950b4b2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6Native
+  - address: "0x8f1d9cccd458891f87ab5b1c45fa14757e71f7f1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x5edf6b341f73f9782c9afd105fe3fff6bd84d2e8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x5990002594b13e174885ba4d4ec15b8a8a4485bb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xa5dca91271a892fde7fff1ed3b81bec4c08659a3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xb8ce10759feb3b63b75557f5f9933bd22127f0ec"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x448423356726dd7dc168e714c80addb077f83738"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xe95a759946b0f9a21ef08da65b782ab6b26d2764"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x32b2ff41e72ee243c8835bd44476375afe3a38bb"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xc0e74e2929bfa1233803e05ccadc8fe3ee03e019"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloStaker
+  - address: "0x6e1e6bee8f91827807add9b18fe901c7473f9da1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeVeloRewardPool
+  - address: "0x2ff34b3f4286623099c4d40afa162282cbe0e347"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x477030027a0f5a883a92975e18d63b1ab7aef4b9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyHopSolidly
+  - address: "0x1c45f783fcbab05abbb93e421bc55b38b1d6c6cb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xefa8e30ce4cc433cea1b3b6006d69731a4fbd485"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAaveSupplyOnlyOptimism
+  - address: "0x6709b167f862e2aed920c2d98bc89e976dbd0615"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyExactly
+  - address: "0x01bff9f1b56c76a619327f681a734c48daa80e74"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xff504594edd93e09309d5eab775e7c35f642931b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x6e943481838160d86ac26f210fb451ab8e6f211c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xb9f24e87e5298a2df17c44593ab8d8a525143d93"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAaveSupplyOnlyOptimism
+  - address: "0x739c33c453f6449810b2997a320e5ea0b79fa438"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x68edb82ca0b6c1e623cf7e41e990df5702554862"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x41c713ed0966b0cb87d1e33dd70d8e497a3b76fe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x2809385bdb8a968c3d0a20b453be7103abe00f06"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAuraSideChain
+  - address: "0xf107c61f6c49e8650f080454807279d1672f9a5a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x34179b78e61db0c67e073b2f829cb71e9d2871c5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x1817c0fbdeaef34ffe296f5fe8606c074b078553"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6Native
+  - address: "0xfa173706f94216689ab879d8b21d082c027936c3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyKyberLP
+  - address: "0xc68579abf282415dbabd074020ff430f96b32f6b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloStaker
+  - address: "0xb859f08434e6055c33f204d766d6a95898d37abc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyFarmingToken
+  - address: "0xc24c73c256d527726a7a012e1360c78d0cc02eea"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloStaker
+  - address: "0xf06019e9733f54b86bf654c8afeb4e978ddcd933"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x1b195fef1989f0901f1af0a8ff48987e39d84f7d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyHopZapOneInch
+  - address: "0x54f666a9d81b2d422d64c2ffbd20ccc6250214f5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsComposableMultiRewardGaugeUniV3
+  - address: "0x07d4913a1b4cc963879a2c588f3db3aac895c8b0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x2489f2f7f972ca7ee6436666a3ab0aafb5a06c7b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloRewards
+  - address: "0x5eed03a90a130cdc130dd4093e722f455a69acff"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x3a847e91d632c72a8247727cc09c63a6847f70b4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xca838059876177077ff2b3ac9ce7c248950d2cc1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefySwapperTreasury
+  - address: "0x7a2658c72f1c64a9b00be5e6c5088471314f5340"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xb37cd85871e003ab24e8553f3eda386a083f48c9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyStargateSolidly
+  - address: "0xfbae682cf798d1be11bd55a9a1a558719a922d52"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsComposableMultiRewardGaugeUniV3
+  - address: "0x55782bdf08e0e03df79d3a5430762a3fcb2dcb1b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyLaunchpool
+  - address: "0x6598d84f2bec8eeb2e05f71f0a012d4aec21bda3"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xca077eec87e2621f5b09afe47c42baf88c6af18c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyRewardPool
+  - address: "0x797932dc73caa8027a0827680780126633217b47"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyHarvestWatcher
+  - address: "0x7e240c368272da4bfd77bf5dd0151c8cb57ab609"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x24edf005a60855efb079f8e22067e89b3ad07d7b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeVeloRewardPool
+  - address: "0xb5c6f353aa7ba6eea2f823c7431f3b3e7caa3f24"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBalancerComposableMultiRewardGaugeUniV3
+  - address: "0x8b20ebe6b3b5be888ba815c37724150d17083633"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x00acfd3420cd652500f5ba1b90ac7c19f694c5c3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xd80fb1be4f0df4a00f1cae4f48fd734529f599ef"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x43f6de3d9fb0d5eed93d7e7e14a8a526b98f8a58"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x3040387c46e21b453e4a8f648528368b9066628b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCurveLPUniV3Router
+  - address: "0x3cd5ae887ddf78c58c9c1a063eb343f942dbbce8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xb289184d9746c69801946a02a3ea71356cdd9364"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AuraSrcSwapper
+  - address: "0xf92129fe0923d766c2540796d4ea31ff9ff65522"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x820ae7bf39792d7ce7befc70b0172f4d267f1938"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x0b8caac3898e28165ba8fbb34f558b5464e0cf76"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyOPX
+  - address: "0x24569e59375d65817e72ecc55517aed168662e92"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAaveSupplyOnlyOptimism
+  - address: "0x609c46a524cb376bcad5f32838760bc948050709"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAaveSupplyOnlyOptimism
+  - address: "0xdfcc0fe31568cb3c75a20f41a8fd705bf951538c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xba1548b3f673950094dc00edc1eb71683f371696"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloStaker
+  - address: "0xcccebc4551ff20aca4e0356dad8875806ce8df10"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x1beca12fabbe9b6207e69742d3c2cfef348e2666"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsComposableMultiRewardGaugeUniV3
+  - address: "0x856c5d1d9d00f38119efe66b413b281b983dfb8a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloStaker
+  - address: "0x0234ed3ed84639e930e7e49be557e2ed83bde32e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xee3fa2ec6053a427b9768b2b481afa31e5b555d4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloStaker
+  - address: "0x4d75ba5306875017765faa952081771235ebaeb5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyKyberLP
+  - address: "0x947891249a02c923787f6c2bedcf10ad959eb3de"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x1dd0d6508ff1fc1a2433b4d37d7efb5680c6455e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xd0bf9106c29037ee7b322aad2dde2364e43f37ce"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyHopSolidlyUniV3
+  - address: "0x25de69da4469a96974fae79d0c41366a63317fdc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x062ac428a0fc55a8435499bf11a9255031ba2d90"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyOLP
+  - address: "0x643dd1f9d43b210c4ba2648145757480cb664175"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x6bbff53cc5c422ec01bcf00ddd81b68e7994e110"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyRewardPool
+  - address: "0x18a054ccc4c8fd8c5ce5a266d29773dd23b1c18e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyKyberLP
+  - address: "0x6e4d1e6b78f536db6868c80d8735b4bf1551e927"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyBoost
+  - address: "0x5c7fd860fc0072cfef2cc4ab17cc7ff25b639d8b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x107dbf9c9c0ef2df114159e5c7dc2baf7c444cff"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xae1c8d06cca5ef3d33ac2c071d6630ba3bfaf9b2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsMultiRewardGauge
+  - address: "0x4925ebaa523b2c2f66f980c7b8bb68207622bc3f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeVeloWithdrawWatcherFactory
+  - address: "0xebae4810fd13605957e7d90bd49d2fd8f8148923"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyBoost
+  - address: "0xe1302317adde60239a2493559a3a136b4b483273"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x8bb50940c443b832fc4079e4db53447c8aef5b90"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsComposableMultiRewardGaugeUniV3
+  - address: "0xe18c61bf896742087b8ec509ad3fece6d4c0d5ce"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xcca4b9debfe7ea2221a8238499d66ee5f3623122"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x8eb23a3010795574ee3dd101843dc90bd63b5099"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAaveSupplyOnlyOptimismBeets
+  - address: "0xc9737c178d327b410068a1d0ae2d30ef8e428754"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x49302e520187e44ac2a545d39e3dc2827859f5b7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyKyberLP
+  - address: "0xd8d7db8272c02fcf784a6794b4e51647258c0660"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloStaker
+  - address: "0x80db135336cafde6f712b92109b076b3ee5ca59c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ZapBeVelo
+  - address: "0xfa68fca9c409d6922ed2f38d4e0e80074d5d9c54"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x8b2b853c7b4ea9e54a5506bbc2ffa53a9fe17c23"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsMultiRewardGauge
+  - address: "0x7ddb571cb40e5fed67b1bc0300f56f9c25cde175"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsComposableMultiRewardGaugeUniV3
+  - address: "0x618af86e6d2cdba9cf18e6482cc4c32853cbd807"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyExactlySupply
+  - address: "0x5090dc83607036e93412b7739ccf3338086e885e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyBoost
+  - address: "0x5d946a0efea185df89520ec0bee29d0c3295c447"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x29c4c22ec7df7e936cb3e6c4a7e5eae751c7d86b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsMultiRewardGauge
+  - address: "0x4ab405af608b69eec4bff6667dc16d76116ea633"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x96def3e0f4bebe3acdf652f09c27adf4f4a069fe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xb6d97bc82b1c22e3eb1607df4497dabeb0b2f316"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x1e7317b6f5bbae0c8eb04a48902e3a6562c33b2c"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x9f47d327bb88a57dbbbe7ff350c1ef15bc9724a0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyExactlySupply
+  - address: "0x1198f78efd67dfc917510aaa07d49545f4b24f11"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x31616bfa57b62db91c54e3e4ced19192e8fd08ab"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsComposableMultiRewardGaugeUniV3
+  - address: "0x920abfa9d1c99be993e5399634c6d5e1be55a3f4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x2e2cc6efcf8b6193a32a92b33747c081fe44bf1d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyOPX
+  - address: "0x1078fa50278c01eb490cca661aac6c5af99dd190"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xda2307a45d298e855415675bf388e2bd64351d5b"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2ab8add4e367cb2ad9a497155031dad49a2432ed"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBalancerMultiRewardGaugeUniV3
+  - address: "0x3a8fc02909cac1a317e95d9e2717977fc52ef36a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x3094ab4af54f5208b867125b5ccecc94bc17cbb6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x79807cce3e75dcdb8641c834e8065dd1cee12a2a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc422261edc5db679cad9bc403e886351de540e77"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x3532b6f723948ef39d5dcf44c16855239af81082"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xc42bc66aff2a89efc02e84a20307045252bed000"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x75d7de965ce777abd11fe30a1d1e9b185171559f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xd8b3cca9fe905497c22d500cdf76beda0a65d442"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyUniV2ZapSolidly
+  - address: "0x2b6730083f2156bea9a361bf36c95f4c3973d49c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyRewardPool
+  - address: "0x9048b485006754d29f22818b0aad5aea2f22d990"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xae92db3a5a1bbe57a336c17a6622708b4bdeae15"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x8396f3d25d07531a80770ce3dea025932c4953f7"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xcafd999d5080d80f7e4ab9ed952a8b8afe15afe6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyOLP
+  - address: "0x9b50b06b81f033ca86d70f0a44f30bd7e0155737"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyUniV2ZapSolidly
+  - address: "0xf782e675b93d22fd810dca4149d29ab32e5b2972"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAaveSupplyOnlyOptimism
+  - address: "0x020eb14f6c45d1900d2d57224a641e87a14e1742"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeVeloRewardPool
+  - address: "0x8e829cfc629fcb61c1508a54d232af4612e48cc9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xdcc5dc90a803928dc21556590d4620030966270f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x59f82727ce91a5784932a9340adefcb63068d869"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc2bbec44ce17c9fb478ab899dbec36032f4b08a0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xe83b0bef56fff2fdf369e55a5d9e5123cf7d72b0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyHopSolidly
+  - address: "0xdae62136ab9799cf80ba0e08b18a50ff5b30661f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xaf9dd4c1d755402868ffe2a0b7c0e8a6664a0f2f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x83ff748c4dad196944ded62c998ddc87a57a4198"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonVelodromeGaugeV2
+  - address: "0x908657ad946c8a3b5b9fc5ad47e9617ea5c05354"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x1d08b64c9cf3063add347efdcd311df341384426"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeVeloRewardPool
+  - address: "0x528cf803d9224e309dbe96a644484752613675f7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x61645ae7bb524c2ea11cf90d673079ee2abbb961"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyRewardPool
+  - address: "0x406109987cfabf034e6b0db6350306b6348e3729"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyExactlySupply
+  - address: "0x81e43596156c3036ae73b8bf9d29198086506ee5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AuraSrcSwapper
+  - address: "0x7c7b7fbcca5699175003ecbe1b41e79f40385469"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x7091e04422d1d9be48c211cf2f818a7e88efd736"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x405ee7f4f067604b787346bc22acb66b06b15a4b"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xc57ca723ab234dfd1364c63afab610be7a7556d5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xf49c523f08b4e7c8e51a44088ea2a5e6b5f397d9"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xcf9a11dd1567473036be5349eee69895d5b860ce"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCurveLPUniV3Router
+  - address: "0x0232aaee24235e21d06c0ceed51216005b9edbff"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xaa1acf9939e98c09f71f21ddd956ebc704a57027"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0x6e2dcebf8c14c72329f224a26edfd547d3c3e09c"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x3ae008c5cbb576fa91e06c81728c2fe46c7f03ed"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x40324434a0b53dd1ed167ba30dcb6b4bd7a9536d"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xa648630bd3c5a5fac65cd60bd61964f16bc00e88"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeVeloWithdrawWatcher
+  - address: "0x3fa638e7b83a82016c7b18a312c991c84c35a5cb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x73ceceb51fd9d0381256f7affedfe9ddc3e70fd7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6Native
+  - address: "0xc808b28a006c91523de75ea23f48be8b7a9536d1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBifiMaxiV5Solidly
+  - address: "0x0da809db34dd702496a1b36254715ebaac456b00"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyExactly
+  - address: "0x78b5ff763379012ce5ee38aa870fa545fa74f4eb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xf0a7626eccbee00af144bb1f77cd187af85bbf41"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x052b006a2cfb2523042b3041f15adc7fa5356312"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyFeeConfigurator
+  - address: "0x3246893c1f8c1bf928121094ea4558c7b93bdc9a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x1b18ca56128eaf1c00d73019cbfdad0c3bc673b7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xf638ff937f92502943f65340b8291c81d873f93b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AuraSrcSwapper
+  - address: "0x0a9c850d95796e32e6ebe4966420e435ed86d3d9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xd4f05538e8e79f3413b4a4e693ec0299e03e3151"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x3983c50ff4cd25b43a335d63839b1e36c7930d41"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyZapOneInch
+  - address: "0x033ca6926dff4f6848983731087907dcc9ddbee2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x2823709d7879b01c7d7d41bb0804a81a2611789a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyStargateOp
+  - address: "0xfd773a3c240440c40671074b1d88ad2185270d65"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa4404d27cae102c00ab95654f70252c82b22260d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x5cd57fe9d760e6302aba167993a0d1cc03895ed9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x687e3b9b8ce7e3014b41c0d722d65aa8862c4ea4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6Native
+  - address: "0x28f4cc9552f578b5c6e3a9204d6277cba49a9416"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x9da9f3c6c45f1160b53d395b0a982aeee1d212fe"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xf0d26842c3935a618e6980c53fda3a2d10a02eb7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x936aad8da1364b0940d0e882d3d468f4e0f65421"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x49e5bef46f59217962d166245ebaf690712a03a9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x044e87f30bd9bd961c04028ac69155493e1b9ed0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x200a26572948e689d6bd19b3d3c03d87a6f3baca"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x922f8807e781739ddefee51df990457b522cbcf5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xef1bc0761d699ff5ae0fb76e2c015128f672f0e7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x154656fdc48413de57565a364f828ad2818696cc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsComposableMultiRewardGaugeUniV3
+  - address: "0x21e14a13634d18857fedc01a6b7bf5b25aed087b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xcc2ba0401799857e4e14bfef6572f46fd5d0ac23"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x3a027fccf5fbb8e26eb5541a68a6f19405f09674"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x5ef08a4555125fcafc10a0faefb63562e06e68b8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x50790c91da8809a3f6156da73070a598441e6e0d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBalancerMultiRewardGaugeUniV3
+  - address: "0xfdeffc7ad816bf7867c642df7ebc2cc5554ec265"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloStaker
+  - address: "0xaa496e474b32f7e6b1ef0ca4b1f381fca54da2ab"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAaveSupplyOnlyOptimism
+  - address: "0x2f0865133ce3ddb78953fd3b4f6505ef3adb2107"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV7
+  - address: "0x8552cc6488f2b463b867ac338b5ce97a6a41b5e7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefySwapperTreasury
+  - address: "0x9da5a072804ee44b6259181bde3f5393aeef2bec"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyUniV2ZapSolidly
+  - address: "0x13c6bcc2411861a31dcdc2f990ddbe2325482222"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyPriceMulticall
+  - address: "0x0e8a8936cb42b40af9bcc56c81065f5d20b9cb6a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyLaunchpool
+  - address: "0xd5d634926a5b58b2952f19335537f1ed3f09bfce"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x7a114f8e4ee7b6edbb7fe297de1356c5068d2234"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAaveSupplyOnlyOptimism
+  - address: "0x794c7424a2672e805fe24d1b69e73c9d2ce565ad"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xe5080c7d8d4226eeaf1b06e3559f1170068fd60e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc7d2c0b34e84f66e237bf7260552a645629ac753"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyHopZapOneInch
+  - address: "0x526c0db65206c03bce92b4b074349183c42eebfe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xc3d5c128a3e5bf60c6fb87a4b644b6a2d8093f55"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xe7a6563073244044936734536c9fdfaa0b8583cd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xa1dfd44c90b7ce937fc450fe19b691e72ee3a7d2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsMultiRewardGauge
+  - address: "0x02422d83321ff56cea22bed0eb3ccd6698ee9f3b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xe8188b9701e6db1fe24c75783474d22e5957bbef"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x5dda0d7ef00e0b3a30edf9ab1132d463d7a0b355"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AuraSrcSwapper
+  - address: "0xe2f035f59de6a952ff699b4edd0f99c466f25fec"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x48b3edf0d7412b11c232bd9a5114b590b7f28134"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xfcdd5a02c611ba6fe2802f885281500ec95805d7"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x7ee71053102d54fc843baebaf07277c2b6db64f1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6Native
+  - address: "0x0076b62c44a1834205d4d7de94c90a123f614090"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x59b2e7f6f5f745fd33dac83153eae8e42440a981"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xdd73d23a344eb895face19484f9d05c2005398da"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x8e2cdf8c6477439b7c989e86b917d80871b92339"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x4ed766af5b30a4695f7b247ae1bb0f6b34bc6378"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x0921e4fa2f85b6461fa83961d28dc7e1f9a32b40"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xf5507e195a6b1636d7284c3cf1746a1ac5b4def9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x517b671fa1134f393d305d2fc466c4bbae6a738d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x0bf7616889d0ae18382d9715eac00a3302e9ab92"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV7Native
+  - address: "0x6347c23cd6283e619728854d44ff852a462fbaac"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloStaker
+  - address: "0xa8274b77b917f7e07131d2573f1699bd36213dd4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AuraSrcSwapper
+  - address: "0xabc1c302030ed3d5cd485350f9c740bb1f154e00"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsComposableMultiRewardGaugeUniV3
+  - address: "0x2bb87d26bb4fbcad592d1d0be6665eda55d936bc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xab83f8ae9ba70501abbb5e350790a84a5cf096ea"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyHopSolidly
+  - address: "0x25e66f746254cd7582e65ef7de1f10d8883f4640"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x91ecd79fc53c6b1c1c081570c463c3c8259dd148"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xe536f8141d8eb7b1f096934af3329cb581bfe995"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x0de766c30a3c02707e19a116e7d78b95b7aebb48"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyRewardPool
+  - address: "0xb30e6117bd2e6856265f1cbd0662c1ee0247e573"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x92651e1bbfe0f8423119afc4b0610c747fa125a1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x2a593c9dd08ae58df82dfdeb67bf7ba666a233e0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeOpx
+  - address: "0x720feec2b3e15fe5e7ab29397679df928c76018d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xf2984c27b963a14f9f3b7326096c54fb05d5b9af"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCurveLPUniV3Router
+  - address: "0xd340e02a1174696f77df3c9ca043c809453c5c83"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Distributor
+  - address: "0x0aa4ce32107b7101770566c4c0d7ecb1f9d8a07c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonChefSolidlyLP
+  - address: "0x211230c44eda453157f1d094224123205766a37b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeVeloWithdrawWatcher
+  - address: "0xd8fe5ac8a68bd0a9c225f56a9cb94f8029df7489"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyExactly
+  - address: "0xe2affc95cd0ecbfd1fe674243e5298114ee939ba"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x0513063422a956742fb690ccc7a635ec837e412c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyExactlySupply
+  - address: "0x3201d664e75297f407843e0469fa256e05155911"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xe6a9f1d76fe905629185b0c901a681fee8372377"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsComposableMultiRewardGaugeUniV3
+  - address: "0x442ca31de7e6732455e60e3641ac076fa7a0905f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyUniV2ZapSolidly
+  - address: "0x491e09eb736c0c4cd85df694a22d1c0dec8c4c25"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCompoundV2Solidly
+  - address: "0x1f987b36cc15f39357616049e3b28830fd68f5d1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xd5c954b23dfdd53d62f94d8d02e784a5062c1ef0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x61f1d5c4ba453a5a6b555967d4271392aef0f71b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x5ce238a82c38d21cb3561866fc33d9e0f7243af7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAaveSupplyOnlyOptimism
+  - address: "0x81b2c85bde04b34c9b8b7e5c6bc925a2eed8e810"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xfe40f6ead11099d91d51a945c145cfad1dd15bb8"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x31fdc28f477a8026d35ca53c8c014f7996c89501"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x9a10cc2024744681fbce1f93aeee3fd7863b1a12"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x1a9fda6626097e9ded33204e485def332f2b665b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xd57f1714a0928310f08fc23f882fa784d8bd0dff"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AuraSrcSwapper
+  - address: "0x7381ed41f6de418dde5e84b55590422a57917886"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x1cfbf871f15171b1163ac043fe390290a90eedef"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloStaker
+  - address: "0x4c16497acb2a493778831afb7818d726bbfe914d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xe200cd5ef01b52bb968402f63e3933897cff367b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x6b88a921785b593f05c83badaf8bf7ba9e077b3e"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x35197a9816a0758c09d07a2f87dfa88d2a0fc607"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsComposableMultiRewardGaugeUniV3
+  - address: "0xaecd33b7b048960a78cacf59f8da658e1ff0ed64"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xce3c5adda86f5d062f51e7335de00ffefdb6af47"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyStargateOp
+  - address: "0x5ab303a1027d46f44aa2e801696f1f0e87f91981"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyOPX
+  - address: "0x61cc42c162e0b19f521b7ab963e0bd8cc219e8aa"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyExactly
+  - address: "0xfce74fe54ba4b3428cac457820a275240037db92"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x7e4b8afe26a20fb93561c811f1121bc1210bde37"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xcbab6076b4b0c482e7127a201b79a13d117e2b53"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x672584379ae3082b25f794e7224057e1b8b3553d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloStaker
+  - address: "0xe4b3ccbb1e48c579ea3d764fb258bc908e46487e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyLaunchpool
+  - address: "0x3a579290e4ee2647beb2227bddc9e6a6046636b4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x5d1fa921eb3758bff1753106cfb89c6ff20211dd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AuraSrcSwapper
+  - address: "0x7381e46d99c94e2a8632e95c36017619df2e2986"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x7e6958dd0437f687ad54557ba1ab15e45373478f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x03480366701bac978fab9db10a0cced8146f6d49"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StargateCurveReceiver
+  - address: "0x7e0b4d598bd389f07677c8414576f2b25744d19d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsComposableMultiRewardGaugeUniV3
+  - address: "0x062f29e2b5bd99523dd3508207eb2c2cbaf98d50"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xdde16f9e361c344639d7ff3e28e4eb6bce3155dd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonVelodromeGaugeV2
+  - address: "0x216eee15d1e3faad34181f66dd0b665f556a638d"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x3af60c18c5c4f57dae157e0418d5d1c5a2f4fa91"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x1a3e5557039763425b00a2e1b0eb767b01d64756"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyLaunchpool
+  - address: "0xf8e9774ae3cc7ae3ee11161cc1313252a0784e18"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x588fa08029f8fe7881486f22e259885e0a073d6f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyRewardPool
+  - address: "0x358b7d1a3b7e5c508c40756242f55991a354cd41"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyBoost
+  - address: "0xe8e26db4130f498c6f66cbed9bc2f82db74586d5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyUniV2ZapSolidly
+  - address: "0x92e586d7db14483c103c2e0fe6a596f8b55da752"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6Native
+  - address: "0x85f287c860f02bac3ae5023efb547b6b7aa4d9ed"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsMultiRewardGauge
+  - address: "0x21fd50161b3f51156ef18e0845f91ed3f10896b0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x240233b447d841c84bdfae17bde759e8c227a753"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xb708038c1b4cf9f91ccb918dad1b9fd757ada5c1"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x1236d3f26ec5b5824973fbecb356a9a5935b6a1d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x651f2652ef9ab426a2c41a690c2503b0a29257eb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyKyberLP
+  - address: "0x4fdaf14fbaf0569ea35050843bda9288f7198602"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xc04dbaf536286d3e06bc4bd60681c47be586f44f"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xc3ff1a784642c581adc8e3aa4f9229e959d10362"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x994ab71f95a8de4daaf6de3d9862284693fb2bdf"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xd98a4923e8b8f298028bfb1874c920059605a89a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xa8fd81a0ec43841b64cdae13f1f6816108fd37ff"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x346967b0c7d9fd394cc7b3a9a7f10a6729c6debe"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x3b6ed6a53a9a357a397fbc7a04c96ba8b4aebed2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x5d871ab3171daaf1991e9715fbcee5fa34390cfa"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xc3991d99a73ed1fd9d28cd4623dd72732745963b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xc616a6f6f4f54e224fb89b0fb97d5e7fe0d956e2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xfb9b6d7642f3549e04f11770bd2811f494e78f48"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyHopSolidly
+  - address: "0x3116a146dc16ea2d0926c430d07d2a185043236b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyHopSolidlyUniV3
+  - address: "0x587c3e2e17c59b09b120fc2d27e0ead6edd2c71d"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xe00232a57b6b39b6cabaf9222866d99751f28af2"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x14c6cd1a9b3d5684c8fdd0883a8b14b90f07d35c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyUniV2ZapSolidly
+  - address: "0xe5a01497bff17f4f0f7b771a2c05e78f84292b4c"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xeefe8171dc249960d730b19f3406e40c8c22c567"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBalancerMultiRewardGaugeUniV3
+  - address: "0x2429c300be41c3de2cbb894a7939ff3b49166001"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xd019fd6267f93ebe5a92debb760135a4f02a75f7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x76913cbc80df343bae78f66cddc8d275020a12fb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyUniV2ZapSolidly
+  - address: "0x7b4d6d79de44fe034f75bd4525a13aaefaf4597f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyZapOneInch
+  - address: "0x7163975705123bb18bb5f03d2c4c78329a3bd0b4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6Native
+  - address: "0xa0a4bd251ccef8211c2d4700c81451f5a38ff983"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyZapOneInch
+  - address: "0x340443fd271dab123d9bd209c8dcd25894b7711d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ZapBeVeloOneInch
+  - address: "0xa6aedc8de2c4fd14ede78b9f0d96586df2668a1f"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x617b09c47c3918207fa154b7b789a8e5cdc1680a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa35f008e16cc06ddb3302a65c54df584fbd82dd4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsComposableMultiRewardGaugeUniV3
+  - address: "0xd4a31a5ca49c2dacf21149f58b5afe85f3218d55"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x4fc9d78613b20c8c91121de91a35887f7139da68"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ZapBeVeloOneInch
+  - address: "0x2b6a44a6ff520aaf64588cd2af2d71a37ada0730"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: VeloRewards
+  - address: "0xef46ea3e79c2d75a6bcb8ba7a3869d9a6e54258b"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xd858783942f23d9ca023d872664e5047c326ee45"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyReceiver
+  - address: "0x9a785d94ddfe903ff54b7f6eab824029c0c4d59a"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x979a73011e7ab17363d38bee7cf0e4b5032c793e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TimelockController
+  - address: "0x15a5cad774b8392c11ec85e54bb05dc9fdc2134c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x7714f5e07a5e9344f708f063558d3438676d4b58"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x70e793220761418a18febcc556efb24a45da123c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xeb3c00fe42e2518293719e3fb0041bcec98a25d0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xfc7a31e1c5c3846d36e49223fae905e28315c1e0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x50d6945632e6d89cc9c9d38e1fe5b6250f6213af"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x0a2289a7ee8a1f2a6b0e2320f47d8d0ff143f436"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x7afcb83e45500f8f9d5934e6690a7de3e82ac3b4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyZapAggregator
+  - address: "0x4dd62fc76fd57175151777e845dfe9e981b87ae7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x79149b500f0d796aa7f85e0170d16c7e79bad3c5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x852c903e5bc93f526ab254bfee0c1dff23cf82ab"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefySwapperTreasury
+  - address: "0x2649b0d997fc267154a542540aa90c09cbc7c480"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsMultiRewardGaugeUniV3
+  - address: "0x4a6f369b1e2ef92c991d96831f3e1b4006a4c661"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyKyberLP
+  - address: "0x4fcdebab04f0e7f64e992861fd948df2753b0a56"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyZapOneInch
+  - address: "0x5d51392a1c757d7d8ab8e1657a31f4dfed66ede2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x0fb938132d4db064d4869b2a68f8e0f366fe1371"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x4b0a66dee9ff557f9b0c25c3e57086495f570e65"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x234b26b224c9f7bf571846a6b15623d3b0c81f3c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x47ef4f26ddffe13283a1b77ec11c203e17cce7b0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x99097e6c293982f0e05937fdfb45f69ef8914f0e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyStargateOp
+  - address: "0x6f9bf80a43be27703ed0b740d93d3f2e87e43448"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyOPX
+  - address: "0xb6fb58eea08b5539f371a744bb9ef86283f1b3c2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsMultiRewardGauge
+  - address: "0x0ec8f519931e922d14131d7a68731f4fb11b9482"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x3116c67a1758f82b91bb97ea503506b409a90ae1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonChefSolidlyLP
+  - address: "0x01d9cfb8a9d43013a1fdc925640412d8d2d900f0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x05cc7f3aad0cecbf926d2f4a534f55c19035718e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x57d64d41ca26fc2860c10c94babbf461785d12bd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyKyberLP
+  - address: "0xcd218526380baa54a9aef470ceac6703f089d949"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StargateCurveReceiver
+  - address: "0x0892a178c363b4739e5ac89e9155b9c30214c0c0"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2b9e8f5e2d7e85936bdbefd12923c643b71305b6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xb9c9bbab9eb12d8f339cf0db552e4775a1b90c5a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyExactly
+  - address: "0x96f990d1aaf83b09a4ba3d22caab0377a058c84f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyRewardPool
+  - address: "0x44d5338bcaa6df44d26190797714e31559e6d716"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x51e61ae3da5fa7eea0310a7fb69c88e0e661fbc0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyHopZapOneInch
+  - address: "0x645e7208c1ab4d1758774d5141c5217c6cf63370"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x6b2cfabf0703d807784d11eee07759559edeff6a"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2b037456b95d37fb302ad361c2c0f50697ac37c9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCurveLPUniV3Router
+  - address: "0xc40c9d1d10c5b9f84962a52c403389f3412e0ce8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xafe54a0e3ab5c19aeac473b326239a714823e71a"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x02bb1ff1729ba1ba48392f6345d2472dcfa8c9d9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x3dd36e64784fdaee7bd202c78322a0d8eb1bb32b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x7bd070d71a7d22d679a1c993fe138f22abaa1145"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0x8a69309bb573030effeb36787651121c25646d58"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyReceiver
+  - address: "0xc0c87c0a81a1f164ee9194db4d1b09debe55eed1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x1d46ee713495f9f22d2498d050c9c9fddc9c6889"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xa97e92cad52ee87f11033ba2d99b9b49e6ac0bb3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x90f2922607bc7a29db0cb6f61f09c6c8d244269e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xedfbec807304951785b581db401fdf76b4bad1b0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x4502f35aa67d00d4c2ca49c2e9f11901c4b317c0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeVeloWithdrawWatcher
+  - address: "0xeeb3fc62379774a2053b39bc4d48f73f4f470e4b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeVeloRewardPool
+  - address: "0x3b9292d78b0aa958f2029e082ed104096dc20cd5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x0c560e328dac2fd79213828e567ee9755285f2a4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x548af6cb30e88c4c9b0a3fab1d3325dc9f3387b7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyHopSolidly
+  - address: "0x27a03cdab67d59e4e16082d79f4057aca98938cf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xff96c11f6b58d65e1206d9666469acdfb75d3cd3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x85850870ab8716d652db4de4733cdbe8c41b47ca"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x90544834e26a33739eb014bd045cc72c1228f145"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6Native
+  - address: "0x8f8126c13bba042084baa81890ef17bb61b4da27"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyStargateSolidly
+  - address: "0xa77ae94fd4a89b787d638325f79294353cc23859"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0xf3937d9d5178994bb5374cc6f79876ebac431eef"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyKyberLP
+  - address: "0xe1ac5c1adf967d0e034c9a01dd8a1deccd5e0e26"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ZapBeVelo
+  - address: "0xcc7f328b5e05073913ded9e7e7789901dd6ec47e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyGLPCooldown
+  - address: "0xb0e6e1ca7a66dda93bdf465938125de12d55b122"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x872103ee5d8e1b4e41284355b27b3d20afc3c08a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyExactlySupply
+  - address: "0xd9c451d0518af2b40bd02232c628e2f46acf5b3e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyStargateOpNative
+  - address: "0x613f54c8836fd2c09b910869ac9d4de5e49db1d8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x65f8a09a1c3581a02c8788a6959652e32a87fc77"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyLaunchpool
+  - address: "0x522871dc841ba76fd2962a47be5bf818fd3463d6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyFeeConfigurator
+  - address: "0xb5cc2092d3e6b270707e8b1e7588a469b65eb613"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x2232455bf4622002c1416153ee59fd32b239863b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x1ed617c70b29e00f5ab729947dcb73809fcc8ca0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBeetsMultiRewardGauge
+  - address: "0xfc9e51a77c0d2755121e5a2fa4d19daf072f97b4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyFeeBatchV3SolidlyRouter
+  - address: "0xe0862e539d961577c079f0704edf46c497c35686"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xe4b3c2b19db4fbaafbe99bd8ec869fc4c37063ae"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyUniV2ZapSolidly
+  - address: "0x241cd1944dbafaa9fe86106d93dd2bb549ea20a4"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x4723b375cce9feef6fe97901a0d18d7a8d28ff02"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x5064c531af73beee8e7b3835de289965b34cc189"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyBalancerMultiRewardGaugeUniV3
+  - address: "0x528beb08ad290349677a48a2188b8e22b90f1b95"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAaveSupplyOnlyOptimismBeets
+  - address: "0x5ec7f2602c449b4ac851baba20d5839ca4783314"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x2d78a2bbfa71c268bee36011f944901af9b9d351"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x75a59e8d6611e90e7a8e439cb59d9f78e738d16f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x8f6a97a42ab597107f1f996079643c8f25fc50de"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyOPX
+  - address: "0x32c9a4a4d28192892639e0373609697480d81ce5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x4bafb71d765f9adde0930da4002002648163b1aa"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x286d0acde6bfa4e624a102e8d68367b0dc582e1a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6Native
+  - address: "0xe900d8b8f562ceb2b56b944dabf64d285b1fafca"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x4eff281247576ec156d7271c46d9ef0f43c6c265"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x300c1617d77b0736a4e50ce49ef747024518839d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyRewardPoolLP
+  - address: "0x367a0cb94ae395e03e421ee6b95ae35263501386"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: AuraSrcSwapper
+  - address: "0x37d12d206c8f1e2c7b4c82a42dfd4da2fd266f15"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyWrapper
+  - address: "0xf46346de9c2e5e652fcc37695d3dec3d672c45ba"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xd08575f5f4de7212123731088980d069cb75873d"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xcadc68d5834898d54929e694ed19e833e0117694"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x95a0d9c6de7fb43616e84371ee9135a1f6786736"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonSolidlyGaugeLP
+  - address: "0x6992333e5df2364eb1b6cf14dc0c86eb0865d6e2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x9f24c36585cbcbd52116952bfddf8568a1c584dc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyBifiSwapper
+  - address: "0xff46d99c3af43e9a133ece2512dcbca8ed46b861"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCurveLPUniV3Router
+  - address: "0x0fb22a54a749c3babeed908e04a99d27725a2fae"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x499287c138aed9a107d748ddfd53668d104378b1"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x280075d2e08661bd67f8e0d5fa95c5ee655ad8ed"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyRewardPool
+  - address: "0x60351ade4e99641397aea1886403839ef71844c4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyCommonVelodromeGaugeV2
+  - address: "0x688724fb44cd7eabf209ca2b225880033e9563d2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyRewardPool
+  - address: "0x9f7ed443f5c89b6f2d4fa361d55594e0387dbf57"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xea1d3fae02316ad755b4dc89214bdfe923815375"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x03360fe329f44c6b0be4d8c89d2fd4c0151b226e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BIFI
+  - address: "0x8f5454526fe627dc3c6d926cfc76f63642d8641f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LayerZeroBridge
+  - address: "0x0fa0f1d9d1533e4d74730aeacf83e313d1966350"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LayerZeroBridge
+  - address: "0xd1d50c73a9e2f8d5f39c1fd745d1293f19bf95ec"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyUniswapGamma
+  - address: "0x3fca8c2b5189329cf20f71782a989bda3826b7e5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAuraSideChainOmnichainSwap
+  - address: "0xce442f708ae4a3afa731b39b955f3a65586fa41a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAuraSideChainOmnichainSwap
+  - address: "0x64ad2991e7f8ff832354a89e6bef9d006f2d6311"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAuraSideChainOmnichainSwap
+  - address: "0xf1c9962962db4b2788acfbdd356aa8694859b54e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAuraSideChainOmnichainSwap
+  - address: "0x159390e7be87a0b61fe0ad10db235690b90d2de0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAuraSideChainOmnichainSwap
+  - address: "0x9cf26f33095b33e2c52a3d48c2a63be884bee95d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAuraSideChainOmnichainSwap
+  - address: "0x118ac0e9854eff2f4ad47bb2695775c061c6e72e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAuraSideChainOmnichainSwap
+  - address: "0x63b4d85013e0bd955c663c8cb2d2eb9a604b9897"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyFeeBatchV3SolidlyRouter
+  - address: "0x2bbf9cfbda4293fa446e915aa12adc52ea8d5d53"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyFeeBatchV3SolidlyRouter
+  - address: "0x0105099cd3f3cccb091fda47d0ce679854e70053"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingRewards
+  - address: "0x0322d5d8fe8816b532491da397f30a3084dd4ad3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DGNAPES
+  - address: "0x60243ada6f1033d389cc3d77c019abafb0b73ff7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DGNPUNKS
+  - address: "0x37ef854cda76819edcff8f0a93bd449c6767a653"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DGNPUNKS
+  - address: "0xaa01fcf32dbf4b6d539e724ec5d88589db9d2228"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StrategyAuraSideChain
+  - address: "0x16ab7178b1b062a326c007a52e32a67218151b59"
+    networks:
+      - arbitrum_one
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xeacaffac2d3a4ddca6dccfdeb15111af2a4c51f9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BeefyRevenueBridge
+  - address: "0xbe1413f80fa4512eaa703028cfe3d28987369c06"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: XERC20Factory
+  - address: "0xae2262c6ed576b2a25b0e2d71054a530169b7075"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: StrategyBalancerMultiRewardGaugeUniV3
+  - address: "0x55dd65993cb918cda55ea02fcc6d417a364833d9"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: StrategyBalancerComposableMultiRewardGaugeUniV3
+  - address: "0xb80318aab313d54274358eec637f18affd03df8b"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: BeefyZapOneInch
+  - address: "0x80514cfb7cb438f1f997ab62ffd1314c1a1c0f12"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x566c8fe71d5549e36db29c60a27325db12a32d0a"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: Pair
   - address: "0x4aba01fb8e1f6bfe80c56deb367f19f35df0f4ae"
     networks:
       - optimism
     tags:
       - safe
       - wallet
-    name: Beefy OP Multisig
-  - address: "0xc55e93c62874d8100dbd2dfe307edc1036ad5434"
+  - address: "0x225555f86f6b0fa4f418f41a4865c66096b7452e"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0x41ca66f328a589249212e5dcf924a7d363682d56"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: BeefyVaultV6
+  - address: "0xc55E93C62874D8100dBd2DfE307EDc1036ad5434"
     networks:
       - optimism
     tags:
       - contract
-    name: mooBIFI
