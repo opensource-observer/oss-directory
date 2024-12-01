@@ -2,8 +2,6 @@ version: 7
 name: gg22-apps-dev-tooling
 display_name: Applications for GG22 OSS - Developer Tooling and Libraries
 projects:
-  - framelib
-  - web3j
   - apeworx
   - astralprotocol
   - beacon-apis-ethereum
@@ -34,6 +32,8 @@ projects:
   - execution-apis-ethereum
   - execution-specs-ethereum
   - fe-ethereum
+  - fractise-offical
+  - framelib
   - function03-labs
   - glados-ethereum
   - go-ethereum
@@ -43,8 +43,10 @@ projects:
   - js-ethereum-cryptography-ethereum
   - kwenta
   - kzg-ceremony-ethereum
+  - matrixai
   - meteor-dapp-wallet-ethereum
   - opensource-observer
+  - opstack-kit
   - otterscan
   - passportxyz
   - peeramid-labs
@@ -69,12 +71,10 @@ projects:
   - useweb3
   - utp-ethereum
   - vu3th
+  - web-transitions
   - web3-gpt
+  - web3j
   - web3py-ethereum
   - wevm
   - wtfacademy
   - zkemail
-  - fractise-offical
-  - matrixai
-  - opstack-kit
-  - web-transitions
