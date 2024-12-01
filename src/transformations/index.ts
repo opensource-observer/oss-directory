@@ -4,12 +4,13 @@ import { assert } from "../utils/common.js";
 import countNetworks from "./countNetworks.js";
 import eoaToAnyEvm from "./eoaToAnyEvm.js";
 import importAgora from "./importAgora.js";
-
+import convertToLower from "./convertToLower.js";
 // List of migrations to run
 const TRANSFORMATIONS: Transformation[] = [
   eoaToAnyEvm,
   countNetworks,
   importAgora,
+  convertToLower,
 ];
 // The highest version number among all migrations
 const transformationNames = TRANSFORMATIONS.map((t) => t.name);
