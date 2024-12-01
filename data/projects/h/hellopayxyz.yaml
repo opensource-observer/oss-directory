@@ -1,16 +1,16 @@
 version: 7
 name: hellopayxyz
 display_name: HelloPay
+websites:
+  - url: https://hellopay.xyz/
 social:
   twitter:
     - url: https://twitter.com/Hellopay_xyz
-websites:
-  - url: https://hellopay.xyz/
 github:
   - url: https://github.com/hellopayxyz
 blockchain:
-  - address: '0x8c1Fbd4ca37bFCbd99cbF1C1EC78e6a954119831'
+  - address: "0x8c1fbd4ca37bfcbd99cbf1c1ec78e6a954119831"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

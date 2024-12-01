@@ -1,16 +1,16 @@
 version: 7
 name: ssbc
 display_name: wildfiressb
+websites:
+  - url: https://github.com/ssbc/tinySSB
 social:
   twitter:
     - url: https://twitter.com/wildfiressb
-websites:
-  - url: https://github.com/ssbc/tinySSB
 github:
   - url: https://github.com/ssbc
 blockchain:
-  - address: '0x26ad0a4F1C02481441b9AB1F5124a0a4Af4c39E6'
+  - address: "0x26ad0a4f1c02481441b9ab1f5124a0a4af4c39e6"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

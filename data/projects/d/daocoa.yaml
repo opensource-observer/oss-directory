@@ -1,16 +1,16 @@
 version: 7
 name: daocoa
 display_name: DAO Coalition
+websites:
+  - url: https://www.daocoalition.org
 social:
   twitter:
     - url: https://twitter.com/daocoalition
-websites:
-  - url: https://www.daocoalition.org
 github:
   - url: https://github.com/daocoa
 blockchain:
-  - address: '0x4fc257FBAe841107FEC8917EE6dCf1231b404055'
+  - address: "0x4fc257fbae841107fec8917ee6dcf1231b404055"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

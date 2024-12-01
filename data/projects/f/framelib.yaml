@@ -1,16 +1,20 @@
 version: 7
 name: framelib
 display_name: framelib
-description: framelib is a lightweight Python library for building Farcaster frames. It supports creating and deploying frame apps for the Farcaster ecosystem using Python, Flask, and Vercel. This includes support for frames that handle on-chain transactions with Arbitrum, facilitating interactions directly from Farcaster's social feed.
+description: framelib is a lightweight Python library for building Farcaster
+  frames. It supports creating and deploying frame apps for the Farcaster
+  ecosystem using Python, Flask, and Vercel. This includes support for frames
+  that handle on-chain transactions with Arbitrum, facilitating interactions
+  directly from Farcaster's social feed.
 websites:
   - url: https://github.com/devinaconley/python-frames
 social:
-  twitter: 
+  twitter:
     - url: https://twitter.com/devinaconley
 github:
   - url: https://github.com/framelib
 blockchain:
-  - address: "0xA4A0898C091574a8ea4Fa7d7B06493b524dB025a"
+  - address: "0xa4a0898c091574a8ea4fa7d7b06493b524db025a"
     networks:
       - any_evm
     tags:

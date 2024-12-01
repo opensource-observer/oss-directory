@@ -1,9 +1,11 @@
 version: 7
 name: operationweb3tree
 display_name: OperationWeb3Tree
-description: Platform that uses transparency, financial incentives, Monitoring, Reporting and Verification (MRV), and community engagement to accelerate reforestation.
+description: Platform that uses transparency, financial incentives, Monitoring,
+  Reporting and Verification (MRV), and community engagement to accelerate
+  reforestation.
 blockchain:
-  - address: "0x1473d1559B7469ED2B9A51790b7177a74958c5bB"
+  - address: "0x1473d1559b7469ed2b9a51790b7177a74958c5bb"
     networks:
       - any_evm
     tags:

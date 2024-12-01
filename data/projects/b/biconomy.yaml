@@ -390,7 +390,7 @@ blockchain:
     tags:
       - safe
       - wallet
-  - address: "0x0000002512019Dafb59528B82CB92D3c5D2423aC"
+  - address: "0x0000002512019dafb59528b82cb92d3c5d2423ac"
     networks:
       - arbitrum_one
       - optimism
@@ -406,7 +406,7 @@ blockchain:
     tags:
       - contract
     name: VerifyingSingletonPaymaster
-  - address: "0x00000f7365cA6C59A2C93719ad53d567ed49c14C"
+  - address: "0x00000f7365ca6c59a2c93719ad53d567ed49c14c"
     networks:
       - arbitrum_one
       - optimism
@@ -414,7 +414,7 @@ blockchain:
     tags:
       - contract
     name: VerifyingPaymaster
-  - address: "0x00000f7748595E46527413574A9327942E744e91"
+  - address: "0x00000f7748595e46527413574a9327942e744e91"
     networks:
       - arbitrum_one
       - optimism
@@ -422,7 +422,7 @@ blockchain:
     tags:
       - contract
     name: ChainlinkOracleAggregator
-  - address: "0x0000001c5b32F37F5beA87BDD5374eB2aC54eA8e"
+  - address: "0x0000001c5b32f37f5bea87bdd5374eb2ac54ea8e"
     networks:
       - arbitrum_one
       - optimism
@@ -430,7 +430,7 @@ blockchain:
     tags:
       - contract
     name: EcdsaOwnershipRegistryModule
-  - address: "0x000000824dc138db84FD9109fc154bdad332Aa8E"
+  - address: "0x000000824dc138db84fd9109fc154bdad332aa8e"
     networks:
       - arbitrum_one
       - optimism
@@ -438,14 +438,14 @@ blockchain:
     tags:
       - contract
     name: MultichainECDSAValidator
-  - address: "0x0000008fB325a39093516Df3E1F0bde7c59AC961"
+  - address: "0x0000008fb325a39093516df3e1f0bde7c59ac961"
     networks:
       - arbitrum_one
       - optimism
     tags:
       - contract
     name: PasskeyRegistryModule
-  - address: "0x000002FbFfedd9B33F4E7156F2DE8D48945E7489"
+  - address: "0x000002fbffedd9b33f4e7156f2de8d48945e7489"
     networks:
       - arbitrum_one
       - optimism
@@ -453,7 +453,7 @@ blockchain:
     tags:
       - contract
     name: SessionKeyManager
-  - address: "0x000008dA71757C0E1D83CE56c823e25Aa49bC058"
+  - address: "0x000008da71757c0e1d83ce56c823e25aa49bc058"
     networks:
       - arbitrum_one
       - optimism
@@ -461,7 +461,7 @@ blockchain:
     tags:
       - contract
     name: BatchedSessionRouter
-  - address: "0x000000D50C68705bd6897B2d17c7de32FB519fDA"
+  - address: "0x000000d50c68705bd6897b2d17c7de32fb519fda"
     networks:
       - arbitrum_one
       - optimism

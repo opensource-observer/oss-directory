@@ -1,6 +1,9 @@
 version: 7
 name: ipfs-force-community-gpuproxy
 display_name: ipfs-force community gpuproxy
-description: The GPU Proxy Service, known as C2, provides specialized GPU resources as a third-party service for zk-SNARK proof generation and on-chain processing. This service is optimized for parallel processing, offering significant benefits to the Filecoin network and Storage Providers (SPs).
+description: The GPU Proxy Service, known as C2, provides specialized GPU
+  resources as a third-party service for zk-SNARK proof generation and on-chain
+  processing. This service is optimized for parallel processing, offering
+  significant benefits to the Filecoin network and Storage Providers (SPs).
 github:
   - url: https://github.com/ipfs-force-community/gpuproxy

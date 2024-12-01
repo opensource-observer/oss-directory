@@ -1,16 +1,16 @@
 version: 7
 name: easpulse
 display_name: EAS Pulse
+websites:
+  - url: https://dune.com/ivanmolto/eas-pulse-ethereum-attestation-service
 social:
   twitter:
     - url: https://twitter.com/ivanmolto
-websites:
-  - url: https://dune.com/ivanmolto/eas-pulse-ethereum-attestation-service
 github:
   - url: https://github.com/easpulse
 blockchain:
-  - address: '0x7904667C340601AaB73939372C016dC5102732A2'
+  - address: "0x7904667c340601aab73939372c016dc5102732a2"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

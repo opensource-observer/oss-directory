@@ -1,16 +1,22 @@
 version: 7
 name: cartographer-syndicate
 display_name: Cartographer Syndicate
-description: Cartographer Syndicate is developing critical infrastructure for the Web3 grants ecosystem on Arbitrum, including an on-chain grant registry, reputation systems, data analytics tools, and news aggregation. This strengthens Arbitrum's foundational infrastructure by providing transparency, accountability, and efficiency in grant allocation processes. It also improves developer efficiency by streamlining grant discovery and application processes.
+description: Cartographer Syndicate is developing critical infrastructure for
+  the Web3 grants ecosystem on Arbitrum, including an on-chain grant registry,
+  reputation systems, data analytics tools, and news aggregation. This
+  strengthens Arbitrum's foundational infrastructure by providing transparency,
+  accountability, and efficiency in grant allocation processes. It also improves
+  developer efficiency by streamlining grant discovery and application
+  processes.
 websites:
   - url: https://sovs.notion.site/Cartographer-Syndicate-a574b48ae162451cb73c17326f471b6a?pvs=4
 social:
-  twitter: 
+  twitter:
     - url: https://twitter.com/sovereignsignal
 github:
-  - url: https://github.com/Cartographer-Syndicate
+  - url: https://github.com/cartographer-syndicate
 blockchain:
-  - address: "0x0AF272c62E1e8ee47e9F83b90Eed772A22ED8aFc"
+  - address: "0x0af272c62e1e8ee47e9f83b90eed772a22ed8afc"
     networks:
       - any_evm
     tags:

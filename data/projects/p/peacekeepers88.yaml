@@ -1,16 +1,20 @@
 version: 7
 name: peacekeepers88
 display_name: Peace Keepers
-description: Peace Keepers offers a dispute resolution system for Web3 platforms, integrating with Arbitrum to facilitate conflict resolution, escrow services, and secure interactions. Their goal is to improve user trust and adoption in Web3 environments by providing effective mediation and arbitration services.
+description: Peace Keepers offers a dispute resolution system for Web3
+  platforms, integrating with Arbitrum to facilitate conflict resolution, escrow
+  services, and secure interactions. Their goal is to improve user trust and
+  adoption in Web3 environments by providing effective mediation and arbitration
+  services.
 websites:
   - url: https://peace-keepers.io
 social:
-  twitter: 
+  twitter:
     - url: https://x.com/Peacekeepers_io
 github:
-  - url: https://github.com/PeaceKeepers88
+  - url: https://github.com/peacekeepers88
 blockchain:
-  - address: "0xE3d39D757227833c21D0C99aEFDB827cdc61A304"
+  - address: "0xe3d39d757227833c21d0c99aefdb827cdc61a304"
     networks:
       - any_evm
     tags:

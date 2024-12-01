@@ -1,16 +1,16 @@
 version: 7
 name: drewpackages
 display_name: Drew - Localhost
+websites:
+  - url: https://localhost.drewpackages.com
 social:
   twitter:
     - url: https://twitter.com/DrewPackages
-websites:
-  - url: https://localhost.drewpackages.com
 github:
   - url: https://github.com/drewpackages
 blockchain:
-  - address: '0xD3968BA9b44eC7A57316F6B43185bF18956DC675'
+  - address: "0xd3968ba9b44ec7a57316f6b43185bf18956dc675"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

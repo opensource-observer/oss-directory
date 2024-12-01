@@ -1,16 +1,16 @@
 version: 7
 name: quadratic-systems
 display_name: Quadratic
+websites:
+  - url: https://quadratic.systems
 social:
   twitter:
     - url: https://twitter.com/QuadraticId
-websites:
-  - url: https://quadratic.systems
 github:
   - url: https://github.com/quadratic-systems
 blockchain:
-  - address: '0xa4119d957c4abCFDE1cb9032eF8E00342Fcf18F5'
+  - address: "0xa4119d957c4abcfde1cb9032ef8e00342fcf18f5"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

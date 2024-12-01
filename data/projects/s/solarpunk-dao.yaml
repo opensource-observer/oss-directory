@@ -1,16 +1,16 @@
 version: 7
 name: solarpunk-dao
 display_name: $EARTH - Oss
+websites:
+  - url: https://solarpunkdao.earth
 social:
   twitter:
     - url: https://twitter.com/solarpunkdao
-websites:
-  - url: https://solarpunkdao.earth
 github:
   - url: https://github.com/solarpunk-dao
 blockchain:
-  - address: '0x4B4A57B59D13F03100fb5FbA8c33248F495fd647'
+  - address: "0x4b4a57b59d13f03100fb5fba8c33248f495fd647"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

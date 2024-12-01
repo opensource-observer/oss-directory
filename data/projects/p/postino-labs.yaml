@@ -1,16 +1,16 @@
 version: 7
 name: postino-labs
 display_name: Postino
+websites:
+  - url: https://www.postino.xyz/
 social:
   twitter:
     - url: https://twitter.com/postino_xyz
-websites:
-  - url: https://www.postino.xyz/
 github:
   - url: https://github.com/postino-labs
 blockchain:
-  - address: '0xd6f6C12C09acB80fC5677E4E75cAd57487E864b3'
+  - address: "0xd6f6c12c09acb80fc5677e4e75cad57487e864b3"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

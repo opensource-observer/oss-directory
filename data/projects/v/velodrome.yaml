@@ -354,223 +354,223 @@ blockchain:
       - eoa
       - wallet
     name: aerodromefinance.eth
-  - address: "0x987E7922367B23C4A5fa34C8C5B1385174A095d6"
+  - address: "0x987e7922367b23c4a5fa34c8c5b1385174a095d6"
     networks:
       - optimism
     tags:
       - contract
     name: GaugeSinkDrain
-  - address: "0x9560e827aF36c94D2Ac33a39bCE1Fe78631088Db"
+  - address: "0x9560e827af36c94d2ac33a39bce1fe78631088db"
     networks:
       - optimism
     tags:
       - contract
     name: VELOv2
-  - address: "0x41C914ee0c7E1A5edCD0295623e6dC557B5aBf3C"
+  - address: "0x41c914ee0c7e1a5edcd0295623e6dc557b5abf3c"
     networks:
       - optimism
     tags:
       - contract
     name: Voter
-  - address: "0x6b1253B116B5919932399295C75116d33F8EfF96"
+  - address: "0x6b1253b116b5919932399295c75116d33f8eff96"
     networks:
       - optimism
     tags:
       - contract
     name: RelayFactoryRegistry
-  - address: "0x7bC95b327DF9d6dE05C1A02F6D252986Fcf45AF7"
+  - address: "0x7bc95b327df9d6de05c1a02f6d252986fcf45af7"
     networks:
       - optimism
     tags:
       - contract
     name: KeeperRegistry
-  - address: "0x7feF5407eD6C83f78eF82B3389FF89019095266B"
+  - address: "0x7fef5407ed6c83f78ef82b3389ff89019095266b"
     networks:
       - optimism
     tags:
       - contract
     name: OptimizerRegistry
-  - address: "0x8831DD83f24094862fBfa9bbbE2690088c3C8320"
+  - address: "0x8831dd83f24094862fbfa9bbbe2690088c3c8320"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: AutoCompounderFactory
-  - address: "0x12419cfe11E85e3E28927eC84209cD7a4CfeCaB1"
+  - address: "0x12419cfe11e85e3e28927ec84209cd7a4cfecab1"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: AutoConverterFactory
-  - address: "0xA7B6243912FB3D752de29B1ec842f3B3313cE148"
+  - address: "0xa7b6243912fb3d752de29b1ec842f3b3313ce148"
     networks:
       - optimism
     tags:
       - contract
     name: Optimizer
-  - address: "0x282AC0eA96493650F1A5E5e5d20490C782F1592a"
+  - address: "0x282ac0ea96493650f1a5e5e5d20490c782f1592a"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: CLGaugeFactory
-  - address: "0x6D600CC5F14B81665606Ca1985605464BA332Bad"
+  - address: "0x6d600cc5f14b81665606ca1985605464ba332bad"
     networks:
       - optimism
     tags:
       - contract
     name: CLGauge
-  - address: "0xa4ac92a0F54f1a447c55a4082c90742F5E76Df62"
+  - address: "0xa4ac92a0f54f1a447c55a4082c90742f5e76df62"
     networks:
       - optimism
     tags:
       - contract
     name: MixedQuoter
-  - address: "0xbB5DFE1380333CEE4c2EeBd7202c80dE2256AdF4"
+  - address: "0xbb5dfe1380333cee4c2eebd7202c80de2256adf4"
     networks:
       - optimism
     tags:
       - contract
     name: NonfungiblePositionManager
-  - address: "0x2c998811b2Af32416C8ff4c0ea85f0e7Ed834ff8"
+  - address: "0x2c998811b2af32416c8ff4c0ea85f0e7ed834ff8"
     networks:
       - optimism
     tags:
       - contract
     name: NonfungibleTokenPositionDescriptor
-  - address: "0x548118C7E0B865C2CfA94D15EC86B666468ac758"
+  - address: "0x548118c7e0b865c2cfa94d15ec86b666468ac758"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: CLPoolFactory
-  - address: "0xE0A596c403E854FFb9C828aB4f07eEae04A05D37"
+  - address: "0xe0a596c403e854ffb9c828ab4f07eeae04a05d37"
     networks:
       - optimism
     tags:
       - contract
     name: CLPool
-  - address: "0xA2DEcF05c16537C702779083Fe067e308463CE45"
+  - address: "0xa2decf05c16537c702779083fe067e308463ce45"
     networks:
       - optimism
     tags:
       - contract
     name: Quoter
-  - address: "0xA9c319945f706dd1809819321a2e31C9A169e9c1"
+  - address: "0xa9c319945f706dd1809819321a2e31c9a169e9c1"
     networks:
       - optimism
     tags:
       - contract
     name: SwapFeeModule
-  - address: "0x5A993209065ea74b50E23a378ddB7068189345D0"
+  - address: "0x5a993209065ea74b50e23a378ddb7068189345d0"
     networks:
       - optimism
     tags:
       - contract
     name: UnstakedFeeModule
-  - address: "0xF132bdb9573867cD72f2585C338B923F973EB817"
+  - address: "0xf132bdb9573867cd72f2585c338b923f973eb817"
     networks:
       - optimism
     tags:
       - contract
     name: UniversalRouter
-  - address: "0x495193DaebdE03E12857f4d3BB8984da2d447a69"
+  - address: "0x495193daebde03e12857f4d3bb8984da2d447a69"
     networks:
       - optimism
     tags:
       - contract
     name: SlipstreamHelper
-  - address: "0x25CbdDb98b35ab1FF77413456B31EC81A6B6B746"
+  - address: "0x25cbddb98b35ab1ff77413456b31ec81a6b6b746"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: PairFactory
-  - address: "0xA84EA94Aa705F7d009CDDF2a60f65c0d446b748E"
+  - address: "0xa84ea94aa705f7d009cddf2a60f65c0d446b748e"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: BribeFactory
-  - address: "0xC5be2c918EB04B091962fDF095A217A55CFA42C5"
+  - address: "0xc5be2c918eb04b091962fdf095a217a55cfa42c5"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: GaugeFactory
-  - address: "0x5d5Bea9f0Fc13d967511668a60a3369fD53F784F"
+  - address: "0x5d5bea9f0fc13d967511668a60a3369fd53f784f"
     networks:
       - optimism
     tags:
       - contract
     name: RewardsDistributor
-  - address: "0x3460Dc71A8863710D1C907B8d9D5DBC053a4102d"
+  - address: "0x3460dc71a8863710d1c907b8d9d5dbc053a4102d"
     networks:
       - optimism
     tags:
       - contract
     name: Minter
-  - address: "0xe9F00f2e61CB0c6fb00A2e457546aCbF0fC303C2"
+  - address: "0xe9f00f2e61cb0c6fb00a2e457546acbf0fc303c2"
     networks:
       - optimism
     tags:
       - contract
     name: RelayFactoryRegistry
-  - address: "0x103935f12063c1AbCe28Aa322EFE9eA9bc63ca71"
+  - address: "0x103935f12063c1abce28aa322efe9ea9bc63ca71"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: AutoCompounderFactory
-  - address: "0x87E658fa1C67014826A69EFdccDfEFFf19E34B30"
+  - address: "0x87e658fa1c67014826a69efdccdfefff19e34b30"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: AutoConverterFactory
-  - address: "0xd4B332F2ADe5C2c1043138116164Eb058C437db9"
+  - address: "0xd4b332f2ade5c2c1043138116164eb058c437db9"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: AutoCompounderFactory
-  - address: "0x77bD18662B4DD6D2523653b145c978Ef1Bc5bc1b"
+  - address: "0x77bd18662b4dd6d2523653b145c978ef1bc5bc1b"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: AutoConverterFactory
-  - address: "0x52DCddAFdD31bcD44881F6591A97dA1fF5808891"
+  - address: "0x52dcddafdd31bcd44881f6591a97da1ff5808891"
     networks:
       - mode
     tags:
       - contract
     name: Quoter
-  - address: "0xD2F998a46e4d9Dd57aF1a28EBa8C34E7dD3851D7"
+  - address: "0xd2f998a46e4d9dd57af1a28eba8c34e7dd3851d7"
     networks:
       - mode
     tags:
       - contract
       - factory
     name: ModeStakingRewardsFactory
-  - address: "0x29EC19fA20db90BeD7F813298C45A4f4cD90eE18"
+  - address: "0x29ec19fa20db90bed7f813298c45a4f4cd90ee18"
     networks:
       - mode
     tags:
       - contract
     name: ModeUniversalRouter
-  - address: "0x8Eb6838B4e998DA08aab851F3d42076f21530389"
+  - address: "0x8eb6838b4e998da08aab851f3d42076f21530389"
     networks:
       - optimism
     tags:
@@ -583,7 +583,7 @@ blockchain:
     tags:
       - contract
     name: StakingRewards
-  - address: "0xc3F14F34EA43943e6fd677A2BDceA65882e67783"
+  - address: "0xc3f14f34ea43943e6fd677a2bdcea65882e67783"
     networks:
       - optimism
     tags:
@@ -595,7 +595,7 @@ blockchain:
     tags:
       - contract
     name: Velodrome Finance LP Sugar v3
-  - address: "0x3b5a0Fc12f8fd8B26d251F28258D1d172F930f8A"
+  - address: "0x3b5a0fc12f8fd8b26d251f28258d1d172f930f8a"
     networks:
       - optimism
     tags:

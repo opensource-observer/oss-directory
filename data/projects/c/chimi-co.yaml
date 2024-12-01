@@ -1,16 +1,16 @@
 version: 7
 name: chimi-co
 display_name: Spark Ecosystems | Impact Evaluation Tools
+websites:
+  - url: https://impactscribe.xyz
 social:
   twitter:
     - url: https://twitter.com/spark_eco
-websites:
-  - url: https://impactscribe.xyz
 github:
   - url: https://github.com/chimi-co
 blockchain:
-  - address: '0x02165CFB4260D0afA1f4809702C5979D9e0cD420'
+  - address: "0x02165cfb4260d0afa1f4809702c5979d9e0cd420"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

@@ -1,16 +1,16 @@
 version: 7
 name: c-atts
 display_name: C–ATTS, Composite Attestations
+websites:
+  - url: https://catts.run
 social:
   twitter:
     - url: https://twitter.com/c_atts
-websites:
-  - url: https://catts.run
 github:
   - url: https://github.com/c-atts
 blockchain:
-  - address: '0xdC81d807F0e1A638DDd5CBF37f1320D86D0dE30C'
+  - address: "0xdc81d807f0e1a638ddd5cbf37f1320d86d0de30c"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

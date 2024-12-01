@@ -1,16 +1,21 @@
 version: 7
 name: web3-gpt
 display_name: W3GPT
-description: W3GPT enhances the Arbitrum ecosystem by simplifying smart contract development with AI-powered code generation and one-click deployment. It reduces the complexity and technical knowledge required to build on Arbitrum, making it easier for developers to create and deploy applications. W3GPT also plans to support Stylus, offering tools for generating and deploying Stylus Rust contracts, which broadens its capabilities.
+description: W3GPT enhances the Arbitrum ecosystem by simplifying smart contract
+  development with AI-powered code generation and one-click deployment. It
+  reduces the complexity and technical knowledge required to build on Arbitrum,
+  making it easier for developers to create and deploy applications. W3GPT also
+  plans to support Stylus, offering tools for generating and deploying Stylus
+  Rust contracts, which broadens its capabilities.
 websites:
   - url: https://w3gpt.ai
 social:
-  twitter: 
+  twitter:
     - url: https://x.com/w3gpt_ai
 github:
   - url: https://github.com/web3-gpt
 blockchain:
-  - address: "0x42e9c498135431a48796B5fFe2CBC3d7A1811927"
+  - address: "0x42e9c498135431a48796b5ffe2cbc3d7a1811927"
     tags:
       - eoa
     networks:

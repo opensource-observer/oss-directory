@@ -13,14 +13,13 @@ social:
 github:
   - url: https://github.com/aragon
 blockchain:
-  - address: "0x187a34c86aA6378333cE9033Aa34718D2CEdEd2C"
+  - address: "0x187a34c86aa6378333ce9033aa34718d2ceded2c"
     tags:
       - eoa
       - deployer
     networks:
       - any_evm
-  # Multisig address to receive OP (Grant Recipient Address)
-  - address: "0xD6B270DFEE268B452c86251Fd7e12Db8dE9200FB"
+  - address: "0xd6b270dfee268b452c86251fd7e12db8de9200fb"
     tags:
       - safe
       - wallet

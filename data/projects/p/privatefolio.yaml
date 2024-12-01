@@ -1,16 +1,16 @@
 version: 7
 name: privatefolio
 display_name: Privatefolio
+websites:
+  - url: https://privatefolio.app
 social:
   twitter:
     - url: https://twitter.com/PrivatefolioApp
-websites:
-  - url: https://privatefolio.app
 github:
   - url: https://github.com/privatefolio
 blockchain:
-  - address: '0xB6e32891033D8578ebC79Dd8D202310bF6b7FEcC'
+  - address: "0xb6e32891033d8578ebc79dd8d202310bf6b7fecc"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

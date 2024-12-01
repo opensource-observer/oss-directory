@@ -1,16 +1,16 @@
 version: 7
 name: lexclinic
 display_name: LexClinic [alpha-to-beta]
+websites:
+  - url: https://lex.clinic
 social:
   twitter:
     - url: https://twitter.com/lex_clinic
-websites:
-  - url: https://lex.clinic
 github:
   - url: https://github.com/lexclinic
 blockchain:
-  - address: '0x985ED4631411C7E9715C37cE725547786fBbf384'
+  - address: "0x985ed4631411c7e9715c37ce725547786fbbf384"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

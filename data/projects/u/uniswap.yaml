@@ -28,7 +28,7 @@ github:
   - url: https://github.com/uniswap/universal-router
   - url: https://github.com/uniswap/smart-order-router
   - url: https://github.com/uniswap/info
-  - url: https://github.com/uniswap/UniswapX
+  - url: https://github.com/uniswap/uniswapx
   - url: https://github.com/uniswap/default-token-list
   - url: https://github.com/uniswap/v3-subgraph
   - url: https://github.com/uniswap/docs
@@ -319,56 +319,50 @@ blockchain:
     tags:
       - contract
     name: Permit2
-  - address: "0x1026D3D219098D7b1B0A180F7E557DEeA7DA82C1"
+  - address: "0x1026d3d219098d7b1b0a180f7e557deea7da82c1"
     networks:
       - optimism
     tags:
       - safe
       - wallet
     name: Uniswap Metagovernance Program
-  - address: "0x3fC91A3afd70395Cd496C647d5a6CC9D4B2b7FAD"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: UniversalRouter
-  - address: "0xB753548F6E010e7e680BA186F9Ca1BdAB2E90cf2"
+  - address: "0xb753548f6e010e7e680ba186f9ca1bdab2e90cf2"
     networks:
       - optimism
     name: ProxyAdmin
     tags:
       - contract
-  - address: "0xbfd8137f7d1516D3ea5cA83523914859ec47F573"
+  - address: "0xbfd8137f7d1516d3ea5ca83523914859ec47f573"
     networks:
       - optimism
     name: TickLens
     tags:
       - contract
-  - address: "0x42B24A95702b9986e82d421cC3568932790A48Ec"
+  - address: "0x42b24a95702b9986e82d421cc3568932790a48ec"
     networks:
       - optimism
     name: NFTDescriptor
     tags:
       - contract
-  - address: "0x91ae842A5Ffd8d12023116943e72A606179294f3"
+  - address: "0x91ae842a5ffd8d12023116943e72a606179294f3"
     networks:
       - optimism
     name: NonfungibleTokenPositionDescriptor
     tags:
       - contract
-  - address: "0xEe6A57eC80ea46401049E92587E52f5Ec1c24785"
+  - address: "0xee6a57ec80ea46401049e92587e52f5ec1c24785"
     networks:
       - optimism
     name: Descriptor Proxy
     tags:
       - contract
-  - address: "0xA5644E29708357803b5A882D272c41cC0dF92B34"
+  - address: "0xa5644e29708357803b5a882d272c41cc0df92b34"
     networks:
       - optimism
     name: V3Migrator
     tags:
       - contract
-  - address: "0x54dF9e11c7933a9cA3BD1E540B63dA15edAe40bf"
+  - address: "0x54df9e11c7933a9ca3bd1e540b63da15edae40bf"
     networks:
       - optimism
     name: LimitOrderRegistry

@@ -2,7 +2,7 @@ version: 7
 name: extra-finance
 display_name: Extra Finance
 github:
-  - url: https://github.com/ExtraFi
+  - url: https://github.com/extrafi
 blockchain:
   - address: "0x9088b976e9542d0a27f4f9ddc7a716c7714806ea"
     networks:
@@ -384,12 +384,12 @@ blockchain:
     tags:
       - safe
       - wallet
-  - address: "0x5F8d42635A2fa74D03b5F91c825dE6F44c443dA5"
+  - address: "0x5f8d42635a2fa74d03b5f91c825de6f44c443da5"
     networks:
       - optimism
     tags:
       - contract
-  - address: "0x5DC1a8Fa98508e342FA8CFf0c49ab57138d53337"
+  - address: "0x5dc1a8fa98508e342fa8cff0c49ab57138d53337"
     networks:
       - optimism
     tags:
@@ -399,15 +399,8 @@ blockchain:
       - optimism
     tags:
       - contract
-  - address: "0x79a5a9e97Dc8f4a1c2370E1049dB960275431793"
+  - address: "0x79a5a9e97dc8f4a1c2370e1049db960275431793"
     networks:
       - optimism
     tags:
       - contract
-  - address: "0x5A973117Dd273676bf4D14313b80562DC8973ba9"
-    networks:
-      - optimism
-    tags:
-      - wallet
-      
-      

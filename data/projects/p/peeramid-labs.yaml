@@ -1,16 +1,18 @@
 version: 7
 name: peeramid-labs
 display_name: Multipass
-description: Multipass improves user queries on Arbitrum and facilitates data sharing between platforms. It is designed to enhance the user experience, particularly within chat messengers.
+description: Multipass improves user queries on Arbitrum and facilitates data
+  sharing between platforms. It is designed to enhance the user experience,
+  particularly within chat messengers.
 websites:
   - url: https://peeramid.xyz
 social:
-  twitter: 
+  twitter:
     - url: https://twitter.com/peeramid_labs
 github:
   - url: https://github.com/peeramid-labs
 blockchain:
-  - address: "0x2EecE69698D467b77D1374372dfe5B89b70DD259"
+  - address: "0x2eece69698d467b77d1374372dfe5b89b70dd259"
     networks:
       - arbitrum_one
     tags:

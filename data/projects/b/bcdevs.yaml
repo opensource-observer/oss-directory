@@ -1,16 +1,16 @@
 version: 7
 name: bcdevs
 display_name: ThirdTube
+websites:
+  - url: https://github.com/Salmandabbakuti/zk-threetube
 social:
   twitter:
     - url: https://twitter.com/Salmandabbakuti
-websites:
-  - url: https://github.com/Salmandabbakuti/zk-threetube
 github:
   - url: https://github.com/bcdevs
 blockchain:
-  - address: '0xc7203561EF179333005a9b81215092413aB86aE9'
+  - address: "0xc7203561ef179333005a9b81215092413ab86ae9"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

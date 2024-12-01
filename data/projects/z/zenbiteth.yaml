@@ -13,15 +13,15 @@ social:
   warpcast:
     - url: https://warpcast.com/zenbit/
 github:
-  - url: https://github.com/zenbitETH/Ciudades-DAO
-  - url: https://github.com/zenbitETH/zengo
-  - url: https://github.com/zenbitETH/Zenbit-Badges
-  - url: https://github.com/zenbitETH/Punk-Cities
-  - url: https://github.com/zenbitETH/Bright-Forest
-  - url: https://github.com/zenbitETH/OPcity
-  - url: https://github.com/zenbitETH/AttestDeFi
-  - url: https://github.com/zenbitETH/eneagon
-  - url: https://github.com/zenbitETH/eas-onboarding
+  - url: https://github.com/zenbiteth/ciudades-dao
+  - url: https://github.com/zenbiteth/zengo
+  - url: https://github.com/zenbiteth/zenbit-badges
+  - url: https://github.com/zenbiteth/punk-cities
+  - url: https://github.com/zenbiteth/bright-forest
+  - url: https://github.com/zenbiteth/opcity
+  - url: https://github.com/zenbiteth/attestdefi
+  - url: https://github.com/zenbiteth/eneagon
+  - url: https://github.com/zenbiteth/eas-onboarding
 blockchain:
   - address: "0xa7dc76ae4a98da6352f283874b4c6d3bfb817dc1"
     networks:
@@ -29,13 +29,13 @@ blockchain:
     tags:
       - contract
     name: DAO
-  - address: "0xE383f2B3Ff9024bAa09b33923b8DBd0F2AF98ad0"
+  - address: "0xe383f2b3ff9024baa09b33923b8dbd0f2af98ad0"
     networks:
       - optimism
     tags:
       - contract
     name: EASOnboarding
-  - address: "0x7c6F40f29C45c6B4E37d1620b8a7568B40913a5a"
+  - address: "0x7c6f40f29c45c6b4e37d1620b8a7568b40913a5a"
     networks:
       - optimism
     tags:
@@ -66,7 +66,7 @@ blockchain:
       - eoa
       - wallet
     name: punkcities.eth
-  - address: "0x7Bb99d772A5A9F37d35E1c311A95C15e8487fE30"
+  - address: "0x7bb99d772a5a9f37d35e1c311a95c15e8487fe30"
     networks:
       - any_evm
     tags:

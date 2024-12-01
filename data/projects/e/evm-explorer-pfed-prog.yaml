@@ -1,17 +1,20 @@
 version: 7
 name: evm-explorer-pfed-prog
 display_name: EVM Explorer
-description: EVM Explorer is a custom open-source web interface designed to streamline the exploration and analysis of blockchain data within the Optimism ecosystem, enabling users to delve into transaction patterns and user behavior across multiple EVM chains, including Optimism.
+description: EVM Explorer is a custom open-source web interface designed to
+  streamline the exploration and analysis of blockchain data within the Optimism
+  ecosystem, enabling users to delve into transaction patterns and user behavior
+  across multiple EVM chains, including Optimism.
 websites:
   - url: https://evmexplorer.com
 social:
   twitter:
     - url: https://x.com/pfedprog
 github:
-  - url: https://github.com/Pfed-prog/NextJsExplorer/
-  - url: https://github.com/Pfed-prog/EVMExplorer-utilities
-  - url: https://github.com/Pfed-prog/EVMExplorer-Uniswap
-  - url: https://github.com/Pfed-prog/EVMExplorer-Blockscout
+  - url: https://github.com/pfed-prog/nextjsexplorer
+  - url: https://github.com/pfed-prog/evmexplorer-utilities
+  - url: https://github.com/pfed-prog/evmexplorer-uniswap
+  - url: https://github.com/pfed-prog/evmexplorer-blockscout
 npm:
   - url: https://www.npmjs.com/package/evmexplorer
   - url: https://www.npmjs.com/package/@evmexplorer/uniswap

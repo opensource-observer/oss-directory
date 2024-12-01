@@ -1,16 +1,16 @@
 version: 7
 name: fractaldotbox
 display_name: Geist dApp Kit
+websites:
+  - url: https://github.com/fractaldotbox/geist-dapp-kit
 social:
   twitter:
     - url: https://twitter.com/debuggingfuture
-websites:
-  - url: https://github.com/fractaldotbox/geist-dapp-kit
 github:
   - url: https://github.com/fractaldotbox
 blockchain:
-  - address: '0xbb307Fa79a4Ebee900a93F594aa50b8C190e4177'
+  - address: "0xbb307fa79a4ebee900a93f594aa50b8c190e4177"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet
