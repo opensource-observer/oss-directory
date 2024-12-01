@@ -272,7 +272,7 @@ blockchain:
       - optimism
     tags:
       - contract
-    name: various:DiffersByChain
+    name: batchLiquidator
   - address: "0x15f0ca26781c3852f8166ed2ebce5d18265cceb7"
     networks:
       - optimism
@@ -395,7 +395,7 @@ blockchain:
       - optimism
     tags:
       - contract
-    name: various:DiffersByChain
+    name: batchLiquidator
   - address: "0xcc64973238cf06a164982146ff2dcdc7f977420b"
     networks:
       - optimism
@@ -755,7 +755,8 @@ blockchain:
       - optimism
     tags:
       - contract
-    name: various:DiffersByChain
+      - factory
+    name: existentialNFTCloneFactory
   - address: "0xe5e2421c5b9488c17e9e58e26a17b4f4bb3f84a1"
     networks:
       - optimism
@@ -989,12 +990,6 @@ blockchain:
       - contract
       - factory
     name: existentialNFTCloneFactory
-  - address: "0x609b9d9d6ee9c3200745a79b9d3398dbd63d509f"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-    name: resolver
   - address: "0x0170ffcc75d178d426ebad5b1a31451d00ddbd0d"
     networks:
       - arbitrum_one
@@ -1050,12 +1045,6 @@ blockchain:
     tags:
       - contract
     name: toga
-  - address: "0x6c66e5c5d201a753ff497f2e9ec5d545631854d0"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-    name: batchLiquidator
   - address: "0x3fa8b653f9abf91428800c0ba0f8d145a71f97a1"
     networks:
       - arbitrum_one
@@ -1068,13 +1057,6 @@ blockchain:
     tags:
       - contract
     name: vestingScheduler
-  - address: "0xf353978890204756fc5fa6dfbd16a91eac9e6f4d"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-      - factory
-    name: existentialNFTCloneFactory
   - address: "0xee4cd028f5fdaadea99f8fc38e8ba8a57c90be53"
     networks:
       - mainnet
@@ -1118,12 +1100,6 @@ blockchain:
     tags:
       - contract
     name: toga
-  - address: "0x554c06487bec8c890a0345eb05a5292c1b1017bd"
-    networks:
-      - mainnet
-    tags:
-      - contract
-    name: batchLiquidator
   - address: "0xaa0cd305ed020137e302cecede7b18c0a05accda"
     networks:
       - mainnet
