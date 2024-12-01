@@ -16,291 +16,291 @@ blockchain:
     tags:
       - deployer
       - eoa
-  - address: "0xe83f922C34A1962e9aE9F52B59e18239764f2818"
+  - address: "0xe83f922c34a1962e9ae9f52b59e18239764f2818"
     networks:
       - base
     tags:
       - deployer
       - eoa
-  - address: "0xE4c69af018B2EA9e575026c0472B6531A2bC382F"
+  - address: "0xe4c69af018b2ea9e575026c0472b6531a2bc382f"
     networks:
       - base
     tags:
       - contract
     name: AirdropDistributor
-  - address: "0x940181a94A35A4569E4529A3CDfB74e38FD98631"
+  - address: "0x940181a94a35a4569e4529a3cdfb74e38fd98631"
     networks:
       - base
     tags:
       - contract
     name: AERO
-  - address: "0xE9992487b2EE03b7a91241695A58E0ef3654643E"
+  - address: "0xe9992487b2ee03b7a91241695a58e0ef3654643e"
     networks:
       - base
     tags:
       - contract
     name: ArtProxy
-  - address: "0x5C3F18F06CC09CA1910767A34a20F771039E37C0"
+  - address: "0x5c3f18f06cc09ca1910767a34a20f771039e37c0"
     networks:
       - base
     tags:
       - contract
     name: FactoryRegistry
-  - address: "0x15e62707FCA7352fbE35F51a8D6b0F8066A05DCc"
+  - address: "0x15e62707fca7352fbe35f51a8d6b0f8066a05dcc"
     networks:
       - base
     tags:
       - contract
     name: Forwarder
-  - address: "0x35f35cA5B132CaDf2916BaB57639128eAC5bbcb5"
+  - address: "0x35f35ca5b132cadf2916bab57639128eac5bbcb5"
     networks:
       - base
     tags:
       - contract
       - factory
     name: GaugeFactory
-  - address: "0xFdA1fb5A2a5B23638C7017950506a36dcFD2bDC3"
+  - address: "0xfda1fb5a2a5b23638c7017950506a36dcfd2bdc3"
     networks:
       - base
     tags:
       - contract
       - factory
     name: ManagedRewardsFactory
-  - address: "0xeB018363F0a9Af8f91F06FEe6613a751b2A33FE5"
+  - address: "0xeb018363f0a9af8f91f06fee6613a751b2a33fe5"
     networks:
       - base
     tags:
       - contract
     name: Minter
-  - address: "0x420DD381b31aEf6683db6B902084cB0FFECe40Da"
+  - address: "0x420dd381b31aef6683db6b902084cb0ffece40da"
     networks:
       - base
     tags:
       - contract
       - factory
     name: PoolFactory
-  - address: "0x227f65131A261548b057215bB1D5Ab2997964C7d"
+  - address: "0x227f65131a261548b057215bb1d5ab2997964c7d"
     networks:
       - base
     tags:
       - contract
     name: RewardsDistributor
-  - address: "0xcF77a3Ba9A5CA399B7c97c74d54e5b1Beb874E43"
+  - address: "0xcf77a3ba9a5ca399b7c97c74d54e5b1beb874e43"
     networks:
       - base
     tags:
       - contract
     name: Router
-  - address: "0x16613524e02ad97eDfeF371bC883F2F5d6C480A5"
+  - address: "0x16613524e02ad97edfef371bc883f2f5d6c480a5"
     networks:
       - base
     tags:
       - contract
     name: Voter
-  - address: "0xeBf418Fe2512e7E6bd9b87a8F0f294aCDC67e6B4"
+  - address: "0xebf418fe2512e7e6bd9b87a8f0f294acdc67e6b4"
     networks:
       - base
     tags:
       - contract
     name: VotingEscrow
-  - address: "0x45cA74858C579E717ee29A86042E0d53B252B504"
+  - address: "0x45ca74858c579e717ee29a86042e0d53b252b504"
     networks:
       - base
     tags:
       - contract
       - factory
     name: VotingRewardsFactory
-  - address: "0xD30677bd8dd15132F251Cb54CbDA552d2A05Fb08"
+  - address: "0xd30677bd8dd15132f251cb54cbda552d2a05fb08"
     networks:
       - base
     tags:
       - contract
       - factory
     name: CLGaugeFactory
-  - address: "0xF5601F95708256A118EF5971820327F362442D2d"
+  - address: "0xf5601f95708256a118ef5971820327f362442d2d"
     networks:
       - base
     tags:
       - contract
     name: CLGauge
-  - address: "0x0A5aA5D3a4d28014f967Bf0f29EAA3FF9807D5c6"
+  - address: "0x0a5aa5d3a4d28014f967bf0f29eaa3ff9807d5c6"
     networks:
       - base
     tags:
       - contract
     name: MixedQuoter
-  - address: "0x827922686190790b37229fd06084350E74485b72"
+  - address: "0x827922686190790b37229fd06084350e74485b72"
     networks:
       - base
     tags:
       - contract
     name: NonfungiblePositionManager
-  - address: "0x01b0CaCB9A8004e08D075c919B5dF3b59FD53c55"
+  - address: "0x01b0cacb9a8004e08d075c919b5df3b59fd53c55"
     networks:
       - base
     tags:
       - contract
     name: NonfungibleTokenPositionDescriptor
-  - address: "0x5e7BB104d84c7CB9B682AaC2F3d509f5F406809A"
+  - address: "0x5e7bb104d84c7cb9b682aac2f3d509f5f406809a"
     networks:
       - base
     tags:
       - contract
       - factory
     name: CLPoolFactory
-  - address: "0xeC8E5342B19977B4eF8892e02D8DAEcfa1315831"
+  - address: "0xec8e5342b19977b4ef8892e02d8daecfa1315831"
     networks:
       - base
     tags:
       - contract
     name: CLPool
-  - address: "0x254cF9E1E6e233aa1AC962CB9B05b2cfeAaE15b0"
+  - address: "0x254cf9e1e6e233aa1ac962cb9b05b2cfeaae15b0"
     networks:
       - base
     tags:
       - contract
     name: Quoter
-  - address: "0xF4171B0953b52Fa55462E4d76ecA1845Db69af00"
+  - address: "0xf4171b0953b52fa55462e4d76eca1845db69af00"
     networks:
       - base
     tags:
       - contract
     name: SwapFeeModule
-  - address: "0x0AD08370c76Ff426F534bb2AFFD9b5555338ee68"
+  - address: "0x0ad08370c76ff426f534bb2affd9b5555338ee68"
     networks:
       - base
     tags:
       - contract
     name: UnstakedFeeModule
-  - address: "0x6Cb442acF35158D5eDa88fe602221b67B400Be3E"
+  - address: "0x6cb442acf35158d5eda88fe602221b67b400be3e"
     networks:
       - base
     tags:
       - contract
     name: UniversalRouter
-  - address: "0x0AD09A66af0154a84e86F761313d02d0abB6edd5"
+  - address: "0x0ad09a66af0154a84e86f761313d02d0abb6edd5"
     networks:
       - base
     tags:
       - contract
     name: SlipstreamHelper
-  - address: "0x3e703fd2B6506e2Abcce2C8B5633872a7D9B6FbC"
+  - address: "0x3e703fd2b6506e2abcce2c8b5633872a7d9b6fbc"
     networks:
       - base
     tags:
       - contract
       - factory
     name: OldCLGaugeFactory
-  - address: "0xb4318C490E1bd4C0c01A8F0E3dF26A28B1136F48"
+  - address: "0xb4318c490e1bd4c0c01a8f0e3df26a28b1136f48"
     networks:
       - base
     tags:
       - contract
     name: OldCLGauge
-  - address: "0xE2af5FdE219B4c6047AAEc44444f120675b406E2"
+  - address: "0xe2af5fde219b4c6047aaec44444f120675b406e2"
     networks:
       - base
     tags:
       - contract
     name: OldMixedQuoter
-  - address: "0xc741beb2156827704A1466575ccA1cBf726a1178"
+  - address: "0xc741beb2156827704a1466575cca1cbf726a1178"
     networks:
       - base
     tags:
       - contract
     name: OldNonfungiblePositionManager
-  - address: "0xf1503A3AB542618dcCD3Cac1C69C46fA28A040ed"
+  - address: "0xf1503a3ab542618dccd3cac1c69c46fa28a040ed"
     networks:
       - base
     tags:
       - contract
     name: OldNonfungibleTokenPositionDescriptor
-  - address: "0x9592CD9B267748cbfBDe90Ac9F7DF3c437A6d51B"
+  - address: "0x9592cd9b267748cbfbde90ac9f7df3c437a6d51b"
     networks:
       - base
     tags:
       - contract
       - factory
     name: OldCLPoolFactory
-  - address: "0xF926b5acC092E396A3b337642Be2E4cAe3f5da8E"
+  - address: "0xf926b5acc092e396a3b337642be2e4cae3f5da8e"
     networks:
       - base
     tags:
       - contract
     name: OldCLPool
-  - address: "0xBe0EC710C44B75c34534690C01C22AC0609762D7"
+  - address: "0xbe0ec710c44b75c34534690c01c22ac0609762d7"
     networks:
       - base
     tags:
       - contract
     name: OldQuoter
-  - address: "0xfDDfA16D30acaA02D5C57324C4285a914cc5aF6c"
+  - address: "0xfddfa16d30acaa02d5c57324c4285a914cc5af6c"
     networks:
       - base
     tags:
       - contract
     name: OldSwapFeeModule
-  - address: "0x3a0a75038aF395042F477911D50e3079b588862c"
+  - address: "0x3a0a75038af395042f477911d50e3079b588862c"
     networks:
       - base
     tags:
       - contract
     name: OldUnstakedFeeModule
-  - address: "0xf07835bbf6eea0d05392Fb4d3B9e5a333Ca4da2A"
+  - address: "0xf07835bbf6eea0d05392fb4d3b9e5a333ca4da2a"
     networks:
       - base
     tags:
       - contract
     name: OldUniversalRouter
-  - address: "0x825223F246C98A0BA2b05a90701C9Db5810831f2"
+  - address: "0x825223f246c98a0ba2b05a90701c9db5810831f2"
     networks:
       - base
     tags:
       - contract
       - factory
     name: AutoCompounderFactory
-  - address: "0x1c4a5522E293d15168a19baC5319448f58F3dfBA"
+  - address: "0x1c4a5522e293d15168a19bac5319448f58f3dfba"
     networks:
       - base
     tags:
       - contract
       - factory
     name: AutoConverterFactory
-  - address: "0xB953839a8361840f454e7F2A891AD7e13608f2fc"
+  - address: "0xb953839a8361840f454e7f2a891ad7e13608f2fc"
     networks:
       - base
     tags:
       - contract
       - factory
     name: AutoCompounderFactory
-  - address: "0xd2823278643ed905FF8477Ef0bB9c89E7B0BA651"
+  - address: "0xd2823278643ed905ff8477ef0bb9c89e7b0ba651"
     networks:
       - base
     tags:
       - contract
       - factory
     name: AutoConverterFactory
-  - address: "0xD36dAb3bEf6DD077bC4D59098d03fF1053e17397"
+  - address: "0xd36dab3bef6dd077bc4d59098d03ff1053e17397"
     networks:
       - base
     tags:
       - contract
       - factory
     name: AutoCompounderFactory
-  - address: "0xb805fca66277ACFC45DCBBAC0F770588F2B3a223"
+  - address: "0xb805fca66277acfc45dcbbac0f770588f2b3a223"
     networks:
       - base
     tags:
       - contract
       - factory
     name: AutoConverterFactory
-  - address: "0x05e41604B9463e2224227053980dfF3f57fb6dB5"
+  - address: "0x05e41604b9463e2224227053980dff3f57fb6db5"
     networks:
       - base
     tags:
       - contract
     name: RelayFactoryRegistry
-  - address: "0xD308aBCe663302d3b86b36d332CEFd8A4F62C5Ed"
+  - address: "0xd308abce663302d3b86b36d332cefd8a4f62c5ed"
     networks:
       - base
     tags:

@@ -4,13 +4,13 @@ display_name: Etherfi
 description: non-custodial Ethereum staking protocol
 websites:
   - url: https://www.ether.fi/
-github:
-  - url: https://github.com/etherfi-protocol
 social:
   twitter:
     - url: https://x.com/ether_fi
   telegram:
     - url: https://t.me/+C3fpSjmPqzA5NTVh
+github:
+  - url: https://github.com/etherfi-protocol
 blockchain:
   - address: "0x5c8c76f2e990f194462dc5f8a8c76ba16966ed42"
     networks:
@@ -18,12 +18,12 @@ blockchain:
     tags:
       - eoa
       - wallet
-  - address: "0x5A7fACB970D094B6C7FF1df0eA68D99E6e73CBFF"
+  - address: "0x5a7facb970d094b6c7ff1df0ea68d99e6e73cbff"
     networks:
       - optimism
     tags:
       - contract
-  - address: "0xd0F92F5d756Bf223574DFa3ef284a35C3c046289"
+  - address: "0xd0f92f5d756bf223574dfa3ef284a35c3c046289"
     networks:
       - optimism
     tags:

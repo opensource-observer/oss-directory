@@ -1,16 +1,16 @@
 version: 7
 name: web3sdr
 display_name: WEB3SDR
+websites:
+  - url: https://web3sdr.xyz/
 social:
   twitter:
     - url: https://twitter.com/web3sdr
-websites:
-  - url: https://web3sdr.xyz/
 github:
   - url: https://github.com/web3sdr
 blockchain:
-  - address: '0x75e5FFD91bdB4dD31c1F8828856d7cB31f867e4e'
+  - address: "0x75e5ffd91bdb4dd31c1f8828856d7cb31f867e4e"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

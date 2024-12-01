@@ -1,24 +1,27 @@
 version: 7
 name: ethdailyhub
 display_name: ETH Daily
-description: ETH Daily provides daily briefings on the Arbitrum ecosystem, including updates on Arbitrum Orbit, Arbitrum Stylus, and critical network upgrades. Their efforts help developers, users, and stakeholders stay informed and engaged with Arbitrum's advancements.
+description: ETH Daily provides daily briefings on the Arbitrum ecosystem,
+  including updates on Arbitrum Orbit, Arbitrum Stylus, and critical network
+  upgrades. Their efforts help developers, users, and stakeholders stay informed
+  and engaged with Arbitrum's advancements.
 websites:
   - url: https://ethdaily.io
 social:
-  twitter: 
+  twitter:
     - url: https://twitter.com/ethdaily
 github:
   - url: https://github.com/ethdailyhub
 blockchain:
-  - address: "0xEB40A065854bd90126A4E697aeA0976BA51b2eE7"
+  - address: "0xeb40a065854bd90126a4e697aea0976ba51b2ee7"
     name: ethdaily.eth
-    networks: 
+    networks:
       - any_evm
     tags:
       - eoa
-  - address: "0x6Cc567128e8Cae88dBE162E712cD0985D78b0F33"
+  - address: "0x6cc567128e8cae88dbe162e712cd0985d78b0f33"
     name: donate.ethdaily.eth
-    networks: 
+    networks:
       - any_evm
     tags:
       - eoa

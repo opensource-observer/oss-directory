@@ -12,7 +12,7 @@ github:
   - url: https://github.com/scopelift/umbra-protocol
   - url: https://github.com/scopelift/umbra-subgraph
 blockchain:
-  - address: "0xB7EE870E2c49B2DEEe70003519cF056247Aac3D4"
+  - address: "0xb7ee870e2c49b2deee70003519cf056247aac3d4"
     tags:
       - eoa
       - deployer
@@ -40,20 +40,20 @@ blockchain:
     tags:
       - contract
     name: StealthKeyRegistry
-  - address: "0xDbD0f5EBAdA6632Dde7d47713ea200a7C2ff91EB"
-    networks: 
+  - address: "0xdbd0f5ebada6632dde7d47713ea200a7c2ff91eb"
+    networks:
       - arbitrum_one
     tags:
       - contract
     name: UmbraBatchSend
-  - address: "0x55649E01B5Df198D18D95b5cc5051630cfD45564"
+  - address: "0x55649e01b5df198d18d95b5cc5051630cfd45564"
     networks:
       - arbitrum_one
     tags:
       - contract
     name: ERC5564Announcer
-  - address: "0x6538E6bf4B0eBd30A8Ea093027Ac2422ce5d6538"
-    networks: 
+  - address: "0x6538e6bf4b0ebd30a8ea093027ac2422ce5d6538"
+    networks:
       - arbitrum_one
     tags:
       - contract

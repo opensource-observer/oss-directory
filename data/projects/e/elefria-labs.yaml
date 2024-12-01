@@ -1,12 +1,12 @@
 version: 7
 name: elefria-labs
 display_name: Elefria Labs
-social:
-  twitter:
-    - url: https://twitter.com/zk_block
 websites:
   - url: https://www.evmtools.xyz
   - url: https://zkblock.app
+social:
+  twitter:
+    - url: https://twitter.com/zk_block
 github:
   - url: https://github.com/elefria-labs
 blockchain:
@@ -17,7 +17,7 @@ blockchain:
       - eoa
       - wallet
     name: heypran.eth
-  - address: "0xA5DCfF342D095ED3dB42542E1A04d105a9f9CAA2"
+  - address: "0xa5dcff342d095ed3db42542e1a04d105a9f9caa2"
     networks:
       - any_evm
     tags:

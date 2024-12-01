@@ -1,16 +1,16 @@
 version: 7
 name: riseon-dev
 display_name: Riseon
+websites:
+  - url: https://riseon.xyz
 social:
   twitter:
     - url: https://twitter.com/riseon_dev
-websites:
-  - url: https://riseon.xyz
 github:
   - url: https://github.com/riseon-dev
 blockchain:
-  - address: '0x16E2406d6977DB350E5696919094f5b7c15Db474'
+  - address: "0x16e2406d6977db350e5696919094f5b7c15db474"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

@@ -1,16 +1,19 @@
 version: 7
 name: pattern-tech
 display_name: Pattern Flow
-description: Pattern Flow automates on-chain transactions and creates attestations for on-chain data tracking, aiming to become the first on-chain CRM. The project facilitates the integration of on-chain actions into Web 2.5 organizations’ operations, contributing to new blockchain use cases.
+description: Pattern Flow automates on-chain transactions and creates
+  attestations for on-chain data tracking, aiming to become the first on-chain
+  CRM. The project facilitates the integration of on-chain actions into Web 2.5
+  organizations’ operations, contributing to new blockchain use cases.
 websites:
   - url: https://www.patterns.community/
 social:
-  twitter: 
+  twitter:
     - url: https://twitter.com/pattern_global
 github:
   - url: https://github.com/pattern-tech
 blockchain:
-  - address: "0x2e57674Ea14FA08A6DDa865dd139cE3924ab5951"
+  - address: "0x2e57674ea14fa08a6dda865dd139ce3924ab5951"
     networks:
       - any_evm
     tags:

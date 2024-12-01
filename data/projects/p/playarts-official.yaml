@@ -1,16 +1,16 @@
 version: 7
 name: playarts-official
 display_name: PlayArts
+websites:
+  - url: https://playarts.ai/
 social:
   twitter:
     - url: https://twitter.com/playartsdotai
-websites:
-  - url: https://playarts.ai/
 github:
   - url: https://github.com/playarts-official
 blockchain:
-  - address: '0xA191022cC9dAb00DB6D347c709C14F43Eb69955f'
+  - address: "0xa191022cc9dab00db6d347c709c14f43eb69955f"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

@@ -1,21 +1,21 @@
 version: 7
 name: wannabet-cc
 display_name: WannaBet
+websites:
+  - url: https://wannabet.cc/
 social:
   twitter:
     - url: https://twitter.com/limes_eth
-websites:
-  - url: https://wannabet.cc/
 github:
   - url: https://github.com/wannabet-cc
 blockchain:
-  - address: "0x66D9640783719C13d6A106924000bC6153661a97"
+  - address: "0x66d9640783719c13d6a106924000bc6153661a97"
     networks:
       - arbitrum_one
     tags:
       - eoa
       - wallet
-  - address: "0x14e09A1a78950B38Ab3B203cdaa0fCB331B9Ee26"
+  - address: "0x14e09a1a78950b38ab3b203cdaa0fcb331b9ee26"
     networks:
       - optimism
     tags:

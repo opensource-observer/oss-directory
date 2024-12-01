@@ -1,16 +1,16 @@
 version: 7
 name: asteriskdao
 display_name: AsteriskDAO
+websites:
+  - url: https://asteriskdao.xyz
 social:
   twitter:
     - url: https://twitter.com/asteriskdao
-websites:
-  - url: https://asteriskdao.xyz
 github:
   - url: https://github.com/asteriskdao
 blockchain:
-  - address: '0x1305fAb828dACE590FF466680ba9B0349f50674C'
+  - address: "0x1305fab828dace590ff466680ba9b0349f50674c"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

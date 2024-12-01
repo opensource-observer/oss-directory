@@ -1,16 +1,21 @@
 version: 7
 name: moona-lisa
 display_name: dhive
-description: Dhive indexes the Arbitrum ecosystem, focusing on governance data to improve transparency and facilitate informed decision-making. Their platform lowers barriers to entry for users, enhancing participation in governance with simple UI/UX and engaging data analysis. Dhive also integrates a notification system to boost user engagement and raise awareness for the Arbitrum ecosystem.
+description: Dhive indexes the Arbitrum ecosystem, focusing on governance data
+  to improve transparency and facilitate informed decision-making. Their
+  platform lowers barriers to entry for users, enhancing participation in
+  governance with simple UI/UX and engaging data analysis. Dhive also integrates
+  a notification system to boost user engagement and raise awareness for the
+  Arbitrum ecosystem.
 websites:
   - url: https://dhive.io
 social:
-  twitter: 
+  twitter:
     - url: https://x.com/DhiveDotIo
 github:
-  - url: https://github.com/Moona-Lisa
+  - url: https://github.com/moona-lisa
 blockchain:
-  - address: "0xbc7797319B3eD4246c7078CC4e8B28Ea2C6872D0"
+  - address: "0xbc7797319b3ed4246c7078cc4e8b28ea2c6872d0"
     networks:
       - any_evm
     tags:

@@ -1,57 +1,60 @@
 version: 7
 name: hvax
 display_name: Event Horizon
-description: Event Horizon is a metagovernance layer on Arbitrum and the broader EVM space, providing a platform for community governance through voter pools. It allows members to mint voter passes and participate in governance with a 1-pass-1-vote model, supported by Gitcoin Passports for sybil prevention.
-github:
-  - url: https://github.com/hvax
+description: Event Horizon is a metagovernance layer on Arbitrum and the broader
+  EVM space, providing a platform for community governance through voter pools.
+  It allows members to mint voter passes and participate in governance with a
+  1-pass-1-vote model, supported by Gitcoin Passports for sybil prevention.
 websites:
   - url: https://EventHorizon.vote
 social:
   twitter:
     - url: https://x.com/EventHorizonDAO
+github:
+  - url: https://github.com/hvax
 blockchain:
-  - address: "0xE67192302E444a8D28F60F6737a8bc7c672b8aC6"
+  - address: "0xe67192302e444a8d28f60f6737a8bc7c672b8ac6"
     networks:
       - any_evm
     tags:
       - eoa
-  - address: "0x5F451dA1b3Ad7bf2845573FccA2808d75065a6f4"
+  - address: "0x5f451da1b3ad7bf2845573fcca2808d75065a6f4"
     networks:
       - optimism
     tags:
       - safe
       - wallet
-  - address: "0xc0DdBAAeed6fC3E2f4f4Efa5778383B0E356621E"
+  - address: "0xc0ddbaaeed6fc3e2f4f4efa5778383b0e356621e"
     networks:
       - mainnet
     tags:
       - safe
       - wallet
-  - address: "0xb35659cbac913D5E4119F2Af47fD490A45e2c826"
+  - address: "0xb35659cbac913d5e4119f2af47fd490a45e2c826"
     networks:
       - any_evm
     tags:
       - eoa
     name: Delegation Address
-  - address: "0x77c0f84E730c9121eEEa22a79F6181AE7643d347"
+  - address: "0x77c0f84e730c9121eeea22a79f6181ae7643d347"
     networks:
       - optimism
     tags:
       - eoa
       - deployer
-  - address: "0x9eb516290582424B603E76D66B55D0b268880eD1"
+  - address: "0x9eb516290582424b603e76d66b55d0b268880ed1"
     networks:
       - mainnet
     tags:
       - eoa
     name: Signer
-  - address: "0x50c28a42AC91F6E6437A036D320c9242432CCE3F"
+  - address: "0x50c28a42ac91f6e6437a036d320c9242432cce3f"
     networks:
       - any_evm
     tags:
       - eoa
     name: Signer
-  - address: "0xB251b4a49de4dA1Ef8758F78c02678E762388FC0"
+  - address: "0xb251b4a49de4da1ef8758f78c02678e762388fc0"
     networks:
       - mainnet
     tags:

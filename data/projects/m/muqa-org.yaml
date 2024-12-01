@@ -1,16 +1,16 @@
 version: 7
 name: muqa-org
 display_name: Zazelenimo
+websites:
+  - url: https://zazelenimo.com
 social:
   twitter:
     - url: https://twitter.com/muqaorg
-websites:
-  - url: https://zazelenimo.com
 github:
   - url: https://github.com/muqa-org
 blockchain:
-  - address: '0x48C9C3B838Ae70A1D1440211cB24fA3bb0594Bd7'
+  - address: "0x48c9c3b838ae70a1d1440211cb24fa3bb0594bd7"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

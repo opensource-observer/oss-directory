@@ -1,9 +1,11 @@
 version: 7
 name: rootedlabs
 display_name: RootedLabs
-description: Setting up RootedLABs compute groups with farmers that integrate selling computing power to also heat greenhouses and urban farms, drastically cutting carbon footprints linked to conventional fuel-based methods.
+description: Setting up RootedLABs compute groups with farmers that integrate
+  selling computing power to also heat greenhouses and urban farms, drastically
+  cutting carbon footprints linked to conventional fuel-based methods.
 blockchain:
-  - address: "0x95D0ad1EcF04459B6461ECBaA81e8AA8DCc35d6B"
+  - address: "0x95d0ad1ecf04459b6461ecbaa81e8aa8dcc35d6b"
     tags:
       - contract
     networks:

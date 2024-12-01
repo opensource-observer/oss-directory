@@ -1,7 +1,8 @@
 version: 7
 name: router-protocol
 display_name: Router Protocol
-description: A secure, scalable, modular, composable framework for cross-chain interoperability.
+description: A secure, scalable, modular, composable framework for cross-chain
+  interoperability.
 websites:
   - url: https://app.routernitro.com
   - url: https://routerprotocol.com
@@ -11,7 +12,7 @@ social:
 github:
   - url: https://github.com/router-protocol
 blockchain:
-  - address: "0xB1b64005B11350a94c4D069eff4215592d98F2E2"
+  - address: "0xb1b64005b11350a94c4d069eff4215592d98f2e2"
     tags:
       - eoa
       - deployer
@@ -670,7 +671,7 @@ blockchain:
     tags:
       - contract
     name: ERC1967Proxy
-  - address: "0xFF13A7A12fd485BC9687fF88D8Ae1A6b655Ab469"
+  - address: "0xff13a7a12fd485bc9687ff88d8ae1a6b655ab469"
     networks:
       - mode
     tags:

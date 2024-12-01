@@ -1,16 +1,16 @@
 version: 7
 name: nebulaid
 display_name: NebulaID
+websites:
+  - url: https://nebulaid.xyz
 social:
   twitter:
     - url: https://twitter.com/NebulaIDxyz
-websites:
-  - url: https://nebulaid.xyz
 github:
   - url: https://github.com/nebulaid
 blockchain:
-  - address: '0x71cE4a13b9C56f28cFBe120e8F76557F08045E6c'
+  - address: "0x71ce4a13b9c56f28cfbe120e8f76557f08045e6c"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

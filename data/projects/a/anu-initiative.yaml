@@ -1,16 +1,16 @@
 version: 7
 name: anu-initiative
 display_name: Anu Initiative (ReFi)
+websites:
+  - url: https://anuinitiative.org
 social:
   twitter:
     - url: https://twitter.com/anuinitiative
-websites:
-  - url: https://anuinitiative.org
 github:
   - url: https://github.com/anu-initiative
 blockchain:
-  - address: '0x8b64990A6684586a68d36873f53f055838DFB340'
+  - address: "0x8b64990a6684586a68d36873f53f055838dfb340"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

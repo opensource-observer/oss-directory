@@ -1,17 +1,16 @@
 version: 7
 name: lifespanio
-display_name: 'Proof of Philanthropy: A Verifiable Giving Pledge for the Modern Age
-  (GG22)'
+display_name: "Proof of Philanthropy: A Verifiable Giving Pledge for the Modern Age (GG22)"
+websites:
+  - url: https://pop.lifespan.io
 social:
   twitter:
     - url: https://twitter.com/POPhilanthropy
-websites:
-  - url: https://pop.lifespan.io
 github:
   - url: https://github.com/lifespanio
 blockchain:
-  - address: '0xb927D6cddc3E545Fc5ed3cB9d2dd9Ac52Addde17'
+  - address: "0xb927d6cddc3e545fc5ed3cb9d2dd9ac52addde17"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

@@ -27,24 +27,24 @@ blockchain:
     tags:
       - deployer
       - eoa
-  - address: "0xCB1e9fA11Edd27098A6B2Ff23cB6b79183ccf8Ee"
+  - address: "0xcb1e9fa11edd27098a6b2ff23cb6b79183ccf8ee"
     networks:
       - any_evm
     tags:
       - eoa
-  - address: "0x11F1022cA6AdEF6400e5677528a80d49a069C00c"
-    networks:
-      - any_evm
-    tags:
-      - deployer
-      - eoa
-  - address: "0x552008c0f6870c2f77e5cC1d2eb9bdff03e30Ea0"
+  - address: "0x11f1022ca6adef6400e5677528a80d49a069c00c"
     networks:
       - any_evm
     tags:
       - deployer
       - eoa
-  - address: "0x29DaCdF7cCaDf4eE67c923b4C22255A4B2494eD7"
+  - address: "0x552008c0f6870c2f77e5cc1d2eb9bdff03e30ea0"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x29dacdf7ccadf4ee67c923b4c22255a4b2494ed7"
     networks:
       - any_evm
     tags:
@@ -61,68 +61,68 @@ blockchain:
     tags:
       - eoa
       - wallet
-  - address: "0x4577a46A3eCf44E0ed44410B7793977ffbe22CE0"
+  - address: "0x4577a46a3ecf44e0ed44410b7793977ffbe22ce0"
     networks:
       - any_evm
     tags:
       - eoa
       - wallet
-  - address: "0x9e606d0d2BbA344b911e2F4Eab95d9235A83fe15"
+  - address: "0x9e606d0d2bba344b911e2f4eab95d9235a83fe15"
     networks:
       - arbitrum_one
     tags:
       - safe
-  - address: "0x1F6974C11B833Eb52ea07E0B442510165D87d82e"
+  - address: "0x1f6974c11b833eb52ea07e0b442510165d87d82e"
     networks:
       - base
     tags:
       - safe
-  - address: "0x37347dD595C49212C5FC2D95EA10d1085896f51E"
+  - address: "0x37347dd595c49212c5fc2d95ea10d1085896f51e"
     networks:
       - mainnet
     tags:
       - safe
-  - address: "0x8BCC385948C73736423D38cc567cFEdE0F1826A3"
+  - address: "0x8bcc385948c73736423d38cc567cfede0f1826a3"
     networks:
       - matic
     tags:
       - safe
-  - address: "0xdf61270fDC1A892874Fd3C0143A0A4CBA74F4EF1"
+  - address: "0xdf61270fdc1a892874fd3c0143a0a4cba74f4ef1"
     networks:
       - mode
     tags:
       - safe
-  - address: "0xa8892eA3fdDeF2aa8AfB1E3643a3284f978A5114"
+  - address: "0xa8892ea3fddef2aa8afb1e3643a3284f978a5114"
     networks:
       - optimism
     tags:
       - safe
-  - address: "0xdf61270fDC1A892874Fd3C0143A0A4CBA74F4EF1"
+  - address: "0xdf61270fdc1a892874fd3c0143a0a4cba74f4ef1"
     networks:
       - linea
     tags:
       - safe
-  - address: "0x02f1272aEaCaf7BD8b30278bc2AA381Cc623A744"
+  - address: "0x02f1272aeacaf7bd8b30278bc2aa381cc623a744"
     networks:
       - zksync_era
     tags:
       - safe
-  - address: "0x9575B9fC42dec56D3772B3df5DA047a1f1D55582"
+  - address: "0x9575b9fc42dec56d3772b3df5da047a1f1d55582"
     networks:
       - polygon_zkevm
     tags:
       - safe
-  - address: "0xdf61270fDC1A892874Fd3C0143A0A4CBA74F4EF1"
+  - address: "0xdf61270fdc1a892874fd3c0143a0a4cba74f4ef1"
     networks:
       - scroll
     tags:
       - safe
-  - address: "0xa89a87986e8ee1Ac8fDaCc5Ac91627010Ec9f772"
+  - address: "0xa89a87986e8ee1ac8fdacc5ac91627010ec9f772"
     networks:
       - mantle
     tags:
       - safe
-  - address: "0x93FEC2C00BfE902F733B57c5a6CeeD7CD1384AE1"
+  - address: "0x93fec2c00bfe902f733b57c5a6ceed7cd1384ae1"
     networks:
       - arbitrum_one
       - base
@@ -133,7 +133,7 @@ blockchain:
       - contract
       - factory
     name: CREATE3Factory
-  - address: "0x8437A5fE47A4Df14700c96DF1870824e72FA8499"
+  - address: "0x8437a5fe47a4df14700c96df1870824e72fa8499"
     networks:
       - linea
     tags:
@@ -184,31 +184,31 @@ blockchain:
     tags:
       - contract
     name: FeeCollector
-  - address: "0xbD6C7B0d2f68c2b7805d88388319cfB6EcB50eA9"
+  - address: "0xbd6c7b0d2f68c2b7805d88388319cfb6ecb50ea9"
     networks:
       - optimism
     tags:
       - contract
     name: FeeCollector
-  - address: "0x0A6d96E7f4D7b96CFE42185DF61E64d255c12DFf"
+  - address: "0x0a6d96e7f4d7b96cfe42185df61e64d255c12dff"
     networks:
       - base
     tags:
       - contract
     name: FeeCollector
-  - address: "0x8dBf6f59187b2EB36B980F3D8F4cFC6DC4E4642e"
+  - address: "0x8dbf6f59187b2eb36b980f3d8f4cfc6dc4e4642e"
     networks:
       - zksync_era
     tags:
       - contract
     name: FeeCollector
-  - address: "0xA4A24BdD4608D7dFC496950850f9763B674F0DB2"
+  - address: "0xa4a24bdd4608d7dfc496950850f9763b674f0db2"
     networks:
       - linea
     tags:
       - contract
     name: FeeCollector
-  - address: "0x2dfaDAB8266483beD9Fd9A292Ce56596a2D1378D"
+  - address: "0x2dfadab8266483bed9fd9a292ce56596a2d1378d"
     networks:
       - arbitrum_one
       - mainnet
@@ -216,13 +216,13 @@ blockchain:
     tags:
       - contract
     name: Executor
-  - address: "0xa9bfa49F26733271f4FD34A4b57bB7C563Ae056A"
+  - address: "0xa9bfa49f26733271f4fd34a4b57bb7c563ae056a"
     networks:
       - zksync_era
     tags:
       - contract
     name: Executor
-  - address: "0x2a202Ed587F0BC7dfa80ea1DD943d8470492Dd0F"
+  - address: "0x2a202ed587f0bc7dfa80ea1dd943d8470492dd0f"
     networks:
       - linea
     tags:

@@ -2,8 +2,6 @@ version: 7
 name: ara-foundation
 display_name: Ara
 description: Ara is a project management tool that represents projects as DAO.
-github:
-  - url: https://github.com/ara-foundation
 websites:
   - url: https://ara.foundation/
   - url: https://forum.ara.foundation/
@@ -14,6 +12,8 @@ social:
     - url: https://t.me/arasangha
   youtube:
     - url: https://www.youtube.com/@ara.foundation
+github:
+  - url: https://github.com/ara-foundation
 npm:
   - url: https://www.npmjs.com/package/@ara-foundation/flarum-js-client
 blockchain:
@@ -23,31 +23,31 @@ blockchain:
       - deployer
     networks:
       - any_evm
-  - address: "0x040eEE6D8da3092381Bc9DFaB8fD4A0A9D8eEBDa"
+  - address: "0x040eee6d8da3092381bc9dfab8fd4a0a9d8eebda"
     networks:
       - base
     tags:
       - contract
     name: AraToken
-  - address: "0x58035DC04D0c05b43396a2d7436F87E5C9F380f6"
+  - address: "0x58035dc04d0c05b43396a2d7436f87e5c9f380f6"
     networks:
       - base
     tags:
       - contract
     name: MAINToken
-  - address: "0x2470aEf262166d338788Fef932dCeCCfdDC60206"
+  - address: "0x2470aef262166d338788fef932dceccfddc60206"
     networks:
       - base
     tags:
       - contract
     name: Minter
-  - address: "0x9C0aCC45CEcB50444c0Ce3f29e822fEFF64ff401"
+  - address: "0x9c0acc45cecb50444c0ce3f29e822feff64ff401"
     networks:
       - base
     tags:
       - contract
     name: CHECKToken
-  - address: "0x82CB92b8492FA45b2AaF30d362B6E3feaC9c8E71"
+  - address: "0x82cb92b8492fa45b2aaf30d362b6e3feac9c8e71"
     networks:
       - base
     tags:

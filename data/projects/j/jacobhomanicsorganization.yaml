@@ -1,16 +1,16 @@
 version: 7
 name: jacobhomanicsorganization
 display_name: Engagement.Vision
+websites:
+  - url: https://engagement.vision
 social:
   twitter:
     - url: https://twitter.com/jacobhomanics
-websites:
-  - url: https://engagement.vision
 github:
   - url: https://github.com/jacobhomanicsorganization
 blockchain:
-  - address: '0xc689c800a7121b186208ea3b182fAb2671B337E7'
+  - address: "0xc689c800a7121b186208ea3b182fab2671b337e7"
     networks:
-    - arbitrum_one
+      - arbitrum_one
     tags:
-    - wallet
+      - wallet

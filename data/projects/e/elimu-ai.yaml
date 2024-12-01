@@ -1,26 +1,26 @@
 version: 7
 name: elimu-ai
 display_name: elimu.ai
-description: "Free open-source learning software for out-of-school children ✨🚀"
+description: Free open-source learning software for out-of-school children ✨🚀
 github:
   - url: https://github.com/elimu-ai
 blockchain:
-  - address: "0xdCC7F310Cb82C76D30eCB7dc250E5703bA409010"
+  - address: "0xdcc7f310cb82c76d30ecb7dc250e5703ba409010"
     networks:
       - mainnet
     tags:
       - deployer
-  - address: "0x1703ed1bFacC04b7eB654b297aA4E52EBC008722"
+  - address: "0x1703ed1bfacc04b7eb654b297aa4e52ebc008722"
     networks:
       - mainnet
     tags:
       - contract
-  - address: "0x883753Beab357A2c29f3766C6ad158e72A78ce51"
+  - address: "0x883753beab357a2c29f3766c6ad158e72a78ce51"
     networks:
       - any_evm
     tags:
       - eoa
-  - address: "0xD452c1321E03c6e34aD8c6F60b694b1E780c4B75"
+  - address: "0xd452c1321e03c6e34ad8c6f60b694b1e780c4b75"
     networks:
       - mainnet
     tags:

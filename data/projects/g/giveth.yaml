@@ -11,9 +11,9 @@ social:
   farcaster:
     - url: https://warpcast.com/giveth
 github:
-  - url: https://github.com/Giveth
+  - url: https://github.com/giveth
 blockchain:
-  - address: "0x839395e20bbB182fa440d08F850E6c7A8f6F0780"
+  - address: "0x839395e20bbb182fa440d08f850e6c7a8f6f0780"
     tags:
       - eoa
       - deployer
@@ -89,39 +89,39 @@ blockchain:
       - eoa
       - wallet
     name: deployerKey1
-  - address: "0x06263e1A856B36e073ba7a50D240123411501611"
+  - address: "0x06263e1a856b36e073ba7a50d240123411501611"
     networks:
       - optimism
     tags:
       - deployer
       - eoa
     name: deployerKey2
-  - address: "0xe1ce7720f9b434ec98382f776e5C3A48C8BA6673"
+  - address: "0xe1ce7720f9b434ec98382f776e5c3a48c8ba6673"
     networks:
       - any_evm
     tags:
       - deployer
       - eoa
     name: TreasuryHandler
-  - address: "0x9cd1E4A6b3361abcCC90C7F8E788ac246d194303"
+  - address: "0x9cd1e4a6b3361abccc90c7f8e788ac246d194303"
     networks:
       - any_evm
     tags:
       - eoa
       - wallet
     name: UUPSProxy
-  - address: "0x4caB5B9930210E2EdC6A905B9C75D615872A1A7E"
+  - address: "0x4cab5b9930210e2edc6a905b9c75d615872a1a7e"
     networks:
       - optimism
     tags:
       - contract
-  - address: "0xbbDb3BEbdbD607362AAF93f45ef72256C5496FbA"
+  - address: "0xbbdb3bebdbd607362aaf93f45ef72256c5496fba"
     networks:
       - base
     tags:
       - safe
       - wallet
-  - address: "0x6e8873085530406995170Da467010565968C7C62"
+  - address: "0x6e8873085530406995170da467010565968c7c62"
     networks:
       - base
     tags:
