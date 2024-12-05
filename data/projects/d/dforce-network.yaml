@@ -853,3 +853,29 @@ blockchain:
     tags:
       - contract
     name: ArbFiatToken
+  - address: "0xf89e24bad60d78386a5fe6b6c897dd4d88a9ed70"
+    networks:
+      - optimism
+    tags:
+      - wallet
+      - safe
+  - address: "0xc1ab11375aadd9463036d6fa894ed905e1fbb65a"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0xebaa48d1c4129e93a1d286b01b56cc4981c30004"
+    networks:
+      - optimism
+    tags:
+      - safe
+  - address: "0x491c366614b971596cff5570665dd9d24966de49"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+  - address: "0x9e5aac1ba1a2e6aed6b32689dfcf62a509ca96f3"
+    networks:
+      - optimism
+    tags:
+      - contract

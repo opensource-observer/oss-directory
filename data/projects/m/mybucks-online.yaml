@@ -1,0 +1,16 @@
+version: 7
+name: mybucks-online
+display_name: Mybucks.online
+websites:
+  - url: https://mybucks.online
+social:
+  twitter:
+    - url: https://twitter.com/mybucks_online
+github:
+  - url: https://github.com/mybucks-online
+blockchain:
+  - address: "0x620dc94c842817d5d8b8207aa2dde4f8c8b73415"
+    networks:
+      - arbitrum_one
+    tags:
+      - wallet

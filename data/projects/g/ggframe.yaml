@@ -1,7 +1,8 @@
 version: 7
 name: ggframe
 display_name: ggframe
-description: ggframe is a Farcaster Frame designed to make it easier for users to donate to the Gitcoin Grant.
+description: ggframe is a Farcaster Frame designed to make it easier for users
+  to donate to the Gitcoin Grant.
 websites:
   - url: https://www.ggframe.xyz
 social:
@@ -10,7 +11,7 @@ social:
 github:
   - url: https://github.com/gg-frame
 blockchain:
-  - address: "0x2A7f900039c76A9d38d9fA04dF0AFcCC8AF5BCD4"
+  - address: "0x2a7f900039c76a9d38d9fa04df0afccc8af5bcd4"
     networks:
       - any_evm
     tags:

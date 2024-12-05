@@ -1,16 +1,20 @@
 version: 7
 name: refi-starter
 display_name: ReRWA Marketplace on ARB
-description: The ReRWA Marketplace aims to build a pilot application for tokenizing and managing Regenerative Real World Assets (RWA) on Arbitrum. The project includes an open-source contribution useful for projects within the ReFi sector on Arbitrum. The framework will be designed using Stylus for smart contract development.
+description: The ReRWA Marketplace aims to build a pilot application for
+  tokenizing and managing Regenerative Real World Assets (RWA) on Arbitrum. The
+  project includes an open-source contribution useful for projects within the
+  ReFi sector on Arbitrum. The framework will be designed using Stylus for smart
+  contract development.
 websites:
   - url: https://refistarter.org
 social:
-  twitter: 
+  twitter:
     - url: https://x.com/refistarter
 github:
-  - url: https://github.com/ReFi-Starter
+  - url: https://github.com/refi-starter
 blockchain:
-  - address: "0x9901F41a68A4B3bdA723D338Da10baC081e082Cc"
+  - address: "0x9901f41a68a4b3bda723d338da10bac081e082cc"
     networks:
       - any_evm
     tags:

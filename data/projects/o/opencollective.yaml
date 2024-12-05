@@ -1,0 +1,16 @@
+version: 7
+name: opencollective
+display_name: Open Collective
+websites:
+  - url: https://opencollective.com
+social:
+  twitter:
+    - url: https://twitter.com/opencollect
+github:
+  - url: https://github.com/opencollective
+blockchain:
+  - address: "0xae8c53e5f4375b114b669716b0b5ffc4f56f78d4"
+    networks:
+      - arbitrum_one
+    tags:
+      - wallet

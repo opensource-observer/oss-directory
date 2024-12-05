@@ -1,0 +1,2331 @@
+version: 7
+name: derivexyz
+display_name: Derive (formerly Lyra)
+description: Lyra is a decentralized options and perpetuals protocol built on
+  Ethereum and the OP Stack.
+websites:
+  - url: https://docs.derive.xyz
+social:
+  twitter:
+    - url: https://twitter.com/derivexyz
+    - url: https://twitter.com/lyrafinance
+github:
+  - url: https://github.com/derivexyz
+  - url: https://github.com/lyra-finance
+blockchain:
+  - address: "0xa2bcad247c64da44739e141b491fe4238a4d0480"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x932607335869cff6349ef450e74c83a3b871a9ff"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x41a742d0cb523b0c313518309ade763fb609da25"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xebe8078f9bb79f8c90c1a8dcfc6a830ab75a6b33"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x5c665b488566dfecb3641a7a9b5730a5c0bc1f9f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BlackScholes
+  - address: "0xe8be7cedf930305cb056981c2547322f82804f4f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketWrapper
+  - address: "0x60a5159bafb2198b967021ac77e26c1417081477"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortPoolHedger
+  - address: "0xb2bbb093699d3734ec24386837723259501ef150"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x1114bcebf75ccff06112d9951d2ab30a35f4edfc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraDistributor
+  - address: "0x1d851e3bc5e4b756810560dcb18b959b9d3ea212"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityCertificate
+  - address: "0x2156b225c370cb3b9e0459f8f6d54f38461c4129"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0x3dcc1c7c4d8a28f34c4d592f701a5276202a96a5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0xaa644fe9fce214d17aba12ff3dd3b885d2c35357"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0x576e081376ef0171152297020976cf35e47a5fbf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketSafeSlippage
+  - address: "0xb6a45238b043b60f0f209dd2facef623cc230ccb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0xe01a1e95282195e59d54f3f40c4f0bddf7a91c69"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortPoolHedger
+  - address: "0xb02e538a08cfa00e9900cf94e33b161323d8d162"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: StakingRewards
+  - address: "0xd02421294de2314f03441ee3c27d2c034c9a0cf5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0x0c259dd157a8224a480e1e7d783fa25e45bd3d01"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa3562cac1c39f4d4166ce31005fc080ab41120ac"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x61c9e8138e2a810bd6723f9c1893d4275b8e7c5f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x225cd217def1a028a2a5af7729293792c3f760a2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GWAV
+  - address: "0x7f3bd88c39a03edd6e4c421a7380b58245e2bfd7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0xcce7819d65f348c64b7beb205ba367b3fe33763b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketWrapper
+  - address: "0x5cdbd5b2b6d66d37cc9620f3047f90e5902d54f1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x1d42a98848e022908069c2c545ae44cc78509bc8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x239ce352c63ee374a8eabbfe76be2ef47125dbcd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x1fc498f76c4f16931d983baa2f32dfcf1eb54922"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ArbitraryTokenMultisender
+  - address: "0x9847527860f8a3b3b8916781ccf71f453ab69136"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PoolHedger
+  - address: "0xe22c22e5ae3132b6c30fc051dc2bd7b3e0de102f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x3904bd7c310591a04ab0cecc3664707bb35381a5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0xb4c09a14290d90c5064e40877a7507719ec04217"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0x43bc8ab493af3dc2c8ebfdb3df74eb4dea80c682"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xba4d778fdc9493ff1333c990141953d242e7d045"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0x3d96418b63749df7d6c31ad66ecbee210b1456b4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x1c6c6fff766819ac1531476f65703c528a8e3858"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0xc7f1a22c30ae981e6a74a0267ce6cbbf27d8ecd5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x4b94d17cee6e434bc6a6c193f140bdde6666ecc5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xab8df5c84c6aeef86b241a91d86a11147b6240e8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0xb5ee566f3738355a59bb5821ff7c7b5b956f0dab"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityCertificate
+  - address: "0xf3075f4519cd0b8f97858d1edaa7b3f5f2337a1b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xd5b7b90a6aaa150dcc27dda33319c9a0e7af01a8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0xf31932b99f5e21a55adbd23f90f09ea3e53a514b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketSafeSlippage
+  - address: "0xcfdff4e171133d55de2e45c66a0e144a135d93f2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0x75149abbebb874013b8ed92d21bb36e4198fcc08"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketWrapper
+  - address: "0xf67cfa9a192edbba8d3d7e2bdbc7a104e76997ba"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BasicLiquidityCounter
+  - address: "0x6cd5af44b0009756080d10278c5a84ed8be4ddde"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0xf98a377c561fb8a76a098d71561d8d3549d29cb7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xed2784eae4bde283d5908d4383dc059b8b9e462e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0x988d525dc8739d68903013374556a39731c7f7a8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xf5a0442d4753ca1ea36427ec071aa5e786da5916"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0x8337c76bbccd65d7dd566c50e01252f6122d9ec9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PoolHedger
+  - address: "0xa4037372aad14526960f1a2062510d97df8a278f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0x46bca9208b95886724b11799a41f9125ef7f057c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PoolHedger
+  - address: "0x26cf967e466d9fd60af7d1b78a01c43e75e03b32"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0x876de192037227accdc7ff59e07da864267afeeb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xbfa31380ed380ceb325153ea08f296a45a489108"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x0bfb21f64e414ff616ac54853e52679eedb22dd2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraDistributor
+  - address: "0xf8bf4c15054a3b9f90afae156f00090fe7010be0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0x7f58af3d557ffd0f9ce62e6bb8a1b3b3fc2a5098"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BlackScholes
+  - address: "0x86bae98f21172ee1065ef5111640b568cfe61686"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x5adacfe0f7a0a4e69ba5cd25f13c37cdfba13e32"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0x6de34705d2ad2998749532bc13ebb469c68cea15"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraSafetyModule
+  - address: "0xf492cf8c61103752a31f182eba372241e0de6a1e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0xc73146ee99b8fa166befc80bfd57a214353685d4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixAdapter
+  - address: "0x409f9a1ee61e94b91b11e3696df2108efc7c3ef5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BlackScholes
+  - address: "0xaaca5c96e6d14d9e0a00c8eaf2ed5e8e939ac611"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortPoolHedger
+  - address: "0x8a92e520ba9dfba024de3bd7e0926bdcc4911fcc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0xdb8edfbbd086e2f41b12cca220e4c272b3bd39d0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x14aee15e04d5257aa3015360d5daa7926eb3bf4a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0xb016a673ad68b3456da1ba3c17f9b7f4d65f063f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0x6ba3bc09f00de197ab99e7cde834dfd9a8e0b99c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0xd2caaad2a055be091f514d240799ca155da75a24"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GWAV
+  - address: "0xfcdf7c184726578a8c50c424f8ad84f6cd90875b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xde48b1b5853cc63b1d05e507414d3e02831722f8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: InitializableAdminUpgradeabilityProxy
+  - address: "0x43d695438c01075e33543b2ef2a5fc35b7c8a827"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0x6555c4bebc5a7b2b2dac66bb621ce86e7e92e53f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0x3e86b53e1d7da7edba225c3a218d0b5a7544fdfd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0x8e1ca02b7147aff9c964eb698c7c7d7cd62a188f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0xbb3e8eac35e649ed1071a9ec42223d474e67b19a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0x95fe3e7411f295a0da6ab14b4cd91f666b9f8b8a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0xdec42fcc5a17f86c866e160e26e31b35471372cd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0xa5ce396616c7d14f61b5b9bba3a57388db885b2e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0xe97831964bf41c564edf6629f818ed36c85fd520"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BlackScholes
+  - address: "0xa33c1963d74d203df6bffdfda3bff39a1d76e1d0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0x9306f863062518c8e2493ed34ca94e86bd61d96b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0x39032bd0315f595276f4b612eb29251df739de44"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityTokens
+  - address: "0x6f2ca9d14d287d076bdd71805fdef9cb9d974799"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x64aa025819321e97cd829b9b6c45a1424ef9a80b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MultiDistributor
+  - address: "0xcd25a28257e420bd8496fc18391200bee84a653e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0x9357eb9c4627f7cddbdff4f648df5c2fb42cb69f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x45a388af13c23bfc1bcd85c94572616a40b51504"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xf24ecf73fd8e7fc9d8f94cd9df4f03107704d309"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0xbce213d2a902a3b3b9d194a57f899a7d292d2431"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x2767fff2220fd7ad4f87b2e441f275d8f895e85f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PoolHedger
+  - address: "0xb0b06f0440ce13d03d41c5399c55aefea1b372ce"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraSafetyModule
+  - address: "0x5db73886c4730dbf3c562ebf8044e19e8c93843e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0x486f38d8429363cee8d757a33796fb178fa07e43"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x019f0233c0277b9422fcdb1213b09c86f5f27d87"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: MultiDistributor
+  - address: "0x0a486d20d81daf2926519542941f3cab9d3b8f26"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0xbe7a6a51a75173c4fefa12936dccf0d488c4c5c4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraSafetyModuleMigration
+  - address: "0x97a16f10be8a74957f984deb66d7016848a67686"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x442419d940678fb714e22af573ffbab76ee26c66"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0xeaf788ad8abd9c98ba05f6802a62b8dbc673d76b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0x422db0a9aef5107637ae809b2709168dd7934dfd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0x7646abf0659c2811c1784d644926a37039aa5f2e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xe98b60a899fcc58b18939727f57fa952d6bb4ede"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GWAV
+  - address: "0xb623cb21b54a2f9a2393eee90054c2506bd4810b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketWrapper
+  - address: "0x5569f537ac368fd499ca6ee54627ce58a1da04fe"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x7ed03f599b69965692a1225da1b1320f60348450"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortPoolHedger
+  - address: "0x23fd8a6e5ed129104e24ce89335e1faf21d8fc4c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityTokens
+  - address: "0xb6d2adb848d750336b85f4039eb62f939dfa3401"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SynthetixAdapter
+  - address: "0x180274b8d9e1f933261f743b53d0bfebe475d1bd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x3cca343cbddc9923a19212ff5b3ee3f8d989dd47"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0x2bb55956f859fe12acb73f14975b9c86a6c08666"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0x0d1a91354a387a1e9e8fcd8f576670c4c3b723ca"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x7c7abddbcb6c731237f7546d3e4c5165531fb0c1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0xb597351253bdb71716d49f5ad47c9a4ad518eccc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0x0474be53472280f96027b901c0367d2ac7ad539f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TokenMigrator
+  - address: "0x73b161f1bcf37048a5173619cda53aaa56a28be0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0xd03e0bdad93487b6b0829652c7ea0bfe188b303c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0xbdecdf6d6b089e1970d2206dfe6c413724b7638f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x3cee1d7a35e8b961db2bbae6636cc54ca10a850d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0xeacb3f1a4f3137807f4e901167a999ef6f8312fb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0x3c73cd65d708a5c951f0cc19a4d0bb6559ae20c5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0xe0392ea1babcf15d95819a5bfc68ac191df39c5b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GWAV
+  - address: "0xb5adf58391efec58a1497332fbc5233f93a28d65"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0x2348aedb554f1dedb5d2b632dbf6c14678c306f4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0x855b261c1d25b5751dfbc2fc4d19202741a0f695"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0xa14542043a4d6e28cf7aff3624f40e6090bc5a32"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0xfbdcdefd5cd7992ac6fee832227b3cefde46ed95"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0x3ec2a74bd980e79d85e7997d71685fca08a7f45a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0x4df435855f1ed08a83f5a86ddc3d3ff249e82381"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0x26379130163bf1e2e2cb7daff1914fbe72d3c180"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0x676d626dcfc399fc1ed4e31ff45cb2d6d63de5d4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x40ce017206e05b20959bddc44a98cebcdd7b3d24"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UniswapV3Oracle
+  - address: "0x426d95e02deb60c26d8e152b81280503c8b92d88"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x0ecd5dcbf78511e6009e3f214bfd6923a208d655"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXAdapterGovernanceWrapper
+  - address: "0xaacd3577e672eb544b41e603827cdd28ffcf0d41"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0x237cc34c07fea35f4adfb52d5b4ffc64d040f0db"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0xac43ee1e50b3de4e3c0412bd685a46011f435d39"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x696a2a08ccfb908bc5ab371a5622bd7c9eb5323f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xd41b83ffcae9d146842684bc267ac42417ca710a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GWAVOracle
+  - address: "0xdd827aebf9d972c09f6594d82d50676b7cafda7e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0xc627a3ac0480a27eacbf9207a08c1e0fe42e984a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPoolGovernanceWrapper
+  - address: "0xf10bb5296aa5bda5c190ce22f8acb4d4adaae1cd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0xbd5c2675acb26c74c984310ba5dda1e483eef5da"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0x26b734069652392f2dd0deff61407917bce39985"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCacheGovernanceWrapper
+  - address: "0x6c846f1a78e100e45921769811b104597aab8203"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa6f13d8dd52c1cacaac948bc741f67fc723bb323"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0xb914b1bec4f236cf3c8960641dedc6f8bfd790c8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xae5168c20653bada9ac3b956bac7a1152115f817"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0xa837be9471521838865596598ac82e2a2e0082ec"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x28a0f8c67201ef2312e1be980bb80e62cfcde44e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0x93bc64b45774f75e1b6e79522d54d273ad54f193"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc80dc0022d375b35fcb3a2838ebaaaf87477d2b4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UniswapV3Oracle
+  - address: "0x19f8f57fc4d3fb9201d4ea93ea598b8c5c9958f2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x8091cac0d57b4116212fa2ea31dadda44ba6086b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0xd22952d5800dbbf77682ac6c04fd7c52979b1235"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpsV2PoolHedger
+  - address: "0x3423825787d3c8783c6cb95bc0203adcc88a685f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpsV2PoolHedger
+  - address: "0x3b074730681f9c2469226d56d08689253dc2b02f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xacacff03241256304e841e89c13319eae09f14b3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0x8438ff411922846cd67a78f93b61a98de530994b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GovernanceWrapperViewerSNX
+  - address: "0xa2d6ffa6c2c6aba2dde84efe3c52a446447b44ec"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x4b23839e0cd4b485ef2f1ee468cca02392b37546"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x3c271d441e826e1be1b9d65a02acebe69ae1c441"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x5e1b6cfb26637a3aea3aa4fbf0ecd5c020fbe83d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0xd93144b625a2c2d735fb5c2ee1b455d58c609d6a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0x54155995b31dd1f983723aaa1273ba29be54cb70"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0x1fa4e370855f099861e797dce8352a3afd704bc8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ListingManager
+  - address: "0xb63ed21cea59ec125b4536921096100d5b69f672"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xe3da8c71ff45e3140a2eec17bceb4a12fa401426"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0xf0c74d42d2c9b7ebfe58918ef426aca0d7359e18"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x42899f01b68ac144a4d6ccc71bc016282e926d06"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricerGovernanceWrapper
+  - address: "0x828e214af3f7a03c51b1954f0729680bf49f9d39"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x35e42acf2e04286699b16da4004ed67a8a998eed"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x9607c514d139750218ff7b783b506c6e03ad0a30"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpsV2PoolHedger
+  - address: "0xe1852dffc5b6b6dcebe2b2f6a8812b910b050675"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x32c29ce7c09e1a21c97403776d5b75e3047c3089"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x99eb5b946f371a764c9b4b5fdde0bda6acfff2f4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xeaa6111c04adb88debbc5396479b8c8689002b9c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GWAVOracle
+  - address: "0x4851c5f474e13b41f6b62534e586ab80ed33ac55"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xd4d17d30e4895fbce768fe91c50642e22e9bbaa6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCacheGovernanceWrapper
+  - address: "0xf762ea3789d4d2b5eeee218a22d5db028f366700"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPoolGovernanceWrapper
+  - address: "0xde7445e706a95ecde5e9aac607c0e6fd8c85d786"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xece7297e44e1018b1af22f187ea3b38ac81dce09"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricerGovernanceWrapper
+  - address: "0x0eba1d55a75167a4c1c6f6d4ea943bce8d707956"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa95c6d6a2765627a854960e9ee96f607b857385a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0x4b3cda1438e75cf4f01932f9594bf8cdd3c2c702"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x64e4ae29a1dcdb95740fe3146429a9d20881496e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpV2Adapter
+  - address: "0xd050b02cfd85770486fb3ee4b6efa433312fb058"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionTokenGovernanceWrapper
+  - address: "0x23b9fd22ae32f81b8a20fb2187a7e4a87b180ed3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0xd175732fdb7d16a12b3cf0d23ecb5fed4fa1cec3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x4a3448d86d544b8daca6bd54337003a8b964301f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x136d92f1d103ba5267c85555b28787ae53ee3cef"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0x95a3c18f3a8db94ed57e0160a6e5a52e3329281f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x17a465a138b35c0f1e52fa44d27d0b34fa0ad2f9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xaa3b597c9d21f572422fd7206246ff115a5ba5c2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x5c8e217a367822d17369c1ce5fba06ea8a2cc235"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0x3d9bbe5b526d03fbd7f4de5f7d4d99cf8be56e98"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0x29a90650c063c05a11087b70ec4d4271c302f7fb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xbdcb83be97c4bd9384645aca9f2787b95ea89229"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x67d269eb0fad04195189ffb9bc14729dab1de8f8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x64d2fdcb9572d171157b39d11ba108e222dba300"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xbcb18e71fb285a44ade176e760719d4206656c71"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0x329dda02831c87b8d413498ace7b4d12a8d9a637"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0x12a4fd54aa321eb16b45310ccb177bd87c6ae447"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0xa48c5363698cef655d374675faf810137a1b2ec0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0xfa73cc9a6851678d57a833135fc39c94b4e0cf1d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0x8b825f85fe8b0b2fb5e4e357cd7f21fe0e6ec97c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0x3916947307263e5fd1b3e1a9f6a5aa02b96c187a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0x78da58fb504b53f0a14b048812a35de7ab89a961"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x920e88a9d206df7ef4913092c05bf9b261aee7de"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ERC20ZeroSupply
+  - address: "0xd2e4e2f80d98631d4d80a4807bfbeaeaf26c8e0f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketGovernanceWrapper
+  - address: "0xffef365c3e005fa5c80b7fc1b40f2b3756b53319"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXHedgerGovernanceWrapper
+  - address: "0x211652aa6a767600a0734432b20f7edccd4fa878"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0x6a2e646c5caf92820c00f501e04fe1a0ec9f37bd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpsV2PoolHedger
+  - address: "0x2a21bfca834d122769cdf9d50b609ca6b210b7f0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x0c288a692a7ccdd765fa8c163959899f9cb49fe4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x0fed189bcd4a680e05b153dc7c3dc87004e162fb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0xa600f243cb35846f00c58bf52deadfeb56a8d1fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0x93b359b9fe6b6549f1231e6ae5c9e9c6b758a24a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0xc8c944bcab920216966224ff35807e0689255b83"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UniswapV3Oracle
+  - address: "0x2772fea18737f363cf5594f6500ed67ee722d47a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpV2Adapter
+  - address: "0xe4f148185d27ac3623b1888352c721fd1afef88e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xc9bc3955e08faf988a68989a3c8be051db35cd41"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x7182e0357fdfbf0cacbd462b93309d067410c79f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCacheGovernanceWrapper
+  - address: "0xe35f47aa14c583887ff8bf51620dca63c4a6eaec"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x8607493e0b660e5553cbce1bf02d724222a8ba60"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketGovernanceWrapper
+  - address: "0x54165f98a950060b3041d7e2e674c711c8036839"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x6d6011c4de363e1b7c5f916178891c5ff49d036f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPoolGovernanceWrapper
+  - address: "0x5ecaa65b448fd06579418ce79a75b9568d09be97"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0xc5d8ed0acc60b08fb8735a6b7f74bff51e926237"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x2de3e40add67e90dca00030e46a631cf05c8cd0f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXHedgerGovernanceWrapper
+  - address: "0xde3081b143272f935f592a41e4d01478a520d4a7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x4b9bf0858f74c1caef026b4b558f68897cfdf309"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpsV2PoolHedger
+  - address: "0x29621d6f64fbadade1561a19029724b81eb88ce7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPoolGovernanceWrapper
+  - address: "0xfc1d029a07409fd25077da9f926b85ae88af5393"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x6dc31c83e74658cbc7bfd85b1b19f009ffd7d3c9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0xaa530d863785ca0a83ebf8540b3560a8940367e9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXHedgerGovernanceWrapper
+  - address: "0xa937196f8a2595fe8852ddf27b7e9b6a37ff6e01"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ListingManager
+  - address: "0xff92bcb13495db02a300a95db8ef8bff36835eb6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpsV2PoolHedger
+  - address: "0x5913e76655bf6c026b28c81648baf39bc2a5d0ab"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BlackScholes
+  - address: "0xdda9224f7ee7857b33bb0f29ac440819ab4f7327"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xf0d0f56f01a3634f8e27aa0db7fe8be668926dcf"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x024228180623454be6c6cd0e6588c3e604c730b7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x2bc1167b2419f66211eff7c380c09b4d33a770f1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x08cd215f6b37981c844543aeaafededf48eaaa05"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UniswapV3Oracle
+  - address: "0x6f5ca69add7316f9e23dc532e64841640ae5689b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ListingManager
+  - address: "0xfed052cd2b398c135669d70bc73c64ba122a9c8b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0x2562a4340b5a76aa3ca68fa80847c5d16e02d20f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xe4fa087aa24e5c557cb774632bb95cf72f992ed7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0xca4e85b8a59d37aea655b12fd442ddf905078561"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x259b792cbf1d03cc5cd4acd3bd04c7542526abbb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x83e2f88507d0e99c5885255bedaf6ffaa74ec767"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UniswapV3Oracle
+  - address: "0xa49f2ea43b445f9a2467b7279cfa1f6a0c2e3f4f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0xb2edf57e890c17fe0c8d1a8dd2dd8fdbd81b7993"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GWAVOracle
+  - address: "0x9c2a59030600fa4ccb7ec88135017185de0f3d99"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x7e440fb247770b51175ab42bbdd5bcfd34a678f8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x98860fbd271ef720648b2e9e99f9bc4e5e3a55e6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpsV2PoolHedger
+  - address: "0x26ee698ef56ad44ffcbbcd21681a732ddb45158e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xaa2487fcbf6fe8057cc0882a95fc69d340b47b25"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0x466e84ef6bd25e226815ef975e39e9cbf66c08ef"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionTokenGovernanceWrapper
+  - address: "0x50e17d0d2b81ab7a84ba695ac84beb4819452346"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x8512028339bb67aee47c06a298031d91bb7d15ba"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0xcaf368613feb4c0627d1d63075c260029bf9d006"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpsV2PoolHedger
+  - address: "0x8a65b166c198c4854e019db5dd2e0a68608ff19c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0xf12c7a02251a68b83518699e6ed4f404c0f2a127"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0x0f2edc4fa49e44a5bbe9113b24e16311f186fc12"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0x103b154097d9bde890d82afb9b473de595ce8499"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x31e34082fdc93aa4e1abe66853e1a60b8c0ec040"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x586fc438b7bb94347c41c37e04451ac5b2caa7ad"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xa1fdc69a408774c61d2c2e5f8d25047393ddd28f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketViewer
+  - address: "0x9acecc166b313dc5d9d0e05c03cbd5a62dc93198"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x9ea9cff9377f5a0dab8607e2e0526ed7061f49b8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricerGovernanceWrapper
+  - address: "0xabf2da1f4082f013eaef107da71acddf07b8e2b4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xf456f7dcf9abf1a88b4ef819a4aa879321a24ded"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0x2375a13774966404effdc4e682831f64b94b193a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0x1e66dea8c700af758f0f1bf94009018d4e524f58"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x6c310b3aa528ab752c2fdc03e02b88a9f3e16acb"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0x7d8c37e700e60c23cc75ceaaaa3d07d191624c9c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x686dae6e4be3410f3849c152be9b7a14b187f7ef"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpsV2PoolHedger
+  - address: "0x83de03c34c74fffb4b0216389b13f5e6dc1065f2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0x95103ad4a4b08550c6dfe4ebf2131d5b648e51aa"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0xdd0d125475453767e65f1a4dd30b62699fdcc9f5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0x4dedc1fad6788cdba4677e2304d18531ed3ef501"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketGovernanceWrapper
+  - address: "0x91a43e7d0a76b05b99a3667c04ca45f3814e9f4d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GWAV
+  - address: "0xb6588c600cdcf4df0ec4fb0874841474d53956a0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x75db0a2b3e08f22a42d0c08a96fb0cedcd3bea1b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GWAVOracle
+  - address: "0x40da1654a7c6e6c88b56a865e0c02f84a0a902f7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0x7c892185dc9db27cc24cc37ae823664941c6ba25"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpV2Adapter
+  - address: "0x9d5134ecdbffb7a5aca55b78a4847d02744339b1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0xb790812999f6930099a9fb3fef6bf212fd0d1741"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x51705eef573ab874367b23e64aff2e2d196a7160"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x08525e12a2f4022ea780367bdc9e73b7358b153f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ListingManager
+  - address: "0xa0cc0106e9ad2f79d2775c778159da3044141797"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xe5493f9152afe3acb1a76f88a61698e6ae5bd967"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricerGovernanceWrapper
+  - address: "0x66f06d1e6035bee46f2bf862a290559eaa3d62ec"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0xacf48875fe09d4f93a380e248b5de924d38eb1ad"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCacheGovernanceWrapper
+  - address: "0x8d111fa3258da81f1c17ae20604079a89bb8efab"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXHedgerGovernanceWrapper
+  - address: "0x85b24acbb02a190a00dfab62a6ad2a429eeb5b7c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0x0a6d9a32565b131c68f4fbb4a6626c5eec3d3c3e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x6b504f0e501499a0ed86c03d5e60b717a7004c15"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x3a75175020ef28fb7d62161b90340d73873ab71e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionTokenGovernanceWrapper
+  - address: "0x292a5929bd150d28eda3c17d9b7c754968b2899d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0xff50ea0b460ceb9453ccd672bf46fcf8aba344b2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpsV2PoolHedger
+  - address: "0x3df4dfcfe9df655617ce6d16732553541a33cc09"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x438ed56c19a1fe28899eb03361640153027b815b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0x5151a2aae3cafd8631218bc6b58de8a838c30c4a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0xca5b08450308f8bdaa24ca27410a16b974b89a52"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpsV2PoolHedger
+  - address: "0xc7a7bd0f4e42c5c91427e998994d466d71a69cff"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: BlackScholes
+  - address: "0xce93fc719d8921b8be655ccb620ea34c9b11f140"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0x055485db0cda2832060cb66dcbfb679466e194c2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GWAVOracle
+  - address: "0xf384fbad5cca4c158c2f5a99a9230350eb0028be"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x7235a7c6b640bdd94aecff4240d791928e0a2bad"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x3c3ffe040016d31a81bec1f7c21803a56942eac4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x59c671b1a1f261fb2192974b43ce1608aefd328e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x8dfdb360fb679ffe371a4a01234e4c70456b480a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: UniswapV3Oracle
+  - address: "0x2b022cf1fa3423060ba343adc2e587341be36c46"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LyraRegistry
+  - address: "0x4cbf6ccd7a96d2198a5bedbfbfe5e6aa1043c348"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0x7457bd3625c1d0e51d5c6360fb7c6a1974462620"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x7c2d4bed1439400194264eb1fd43e32e3dbe1e46"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x4f39bb97bb80d23b9d271e2206c43f9c4216a378"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionTokenGovernanceWrapper
+  - address: "0x8cbc46b072456a6b2ef249f3457bdd1bdb6e1fe8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x7e0742222ac12e4f6deb1746f6cfc77beae25672"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x66632e226b16532df57aa3da9f7e24c2295eebb5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketGovernanceWrapper
+  - address: "0x687d47506e6ba7a0ddbc5e754ef9b4336dfd2fe3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0xe131c519916517169fe45feffa37d843aa40ea3d"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x2b1df9a55ceb1bba7d830c1a6731ff37383c4a53"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x54e401dc9fc6e496062cb3a1c882f10109d9e66a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0xfa8c3eeae5e1296e0e559177d26d1fe9122ca058"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GWAV
+  - address: "0xb8e90fd247700de65450aacd4a47b2948dc59fc1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0x80a7d526bd06c6c948b9a41a57ea0df1763b1a66"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ERC20ZeroSupply
+  - address: "0xf3840a31bd84efbeac057d80eb1fa03dcda0374b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x453b8bd47cc2bf07b30e57d18391c7464ab7f958"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x4543c7b5344296046370e3e478366b8a6089b0c4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0xd1dbdad1e827d6c8129eeff912ab5afef47980b5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0x4e347ec38d85564a856c1e31d7e1e4e14163df6a"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0xe84208d0037248a2537e7d7d22b575e0fa951dea"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0xa60f8ce8eda61cefd33157275d8aa5e33a42afb9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0xb133a29c9dc193f49f8d971d4c6e4bd3b7301cd8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpsV2PoolHedger
+  - address: "0xa4687ada981203566060c29f4c3cddc011184043"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0x4266dfa5a8a901c98f40ed2f9d349ce3a1137902"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GWAVOracle
+  - address: "0x6fa8a1caa29a2297502dd2dc0aa61055dc5ce674"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0xaedd173d11f29a9e93d722526ff01e3b8147d105"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x6eb768d1838931a57f6f2af2ae91baa90059f747"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0x531dde5ea5443d3450b1290268bc416cc1c8ea56"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0x0104eaea36d80d29c43b2480de7e8f4eda94a40c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0xefe68c0aa1adb045ca40c2845d35b572232b33c9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x349f7d3fed51a3e49722c87981995cc33521ad2b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0x3bce802bc923aea7e5bc46cf8c2c1c968011be96"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXPerpsV2PoolHedger
+  - address: "0x5adac40459a37368ab39ec40ab8098f3354be4da"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: KeeperHelper
+  - address: "0xabae973f646ccd48d55c495cfc511ff70f2cbd13"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GWAVOracle
+  - address: "0x42998109b3ff1216766ea613557fd7e551e651de"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPoolGovernanceWrapper
+  - address: "0xc5e29f8f8320be16c4b340f47af482f3ced49a02"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPoolGovernanceWrapper
+  - address: "0xde4a82fcebd265516e56c72ba8e550c27b7104c3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCacheGovernanceWrapper
+  - address: "0xd5e05d27d49aa60a0589fb52fea42d33939f4c64"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketGovernanceWrapper
+  - address: "0x006e1a3bea6637ada975601d030456b76276770b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricerGovernanceWrapper
+  - address: "0xb8758862f3fbf216b4a532dd75307a1de63e7558"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionTokenGovernanceWrapper
+  - address: "0xbcee4d54b2650871ace08a9fe5ce3a53497d12b6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXHedgerGovernanceWrapper
+  - address: "0xfc45d094f62d440bb9d6b1ba0d7d7b00e7f55f51"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: LiquidityPoolGovernanceWrapper
+  - address: "0x86cd138bc2ca336a63f37daac5a711655c5667e8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionGreekCacheGovernanceWrapper
+  - address: "0xf5ae18e524b1500e7efc56fc9a9d8c49ccddd208"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketGovernanceWrapper
+  - address: "0x8d2fceb124a6e78eafaeca97c2f70247dfc8031b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionMarketPricerGovernanceWrapper
+  - address: "0x9091eacac63439d4e0fab1c8c960e2ee20eb8ed8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: OptionTokenGovernanceWrapper
+  - address: "0x56360201071598d1a85554f7027815fafd216805"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SNXHedgerGovernanceWrapper
+  - address: "0x9a1097aef9bc18eb4fcc6f9e782f51acae7cf980"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ListingManager
+  - address: "0xda496d2752e9e08d219110647bb16a231d0f1599"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ListingManager
+  - address: "0x48d077e0938b845b06c162a5e28ac703d9475250"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0x7964355735dc8f6583bfbddde1914f09c654636e"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0xbdf4e630ded14a129ae302f930d1ae1b40fd02aa"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: LiquidityToken
+  - address: "0x4cdb992fdefcb840125dd344f87bdcbb8fefa3e7"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: OptionMarketWrapper
+  - address: "0x7d135662818d3540bd6f23294bfdb6946c52c9ab"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: GMXAdapter
+  - address: "0x92a612729bf7e832072540222306aebd6ba0f891"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: GMXFuturesPoolHedger
+  - address: "0xe485155ce647157624c5e2a41db45a9cc88098c3"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: OptionToken
+  - address: "0xd4c00fe7657791c2a43025de483f05e49a5f76a6"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x5a4842c0c1f81ebbae7bb3ec07edf7ae55aac631"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0x6d859a7d88d94870ee6510acaa48e3d8684e7b03"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0xdacee745b517c9cdfd7f749dff9eb03f51a27a13"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: OptionMarketPricer
+  - address: "0x4f7c8ee91d41867fe3fb564b4b293456f36a78e0"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: OptionGreekCache
+  - address: "0xef4a92fcde48c84ef2b5c4a141a4cd1988fc73a9"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: ShortCollateral
+  - address: "0xb619913921356904bf62aba7271e694fd95aa10d"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0xec6f3ef9481e7b8484290edbae2cedcdb0ce790e"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: LiquidityPool
+  - address: "0xe044919cf58dfb066fc9de7c69c7db19f336b20c"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x919e5e0c096002cb8a21397d724c4e3ebe77bc15"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: OptionMarket
+  - address: "0x4b236ac3b8d4666cbdc4e725c4366382aa30d86b"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: OptionGreekCache

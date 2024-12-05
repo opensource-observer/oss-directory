@@ -1,15 +1,17 @@
 version: 7
 name: stogramhq
 display_name: StogramHQ
+websites:
+  - url: https://stogram.vercel.app
 github:
   - url: https://github.com/stogramhq
 blockchain:
-  - address: "0x4976e41e2f43169B9a4330805aA1E004840Fd69a"
+  - address: "0x4976e41e2f43169b9a4330805aa1e004840fd69a"
     networks:
       - arbitrum_one
     tags:
       - eoa
-  - address: "0xC72fa67241b2Ab95776DB23Cb27A845d4290d75B"
+  - address: "0xc72fa67241b2ab95776db23cb27a845d4290d75b"
     networks:
       - arbitrum_one
     tags:

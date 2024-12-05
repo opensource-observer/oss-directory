@@ -3,11 +3,25 @@ name: kelp-dao
 display_name: Kelp
 description: Liquid restaking platform
 websites:
-- url: https://kelpdao.xyz/
-github:
-- url: https://github.com/Kelp-DAO
+  - url: https://kelpdao.xyz/
 social:
   twitter:
-  - url: https://x.com/KelpDAO
+    - url: https://x.com/KelpDAO
   telegram:
-  - url: https://t.me/KelpDAOxyz
+    - url: https://t.me/KelpDAOxyz
+github:
+  - url: https://github.com/kelp-dao
+blockchain:
+  - address: "0x0c5527b3abfbd0c297104b12be6f288d335b299c"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+    name: Operations Multisig
+  - address: "0x87eee96d50fb761ad85b1c982d28a042169d61b1"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: rsETHWrapper (wrsETH) Token Contract

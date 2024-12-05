@@ -1,16 +1,19 @@
 version: 7
 name: circuitscan
 display_name: Circuitscan
-description: Circuitscan provides tools to enhance trust in ZK dApps and aims to bring the Arbitrum ecosystem into a new era of security and efficiency. By merging efforts with ZK Catalog, Circuitscan is working to deliver vital safety information for ZK dApp users.
+description: Circuitscan provides tools to enhance trust in ZK dApps and aims to
+  bring the Arbitrum ecosystem into a new era of security and efficiency. By
+  merging efforts with ZK Catalog, Circuitscan is working to deliver vital
+  safety information for ZK dApp users.
 websites:
   - url: https://circuitscan.org
 social:
-  twitter: 
+  twitter:
     - url: https://x.com/numtel1
 github:
   - url: https://github.com/circuitscan
 blockchain:
-  - address: "0xa48c718AE6dE6599c5A46Fd6caBff54Def39473a"
+  - address: "0xa48c718ae6de6599c5a46fd6cabff54def39473a"
     networks:
       - any_evm
     tags:

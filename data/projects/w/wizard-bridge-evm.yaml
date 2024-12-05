@@ -1,0 +1,16 @@
+version: 7
+name: wizard-bridge-evm
+display_name: Wizard Bridge EVM
+websites:
+  - url: https://testnet-wizardbridgeevm.web.app
+social:
+  twitter:
+    - url: https://twitter.com/wizardbridgeevm
+github:
+  - url: https://github.com/wizard-bridge-evm
+blockchain:
+  - address: "0x35648519a2a89532ab534b9f08c5f180d48f1b4b"
+    networks:
+      - arbitrum_one
+    tags:
+      - wallet

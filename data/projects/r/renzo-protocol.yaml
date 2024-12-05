@@ -4,4 +4,18 @@ display_name: Renzo Protocol
 websites:
   - url: https://www.renzoprotocol.com/
 github:
-  - url: https://github.com/Renzo-Protocol
+  - url: https://github.com/renzo-protocol
+blockchain:
+  - address: "0xdbdfd5b04fc3a19c40f2b12f6ca29bd772ccb822"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+    name: Renzo Multisig
+  - address: "0x2416092f143378750bb29b79ed961ab195cceea5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Renzo Contract

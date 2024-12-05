@@ -86,13 +86,13 @@ github:
   - url: https://github.com/ourzora/zorb
   - url: https://github.com/ourzora/zorb-zenerator
 blockchain:
-  - address: "0xf69fEc6d858c77e969509843852178bd24CAd2B6"
+  - address: "0xf69fec6d858c77e969509843852178bd24cad2b6"
     tags:
       - eoa
       - deployer
     networks:
       - any_evm
-  - address: "0x680E26B472d8cae8148ee21FCAd6A69D73766436"
+  - address: "0x680e26b472d8cae8148ee21fcad6a69d73766436"
     tags:
       - eoa
       - deployer
@@ -267,7 +267,7 @@ blockchain:
     tags:
       - safe
       - wallet
-  - address: "0x3e2Ea9B92B7E48A52296fD261dc26fd995284631"
+  - address: "0x3e2ea9b92b7e48a52296fd261dc26fd995284631"
     networks:
       - mainnet
     tags:
@@ -320,7 +320,7 @@ blockchain:
       - zora
     tags:
       - contract
-  - address: "0xA2c2A96A232113Dd4993E8b048EEbc3371AE8d85"
+  - address: "0xa2c2a96a232113dd4993e8b048eebc3371ae8d85"
     networks:
       - base
       - zora

@@ -178,31 +178,31 @@ blockchain:
     tags:
       - contract
     name: Resolver
-  - address: "0x204C6f131bb7F258b2Ea1593f5309911d8E458eD"
+  - address: "0x204c6f131bb7f258b2ea1593f5309911d8e458ed"
     networks:
       - optimism
     tags:
       - contract
     name: CFAv1
-  - address: "0x68Ae17fa7a31b86F306c383277552fd4813b0d35"
+  - address: "0x68ae17fa7a31b86f306c383277552fd4813b0d35"
     networks:
       - optimism
     tags:
       - contract
     name: GDAv1
-  - address: "0xc4ce5118C3B20950ee288f086cb7FC166d222D4c"
+  - address: "0xc4ce5118c3b20950ee288f086cb7fc166d222d4c"
     networks:
       - optimism
     tags:
       - contract
     name: IDAv1
-  - address: "0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb"
+  - address: "0xe8b40071df98bbee23833905afcf7b28fc7ca3cb"
     networks:
       - optimism
     tags:
       - contract
     name: SuperfluidLoaderv1
-  - address: "0x55c8fc400833eEa791087cF343Ff2409A39DeBcC"
+  - address: "0x55c8fc400833eea791087cf343ff2409a39debcc"
     networks:
       - optimism
     tags:
@@ -272,7 +272,7 @@ blockchain:
       - optimism
     tags:
       - contract
-    name: various:DiffersByChain
+    name: batchLiquidator
   - address: "0x15f0ca26781c3852f8166ed2ebce5d18265cceb7"
     networks:
       - optimism
@@ -395,7 +395,7 @@ blockchain:
       - optimism
     tags:
       - contract
-    name: various:DiffersByChain
+    name: batchLiquidator
   - address: "0xcc64973238cf06a164982146ff2dcdc7f977420b"
     networks:
       - optimism
@@ -694,7 +694,7 @@ blockchain:
     tags:
       - contract
     name: CFAv1Forwarder
-  - address: "0x6DA13Bde224A05a288748d857b9e7DDEffd1dE08"
+  - address: "0x6da13bde224a05a288748d857b9e7ddeffd1de08"
     networks:
       - optimism
       - base
@@ -704,7 +704,7 @@ blockchain:
     tags:
       - contract
     name: GDAv1Forwarder
-  - address: "0x65377d4dfE9c01639A41952B5083D58964782892"
+  - address: "0x65377d4dfe9c01639a41952b5083d58964782892"
     networks:
       - optimism
     tags:
@@ -755,7 +755,8 @@ blockchain:
       - optimism
     tags:
       - contract
-    name: various:DiffersByChain
+      - factory
+    name: existentialNFTCloneFactory
   - address: "0xe5e2421c5b9488c17e9e58e26a17b4f4bb3f84a1"
     networks:
       - optimism
@@ -828,375 +829,350 @@ blockchain:
     tags:
       - eoa
       - wallet
-  - address: "0x6a214c324553F96F04eFBDd66908685525Da0E0d"
+  - address: "0x6a214c324553f96f04efbdd66908685525da0e0d"
     networks:
       - base
     tags:
       - contract
     name: Resolver
-  - address: "0x19ba78B9cDB05A877718841c574325fdB53601bb"
+  - address: "0x19ba78b9cdb05a877718841c574325fdb53601bb"
     networks:
       - base
     tags:
       - contract
     name: CFAv1
-  - address: "0x66DF3f8e14CF870361378d8F61356D15d9F425C4"
+  - address: "0x66df3f8e14cf870361378d8f61356d15d9f425c4"
     networks:
       - base
     tags:
       - contract
     name: IDAv1
-  - address: "0xfE6c87BE05feDB2059d2EC41bA0A09826C9FD7aa"
+  - address: "0xfe6c87be05fedb2059d2ec41ba0a09826c9fd7aa"
     networks:
       - base
     tags:
       - contract
     name: GDAv1
-  - address: "0x9F9EEd9Bbc38E9e0514fD9dFcc0Bca9869A9c534"
+  - address: "0x9f9eed9bbc38e9e0514fd9dfcc0bca9869a9c534"
     networks:
       - base
     tags:
       - contract
     name: SuperfluidLoaderv1
-  - address: "0x889ebeCaD5F8C34Fd96023456d0fC5cE54eb74Cb"
+  - address: "0x889ebecad5f8c34fd96023456d0fc5ce54eb74cb"
     networks:
       - base
     tags:
       - contract
     name: BatchLiquidator
-  - address: "0xC72CEd15204d02183c83fEbb918b183E400811Ee"
+  - address: "0xc72ced15204d02183c83febb918b183e400811ee"
     networks:
       - base
     tags:
       - contract
     name: FlowScheduler
-  - address: "0xe20B9a38E0c96F61d1bA6b42a61512D56Fea1Eb3"
+  - address: "0xe20b9a38e0c96f61d1ba6b42a61512d56fea1eb3"
     networks:
       - base
     tags:
       - contract
       - factory
     name: SuperTokenFactory
-  - address: "0xA87F76e99f6C8Ff8996d14f550ceF47f193D9A09"
+  - address: "0xa87f76e99f6c8ff8996d14f550cef47f193d9a09"
     networks:
       - base
     tags:
       - contract
     name: TOGA
-  - address: "0x642332562BC60a4Bd9681E7bb1588f7456A497aC"
+  - address: "0x642332562bc60a4bd9681e7bb1588f7456a497ac"
     networks:
       - base
     tags:
       - contract
       - factory
     name: ExistentialNFTCloneFactory
-  - address: "0x4C073B3baB6d8826b8C5b229f3cfdC1eC6E47E74"
+  - address: "0x4c073b3bab6d8826b8c5b229f3cfdc1ec6e47e74"
     networks:
       - base
     tags:
       - contract
       - factory
     name: UUPSProxy
-  - address: "0xDF92D0E6Bcb9385FDe99aD21Ff5e47Fb47E3c6b2"
+  - address: "0xdf92d0e6bcb9385fde99ad21ff5e47fb47e3c6b2"
     networks:
       - base
     tags:
       - contract
     name: VestingScheduler
-  - address: "0x8bDCb5613153f41B2856F71Bd7A7e0432F6dbe58"
+  - address: "0x8bdcb5613153f41b2856f71bd7a7e0432f6dbe58"
     networks:
       - matic
     tags:
       - contract
     name: resolver
-  - address: "0x3AD3f7A0965Ce6f9358AD5CCE86Bc2b05F1EE087"
+  - address: "0x3ad3f7a0965ce6f9358ad5cce86bc2b05f1ee087"
     networks:
       - matic
     tags:
       - contract
     name: governance
-  - address: "0x6EeE6060f715257b970700bc2656De21dEdF074C"
+  - address: "0x6eee6060f715257b970700bc2656de21dedf074c"
     networks:
       - matic
     tags:
       - contract
     name: cfaV1
-  - address: "0xB0aABBA4B2783A72C52956CDEF62d438ecA2d7a1"
+  - address: "0xb0aabba4b2783a72c52956cdef62d438eca2d7a1"
     networks:
       - matic
     tags:
       - contract
     name: idaV1
-  - address: "0x961dd5A052741B49B6CBf6759591f9D8576fCFb0"
+  - address: "0x961dd5a052741b49b6cbf6759591f9d8576fcfb0"
     networks:
       - matic
     tags:
       - contract
     name: gdaV1
-  - address: "0x2C90719f25B10Fc5646c82DA3240C76Fa5BcCF34"
+  - address: "0x2c90719f25b10fc5646c82da3240c76fa5bccf34"
     networks:
       - matic
     tags:
       - contract
       - factory
     name: superTokenFactory
-  - address: "0x554e2bbaCF43FD87417b7201A9F1649a3ED89d68"
+  - address: "0x554e2bbacf43fd87417b7201a9f1649a3ed89d68"
     networks:
       - matic
     tags:
       - contract
     name: constantOutflowNFT
-  - address: "0x55909bB8cd8276887Aae35118d60b19755201c68"
+  - address: "0x55909bb8cd8276887aae35118d60b19755201c68"
     networks:
       - matic
     tags:
       - contract
     name: constantInflowNFT
-  - address: "0x444A48dA32649Ed03eeC9B9cD416748262c320E6"
+  - address: "0x444a48da32649ed03eec9b9cd416748262c320e6"
     networks:
       - matic
     tags:
       - contract
     name: superfluidLoader
-  - address: "0x6AEAeE5Fd4D05A741723D752D30EE4D72690A8f7"
+  - address: "0x6aeaee5fd4d05a741723d752d30ee4d72690a8f7"
     networks:
       - matic
     tags:
       - contract
     name: toga
-  - address: "0xA6Cdb472e7E22Bf30ae6fB752E4a13eBF3c12165"
+  - address: "0xa6cdb472e7e22bf30ae6fb752e4a13ebf3c12165"
     networks:
       - matic
     tags:
       - contract
     name: batchLiquidator
-  - address: "0x55F7758dd99d5e185f4CC08d4Ad95B71f598264D"
+  - address: "0x55f7758dd99d5e185f4cc08d4ad95b71f598264d"
     networks:
       - matic
     tags:
       - contract
     name: flowScheduler
-  - address: "0xcFE6382B33F2AdaFbE46e6A26A88E0182ae32b0c"
+  - address: "0xcfe6382b33f2adafbe46e6a26a88e0182ae32b0c"
     networks:
       - matic
     tags:
       - contract
     name: vestingScheduler
-  - address: "0x497aa106Da00BFa8f8BC266EF0793131930Fa630"
+  - address: "0x497aa106da00bfa8f8bc266ef0793131930fa630"
     networks:
       - matic
     tags:
       - contract
       - factory
     name: existentialNFTCloneFactory
-  - address: "0x609b9d9d6Ee9C3200745A79B9d3398DBd63d509F"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-    name: resolver
-  - address: "0x0170FFCC75d178d426EBad5b1a31451d00Ddbd0D"
+  - address: "0x0170ffcc75d178d426ebad5b1a31451d00ddbd0d"
     networks:
       - arbitrum_one
     tags:
       - contract
     name: governance
-  - address: "0x731FdBB12944973B500518aea61942381d7e240D"
+  - address: "0x731fdbb12944973b500518aea61942381d7e240d"
     networks:
       - arbitrum_one
     tags:
       - contract
     name: cfaV1
-  - address: "0x2319C7e07EB063340D2a0E36709B0D65fda75986"
+  - address: "0x2319c7e07eb063340d2a0e36709b0d65fda75986"
     networks:
       - arbitrum_one
     tags:
       - contract
     name: idaV1
-  - address: "0x1e299701792a2aF01408B122419d65Fd2dF0Ba02"
+  - address: "0x1e299701792a2af01408b122419d65fd2df0ba02"
     networks:
       - arbitrum_one
     tags:
       - contract
     name: gdaV1
-  - address: "0x1C21Ead77fd45C84a4c916Db7A6635D0C6FF09D6"
+  - address: "0x1c21ead77fd45c84a4c916db7a6635d0c6ff09d6"
     networks:
       - arbitrum_one
     tags:
       - contract
       - factory
     name: superTokenFactory
-  - address: "0x051e766e2d8dc65ae2bFCF084A50AD0447634227"
+  - address: "0x051e766e2d8dc65ae2bfcf084a50ad0447634227"
     networks:
       - arbitrum_one
     tags:
       - contract
     name: constantOutflowNFT
-  - address: "0x0043d7c85C8b96a49A72A92C0B48CdC4720437d7"
+  - address: "0x0043d7c85c8b96a49a72a92c0b48cdc4720437d7"
     networks:
       - arbitrum_one
     tags:
       - contract
     name: constantInflowNFT
-  - address: "0xe8B40071df98bBEe23833905AFcF7b28fC7Ca3cb"
+  - address: "0xe8b40071df98bbee23833905afcf7b28fc7ca3cb"
     networks:
       - arbitrum_one
     tags:
       - contract
     name: superfluidLoader
-  - address: "0xFC63B7C762B10670Eda15cF3ca3970bCDB28C9eF"
+  - address: "0xfc63b7c762b10670eda15cf3ca3970bcdb28c9ef"
     networks:
       - arbitrum_one
     tags:
       - contract
     name: toga
-  - address: "0x6C66e5c5D201A753ff497F2e9eC5D545631854d0"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-    name: batchLiquidator
-  - address: "0x3fA8B653F9abf91428800C0ba0F8D145a71F97A1"
+  - address: "0x3fa8b653f9abf91428800c0ba0f8d145a71f97a1"
     networks:
       - arbitrum_one
     tags:
       - contract
     name: flowScheduler
-  - address: "0x55c8fc400833eEa791087cF343Ff2409A39DeBcC"
+  - address: "0x55c8fc400833eea791087cf343ff2409a39debcc"
     networks:
       - arbitrum_one
     tags:
       - contract
     name: vestingScheduler
-  - address: "0xF353978890204756fc5fa6dfbD16a91eac9E6f4d"
-    networks:
-      - arbitrum_one
-    tags:
-      - contract
-      - factory
-    name: existentialNFTCloneFactory
-  - address: "0xeE4cD028f5fdaAdeA99f8fc38e8bA8A57c90Be53"
+  - address: "0xee4cd028f5fdaadea99f8fc38e8ba8a57c90be53"
     networks:
       - mainnet
     tags:
       - contract
     name: resolver
-  - address: "0xe2E14e2C4518cB06c32Cd0818B4C01f53E1Ba653"
+  - address: "0xe2e14e2c4518cb06c32cd0818b4c01f53e1ba653"
     networks:
       - mainnet
     tags:
       - contract
     name: governance
-  - address: "0x2844c1BBdA121E9E43105630b9C8310e5c72744b"
+  - address: "0x2844c1bbda121e9e43105630b9c8310e5c72744b"
     networks:
       - mainnet
     tags:
       - contract
     name: cfaV1
-  - address: "0xbCF9cfA8Da20B591790dF27DE65C1254Bf91563d"
+  - address: "0xbcf9cfa8da20b591790df27de65c1254bf91563d"
     networks:
       - mainnet
     tags:
       - contract
     name: idaV1
-  - address: "0x0422689cc4087b6B7280e0a7e7F655200ec86Ae1"
+  - address: "0x0422689cc4087b6b7280e0a7e7f655200ec86ae1"
     networks:
       - mainnet
     tags:
       - contract
       - factory
     name: superTokenFactory
-  - address: "0x9775EEBdfF8AE845e7Ad3d1D04B85e6c6d284aCB"
+  - address: "0x9775eebdff8ae845e7ad3d1d04b85e6c6d284acb"
     networks:
       - mainnet
     tags:
       - contract
     name: superfluidLoader
-  - address: "0x8B5a2CF69a56d7F8Fa027edcA23594cdDF544dDc"
+  - address: "0x8b5a2cf69a56d7f8fa027edca23594cddf544ddc"
     networks:
       - mainnet
     tags:
       - contract
     name: toga
-  - address: "0x554c06487bEc8c890A0345eb05a5292C1b1017Bd"
-    networks:
-      - mainnet
-    tags:
-      - contract
-    name: batchLiquidator
-  - address: "0xAA0cD305eD020137E302CeCede7b18c0A05aCCDA"
+  - address: "0xaa0cd305ed020137e302cecede7b18c0a05accda"
     networks:
       - mainnet
     tags:
       - contract
     name: flowScheduler
-  - address: "0x39D5cBBa9adEBc25085a3918d36D5325546C001B"
+  - address: "0x39d5cbba9adebc25085a3918d36d5325546c001b"
     networks:
       - mainnet
     tags:
       - contract
     name: vestingScheduler
-  - address: "0xb25a19c0e7d10c8D37E5b63Ed3213b67f7ebfF80"
+  - address: "0xb25a19c0e7d10c8d37e5b63ed3213b67f7ebff80"
     networks:
       - scroll
     tags:
       - contract
     name: resolver
-  - address: "0xC2C9a709A6744816b3712D520BD314fe610AEa33"
+  - address: "0xc2c9a709a6744816b3712d520bd314fe610aea33"
     networks:
       - scroll
     tags:
       - contract
     name: governance
-  - address: "0xB3bcD6da1eeB6c97258B3806A853A6dcD3B6C00c"
+  - address: "0xb3bcd6da1eeb6c97258b3806a853a6dcd3b6c00c"
     networks:
       - scroll
     tags:
       - contract
     name: cfaV1
-  - address: "0x4112557F0F228A18654d3C39599421DE9F61144d"
+  - address: "0x4112557f0f228a18654d3c39599421de9f61144d"
     networks:
       - scroll
     tags:
       - contract
     name: idaV1
-  - address: "0x97a9f293d7eD13f3fbD499cE684Ed4F103295a28"
+  - address: "0x97a9f293d7ed13f3fbd499ce684ed4f103295a28"
     networks:
       - scroll
     tags:
       - contract
     name: gdaV1
-  - address: "0x0de05fe0fF8F5eA9475CA8425e2D05Dd38ccED84"
+  - address: "0x0de05fe0ff8f5ea9475ca8425e2d05dd38cced84"
     networks:
       - scroll
     tags:
       - contract
     name: constantOutflowNFT
-  - address: "0x8c24Fc82c8fDd763F08E654212fc27e577EbD934"
+  - address: "0x8c24fc82c8fdd763f08e654212fc27e577ebd934"
     networks:
       - scroll
     tags:
       - contract
     name: constantInflowNFT
-  - address: "0x7613030429E95cDFC76FE70f9573037068B51815"
+  - address: "0x7613030429e95cdfc76fe70f9573037068b51815"
     networks:
       - scroll
     tags:
       - contract
     name: superfluidLoader
-  - address: "0x1bF9D75d50fD828a93f69ECB06f2B85767792CEB"
+  - address: "0x1bf9d75d50fd828a93f69ecb06f2b85767792ceb"
     networks:
       - scroll
     tags:
       - contract
     name: toga
-  - address: "0x3024A39099D4FAE7c9eA8329FAfe05576AEd2c00"
+  - address: "0x3024a39099d4fae7c9ea8329fafe05576aed2c00"
     networks:
       - scroll
     tags:
       - contract
     name: batchLiquidator
-  - address: "0xacFBED2bC9344C158DD3dC229b84Bd7220e7c673"
+  - address: "0xacfbed2bc9344c158dd3dc229b84bd7220e7c673"
     networks:
       - scroll
     tags:

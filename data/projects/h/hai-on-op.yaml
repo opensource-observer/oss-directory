@@ -1,6 +1,6 @@
 version: 7
 name: hai-on-op
-display_name: Let"s Get HAI
+display_name: Let's Get HAI
 websites:
   - url: https://www.letsgethai.com/
 social:
@@ -11,7 +11,7 @@ social:
 github:
   - url: https://github.com/hai-on-op
 blockchain:
-  - address: "0xbd8EC4cb226EBaE228F8829E2ec23070b09165d3"
+  - address: "0xbd8ec4cb226ebae228f8829e2ec23070b09165d3"
     tags:
       - eoa
       - deployer
@@ -23,3 +23,47 @@ blockchain:
     tags:
       - safe
       - wallet
+  - address: "0x2d13ac7ad45fd3b0d146c8c9e508aa0443123525"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+    name: Grant Multisig
+  - address: "0xe807f3282f3391d237ba8b9becb0d8ea3ba23777"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Governor
+  - address: "0xd68e7d20008a223dd48a6076aaf5edd4fe80a899"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Timelock Controller
+  - address: "0xdcb421cc4cbb7267f3b2cacab44ec18aebed6724"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Protocol Treasury
+  - address: "0x524fe171e80173c15381bb50034033da282abcc6"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: Merkle Distributor Factory (OP)
+  - address: "0x588f26d5befe74dc61694a7b36227c0e0c52c0f9"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: HAI / LUSD Velo Pool
+  - address: "0xbded651c03e2bc332aa49c1ffca391eaa3ea6b86"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: HAI / SUSD Velo Pool

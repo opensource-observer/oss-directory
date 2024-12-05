@@ -1,5 +1,12 @@
 version: 7
 name: theslipstreamteam
-display_name: TheSlipstreamTeam
+display_name: The Slipstream
 github:
   - url: https://github.com/theslipstreamteam
+blockchain:
+  - address: "0x4173de8235c103d42aad543ce478bb05def603b9"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet

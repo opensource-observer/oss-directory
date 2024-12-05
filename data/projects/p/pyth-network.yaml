@@ -92,3 +92,91 @@ blockchain:
     tags:
       - eoa
       - wallet
+  - address: "0x6c7d7714f536cbdb0b3b0fddea2747d5c4b2668e"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x8250f4af4b972684f7b336503e2d6dfedeb1487a"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xa2aa501b19aff244d90cc15a4cf739d2725b5729"
+    networks:
+      - mode
+    tags:
+      - contract
+  - address: "0x5cc070844e98f4cec5f2fbe1592fb1ed73ab7b48"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Pyth Express Relay
+  - address: "0x59f78de21a0b05d96ae00c547ba951a3b905602f"
+    networks:
+      - mode
+    tags:
+      - factory
+    name: Opportunity Adapter Factory
+  - address: "0x4200000000000000000000000000000000000006"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: WETH
+  - address: "0xd988097fb8612cc24eec14542bc03424c656005f"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: USDC
+  - address: "0xf0f161fda2712db8b566946122a5af183995e2ed"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: USDT
+  - address: "0xcdd475325d6f564d27247d1dddbb0dac6fa0a5cf"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: WBTC
+  - address: "0x2416092f143378750bb29b79ed961ab195cceea5"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: ezETH
+  - address: "0x80137510979822322193fc997d400d5a6c747bf7"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: STONE
+  - address: "0xe7903b1f75c534dd8159b313d92cdcfbc62cb3cd"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: wrsETH
+  - address: "0x04c0599ae5a44757c0af6f9ec3b93da8976c150a"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: weETH.mode
+  - address: "0x59889b7021243db5b1e065385f918316cd90d46c"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: M-BTC
+  - address: "0xdfc7c877a950e49d2610114102175a06c2e3167a"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: MODE

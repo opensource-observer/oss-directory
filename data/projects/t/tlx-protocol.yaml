@@ -7,17 +7,28 @@ social:
   twitter:
     - url: https://x.com/tlx_fi
 github:
-  - url: https://github.com/TLX-Protocol
+  - url: https://github.com/tlx-protocol
 blockchain:
-  - address: "0x48b96d8044d14EC5E592990989270789899bAf9B"
+  - address: "0x48b96d8044d14ec5e592990989270789899baf9b"
     tags:
       - eoa
       - deployer
     networks:
       - optimism
-  - address: "0x559822cf7213bC2DDa0aeCffA0b66Bd083C169CD"
+  - address: "0x559822cf7213bc2dda0aecffa0b66bd083c169cd"
     tags:
       - eoa
       - deployer
+    networks:
+      - optimism
+  - address: "0x1bcbb33ff4272c4fe3a00eaa7958953037a3a471"
+    tags:
+      - safe
+      - wallet
+    networks:
+      - optimism
+  - address: "0xa1dabef33b3b82c7814b6d82a79e50f4ac44102b"
+    tags:
+      - contract
     networks:
       - optimism

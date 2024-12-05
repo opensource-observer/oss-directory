@@ -4,8 +4,9 @@ display_name: https://MesoReefDAO
 description: DeSci Mesoamerican Reef DAO for CoralReefConservation
 websites:
   - url: https://MesoReefDAO
+  - url: https://linktr.ee/mesoreefdao
 github:
-  - url: https://github.com/https://MesoReefDAO
+  - url: https://github.com/mesoreefdao
 blockchain:
   - address: "0xe6ff2e03bb419e91d67bb537fcda9ade555ded88"
     networks:
@@ -19,4 +20,9 @@ blockchain:
       - optimism
     tags:
       - safe
+      - wallet
+  - address: "0x526647287a54a9e83998ed748115dc6bcbbadbf3"
+    networks:
+      - arbitrum_one
+    tags:
       - wallet

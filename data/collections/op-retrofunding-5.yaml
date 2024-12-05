@@ -1,13 +1,20 @@
 version: 7
 name: op-retrofunding-5
 display_name: Optimism RetroFunding 5
-description: Collection of OSS projects accepted into RetroFunding 5 (OP Stack). Note that not all applicants are in OSS Directory.
+description: Collection of OSS projects accepted into RetroFunding 5 (OP Stack).
+  Note that not all applicants are in OSS Directory.
 projects:
   - alt-research
+  - ankr-network
+  - besu-hyperledger
   - blob-archiver-rs
+  - blocknative
   - builderism-rabbitprincess
+  - code-423n4
+  - conduitxyz
   - dappnode
   - defi-wonderland
+  - derivexyz
   - eoa-blockchain-labs
   - erigontech
   - eth-infinitism-account-abstraction
@@ -24,6 +31,7 @@ projects:
   - grandinetech
   - hermes-probe-lab
   - hildr-optimism-java
+  - immunefi-team
   - kroma-network
   - libp2p
   - lighthouse-sigp
@@ -31,14 +39,15 @@ projects:
   - nethermindeth
   - nimbus-status-im
   - nodeguardians
-  - optimism
   - op-besu-optimism-java
   - op-stack-deployer-aymen-tirchi
+  - optimism
   - protocol-guild
   - quic-go
   - redprint-ratimon
   - reth-paradigmxyz
   - revm-bluealloy
+  - rig-ethereum
   - roll-op-0xfableorg
   - runtimeverification
   - sherlock-protocol
@@ -53,4 +62,5 @@ projects:
   - upnodedev
   - vacp2p
   - vyperlang
+  - zeeve-app
   - zenbiteth

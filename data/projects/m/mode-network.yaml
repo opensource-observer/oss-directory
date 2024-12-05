@@ -6,7 +6,7 @@ websites:
 github:
   - url: https://github.com/mode-network
 blockchain:
-  - address: "0x735aDBbE72226BD52e818E7181953f42E3b0FF21"
+  - address: "0x735adbbe72226bd52e818e7181953f42e3b0ff21"
     networks:
       - mainnet
     tags:
@@ -22,3 +22,9 @@ blockchain:
       - contract
       - proxy
     name: "Mode: L2StandardBridge"
+  - address: "0xbe7946b7988a6556cfb78258592350e706786d36"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Mode Network Contract

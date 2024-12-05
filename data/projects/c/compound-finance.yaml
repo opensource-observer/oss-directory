@@ -15,7 +15,7 @@ blockchain:
     tags:
       - deployer
       - eoa
-  - address: "0x2501713A67a3dEdde090E42759088A7eF37D4EAb"
+  - address: "0x2501713a67a3dedde090e42759088a7ef37d4eab"
     networks:
       - optimism
     tags:
@@ -40,13 +40,13 @@ blockchain:
     tags:
       - contract
     name: cUSDCv3Native
-  - address: "0x2e44e174f7D53F0212823acC11C01A11d58c5bCB"
+  - address: "0x2e44e174f7d53f0212823acc11c01a11d58c5bcb"
     networks:
       - optimism
     tags:
       - contract
-    name: cUSDCv3
-  - address: "0x7e7d4467112689329f7E06571eD0E8CbAd4910eE"
+    name: cUSDCv3 (USDC Market)
+  - address: "0x7e7d4467112689329f7e06571ed0e8cbad4910ee"
     networks:
       - optimism
     tags:
@@ -57,3 +57,22 @@ blockchain:
       - base
     tags:
       - contract
+  - address: "0xcb54808f5ef6fd88b933c55dd4f4c365e61828bb"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+    name: Grant Multisig
+  - address: "0xe36a30d249f7761327fd973001a32010b521b6fd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: cETHv3 (ETH Market)
+  - address: "0x995e394b8b2437ac8ce61ee0bc610d617962b214"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: cUSDTv3 (USDT Market)

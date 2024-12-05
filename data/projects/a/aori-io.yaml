@@ -7,3 +7,17 @@ websites:
   - url: https://aori.io
 github:
   - url: https://github.com/aori-io
+blockchain:
+  - address: "0xa25c582874f984dd58f729ef970922a3691a1c69"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+    name: Aori Multisig
+  - address: "0x0ad86842eadee5b484e31db60716eb6867b46e21"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Aori v2

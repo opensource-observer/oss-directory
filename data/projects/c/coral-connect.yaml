@@ -1,11 +1,12 @@
 version: 7
 name: coral-connect
 display_name: Coral Connect Dapp on Arbitrum
-description: Connecting individuals, business, and governments to coral regeneration services worldwide.
+description: Connecting individuals, business, and governments to coral
+  regeneration services worldwide.
 websites:
   - url: https://www.coralconnect.life/
 blockchain:
-  - address: "0xE79a2Ebf97F55e3c9BFAc8F18a621E4512923bb5"
+  - address: "0xe79a2ebf97f55e3c9bfac8f18a621e4512923bb5"
     networks:
       - any_evm
     tags:

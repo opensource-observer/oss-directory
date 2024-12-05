@@ -1,0 +1,24 @@
+version: 7
+name: curio-filecoin-project
+display_name: Curio Storage
+description: >
+  Curio Storage is an advanced platform designed to simplify the setup and
+  operation of storage providers 
+
+  within the Filecoin ecosystem. Building on the foundation of lotus-miner, Curio Storage offers enhanced 
+
+  redundancy, scalability, and fault tolerance, ensuring efficient and reliable data storage solutions.
+websites:
+  - url: https://curiostorage.org
+social:
+  twitter:
+    - url: https://x.com/curiostorage
+github:
+  - url: https://github.com/filecoin-project/curio
+blockchain:
+  - address: "0xa36ecc2989e594e246be46d0020f04f3afe8adad"
+    tags:
+      - eoa
+      - wallet
+    networks:
+      - any_evm
