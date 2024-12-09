@@ -37,6 +37,24 @@
         "$ref": "url.json#"
       }
     },
+    "cargo": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json#"
+      }
+    },
+    "pypi": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json#"
+      }
+    },
+    "go": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json#"
+      }
+    },
     "open_collective": {
       "type": "array",
       "items": {
