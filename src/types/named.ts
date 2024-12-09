@@ -6,17 +6,9 @@
  */
 
 /**
- * A collection of projects
+ * A generic named object
  */
-export interface Collection {
-  version: number;
+export interface NamedEntity {
   name: string;
-  display_name: string;
-  description?: string;
-  /**
-   * @minItems 1
-   */
-  projects: [string, ...string[]];
-  comments?: string[];
   [k: string]: unknown;
 }
