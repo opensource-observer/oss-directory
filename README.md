@@ -39,6 +39,32 @@ To check for validation errors locally, run
 pnpm run validate
 ```
 
+### Publish
+
+#### NPM
+
+First bump the version number in `package.json`. Then build and publish
+
+```bash
+pnpm build
+npm publish
+```
+
+If you did not log into npm yet, you'll first need to run `npm login`.
+
+#### PyPI
+
+First bump the version number in `pyproject.toml`. Then build and publish
+
+```bash
+poetry build
+poetry publish
+```
+
+If you did not log into PyPI yet, you'll first need to
+[generate an API Token](https://pypi.org/manage/account/)
+and configure the CLI `poetry config pypi-token.pypi API_TOKEN`.
+
 ## Using as a library
 
 We have also published this repository as a library that you can use in your own projects. This is useful if you want to build a tool that uses the data in this repository or perform your own custom analysis.

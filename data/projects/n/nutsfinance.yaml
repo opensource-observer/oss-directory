@@ -1,5 +1,24 @@
 version: 7
 name: nutsfinance
-display_name: ACoconut
+display_name: NUTS Finance
+description: Build Decentralized Financial Applications
+websites:
+  - url: https://www.nuts.finance/
+social:
+  twitter:
+    - url: https://x.com/pikefinance
+    - url: https://x.com/NUTSFinance
+    - url: https://x.com/ACoconutDAO
+    - url: https://x.com/TapioFinance
+    - url: https://x.com/TaigaProtocol
+  farcaster:
+    - url: https://warpcast.com/pikefinance
 github:
   - url: https://github.com/nutsfinance
+blockchain:
+  - address: "0xb1ea97c9f68978905fb1bf5089e71a073bc4f5c8"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm

@@ -17,7 +17,12 @@ export interface Project {
   social?: SocialProfile;
   github?: URL[];
   npm?: URL[];
+  cargo?: URL[];
+  pypi?: URL[];
+  go?: URL[];
+  open_collective?: URL[];
   blockchain?: BlockchainAddress[];
+  comments?: string[];
   [k: string]: unknown;
 }
 /**
@@ -77,36 +82,70 @@ export interface BlockchainAddress {
     (
       | "any_evm"
       | "arbitrum_one"
+      | "automata"
       | "base"
+      | "bob"
+      | "cyber"
       | "frax"
+      | "ham"
+      | "kroma"
       | "linea"
+      | "lisk"
+      | "lyra"
       | "mainnet"
       | "mantle"
       | "matic"
       | "metal"
+      | "mint"
       | "mode"
       | "optimism"
+      | "orderly"
       | "pgn"
+      | "polynomial"
       | "polygon_zkevm"
+      | "race"
+      | "redstone"
       | "scroll"
+      | "shape"
+      | "swan"
+      | "unichain"
+      | "worldchain"
+      | "xterio"
       | "zksync_era"
       | "zora"
     ),
     ...(
       | "any_evm"
       | "arbitrum_one"
+      | "automata"
       | "base"
+      | "bob"
+      | "cyber"
       | "frax"
+      | "ham"
+      | "kroma"
       | "linea"
+      | "lisk"
+      | "lyra"
       | "mainnet"
       | "mantle"
       | "matic"
       | "metal"
+      | "mint"
       | "mode"
       | "optimism"
+      | "orderly"
       | "pgn"
+      | "polynomial"
       | "polygon_zkevm"
+      | "race"
+      | "redstone"
       | "scroll"
+      | "shape"
+      | "swan"
+      | "unichain"
+      | "worldchain"
+      | "xterio"
       | "zksync_era"
       | "zora"
     )[],

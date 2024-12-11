@@ -1,5 +1,126 @@
 version: 7
 name: blockzerolabs
 display_name: Flashstake
+description: We launch experimental tokens into the decentralized world.
+websites:
+  - url: https://blockzerolabs.io
+social:
+  twitter:
+    - url: https://twitter.com/blockzerolabs
 github:
   - url: https://github.com/blockzerolabs
+blockchain:
+  - address: "0x4b9f696c998f9549485a3a85dca692fd6cce491f"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x2ba1f7e899948153d8377f77dbb9af25443ff728"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: LiquidSteak
+  - address: "0x05736a8d6bc208b9e3c9a7e20e7f53674aea6ab1"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: FlashFTokenFactory
+  - address: "0xbce67cd3a2b97c17bda92764ea81b3ef5f06ccfc"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: LiquidStake
+  - address: "0x28b413f9f09fba829a4c0b43783541373ee3f6c3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FlashStrategyAAVEv3
+  - address: "0x78b2d65dd1d3d9fb2972d7ef467261ca101ec2b9"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: FlashProtocol
+  - address: "0xcb1205ac28693beda01e0b66e9b4d06231609bfd"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0xfd49a007d9fadf8904849edbef1b3344e42142ff"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FTokenAccumulatorV2
+  - address: "0x720face4d24018cbe1d68b1df64a730890598f47"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x15c32f81df9b00b97b68148b6bdeb72d57f24845"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x3b090839c26fe3b2bdfa2f4cd7f3ab001ccdf73f"
+    networks:
+      - arbitrum_one
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x7efcd4c1ff21ffcba1b6a245a9e385b4ff45d6dd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FlashProtocolProxyV2
+  - address: "0x541a7b5a8a6bb28ec44fab9d41cc2b4aaf4f9a33"
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x8ef21e9bfe8f40eddd9bf7828707da47d5536c4c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FlashProtocolProxy
+  - address: "0x9497116d258924621c60384f53afab29cb3ae193"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: FlashProtocolProxyV2
+  - address: "0x907a749631ad4149df1d49ee2fd40517b12df573"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: FlashGLPStrategy
+  - address: "0x7cd98120d44964ccb670f26dc5e3fde23f345e23"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: LiquidStake

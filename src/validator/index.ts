@@ -1,10 +1,10 @@
 import Ajv from "ajv";
 import addFormats from "ajv-formats";
-import projectSchema from "../resources/schema/project.json" assert { type: "json" };
-import collectionSchema from "../resources/schema/collection.json" assert { type: "json" };
-import urlSchema from "../resources/schema/url.json" assert { type: "json" };
-import socialProfileSchema from "../resources/schema/social-profile.json" assert { type: "json" };
-import blockchainAddressSchema from "../resources/schema/blockchain-address.json" assert { type: "json" };
+import projectSchema from "../resources/schema/project.json" with { type: "json" };
+import collectionSchema from "../resources/schema/collection.json" with { type: "json" };
+import urlSchema from "../resources/schema/url.json" with { type: "json" };
+import socialProfileSchema from "../resources/schema/social-profile.json" with { type: "json" };
+import blockchainAddressSchema from "../resources/schema/blockchain-address.json" with { type: "json" };
 import { Project } from "../types/project.js";
 import { Collection } from "../types/collection.js";
 import { URL } from "../types/url.js";

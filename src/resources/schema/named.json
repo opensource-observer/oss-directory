@@ -1,0 +1,12 @@
+{
+  "$id": "named.json",
+  "title": "Named Entity",
+  "type": "object",
+  "description": "A generic named object",
+  "properties": {
+    "name": {
+      "type": "string"
+    }
+  },
+  "required": ["name"]
+}
