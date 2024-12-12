@@ -7,8 +7,6 @@ websites:
   - url: https://www.paradigm.xyz/oss/alloy
 github:
   - url: https://github.com/alloy-rs
-crates:
-  - url: https://crates.io/crates/alloy
 blockchain:
   - address: "0x678bde72881ac85ad22ff536f06673cbf97691f8"
     networks:
@@ -16,3 +14,5 @@ blockchain:
     tags:
       - eoa
       - wallet
+crates:
+  - url: https://crates.io/crates/alloy
