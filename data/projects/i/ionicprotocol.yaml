@@ -19,3 +19,452 @@ blockchain:
       - base
       - frax
       - mode
+  - address: "0xff0375667570d0e6572360e9dfbe8f2a6d85ae87"
+    networks:
+      - optimism
+    tags:
+      - wallet
+  - address: "0xfb3323e24743caf4add0fdccfb268565c0685556"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - Main Pool
+  - address: "0x71ef7eda2be775e5a7aa8afd02c45f059833e9d2"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - ionWETH
+  - address: "0x2be717340023c9e14c1bb12cb3ecbcfd3c3fb038"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - ionUSDC
+  - address: "0x94812f2eea03a49869f95e1b5868c6f3206ee3d3"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - ionUSDT
+  - address: "0xd70254c3bad29504789714a7c69d60ec1127375c"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - ionWBTC
+  - address: "0x59e710215d45f584f44c0fee83da6d43d762d857"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - ionezETH
+  - address: "0x959fa710ccbb22c7ce1e59da82a247e686629310"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - ionSTONE
+  - address: "0x49950319abe7ce5c3a6c90698381b45989c99b46"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - ionwrsETH
+  - address: "0xa0d844742b4abbbc43d8931a6edb00c56325aa18"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - ionweETH.mode
+  - address: "0x9a9072302b775ffbd3db79a7766e75cf82bcac0a"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - ionweETH (OLD)
+  - address: "0x19f245782b1258cf3e11eda25784a378cc18c108"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - ionM-BTC
+  - address: "0x5158ae44c1351682b3dc046541edf84bf28c8ca4"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - iondMBTC
+  - address: "0x4417a9b33ba8dd6fc9dfd8274b401afd42299aa3"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - ionsUSDe
+  - address: "0xbb2b9780bdb4ccc168947050dffc3181503c4d18"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - ionUSDe
+  - address: "0x0acc14dcff35b731a3f9bd70dcba3c97c44edba0"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Main Markets - ionmsDAI
+  - address: "0x8fb3d4a94d0aa5d6edaac3ed82b59a27f56d923a"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Isolated Markets - Native Pool
+  - address: "0xdb8ee6d1114021a94a045956bbeecf35d13a30f2"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Isolated Markets - ionWETH
+  - address: "0xc53edeafb6d502daec5a7015d67936cea0cd0f52"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Isolated Markets - ionUSDC
+  - address: "0x3120b4907851cc9d780eef9af88ae4d5360175fd"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Isolated Markets - ionUSDT
+  - address: "0x4341620757bee7eb4553912fafc963e59c949147"
+    networks:
+      - mode
+    tags:
+      - contract
+    name: Isolated Markets - ionMODE
+  - address: "0x05c9c6417f246600f8f5f49fca9ee991bff73d13"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - Main Pool
+  - address: "0x079f84161642d81aafb67966123c9949f9284bf5"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionezETH
+  - address: "0x9d62e30c6cb7964c99314dcf5f847e36fcb29ca9"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionwstETH
+  - address: "0x9c201024a62466f9157b2daadda9326207addd29"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ioncbETH
+  - address: "0x014e08f05ac11bb532be62774a4c548368f59779"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionAERO
+  - address: "0xa900a17a49bc4d442ba7f72c39fa2108865671f0"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionUSDC
+  - address: "0x49420311b518f3d0c94e897592014de53831cfa3"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionWETH
+  - address: "0x84341b650598002d427570298564d6701733c805"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionweETH
+  - address: "0x9c2a4f9c5471fd36be3bbd8437a33935107215a1"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ioneUSD
+  - address: "0x3d9669de9e3e98db41a1cbf6dc23446109945e3c"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionbsdETH
+  - address: "0x751911bda88efcf412326abe649b7a3b28c4dede"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionhyUSD
+  - address: "0xfc6b82668e10aff62f208c492fc95ef1fa9c0426"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionRSR
+  - address: "0xc462eb5587062e2f2391990b8609d2428d8cf598"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionwsuperOETHb
+  - address: "0xe30965acd0ee1ce2e0cd0acbfb3596bd6fc78a51"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionwUSDM
+  - address: "0x1de166df671ae6db4c4c98903df88e8007593748"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ioncbBTC
+  - address: "0x0e5a87047f871050c0d713321deb0f008a41c495"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionEURC
+  - address: "0xe00b2b2ca7ac347bc7ca82fe5cff0f76222ff375"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionOGN
+  - address: "0x74109171033f662d5b898a7a2fcab2f1ef80c201"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionUSD+
+  - address: "0xa4442b665d4c6dbc6ea43137b336e3089f05626c"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionUSDz
+  - address: "0xf1bbecd6acf648540eb79588df692c6b2f0fbc09"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionwUSD+
+  - address: "0xf64bfd19ddcb2bb54e6f976a233d0a9400ed84ea"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionsUSDz
+  - address: "0xbd06905590b6e1b6ac979fc477a0aebb58d52371"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionuSOL
+  - address: "0xaa255cf8e294bd7fcab21897c0791e50c99bac69"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionuSUI
+  - address: "0xd333681242f376f9005d1208ff946c3ee73ed659"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionfBOMB
+  - address: "0x600d660440f15eeadbc3fc1403375e04b318f07e"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Main Market - ionKLIMA
+  - address: "0xafb4a254d125b0395610fdc8f1d022936c7b166b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Main Market - Main Pool
+  - address: "0x53b1d15b24d93330b2fd359c798de7183255e7f2"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Main Market - ionWETH
+  - address: "0x9f4089ea33773a090ac514934517990df04ae5a7"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Main Market - ionLUSD
+  - address: "0x50549be7e21c3dc0db03c3abab83e1a78d07e6e0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Main Market - ionUSDC
+  - address: "0x2527e8cc363ef3fd470c6320b22956021cacd149"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Main Market - ionwstETH
+  - address: "0xb2918350826c1fb3c8b25a553b5d49611698206f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Main Market - ionUSDT
+  - address: "0xaec01bb498bec2fe8f3416314d5e0db7ec76576b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Main Market - ionOP
+  - address: "0xe4c5aeb87762789f854b3bae7515cf00d77a1f5e"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Main Market - ionSNX
+  - address: "0x863dccaad60a1105f4b948c67895b4f0411c4497"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Main Market - ionWBTC
+  - address: "0xc63b18fc9025acc7830b9df05e5a0b208940a3ee"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Main Market - ionwUSDM
+  - address: "0xc741af01903f39841228de21d9ddd31ba604fec5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Main Market - ionweETH
+  - address: "0x9cfee81970aa10cc593b83fb96eaa9880a6df715"
+    networks:
+      - bob
+    tags:
+      - contract
+    name: Main Market - Main Pool
+  - address: "0x6be15482abef8eb4b8aff7d6ef9724f47e4d2fa2"
+    networks:
+      - bob
+    tags:
+      - contract
+    name: Main Market - ionSOV
+  - address: "0x10f07df86f5c3cb16f0ca62bd8239a4954eed2df"
+    networks:
+      - bob
+    tags:
+      - contract
+    name: Main Market - ionWETH
+  - address: "0x68e0e4d875fde34fc4698f40ccca0db5b67e3693"
+    networks:
+      - bob
+    tags:
+      - contract
+    name: Main Market - iontBTC
+  - address: "0xc023003d4c52362cc5e18350b6cec8a745c092b1"
+    networks:
+      - bob
+    tags:
+      - contract
+    name: Main Market - ionUSDT
+  - address: "0x3e14b5d5187efe86ea99422f7696db5408a5e372"
+    networks:
+      - bob
+    tags:
+      - contract
+    name: Main Market - ionUSDC
+  - address: "0xebc8a7ee7f1d6534ebf45bd5311203bf0a17493c"
+    networks:
+      - bob
+    tags:
+      - contract
+    name: Main Market - ionWBTC
+  - address: "0xb5141403e811fffe02f4d49ea8d4a7b0b9590658"
+    networks:
+      - frax
+    tags:
+      - contract
+    name: Main Market - Main Pool
+  - address: "0x9a8859cc5991583107de1565af3207bfff9ddf88"
+    networks:
+      - frax
+    tags:
+      - contract
+    name: Main Market - ionwFRXETH
+  - address: "0x7cc4253dd910be388a1417c87755c593a4b3bcf1"
+    networks:
+      - frax
+    tags:
+      - contract
+    name: Main Market - ionFRAX
+  - address: "0xdadd8556a6fb5fec7600c6e9db7ac500a1de3070"
+    networks:
+      - frax
+    tags:
+      - contract
+    name: Main Market - ionFXS
+  - address: "0x71890fb9b7b52e569c933a81c1e362a55c4427ee"
+    networks:
+      - frax
+    tags:
+      - contract
+    name: Main Market - ionsFRAX
+  - address: "0xe79a3131d93f135e3957d81b7f73730157e1d3e4"
+    networks:
+      - frax
+    tags:
+      - contract
+    name: Main Market - ionsfrxETH
+  - address: "0xe401593b47723ce64b553f88c5c0762484996796"
+    networks:
+      - frax
+    tags:
+      - contract
+    name: Main Market - ioninsfrxETH
+  - address: "0xf448a36fefb223b8e46e36ff12091baba97bdf60"
+    networks:
+      - lisk
+    tags:
+      - contract
+    name: Main Market - Main Pool
+  - address: "0x1c3e2b1a167d8b6d85505e82f46495eeb34951f8"
+    networks:
+      - lisk
+    tags:
+      - contract
+    name: Main Market - ionWETH
+  - address: "0x0d72f18bc4b4a2f0370af6d799045595d806636f"
+    networks:
+      - lisk
+    tags:
+      - contract
+    name: Main Market - ionUSDT
+  - address: "0x5d4fe9b1dc67d20ac79e5e8386d46517aa6b657c"
+    networks:
+      - lisk
+    tags:
+      - contract
+    name: Main Market - ionLSK
