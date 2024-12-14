@@ -1,8 +1,9 @@
 version: 7
 name: tenderly
 display_name: Tenderly
-description: Start monitoring your contracts with error tracking, detailed
-  contract analytics and smart alerts that notify you when something happens.
+description:
+  Start monitoring your contracts with error tracking, detailed contract
+  analytics and smart alerts that notify you when something happens.
 websites:
   - url: https://tenderly.co
 github:
@@ -14,3 +15,7 @@ blockchain:
     tags:
       - eoa
       - wallet
+npm:
+  - url: https://www.npmjs.com/package/@tenderly/actions
+  - url: https://www.npmjs.com/package/@tenderly/hardhat-tenderly
+  - url: https://www.npmjs.com/package/tenderly

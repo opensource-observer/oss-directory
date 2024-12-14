@@ -17,3 +17,7 @@ blockchain:
     tags:
       - safe
       - wallet
+go:
+  - url: https://github.com/prysmaticlabs/fastssz
+  - url: https://github.com/prysmaticlabs/go-bitfield
+  - url: https://github.com/prysmaticlabs/gohashtree

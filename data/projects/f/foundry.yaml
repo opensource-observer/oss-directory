@@ -1,8 +1,9 @@
 version: 7
 name: foundry
 display_name: Foundry
-description: Foundry is a blazing fast, portable and modular toolkit for
-  Ethereum application development written in Rust.
+description:
+  Foundry is a blazing fast, portable and modular toolkit for Ethereum
+  application development written in Rust.
 websites:
   - url: https://getfoundry.sh
 github:
@@ -20,3 +21,9 @@ blockchain:
     tags:
       - eoa
       - wallet
+npm:
+  - url: https://www.npmjs.com/package/@foundry-rs/easy-foundryup
+  - url: https://www.npmjs.com/package/@foundry-rs/hardhat-anvil
+  - url: https://www.npmjs.com/package/@foundry-rs/hardhat-forge
+crates:
+  - url: https://crates.io/crates/foundry-compilers

@@ -6,32 +6,37 @@ github:
   - url: https://github.com/safe-global
   - url: https://github.com/5afe
 npm:
-  - url: https://www.npmjs.com/package/@safe-global/safe-apps-sdk
-  - url: https://www.npmjs.com/package/@safe-global/safe-apps-provider
-  - url: https://www.npmjs.com/package/@safe-global/safe-gateway-typescript-sdk
-  - url: https://www.npmjs.com/package/@safe-global/safe-core-sdk-types
-  - url: https://www.npmjs.com/package/@safe-global/safe-core-sdk
-  - url: https://www.npmjs.com/package/@safe-global/safe-deployments
-  - url: https://www.npmjs.com/package/@safe-global/safe-ethers-lib
-  - url: https://www.npmjs.com/package/@safe-global/safe-core-sdk-utils
-  - url: https://www.npmjs.com/package/@safe-global/safe-ethers-adapters
-  - url: https://www.npmjs.com/package/@safe-global/protocol-kit
-  - url: https://www.npmjs.com/package/@safe-global/safe-service-client
-  - url: https://www.npmjs.com/package/@safe-global/api-kit
-  - url: https://www.npmjs.com/package/@safe-global/safe-web3-lib
-  - url: https://www.npmjs.com/package/@safe-global/relay-kit
-  - url: https://www.npmjs.com/package/@safe-global/safe-react-components
-  - url: https://www.npmjs.com/package/@safe-global/safe-singleton-factory
-  - url: https://www.npmjs.com/package/@safe-global/safe-modules-deployments
-  - url: https://www.npmjs.com/package/@safe-global/auth-kit
+  - url: https://www.npmjs.com/package/@gnosis.pm/safe-core-sdk
+  - url: https://www.npmjs.com/package/@gnosis.pm/safe-core-sdk-types
+  - url: https://www.npmjs.com/package/@gnosis.pm/safe-core-sdk-utils
+  - url: https://www.npmjs.com/package/@gnosis.pm/safe-ethers-lib
+  - url: https://www.npmjs.com/package/@gnosis.pm/safe-service-client
   - url: https://www.npmjs.com/package/@safe-global/account-abstraction-kit-poc
+  - url: https://www.npmjs.com/package/@safe-global/api-kit
+  - url: https://www.npmjs.com/package/@safe-global/auth-kit
+  - url: https://www.npmjs.com/package/@safe-global/cra-template-safe-app
+  - url: https://www.npmjs.com/package/@safe-global/mock-contract
+  - url: https://www.npmjs.com/package/@safe-global/onramp-kit
+  - url: https://www.npmjs.com/package/@safe-global/protocol-kit
+  - url: https://www.npmjs.com/package/@safe-global/relay-kit
+  - url: https://www.npmjs.com/package/@safe-global/safe-apps-provider
   - url: https://www.npmjs.com/package/@safe-global/safe-apps-react-sdk
+  - url: https://www.npmjs.com/package/@safe-global/safe-apps-sdk
   - url: https://www.npmjs.com/package/@safe-global/safe-apps-web3modal
   - url: https://www.npmjs.com/package/@safe-global/safe-contracts
-  - url: https://www.npmjs.com/package/@safe-global/onramp-kit
-  - url: https://www.npmjs.com/package/@safe-global/mock-contract
   - url: https://www.npmjs.com/package/@safe-global/safe-core-protocol
-  - url: https://www.npmjs.com/package/@safe-global/cra-template-safe-app
+  - url: https://www.npmjs.com/package/@safe-global/safe-core-sdk
+  - url: https://www.npmjs.com/package/@safe-global/safe-core-sdk-types
+  - url: https://www.npmjs.com/package/@safe-global/safe-core-sdk-utils
+  - url: https://www.npmjs.com/package/@safe-global/safe-deployments
+  - url: https://www.npmjs.com/package/@safe-global/safe-ethers-adapters
+  - url: https://www.npmjs.com/package/@safe-global/safe-ethers-lib
+  - url: https://www.npmjs.com/package/@safe-global/safe-gateway-typescript-sdk
+  - url: https://www.npmjs.com/package/@safe-global/safe-modules-deployments
+  - url: https://www.npmjs.com/package/@safe-global/safe-react-components
+  - url: https://www.npmjs.com/package/@safe-global/safe-service-client
+  - url: https://www.npmjs.com/package/@safe-global/safe-singleton-factory
+  - url: https://www.npmjs.com/package/@safe-global/safe-web3-lib
 blockchain:
   - address: "0xa05c4256ff0dd38697e63d48df146e6e2fe7fe4a"
     networks:
@@ -96,3 +101,5 @@ blockchain:
     tags:
       - safe
       - wallet
+pypi:
+  - url: https://pypi.org/project/safe-pysha3

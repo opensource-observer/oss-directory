@@ -1,8 +1,9 @@
 version: 7
 name: alloy-rs
 display_name: Alloy
-description: Alloy implements high-performance, well-tested & documented
-  libraries for interacting with Ethereum and other EVM-based chains.
+description:
+  Alloy implements high-performance, well-tested & documented libraries
+  for interacting with Ethereum and other EVM-based chains.
 websites:
   - url: https://www.paradigm.xyz/oss/alloy
 github:
@@ -16,3 +17,47 @@ blockchain:
       - wallet
 crates:
   - url: https://crates.io/crates/alloy
+  - url: https://crates.io/crates/alloy-chains
+  - url: https://crates.io/crates/alloy-consensus
+  - url: https://crates.io/crates/alloy-contract
+  - url: https://crates.io/crates/alloy-core
+  - url: https://crates.io/crates/alloy-dyn-abi
+  - url: https://crates.io/crates/alloy-eip2930
+  - url: https://crates.io/crates/alloy-eip7702
+  - url: https://crates.io/crates/alloy-eips
+  - url: https://crates.io/crates/alloy-genesis
+  - url: https://crates.io/crates/alloy-json-abi
+  - url: https://crates.io/crates/alloy-json-rpc
+  - url: https://crates.io/crates/alloy-network
+  - url: https://crates.io/crates/alloy-network-primitives
+  - url: https://crates.io/crates/alloy-primitives
+  - url: https://crates.io/crates/alloy-provider
+  - url: https://crates.io/crates/alloy-pubsub
+  - url: https://crates.io/crates/alloy-rlp
+  - url: https://crates.io/crates/alloy-rlp-derive
+  - url: https://crates.io/crates/alloy-rpc-client
+  - url: https://crates.io/crates/alloy-rpc-types
+  - url: https://crates.io/crates/alloy-rpc-types-anvil
+  - url: https://crates.io/crates/alloy-rpc-types-beacon
+  - url: https://crates.io/crates/alloy-rpc-types-engine
+  - url: https://crates.io/crates/alloy-rpc-types-eth
+  - url: https://crates.io/crates/alloy-rpc-types-trace
+  - url: https://crates.io/crates/alloy-rpc-types-txpool
+  - url: https://crates.io/crates/alloy-serde
+  - url: https://crates.io/crates/alloy-signer
+  - url: https://crates.io/crates/alloy-signer-local
+  - url: https://crates.io/crates/alloy-sol-macro
+  - url: https://crates.io/crates/alloy-sol-macro-expander
+  - url: https://crates.io/crates/alloy-sol-macro-input
+  - url: https://crates.io/crates/alloy-sol-type-parser
+  - url: https://crates.io/crates/alloy-sol-types
+  - url: https://crates.io/crates/alloy-transport
+  - url: https://crates.io/crates/alloy-transport-http
+  - url: https://crates.io/crates/alloy-transport-ipc
+  - url: https://crates.io/crates/alloy-transport-ws
+  - url: https://crates.io/crates/alloy-trie
+  - url: https://crates.io/crates/nybbles
+  - url: https://crates.io/crates/op-alloy-consensus
+  - url: https://crates.io/crates/svm-rs
+  - url: https://crates.io/crates/svm-rs-builds
+  - url: https://crates.io/crates/syn-solidity

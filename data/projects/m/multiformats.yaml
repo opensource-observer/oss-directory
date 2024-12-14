@@ -3,3 +3,49 @@ name: multiformats
 display_name: Multiformats
 github:
   - url: https://github.com/multiformats
+crates:
+  - url: https://crates.io/crates/multiaddr
+  - url: https://crates.io/crates/multibase
+  - url: https://crates.io/crates/multihash
+  - url: https://crates.io/crates/multihash-codetable
+  - url: https://crates.io/crates/multihash-derive
+  - url: https://crates.io/crates/multihash-derive-impl
+go:
+  - url: https://github.com/multiformats/go-base32
+  - url: https://github.com/multiformats/go-base36
+  - url: https://github.com/multiformats/go-multiaddr
+  - url: https://github.com/multiformats/go-multiaddr-dns
+  - url: https://github.com/multiformats/go-multiaddr-fmt
+  - url: https://github.com/multiformats/go-multiaddr-net
+  - url: https://github.com/multiformats/go-multibase
+  - url: https://github.com/multiformats/go-multicodec
+  - url: https://github.com/multiformats/go-multihash
+  - url: https://github.com/multiformats/go-multistream
+  - url: https://github.com/multiformats/go-varint
+npm:
+  - url: https://www.npmjs.com/package/@multiformats/dns
+  - url: https://www.npmjs.com/package/@multiformats/mafmt
+  - url: https://www.npmjs.com/package/@multiformats/multiaddr
+  - url: https://www.npmjs.com/package/@multiformats/multiaddr-matcher
+  - url: https://www.npmjs.com/package/@multiformats/multiaddr-to-uri
+  - url: https://www.npmjs.com/package/@multiformats/murmur3
+  - url: https://www.npmjs.com/package/@multiformats/sha3
+  - url: https://www.npmjs.com/package/@multiformats/uri-to-multiaddr
+  - url: https://www.npmjs.com/package/cid-tool
+  - url: https://www.npmjs.com/package/cids
+  - url: https://www.npmjs.com/package/mafmt
+  - url: https://www.npmjs.com/package/multiaddr
+  - url: https://www.npmjs.com/package/multiaddr-to-uri
+  - url: https://www.npmjs.com/package/multibase
+  - url: https://www.npmjs.com/package/multicodec
+  - url: https://www.npmjs.com/package/multiformats
+  - url: https://www.npmjs.com/package/multihashes
+  - url: https://www.npmjs.com/package/multihashing
+  - url: https://www.npmjs.com/package/multihashing-async
+  - url: https://www.npmjs.com/package/multistream-select
+  - url: https://www.npmjs.com/package/uri-to-multiaddr
+pypi:
+  - url: https://pypi.org/project/multiaddr
+  - url: https://pypi.org/project/py-multibase
+  - url: https://pypi.org/project/py-multicodec
+  - url: https://pypi.org/project/py-multihash

@@ -19,3 +19,7 @@ blockchain:
     tags:
       - eoa
       - wallet
+go:
+  - url: https://github.com/supranational/blst
+crates:
+  - url: https://crates.io/crates/blst

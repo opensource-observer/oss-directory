@@ -3,3 +3,37 @@ name: solana-labs
 display_name: Solana Labs
 github:
   - url: https://github.com/solana-labs
+npm:
+  - url: https://www.npmjs.com/package/@solana/buffer-layout
+  - url: https://www.npmjs.com/package/@solana/buffer-layout-utils
+  - url: https://www.npmjs.com/package/@solana/codecs
+  - url: https://www.npmjs.com/package/@solana/codecs-core
+  - url: https://www.npmjs.com/package/@solana/codecs-data-structures
+  - url: https://www.npmjs.com/package/@solana/codecs-numbers
+  - url: https://www.npmjs.com/package/@solana/codecs-strings
+  - url: https://www.npmjs.com/package/@solana/errors
+  - url: https://www.npmjs.com/package/@solana/options
+  - url: https://www.npmjs.com/package/@solana/spl-token
+  - url: https://www.npmjs.com/package/@solana/spl-token-group
+  - url: https://www.npmjs.com/package/@solana/spl-token-metadata
+  - url: https://www.npmjs.com/package/@solana/spl-token-registry
+  - url: https://www.npmjs.com/package/@solana/spl-type-length-value
+  - url: https://www.npmjs.com/package/@solana/web3.js
+crates:
+  - url: https://crates.io/crates/solana-crate-features
+  - url: https://crates.io/crates/solana_rbpf
+  - url: https://crates.io/crates/spl-associated-token-account
+  - url: https://crates.io/crates/spl-discriminator
+  - url: https://crates.io/crates/spl-discriminator-derive
+  - url: https://crates.io/crates/spl-discriminator-syn
+  - url: https://crates.io/crates/spl-memo
+  - url: https://crates.io/crates/spl-pod
+  - url: https://crates.io/crates/spl-program-error
+  - url: https://crates.io/crates/spl-program-error-derive
+  - url: https://crates.io/crates/spl-tlv-account-resolution
+  - url: https://crates.io/crates/spl-token
+  - url: https://crates.io/crates/spl-token-2022
+  - url: https://crates.io/crates/spl-token-group-interface
+  - url: https://crates.io/crates/spl-token-metadata-interface
+  - url: https://crates.io/crates/spl-transfer-hook-interface
+  - url: https://crates.io/crates/spl-type-length-value

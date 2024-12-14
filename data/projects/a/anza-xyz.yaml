@@ -3,3 +3,49 @@ name: anza-xyz
 display_name: Anza
 github:
   - url: https://github.com/anza-xyz
+crates:
+  - url: https://crates.io/crates/solana-account-decoder
+  - url: https://crates.io/crates/solana-address-lookup-table-program
+  - url: https://crates.io/crates/solana-banks-client
+  - url: https://crates.io/crates/solana-banks-interface
+  - url: https://crates.io/crates/solana-banks-server
+  - url: https://crates.io/crates/solana-bpf-loader-program
+  - url: https://crates.io/crates/solana-bucket-map
+  - url: https://crates.io/crates/solana-clap-utils
+  - url: https://crates.io/crates/solana-cli-config
+  - url: https://crates.io/crates/solana-client
+  - url: https://crates.io/crates/solana-compute-budget-program
+  - url: https://crates.io/crates/solana-config-program
+  - url: https://crates.io/crates/solana-connection-cache
+  - url: https://crates.io/crates/solana-faucet
+  - url: https://crates.io/crates/solana-frozen-abi
+  - url: https://crates.io/crates/solana-frozen-abi-macro
+  - url: https://crates.io/crates/solana-logger
+  - url: https://crates.io/crates/solana-measure
+  - url: https://crates.io/crates/solana-metrics
+  - url: https://crates.io/crates/solana-net-utils
+  - url: https://crates.io/crates/solana-perf
+  - url: https://crates.io/crates/solana-program
+  - url: https://crates.io/crates/solana-program-runtime
+  - url: https://crates.io/crates/solana-program-test
+  - url: https://crates.io/crates/solana-pubsub-client
+  - url: https://crates.io/crates/solana-quic-client
+  - url: https://crates.io/crates/solana-rayon-threadlimit
+  - url: https://crates.io/crates/solana-remote-wallet
+  - url: https://crates.io/crates/solana-rpc-client
+  - url: https://crates.io/crates/solana-rpc-client-api
+  - url: https://crates.io/crates/solana-rpc-client-nonce-utils
+  - url: https://crates.io/crates/solana-runtime
+  - url: https://crates.io/crates/solana-sdk
+  - url: https://crates.io/crates/solana-sdk-macro
+  - url: https://crates.io/crates/solana-stake-program
+  - url: https://crates.io/crates/solana-streamer
+  - url: https://crates.io/crates/solana-thin-client
+  - url: https://crates.io/crates/solana-tpu-client
+  - url: https://crates.io/crates/solana-transaction-status
+  - url: https://crates.io/crates/solana-udp-client
+  - url: https://crates.io/crates/solana-version
+  - url: https://crates.io/crates/solana-vote-program
+  - url: https://crates.io/crates/solana-zk-token-sdk
+npm:
+  - url: https://www.npmjs.com/package/@solana/wallet-adapter-trezor

@@ -1,8 +1,9 @@
 version: 7
 name: eth-infinitism-account-abstraction
 display_name: Infinitism (ERC-4337) - Account Abstraction
-description: An infinite game is not played for winning, but for continuing the
-  play — James Carse, Finite & Infinite Games 1986
+description:
+  An infinite game is not played for winning, but for continuing the play — James
+  Carse, Finite & Infinite Games 1986
 websites:
   - url: https://erc4337.io/
   - url: http://discord.gg/fbDyENb6Y9
@@ -38,3 +39,5 @@ blockchain:
     tags:
       - eoa
       - wallet
+npm:
+  - url: https://www.npmjs.com/package/@account-abstraction/contracts

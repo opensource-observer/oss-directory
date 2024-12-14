@@ -3,3 +3,30 @@ name: stellar
 display_name: Stellar
 github:
   - url: https://github.com/stellar
+npm:
+  - url: https://www.npmjs.com/package/@stellar/freighter-api
+  - url: https://www.npmjs.com/package/@stellar/js-xdr
+  - url: https://www.npmjs.com/package/@stellar/stellar-base
+  - url: https://www.npmjs.com/package/@stellar/stellar-sdk
+  - url: https://www.npmjs.com/package/js-xdr
+  - url: https://www.npmjs.com/package/soroban-client
+  - url: https://www.npmjs.com/package/stellar-base
+  - url: https://www.npmjs.com/package/stellar-sdk
+crates:
+  - url: https://crates.io/crates/bytes-lit
+  - url: https://crates.io/crates/crate-git-revision
+  - url: https://crates.io/crates/escape-bytes
+  - url: https://crates.io/crates/soroban-builtin-sdk-macros
+  - url: https://crates.io/crates/soroban-env-common
+  - url: https://crates.io/crates/soroban-env-guest
+  - url: https://crates.io/crates/soroban-env-host
+  - url: https://crates.io/crates/soroban-env-macros
+  - url: https://crates.io/crates/soroban-ledger-snapshot
+  - url: https://crates.io/crates/soroban-native-sdk-macros
+  - url: https://crates.io/crates/soroban-sdk
+  - url: https://crates.io/crates/soroban-sdk-macros
+  - url: https://crates.io/crates/soroban-spec
+  - url: https://crates.io/crates/soroban-spec-rust
+  - url: https://crates.io/crates/soroban-token-sdk
+  - url: https://crates.io/crates/stellar-strkey
+  - url: https://crates.io/crates/stellar-xdr

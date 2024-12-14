@@ -1,16 +1,27 @@
 version: 7
 name: hardhat-nomicfoundation
 display_name: Hardhat
-description: We build open source software to unlock developer productivity in
-  the Ethereum ecosystem.
+description:
+  We build open source software to unlock developer productivity in the
+  Ethereum ecosystem.
 websites:
   - url: https://nomic.foundation/
 github:
   - url: https://github.com/nomicfoundation/hardhat
   - url: https://github.com/nomicfoundation/hardhat-vscode
 npm:
-  - url: https://www.npmjs.com/package/hardhat
+  - url: https://www.npmjs.com/package/@nomicfoundation/edr-win32-arm64-msvc
+  - url: https://www.npmjs.com/package/@nomicfoundation/edr-win32-ia32-msvc
+  - url: https://www.npmjs.com/package/@nomicfoundation/hardhat-chai-matchers
+  - url: https://www.npmjs.com/package/@nomicfoundation/hardhat-ethers
+  - url: https://www.npmjs.com/package/@nomicfoundation/hardhat-foundry
+  - url: https://www.npmjs.com/package/@nomicfoundation/hardhat-network-helpers
+  - url: https://www.npmjs.com/package/@nomicfoundation/hardhat-toolbox
+  - url: https://www.npmjs.com/package/@nomicfoundation/hardhat-toolbox-viem
+  - url: https://www.npmjs.com/package/@nomicfoundation/hardhat-verify
+  - url: https://www.npmjs.com/package/@nomicfoundation/hardhat-viem
   - url: https://www.npmjs.com/package/@nomiclabs/hardhat-waffle
+  - url: https://www.npmjs.com/package/hardhat
 blockchain:
   - address: "0xbfff244f4f76f5f983e320f1d4708a7c91e7d3d2"
     networks:

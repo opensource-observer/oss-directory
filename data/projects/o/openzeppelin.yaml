@@ -99,16 +99,35 @@ github:
   - url: https://github.com/openzeppelin/workshops
   - url: https://github.com/openzeppelin/zeppelin.solutions
 npm:
-  - url: https://www.npmjs.com/package/@openzeppelin/contracts
-  - url: https://www.npmjs.com/package/@openzeppelin/contracts-upgradeable
-  - url: https://www.npmjs.com/package/@openzeppelin/hardhat-upgrades
-  - url: https://www.npmjs.com/package/@openzeppelin/test-helpers
-  - url: https://www.npmjs.com/package/@openzeppelin/upgrades-core
-  - url: https://www.npmjs.com/package/@openzeppelin/defender-base-client
-  - url: https://www.npmjs.com/package/@openzeppelin/wizard
+  - url: https://www.npmjs.com/package/@openzeppelin/cli
   - url: https://www.npmjs.com/package/@openzeppelin/contract-loader
-  - url: https://www.npmjs.com/package/@openzeppelin/merkle-tree
+  - url: https://www.npmjs.com/package/@openzeppelin/contracts
+  - url: https://www.npmjs.com/package/@openzeppelin/contracts-ethereum-package
+  - url: https://www.npmjs.com/package/@openzeppelin/contracts-upgradeable
+  - url: https://www.npmjs.com/package/@openzeppelin/defender-admin-client
+  - url: https://www.npmjs.com/package/@openzeppelin/defender-base-client
   - url: https://www.npmjs.com/package/@openzeppelin/defender-relay-client
+  - url: https://www.npmjs.com/package/@openzeppelin/defender-sdk-base-client
+  - url: https://www.npmjs.com/package/@openzeppelin/defender-sdk-deploy-client
+  - url: https://www.npmjs.com/package/@openzeppelin/defender-sdk-network-client
+  - url: https://www.npmjs.com/package/@openzeppelin/gsn-provider
+  - url: https://www.npmjs.com/package/@openzeppelin/hardhat-defender
+  - url: https://www.npmjs.com/package/@openzeppelin/hardhat-upgrades
+  - url: https://www.npmjs.com/package/@openzeppelin/merkle-tree
+  - url: https://www.npmjs.com/package/@openzeppelin/platform-deploy-client
+  - url: https://www.npmjs.com/package/@openzeppelin/subgraphs
+  - url: https://www.npmjs.com/package/@openzeppelin/test-environment
+  - url: https://www.npmjs.com/package/@openzeppelin/test-helpers
+  - url: https://www.npmjs.com/package/@openzeppelin/truffle-upgrades
+  - url: https://www.npmjs.com/package/@openzeppelin/upgrade-safe-transpiler
+  - url: https://www.npmjs.com/package/@openzeppelin/upgrades
+  - url: https://www.npmjs.com/package/@openzeppelin/upgrades-core
+  - url: https://www.npmjs.com/package/@openzeppelin/wizard
+  - url: https://www.npmjs.com/package/openzeppelin-solidity
+  - url: https://www.npmjs.com/package/openzeppelin-test-helpers
+  - url: https://www.npmjs.com/package/solidity-ast
+  - url: https://www.npmjs.com/package/solidity-docgen
+  - url: https://www.npmjs.com/package/zos-lib
 blockchain:
   - address: "0xbc125d485ee2f414c84674085538118265d3f168"
     networks:

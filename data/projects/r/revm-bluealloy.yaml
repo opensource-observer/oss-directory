@@ -14,3 +14,8 @@ blockchain:
     tags:
       - eoa
       - wallet
+crates:
+  - url: https://crates.io/crates/revm
+  - url: https://crates.io/crates/revm-interpreter
+  - url: https://crates.io/crates/revm-precompile
+  - url: https://crates.io/crates/revm-primitives
