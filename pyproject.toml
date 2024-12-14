@@ -7,7 +7,7 @@ license = "Apache-2.0"
 readme = "README.md"
 packages = [
     { include = "ossdirectory", from = "src/" },
-    { include = "resources", from = "src/", to = "ossdirectory" },
+    { include = "resources", from = "src/" }
 ]
 repository = "https://github.com/opensource-observer/oss-directory"
 homepage = "https://www.opensource.observer"

@@ -3,3 +3,10 @@ name: quic-go
 display_name: quic-go
 github:
   - url: https://github.com/quic-go
+go:
+  - url: https://github.com/quic-go/qpack
+  - url: https://github.com/quic-go/qtls-go1-18
+  - url: https://github.com/quic-go/qtls-go1-19
+  - url: https://github.com/quic-go/qtls-go1-20
+  - url: https://github.com/quic-go/quic-go
+  - url: https://github.com/quic-go/webtransport-go

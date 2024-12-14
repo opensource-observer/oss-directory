@@ -5,3 +5,19 @@ websites:
   - url: https://zksync.io/
 github:
   - url: https://github.com/matter-labs
+npm:
+  - url: https://www.npmjs.com/package/@matterlabs/hardhat-zksync
+  - url: https://www.npmjs.com/package/@matterlabs/hardhat-zksync-chai-matchers
+  - url: https://www.npmjs.com/package/@matterlabs/hardhat-zksync-deploy
+  - url: https://www.npmjs.com/package/@matterlabs/hardhat-zksync-ethers
+  - url: https://www.npmjs.com/package/@matterlabs/hardhat-zksync-node
+  - url: https://www.npmjs.com/package/@matterlabs/hardhat-zksync-solc
+  - url: https://www.npmjs.com/package/@matterlabs/hardhat-zksync-upgradable
+  - url: https://www.npmjs.com/package/@matterlabs/hardhat-zksync-verify
+  - url: https://www.npmjs.com/package/@matterlabs/zksync-contracts
+crates:
+  - url: https://crates.io/crates/bellman_ce
+  - url: https://crates.io/crates/ff_ce
+  - url: https://crates.io/crates/ff_derive_ce
+  - url: https://crates.io/crates/fflonk
+  - url: https://crates.io/crates/pairing_ce

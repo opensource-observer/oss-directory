@@ -1,8 +1,9 @@
 version: 7
 name: guildxyz
 display_name: Guild.xyz
-description: On a mission to build full interoperability for communities between
-  all their platforms for sharing, interactions, and collaboration.
+description:
+  On a mission to build full interoperability for communities between all
+  their platforms for sharing, interactions, and collaboration.
 websites:
   - url: https://guild.xyz
 social:
@@ -53,3 +54,5 @@ blockchain:
       - eoa
       - wallet
     name: agoraxyz.eth
+npm:
+  - url: https://www.npmjs.com/package/@guildxyz/sdk

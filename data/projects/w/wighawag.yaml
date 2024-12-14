@@ -1,8 +1,9 @@
 version: 7
 name: wighawag
 display_name: Jolly Roger and Hardhat-deploy
-description: Build and Deploy for Eternity. Production-Ready Template To Build
-  Decentralised Apps and Games.
+description:
+  Build and Deploy for Eternity. Production-Ready Template To Build Decentralised
+  Apps and Games.
 websites:
   - url: https://ronan.eth.limo
   - url: https://stratagems.world
@@ -47,6 +48,7 @@ github:
   - url: https://github.com/wighawag/hardhat-deploy
 npm:
   - url: https://www.npmjs.com/package/hardhat-deploy
+  - url: https://www.npmjs.com/package/hardhat-preprocessor
 blockchain:
   - address: "0xbe19b59e8c588d68f475a407c7ba5fe813aeb792"
     tags:

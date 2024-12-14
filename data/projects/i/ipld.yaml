@@ -3,3 +3,29 @@ name: ipld
 display_name: InterPlanetary Linked Data (IPLD)
 github:
   - url: https://github.com/ipld
+npm:
+  - url: https://www.npmjs.com/package/@ipld/car
+  - url: https://www.npmjs.com/package/@ipld/dag-cbor
+  - url: https://www.npmjs.com/package/@ipld/dag-json
+  - url: https://www.npmjs.com/package/@ipld/dag-pb
+  - url: https://www.npmjs.com/package/@ipld/dag-ucan
+  - url: https://www.npmjs.com/package/@ipld/unixfs
+  - url: https://www.npmjs.com/package/interface-ipld-format
+  - url: https://www.npmjs.com/package/ipld-bitcoin
+  - url: https://www.npmjs.com/package/ipld-block
+  - url: https://www.npmjs.com/package/ipld-dag-cbor
+  - url: https://www.npmjs.com/package/ipld-dag-pb
+  - url: https://www.npmjs.com/package/ipld-ethereum
+  - url: https://www.npmjs.com/package/ipld-git
+  - url: https://www.npmjs.com/package/ipld-raw
+  - url: https://www.npmjs.com/package/ipld-zcash
+go:
+  - url: https://github.com/ipld/edelweiss
+  - url: https://github.com/ipld/go-car
+  - url: https://github.com/ipld/go-car/v2
+  - url: https://github.com/ipld/go-codec-dagpb
+  - url: https://github.com/ipld/go-ipld-prime
+  - url: https://github.com/ipld/go-ipld-selector-text-lite
+crates:
+  - url: https://crates.io/crates/libipld
+  - url: https://crates.io/crates/serde_ipld_dagcbor

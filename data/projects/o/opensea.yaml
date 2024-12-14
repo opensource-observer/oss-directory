@@ -1,7 +1,9 @@
 version: 7
 name: opensea
 display_name: OpenSea
-description: OpenSea is a marketplace for safely and efficiently buying and selling NFTs.
+description:
+  OpenSea is a marketplace for safely and efficiently buying and selling
+  NFTs.
 websites:
   - url: https://opensea.io
 social:
@@ -148,3 +150,6 @@ blockchain:
     tags:
       - contract
     name: Conduit
+npm:
+  - url: https://www.npmjs.com/package/@opensea/seaport-js
+  - url: https://www.npmjs.com/package/opensea-js

@@ -1,8 +1,9 @@
 version: 7
 name: latticexyz
 display_name: Lattice
-description: Lattice builds full-stack solutions for autonomous worlds,
-  including the MUD operating system, Redstone platform, and Sky Strife game.
+description:
+  Lattice builds full-stack solutions for autonomous worlds, including
+  the MUD operating system, Redstone platform, and Sky Strife game.
 websites:
   - url: https://lattice.xyz
 social:
@@ -17,3 +18,27 @@ blockchain:
     tags:
       - safe
       - wallet
+npm:
+  - url: https://www.npmjs.com/package/@latticexyz/abi-ts
+  - url: https://www.npmjs.com/package/@latticexyz/block-logs-stream
+  - url: https://www.npmjs.com/package/@latticexyz/cli
+  - url: https://www.npmjs.com/package/@latticexyz/common
+  - url: https://www.npmjs.com/package/@latticexyz/config
+  - url: https://www.npmjs.com/package/@latticexyz/dev-tools
+  - url: https://www.npmjs.com/package/@latticexyz/gas-report
+  - url: https://www.npmjs.com/package/@latticexyz/network
+  - url: https://www.npmjs.com/package/@latticexyz/protocol-parser
+  - url: https://www.npmjs.com/package/@latticexyz/react
+  - url: https://www.npmjs.com/package/@latticexyz/recs
+  - url: https://www.npmjs.com/package/@latticexyz/schema-type
+  - url: https://www.npmjs.com/package/@latticexyz/services
+  - url: https://www.npmjs.com/package/@latticexyz/solecs
+  - url: https://www.npmjs.com/package/@latticexyz/std-client
+  - url: https://www.npmjs.com/package/@latticexyz/std-contracts
+  - url: https://www.npmjs.com/package/@latticexyz/store
+  - url: https://www.npmjs.com/package/@latticexyz/store-sync
+  - url: https://www.npmjs.com/package/@latticexyz/utils
+  - url: https://www.npmjs.com/package/@latticexyz/world
+  - url: https://www.npmjs.com/package/@latticexyz/world-modules
+  - url: https://www.npmjs.com/package/solhint-config-mud
+  - url: https://www.npmjs.com/package/solhint-plugin-mud

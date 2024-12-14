@@ -1,9 +1,9 @@
 version: 7
 name: solhint-protofire
 display_name: Solhint
-description: We help startups with protocol & smart contract engineering,
-  high-performance trusted data feeds (oracles), and awesome developer tools
-  (SDKs/APIs)
+description:
+  We help startups with protocol & smart contract engineering, high-performance
+  trusted data feeds (oracles), and awesome developer tools (SDKs/APIs)
 websites:
   - url: https://protofire.io
 social:
@@ -26,3 +26,5 @@ blockchain:
       - safe
       - wallet
     name: tbd
+npm:
+  - url: https://www.npmjs.com/package/solhint

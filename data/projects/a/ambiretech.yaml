@@ -1,9 +1,9 @@
 version: 7
 name: ambiretech
 display_name: AmbireTech
-description: Ambire makes Web3 self-custody easy and secure for everyone through
-  account abstraction. We're also building a fully transparent ad network
-  (AdEx).
+description:
+  Ambire makes Web3 self-custody easy and secure for everyone through account
+  abstraction. We're also building a fully transparent ad network (AdEx).
 websites:
   - url: https://www.ambire.com
 social:
@@ -26,3 +26,5 @@ blockchain:
     tags:
       - safe
       - wallet
+npm:
+  - url: https://www.npmjs.com/package/@ambire/signature-validator

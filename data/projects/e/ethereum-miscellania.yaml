@@ -1,8 +1,9 @@
 version: 7
 name: ethereum-miscellania
 display_name: Ethereum Miscellenia
-description: Repos in the Ethereum GitHub org space that have not been claimed
-  by other projects in OSS Directory.
+description:
+  Repos in the Ethereum GitHub org space that have not been claimed by
+  other projects in OSS Directory.
 github:
   - url: https://github.com/ethereum/abm1559
   - url: https://github.com/ethereum/act
@@ -192,3 +193,22 @@ github:
   - url: https://github.com/ethereum/webthree-umbrella
   - url: https://github.com/ethereum/whisper
   - url: https://github.com/ethereum/yellowpaper
+npm:
+  - url: https://www.npmjs.com/package/solc
+pypi:
+  - url: https://pypi.org/project/eth-abi
+  - url: https://pypi.org/project/eth-account
+  - url: https://pypi.org/project/eth-bloom
+  - url: https://pypi.org/project/eth-hash
+  - url: https://pypi.org/project/eth-keyfile
+  - url: https://pypi.org/project/eth-keys
+  - url: https://pypi.org/project/eth-rlp
+  - url: https://pypi.org/project/eth-tester
+  - url: https://pypi.org/project/eth-typing
+  - url: https://pypi.org/project/eth-utils
+  - url: https://pypi.org/project/hexbytes
+  - url: https://pypi.org/project/py-ecc
+  - url: https://pypi.org/project/py-solc
+  - url: https://pypi.org/project/pyethash
+  - url: https://pypi.org/project/rlp
+  - url: https://pypi.org/project/trie

@@ -1,17 +1,20 @@
 version: 7
 name: subquery
 display_name: SubQuery Network
-description: SubQuery is a leading blockchain data indexer that provides
-  developers with fast, flexible, universal, and decentralised APIs for web3
-  projects. We empower developers from over 100+ ecosystems including Stellar,
-  Ethereum, Polygon, Polkadot, Cosmos, Algorand, NEAR, and Avalanche with rich
-  indexed data to allow them to build intuitive and immersive decentralised
-  applications. This blockchain developer toolkit enables developers to focus on
-  their core use case and front-end without wasting time building a custom
-  backend for data processing activities. In the near future, the SubQuery
-  Network will replicate this scalable and reliable solution in a completely
+description:
+  SubQuery is a leading blockchain data indexer that provides developers
+  with fast, flexible, universal, and decentralised APIs for web3 projects. We empower
+  developers from over 100+ ecosystems including Stellar, Ethereum, Polygon, Polkadot,
+  Cosmos, Algorand, NEAR, and Avalanche with rich indexed data to allow them to build
+  intuitive and immersive decentralised applications. This blockchain developer toolkit
+  enables developers to focus on their core use case and front-end without wasting
+  time building a custom backend for data processing activities. In the near future,
+  the SubQuery Network will replicate this scalable and reliable solution in a completely
   decentralised manner.
 websites:
   - url: https://subquery.network/
 github:
   - url: https://github.com/subquery
+npm:
+  - url: https://www.npmjs.com/package/@subql/common
+  - url: https://www.npmjs.com/package/@subql/types
