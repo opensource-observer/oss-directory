@@ -15,9 +15,9 @@ This directory is a public good, free to use and distribute. We hope it serves t
 
 Currently the main way to contribute is by submitting a pull request. You can update any `.yaml` file under `./data/` or submit a new one. Fork this repository, commit your changes, and open a pull request from your fork to this repository.
 
-Detailed instructions are available in the [latest docs](https://docs.opensource.observer/docs/contribute/project-data).
+Detailed instructions are available in the [latest docs](https://docs.opensource.observer/docs/projects).
 
-If you are adding a new project, please make sure to include a unique project name to identify the project and at least one GitHub url. In most cases, we adopt the GitHub organization name as the project name. Our project naming conventions are described in more detail [here](https://docs.opensource.observer/docs/contribute/project-data/#project-names) - please try to follow them!
+If you are adding a new project, please make sure to include a unique project name to identify the project and at least one GitHub url. In most cases, we adopt the GitHub organization name as the project name. Our project naming conventions are described in more detail [here](https://docs.opensource.observer/docs/projects#project-names) - please try to follow them!
 
 Submissions will be validated to ensure they conform to the schema and don't contain any artifacts that are already in the directory. If you are unsure or have additional questions about contributing, please open an issue or message us on [Discord](https://www.opensource.observer/discord).
 
