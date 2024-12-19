@@ -1,4 +1,3 @@
-from dotenv import load_dotenv
 import os
 import csv
 import requests
@@ -6,7 +5,6 @@ from typing import Dict, List, Optional
 import yaml
 
 # Constants
-load_dotenv()
 GITHUB_API_TOKEN = os.getenv("GITHUB_API_KEY")
 HEADERS = {"Authorization": f"token {GITHUB_API_TOKEN}"} if GITHUB_API_TOKEN else {}
 API_BASE = "https://api.github.com"
