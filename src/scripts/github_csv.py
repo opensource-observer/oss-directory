@@ -30,41 +30,65 @@ def get_github_entity_type(owner: str) -> tuple[str, Optional[str]]:
 
     raise ValueError(f"Could not find GitHub entity: {owner}")
 
-def create_yaml_file(owner: str, repos: List[str], entity_type: str, display_name: str) -> None:
-    """Create a YAML file for the given owner with their repositories."""
-    # Create directory if it doesn't exist
+def create_or_update_yaml_file(owner: str, repos: List[str], entity_type: str, display_name: str) -> None:
+    """Create or update a YAML file for the given owner with their repositories."""
     first_letter = owner[0].lower()
     dir_path = os.path.join(LOCAL_PATH, first_letter)
     os.makedirs(dir_path, exist_ok=True)
+    file_path = os.path.join(dir_path, f"{owner}.yaml")
 
-    # Prepare YAML content
-    yaml_content = {
-        "version": VERSION,
-        "name": owner,
-        "display_name": display_name or owner,
-        "github": []
-    }
-
-    if entity_type == 'org':
-        # For organizations, just add the org URL
-        yaml_content["github"].append({"url": f"https://github.com/{owner}"})
+    # Check if file already exists
+    existing_content = {}
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as f:
+            existing_content = yaml.safe_load(f)
+        
+        # Skip if it's an organization
+        if entity_type == 'org':
+            print(f"Skipping existing organization: {owner}")
+            return
+        
+        # For users, merge new repos with existing ones
+        existing_urls = {item['url'] for item in existing_content.get('github', [])}
+        new_repos = [repo for repo in repos 
+                    if f"https://github.com/{owner}/{repo}" not in existing_urls]
+        
+        if not new_repos:
+            print(f"No new repos to add for: {owner}")
+            return
+        
+        # Add new repos to existing content
+        for repo in new_repos:
+            existing_content['github'].append({"url": f"https://github.com/{owner}/{repo}"})
+        
+        # Update version if needed
+        existing_content['version'] = VERSION
+        
+        yaml_content = existing_content
     else:
-        # For users, add all their repos from the CSV
-        for repo in repos:
-            yaml_content["github"].append({"url": f"https://github.com/{owner}/{repo}"})
+        # Create new file with initial content
+        yaml_content = {
+            "version": VERSION,
+            "name": owner,
+            "display_name": display_name or owner,
+            "github": []
+        }
+
+        if entity_type == 'org':
+            yaml_content["github"].append({"url": f"https://github.com/{owner}"})
+        else:
+            for repo in repos:
+                yaml_content["github"].append({"url": f"https://github.com/{owner}/{repo}"})
 
     # Write YAML file
-    file_path = os.path.join(dir_path, f"{owner}.yaml")
     with open(file_path, 'w') as f:
         yaml.dump(yaml_content, f, sort_keys=False, allow_unicode=True)
-    print(f"Created {file_path}")
+    print(f"{'Updated' if existing_content else 'Created'} {file_path}")
 
 def process_csv(csv_path: str) -> None:
     """Process the CSV file and create YAML files for each unique owner."""
-    # Dictionary to collect repos by owner
     owners_repos: Dict[str, List[str]] = {}
     
-    # Read CSV and collect repos by owner
     with open(csv_path, 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
@@ -74,11 +98,10 @@ def process_csv(csv_path: str) -> None:
                 owners_repos[owner] = []
             owners_repos[owner].append(repo)
 
-    # Process each owner
     for owner, repos in owners_repos.items():
         try:
             entity_type, display_name = get_github_entity_type(owner)
-            create_yaml_file(owner, repos, entity_type, display_name)
+            create_or_update_yaml_file(owner, repos, entity_type, display_name)
         except Exception as e:
             print(f"Error processing {owner}: {str(e)}")
 
@@ -95,3 +118,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
