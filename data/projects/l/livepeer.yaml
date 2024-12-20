@@ -1,8 +1,7 @@
 version: 7
 name: livepeer
 display_name: Livepeer
-description: The world's open video infrastructure.  For bug bounties, visit
-  https://immunefi.com/bounty/livepeer/
+description: The world's open video infrastructure.  For bug bounties, visit https://immunefi.com/bounty/livepeer/
 websites:
   - url: https://livepeer.org
 social:
@@ -48,3 +47,8 @@ blockchain:
     tags:
       - contract
     name: various:DiffersByChain
+npm:
+  - url: https://www.npmjs.com/package/@livepeer/core
+  - url: https://www.npmjs.com/package/@livepeer/core-react
+  - url: https://www.npmjs.com/package/@livepeer/react
+  - url: https://www.npmjs.com/package/livepeer

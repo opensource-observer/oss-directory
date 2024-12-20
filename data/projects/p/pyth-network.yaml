@@ -180,3 +180,9 @@ blockchain:
     tags:
       - contract
     name: MODE
+npm:
+  - url: https://www.npmjs.com/package/@pythnetwork/client
+  - url: https://www.npmjs.com/package/@pythnetwork/price-service-client
+  - url: https://www.npmjs.com/package/@pythnetwork/price-service-sdk
+  - url: https://www.npmjs.com/package/@pythnetwork/pyth-evm-js
+  - url: https://www.npmjs.com/package/@pythnetwork/pyth-sdk-solidity

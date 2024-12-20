@@ -85,3 +85,14 @@ blockchain:
       - contract
       - proxy
     name: "Optimism: L2StandardBridge"
+npm:
+  - url: https://www.npmjs.com/package/@eth-optimism/common-ts
+  - url: https://www.npmjs.com/package/@eth-optimism/contracts
+  - url: https://www.npmjs.com/package/@eth-optimism/contracts-periphery
+  - url: https://www.npmjs.com/package/@eth-optimism/contracts-ts
+  - url: https://www.npmjs.com/package/@eth-optimism/core-utils
+  - url: https://www.npmjs.com/package/@eth-optimism/sdk
+go:
+  - url: https://github.com/ethereum-optimism/go-ethereum-hdwallet
+  - url: https://github.com/ethereum-optimism/optimism
+  - url: https://github.com/ethereum-optimism/superchain-registry/superchain

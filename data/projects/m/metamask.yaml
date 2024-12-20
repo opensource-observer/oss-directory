@@ -7,17 +7,69 @@ websites:
 github:
   - url: https://github.com/metamask
 npm:
-  - url: https://www.npmjs.com/package/@metamask/eth-sig-util
-  - url: https://www.npmjs.com/package/@metamask/utils
-  - url: https://www.npmjs.com/package/@metamask/safe-event-emitter
+  - url: https://www.npmjs.com/package/@metamask/abi-utils
+  - url: https://www.npmjs.com/package/@metamask/approval-controller
+  - url: https://www.npmjs.com/package/@metamask/auto-changelog
+  - url: https://www.npmjs.com/package/@metamask/base-controller
+  - url: https://www.npmjs.com/package/@metamask/browser-passworder
+  - url: https://www.npmjs.com/package/@metamask/controller-utils
   - url: https://www.npmjs.com/package/@metamask/detect-provider
-  - url: https://www.npmjs.com/package/@metamask/snaps-ui
-  - url: https://www.npmjs.com/package/@metamask/snaps-types
+  - url: https://www.npmjs.com/package/@metamask/eslint-config
+  - url: https://www.npmjs.com/package/@metamask/eslint-config-jest
+  - url: https://www.npmjs.com/package/@metamask/eslint-config-nodejs
+  - url: https://www.npmjs.com/package/@metamask/eslint-config-typescript
+  - url: https://www.npmjs.com/package/@metamask/eth-json-rpc-middleware
+  - url: https://www.npmjs.com/package/@metamask/eth-json-rpc-provider
+  - url: https://www.npmjs.com/package/@metamask/eth-query
+  - url: https://www.npmjs.com/package/@metamask/eth-sig-util
+  - url: https://www.npmjs.com/package/@metamask/ethjs-unit
+  - url: https://www.npmjs.com/package/@metamask/jazzicon
+  - url: https://www.npmjs.com/package/@metamask/json-rpc-engine
+  - url: https://www.npmjs.com/package/@metamask/json-rpc-middleware-stream
+  - url: https://www.npmjs.com/package/@metamask/key-tree
+  - url: https://www.npmjs.com/package/@metamask/number-to-bn
+  - url: https://www.npmjs.com/package/@metamask/object-multiplex
+  - url: https://www.npmjs.com/package/@metamask/obs-store
+  - url: https://www.npmjs.com/package/@metamask/onboarding
+  - url: https://www.npmjs.com/package/@metamask/permission-controller
+  - url: https://www.npmjs.com/package/@metamask/phishing-controller
+  - url: https://www.npmjs.com/package/@metamask/post-message-stream
   - url: https://www.npmjs.com/package/@metamask/providers
   - url: https://www.npmjs.com/package/@metamask/rpc-errors
-  - url: https://www.npmjs.com/package/@metamask/key-tree
-  - url: https://www.npmjs.com/package/@metamask/base-controller
-  - url: https://www.npmjs.com/package/@metamask/controller-utils
+  - url: https://www.npmjs.com/package/@metamask/rpc-methods
+  - url: https://www.npmjs.com/package/@metamask/safe-event-emitter
+  - url: https://www.npmjs.com/package/@metamask/scure-bip39
+  - url: https://www.npmjs.com/package/@metamask/sdk
+  - url: https://www.npmjs.com/package/@metamask/sdk-communication-layer
+  - url: https://www.npmjs.com/package/@metamask/sdk-install-modal-web
+  - url: https://www.npmjs.com/package/@metamask/slip44
+  - url: https://www.npmjs.com/package/@metamask/snaps-browserify-plugin
+  - url: https://www.npmjs.com/package/@metamask/snaps-cli
+  - url: https://www.npmjs.com/package/@metamask/snaps-controllers
+  - url: https://www.npmjs.com/package/@metamask/snaps-execution-environments
+  - url: https://www.npmjs.com/package/@metamask/snaps-jest
+  - url: https://www.npmjs.com/package/@metamask/snaps-registry
+  - url: https://www.npmjs.com/package/@metamask/snaps-rpc-methods
+  - url: https://www.npmjs.com/package/@metamask/snaps-sdk
+  - url: https://www.npmjs.com/package/@metamask/snaps-simulator
+  - url: https://www.npmjs.com/package/@metamask/snaps-types
+  - url: https://www.npmjs.com/package/@metamask/snaps-ui
+  - url: https://www.npmjs.com/package/@metamask/snaps-utils
+  - url: https://www.npmjs.com/package/@metamask/snaps-webpack-plugin
+  - url: https://www.npmjs.com/package/@metamask/superstruct
+  - url: https://www.npmjs.com/package/@metamask/types
+  - url: https://www.npmjs.com/package/@metamask/utils
+  - url: https://www.npmjs.com/package/eth-block-tracker
+  - url: https://www.npmjs.com/package/eth-json-rpc-filters
+  - url: https://www.npmjs.com/package/eth-json-rpc-infura
+  - url: https://www.npmjs.com/package/eth-json-rpc-middleware
+  - url: https://www.npmjs.com/package/eth-phishing-detect
+  - url: https://www.npmjs.com/package/eth-sig-util
+  - url: https://www.npmjs.com/package/extension-port-stream
+  - url: https://www.npmjs.com/package/extensionizer
+  - url: https://www.npmjs.com/package/json-rpc-engine
+  - url: https://www.npmjs.com/package/json-rpc-middleware-stream
+  - url: https://www.npmjs.com/package/obs-store
 blockchain:
   - address: "0x4b327372a347ad97e45881428af26a4c28840c66"
     networks:

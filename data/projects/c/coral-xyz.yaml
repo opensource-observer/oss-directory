@@ -3,3 +3,21 @@ name: coral-xyz
 display_name: coral xyz
 github:
   - url: https://github.com/coral-xyz
+crates:
+  - url: https://crates.io/crates/anchor-attribute-access-control
+  - url: https://crates.io/crates/anchor-attribute-account
+  - url: https://crates.io/crates/anchor-attribute-constant
+  - url: https://crates.io/crates/anchor-attribute-error
+  - url: https://crates.io/crates/anchor-attribute-event
+  - url: https://crates.io/crates/anchor-attribute-interface
+  - url: https://crates.io/crates/anchor-attribute-program
+  - url: https://crates.io/crates/anchor-attribute-state
+  - url: https://crates.io/crates/anchor-derive-accounts
+  - url: https://crates.io/crates/anchor-derive-serde
+  - url: https://crates.io/crates/anchor-derive-space
+  - url: https://crates.io/crates/anchor-lang
+  - url: https://crates.io/crates/anchor-lang-idl
+  - url: https://crates.io/crates/anchor-syn
+npm:
+  - url: https://www.npmjs.com/package/@coral-xyz/anchor
+  - url: https://www.npmjs.com/package/@project-serum/anchor
