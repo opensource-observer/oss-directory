@@ -67,6 +67,12 @@
         "$ref": "blockchain-address.json#"
       }
     },
+    "defillama": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json#"
+      }
+    },
     "comments": {
       "type": "array",
       "items": {

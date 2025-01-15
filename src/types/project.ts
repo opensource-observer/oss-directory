@@ -22,6 +22,7 @@ export interface Project {
   go?: URL[];
   open_collective?: URL[];
   blockchain?: BlockchainAddress[];
+  defillama?: URL[];
   comments?: string[];
   [k: string]: unknown;
 }
