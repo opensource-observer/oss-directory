@@ -17,7 +17,7 @@ export interface Project {
   social?: SocialProfile;
   github?: URL[];
   npm?: URL[];
-  cargo?: URL[];
+  crates?: URL[];
   pypi?: URL[];
   go?: URL[];
   open_collective?: URL[];
