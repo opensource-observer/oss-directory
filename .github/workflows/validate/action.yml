@@ -54,7 +54,8 @@ runs:
     - name: Run validation
       shell: bash
       run: |
-        cd oso/ops/external-prs && pnpm tools ossd validate-pr --duckdb-memory-limit 4GB ${{ inputs.pr }} ${{ inputs.sha }} ../../../main ../../../pr
+        export NODE_OPTIONS="--max_old_space_size=8192"
+        cd oso/ops/external-prs && pnpm tools ossd validate-pr --duckdb-memory-limit 8GB ${{ inputs.pr }} ${{ inputs.sha }} ../../../main ../../../pr
       env:
         PR_TOOLS_REPO: ${{ github.repository }}
         PR_TOOLS_MAINNET_RPC_URL: ${{ inputs.mainnet_rpc_url }}
