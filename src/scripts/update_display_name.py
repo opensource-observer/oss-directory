@@ -40,12 +40,8 @@ def update_display_name(project_name: str) -> Optional[str]:
     org_name = get_github_org_name(github_url)
     
     if not org_name:
-        print("Could not fetch organization name from GitHub.")
-        manual_name = input(f"Please enter display name for {project_name} manually (or press Enter to skip): ").strip()
-        if manual_name:
-            org_name = manual_name
-        else:
-            return None
+        print("Could not fetch organization name from GitHub. Using project name as display name.")
+        org_name = project_name
 
     project_data['display_name'] = org_name
     with open(project_path, 'w') as file:
