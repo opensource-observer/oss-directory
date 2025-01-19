@@ -115,7 +115,7 @@ export async function validateProjects(args: ValidateArgs) {
         `Project version(${project.version}) must be ${currentVersion}: ${file}`,
       );
       // No conflicting display_name
-      //addKey(project.display_name, file);
+      addKey(project.display_name, file);
       // Check that all URLs belong to a single project file
       project.github?.forEach((x) => addKey(x.url, file));
       project.npm?.forEach((x) => addKey(x.url, file));

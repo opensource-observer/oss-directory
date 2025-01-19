@@ -20,12 +20,12 @@ def get_github_org_name(github_url: str) -> Optional[str]:
         print(f"Failed to fetch organization name for {owner}. Status code: {response.status_code}")
         return None
 
-def update_display_name(project_name: str) -> None:
+def update_display_name(project_name: str) -> Optional[str]:
     project_path = os.path.join(LOCAL_PATH, project_name[0], f"{project_name}.yaml")
     print(f"Project path: {project_path}")
     if not os.path.exists(project_path):
         print(f"File does not exist: {project_path}")
-        return
+        return None
 
     with open(project_path, 'r') as file:
         project_data = yaml.safe_load(file)
@@ -33,26 +33,40 @@ def update_display_name(project_name: str) -> None:
     github_urls = project_data.get('github', [])
     if not github_urls:
         print(f"No GitHub URL found in {project_path}")
-        return
+        return None
 
     github_url = github_urls[0]['url']
     print(f"GitHub URL: {github_url}")
     org_name = get_github_org_name(github_url)
-    if org_name:
-        project_data['display_name'] = org_name
-        with open(project_path, 'w') as file:
-            yaml.dump(project_data, file, sort_keys=False, allow_unicode=True)
-        print(f"Updated display_name for {project_name} to {org_name}")
-    else:
-        print(f"Could not update display_name for {project_name}")
+    
+    if not org_name:
+        print("Could not fetch organization name from GitHub. Using project name as display name.")
+        org_name = project_name
+
+    project_data['display_name'] = org_name
+    with open(project_path, 'w') as file:
+        yaml.dump(project_data, file, sort_keys=False, allow_unicode=True)
+    print(f"Updated display_name for {project_name} to {org_name}")
+    return org_name
 
 def main():
-    while True:
-        project_name = input("Enter the project name (or press Enter to quit): ").strip()
-        if not project_name:
-            print("Exiting...")
-            break
-        update_display_name(project_name)
+    import sys
+    
+    # Get project names from command line arguments
+    project_names = sys.argv[1:] if len(sys.argv) > 1 else []
+    
+    # If no command line arguments, prompt for interactive input
+    if not project_names:
+        while True:
+            project_name = input("Enter the project name (or press Enter to quit): ").strip()
+            if not project_name:
+                break
+            update_display_name(project_name)
+    else:
+        # Process list of project names
+        for project_name in project_names:
+            print(f"\nProcessing {project_name}...")
+            update_display_name(project_name)
 
 if __name__ == "__main__":
     main() 
