@@ -37,7 +37,7 @@
         "$ref": "url.json#"
       }
     },
-    "cargo": {
+    "crates": {
       "type": "array",
       "items": {
         "$ref": "url.json#"
@@ -65,6 +65,12 @@
       "type": "array",
       "items": {
         "$ref": "blockchain-address.json#"
+      }
+    },
+    "defillama": {
+      "type": "array",
+      "items": {
+        "$ref": "url.json#"
       }
     },
     "comments": {
