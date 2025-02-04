@@ -1,5 +1,6 @@
 version: 7
 name: friend-tech
 display_name: Friend.tech
+description: friend.tech is a progressive web app that requires installation via the Chrome browser menu. It utilizes push notifications for functionality, but iOS 17.1 contains a bug that interferes with notification delivery. Users must update to iOS 17.2 or later to ensure uninterrupted notifications.
 websites:
   - url: https://www.friend.tech/

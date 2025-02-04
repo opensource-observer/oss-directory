@@ -1,13 +1,14 @@
 version: 7
 name: uniswap
 display_name: Uniswap
-description: Web3 infrastructure and products
+description: Uniswap is a decentralized exchange protocol that enables automated liquidity provision and token trading on Ethereum. It utilizes constant product formula-based smart contracts to facilitate permissionless and efficient token swaps. Uniswap supports ETH and ERC-20 token pairs, with liquidity supplied by users.
 websites:
   - url: https://uniswap.org
 social:
   twitter:
     - url: https://twitter.com/Uniswap
 github:
+  - url: https://github.com/uniswapfoundation
   - url: https://github.com/uniswap/interface
   - url: https://github.com/uniswap/token-lists
   - url: https://github.com/uniswap/v4-core
@@ -106,6 +107,11 @@ npm:
   - url: https://www.npmjs.com/package/@uniswap/hardhat-v3-deploy
   - url: https://www.npmjs.com/package/@uniswap/ethers-rs-mobile
   - url: https://www.npmjs.com/package/@uniswap/swap-router-react
+defillama:
+  - url: https://defillama.com/protocol/uniswap-v3
+  - url: https://defillama.com/protocol/uniswap-v2
+  - url: https://defillama.com/protocol/uniswap-v1
+  - url: https://defillama.com/protocol/uniswap-labs
 blockchain:
   - address: "0xced01e7617bf6052a71154daa6d50d8b243f1b26"
     networks:

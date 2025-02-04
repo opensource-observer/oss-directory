@@ -1,7 +1,7 @@
 version: 7
 name: velodrome
 display_name: Velodrome
-description: The trading and liquidity marketplace on Superchain
+description: Velodrome is an AMM on Optimism that utilizes concentrated liquidity and innovative features like protocol-owned liquidity and boosted pools. It supports swaps, limit orders, and liquidity provision with customizable price ranges. Velodrome aims to enhance capital efficiency and reduce slippage for users.
 websites:
   - url: https://velodrome.finance
 social:
@@ -9,6 +9,10 @@ social:
     - url: https://twitter.com/VelodromeFi
 github:
   - url: https://github.com/velodrome-finance
+defillama:
+  - url: https://defillama.com/protocol/velodrome-v3
+  - url: https://defillama.com/protocol/velodrome-v2
+  - url: https://defillama.com/protocol/velodrome-v1
 blockchain:
   - address: "0x8321926c8aae281ef9d8520a772eb1d94a9ec6dd"
     networks:

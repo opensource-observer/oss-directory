@@ -114,8 +114,17 @@ export async function validateProjects(args: ValidateArgs) {
         project.version === currentVersion,
         `Project version(${project.version}) must be ${currentVersion}: ${file}`,
       );
+      // No conflicting display_name
+      addKey(project.display_name, file);
+      // Check that all URLs belong to a single project file
       project.github?.forEach((x) => addKey(x.url, file));
       project.npm?.forEach((x) => addKey(x.url, file));
+      project.crates?.forEach((x) => addKey(x.url, file));
+      project.go?.forEach((x) => addKey(x.url, file));
+      project.pypi?.forEach((x) => addKey(x.url, file));
+      project.open_collective?.forEach((x) => addKey(x.url, file));
+      project.defillama?.forEach((x) => addKey(x.url, file));
+      // Check that all blockchain addresses belong to a single project file
       project.blockchain?.forEach((x) =>
         x.networks.forEach((n) => addKey(`${n}:${x.address}`, file)),
       );
@@ -126,10 +135,13 @@ export async function validateProjects(args: ValidateArgs) {
   }
 
   // Make sure that there's only 1 project per key
-  const withDuplicates = _.pickBy(keyToFilename, (val) => val.length > 1);
+  const withoutDuplicates = _.mapValues(keyToFilename, (files: string[]) =>
+    _.uniq(files),
+  );
+  const overlappingKeys = _.pickBy(withoutDuplicates, (val) => val.length > 1);
   assert(
-    _.keys(withDuplicates).length <= 0,
-    `Duplicates found: ${JSON.stringify(withDuplicates, null, 2)}`,
+    _.keys(overlappingKeys).length <= 0,
+    `Duplicates found: ${JSON.stringify(overlappingKeys, null, 2)}`,
   );
 
   console.log(`Success! Validated ${files.length} files`);
