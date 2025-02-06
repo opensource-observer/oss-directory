@@ -11,24 +11,6 @@ social:
 github:
   - url: https://github.com/metagov
 blockchain:
-  - address: "0x18cbb356cd64193b1a0ca49911fc72cb3d02a5e4"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: EIP4824Index
-  - address: "0x5c0340ad34f7284f9272e784ff76638e8ddb5de4"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: EIP4824RegistrationSummoner
-  - address: "0x65d17d117c190f7a4cc784b56a17e3f7edde5762"
-    networks:
-      - optimism
-    tags:
-      - contract
-    name: EIP4824Registration
   - address: "0xff2abef3af9655d96da983916e066134adea6390"
     networks:
       - any_evm
