@@ -1,0 +1,576 @@
+version: 7
+name: kyo-finance
+display_name: Kyo Finance
+description: Kyo Finance is a decentralized exchange protocol that enables automated liquidity provision and token trading on Soneium, an Optimism mainnet superchain.
+websites:
+  - url: https://app.kyo.finance
+social:
+  twitter:
+    - url: https://twitter.com/kyofinance
+blockchain:
+  - address: "0x0AB8FD29aAd54e70C38E9eD916e8Bc2815671F87"
+    networks:
+      - soneium
+    tags:
+      - deployer
+      - eoa
+  - address: "0xDc35afe99D2e2eaA7774A8d9552e9E436458a0AE"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: AssetHelper
+  - address: "0xE5C1BE800F60b0dd4d0eb988EA2E580c117c85bA"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: PersonalAssetManagerFactory
+  - address: "0x5d6068eB4Cf2CDfb96A82BFF68f293aFB6EC4d98"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniversalRouter
+  - address: "0x7623545B6ec321947633e3Ff199A04E5dc47E642"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV2GaugeFactory
+  - address: "0xba44Cf0ead73AbCDe04bd98702E80411bDD1B7F2"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2BribeCreationCodeStorage
+  - address: "0x8f89C63558CcAcb985F65D4F0AdC9E0e3468AcdD"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2GaugeCreationCodeStorage
+  - address: "0x7938D167013ED3dD0e8E96DBaB043B4F7cF7065c"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2Router
+  - address: "0xb2AF62308209303c5bd9D3892c2cC6Df28D88041"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: MockEmission
+  - address: "0xA3540eDc33083b174eFd58e40429fc08A837aa2e"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV2Factory
+  - address: "0x451316B7F0D41f93830F1baD90C2D693fEfF4cDb"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapInterfaceMulticall
+  - address: "0x071FF684057aB6cb06c2aC54Db7016A93D20A881"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: TickLens
+  - address: "0x38D11e249D46c9cD88515Fa8E1E50BA4997f03dC"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: SwapRouter
+  - address: "0xD2096a540A2dC06800dD395Db011bebfC376e769"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: QuoterV2
+  - address: "0xB01C5E9FF43894f0dE47f09317188E040b1254e8"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Quoter
+  - address: "0x8eD28F3ef30465f0F13f55A7e46e3838e1Dba226"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Test CL Positions NFT-V1(TEST-CL-POS)
+  - address: "0xA5395d0F1375A19F9D77e588A7d4F4f72f13ae96"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV3Factory
+  - address: "0x03d73c9Bb657dcEb90391c79D2D94542eE6be1C8"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV3ElectorCreationCodeStorage
+  - address: "0xB8f28C60dD8240141185a192fa4156A23E189305"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV3PoolCreationCodeStorage
+  - address: "0xC67BB275a8dC1B0c2Fa4DA1493E7F7E57c94989a"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Emission
+  - address: "0x113f80fc46e294219D0604eBCa184D97db3dA5a5"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: NoEmission
+  - address: "0xa991D8b9A7E691663585AC432A6323Bc4BAbE725"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - token
+    name: Locked Test(TEST)
+  - address: "0xEd8a988f8AFb4a2Bf2eC2D30eF1745674A8aC434"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - token
+    name: Test(TEST)
+  - address: "0xc2A7C3A9c691B87972935b12799A2EC16Ec018E6"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Permit2
+  - address: "0x8eC782C5D2971B0F50A3390eED1a8a1717a025C3"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Permit2
+  - address: "0xB563Da3Ee9B6D74af481e9C85c7dAF7e4Fdd976E"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Unverified
+  - address: "0x40574AA7054b053c7EedB12AA241174DfAC8D420"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: MockEmission
+  - address: "0x507FDF3d396F51C3046a79cE2Dbb03372187d2Ed"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: PersonalAssetManagerFactory
+  - address: "0xBDE01E73549D4B70a31e318E3061A1D31295A439"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniversalRouter
+  - address: "0x4a81A0C531bd12f6B2040f5BBb836c8FD033Ed56"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV2GaugeFactory
+  - address: "0x5336478635FFE83e4414DbB46A2eD731Dd22C7f9"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2BribeCreationCodeStorage
+  - address: "0xf676a850B45c979d35EA17cdA953AE4695716Acb"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2GaugeCreationCodeStorage
+  - address: "0x41407f751AfE5e4Dc76be32dd9035BAc172B1eFA"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2Router
+  - address: "0xeAB2ac129a2Baf9B47F018793946F3050bf83231"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV2Factory
+  - address: "0x1165911ED090b087eF6925D762eB2a71EC0f8D1D"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapInterfaceMulticall
+  - address: "0xDC5F874138A78b3700bA78772Ed09642C7d885ba"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: TickLens
+  - address: "0xeAdaac0F807d40F15E7607919BF604Ad410cf13B"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: SwapRouter
+  - address: "0x71d072Ea8722cEc3D384B25Ce3934138a9274942"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: QuoterV2
+  - address: "0xa3F00d2D938609085193f33A31f9bA65a52D86b6"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Quoter
+  - address: "0x0b62F240F74fbB8f70176b995521e4F14DA3408c"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: NonfungiblePositionManager
+  - address: "0xC5e0bf8c40Ef2a5BE1fcF56d5d930A7819aca812"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: NonfungibleTokenPositionDescriptor
+  - address: "0xCDA03e6Bd190F71CA6D26c9DA8A93B517ad9B4AE"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV3Factory
+  - address: "0x75af3996054867868Bb3931f0beEA4A1c8C831CD"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV3ElectorCreationCodeStorage
+  - address: "0x8582EC9E183a8c5C1c32A7d62eE662ee460061A5"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV3PoolCreationCodeStorage
+  - address: "0x2D1F2E2C8198a850FC9A8492d71F4f1ED592519c"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Emission
+  - address: "0x15e69Dda184080281BDa925B411299baAE4F56DD"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: NoEmission
+  - address: "0x148CA8a9337e967A15B7a6a7FE97299C1dc2362a"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: LockedToken
+  - address: "0x4E663A293F461E5C1D866d96305e01D8E65dbBe7"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - token
+    name: TEST(TEST)
+  - address: "0x7a0d3fBCEbD9aa44f0ff81A9987F8ef0C540ffd0"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Permit2
+  - address: "0xC540Fb715c4119B67AaD08FB28985bb2b61c01eE"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2GaugeCreationCodeStorage
+  - address: "0x3B574a321c7BFEF28e8021D210d063C9f72b17fC"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory 
+    name: PersonalAssetManagerFactory
+  - address: "0x11feF46913EF8de4501e6B9452Ec77c26e736818"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniversalRouter
+  - address: "0x0709b01C87Af28EC51Cb768A2E6352bAd6aD7817"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV2GaugeFactory
+  - address: "0x077C5Ff37EB63523f268ce0Af47Db008E2cD53Cf"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2BribeCreationCodeStorage
+  - address: "0xCDA03e6Bd190F71CA6D26c9DA8A93B517ad9B4AE"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV3Factory
+  - address: "0x742b54526021Af1EAD6bc29a04457f436C7997ba"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2GaugeCreationCodeStorage
+  - address: "0x3c56C7C1Bfd9dbC14Ab04935f409d49D3b7A802E"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2Router
+  - address: "0xC3d4fA777308412CbA0520c4034Ad3567de852dF"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV2Factory
+  - address: "0xafe4f575554E33e9F34007839652B7811A45d369"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapInterfaceMulticall
+  - address: "0x27a7F9FD22035e9a63468A187dbbF9E4dD97F79A"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: TickLens
+  - address: "0x0dC73Fe1341365929Ed8a89Dd47097A9FDD254D0"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: SwapRouter
+  - address: "0x60eb4B04932797374a291380349008dc8cc40426"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: QuoterV2
+  - address: "0x4446B2f6dAFb515b489A3cEEbb5b5a91fe53B6f9"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Quoter
+  - address: "0xAE2B32E603D303ED120f45B4Bc2ebAc314de080b"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: KYO CL Positions NFT-V1(KYO-CL-POS)
+  - address: "0x137841043180BBA8EF52828F9030D1b7fE065F95"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV3Factory
+  - address: "0xbD61198368bE26D0Ebc6B4c0108Ee75c3E39A033"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV3ElectorCreationCodeStorage
+
+  - address: "0x5D8429de7b98Ee465620ecf64Acb7d759Ad41e93"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Emission
+  - address: "0x019d2c84A1B7E7Caba181FF2A2E45248A8286327"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: NoEmission
+  - address: "0x14ff418823c5C8546e679b4d70442870337d0768"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: AssetHelper
+  - address: "0xC9eE8a84d51BBaeAbc91F0dD8de80C7643B68dc8"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: PersonalAssetManagerFactory
+  - address: "0x5d73219B46928c01bC75970339dEa03360f49213"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniversalRouter
+  - address: "0x0F80270200FB2A44A36321e39F82FedC009BF35c"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV2GaugeFactory
+  - address: "0xD420014E2a0298C43761382b7ce660b80B0C796B"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2BribeCreationCodeStorage
+  - address: "0xB3B7a7C309498a57CEb391AD13d0AF5EbC914BdF"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2GaugeCreationCodeStorage
+  - address: "0xB422032626CdcA17570D5167EAF774ded7967e50"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2Router
+  - address: "0x87d0A6F579f5fD56611D369ea0130eDFd678D7b0"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV2Factory
+  - address: "0xCC76AA81A89c53045246722585eE815B53055fE8"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapInterfaceMulticall
+  - address: "0xE20d1A3FD1d4E0C5bF2df5b1333509bE816ad517"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: TickLens
+  - address: "0xe5dfA718645ba64F0Fbe231e24F5A94877ddC5e7"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: SwapRouter
+  - address: "0x65ffAe1669584255DEFBBc5714e08F96b63626f2"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: QuoterV2
+  - address: "0x4511ade9aF79A6111c1a9a357E0C56FE9c6b5bB5"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Quoter
+  - address: "0x71413790a1F13Fd96B883Fa672a0A1F04790Fd69"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: NonfungiblePositionManager
+  - address: "0x70aC3A14bce3099EFFf5C92194244944e6445889"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV3ElectorCreationCodeStorage
+  - address: "0x370E9Cc48b64490C26B24932b59ff7F0377609f4"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV3Factory
+  - address: "0x1622Bc06A5969AF402Ff2dc6bF9e7490c63Af336"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapV3PoolCreationCodeStorage
+  - address: "0x179B0B3f62d969287eB3a9937b3f576176924639"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Emission
+  - address: "0xB82ea800539136c99d631A0fa537f07dD3b3D7C2"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: NoEmission
+  - address: "0x4a8d9d5a2787964216e8aFeF5a28791cEFe9685C"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: LockedToken
+  - address: "0x42d068f49a550982E7373b20Cb57DACE660c858C"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - token
+    name: Kyo(KYO)
+  - address: "0x30B6c47454017bc68FA8A5f326db6c022a14a430"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Permit2
+  - address: "0x7B50c32225fc96F5fc4d760556B21b05245D8fCC"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: BridgeReceiverSake
