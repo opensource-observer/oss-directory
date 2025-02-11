@@ -184,6 +184,8 @@ If you need to make a wide-ranging change that does not affect the schema, use t
 4. Please run `pnpm validate` to make sure your migration adheres to the schema. We will not accept any PRs where the data does not conform to the schemas.
 5. Commit and submit a pull request with all of the resulting changes.
 
+![Schema](src/resources/.data/schema.png)
+
 ## Making onchain attestations about projects
 
 ### EAS schemas
