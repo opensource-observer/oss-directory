@@ -1,13 +1,18 @@
 version: 7
 name: snekmate
-display_name: Snekmate
+display_name: snekmate
 websites:
+  - url: https://snekmate.com
   - url: https://pcaversaccio.com
 social:
   twitter:
-    - url: https://twitter.com/pcaversaccio
+    - url: https://x.com/pcaversaccio
 github:
   - url: https://github.com/pcaversaccio/snekmate
+npm:
+  - url: https://www.npmjs.com/package/snekmate
+pypi:
+  - url: https://pypi.org/project/snekmate
 blockchain:
   - address: "0x07bf3cda34aa78d92949bbdce31520714ab5b228"
     networks:
