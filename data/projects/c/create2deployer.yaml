@@ -1,0 +1,17 @@
+version: 7
+name: create2deployer
+display_name: Create2Deployer
+websites:
+  - url: https://pcaversaccio.com
+social:
+  twitter:
+    - url: https://x.com/pcaversaccio
+github:
+  - url: https://github.com/pcaversaccio/create2deployer
+blockchain:
+  - address: "0x554282Cf65b42fc8fddc6041eb24ce5E8A0632Ad"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
