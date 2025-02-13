@@ -17,17 +17,13 @@ blockchain:
     name: CannonRegistry
     networks:
       - mainnet
-    tags:
-      - contract
-  - address: "0x8E5C7EFC9636A6A0408A46BB7F617094B81e5dba"
-    name: CannonRegistry
-    networks:
       - optimism
     tags:
       - contract
   - address: "0x14570ce88f490a80342cc156a6a0ebc173609f5e"
     name: AttestationRegistry
     networks:
-      - any_evm
+      - mainnet
+      - optimism
     tags:
       - contract
