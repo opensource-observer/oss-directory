@@ -12,9 +12,18 @@ github:
 defillama:
   - url: https://defillama.com/protocol/pumpbtc
 blockchain:
-  - address: "0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf"
+  - address: "0xF469fBD2abcd6B9de8E169d128226C0Fc90a012e"
     networks:
+      - arbitrum_one
       - base
+      - mainnet
+      - optimism
     tags:
-      - deployer
-    name: cBTC
+      - contract
+    name: pumpBTC Token
+  - address: "0x1fCca65fb6Ae3b2758b9b2B394CB227eAE404e1E"
+    networks:
+      - bob
+    tags:
+      - contract
+    name: pumpBTC Token
