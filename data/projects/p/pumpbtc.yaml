@@ -1,5 +1,21 @@
 version: 7
 name: pumpbtc
 display_name: Pump BTC
+description: PumpBTC serves as a Liquid Staking Solution for Babylon. It aims to help BTC holders maximize yields through Babylon's staking - essentially rebuilding $WBTC/$BTCB/$FBTC with native yield.
+websites: 
+  - url: https://mainnet.pumpbtc.xyz/
+social:
+  twitter: 
+    - url: https://x.com/Pumpbtcxyz
 github:
   - url: https://github.com/pumpbtc
+defillama:
+  - url: https://defillama.com/protocol/pumpbtc
+blockchain:
+  - address: 0xcbB7C0000aB88B473b1f5aFd9ef808440eed33Bf
+    tags:
+      - deployer
+    name:
+      - cBTC
+    networks:
+      - base
