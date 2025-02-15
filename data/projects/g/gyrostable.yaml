@@ -1,5 +1,209 @@
 version: 7
 name: gyrostable
 display_name: Gyroscope
+websites:
+  - url: https://app.gyro.finance/
+social:
+  twitter:
+    - url: https://twitter.com/gyrostable
 github:
   - url: https://github.com/gyrostable
+defillama:
+  - url: https://defillama.com/protocol/gyroscope-protocol
+blockchain:
+  - address: "0x8bc920001949589258557412A32F8d297A74F244"
+    networks:
+      - optimism
+      - base
+    tags:
+      - deployer
+      - eoa
+    name: Gyroscope: Deployer 1
+  - address: "0x725e704b6933be9896c717f735e5a5edbfc7193f"
+    networks:
+      - optimism
+    tags:
+      - deployer
+      - eoa
+    name: Gyroscope: Deployer
+  - address: "0x444679BeCbC1BC0d6Be81254eebC6ca7E7E8819E"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ConstantRateProvider
+  - address: "0xd67FC9E2a59047A979649f7Ba11a036b3bc438f5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PauseManager
+  - address: "0xeE368e10ad2CaBd58Ba0dDcb76BebcE7eB691495"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: sGYD
+  - address: "0x9E4658f0d695bB79d76FB9FF809514085569a172"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x5943834e22cAFeab2e0C9C2D4a57fa5875CfA4C4"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: unverified
+  - address: "0x4FdF0996Bee9D8c1E083322022fcE2EBcd8c9041s"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: L2Gyd
+  - address: "0x8C12a15CE60DaEA80fDB1b73DeF39E6ba048ef03"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GyroL2Governance
+  - address: "0x997c49A9cE8B6C6277719750641874943024e05C"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: DummyContract
+  - address: "0x02a569eea6f85736E2D63C59E60d27d075E75c33"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ERC4626RateProviderFactory
+  - address: "0xE8b18f8A2E4A1CD23E7f5fc6d9324F47f10dB528"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GyroECLPPoolFactory
+  - address: "0xCfc923DBE1AdE0f2Bf86400CD7C444ec767ecbfd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PoolOwner
+  - address: "0x9b683cA24B0e013512E2566b68704dBe9677413c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FreezableTransparentUpgradeableProxy
+  - address: "0xefdE1c764Df6522a068b38106563DE166Ac97f58"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GyroECLPPoolFactory
+  - address: "0x32Acb44fC929339b9F16F0449525cC590D2a23F3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FreezableTransparentUpgradeableProxy
+  - address: "0xE02F11277cfa84C696370C097c51848C6a6523b3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GyroConfig
+  - address: "0x4e56F19235FF2a14C76332877a35D6aF5bDE07EC"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GyroECLPMath
+  - address: "0x02a569eea6f85736E2D63C59E60d27d075E75c33"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ERC4626RateProviderFactory
+  - address: "0xE8b18f8A2E4A1CD23E7f5fc6d9324F47f10dB528"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GyroECLPPoolFactory
+  - address: "0xCfc923DBE1AdE0f2Bf86400CD7C444ec767ecbfd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PoolOwner
+  - address: "0x9b683cA24B0e013512E2566b68704dBe9677413c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FreezableTransparentUpgradeableProxy
+  - address: "0xefdE1c764Df6522a068b38106563DE166Ac97f58"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GyroECLPPoolFactory
+  - address: "0x32Acb44fC929339b9F16F0449525cC590D2a23F3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: FreezableTransparentUpgradeableProxy
+  - address: "0xE02F11277cfa84C696370C097c51848C6a6523b3"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: GyroConfig
+  - address: "0xCA5d8F8a8d49439357d3CF46Ca2e720702F132b8"
+    networks:
+      - optimism
+      - base
+    tags:
+      - contract
+      - token
+    name: Gyro Dollar (GYD)
+  - address: "0x4A0f0012004BC22D4fDb818B9C539E78aDC0c69d"
+    networks:
+      - base
+    tags:
+      - contract
+    name: unverified
+  - address: "0xD58338f102e8DE2e3D9d54cc043c6d606826A790"
+    networks:
+      - base
+    tags:
+      - contract
+    name: unverified
+  - address: "0x2cBe09Aa4D41a861AA1239aDA1Cbc7aDBa801b6D"
+    networks:
+      - base
+    tags:
+      - contract
+    name: sGYD
+  - address: "0x66D89dbE4f8C9765bd9D83AbC0A3eed0C66c0C93"
+    networks:
+      - base
+    tags:
+      - contract
+    name: GyroL2Governance
+  - address: "0xb2e8e2E41753619ff38770247cC0FDB159A5C6e4"
+    networks:
+      - base
+    tags:
+      - contract
+    name: PauseManager
+  
+
+
+
+
