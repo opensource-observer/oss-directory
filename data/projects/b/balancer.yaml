@@ -7,6 +7,12 @@ websites:
 github:
   - url: https://github.com/balancer
 blockchain:
+  - address: "0x3877188e9e5DA25B11fDb7F5E8D4fDDDCE2d2270"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
   - address: "0x288c09d17a66a49177d3846372ed318ac16a8f42"
     networks:
       - any_evm
@@ -110,9 +116,10 @@ blockchain:
   - address: "0x8ea89804145c007e7d226001a96955ad53836087"
     networks:
       - arbitrum_one
+      - base
     tags:
       - contract
-    name: ManagedPoolFactory
+    name: various:DiffersByChain
   - address: "0xf23d8342881edecced51ea694ac21c2b68440929"
     networks:
       - arbitrum_one
@@ -853,10 +860,10 @@ blockchain:
       - arbitrum_one
       - mainnet
       - optimism
+      - base
     tags:
       - contract
-      - factory
-    name: ComposableStablePoolFactory
+    name: various:DiffersByChain
   - address: "0xa8920455934da4d853faac1f94fe7bef72943ef1"
     networks:
       - arbitrum_one
@@ -868,6 +875,7 @@ blockchain:
       - arbitrum_one
       - mainnet
       - optimism
+      - base
     tags:
       - contract
     name: various:DiffersByChain
@@ -876,6 +884,7 @@ blockchain:
       - arbitrum_one
       - mainnet
       - optimism
+      - base
     tags:
       - contract
     name: various:DiffersByChain
@@ -899,6 +908,7 @@ blockchain:
     networks:
       - arbitrum_one
       - optimism
+      - base
     tags:
       - contract
     name: various:DiffersByChain
@@ -907,6 +917,7 @@ blockchain:
       - arbitrum_one
       - mainnet
       - optimism
+      - base
     tags:
       - contract
     name: various:DiffersByChain
@@ -923,6 +934,7 @@ blockchain:
       - arbitrum_one
       - mainnet
       - optimism
+      - base
     tags:
       - contract
     name: various:DiffersByChain
@@ -931,6 +943,7 @@ blockchain:
       - arbitrum_one
       - mainnet
       - optimism
+      - base
     tags:
       - contract
     name: various:DiffersByChain
@@ -1004,6 +1017,7 @@ blockchain:
       - arbitrum_one
       - mainnet
       - optimism
+      - base
     tags:
       - contract
     name: various:DiffersByChain
@@ -1031,3 +1045,100 @@ blockchain:
     tags:
       - contract
     name: AuthorizerAdaptorEntrypoint
+  - address: "0x8E9aa87E45e92bad84D5F8DD1bff34Fb92637dE9"
+    networks:
+      - base
+    tags:
+      - contract
+    name: BalancerHelpers
+  - address: "0x6B1Da720Be2D11d95177ccFc40A917c2688f396c"
+    networks:
+      - base
+    tags:
+      - contract
+    name: BalancerPoolDataQueries
+  - address: "0x300Ab2038EAc391f26D9F895dc61F8F66a548833"
+    networks:
+      - base
+    tags:
+      - contract
+    name: BalancerQueries
+  - address: "0x7B25d5712fB49627534012327E46455b3fF7b26C"
+    networks:
+      - base
+    tags:
+      - contract
+    name: BalancerRelayer
+  - address: "0x7C3C773C878d2238a9b64d8CEE02377BF07ED06a"
+    networks:
+      - base
+    tags:
+      - contract
+    name: BalancerRelayer
+  - address: "0x9f7E65887413a8497b87bA2058cE6E4Ef4B37013"
+    networks:
+      - base
+    tags:
+      - contract
+    name: ChildChainGauge
+  - address: "0xb1a4FE1C6d25a0DDAb47431A92A723dd71d9021f"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: ChildChainGaugeFactory
+  - address: "0xa7d524046ef89de9F8e4f2d7B029f66cCB738d48"
+    networks:
+      - base
+    tags:
+      - contract
+    name: GaugeWorkingBalanceHelper
+  - address: "0x0c5538098EBe88175078972F514C9e101D325D4F"
+    networks:
+      - base
+    tags:
+      - contract
+    name: L2BalancerPseudoMinter
+  - address: "0x475D18169BE8a89357A9ee3Ab00ca386d20fA229"
+    networks:
+      - base
+    tags:
+      - contract
+    name: NullVotingEscrow
+  - address: "0xE241C6e48CA045C7f631600a0f1403b2bFea05ad"
+    networks:
+      - base
+    tags:
+      - contract
+    name: OmniVotingEscrowChild
+  - address: "0xce88686553686DA562CE7Cea497CE749DA109f9F"
+    networks:
+      - base
+    tags:
+      - contract
+    name: ProtocolFeesCollector
+  - address: "0xAcf05BE5134d64d150d153818F8C67EE36996650"
+    networks:
+      - base
+    tags:
+      - contract
+    name: ProtocolFeesWithdrawer
+  - address: "0xA1Fa945425eD2e08Acb932E000bCc2f21B21588A"
+    networks:
+      - base
+    tags:
+      - contract
+    name: TestBalancerToken
+  - address: "0xD87F44Df0159DC78029AB9CA7D7e57E7249F5ACD"
+    networks:
+      - base
+    tags:
+      - contract
+    name: VotingEscrowDelegationProxy
+  - address: "0x76f7204B62f554b79d444588EDac9dfA7032c71a"
+    networks:
+      - base
+    tags:
+      - contract
+    name: BalancerRelayer
