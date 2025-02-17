@@ -4,6 +4,9 @@ display_name: Aave
 description: Aave is a decentralized liquidity protocol enabling users to supply assets to earn interest or borrow against collateral across multiple networks. It offers features like asset swaps, staking, and native stablecoin (GHO) minting, with billions in liquidity supplied.
 websites:
   - url: http://aave.com
+npm:
+  - url: https://www.npmjs.com/package/@aave/core-v3
+  - url: https://www.npmjs.com/package/@aave/periphery-v3
 social:
   twitter:
     - url: https://twitter.com/aave
@@ -16,6 +19,24 @@ blockchain:
   - address: "0x9a187663e454e99cafd40a2712606cc306e301b2"
     networks:
       - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xe3FD707583932a99513a5c65c8463De769f5DAdF"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
+  - address: "0xEAF6183bAb3eFD3bF856Ac5C058431C8592394d6"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
+  - address: "0x57dc6c401819eA097dB8d4b66D8E35CdA0277a73"
+    networks:
+      - base
     tags:
       - deployer
       - eoa
@@ -450,6 +471,7 @@ blockchain:
     networks:
       - arbitrum_one
       - optimism
+      - base
     tags:
       - contract
     name: various:DiffersByChain
@@ -821,6 +843,135 @@ blockchain:
     tags:
       - eoa
       - deployer
-npm:
-  - url: https://www.npmjs.com/package/@aave/core-v3
-  - url: https://www.npmjs.com/package/@aave/periphery-v3
+  - address: "0x5B540d168E2468270a3b5C66DD1A6E4ecE6BE593"
+    networks:
+      - base
+    tags:
+      - eoa
+      - deployer
+  - address: "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Pool
+  - address: "0xe20fCBdBfFC4Dd138cE8b2E6FBb6CB49777ad64D"
+    networks:
+      - base
+    tags:
+      - contract
+    name: PoolAddressesProvider
+  - address: "0x68100bD5345eA474D93577127C11F39FF8463e93"
+    networks:
+      - base
+    tags:
+      - contract
+    name: UiPoolDataProvider
+  - address: "0x5731a04B1E775f0fdd454Bf70f3335886e9A96be"
+    networks:
+      - base
+    tags:
+      - contract
+    name: PoolConfigurator
+  - address: "0x91E04cf78e53aEBe609e8a7f2003e7EECD743F2B"
+    networks:
+      - base
+    tags:
+      - contract
+    name: UiIncentiveDataProvider
+  - address: "0x43955b0899Ab7232E3a454cf84AedD22Ad46FD33"
+    networks:
+      - base
+    tags:
+      - contract
+    name: ACLManager
+  - address: "0x5779b29B0a34577d927E8D511B595ef9abbFAE82"
+    networks:
+      - base
+    tags:
+      - contract
+    name: WalletBalanceProvider
+  - address: "0xBA9424d650A4F5c80a0dA641254d1AcCE2A37057"
+    networks:
+      - base
+    tags:
+      - contract
+    name: TreasuryCollector
+  - address: "0xD3DE4b3571744EB77946d65aBF01408902E92c4E"
+    networks:
+      - base
+    tags:
+      - contract
+    name: RiskSteward
+  - address: "0xd82a47fdebB5bf5329b09441C3DaB4b5df2153Ad
+    networks:
+      - base
+    tags:
+      - contract
+    name: AaveProtocolDataProvider
+  - address: "0x2Cc0Fc26eD4563A5ce5e8bdcfe1A2878676Ae156"
+    networks:
+      - base
+    tags:
+      - contract
+    name: AaveOracle
+  - address: "0xf9cc4F0D883F1a1eb2c253bdb46c254Ca51E1F44"
+    networks:
+      - base
+    tags:
+      - contract
+    name: DefaultIncentivesController
+  - address: "0x940F9a5d5F9ED264990D0eaee1F3DD60B4Cb9A22"
+    networks:
+      - base
+    tags:
+      - contract
+    name: StaticATokenFactory
+  - address: "0x6533A273F3aC84Df91DCD654D6EBAbA73687e246"
+    networks:
+      - base
+    tags:
+      - contract
+    name: IncentivesEmissionManager
+  - address: "0x2f6571d3Eb9a4e350C68C36bCD2afe39530078E2"
+    networks:
+      - base
+    tags:
+      - contract
+    name: PoolAddressesProviderRegistry
+  - address: "0x63dfa7c09Dc2Ff4030d6B8Dc2ce6262BF898C8A4"
+    networks:
+      - base
+    tags:
+      - contract
+    name: RepayWithCollateral
+  - address: "0x2E549104c516b8657A7D888494DfbAbD7C70b464"
+    networks:
+      - base
+    tags:
+      - contract
+    name: CollateralSwitch
+  - address: "0xb12e82DF057BF16ecFa89D7D089dc7E5C1Dc057B"
+    networks:
+      - base
+    tags:
+      - contract
+    name: DebtSwitch
+  - address: "0x5598BbFA2f4fE8151f45bBA0a3edE1b54B51a0a9"
+    networks:
+      - base
+    tags:
+      - contract
+    name: WithdrawSwitchAdapter
+  - address: "0x9390B1735def18560c509E2d0bc090E9d6BA257a"
+    networks:
+      - base
+    tags:
+      - contract
+    name: ACLAdmin
+  - address: "0x12DEB4025b79f2B43f6aeF079F9D77C3f9a67bb6"
+    networks:
+      - base
+    tags:
+      - contract
+    name: CapsPlusRiskSteward

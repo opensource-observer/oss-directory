@@ -4,8 +4,17 @@ display_name: Balancer
 description: Balancer is an Ethereum-based protocol for automated market making (AMM) that allows users to create custom token pools with adjustable weights. It enables efficient token swaps and provides liquidity providers with flexible pool configuration options. Balancer's smart contracts automatically rebalance pools to maintain desired token ratios.
 websites:
   - url: https://balancer.fi
+social:
+  twitter:
+    - url: https://x.com/Balancer
 github:
   - url: https://github.com/balancer
+defillama:
+  - url: https://defillama.com/protocol/balancer
+  - url: https://defillama.com/protocol/balancer-v1
+  - url: https://defillama.com/protocol/balancer-v2
+  - url: https://defillama.com/protocol/balancer-v3
+  - url: https://defillama.com/protocol/balancer-cow-amm
 blockchain:
   - address: "0x3877188e9e5DA25B11fDb7F5E8D4fDDDCE2d2270"
     networks:
