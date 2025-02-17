@@ -158,3 +158,10 @@ blockchain:
     tags:
       - contract
     name: UniswapInterfaceMulticall
+  - address: "0x00Be915B9dCf56a3CBE739D9B9c202ca692409EC"
+    networks:
+      - celo
+    tags:
+      - contract
+      - token
+    name: UbeToken(Old)
