@@ -7,8 +7,21 @@ websites:
 social:
   twitter:
     - url: https://x.com/SushiSwap
+npm:
+  - url: https://www.npmjs.com/package/@sushiswap/core
+  - url: https://www.npmjs.com/package/@sushiswap/sdk
 github:
   - url: https://github.com/sushiswap
+defillama:
+  - url: https://defillama.com/protocol/sushi
+  - url: https://defillama.com/protocol/sushiswap
+  - url: https://defillama.com/protocol/sushi-aptos
+  - url: https://defillama.com/protocol/sushi-bentobox
+  - url: https://defillama.com/protocol/sushiswap-v3
+  - url: https://defillama.com/protocol/sushi-trident
+  - url: https://defillama.com/protocol/sushi-furo
+  - url: https://defillama.com/protocol/sushi-kashi
+  - url: https://defillama.com/protocol/sushiswap-agg
 blockchain:
   - address: "0xe91b49a652671aef1b9416a2da6994dbdde23054"
     tags:
@@ -32,6 +45,12 @@ blockchain:
   - address: "0x32464be3d71ed9105c142fb6bdee98a0c649cdd3"
     networks:
       - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x243e947fc5ec11fe7a32978cf0adf40c55ff8362"
+    networks:
+      - base
     tags:
       - deployer
       - eoa
@@ -64,6 +83,7 @@ blockchain:
     networks:
       - arbitrum_one
       - optimism
+      - base
     tags:
       - contract
       - factory
@@ -81,6 +101,7 @@ blockchain:
       - arbitrum_one
       - mainnet
       - optimism
+      - base
     tags:
       - contract
       - factory
@@ -243,6 +264,7 @@ blockchain:
       - arbitrum_one
       - mainnet
       - optimism
+      - base
     tags:
       - contract
     name: various:DiffersByChain
@@ -489,6 +511,84 @@ blockchain:
     tags:
       - safe
       - wallet
-npm:
-  - url: https://www.npmjs.com/package/@sushiswap/core
-  - url: https://www.npmjs.com/package/@sushiswap/sdk
+  - address: "0xc55332b1d758e798a8dB1f255B029f045C4958b7"
+    networks:
+      - base
+    tags:
+      - contract
+    name: RouteProcessor6
+  - address: "0xf2614A233c7C3e7f08b1F887Ba133a13f1eb2c55"
+    networks:
+      - base
+    tags:
+      - contract
+    name: RouteProcessor5
+  - address: "0xAC4c6e212A361c968F1725b4d055b47E63F80b75"
+    networks:
+      - base
+    tags:
+      - contract
+    name: RedSnwapper
+  - address: "0x71524B4f93c58fcbF659783284E38825f0622859"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: UniswapV2Factory
+  - address: "0x6BDED42c6DA8FBf0d2bA55B2fa120C5e0c8D7891"
+    networks:
+      - base
+    tags:
+      - contract
+    name: UniswapV2Router02
+  - address: "0x1b02dA8Cb0d097eB8D57A175b88c7D8b47997506"
+    networks:
+      - base
+    tags:
+      - contract
+    name: NFTDescriptor
+  - address: "0x80C7DD17B01855a6D2347444a0FCC36136a314de"
+    networks:
+      - base
+    tags:
+      - contract
+    name: NonfungiblePositionManager
+  - address: "0xb1E835Dc2785b52265711e17fCCb0fd018226a6e"
+    networks:
+      - base
+    tags:
+      - contract
+    name: QuoterV2
+  - address: "0xFB7eF66a7e61224DD6FcD0D7d9C3be5C8B049b9f"
+    networks:
+      - base
+    tags:
+      - contract
+    name: SwapRouter
+  - address: "0x804b526e5bf4349819fe2db65349d0825870f8ee"
+    networks:
+      - base
+    tags:
+      - contract
+    name: SushiXSwapV2
+  - address: "0xD408a20f1213286fB3158a2bfBf5bFfAca8bF269"
+    networks:
+      - base
+    tags:
+      - contract
+    name: StargateAdapter
+  - address: "0x804b526e5bf4349819fe2db65349d0825870f8ee"
+    networks:
+      - base
+    tags:
+      - contract
+    name: SushiXSwapV2
+  - address: "0xFF51a7C624Eb866917102707F3dA8bFb99Db8692"
+    networks:
+      - base
+    tags:
+      - contract
+    name: SquidAdapter
+
+
