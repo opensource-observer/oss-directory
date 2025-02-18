@@ -1,8 +1,16 @@
 version: 7
 name: solv-finance
 display_name: Solv Protocol
+description: Solv is the leading Bitcoin Staking Platform. It helps standardize and enhance interoperability in the Bitcoin staking ecosystem, enabling accessibility for all participants.
+websites:
+  - url: https://solv.finance/
+social:
+  twitter: 
+    - https://x.com/SolvProtocol/
 github:
   - url: https://github.com/solv-finance
+defillama:
+  - url: https://defillama.com/protocol/solvbtc
 blockchain:
   - address: "0x55c09707fd7afd670e82a62faee312903940013e"
     networks:
