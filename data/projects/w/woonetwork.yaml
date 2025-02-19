@@ -12,6 +12,10 @@ social:
     - url: https://warpcast.com/~/channel/woofi
 github:
   - url: https://github.com/woonetwork
+defillama:
+  - url: https://defillama.com/protocol/woofi
+  - url: https://defillama.com/protocol/woofi-swap
+  - url: https://defillama.com/protocol/woofi-earn
 blockchain:
   - address: "0xe86e40cd910bd7b36eee4eac5d8968ec23aac427"
     tags:
@@ -54,6 +58,7 @@ blockchain:
     networks:
       - arbitrum_one
       - optimism
+      - base
     tags:
       - contract
     name: various:DiffersByChain
@@ -78,9 +83,10 @@ blockchain:
   - address: "0x73504eacb100c7576146618dc306c97454cb3620"
     networks:
       - arbitrum_one
+      - optimism
     tags:
       - contract
-    name: WooracleV2_1_ZipInherit
+    name: various:DiffersByChain
   - address: "0x0ba6c34af9713d15141dcc91d2788c3f370ecb9e"
     networks:
       - arbitrum_one
@@ -118,6 +124,7 @@ blockchain:
       - arbitrum_one
       - mainnet
       - optimism
+      - base
     tags:
       - contract
     name: TransparentUpgradeableProxy
@@ -251,3 +258,287 @@ blockchain:
     tags:
       - contract
     name: WooCrossChainRouterV2
+  - address: "0x4c4AF8DBc524681930a27b2F1Af5bcC8062E6fB7"
+    tags:
+      - contract
+    networks:
+      - optimism
+      - base
+    name: WooRouterV2
+  - address: "0xB84aEfEF2DDDE628d5c7F1fba320dE63e3f4757c"
+    tags:
+      - contract
+    networks:
+      - optimism
+      - base
+    name: CrosswapRouter v5
+  - address: "0xEd9e3f98bBed560e66B89AaC922E29D4596A9642"
+    tags:
+      - contract
+    networks:
+      - optimism
+      - base
+    name: various:DiffersByChain
+  - address: "0xA43305Ce0164D87d7B2368f91a1dcC4eBdA75127"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: WooracleV2.2
+  - address: "0x96329d66074EB8386Ae8bFD6698B2E3FDA87e15E"
+    tags:
+      - contract
+    networks:
+      - optimism
+      - base
+    name: IntegrationHelper (token info)
+  - address: "0xba91ffD8a2B9F68231eCA6aF51623B3433A89b13"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: StakeProxy
+  - address: "0xB54e1d90d845d888d39dcaCBd54a3EEc0d8853B2"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: SuperChargerVault_ETH
+  - address: "0x1dDd225ef26714Bb8055dDCEaEE2589ba09c89ed"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: LendingManager_ETH
+  - address: "0x91741863A48f0B29fC0B6D10b3cdE2122feB58f7"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: WithdrawManager_ETH
+  - address: "0x7e1996945eA8866DE873179DC1677E93A4380107"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: farmingvault_ETH
+  - address: "0x95360A64447Ca746B82ABd1D0ED49f3E34F2e6E9"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: AaveStrategy_ETH
+  - address: "0xc0f8C29e3a9A7650a3F642e467d70087819926d6"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: RewardMasterchef
+  - address: "0xcA7184eA1cb4cF04d49Bf219c49a39231299dA26"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: SuperChargerVault_OP
+  - address: "0xD2635bc7e4E4F63B2892eD80D0b0f9Dff7eDA899"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name:
+      - LendingManager_OP
+  - address: "0x0FAd8f10746171C0616cE4B7B4E2e9439a9a02E2"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: WithdrawManager_OP
+  - address: "0xa8452E2d63B29783ED2E5ca0d8D4Fe0cC2161D5B"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name:
+      - farmingvault_OP
+  - address: "0xDa4B53F75921C109fED0ffd8AD9f22430B4c3438"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name:
+      - voidstrategy_OP
+  - address: "0x18aa88bb25b8f15FDbE329f789dD000bf679753E"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: SuperChargerVault_USDC
+  - address: "0x4bAa5Fd82A455f2BfEFF4FBB91969288D7DE7316"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name:
+      - LendingManager_USDC
+  - address: "0x2500AD59b46fF4B96f8e1EaC3fE1f78eAF955777"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name: WithdrawManager_USDC
+  - address: "0xfD7ed9D3d4fD88595AF6a87f798ffDB42b4D7ccB"
+    tags:
+      - contract
+    networks:
+      - optimism
+    name:
+      - USDC_StrategyAave
+  - address: "0x3933CA6058E3549bbf25BA71901b82C11916EC16"
+    tags:
+      - contract
+    networks:
+      - optimism
+      - base
+    name:
+      - ProxyAdmin
+  - address: "0x88A19967013CA274c296bFA433eb1BAc4D47B0dc"
+    tags:
+      - contract
+    networks:
+      - optimism
+      - base
+    name:
+      - NonceCounter
+  - address: "0xc45B55032caFeaff3b8057d52758D8f8211DA54D"
+    tags:
+      - contract
+    networks:
+      - optimism
+      - base
+    name:
+      - WooFeeManager
+  - address: "0x7616614084e040028D6a61c0f3A9699c121A6500"
+    tags:
+      - contract
+    networks:
+      - optimism
+      - base
+    name:
+      - WooRebateManager
+  - address: "0xAf558f888e138CA9416111Ec7aE8e28354Cd9239"
+    tags:
+      - contract
+    networks:
+      - optimism
+      - base
+    name:
+      - WooAccessManager
+  - address: "0xA43305Ce0164D87d7B2368f91a1dcC4eBdA75127"
+    tags:
+      - contract
+    networks:
+      - base
+    name: WooracleV2.2
+  - address: "0x73Bd3C7e44E1c228713A24448e9B7250391ACa15"
+    tags:
+      - contract
+    networks:
+      - base
+    name: LendingManager_USDC
+  - address: "0xa1bb8a8ED84A37a8c93a10Df5153E612f58e34E5"
+    tags:
+      - contract
+    networks:
+      - base
+    name: WithdrawManager_USDC
+  - address: "0xf2bE87391e2040D4CB1F646fbb023C074315E94E"
+    tags:
+      - contract
+    networks:
+      - base
+    name: FarmingVault_USDC
+  - address: "0xbeaE1B06949d033Da628bA3E5aF267C3E740494b"
+    tags:
+      - contract
+    networks:
+      - base
+    name: AAVEStrategy_USDC
+  - address: "0xB4E0bcDa51B29D9C7Bdd671F169877Cc5F82CaA9"
+    tags:
+      - contract
+    networks:
+      - base
+    name: RewardMasterchef
+  - address: "0xb772122C4a37fe1754B46AB1799b909351e8Cb43"
+    tags:
+      - contract
+    networks:
+      - base
+    name: SuperChargerVault_ETH
+  - address: "0x913E116cD0E279763B0419798c0bA18F9311B390"
+    tags:
+      - contract
+    networks:
+      - base
+    name:
+      - LendingManager_ETH
+  - address: "0xe61Acb121a2B538dF495A85C4E50dD8581de4ed0"
+    tags:
+      - contract
+    networks:
+      - base
+    name: WithdrawManager_ETH
+  - address: "0x5A958b9E4370Da91498F494105BBe4C4123C513f"
+    tags:
+      - contract
+    networks:
+      - base
+    name:
+      - farmingvault_OP
+  - address: "0xcd1B9810872aeC66d450c761E93638FB9FE09DB0"
+    tags:
+      - contract
+    networks:
+      - base
+    name:
+      - AAVEStrategy_ETH
+  - address: "0xa79e2c96Db89ceee07784C36EE2c61468D2C97bb"
+    tags:
+      - contract
+    networks:
+      - base
+    name: VoidStrategy_cbBTC
+  - address: "0x8C603050D7a913b6f63836e07ebF385a4A5736E7"
+    tags:
+      - contract
+    networks:
+      - base
+    name:
+      - SuperChargerVault_cbBTC
+  - address: "0xb29DE0c2A884aF396272086F4Aa3F0ad2DAD747b"
+    tags:
+      - contract
+    networks:
+      - base
+    name: LendingManager_cbBTC
+  - address: "0xEc054126922a9a1918435c9072c32f1B60cB2B90"
+    tags:
+      - contract
+    networks:
+      - base
+    name:
+      - WithdrawManager_cbBTC
+  - address: "0xbA3Dd3e9109dcEaE62b7192c25976CC98e132A55"
+    tags:
+      - contract
+    networks:
+      - base
+    name:
+      - FarmingVault_cbBTC
+  - address: "0x5994Fa96660dd9c29074F30337CB7Fa609C712a5"
+    tags:
+      - contract
+    networks:
+      - base
+    name:
+      - VoidStrategy_cbBTC
