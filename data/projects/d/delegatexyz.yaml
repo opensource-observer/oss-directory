@@ -1,6 +1,7 @@
 version: 7
 name: delegatexyz
 display_name: Delegate
+description: Delegate allows defining a type-safe function pointer with a specific signature. It encapsulates a reference to a method with a particular parameter list and return type, enabling invocation of the referenced method through the delegate instance. Delegates are commonly used for event handlers, callbacks, and asynchronous programming patterns in C#.
 websites:
   - url: https://delegate.xyz
 social:

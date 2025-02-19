@@ -1,7 +1,7 @@
 version: 7
 name: offline-oracles
 display_name: Offline Oracles
-description: An NFT project powering infrastructure to unbreak the internet
+description: Offline Oracles enable secure off-chain computation using a committee of oracles. They support private key generation, BLS signature aggregation, and relaying results on-chain via a smart contract. Implemented in Rust with TEEs for trusted execution.
 websites:
   - url: https://www.offlineoracles.com/
 github:

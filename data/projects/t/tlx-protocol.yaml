@@ -1,6 +1,7 @@
 version: 7
 name: tlx-protocol
 display_name: TLX
+description: TLX (Leveraged Tokens) are ERC20 tokens that provide leveraged exposure to the price of Synthetix synths. Users can mint, burn, and trade TLX tokens, which are implemented as separate contracts for each synth and leverage combination. TLX tokens are backed by SNX stakers who receive fees generated from TLX transactions.
 websites:
   - url: https://tlx.fi/
 social:
