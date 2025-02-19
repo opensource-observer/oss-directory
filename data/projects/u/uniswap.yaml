@@ -108,14 +108,53 @@ npm:
   - url: https://www.npmjs.com/package/@uniswap/ethers-rs-mobile
   - url: https://www.npmjs.com/package/@uniswap/swap-router-react
 defillama:
+  - url: https://defillama.com/protocol/uniswap-v4
   - url: https://defillama.com/protocol/uniswap-v3
   - url: https://defillama.com/protocol/uniswap-v2
   - url: https://defillama.com/protocol/uniswap-v1
+  - url: https://defillama.com/protocol/uniswap
   - url: https://defillama.com/protocol/uniswap-labs
 blockchain:
   - address: "0xced01e7617bf6052a71154daa6d50d8b243f1b26"
     networks:
       - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x7AC7499f3754B65CF9089db328ef51151a78EC00"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
+  - address: "0x2179a60856E37dfeAacA0ab043B931fE224b27B6"
+    networks:
+      - base
+      - worldchain
+    tags:
+      - deployer
+      - eoa
+  - address: "0x885b67395c102F5cD58D593A2A5Eaac43b204dbf"
+    networks:
+      - celo
+    tags:
+      - deployer
+      - eoa
+  - address: "0x964b29ea2f09620a4Cd8bEa2e69eC0A568f16Ea5"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
+  - address: "0x9C33eaCc2F50E39940D3AfaF2c7B8246B681A374"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
+  - address: "0x4e59b44847b379578588920cA78FbF26c0B4956C"
+    networks:
+      - ink
     tags:
       - deployer
       - eoa
@@ -163,6 +202,7 @@ blockchain:
       - arbitrum_one
       - mainnet
       - optimism
+      - base
     tags:
       - contract
     name: UniversalRouter
@@ -322,6 +362,9 @@ blockchain:
   - address: "0x000000000022d473030f116ddee9f6b43ac78ba3"
     networks:
       - arbitrum_one
+      - base
+      - celo
+      - worldchain
     tags:
       - contract
     name: Permit2
@@ -371,6 +414,340 @@ blockchain:
   - address: "0x54df9e11c7933a9ca3bd1e540b63da15edae40bf"
     networks:
       - optimism
-    name: LimitOrderRegistry
     tags:
       - contract
+    name: LimitOrderRegistry
+  - address: "0x33128a8fC17869897dcE68Ed026d694621f6FDfD"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: UniswapV3Factory
+  - address: "0x091e99cb1C49331a94dD62755D168E941AbD0693"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Multicall
+  - address: "0x3334d83e224aF5ef9C2E7DDA7c7C98Efd9621fA9"
+    networks:
+      - base
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0x0CdeE061c75D43c82520eD998C23ac2991c9ac6d"
+    networks:
+      - base
+    tags:
+      - contract
+    name: TickLens
+  - address: "0xF9d1077fd35670d4ACbD27af82652a8d84577d9F"
+    networks:
+      - base
+    tags:
+      - contract
+    name: NFTDescriptor
+  - address: "0x4f225937EDc33EFD6109c4ceF7b560B2D6401009"
+    networks:
+      - base
+    tags:
+      - contract
+    name: NonfungibleTokenPositionDescriptor
+  - address: "0x4615C383F85D0a2BbED973d83ccecf5CB7121463"
+    networks:
+      - base
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x03a520b32C04BF3bEEf7BEb72E919cf822Ed34f1"
+    networks:
+      - base
+    tags:
+      - contract
+    name: NonfungiblePositionManager
+  - address: "0x23cF10b1ee3AdfCA73B0eF17C07F7577e7ACd2d7"
+    networks:
+      - base
+    tags:
+      - contract
+    name: V3Migrator
+  - address: "0x3d4e44Eb1374240CE5F1B871ab261CD16335B76a"
+    networks:
+      - base
+    tags:
+      - contract
+    name: QuoterV2
+  - address: "0x2626664c2603336E57B271c5C0b26F421741e481"
+    networks:
+      - base
+    tags:
+      - contract
+    name: SwapRouter02
+  - address: "0x42bE4D6527829FeFA1493e1fb9F3676d2425C3C1"
+    networks:
+      - base
+    tags:
+      - contract
+    name: v3StakerAddress
+
+  - address: "0x498581ff718922c3f8e6a244956af099b2652b2b"
+    networks:
+      - base
+    tags:
+      - contract
+    name: PoolManager
+  - address: "0x25d093633990dc94bedeed76c8f3cdaa75f3e7d5"
+    networks:
+      - base
+    tags:
+      - contract
+    name: PositionDescriptor
+  - address: "0x7c5f5a4bbd8fd63184577525326123b519429bdc"
+    networks:
+      - base
+    tags:
+      - contract
+    name: PositionManager
+  - address: "0x0d5e0f971ed27fbff6c2837bf31316121532048d"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Quoter
+  - address: "0xa3c0c9b65bad0b08107aa264b0f3db444b867a71"
+    networks:
+      - base
+    tags:
+      - contract
+    name: StateView
+  - address: "0x6ff5693b99212da76ad316178a184ab56d299b43"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Universal Router
+  - address: "0xb1860d529182ac3bc1f51fa2abd56662b7d13f33"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: PoolManager
+  - address: "0x7da419153bd420b689f312363756d76836aeace4"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: PositionDescriptor
+  - address: "0xc585e0f504613b5fbf874f21af14c65260fb41fa"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: PositionManager
+  - address: "0x55d235b3ff2daf7c3ede0defc9521f1d6fe6c5c0"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: Quoter
+  - address: "0x51d394718bc09297262e368c1a481217fdeb71eb"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: StateView
+  - address: "0x8ac7bee993bb44dab564ea4bc9ea67bf9eb5e743"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: Universal Router
+  - address: "0x7a5028BDa40e7B173C278C5342087826455ea25a"
+    networks:
+      - worldchain
+    tags:
+      - contract
+      - factory
+    name: UniswapV3Factory
+  - address: "0x0a22c04215c97E3F532F4eF30e0aD9458792dAB9"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: Multicall
+  - address: "0x8B52DaCB7B5d9A959CDcD5419061c0eDD1296c29"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0xE61df0CaC9d85876aCE5E3037005D80943570623"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: TickLens
+  - address: "0x38c68A1D60C47973EcE5bc1725B65D8Bec438192"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: NFTDescriptor
+  - address: "0x70410a302c4a5c52C659b780941c947Abd437FeB"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: NonfungibleTokenPositionDescriptor
+  - address: "0xe6FcB4952b2d3Fab6DA4BC165831f5575e093feC"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0xec12a9F9a09f50550686363766Cc153D03c27b5e"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: NonfungiblePositionManager
+  - address: "0x9EBDdCBa71C9027E1eB45135672a30bcFEec9de3"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: V3Migrator
+  - address: "0x10158D43e6cc414deE1Bd1eB0EfC6a5cBCfF244c"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: QuoterV2
+  - address: "0x091AD9e2e6e5eD44c1c66dB50e49A601F9f36cF6"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: SwapRouter02
+  - address: "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: UniversalRouter
+  - address: "0x360e68faccca8ca495c1b759fd9eee466db9fb32"
+    networks:
+      - ink
+    tags:
+      - contract
+    name: PoolManager
+  - address: "0x42e3ccd9b7f67b5b2ee0c12074b84ccf2a8e7f36"
+    networks:
+      - ink
+    tags:
+      - contract
+    name: PositionDescriptor
+  - address: "0x1b35d13a2e2528f192637f14b05f0dc0e7deb566"
+    networks:
+      - ink
+    tags:
+      - contract
+    name: PositionManager
+  - address: "0x3972c00f7ed4885e145823eb7c655375d275a1c5"
+    networks:
+      - ink
+    tags:
+      - contract
+    name: Quoter
+  - address: "0x76fd297e2d437cd7f76d50f01afe6160f86e9990"
+    networks:
+      - ink
+    tags:
+      - contract
+    name: StateView
+  - address: "0x112908dac86e20e7241b0927479ea3bf935d1fa0"
+    networks:
+      - ink
+    tags:
+      - contract
+    name: Universal Router
+  - address: "0xAfE208a311B21f13EF87E33A90049fC17A7acDEc"
+    networks:
+      - celo
+    tags:
+      - contract
+      - factory
+    name: UniswapV3Factory
+  - address: "0x633987602DE5C4F337e3DbF265303A1080324204"
+    networks:
+      - celo
+    tags:
+      - contract
+    name: Multicall
+  - address: "0xc1b262Dd7643D4B7cA9e51631bBd900a564BF49A"
+    networks:
+      - cello
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0x5f115D9113F88e0a0Db1b5033D90D4a9690AcD3D"
+    networks:
+      - celo
+    tags:
+      - contract
+    name: TickLens
+  - address: "0xa9Fd765d85938D278cb0b108DbE4BF7186831186"
+    networks:
+      - celo
+    tags:
+      - contract
+    name: NFTDescriptor
+  - address: "0x644023b316bB65175C347DE903B60a756F6dd554"
+    networks:
+      - celo
+    tags:
+      - contract
+    name: NonfungibleTokenPositionDescriptor
+  - address: "0x505B43c452AA4443e0a6B84bb37771494633Fde9"
+    networks:
+      - celo
+    tags:
+      - contract
+    name: TransparentUpgradeableProxy
+  - address: "0x3d79EdAaBC0EaB6F08ED885C05Fc0B014290D95A"
+    networks:
+      - celo
+    tags:
+      - contract
+    name: NonfungiblePositionManager
+  - address: "0x3cFd4d48EDfDCC53D3f173F596f621064614C582"
+    networks:
+      - celo
+    tags:
+      - contract
+    name: V3Migrator
+  - address: "0x82825d0554fA07f7FC52Ab63c961F330fdEFa8E8"
+    networks:
+      - celo
+    tags:
+      - contract
+    name: QuoterV2
+  - address: "0x5615CDAb10dc425a742d643d949a7F474C01abc4"
+    networks:
+      - celo
+    tags:
+      - contract
+    name: SwapRouter02
+  - address: "0x643770E279d5D0733F21d6DC03A8efbABf3255B4"
+    networks:
+      - celo
+    tags:
+      - contract
+    name: UniversalRouter
+  - address: "0x6586FB35393abF7Ff454977a9b3c912d218791C6"
+    networks:
+      - celo
+    tags:
+      - contract
+    name: v3StakerAddress
