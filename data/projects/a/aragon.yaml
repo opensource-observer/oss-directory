@@ -27,5 +27,45 @@ blockchain:
       - wallet
     networks:
       - optimism
+  - address: "0xff8AB822b8A853b01F9a9E9465321d6Fe77c9D2F"
+    tags:
+      - proxy
+    networks:
+      - mode
+  - address: "0x71439Ae82068E19ea90e4F506c74936aE170Cf58"
+    tags:
+      - proxy
+    networks:
+      - mode
+  - address: "0x9c2eFe2a1FBfb601125Bb07a3D5bC6EC91F91e01"
+    tags:
+      - proxy
+    networks:
+      - mode
+  - address: "0x2aA8A5C1Af4EA11A1f1F10f3b73cfB30419F77Fb"
+    tags:
+      - proxy
+    networks:
+      - mode
+  - address: "0xaf5d3878E364b004A964c66e79E7c04F8c110b1C"
+    tags:
+      - proxy
+    networks:
+      - mode
+  - address: "0x5A6b1F5e91EFAbAb037dbf0D0056742cD7aFc74d"
+    tags:
+      - proxy
+    networks:
+      - mode
+  - address: "0x632Ec6569aA76aF2c6AF64e2F048ab8CA16fa5ab"
+    tags:
+      - proxy
+    networks:
+      - mode
+  - address: "0x35a37f4b32ECFf2A59B7FFc4C7b22D8669077a04"
+    tags:
+      - proxy
+    networks:
+      - mode
 npm:
   - url: https://www.npmjs.com/package/@aragon/os
