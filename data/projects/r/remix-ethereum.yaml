@@ -1,7 +1,9 @@
 version: 7
 name: remix-ethereum
 display_name: Remix Project
+description: Remix IDE is a web-based tool for developing smart contracts that supports the entire development workflow. It offers a rich plugin ecosystem, requires no setup, and is available as a web or desktop app. Remix IDE is part of the larger Remix Project, which includes the Plugin Engine and Libraries.
 websites:
+  - url: https://remix-project.org/
   - url: https://remix-ide.readthedocs.io/en/latest/
 github:
   - url: https://github.com/ethereum/remix-project
@@ -20,6 +22,18 @@ github:
   - url: https://github.com/ethereum/remixd
   - url: https://github.com/ethereum/awesome-remix
   - url: https://github.com/ethereum/browser-solidity
+  - url: https://github.com/remix-project-org/remix-desktop
+  - url: https://github.com/remix-project-org/remix-desktop-insiders
+  - url: https://github.com/remix-project-org/circom_wasm
+  - url: https://github.com/remix-project-org/circom
+  - url: https://github.com/remix-project-org/remix-dapp
+  - url: https://github.com/remix-project-org/remix-reward
+  - url: https://github.com/remix-project-org/remix-challenges
+  - url: https://github.com/remix-project-org/remix-rewards-ui
+  - url: https://github.com/remix-project-org/remix_ai_tools
+  - url: https://github.com/remix-project-org/script-runner
+  - url: https://github.com/remix-project-org/script-runner-generator
+  
 blockchain:
   - address: "0x5d470270e889b61c08c51784cdc73442c4554011"
     networks:

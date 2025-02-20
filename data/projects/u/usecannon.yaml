@@ -1,8 +1,12 @@
 version: 7
 name: usecannon
 display_name: Cannon
+description: Cannon is an open-source DevOps tool tailored for Ethereum Virtual Machine (EVM) chains, helping developers test, deploy, and manage smart contracts across platforms like Ethereum, Optimism, and Arbitrum. With its command-line interface and compatibility with frameworks like Hardhat, it enables efficient protocol management.
 websites:
   - url: https://usecannon.com
+social:
+  twitter:
+    - url: https://twitter.com/usecannon
 github:
   - url: https://github.com/usecannon/cannon
 npm:
@@ -10,10 +14,17 @@ npm:
   - url: https://www.npmjs.com/package/@usecannon/builder
   - url: https://www.npmjs.com/package/@usecannon/contracts
 blockchain:
-  - address: "0x07aeeb7e544a070a2553e142828fb30c214a1f86"
+  - address: "0x8E5C7EFC9636A6A0408A46BB7F617094B81e5dba"
+    name: CannonRegistry
     networks:
-      - any_evm
+      - mainnet
+      - optimism
     tags:
-      - eoa
-      - wallet
-    name: noahlitvin.eth
+      - contract
+  - address: "0x14570ce88f490a80342cc156a6a0ebc173609f5e"
+    name: AttestationRegistry
+    networks:
+      - mainnet
+      - optimism
+    tags:
+      - contract

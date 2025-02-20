@@ -1,6 +1,7 @@
 version: 7
 name: zypher-game
 display_name: Zypher 2048
+description: Zypher 2048 is a mobile puzzle game where players slide numbered tiles on a grid to combine them and create a tile with the value 2048. The game features customizable grid sizes, an undo button, and local leaderboards. It is implemented using Swift and UIKit, with data persistence handled via UserDefaults.
 websites:
   - url: https://test.zypher.game/
 github:
