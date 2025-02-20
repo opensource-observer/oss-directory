@@ -1,8 +1,20 @@
 version: 7
 name: wanchain
 display_name: Wanchain
-description: The world’s premier decentralized blockchain interoperability solution.
+description: The world's premier decentralized blockchain interoperability solution.
 websites:
   - url: https://www.wanchain.org
+social:
+  twitter:
+    - url: https://x.com/wanchain_org
 github:
   - url: https://github.com/wanchain
+defillama:
+  - url: https://defillama.com/protocol/wan-bridge
+blockchain:
+  - address: "0x7280E3b8c686c68207aCb1A4D656b2FC8079c033"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+    name: mainnet
