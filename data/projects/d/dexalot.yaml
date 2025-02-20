@@ -1,5 +1,52 @@
 version: 7
 name: dexalot
 display_name: Dexalot
+description: Dexalot is an omni-chain order book DEX with zero slippage, near zero gas fees, and is on its own app-specific chain, allowing users to deposit from and withdraw to multiple chains.
+websites:
+  - url: https://app.dexalot.com/
+social:
+  twitter:
+    - url: https://x.com/dexalot
 github:
   - url: https://github.com/dexalot
+defillama:
+  - url: https://defillama.com/protocol/dexalot-portfolio
+blockchain:
+  - address: "0x1a44076050125825900e736c501f859c50fE728c"
+    networks:
+      - base
+      - arbitrum_one
+    tags:
+      - deployer
+    name: LZEndpointV2
+  - address: "0x170c15cb9887E6Adb097518104B174Df212bB190"
+    networks:
+      - base
+      - arbitrum_one
+    tags:
+      - deployer
+    name: LzV2App
+  - address: "0xb6319cC6c8c27A8F5dAF0dD3DF91EA35C4720dd7"
+    networks:
+      - base
+    tags:
+      - deployer
+    name: LZEndpoint
+  - address: "0xD1216545811750785285f4D303694Ff2090e0eb3"
+    networks:
+      - base
+    tags:
+      - deployer
+    name: ExchangeMain
+  - address: "0x3c2269811836af69497E5F486A85D7316753cf62"
+    networks:
+      - arbitrum_one
+    tags:
+      - deployer
+    name: LZEndpoint
+  - address: "0xC725229Aefeab5fAec9cc1667d79D9478e564a0C"
+    networks:
+      - arbitrum_one
+    tags:
+      - deployer
+    name: ExchangeMain
