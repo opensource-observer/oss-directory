@@ -1,0 +1,54 @@
+version: 7
+name: blueshift-finance
+display_name: Blueshift Finance
+description: Blueshift Finance is a decentralized exchange (DEX) on the Ethereum blockchain. It enables automated market making and liquidity provision using smart contracts. iZUMi supports token swaps, yield farming, and staking functionalities.
+websites:
+  - url: https://blueshift.fi/
+social:
+  twitter:
+    - url: https://twitter.com/blueshiftfi
+github:
+  - url: https://github.com/blueshift-fi
+defillama:
+  - url: https://defillama.com/protocol/blueshift
+blockchain:
+  - address: "0x1e77DF4526331F0370aC2404789EE6f816894441"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - bob
+  - address: "0xFF485b08a64046B9A23342D6098f26e7C237c19A"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - bob
+  - address: "0x44e3163c55a2E2B4488A284B84CE0288838e1719"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - bob
+  - address: "0x784156F8729c64BAd3CC79fc20d1e8Cde8D42E96"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: registry
+  - address: "0x784156F8729c64BAd3CC79fc20d1e8Cde8D42E96"
+    tags:
+      - contract
+      - token
+    networks:
+      - bob
+    name:
+      - unnamedToken
+  - address: "0xCFBF083A7749C23391296C65ADBdd8A4118b861f"
+    tags:
+      - contract
+      - token
+    networks:
+      - bob
+    name:
+      - BLUES
