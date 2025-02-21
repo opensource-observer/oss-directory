@@ -15,6 +15,10 @@ npm:
   - url: https://www.npmjs.com/package/@baseswapfi/v3-sdk2
   - url: https://www.npmjs.com/package/@baseswapfi/default-token-list
   - url: https://www.npmjs.com/package/@baseswapfi/contracts
+defillama:
+  - url: https://defillama.com/protocol/baseswap
+  - url: https://defillama.com/protocol/baseswap-v2
+  - url: https://defillama.com/protocol/basex
 blockchain:
   - address: "0x03d4c4b1b115c068ef864de2e21e724a758892a2"
     networks:
@@ -28,3 +32,87 @@ blockchain:
     tags:
       - eoa
       - deployer
+  - address: "0x2102C32A09cbCed4146C3db2D27Ae21a185bDa43"
+    networks:
+      - base
+    tags:
+      - eoa
+      - deployer
+  - address: "0x78a087d713Be963Bf307b18F2Ff8122EF9A63ae9"
+    networks:
+      - base
+    tags:
+      - contract
+    name: BSWAP
+  - address: "0xd5046b976188eb40f6de40fb527f89c05b323385"
+    networks:
+      - base
+    tags:
+      - contract
+      - token
+    name: BSX
+  - address: "0xe4750593d1fc8e74b31549212899a72162f315fa"
+    networks:
+      - base
+    tags:
+      - contract
+      - token
+    name: xBSX
+  - address: "0x58ed4fd0c3d930b674ba50a293f03ef6cd7de7a3"
+    networks:
+      - base
+    tags:
+      - contract
+      - token
+    name: ARX
+  - address: "0x6Fc0f134a1F20976377b259687b1C15a5d422B47"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Masterchief
+  - address: "0xFDa619b6d20975be80A10332cD39b9a4b0FAa8BB"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: Factory
+  - address: "0x1d23317069d9a01b99a2b755a4bb7528450198b8"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: NFTPoolFactory
+  - address: "0x327Df1E6de05895d2ab08513aaDD9313Fe505d86 "
+    networks:
+      - base
+    tags:
+      - contract
+    name: Router
+  - address: "0x2B0A43DCcBD7d42c18F6A83F86D1a19fA58d541A"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Old Masterchef
+  - address: "0x38015D05f4fEC8AFe15D7cc0386a126574e8077B"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: Basex V3 Factory
+  - address: "0x1B8eea9315bE495187D873DA7773a874545D9D48"
+    networks:
+      - base
+    tags:
+      - contract
+    name: BASEX V3 SwapRouter
+  - address: "0xDe151D5c92BfAA288Db4B67c21CD55d5826bCc93"
+    networks:
+      - base
+    tags:
+      - contract
+    name: BASEX V3 NonFungiblePositionManager
