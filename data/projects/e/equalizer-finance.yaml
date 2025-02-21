@@ -1,5 +1,81 @@
 version: 7
 name: equalizer-finance
 display_name: Equalizer Finance
+description: Equalizer's twin-AMM design unites StableSwap pools with Standard 'kxy' liquidity pools. All the trading fees go to Vote-Escrowers of emission token $EQUAL which has to be Locked to earn triple 'Bribes' from candidate pools via Trade Fee, Internal Bribes & External Bribes.
+websites:
+  - url: https://equalizer.exchange/
+social:
+  twitter:
+    - url: https://twitter.com/Equalizer0x
 github:
   - url: https://github.com/equalizer-finance
+defillama:
+  - url: https://defillama.com/protocol/equalizer
+  - url: https://defillama.com/protocol/equalizer-exchange
+  - url: https://defillama.com/protocol/scale
+  - url: https://defillama.com/protocol/equity
+blockchain:
+  - address: "0xc802a5a140224ed72e7c821f637c1e5759744045"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x54016a4848a38f257B6E96331F7404073Fd9c32C"
+    tags:
+      - contract
+      - token
+    networks:
+      - base
+    name: SCALE
+  - address: "0xEd8db60aCc29e14bC867a497D94ca6e3CeB5eC04"
+    tags:
+      - contract
+      - factory
+    networks:
+      - base
+    name: PairFactory
+  - address: "0x2F87Bf58D5A9b2eFadE55Cdbd46153a0902be6FA"
+    tags:
+      - contract
+    networks:
+      - base
+    name: Router v2
+  - address: "0x28c9c71c776a1203000b56c0cca48bef1cd51c53"
+    tags:
+      - contract
+    networks:
+      - base
+    name: VotingEscrow
+  - address: "0xb136b45e3e241bb0d0c037395446cf42e4db13d6"
+    tags:
+      - contract
+      - factory
+    networks:
+      - base
+    name: GaugeFactory
+  - address: "0xcb418f555974ef099a528c2c866b35520230ae18"
+    tags:
+      - contract
+      - factory
+    networks:
+      - base
+    name: BribeFactory
+  - address: "0x5e9d25014d01323d6f8c0c6640572e4444d11c94"
+    tags:
+      - contract
+    networks:
+      - base
+    name: Router v1
+  - address: "0x46abb88ae1f2a35ea559925d99fdc5441b592687"
+    tags:
+      - contract
+    networks:
+      - base
+    name: Voter
+  - address: "0x44621CcEF14730A2F864eC11311A7F0BCB005685"
+    tags:
+      - contract
+    networks:
+      - base
+    name: Minter
