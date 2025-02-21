@@ -1,6 +1,7 @@
 version: 7
 name: alienbase-xyz
 display_name: AlienBase
+description: Alien Base is building the Base trading hub for efficiently trading tokens and memecoins onchain. Offering aggregated liquidity, limit orders, yield farming and more, Alien technology helps you use Base to the fullest.
 websites:
   - url: https://www.alienbase.xyz
 social:
@@ -10,6 +11,12 @@ social:
     - url: https://warpcast.com/alienbase
 github:
   - url: https://github.com/alienbase-xyz
+defillama:
+  - url: https://defillama.com/protocol/alien-base
+  - url: https://defillama.com/protocol/alien-base-v2
+  - url: https://defillama.com/protocol/alien-base-v3
+  - url: https://defillama.com/protocol/alien-base-area51
+  - url: https://defillama.com/protocol/alien-base-stableswap
 blockchain:
   - address: "0xdd3705a1c50fc84b6d31394aa8f4d568b98a8ad5"
     tags:
@@ -17,3 +24,29 @@ blockchain:
       - deployer
     networks:
       - base
+  - address: "0x3e84d913803b02a4a7f027165e8ca42c14c0fde7"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: Factory
+  - address: "0x8c1A3cF8f83074169FE5D7aD50B978e1cD6b37c7"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Router
+  - address: "0x52eaeCAC2402633d98b95213d0b473E069D86590"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Farm Contract
+  - address: "0x1dd2d631c92b1acdfcdd51a0f7145a50130050c4"
+    networks:
+      - base
+    tags:
+      - contract
+      - token
+    name: ALB
