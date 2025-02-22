@@ -21,6 +21,12 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xcd297aefdeba144ff27ee677aa8c80df9e349066"
+    networks:
+      - optimism
+    tags:
+      - deployer
+      - eoa
   - address: "0xdbaabc182e5fcebf216c353a3ebe32cdb7390094"
     networks:
       - any_evm
@@ -197,11 +203,7 @@ blockchain:
     tags:
       - safe
       - wallet
-  - address: "0xcd297aefdeba144ff27ee677aa8c80df9e349066"
-    networks:
-      - optimism
-    tags:
-      - deployer
+    name: GnosisSafeProxy
   - address: "0x6fe9f5616ac30e0a66b5bc68d05f081471835bf7"
     networks:
       - optimism
