@@ -39,16 +39,12 @@ blockchain:
   - address: "0x784156F8729c64BAd3CC79fc20d1e8Cde8D42E96"
     tags:
       - contract
-      - token
     networks:
       - bob
-    name:
-      - unnamedToken
+    name: unnamedToken
   - address: "0xCFBF083A7749C23391296C65ADBdd8A4118b861f"
     tags:
       - contract
-      - token
     networks:
       - bob
-    name:
-      - BLUES
+    name: BLUES

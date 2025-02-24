@@ -1,7 +1,7 @@
 version: 7
 name: ra-exchange
 display_name: Ra Exchange
-description: RA is a next-generation AMM designed to serve as Fraxtal's central liquidity hub, combining the secure and battle-tested superiority of Uniswap v3 with a custom incentive engine, vote-lock governance model, and streamlined user experience.
+description: RA is a next-generation AMM designed to serve as frax's central liquidity hub, combining the secure and battle-tested superiority of Uniswap v3 with a custom incentive engine, vote-lock governance model, and streamlined user experience.
 websites:
   - url: https://www.ra.exchange/
 social:
@@ -10,211 +10,209 @@ social:
   telegram:
     - url: https://t.me/exchange_RA
 defillama:
-    - url: https://defillama.com/protocol/ra-exchange
+  - url: https://defillama.com/protocol/ra-exchange
 blockchain:
   - address: "0x1e2A7CBC66acCb56adC9dc300596318537851934"
     networks:
-      - fraxtal
+      - frax
     tags:
       - deployer
       - eoa
   - address: "0x8e01fc0d89b93a6447D6c6Eca6fBd30e6E4a1ce3"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: proxyAdmin
   - address: "0x95120704f4E2D545Aea8b6B3c16d9Da1fa32E30F"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
       - deployer
     name: contractDeployer
   - address: "0xAAA9FB3a08C13BA97Ae0F518B3AfA5C4a81498Fc"
     networks:
-      - fraxtal
-      - token
+      - frax
     tags:
       - contract
     name: RA Token
   - address: "0xAAA932839641c037452f826BB9d7B2057129833b"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
       - factory
     name: gaugeFactory
   - address: "0xAAA1c31Cc1d1C2da7e634130DeD0ea2043271744"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
       - factory
     name: feeDistributorFactory
   - address: "0xAAA16c016BF556fcD620328f0759252E29b1AB57"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
       - factory
     name: pairFactory
   - address: "0xAAA45c8F5ef92a000a121d102F4e89278a711Faa"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: router
   - address: "0xAAA3e4BD26221255234904fa9E8A300D3C64Cd49"
     networks:
-      - fraxtal
+      - frax
     tags:
-      - veArtProxy
+      - contract
     name: TransparentUpgradeableProxy
   - address: "0xAAAEa1fB9f3DE3F70E89f37B69Ab11B47eb9Ce6F"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: votingEscrow
   - address: "0xAAA9Ea898ae0b7D3805aF555AF3a2e3BdF06D22C"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: rewardsDistributor
   - address: "0xAAAf3D9CDD3602d117c67D80eEC37a160C8d9869"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: voter
   - address: "0xAAA823aa799BDa3193D46476539bcb1da5B71330"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: minter
   - address: "0xAAA32926fcE6bE95ea2c51cB4Fcb60836D320C42"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
       - factory
     name: factory
   - address: "0xAAA78E8C4241990B4ce159E105dA08129345946A"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: nfpManager
   - address: "0xAAA04d7751adC79e1525B408Ba38344C5797322b"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: nftDescriptor
   - address: "0xa16192ff74ae344e2918d230b0af736f0d4491fb"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: TransparentUpgradeableProxy
   - address: "0xAAAE99091Fbb28D400029052821653C1C752483B"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: swapRouter
   - address: "0xAAAFC0791b0eF4D4225d1c1F57Dd6a41177F8562"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: pairFlash
-  - address: "0xAAAbFD1E45Cc93d16c2751645e50F2594bE12680
+  - address: "0xAAAbFD1E45Cc93d16c2751645e50F2594bE12680"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: quoter
   - address: "0xAAAEA10b0e6FBe566FE27c3A023DC5D8cA6Bca3d"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: quoterV2
   - address: "0xAAA75a605C2f245A30Fb4299E5CDfBF6B4FB30B6"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: lens
   - address: "0xAAAD7F8b00B5ce6F8516AC595f0Bb175Ae755c63"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: tickLens
   - address: "0xAAA2D4987EEd427Ba5E2c933EeFCD75C84b446B7"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: gaugeV2Factory
   - address: "0xAAA2A49958a443Dc9d19FdDEe873B5D1d6e84A2f"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: feeCollector
   - address: "0xAAAE58986b24e422740C8F22B3efB80BCbD68159"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
-      - token
     name: xRA
   - address: "0xAAA11500dDdB2B67a90d1a154dfB7eaBB518EAE6"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: commandCenter
   - address: "0xAAA7BF23E1CeE9f5cE70E3d7DFfd09CC7Ae3f89c"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: protocolWhitelist
   - address: "0xAAACd718B331DAe78ED62499A08F387d381a104C"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: incentivesController
   - address: "0x000000000022D473030F116dDEE9F6B43aC78BA3"
     networks:
-      - fraxtal
+      - frax
     tags:
+      - contract
       - deployer
     name: permit2
   - address: "0xAAA42561f12B3a83Aa775935adaA6aA975F46CcC"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: universalRouter
   - address: "0xAAAD72Ee650D3f33062f56b8813a4b3279e5a881"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: timelock
   - address: "0xAAAdC6C928EC940d171DDdE564d5BCcA4dAF77FC"
     networks:
-      - fraxtal
+      - frax
     tags:
       - contract
     name: MixedQuoter
-  

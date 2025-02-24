@@ -18,14 +18,12 @@ blockchain:
     tags:
       - deployer
       - eoa
-    name: Gyroscope: Deployer 1
   - address: "0x725e704b6933be9896c717f735e5a5edbfc7193f"
     networks:
       - optimism
     tags:
       - deployer
       - eoa
-    name: Gyroscope: Deployer
   - address: "0x444679BeCbC1BC0d6Be81254eebC6ca7E7E8819E"
     networks:
       - optimism
@@ -170,7 +168,6 @@ blockchain:
       - base
     tags:
       - contract
-      - token
     name: Gyro Dollar (GYD)
   - address: "0x4A0f0012004BC22D4fDb818B9C539E78aDC0c69d"
     networks:
@@ -202,8 +199,3 @@ blockchain:
     tags:
       - contract
     name: PauseManager
-  
-
-
-
-

@@ -15,7 +15,7 @@ defillama:
   - url: https://defillama.com/protocol/scale
   - url: https://defillama.com/protocol/equity
 blockchain:
-  - address: "0xc802a5a140224ed72e7c821f637c1e5759744045"
+  - address: "0x5C146cd18fa53914580573C9b9604588529406Ca"
     tags:
       - eoa
       - deployer
@@ -24,7 +24,6 @@ blockchain:
   - address: "0x54016a4848a38f257B6E96331F7404073Fd9c32C"
     tags:
       - contract
-      - token
     networks:
       - base
     name: SCALE

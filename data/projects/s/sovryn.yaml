@@ -32,8 +32,7 @@ blockchain:
       - contract
     networks:
       - bob
-    name:
-      - SdexQuery
+    name: SdexQuery
   - address: "0xFA57d9d1Db4676099e67215906f2F681d7730882"
     tags:
       - contract
@@ -45,15 +44,13 @@ blockchain:
       - contract
     networks:
       - bob
-    name:
-      - MicroPaths
+    name: MicroPaths
   - address: "0x44F220aa5434901E92b0B9F1D1F3Be068BA29099"
     tags:
       - contract
     networks:
       - bob
-    name:
-      - LongPath
+    name: LongPath
   - address: "0xa65B8E861c5e7672013cDD05853915C6f24ce19D"
     tags:
       - contract
@@ -65,8 +62,7 @@ blockchain:
       - contract
     networks:
       - bob
-    name:
-      - HotProxy
+    name: HotProxy
   - address: "0x4AC1fda4171bC77cf23Be54529E0CF135f6b9B93"
     tags:
       - contract
@@ -90,8 +86,7 @@ blockchain:
       - contract
     networks:
       - bob
-    name:
-      - WeightedStakingModule
+    name: WeightedStakingModule
   - address: "0xB30F553aC5E15b72fba1003D102C824f2903b92f"
     tags:
       - contract
@@ -103,15 +98,13 @@ blockchain:
       - contract
     networks:
       - bob
-    name:
-      - StakingVestingModule
+    name: StakingVestingModule
   - address: "0xd865A7398C051a04a70BC078B61e847922d50E65"
     tags:
       - contract
     networks:
       - bob
-    name:
-      - StakingStorageModule
+    name: StakingStorageModule
   - address: "0x8aC3AE12370F1eB66Cc42b77875Bfa7B1E406d48"
     tags:
       - contract
@@ -123,8 +116,7 @@ blockchain:
       - contract
     networks:
       - bob
-    name:
-      - StakingAdminModule
+    name: StakingAdminModule
   - address: "0xc17C6462cEAFE9A8819258c6bA168BEF5544Fc21"
     tags:
       - contract
@@ -148,8 +140,7 @@ blockchain:
       - contract
     networks:
       - bob
-    name:
-      - SdexImpact
+    name: SdexImpact
   - address: "0x22Bdd8B71928003473EfA83cd69689cc04507cd9"
     tags:
       - contract
@@ -162,16 +153,13 @@ blockchain:
       - factory
     networks:
       - bob
-    name:
-      - MerkleDistributorFactory
+    name: MerkleDistributorFactory
   - address: "0x6404DD00Ff4d92B0bfD9A7EA032E592f47384F6D"
     tags:
       - contract
-      - token
     networks:
       - bob
-    name:
-      - Sovryn Token
+    name: Sovryn Token
   - address: "0xac2d05A148aB512EDEDc7280c00292ED33d31f1A"
     tags:
       - contract
@@ -183,6 +171,4 @@ blockchain:
       - contract
     networks:
       - bob
-    name:
-      - MockToken
-
+    name: MockToken

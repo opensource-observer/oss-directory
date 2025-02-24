@@ -40,8 +40,7 @@ blockchain:
     networks:
       - base
       - mode
-    name:
-      - swapX2YModule
+    name: swapX2YModule
   - address: "0x32D02Fc7722E81F6Ac60B87ea8B4b63a52Ad2b55"
     tags:
       - contract
@@ -55,16 +54,14 @@ blockchain:
     networks:
       - base
       - mode
-    name:
-      - liquidityModule
+    name: liquidityModule
   - address: "0xe96526e92ee57bBD468DA1721987aa988b008768"
     tags:
       - contract
     networks:
       - base
       - mode
-    name:
-      - limitOrderModule
+    name: limitOrderModule
   - address: "0xbD6abA1Ef82A4cD6e15CB05e95f433ef48dfb5df"
     tags:
       - contract
@@ -77,8 +74,7 @@ blockchain:
       - contract
     networks:
       - base
-    name:
-      - quoter (without limit)
+    name: quoter (without limit)
   - address: "0x3EF68D3f7664b2805D4E88381b64868a56f88bC4"
     tags:
       - contract
@@ -104,8 +100,7 @@ blockchain:
       - contract
     networks:
       - base
-    name:
-      - limitOrderManager
+    name: limitOrderManager
   - address: "0x7a524c7e82874226F0b51aade60A1BE4D430Cf0F"
     tags:
       - contract
@@ -118,15 +113,13 @@ blockchain:
       - contract
     networks:
       - mode
-    name:
-      - quoter (without limit)
+    name: quoter (without limit)
   - address: "0x34bc1b87f60e0a30c0e24FD7Abada70436c71406"
     tags:
       - contract
     networks:
       - mode
-    name:
-      - quoter (with 10000 ticks)
+    name: quoter (with 10000 ticks)
   - address: "0x611575eE1fbd4F7915D0eABCC518eD396fF78F0c"
     tags:
       - contract

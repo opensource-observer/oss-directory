@@ -147,14 +147,12 @@ blockchain:
       - soneium
     tags:
       - contract
-      - token
     name: Locked Test(TEST)
   - address: "0xEd8a988f8AFb4a2Bf2eC2D30eF1745674A8aC434"
     networks:
       - soneium
     tags:
       - contract
-      - token
     name: Test(TEST)
   - address: "0xc2A7C3A9c691B87972935b12799A2EC16Ec018E6"
     networks:
@@ -309,7 +307,6 @@ blockchain:
       - soneium
     tags:
       - contract
-      - token
     name: TEST(TEST)
   - address: "0x7a0d3fBCEbD9aa44f0ff81A9987F8ef0C540ffd0"
     networks:
@@ -328,7 +325,7 @@ blockchain:
       - soneium
     tags:
       - contract
-      - factory 
+      - factory
     name: PersonalAssetManagerFactory
   - address: "0x11feF46913EF8de4501e6B9452Ec77c26e736818"
     networks:
@@ -564,7 +561,6 @@ blockchain:
       - soneium
     tags:
       - contract
-      - token
     name: Kyo(KYO)
   - address: "0x30B6c47454017bc68FA8A5f326db6c022a14a430"
     networks:

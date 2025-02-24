@@ -136,7 +136,7 @@ blockchain:
       - eoa
   - address: "0x885b67395c102F5cD58D593A2A5Eaac43b204dbf"
     networks:
-      - celo
+      - any_evm
     tags:
       - deployer
       - eoa
@@ -363,7 +363,6 @@ blockchain:
     networks:
       - arbitrum_one
       - base
-      - celo
       - worldchain
     tags:
       - contract
@@ -672,82 +671,3 @@ blockchain:
     tags:
       - contract
     name: Universal Router
-  - address: "0xAfE208a311B21f13EF87E33A90049fC17A7acDEc"
-    networks:
-      - celo
-    tags:
-      - contract
-      - factory
-    name: UniswapV3Factory
-  - address: "0x633987602DE5C4F337e3DbF265303A1080324204"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: Multicall
-  - address: "0xc1b262Dd7643D4B7cA9e51631bBd900a564BF49A"
-    networks:
-      - cello
-    tags:
-      - contract
-    name: ProxyAdmin
-  - address: "0x5f115D9113F88e0a0Db1b5033D90D4a9690AcD3D"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: TickLens
-  - address: "0xa9Fd765d85938D278cb0b108DbE4BF7186831186"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: NFTDescriptor
-  - address: "0x644023b316bB65175C347DE903B60a756F6dd554"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: NonfungibleTokenPositionDescriptor
-  - address: "0x505B43c452AA4443e0a6B84bb37771494633Fde9"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: TransparentUpgradeableProxy
-  - address: "0x3d79EdAaBC0EaB6F08ED885C05Fc0B014290D95A"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: NonfungiblePositionManager
-  - address: "0x3cFd4d48EDfDCC53D3f173F596f621064614C582"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: V3Migrator
-  - address: "0x82825d0554fA07f7FC52Ab63c961F330fdEFa8E8"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: QuoterV2
-  - address: "0x5615CDAb10dc425a742d643d949a7F474C01abc4"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: SwapRouter02
-  - address: "0x643770E279d5D0733F21d6DC03A8efbABf3255B4"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: UniversalRouter
-  - address: "0x6586FB35393abF7Ff454977a9b3c912d218791C6"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: v3StakerAddress

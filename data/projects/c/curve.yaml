@@ -661,7 +661,6 @@ blockchain:
   - address: "0xA54f3c1DFa5f7DbF2564829d14b3B74a65d26Ae2"
     networks:
       - base
-      - celo
     tags:
       - contract
     name: Views
@@ -687,7 +686,6 @@ blockchain:
   - address: "0x1Fd8Af16DC4BEBd950521308D55d0543b6cDF4A1"
     networks:
       - base
-      - celo
     tags:
       - contract
     name: Math
@@ -707,7 +705,6 @@ blockchain:
   - address: "0x934791f7F391727db92BFF94cd789c4623d14c52"
     networks:
       - base
-      - celo
     tags:
       - contract
     name: AMM
@@ -733,7 +730,6 @@ blockchain:
   - address: "0x0c59d36b23f809f8b6C7cb4c8C590a0AC103baEf"
     networks:
       - base
-      - celo
     tags:
       - contract
     name: AMM native disable
@@ -764,7 +760,6 @@ blockchain:
   - address: "0x3f445D38E820c010a7A6E33c5F80cBEBE6930f61"
     networks:
       - base
-      - celo
     tags:
       - contract
     name: MetaZapNG
@@ -779,93 +774,4 @@ blockchain:
       - base
     tags:
       - contract
-      - token
     name: Curve DAO Token (CRV)
-  - address: "0x56bc95Ded2BEF162131905dfd600F2b9F1B380a4"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: Fee Receiver
-  - address: "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98"
-    networks:
-      - celo
-      - base
-    tags:
-      - contract
-    name: Address Provider
-  - address: "0xd7E72f3615aa65b92A4DBdC211E296a35512988B"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: Math
-  - address: "0x1764ee18e8B3ccA4787249Ceb249356192594585"
-    networks:
-      - celo
-    tags:
-      - contract
-      - factory
-    name: Factory
-  - address: "0xe265FC390E9129b7E337Da23cD42E00C34Da2CE3"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: Plain AMM
-  - address: "0xa7b9d886A9a374A1C86DC52d2BA585c5CDFdac26"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: Meta AMM
-  - address: "0x07CdEBF81977E111B08C126DEFA07818d0045b80"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: Views
-  - address: "0x98EE851a00abeE0d95D08cF4CA2BdCE32aeaAF7F"
-    networks:
-      - celo
-    tags:
-      - contract
-      - factory
-    name: Factory
-  - address: "0x505d666E4DD174DcDD7FA090ed95554486d2Be44"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: Math
-  - address: "0x5a8C93EE12a8Df4455BA111647AdA41f29D5CfcC"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: Views
-  - address: "0x3d6cB2F6DcF47CDd9C13E4e3beAe9af041d8796a"
-    networks:
-      - celo
-    tags:
-      - contract
-      - factory
-    name: Factory
-  - address: "0xFAbC421e3368D158d802684A217a83c083c94CeB"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: AMM native enabled
-  - address: "0xCA8d0747B5573D69653C3aC22242e6341C36e4b4"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: StableCalcZap
-  - address: "0xA72C85C258A81761433B4e8da60505Fe3Dd551CC"
-    networks:
-      - celo
-    tags:
-      - contract
-    name: CryptoCalcZap
