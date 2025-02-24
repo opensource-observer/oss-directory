@@ -43,7 +43,7 @@ blockchain:
   - address: "0xd42c7914cf8dc24a1075e29c283c581bd1b0d3d3"
     networks:
       - optimism
-      - fraxtal
+      - any_evm
       - lisk
     tags:
       - deployer
@@ -642,7 +642,7 @@ blockchain:
       - optimism
       - mode
       - lisk
-      - fraxtal
+      - frax
       - ink
       - soneium
     tags:
@@ -654,7 +654,7 @@ blockchain:
       - optimism
       - mode
       - lisk
-      - fraxtal
+      - frax
       - ink
       - soneium
     tags:
@@ -665,7 +665,7 @@ blockchain:
       - optimism
       - mode
       - lisk
-      - fraxtal
+      - frax
       - ink
       - soneium
     tags:
@@ -676,7 +676,7 @@ blockchain:
       - optimism
       - mode
       - lisk
-      - fraxtal
+      - frax
       - ink
       - soneium
     tags:
@@ -688,7 +688,7 @@ blockchain:
       - optimism
       - mode
       - lisk
-      - fraxtal
+      - frax
       - ink
       - soneium
     tags:
@@ -698,7 +698,7 @@ blockchain:
     networks:
       - mode
       - lisk
-      - fraxtal
+      - frax
       - ink
       - soneium
     tags:
@@ -709,7 +709,7 @@ blockchain:
       - optimism
       - mode
       - lisk
-      - fraxtal
+      - frax
       - ink
       - soneium
     tags:
@@ -719,7 +719,7 @@ blockchain:
     networks:
       - mode
       - lisk
-      - fraxtal
+      - frax
       - ink
       - soneium
     tags:
@@ -730,7 +730,7 @@ blockchain:
       - optimism
       - mode
       - lisk
-      - fraxtal
+      - frax
       - ink
       - soneium
     tags:
@@ -742,7 +742,7 @@ blockchain:
       - optimism
       - mode
       - lisk
-      - fraxtal
+      - frax
       - ink
       - soneium
     tags:
@@ -754,7 +754,7 @@ blockchain:
       - optimism
       - mode
       - lisk
-      - fraxtal
+      - frax
       - ink
       - soneium
     tags:
@@ -768,14 +768,13 @@ blockchain:
     name: FeeModule
   - address: "0xC60A684E00f2aEc11603348A615cb2b454B62e31"
     networks:
-      - fraxtal
+      - any_evm
     tags:
       - contract
     name: FeeModule
   - address: "0x81c5d01Ae474040a59D0092A6973f4621e06B362"
     networks:
-      - ink
-      - soneium
+      - any_evm
     tags:
       - contract
     name: FeeModule
@@ -791,4 +790,3 @@ blockchain:
     tags:
       - contract
     name: emergencyCouncil
-  

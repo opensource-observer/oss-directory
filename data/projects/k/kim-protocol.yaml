@@ -29,9 +29,9 @@ blockchain:
   - address: "0xc02155946dd8C89D3D3238A6c8A64D04E2CD4500"
     tags:
       - contract
+      - factory
     networks:
-      - mode 
-      - factory  
+      - mode
     name: KimFactory
   - address: "0xf9Eb1e5C227D55AC2dFD71f0d85d128c3Fd6CD83"
     tags:
@@ -50,7 +50,7 @@ blockchain:
       - contract
       - factory
     networks:
-      - mode   
+      - mode
     name: NitroPoolFactory
   - address: "0x02Ed258209cb379024D2A22bCCD970695A393d12"
     tags:
@@ -69,7 +69,7 @@ blockchain:
     tags:
       - contract
     networks:
-      - mode   
+      - mode
     name: YieldBooster
   - address: "0xdBe5Cb9B4f45f976D30ffa88C543860868899274"
     tags:
@@ -87,48 +87,43 @@ blockchain:
     tags:
       - contract
     networks:
-      - mode 
+      - mode
     name: YieldBooster
   - address: "0x4D850FE01F07BEd416558A34dbde88bA60aE19BE"
     tags:
       - contract
-      - token
     networks:
       - mode
-    name: KIM Escrowed Token(xKIM)
+    name: "KIM Escrowed Token(xKIM)"
   - address: "0x6863fb62Ed27A9DdF458105B507C15b5d741d62e"
     tags:
       - contract
-      - token
     networks:
       - mode
-    name: KimToken
+    name: "KimToken"
   - address: "0x33a48c740760816A4362b4617f5339341408E9CB"
     tags:
       - contract
-      - token
     networks:
-      - mode   
-    name: XKimToken
+      - mode
+    name: "XKimToken"
   - address: "0x1556e015CBeE0d4bB6805AE06809Cdd2A753eBf5"
     tags:
       - contract
-      - token
     networks:
       - mode
-    name: KimToken
+    name: "KimToken"
   - address: "0x5691E3a8EE215Ca0993b9AE1837863DC714226b1"
     tags:
       - contract
-      - token
     networks:
       - mode
-    name: KimToken
+    name: "KimToken"
   - address: "0xf4353d0279C613334C4D065B8aF09768036922cc"
     tags:
       - contract
     networks:
-      - mode   
+      - mode
     name: unverified
   - address: "0x3136254d26827f6775811F4d71baF7587aC50e95"
     tags:
@@ -146,7 +141,7 @@ blockchain:
     tags:
       - contract
     networks:
-      - mode 
+      - mode
     name: unverified
   - address: "0xE31FDdADaed10E6be65B4757DCA4BA2DEF666ea4"
     tags:
@@ -164,7 +159,7 @@ blockchain:
     tags:
       - contract
     networks:
-      - mode   
+      - mode
     name: unverified
   - address: "0xA70EdA3cDF91E9b7b022B550f4080bb89129Ca62"
     tags:
@@ -182,7 +177,7 @@ blockchain:
     tags:
       - contract
     networks:
-      - mode   
+      - mode
     name: unverified
   - address: "0x5D61c537393cf21893BE619E36fC94cd73C77DD3"
     tags:
@@ -206,7 +201,7 @@ blockchain:
     tags:
       - contract
     networks:
-      - mode   
+      - mode
     name: unverified
   - address: "0x7018BeC948Bcef395646eF03Bb62EEb78589D7aB"
     tags:
@@ -230,7 +225,7 @@ blockchain:
     tags:
       - contract
     networks:
-      - mode   
+      - mode
     name: unverified
   - address: "0xe2814beE11Fa1dFcA95245c73aa3C279c53483b5"
     tags:
@@ -269,7 +264,7 @@ blockchain:
     tags:
       - contract
     networks:
-      - mode   
+      - mode
     name: AlgebraPoolDeployer
   - address: "0x2815bF2bDd198E6d09B9F02Ef6D62281b2FaAdB7"
     tags:
@@ -300,7 +295,7 @@ blockchain:
     tags:
       - contract
     networks:
-      - mode   
+      - mode
     name: QuoterV2
   - address: "0x8678f0aBe08D30dC555F27c488551569A29B31Eb"
     tags:
@@ -330,7 +325,7 @@ blockchain:
     tags:
       - contract
     networks:
-      - mode   
+      - mode
     name: unverified
   - address: "0x2e8614625226D26180aDf6530C3b1677d3D7cf10"
     tags:
@@ -356,5 +351,3 @@ blockchain:
     networks:
       - mode
     name: unverified
-
-

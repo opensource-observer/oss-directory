@@ -1,7 +1,8 @@
 version: 7
 name: woonetwork
 display_name: WOO Network
-description: WOO Network is a decentralized crypto exchange offering token swaps, staking, and perpetual trading. It utilizes a unique liquidity pool model and off-chain order matching for efficient trading. WOO Network supports multiple blockchains and provides a non-custodial, user-friendly interface.
+description:
+  WOO Network is a decentralized crypto exchange offering token swaps, staking, and perpetual trading. It utilizes a unique liquidity pool model and off-chain order matching for efficient trading. WOO Network supports multiple blockchains and provides a non-custodial, user-friendly interface.
   and single-sided yields.
 websites:
   - url: https://fi.woo.org/
@@ -345,8 +346,7 @@ blockchain:
       - contract
     networks:
       - optimism
-    name:
-      - LendingManager_OP
+    name: LendingManager_OP
   - address: "0x0FAd8f10746171C0616cE4B7B4E2e9439a9a02E2"
     tags:
       - contract
@@ -358,15 +358,13 @@ blockchain:
       - contract
     networks:
       - optimism
-    name:
-      - farmingvault_OP
+    name: farmingvault_OP
   - address: "0xDa4B53F75921C109fED0ffd8AD9f22430B4c3438"
     tags:
       - contract
     networks:
       - optimism
-    name:
-      - voidstrategy_OP
+    name: voidstrategy_OP
   - address: "0x18aa88bb25b8f15FDbE329f789dD000bf679753E"
     tags:
       - contract
@@ -378,8 +376,7 @@ blockchain:
       - contract
     networks:
       - optimism
-    name:
-      - LendingManager_USDC
+    name: LendingManager_USDC
   - address: "0x2500AD59b46fF4B96f8e1EaC3fE1f78eAF955777"
     tags:
       - contract
@@ -391,48 +388,42 @@ blockchain:
       - contract
     networks:
       - optimism
-    name:
-      - USDC_StrategyAave
+    name: USDC_StrategyAave
   - address: "0x3933CA6058E3549bbf25BA71901b82C11916EC16"
     tags:
       - contract
     networks:
       - optimism
       - base
-    name:
-      - ProxyAdmin
+    name: ProxyAdmin
   - address: "0x88A19967013CA274c296bFA433eb1BAc4D47B0dc"
     tags:
       - contract
     networks:
       - optimism
       - base
-    name:
-      - NonceCounter
+    name: NonceCounter
   - address: "0xc45B55032caFeaff3b8057d52758D8f8211DA54D"
     tags:
       - contract
     networks:
       - optimism
       - base
-    name:
-      - WooFeeManager
+    name: WooFeeManager
   - address: "0x7616614084e040028D6a61c0f3A9699c121A6500"
     tags:
       - contract
     networks:
       - optimism
       - base
-    name:
-      - WooRebateManager
+    name: WooRebateManager
   - address: "0xAf558f888e138CA9416111Ec7aE8e28354Cd9239"
     tags:
       - contract
     networks:
       - optimism
       - base
-    name:
-      - WooAccessManager
+    name: WooAccessManager
   - address: "0xA43305Ce0164D87d7B2368f91a1dcC4eBdA75127"
     tags:
       - contract
@@ -480,8 +471,7 @@ blockchain:
       - contract
     networks:
       - base
-    name:
-      - LendingManager_ETH
+    name: LendingManager_ETH
   - address: "0xe61Acb121a2B538dF495A85C4E50dD8581de4ed0"
     tags:
       - contract
@@ -493,15 +483,13 @@ blockchain:
       - contract
     networks:
       - base
-    name:
-      - farmingvault_OP
+    name: farmingvault_OP
   - address: "0xcd1B9810872aeC66d450c761E93638FB9FE09DB0"
     tags:
       - contract
     networks:
       - base
-    name:
-      - AAVEStrategy_ETH
+    name: AAVEStrategy_ETH
   - address: "0xa79e2c96Db89ceee07784C36EE2c61468D2C97bb"
     tags:
       - contract
@@ -513,8 +501,7 @@ blockchain:
       - contract
     networks:
       - base
-    name:
-      - SuperChargerVault_cbBTC
+    name: SuperChargerVault_cbBTC
   - address: "0xb29DE0c2A884aF396272086F4Aa3F0ad2DAD747b"
     tags:
       - contract
@@ -526,19 +513,16 @@ blockchain:
       - contract
     networks:
       - base
-    name:
-      - WithdrawManager_cbBTC
+    name: WithdrawManager_cbBTC
   - address: "0xbA3Dd3e9109dcEaE62b7192c25976CC98e132A55"
     tags:
       - contract
     networks:
       - base
-    name:
-      - FarmingVault_cbBTC
+    name: FarmingVault_cbBTC
   - address: "0x5994Fa96660dd9c29074F30337CB7Fa609C712a5"
     tags:
       - contract
     networks:
       - base
-    name:
-      - VoidStrategy_cbBTC
+    name: VoidStrategy_cbBTC

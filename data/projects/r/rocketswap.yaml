@@ -24,7 +24,7 @@ blockchain:
       - factory
     networks:
       - base
-    name: Factory 
+    name: Factory
   - address: "0x4cf76043B3f97ba06917cBd90F9e3A2AAC1B306e "
     tags:
       - contract
@@ -34,7 +34,6 @@ blockchain:
   - address: "0x6653dD4B92a0e5Bf8ae570A98906d9D6fD2eEc09"
     tags:
       - contract
-      - token
     networks:
       - base
     name: RCKT
@@ -49,11 +48,10 @@ blockchain:
       - contract
     networks:
       - base
-    name: Vaults  
+    name: Vaults
   - address: "0x234Ccb5c64FDB3958C47E8efBe122b2d54633a96"
     tags:
       - contract
     networks:
       - base
     name: Locker
-  
