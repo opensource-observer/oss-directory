@@ -4,6 +4,7 @@ env:
   PR_TOOLS_GITHUB_APP_PRIVATE_KEY: ${{ secrets.PR_TOOLS_GITHUB_APP_PRIVATE_KEY }}
   PR_TOOLS_GITHUB_APP_ID: ${{ secrets.PR_TOOLS_GITHUB_APP_ID }}
   PR_TOOLS_ADMIN_TEAM_NAME: ${{ secrets.PR_TOOLS_ADMIN_TEAM_NAME }}
+  PR_TOOLS_REPO: ${{ secrets.PR_TOOLS_REPO }}
 
 on:
   issue_comment:
