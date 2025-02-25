@@ -21,6 +21,4 @@ blockchain:
       - eoa
       - deployer
     networks:
-      - base
-      - mode
-      - optimism
+      - any_evm
