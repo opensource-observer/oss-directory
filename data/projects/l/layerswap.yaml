@@ -1,7 +1,7 @@
 version: 7
 name: layerswap
 display_name: Layerswap
-description: Layerswap is a cross-chain bridge enabling fast, secure transfers of crypto assets between Starknet and Arbitrum One. It offers an intuitive interface for users to specify the source chain, destination chain, asset type (ETH), and amount to be swapped. Layerswap leverages advanced cryptographic techniques to ensure the integrity and reliability of cross-chain transactions.
+description: Layerswap is a cost-efficient and secure solution for transferring assets across EVM and altVM blockchains. The app supports fast cross-chain transfers between more than 60 chains as well as direct transfers between networks and Centralized Exchanges.
 websites:
   - url: https://layerswap.io
 social:
@@ -10,7 +10,19 @@ social:
 github:
   - url: https://github.com/layerswap
 blockchain:
-  - address: "0xb9228e60fb71ab886950ecbc196d0dec58ff8e11"
+  - address: "0x2fc617e933a52713247ce25730f6695920b3befe"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+  - address: "0x08b00cEEE2Fb66029B53D76110B19eeAabfd1e65"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+  - address: "0xe66aa98b55c5a55c9af9da12fe39b8868af9a346"
     networks:
       - any_evm
     tags:
