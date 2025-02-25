@@ -1,7 +1,7 @@
 version: 7
 name: connext
 display_name: Connext
-description: Fast, trustless communication between blockchains & L2s.
+description: Connext is an interoperability protocol enabling cross-chain communication and token transfers. It supports Ethereum and multiple L2s, offering features like Restaking, xERC20 token deployment, and cross-chain application development. Connext utilizes a modular architecture for speed and security.
 websites:
   - url: https://connext.network
 social:
@@ -9,6 +9,8 @@ social:
     - url: https://twitter.com/Connext
 github:
   - url: https://github.com/connext
+defillama:
+  - url: https://defillama.com/protocol/connext
 blockchain:
   - address: "0x155b15a7e9ff0e34ceaf2439589d5c661adc9493"
     networks:

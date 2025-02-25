@@ -9,13 +9,8 @@ social:
     - url: https://x.com/axelarnetwork
 github:
   - url: https://github.com/axelarnetwork
-npm:
-  - url: https://www.npmjs.com/package/@axelar-network/axelar-cgp-solidity
-  - url: https://www.npmjs.com/package/@axelar-network/axelar-chains-config
-  - url: https://www.npmjs.com/package/@axelar-network/axelar-gmp-sdk-solidity
-  - url: https://www.npmjs.com/package/@axelar-network/axelarjs-sdk
-  - url: https://www.npmjs.com/package/@axelar-network/axelarjs-types
-  - url: https://www.npmjs.com/package/@axelar-network/interchain-token-service
+defillama:
+  - url: https://defillama.com/protocol/axelar
 blockchain:
   - address: "0xb8cd93c83a974649d76b1c19f311f639e62272bc"
     networks:
@@ -255,3 +250,10 @@ blockchain:
       - frax
     tags:
       - contract
+npm:
+  - url: https://www.npmjs.com/package/@axelar-network/axelar-cgp-solidity
+  - url: https://www.npmjs.com/package/@axelar-network/axelar-chains-config
+  - url: https://www.npmjs.com/package/@axelar-network/axelar-gmp-sdk-solidity
+  - url: https://www.npmjs.com/package/@axelar-network/axelarjs-sdk
+  - url: https://www.npmjs.com/package/@axelar-network/axelarjs-types
+  - url: https://www.npmjs.com/package/@axelar-network/interchain-token-service

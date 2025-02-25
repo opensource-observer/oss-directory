@@ -1,7 +1,7 @@
 version: 7
 name: cryptoalgebra
 display_name: Algebra Finance
-description: Solutions for DeFi and AMMs
+description: Algebra's modular AMM splits the DEX into an immutable core and customizable plugins, enabling concentrated liquidity and dynamic fees. The "Core-Plugins" architecture allows for gas-efficient updates without liquidity migration, and plugins can be added or removed without disrupting trading.
 websites:
   - url: https://algebra.finance/
 social:
