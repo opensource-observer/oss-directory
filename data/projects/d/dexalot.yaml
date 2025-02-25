@@ -7,14 +7,10 @@ websites:
 social:
   twitter:
     - url: https://x.com/dexalot
-  telegram:
-    - url: https://t.me/dexalot_com
 github:
   - url: https://github.com/dexalot
 defillama:
   - url: https://defillama.com/protocol/dexalot-portfolio
-  - url: https://defillama.com/protocol/dexalot
-  - url: https://defillama.com/protocol/dexalot-dex
 blockchain:
   - address: "0x1a44076050125825900e736c501f859c50fE728c"
     networks:
@@ -54,3 +50,9 @@ blockchain:
     tags:
       - deployer
     name: ExchangeMain
+  - address: "0x9F403140Bc0574D7d36eA472b82DAa1Bbd4eF327"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
