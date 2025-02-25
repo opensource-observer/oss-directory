@@ -50,3 +50,9 @@ blockchain:
     tags:
       - deployer
     name: ExchangeMain
+  - address: "0x9F403140Bc0574D7d36eA472b82DAa1Bbd4eF327"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
