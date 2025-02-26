@@ -11,6 +11,10 @@ social:
     - url: https://warpcast.com/maverickprotocol
 github:
   - url: https://github.com/maverickprotocol
+defillama:
+  - url: https://defillama.com/protocol/maverick-protocol
+  - url: https://defillama.com/protocol/maverick-v1
+  - url: https://defillama.com/protocol/maverick-v2
 blockchain:
   - address: "0xec219699d2faeb3f416c116de60cdb4aaf2f8d7c"
     tags:
@@ -18,3 +22,172 @@ blockchain:
       - deployer
     networks:
       - any_evm
+  - address: "0xa634F68e7Cc434BC14e9870988Ece8d903A504E7"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+  - address: "0xdC01145F6Fc147f56c0188a848B0674A9D61bC29"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+  - address: "0xc84bDDC0C45FEeFB0F59e1c48332E4d47e29D112"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+  - address: "0xec219699d2faeb3f416c116de60cdb4aaf2f8d7c"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xB2855783a346735e4AAe0c1eb894DEf861Fa9b45"
+    tags:
+      - contract
+      - factory
+    networks:
+      - base
+    name: Factory
+  - address: "0x0d8127A01bdb311378Ed32F5b81690DD917dBa35"
+    tags:
+      - contract
+    networks:
+      - base
+    name: Position
+  - address: "0xC402D13B0D04867649a632F17528c753d8f6FBD2"
+    tags:
+      - contract
+    networks:
+      - base
+    name: PoolPositionManager
+  - address: "0x550056A68cB155b6Cc3DeF4A7FA656260e7842e2"
+    tags:
+      - contract
+    networks:
+      - base
+    name: PositionInspector
+  - address: "0x6E230D0e457Ea2398FB3A22FB7f9B7F68F06a14d"
+    tags:
+      - contract
+    networks:
+      - base
+    name: PoolInformation
+  - address: "0xbBF1EE38152E9D8e3470Dc47947eAa65DcA94913"
+    tags:
+      - contract
+    networks:
+      - base
+    name: PoolPositionAndRewardFactorySlim
+  - address: "0x32AED3Bce901DA12ca8489788F3A99fCe1056e14"
+    tags:
+      - contract
+    networks:
+      - base
+    name: Router
+  - address: "0xFcCB5263148fbF11d58433aF6FeeFF0Cc49E0EA5"
+    tags:
+      - contract
+    networks:
+      - base
+    name: veMAV token
+  - address: "0x0A7e848Aca42d879EF06507Fca0E7b33A0a63c1e"
+    tags:
+      - contract
+      - factory
+    networks:
+      - base
+    name: MaverickV2Factory
+  - address: "0x6A9EB38DE5D349Fe751E0aDb4c0D9D391f94cc8D"
+    tags:
+      - contract
+    networks:
+      - base
+    name: MaverickV2PoolLens
+  - address: "0xb40AfdB85a07f37aE217E7D6462e609900dD8D7A"
+    tags:
+      - contract
+    networks:
+      - base
+    name: MaverickV2Quoter
+  - address: "0x5eDEd0d7E76C563FF081Ca01D9d12D6B404Df527"
+    tags:
+      - contract
+    networks:
+      - base
+    name: MaverickV2Router
+  - address: "0x116193c58B40D50687c0433B2aa0cC4AE00bC32c"
+    tags:
+      - contract
+    networks:
+      - base
+    name: MaverickV2Position
+  - address: "0xd94C8f6D13Cf480FfAC686712C63471D1596cc29"
+    tags:
+      - contract
+      - factory
+    networks:
+      - base
+    name: MaverickV2BoostedPositionFactory
+  - address: "0x12DD145927CECF616cbD196789c89C2573A53244"
+    tags:
+      - contract
+    networks:
+      - base
+    name: MaverickV2BoostedPositionLens
+  - address: "0xa476bb7DfCDD4E59dDaA6Ea9311A24cF28561544"
+    tags:
+      - contract
+      - factory
+    networks:
+      - base
+    name: MaverickV2IncentiveMatcherFactory
+  - address: "0x1cdC67950a68256c5157987bBF700e94595807F8"
+    tags:
+      - contract
+      - factory
+    networks:
+      - base
+    name: MaverickV2RewardFactory
+  - address: "0xE7c73727c1b67A2fA47E63DCBaa4859777aeF392"
+    tags:
+      - contract
+    networks:
+      - base
+    name: MaverickV2RewardRouter
+  - address: "0x102f936B0fc2E74dC34E45B601FaBaA522f381F0"
+    tags:
+      - contract
+    networks:
+      - base
+    name: MaverickV2VotingEscrowLens
+  - address: "0x64b88c73A5DfA78D1713fE1b4c69a22d7E0faAa7"
+    tags:
+      - contract
+    networks:
+      - base
+    name: Maverick Token
+  - address: "0x05b1b801191B41a21B9C0bFd4c4ef8952eb28cd9"
+    tags:
+      - contract
+    networks:
+      - base
+    name: MaverickVeV2
+  - address: "0x8a4c87252BCAbB1B930Ba6B675d0fB7eB6Ba54a1"
+    tags:
+      - contract
+      - factory
+    networks:
+      - base
+    name: MaverickV2IncentiveMatcherFactory
+  - address: "0x3fa57C30fF8B13f84817416CD748B2260Ce40B9A"
+    tags:
+      - contract
+      - factory
+    networks:
+      - base
+    name: MaverickV2RewardFactory

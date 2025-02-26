@@ -12,6 +12,12 @@ social:
     - url: https://warpcast.com/clvr
 github:
   - url: https://github.com/kim-protocol
+defillama:
+  - url: https://defillama.com/protocol/kim-exchange
+  - url: https://defillama.com/protocol/kim-exchange-v1
+  - url: https://defillama.com/protocol/kim-exchange-v2
+  - url: https://defillama.com/protocol/kim-exchange-v3
+  - url: https://defillama.com/protocol/kim-vaults
 blockchain:
   - address: "0x6f1130e4b96c681e2721667ddffca99dd6824a2d"
     tags:
@@ -20,3 +26,328 @@ blockchain:
     networks:
       - base
       - mode
+    name: kim-exchange.eth
+  - address: "0xc02155946dd8C89D3D3238A6c8A64D04E2CD4500"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: KimFactory
+  - address: "0xf9Eb1e5C227D55AC2dFD71f0d85d128c3Fd6CD83"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: KimAdapter
+  - address: "0x2a7329dBE2fF6c3b24a4773C7185a4A349B95a29"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: KimNFTMarketplace
+  - address: "0xd064332cB771bb080Ad27F7763a5e67Ec04E4fe5"
+    tags:
+      - contract
+      - factory
+    networks:
+      - mode
+    name: NitroPoolFactory
+  - address: "0x02Ed258209cb379024D2A22bCCD970695A393d12"
+    tags:
+      - contract
+      - factory
+    networks:
+      - mode
+    name: NFTPoolFactory
+  - address: "0x269E842Aea5731E5b82E57ddF597fb77F6a0565F"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: ProtocolEarnings
+  - address: "0xDdaf910a5ab9b62B533beDAaaB359F2cE7ff3359"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: YieldBooster
+  - address: "0xdBe5Cb9B4f45f976D30ffa88C543860868899274"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: DividendsV2
+  - address: "0x989ef16f9C98C48CCC615658AFDFea9dD55A4Ae9"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: KimMaster
+  - address: "0x82ae63704Ba5E4942Fe232092F2bA7A2221157C7"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: YieldBooster
+  - address: "0x4D850FE01F07BEd416558A34dbde88bA60aE19BE"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: KIM Escrowed Token(xKIM)
+  - address: "0x6863fb62Ed27A9DdF458105B507C15b5d741d62e"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: KimToken
+  - address: "0x33a48c740760816A4362b4617f5339341408E9CB"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: XKimToken
+  - address: "0x1556e015CBeE0d4bB6805AE06809Cdd2A753eBf5"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: KimToken
+  - address: "0x5691E3a8EE215Ca0993b9AE1837863DC714226b1"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: KimToken
+  - address: "0xf4353d0279C613334C4D065B8aF09768036922cc"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0x3136254d26827f6775811F4d71baF7587aC50e95"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0xE8E5E6C9dCF5d3f4d46b98F4fB77E3B6afCAcB39"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0xE31FDdADaed10E6be65B4757DCA4BA2DEF666ea4"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0xE31FDdADaed10E6be65B4757DCA4BA2DEF666ea4"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0xe6EebC7497baeC4E542bc7f7d788B414bD9D7fE2"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0x86b32C6B5f9372e4f26F7BBaDDf556F32c186a92"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0xA70EdA3cDF91E9b7b022B550f4080bb89129Ca62"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0xEF0a52F5acb34D92e00aD2A430086c67f89e7925"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0xa7514a4eDFE8CA5fD1B276FB91003e1aDD3ec3e7"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0x5D61c537393cf21893BE619E36fC94cd73C77DD3"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: KimRouter
+  - address: "0xc02155946dd8C89D3D3238A6c8A64D04E2CD4500"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0x07e98ebd0ab5207d0f693F92959C92Fb5f92C7d0"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0x1CE3Bf1CC16f7E76fB3B5BEdbd220465bCcE41aF"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0x7018BeC948Bcef395646eF03Bb62EEb78589D7aB"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0xfaEfd0dCD24BD5522FA21E835Ca17C40c7d6E11F"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0x5D1942345D63562fD38d17C28Dcd22e7b3E9Cfb4"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0x05CDC3ec49C623dCE7947172fECFc5d3cD8d16cD"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0xe2814beE11Fa1dFcA95245c73aa3C279c53483b5"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0xc073AEB9f2A4e47d3e539fBe47072e7b1EFBA23e"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0x7d96b8BA30FE5da878B9deb84489664046199bAC"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+
+  - address: "0xa16178152193D9710D7FF62322e79b8Aa5012794"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+      - mode
+  - address: "0xB5F00c2C5f8821155D8ed27E31932CFD9DB3C5D5"
+    tags:
+      - contract
+      - factory
+    networks:
+      - mode
+    name: AlgebraFactory
+  - address: "0x6414A461B19726410E52488d9D5ff33682701635"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: AlgebraPoolDeployer
+  - address: "0x2815bF2bDd198E6d09B9F02Ef6D62281b2FaAdB7"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: AlgebraCommunityVault
+  - address: "0x371Ee0202a967976eBEc75dEabE23301656D2E21"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: AlgebraVaultFactoryStub
+  - address: "0x313F9DEe835569F1AaEA51854818C72cD6302509"
+    tags:
+      - contract
+      - factory
+    networks:
+      - mode
+    name: BasePluginV1Factory
+  - address: "0x1cD3A4F1Bd43024F3689111398a04aA1f53BD96b"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: TickLens
+  - address: "0x7C5AaA464f736740156fD69171505D344855d1e5"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: QuoterV2
+  - address: "0x8678f0aBe08D30dC555F27c488551569A29B31Eb"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: Quoter
+  - address: "0xAc48FcF1049668B285f3dC72483DF5Ae2162f7e8"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: SwapRouter
+  - address: "0xC0fFE56B2D4368C996447C37d7bDB1643D10E45A"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0x9a4F2129B4fAeD24d385920841C67Feb2D733fa9"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0x0E7a68C37156213d045CCC636794Be7F29737e9C"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0x2e8614625226D26180aDf6530C3b1677d3D7cf10"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: NonfungiblePositionManager
+  - address: "0xAB39cE30D98a59DFDa40A630b074170800bfF179"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: AlgebraInterfaceMulticall
+  - address: "0xD180A60d9Ea3dDF01Eb1761a1AD42C0f35206574"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified
+  - address: "0x6656c400023367D61c98e12B14FA4b89f9b4E1D0"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: unverified

@@ -1,5 +1,59 @@
 version: 7
 name: swaap-labs
 display_name: Swaap Labs
+description: WOO Network is a decentralized crypto exchange offering token swaps, staking, and perpetual trading. It utilizes a unique liquidity pool model and off-chain order matching for efficient trading. WOO Network supports multiple blockchains and provides a non-custodial, user-friendly interface.
+  and single-sided yields.
+websites:
+  - url: https://www.swaap.finance/
+social:
+  twitter:
+    - url: https://twitter.com/swaapfinance
 github:
   - url: https://github.com/swaap-labs
+defillama:
+  - url: https://defillama.com/protocol/swaap
+  - url: https://defillama.com/protocol/swaap-maker-v1
+  - url: https://defillama.com/protocol/swaap-maker-v2
+  - url: https://defillama.com/protocol/swaap-earn
+blockchain:
+  - address: "0x2F5F498bC3AB1dA44a987897dB04b1F016027A59"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x746aD894b15B20e1FA2eB93f60808d6DA369d0Ee"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0xd315a9c38ec871068fec378e4ce78af528c76293"
+    tags:
+      - contract
+    networks:
+      - optimism
+      - mode
+    name: Vault
+  - address: "0xCc74BD5d8D2d333D14475e022325555ebA3369B8"
+    tags:
+      - contract
+      - factory
+    networks:
+      - optimism
+      - base
+    name: SafeguardFactory
+  - address: "0x03C01Acae3D0173a93d819efDc832C7C4F153B06"
+    tags:
+      - contract
+    networks:
+      - base
+    name: Vault
+  - address: "0x33ddf3fae17447f895ca59e1eb27d3711da86b16"
+    tags:
+      - contract
+      - factory
+    networks:
+      - mode
+    name: SafeguardFactory
+

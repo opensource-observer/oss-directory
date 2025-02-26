@@ -1,0 +1,57 @@
+version: 7
+name: rocketswap
+display_name: RocketSwap Base
+description: RocketSwap is the first community initiated and driven decentralized exchange on Base Mainnet Network, and will gradually become community owned through DAO.
+websites:
+  - url: https://app.rocketswap.cc/
+social:
+  twitter:
+    - url: https://twitter.com/RocketSwap_Labs
+  telegram:
+    - url: https://t.me/rocketswap_official
+defillama:
+  - url: https://defillama.com/protocol/rocketswap-base
+blockchain:
+  - address: "0x7C2B04D63FAEF69668e30d911EB48A78140Ab2EB"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+  - address: "0x1B8128c3A1B7D20053D10763ff02466ca7FF99FC"
+    tags:
+      - contract
+      - factory
+    networks:
+      - base
+    name: Factory
+  - address: "0x4cf76043B3f97ba06917cBd90F9e3A2AAC1B306e "
+    tags:
+      - contract
+    networks:
+      - base
+    name: Router
+  - address: "0x6653dD4B92a0e5Bf8ae570A98906d9D6fD2eEc09"
+    tags:
+      - contract
+    networks:
+      - base
+    name: RCKT
+  - address: "0x304063953727b53048500dfd877A17d1C4f6EaFf"
+    tags:
+      - contract
+    networks:
+      - base
+    name: Farm
+  - address: "0x2ec62d08277FfC42eB5af71c7595C1a9f9458A3c"
+    tags:
+      - contract
+    networks:
+      - base
+    name: Vaults
+  - address: "0x234Ccb5c64FDB3958C47E8efBe122b2d54633a96"
+    tags:
+      - contract
+    networks:
+      - base
+    name: Locker

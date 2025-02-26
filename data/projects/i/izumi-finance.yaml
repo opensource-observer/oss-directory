@@ -9,6 +9,10 @@ social:
     - url: https://x.com/izumi_Finance
 github:
   - url: https://github.com/izumifinance
+defillama:
+  - url: https://defillama.com/protocol/izumi-finance
+  - url: https://defillama.com/protocol/izumi-liquidbox
+  - url: https://defillama.com/protocol/iziswap
 blockchain:
   - address: "0xc802a5a140224ed72e7c821f637c1e5759744045"
     tags:
@@ -16,3 +20,109 @@ blockchain:
       - deployer
     networks:
       - any_evm
+  - address: "0x297f220Cb2Bedc2b52Edb0a4a13F8cbebBB535Eb"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+  - address: "0x8c7d3063579BdB0b90997e18A770eaE32E1eBb08"
+    tags:
+      - contract
+      - factory
+    networks:
+      - base
+      - mode
+    name: factory
+  - address: "0x4d4673745AAC664eFB9758fdd571F40d78a87bfe"
+    tags:
+      - contract
+    networks:
+      - base
+      - mode
+    name: swapX2YModule
+  - address: "0x32D02Fc7722E81F6Ac60B87ea8B4b63a52Ad2b55"
+    tags:
+      - contract
+    networks:
+      - base
+      - mode
+    name: swapY2XModule
+  - address: "0xF4efDB5A1E852f78e807fAE7100B1d38351e38c7"
+    tags:
+      - contract
+    networks:
+      - base
+      - mode
+    name: liquidityModule
+  - address: "0xe96526e92ee57bBD468DA1721987aa988b008768"
+    tags:
+      - contract
+    networks:
+      - base
+      - mode
+    name: limitOrderModule
+  - address: "0xbD6abA1Ef82A4cD6e15CB05e95f433ef48dfb5df"
+    tags:
+      - contract
+    networks:
+      - base
+      - mode
+    name: flashModule
+  - address: "0x2db0AFD0045F3518c77eC6591a542e326Befd3D7"
+    tags:
+      - contract
+    networks:
+      - base
+    name: quoter (without limit)
+  - address: "0x3EF68D3f7664b2805D4E88381b64868a56f88bC4"
+    tags:
+      - contract
+    networks:
+      - base
+      - mode
+    name: various:DiffersByChain
+  - address: "0x02F55D53DcE23B4AA962CC68b0f685f26143Bdb2"
+    tags:
+      - contract
+    networks:
+      - base
+      - mode
+    name: various:DiffersByChain
+  - address: "0x19b683A2F45012318d9B2aE1280d68d3eC54D663"
+    tags:
+      - contract
+    networks:
+      - base
+    name: liquidityManager
+  - address: "0x1502d025BfA624469892289D45C0352997251728"
+    tags:
+      - contract
+    networks:
+      - base
+    name: limitOrderManager
+  - address: "0x7a524c7e82874226F0b51aade60A1BE4D430Cf0F"
+    tags:
+      - contract
+    networks:
+      - base
+      - mode
+    name: multicall
+  - address: "0x33531bDBFE34fa6Fd5963D0423f7699775AacaaF"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: quoter (without limit)
+  - address: "0x34bc1b87f60e0a30c0e24FD7Abada70436c71406"
+    tags:
+      - contract
+    networks:
+      - mode
+    name: quoter (with 10000 ticks)
+  - address: "0x611575eE1fbd4F7915D0eABCC518eD396fF78F0c"
+    tags:
+      - contract
+    networks:
+      - base
+    name: oracle

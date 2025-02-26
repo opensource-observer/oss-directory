@@ -9,6 +9,11 @@ social:
     - url: https://twitter.com/CurveFinance
 github:
   - url: https://github.com/curvefi
+defillama:
+  - url: https://defillama.com/protocol/curve-finance
+  - url: https://defillama.com/protocol/curve-dex
+  - url: https://defillama.com/protocol/crvusd
+  - url: https://defillama.com/protocol/curve-llamalend
 blockchain:
   - address: "0x7eeac6cddbd1d0b8af061742d41877d7f707289a"
     networks:
@@ -58,6 +63,37 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0xE6B328e141EF304739892A864CebFe148a04353e"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xaf5Edf9C10b5b4e0622258b56be6b67b1A50b9C1"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
+  - address: "0x2d12D0907A388811e3AA855A550F959501d303EE"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x173fd7434B8B50dF08e3298f173487ebDB35FD14"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x71f718d3e4d1449d1502a6a7595eb84ebccb1683"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+
   - address: "0xabc000d88f23bb45525e447528dbf656a9d55bf5"
     networks:
       - arbitrum_one
@@ -554,3 +590,188 @@ blockchain:
     tags:
       - contract
     name: Vyper_contract
+  - address: "0xe8269B33E47761f552E1a3070119560d5fa8bBD6"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Fee Receiver
+  - address: "0x4f37A9d177470499A2dD084621020b023fcffc1F"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Curve Router
+  - address: "0xabc000d88f23bb45525e447528dbf656a9d55bf5"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: ChildLiquidityGaugeFactory
+  - address: "0xcb843280c5037acfa67b8d4adc71484ced7c48c9"
+    networks:
+      - mainnet
+      - base
+    tags:
+      - contract
+    name: various:DiffersByChain
+  - address: "0x2c163fe0f079d138b9c04f780d735289344C8B80"
+    networks:
+      - base
+    tags:
+      - contract
+    name: L2 Ownership Agent
+  - address: "0x7Ea4B72f04D8B02994F4EdB171Ce5F56eEdF457F"
+    networks:
+      - base
+    tags:
+      - contract
+    name: L2 Parameter Agent
+  - address: "0x95F0f720CAdDED982E6998b3390E6D3788c2CE5C"
+    networks:
+      - base
+    tags:
+      - contract
+    name: L2 Emergency Agent
+  - address: "0xA4c0eA0fb8eb652e11C8123E589197E18Ca78AA8"
+    networks:
+      - base
+    tags:
+      - contract
+    name: L2 Vault
+  - address: "0xF3BC9E5fA891977DCa765ff52E8f22A1F7d49c1f"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Agent Blueprint
+  - address: "0x5ffe7FB82894076ECB99A30D6A32e969e6e35E98"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Address Provider
+  - address: "0xe265FC390E9129b7E337Da23cD42E00C34Da2CE3"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Math
+  - address: "0xA54f3c1DFa5f7DbF2564829d14b3B74a65d26Ae2"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Views
+  - address: "0xd2002373543Ce3527023C75e7518C274A51ce712"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: Factory
+  - address: "0xf3A6aa40cf048a3960E9664847E9a7be025a390a"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Plain AMM
+  - address: "0x635742dCC8313DCf8c904206037d962c042EAfBd"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Meta AMM
+  - address: "0x1Fd8Af16DC4BEBd950521308D55d0543b6cDF4A1"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Math
+  - address: "0xd3B17f862956464ae4403cCF829CE69199856e1e"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Views
+  - address: "0xc9Fe0C63Af9A39402e8a5514f9c43Af0322b665F"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: Factory
+  - address: "0x934791f7F391727db92BFF94cd789c4623d14c52"
+    networks:
+      - base
+    tags:
+      - contract
+    name: AMM
+  - address: "0x5373E1B9f2781099f6796DFe5D68DE59ac2F18E3"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Math
+  - address: "0x05d4E2Ed7216A204e5FB4e3F5187eCfaa5eF3Ef7"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Views
+  - address: "0xA5961898870943c68037F6848d2D866Ed2016bcB"
+    networks:
+      - base
+    tags:
+      - contract
+      - factory
+    name: Factory
+  - address: "0x0c59d36b23f809f8b6C7cb4c8C590a0AC103baEf"
+    networks:
+      - base
+    tags:
+      - contract
+    name: AMM native disable
+  - address: "0xa274c88e09fDF1798a7517096557e6c1bEa1f65A"
+    networks:
+      - base
+    tags:
+      - contract
+    name: AMM native enabled
+  - address: "0x5552b631e2aD801fAa129Aacf4B701071cC9D1f7"
+    networks:
+      - base
+    tags:
+      - contract
+    name: StableCalcZap
+  - address: "0xEfadDdE5B43917CcC738AdE6962295A0B343f7CE"
+    networks:
+      - base
+    tags:
+      - contract
+    name: CryptoCalcZap
+  - address: "0x69522fb5337663d3B4dFB0030b881c1A750Adb4"
+    networks:
+      - base
+    tags:
+      - contract
+    name: DepositAndStakeZap
+  - address: "0x3f445D38E820c010a7A6E33c5F80cBEBE6930f61"
+    networks:
+      - base
+    tags:
+      - contract
+    name: MetaZapNG
+  - address: "0x417Ac0e078398C154EdFadD9Ef675d30Be60Af93"
+    networks:
+      - base
+    tags:
+      - contract
+    name: crvUSD CrossChain
+  - address: "0x8Ee73c484A26e0A5df2Ee2a4960B789967dd0415"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Curve DAO Token (CRV)

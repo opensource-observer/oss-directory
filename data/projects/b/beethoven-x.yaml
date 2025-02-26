@@ -1,9 +1,38 @@
 version: 7
 name: beethoven-x
 display_name: Beethoven X
+description: The Flagship LST Hub on Sonic. From seamless staking to earning real yield on LST-focused liquidity pools, beets is the ultimate destination for your liquid-staked tokens.
+websites:
+  - url: https://beets.fi/
+social:
+  twitter:
+    - url: https://x.com/beets_fi
 github:
   - url: https://github.com/beethovenxfi
+defillama:
+  - url: https://defillama.com/protocol/beets
+  - url: https://defillama.com/protocol/beets-lst
+  - url: https://defillama.com/protocol/beets-dex
+  - url: https://defillama.com/protocol/beets-dex-v3
 blockchain:
+  - address: "0x697A71353A4BC1eb1356763018a229c27a3fbA0C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism
+  - address: "0x3d64fb8a2fFd08C186e8060aA57c8011D8b999cC"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism
+  - address: "0x4fbe899d37fb7514adf2f41B0630E018Ec275a0C"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - optimism
   - address: "0x142b9666a0a3a30477b052962dda81547e7029ab"
     networks:
       - arbitrum_one
@@ -100,3 +129,50 @@ blockchain:
     tags:
       - contract
     name: ProtocolFeesCollector
+  - address: "0x97513e975a7fA9072c72C92d8000B0dB90b163c5"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Beets
+  - address: "0xb08E16cFc07C684dAA2f93C70323BAdb2A6CBFd2"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: MetastablePoolFactory
+  - address: "0xeb151668006CD04DAdD098AFd0a82e78F77076c3"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: StablePoolFactory
+  - address: "0xdAE7e32ADc5d490a43cCba1f0c736033F2b4eFca"
+    networks:
+      - optimism
+    tags:
+      - factory
+      - contract
+    name: WeightedPoolFactory
+  - address: "0x0F3e0c4218b7b0108a3643cFe9D3ec0d4F57c54e"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: WeightedPool2TokensFactory
+  - address: "0x2E96068b3D5B5BAE3D7515da4A1D2E52d08A2647"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: ChildChainLiqudityGaugeFactory
+  - address: "0xa523f47A933D5020b23629dDf689695AA94612Dc"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: ChildChainLiqudityGaugeFactoryV2
