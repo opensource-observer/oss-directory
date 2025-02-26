@@ -1,0 +1,23 @@
+version: 7
+name: GM
+display_name: GM
+websites:
+  - url: https://gm.inkonchain.com
+  - url: https://inkonchain.com
+social:
+  farcaster:
+    - url: https://warpcast.com/inkonchain
+  mirror:
+    - url: https://paragraph.xyz/@inkonchain
+  telegram:
+    - url: https://t.me/inkonchain
+  twitter:
+    - url: https://x.com/inkonchain
+github:
+  - url: https://github.com/inkonchain
+blockchain:
+  - address: "0x9F500d075118272B3564ac6Ef2c70a9067Fd2d3F"
+    networks:
+      - ink
+    tags:
+      - contract
