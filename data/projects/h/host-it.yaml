@@ -1,0 +1,27 @@
+version: 7
+name: host-it
+display_name: HostIT
+description: HostIT is a robust web3 event ticketing application with integrated Proof of Attendance Protocol (POAP) functionality.
+websites:
+  - url: http://hostit.events
+social:
+  twitter:
+    - url: https://twitter.com/hostit_events
+  telegram:
+    - url: https://t.me/hostitevents
+github:
+  - url: https://github.com/hostit-events
+blockchain:
+  - address: "0x7D413F244A0e9A0b9C8D7F9AFA1177eE3a2837fa"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xe639110D69ec5b5C4ECa926271fa2f82Ee94A2D3"
+    networks:
+      - lisk
+    tags:
+      - contract
+      - proxy
+    name: HostIT
