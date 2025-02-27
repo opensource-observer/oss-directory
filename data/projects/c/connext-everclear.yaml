@@ -1,14 +1,20 @@
 version: 7
-name: connext
-display_name: Connext
-description: Connext is an interoperability protocol enabling cross-chain communication and token transfers. It supports Ethereum and multiple L2s, offering features like Restaking, xERC20 token deployment, and cross-chain application development. Connext utilizes a modular architecture for speed and security.
+name: everclear
+display_name: Everclear (prev Connext)
+description: Everclear (prev Connext) is an interoperability protocol enabling cross-chain communication and token transfers. It supports Ethereum and multiple L2s, offering features like Restaking, xERC20 token deployment, and cross-chain application development. Everclear utilizes a modular architecture for speed and security.
 websites:
   - url: https://connext.network
+  - url: https://www.everclear.org/
 social:
   twitter:
-    - url: https://twitter.com/Connext
+    - url: https://twitter.com/everclearorg
+  telegram:
+    - url: https://t.me/EverclearCommunity
+  discord:
+    - url: https://discord.gg/8v6v9jv
 github:
   - url: https://github.com/connext
+  - url: https://github.com/everclearorg
 defillama:
   - url: https://defillama.com/protocol/connext
 blockchain:
