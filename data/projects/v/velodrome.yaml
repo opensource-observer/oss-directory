@@ -791,3 +791,154 @@ blockchain:
     tags:
       - contract
     name: emergencyCouncil
+  - address: "0xeAD23f606643E387a073D0EE8718602291ffaAeB"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: CLGaugeFactory
+  - address: "0x04625B046C69577EfC40e6c0Bb83CDBAfab5a55F"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: CLPoolFactory
+  - address: "0x321f7Dfb9B2eA9131B8C17691CF6e01E5c149cA8"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: CLPoolImplementation
+  - address: "0x2f7150B288ef1cc553207bD9fbd40D4e0e093B24"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: MixedQuoter
+  - address: "0x991d5546C4B442B4c5fdc4c8B8b8d131DEB24702"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: NonFungiblePositionManager
+  - address: "0xf13bd1AFdf4f8b394928228F8FD122DC225f9140"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: NonFungiblePositionDescriptor
+  - address: "0x3FA596fAC2D6f7d16E01984897Ac04200Cb9cA05"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: Quoter
+  - address: "0xCB885Aa008031cBDb72447Bed78AF4f87a197126"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: SwapFeeModule
+  - address: "0x63951637d667f23D5251DEdc0f9123D22d8595be"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: SwapRouter
+  - address: "0x916e0AD2d7e3f446A26b0333Ca37A9e8972030c5"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: UnstakedFeeModule
+  - address: "0x592B5C472aF554B4E33a1A0e9e02b04664dd788B"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: Permit2
+  - address: "0x652e53C6a4FE39B6B30426d9c96376a105C89A95"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: UniversalRouter
+  - address: "0xE46EC96906fc6dEC53De25F013639969Fe10180d"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: AlmFactory
+  - address: "0xfd61E98a352ed8cA2C364DCd5B6C21dc126959F5"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: AlmWrapperImplementation
+  - address: "0x416b433906b1B72FA758e166e239c43d68dC6F29"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: AlmPositionManager
+  - address: "0xdebea4AF183d323132AD5AB7C0b7Cd2091094eee"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: AlmStrategyModule
