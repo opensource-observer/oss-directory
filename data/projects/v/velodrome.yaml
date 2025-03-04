@@ -10,6 +10,7 @@ social:
 github:
   - url: https://github.com/velodrome-finance
 defillama:
+  - url: https://defillama.com/protocol/velodrome
   - url: https://defillama.com/protocol/velodrome-v3
   - url: https://defillama.com/protocol/velodrome-v2
   - url: https://defillama.com/protocol/velodrome-v1
@@ -42,6 +43,8 @@ blockchain:
   - address: "0xd42c7914cf8dc24a1075e29c283c581bd1b0d3d3"
     networks:
       - optimism
+      - frax
+      - lisk
     tags:
       - deployer
       - eoa
@@ -612,3 +615,330 @@ blockchain:
     tags:
       - contract
     name: Incentive Contract (wstETH/WETH)
+  - address: "0xba5Ed099633D3B313e4D5F7bdc1305d3c28ba5Ed"
+    networks:
+      - mode
+      - ink
+      - lisk
+    tags:
+      - deployer
+      - contract
+    name: CreateX
+  - address: "0xeD456e05CaAb11d66C4c797dD6c1D6f9A7F352b5"
+    networks:
+      - mode
+      - lisk
+    tags:
+      - deployer
+      - eoa
+  - address: "0x4994DacdB9C57A811aFfbF878D92E00EF2E5C4C2"
+    networks:
+      - soneium
+    tags:
+      - deployer
+      - eoa
+  - address: "0x42e403b73898320f23109708b0ba1Ae85838C445"
+    networks:
+      - optimism
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: GaugeFactory
+  - address: "0xF278761576f45472bdD721EACA19317cE159c011"
+    networks:
+      - optimism
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: MessageBridge
+  - address: "0xF385603a12Be8b7B885222329c581FDD1C30071D"
+    networks:
+      - optimism
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: MessageModule
+  - address: "0x31832f2a97Fd20664D76Cc421207669b55CE4BC0"
+    networks:
+      - optimism
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: PoolFactory
+  - address: "0x10499d88Bd32AF443Fc936F67DE32bE1c8Bb374C"
+    networks:
+      - optimism
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: PoolImplementation
+  - address: "0x3a63171DD9BebF4D07BC782FECC7eb0b890C2A45"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: Router
+  - address: "0xA7287a56C01ac8Baaf8e7B662bDB41b10889C7A6"
+    networks:
+      - optimism
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: TokenBridge
+  - address: "0x97cDBCe21B6fd0585d29E539B1B99dAd328a1123"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: Voter
+  - address: "0x7dc9fd82f91B36F416A89f5478375e4a79f4Fb2F"
+    networks:
+      - optimism
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: VotingRewardsFactory
+  - address: "0x73CaE4450f11f4A33a49C880CE3E8E56a9294B31"
+    networks:
+      - optimism
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: XFactory
+  - address: "0x7f9AdFbd38b669F03d1d11000Bc76b9AaEA28A81"
+    networks:
+      - optimism
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: XVelo
+  - address: "0x44536f7694D2D2F843437AdeD8D95525f797a06B"
+    networks:
+      - lisk
+    tags:
+      - contract
+    name: FeeModule
+  - address: "0xC60A684E00f2aEc11603348A615cb2b454B62e31"
+    networks:
+      - frax
+    tags:
+      - contract
+    name: FeeModule
+  - address: "0x81c5d01Ae474040a59D0092A6973f4621e06B362"
+    networks:
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: FeeModule
+  - address: "0x12B64dF29590b4F0934070faC96e82e580D60232"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: rootLockbox
+  - address: "0xf7a15F27533c2Db26341220C1e0B939B56dEfeda"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: emergencyCouncil
+  - address: "0xeAD23f606643E387a073D0EE8718602291ffaAeB"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: CLGaugeFactory
+  - address: "0x04625B046C69577EfC40e6c0Bb83CDBAfab5a55F"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: CLPoolFactory
+  - address: "0x321f7Dfb9B2eA9131B8C17691CF6e01E5c149cA8"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: CLPoolImplementation
+  - address: "0x2f7150B288ef1cc553207bD9fbd40D4e0e093B24"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: MixedQuoter
+  - address: "0x991d5546C4B442B4c5fdc4c8B8b8d131DEB24702"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: NonFungiblePositionManager
+  - address: "0xf13bd1AFdf4f8b394928228F8FD122DC225f9140"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: NonFungiblePositionDescriptor
+  - address: "0x3FA596fAC2D6f7d16E01984897Ac04200Cb9cA05"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: Quoter
+  - address: "0xCB885Aa008031cBDb72447Bed78AF4f87a197126"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: SwapFeeModule
+  - address: "0x63951637d667f23D5251DEdc0f9123D22d8595be"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: SwapRouter
+  - address: "0x916e0AD2d7e3f446A26b0333Ca37A9e8972030c5"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: UnstakedFeeModule
+  - address: "0x592B5C472aF554B4E33a1A0e9e02b04664dd788B"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: Permit2
+  - address: "0x652e53C6a4FE39B6B30426d9c96376a105C89A95"
+    networks:
+      - mode
+      - lisk
+      - frax
+      - ink
+      - soneium
+    tags:
+      - contract
+    name: UniversalRouter
+  - address: "0xE46EC96906fc6dEC53De25F013639969Fe10180d"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: AlmFactory
+  - address: "0xfd61E98a352ed8cA2C364DCd5B6C21dc126959F5"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: AlmWrapperImplementation
+  - address: "0x416b433906b1B72FA758e166e239c43d68dC6F29"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: AlmPositionManager
+  - address: "0xdebea4AF183d323132AD5AB7C0b7Cd2091094eee"
+    networks:
+      - optimism
+    tags:
+      - contract
+      - factory
+    name: AlmStrategyModule

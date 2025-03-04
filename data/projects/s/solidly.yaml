@@ -1,0 +1,30 @@
+version: 7
+name: solidly
+display_name: Solidly Labs
+description: Self-optimizing DEX combining the best of Curve, Uniswap and ve(3,3).
+websites:
+  - url: https://solidly.com/
+social:
+  twitter:
+    - url: https://twitter.com/SolidlyLabs
+github:
+  - url: https://github.com/SolidlyLabs
+defillama:
+  - url: https://defillama.com/protocol/solidly-labs
+  - url: https://defillama.com/protocol/solidly-v2
+  - url: https://defillama.com/protocol/solidly-v3
+blockchain:
+  - address: "0x082AC14939338bD25Eec8078b1A3550CBeF842e4"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x70Fe4a44EA505cFa3A57b95cF2862D4fd5F0f687"
+    networks:
+      - optimism
+      - base
+    tags:
+      - contract
+      - factory
+    name: SolidlyV3Factory

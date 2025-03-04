@@ -11,10 +11,9 @@ social:
   twitter:
     - url: https://x.com/KiwiNewsHQ
   farcaster:
-    - url: https://warpcast.com/~/channel/kiwi-news
+    - url: https://warpcast.com/kiwi
 github:
   - url: https://github.com/attestate/kiwistand
-  - url: https://github.com/attestate/awesome-kiwinews
   - url: https://github.com/attestate/delegator2
   - url: https://github.com/attestate/purchase-delegator
   - url: https://github.com/attestate/svg-line-chart
@@ -22,6 +21,7 @@ github:
   - url: https://github.com/attestate/eth-fun
   - url: https://github.com/attestate/extraction-worker
   - url: https://github.com/attestate/crawler-call-block-logs
+  - url: https://github.com/attestate/ad
 blockchain:
   - address: "0x66747bdc903d17c586fa09ee5d6b54cc85bbea45"
     networks:
@@ -53,6 +53,36 @@ blockchain:
     tags:
       - contract
     name: PurchaseDelegatorv4
+  - address: "0xE63496a8a9e6bD3aD9270236a890d78239441cF6"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: PurchaseDelegatorv5
+  - address: "0x0A00984E7D5dF669Fa5eA4Ff17aB8c1CF76Be3aE"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Disperse
+  - address: "0xb0c9502ea7c11ea0fe6157bfc43e3507fa69bba0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Adv1
+  - address: "0x2e78Fad843177343Feb2f1d5cb9699A061C59c06"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Adv2
+  - address: "0xffcc6b6c5c066b23992758a4fc408f09d6cc4eda"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Adv3
   - address: "0x08b7ecfac2c5754abafb789c84f8fa37c9f088b0"
     networks:
       - optimism

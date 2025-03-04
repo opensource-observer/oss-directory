@@ -4,6 +4,7 @@ env:
   PR_TOOLS_GITHUB_APP_PRIVATE_KEY: ${{ secrets.PR_TOOLS_GITHUB_APP_PRIVATE_KEY }}
   PR_TOOLS_GITHUB_APP_ID: ${{ secrets.PR_TOOLS_GITHUB_APP_ID }}
   PR_TOOLS_ADMIN_TEAM_NAME: ${{ secrets.PR_TOOLS_ADMIN_TEAM_NAME }}
+  PR_TOOLS_REPO: ${{ secrets.PR_TOOLS_REPO }}
 
 on:
   issue_comment:
@@ -33,7 +34,7 @@ jobs:
       - name: Check if the user is an admin
         id: prs_permissions
         run: |
-          cd ./oso/ops/external-prs && pnpm tools common is-repo-admin ${{ github.event.issue.user.login }} --output-file $GITHUB_OUTPUT
+          cd ./oso/ops/external-prs && pnpm tools common is-repo-admin ${{ github.event.comment.user.login }} --output-file $GITHUB_OUTPUT
 
       - name: Parse the comment to see if it's a deploy comment
         id: parse_comment
