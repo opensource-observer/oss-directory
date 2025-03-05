@@ -89,7 +89,7 @@ npm install oss-directory
 
 #### Fetch all of the data
 
-You can fetch all of the data in this repo with the following:
+You can fetch all of the latest data in this repo with the following:
 
 ```js
 import { Project, Collection, fetchData } from "oss-directory";
@@ -98,6 +98,24 @@ const data = await fetchData();
 const projects: Project[] = data.projects;
 const collections: Collection[] = data.collections;
 ```
+
+You can pass in the following options to `fetchData`:
+
+```js
+const data = await fetchData({
+  // The branch to check out from the repo
+  branch: "main",
+  // The commit to check out from the repo
+  commit: "066e5ad612d6ef67c0516b55b0c3be789282e6b6"
+  // Do not strictly validate the data coming from GitHub
+  skipValidation: true,
+});
+```
+
+_Note: skipValidation is really useful if you don't want this integration
+to force an error everytime we update the schema.
+However, this will necessarily lead to getting data that does not
+conform to the types your application expects as we add new fields._
 
 #### Utility functions
 
