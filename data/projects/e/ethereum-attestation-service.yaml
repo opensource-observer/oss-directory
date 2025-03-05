@@ -15,13 +15,21 @@ github:
 blockchain:
   - address: "0x4200000000000000000000000000000000000020"
     networks:
+      - base
+      - ink
       - optimism
+      - soneium
+      - unichain
     tags:
       - contract
     name: Proxy
   - address: "0x4200000000000000000000000000000000000021"
     networks:
+      - base
+      - ink
       - optimism
+      - soneium
+      - unichain
     tags:
       - contract
     name: Proxy
