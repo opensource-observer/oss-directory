@@ -9,9 +9,35 @@ import { CommonArgs } from "../types/cli.js";
 import { getFileExtension, getFileFormat } from "../types/files.js";
 
 const IGNORE_GLOB = "**/README.md";
+const DEFILLAMA_API_BASE_URL = "https://api.llama.fi";
 
 export type ValidateArgs = CommonArgs & {
   dir: string;
+};
+
+/**
+ * Extracts a Defillama slug from a URL
+ * @param url
+ */
+const extractDefillamaSlug = (url: URL) => {
+  const match = url.pathname.match(/^\/protocol\/(.+)$/);
+
+  return match ? match[1] : null;
+};
+
+/**
+ * Validates a Defillama slug
+ * @param slug
+ */
+const validateDefillamaSlug = async (slug: string) => {
+  const request = await fetch(`${DEFILLAMA_API_BASE_URL}/protocol/${slug}`, {
+    method: "HEAD",
+    headers: {
+      "User-Agent": "OpenSource Observer/1.0",
+    },
+  });
+
+  return request.ok;
 };
 
 /**
@@ -128,6 +154,14 @@ export async function validateProjects(args: ValidateArgs) {
       project.blockchain?.forEach((x) =>
         x.networks.forEach((n) => addKey(`${n}:${x.address}`, file)),
       );
+      // Check that all Defillama slugs are valid
+      await project.defillama?.reduce(async (prev, { url }) => {
+        await prev;
+        const slug = extractDefillamaSlug(new URL(url));
+        assert(slug, `Could not extract Defillama slug from ${url}: ${file}`);
+        const isValid = await validateDefillamaSlug(slug);
+        assert(isValid, `Defillama slug ${slug} is invalid: ${file}`);
+      }, Promise.resolve());
     } catch (e) {
       console.error("Error validating ", file);
       throw e;
