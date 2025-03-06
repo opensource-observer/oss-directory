@@ -223,6 +223,7 @@ async function readCollectionFile(
 }
 
 export {
+  ReadOptions,
   validateProject,
   validateCollection,
   validateUrl,
