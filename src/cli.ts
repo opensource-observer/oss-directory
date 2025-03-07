@@ -8,6 +8,7 @@ import {
 } from "./actions/validate.js";
 import { MigrationArgs, runMigrations } from "./actions/migrate.js";
 import { TransformationArgs, runTransformation } from "./actions/transform.js";
+import { validateDefillamaSlugs } from "./actions/defillama.js";
 
 yargs(hideBin(process.argv))
   .option("format", {
@@ -38,6 +39,18 @@ yargs(hideBin(process.argv))
       });
     },
     (argv) => validateProjects(argv),
+  )
+  .command<ValidateArgs>(
+    "validate-defillama-slugs",
+    "Validates Defillama slugs in a directory of projects",
+    (yags) => {
+      yags.option("dir", {
+        type: "string",
+        describe: "Directory to validate",
+        default: "./data/projects",
+      });
+    },
+    (argv) => validateDefillamaSlugs(argv),
   )
   .command<MigrationArgs>(
     "run-migrations",
