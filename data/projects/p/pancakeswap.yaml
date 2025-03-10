@@ -14,9 +14,6 @@ defillama:
   - url: https://defillama.com/protocol/pancakeswap-amm
   - url: https://defillama.com/protocol/pancakeswap-amm-v1
   - url: https://defillama.com/protocol/pancakeswap-amm-v3
-  - url: https://defillama.com/protocol/pancakeswap-amm-stableswap
-  - url: https://defillama.com/protocol/pancakeswap-amm-perps
-  - url: https://defillama.com/protocol/pancakeswap-amm-options
 blockchain:
   - address: "0xdfa1a2df1ff153ab2afc327661e8414f2d04b3e3"
     networks:
@@ -114,7 +111,6 @@ blockchain:
       - contract
     name: NonfungiblePositionManager
 
-
   - address: "0xbC203d7f83677c7ed3F7acEc959963E7F4ECC5C2"
     networks:
       - base
@@ -163,4 +159,3 @@ blockchain:
     tags:
       - contract
     name: MasterchefV3
-
