@@ -1,0 +1,174 @@
+version: 7
+name: sovryn
+display_name: Sovryn
+description: Sovryn is a non-custodial and permission-less smart contract bobd system for bitcoin lending, borrowing and margin trading.
+websites:
+  - url: https://sovryn.app/
+social:
+  twitter:
+    - url: https://x.com/SovrynBTC
+github:
+  - url: https://github.com/DistributedCollective
+defillama:
+  - url: https://defillama.com/protocol/sovryn
+  - url: https://defillama.com/protocol/sovryn-zero
+  - url: https://defillama.com/protocol/sovryn-dex
+  - url: https://defillama.com/protocol/sovryn-lend
+blockchain:
+  - address: "0xCF311E7375083b9513566a47B9f3e93F1FcdCfBF"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - bob
+  - address: "0x6087EbE47fb43Fd56fA71eDe6f9035b777F21862"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: SafeModePath
+  - address: "0x1dff4Ff93dF17Ad6F44E23368341CcFb8fB8B675"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: SdexQuery
+  - address: "0xFA57d9d1Db4676099e67215906f2F681d7730882"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: WarmPath
+  - address: "0x2D4C9B0A213a61ef0ce2a6D5eB6101C63404F173"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: MicroPaths
+  - address: "0x44F220aa5434901E92b0B9F1D1F3Be068BA29099"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: LongPath
+  - address: "0xa65B8E861c5e7672013cDD05853915C6f24ce19D"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: KnockoutLiqPath
+  - address: "0xf01621D8ae78Ba9349ebF417a02FeD6f28A5798E"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: HotProxy
+  - address: "0x4AC1fda4171bC77cf23Be54529E0CF135f6b9B93"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: ColdPath
+  - address: "0x8D68721Ae72b6d6c5D883d8e354CFE5d79A7C325"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: SdexLpTokenDeployer
+  - address: "0xaDEde78e8CB6933A874D4633b1868B9b4d893124"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: SdexLpErc20
+  - address: "0x5785BDeF0F0C444eFE97194CA1Fe2B895D5893c0"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: WeightedStakingModule
+  - address: "0xB30F553aC5E15b72fba1003D102C824f2903b92f"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: StakingWithdrawModule
+  - address: "0x103F2449Be426360575718eFAa729e48FD60C9EE"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: StakingVestingModule
+  - address: "0xd865A7398C051a04a70BC078B61e847922d50E65"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: StakingStorageModule
+  - address: "0x8aC3AE12370F1eB66Cc42b77875Bfa7B1E406d48"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: StakingStakeModule
+  - address: "0xC4a502353E96E1456c48326Bf254D56E24346905"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: StakingAdminModule
+  - address: "0xc17C6462cEAFE9A8819258c6bA168BEF5544Fc21"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: StakingProxy
+  - address: "0x7b96cC2256e94348a678B554e2fC648D13b1560E"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: CrocSwapRouterBypass
+  - address: "0x9f93D654a1cdC128c27F99Af5452b26d8002e607"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: CrocSwapRouter
+  - address: "0x30B2a8810B091D1DbE4aAA4905141f815586e274"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: SdexImpact
+  - address: "0x22Bdd8B71928003473EfA83cd69689cc04507cd9"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: SdexPolicy
+  - address: "0x9c4554B999Ee0F02B7a5c49bf5Af126844F87EE8"
+    tags:
+      - contract
+      - factory
+    networks:
+      - bob
+    name: MerkleDistributorFactory
+  - address: "0x6404DD00Ff4d92B0bfD9A7EA032E592f47384F6D"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: Sovryn Token
+  - address: "0xac2d05A148aB512EDEDc7280c00292ED33d31f1A"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: SdexDeployer
+  - address: "0xD017396d2284699e0Ce34b236CcE5321Ee3078e5"
+    tags:
+      - contract
+    networks:
+      - bob
+    name: MockToken

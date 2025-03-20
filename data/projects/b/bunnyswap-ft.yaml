@@ -1,0 +1,18 @@
+version: 7
+name: bunnyswap-ft
+display_name: BunnySwap
+description: FT native DEX
+websites:
+  - url: https://www.friend.tech/
+social:
+  twitter:
+    - url: https://twitter.com/friendtech
+defillama:
+  - url: https://defillama.com/protocol/bunnyswap
+blockchain:
+  - address: "0xc1E747389c47Ee3F0046969291e42023D9567934"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base

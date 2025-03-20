@@ -1,0 +1,118 @@
+version: 7
+name: sonex
+display_name: Sonex
+description: SONEX is built on a foundation of zk co-processors and decentralized storage and leverage an AI routing terminal to deliver investment strategies.Designed to meet diverse trading needs, SONEX is set to evolve into a comprehensive Alpha Hunting Ecosystem Aggregator, empowering users to stay ahead in the ever-evolving DeFi landscape
+websites:
+  - url: https://www.sonex.so/
+social:
+  twitter:
+    - url: https://twitter.com/_sonex_so
+github:
+  - url: https://github.com/sonex_dex
+defillama:
+  - url: https://defillama.com/protocol/sonex
+blockchain:
+  - address: "0x4007D6f85785690127ff746bFFA5bfb1C18177eE"
+    networks:
+      - soneium
+    tags:
+      - deployer
+      - eoa
+  - address: "0x3e1327299b6e2860E285382C1401E8864017C3dD"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: RewardClaimer
+  - address: "0x053C1DF2e0c99b2E7f11C11F952e87C3197A6373"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: BridgeStaker
+  - address: "0x27a131ab51dDD12c31A7C28213A7A4584758bdE7"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: XToken
+  - address: "0xd2DdF58Bcc188F335061e41C73ED2A8894c2dD98"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: SwapRouter02
+  - address: "0xDEf357D505690F1b0032a74C3b581163c23d1535"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: SwapRouter
+  - address: "0x715BE426a0c8E0A14aBc0130f08F06aa41B1f218"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: QuoterV2
+  - address: "0x12528928e792e6665d52d77c1F59d3e1adBD14DA"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Quoter
+  - address: "0x6f5F9d55f727928b644B04d987B1c0Cf50AF8C0B"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: Uniswap V3 Positions NFT-V1
+  - address: "0xD5B959339E58f0A1dd2dD53412c32B0c8872F05c"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: NonfungibleTokenPositionDescriptor
+  - address: "0x9C31f28b0f46CCa5D2CD64485936984C271382A1"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: NonfungibleTokenPositionDescriptor
+  - address: "0x80557c2EaE4A28E7101d6D7473f87f73Dfd07d71"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: NFTDescriptor
+  - address: "0xf8369D9023657749521FB1Bef6F7A520ce898A13"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: TickLens
+  - address: "0x947391374Fe2d4ED1173F644049104993cF2AE00"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: ProxyAdmin
+  - address: "0x73348e34bE30A2275E78f88185542f986c4Fe6E9"
+    networks:
+      - soneium
+    tags:
+      - contract
+    name: UniswapInterfaceMulticall
+  - address: "0x3E4ff8662820E3dec3DACDb66ef1FFad5Dc5Ab83"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV3Factory
+  - address: "0x3CED0a85219bA7B3767E0e0D01B22B317c81c997"
+    networks:
+      - soneium
+    tags:
+      - contract
+      - factory
+    name: UniswapV3Factory

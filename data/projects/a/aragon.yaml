@@ -27,5 +27,15 @@ blockchain:
       - wallet
     networks:
       - optimism
+  - address: "0x819efafc1a583dbfa92606da469e5c1e4be5a044"
+    tags:
+      - factory
+    networks:
+      - mode
+  - address: "0xe27f21E0E5461AAC77AA962E36e0E02b406f7650"
+    tags:
+      - factory
+    networks:
+      - mode
 npm:
   - url: https://www.npmjs.com/package/@aragon/os

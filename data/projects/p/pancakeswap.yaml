@@ -9,6 +9,11 @@ social:
     - url: https://twitter.com/PancakeSwap
 github:
   - url: https://github.com/pancakeswap
+defillama:
+  - url: https://defillama.com/protocol/pancakeswap
+  - url: https://defillama.com/protocol/pancakeswap-amm
+  - url: https://defillama.com/protocol/pancakeswap-amm-v1
+  - url: https://defillama.com/protocol/pancakeswap-amm-v3
 blockchain:
   - address: "0xdfa1a2df1ff153ab2afc327661e8414f2d04b3e3"
     networks:
@@ -45,9 +50,9 @@ blockchain:
     networks:
       - arbitrum_one
       - mainnet
+      - base
     tags:
       - contract
-      - factory
     name: PancakeV3PoolDeployer
   - address: "0xd621a46e8d8d077ceffd080c6bd4be60a1783d6c"
     networks:
@@ -79,6 +84,7 @@ blockchain:
     networks:
       - arbitrum_one
       - mainnet
+      - base
     tags:
       - contract
     name: PancakeV3Factory
@@ -86,6 +92,7 @@ blockchain:
     networks:
       - arbitrum_one
       - mainnet
+      - base
     tags:
       - contract
     name: SwapRouter
@@ -99,6 +106,56 @@ blockchain:
     networks:
       - arbitrum_one
       - mainnet
+      - base
     tags:
       - contract
     name: NonfungiblePositionManager
+
+  - address: "0xbC203d7f83677c7ed3F7acEc959963E7F4ECC5C2"
+    networks:
+      - base
+    tags:
+      - contract
+    name: V3Migrator
+  - address: "0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997"
+    networks:
+      - base
+    tags:
+      - contract
+    name: QuoterV2
+  - address: "0x9a489505a00cE272eAa5e07Dba6491314CaE3796"
+    networks:
+      - base
+    tags:
+      - contract
+    name: TickLens
+  - address: "0xac1cE734566f390A94b00eb9bf561c2625BF44ea"
+    networks:
+      - base
+    tags:
+      - contract
+    name: PancakeInterfaceMulticall
+  - address: "0x4c650FB471fe4e0f476fD3437C3411B1122c4e3B"
+    networks:
+      - base
+    tags:
+      - contract
+    name: MixedRouteQuoterV1
+  - address: "0x556B9306565093C855AEA9AE92A594704c2Cd59e"
+    networks:
+      - base
+    tags:
+      - contract
+    name: TokenValidator
+  - address: "0x678Aa4bF4E210cf2166753e054d5b7c31cc7fa86"
+    networks:
+      - base
+    tags:
+      - contract
+    name: SmartRouter
+  - address: "0xC6A2Db661D5a5690172d8eB0a7DEA2d3008665A3"
+    networks:
+      - base
+    tags:
+      - contract
+    name: MasterchefV3

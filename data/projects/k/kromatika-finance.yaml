@@ -12,10 +12,18 @@ social:
 github:
   - url: https://github.com/kromatika-finance
   - url: https://github.com/metadexa
+defillama:
+  - url: https://defillama.com/protocol/kromatika
 blockchain:
   - address: "0x9e77c5b95222908d9b0b42e79f6e476c4e7cbf2d"
     networks:
       - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xcd297aefdeba144ff27ee677aa8c80df9e349066"
+    networks:
+      - optimism
     tags:
       - deployer
       - eoa
@@ -195,11 +203,7 @@ blockchain:
     tags:
       - safe
       - wallet
-  - address: "0xcd297aefdeba144ff27ee677aa8c80df9e349066"
-    networks:
-      - optimism
-    tags:
-      - deployer
+    name: GnosisSafeProxy
   - address: "0x6fe9f5616ac30e0a66b5bc68d05f081471835bf7"
     networks:
       - optimism
