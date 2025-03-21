@@ -1,12 +1,16 @@
 version: 7
 name: 0x-splits
 display_name: 0xSplits
-description: The standard for splitting onchain income
+description: Software to share money
 websites:
   - url: https://splits.org
+  - url: https://splits.org/teams
 social:
   twitter:
     - url: https://twitter.com/0xsplits
+  farcaster:
+    - url: https://warpcast.com/~/channel/splits
+    - url: https://warpcast.com/splits
 github:
   - url: https://github.com/0xsplits
 npm:
@@ -15,6 +19,13 @@ npm:
   - url: https://www.npmjs.com/package/@0xsplits/splits-sdk-react
 blockchain:
   - address: "0x9ebc8e61f87a301ff25a606d7c06150f856f24e2"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+      - wallet
+  - address: "0x60C65c9a8674DA22e89C7d09e839908B9f0ecC3a"
     networks:
       - any_evm
     tags:
@@ -103,6 +114,26 @@ blockchain:
       - contract
       - factory
     name: PullSplitFactory
+  - address: "0xDc6259E13ec0621e6F19026b2e49D846525548Ed"
+    networks:
+      - base
+      - mainnet
+      - optimism
+      - zora
+    tags:
+      - contract
+      - factory
+    name: PushSplitFactoryV2.1
+  - address: "0x5cbA88D55Cec83caD5A105Ad40C8c9aF20bE21d1"
+    networks:
+      - base
+      - mainnet
+      - optimism
+      - zora
+    tags:
+      - contract
+      - factory
+    name: PullSplitFactoryV2.1
   - address: "0xa244bbe019cf1ba177ee5a532250be2663fb55ca"
     networks:
       - base
@@ -150,3 +181,13 @@ blockchain:
       - contract
       - factory
     name: DiversifierFactory
+  - address: "0x8E6Af8Ed94E87B4402D0272C5D6b0D47F0483e7C"
+    networks:
+      - base
+      - mainnet
+      - optimism
+      - zora
+    tags:
+      - contract
+      - factory
+    name: SmartVault
