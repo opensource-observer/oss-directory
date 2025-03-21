@@ -25,6 +25,20 @@ blockchain:
       - deployer
       - eoa
       - wallet
+  - address: "0x8cC55811d2610ece1997658Bef35B290e55c9186"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+      - wallet
+  - address: "0x3aad7A3E59e478BB4C76a4813De5F4107b3D61bD"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+      - wallet
   - address: "0x60C65c9a8674DA22e89C7d09e839908B9f0ecC3a"
     networks:
       - any_evm
@@ -38,6 +52,8 @@ blockchain:
       - optimism
       - base
       - zora
+      - mainnet
+      - polygon
     tags:
       - contract
       - factory
@@ -49,6 +65,7 @@ blockchain:
       - optimism
       - base
       - zora
+      - polygon
     tags:
       - contract
       - factory
@@ -59,6 +76,8 @@ blockchain:
       - mainnet
       - optimism
       - zora
+      - arbitrum_one
+      - polygon
     tags:
       - contract
       - factory
@@ -69,6 +88,8 @@ blockchain:
       - base
       - mainnet
       - optimism
+      - zora
+      - polygon
     tags:
       - contract
       - factory
@@ -82,8 +103,14 @@ blockchain:
   - address: "0xcbb386b801ec72a5ab02aeb723decd12f96ede41"
     networks:
       - arbitrum_one
+      - base
+      - mainnet
+      - optimism
+      - zora
+      - polygon
     tags:
       - contract
+      - factory
     name: Recoup
   - address: "0x8fb66f38cf86a3d5e8768f8f1754a24a6c661fb8"
     networks:
@@ -91,6 +118,8 @@ blockchain:
       - mainnet
       - optimism
       - zora
+      - arbitrum_one
+      - polygon
     tags:
       - contract
     name: SplitsWarehouse
@@ -100,6 +129,8 @@ blockchain:
       - mainnet
       - optimism
       - zora
+      - arbitrum_one
+      - polygon
     tags:
       - contract
       - factory
@@ -110,6 +141,8 @@ blockchain:
       - mainnet
       - optimism
       - zora
+      - arbitrum_one
+      - polygon
     tags:
       - contract
       - factory
@@ -120,6 +153,8 @@ blockchain:
       - mainnet
       - optimism
       - zora
+      - arbitrum_one
+      - polygon
     tags:
       - contract
       - factory
@@ -130,6 +165,8 @@ blockchain:
       - mainnet
       - optimism
       - zora
+      - arbitrum_one
+      - polygon
     tags:
       - contract
       - factory
@@ -139,6 +176,9 @@ blockchain:
       - base
       - mainnet
       - optimism
+      - zora
+      - arbitrum_one
+      - polygon
     tags:
       - contract
       - factory
@@ -169,6 +209,9 @@ blockchain:
     networks:
       - base
       - optimism
+      - mainnet
+      - arbitrum_one
+      - polygon
     tags:
       - contract
       - factory
@@ -177,6 +220,9 @@ blockchain:
     networks:
       - base
       - optimism
+      - mainnet
+      - arbitrum_one
+      - polygon
     tags:
       - contract
       - factory
@@ -187,6 +233,7 @@ blockchain:
       - mainnet
       - optimism
       - zora
+      - arbitrum_one
     tags:
       - contract
       - factory
