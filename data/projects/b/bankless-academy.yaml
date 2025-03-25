@@ -6,10 +6,33 @@ websites:
   - url: https://banklessacademy.com
 social:
   twitter:
-    - url: https://twitter.com/BanklessAcademy
+    - url: https://x.com/BanklessAcademy
+  farcaster:
+    - url: https://warpcast.com/banklessacademy
+  telegram:
+    - url: https://t.me/banklessacademy
 github:
   - url: https://github.com/bankless-academy
 blockchain:
+  - address: "0xe1887ff140bfa9d3b45d0b2077b7471124acd242"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+      - wallet
+  - address: "0x472a74c4f7e281e590bed861daa66721a6acadbc"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x7813e3e2905aae2c2405cc1fdba1665e4b3988e2"
+    networks:
+      - any_evm
+    tags:
+      - safe
+      - wallet
   - address: "0x60529042d2ff2e82d5140e60dbccf8242cd114ae"
     networks:
       - optimism
@@ -19,6 +42,12 @@ blockchain:
   - address: "0xbfbcea2a72bc2e62e967fa0c79458dd507708469"
     networks:
       - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xf80cd14ec747b2adf7b1a9911b38c65a885daeea"
+    networks:
+      - mainnet
     tags:
       - safe
       - wallet
