@@ -1,0 +1,26 @@
+version: 7
+name: fluid
+display_name: Fluid
+description: Fluid is a suite of DeFi protocols. Fluid's innovative features, including its liquidity layer, automated limits, lending and vault protocols, robust oracle system, and DEX protocol, collectively create a revolutionary financial layer poised to redefine how DeFi users interact with the ecosystem. 
+websites:
+  - url: https://fluid.io
+social:
+  twitter:
+    - url: https://x.com/0xfluid
+github:
+  - url: https://github.com/Instadapp/fluid-contracts-public
+defillama: 
+    - url: https://defillama.com/protocol/fluid
+blockchain:
+  - address: "0x0ed35b1609ec45c7079e80d11149a52717e4859a"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x910E413DBF3F6276Fe8213fF656726bDc142E08E"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
