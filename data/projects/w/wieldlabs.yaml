@@ -24,3 +24,19 @@ blockchain:
       - deployer
     networks:
       - optimism
+  - address: "0x0e013e88a8b94ca85ee8e0c11b0899e4556bff1e"
+    name: ClubCoinDropFactory
+    tags:
+      - factory
+      - contract
+      - proxy
+    networks:
+      - base
+  - address: "0x5c4743942072d2d0772b9887770e0943a67af6b4"
+    name: FarTokenFactory
+    tags:
+      - factory
+      - contract
+      - proxy
+    networks:
+      - base
