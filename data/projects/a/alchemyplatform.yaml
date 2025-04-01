@@ -12,6 +12,8 @@ github:
   - url: https://github.com/alchemyplatform/rundler
   - url: https://github.com/alchemyplatform/light-account
   - url: https://github.com/alchemyplatform/erc-6900-ref-implementation
+  - url: https://github.com/alchemyplatform/multisig-plugin
+  - url: https://github.com/alchemyplatform/modular-account
 blockchain:
   - address: "0x15ba39375ee2ab563e8873c8390be6f2e2f50232"
     networks:
@@ -26,6 +28,11 @@ blockchain:
     tags:
       - eoa
       - wallet
+  - address: "0xDdF32240B4ca3184De7EC8f0D5Aba27dEc8B7A5C"
+    networks:
+      - any evm
+    tags:
+      - deployer
 npm:
   - url: https://www.npmjs.com/package/@alchemy/aa-accounts
   - url: https://www.npmjs.com/package/@alchemy/aa-alchemy
