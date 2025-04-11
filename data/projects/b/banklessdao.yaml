@@ -16,13 +16,6 @@ blockchain:
     tags:
       - safe
       - wallet
-  - address: "0xe1887ff140bfa9d3b45d0b2077b7471124acd242"
-    networks:
-      - any_evm
-    tags:
-      - eoa
-      - wallet
-    name: banklessacademy.eth
   - address: "0xe3a9ad8a2b39ff6983f1582abd26c06afa6cce96"
     networks:
       - any_evm
@@ -41,13 +34,6 @@ blockchain:
     tags:
       - eoa
       - deployer
-  - address: "0xf80cd14ec747b2adf7b1a9911b38c65a885daeea"
-    networks:
-      - mainnet
-      - arbitrum_one
-    tags:
-      - safe
-      - wallet
   - address: "0xf26d1bb347a59f6c283c53156519cc1b1abaca51"
     networks:
       - mainnet
