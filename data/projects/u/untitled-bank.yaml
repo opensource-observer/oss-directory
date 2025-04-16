@@ -1,0 +1,26 @@
+version: 7
+name: untitled-bank
+display_name: Untitled Bank
+github:
+  - url: https://github.com/untitled-bank
+defillama:
+  - url: https://defillama.com/protocol/untitledbank
+blockchain:
+  - address: "0x7fdf9100af53d6842339a30e40287037e8769472"
+    networks:
+      - soneium
+    tags:
+      - deployer
+      - eoa
+  - address: "0x391f2e059a1ab7e892436019342dd0dd1648aabc"
+    networks:
+      - soneium
+    tags:
+      - deployer
+      - eoa
+  - address: "0xded9a629d6bf935fffe34a02d1b0dd6cdad562a1"
+    networks:
+      - soneium
+    tags:
+      - deployer
+      - eoa

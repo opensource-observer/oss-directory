@@ -3,3 +3,13 @@ name: sonusexchange
 display_name: Sonus Exchange
 github:
   - url: https://github.com/sonusexchange
+defillama:
+  - url: https://defillama.com/protocol/sonus-exchange-amm
+  - url: https://defillama.com/protocol/sonus-exchange-clmm
+blockchain:
+  - address: "0xace19006c2f6020ebd77694a3c76b489d3e1e1be"
+    networks:
+      - soneium
+    tags:
+      - deployer
+      - eoa

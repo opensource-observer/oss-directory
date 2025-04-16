@@ -1,0 +1,20 @@
+version: 7
+name: friendx-contracts-cloned-superfluid-finance
+display_name: AlfaFrens
+github:
+  - url: https://github.com/superfluid-finance/friendx-contracts-cloned
+defillama:
+  - url: https://defillama.com/protocol/alfafrens
+blockchain:
+  - address: "0xc33539b3ca1923624762e8a42d699806c865d652"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
+  - address: "0x7cd915405f4e76f97a005eaea0d67dbd5979ef1f"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
