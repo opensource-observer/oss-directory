@@ -71,6 +71,7 @@ blockchain:
       - contract
     name: HAI / SUSD Velo Pool
   - address: "0xd81ae96c5d466592ca49f194dd3fd047ba0ea3e6"
-    networks: []
+    networks:
+      - optimism
     tags:
       - contract
