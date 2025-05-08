@@ -1,0 +1,21 @@
+version: 7
+name: torosfinance
+display_name: Toros Finance
+description: >
+  Toros Finance provides automated strategies for maximizing earnings
+  across DeFi ecosystems. Powered by dHEDGE, it offers leverage and
+  yield products with streamlined, non-liquidatable exposure to crypto assets.
+websites:
+  - url: https://toros.finance
+social:
+  twitter:
+    - url: https://twitter.com/torosfinance
+  discord:
+    - url: https://discord.gg/2dJD4ftzCn
+blockchain:
+  - address: "0xdc1f5b81eec7e6391aeb6c8e5a2000d3a9aa8e6d"
+    networks:
+      - optimism
+    tags:
+      - wallet
+      - contract
