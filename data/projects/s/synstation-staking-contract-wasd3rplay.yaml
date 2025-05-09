@@ -1,0 +1,14 @@
+version: 7
+name: synstation-staking-contract-wasd3rplay
+display_name: SynStation
+github:
+  - url: https://github.com/wasd3rplay/synstation-staking-contract
+defillama:
+  - url: https://defillama.com/protocol/synstation
+blockchain:
+  - address: "0xbdc61836abdf0542fe4a0b8bf30eaed77953684b"
+    networks:
+      - soneium
+    tags:
+      - deployer
+      - eoa

@@ -1,0 +1,32 @@
+version: 7
+name: opencoverdefi
+display_name: OpenCover
+description: OpenCover makes it easy and affordable to protect your portfolio against leading onchain risks.
+websites:
+  - url: https://opencover.com
+social:
+  twitter:
+    - url: https://x.com/opencover
+  farcaster:
+    - url: https://warpcast.com/opencover
+  discord:
+    - url: https://discord.gg/zKY2rTRUGN
+github:
+  - url: https://github.com/opencoverdefi
+blockchain:
+  - address: "0x0c000f9e42d0bbcaa455651e7049a7d8efe7e31d"
+    networks:
+      - base
+      - optimism
+      - arbitrum_one
+      - matic
+    tags:
+      - eoa
+      - deployer
+  - address: "0x0cecfeb968cf51ec88d834a65e3281c70026ba5e"
+    networks:
+      - base
+    tags:
+      - eoa
+      - deployer
+

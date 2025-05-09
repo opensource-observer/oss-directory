@@ -4,10 +4,18 @@ display_name: LlamaPay
 github:
   - url: https://github.com/llamapay
   - url: https://github.com/llamasubs
+defillama:
+  - url: https://defillama.com/protocol/llamapay
 blockchain:
   - address: "0x91dfd5a51e7c00604e8b2521e678dd8444ea56c9"
     networks:
       - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x71a15ac12ee91bf7c83d08506f3a3588143898b5"
+    networks:
+      - optimism
     tags:
       - deployer
       - eoa

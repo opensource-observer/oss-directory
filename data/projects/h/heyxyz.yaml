@@ -1,23 +1,18 @@
 version: 7
 name: heyxyz
-display_name: heyxyz
-description: Hey.xyz is a decentralized, permissionless social media application built on the Lens Protocol. It enables users to create and share content without centralized control, ensuring data ownership and privacy. As an open-source platform, Hey.xyz fosters community-driven development and innovation in the social media landscape.
+display_name: Hey
+description: Hey.xyz is a decentralized, permissionless social media application built on Lens. It enables users to create and share content without centralized control, ensuring data ownership and privacy. As an open-source platform, Hey.xyz fosters community-driven development and innovation in the social media landscape.
 websites:
   - url: https://hey.xyz
 social:
   twitter:
     - url: https://twitter.com/heydotxyz
 github:
+  - url: https://github.com/heyverse
   - url: https://github.com/heyxyz
   - url: https://github.com/lensterxyz
 blockchain:
   - address: "0x03ba34f6ea1496fa316873cf8350a3f7ead317ef"
-    networks:
-      - any_evm
-    tags:
-      - eoa
-      - wallet
-  - address: "0x3a5bd1e37b099ae3386d13947b6a90d97675e5e3"
     networks:
       - any_evm
     tags:
