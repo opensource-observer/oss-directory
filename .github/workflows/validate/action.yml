@@ -62,3 +62,11 @@ runs:
         PR_TOOLS_ARBITRUM_RPC_URL: ${{ inputs.arbitrum_rpc_url }}
         PR_TOOLS_BASE_RPC_URL: ${{ inputs.base_rpc_url }}
         PR_TOOLS_OPTIMISM_RPC_URL: ${{ inputs.optimism_rpc_url }}
+
+    - name: Validate logos have corresponding projects
+      shell: bash
+      run: |
+        export NODE_OPTIONS="--max_old_space_size=8192"
+        cd oso/ops/external-prs && pnpm tools ossd validate-logos --dir ../../../pr --projectsDir ../../../pr/data/projects
+      env:
+        PR_TOOLS_REPO: ${{ github.repository }}
