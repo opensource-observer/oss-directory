@@ -1,0 +1,64 @@
+# Guidelines for Updating YAML Files in data/projects and data/collections
+
+## General Principles
+- All project YAML files are in `data/projects/`.
+- All collection YAML files are in `data/collections/`.
+- Use 2 spaces for indentation (no tabs).
+- Ensure all YAML files are valid and properly formatted.
+- Do not remove or overwrite existing entries unless necessary.
+
+## For Projects (data/projects)
+1. **Check if the project already exists**
+   - Search for the project by name or GitHub organization.
+   - Project filenames and the `name` field must match and be unique (e.g., `data/projects/o/opensource-observer.yaml` for `opensource-observer`).
+   - See: https://docs.opensource.observer/docs/projects/#check-if-your-project-is-already-listed
+
+2. **Schema Requirements**
+   - Use the latest schema version (as of 2025-02-06, use `version: 7`).
+   - Required fields: `version`, `name`, `display_name`, `github` (list of URLs).
+   - Optional fields: `description`, `websites`, `social`, `npm`, `crates`, `pypi`, `go`, `open_collective`, `blockchain`, `defillama`, `comments`.
+   - The `name` field must match the filename and be globally unique.
+   - Example minimal project file:
+     ```yaml
+     version: 7
+     name: my-project
+     display_name: My Project
+     github:
+       - url: https://github.com/my-project
+     ```
+   - For more details, see: https://docs.opensource.observer/docs/projects/#schema-overview
+
+3. **Adding or Updating**
+   - Add new files under the correct subdirectory by first letter of the project name.
+   - When updating, preserve existing data and add new artifacts as needed.
+   - For blockchain addresses, include `address`, `networks`, and `tags` as per schema.
+   - For bulk updates, group changes in a single pull request and provide a summary.
+
+4. **Validation**
+   - Run YAML linters or validation scripts before submitting changes.
+   - Ensure all required fields are present and correct.
+   - The project uses validation scripts (see `src/validator/index.ts`) to ensure that YAML files conform to the required schema. These scripts validate projects, collections, URLs, social profiles, and blockchain addresses.
+   - Specifically, run `pnpm validate` to validate your YAML files against the schema.
+
+5. **Pull Requests**
+   - Submit changes via pull request.
+   - Include a clear summary of changes.
+   - Enable "Allow edits by maintainers".
+   - All changes are reviewed before merging.
+   - See: https://docs.opensource.observer/docs/projects/#submit-a-pull-request-to-add-your-project
+
+## For Collections (data/collections)
+- Follow similar formatting and validation rules as for projects.
+- Ensure each collection file includes required fields (e.g., `title`, `summary`, `projects`).
+- Keep project lists up to date and alphabetized where possible.
+
+## Best Practices
+- Keep descriptions concise and informative.
+- Use consistent formatting and naming conventions.
+- Use clear, descriptive commit messages (e.g., `Add project: my-project`, `Update collection: web3-tools`).
+- For large or bulk updates, coordinate with maintainers if needed.
+
+## References
+- Full documentation: https://docs.opensource.observer/docs/projects/
+
+# End of cursor.rules 
