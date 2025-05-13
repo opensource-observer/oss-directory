@@ -1,12 +1,15 @@
 version: 7
 name: eywa-protocol
 display_name: EYWA Protocol
-description: EYWA is a cross-chain liquidity protocol that enables seamless token swaps and liquidity provision across multiple blockchains. It utilizes a novel AMM algorithm and a decentralized network of liquidity pools to facilitate efficient trading and maximize capital utilization for liquidity providers.
+description:
+  EYWA is a cross-chain liquidity protocol that enables seamless token swaps and liquidity provision across multiple blockchains. It utilizes a novel AMM algorithm and a decentralized network of liquidity pools to facilitate efficient trading and maximize capital utilization for liquidity providers.
   between blockchains and creating aggregated cross-chain assets.
 websites:
   - url: https://eywa.fi
 github:
   - url: https://github.com/eywa-protocol
+defillama:
+  - url: https://defillama.com/protocol/crosscurve-(by-eywa)
 blockchain:
   - address: "0xf8e3961792c0a9d8bff4aac772ef35edde700416"
     networks:
