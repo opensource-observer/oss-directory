@@ -9,6 +9,7 @@ import {
 import { MigrationArgs, runMigrations } from "./actions/migrate.js";
 import { TransformationArgs, runTransformation } from "./actions/transform.js";
 import { validateDefillamaSlugs } from "./actions/defillama.js";
+import { validateLogos, ValidateLogoArgs } from "./actions/validate_logo.js";
 
 yargs(hideBin(process.argv))
   .option("format", {
@@ -92,6 +93,24 @@ yargs(hideBin(process.argv))
         .demandOption(["name"]);
     },
     (argv) => runTransformation(argv),
+  )
+  .command<ValidateLogoArgs>(
+    "validate-logos",
+    "Validates that all logos have corresponding project files",
+    (yags) => {
+      yags
+        .option("dir", {
+          type: "string",
+          describe: "Directory to scan",
+          default: ".",
+        })
+        .option("projectsDir", {
+          type: "string",
+          describe: "Directory containing project files",
+          default: "./data/projects",
+        });
+    },
+    (argv) => validateLogos(argv),
   )
   .demandCommand()
   .strict()
