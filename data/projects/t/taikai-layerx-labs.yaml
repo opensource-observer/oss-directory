@@ -1,0 +1,18 @@
+version: 7
+name: taikai-layerx-labs
+display_name: TAIKAI
+github:
+  - url: https://github.com/layerx-labs/taikai-contracts-v3
+blockchain:
+  - address: "0xbce9f5aaa7240fbaafa42a25085fa9827289e477"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
+  - address: "0x7ba6368afacfa11a2571f9a22816d6b25825fcc0"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
