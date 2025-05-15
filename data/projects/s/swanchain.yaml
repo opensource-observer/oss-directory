@@ -1,0 +1,28 @@
+version: 7
+name: swanchain
+display_name: Swan Chain
+description: >
+  Swan Chain is a decentralized cloud infrastructure platform designed for the future of decentralized AI. Utilizing OP Superchain technology, it offers comprehensive solutions across storage, computing, bandwidth, and payments. The Swan Dev Grants Program empowers developers and innovators to shape the Swan ecosystem through Open Grants and Requests for Proposals (RFPs), providing financial support to those contributing to the growth of the network.
+websites:
+  - url: https://www.swanchain.io
+social:
+  twitter:
+    - url: https://twitter.com/swan_chain
+  telegram:
+    - url: https://t.me/swan_chain
+  discord:
+    - url: https://discord.gg/DM5xBUnvt9
+github:
+  - url: https://github.com/swanchain
+blockchain:
+  - address: "0xe945d527de9c5121eda9cf48e23cdf691894d4c0"
+    networks:
+      - swan
+      - optimism
+    tags:
+      - wallet
+  - address: "0xe945d527de9c5121eda9cf48e23cdf691894d4c0"
+    networks:
+      - swan
+    tags:
+      - contract
