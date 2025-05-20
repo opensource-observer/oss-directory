@@ -1,15 +1,15 @@
 version: 7
-name: pwnfinance
+name: pwndao
 display_name: PWN
-description: PWN is a permissionless P2P lending protocol enabling fixed-rate borrowing and lending with any token as collateral. It offers customizable loan terms without automatic liquidations. PWN also provides curated multi-asset fixed-yield investment strategies and integrates with Aave and Compound for yield optimization.
+description: PWN is a universal, peer-to-peer lending and borrowing protocol that allows users to use any on-chain asset as collateral while maintaining full control over loan terms. All PWN loans are protected from price-based liquidations. The only way to lose collateral is to miss the loan repayment deadline.
 websites:
   - url: https://pwn.xyz
 social:
   twitter:
     - url: https://twitter.com/PWNdao
 github:
-  - url: https://github.com/pwnfinance
   - url: https://github.com/pwndao
+  - url: https://github.com/pwnfinance
 defillama:
   - url: https://defillama.com/protocol/pwn
 blockchain:
@@ -32,10 +32,3 @@ blockchain:
     tags:
       - contract
     name: PWNSimpleLoan
-  - address: "0xd26a52885d80e4aa206a283912fdca94ccb7844b"
-    networks:
-      - any_evm
-    tags:
-      - eoa
-      - wallet
-    name: victornotaro.eth
