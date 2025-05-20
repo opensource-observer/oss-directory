@@ -3,7 +3,18 @@ name: boredtopia
 display_name: Boredtopia
 description: Boredtopia is a Web3 game development toolkit backed by Kaia, aiming to bridge Web2 and Web3 gaming into a single platform.
 websites:
-- url: https://boredtopia.app/
+  - url: https://boredtopia.app/
 social:
   twitter:
-  - url: https://x.com/BoredtopiaApp
+    - url: https://x.com/BoredtopiaApp
+github:
+  - url: https://github.com/boredtopia/xmas-eggs
+  - url: https://github.com/boredtopia/tbw2024
+  - url: https://github.com/boredtopia/rocketship-pass
+blockchain:
+  - address: "0x53873925c5156c505e65a73542cec125edd3e8a1"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

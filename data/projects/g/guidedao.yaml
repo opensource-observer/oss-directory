@@ -1,0 +1,12 @@
+version: 7
+name: guidedao
+display_name: Guide DAO
+github:
+  - url: https://github.com/guidedao
+blockchain:
+  - address: "0x265a7d7df6e73d8ead925bca4eab87b946c3a733"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

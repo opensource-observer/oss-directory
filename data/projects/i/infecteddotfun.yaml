@@ -1,0 +1,12 @@
+version: 7
+name: infecteddotfun
+display_name: Infected
+github:
+  - url: https://github.com/infecteddotfun
+blockchain:
+  - address: "0x2e14cbb7deb6a949465a3ee40253480240d08852"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

@@ -1,0 +1,12 @@
+version: 7
+name: based-year-2024-tamastorok
+display_name: Based Year 2024
+github:
+  - url: https://github.com/tamastorok/based-year-2024
+blockchain:
+  - address: "0x23f58e4385ed2f6d054682182afa7adffd062673"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

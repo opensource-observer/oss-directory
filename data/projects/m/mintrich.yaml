@@ -1,0 +1,12 @@
+version: 7
+name: mintrich
+display_name: Mint.Rich
+github:
+  - url: https://github.com/mintrich
+blockchain:
+  - address: "0xcf967a708ffa3e0b4d285f29e1ba8852f7ed8382"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
