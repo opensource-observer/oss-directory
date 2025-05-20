@@ -1,0 +1,23 @@
+version: 7
+name: superchain-safe-protofire
+display_name: Superchain Safe
+github:
+  - url: https://github.com/protofire/safe-client-gateway
+  - url: https://github.com/protofire/opstack-wallet-web
+  - url: https://github.com/protofire/safe-contracts
+  - url: https://github.com/protofire/safe-events-service
+  - url: https://github.com/protofire/safe-config-service
+  - url: https://github.com/protofire/safe-transaction-service
+blockchain:
+  - address: "0x3b747c372c2088963abc2194b7d5ade238965b33"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x643c8a8120efb675e82c5c58d8d473f5add0b5e6"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

@@ -1,5 +1,5 @@
 version: 7
-name: daobase_ai
+name: daobase-ai
 display_name: DAOBase
 description: DAOBase is an AI-driven platform for launching and aggregating DAOs. It provides tools to create, manage, and interact with DAOs, leveraging artificial intelligence to streamline processes. DAOBase aims to make DAO creation and participation more accessible and efficient.
 websites:
@@ -11,3 +11,16 @@ social:
     - url: https://t.me/daobase_ai
 github:
   - url: https://github.com/daobase-ai
+blockchain:
+  - address: "0x7ffdb03888bd6e3bd8b5ec2706f36a9122328590"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xc844c4dcecb00f1fa23c7be1bf87fbd6230a2a3b"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

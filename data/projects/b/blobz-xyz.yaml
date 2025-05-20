@@ -1,0 +1,15 @@
+version: 7
+name: blobz-xyz
+display_name: BLOBz
+github:
+  - url: https://github.com/blobz-xyz/blz-space-airdrop
+  - url: https://github.com/blobz-xyz/contracts
+  - url: https://github.com/blobz-xyz/space-blobz
+  - url: https://github.com/blobz-xyz/blobz-bt
+blockchain:
+  - address: "0x364ca165532881f1519bbabad6af1d7b3178c144"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

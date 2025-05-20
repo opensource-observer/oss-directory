@@ -1,0 +1,18 @@
+version: 7
+name: veildotcash
+display_name: Veil Cash
+github:
+  - url: https://github.com/veildotcash
+blockchain:
+  - address: "0x703bd6df4c4a8b1804855a4b2963c9c54d260000"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x19f49e0096c1c0c4fa722ba2171d6da18e9f3702"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

@@ -1,6 +1,6 @@
 version: 7
 name: solidity-ethereum
-display_name: Solidity
+display_name: Solidity (and solc-js)
 websites:
   - url: https://ethereum.org
 github:
@@ -14,6 +14,7 @@ github:
   - url: https://github.com/ethereum/solidity-underhanded-contest
   - url: https://github.com/ethereum/solidity-website
   - url: https://github.com/ethereum/solc-bin
+  - url: https://github.com/ethereum/solc-js
 blockchain:
   - address: "0xf0f1ef973c7ae51ef7ae917812932569100956ae"
     networks:

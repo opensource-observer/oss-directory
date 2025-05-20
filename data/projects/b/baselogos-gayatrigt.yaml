@@ -1,0 +1,13 @@
+version: 7
+name: baselogos-gayatrigt
+display_name: Base Logos
+github:
+  - url: https://github.com/gayatrigt/baselogos
+  - url: https://github.com/gayatrigt/baselogonftproject
+blockchain:
+  - address: "0x2cd1353cf0e402770643b54011a63b546a189c44"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

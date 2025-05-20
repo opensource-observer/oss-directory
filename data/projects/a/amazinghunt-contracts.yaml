@@ -1,0 +1,12 @@
+version: 7
+name: amazinghunt-contracts
+display_name: Amazing Hunt
+github:
+  - url: https://github.com/amazinghunt-contracts
+blockchain:
+  - address: "0x3e5f02ccb54644ed88b09e8556c9313961c6f339"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

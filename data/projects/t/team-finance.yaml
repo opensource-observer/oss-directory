@@ -5,3 +5,17 @@ defillama:
   - url: https://defillama.com/protocol/team-finance
 github:
   - url: https://github.com/team-finance
+  - url: https://github.com/trustswap/teamfinance-stakingpool
+blockchain:
+  - address: "0x0e4272695e525f8b12d553ad5533d46391ab769d"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xba9e621138890a240b31c1aa11c25723b7621918"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

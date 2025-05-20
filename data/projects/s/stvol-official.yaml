@@ -1,0 +1,12 @@
+version: 7
+name: stvol-official
+display_name: SuperVol
+github:
+  - url: https://github.com/stvol-official
+blockchain:
+  - address: "0x5e6c12e083b1ad5fb7c7bf5582467eb74cd58a66"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

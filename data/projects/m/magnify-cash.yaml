@@ -1,0 +1,12 @@
+version: 7
+name: magnify-cash
+display_name: Magnify Cash World Mini App
+github:
+  - url: https://github.com/magnify-cash
+blockchain:
+  - address: "0x7745b9b74a0c7637fa5b74d5fc106118bdbb0ee7"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
