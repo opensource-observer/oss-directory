@@ -8,40 +8,73 @@ websites:
 github:
   - url: https://github.com/createmytoken
 blockchain:
+  - address: "0x42427951078AefBD6AdeCe890d8aaeb1429B4242"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x00000000557be012F03818bc56b8a85fb71C5777"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x0000000040293A1f6542ba004343F80669b5160a"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x3dEb1dB3DD6CEeAcFD5A875F132d724Db336c89b"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0xeC78c088A4E1449318e22938870C18C505597b56"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0xEB3D17c23e33d908ed80e5CEC419e5f36A5d0F9A"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0xCBD7080c6735E01bc375883DfBC9073e2e587620"
+    networks:
+      - any_evm
+    tags:
+      - contract
   - address: "0x85a1f113eea53a68189157914f320c0cc5093773"
     networks:
-      - base
-      - optimism
+      - any_evm
     tags:
       - contract
   - address: "0xd3bf35d0a047dcccd51325fe6490bdacf11042e0"
     networks:
-      - base
+      - any_evm
     tags:
       - contract
   - address: "0x781d963b5c94590a324a6300d9ada11caedf7260"
     networks:
-      - base
+      - any_evm
     tags:
       - contract
   - address: "0xc710077cee595e3e0745c3bb117c5c7793e52731"
     networks:
-      - base
+      - any_evm
     tags:
       - contract
   - address: "0x119de62e76c1be37a10b30c64fa5406c531acccf"
     networks:
-      - base
+      - any_evm
     tags:
       - contract
   - address: "0x3669c9e2467fef198fb7963a2df887d0a005216c"
     networks:
-      - base
-      - optimism
+      - any_evm
     tags:
       - contract
   - address: "0x4e08e94e560aee9b3440d08a9caaa34b29f32bf5"
     networks:
-      - base
+      - any_evm
     tags:
       - contract
