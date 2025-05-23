@@ -1,0 +1,22 @@
+version: 7
+name: mintblockchain
+display_name: Mint Blockchain
+description: >
+  Mint Blockchain is an L2 network focused on connecting global users to the NFT 
+  economy. It offers low gas fees, NFT-focused infrastructure, and innovative 
+  standards to empower developers, brands, and creators in the Web3 space.
+websites:
+  - url: https://mintchain.io
+social:
+  discord:
+    - url: https://discord.com/invite/mint-blockchain
+github:
+  - url: https://github.com/mintchain
+blockchain:
+  - address: "0x93d2118bdd8b5e243020f01a1391b2e3cb137a56"
+    networks:
+      - optimism
+      - mint
+    tags:
+      - wallet
+      - contract
