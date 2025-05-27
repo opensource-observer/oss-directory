@@ -1,0 +1,65 @@
+version: 7
+name: daimo-pay
+display_name: Daimo Pay
+description: Daimo Pay enables seamless crypto payments for your app. Onboard users from any chain, any coin into your app with one click and maximize your conversion.
+websites:
+  - https://pay.daimo.com
+github:
+  - url: https://github.com/daimo-eth/pay
+  - url: https://github.com/daimo-eth/pretix-eth-payment-plugin
+npm:
+  - url: https://www.npmjs.com/package/@daimo/pay
+  - url: https://www.npmjs.com/package/@daimo/pay-common
+blockchain:
+  - address: "0x2F321372E8A9755CD2Ca6114eB8da32A14F8100b"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+      - deployer
+  - address: "0x723A63fb50dA50A26997Fb99A2Eb151E4F8c5227"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+      - deployer
+  - address: "0xA602141Bfc2577A37B43D6156728b09c900b33c3"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
+  - address: "0x8E29a76DD752AD84fc92BAAB4Ac2002b3c960EE8"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x9751572B505F244D9feCfcB9712B00974f458872"
+    networks:
+      - any_evm
+    tags:
+      - contract
+      - factory
+  - address: "0xfaF939209efeE5834ba1538bb758cCC662902697"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x9BD9caF29B76E98d57Fc3a228A39C7efe8ca0eAf"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x90498530e2FddcD937faB0Ab56cF6a7c1FB08b62"
+    networks:
+      - any_evm
+    tags:
+      - contract
+      - factory
+  - address: "0xC6f00FE98bD441b8B482781dc4721443eC645C0e"
+    networks:
+      - any_evm
+    tags:
+      - contract

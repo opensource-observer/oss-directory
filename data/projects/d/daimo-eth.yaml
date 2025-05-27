@@ -1,8 +1,11 @@
 version: 7
 name: daimo-eth
 display_name: Daimo
+description: Universal cash app. No seed phrases. Keys are generated in your phone's secure enclave and never leave. The mission is to make an excellent experience. Sound assets, secure cryptography, your coins in your control.
 github:
-  - url: https://github.com/daimo-eth
+  - url: https://github.com/daimo-eth/daimo
+  - url: https://github.com/daimo-eth/ethreceipts
+  - url: https://github.com/daimo-eth/p256-verifier
 blockchain:
   - address: "0xc2b78104907f722dabac4c69f826a522b2754de4"
     networks:
