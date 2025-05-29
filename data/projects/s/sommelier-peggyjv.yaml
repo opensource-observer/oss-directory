@@ -1,0 +1,14 @@
+version: 7
+name: sommelier-peggyjv
+display_name: Sommelier
+github:
+  - url: https://github.com/peggyjv/sommelier
+defillama:
+  - url: https://defillama.com/protocol/sommelier
+blockchain:
+  - address: "0xe983437Fd0a7F25913957628C26998f55d544f44"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

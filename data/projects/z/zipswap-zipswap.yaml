@@ -1,0 +1,12 @@
+version: 7
+name: zipswap-zipswap
+display_name: ZipSwap
+defillama:
+  - url: https://defillama.com/protocol/zipswap
+blockchain:
+  - address: "0x8602EE2f8AaEb671E409b26d48E36DD8Cc3B7ED7"
+    networks:
+      - optimism
+    tags:
+      - deployer
+      - eoa
