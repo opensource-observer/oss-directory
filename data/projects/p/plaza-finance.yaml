@@ -1,15 +1,17 @@
 version: 7
 name: plaza-finance
 display_name: Plaza Finance
-description: Plaza Finance is a decentralized platform offering programmable derivatives on the Base network. It introduces bondETH, providing USDC coupons backed by staked ETH, and levETH, offering leveraged Ethereum exposure without liquidation risk. 
+description: Plaza Finance is a decentralized platform offering programmable derivatives on the Base network. It introduces bondETH, providing USDC coupons backed by staked ETH, and levETH, offering leveraged Ethereum exposure without liquidation risk.
 websites:
-- url: https://plaza.finance/
+  - url: https://plaza.finance/
 social:
   twitter:
-  - url: https://x.com/plaza_finance
+    - url: https://x.com/plaza_finance
   telegram:
-  - url: https://t.me/+6pz_Gu6oyw04Mjgx
+    - url: https://t.me/+6pz_Gu6oyw04Mjgx
   discord:
-  - url: https://discord.gg/plazafinance
+    - url: https://discord.gg/plazafinance
 github:
-- url: https://github.com/Convexity-Research/plaza-contracts
+  - url: https://github.com/Convexity-Research/plaza-contracts
+defillama:
+  - url: https://defillama.com/protocol/plaza-finance
