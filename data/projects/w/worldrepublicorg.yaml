@@ -1,0 +1,26 @@
+version: 7
+name: worldrepublicorg
+display_name: World Republic
+github:
+  - url: https://github.com/worldrepublicorg
+blockchain:
+  - address: "0x02c3B99D986ef1612bAC63d4004fa79714D00012"
+    networks:
+      - worldchain
+    tags:
+      - contract
+  - address: "0x52DFEe61180A0BCEBe007E5a9Cfd466948aCCA46"
+    networks:
+      - worldchain
+    tags:
+      - contract
+  - address: "0x234302Db10A54BDc11094A8Ef816B0Eaa5FCE3f7"
+    networks:
+      - worldchain
+    tags:
+      - contract
+  - address: "0x372dCA057682994568be074E75a03Ced3dD9E60d"
+    networks:
+      - worldchain
+    tags:
+      - contract

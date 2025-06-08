@@ -1,5 +1,12 @@
 version: 7
 name: flayerlabs
-display_name: Flayer
+display_name: Flayer (Flaunch)
 github:
   - url: https://github.com/flayerlabs
+blockchain:
+  - address: "0xB8A70b4d1547bf6193bd67A73F4F98ea9FD0A973"
+    networks:
+      - base
+    tags:
+      - eoa
+      - deployer

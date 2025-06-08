@@ -3,3 +3,12 @@ name: pinto-org
 display_name: Pinto Protocol
 github:
   - url: https://github.com/pinto-org
+defillama:
+  - url: https://defillama.com/protocol/pinto
+blockchain:
+  - address: "0x183926c42993478F6b2eb8CDEe0BEa524B119ab2"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - deployer
