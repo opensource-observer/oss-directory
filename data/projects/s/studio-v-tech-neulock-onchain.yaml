@@ -1,0 +1,19 @@
+version: 7
+name: studio-v-tech-neulock-onchain
+display_name: Neulock Smart Contracts
+description: Neulock Web3 Password Manager smart contracts
+websites:
+  - url: https://neulock.app/
+github:
+  - url: https://github.com/studio-v-tech/neulock-onchain
+blockchain:
+  - address: "0xb8B795A16E719BC1E904aeA0802B9BE4439EFc16"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+  - address: "0xaD7EbC752C6d7261036d176069a284Cda80E58A1"
+    networks:
+      - any_evm
+    tags:
+      - deployer
