@@ -74,6 +74,7 @@ web_modules/
 
 # dotenv environment variable files
 .env
+.venv
 .env.development.local
 .env.test.local
 .env.production.local
@@ -135,5 +136,3 @@ temp/
 __pycache__/
 
 .ruff_cache
-
-data/logos
