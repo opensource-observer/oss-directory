@@ -390,14 +390,10 @@ blockchain:
     networks:
       - optimism
     name: NFTDescriptor
-    tags:
-      - contract
   - address: "0x91ae842a5ffd8d12023116943e72a606179294f3"
     networks:
       - optimism
     name: NonfungibleTokenPositionDescriptor
-    tags:
-      - contract
   - address: "0xee6a57ec80ea46401049e92587e52f5ec1c24785"
     networks:
       - optimism
@@ -489,7 +485,6 @@ blockchain:
     tags:
       - contract
     name: v3StakerAddress
-
   - address: "0x498581ff718922c3f8e6a244956af099b2652b2b"
     networks:
       - base
@@ -671,8 +666,3 @@ blockchain:
     tags:
       - contract
     name: Universal Router
-  - address: "0x732f5baac411e427d130fed03c2e82a3e0d64d35"
-    networks:
-      - optimism
-    tags:
-      - contract
