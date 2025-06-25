@@ -1,0 +1,36 @@
+version: 7
+name: air3app
+display_name: Air3
+github:
+  - url: https://github.com/air3app
+blockchain:
+  - address: "0x3cd76a3e1ae288c11459b986362ff2f63ba0a379"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x7cbe2b20ef84b150d685781999e407a0a5011b54"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xa4f2f1c138b32ad5219b601b3753629b6e4b24db"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x16364a6b7ac1d7085346ce6a144a1fd35ba80871"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x49000b54784c0359a9ed744a5f3505d39043e451"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

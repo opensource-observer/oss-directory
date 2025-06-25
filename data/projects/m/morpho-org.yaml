@@ -3,3 +3,27 @@ name: morpho-org
 display_name: morpho-org
 github:
   - url: https://github.com/morpho-org
+defillama:
+  - url: https://defillama.com/protocol/morpho-blue
+  - url: https://defillama.com/protocol/morpho-aavev3
+  - url: https://defillama.com/protocol/morpho-aave
+  - url: https://defillama.com/protocol/morpho-compound
+blockchain:
+  - address: "0x937Ce2d6c488b361825D2DB5e8A70e26d48afEd5"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x6B5e029687e8f995aeF05aFb23442c3c4E3D1839"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x6e632701fD42A9b856294A2172dd63f03EB957c5"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

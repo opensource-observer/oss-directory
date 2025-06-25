@@ -1,0 +1,12 @@
+version: 7
+name: web3bridge
+display_name: Web3bridge
+github:
+  - url: https://github.com/web3bridge
+blockchain:
+  - address: "0xb9a00a47c522f6ec6b257c545542361c00f02fcd"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

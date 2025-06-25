@@ -1,0 +1,30 @@
+version: 7
+name: daos-world-azflin
+display_name: daos.world
+github:
+  - url: https://github.com/azflin/daos-world-contracts
+blockchain:
+  - address: "0x626358e33076453160a58ebd03cbaef3449f1964"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x333bf08811fb4245f42b74305345516797bd715a"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xbf63b4c03c6353ff0f4103c7ca031d7fad88564d"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x7a1ec9bd2ca6f32316c9a31b05f9ee9b12190ef3"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

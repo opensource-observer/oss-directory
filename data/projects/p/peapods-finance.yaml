@@ -1,0 +1,17 @@
+version: 7
+name: peapods-finance
+display_name: Peapods Finance
+websites:
+  - url: https://peapods.finance
+defillama:
+  - url: https://defillama.com/protocol/peapods-finance
+social:
+  twitter:
+    - url: https://x.com/PeapodsFinance
+blockchain:
+  - address: "0x21FE3e26E824783cA7E374355A8D30Ae8BBf6E37"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - deployer

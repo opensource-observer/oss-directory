@@ -1,0 +1,12 @@
+version: 7
+name: multichaintools-lalaland83
+display_name: Multichaintools
+github:
+  - url: https://github.com/lalaland83/multichaintools
+blockchain:
+  - address: "0xb5e64c26ac0c85a2853603711254d6ec51a1b1b0"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

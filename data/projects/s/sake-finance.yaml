@@ -1,0 +1,14 @@
+version: 7
+name: sake-finance
+display_name: Sake
+github:
+  - url: https://github.com/sake-finance
+defillama:
+  - url: https://defillama.com/protocol/sakefinance
+blockchain:
+  - address: "0x8ab8aeef444aee718a275a8325795fe90cf162c4"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

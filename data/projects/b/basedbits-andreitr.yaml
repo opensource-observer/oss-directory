@@ -1,0 +1,19 @@
+version: 7
+name: basedbits-andreitr
+display_name: Based Bits
+github:
+  - url: https://github.com/andreitr/basedbits.fun
+  - url: https://github.com/andreitr/basedbits
+blockchain:
+  - address: "0xd811f3803bee46fdce64e680aa29df3a4382e7e3"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x98556b192f8304001986e0bb94e61e51049a600c"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

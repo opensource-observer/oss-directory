@@ -3,3 +3,13 @@ name: euler-xyz
 display_name: Euler Finance
 github:
   - url: https://github.com/euler-xyz
+defillama:
+  - url: https://defillama.com/protocol/euler-v2
+  - url: https://defillama.com/protocol/euler-v1
+blockchain:
+  - address: "0xEe009FAF00CF54C1B4387829aF7A8Dc5f0c8C8C5"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

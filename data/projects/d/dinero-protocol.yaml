@@ -3,3 +3,19 @@ name: dinero-protocol
 display_name: Dinero Protocol
 github:
   - url: https://github.com/dinero-protocol
+defillama:
+  - url: https://defillama.com/protocol/dinero-(pxeth)
+  - url: https://defillama.com/protocol/pirex
+  - url: https://defillama.com/protocol/hidden-hand
+  - url: https://defillama.com/protocol/redacted-protocol
+blockchain:
+  - address: "0x11476323D8DFCBAFac942588E2f38823d2Dd308e"
+    networks:
+      - ink
+    tags:
+      - contract
+  - address: "0x04C154b66CB340F3Ae24111CC767e0184Ed00Cc6"
+    networks:
+      - mainnet
+    tags:
+      - contract

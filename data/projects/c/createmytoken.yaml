@@ -7,7 +7,82 @@ websites:
   - url: https://www.createmytoken.com
 github:
   - url: https://github.com/createmytoken
+defillama:
+  - url: https://defillama.com/protocol/createmytoken
 blockchain:
+  - address: "0x42427951078AefBD6AdeCe890d8aaeb1429B4242"
+    networks:
+      - base
+      - ink
+      - mode
+      - optimism
+      - soneium
+      - unichain
+      - worldchain
+      - zora
+    tags:
+      - contract
+  - address: "0x00000000557be012F03818bc56b8a85fb71C5777"
+    networks:
+      - base
+      - frax
+      - ink
+      - mode
+      - optimism
+      - soneium
+      - unichain
+      - worldchain
+      - zora
+    tags:
+      - contract
+  - address: "0x0000000040293A1f6542ba004343F80669b5160a"
+    networks:
+      - base
+      - frax
+      - ink
+      - mode
+      - optimism
+      - soneium
+      - unichain
+      - worldchain
+      - zora
+    tags:
+      - contract
+  - address: "0x3dEb1dB3DD6CEeAcFD5A875F132d724Db336c89b"
+    networks:
+      - base
+      - optimism
+      - unichain
+      - zora
+    tags:
+      - contract
+  - address: "0xeC78c088A4E1449318e22938870C18C505597b56"
+    networks:
+      - base
+      - frax
+      - ink
+      - mode
+      - optimism
+      - soneium
+      - unichain
+      - worldchain
+      - zora
+    tags:
+      - contract
+  - address: "0xEB3D17c23e33d908ed80e5CEC419e5f36A5d0F9A"
+    networks:
+      - base
+      - optimism
+      - unichain
+      - zora
+    tags:
+      - contract
+  - address: "0xCBD7080c6735E01bc375883DfBC9073e2e587620"
+    networks:
+      - base
+      - optimism
+    tags:
+      - contract
   - address: "0x85a1f113eea53a68189157914f320c0cc5093773"
     networks:
       - base
@@ -31,12 +106,11 @@ blockchain:
       - contract
   - address: "0x119de62e76c1be37a10b30c64fa5406c531acccf"
     networks:
-      - base
+      - mainnet
     tags:
       - contract
   - address: "0x3669c9e2467fef198fb7963a2df887d0a005216c"
     networks:
-      - base
       - optimism
     tags:
       - contract

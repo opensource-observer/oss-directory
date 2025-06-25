@@ -1,0 +1,12 @@
+version: 7
+name: moshicam-gallery-so
+display_name: Moshicam
+github:
+  - url: https://github.com/gallery-so/moshicam-contracts
+blockchain:
+  - address: "0xa064db8fbfe520664442ee0e2650cc1c6c8f971e"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

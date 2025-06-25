@@ -3,4 +3,11 @@ name: javsphere
 description: The Next Generation of Decentralized Finance - Simple, Automated & Revolutionary.
 display_name: Javsphere
 github:
-  - url: http://github.com/javsphere
+  - url: https://github.com/javsphere
+blockchain:
+  - address: "0xe299e1e0b1697660ad3ad3b817f565d8db0d36cb"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

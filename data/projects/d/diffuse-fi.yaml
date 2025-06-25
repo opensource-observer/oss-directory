@@ -1,0 +1,12 @@
+version: 7
+name: diffuse-fi
+display_name: Diffuse Data Feeds
+github:
+  - url: https://github.com/diffuse-fi
+blockchain:
+  - address: "0xbb5a794bd453fc664d4b720a359c6236cb026b17"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

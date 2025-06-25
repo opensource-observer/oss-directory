@@ -1,0 +1,14 @@
+version: 7
+name: songbirdz-dry-tortuga
+display_name: Songbirdz
+github:
+  - url: https://github.com/dry-tortuga/songbirdz-collection-frontend
+  - url: https://github.com/dry-tortuga/songbirdz-collection-backend
+  - url: https://github.com/dry-tortuga/songbirdz-collection-media
+blockchain:
+  - address: "0x3fb4920e09493b2bc7e9b7e14ea7585ca8babf21"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

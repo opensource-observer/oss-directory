@@ -1,51 +1,677 @@
 version: 7
 name: bunniapp
-display_name: Bunniapp by Timeless Finance
-description: Bunniapp by Timeless Finance is a DeFi yield aggregator that optimizes users' returns across multiple protocols. It features auto-compounding, yield splitting, and impermanent loss protection. Bunniapp is built on the Ethereum blockchain and integrates with popular DeFi protocols like Uniswap and Compound.
+display_name: Bunni.xyz
+description: Bunni is the most advanced DEX ever built. Bunni maximizes LP profits in all market conditions using its first-of-its-kind Shapeshifting Liquidity as well as features like rehypothecation & dynamic swap fee.
 websites:
-  - url: https://timelessfi.com
+  - url: https://bunni.xyz/
+  - url: https://docs.bunni.xyz/
 social:
   twitter:
-    - url: https://twitter.com/Timeless_Fi
+    - url: https://x.com/bunni_xyz
+  discord:
+    - url: https://discord.gg/bunnixyz
 github:
-  - url: https://github.com/bunniapp
-  - url: https://github.com/timeless-fi
+  - url: https://github.com/Bunniapp
+defillama:
+  - url: https://defillama.com/protocol/bunni-v2
 blockchain:
-  - address: "0xfbe09b7a6c6cc3a72b4ca41cdd9c88ac62bb7937"
+  - address: "0x9a8FEe232DCF73060Af348a1B62Cdb0a19852d13"
+    tags:
+      - safe
     networks:
       - any_evm
+    name: Bunni Governance Treasury Safe
+  - address: "0xfBe09B7A6C6cc3A72B4CA41cdD9c88AC62bb7937"
     tags:
-      - deployer
       - eoa
-  - address: "0xbfbaa134ed5da64eca6b6fd39c04b273b6bb600d"
+      - deployer
     networks:
-      - arbitrum_one
+      - any_evm
+    name: Bunni deployer
+  - address: "0x9D1eD2701E7D8c1C77bC6770ED970E76D07a494e"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - any_evm
+    name: CREATE3 factory deployer
+  - address: "0x000000DCeb71f3107909b1b748424349bfde5493"
     tags:
       - contract
       - factory
-    name: unverified
-  - address: "0x0ed37f546c7b70cd787eee94a521f24cd6653442"
     networks:
+      - mainnet
       - arbitrum_one
+      - base
+      - unichain
+    name: BunniHub 1.0
+  - address: "0x00000091Cb2d7914C9cd196161Da0943aB7b92E1"
     tags:
       - contract
       - factory
-    name: unverified
-  - address: "0xb5087f95643a9a4069471a28d32c569d9bd57fe4"
     networks:
-      - arbitrum_one
+      - unichain
+    name: BunniHub 1.2.0
+  - address: "0x000000000049C7bcBCa294E63567b4D21EB765f1"
     tags:
       - contract
-    name: BunniHub
-  - address: "0xe4666f0937b62d64c10316db0b7061549f87e95f"
+      - factory
     networks:
+      - mainnet
       - arbitrum_one
+      - base
+      - unichain
+    name: BunniHub 1.2.1
+  - address: "0x0010d0D5dB05933Fa0D9F7038D365E1541a41888"
     tags:
       - contract
-    name: Child Liquidity Gauge Factory
-  - address: "0xb45913337aca4988b08a61388c25e48ba5f6227c"
     networks:
+      - mainnet
       - arbitrum_one
+      - base
+      - unichain
+    name: BunniHook 1.0
+  - address: "0x0000DA5dCD7eC49d6Ca5554f7b1ca1CE33Fa1888"
     tags:
       - contract
-    name: UniswapV3Swapper
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BunniHook 1.1
+  - address: "0x0000fE59823933AC763611a69c88F91d45F81888"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BunniHook 1.1.1
+  - address: "0x005aF73a245d8171A0550ffAe2631f12cc211888"
+    tags:
+      - contract
+    networks:
+      - unichain
+    name: BunniHook 1.2.0
+  - address: "0x000052423c1dB6B7ff8641b85A7eEfc7B2791888"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BunniHook 1.2.1
+  - address: "0x00000036b252d98aC5058d0d2b1ADDc9Dd0DbE0f"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BunniZone 1.0
+  - address: "0x0000000D2ae8907A686D988eeda193A90D90D0b0"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: PermissionedBunniZone 1.1.1
+  - address: "0x0000006cfbf2dcBEaee1aCf2E1f12103eB9EBBC3"
+    tags:
+      - contract
+    networks:
+      - unichain
+    name: BunniZone 1.2.0
+  - address: "0x00000000Ff3ba1257149f69CD0d22263DD0A14ea"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BunniZone 1.2.1
+  - address: "0x000000719604D7eA57bE2d4480E429a4D3AFeF88"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BunniQuoter 1.0
+  - address: "0x00000000442a973D646e0773EBB72F72E0b27dE8"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BunniQuoter 1.1
+  - address: "0x00000000217dd3feB84e447fa4Abe3a97dB7A767"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BunniQuoter 1.1.1
+  - address: "0x0000005E46dE497cF4b56e47526969d6F77781eE"
+    tags:
+      - contract
+    networks:
+      - unichain
+    name: BunniQuoter 1.2.0
+  - address: "0x00000000E15009D51C6d57f7164f4Ed4996ae55C"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BunniQuoter 1.2.1
+  - address: "0x00000033f0C0735a7092E5B9B97D3557e340C1c0"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: SwapMathLib 1.0
+  - address: "0x000000D3c40AaaF8ffd16b5275e90D6d3C613e5c"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: RebalanceLib 1.0
+  - address: "0x00000000613AC2b15d16Fc8CaC58aC544bF96df8"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: SwapMathLib 1.1
+  - address: "0x0000000051fDC3eB797509aDC9EB19c9Daf22Aa1"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: RebalanceLib 1.1
+  - address: "0x00000000aF7929Ae27A7aa6e9eb68fE0f10BbA88"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: SwapMathLib 1.1.1
+  - address: "0x000000005BeA54b06ba1376474cf0dF55f608200"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: RebalanceLib 1.1.1
+  - address: "0x000000C064137d243e3b36C1ecE0adDE0bCcd38E"
+    tags:
+      - contract
+    networks:
+      - unichain
+    name: SwapMathLib 1.2.0
+  - address: "0x0000002f34B1e835C6c2887fC1F562C16Ac5FB22"
+    tags:
+      - contract
+    networks:
+      - unichain
+    name: RebalanceLib 1.2.0
+  - address: "0x000000000dBB048F2E744E4b15B5AeEf65e09528"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: HubLogic 1.2.1
+  - address: "0x000000000F4C25e8636A637948003A36f589696b"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: SwapMathLib 1.2.1
+  - address: "0x0000000096a52dffcC4DC28c85111fe4967d363c"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: RebalanceLib 1.2.1
+  - address: "0x00000000052737CA0BF4FCc880b0CF32301A248D"
+    tags:
+      - contract
+    networks:
+      - base
+    name: HookLogic 1.2.1 (Base)
+  - address: "0x000000007a00D1E94C60f9e1CFB1eA752035f52c"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - unichain
+    name: HookLogic 1.2.1 (Other chains)
+  - address: "0x000000bd1923F78A0118625ed5205d737cf1c5b1"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: GeometricDistribution 1.0
+  - address: "0x0000003CE2EFF799B2624274f2535199Ca101E8D"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: DoubleGeometricDistribution 1.0
+  - address: "0x0000006Aa40D08Cca1257A5e565949755351642F"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: CarpetedGeometricDistribution 1.0
+  - address: "0x0000007014931f1ECD91Ed2D0f461Cc924Db21Ed"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: CarpetedDoubleGeometricDistribution 1.0
+  - address: "0x000000cbf474e46BcB1645269FB94F28D5335aa1"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: UniformDistribution 1.0
+  - address: "0x0000000219D78901418Db393969C7F275E5880dB"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BuyTheDipGeometricDistribution 1.0
+  - address: "0x000000001300d1ef0FF812A1Dd530d4d7D3fe985"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: GeometricDistribution 1.1
+  - address: "0x00000000496CbB1C7532D8922F002FAc2A18A4aa"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: DoubleGeometricDistribution 1.1
+  - address: "0x00000000C433bC211EC5D4F69472bed4AdC7CD37"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: CarpetedGeometricDistribution 1.1
+  - address: "0x000000005653887b26CC8FD2C2789f066478DfBd"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: CarpetedDoubleGeometricDistribution 1.1
+  - address: "0x00000000Bf30cc3ebb36751Da6eA3F7600d156f1"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: UniformDistribution 1.1
+  - address: "0x00000000209E25816cfa74FF7BC30C99F46776f9"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BuyTheDipGeometricDistribution 1.1
+  - address: "0x000000002A6e7022D123EAB81BA9fa19AA9D2069"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: GeometricDistribution 1.1.1
+  - address: "0x00000000C2786A29f2669faE8d0D4CaF7776AEa5"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: DoubleGeometricDistribution 1.1.1
+  - address: "0x00000000B66022c7e4Ff478EcB16600BA8a1E37A"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: CarpetedGeometricDistribution 1.1.1
+  - address: "0x00000000765f7E6236e75B9B9a5118557c18e0fE"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: CarpetedDoubleGeometricDistribution 1.1.1
+  - address: "0x00000000e1a2E630CD50F94aEC05a2ce6CAf8b47"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: UniformDistribution 1.1.1
+  - address: "0x000000003691653855719A5722Eb10f6d9636936"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BuyTheDipGeometricDistribution 1.1.1
+  - address: "0x0000004f528E4547fcC40710CC3BFC6b2aaD4cE3"
+    tags:
+      - contract
+    networks:
+      - unichain
+    name: GeometricDistribution 1.2.0
+  - address: "0x00000079CEE5806435ED88Fd6BfA4A465c8D2F19"
+    tags:
+      - contract
+    networks:
+      - unichain
+    name: DoubleGeometricDistribution 1.2.0
+  - address: "0x0000009d24460d8F6223E39Eb5fF421E4413cA1F"
+    tags:
+      - contract
+    networks:
+      - unichain
+    name: CarpetedGeometricDistribution 1.2.0
+  - address: "0x000000E22477C615223E430266AD8d5285636e30"
+    tags:
+      - contract
+    networks:
+      - unichain
+    name: CarpetedDoubleGeometricDistribution 1.2.0
+  - address: "0x000000d93DF3306877eCc66c6526c6DfC163D8b4"
+    tags:
+      - contract
+    networks:
+      - unichain
+    name: UniformDistribution 1.2.0
+  - address: "0x000000B2C6052cE049C49C3f0899992074F0462d"
+    tags:
+      - contract
+    networks:
+      - unichain
+    name: BuyTheDipGeometricDistribution 1.2.0
+  - address: "0x00000000B79037C909ff75dAFbA91b374bE2124f"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: GeometricDistribution 1.2.1
+  - address: "0x000000004a3e16323618D0E43e93b4DD64151eDB"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: DoubleGeometricDistribution 1.2.1
+  - address: "0x000000007cA9919151b275FABEA64A4f557Aa1F6"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: CarpetedGeometricDistribution 1.2.1
+  - address: "0x000000000b757686c9596caDA54fa28f8C429E0d"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: CarpetedDoubleGeometricDistribution 1.2.1
+  - address: "0x00000000d5248262c18C5a8c706B2a3E740B8760"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: UniformDistribution 1.2.1
+  - address: "0x00000000a7A466ca990dE359E77B9E492d8a2d05"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BuyTheDipGeometricDistribution 1.2.1
+  - address: "0x00000000B5cd5d1e09a5c1Fb166d26D1cEf0C33c"
+    tags:
+      - contract
+    networks:
+      - mainnet
+    name: OracleUniGeoDistribution 1.2.1
+  - address: "0x000000C396558ffbAB5Ea628f39658Bdf61345b3"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BUNNI Token
+  - address: "0x0000009856ebF1B73B431Fb59F2a2F200E9e78B0"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: MasterBunni
+  - address: "0x000000Dc51B82DC9C14c2c034341c912907d0d59"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: OptionsToken
+  - address: "0x0000001cC485ca6D3C966fBcbA7dba6302c45BA9"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BunniHookOracle
+  - address: "0x000000c2552ac621A551170d95B5ae6CB97Ad811"
+    tags:
+      - contract
+    networks:
+      - mainnet
+    name: TokenMigrator
+  - address: "0x00000042877f4a1cC0693383ebdAc7c0e0A1bf77"
+    tags:
+      - contract
+    networks:
+      - mainnet
+    name: VotingEscrow
+  - address: "0x00000041Cb569fdBAC52b95B91c52263cea3f3cE"
+    tags:
+      - contract
+    networks:
+      - mainnet
+    name: SmartWalletChecker
+  - address: "0x0000005f3a0733345412b510b63Fc2D3CA5375F0"
+    tags:
+      - contract
+    networks:
+      - mainnet
+    name: VeAirdrop
+  - address: "0x000000bf2CF4127f34b6C8E96743031CcACE1442"
+    tags:
+      - contract
+    networks:
+      - mainnet
+    name: VeAirdrop2
+  - address: "0x000000dd5e3922232566fDAC8cb8bf4e7e4b70E8"
+    tags:
+      - contract
+    networks:
+      - mainnet
+    name: FeeDistributor
+  - address: "0x0000006328d63c490F2B6A972dd4CeDb9bDe4d79"
+    tags:
+      - contract
+    networks:
+      - mainnet
+    name: RevenueSplitter (oBUNNI)
+  - address: "0x000000A1B14C0628560345890F130be949962efC"
+    tags:
+      - contract
+    networks:
+      - base
+      - unichain
+    name: OpBridger (oBUNNI)
+  - address: "0x00000079B5308d105Bc564c53c3C1359481a7025"
+    tags:
+      - contract
+    networks:
+      - mainnet
+    name: RevenueSplitter (Protocol fees)
+  - address: "0x0000005Df7B35E669a2A050751E3BBc11F688651"
+    tags:
+      - contract
+    networks:
+      - base
+      - unichain
+    name: OpBridger (Protocol fees)
+  - address: "0x000000dAa85E8Ce12D4E02D6e120aAA4445f80f9"
+    tags:
+      - contract
+    networks:
+      - mainnet
+    name: FeeFlowController
+  - address: "0x00000078461ba36138786f6DE304EC6De3cE683d"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BunniZapIn 1.1.1
+  - address: "0x000000C637506d6B724Ba176259C5Ccaa489909F"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BunniZapIn 1.2.0
+  - address: "0x0000000000dFE4c0014A4fB7Fc63BB174b8aDB93"
+    tags:
+      - contract
+    networks:
+      - mainnet
+      - arbitrum_one
+      - base
+      - unichain
+    name: BunniZapIn 1.2.1

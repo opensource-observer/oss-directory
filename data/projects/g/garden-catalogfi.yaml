@@ -1,0 +1,12 @@
+version: 7
+name: garden-catalogfi
+display_name: Garden
+github:
+  - url: https://github.com/catalogfi/spv
+blockchain:
+  - address: "0x347ff38dbb8ef026ce65756268443f1bd47932bc"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
