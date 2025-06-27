@@ -1,14 +1,15 @@
 version: 7
 name: brave
 display_name: Brave
-description: Brave is a free, open-source web browser that blocks ads and trackers
+description:
+  Brave is a free, open-source web browser that blocks ads and trackers
   by default, enhancing privacy and speed. It features a built-in AI assistant, VPN,
   and cryptocurrency wallet, with an option to earn Basic Attention Tokens (BAT) through
   privacy-respecting ads.
 websites:
-- url: https://brave.com/
+  - url: https://brave.com/
 github:
-- url: https://github.com/brave
+  - url: https://github.com/brave
 social:
   twitter:
-  - url: https://x.com/brave
+    - url: https://x.com/brave

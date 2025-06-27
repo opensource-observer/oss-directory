@@ -29,6 +29,21 @@ You can install dependencies with `pnpm`.
 pnpm install
 ```
 
+### Lint
+
+Linting is the easiest way to catch formatting errors in yaml
+
+```bash
+pnpm lint
+```
+
+If these formatting errors are easy for `prettier` to handle (e.g. indents),
+you can use it to automatically rewrite the files for you
+
+```bash
+pnpm prettier:write
+```
+
 ### Validation
 
 Our GitHub actions CI will reject any contributions that do not conform to the schema defined in `./src/resources/schema`.
