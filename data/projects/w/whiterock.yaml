@@ -1,13 +1,14 @@
 version: 7
 name: whiterock
 display_name: WhiteRock
-description: WhiteRock is an on-chain brokerage and tokenized securities platform
+description:
+  WhiteRock is an on-chain brokerage and tokenized securities platform
   built on XRPL, offering permissionless 24/7 access to trade tokenized stocks, bonds,
   and real estate via smart contracts. It also features USDX, a yield-bearing stablecoin
   pegged to the U.S. dollar that automatically rebases users balances based on interest
   earned from U.S. Treasury investments.
 websites:
-- url: https://whiterock.fi/
+  - url: https://whiterock.fi/
 social:
   telegram:
-  - url: https://t.me/WhiteRock_finance
+    - url: https://t.me/WhiteRock_finance

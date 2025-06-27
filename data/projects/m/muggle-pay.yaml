@@ -1,14 +1,15 @@
 version: 7
 name: muggle-pay
 display_name: Muggle Pay
-description: MugglePay provides a payment SDK for merchants to accept cryptocurrencies.
+description:
+  MugglePay provides a payment SDK for merchants to accept cryptocurrencies.
   Mugglepay makes crypto payment easy and thousands of merchants are onboarded with
-  MugglePay SDK. 
+  MugglePay SDK.
 websites:
-- url: https://mugglepay.com/
+  - url: https://mugglepay.com/
 github:
-- url: https://github.com/MugglePay/celo-toolkit
-socials:
+  - url: https://github.com/MugglePay/celo-toolkit
+social:
   telegram:
     - url: https://t.me/yutonl
   twitter:

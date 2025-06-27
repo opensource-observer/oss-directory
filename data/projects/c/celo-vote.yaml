@@ -1,11 +1,12 @@
 version: 7
 name: celo-vote
 display_name: Celo Vote
-description: Celo Vote automatically distributes your stake to preferred validator
+description:
+  Celo Vote automatically distributes your stake to preferred validator
   groups that have high estimated APY (annual percentage yield) and automatically
   rebalances votes if any voted groups fail to maintain high uptime. You retain full
   custody of your CELO and receive 100% of your rewards.
 websites:
-- url: https://celovote.com/
+  - url: https://celovote.com/
 github:
-- url: https://github.com/zviadm/celovote-app
+  - url: https://github.com/zviadm/celovote-app
