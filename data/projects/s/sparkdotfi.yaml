@@ -1,0 +1,27 @@
+version: 7
+name: sparkdotfi
+display_name: Spark Foundation
+github:
+  - url: https://github.com/sparkdotfi
+defillama:
+  - url: https://defillama.com/protocol/spark-liquidity-layer
+  - url: https://defillama.com/protocol/sparklend
+blockchain:
+  - address: "0xC758519Ace14E884fdbA9ccE25F2DbE81b7e136f"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xd1236a6A111879d9862f8374BA15344b6B233Fbd"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x548DAc55f260AA4631F589Cb2fe72b5E9E4C93Dc"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
