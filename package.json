@@ -26,7 +26,7 @@
     "format:staged": "lint-staged",
     "lint": "tsc --noEmit && pnpm lint:eslint && pnpm lint:prettier",
     "lint:eslint": "eslint --ignore-path ./.gitignore --max-warnings 0 --cache .",
-    "lint:prettier": "prettier --ignore-path ./.gitignore --log-level warn --check **/*.ts",
+    "lint:prettier": "prettier --ignore-path ./.gitignore --check **/*.{ts,yaml}",
     "migrate": "pnpm start run-migrations",
     "prepack": "pnpm build",
     "prepare": "husky install",
