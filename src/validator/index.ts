@@ -2,16 +2,18 @@ import Ajv from "ajv";
 import addFormats from "ajv-formats";
 import projectSchema from "../resources/schema/project.json" with { type: "json" };
 import collectionSchema from "../resources/schema/collection.json" with { type: "json" };
-import urlSchema from "../resources/schema/url.json" with { type: "json" };
+//import urlSchema from "../resources/schema/url.json" with { type: "json" };
 import socialProfileSchema from "../resources/schema/social-profile.json" with { type: "json" };
 import blockchainAddressSchema from "../resources/schema/blockchain-address.json" with { type: "json" };
 import { Project } from "../types/project.js";
 import { Collection } from "../types/collection.js";
-import { URL } from "../types/url.js";
+//import { URL } from "../types/url.js";
+import { URL, urlSchema } from "../resources/schema/url.js";
 import { SocialProfile } from "../types/social-profile.js";
 import { BlockchainAddress } from "../types/blockchain-address.js";
 import { DEFAULT_FORMAT, FileFormat } from "../types/files.js";
 import { readFileParse } from "../utils/files.js";
+import { z } from "zod";
 
 // Initialize Ajv
 type Schema =
@@ -20,6 +22,11 @@ type Schema =
   | "url.json"
   | "social-profile.json"
   | "blockchain-address.json";
+type SchemaZod = "url.json";
+const schemaMap = {
+  "url.json": urlSchema,
+} as const;
+type SchemaMap = typeof schemaMap;
 const PROJECT_SCHEMA: Schema = "project.json";
 const COLLECTION_SCHEMA: Schema = "collection.json";
 const URL_SCHEMA: Schema = "url.json";
@@ -67,6 +74,36 @@ function validateObject<T>(obj: any, schemaName: Schema): ValidationResult {
   }
 
   return { valid: true, errors: {} };
+}
+
+function validateObjectZod<T extends SchemaZod>(
+  obj: unknown,
+  schemaName: T,
+): ValidationResult {
+  const schema = schemaMap[schemaName];
+
+  if (!schema) {
+    return { valid: false, errors: { schema: "Schema not found" } };
+  }
+
+  const result = schema.safeParse(obj);
+
+  if (result.success) {
+    return { valid: true, errors: {} };
+  }
+
+  const errors: Record<string, string> = {};
+  const formatted = result.error.format();
+  for (const [key, value] of Object.entries(formatted)) {
+    if (key === "_errors") continue;
+
+    if (value && typeof value === "object" && "_errors" in value) {
+      const fieldErrors = (value as z.ZodFormattedError<any, string>)._errors;
+      errors[key] = fieldErrors.join(", ");
+    }
+  }
+
+  return { valid: false, errors };
 }
 
 function safeCastObject<T>(obj: any, schemaName: Schema): T {
