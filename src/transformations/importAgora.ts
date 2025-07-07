@@ -243,7 +243,7 @@ async function readInput() {
         ...(p.github ? p.github.map((x) => x.url) : []),
         ...(p.npm ? p.npm.map((x) => x.url) : []),
         ...(p.websites ? p.websites.map((x) => x.url) : []),
-        ...(p.social?.twitter ? p.social.twitter.map((x) => x.url) : []),
+        ...(p.social?.twitter ? p.social.twitter.map((x: any) => x.url) : []),
       ];
       // Look for any intersection
       return (

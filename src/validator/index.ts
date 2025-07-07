@@ -1,45 +1,33 @@
-import Ajv from "ajv";
-import addFormats from "ajv-formats";
-import projectSchema from "../resources/schema/project.json" with { type: "json" };
-import collectionSchema from "../resources/schema/collection.json" with { type: "json" };
-//import urlSchema from "../resources/schema/url.json" with { type: "json" };
-import socialProfileSchema from "../resources/schema/social-profile.json" with { type: "json" };
-import blockchainAddressSchema from "../resources/schema/blockchain-address.json" with { type: "json" };
-import { Project } from "../types/project.js";
-import { Collection } from "../types/collection.js";
-//import { URL } from "../types/url.js";
-import { URL, urlSchema } from "../resources/schema/url.js";
-import { SocialProfile } from "../types/social-profile.js";
-import { BlockchainAddress } from "../types/blockchain-address.js";
+import { Project, ProjectSchema } from "../types/project.js";
+import { Collection, CollectionSchema } from "../types/collection.js";
+import { URL, UrlSchema } from "../types/url.js";
+import { SocialProfile, SocialProfileSchema } from "../types/social-profile.js";
+import {
+  BlockchainAddress,
+  BlockchainAddressSchema,
+} from "../types/blockchain-address.js";
 import { DEFAULT_FORMAT, FileFormat } from "../types/files.js";
 import { readFileParse } from "../utils/files.js";
 import { z } from "zod";
 
-// Initialize Ajv
 type Schema =
   | "project.json"
   | "collection.json"
   | "url.json"
   | "social-profile.json"
   | "blockchain-address.json";
-type SchemaZod = "url.json";
 const schemaMap = {
-  "url.json": urlSchema,
+  "url.json": UrlSchema,
+  "project.json": ProjectSchema,
+  "collection.json": CollectionSchema,
+  "social-profile.json": SocialProfileSchema,
+  "blockchain-address.json": BlockchainAddressSchema,
 } as const;
-type SchemaMap = typeof schemaMap;
 const PROJECT_SCHEMA: Schema = "project.json";
 const COLLECTION_SCHEMA: Schema = "collection.json";
 const URL_SCHEMA: Schema = "url.json";
 const SOCIAL_PROFILE_SCHEMA: Schema = "social-profile.json";
 const BLOCKCHAIN_ADDRESS_SCHEMA: Schema = "blockchain-address.json";
-const ajv = new Ajv.default({ allErrors: true }); // options can be passed, e.g. {allErrors: true}
-addFormats.default(ajv);
-ajv.addSchema(projectSchema, PROJECT_SCHEMA);
-ajv.addSchema(collectionSchema, COLLECTION_SCHEMA);
-ajv.addSchema(urlSchema, URL_SCHEMA);
-ajv.addSchema(socialProfileSchema, SOCIAL_PROFILE_SCHEMA);
-ajv.addSchema(blockchainAddressSchema, BLOCKCHAIN_ADDRESS_SCHEMA);
-
 /**
  * The result of a validation.
  * @property valid - Whether the data is valid.
@@ -55,31 +43,8 @@ type ValidationResult = {
  * @param obj- path to the file
  * @returns A `ValidationResult` object indicating whether the data is valid and any errors that were found.
  */
-function validateObject<T>(obj: any, schemaName: Schema): ValidationResult {
-  const validate = ajv.getSchema<T>(schemaName);
 
-  // Check missing validator
-  if (!validate) {
-    return { valid: false, errors: { schema: "Schema not found" } };
-  } else if (!validate(obj)) {
-    // Enumerate validation errors
-    const errors: Record<string, string> = {};
-    for (const e of validate.errors || []) {
-      const key = e.params.missingProperty || "other";
-      if (key && e.message) {
-        errors[key] = e.message;
-      }
-    }
-    return { valid: false, errors };
-  }
-
-  return { valid: true, errors: {} };
-}
-
-function validateObjectZod<T extends SchemaZod>(
-  obj: unknown,
-  schemaName: T,
-): ValidationResult {
+function validateObject(obj: unknown, schemaName: Schema): ValidationResult {
   const schema = schemaMap[schemaName];
 
   if (!schema) {
@@ -93,7 +58,7 @@ function validateObjectZod<T extends SchemaZod>(
   }
 
   const errors: Record<string, string> = {};
-  const formatted = result.error.format();
+  const formatted = result.error;
   for (const [key, value] of Object.entries(formatted)) {
     if (key === "_errors") continue;
 
@@ -107,7 +72,7 @@ function validateObjectZod<T extends SchemaZod>(
 }
 
 function safeCastObject<T>(obj: any, schemaName: Schema): T {
-  const result = validateObject<T>(obj, schemaName);
+  const result = validateObject(obj, schemaName);
   if (!result.valid) {
     console.log("Invalid ", schemaName);
     console.log(JSON.stringify(obj, null, 2));
@@ -142,7 +107,7 @@ async function readFileToObject<T>(
  * @returns A `ValidationResult` object indicating whether the data is valid and any errors that were found.
  */
 function validateProject(obj: any): ValidationResult {
-  return validateObject<Project>(obj, PROJECT_SCHEMA);
+  return validateObject(obj, PROJECT_SCHEMA);
 }
 
 /**
@@ -151,7 +116,7 @@ function validateProject(obj: any): ValidationResult {
  * @returns A `ValidationResult` object indicating whether the data is valid and any errors that were found.
  */
 function validateCollection(obj: any): ValidationResult {
-  return validateObject<Collection>(obj, COLLECTION_SCHEMA);
+  return validateObject(obj, COLLECTION_SCHEMA);
 }
 
 /**
@@ -160,7 +125,7 @@ function validateCollection(obj: any): ValidationResult {
  * @returns A `ValidationResult` object indicating whether the data is valid and any errors that were found.
  */
 function validateUrl(obj: any): ValidationResult {
-  return validateObject<URL>(obj, URL_SCHEMA);
+  return validateObject(obj, URL_SCHEMA);
 }
 
 /**
@@ -169,7 +134,7 @@ function validateUrl(obj: any): ValidationResult {
  * @returns A `ValidationResult` object indicating whether the data is valid and any errors that were found.
  */
 function validateBlockchainAddress(obj: any): ValidationResult {
-  return validateObject<BlockchainAddress>(obj, BLOCKCHAIN_ADDRESS_SCHEMA);
+  return validateObject(obj, BLOCKCHAIN_ADDRESS_SCHEMA);
 }
 
 /**
