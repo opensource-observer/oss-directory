@@ -6,3 +6,58 @@ websites:
   - url: https://www.circle.com/
 github:
   - url: https://github.com/circlefin
+blockchain:
+  - address: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: USDC
+  - address: "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: USDC
+  - address: "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+    networks:
+      - base
+    tags:
+      - contract
+    name: USDC
+  - address: "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: USDC
+  - address: "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: USDC
+  - address: "0x176211869cA2b568f2A7D4EE941E073a821EE1ff"
+    networks:
+      - linea
+    tags:
+      - contract
+    name: USDC
+  - address: "0x1d17CBcF0D6D143135aE902365D2E5e2A16538D4"
+    networks:
+      - zksync_era
+    tags:
+      - contract
+    name: USDC
+  - address: "0x078D782b760474a361dDA0AF3839290b0EF57AD6"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: USDC
+  - address: "0x79A02482A880bCe3F13E09da970dC34dB4cD24D1"
+    networks:
+      - worldchain
+    tags:
+      - contract
+    name: USDC
