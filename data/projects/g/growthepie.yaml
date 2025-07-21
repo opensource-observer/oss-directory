@@ -1,30 +1,11 @@
 version: 7
 name: growthepie
 display_name: growthepie
-description: Growthepie.xyz is a public goods data platform dedicated to enhancing transparency within the Ethereum Layer 2 ecosystem. It offers comprehensive analytics on Layer 2 solutions, including detailed blockspace usage data, economic metrics, and smart contract interactions, enabling users to make informed decisions. Users appreciate its user-friendly design and insightful visualizations, which make complex data accessible and engaging.
+description: growthepie.com provides comprehensive data and insights across Ethereum Mainnet and Layer 2 networks. The platform visualizes the usage, economics, and growth of the entire Ethereum ecosystem, while also allowing users to delve deeper into specific chains or applications.
 websites:
-  - url: https://www.growthepie.xyz/
+  - url: https://www.growthepie.com/
 social:
   twitter:
     - url: https://twitter.com/growthepie_eth
 github:
   - url: https://github.com/growthepie
-blockchain:
-  - address: "0x700e73d289de10b6143465e02e6931e6e6a0ca15"
-    networks:
-      - optimism
-    tags:
-      - safe
-      - wallet
-  - address: "0x9438b8b447179740cd97869997a2fcc9b4aa63a2"
-    networks:
-      - any_evm
-    tags:
-      - eoa
-      - wallet
-  - address: "0x18f79d6d2166997c9a237c25c4692647cd4faf59"
-    networks:
-      - arbitrum_one
-    tags:
-      - safe
-      - wallet
