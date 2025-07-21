@@ -1,0 +1,28 @@
+version: 7
+name: bleu
+display_name: bleu
+description: >
+  bleu is a Web3 technology partner providing technical support and infrastructure
+  for DAOs and public goods projects. Notably, bleu developed OP GovQuests, a
+  gamified platform designed to increase governance participation within the
+  Optimism ecosystem. The platform combines a Ruby on Rails API backend with a
+  Next.js frontend to create an engaging experience for users to learn about and
+  participate in governance activities.
+websites:
+  - url: https://bleu.builders
+social:
+  twitter:
+    - url: https://twitter.com/bleubuilders
+github:
+  - url: https://github.com/bleu
+blockchain:
+  - address: "0xa41214012d4462ecbb0724673897ee0dcc0fdf49"
+    networks:
+      - optimism
+    tags:
+      - contract
+  - address: "0x5d40015034da6cd75411c54dd826135f725c2498"
+    networks:
+      - optimism
+    tags:
+      - contract
