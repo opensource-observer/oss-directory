@@ -16,6 +16,13 @@ blockchain:
       - safe
       - wallet
     name: Renzo Multisig
+  - address: "0xadef586efb3287da4d7d1cbe15f12e0be69e0df0"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - deployer
+    name: Renzo Deployer
   - address: "0x2416092f143378750bb29b79ed961ab195cceea5"
     networks:
       - optimism
