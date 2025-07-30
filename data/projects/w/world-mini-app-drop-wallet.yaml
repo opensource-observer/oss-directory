@@ -1,0 +1,13 @@
+version: 7
+name: world-mini-app-drop-wallet
+display_name: Drop Wallet
+socials:
+  twitter:
+    - url: https://x.com/dropwallethub
+blockchain:
+  - address: "0xecb991d4d005d9707a3ca082c959661fb57888d9"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

@@ -1,0 +1,25 @@
+version: 7
+name: world-mini-app-goodluckgame
+display_name: GoodLuckGame
+websites:
+  - url: https://worldcoin.org/mini-app?app_id=app_32b99ba4a53b339620c89f24f8062125
+  - url: https://worldcoin.org/mini-app?app_id=app_a0ef9d317cceb993622570616b60db9c
+  - url: http://goodluck.game
+socials:
+  farcaster:
+    - url: https://farcaster.xyz/goodluck
+  twitter:
+    - url: https://x.com/goodluckgamewld
+blockchain:
+  - address: "0x84d428e9840e1947c88829f2b741cdf75c6888c5"
+    networks:
+      - worldchain
+    tags:
+      - eoa
+      - deployer
+  - address: "0x1643e206914af95e230d5cf1212bd1a78f7a50de"
+    networks:
+      - worldchain
+    tags:
+      - eoa
+      - deployer

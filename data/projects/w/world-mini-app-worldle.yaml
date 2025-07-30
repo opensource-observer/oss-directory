@@ -1,0 +1,14 @@
+version: 7
+name: world-mini-app-worldle
+display_name: Worldle
+websites:
+  - url: https://worldletoday.com/
+defillama:
+  - url: https://defillama.com/protocol/worldle
+blockchain:
+  - address: "0xbdf4dab6e1eb99cfc1472d953a6394495ce22a2d"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

@@ -1,0 +1,18 @@
+version: 7
+name: world-mini-app-oro
+display_name: ORO
+websites:
+  - url: https://world.org/ecosystem/app_f1e44837a5e3c2af4da8925b46027645
+  - url: https://worldoro.com
+github:
+  - url: https://github.com/partydao/oro-contracts
+socials:
+  twitter:
+    - url: https://x.com/oro_token
+blockchain:
+  - address: "0xa8e5d8553f584b8f62b065de783c696e925fd8e0"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

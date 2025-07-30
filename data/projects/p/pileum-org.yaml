@@ -1,12 +1,14 @@
 version: 7
 name: pileum-org
 display_name: "O＝C＝O"
+websites:
+  - url: https://worldcoin.org/ecosystem/app_90f83f92ae19202a0b776b9ad68e0864
 github:
   - url: https://github.com/pileum-org
 blockchain:
   - address: "0x610ac56bd97c7817e787a7d5caf0346c4594037a"
     networks:
-      - any_evm
+      - worldchain
     tags:
       - deployer
       - eoa

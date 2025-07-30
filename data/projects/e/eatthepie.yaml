@@ -1,5 +1,13 @@
 version: 7
 name: eatthepie
 display_name: Eat The Pie
+websites:
+  - url: https://www.eatthepie.xyz
 github:
   - url: https://github.com/eatthepie
+blockchain:
+  - address: "0x86510c295644d1214dc62112e15ec314076acf2c"
+    networks:
+      - worldchain
+    tags:
+      - contract

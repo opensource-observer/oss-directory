@@ -1,5 +1,18 @@
 version: 7
 name: orb_contracts-johncpalmer
 display_name: ORB
+websites:
+  - url: https://www.orbtoken.xyz/
+  - url: https://world.org/ecosystem/app_3876b5f39809a50bb5ebe97c997bbcf1
 github:
   - url: https://github.com/johncpalmer/orb_contracts
+socials:
+  twitter:
+    - url: https://x.com/orb_token
+blockchain:
+  - address: "0x4d07a3eaae4697b437d15087dab79ec05688bee5"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

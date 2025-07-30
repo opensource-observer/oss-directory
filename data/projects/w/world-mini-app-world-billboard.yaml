@@ -1,0 +1,12 @@
+version: 7
+name: world-mini-app-world-billboard
+display_name: World Billboard
+websites:
+  - url: https://www.worldbillboard.xyz/
+blockchain:
+  - address: "0x4c8f3122ba07a7ad4bc06cfd0694f722b188d077"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

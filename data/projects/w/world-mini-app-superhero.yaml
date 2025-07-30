@@ -1,0 +1,16 @@
+version: 7
+name: world-mini-app-superhero
+display_name: Superhero
+websites:
+  - url: https://world.org/ecosystem/app_dc38d1977f23660f332458e0c1ca7b58
+  - url: https://superhero.sh
+blockchain:
+  - address: "0xbf3d45e7c340a4e125fa4f21b7f730e63fced7ba"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
+socials:
+  twitter:
+    - url: https://x.com/trysuperhero

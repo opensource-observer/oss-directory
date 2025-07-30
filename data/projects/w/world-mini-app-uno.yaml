@@ -1,0 +1,22 @@
+version: 7
+name: world-mini-app-uno
+display_name: UNO
+websites:
+  - url: https://world.org/ecosystem/app_a4f7f3e62c1de0b9490a5260cb390b56
+  - url: https://unoapp.xyz
+socials:
+  twitter:
+    - url: https://x.com/uno_wallet
+blockchain:
+  - address: "0x598a41fa4826e673829d4c5afd982c0a43977ca6"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
+  - address: "0xc58f56e576ee22c627f66921e7b0b7e535ef20db"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

@@ -1,0 +1,12 @@
+version: 7
+name: onchaintx-xyz
+display_name: OnChainTx
+websites:
+  - url: https://onchaintx.xyz
+blockchain:
+  - address: "0xa30fb3e5f1fa4a64c504e8cd35d21c8e87bc5290"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa

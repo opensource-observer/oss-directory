@@ -1,0 +1,19 @@
+version: 7
+name: world-mini-app-x3x
+display_name: X3X and Z3Z (World Mini App Builder)
+websites:
+  - url: https://world.org/ecosystem/app_8fa94e7384f9634e6797d6fe132fe35a
+  - url: https://world.org/ecosystem/app_414a9e0340275a42a2a252f0f76a7a27
+socials:
+  twitter:
+    - url: https://x.com/x3x_studio
+defillama:
+  - url: https://defillama.com/protocol/x3x
+  - url: https://defillama.com/protocol/z3z
+blockchain:
+  - address: "0x162f61bc25a484ce27a5fa22d2c65564504fa725"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

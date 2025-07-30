@@ -1,0 +1,12 @@
+version: 7
+name: world-mini-app-credit
+display_name: Credit
+websites:
+  - url: https://credit.cash/
+blockchain:
+  - address: "0x7e456aebee7fe9e74f4aaf6d01c844afbea2e209"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
