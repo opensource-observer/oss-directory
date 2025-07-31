@@ -4,9 +4,34 @@ display_name: Holdstation
 description: Holdstation is a self-custodial Web3 wallet featuring an AI Agent Marketplace for investing in tokenized AI solutions and offers gasless transactions, free gas for large transfers, instant dApp connections, a built-in browser with app revoke capabilities, and seamless asset swaps through a liquidity aggregator.
 websites:
   - url: https://holdstation.com/
+  - url: https://holdstation.exchange
+  - url: https://worldcoin-egg-vault.holdstation.com/
+  - url: https://worldfutures.holdstation.com/
 defillama:
   - url: https://defillama.com/protocol/holdstation-defutures
   - url: https://defillama.com/protocol/holdstation-swap
   - url: https://defillama.com/protocol/holdstation-wallet-miniapp
 github:
   - url: https://github.com/holdstation
+socials:
+  twitter:
+    - url: https://x.com/holdstationw
+blockchain:
+  - address: "0xd77982dfa1cb0fc3e22e2d353dbe0e9b4f1d60d9"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
+  - address: "0x63e72365db74755f8124597cac48fac84a1505ca"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
+  - address: "0xa581ed1deb42e8496e5275468c79d250b91d6a75"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

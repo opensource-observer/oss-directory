@@ -1,0 +1,25 @@
+version: 7
+name: world-mini-app-samiibou
+display_name: SamiiBou (Mini App Builder)
+websites:
+  - url: https://uman-vit.vercel.app
+github:
+  - url: https://github.com/samiibou/bloom
+  - url: https://github.com/samiibou/screen
+  - url: https://github.com/samiibou/uman
+socials:
+  twitter:
+    - url: https://x.com/umantheapp
+blockchain:
+  - address: "0x9e55d4f2960ec19c4444c5f7619ea1a7706312c3"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
+  - address: "0xe336f4ee3e5d374db4fe63af16a9ec5fe06918d5"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

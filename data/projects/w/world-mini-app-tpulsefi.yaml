@@ -1,0 +1,26 @@
+version: 7
+name: world-mini-app-tpulsefi
+display_name: TPulseFi
+github:
+  - url: https://github.com/tradepulse-hub/tpulsefi_newapp
+  - url: https://github.com/tradepulse-hub/tpfmain0101
+socials:
+  twitter:
+    - url: https://x.com/tradepulse_hub
+websites:
+  - url: https://www.tradepulsetoken.com/
+defillama:
+  - url: https://defillama.com/protocol/world-chain
+blockchain:
+  - address: "0x444e8c6f4d5d0dc473a351925dec4636ebf768c1"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
+  - address: "0x0960a176ff8b13ec31acaf74868d8fafc2b1fce3"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

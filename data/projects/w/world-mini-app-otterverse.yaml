@@ -1,0 +1,18 @@
+version: 7
+name: world-mini-app-otterverse
+display_name: Otterverse
+websites:
+  - url: https://find-world.company
+  - url: https://otter.trading
+defillama:
+  - url: https://defillama.com/protocol/golden-otter-hub
+socials:
+  twitter:
+    - url: https://x.com/goldenotterwld
+blockchain:
+  - address: "0x8afa0c6a5e5397bcf648487a648a47f25fda28ff"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

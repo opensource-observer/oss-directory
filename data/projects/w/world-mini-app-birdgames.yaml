@@ -1,0 +1,29 @@
+version: 7
+name: world-mini-app-birdgames
+display_name: BirdGames
+websites:
+  - url: https://birdgames.io
+  - url: https://world.org/es-es/ecosystem/app_b67c3e1ab1f44f3533b234a53d5a156d
+  - url: https://growth-lac.vercel.app/
+socials:
+  twitter:
+    - url: https://x.com/birdgameswld
+blockchain:
+  - address: ""
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
+  - address: "0x2f377ade688558f312a8078e893f89f1c22e08d3"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
+  - address: "0x00005b14be61ccf75e9589875eeb37521eab2ec6"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

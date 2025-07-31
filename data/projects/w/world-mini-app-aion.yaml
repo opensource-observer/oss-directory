@@ -1,0 +1,18 @@
+version: 7
+name: world-mini-app-aion
+display_name: AION
+websites:
+  - url: https://aion.run
+blockchain:
+  - address: "0xe061de25086bedc8dfd8c8e448f698f5251a9022"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
+  - address: "0x8a5ec9cafe44deb1aa6604d1a5b09ea0ed5a9db3"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

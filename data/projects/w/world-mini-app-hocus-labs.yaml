@@ -1,0 +1,13 @@
+version: 7
+name: world-mini-app-hocus-labs
+display_name: Hocus Labs
+websites:
+  - url: https://thebuttonworldapp.vercel.app/en/about
+  - url: https://www.squadletics.com/
+blockchain:
+  - address: "0x5868181f646464621ef396f211bbb18eee2bf5dd"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

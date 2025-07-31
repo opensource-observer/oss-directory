@@ -1,12 +1,19 @@
 version: 7
 name: dnatokenio
 display_name: DNA Token
+websites:
+  - url: https://dnatoken.io
 github:
   - url: https://github.com/dnatokenio
+defillama:
+  - url: https://defillama.com/protocol/dna
+socials:
+  twitter:
+    - url: https://x.com/dnatoken_
 blockchain:
   - address: "0x7c0a1190e8899be914fa68dfe2745ece929dc03d"
     networks:
-      - any_evm
+      - worldchain
     tags:
       - deployer
       - eoa

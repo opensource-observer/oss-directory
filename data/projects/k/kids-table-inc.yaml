@@ -3,7 +3,19 @@ name: kids-table-inc
 display_name: Kids Table Inc
 github:
   - url: https://github.com/kids-table-inc
+websites:
+  - url: https://world.org/ecosystem/app_49fe40f83cfcdf67b7ba716d37e927e4
+  - url: https://world.org/ecosystem/app_f12d676b28252ffa1937a3453590e078
+socials:
+  twitter:
+    - url: https://x.com/cashonworld
 blockchain:
+  - address: "0x3f32d33969e827f9326e3f2983861ff1c81e58e8"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
   - address: "0xbfdA4F50a2d5B9b864511579D7dfa1C72f118575"
     networks:
       - worldchain

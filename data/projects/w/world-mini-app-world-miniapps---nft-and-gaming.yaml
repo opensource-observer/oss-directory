@@ -1,0 +1,11 @@
+version: 7
+name: world-mini-app-world-miniapps---nft-and-gaming
+display_name: World MiniApps - NFT and Gaming
+blockchain:
+  - address: "0x257b2457b10c02d393458393515f51dc8880300d"
+    networks:
+      - base
+      - worldchain
+    tags:
+      - deployer
+      - eoa

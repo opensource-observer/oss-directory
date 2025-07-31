@@ -1,0 +1,13 @@
+version: 7
+name: world-mini-app-infofinance-worldpot
+display_name: WorldPot
+websites:
+  - url: https://worldpot.io
+  - url: https://predicthub.io
+blockchain:
+  - address: "0x5366b8f5ce7494ec832371859483ab88070bacfb"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

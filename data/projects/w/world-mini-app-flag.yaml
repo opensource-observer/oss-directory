@@ -1,0 +1,14 @@
+version: 7
+name: world-mini-app-flag
+display_name: FLAG!
+websites:
+  - url: https://www.worldflag.app
+github:
+  - url: https://github.com/johncpalmer/worldflag-contracts
+blockchain:
+  - address: "0x21f28ca1c597b48dfa2d0c1d8134b84420eebe46"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa

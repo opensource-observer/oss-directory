@@ -1,0 +1,12 @@
+version: 7
+name: world-mini-app-memewallet
+display_name: MemeWallet
+defillama:
+  - url: https://defillama.com/protocol/meme-wallet
+blockchain:
+  - address: "0xa317391921dc20ff1ab2c06071c3f55dc09d96bd"
+    networks:
+      - worldchain
+    tags:
+      - deployer
+      - eoa
