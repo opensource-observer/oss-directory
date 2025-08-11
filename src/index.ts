@@ -1,4 +1,6 @@
-import { Project, URL, BlockchainAddress } from "./types/project.js";
+import { Project } from "./types/project.js";
+import { URL } from "./types/url.js";
+import { BlockchainAddress } from "./types/blockchain-address.js";
 import { Collection } from "./types/collection.js";
 import { BlockchainNetwork, BlockchainTag } from "./types/custom.js";
 export {
