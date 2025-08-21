@@ -61,6 +61,9 @@ importers:
       yargs:
         specifier: ^17.7.2
         version: 17.7.2
+      zod:
+        specifier: ^3.25.67
+        version: 3.25.67
     devDependencies:
       "@types/lodash":
         specifier: ^4.14.202
@@ -5461,6 +5464,12 @@ packages:
       }
     engines: { node: ">=10" }
 
+  zod@3.25.67:
+    resolution:
+      {
+        integrity: sha512-idA2YXwpCdqUSKRCACDE6ItZD9TZzy3OZMtpfLoh6oPR47lipysRrJfjzMqFxQ3uJuUPyUeWe1r9vLH33xO/Qw==,
+      }
+
 snapshots:
   "@aashutoshrathi/word-wrap@1.2.6": {}
 
@@ -9269,3 +9278,5 @@ snapshots:
   yn@3.1.1: {}
 
   yocto-queue@0.1.0: {}
+
+  zod@3.25.67: {}
