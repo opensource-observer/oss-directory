@@ -1,0 +1,34 @@
+version: 7
+name: super-account
+display_name: Super Account
+description: Super Accounts are Superchain native-smart accounts powered by Safe that allow users to earn Superchain Points for meaningful onchain participation, increase their Superchain Rank, and evolve their Account to unlock special perks, such as access to a weekly Superchain Raffle and discounts in applications. 
+websites:
+  - url: https://account.superchain.eco/
+social:
+  twitter:
+    - url: https://twitter.com/SuperchainEco
+  farscaster:
+    - url: https://warpcast.com/superchaineco
+  mirror:
+    - url: https://mirror.xyz/superchaineco.eth
+github:
+  - url: https://github.com/Superchaineco/SuperChainSmartAccounts
+blockchain:
+  - address: "0x1726cf86DA996BC4B2F393E713f6F8ef83f2e4f6"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0x8835669696Fb92839aB198cD80ce9f0d35F45aD5"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
+  - address: "0xD783b279A7DbF2065125adB40259aA87319da1Eb"
+    networks:
+      - optimism
+    tags:
+      - safe
+      - wallet
