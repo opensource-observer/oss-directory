@@ -16,8 +16,10 @@ blockchain:
     tags:
       - eoa
       - deployer
+    networks:
+      - base
   - address: "0x816795f1cd1603b0d1b172853d69b73800ec3359"
     tags:
       - deployer
-networks:
-  - base
+    networks:
+      - base
