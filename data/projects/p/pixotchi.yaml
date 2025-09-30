@@ -1,9 +1,9 @@
 version: 7
 name: pixotchi
 display_name: Pixotchi
-description: Pixotchi is a blockchain-based game on the Base network where players nurture virtual gardens to earn rewards. It features strategic gameplay mechanics and takes inspiration from Frenpet. The game is accessible through the Pixotchi dApp.
+description: Pixotchi is a blockchain-based game on the Base network where players grow their onchain farms to earn rewards. It features strategic gameplay mechanics. The game is accessible through the Pixotchi dApp.
 websites:
-  - url: https://pixotchi.tech
+  - url: https://mini.pixotchi.tech
 social:
   twitter:
     - url: https://x.com/pixotchi
@@ -13,6 +13,12 @@ github:
   - url: https://github.com/pixotchi
 blockchain:
   - address: "0x44e156cbb4506cee55a96b45d10a77806e012469"
+    tags:
+      - eoa
+      - deployer
+    networks:
+      - base
+  - address: "0x816795f1cd1603b0d1b172853d69b73800ec3359"
     tags:
       - eoa
       - deployer
