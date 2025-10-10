@@ -116,6 +116,78 @@ blockchain:
     tags:
       - deployer
       - eoa
+  - address: "0x473ab11a7b649064ee50b255b5b14dfe284a0373"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xf663a1d22ec5cec99c4bb404ec3e948895afcd73"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x60115a011b596023f500abc0c6617d222b4bf8c0"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x057c75c9b1072be82ddd90b64501f525a9a300e7"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xf10e74b5105af05984c92b1a5b8974b2c090af00"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x7edc63b7ed30da2ad8fc20fab176a80c932fd1de"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x83bc3055649f9a829bebeccbc86e090d6a157161"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x475613bcc62430777f3646b4e8e43fd3d6d5d6f9"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x2141d5e685ad6d66d3f73d3f32fc1ad8df62ff8f"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xf0bfb9a457745262a4a09a19571663244f0976c2"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x03863f6ad36f1fcd908517e3c56c6b3fd3f50752"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x61e5e1ea8ff9dc840e0a549c752fa7bde9224e99"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
   - address: "0x9e3d8dcd4c4c67eaa752457a51efbf98cb5439c6"
     networks:
       - any_evm
@@ -2645,6 +2717,78 @@ blockchain:
     tags:
       - contract
     name: EACAggregatorProxy
+  - address: "0x532027c797d741679a025cea6547592388e54a0f"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Price Feed USDC / USD
+  - address: "0xced4517039ba250d8849746295ecb1426f6a9398"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Aggregator ADA / USD
+  - address: "0x6ecf3b8d725bee36d577fff954d90513863c875b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Price Feed USDC / USD
+  - address: "0x675af77d9266bf28042b0965c11e223153c51afd"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Price Feed USDC / USD
+  - address: "0x9eb9113743bf7a1a3c8b55994cdf62917c60a23b"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Aggregator AAVE / USD
+  - address: "0xc92524edd3529f6d29a18c4c750927ace7345700"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Aggregator ADA / USD
+  - address: "0xd3fe68830c858bb8af768f6cfbbd5950f9330563"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Aggregator ADA / USD
+  - address: "0x640349aa5a2a37ad628f9c934dd78a3dd45f7933"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Price Feed USDC / USD
+  - address: "0x9651c988e590e571b28561c05af5598d3e73ca31"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Aggregator AAVE / USD
+  - address: "0x4c92f5b4f8ae43d5db11f4b87e6d9156e064f4f0"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Price Feed USDC / USD
+  - address: "0x6c7f319e76456749ee291edb8bd0027e5e5d3298"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Price Feed USDC / USD
+  - address: "0x8ef4207cbc405085b6740fc931114cafcd1d9158"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Aggregator AAVE / USD
 npm:
   - url: https://www.npmjs.com/package/@chainlink/contracts
   - url: https://www.npmjs.com/package/@chainlink/test-helpers
