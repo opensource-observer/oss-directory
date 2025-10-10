@@ -1,9 +1,11 @@
 version: 7
 name: lido
 display_name: Lido
+description:
+  Lido is a decentralized liquid staking protocol that allows users to stake assets (especially ETH) and receive transferable staking derivative tokens (e.g. stETH), enabling liquidity and composability in DeFi.
+  It manages validator operations, distributes staking rewards automatically, and is governed via the Lido DAO.
 defillama:
   - url: https://defillama.com/protocol/lido
-description: liquid staking 🏖️
 websites:
   - url: https://lido.fi
 social:

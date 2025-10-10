@@ -1,9 +1,7 @@
 version: 7
 name: eth-infinitism-account-abstraction
 display_name: Infinitism (ERC-4337) - Account Abstraction
-description:
-  An infinite game is not played for winning, but for continuing the play — James
-  Carse, Finite & Infinite Games 1986
+description: ERC‑4337 is a standard that enables Account Abstraction on Ethereum without modifying the base protocol. It introduces a flow using `UserOperation` objects, a permissionless alt‑mempool, and an on‑chain EntryPoint contract to support custom signatures, gas abstraction, and modular smart accounts.
 websites:
   - url: https://erc4337.io/
   - url: http://discord.gg/fbDyENb6Y9

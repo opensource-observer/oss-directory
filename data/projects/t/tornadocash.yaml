@@ -1,10 +1,12 @@
 version: 7
 name: tornadocash
 display_name: Tornado Cash
+description:
+  ornado Cash is a non‑custodial privacy protocol on EVM chains that uses zero‑knowledge proofs to break the on‑chain link between deposits and withdrawals.
+  It lets users deposit ETH or ERC‑20 tokens into “anonymity pools” and later withdraw them to different addresses without revealing transactional linkage.
 defillama:
   - url: https://defillama.com/protocol/tornado-cash
-description: Privacy Solution for Ethereum
 websites:
-  - url: https://tornado.cash
+  - url: https://tornadocash.eth.limo/
 github:
   - url: https://github.com/tornadocash

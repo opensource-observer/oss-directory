@@ -1,5 +1,10 @@
 version: 7
 name: storj
 display_name: Storj
+description:
+  Storj is a decentralized, encrypted, globally distributed cloud object storage service that is S3‑compatible.
+  It splits files into encrypted shards, distributes them across independent nodes, and maintains availability and durability via erasure coding.
+websites:
+  - url: https://storj.io
 github:
   - url: https://github.com/storj
