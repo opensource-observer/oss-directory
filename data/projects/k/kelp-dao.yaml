@@ -11,7 +11,21 @@ social:
     - url: https://t.me/KelpDAOxyz
 github:
   - url: https://github.com/kelp-dao
+defillama:
+  - url: https://defillama.com/protocol/kelp
 blockchain:
+  - address: "0x1f7a03b70c5448dfd0a2c5a7865169253c2c769b"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0xcf7bf9d3a485b9c4d4a38d65e4d68e081a585662"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
   - address: "0x0c5527b3abfbd0c297104b12be6f288d335b299c"
     networks:
       - optimism

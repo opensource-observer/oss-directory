@@ -3,3 +3,12 @@ name: zerobase-pro
 display_name: ZeroBase Pro
 github:
   - url: https://github.com/zerobase-pro
+defillama:
+  - url: https://defillama.com/protocol/zerobase-cedefi
+blockchain:
+  - address: "0x2be116ea7339943c40c3195f29ee55c418e9e797"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
