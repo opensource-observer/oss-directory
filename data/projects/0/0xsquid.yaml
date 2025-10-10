@@ -1,9 +1,15 @@
 version: 7
 name: 0xsquid
-display_name: Squid
-description: The liquidity layer on Axelar
+display_name: Squid Router
+description:
+  Squid Router is a cross‑chain liquidity router that enables users to swap tokens and bridge assets across 100+ blockchains via optimized routes.
+  It uses multi‑protocol “hopping” combining bridges (e.g. Axelar, CCTP, IBC, Chainflip) and intent‑based routing (CORAL) to interoperate across ecosystems.
+websites:
+  - url: https://www.squidrouter.com/
 social:
   twitter:
     - url: https://twitter.com/squidrouter
+  discord:
+    - url: https://discord.com/invite/squidrouter
 github:
   - url: https://github.com/0xsquid

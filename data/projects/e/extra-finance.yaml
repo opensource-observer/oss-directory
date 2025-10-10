@@ -1,8 +1,16 @@
 version: 7
 name: extra-finance
 display_name: Extra Finance
+description:
+  Extra Finance is a community‑driven DeFi protocol combining **leveraged yield farming** and **lending markets**, primarily built on Optimism (and supporting Base) :contentReference[oaicite:0]{index=0}
+  Users can deploy capital into leveraged farming strategies or into lending pools to earn interest.
+websites:
+  - url: https://app.extrafi.io/
 github:
   - url: https://github.com/extrafi
+social:
+  twitter:
+    - url: https://twitter.com/extrafi_io
 defillama:
   - url: https://defillama.com/protocol/extra-finance-leverage-farming
   - url: https://defillama.com/protocol/extra-finance-xlend

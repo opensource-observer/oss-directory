@@ -1,7 +1,14 @@
 version: 7
 name: safe-global
 display_name: Safe
-description: Collection of projects where new ideas are being tested.
+description:
+  Safe provides a modular smart contract wallet / account abstraction infrastructure, enabling users to deploy programmable “safe” accounts with multisig, modules, and advanced logic.
+  It offers core libraries (Safe{Core}), SDKs, APIs, and wallets to build and interact with smart accounts on EVM chains.
+websites:
+  - url: https://safe.global
+social:
+  twitter:
+    - url: https://x.com/safe
 github:
   - url: https://github.com/safe-global
   - url: https://github.com/5afe
