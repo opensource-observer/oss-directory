@@ -7,7 +7,16 @@ defillama:
   - url: https://defillama.com/protocol/origin-ether
   - url: https://defillama.com/protocol/origin-arm
   - url: https://defillama.com/protocol/origin-dollar
+  - url: https://defillama.com/protocol/origin-protocol
+  - url: https://defillama.com/protocol/origin-sonic
+  - url: https://defillama.com/protocol/prime-staked-eth
 blockchain:
+  - address: "0x58890a9cb27586e83cb51d2d26bbe18a1a647245"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
   - address: "0x6e3fddab68bf1ebaf9dacf9f7907c7bc0951d1dc"
     networks:
       - optimism
