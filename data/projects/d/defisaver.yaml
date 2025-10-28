@@ -8,3 +8,16 @@ github:
   - url: https://github.com/defisaver
 defillama:
   - url: https://defillama.com/protocol/defi-saver
+blockchain:
+  - address: "0xba3c7b0b8f29b41f0e841c1ffb1bda8b605830da"
+    networks:
+      - optimism
+    tags:
+      - deployer
+      - eoa
+  - address: "0xc4d4b4f2df76f9952e6e0dc79861582a5b7269c3"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
