@@ -1,0 +1,20 @@
+version: 7
+name: truemarketsorg
+display_name: Truemarkets
+description: Truemarkets is a decentralized prediction market platform that enables users to trade on the outcomes of real-world events.
+websites:
+  - url: https://truemarkets.org/
+social:
+  twitter:
+    - url: https://x.com/truemarkets
+github:
+  - url: https://github.com/truemarketsorg
+defillama:
+  - url: https://defillama.com/protocol/truemarkets
+blockchain:
+  - address: "0xa9d19dd30540fb39c8e058e81daa21ffccfb4a57"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
