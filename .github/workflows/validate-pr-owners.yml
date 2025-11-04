@@ -67,5 +67,6 @@ jobs:
           arbitrum_rpc_url: ${{ secrets.PR_TOOLS_ARBITRUM_RPC_URL }}
           base_rpc_url: ${{ secrets.PR_TOOLS_BASE_RPC_URL }}
           optimism_rpc_url: ${{ secrets.PR_TOOLS_OPTIMISM_RPC_URL }}
+          unichain_rpc_url: ${{ secrets.PR_TOOLS_UNICHAIN_RPC_URL }}
           oso_api_key: ${{ secrets.PR_TOOLS_OSO_API_KEY }}
         if: ${{ steps.prs_permissions.outputs.is_admin == '1' }}

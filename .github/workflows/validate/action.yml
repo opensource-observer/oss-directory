@@ -34,6 +34,9 @@ inputs:
   optimism_rpc_url:
     description: The RPC url for Optimism
     required: true
+  unichain_rpc_url:
+    description: The RPC url for Unichain
+    required: true
   oso_api_key:
     description: The OSO API key
     required: true
@@ -65,3 +68,4 @@ runs:
         PR_TOOLS_ARBITRUM_RPC_URL: ${{ inputs.arbitrum_rpc_url }}
         PR_TOOLS_BASE_RPC_URL: ${{ inputs.base_rpc_url }}
         PR_TOOLS_OPTIMISM_RPC_URL: ${{ inputs.optimism_rpc_url }}
+        PR_TOOLS_UNICHAIN_RPC_URL: ${{ inputs.unichain_rpc_url }}
