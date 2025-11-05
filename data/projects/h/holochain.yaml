@@ -1,0 +1,17 @@
+version: 7
+name: holochain
+display_name: Holochain
+description:
+  Holochain is an open‑source framework for building peer‑to‑peer applications
+  that runs on an “agent‑centric” model rather than traditional consensus blockchains.
+  It provides tools and libraries for developers to create distributed apps (hApps)
+  where each user stores their own chain and data is shared via a distributed hash
+  table. The platform emphasises scalability, data ownership, and resilience without
+  relying on global consensus mechanisms.
+websites:
+  - url: https://www.holochain.org/
+github:
+  - url: https://github.com/holochain/holochain
+social:
+  twitter:
+    - url: https://x.com/holochain

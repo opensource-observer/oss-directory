@@ -1,0 +1,19 @@
+version: 7
+name: hydrex-fi
+display_name: Hydrex
+description: Hydrex is a liquidity-neutral ve(3,3) protocol built on Base for Base, designed to bring new users onchain
+websites:
+  - url: https://www.hydrex.fi/
+social:
+  twitter:
+    - url: https://x.com/hydrexfi
+defillama:
+  - url: https://defillama.com/protocol/hydrex-v3
+  - url: https://defillama.com/protocol/hydrex-v4
+blockchain:
+  - address: "0x40FBFe5312330f278824ddbB7521ab77409192f0"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa

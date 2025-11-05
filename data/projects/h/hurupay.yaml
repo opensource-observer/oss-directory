@@ -1,0 +1,13 @@
+version: 7
+name: hurupay
+display_name: Hurupay
+description: Get US & EUR Bank Account, Virtual USD Card, Earn High Interest on Savings, Buy US Stocks.
+websites:
+  - url: https://hurupay.com
+blockchain:
+  - address: "0x4ea5caE3a70663B5892d5d70f7DD44936e7cEA65"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet

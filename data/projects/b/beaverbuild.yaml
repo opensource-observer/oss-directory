@@ -1,0 +1,15 @@
+version: 7
+name: beaverbuild
+display_name: Beaverbuild
+description:
+  Beaverbuild is a block‑building infrastructure provider for Ethereum
+  that offers RPC endpoints to submit private transactions or bundles for inclusion
+  in blocks. Builders construct a payload for a block and send it to an MEV relay
+  along with an ETH bid; the relay forwards this to the next proposer if they use
+  services like MEV‑boost. If the validator accepts, they include the provided payload
+  instead of building their own block.
+websites:
+  - url: https://beaverbuild.org/
+social:
+  twitter:
+    - url: https://x.com/beaverbuild
