@@ -1,0 +1,135 @@
+version: 7
+name: gauntlet-xyz
+display_name: Gauntlet
+description: Institutional-grade vault strategies for DeFi. Risk managed on systems built by the most vigilant quants in crypto.
+websites:
+  - url: https://www.gauntlet.xyz/
+social:
+  twitter:
+    - url: https://x.com/gauntlet_xyz
+github:
+  - url: https://github.com/Gauntlet-xyz
+defillama:
+  - url: https://defillama.com/protocol/gauntlet
+blockchain:
+  - address: "0xf603265f91f58f1efa4fad57694fb3b77b25fc18"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x510a4c82f7ebf030ae2bcbdac2504e59df03b3e8"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x9ab2d181e4b87ba57d5ed564d3ef652c4e710707"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x43cd00de63485618a5ceebe0de364cd6cbeb26e7"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xc0c5689e6f4d256e861f65465b691aeecc0deb12"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x6c9b8f6ef619f5674c914436646d94dc0dfbc873"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x7084bf4db6c21e1834dd6482f6056a39a33584cd"
+    networks:
+      - unichain
+    tags:
+      - contract
+  - address: "0xee8f4ec5672f09119b96ab6fb59c27e1b7e44b61"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x55e6de626d8b937782f08c8d3d9e54e340a78d0e"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xb2c8f8b9fe03cc0441248845717a9906ccd7a45c"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x616a4e1db48e22028f6bbf20444cd3b8e3273738"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x7e4026f84f8eb8a09633a8eff814f0f6b26fcbc6"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xfea2d58cefcb9fcb597723c6bae66ffe4193afe4"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x80ad8f77f007feddc85ed34a1be9f14f7031fd42"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x565af16131010d0c2dce3518bdf7ac0e4e791e0c"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x9ae0e86e88aee94b700240ebe0bd17d969bad0ea"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x6770216ac60f634483ec073cbabc4011c94307cb"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xd41310acf5fa54cdd1970155ac32d708b376dff6"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x14c9adf7c13cf01822c45bdf1d0200b0e540152d"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x1c155be6bc51f2c37d472d4c2eba7a637806e122"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x5d9d9686a1a504539fe7e5f46fea3c0b2a8acfab"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x4cf66227db3b0732d3a7f9e311bdbf9f47b540ae"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x6b13c060f13af1fdb319f52315bbbf3fb1d88844"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x9e33faae38ff641094fa68c65c2ce600b3410585"
+    networks:
+      - unichain
+    tags:
+      - contract

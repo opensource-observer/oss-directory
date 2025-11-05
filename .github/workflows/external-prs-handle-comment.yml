@@ -62,6 +62,8 @@ jobs:
           arbitrum_rpc_url: ${{ secrets.PR_TOOLS_ARBITRUM_RPC_URL }}
           base_rpc_url: ${{ secrets.PR_TOOLS_BASE_RPC_URL }}
           optimism_rpc_url: ${{ secrets.PR_TOOLS_OPTIMISM_RPC_URL }}
+          unichain_rpc_url: ${{ secrets.PR_TOOLS_UNICHAIN_RPC_URL }}
+          oso_api_key: ${{ secrets.PR_TOOLS_OSO_API_KEY }}
 
         # This check isn't for security it's mostly a convenience so this won't
         # fail and muddy up the actions UI
