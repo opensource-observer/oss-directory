@@ -34,9 +34,8 @@
     "start": "node --loader ts-node/esm src/cli.ts",
     "test": "NODE_OPTIONS=\"--no-warnings --experimental-vm-modules\" jest --passWithNoTests",
     "transform": "pnpm start run-transformation",
-    "types": "pnpm types:json && pnpm types:mv",
-    "types:json": "pnpm json2ts -i './src/resources/schema/' -o 'src/types' --cwd './src/resources/schema'",
-    "types:mv": "find src/types/ -name '*.d.ts' -type f | sed s/\\.d.ts$// | xargs -I _ bash -c 'mv _.d.ts _.ts'",
+    "types": "pnpm types:zod",
+    "types:zod": "pnpm json-schema-to-zod -i src/resources/schema/blockchain-address.json -o src/types/blockchain-address.ts -n BlockchainAddressSchema -t BlockchainAddress --withJsdocs && pnpm json-schema-to-zod -i src/resources/schema/collection.json -o src/types/collection.ts -n CollectionSchema -t Collection --withJsdocs && pnpm json-schema-to-zod -i src/resources/schema/named.json -o src/types/named.ts -n NamedSchema -t Named --withJsdocs && pnpm json-schema-to-zod -i src/resources/schema/project.json -o src/types/project.ts -n ProjectSchema -t Project --withJsdocs && pnpm json-schema-to-zod -i src/resources/schema/social-profile.json -o src/types/social-profile.ts -n SocialProfileSchema -t SocialProfile --withJsdocs && pnpm json-schema-to-zod -i src/resources/schema/url.json -o src/types/url.ts -n UrlSchema -t URL --withJsdocs",
     "validate": "pnpm validate:collections && pnpm validate:projects",
     "validate:collections": "pnpm start validate-collections",
     "validate:projects": "pnpm start validate-projects",
@@ -71,6 +70,7 @@
     "dotenv": "^16.3.1",
     "ethers": "^6.9.0",
     "glob": "^10.3.10",
+    "json-schema-to-zod": "^2.6.1",
     "lodash": "^4.17.21",
     "mkdirp": "^3.0.1",
     "pyright": "^1.1.369",
@@ -79,6 +79,7 @@
     "ts-adt": "^2.1.2",
     "winston": "^3.11.0",
     "yaml": "^2.3.4",
-    "yargs": "^17.7.2"
+    "yargs": "^17.7.2",
+    "zod": "^3.25.67"
   }
 }

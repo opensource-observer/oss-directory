@@ -3,11 +3,6 @@
     "eslint --ignore-path .gitignore",
     "prettier --write"
   ],
-  "**/*.{md,json,yaml,yml}": [
-    "prettier --write"
-  ],
-  "**/*.{py}": [
-    "poetry run ruff check --fix",
-    "pnpm pyright"
-  ]
+  "**/*.{md,json,yaml,yml}": ["prettier --write"],
+  "**/*.{py}": ["poetry run ruff check --fix", "pnpm pyright"]
 }

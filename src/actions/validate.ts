@@ -126,7 +126,7 @@ export async function validateProjects(args: ValidateArgs) {
       project.defillama?.forEach((x) => addKey(x.url, file));
       // Check that all blockchain addresses belong to a single project file
       project.blockchain?.forEach((x) =>
-        x.networks.forEach((n) => addKey(`${n}:${x.address}`, file)),
+        x.networks.forEach((n: any) => addKey(`${n}:${x.address}`, file)),
       );
     } catch (e) {
       console.error("Error validating ", file);
