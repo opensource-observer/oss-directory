@@ -1,0 +1,18 @@
+version: 7
+name: limitless-exchange
+display_name: Limitless Exchange
+description: Limitless Exchange is a decentralized exchange protocol built on Base, enabling permissionless trading and liquidity provision.
+websites:
+  - url: https://limitless.exchange/
+social:
+  twitter:
+    - url: https://twitter.com/trylimitless
+defillama:
+  - url: https://defillama.com/protocol/limitless-exchange
+blockchain:
+  - address: "0x98b4a5d0205537796b5f996f31552e874ccd2d3f"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa

@@ -1,0 +1,18 @@
+version: 7
+name: neus
+display_name: NEUS Network
+description: NEUS Network is a privacy-first verification network that transforms claims into portable proofs, enabling verification across different platforms and blockchains. It offers an open verification protocol designed to operate across various applications, blockchains, and identities.
+websites:
+  - url: https://neus.network/
+github:
+  - url: https://github.com/neus
+social:
+  twitter:
+    - url: https://x.com/neusnetwork
+blockchain:
+  - address: "0xe2ddb98543dd51a231e86a57d5c701a43af28c4b"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
