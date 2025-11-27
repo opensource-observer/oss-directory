@@ -363,7 +363,9 @@ blockchain:
     networks:
       - arbitrum_one
       - base
+      - mainnet
       - worldchain
+      - unichain
     tags:
       - contract
     name: Permit2
@@ -669,3 +671,154 @@ blockchain:
     tags:
       - contract
     name: Universal Router
+  - address: "0x1f98400000000000000000000000000000000003"
+    networks:
+      - unichain
+    tags:
+      - contract
+      - factory
+    name: UniswapV3Factory
+  - address: "0xb7610f9b733e7d45184be3a1bc966960ccc54f0b"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: UniswapInterfaceMulticall
+  - address: "0xd5d76fa166ab8d8ad4c9f61aaa81457b66cbe443"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: TickLens
+  - address: "0x385a5cf5f83e99f7bb2852b6a19c3538b9fa7658"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: QuoterV2
+  - address: "0x73855d06de49d0fe4a9c42636ba96c62da12ff9c"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: SwapRouter02
+  - address: "0x943e6e07a7e8e791dafc44083e54041d743c46e9"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: NonfungiblePositionManager
+  - address: "0x0dfa04b28ab68ff0e6e17fac6ec16d4846a2004"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: NFTDescriptor
+  - address: "0xb9d0c246f306b1aaf02ae6ba112d5ef25e5b60dc"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: V3Migrator
+  - address: "0x9fb28449a191cd8c03a1b7abfb0f5996ecf7f722"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: PositionDescriptor
+  - address: "0x4529a01c7a0410167c5740c487a8de60232617bf"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: PositionManager
+  - address: "0x333e3c607b141b18ff6de9f258db6e77fe7491e0"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: Quoter
+  - address: "0x86e8631a016f9068c3f085faf484ee3f5fdee8f2"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: StateView
+  - address: "0xef740bf23acae26f6492b10de645d6b98dc8eaf3"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: Universal Router
+  - address: "0x000000009B1D0aF20D8C6d0A44e162d11F9b8f00"
+    networks:
+      - mainnet
+      - base
+      - optimism
+      - unichain
+    tags:
+      - contract
+    name: Smart Wallet
+  - address: "0x00000011f84b9aa48e5f8aa8b9897600006289be"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: V2DutchOrderReactor
+  - address: "0x6000da47483062A0D734Ba3dc7576Ce6A0B645C4"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: V1ExclusiveDutchOrderReactor
+  - address: "0x54539967a06Fc0E3C3ED0ee320Eb67362D13C5fF"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: OrderQuoter
+  - address: "0xB274d5F4b833b61B340b654d600A864fB604a87c"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: DutchV3OrderReactor
+  - address: "0x1bd1aAdc9E230626C44a139d7E70d842749351eb"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: DutchV2OrderReactor
+  - address: "0x88440407634F89873c5D9439987Ac4BE9725fea8"
+    networks:
+      - arbitrum_one
+      - unichain
+      - base
+    tags:
+      - contract
+    name: OrderQuoter
+  - address: "0x00000006021a6Bce796be7ba509BBBA71e956e37"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: PriorityOrderReactor
+  - address: "0x000000001Ec5656dcdB24D90DFa42742738De729"
+    networks:
+      - base
+    tags:
+      - contract
+    name: PriorityOrderReactor
+  - address: "0x1f98400000000000000000000000000000000002"
+    networks:
+      - unichain
+    tags:
+      - contract
+      - factory
+    name: Factory
+  - address: "0x284f11109359a7e1306c3e447ef14d38400063ff"
+    networks:
+      - unichain
+    tags:
+      - contract
+    name: UniswapV2Router02
