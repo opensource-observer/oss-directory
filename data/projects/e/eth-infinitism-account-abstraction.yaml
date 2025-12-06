@@ -13,21 +13,39 @@ github:
 blockchain:
   - address: "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789"
     networks:
+      - arbitrum_one
       - base
+      - celo
+      - ink
+      - lisk
+      - mainnet
       - optimism
       - zora
       - frax
       - mode
+      - soneium
+      - unichain
+      - worldchain
+      - zora
     tags:
       - contract
     name: EntryPoint (v0.6)
   - address: "0x0000000071727de22e5e9d8baf0edac6f37da032"
     networks:
+      - arbitrum_one
       - base
+      - celo
+      - ink
+      - lisk
       - optimism
       - zora
       - frax
+      - mainnet
       - mode
+      - soneium
+      - unichain
+      - worldchain
+      - zora
     tags:
       - contract
     name: EntryPoint (v0.7)
