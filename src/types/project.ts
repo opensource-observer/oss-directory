@@ -53,28 +53,8 @@ export interface BlockchainAddress {
    * @minItems 1
    */
   tags: [
-    (
-      | "bridge"
-      | "contract"
-      | "creator"
-      | "deployer"
-      | "eoa"
-      | "factory"
-      | "proxy"
-      | "safe"
-      | "wallet"
-    ),
-    ...(
-      | "bridge"
-      | "contract"
-      | "creator"
-      | "deployer"
-      | "eoa"
-      | "factory"
-      | "proxy"
-      | "safe"
-      | "wallet"
-    )[],
+    "bridge" | "contract" | "creator" | "deployer" | "eoa" | "factory" | "proxy" | "safe" | "wallet",
+    ...("bridge" | "contract" | "creator" | "deployer" | "eoa" | "factory" | "proxy" | "safe" | "wallet")[]
   ];
   /**
    * @minItems 1
@@ -155,7 +135,7 @@ export interface BlockchainAddress {
       | "xterio"
       | "zksync_era"
       | "zora"
-    )[],
+    )[]
   ];
   name?: string;
   [k: string]: unknown;
