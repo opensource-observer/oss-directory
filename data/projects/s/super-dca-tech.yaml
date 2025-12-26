@@ -1,0 +1,45 @@
+version: 7
+name: super-dca-tech
+display_name: Super DCA
+description: A decentralized application that enables automated dollar-cost averaging onchain using Superfluid's money streaming technology. Built on Optimism, leveraging Uniswap V4 for trades and Chainlink for price verification.
+websites:
+  - url: https://www.superdca.org/
+social:
+  twitter: https://x.com/super_dca
+github:
+  - url: https://github.com/Super-DCA-Tech
+defillama:
+  - url: https://defillama.com/protocol/super-dca
+blockchain:
+  - address: "0xC07E21c78d6Ad0917cfCBDe8931325C392958892"
+    networks:
+      - optimism
+    tags:
+      - eoa
+      - deployer
+      - wallet
+    name: superdca.eth
+  - address: "0xb1599CDE32181f48f89683d3C5Db5C5D2C7C93cc"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SuperDCAToken
+  - address: "0x7098Bf7DFF80532aa6bbDB52DF4Ac4992Bec3A80"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SuperDCAGauge
+  - address: "0x7F2f35F0c9f9244b1406D1060ac2d0F339EF52E8"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SuperDCAListing
+  - address: "0x7Ec30F46c640dCfb747DA4d8691c6142D5F45180"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: SuperDCAStaking
