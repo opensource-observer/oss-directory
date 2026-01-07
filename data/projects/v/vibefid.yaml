@@ -1,0 +1,14 @@
+version: 7
+name: vibefid
+display_name: VibeFID
+description: Farcaster-native Liquid Trading Card collection that transforms your Farcaster identity into a unique playable card on Base blockchain. Each card is dynamically generated based on your Farcaster profile data including FID, Neynar score, and profile picture. Cards have special power multipliers in Vibe Most Wanted gaming ecosystem.
+github:
+  - url: https://github.com/JVHBO/vibefid
+blockchain:
+  - address: "0x60274A138d026E3cB337B40567100FdEC3127565"
+    networks:
+      - base
+    tags:
+      - contract
+websites:
+  - url: https://vibefid.xyz
