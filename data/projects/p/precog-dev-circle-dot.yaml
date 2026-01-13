@@ -1,0 +1,39 @@
+version: 7
+name: precog-dev-circle-dot
+display_name: Precog
+description: A prediction market protocol where you can trade on future outcomes, launch new markets, and invest in their success. Built on Base.
+websites:
+  - url: https://www.precog.market/
+  - url: https://core.precog.market/
+social:
+  twitter: https://x.com/precogmarket/
+github:
+  - url: https://github.com/circle-dot/precog-dev
+defillama:
+  - url: https://defillama.com/protocol/precog-market
+blockchain:
+  - address: "0x6FEe026Ae8a76258063C9c67eC78F75b7815D101"
+    networks:
+      - base
+    tags:
+      - eoa
+      - deployer
+      - wallet
+  - address: "0x1eB90323aE74E5FBc3241c1D074cFd0b117d7e8E"
+    networks:
+      - base
+    tags:
+      - contract
+    name: PrecogMaster
+  - address: "0xAac4F52016bc3A97D0d841A90f51fA1d7C2BB52b"
+    networks:
+      - base
+    tags:
+      - contract
+    name: PrecogMarket
+  - address: "0xd7bE03206daFa4552ab58CD3CFC191426404C77D"
+    networks:
+      - base
+    tags:
+      - contract
+    name: PrecogRealityOracle
