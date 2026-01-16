@@ -1,0 +1,18 @@
+version: 7
+name: megaspeed-0xzetty
+display_name: MegaSpeed
+description: A lightweight tool designed to verify MegaETH network latency and throughput.
+websites:
+  - url: https://github.com/0xZetty/megaspeed
+social:
+  twitter:
+    - url: https://twitter.com/DevZetty
+github:
+  - url: https://github.com/0xZetty/megaspeed
+blockchain:
+  - address: "0xd1Edf5B58E908B557ad66c428e4A495967121a2b"
+    tags:
+      - deployer
+      - eoa
+    networks:
+      - any_evm
