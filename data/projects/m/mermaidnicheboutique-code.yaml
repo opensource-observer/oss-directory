@@ -1,12 +1,9 @@
 version: 7
-name: nicheai
+name: mermaidnicheboutique-code
 display_name: NicheAI
 description: Quantum-powered AI companions (Aurora & Atlas) with gasless blockchain technology on LUXBIN Chain
 websites:
   - url: https://luxbin-app.vercel.app
-social:
-  github:
-    - url: https://github.com/mermaidnicheboutique-code
 github:
   - url: https://github.com/mermaidnicheboutique-code/nicheai
   - url: https://github.com/mermaidnicheboutique-code/luxbin-chain
@@ -16,7 +13,7 @@ github:
 blockchain:
   - address: "0xe1Ba7479eD38bF73B9c8c543959c78cA6EDC97fe"
     networks:
-      - any_evm
+      - mainnet
     tags:
-      - eoa
+      - contract
       - wallet
