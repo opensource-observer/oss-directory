@@ -1,11 +1,11 @@
 version: 7
 name: tradfi-top-50-banks
 display_name: Top 50 US Banks
-description: Top 50 US banks by assets with open source activity (projects to be added)
+description: Top 50 US banks by assets with open source activity on GitHub
 projects:
-  - coinbase
-comments:
-  - "TODO: Add traditional bank projects (JPMorgan Chase, Goldman Sachs, Capital One, etc.)"
-  - "Bank GitHub organizations need to be added to oss-directory first"
-  - "Reference: github.com/jpmorganchase, github.com/goldmansachs, github.com/capitalone"
-  - "Placeholder project added to satisfy schema requirements"
+  - bankofamerica
+  - capitalone
+  - goldmansachs
+  - jpmorganchase
+  - tdbank
+  - usbank
