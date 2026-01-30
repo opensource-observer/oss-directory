@@ -1,8 +1,14 @@
 version: 7
 name: tetherto
 display_name: Tether
-description: Tether is a blockchain-based stablecoin pegged to the US dollar, offering fast and low-cost transactions. It is integrated with multiple blockchains, providing liquidity and stability in the cryptocurrency market. Tether tokens (USDT) are minted and burned based on demand and supply, maintaining a 1:1 ratio with USD reserves.
+description: Tether is a blockchain-based stablecoin pegged to the US dollar, offering fast and low-cost transactions. It is integrated with multiple blockchains, providing liquidity and stability in the cryptocurrency market. Tether also offers Tether Gold (XAUt), a token that provides ownership of real physical gold on the blockchain.
 websites:
   - url: https://tether.to/
+  - url: https://gold.tether.to
 github:
   - url: https://github.com/tetherto
+defillama:
+  - url: https://defillama.com/protocol/tether-gold
+social:
+  twitter:
+    - url: https://x.com/tethergold

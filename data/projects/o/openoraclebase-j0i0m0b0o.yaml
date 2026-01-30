@@ -1,0 +1,41 @@
+version: 7
+name: openoraclebase-j0i0m0b0o
+display_name: openOracle
+description: A trust-minimized way to get token prices that anyone can use
+websites:
+  - url: https://openprices.gitbook.io/openoracle-docs
+social:
+  discord:
+    - url: https://discord.com/invite/DCaY5YWX5E
+  twitter:
+    - url: https://x.com/openOracleEth
+github:
+  - url: https://github.com/j0i0m0b0o/openOracleBase
+blockchain:
+  - address: "0xdcaa5082564F395819dC2F215716Fe901a1d0A23"
+    networks:
+      - base
+      - mainnet
+    tags:
+      - contract
+  - address: "0x8FAF4b5E99fF6804BD259b2C44629A537a74a3ba"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xF7fA93DB7A5865530A20e816076da4760dFE4759"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xa7FD2D2d35dF86437B26dCb41111F59787bD4192"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x135D148BaD285C2d983A0dF29e8347aa2BE62112"
+    networks:
+      - base
+    tags:
+      - deployer
+      - eoa
