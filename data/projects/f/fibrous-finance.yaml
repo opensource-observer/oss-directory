@@ -1,11 +1,21 @@
 version: 7
 name: fibrous-finance
 display_name: Fibrous Finance
-description: Fibrous delivers the best trade execution with advanced aggregation, innovative features, and low fees—powering seamless DeFi trading on its interface and APIs.
-github:
-  - url: https://github.com/fibrous-finance
+description:
+  Fibrous Finance is a decentralized finance (DeFi) platform that acts
+  as an advanced decentralized exchange (DEX) aggregator, scanning multiple liquidity
+  sources across blockchains to find optimal routing and best execution for token
+  swaps. It offers tools such as multi-token swaps, limit orders, batch swaps, and
+  an API/SDK for developers to integrate best-rate trading into dApps. The service
+  is non-custodial and operates across networks like Starknet, Scroll, Base, HyperEVM,
+  Citrea, and Monad, focusing on efficient, low-cost trade execution.
 websites:
   - url: https://fibrous.finance/
   - url: https://app.fibrous.finance/en
+social:
+  twitter:
+    - url: https://x.com/FibrousFinance
+github:
+  - url: https://github.com/fibrous-finance
 defillama:
   - url: https://defillama.com/protocol/fibrous-finance
