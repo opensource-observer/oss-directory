@@ -5,7 +5,7 @@
 
 This repository contains a curated directory of open source software (OSS) projects and their associated artifacts. Artifacts include git repositories, npm packages, smart contracts, Open Collective collectives, accounts used for managing grant funds, and more. Groups of related projects are organized into collections.
 
-The OSS Directory serves as the "source of truth" for the projects and collections that are discoverable on [Open Source Observer](https://www.opensource.observer).
+The OSS Directory serves as the "source of truth" for the projects and collections that are discoverable on [OSO](https://www.oso.xyz).
 
 While the directory may never be complete, it is actively maintained. We welcome community contributions of new projects and collections, as well as updates to existing entries.
 
@@ -13,13 +13,19 @@ This directory is a public good, free to use and distribute. We hope it serves t
 
 ## How to contribute
 
-Currently the main way to contribute is by submitting a pull request. You can update any `.yaml` file under `./data/` or submit a new one. Fork this repository, commit your changes, and open a pull request from your fork to this repository.
+Contributions are made via pull request. Fork this repository, make changes to any `.yaml` file under `./data/`, and open a pull request.
 
-Detailed instructions are available in the [latest docs](https://docs.opensource.observer/docs/projects).
+If you're using Claude Code, skills for common tasks are available in `.claude/skills/`:
 
-If you are adding a new project, please make sure to include a unique project name to identify the project and at least one GitHub url. In most cases, we adopt the GitHub organization name as the project name. Our project naming conventions are described in more detail [here](https://docs.opensource.observer/docs/projects#project-names) - please try to follow them!
+| Task                                     | Skill                  |
+| ---------------------------------------- | ---------------------- |
+| Add a new project                        | `/ossd-add-project`    |
+| Add a new collection                     | `/ossd-add-collection` |
+| Update an existing project or collection | `/ossd-update-project` |
+| Bulk import from an external data source | `/ossd-bulk-update`    |
+| Review a community PR                    | `/ossd-review-pr`      |
 
-Submissions will be validated to ensure they conform to the schema and don't contain any artifacts that are already in the directory. If you are unsure or have additional questions about contributing, please open an issue or message us on [Discord](https://www.opensource.observer/discord).
+All submissions are validated against the schema. If you have questions, open an issue or join us on [Discord](https://www.oso.xyz/discord).
 
 ### Setup for local development
 
@@ -173,14 +179,18 @@ The directory is organized into two main folders:
 
 - `./data/projects` - each file represents a single open source project and contains all of the artifacts for that project.
   - See `./src/resources/schema/project.json` for the expected JSON schema
-  - Files should be named by the project "name"
-  - Project names must be globally unique. If there is a conflict in chosen name, we will give priority to the project that has the associated GitHub organization
-  - In most cases, we adopt the GitHub organization name as the `name`.
+  - Files are organized in subdirectories by the first character of the project name: e.g. `data/projects/u/uniswap.yaml`
+  - Project names must be globally unique and match the filename exactly
+  - Naming patterns (in order of preference):
+    1. GitHub org name: `uniswap` for `github.com/uniswap`
+    2. Single repo: `[repo]-[owner]` for `github.com/owner/repo`
+    3. Multi-repo custom: `[project]-[distinguisher]`
+  - Names must be lowercase and hyphen-separated
 - `./data/collections` - each file represents a collection of projects that have some collective meaning (e.g. all projects in an ecosystem).
   - See `./src/resources/schema/collection.json` for the expected JSON schema
   - Projects are identified by their unique project `name`.
 
-## Scripting changs
+## Scripting changes
 
 Sometimes you need to make a bunch of changes all at once. We have a framework that supports 2 types of such changes:
 
@@ -216,25 +226,3 @@ If you need to make a wide-ranging change that does not affect the schema, use t
 3. You can run the transformation by running `pnpm transform --name <transformName>`
 4. Please run `pnpm validate` to make sure your migration adheres to the schema. We will not accept any PRs where the data does not conform to the schemas.
 5. Commit and submit a pull request with all of the resulting changes.
-
-## Making onchain attestations about projects
-
-### EAS schemas
-
-We've created a schema for making project attestations with [EAS](https://attest.sh/). These attestations create an onchain link between a GitHub repo and its blockchain addresses (ie, that smart contracts and contract factories under its control).
-
-You can view the schemas here:
-
-- optimism-goerli: [Schema 168](https://optimism-goerli-bedrock.easscan.org/schema/view/0x739257b1bf8533a29a5c59a6dda5905c50f7c2bf436d709cd9ea7bfabbe5172b)
-
-- optimism: [Schema 86](https://optimism.easscan.org/schema/view/0x739257b1bf8533a29a5c59a6dda5905c50f7c2bf436d709cd9ea7bfabbe5172b)
-
-### EAS attestations
-
-You can make a series of attestations about a project by running the following:
-
-```bash
-ts-node src/scripts/optimism-attestation.ts data/projects/P/PROJECT.yaml optimism # OR optimism-goerli
-```
-
-Make sure you have `.env` file that contains your `PRIVATE_KEY` for an account with some ETH on the appropriate network.
