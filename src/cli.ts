@@ -3,7 +3,9 @@ import yargs from "yargs";
 import { hideBin } from "yargs/helpers";
 import {
   ValidateArgs,
+  ValidateLogosArgs,
   validateCollections,
+  validateLogos,
   validateProjects,
 } from "./actions/validate.js";
 import { MigrationArgs, runMigrations } from "./actions/migrate.js";
@@ -39,6 +41,24 @@ yargs(hideBin(process.argv))
       });
     },
     (argv) => validateProjects(argv),
+  )
+  .command<ValidateLogosArgs>(
+    "validate-logos",
+    "Validates logos against project slugs",
+    (yags) => {
+      yags
+        .option("logosDir", {
+          type: "string",
+          describe: "Directory containing logos",
+          default: "./data/logos",
+        })
+        .option("projectsDir", {
+          type: "string",
+          describe: "Directory containing projects",
+          default: "./data/projects",
+        });
+    },
+    (argv) => validateLogos(argv),
   )
   .command<ValidateArgs>(
     "validate-defillama-slugs",
