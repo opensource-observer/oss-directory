@@ -8,10 +8,24 @@ import { currentVersion } from "../migrations/index.js";
 import { CommonArgs } from "../types/cli.js";
 import { getFileExtension, getFileFormat } from "../types/files.js";
 
+const ALLOWED_LOGO_EXTENSIONS = new Set([
+  ".png",
+  ".jpg",
+  ".jpeg",
+  ".svg",
+  ".gif",
+  ".webp",
+]);
+
 const IGNORE_GLOB = "**/README.md";
 
 export type ValidateArgs = CommonArgs & {
   dir: string;
+};
+
+export type ValidateLogosArgs = CommonArgs & {
+  logosDir: string;
+  projectsDir: string;
 };
 
 /**
@@ -67,7 +81,7 @@ export async function validateCollections(args: ValidateArgs) {
       throw e;
     }
   }
-  console.log(`Success! Validated ${files.length} files`);
+  console.log(`Success! Validated ${files.length} collections`);
 }
 
 /**
@@ -144,5 +158,74 @@ export async function validateProjects(args: ValidateArgs) {
     `Duplicates found: ${JSON.stringify(overlappingKeys, null, 2)}`,
   );
 
-  console.log(`Success! Validated ${files.length} files`);
+  console.log(`Success! Validated ${files.length} projects`);
+}
+
+/**
+ * Validates all logos in a directory against the project slugs
+ * Rules:
+ * - Logo file must be an image (png, jpg, jpeg, svg, gif, webp)
+ * - Logo filename (without extension) must exactly match a project slug
+ * - Logo must be in the correct subfolder: logos/<first-char>/
+ * - No logo without a corresponding project (logos are optional for projects)
+ */
+export async function validateLogos(args: ValidateLogosArgs) {
+  const fileFormat = getFileFormat(args.format);
+  const extension = getFileExtension(fileFormat);
+
+  // Collect all known project slugs
+  const projectFiles = await glob(
+    path.resolve(args.projectsDir, `**/*${extension}`),
+  );
+  const projectSlugs = new Set(
+    projectFiles.map((f) => path.basename(f, extension)),
+  );
+
+  // Collect all files in the logos directory
+  const logoFiles = await glob(path.resolve(args.logosDir, `**/*`), {
+    nodir: true,
+  });
+
+  console.log(`Validating logos in ${args.logosDir}`);
+  const errors: string[] = [];
+
+  for (const file of logoFiles) {
+    const ext = path.extname(file).toLowerCase();
+    const slug = path.basename(file, ext);
+    const parentDir = path.basename(path.dirname(file));
+    const expectedParent = slug.charAt(0).toLowerCase();
+
+    // Must be an allowed image type
+    if (!ALLOWED_LOGO_EXTENSIONS.has(ext)) {
+      errors.push(
+        `Not an allowed image type (${ext}): ${file}\nAllowed: ${[
+          ...ALLOWED_LOGO_EXTENSIONS,
+        ].join(", ")}`,
+      );
+      continue;
+    }
+
+    // Must be in the correct subfolder
+    if (parentDir !== expectedParent) {
+      errors.push(
+        `Logo is in wrong folder '${parentDir}', expected '${expectedParent}': ${file}`,
+      );
+    }
+
+    // Must correspond to an existing project
+    if (!projectSlugs.has(slug)) {
+      errors.push(
+        `Logo '${path.basename(
+          file,
+        )}' has no matching project with slug '${slug}': ${file}`,
+      );
+    }
+  }
+
+  assert(
+    errors.length === 0,
+    `Logo validation failed:\n${errors.map((e) => `  - ${e}`).join("\n")}`,
+  );
+
+  console.log(`Success! Validated ${logoFiles.length} logo files`);
 }
