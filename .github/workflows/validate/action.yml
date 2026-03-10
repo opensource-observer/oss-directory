@@ -2,6 +2,7 @@
 
 # Execute the worker for a specific group
 name: external-pr-validate
+description: "Validate a PR with the external-prs CLI tool"
 
 inputs:
   sha:
@@ -61,7 +62,7 @@ runs:
       shell: bash
       run: |
         export NODE_OPTIONS="--max_old_space_size=8192"
-        cd oso/ops/external-prs && pnpm tools ossd validate-pr --duckdb-memory-limit 8GB ${{ inputs.pr }} ${{ inputs.sha }} ../../../main ../../../pr --oso-api-key "${{ inputs.oso_api_key }}"
+        pnpm exec external-prs ossd validate-pr --duckdb-memory-limit 8GB ${{ inputs.pr }} ${{ inputs.sha }} ./main ./pr --oso-api-key "${{ inputs.oso_api_key }}"
       env:
         PR_TOOLS_REPO: ${{ github.repository }}
         PR_TOOLS_MAINNET_RPC_URL: ${{ inputs.mainnet_rpc_url }}

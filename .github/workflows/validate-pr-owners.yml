@@ -39,13 +39,12 @@ jobs:
 
       - name: Initialize check
         run: |
-          cd ./oso/ops/external-prs &&
-          pnpm tools initialize-check ${{ github.event.pull_request.head.sha }} ${{ github.event.pull_request.user.login }} "validate"
+          pnpm exec external-prs initialize-check ${{ github.event.pull_request.head.sha }} ${{ github.event.pull_request.user.login }} "validate"
 
       - name: Check if the user is an admin
         id: prs_permissions
         run: |
-          cd ./oso/ops/external-prs && pnpm tools common is-repo-admin ${{ github.event.pull_request.user.login }} --output-file $GITHUB_OUTPUT
+          pnpm exec external-prs common is-repo-admin ${{ github.event.pull_request.user.login }} --output-file $GITHUB_OUTPUT
 
       - name: Login to google
         uses: "google-github-actions/auth@v2"
