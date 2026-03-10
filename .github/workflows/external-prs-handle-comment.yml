@@ -34,12 +34,12 @@ jobs:
       - name: Check if the user is an admin
         id: prs_permissions
         run: |
-          cd ./oso/ops/external-prs && pnpm tools common is-repo-admin ${{ github.event.comment.user.login }} --output-file $GITHUB_OUTPUT
+          pnpm exec external-prs common is-repo-admin ${{ github.event.comment.user.login }} --output-file $GITHUB_OUTPUT
 
       - name: Parse the comment to see if it's a deploy comment
         id: parse_comment
         run: |
-          cd ./oso/ops/external-prs && pnpm tools ossd parse-comment --repo ${{ github.repository }} ${{ github.event.comment.id }} $GITHUB_OUTPUT
+          pnpm exec external-prs ossd parse-comment --repo ${{ github.repository }} ${{ github.event.comment.id }} $GITHUB_OUTPUT
         if: ${{ steps.prs_permissions.outputs.is_admin == '1' }}
 
       - name: Login to google
