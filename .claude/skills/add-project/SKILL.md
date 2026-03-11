@@ -128,7 +128,19 @@ blockchain:
 - ✅ Valid: `twitter`, `telegram`, `farcaster`, `mirror`, `medium`
 - ❌ Invalid: `github` (goes in top-level `github` field), `discord`, `lens` (not in schema)
 
-### 4. Validate and Lint
+### 4. Add a Logo (Optional)
+
+If a logo is available for the project, add it to the logos directory:
+
+- **Allowed formats:** `.png`, `.jpg`, `.jpeg`, `.svg`, `.gif`, `.webp`
+- **Filename:** must exactly match the project slug (e.g. `uniswap.png` for project `uniswap`)
+- **Location:** `data/logos/[first-char]/[project-name].[ext]` — same subfolder structure as projects
+  - `uniswap` → `data/logos/u/uniswap.png`
+  - `1inch` → `data/logos/1/1inch.png`
+
+A logo without a matching project will cause `pnpm validate` (and CI) to fail.
+
+### 5. Validate and Lint
 
 Run validation in the oss-directory repo:
 
@@ -143,7 +155,7 @@ If there are formatting errors, auto-fix with:
 pnpm prettier:write
 ```
 
-### 5. Commit Changes
+### 6. Commit Changes
 
 Only commit after successful validation.
 
@@ -167,6 +179,7 @@ Git commands:
 
 ```bash
 git add data/projects/[first-char]/[project-name].yaml
+git add data/logos/[first-char]/[project-name].[ext]  # if a logo was added
 git commit -m "Add [Project Display Name]"
 ```
 
