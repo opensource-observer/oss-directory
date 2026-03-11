@@ -136,6 +136,23 @@ git commit -m "[Commit message]"
 
 **Do not push** unless explicitly requested.
 
+## Logos
+
+Logos live in `data/logos/[first-char]/[project-name].[ext]` — mirroring the project folder structure.
+
+**Rules (enforced by `pnpm validate` and CI):**
+
+- Allowed formats: `.png`, `.jpg`, `.jpeg`, `.svg`, `.gif`, `.webp`
+- Filename (without extension) must exactly match the project slug
+- Must be in the correct subfolder matching the first character of the slug
+- **A logo file without a matching project will fail CI** — always remove the logo when deleting a project, and update the logo filename when renaming a project
+
+When renaming a project, also rename the logo file if one exists:
+
+```bash
+git mv data/logos/[old-char]/[old-name].[ext] data/logos/[new-char]/[new-name].[ext]
+```
+
 ## Common Update Patterns
 
 ### Add GitHub Repository
