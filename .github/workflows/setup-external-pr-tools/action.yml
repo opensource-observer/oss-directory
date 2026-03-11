@@ -1,35 +1,20 @@
-# Generic worker executor. This is callable for use with cron scheduling.
-
-# Execute the worker for a specific group
+# Install the external-prs CLI tool from npm
 name: setup-external-pr-tools
+description: "Setup the external-prs CLI tool for use in other workflow steps"
 
 runs:
   using: "composite"
   steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      with:
-        repository: opensource-observer/oso
-        path: oso
-        ref: main
-        # Fetch all history so gitlint can check the relevant commits.
-        fetch-depth: "1"
-
-    - name: Setup pnpm
-      uses: pnpm/action-setup@v4
-      with:
-        version: 9
-        run_install: |
-          - recursive: true
-            cwd: ./oso
-            args: [--frozen-lockfile, --strict-peer-dependencies]
-
     - name: Set up Node.js 20
       uses: actions/setup-node@v4
       with:
         node-version: "20.x"
 
-    - name: Build the ops tooling
+    - name: Setup pnpm
+      uses: pnpm/action-setup@v4
+      with:
+        version: 9
+
+    - name: Install external-prs CLI
       shell: bash
-      run: pnpm build:ops
-      working-directory: ./oso
+      run: pnpm add @opensource-observer/ops-external-prs@^0.1.0
