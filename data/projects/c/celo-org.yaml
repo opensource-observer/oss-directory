@@ -1,7 +1,11 @@
 version: 7
 name: celo-org
 display_name: Celo Labs
-description: Celo Labs or cLabs is the core engineering and technology team powering the Celo network—rebuilding it as an Ethereum Layer 2 using the OP Stack. It develops mobile-first infrastructure, open-source tooling, protocol upgrades, reference implementations, and helps onboard applications to Celo’s Regenerative Financial (ReFi) ecosystem.
+description: Celo Labs or cLabs is the core engineering and technology team
+  powering the Celo network—rebuilding it as an Ethereum Layer 2 using the OP
+  Stack. It develops mobile-first infrastructure, open-source tooling, protocol
+  upgrades, reference implementations, and helps onboard applications to Celo’s
+  Regenerative Financial (ReFi) ecosystem.
 github:
   - url: https://github.com/celo-org
 npm:
@@ -11,3 +15,5 @@ npm:
   - url: https://www.npmjs.com/package/@celo/utils
   - url: https://www.npmjs.com/package/@celo/wallet-base
   - url: https://www.npmjs.com/package/@celo/wallet-local
+websites:
+  - url: https://clabs.co/
