@@ -1,8 +1,19 @@
 version: 7
 name: euler-xyz
 display_name: Euler Finance
+description: Euler Finance is a decentralized lending protocol on the Ethereum
+  network. It allows users to lend, borrow, and create custom markets for a wide
+  range of crypto assets in a permissionless manner. The platform utilizes a
+  modular architecture with features like the Euler Vault Kit and Ethereum Vault
+  Connector to enable flexible credit systems.
+websites:
+  - url: https://www.euler.finance/
+  - url: https://app.euler.finance/?network=ethereum
 github:
   - url: https://github.com/euler-xyz
+social:
+  twitter:
+    - url: https://x.com/eulerfinance
 defillama:
   - url: https://defillama.com/protocol/euler-v2
   - url: https://defillama.com/protocol/euler-v1
