@@ -1,7 +1,17 @@
 version: 7
 name: gnosis
 display_name: Gnosis
+description: Gnosis is a collective of aligned projects focused on
+  revolutionizing payments and financial infrastructure. It aims to make
+  decentralized financial tools accessible and usable for everyone. The
+  ecosystem is anchored by Gnosis Chain, a secure and decentralized EVM Layer 1
+  network.
+websites:
+  - url: https://www.gnosis.io/
 github:
   - url: https://github.com/gnosis
+social:
+  twitter:
+    - url: https://x.com/gnosisapp
 npm:
   - url: https://www.npmjs.com/package/canonical-weth
