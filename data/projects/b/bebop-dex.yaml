@@ -1,8 +1,18 @@
 version: 7
 name: bebop-dex
 display_name: Bebop
+description: Bebop is a decentralized trading platform that aggregates DeFi
+  services. It allows users to trade multiple tokens in a single transaction
+  with no slippage. The platform also offers APIs for developers and market
+  makers.
+websites:
+  - url: https://bebop.xyz/
+  - url: https://trade.bebop.xyz/?network=ethereum
 github:
   - url: https://github.com/bebop-dex
+social:
+  twitter:
+    - url: https://x.com/bebop_dex
 blockchain:
   - address: "0xbbbbbbb520d69a9775e85b458c58c648259fad5f"
     networks:

@@ -1,8 +1,17 @@
 version: 7
 name: solana-labs
 display_name: Solana Labs
+description: Solana Labs is a technology company focused on building the Solana
+  blockchain. They develop core infrastructure and tools for the Solana
+  ecosystem. Their work aims to support the growth and adoption of the Solana
+  network.
+websites:
+  - url: https://www.solanalabs.com/
 github:
   - url: https://github.com/solana-labs
+social:
+  twitter:
+    - url: https://x.com/solanalabs
 npm:
   - url: https://www.npmjs.com/package/@solana/buffer-layout
   - url: https://www.npmjs.com/package/@solana/buffer-layout-utils

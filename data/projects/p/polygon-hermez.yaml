@@ -1,6 +1,14 @@
 version: 7
 name: polygon-hermez
 display_name: Polygon zkEVM
+description: Polygon zkEVM was a Layer 2 scaling solution for Ethereum that
+  utilized zero-knowledge technology. It aims to improve transaction speed and
+  reduce costs by processing transactions off-chain and verifying them on the
+  main Ethereum network. This solution offers EVM equivalence, allowing existing
+  Ethereum smart contracts and developer tools to work seamlessly. Polygon Labs
+  is sunsetting Polygon zkEVM Mainnet Beta in 2026.
+websites:
+  - url: https://polygon.technology/polygon-zkevm
 github:
   - url: https://github.com/0xpolygonhermez
 defillama:
