@@ -73,6 +73,9 @@
         "$ref": "url.json#"
       }
     },
+    "token_coingecko_api_id": {
+      "type": "string"
+    },
     "comments": {
       "type": "array",
       "items": {
