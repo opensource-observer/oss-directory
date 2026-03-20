@@ -1,0 +1,26 @@
+version: 7
+name: megamble
+display_name: Megamble
+github:
+  - url: https://github.com/isonips
+websites:
+  - url: https://megamble.xyz
+social:
+  twitter:
+    - url: https://x.com/megamble_xyz
+blockchain:
+  - address: "0x7c56aa113be4a867936c55013b03387c7b9cd41a"
+    networks:
+      - megaeth-mainnet
+    tags:
+      - contract
+  - address: "0x051B5a8B20F3e49E073Cf7A37F4fE2e5117Af3b6"
+    networks:
+      - megaeth-mainnet
+    tags:
+      - contract
+  - address: "0x9F0708145BCCD1F5B16F610cB8a75A63fA4A9a24"
+    networks:
+      - megaeth-mainnet
+    tags:
+      - contract
