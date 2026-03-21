@@ -1,6 +1,11 @@
 version: 7
 name: ref-fvm-filecoin-project
-display_name: Ref-fvm
+display_name: Filecoin Virtual Machine (FVM)
+description: >-
+  The reference implementation of the Filecoin Virtual Machine runtime, enabling
+  smart contracts and programmable storage on the Filecoin network.
+websites:
+  - url: https://fvm.filecoin.io
 social:
   twitter:
     - url: https://twitter.com/filbuilders

@@ -1,6 +1,9 @@
 version: 7
 name: filecoin-testing-filecoin-project
 display_name: Filecoin Testing
+description: >-
+  Testing infrastructure for the Filecoin network including protocol test
+  vectors, testnet configurations, and integration test frameworks.
 github:
   - url: https://github.com/filecoin-project/chain-validation
   - url: https://github.com/filecoin-project/filecoin-network-sim

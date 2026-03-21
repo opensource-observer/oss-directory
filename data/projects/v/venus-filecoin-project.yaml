@@ -1,6 +1,14 @@
 version: 7
 name: venus-filecoin-project
 display_name: Filecoin Venus
+description: >-
+  A Go implementation of the Filecoin distributed storage network, developed and
+  maintained by IPFSForce.
+websites:
+  - url: https://venus.filecoin.io
+social:
+  twitter:
+    - url: https://x.com/venus_filecoin
 github:
   - url: https://github.com/filecoin-project/venus
   - url: https://github.com/filecoin-project/venus-common-types

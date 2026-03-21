@@ -1,6 +1,9 @@
 version: 7
 name: lassie-filecoin-project
-display_name: Lassie Retrieval Client
+display_name: Lassie
+description: >-
+  A minimal universal retrieval client library for IPFS and Filecoin that finds
+  and fetches data over the best available protocols.
 github:
   - url: https://github.com/filecoin-project/lassie
   - url: https://github.com/filecoin-project/lassie-event-recorder

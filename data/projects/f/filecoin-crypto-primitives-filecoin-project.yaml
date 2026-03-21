@@ -1,6 +1,10 @@
 version: 7
 name: filecoin-crypto-primitives-filecoin-project
 display_name: Filecoin Crypto Primitives
+description: >-
+  Cryptographic libraries used by Filecoin including BLS signatures, zk-SNARK
+  circuits (bellperson), GPU-accelerated finite-field arithmetic, and Merkle
+  tree primitives.
 github:
   - url: https://github.com/filecoin-project/bellperson
   - url: https://github.com/filecoin-project/bellperson-gadgets

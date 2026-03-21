@@ -1,6 +1,9 @@
 version: 7
 name: filecoin-ops-filecoin-project
 display_name: Filecoin Ops & Infrastructure
+description: >-
+  CI/CD pipelines, Helm charts, Terraform configs, and Ansible playbooks for
+  Filecoin infrastructure and storage provider deployment.
 github:
   - url: https://github.com/filecoin-project/apt
   - url: https://github.com/filecoin-project/cache-action

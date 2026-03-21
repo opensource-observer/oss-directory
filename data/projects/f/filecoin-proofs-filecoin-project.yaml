@@ -1,6 +1,9 @@
 version: 7
 name: filecoin-proofs-filecoin-project
 display_name: Filecoin Proofs
+description: >-
+  Core proof systems (PoRep and PoSt) for the Filecoin network, including
+  trusted setup ceremonies, sector storage, and FFI bindings.
 github:
   - url: https://github.com/filecoin-project/benchmarks
   - url: https://github.com/filecoin-project/drg-attacks

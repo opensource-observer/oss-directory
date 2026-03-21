@@ -1,6 +1,9 @@
 version: 7
 name: go-filecoin-libs-filecoin-project
 display_name: Filecoin Go Libraries
+description: >-
+  Shared Go utility libraries for Filecoin including state types, JSON-RPC,
+  address encoding, and IPLD data structures.
 github:
   - url: https://github.com/filecoin-project/cgo-blockstore
   - url: https://github.com/filecoin-project/go-address

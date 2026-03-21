@@ -1,6 +1,11 @@
 version: 7
 name: filecoin-discover-filecoin-project
 display_name: Filecoin Discover
+description: >-
+  A data archival program that seeded the Filecoin network with petabytes of
+  valuable public datasets spanning science, literature, art, and history.
+websites:
+  - url: https://datasets.filecoin.io
 github:
   - url: https://github.com/filecoin-project/dealbot
   - url: https://github.com/filecoin-project/ent

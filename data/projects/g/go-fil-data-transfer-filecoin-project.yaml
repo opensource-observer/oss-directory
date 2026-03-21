@@ -1,6 +1,9 @@
 version: 7
 name: go-fil-data-transfer-filecoin-project
 display_name: Filecoin Data Transfer
+description: >-
+  Data exchange libraries for Filecoin storage and retrieval markets including
+  GraphSync-based transfer and a sharded DAG store.
 github:
   - url: https://github.com/filecoin-project/dagstore
   - url: https://github.com/filecoin-project/data-prep-tools
