@@ -1,0 +1,20 @@
+version: 7
+name: go-fil-data-transfer-filecoin-project
+display_name: Filecoin Data Transfer
+description: >-
+  Data exchange libraries for Filecoin storage and retrieval markets including
+  GraphSync-based transfer and a sharded DAG store.
+github:
+  - url: https://github.com/filecoin-project/dagstore
+  - url: https://github.com/filecoin-project/data-prep-tools
+  - url: https://github.com/filecoin-project/data-transfer-benchmark
+  - url: https://github.com/filecoin-project/go-dagaggregator-unixfs
+  - url: https://github.com/filecoin-project/go-data-transfer
+  - url: https://github.com/filecoin-project/go-data-transfer-bus
+  - url: https://github.com/filecoin-project/go-fil-markets
+  - url: https://github.com/filecoin-project/go-legs
+  - url: https://github.com/filecoin-project/go-retrieval-market-project
+  - url: https://github.com/filecoin-project/go-retrieval-types
+  - url: https://github.com/filecoin-project/retrieval-load-testing
+  - url: https://github.com/filecoin-project/retrieval-market
+  - url: https://github.com/filecoin-project/retrieval-market-spec
