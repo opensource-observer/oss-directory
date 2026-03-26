@@ -1,0 +1,40 @@
+version: 7
+name: go-filecoin-libs-filecoin-project
+display_name: Filecoin Go Libraries
+description: >-
+  Shared Go utility libraries for Filecoin including state types, JSON-RPC,
+  address encoding, and IPLD data structures.
+github:
+  - url: https://github.com/filecoin-project/cgo-blockstore
+  - url: https://github.com/filecoin-project/go-address
+  - url: https://github.com/filecoin-project/go-amt-ipld
+  - url: https://github.com/filecoin-project/go-bitfield
+  - url: https://github.com/filecoin-project/go-bs-lmdb
+  - url: https://github.com/filecoin-project/go-bs-postgres-chainnotated
+  - url: https://github.com/filecoin-project/go-cbor-util
+  - url: https://github.com/filecoin-project/go-cid-tools
+  - url: https://github.com/filecoin-project/go-clock
+  - url: https://github.com/filecoin-project/go-commp-utils
+  - url: https://github.com/filecoin-project/go-crypto
+  - url: https://github.com/filecoin-project/go-data-segment
+  - url: https://github.com/filecoin-project/go-ds-versioning
+  - url: https://github.com/filecoin-project/go-fil-commcid
+  - url: https://github.com/filecoin-project/go-fil-commp-hashhash
+  - url: https://github.com/filecoin-project/go-fil-filestore
+  - url: https://github.com/filecoin-project/go-hamt-ipld
+  - url: https://github.com/filecoin-project/go-http-api
+  - url: https://github.com/filecoin-project/go-ipld-cbor
+  - url: https://github.com/filecoin-project/go-jsonrpc
+  - url: https://github.com/filecoin-project/go-leb128
+  - url: https://github.com/filecoin-project/go-multistore
+  - url: https://github.com/filecoin-project/go-padreader
+  - url: https://github.com/filecoin-project/go-shared-types
+  - url: https://github.com/filecoin-project/go-state-types
+  - url: https://github.com/filecoin-project/go-statemachine
+  - url: https://github.com/filecoin-project/go-statestore
+  - url: https://github.com/filecoin-project/go-storedcounter
+  - url: https://github.com/filecoin-project/go-ulimit
+  - url: https://github.com/filecoin-project/kubo-api-client
+  - url: https://github.com/filecoin-project/pubsub
+  - url: https://github.com/filecoin-project/specs-storage
+  - url: https://github.com/filecoin-project/storage-fsm

@@ -1,185 +1,55 @@
 version: 7
 name: filecoin-project
-display_name: Filecoin
+display_name: Filecoin (Misc)
+description: >-
+  Filecoin protocol specifications, documentation, community governance, and web
+  properties.
 websites:
   - url: https://filecoin.io
 social:
   twitter:
-    - url: https://twitter.com/Filecoin
+    - url: https://x.com/filecoin
 github:
-  - url: https://github.com/filecoin-project/actors-utils
-  - url: https://github.com/filecoin-project/allocator-registry
-  - url: https://github.com/filecoin-project/apt
+  - url: https://github.com/filecoin-project/assets
+  - url: https://github.com/filecoin-project/athena
   - url: https://github.com/filecoin-project/awesome-filecoin
-  - url: https://github.com/filecoin-project/bellperson
-  - url: https://github.com/filecoin-project/bls-signatures
-  - url: https://github.com/filecoin-project/blstrs
-  - url: https://github.com/filecoin-project/boost
-  - url: https://github.com/filecoin-project/boost-docs
-  - url: https://github.com/filecoin-project/builtin-actors
-  - url: https://github.com/filecoin-project/builtin-actors-bundler
   - url: https://github.com/filecoin-project/chain-love-website
-  - url: https://github.com/filecoin-project/chain-validation
   - url: https://github.com/filecoin-project/community
   - url: https://github.com/filecoin-project/community-china
   - url: https://github.com/filecoin-project/consensus
   - url: https://github.com/filecoin-project/core-devs
-  - url: https://github.com/filecoin-project/cpp-filecoin
-  - url: https://github.com/filecoin-project/dagstore
-  - url: https://github.com/filecoin-project/data-prep-tools
-  - url: https://github.com/filecoin-project/dealbot
+  - url: https://github.com/filecoin-project/cryptolab
   - url: https://github.com/filecoin-project/designdocs
+  - url: https://github.com/filecoin-project/dev-wg
+  - url: https://github.com/filecoin-project/developerwg
   - url: https://github.com/filecoin-project/devgrants
-  - url: https://github.com/filecoin-project/drg-attacks
-  - url: https://github.com/filecoin-project/ec-gpu
-  - url: https://github.com/filecoin-project/eudico
-  - url: https://github.com/filecoin-project/fevm-contract-tests
-  - url: https://github.com/filecoin-project/fevm-foundry-kit
-  - url: https://github.com/filecoin-project/fevm-hardhat-kit
-  - url: https://github.com/filecoin-project/ffi-stub
-  - url: https://github.com/filecoin-project/filcryo
-  - url: https://github.com/filecoin-project/filecoin-chain-archiver
+  - url: https://github.com/filecoin-project/ecodash
+  - url: https://github.com/filecoin-project/fil-b
+  - url: https://github.com/filecoin-project/fil-docs-bot
+  - url: https://github.com/filecoin-project/filecoin
+  - url: https://github.com/filecoin-project/filecoin-contributors
   - url: https://github.com/filecoin-project/filecoin-docs
-  - url: https://github.com/filecoin-project/filecoin-ffi
-  - url: https://github.com/filecoin-project/filecoin-fvm-localnet
+  - url: https://github.com/filecoin-project/filecoin-docs-cat
+  - url: https://github.com/filecoin-project/filecoin-docs-stefnotes
+  - url: https://github.com/filecoin-project/filecoin-explorer
   - url: https://github.com/filecoin-project/filecoin-http-api
-  - url: https://github.com/filecoin-project/filecoin-plus-application-json-restructure
-  - url: https://github.com/filecoin-project/filecoin-plus-client-onboarding
-  - url: https://github.com/filecoin-project/filecoin-plus-falcon
-  - url: https://github.com/filecoin-project/filecoin-plus-large-datasets
-  - url: https://github.com/filecoin-project/filecoin-plus-leaderboard-data
-  - url: https://github.com/filecoin-project/filecoin-solidity
-  - url: https://github.com/filecoin-project/filet
-  - url: https://github.com/filecoin-project/filplus-backend
-  - url: https://github.com/filecoin-project/filplus-registry
-  - url: https://github.com/filecoin-project/filplus-tooling-backend-test
-  - url: https://github.com/filecoin-project/filsnap
+  - url: https://github.com/filecoin-project/filecoin-network-viz
+  - url: https://github.com/filecoin-project/filecoin-retrieval-market-website
   - url: https://github.com/filecoin-project/fips
-  - url: https://github.com/filecoin-project/fvm-docs
-  - url: https://github.com/filecoin-project/fvm-specs
-  - url: https://github.com/filecoin-project/fvm-starter-kit-deal-making
-  - url: https://github.com/filecoin-project/fvm-test-vectors
-  - url: https://github.com/filecoin-project/fvm-workbench
-  - url: https://github.com/filecoin-project/github-mgmt
-  - url: https://github.com/filecoin-project/gitops-profile-catalog
-  - url: https://github.com/filecoin-project/go-address
-  - url: https://github.com/filecoin-project/go-amt-ipld
-  - url: https://github.com/filecoin-project/go-bitfield
-  - url: https://github.com/filecoin-project/go-bls-sigs
-  - url: https://github.com/filecoin-project/go-bs-lmdb
-  - url: https://github.com/filecoin-project/go-data-segment
-  - url: https://github.com/filecoin-project/go-data-transfer
-  - url: https://github.com/filecoin-project/go-f3
-  - url: https://github.com/filecoin-project/go-fil-commp-hashhash
-  - url: https://github.com/filecoin-project/go-fil-markets
+  - url: https://github.com/filecoin-project/fips-1
+  - url: https://github.com/filecoin-project/gb-filecoin-docs
   - url: https://github.com/filecoin-project/go-filecoin-badges
-  - url: https://github.com/filecoin-project/go-hamt-ipld
-  - url: https://github.com/filecoin-project/go-http-api
-  - url: https://github.com/filecoin-project/go-jsonrpc
-  - url: https://github.com/filecoin-project/go-legs
-  - url: https://github.com/filecoin-project/go-paramfetch
-  - url: https://github.com/filecoin-project/go-sectorbuilder
-  - url: https://github.com/filecoin-project/go-state-types
-  - url: https://github.com/filecoin-project/go-statemachine
-  - url: https://github.com/filecoin-project/go-storage-miner
-  - url: https://github.com/filecoin-project/helm-charts
-  - url: https://github.com/filecoin-project/homebrew-exporter
-  - url: https://github.com/filecoin-project/homebrew-lotus
-  - url: https://github.com/filecoin-project/lassie
-  - url: https://github.com/filecoin-project/lassie-event-recorder
-  - url: https://github.com/filecoin-project/lily
-  - url: https://github.com/filecoin-project/lily-archiver
-  - url: https://github.com/filecoin-project/lotus
-  - url: https://github.com/filecoin-project/lotus-docs
-  - url: https://github.com/filecoin-project/lua-filecoin
-  - url: https://github.com/filecoin-project/merkletree
-  - url: https://github.com/filecoin-project/motion
-  - url: https://github.com/filecoin-project/motion-s3-connector
+  - url: https://github.com/filecoin-project/gov_docs
+  - url: https://github.com/filecoin-project/lightning-planning
   - url: https://github.com/filecoin-project/network-info
-  - url: https://github.com/filecoin-project/notary-governance
-  - url: https://github.com/filecoin-project/oni
   - url: https://github.com/filecoin-project/orient
-  - url: https://github.com/filecoin-project/paired
-  - url: https://github.com/filecoin-project/phase2
-  - url: https://github.com/filecoin-project/phase2-attestations
-  - url: https://github.com/filecoin-project/raas-starter-kit
-  - url: https://github.com/filecoin-project/ref-fvm-fuzz-corpora
-  - url: https://github.com/filecoin-project/replication-game
+  - url: https://github.com/filecoin-project/product
   - url: https://github.com/filecoin-project/research
-  - url: https://github.com/filecoin-project/rust-fil-logger
-  - url: https://github.com/filecoin-project/rust-fil-nse-gpu
-  - url: https://github.com/filecoin-project/rust-fil-proofs
-  - url: https://github.com/filecoin-project/rust-fil-proofs-ffi
-  - url: https://github.com/filecoin-project/rust-fil-sector-builder
-  - url: https://github.com/filecoin-project/rust-filecoin-proofs-api
-  - url: https://github.com/filecoin-project/rust-gpu-tools
-  - url: https://github.com/filecoin-project/sapling-crypto
-  - url: https://github.com/filecoin-project/sector-storage
-  - url: https://github.com/filecoin-project/sentinel
-  - url: https://github.com/filecoin-project/sentinel-drone
-  - url: https://github.com/filecoin-project/sentinel-tick
-  - url: https://github.com/filecoin-project/slate
-  - url: https://github.com/filecoin-project/slate-react-system
-  - url: https://github.com/filecoin-project/snapcraft-exporter
-  - url: https://github.com/filecoin-project/sp-automation
+  - url: https://github.com/filecoin-project/roadmap
+  - url: https://github.com/filecoin-project/sample-data
+  - url: https://github.com/filecoin-project/sp-mentorship-grants
   - url: https://github.com/filecoin-project/specs
-  - url: https://github.com/filecoin-project/specs-actors
-  - url: https://github.com/filecoin-project/specs-storage
-  - url: https://github.com/filecoin-project/starling
-  - url: https://github.com/filecoin-project/statediff
-  - url: https://github.com/filecoin-project/storage-fsm
   - url: https://github.com/filecoin-project/storage.filecoin.io
-  - url: https://github.com/filecoin-project/system-test-matrix
-  - url: https://github.com/filecoin-project/test-vectors
-  - url: https://github.com/filecoin-project/testnet-hyperspace
-  - url: https://github.com/filecoin-project/testnet-wallaby
-  - url: https://github.com/filecoin-project/tornado-deploy
-  - url: https://github.com/filecoin-project/venus
-  - url: https://github.com/filecoin-project/venus-docs
-  - url: https://github.com/filecoin-project/venus-sealer
-  - url: https://github.com/filecoin-project/venus-wallet
+  - url: https://github.com/filecoin-project/todonotes
+  - url: https://github.com/filecoin-project/website-bounty.filecoin.io
   - url: https://github.com/filecoin-project/website-security.filecoin.io
-go:
-  - url: https://github.com/filecoin-project/dagstore
-  - url: https://github.com/filecoin-project/filecoin-ffi
-  - url: https://github.com/filecoin-project/go-address
-  - url: https://github.com/filecoin-project/go-amt-ipld/v2
-  - url: https://github.com/filecoin-project/go-amt-ipld/v3
-  - url: https://github.com/filecoin-project/go-amt-ipld/v4
-  - url: https://github.com/filecoin-project/go-bitfield
-  - url: https://github.com/filecoin-project/go-data-transfer
-  - url: https://github.com/filecoin-project/go-data-transfer/v2
-  - url: https://github.com/filecoin-project/go-f3
-  - url: https://github.com/filecoin-project/go-fil-commp-hashhash
-  - url: https://github.com/filecoin-project/go-fil-markets
-  - url: https://github.com/filecoin-project/go-hamt-ipld
-  - url: https://github.com/filecoin-project/go-hamt-ipld/v2
-  - url: https://github.com/filecoin-project/go-hamt-ipld/v3
-  - url: https://github.com/filecoin-project/go-jsonrpc
-  - url: https://github.com/filecoin-project/go-paramfetch
-  - url: https://github.com/filecoin-project/go-state-types
-  - url: https://github.com/filecoin-project/go-statemachine
-  - url: https://github.com/filecoin-project/lotus
-  - url: https://github.com/filecoin-project/specs-actors
-  - url: https://github.com/filecoin-project/specs-actors/v2
-  - url: https://github.com/filecoin-project/specs-actors/v3
-  - url: https://github.com/filecoin-project/specs-actors/v4
-  - url: https://github.com/filecoin-project/specs-actors/v5
-  - url: https://github.com/filecoin-project/specs-actors/v6
-  - url: https://github.com/filecoin-project/specs-actors/v7
-  - url: https://github.com/filecoin-project/specs-actors/v8
-  - url: https://github.com/filecoin-project/specs-storage
-crates:
-  - url: https://crates.io/crates/bls-signatures
-  - url: https://crates.io/crates/blstrs
-  - url: https://crates.io/crates/fil_actors_runtime
-  - url: https://crates.io/crates/filecoin-hashers
-  - url: https://crates.io/crates/filecoin-proofs
-  - url: https://crates.io/crates/filecoin-proofs-api
-  - url: https://crates.io/crates/fr32
-  - url: https://crates.io/crates/rust-gpu-tools
-  - url: https://crates.io/crates/sha2raw
-  - url: https://crates.io/crates/storage-proofs-core
-  - url: https://crates.io/crates/storage-proofs-porep
-  - url: https://crates.io/crates/storage-proofs-post
-  - url: https://crates.io/crates/storage-proofs-update
