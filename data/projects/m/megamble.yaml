@@ -1,19 +1,17 @@
 version: 7
 name: megamble
-display_name: MEGAMBLE
-description: Megamble is a parimutuel prediction market build on MegaETH where players bet on outcomes using USDm. 
-Winnings are distributed proportionally to all winners based on their share. Community markets : Users can create their own markets and set the settlement rules. They earn a percentage of all bets placed on their market.
+display_name: Megamble
+description: Fully onchain prediction markets protocol built on MegaETH. Uses LMSR pricing (b=200) for fair markets. Players bet using USDM; community members can create and settle their own markets.
 websites:
-  - url: https://www.megamble.xyz/
-  - url: https://docs.megamble.xyz/
+  - url: https://megamble.xyz
+  - url: https://docs.megamble.xyz
 social:
   twitter:
     - url: https://x.com/megamble_xyz
-github:
-  - url: https://github.com/isonips/megamble
+  discord:
+    - url: https://discord.gg/y8YmyEzd8z
 defillama:
   - url: https://defillama.com/protocol/megamble
-comments: |
-  Github repo is actually private to avoid copy.
-  Feel free to discuss about megamble on telegram or discord : @isonips or by email at contact@megamble.xyz
-  Best, Vincent
+comments:
+  - "GitHub repo is private. DeBank official profile: https://debank.com/official/120126/"
+  - "Contact: contact@megamble.xyz or @isonips on Telegram/Discord."
