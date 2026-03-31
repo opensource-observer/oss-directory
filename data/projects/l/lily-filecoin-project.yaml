@@ -1,0 +1,17 @@
+version: 7
+name: lily-filecoin-project
+display_name: Lily
+description: >-
+  An instrumented Filecoin node that extracts and indexes on-chain data for
+  analysis.
+websites:
+  - url: https://lilium.sh
+github:
+  - url: https://github.com/filecoin-project/lily
+  - url: https://github.com/filecoin-project/lily-archiver
+  - url: https://github.com/filecoin-project/sentinel
+  - url: https://github.com/filecoin-project/sentinel-drone
+  - url: https://github.com/filecoin-project/sentinel-locations
+  - url: https://github.com/filecoin-project/sentinel-tick
+  - url: https://github.com/filecoin-project/statediff
+  - url: https://github.com/filecoin-project/terraform-google-lily-starter

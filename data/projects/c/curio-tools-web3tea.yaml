@@ -1,0 +1,11 @@
+version: 7
+name: curio-tools-web3tea
+display_name: Curio Tools (Web3Tea)
+description: Open source tooling for Filecoin storage providers running Curio
+  clusters, including a web dashboard, metrics exporter, database change monitor,
+  and piece storage server.
+github:
+  - url: https://github.com/web3tea/curio-dashboard
+  - url: https://github.com/web3tea/curio-exporter
+  - url: https://github.com/web3tea/curio-sentinel
+  - url: https://github.com/web3tea/piecehub
