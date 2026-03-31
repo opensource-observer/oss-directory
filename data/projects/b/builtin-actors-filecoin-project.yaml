@@ -1,0 +1,12 @@
+version: 7
+name: builtin-actors-filecoin-project
+display_name: Filecoin Builtin Actors
+description: >-
+  On-chain built-in actors (smart contracts) that power the Filecoin network,
+  compiled to WebAssembly for the Filecoin Virtual Machine.
+github:
+  - url: https://github.com/filecoin-project/actors-utils
+  - url: https://github.com/filecoin-project/builtin-actors
+  - url: https://github.com/filecoin-project/builtin-actors-bundler
+  - url: https://github.com/filecoin-project/filecoin-actor-utils
+  - url: https://github.com/filecoin-project/specs-actors

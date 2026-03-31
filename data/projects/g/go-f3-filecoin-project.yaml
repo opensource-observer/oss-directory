@@ -1,0 +1,9 @@
+version: 7
+name: go-f3-filecoin-project
+display_name: Filecoin Fast Finality (F3)
+description: >-
+  Implementation of the F3 protocol that reduces Filecoin finalization time from
+  7.5 hours to seconds using GossiPBFT consensus.
+github:
+  - url: https://github.com/filecoin-project/go-f3
+  - url: https://github.com/filecoin-project/tla-f3

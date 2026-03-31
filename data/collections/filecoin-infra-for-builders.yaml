@@ -2,7 +2,16 @@ version: 7
 name: filecoin-infra-for-builders
 display_name: Infra for Filecoin Builders
 projects:
+  - blockscout
+  - checker-network
   - digital-mob-filecoin
+  - filecoin-checker-beck-8
+  - filecoin-data-portal-davidgasquez
+  - ipfs-force-community-filscan
+  - lynx-26dos
+  - open-telemetry
   - opensource-observer
+  - probe-lab
   - starboard-ventures
+  - yellowstone-faithful-rpcpool
   - zondax
