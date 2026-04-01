@@ -1,6 +1,7 @@
 version: 7
 name: l2beat
 display_name: L2BEAT
+description: L2BEAT is an analytics and research website focused on Ethereum's layer 2 scaling solutions. It provides in-depth comparisons and analysis of major protocols in the layer 2 ecosystem. The platform aims to educate users about the developments and adoption of these scaling technologies.
 websites:
   - url: https://l2beat.com
 social:
@@ -9,21 +10,21 @@ social:
 github:
   - url: https://github.com/l2beat
 blockchain:
-  - address: "0x6c5a2688c83c806150ca9dd0b2f10f16f8f1c33e"
+  - address: '0x6c5a2688c83c806150ca9dd0b2f10f16f8f1c33e'
     networks:
       - mainnet
       - optimism
     tags:
       - safe
       - wallet
-  - address: "0x41626ba92c0c2a1ad38fc83920300434082b1870"
+  - address: '0x41626ba92c0c2a1ad38fc83920300434082b1870'
     networks:
       - any_evm
     tags:
       - eoa
       - wallet
     name: l2beat.eth
-  - address: "0xea78912803be5e356eac2b8e127d4ba87230a48e"
+  - address: '0xea78912803be5e356eac2b8e127d4ba87230a48e'
     networks:
       - any_evm
     tags:
