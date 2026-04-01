@@ -1,0 +1,25 @@
+version: 1
+name: musicalchairs
+display_name: Musical Chairs
+description: A real-time multiplayer musical chairs game on the blockchain, built with Go and Web3 technologies.
+websites:
+  - https://muschairs.com
+social:
+  twitter: https://x.com/muschairs
+github:
+  - url: https://github.com/crow-004/musical-chairs-contracts
+  - url: https://github.com/crow-004/musical-chairs-game
+blockchain:
+  - address: "0xEDA164585a5FF8c53c48907bD102A1B593bd17eF"
+    networks:
+      - optimism
+      - base
+      - arbitrum
+      - bsc
+      - zksync
+  - address: "0x7c01A2a7e9012A98760984F2715A4517AD2c549A"
+    networks:
+      - ethereum
+  - address: "0x9880A2fcb9BE91051e337596a2b1a3091bF6d69C"
+    networks:
+      - polygon
