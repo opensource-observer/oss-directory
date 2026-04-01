@@ -3,6 +3,7 @@
   "title": "Social Profile",
   "type": "object",
   "description": "All social profile",
+  "additionalProperties": false,
   "properties": {
     "farcaster": {
       "type": "array",
