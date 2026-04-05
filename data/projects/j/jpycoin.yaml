@@ -1,0 +1,22 @@
+version: 7
+name: jpycoin
+display_name: JPYC
+description: Japanese yen stablecoin issued by JPYC Co., Ltd. as an electronic payment method under Japan's fund transfer business regulations.
+websites:
+  - url: https://jpyc.co.jp
+social:
+  twitter:
+    - url: https://twitter.com/jpyc_official
+github:
+  - url: https://github.com/jpycoin
+blockchain:
+  - address: "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
+    networks:
+      - mainnet
+    tags:
+      - contract
+  - address: "0xE7C3D8C9a439feDe00D2600032D5dB0Be71C3c29"
+    networks:
+      - matic
+    tags:
+      - contract
