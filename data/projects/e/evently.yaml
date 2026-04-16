@@ -1,11 +1,7 @@
 version: 7
 name: evently
 display_name: Evently
-description: >
-  Evently is a fully onchain prediction market built on MegaETH.
-  Every trade, every resolution, every reward is settled onchain.
-  No custodians. No compromises. Turn information into assets.
-  Create markets, trade outcomes, earn fees.
+description: evently is a fully onchain prediction market built natively on MegaETH. Users can create and trade on markets covering crypto, politics, culture, business, entertainment and other real-world events. Positions are represented as ERC-1155 tokens and settled in USDm using an LMSR pricing model combined with a hybrid CLOB and AMM architecture. All trades, resolutions, and rewards are executed directly onchain.
 websites:
   - url: https://evently.market
   - url: https://docs.evently.market
@@ -20,5 +16,5 @@ github:
 defillama:
   - url: https://defillama.com/protocol/evently
 comments:
-  - "We completely rebranded Megamble as Evently."
+  - We completely rebranded Megamble as Evently.
   - "Former project (Megamble): display_name: Megamble, websites: https://megamble.xyz + https://docs.megamble.xyz, twitter: https://x.com/megamble_xyz, defillama: https://defillama.com/protocol/megamble. GitHub repo is private. DeBank official profile: https://debank.com/official/120126/. Contact: contact@megamble.xyz or @isonips on Telegram/Discord."

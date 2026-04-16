@@ -1,6 +1,6 @@
 version: 7
 name: 0xeigenlabs
-display_name: Eigen Network
+display_name: EigenCloud (prev. EigenLayer)
 description:
   Eigen Network is developing a modular zkVM / proof market for fully onchain computation, supporting a general‑purpose execution environment with native proofs and gas optimization.
   It targets compatibility with EVM, Cardano (via its zkEVM), privacy features, and decentralized proof aggregation.
@@ -11,6 +11,7 @@ social:
     - url: https://twitter.com/Eigen_Network
 github:
   - url: https://github.com/0xeigenlabs
+token_coingecko_api_id: eigenlayer
 blockchain:
   - address: "0xd73ebfad38707cb2ab4d127a43a193bc526f5151"
     networks:
