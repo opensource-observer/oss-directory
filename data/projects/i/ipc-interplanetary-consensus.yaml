@@ -1,6 +1,12 @@
 version: 7
 name: ipc-interplanetary-consensus
 display_name: IPC (Interplanetary Consensus)
+description: Framework for spawning customizable, scalable, EVM-compatible subnets on Filecoin, powered by FVM, Wasm, libp2p, and CometBFT.
+websites:
+  - url: https://docs.ipc.space
+social:
+  twitter:
+    - url: https://x.com/ConsensusLab_
 github:
   - url: https://github.com/consensus-shipyard/ipc
   - url: https://github.com/consensus-shipyard/ipc-actors
