@@ -1,6 +1,13 @@
 version: 7
 name: yellowstone-faithful-rpcpool
 display_name: Old Faithful
+description: Solana historical data archive by Triton One that makes all of Solana's history accessible, content-addressable, and available via a self-hostable, decentralized archive.
+websites:
+  - url: https://old-faithful.net
+  - url: https://docs.old-faithful.net
+social:
+  twitter:
+    - url: https://x.com/triton_one
 github:
   - url: https://github.com/rpcpool/yellowstone-faithful
   - url: https://github.com/rpcpool/yellowstone-grpc
