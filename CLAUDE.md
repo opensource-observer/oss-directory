@@ -44,10 +44,11 @@ Invalid: `github` (goes in top-level `github` field), `discord`, `lens`
 
 ## Skills
 
-| Skill                  | Use when                                             |
-| ---------------------- | ---------------------------------------------------- |
-| `/ossd-add-project`    | Adding a new project                                 |
-| `/ossd-add-collection` | Creating a new collection                            |
-| `/ossd-update-project` | Updating an existing project or collection           |
-| `/ossd-bulk-update`    | Importing many projects from an external data source |
-| `/ossd-review-pr`      | Reviewing a community pull request                   |
+| Skill                     | Use when                                             |
+| ------------------------- | ---------------------------------------------------- |
+| `/ossd-add-project`       | Adding a new project                                 |
+| `/ossd-add-collection`    | Creating a new collection                            |
+| `/ossd-update-project`    | Updating an existing project or collection           |
+| `/ossd-bulk-update`       | Importing many projects from an external data source |
+| `/ossd-review-pr`         | Reviewing a community pull request                   |
+| `/ossd-enrich-collection` | Enriching metadata for projects in a collection      |
