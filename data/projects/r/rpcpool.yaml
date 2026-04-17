@@ -1,9 +1,12 @@
 version: 7
 name: rpcpool
-display_name: Triton One RPC
+display_name: Triton One
+description: Open source RPC infrastructure, validators, and data APIs for Solana, Sui, Monad, and Pythnet.
 websites:
   - url: https://triton.one/
-description: Battle-tested RPCs, validators, and data APIs for builders that demand excellence.
+social:
+  twitter:
+    - url: https://x.com/triton_one
 github:
   - url: https://github.com/rpcpool/anchor
   - url: https://github.com/rpcpool/ansible-rpc-sample-playbook
