@@ -1,0 +1,18 @@
+version: 7
+name: filswan
+display_name: Swan Cloud
+description: Distributed data and computing solution provider for Filecoin, offering cross-chain storage, computing provider tools, and object storage infrastructure.
+websites:
+  - url: https://swanchain.io
+social:
+  twitter:
+    - url: https://x.com/swan_chain
+github:
+  - url: https://github.com/filswan
+blockchain:
+  - address: "0xcdfac98e6965550050109c8935416b73daeaf6ab"
+    networks:
+      - any_evm
+    tags:
+      - eoa
+      - wallet
