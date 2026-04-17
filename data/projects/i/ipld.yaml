@@ -1,6 +1,9 @@
 version: 7
 name: ipld
 display_name: InterPlanetary Linked Data (IPLD)
+description: The data model of the content-addressable web. IPLD treats all hash-linked data structures as subsets of a unified information space, enabling interoperability across protocols that link data with hashes.
+websites:
+  - url: https://ipld.io
 github:
   - url: https://github.com/ipld
 npm:
