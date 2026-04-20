@@ -2,7 +2,10 @@ version: 7
 name: chainfee-beck-8
 display_name: ChainFee
 description:
-  Analyzes sector penalty data in the Filecoin network to help storage
-  providers optimize management and study economic trends.
+  Analyzes Filecoin network sector data including termination penalties,
+  expiration schedules, pledge release, vesting details, and fault fees to
+  help storage providers optimize operations.
+websites:
+  - url: https://penalty.660688.xyz
 github:
   - url: https://github.com/beck-8/chainfee

@@ -1,6 +1,9 @@
 version: 7
 name: quic-go
 display_name: quic-go
+description: Production-ready QUIC implementation in pure Go, with support for HTTP/3 and WebTransport.
+websites:
+  - url: https://quic-go.net
 github:
   - url: https://github.com/quic-go
 go:
