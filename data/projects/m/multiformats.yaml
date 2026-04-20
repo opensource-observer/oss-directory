@@ -1,6 +1,9 @@
 version: 7
 name: multiformats
 display_name: Multiformats
+description: Collection of self-describing protocol values (multihash, multiaddr, multibase, multicodec) that future-proof systems by enabling interoperability across IPFS, IPLD, libp2p, and other decentralized data systems.
+websites:
+  - url: https://multiformats.io
 github:
   - url: https://github.com/multiformats
 crates:
