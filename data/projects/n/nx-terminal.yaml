@@ -1,0 +1,16 @@
+version: 7
+name: nx-terminal
+display_name: "NX Terminal: Protocol Wars"
+github:
+  - url: https://github.com/nxterminal
+blockchain:
+  - address: "0x5fe9Cc9C0C859832620C8200fcE5617bEfE407F7"
+    networks:
+      - any_evm
+    tags:
+      - contract
+  - address: "0x2F55e14F0b2B2118d2026d20Ad2C39EAcBdCAc47"
+    networks:
+      - any_evm
+    tags:
+      - contract  
