@@ -1,14 +1,14 @@
 version: 7
 name: gainsnetwork
-display_name: Gains Network
-defillama:
-  - url: https://defillama.com/protocol/gains-network
-description: Gains Network is building and maintaining gTrade, the decentralized leveraged trading platform.
+display_name: gTrade
+description: Perpetual futures DEX for crypto & RWAs. Over 150 markets and up to 1000x leverage.
 websites:
-  - url: https://gainsnetwork.io
+  - url: https://gains.trade/
 social:
   twitter:
     - url: https://twitter.com/GainsNetwork_io
+  telegram:
+    - url: https://t.me/GainsNetwork
 github:
   - url: https://github.com/gainsnetwork
   - url: https://github.com/gainsnetwork-org
@@ -199,3 +199,5 @@ blockchain:
     tags:
       - contract
     name: GNSOracleRewardsV6_4_1
+defillama:
+  - url: https://defillama.com/protocol/gains-network
