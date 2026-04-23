@@ -141,3 +141,6 @@ src/scripts/project_logo_tool/
 
 # MCP
 .mcp.json
+
+# Fork-specific workflows (not synced with upstream)
+.github/workflows/ci-fork-agent.yml
