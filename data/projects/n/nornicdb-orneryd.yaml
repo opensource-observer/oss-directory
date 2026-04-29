@@ -1,0 +1,13 @@
+version: 7
+name: nornicdb-orneryd
+display_name: Nornicdb
+---
+description:
+  Nornicdb is a distributed low-latency, Graph+Vector, Temporal MVCC with all sub-ms
+  HNSW search, graph traversal, and writes. Using Neo4j Bolt/Cypher and qdrant's gRPC
+  means you can switch with no changes. Then, adding intelligent features like schemas,
+  managed embeddings, LLM reranking+inferrence, GPU accel, Auto-TLP, Memory Decay,
+  and MCP server.
+---
+github:
+  - url: https://github.com/orneryd/NornicDB

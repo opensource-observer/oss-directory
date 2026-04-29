@@ -1,0 +1,9 @@
+version: 7
+name: vehicle-detection-junshengfu
+display_name: Vehicle Detection
+---
+description:
+  "Created vehicle detection pipeline with two approaches: (1) deep neural networks
+  (YOLO framework) and (2) support vector machines ( OpenCV + HOG)."
+github:
+  - url: https://github.com/JunshengFu/vehicle-detection

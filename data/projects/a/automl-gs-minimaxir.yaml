@@ -1,0 +1,10 @@
+version: 7
+name: automl-gs-minimaxir
+display_name: Automl Gs
+---
+description:
+  Provide an input CSV and a target field to predict, generate a model + code to run
+  it.
+---
+github:
+  - url: https://github.com/minimaxir/automl-gs

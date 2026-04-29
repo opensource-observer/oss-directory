@@ -1,0 +1,11 @@
+version: 7
+name: agent-of-empires-njbrake
+display_name: Agent Of Empires
+---
+description:
+  Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access
+  on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI,
+  Factory Droid Coding. Uses tmux and git worktrees.
+---
+github:
+  - url: https://github.com/njbrake/agent-of-empires

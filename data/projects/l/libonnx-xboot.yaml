@@ -1,0 +1,10 @@
+version: 7
+name: libonnx-xboot
+display_name: Libonnx
+---
+description:
+  A lightweight, portable pure C99 onnx inference engine for embedded devices with hardware
+  acceleration support.
+---
+github:
+  - url: https://github.com/xboot/libonnx

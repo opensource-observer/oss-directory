@@ -1,0 +1,10 @@
+version: 7
+name: auto-paper-digest-brianxiadong
+display_name: Auto Paper Digest
+---
+description:
+  "auto-paper-digest: An automated pipeline that tracks Hugging Face weekly AI papers,
+  downloads PDFs, imports them into NotebookLM, generates video overviews, and archives
+  everything into a searchable weekly digest."
+github:
+  - url: https://github.com/brianxiadong/auto-paper-digest

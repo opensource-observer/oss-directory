@@ -1,0 +1,10 @@
+version: 7
+name: mcp-adapter-wordpress
+display_name: Mcp Adapter
+---
+description:
+  An MCP adapter that bridges the Abilities API to the Model Context Protocol, enabling
+  MCP clients to discover and invoke WordPress plugin, theme, and core abilities programmatically.
+---
+github:
+  - url: https://github.com/WordPress/mcp-adapter

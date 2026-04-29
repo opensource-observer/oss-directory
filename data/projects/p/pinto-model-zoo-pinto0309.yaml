@@ -1,0 +1,11 @@
+version: 7
+name: pinto-model-zoo-pinto0309
+display_name: Pinto Model Zoo
+---
+description:
+  A repository for storing models that have been inter-converted between various frameworks.
+  Supported frameworks are TensorFlow, PyTorch, ONNX, OpenVINO, TFJS, TFTRT, TensorFlowLite
+  (Float32/16/INT8), EdgeTPU, CoreML.
+---
+github:
+  - url: https://github.com/PINTO0309/PINTO_model_zoo

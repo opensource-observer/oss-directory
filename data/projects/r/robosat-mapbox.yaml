@@ -1,0 +1,9 @@
+version: 7
+name: robosat-mapbox
+display_name: Robosat
+---
+description:
+  "Semantic segmentation on aerial and satellite imagery. Extracts features such as:
+  buildings, parking lots, roads, water, clouds"
+github:
+  - url: https://github.com/mapbox/robosat

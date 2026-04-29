@@ -1,0 +1,10 @@
+version: 7
+name: dtln-breizhn
+display_name: Dtln
+---
+description:
+  Tensorflow 2.x implementation of the DTLN real time speech denoising model. With TF-lite,
+  ONNX and real-time audio processing support.
+---
+github:
+  - url: https://github.com/breizhn/DTLN

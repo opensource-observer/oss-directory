@@ -1,0 +1,12 @@
+version: 7
+name: k8s-vgpu-scheduler-4paradigm
+display_name: K8S Vgpu Scheduler
+---
+description:
+  OpenAIOS vGPU device plugin for Kubernetes is originated from the OpenAIOS project
+  to virtualize GPU device memory, in order to allow applications to access larger
+  memory space than its physical capacity. It is designed for ease of use of extended
+  device memory for AI workloads.
+---
+github:
+  - url: https://github.com/4paradigm/k8s-vgpu-scheduler

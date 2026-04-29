@@ -1,0 +1,10 @@
+version: 7
+name: nanosam-nvidia-ai-iot
+display_name: Nanosam
+---
+description:
+  A distilled Segment Anything (SAM) model capable of running real-time with NVIDIA
+  TensorRT
+---
+github:
+  - url: https://github.com/NVIDIA-AI-IOT/nanosam

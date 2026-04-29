@@ -1,0 +1,10 @@
+version: 7
+name: pytorch-resnet-cifar10-akamaster
+display_name: Pytorch Resnet Cifar10
+---
+description:
+  Proper implementation of ResNet-s for CIFAR10/100 in pytorch that matches description
+  of the original paper.
+---
+github:
+  - url: https://github.com/akamaster/pytorch_resnet_cifar10

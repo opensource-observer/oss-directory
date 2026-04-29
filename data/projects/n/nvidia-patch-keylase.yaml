@@ -1,0 +1,10 @@
+version: 7
+name: nvidia-patch-keylase
+display_name: Nvidia Patch
+---
+description:
+  This patch removes restriction on maximum number of simultaneous NVENC video encoding
+  sessions imposed by Nvidia to consumer-grade GPUs.
+---
+github:
+  - url: https://github.com/keylase/nvidia-patch

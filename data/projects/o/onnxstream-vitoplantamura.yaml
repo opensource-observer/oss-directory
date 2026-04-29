@@ -1,0 +1,12 @@
+version: 7
+name: onnxstream-vitoplantamura
+display_name: Onnxstream
+---
+description:
+  Lightweight inference library for ONNX files, written in C++. It can run Stable Diffusion
+  XL 1.0 on a RPI Zero 2 (or in 298MB of RAM) but also Mistral 7B on desktops and
+  servers. ARM, x86, WASM, RISC-V supported. Accelerated by XNNPACK. Python, C# and
+  JS(WASM) bindings available.
+---
+github:
+  - url: https://github.com/vitoplantamura/OnnxStream

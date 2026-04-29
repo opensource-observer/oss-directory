@@ -1,0 +1,10 @@
+version: 7
+name: kinetics-i3d-google-deepmind
+display_name: Kinetics I3D
+---
+description:
+  Convolutional neural network model for video classification trained on the Kinetics
+  dataset.
+---
+github:
+  - url: https://github.com/google-deepmind/kinetics-i3d

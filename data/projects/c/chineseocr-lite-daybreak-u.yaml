@@ -1,0 +1,10 @@
+version: 7
+name: chineseocr-lite-daybreak-u
+display_name: Chineseocr Lite
+---
+description:
+  "\u8D85\u8F7B\u91CF\u7EA7\u4E2D\u6587ocr\uFF0C\u652F\u6301\u7AD6\u6392\u6587\u5B57\
+  \u8BC6\u522B, \u652F\u6301ncnn\u3001mnn\u3001tnn\u63A8\u7406 ( dbnet(1.8M) + crnn(2.5M)\
+  \ + anglenet(378KB)) \u603B\u6A21\u578B\u4EC54.7M"
+github:
+  - url: https://github.com/DayBreak-u/chineseocr_lite

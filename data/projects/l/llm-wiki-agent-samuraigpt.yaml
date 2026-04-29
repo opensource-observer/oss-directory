@@ -1,0 +1,11 @@
+version: 7
+name: llm-wiki-agent-samuraigpt
+display_name: Llm Wiki Agent
+---
+description:
+  "A personal knowledge base that builds and maintains itself. Drop in sources \u2014\
+  \ Claude (or Codex/Gemini) reads them, extracts knowledge, and maintains a persistent\
+  \ interlinked wiki. Works with Claude Code, Codex, OpenCode, Gemini CLI. No API\
+  \ key needed."
+github:
+  - url: https://github.com/SamurAIGPT/llm-wiki-agent

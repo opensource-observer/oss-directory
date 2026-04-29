@@ -1,0 +1,10 @@
+version: 7
+name: facenet-pytorch-timesler
+display_name: Facenet Pytorch
+---
+description:
+  Pretrained Pytorch face detection (MTCNN) and facial recognition (InceptionResnet)
+  models
+---
+github:
+  - url: https://github.com/timesler/facenet-pytorch

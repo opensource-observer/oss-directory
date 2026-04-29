@@ -1,0 +1,11 @@
+version: 7
+name: translatebookswithllms-hydropix
+display_name: Translatebookswithllms
+---
+description:
+  Translate full-length books and documents with Ollama, OpenAI (comptatible), Gemini,
+  Mistral, Poe or OpenRouter. Preserves formatting. Resumes where you left off. No
+  file size limits.
+---
+github:
+  - url: https://github.com/hydropix/TranslateBooksWithLLMs

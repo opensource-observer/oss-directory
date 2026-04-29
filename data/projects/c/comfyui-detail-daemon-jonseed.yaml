@@ -1,0 +1,10 @@
+version: 7
+name: comfyui-detail-daemon-jonseed
+display_name: Comfyui Detail Daemon
+---
+description:
+  A port of muerrilla's sd-webui-Detail-Daemon as a node for ComfyUI, to adjust sigmas
+  that control detail.
+---
+github:
+  - url: https://github.com/Jonseed/ComfyUI-Detail-Daemon

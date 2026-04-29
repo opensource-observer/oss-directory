@@ -1,0 +1,11 @@
+version: 7
+name: pytorch-kaldi-mravanelli
+display_name: Pytorch Kaldi
+---
+description:
+  pytorch-kaldi is a project for developing state-of-the-art DNN/RNN hybrid speech recognition
+  systems. The DNN part is managed by pytorch, while feature extraction, label computation,
+  and decoding are performed with the kaldi toolkit.
+---
+github:
+  - url: https://github.com/mravanelli/pytorch-kaldi

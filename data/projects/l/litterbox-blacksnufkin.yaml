@@ -1,0 +1,11 @@
+version: 7
+name: litterbox-blacksnufkin
+display_name: Litterbox
+---
+description:
+  A secure sandbox environment for malware developers and red teamers to test payloads
+  against detection mechanisms before deployment. Integrates with LLM agents via MCP
+  for enhanced analysis capabilities.
+---
+github:
+  - url: https://github.com/BlackSnufkin/LitterBox

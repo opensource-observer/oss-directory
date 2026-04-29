@@ -1,0 +1,11 @@
+version: 7
+name: arc-basekick-labs
+display_name: Arc
+---
+description:
+  High-performance analytical database. DuckDB SQL engine + Parquet storage + Arrow
+  format. 19.9M records/sec ingestion. 6M+ rows/sec queries. Use for analytics, observability,
+  AI, IoT, logs. Single Go binary. S3/Azure native. No vendor lock-in. AGPL-3.0
+---
+github:
+  - url: https://github.com/Basekick-Labs/arc

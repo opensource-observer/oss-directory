@@ -1,0 +1,10 @@
+version: 7
+name: audio-diffusion-teticio
+display_name: Audio Diffusion
+---
+description:
+  Apply diffusion models using the new Hugging Face diffusers package to synthesize
+  music instead of images.
+---
+github:
+  - url: https://github.com/teticio/audio-diffusion

@@ -1,0 +1,10 @@
+version: 7
+name: openwebtext-jcpeterson
+display_name: Openwebtext
+---
+description:
+  Open clone of OpenAI's unreleased WebText dataset scraper. This version uses pushshift.io
+  files instead of the API for speed.
+---
+github:
+  - url: https://github.com/jcpeterson/openwebtext

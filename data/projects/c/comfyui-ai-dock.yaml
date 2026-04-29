@@ -1,0 +1,10 @@
+version: 7
+name: comfyui-ai-dock
+display_name: Comfyui
+---
+description:
+  ComfyUI docker images for use in GPU cloud and local environments. Includes AI-Dock
+  base for authentication and improved user experience.
+---
+github:
+  - url: https://github.com/ai-dock/comfyui

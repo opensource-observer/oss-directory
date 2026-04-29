@@ -1,0 +1,11 @@
+version: 7
+name: dreambooth-stable-diffusion-joepenna
+display_name: Dreambooth Stable Diffusion
+---
+description:
+  Implementation of Dreambooth (https://arxiv.org/abs/2208.12242) by way of Textual
+  Inversion (https://arxiv.org/abs/2208.01618) for Stable Diffusion (https://arxiv.org/abs/2112.10752).
+  Tweaks focused on training faces, objects, and styles.
+---
+github:
+  - url: https://github.com/JoePenna/Dreambooth-Stable-Diffusion

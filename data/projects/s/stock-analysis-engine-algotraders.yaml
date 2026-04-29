@@ -1,0 +1,13 @@
+version: 7
+name: stock-analysis-engine-algotraders
+display_name: Stock Analysis Engine
+---
+description:
+  "Backtest 1000s of minute-by-minute trading algorithms for training AI with automated
+  pricing data from: IEX, Tradier and FinViz. Datasets and trading performance automatically
+  published to S3 for building AI training datasets for teaching DNNs how to trade.
+  Runs on Kubernetes and docker-compose. >150 million trading history rows generated
+  from +5000 algorithms. Heads up: Yahoo's Finance API was disabled on 2019-01-03
+  https://developer.yahoo.com/yql/"
+github:
+  - url: https://github.com/AlgoTraders/stock-analysis-engine

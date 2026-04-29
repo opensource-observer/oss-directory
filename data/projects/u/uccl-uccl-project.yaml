@@ -1,0 +1,10 @@
+version: 7
+name: uccl-uccl-project
+display_name: Uccl
+---
+description:
+  UCCL is an efficient communication library for GPUs, covering collectives, P2P (e.g.,
+  KV cache transfer, RL weight transfer), and EP (e.g., GPU-driven)
+---
+github:
+  - url: https://github.com/uccl-project/uccl

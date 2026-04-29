@@ -1,0 +1,10 @@
+version: 7
+name: agent-os-rivet-dev
+display_name: Agent Os
+---
+description:
+  A portable open-source operating system for agents. ~6 ms coldstarts, 32x cheaper
+  than sandboxes. Powered by WebAssembly and V8 isolates.
+---
+github:
+  - url: https://github.com/rivet-dev/agent-os

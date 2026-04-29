@@ -1,0 +1,11 @@
+version: 7
+name: diffeqflux-jl-sciml
+display_name: Diffeqflux.Jl
+---
+description:
+  Pre-built implicit layer architectures with O(1) backprop, GPUs, and stiff+non-stiff
+  DE solvers, demonstrating scientific machine learning (SciML) and physics-informed
+  machine learning methods
+---
+github:
+  - url: https://github.com/SciML/DiffEqFlux.jl

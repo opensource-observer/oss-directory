@@ -1,0 +1,11 @@
+version: 7
+name: crocoddyl-loco-3d
+display_name: Crocoddyl
+---
+description:
+  Crocoddyl is an optimal control library for robot control under contact sequence.
+  Its solver is based on various efficient Differential Dynamic Programming (DDP)-like
+  algorithms
+---
+github:
+  - url: https://github.com/loco-3d/crocoddyl

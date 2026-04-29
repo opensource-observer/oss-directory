@@ -1,0 +1,10 @@
+version: 7
+name: pytorch-pruning-jacobgil
+display_name: Pytorch Pruning
+---
+description:
+  PyTorch Implementation of [1611.06440] Pruning Convolutional Neural Networks for Resource
+  Efficient Inference
+---
+github:
+  - url: https://github.com/jacobgil/pytorch-pruning

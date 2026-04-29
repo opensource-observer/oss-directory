@@ -1,0 +1,15 @@
+version: 7
+name: keras-textclassification-yongzhuo
+display_name: Keras Textclassification
+---
+description:
+  "\u4E2D\u6587\u957F\u6587\u672C\u5206\u7C7B\u3001\u77ED\u53E5\u5B50\u5206\u7C7B\u3001\
+  \u591A\u6807\u7B7E\u5206\u7C7B\u3001\u4E24\u53E5\u5B50\u76F8\u4F3C\u5EA6\uFF08Chinese\
+  \ Text Classification of Keras NLP, multi-label classify, or sentence classify,\
+  \ long or short\uFF09\uFF0C\u5B57\u8BCD\u53E5\u5411\u91CF\u5D4C\u5165\u5C42\uFF08\
+  embeddings\uFF09\u548C\u7F51\u7EDC\u5C42\uFF08graph\uFF09\u6784\u5EFA\u57FA\u7C7B\
+  \uFF0CFastText\uFF0CTextCNN\uFF0CCharCNN\uFF0CTextRNN,  RCNN,  DCNN, DPCNN, VDCNN,\
+  \ CRNN, Bert, Xlnet, Albert, Attention, DeepMoji, HAN, \u80F6\u56CA\u7F51\u7EDC\
+  -CapsuleNet, Transformer-encode,  Seq2seq,  SWEM, LEAM, TextGCN"
+github:
+  - url: https://github.com/yongzhuo/Keras-TextClassification

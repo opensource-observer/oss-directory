@@ -1,0 +1,10 @@
+version: 7
+name: probabilistic-unet-simonkohl
+display_name: Probabilistic Unet
+---
+description:
+  A U-Net combined with a variational auto-encoder that is able to learn conditional
+  distributions over semantic segmentations.
+---
+github:
+  - url: https://github.com/SimonKohl/probabilistic_unet

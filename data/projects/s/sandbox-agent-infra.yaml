@@ -1,0 +1,10 @@
+version: 7
+name: sandbox-agent-infra
+display_name: Sandbox
+---
+description:
+  All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode
+  Server in a single Docker container.
+---
+github:
+  - url: https://github.com/agent-infra/sandbox

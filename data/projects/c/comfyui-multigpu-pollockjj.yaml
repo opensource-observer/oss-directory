@@ -1,0 +1,13 @@
+version: 7
+name: comfyui-multigpu-pollockjj
+display_name: Comfyui Multigpu
+---
+description:
+  This custom_node for ComfyUI adds one-click "Virtual VRAM" for any UNet and CLIP loader
+  as well MultiGPU integration in WanVideoWrapper, managing the offload/Block Swap
+  of layers to DRAM *or* VRAM to maximize the latent space of your card. Also includes
+  nodes for directly loading entire components (UNet, CLIP, VAE) onto the device you
+  choose
+---
+github:
+  - url: https://github.com/pollockjj/ComfyUI-MultiGPU

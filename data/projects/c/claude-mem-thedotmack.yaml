@@ -1,0 +1,11 @@
+version: 7
+name: claude-mem-thedotmack
+display_name: Claude Mem
+---
+description:
+  A Claude Code plugin that automatically captures everything Claude does during your
+  coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant
+  context back into future sessions.
+---
+github:
+  - url: https://github.com/thedotmack/claude-mem

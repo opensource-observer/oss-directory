@@ -1,0 +1,10 @@
+version: 7
+name: localaivoicechat-koljab
+display_name: Localaivoicechat
+---
+description:
+  Local AI talk with a custom voice based on Zephyr 7B model. Uses RealtimeSTT with
+  faster_whisper for transcription and RealtimeTTS with Coqui XTTS for synthesis.
+---
+github:
+  - url: https://github.com/KoljaB/LocalAIVoiceChat

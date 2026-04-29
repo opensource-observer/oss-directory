@@ -1,0 +1,13 @@
+version: 7
+name: mcp-client-for-ollama-jonigl
+display_name: Mcp Client For Ollama
+---
+description:
+  A text-based user interface (TUI) client for interacting with MCP servers using Ollama.
+  Features include agent mode, multi-server, model switching, streaming responses,
+  tool management, human-in-the-loop, thinking mode, model params config, MCP prompts,
+  custom system prompt and saved preferences. Built for developers working with local
+  LLMs.
+---
+github:
+  - url: https://github.com/jonigl/mcp-client-for-ollama

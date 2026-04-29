@@ -1,0 +1,10 @@
+version: 7
+name: claude-code-safety-net-kenryu42
+display_name: Claude Code Safety Net
+---
+description:
+  A coding agent hook that acts as a safety net, catching destructive git and filesystem
+  commands before they execute.
+---
+github:
+  - url: https://github.com/kenryu42/claude-code-safety-net

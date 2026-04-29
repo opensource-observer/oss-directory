@@ -1,0 +1,10 @@
+version: 7
+name: imbalanced-dataset-sampler-ufoym
+display_name: Imbalanced Dataset Sampler
+---
+description:
+  A (PyTorch) imbalanced dataset sampler for oversampling low frequent classes and undersampling
+  high frequent ones.
+---
+github:
+  - url: https://github.com/ufoym/imbalanced-dataset-sampler

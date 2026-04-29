@@ -1,0 +1,12 @@
+version: 7
+name: cursor-deepseek-danilofalcao
+display_name: Cursor Deepseek
+---
+description:
+  A high-performance HTTP/2-enabled proxy server designed specifically to enable Cursor
+  IDE's Composer to use DeepSeek's and OpenRouter's language models. This proxy translates
+  OpenAI-compatible API requests to DeepSeek/OpenRouter API format, allowing Cursor's
+  Composer and other OpenAI API-compatible tools to seamlessly work with these models.
+---
+github:
+  - url: https://github.com/danilofalcao/cursor-deepseek

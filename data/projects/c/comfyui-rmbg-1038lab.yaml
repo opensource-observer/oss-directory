@@ -1,0 +1,11 @@
+version: 7
+name: comfyui-rmbg-1038lab
+display_name: Comfyui Rmbg
+---
+description:
+  A ComfyUI custom node designed for advanced image background removal and object, face,
+  clothes, and fashion segmentation, utilizing multiple models including RMBG-2.0,
+  INSPYRENET, BEN, BEN2, BiRefNet, SDMatte, SAM, SAM2, SAM3 and GroundingDINO.
+---
+github:
+  - url: https://github.com/1038lab/ComfyUI-RMBG

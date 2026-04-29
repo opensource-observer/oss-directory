@@ -1,0 +1,12 @@
+version: 7
+name: end-to-end-for-chinese-plate-recognition-duanshengliu
+display_name: End To End For Chinese Plate Recognition
+---
+description:
+  "\u57FA\u4E8Eu-net\uFF0Ccv2\u4EE5\u53CAcnn\u7684\u4E2D\u6587\u8F66\u724C\u5B9A\u4F4D\
+  \uFF0C\u77EB\u6B63\u548C\u7AEF\u5230\u7AEF\u8BC6\u522B\u8F6F\u4EF6\uFF0C\u5176\u4E2D\
+  unet\u548Ccv2\u7528\u4E8E\u8F66\u724C\u5B9A\u4F4D\u548C\u77EB\u6B63\uFF0Ccnn\u8FDB\
+  \u884C\u8F66\u724C\u8BC6\u522B\uFF0Cunet\u548Ccnn\u90FD\u662F\u57FA\u4E8Etensorflow\u7684\
+  keras\u5B9E\u73B0"
+github:
+  - url: https://github.com/duanshengliu/End-to-end-for-chinese-plate-recognition

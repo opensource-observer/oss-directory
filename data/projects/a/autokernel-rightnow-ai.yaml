@@ -1,0 +1,10 @@
+version: 7
+name: autokernel-rightnow-ai
+display_name: Autokernel
+---
+description:
+  Autoresearch for GPU kernels. Give it any PyTorch model, go to sleep, wake up to optimized
+  Triton kernels.
+---
+github:
+  - url: https://github.com/RightNow-AI/autokernel

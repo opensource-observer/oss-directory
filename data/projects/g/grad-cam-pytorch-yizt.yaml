@@ -1,0 +1,12 @@
+version: 7
+name: grad-cam-pytorch-yizt
+display_name: Grad Cam.Pytorch
+---
+description:
+  "pytorch\u5B9E\u73B0Grad-CAM\u548CGrad-CAM++,\u53EF\u4EE5\u53EF\u89C6\u5316\u4EFB\u610F\
+  \u5206\u7C7B\u7F51\u7EDC\u7684Class Activation Map (CAM)\u56FE,\u5305\u62EC\u81EA\
+  \u5B9A\u4E49\u7684\u7F51\u7EDC;\u540C\u65F6\u4E5F\u5B9E\u73B0\u4E86\u76EE\u6807\u68C0\
+  \u6D4Bfaster r-cnn\u548Cretinanet\u4E24\u4E2A\u7F51\u7EDC\u7684CAM\u56FE;\u6B22\u8FCE\
+  \u8BD5\u7528\u3001\u5173\u6CE8\u5E76\u53CD\u9988\u95EE\u9898..."
+github:
+  - url: https://github.com/yizt/Grad-CAM.pytorch

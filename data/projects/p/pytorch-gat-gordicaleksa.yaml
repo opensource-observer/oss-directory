@@ -1,0 +1,11 @@
+version: 7
+name: pytorch-gat-gordicaleksa
+display_name: Pytorch Gat
+---
+description:
+  "My implementation of the original GAT paper (Veli\u010Dkovi\u0107 et al.). I've additionally\
+  \ included the playground.py file for visualizing the Cora dataset, GAT embeddings,\
+  \ an attention mechanism, and entropy histograms. I've supported both Cora (transductive)\
+  \ and PPI (inductive) examples!"
+github:
+  - url: https://github.com/gordicaleksa/pytorch-GAT

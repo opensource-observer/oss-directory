@@ -1,0 +1,12 @@
+version: 7
+name: slam-application-engcang
+display_name: Slam Application
+---
+description:
+  LeGO-LOAM, LIO-SAM, LVI-SAM, FAST-LIO2, Faster-LIO, VoxelMap, R3LIVE, Point-LIO, KISS-ICP,
+  DLO, DLIO, Ada-LIO, PV-LIO, SLAMesh, ImMesh, FAST-LIO-MULTI, M-LOAM, LOCUS, SLICT,
+  MA-LIO, CT-ICP, GenZ-ICP, iG-LIO, SR-LIO application and comparison on Gazebo and
+  real-world datasets. Installation and config files are provided.
+---
+github:
+  - url: https://github.com/engcang/SLAM-application

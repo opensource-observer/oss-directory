@@ -1,0 +1,11 @@
+version: 7
+name: aitemplate-facebookincubator
+display_name: Aitemplate
+---
+description:
+  AITemplate is a Python framework which renders neural network into high performance
+  CUDA/HIP C++ code. Specialized for FP16 TensorCore (NVIDIA GPU) and MatrixCore (AMD
+  GPU) inference.
+---
+github:
+  - url: https://github.com/facebookincubator/AITemplate

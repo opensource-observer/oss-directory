@@ -1,0 +1,10 @@
+version: 7
+name: tensorflow-bin-pinto0309
+display_name: Tensorflow Bin
+---
+description:
+  Prebuilt binary with Tensorflow Lite enabled. For RaspberryPi / Jetson Nano. Support
+  for custom operations in MediaPipe. XNNPACK, XNNPACK Multi-Threads, FlexDelegate.
+---
+github:
+  - url: https://github.com/PINTO0309/Tensorflow-bin

@@ -1,0 +1,8 @@
+version: 7
+name: run-gemini-cli-google-github-actions
+display_name: Run Gemini Cli
+---
+description: A GitHub Action invoking the Gemini CLI.
+---
+github:
+  - url: https://github.com/google-github-actions/run-gemini-cli

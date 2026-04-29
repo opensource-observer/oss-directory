@@ -1,0 +1,11 @@
+version: 7
+name: nanoclaw-qwibitai
+display_name: Nanoclaw
+---
+description:
+  A lightweight alternative to OpenClaw that runs in containers for security. Connects
+  to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps,, has memory,
+  scheduled jobs, and runs directly on Anthropic's Agents SDK
+---
+github:
+  - url: https://github.com/qwibitai/nanoclaw

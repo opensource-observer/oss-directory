@@ -1,0 +1,10 @@
+version: 7
+name: comfyui-latentsyncwrapper-shmuelronen
+display_name: Comfyui Latentsyncwrapper
+---
+description:
+  This node provides lip-sync capabilities in ComfyUI using ByteDance's LatentSync model.
+  It allows you to synchronize video lips with audio input.
+---
+github:
+  - url: https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper

@@ -1,0 +1,10 @@
+version: 7
+name: sparse-depth-completion-wvangansbeke
+display_name: Sparse Depth Completion
+---
+description:
+  Predict dense depth maps from sparse and noisy LiDAR frames guided by RGB images.  (Ranked
+  1st place on KITTI) [MVA 2019]
+---
+github:
+  - url: https://github.com/wvangansbeke/Sparse-Depth-Completion

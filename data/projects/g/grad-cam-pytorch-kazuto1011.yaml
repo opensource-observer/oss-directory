@@ -1,0 +1,10 @@
+version: 7
+name: grad-cam-pytorch-kazuto1011
+display_name: Grad Cam Pytorch
+---
+description:
+  PyTorch re-implementation of Grad-CAM (+ vanilla/guided backpropagation, deconvnet,
+  and occlusion sensitivity maps)
+---
+github:
+  - url: https://github.com/kazuto1011/grad-cam-pytorch

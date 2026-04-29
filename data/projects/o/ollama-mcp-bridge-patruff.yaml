@@ -1,0 +1,10 @@
+version: 7
+name: ollama-mcp-bridge-patruff
+display_name: Ollama Mcp Bridge
+---
+description:
+  Bridge between Ollama and MCP servers, enabling local LLMs to use Model Context Protocol
+  tools
+---
+github:
+  - url: https://github.com/patruff/ollama-mcp-bridge

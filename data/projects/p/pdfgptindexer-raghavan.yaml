@@ -1,0 +1,11 @@
+version: 7
+name: pdfgptindexer-raghavan
+display_name: Pdfgptindexer
+---
+description:
+  RAG based tool for indexing and searching PDF text data using OpenAI API and FAISS
+  (Facebook AI Similarity Search) index, designed for rapid information retrieval
+  and superior search accuracy.
+---
+github:
+  - url: https://github.com/raghavan/PdfGptIndexer

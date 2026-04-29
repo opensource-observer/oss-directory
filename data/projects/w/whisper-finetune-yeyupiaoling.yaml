@@ -1,0 +1,11 @@
+version: 7
+name: whisper-finetune-yeyupiaoling
+display_name: Whisper Finetune
+---
+description:
+  Fine-tune the Whisper speech recognition model to support training without timestamp
+  data, training with timestamp data, and training without speech data. Accelerate
+  inference and support Web deployment, Windows desktop deployment, and Android deployment
+---
+github:
+  - url: https://github.com/yeyupiaoling/Whisper-Finetune

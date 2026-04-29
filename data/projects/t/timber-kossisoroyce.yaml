@@ -1,0 +1,11 @@
+version: 7
+name: timber-kossisoroyce
+display_name: Timber
+---
+description:
+  Ollama for classical ML models. AOT compiler that turns XGBoost, LightGBM, scikit-learn,
+  CatBoost & ONNX models into native C99 inference code. One command to load, one
+  command to serve. 336x faster than Python inference.
+---
+github:
+  - url: https://github.com/kossisoroyce/timber

@@ -1,0 +1,10 @@
+version: 7
+name: face-classification-oarriaga
+display_name: Face Classification
+---
+description:
+  Real-time face detection and emotion/gender classification using fer2013/imdb datasets
+  with a keras CNN model and openCV.
+---
+github:
+  - url: https://github.com/oarriaga/face_classification
