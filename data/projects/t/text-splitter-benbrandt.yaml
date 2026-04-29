@@ -1,10 +1,8 @@
 version: 7
 name: text-splitter-benbrandt
-display_name: Text Splitter
----
+display_name: Text Splitter Benbrandt
 description:
-  Split text into semantic chunks, up to a desired chunk size. Supports calculating
-  length by characters and tokens, and is callable from Rust and Python.
----
+  Split text into semantic chunks, up to a desired chunk size. Supports
+  calculating length by characters and tokens, and is callable from Rust and Python.
 github:
   - url: https://github.com/benbrandt/text-splitter

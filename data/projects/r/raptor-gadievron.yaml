@@ -1,12 +1,10 @@
 version: 7
 name: raptor-gadievron
-display_name: Raptor
----
+display_name: Raptor Gadievron
 description:
-  Raptor turns Claude Code into a general-purpose AI offensive/defensive security agent.
-  By using Claude.md and creating rules, sub-agents, and skills, and orchestrating
-  security tool usage, we configure the agent for adversarial thinking, and perform
-  research or attack/defense operations.
----
+  Raptor turns Claude Code into a general-purpose AI offensive/defensive
+  security agent. By using Claude.md and creating rules, sub-agents, and skills, and
+  orchestrating security tool usage, we configure the agent for adversarial thinking,
+  and perform research or attack/defense operations.
 github:
   - url: https://github.com/gadievron/raptor

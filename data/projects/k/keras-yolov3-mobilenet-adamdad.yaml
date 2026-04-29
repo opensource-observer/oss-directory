@@ -1,7 +1,8 @@
 version: 7
 name: keras-yolov3-mobilenet-adamdad
-display_name: Keras Yolov3 Mobilenet
----
-description: "I transfer the backend of yolov3 into Mobilenetv1\uFF0CVGG16\uFF0CResNet101 and ResNeXt101"
+display_name: Keras Yolov3 Mobilenet Adamdad
+description:
+  I transfer the backend of yolov3 into Mobilenetv1，VGG16，ResNet101 and
+  ResNeXt101
 github:
   - url: https://github.com/Adamdad/keras-YOLOv3-mobilenet

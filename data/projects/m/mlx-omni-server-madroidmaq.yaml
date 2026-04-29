@@ -1,12 +1,10 @@
 version: 7
 name: mlx-omni-server-madroidmaq
-display_name: Mlx Omni Server
----
+display_name: Mlx Omni Server Madroidmaq
 description:
-  MLX Omni Server is a local inference server powered by Apple's MLX framework, specifically
-  designed for Apple Silicon (M-series) chips. It implements OpenAI-compatible API
-  endpoints, enabling seamless integration with existing OpenAI SDK clients while
+  MLX Omni Server is a local inference server powered by Apple's MLX framework,
+  specifically designed for Apple Silicon (M-series) chips. It implements OpenAI-compatible
+  API endpoints, enabling seamless integration with existing OpenAI SDK clients while
   leveraging the power of local ML inference.
----
 github:
   - url: https://github.com/madroidmaq/mlx-omni-server

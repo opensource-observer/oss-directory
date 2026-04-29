@@ -1,11 +1,9 @@
 version: 7
 name: ms-swift-modelscope
-display_name: Ms Swift
----
+display_name: Ms Swift Modelscope
 description:
-  Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-R1, GLM-5.1,
-  InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5,
-  GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025).
----
+  Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-R1,
+  GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5,
+  Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025).
 github:
   - url: https://github.com/modelscope/ms-swift

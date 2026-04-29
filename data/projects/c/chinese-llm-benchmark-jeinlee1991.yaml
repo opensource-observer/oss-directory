@@ -1,18 +1,8 @@
 version: 7
 name: chinese-llm-benchmark-jeinlee1991
-display_name: Chinese Llm Benchmark
----
+display_name: Chinese Llm Benchmark Jeinlee1991
 description:
-  "ReLE\u8BC4\u6D4B\uFF1A\u4E2D\u6587AI\u5927\u6A21\u578B\u80FD\u529B\u8BC4\u6D4B\uFF08\
-  \u6301\u7EED\u66F4\u65B0\uFF09\uFF1A\u76EE\u524D\u5DF2\u56CA\u62EC374\u4E2A\u5927\
-  \u6A21\u578B\uFF0C\u8986\u76D6chatgpt\u3001gpt-5.4\u3001\u8C37\u6B4Cgemini-3.1-pro\u3001\
-  Claude-4.6\u3001\u6587\u5FC3ERNIE-X1.1\u3001ERNIE-5.0\u3001qwen3.6-max\u3001qwen3.6-plus\u3001\
-  \u767E\u5DDD\u3001\u8BAF\u98DE\u661F\u706B\u3001\u5546\u6C64senseChat\u7B49\u5546\
-  \u7528\u6A21\u578B\uFF0C \u4EE5\u53CAstep3.5-flash\u3001kimi-k2.6\u3001ernie4.5\u3001\
-  MiniMax-M2.7\u3001deepseek-v4\u3001Qwen3.6\u3001llama4\u3001\u667A\u8C31GLM-5.1\u3001\
-  MiMo-V2\u3001LongCat\u3001gemma4\u3001mistral\u7B49\u5F00\u6E90\u5927\u6A21\u578B\
-  \u3002\u4E0D\u4EC5\u63D0\u4F9B\u6392\u884C\u699C\uFF0C\u4E5F\u63D0\u4F9B\u89C4\u6A21\
-  \u8D85200\u4E07\u7684\u5927\u6A21\u578B\u7F3A\u9677\u5E93\uFF01\u65B9\u4FBF\u5E7F\
-  \u5927\u793E\u533A\u7814\u7A76\u5206\u6790\u3001\u6539\u8FDB\u5927\u6A21\u578B\u3002"
+  ReLE评测：中文AI大模型能力评测（持续更新）：目前已囊括374个大模型，覆盖chatgpt、gpt-5.4、谷歌gemini-3.1-pro、Claude-4.6、文心ERNIE-X1.1、ERNIE-5.0、qwen3.6-max、qwen3.6-plus、百川、讯飞星火、商汤senseChat等商用模型，
+  以及step3.5-flash、kimi-k2.6、ernie4.5、MiniMax-M2.7、deepseek-v4、Qwen3.6、llama4、智谱GLM-5.1、MiMo-V2、LongCat、gemma4、mistral等开源大模型。不仅提供排行榜，也提供规模超200万的大模型缺陷库！方便广大社区研究分析、改进大模型。
 github:
   - url: https://github.com/jeinlee1991/chinese-llm-benchmark

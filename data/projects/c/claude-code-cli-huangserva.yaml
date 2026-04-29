@@ -1,18 +1,11 @@
 version: 7
 name: claude-code-cli-huangserva
-display_name: Claude Code Cli
----
+display_name: Claude Code Cli Huangserva
 description:
-  "\u8FD9\u662F Claude Code \u7684 CLI \u5BA2\u6237\u7AEF\u4E3B\u4F53\uFF08src/ \u76EE\
-  \u5F55\uFF09\uFF0C\u5373\u6574\u4E2A\u7EC8\u7AEF\u4EA4\u4E92\u5C42\u7684\u6E90\u7801\
-  \u3002\u5177\u4F53\u5305\u542B\uFF1A 1. CLI \u5165\u53E3\u4E0E\u547D\u4EE4\u89E3\
-  \u6790 \u2014 main.tsx\uFF084684\u884C\uFF09\u3001entrypoints/\uFF08CLI \u6A21\u5F0F\
-  \u3001SDK \u6A21\u5F0F\u3001MCP \u6A21\u5F0F\uFF09 2. \u7EC8\u7AEF UI \u6E32\u67D3\
-  \ \u2014 components/\uFF08144 \u4E2A\u7EC4\u4EF6\uFF0C\u7528 React + Ink \u6E32\u67D3\
-  \u7EC8\u7AEF\u754C\u9762\uFF09 3. \u5DE5\u5177\u7CFB\u7EDF \u2014 tools/\uFF0843\
-  \ \u4E2A\u5DE5\u5177\uFF0CBash\u3001\u6587\u4EF6\u8BFB\u5199\u7F16\u8F91\u3001Grep\u3001\
-  Glob\u3001Web \u641C\u7D22\u7B49\uFF09 4. API \u901A\u4FE1\u5C42 \u2014 services/api/\uFF08\
-  \u4E0E Anthropic \u540E\u7AEF\u901A\u4FE1\uFF09 5. MCP \u534F\u8BAE  6. \u591A Agent/Team\
-  \ \u534F\u4F5C l 7. \u8BA4\u8BC1\u4E0E\u7B56\u7565 8. \u8F85\u52A9\u670D\u52A1 \u7B49"
+  这是 Claude Code 的 CLI 客户端主体（src/ 目录），即整个终端交互层的源码。具体包含： 1. CLI 入口与命令解析
+  — main.tsx（4684行）、entrypoints/（CLI 模式、SDK 模式、MCP 模式） 2. 终端 UI 渲染 — components/（144
+  个组件，用 React + Ink 渲染终端界面） 3. 工具系统 — tools/（43 个工具，Bash、文件读写编辑、Grep、Glob、Web 搜索等）
+  4. API 通信层 — services/api/（与 Anthropic 后端通信） 5. MCP 协议  6. 多 Agent/Team 协作 l 7.
+  认证与策略 8. 辅助服务 等
 github:
   - url: https://github.com/huangserva/claude-code-cli

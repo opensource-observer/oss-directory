@@ -1,12 +1,6 @@
 version: 7
 name: bert-seq2seq-920232796
-display_name: Bert Seq2Seq
----
-description:
-  "pytorch\u5B9E\u73B0 Bert \u505Aseq2seq\u4EFB\u52A1\uFF0C\u4F7F\u7528unilm\u65B9\u6848\
-  ,\u73B0\u5728\u4E5F\u53EF\u4EE5\u505A\u81EA\u52A8\u6458\u8981\uFF0C\u6587\u672C\u5206\
-  \u7C7B\uFF0C\u60C5\u611F\u5206\u6790\uFF0CNER\uFF0C\u8BCD\u6027\u6807\u6CE8\u7B49\
-  \u4EFB\u52A1,\u652F\u6301t5\u6A21\u578B\uFF0C\u652F\u6301GPT2\u8FDB\u884C\u6587\u7AE0\
-  \u7EED\u5199\u3002"
+display_name: Bert Seq2Seq 920232796
+description: pytorch实现 Bert 做seq2seq任务，使用unilm方案,现在也可以做自动摘要，文本分类，情感分析，NER，词性标注等任务,支持t5模型，支持GPT2进行文章续写。
 github:
   - url: https://github.com/920232796/bert_seq2seq

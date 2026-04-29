@@ -1,12 +1,6 @@
 version: 7
 name: masr-yeyupiaoling
-display_name: Masr
----
-description:
-  "Pytorch\u5B9E\u73B0\u7684\u6D41\u5F0F\u4E0E\u975E\u6D41\u5F0F\u7684\u81EA\u52A8\u8BED\
-  \u97F3\u8BC6\u522B\u6846\u67B6\uFF0C\u540C\u65F6\u517C\u5BB9\u5728\u7EBF\u548C\u79BB\
-  \u7EBF\u8BC6\u522B\uFF0C\u76EE\u524D\u652F\u6301Conformer\u3001Squeezeformer\u3001\
-  DeepSpeech2\u6A21\u578B\uFF0C\u652F\u6301\u591A\u79CD\u6570\u636E\u589E\u5F3A\u65B9\
-  \u6CD5\u3002"
+display_name: Masr Yeyupiaoling
+description: Pytorch实现的流式与非流式的自动语音识别框架，同时兼容在线和离线识别，目前支持Conformer、Squeezeformer、DeepSpeech2模型，支持多种数据增强方法。
 github:
   - url: https://github.com/yeyupiaoling/MASR

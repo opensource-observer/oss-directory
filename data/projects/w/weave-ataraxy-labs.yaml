@@ -1,10 +1,8 @@
 version: 7
 name: weave-ataraxy-labs
-display_name: Weave
----
+display_name: Weave Ataraxy Labs
 description:
-  Entity-level git merge driver. Resolves false conflicts git invents when independent
-  agents edit the same file. ~95% reduction vs. line-based merge.
----
+  Entity-level git merge driver. Resolves false conflicts git invents when
+  independent agents edit the same file. ~95% reduction vs. line-based merge.
 github:
   - url: https://github.com/Ataraxy-Labs/weave

@@ -1,11 +1,10 @@
 version: 7
 name: whisper-flow-dimastatz
-display_name: Whisper Flow
----
+display_name: Whisper Flow Dimastatz
 description:
-  "Whisper-Flow is a framework designed to enable real-time transcription of audio content\
-  \ using OpenAI\u2019s Whisper model. Rather than processing entire files after upload\
-  \ (\u201Cbatch mode\u201D), Whisper-Flow accepts a continuous stream of audio chunks\
-  \ and produces incremental transcripts immediately."
+  Whisper-Flow is a framework designed to enable real-time transcription
+  of audio content using OpenAI’s Whisper model. Rather than processing entire files
+  after upload (“batch mode”), Whisper-Flow accepts a continuous stream of audio chunks
+  and produces incremental transcripts immediately.
 github:
   - url: https://github.com/dimastatz/whisper-flow

@@ -1,14 +1,10 @@
 version: 7
 name: graph-rag-agent-1517005260
-display_name: Graph Rag Agent
----
+display_name: Graph Rag Agent 1517005260
 description:
-  "\u62FC\u597DRAG\uFF1A\u624B\u6413\u5E76\u878D\u5408\u4E86GraphRAG\u3001LightRAG\u3001\
-  Neo4j-llm-graph-builder\u8FDB\u884C\u77E5\u8BC6\u56FE\u8C31\u6784\u5EFA\u4EE5\u53CA\
-  \u641C\u7D22\uFF1B\u6574\u5408DeepSearch\u6280\u672F\u5B9E\u73B0\u79C1\u57DFRAG\u7684\
-  \u63A8\u7406\uFF1B\u81EA\u5236\u9488\u5BF9GraphRAG\u7684\u8BC4\u4F30\u6846\u67B6\
-  | Integrate GraphRAG, LightRAG, and Neo4j-llm-graph-builder for knowledge graph\
-  \ construction and search. Combine DeepSearch for private RAG reasoning. Create\
-  \ a custom evaluation framework for GraphRAG."
+  拼好RAG：手搓并融合了GraphRAG、LightRAG、Neo4j-llm-graph-builder进行知识图谱构建以及搜索；整合DeepSearch技术实现私域RAG的推理；自制针对GraphRAG的评估框架|
+  Integrate GraphRAG, LightRAG, and Neo4j-llm-graph-builder for knowledge graph construction
+  and search. Combine DeepSearch for private RAG reasoning. Create a custom evaluation
+  framework for GraphRAG.
 github:
   - url: https://github.com/1517005260/graph-rag-agent

@@ -1,11 +1,8 @@
 version: 7
 name: ai-codereview-gitlab-sunmh207
-display_name: Ai Codereview Gitlab
----
+display_name: Ai Codereview Gitlab Sunmh207
 description:
-  "\u57FA\u4E8E\u5927\u6A21\u578B(DeepSeek,OpenAI\u7B49)\u7684 GitLab \u81EA\u52A8\u4EE3\
-  \u7801\u5BA1\u67E5\u5DE5\u5177\uFF1B\u652F\u6301\u9489\u9489/\u4F01\u4E1A\u5FAE\u4FE1\
-  /\u98DE\u4E66\u63A8\u9001\u6D88\u606F\u548C\u751F\u6210\u65E5\u62A5\uFF1B\u652F\u6301\
-  Docker\u90E8\u7F72\uFF1B\u53EF\u89C6\u5316 Dashboard\u3002"
+  基于大模型(DeepSeek,OpenAI等)的 GitLab 自动代码审查工具；支持钉钉/企业微信/飞书推送消息和生成日报；支持Docker部署；可视化
+  Dashboard。
 github:
   - url: https://github.com/sunmh207/AI-Codereview-Gitlab

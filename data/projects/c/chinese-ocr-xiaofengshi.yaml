@@ -1,10 +1,6 @@
 version: 7
 name: chinese-ocr-xiaofengshi
-display_name: Chinese Ocr
----
-description:
-  "[python3.6] \u8FD0\u7528tf\u5B9E\u73B0\u81EA\u7136\u573A\u666F\u6587\u5B57\u68C0\u6D4B\
-  ,keras/pytorch\u5B9E\u73B0ctpn+crnn+ctc\u5B9E\u73B0\u4E0D\u5B9A\u957F\u573A\u666F\
-  \u6587\u5B57OCR\u8BC6\u522B"
+display_name: Chinese Ocr Xiaofengshi
+description: "[python3.6] 运用tf实现自然场景文字检测,keras/pytorch实现ctpn+crnn+ctc实现不定长场景文字OCR识别"
 github:
   - url: https://github.com/xiaofengShi/CHINESE-OCR

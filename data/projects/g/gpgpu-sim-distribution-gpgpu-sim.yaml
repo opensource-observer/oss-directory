@@ -1,12 +1,10 @@
 version: 7
 name: gpgpu-sim-distribution-gpgpu-sim
-display_name: Gpgpu Sim Distribution
----
+display_name: Gpgpu Sim Distribution Gpgpu Sim
 description:
-  GPGPU-Sim provides a detailed simulation model of contemporary NVIDIA GPUs running
-  CUDA and/or OpenCL workloads.  It includes support for features such as TensorCores
-  and CUDA Dynamic Parallelism as well as a performance visualization tool, AerialVisoin,
-  and an integrated energy model, GPUWattch.
----
+  GPGPU-Sim provides a detailed simulation model of contemporary NVIDIA
+  GPUs running CUDA and/or OpenCL workloads.  It includes support for features such
+  as TensorCores and CUDA Dynamic Parallelism as well as a performance visualization
+  tool, AerialVisoin, and an integrated energy model, GPUWattch.
 github:
   - url: https://github.com/gpgpu-sim/gpgpu-sim_distribution

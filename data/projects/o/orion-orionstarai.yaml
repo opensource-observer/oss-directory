@@ -1,15 +1,9 @@
 version: 7
 name: orion-orionstarai
-display_name: Orion
----
+display_name: Orion Orionstarai
 description:
-  "Orion-14B is a family of models includes a 14B foundation LLM, and a series of models:\
-  \ a chat model, a long context model, a quantized model, a RAG fine-tuned model,\
-  \ and an Agent fine-tuned model. Orion-14B \u7CFB\u5217\u6A21\u578B\u5305\u62EC\u4E00\
-  \u4E2A\u5177\u6709140\u4EBF\u53C2\u6570\u7684\u591A\u8BED\u8A00\u57FA\u5EA7\u5927\
-  \u6A21\u578B\u4EE5\u53CA\u4E00\u7CFB\u5217\u76F8\u5173\u7684\u884D\u751F\u6A21\u578B\
-  \uFF0C\u5305\u62EC\u5BF9\u8BDD\u6A21\u578B\uFF0C\u957F\u6587\u672C\u6A21\u578B\uFF0C\
-  \u91CF\u5316\u6A21\u578B\uFF0CRAG\u5FAE\u8C03\u6A21\u578B\uFF0CAgent\u5FAE\u8C03\
-  \u6A21\u578B\u7B49\u3002"
+  "Orion-14B is a family of models includes a 14B foundation LLM, and a
+  series of models: a chat model, a long context model, a quantized model, a RAG fine-tuned
+  model, and an Agent fine-tuned model. Orion-14B 系列模型包括一个具有140亿参数的多语言基座大模型以及一系列相关的衍生模型，包括对话模型，长文本模型，量化模型，RAG微调模型，Agent微调模型等。"
 github:
   - url: https://github.com/OrionStarAI/Orion

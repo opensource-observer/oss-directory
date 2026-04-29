@@ -1,9 +1,8 @@
 version: 7
 name: model-soups-mlfoundations
-display_name: Model Soups
----
+display_name: Model Soups Mlfoundations
 description:
-  "Model soups: averaging weights of multiple fine-tuned models improves accuracy without
-  increasing inference time"
+  "Model soups: averaging weights of multiple fine-tuned models improves
+  accuracy without increasing inference time"
 github:
   - url: https://github.com/mlfoundations/model-soups

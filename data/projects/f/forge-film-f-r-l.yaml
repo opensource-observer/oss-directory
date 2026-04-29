@@ -1,14 +1,9 @@
 version: 7
 name: forge-film-f-r-l
-display_name: Forge Film
----
+display_name: Forge Film F R L
 description:
-  "Multi-model DAG-driven parallel AI film generation \u2014 parallel speedup scales\
-  \ with scene independence; Generate film scenes simultaneously instead of one by\
-  \ one;  \"\u628A\u5F71\u89C6\u751F\u6210\u7684\u6267\u884C\u56FE\u4ECE\u62D3\u6251\
-  \u5E8F\u53D8\u6210\u5173\u952E\u8DEF\u5F84\u6700\u4F18\u8C03\u5EA6\" ; \u552F\u4E00\
-  \u628A\u573A\u666F\u53D9\u4E8B\u4F9D\u8D56\u5EFA\u6A21\u4E3A DAG\u3001\u4EE5 CPM\
-  \    \u7B97\u6CD5\u9A71\u52A8\u5E76\u884C\u8C03\u5EA6\u7684\u5F71\u89C6\u751F\u6210\
-  \u5F15\u64CE"
+  Multi-model DAG-driven parallel AI film generation — parallel speedup
+  scales with scene independence; Generate film scenes simultaneously instead of one
+  by one;  "把影视生成的执行图从拓扑序变成关键路径最优调度" ; 唯一把场景叙事依赖建模为 DAG、以 CPM    算法驱动并行调度的影视生成引擎
 github:
   - url: https://github.com/F-R-L/forge-film

@@ -1,10 +1,6 @@
 version: 7
 name: bertsimilarity-brokenwind
-display_name: Bertsimilarity
----
-description:
-  "Computing similarity of two sentences with google's BERT algorithm\u3002\u5229\u7528\
-  Bert\u8BA1\u7B97\u53E5\u5B50\u76F8\u4F3C\u5EA6\u3002\u8BED\u4E49\u76F8\u4F3C\u5EA6\
-  \u8BA1\u7B97\u3002\u6587\u672C\u76F8\u4F3C\u5EA6\u8BA1\u7B97\u3002"
+display_name: Bertsimilarity Brokenwind
+description: Computing similarity of two sentences with google's BERT algorithm。利用Bert计算句子相似度。语义相似度计算。文本相似度计算。
 github:
   - url: https://github.com/Brokenwind/BertSimilarity

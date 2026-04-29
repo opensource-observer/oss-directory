@@ -1,10 +1,9 @@
 version: 7
 name: rotorquant-scrya-com
-display_name: Rotorquant
----
+display_name: Rotorquant Scrya Com
 description:
-  "KV cache compression via block-diagonal rotation. Beats TurboQuant: better PPL (6.91
-  vs 7.07), 28% faster decode, 5.3x faster prefill, 44x fewer params. Drop-in llama.cpp
-  integration."
+  "KV cache compression via block-diagonal rotation. Beats TurboQuant:
+  better PPL (6.91 vs 7.07), 28% faster decode, 5.3x faster prefill, 44x fewer params.
+  Drop-in llama.cpp integration."
 github:
   - url: https://github.com/scrya-com/rotorquant

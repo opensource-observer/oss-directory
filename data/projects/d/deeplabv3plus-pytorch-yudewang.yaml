@@ -1,10 +1,9 @@
 version: 7
 name: deeplabv3plus-pytorch-yudewang
-display_name: Deeplabv3Plus Pytorch
----
+display_name: Deeplabv3Plus Pytorch Yudewang
 description:
-  Here is a pytorch implementation of deeplabv3+ supporting ResNet(79.155%) and Xception(79.945%).
-  Multi-scale & flip test and COCO dataset interface has been finished.
----
+  Here is a pytorch implementation of deeplabv3+ supporting ResNet(79.155%)
+  and Xception(79.945%). Multi-scale & flip test and COCO dataset interface has been
+  finished.
 github:
   - url: https://github.com/YudeWang/deeplabv3plus-pytorch

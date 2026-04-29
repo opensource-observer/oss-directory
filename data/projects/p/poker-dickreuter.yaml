@@ -1,11 +1,10 @@
 version: 7
 name: poker-dickreuter
-display_name: Poker
----
+display_name: Poker Dickreuter
 description:
-  "Fully functional Pokerbot that works on PartyPoker, PokerStars and GGPoker, scraping
-  tables with Open-CV (adaptable via gui) or neural network and making decisions based
-  on a genetic algorithm and montecarlo simulation for poker equity calculation. Binaries
-  can be downloaded with this link:"
+  "Fully functional Pokerbot that works on PartyPoker, PokerStars and GGPoker,
+  scraping tables with Open-CV (adaptable via gui) or neural network and making decisions
+  based on a genetic algorithm and montecarlo simulation for poker equity calculation.
+  Binaries can be downloaded with this link:"
 github:
   - url: https://github.com/dickreuter/Poker

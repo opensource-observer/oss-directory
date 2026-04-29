@@ -1,13 +1,10 @@
 version: 7
 name: skypaint-ai-diffusion-skyworkaigc
-display_name: Skypaint Ai Diffusion
----
+display_name: Skypaint Ai Diffusion Skyworkaigc
 description:
-  "\u57FA\u4E8EStable Diffusion\u4F18\u5316\u7684AI\u7ED8\u753B\u6A21\u578B\u3002\u652F\
-  \u6301\u8F93\u5165\u4E2D\u82F1\u6587\u6587\u672C\uFF0C\u53EF\u751F\u6210\u591A\u79CD\
-  \u73B0\u4EE3\u827A\u672F\u98CE\u683C\u7684\u9AD8\u8D28\u91CF\u56FE\u50CF\u3002|\
-  \ An optimized text-to-image model based on Stable Diffusion. Both Chinese and English\
-  \ text inputs are available to generate images. The model can generate high-quality\
-  \ images in several modern art styles."
+  基于Stable Diffusion优化的AI绘画模型。支持输入中英文文本，可生成多种现代艺术风格的高质量图像。| An optimized
+  text-to-image model based on Stable Diffusion. Both Chinese and English text inputs
+  are available to generate images. The model can generate high-quality images in
+  several modern art styles.
 github:
   - url: https://github.com/SkyWorkAIGC/SkyPaint-AI-Diffusion

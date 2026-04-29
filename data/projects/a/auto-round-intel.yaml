@@ -1,11 +1,9 @@
 version: 7
 name: auto-round-intel
-display_name: Auto Round
----
+display_name: Auto Round Intel
 description:
-  A SOTA quantization algorithm for high-accuracy low-bit LLM inference, seamlessly
-  optimized for CPU/XPU/CUDA, with multi-datatype support and full compatibility with
-  vLLM, SGLang, and Transformers.
----
+  A SOTA quantization algorithm for high-accuracy low-bit LLM inference,
+  seamlessly optimized for CPU/XPU/CUDA, with multi-datatype support and full compatibility
+  with vLLM, SGLang, and Transformers.
 github:
   - url: https://github.com/intel/auto-round

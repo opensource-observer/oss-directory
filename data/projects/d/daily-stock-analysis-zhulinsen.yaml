@@ -1,11 +1,8 @@
 version: 7
 name: daily-stock-analysis-zhulinsen
-display_name: Daily Stock Analysis
----
+display_name: Daily Stock Analysis Zhulinsen
 description:
-  "LLM\u9A71\u52A8\u7684 A/H/\u7F8E\u80A1\u667A\u80FD\u5206\u6790\u5668\uFF1A\u591A\u6570\
-  \u636E\u6E90\u884C\u60C5 + \u5B9E\u65F6\u65B0\u95FB + LLM\u51B3\u7B56\u4EEA\u8868\
-  \u76D8 + \u591A\u6E20\u9053\u63A8\u9001\uFF0C\u96F6\u6210\u672C\u5B9A\u65F6\u8FD0\
-  \u884C\uFF0C\u7EAF\u767D\u5AD6. LLM-powered stock analysis system for A/H/US markets."
+  LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered
+  stock analysis system for A/H/US markets.
 github:
   - url: https://github.com/ZhuLinsen/daily_stock_analysis

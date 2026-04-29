@@ -1,11 +1,9 @@
 version: 7
 name: gtsam-borglab
-display_name: Gtsam
----
+display_name: Gtsam Borglab
 description:
-  GTSAM is a library of C++ classes that implement smoothing and mapping (SAM) in robotics
-  and vision, using factor graphs and Bayes networks as the underlying computing paradigm
-  rather than sparse matrices.
----
+  GTSAM is a library of C++ classes that implement smoothing and mapping
+  (SAM) in robotics and vision, using factor graphs and Bayes networks as the underlying
+  computing paradigm rather than sparse matrices.
 github:
   - url: https://github.com/borglab/gtsam

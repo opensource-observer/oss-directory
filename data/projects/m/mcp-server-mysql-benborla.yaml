@@ -1,10 +1,9 @@
 version: 7
 name: mcp-server-mysql-benborla
-display_name: Mcp Server Mysql
----
+display_name: Mcp Server Mysql Benborla
 description:
-  A Model Context Protocol server that provides read-only access to MySQL databases.
-  This server enables LLMs to inspect database schemas and execute read-only queries.
----
+  A Model Context Protocol server that provides read-only access to MySQL
+  databases. This server enables LLMs to inspect database schemas and execute read-only
+  queries.
 github:
   - url: https://github.com/benborla/mcp-server-mysql

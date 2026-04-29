@@ -1,10 +1,6 @@
 version: 7
 name: orb-slam2-ssd-semantic-ewenwan
-display_name: Orb Slam2 Ssd Semantic
----
-description:
-  "\u52A8\u6001\u8BED\u4E49SLAM \u76EE\u6807\u68C0\u6D4B+VSLAM+\u5149\u6D41/\u591A\u89C6\
-  \u89D2\u51E0\u4F55\u52A8\u6001\u7269\u4F53\u68C0\u6D4B+octomap\u5730\u56FE+\u76EE\
-  \u6807\u6570\u636E\u5E93"
+display_name: Orb Slam2 Ssd Semantic Ewenwan
+description: 动态语义SLAM 目标检测+VSLAM+光流/多视角几何动态物体检测+octomap地图+目标数据库
 github:
   - url: https://github.com/Ewenwan/ORB_SLAM2_SSD_Semantic

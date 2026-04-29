@@ -1,10 +1,6 @@
 version: 7
 name: cnn-captcha-nickliqian
-display_name: Cnn Captcha
----
-description:
-  "use cnn recognize captcha by tensorflow. \u672C\u9879\u76EE\u9488\u5BF9\u5B57\u7B26\
-  \u578B\u56FE\u7247\u9A8C\u8BC1\u7801\uFF0C\u4F7F\u7528tensorflow\u5B9E\u73B0\u5377\
-  \u79EF\u795E\u7ECF\u7F51\u7EDC\uFF0C\u8FDB\u884C\u9A8C\u8BC1\u7801\u8BC6\u522B\u3002"
+display_name: Cnn Captcha Nickliqian
+description: use cnn recognize captcha by tensorflow. 本项目针对字符型图片验证码，使用tensorflow实现卷积神经网络，进行验证码识别。
 github:
   - url: https://github.com/nickliqian/cnn_captcha

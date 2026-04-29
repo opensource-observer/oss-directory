@@ -1,14 +1,13 @@
 version: 7
 name: stockpredictionai-borisbanushev
-display_name: Stockpredictionai
----
+display_name: Stockpredictionai Borisbanushev
 description:
-  In this noteboook I will create a complete process for predicting stock price movements.
-  Follow along and we will achieve some pretty good results. For that purpose we will
-  use a Generative Adversarial Network (GAN) with LSTM, a type of Recurrent Neural
-  Network, as generator, and a Convolutional Neural Network, CNN, as a discriminator.
-  We use LSTM for the obvious reason that we are trying to predict time series data.
-  Why we use GAN and specifically CNN as a discriminator? That is a good question
----
+  In this noteboook I will create a complete process for predicting stock
+  price movements. Follow along and we will achieve some pretty good results. For
+  that purpose we will use a Generative Adversarial Network (GAN) with LSTM, a type
+  of Recurrent Neural Network, as generator, and a Convolutional Neural Network, CNN,
+  as a discriminator. We use LSTM for the obvious reason that we are trying to predict
+  time series data. Why we use GAN and specifically CNN as a discriminator? That is
+  a good question
 github:
   - url: https://github.com/borisbanushev/stockpredictionai

@@ -1,10 +1,8 @@
 version: 7
 name: neural-compressor-intel
-display_name: Neural Compressor
----
+display_name: Neural Compressor Intel
 description:
-  SOTA low-bit LLM quantization (INT8/FP8/MXFP8/INT4/MXFP4/NVFP4) & sparsity; leading
-  model compression techniques on PyTorch, TensorFlow, and ONNX Runtime
----
+  SOTA low-bit LLM quantization (INT8/FP8/MXFP8/INT4/MXFP4/NVFP4) & sparsity;
+  leading model compression techniques on PyTorch, TensorFlow, and ONNX Runtime
 github:
   - url: https://github.com/intel/neural-compressor

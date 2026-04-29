@@ -1,13 +1,11 @@
 version: 7
 name: perpetual-perpetual-ml
-display_name: Perpetual
----
+display_name: Perpetual Perpetual Ml
 description:
-  Perpetual is a high-performance gradient boosting machine. It delivers optimal accuracy
-  in a single run without complex tuning through a simple budget parameter. It features
-  out-of-the-box support for causal ML, continual learning, native calibration, and
-  robust drift monitoring, along with Rust core and zero-copy bindings for Python
-  and R
----
+  Perpetual is a high-performance gradient boosting machine. It delivers
+  optimal accuracy in a single run without complex tuning through a simple budget
+  parameter. It features out-of-the-box support for causal ML, continual learning,
+  native calibration, and robust drift monitoring, along with Rust core and zero-copy
+  bindings for Python and R
 github:
   - url: https://github.com/perpetual-ml/perpetual

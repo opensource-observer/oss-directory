@@ -1,12 +1,6 @@
 version: 7
 name: pytorch-classification-lxztju
-display_name: Pytorch Classification
----
-description:
-  "\u5229\u7528pytorch\u5B9E\u73B0\u56FE\u50CF\u5206\u7C7B\u7684\u4E00\u4E2A\u5B8C\u6574\
-  \u7684\u4EE3\u7801\uFF0C\u8BAD\u7EC3\uFF0C\u9884\u6D4B\uFF0CTTA\uFF0C\u6A21\u578B\
-  \u878D\u5408\uFF0C\u6A21\u578B\u90E8\u7F72\uFF0Ccnn\u63D0\u53D6\u7279\u5F81\uFF0C\
-  svm\u6216\u8005\u968F\u673A\u68EE\u6797\u7B49\u8FDB\u884C\u5206\u7C7B\uFF0C\u6A21\
-  \u578B\u84B8\u998F\uFF0C\u4E00\u4E2A\u5B8C\u6574\u7684\u4EE3\u7801"
+display_name: Pytorch Classification Lxztju
+description: 利用pytorch实现图像分类的一个完整的代码，训练，预测，TTA，模型融合，模型部署，cnn提取特征，svm或者随机森林等进行分类，模型蒸馏，一个完整的代码
 github:
   - url: https://github.com/lxztju/pytorch_classification

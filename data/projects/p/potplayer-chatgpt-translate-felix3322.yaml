@@ -1,15 +1,10 @@
 version: 7
 name: potplayer-chatgpt-translate-felix3322
-display_name: Potplayer Chatgpt Translate
----
+display_name: Potplayer Chatgpt Translate Felix3322
 description:
-  "\u3010\u517C\u5BB9ollama\u548C\u5176\u4ED6\u6A21\u578B\u3011\u5C06\u4F55\u5177\u6709\
-  OpenAI API\u8C03\u7528\u65B9\u6CD5\u7684\u6A21\u578B\u96C6\u6210\u5230PotPlayer\u4E2D\
-  \u3002\u5B83\u4F7F\u4F60\u5728\u89C2\u770B\u89C6\u9891\u65F6\u80FD\u591F\u5B9E\u65F6\
-  \u7FFB\u8BD1\u5B57\u5E55\uFF0C\u4ECE\u800C\u6253\u7834\u8BED\u8A00\u969C\u788D\uFF0C\
-  \u63D0\u5347\u4F60\u7684\u89C2\u770B\u4F53\u9A8C\u3002 This real-time subtitle translation\
-  \ plugin integrates OpenAI's ChatGPT API (or any model with the same API calling\
-  \ method) into PotPlayer. It enables you to translate subtitles on-the-fly while\
-  \ watching videos."
+  【兼容ollama和其他模型】将何具有OpenAI API调用方法的模型集成到PotPlayer中。它使你在观看视频时能够实时翻译字幕，从而打破语言障碍，提升你的观看体验。
+  This real-time subtitle translation plugin integrates OpenAI's ChatGPT API (or any
+  model with the same API calling method) into PotPlayer. It enables you to translate
+  subtitles on-the-fly while watching videos.
 github:
   - url: https://github.com/Felix3322/PotPlayer_ChatGPT_Translate

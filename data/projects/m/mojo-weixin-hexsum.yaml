@@ -1,12 +1,6 @@
 version: 7
 name: mojo-weixin-hexsum
-display_name: Mojo Weixin
----
-description:
-  "\u4F7F\u7528Perl\u8BED\u8A00\uFF08\u4E0D\u4F1A\u6CA1\u5173\u7CFB\uFF09\u7F16\u5199\
-  \u7684\u4E2A\u4EBA\u8D26\u53F7\u5FAE\u4FE1/weixin/wechat\u5BA2\u6237\u7AEF\u6846\
-  \u67B6\uFF08\u975EGUI\uFF09\uFF0C\u53EF\u901A\u8FC7\u63D2\u4EF6\u63D0\u4F9B\u57FA\
-  \u4E8EHTTP\u534F\u8BAE\u7684api\u63A5\u53E3\u4F9B\u5176\u4ED6\u8BED\u8A00\u6216\u7CFB\
-  \u7EDF\u8C03\u7528"
+display_name: Mojo Weixin Hexsum
+description: 使用Perl语言（不会没关系）编写的个人账号微信/weixin/wechat客户端框架（非GUI），可通过插件提供基于HTTP协议的api接口供其他语言或系统调用
 github:
   - url: https://github.com/hexsum/Mojo-Weixin

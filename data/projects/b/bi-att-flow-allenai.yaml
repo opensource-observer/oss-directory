@@ -1,12 +1,10 @@
 version: 7
 name: bi-att-flow-allenai
-display_name: Bi Att Flow
----
+display_name: Bi Att Flow Allenai
 description:
-  Bi-directional Attention Flow (BiDAF) network is a multi-stage hierarchical process
-  that represents context at different levels of granularity and uses a bi-directional
+  Bi-directional Attention Flow (BiDAF) network is a multi-stage hierarchical
+  process that represents context at different levels of granularity and uses a bi-directional
   attention flow mechanism to achieve a query-aware context representation without
   early summarization.
----
 github:
   - url: https://github.com/allenai/bi-att-flow

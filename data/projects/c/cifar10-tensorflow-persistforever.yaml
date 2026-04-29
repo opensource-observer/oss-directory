@@ -1,11 +1,6 @@
 version: 7
 name: cifar10-tensorflow-persistforever
-display_name: Cifar10 Tensorflow
----
-description:
-  "cifar10\u6570\u636E\u96C6\u4E0A\u8FDB\u884C\u56FE\u7247\u5206\u7C7B\uFF0C\u57FA\u4E8E\
-  tensorflow\u6846\u67B6\uFF0C\u65E8\u5728\u63A2\u7A76\u4E0D\u540C\u7684\u6539\u8FDB\
-  \u7B56\u7565\u5BF9\u5206\u7C7B\u51C6\u786E\u7387\u7684\u5F71\u54CD\uFF0C\u5982\u4F55\
-  \u4E00\u6B65\u6B65\u5F97\u63D0\u9AD8\u51C6\u786E\u7387"
+display_name: Cifar10 Tensorflow Persistforever
+description: cifar10数据集上进行图片分类，基于tensorflow框架，旨在探究不同的改进策略对分类准确率的影响，如何一步步得提高准确率
 github:
   - url: https://github.com/persistforever/cifar10-tensorflow

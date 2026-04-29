@@ -1,12 +1,8 @@
 version: 7
 name: k-vault-katelya77
-display_name: K Vault
----
+display_name: K Vault Katelya77
 description:
-  "\u57FA\u4E8E Cloudflare \u7684 Serverless \u805A\u5408\u4E91\u76D8\u3002\u4EE5 Telegram\
-  \ \u4E3A\u6838\u5FC3\uFF08\u652F\u6301 Webhook \u76F4\u4F20\u4E0E 2GB \u6269\u5C55\
-  \uFF09\uFF0C\u5E76\u5168\u9762\u517C\u5BB9 R2\u3001S3\u3001Discord \u53CA HuggingFace\
-  \ \u7B49\u591A\u5B58\u50A8\u540E\u7AEF\u3002\u96F6\u6210\u672C\u6784\u5EFA\u4F60\
-  \u7684\u5168\u80FD\u79C1\u6709\u6570\u636E\u91D1\u5E93\u3002"
+  基于 Cloudflare 的 Serverless 聚合云盘。以 Telegram 为核心（支持 Webhook 直传与 2GB 扩展），并全面兼容
+  R2、S3、Discord 及 HuggingFace 等多存储后端。零成本构建你的全能私有数据金库。
 github:
   - url: https://github.com/katelya77/K-Vault

@@ -1,10 +1,8 @@
 version: 7
 name: comfyui-inpaint-cropandstitch-lquesada
-display_name: Comfyui Inpaint Cropandstitch
----
+display_name: Comfyui Inpaint Cropandstitch Lquesada
 description:
-  ComfyUI nodes to crop before sampling and stitch back after sampling that speed up
-  inpainting
----
+  ComfyUI nodes to crop before sampling and stitch back after sampling
+  that speed up inpainting
 github:
   - url: https://github.com/lquesada/ComfyUI-Inpaint-CropAndStitch

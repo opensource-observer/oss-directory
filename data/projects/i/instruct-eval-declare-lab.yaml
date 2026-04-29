@@ -1,10 +1,8 @@
 version: 7
 name: instruct-eval-declare-lab
-display_name: Instruct Eval
----
+display_name: Instruct Eval Declare Lab
 description:
-  This repository contains code to quantitatively evaluate instruction-tuned models
-  such as Alpaca and Flan-T5 on held-out tasks.
----
+  This repository contains code to quantitatively evaluate instruction-tuned
+  models such as Alpaca and Flan-T5 on held-out tasks.
 github:
   - url: https://github.com/declare-lab/instruct-eval

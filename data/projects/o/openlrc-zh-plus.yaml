@@ -1,10 +1,8 @@
 version: 7
 name: openlrc-zh-plus
-display_name: Openlrc
----
+display_name: Openlrc Zh Plus
 description:
-  "Transcribe and translate voice into LRC file using Whisper and LLMs (GPT, Claude,\
-  \ et,al). \u4F7F\u7528whisper\u548CLLM(GPT\uFF0CClaude\u7B49)\u6765\u8F6C\u5F55\u3001\
-  \u7FFB\u8BD1\u4F60\u7684\u97F3\u9891\u4E3A\u5B57\u5E55\u6587\u4EF6\u3002"
+  Transcribe and translate voice into LRC file using Whisper and LLMs (GPT,
+  Claude, et,al). 使用whisper和LLM(GPT，Claude等)来转录、翻译你的音频为字幕文件。
 github:
   - url: https://github.com/zh-plus/openlrc

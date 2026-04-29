@@ -1,13 +1,8 @@
 version: 7
 name: unity-ai-chat-toolkit-zhangliwei7758
-display_name: Unity Ai Chat Toolkit
----
+display_name: Unity Ai Chat Toolkit Zhangliwei7758
 description:
-  "\u4F7F\u7528unity\u5B9E\u73B0AI\u804A\u5929\u76F8\u5173\u529F\u80FD\u3002\u76EE\u524D\
-  \u8FD9\u4E2A\u5E93\u5305\u542B\u4E86\u5BF9chatgpt\u3001chatglm\u7B49\u5927\u8BED\
-  \u8A00\u6A21\u578B\u7684api\u8C03\u7528\u7684\u4EE3\u7801\u5B9E\u73B0\u4EE5\u53CA\
-  \u5B9E\u73B0\u4E86\u5FAE\u8F6FAzure\u4EE5\u53CA\u767E\u5EA6AI\u7684\u8BED\u97F3\u670D\
-  \u52A1\u529F\u80FD\uFF0C\u8BED\u97F3\u670D\u52A1\u5747\u91C7\u7528web api\u5B9E\u73B0\
-  \uFF0C\u652F\u6301Windows/WebGL/Android\u7B49\u5E73\u53F0"
+  使用unity实现AI聊天相关功能。目前这个库包含了对chatgpt、chatglm等大语言模型的api调用的代码实现以及实现了微软Azure以及百度AI的语音服务功能，语音服务均采用web
+  api实现，支持Windows/WebGL/Android等平台
 github:
   - url: https://github.com/zhangliwei7758/unity-AI-Chat-Toolkit

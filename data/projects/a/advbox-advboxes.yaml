@@ -1,11 +1,10 @@
 version: 7
 name: advbox-advboxes
-display_name: Advbox
----
+display_name: Advbox Advboxes
 description:
-  "Advbox is a toolbox to generate adversarial examples that fool neural networks in\
-  \ PaddlePaddle\u3001PyTorch\u3001Caffe2\u3001MxNet\u3001Keras\u3001TensorFlow and\
-  \ Advbox can benchmark the robustness of machine learning models.  Advbox give a\
-  \ command line tool to generate adversarial examples with Zero-Coding."
+  Advbox is a toolbox to generate adversarial examples that fool neural
+  networks in PaddlePaddle、PyTorch、Caffe2、MxNet、Keras、TensorFlow and Advbox can benchmark
+  the robustness of machine learning models.  Advbox give a command line tool to generate
+  adversarial examples with Zero-Coding.
 github:
   - url: https://github.com/advboxes/AdvBox

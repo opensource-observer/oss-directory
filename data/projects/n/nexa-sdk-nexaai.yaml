@@ -1,12 +1,10 @@
 version: 7
 name: nexa-sdk-nexaai
-display_name: Nexa Sdk
----
+display_name: Nexa Sdk Nexaai
 description:
-  Run frontier LLMs and VLMs with day-0 model support across GPU, NPU, and CPU, with
-  comprehensive runtime coverage for PC (Python/C++), mobile (Android & iOS), and
-  Linux/IoT (Arm64 & x86 Docker). Supporting OpenAI GPT-OSS, IBM Granite-4, Qwen-3-VL,
-  Gemma-3n, Ministral-3, and more.
----
+  Run frontier LLMs and VLMs with day-0 model support across GPU, NPU,
+  and CPU, with comprehensive runtime coverage for PC (Python/C++), mobile (Android
+  & iOS), and Linux/IoT (Arm64 & x86 Docker). Supporting OpenAI GPT-OSS, IBM Granite-4,
+  Qwen-3-VL, Gemma-3n, Ministral-3, and more.
 github:
   - url: https://github.com/NexaAI/nexa-sdk

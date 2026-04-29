@@ -1,10 +1,8 @@
 version: 7
 name: myosuite-myohub
-display_name: Myosuite
----
+display_name: Myosuite Myohub
 description:
-  MyoSuite is a collection of environments/tasks to be solved by musculoskeletal models
-  simulated with the MuJoCo physics engine and wrapped in the OpenAI gym API.
----
+  MyoSuite is a collection of environments/tasks to be solved by musculoskeletal
+  models simulated with the MuJoCo physics engine and wrapped in the OpenAI gym API.
 github:
   - url: https://github.com/MyoHub/myosuite

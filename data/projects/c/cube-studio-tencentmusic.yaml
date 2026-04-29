@@ -1,20 +1,8 @@
 version: 7
 name: cube-studio-tencentmusic
-display_name: Cube Studio
----
+display_name: Cube Studio Tencentmusic
 description:
-  "cube studio\u5F00\u6E90\u4E91\u539F\u751F\u4E00\u7AD9\u5F0F\u673A\u5668\u5B66\u4E60\
-  /\u6DF1\u5EA6\u5B66\u4E60/\u5927\u6A21\u578BAI\u5E73\u53F0\uFF0Cmlops\u7B97\u6CD5\
-  \u94FE\u8DEF\u5168\u6D41\u7A0B\uFF0C\u7B97\u529B\u79DF\u8D41\u5E73\u53F0\uFF0Cnotebook\u5728\
-  \u7EBF\u5F00\u53D1\uFF0C\u62D6\u62C9\u62FD\u4EFB\u52A1\u6D41pipeline\u7F16\u6392\
-  \uFF0C\u591A\u673A\u591A\u5361\u5206\u5E03\u5F0F\u8BAD\u7EC3\uFF0C\u8D85\u53C2\u641C\
-  \u7D22\uFF0C\u63A8\u7406\u670D\u52A1VGPU\u865A\u62DF\u5316\uFF0C\u8FB9\u7F18\u8BA1\
-  \u7B97\uFF0C\u6807\u6CE8\u5E73\u53F0\u81EA\u52A8\u5316\u6807\u6CE8\uFF0Cdeepseek\u7B49\
-  \u5927\u6A21\u578Bsft\u5FAE\u8C03/\u5956\u52B1\u6A21\u578B/\u5F3A\u5316\u5B66\u4E60\
-  \u8BAD\u7EC3\uFF0Cvllm/ollama/mindie\u5927\u6A21\u578B\u591A\u673A\u63A8\u7406\uFF0C\
-  \u79C1\u6709\u77E5\u8BC6\u5E93\uFF0CAI\u6A21\u578B\u5E02\u573A\uFF0C\u652F\u6301\
-  \u56FD\u4EA7cpu/gpu/npu \u6607\u817E\u751F\u6001\uFF0C\u652F\u6301RDMA\uFF0C\u652F\
-  \u6301pytorch/tf/mxnet/deepspeed/paddle/colossalai/horovod/ray/volcano\u7B49\u5206\
-  \u5E03\u5F0F"
+  cube studio开源云原生一站式机器学习/深度学习/大模型AI平台，mlops算法链路全流程，算力租赁平台，notebook在线开发，拖拉拽任务流pipeline编排，多机多卡分布式训练，超参搜索，推理服务VGPU虚拟化，边缘计算，标注平台自动化标注，deepseek等大模型sft微调/奖励模型/强化学习训练，vllm/ollama/mindie大模型多机推理，私有知识库，AI模型市场，支持国产cpu/gpu/npu
+  昇腾生态，支持RDMA，支持pytorch/tf/mxnet/deepspeed/paddle/colossalai/horovod/ray/volcano等分布式
 github:
   - url: https://github.com/tencentmusic/cube-studio

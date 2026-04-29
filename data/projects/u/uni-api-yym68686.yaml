@@ -1,11 +1,10 @@
 version: 7
 name: uni-api-yym68686
-display_name: Uni Api
----
+display_name: Uni Api Yym68686
 description:
-  "This is a project that unifies the management of LLM APIs. It can call multiple backend
-  services through a unified API interface, convert them to the OpenAI format uniformly,
-  and support load balancing. Currently supported backend services include: OpenAI,
-  Anthropic, DeepBricks, OpenRouter, Gemini, Vertex, etc."
+  "This is a project that unifies the management of LLM APIs. It can call
+  multiple backend services through a unified API interface, convert them to the OpenAI
+  format uniformly, and support load balancing. Currently supported backend services
+  include: OpenAI, Anthropic, DeepBricks, OpenRouter, Gemini, Vertex, etc."
 github:
   - url: https://github.com/yym68686/uni-api

@@ -1,14 +1,10 @@
 version: 7
 name: alpaca-cot-phoebussi
-display_name: Alpaca Cot
----
+display_name: Alpaca Cot Phoebussi
 description:
-  "We unified the interfaces of instruction-tuning data (e.g., CoT data), multiple LLMs\
-  \ and parameter-efficient methods (e.g., lora, p-tuning) together for easy use.\
-  \ We welcome open-source enthusiasts to initiate any meaningful PR on this repo\
-  \ and integrate as many LLM related technologies as possible. \u6211\u4EEC\u6253\
-  \u9020\u4E86\u65B9\u4FBF\u7814\u7A76\u4EBA\u5458\u4E0A\u624B\u548C\u4F7F\u7528\u5927\
-  \u6A21\u578B\u7B49\u5FAE\u8C03\u5E73\u53F0\uFF0C\u6211\u4EEC\u6B22\u8FCE\u5F00\u6E90\
-  \u7231\u597D\u8005\u53D1\u8D77\u4EFB\u4F55\u6709\u610F\u4E49\u7684pr\uFF01"
+  We unified the interfaces of instruction-tuning data (e.g., CoT data),
+  multiple LLMs and parameter-efficient methods (e.g., lora, p-tuning) together for
+  easy use. We welcome open-source enthusiasts to initiate any meaningful PR on this
+  repo and integrate as many LLM related technologies as possible. 我们打造了方便研究人员上手和使用大模型等微调平台，我们欢迎开源爱好者发起任何有意义的pr！
 github:
   - url: https://github.com/PhoebusSi/Alpaca-CoT

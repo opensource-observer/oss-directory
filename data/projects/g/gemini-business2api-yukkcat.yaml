@@ -1,12 +1,9 @@
 version: 7
 name: gemini-business2api-yukkcat
-display_name: Gemini Business2Api
----
+display_name: Gemini Business2Api Yukkcat
 description:
-  "OpenAI-compatible API for Gemini Business with multi-account load balancing and multimodal\
-  \ capabilities (image/video generation, file parsing) | \u5C06 Gemini Business \u8F6C\
-  \u4E3A OpenAI \u517C\u5BB9\u63A5\u53E3\uFF0C\u652F\u6301\u591A\u8D26\u6237\u8D1F\
-  \u8F7D\u5747\u8861\u53CA\u591A\u6A21\u6001\u80FD\u529B\uFF08\u56FE\u50CF\u751F\u6210\
-  \u3001\u89C6\u9891\u751F\u6210\u3001\u89E3\u6790\u6587\u4EF6\uFF09"
+  OpenAI-compatible API for Gemini Business with multi-account load balancing
+  and multimodal capabilities (image/video generation, file parsing) | 将 Gemini Business
+  转为 OpenAI 兼容接口，支持多账户负载均衡及多模态能力（图像生成、视频生成、解析文件）
 github:
   - url: https://github.com/yukkcat/gemini-business2api

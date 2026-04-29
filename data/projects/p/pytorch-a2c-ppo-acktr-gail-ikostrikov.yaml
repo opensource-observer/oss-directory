@@ -1,11 +1,10 @@
 version: 7
 name: pytorch-a2c-ppo-acktr-gail-ikostrikov
-display_name: Pytorch A2C Ppo Acktr Gail
----
+display_name: Pytorch A2C Ppo Acktr Gail Ikostrikov
 description:
-  PyTorch implementation of Advantage Actor Critic (A2C), Proximal Policy Optimization
-  (PPO), Scalable trust-region method for deep reinforcement learning using Kronecker-factored
-  approximation (ACKTR) and Generative Adversarial Imitation Learning (GAIL).
----
+  PyTorch implementation of Advantage Actor Critic (A2C), Proximal Policy
+  Optimization (PPO), Scalable trust-region method for deep reinforcement learning
+  using Kronecker-factored approximation (ACKTR) and Generative Adversarial Imitation
+  Learning (GAIL).
 github:
   - url: https://github.com/ikostrikov/pytorch-a2c-ppo-acktr-gail

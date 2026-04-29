@@ -1,15 +1,8 @@
 version: 7
 name: ctai-xming521
-display_name: Ctai
----
+display_name: Ctai Xming521
 description:
-  "\u57FA\u4E8E\u6DF1\u5EA6\u5B66\u4E60\u7684\u80BF\u7624\u8F85\u52A9\u8BCA\u65AD\u7CFB\
-  \u7EDF\uFF0C\u4EE5\u56FE\u50CF\u5206\u5272\u4E3A\u6838\u5FC3\uFF0C\u5229\u7528\u4EBA\
-  \u5DE5\u667A\u80FD\u5B8C\u6210\u80BF\u7624\u533A\u57DF\u7684\u8BC6\u522B\u52FE\u753B\
-  \u5E76\u63D0\u4F9B\u80BF\u7624\u533A\u57DF\u7684\u7279\u5F81\u6765\u8F85\u52A9\u533B\
-  \u751F\u8FDB\u884C\u8BCA\u65AD\u3002\u6709\u5B8C\u6574\u7684\u6A21\u578B\u6784\u5EFA\
-  \u3001\u540E\u7AEF\u67B6\u8BBE\u3001\u5DE5\u4E1A\u7EA7\u90E8\u7F72\u548C\u524D\u7AEF\
-  \u8BBF\u95EE\u529F\u80FD\u3002TensorRT\u3001PyTorch \u3001OpenCV \u3001Flask\u3001\
-  Vue"
+  基于深度学习的肿瘤辅助诊断系统，以图像分割为核心，利用人工智能完成肿瘤区域的识别勾画并提供肿瘤区域的特征来辅助医生进行诊断。有完整的模型构建、后端架设、工业级部署和前端访问功能。TensorRT、PyTorch
+  、OpenCV 、Flask、Vue
 github:
   - url: https://github.com/xming521/CTAI

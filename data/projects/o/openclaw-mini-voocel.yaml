@@ -1,11 +1,6 @@
 version: 7
 name: openclaw-mini-voocel
-display_name: Openclaw Mini
----
-description:
-  "\U0001F99E OpenClaw \u6838\u5FC3\u67B6\u6784\u7684\u6781\u7B80\u590D\u73B0\uFF0C\u6DB5\
-  \u76D6 sessionKey \u4F1A\u8BDD\u57DF\u3001\u961F\u5217\u4E32\u884C\u3001\u5DE5\u5177\
-  \u5316\u8BB0\u5FC6\u68C0\u7D22\u3001\u6309\u9700\u4E0A\u4E0B\u6587\u52A0\u8F7D\u3001\
-  \u53EF\u6269\u5C55\u6280\u80FD\u4E0E\u4E3B\u52A8\u5FC3\u8DF3\u5524\u9192\u673A\u5236"
+display_name: Openclaw Mini Voocel
+description: 🦞 OpenClaw 核心架构的极简复现，涵盖 sessionKey 会话域、队列串行、工具化记忆检索、按需上下文加载、可扩展技能与主动心跳唤醒机制
 github:
   - url: https://github.com/voocel/openclaw-mini

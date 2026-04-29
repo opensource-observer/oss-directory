@@ -1,10 +1,8 @@
 version: 7
 name: chatgpt-vue-lianginx
-display_name: Chatgpt Vue
----
+display_name: Chatgpt Vue Lianginx
 description:
-  "\u4F7F\u7528 Vue3 + Typescript + Tailwind CSS \u6846\u67B6\uFF0C\u8C03\u7528 OpenAI\
-  \ \u7684 gpt-3.5-turbo \u6A21\u578B API \u5B9E\u73B0\u7684\u7B80\u5355\u804A\u5929\
-  \u5BF9\u8BDD\uFF0C\u652F\u6301\u8FDE\u7EED\u5BF9\u8BDD\u3002"
+  使用 Vue3 + Typescript + Tailwind CSS 框架，调用 OpenAI 的 gpt-3.5-turbo 模型 API
+  实现的简单聊天对话，支持连续对话。
 github:
   - url: https://github.com/lianginx/chatgpt-vue

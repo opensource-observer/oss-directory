@@ -1,10 +1,9 @@
 version: 7
 name: asr-llm-tts-abexit
-display_name: Asr Llm Tts
----
+display_name: Asr Llm Tts Abexit
 description:
-  "This is a speech interaction system built on an open-source model, integrating ASR,
-  LLM, and TTS in sequence. The ASR model is SenceVoice, the LLM models are QWen2.5-0.5B/1.5B,
+  "This is a speech interaction system built on an open-source model, integrating
+  ASR, LLM, and TTS in sequence. The ASR model is SenceVoice, the LLM models are QWen2.5-0.5B/1.5B,
   and there are three TTS models: CosyVoice, Edge-TTS, and pyttsx3"
 github:
   - url: https://github.com/ABexit/ASR-LLM-TTS

@@ -1,10 +1,8 @@
 version: 7
 name: turboquant-pytorch-tonbistudio
-display_name: Turboquant Pytorch
----
+display_name: Turboquant Pytorch Tonbistudio
 description:
-  From-scratch PyTorch implementation of Google's TurboQuant (ICLR 2026) for LLM KV
-  cache compression. 5x compression at 3-bit with 99.5% attention fidelity.
----
+  From-scratch PyTorch implementation of Google's TurboQuant (ICLR 2026)
+  for LLM KV cache compression. 5x compression at 3-bit with 99.5% attention fidelity.
 github:
   - url: https://github.com/tonbistudio/turboquant-pytorch

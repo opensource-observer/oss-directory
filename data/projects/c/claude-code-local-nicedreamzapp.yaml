@@ -1,11 +1,9 @@
 version: 7
 name: claude-code-local-nicedreamzapp
-display_name: Claude Code Local
----
+display_name: Claude Code Local Nicedreamzapp
 description:
-  Run Claude Code 100% on-device with local AI on Apple Silicon. MLX-native Anthropic-API
-  server, 65 tok/s Qwen 3.5 122B, Llama 3.3 70B, Gemma 4 31B. Private, offline, airgap-ready.
-  Built for NDA / legal / healthcare workflows.
----
+  Run Claude Code 100% on-device with local AI on Apple Silicon. MLX-native
+  Anthropic-API server, 65 tok/s Qwen 3.5 122B, Llama 3.3 70B, Gemma 4 31B. Private,
+  offline, airgap-ready. Built for NDA / legal / healthcare workflows.
 github:
   - url: https://github.com/nicedreamzapp/claude-code-local

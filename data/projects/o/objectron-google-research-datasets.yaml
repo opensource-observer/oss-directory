@@ -1,14 +1,13 @@
 version: 7
 name: objectron-google-research-datasets
-display_name: Objectron
----
+display_name: Objectron Google Research Datasets
 description:
-  "Objectron is a dataset of short, object-centric video clips. In addition, the videos\
-  \ also contain AR session metadata including camera poses, sparse point-clouds and\
-  \ planes. In each video, the camera moves around and above the object and captures\
-  \ it from different views. Each object is annotated with a 3D bounding box. The\
-  \ 3D bounding box describes the object\u2019s position, orientation, and dimensions.\
-  \ The dataset contains about 15K annotated video clips and 4M annotated images in\
-  \ the following cat"
+  Objectron is a dataset of short, object-centric video clips. In addition,
+  the videos also contain AR session metadata including camera poses, sparse point-clouds
+  and planes. In each video, the camera moves around and above the object and captures
+  it from different views. Each object is annotated with a 3D bounding box. The 3D
+  bounding box describes the object’s position, orientation, and dimensions. The dataset
+  contains about 15K annotated video clips and 4M annotated images in the following
+  cat
 github:
   - url: https://github.com/google-research-datasets/Objectron

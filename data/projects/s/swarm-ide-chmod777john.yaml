@@ -1,12 +1,9 @@
 version: 7
 name: swarm-ide-chmod777john
-display_name: Swarm Ide
----
+display_name: Swarm Ide Chmod777John
 description:
-  "\u4E3A Agent Swarm \u6253\u9020\u7684 IDE \uFF0C\u652F\u6301 Kimi-2.5, GLM-4.7 \u7B49\
-  \uFF08\u5373\u4F7F\u4E0D\u50CF K2.5 \u90A3\u6837\u7ECF\u8FC7\u5F3A\u5316\u5B66\u4E60\
-  \u7684\u6A21\u578B\u4E5F\u80FD\u7528\uFF09An IDE built for Agent Swarms, supporting\
-  \ Kimi-2.5, GLM-4.7, and more (compatible with models even without RL-reinforcement\
-  \ like K2.5)."
+  为 Agent Swarm 打造的 IDE ，支持 Kimi-2.5, GLM-4.7 等（即使不像 K2.5 那样经过强化学习的模型也能用）An
+  IDE built for Agent Swarms, supporting Kimi-2.5, GLM-4.7, and more (compatible with
+  models even without RL-reinforcement like K2.5).
 github:
   - url: https://github.com/chmod777john/swarm-ide

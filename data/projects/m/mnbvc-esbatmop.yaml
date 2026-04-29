@@ -1,16 +1,6 @@
 version: 7
 name: mnbvc-esbatmop
-display_name: Mnbvc
----
-description:
-  "MNBVC(Massive Never-ending BT Vast Chinese corpus)\u8D85\u5927\u89C4\u6A21\u4E2D\u6587\
-  \u8BED\u6599\u96C6\u3002\u5BF9\u6807chatGPT\u8BAD\u7EC3\u768440T\u6570\u636E\u3002\
-  MNBVC\u6570\u636E\u96C6\u4E0D\u4F46\u5305\u62EC\u4E3B\u6D41\u6587\u5316\uFF0C\u4E5F\
-  \u5305\u62EC\u5404\u4E2A\u5C0F\u4F17\u6587\u5316\u751A\u81F3\u706B\u661F\u6587\u7684\
-  \u6570\u636E\u3002MNBVC\u6570\u636E\u96C6\u5305\u62EC\u65B0\u95FB\u3001\u4F5C\u6587\
-  \u3001\u5C0F\u8BF4\u3001\u4E66\u7C4D\u3001\u6742\u5FD7\u3001\u8BBA\u6587\u3001\u53F0\
-  \u8BCD\u3001\u5E16\u5B50\u3001wiki\u3001\u53E4\u8BD7\u3001\u6B4C\u8BCD\u3001\u5546\
-  \u54C1\u4ECB\u7ECD\u3001\u7B11\u8BDD\u3001\u7CD7\u4E8B\u3001\u804A\u5929\u8BB0\u5F55\
-  \u7B49\u4E00\u5207\u5F62\u5F0F\u7684\u7EAF\u6587\u672C\u4E2D\u6587\u6570\u636E\u3002"
+display_name: Mnbvc Esbatmop
+description: MNBVC(Massive Never-ending BT Vast Chinese corpus)超大规模中文语料集。对标chatGPT训练的40T数据。MNBVC数据集不但包括主流文化，也包括各个小众文化甚至火星文的数据。MNBVC数据集包括新闻、作文、小说、书籍、杂志、论文、台词、帖子、wiki、古诗、歌词、商品介绍、笑话、糗事、聊天记录等一切形式的纯文本中文数据。
 github:
   - url: https://github.com/esbatmop/MNBVC

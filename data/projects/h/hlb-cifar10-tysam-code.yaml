@@ -1,10 +1,8 @@
 version: 7
 name: hlb-cifar10-tysam-code
-display_name: Hlb Cifar10
----
+display_name: Hlb Cifar10 Tysam Code
 description:
-  Train to 94% on CIFAR-10 in <6.3 seconds on a single A100. Or ~95.79% in ~110 seconds
-  (or less!)
----
+  Train to 94% on CIFAR-10 in <6.3 seconds on a single A100. Or ~95.79%
+  in ~110 seconds (or less!)
 github:
   - url: https://github.com/tysam-code/hlb-CIFAR10

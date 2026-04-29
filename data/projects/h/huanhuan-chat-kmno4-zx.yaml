@@ -1,11 +1,6 @@
 version: 7
 name: huanhuan-chat-kmno4-zx
-display_name: Huanhuan Chat
----
-description:
-  "Chat-\u7504\u5B1B\u662F\u5229\u7528\u300A\u7504\u5B1B\u4F20\u300B\u5267\u672C\u4E2D\
-  \u6240\u6709\u5173\u4E8E\u7504\u5B1B\u7684\u53F0\u8BCD\u548C\u8BED\u53E5\uFF0C\u57FA\
-  \u4E8EChatGLM2\u8FDB\u884CLoRA\u5FAE\u8C03\u5F97\u5230\u7684\u6A21\u4EFF\u7504\u5B1B\
-  \u8BED\u6C14\u7684\u804A\u5929\u8BED\u8A00\u6A21\u578B\u3002"
+display_name: Huanhuan Chat Kmno4 Zx
+description: Chat-甄嬛是利用《甄嬛传》剧本中所有关于甄嬛的台词和语句，基于ChatGLM2进行LoRA微调得到的模仿甄嬛语气的聊天语言模型。
 github:
   - url: https://github.com/KMnO4-zx/huanhuan-chat

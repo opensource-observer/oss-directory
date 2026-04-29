@@ -1,14 +1,10 @@
 version: 7
 name: ai-tools-mng-cubezhao
-display_name: Ai Tools Mng
----
+display_name: Ai Tools Mng Cubezhao
 description:
-  "\u57FA\u4E8E Tauri \u7684\u8DE8\u5E73\u53F0\u684C\u9762\u5E94\u7528\uFF0C\u7528\u4E8E\
-  \u7BA1\u7406\u591A\u5E73\u53F0 AI \u8D26\u53F7 Augment\u3001Antigravity\u3001Windsurf\u3001\
-  Cursor\u3001OpenAI\uFF08Codex\u3001API\uFF09\u3001Claude Code \u4E0E API \u8D26\u53F7\
-  \uFF0C\u4EE5\u53CA\u8BA2\u9605\u3001\u4E66\u7B7E\u7BA1\u7406\u4E0E\u90AE\u7BB1\u7BA1\
-  \u7406\u3002A Tauri-based cross-platform desktop app for managing multi-platform\
-  \ AI accounts (Augment, Antigravity, Windsurf, Cursor, OpenAI Codex/API, Claude\
-  \ Code and API), plus subscriptions, bookmarks, and email management."
+  基于 Tauri 的跨平台桌面应用，用于管理多平台 AI 账号 Augment、Antigravity、Windsurf、Cursor、OpenAI（Codex、API）、Claude
+  Code 与 API 账号，以及订阅、书签管理与邮箱管理。A Tauri-based cross-platform desktop app for managing
+  multi-platform AI accounts (Augment, Antigravity, Windsurf, Cursor, OpenAI Codex/API,
+  Claude Code and API), plus subscriptions, bookmarks, and email management.
 github:
   - url: https://github.com/cubezhao/ai-tools-mng

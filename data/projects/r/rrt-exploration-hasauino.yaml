@@ -1,11 +1,9 @@
 version: 7
 name: rrt-exploration-hasauino
-display_name: Rrt Exploration
----
+display_name: Rrt Exploration Hasauino
 description:
-  A ROS package that implements a multi-robot RRT-based map exploration algorithm. It
-  also has the image-based frontier detection that uses image processing to extract
-  frontier points.
----
+  A ROS package that implements a multi-robot RRT-based map exploration
+  algorithm. It also has the image-based frontier detection that uses image processing
+  to extract frontier points.
 github:
   - url: https://github.com/hasauino/rrt_exploration

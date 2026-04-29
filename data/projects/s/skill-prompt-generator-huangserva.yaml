@@ -1,13 +1,8 @@
 version: 7
 name: skill-prompt-generator-huangserva
-display_name: Skill Prompt Generator
----
+display_name: Skill Prompt Generator Huangserva
 description:
-  "\u8FD9\u662F\u4E00\u4E2A\u57FA\u4E8EClaude Skill\u7684**AI\u4EBA\u50CFPrompt\u751F\
-  \u6210\u7CFB\u7EDF**\uFF0C\u80FD\u591F\u4ECE\u7279\u5F81\u5E93\u4E2D\u667A\u80FD\
-  \u7EC4\u5408\u751F\u6210\u9AD8\u8D28\u91CF\u7684\u4EBA\u50CF\u63CF\u8FF0Prompt\uFF0C\
-  \u5E76\u5177\u5907\u81EA\u52A8\u5B66\u4E60\u548C\u5E93\u6269\u5C55\u80FD\u529B\u3002\
-  \ \u6838\u5FC3\u80FD\u529B: Prompt\u751F\u6210\u3001\u7279\u5F81\u63D0\u53D6\u3001\
-  \u81EA\u52A8\u5B66\u4E60\u3001\u667A\u80FD\u5BA1\u6838\u3001\u7248\u672C\u63A7\u5236"
+  "这是一个基于Claude Skill的**AI人像Prompt生成系统**，能够从特征库中智能组合生成高质量的人像描述Prompt，并具备自动学习和库扩展能力。
+  核心能力: Prompt生成、特征提取、自动学习、智能审核、版本控制"
 github:
   - url: https://github.com/huangserva/skill-prompt-generator

@@ -1,10 +1,8 @@
 version: 7
 name: comfyui-segment-anything-storyicon
-display_name: Comfyui Segment Anything
----
+display_name: Comfyui Segment Anything Storyicon
 description:
-  Based on GroundingDino and SAM, use semantic strings to segment any element in an
-  image. The comfyui version of sd-webui-segment-anything.
----
+  Based on GroundingDino and SAM, use semantic strings to segment any element
+  in an image. The comfyui version of sd-webui-segment-anything.
 github:
   - url: https://github.com/storyicon/comfyui_segment_anything

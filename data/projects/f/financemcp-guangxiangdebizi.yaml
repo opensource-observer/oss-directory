@@ -1,16 +1,6 @@
 version: 7
 name: financemcp-guangxiangdebizi
-display_name: Financemcp
----
-description:
-  "\u8FD9\u662F\u4E00\u4E2A\u91D1\u878D\u9886\u57DF\u76F8\u5173\u7684mcp,\u672C\u9879\
-  \u76EE\u901A\u8FC7\u96C6\u6210 Tushare API \u548C Binance API \u4E3A\u8BED\u8A00\
-  \u6A21\u578B\uFF08\u5982Claude\uFF09\u63D0\u4F9B\u5168\u9762\u7684\u5B9E\u65F6\u91D1\
-  \u878D\u6570\u636E\u8BBF\u95EE\u80FD\u529B\uFF0C\u652F\u6301\u80A1\u7968\u3001\u57FA\
-  \u91D1\u3001\u503A\u5238\u3001\u5B8F\u89C2\u7ECF\u6D4E\u6307\u6807\u3001\u7A33\u5B9A\
-  \u5E01\u3001\u865A\u62DF\u8D27\u5E01\u7B49\u591A\u7EF4\u5EA6\u91D1\u878D\u6570\u636E\
-  \u5206\u6790\u3002\u5176\u4E2D\u4E5F\u5305\u542B\u4E86\u91D1\u878D\u6570\u636E\u67E5\
-  \u8BE2\u3001\u8D22\u7ECF\u65B0\u95FB\u67E5\u8BE2\u3001\u56FD\u5BB6\u7EDF\u8BA1\u5C40\
-  \u6570\u636E\u67E5\u8BE2\u7B49"
+display_name: Financemcp Guangxiangdebizi
+description: 这是一个金融领域相关的mcp,本项目通过集成 Tushare API 和 Binance API 为语言模型（如Claude）提供全面的实时金融数据访问能力，支持股票、基金、债券、宏观经济指标、稳定币、虚拟货币等多维度金融数据分析。其中也包含了金融数据查询、财经新闻查询、国家统计局数据查询等
 github:
   - url: https://github.com/guangxiangdebizi/FinanceMCP

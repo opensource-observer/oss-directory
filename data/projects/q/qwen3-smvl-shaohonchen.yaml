@@ -1,9 +1,6 @@
 version: 7
 name: qwen3-smvl-shaohonchen
-display_name: Qwen3 Smvl
----
-description:
-  "\u5C06SmolVLM2\u7684\u89C6\u89C9\u5934\u4E0EQwen3-0.6B\u6A21\u578B\u8FDB\u884C\u4E86\
-  \u62FC\u63A5\u5FAE\u8C03"
+display_name: Qwen3 Smvl Shaohonchen
+description: 将SmolVLM2的视觉头与Qwen3-0.6B模型进行了拼接微调
 github:
   - url: https://github.com/ShaohonChen/Qwen3-SmVL

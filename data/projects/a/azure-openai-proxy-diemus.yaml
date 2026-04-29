@@ -1,10 +1,8 @@
 version: 7
 name: azure-openai-proxy-diemus
-display_name: Azure Openai Proxy
----
+display_name: Azure Openai Proxy Diemus
 description:
-  A proxy for Azure OpenAI API that can convert an OpenAI request into an Azure OpenAI
-  request.
----
+  A proxy for Azure OpenAI API that can convert an OpenAI request into
+  an Azure OpenAI request.
 github:
   - url: https://github.com/diemus/azure-openai-proxy

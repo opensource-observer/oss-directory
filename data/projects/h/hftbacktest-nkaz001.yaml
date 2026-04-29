@@ -1,12 +1,10 @@
 version: 7
 name: hftbacktest-nkaz001
-display_name: Hftbacktest
----
+display_name: Hftbacktest Nkaz001
 description:
-  Free, open source, a high frequency trading and market making backtesting and trading
-  bot, which accounts for limit orders, queue positions, and latencies, utilizing
-  full tick data for trades and order books(Level-2 and Level-3), with real-world
+  Free, open source, a high frequency trading and market making backtesting
+  and trading bot, which accounts for limit orders, queue positions, and latencies,
+  utilizing full tick data for trades and order books(Level-2 and Level-3), with real-world
   crypto trading examples for Binance and Bybit
----
 github:
   - url: https://github.com/nkaz001/hftbacktest

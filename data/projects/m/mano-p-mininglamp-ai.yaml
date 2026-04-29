@@ -1,15 +1,9 @@
 version: 7
 name: mano-p-mininglamp-ai
-display_name: Mano P
----
+display_name: Mano P Mininglamp Ai
 description:
-  "Mano-P: Open-source GUI-VLA agent for edge devices. #1 on OSWorld (specialized, 58.2%).\
-  \ Runs locally on Apple M4 Mac mini/MacBook \u2014 no data leaves your device.Mano-P\
-  \ \u662F\u4E00\u4E2A\u5F00\u6E90 GUI-VLA \u9879\u76EE\uFF0C\u652F\u6301\u5728 Mac\
-  \ mini/MacBook \u4E0A\u6216\u901A\u8FC7\u7B97\u529B\u68D2\u672C\u5730\u8FD0\u884C\
-  \u63A8\u7406\uFF0C\u5B9E\u73B0\u7EAF\u89C6\u89C9\u9A71\u52A8\u7684\u8DE8\u5E73\u53F0\
-  \ GUI \u81EA\u52A8\u5316\u64CD\u4F5C\u3002\u6570\u636E\u5B8C\u5168\u672C\u5730\u5904\
-  \u7406\uFF0C\u652F\u6301\u590D\u6742\u591A\u6B65\u9AA4\u4EFB\u52A1\u89C4\u5212\u4E0E\
-  \u6267\u884C\u3002"
+  "Mano-P: Open-source GUI-VLA agent for edge devices. #1 on OSWorld (specialized,
+  58.2%). Runs locally on Apple M4 Mac mini/MacBook — no data leaves your device.Mano-P
+  是一个开源 GUI-VLA 项目，支持在 Mac mini/MacBook 上或通过算力棒本地运行推理，实现纯视觉驱动的跨平台 GUI 自动化操作。数据完全本地处理，支持复杂多步骤任务规划与执行。"
 github:
   - url: https://github.com/Mininglamp-AI/Mano-P

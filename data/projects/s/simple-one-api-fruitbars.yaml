@@ -1,14 +1,9 @@
 version: 7
 name: simple-one-api-fruitbars
-display_name: Simple One Api
----
+display_name: Simple One Api Fruitbars
 description:
-  "OpenAI \u63A5\u53E3\u63A5\u5165\u9002\u914D\uFF0C\u652F\u6301\u5343\u5E06\u5927\u6A21\
-  \u578B\u5E73\u53F0\u3001\u8BAF\u98DE\u661F\u706B\u5927\u6A21\u578B\u3001\u817E\u8BAF\
-  \u6DF7\u5143\u4EE5\u53CAMiniMax\u3001Deep-Seek\uFF0C\u7B49\u517C\u5BB9OpenAI\u63A5\
-  \u53E3\uFF0C\u4EC5\u5355\u53EF\u6267\u884C\u6587\u4EF6\uFF0C\u914D\u7F6E\u8D85\u7EA7\
-  \u7B80\u5355\uFF0C\u4E00\u952E\u90E8\u7F72\uFF0C\u5F00\u7BB1\u5373\u7528.  Seamlessly\
-  \ integrate with OpenAI and compatible APIs using a single executable for quick\
-  \ setup and deployment."
+  OpenAI 接口接入适配，支持千帆大模型平台、讯飞星火大模型、腾讯混元以及MiniMax、Deep-Seek，等兼容OpenAI接口，仅单可执行文件，配置超级简单，一键部署，开箱即用.  Seamlessly
+  integrate with OpenAI and compatible APIs using a single executable for quick setup
+  and deployment.
 github:
   - url: https://github.com/fruitbars/simple-one-api

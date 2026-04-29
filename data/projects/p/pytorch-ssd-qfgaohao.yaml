@@ -1,11 +1,9 @@
 version: 7
 name: pytorch-ssd-qfgaohao
-display_name: Pytorch Ssd
----
+display_name: Pytorch Ssd Qfgaohao
 description:
-  MobileNetV1, MobileNetV2, VGG based SSD/SSD-lite implementation in Pytorch 1.0 / Pytorch
-  0.4. Out-of-box support for retraining on Open Images dataset. ONNX and Caffe2 support.
-  Experiment Ideas like CoordConv.
----
+  MobileNetV1, MobileNetV2, VGG based SSD/SSD-lite implementation in Pytorch
+  1.0 / Pytorch 0.4. Out-of-box support for retraining on Open Images dataset. ONNX
+  and Caffe2 support. Experiment Ideas like CoordConv.
 github:
   - url: https://github.com/qfgaohao/pytorch-ssd

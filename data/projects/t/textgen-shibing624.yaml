@@ -1,12 +1,8 @@
 version: 7
 name: textgen-shibing624
-display_name: Textgen
----
+display_name: Textgen Shibing624
 description:
-  "TextGen: Implementation of Text Generation models, include LLaMA, BLOOM, GPT2, BART,\
-  \ T5, SongNet and so on. \u6587\u672C\u751F\u6210\u6A21\u578B\uFF0C\u5B9E\u73B0\u4E86\
-  \u5305\u62ECLLaMA\uFF0CChatGLM\uFF0CBLOOM\uFF0CGPT2\uFF0CSeq2Seq\uFF0CBART\uFF0C\
-  T5\uFF0CUDA\u7B49\u6A21\u578B\u7684\u8BAD\u7EC3\u548C\u9884\u6D4B\uFF0C\u5F00\u7BB1\
-  \u5373\u7528\u3002"
+  "TextGen: Implementation of Text Generation models, include LLaMA, BLOOM,
+  GPT2, BART, T5, SongNet and so on. 文本生成模型，实现了包括LLaMA，ChatGLM，BLOOM，GPT2，Seq2Seq，BART，T5，UDA等模型的训练和预测，开箱即用。"
 github:
   - url: https://github.com/shibing624/textgen

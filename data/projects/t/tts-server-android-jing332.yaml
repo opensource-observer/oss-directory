@@ -1,13 +1,8 @@
 version: 7
 name: tts-server-android-jing332
-display_name: Tts Server Android
----
+display_name: Tts Server Android Jing332
 description:
-  "\u8FD9\u662F\u4E00\u4E2AAndroid\u7CFB\u7EDFTTS\u5E94\u7528\uFF0C\u5185\u7F6E\u5FAE\
-  \u8F6F\u6F14\u793A\u63A5\u53E3\uFF0C\u53EF\u81EA\u5B9A\u4E49HTTP\u8BF7\u6C42\uFF0C\
-  \u53EF\u5BFC\u5165\u5176\u4ED6\u672C\u5730TTS\u5F15\u64CE\uFF0C\u4EE5\u53CA\u6839\
-  \u636E\u4E2D\u6587\u53CC\u5F15\u53F7\u7684\u7B80\u5355\u65C1\u767D/\u5BF9\u8BDD\u8BC6\
-  \u522B\u6717\u8BFB \uFF0C\u8FD8\u6709\u81EA\u52A8\u91CD\u8BD5\uFF0C\u5907\u7528\u914D\
-  \u7F6E\uFF0C\u6587\u672C\u66FF\u6362\u7B49\u66F4\u591A\u529F\u80FD\u3002"
+  这是一个Android系统TTS应用，内置微软演示接口，可自定义HTTP请求，可导入其他本地TTS引擎，以及根据中文双引号的简单旁白/对话识别朗读
+  ，还有自动重试，备用配置，文本替换等更多功能。
 github:
   - url: https://github.com/jing332/tts-server-android

@@ -1,10 +1,8 @@
 version: 7
 name: mobilenet-ssd-chuanqi305
-display_name: Mobilenet Ssd
----
+display_name: Mobilenet Ssd Chuanqi305
 description:
-  Caffe implementation of Google MobileNet SSD detection network, with pretrained weights
-  on VOC0712 and mAP=0.727.
----
+  Caffe implementation of Google MobileNet SSD detection network, with
+  pretrained weights on VOC0712 and mAP=0.727.
 github:
   - url: https://github.com/chuanqi305/MobileNet-SSD

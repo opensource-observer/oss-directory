@@ -1,13 +1,8 @@
 version: 7
 name: smartcropper-pqpo
-display_name: Smartcropper
----
+display_name: Smartcropper Pqpo
 description:
-  "\U0001F525 A library for cropping image in a smart way that can identify the border\
-  \ and correct the cropped image.    \u667A\u80FD\u56FE\u7247\u88C1\u526A\u6846\u67B6\
-  \u3002\u81EA\u52A8\u8BC6\u522B\u8FB9\u6846\uFF0C\u624B\u52A8\u8C03\u8282\u9009\u533A\
-  \uFF0C\u4F7F\u7528\u900F\u89C6\u53D8\u6362\u88C1\u526A\u5E76\u77EB\u6B63\u9009\u533A\
-  \uFF1B\u9002\u7528\u4E8E\u8EAB\u4EFD\u8BC1\uFF0C\u540D\u7247\uFF0C\u6587\u6863\u7B49\
-  \u7167\u7247\u7684\u88C1\u526A\u3002"
+  🔥 A library for cropping image in a smart way that can identify the border
+  and correct the cropped image.    智能图片裁剪框架。自动识别边框，手动调节选区，使用透视变换裁剪并矫正选区；适用于身份证，名片，文档等照片的裁剪。
 github:
   - url: https://github.com/pqpo/SmartCropper

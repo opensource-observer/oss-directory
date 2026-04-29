@@ -1,12 +1,10 @@
 version: 7
 name: pytorch-lightning-template-miracleyoo
-display_name: Pytorch Lightning Template
----
+display_name: Pytorch Lightning Template Miracleyoo
 description:
-  "An easy/swift-to-adapt PyTorch-Lighting template. \u5957\u58F3\u6A21\u677F\uFF0C\u7B80\
-  \u5355\u6613\u7528\uFF0C\u7A0D\u6539\u539F\u6765Pytorch\u4EE3\u7801\uFF0C\u5373\u53EF\
-  \u9002\u914DLightning\u3002You can translate your previous Pytorch code much easier\
-  \ using this template, and keep your freedom to edit all the functions as well.\
-  \ Big-project-friendly as well. No need to rewrite your config in hydra."
+  An easy/swift-to-adapt PyTorch-Lighting template. 套壳模板，简单易用，稍改原来Pytorch代码，即可适配Lightning。You
+  can translate your previous Pytorch code much easier using this template, and keep
+  your freedom to edit all the functions as well. Big-project-friendly as well. No
+  need to rewrite your config in hydra.
 github:
   - url: https://github.com/miracleyoo/pytorch-lightning-template

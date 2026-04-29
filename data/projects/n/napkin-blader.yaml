@@ -1,10 +1,8 @@
 version: 7
 name: napkin-blader
-display_name: Napkin
----
+display_name: Napkin Blader
 description:
-  A Claude Code skill that gives the agent persistent memory of its mistakes via a per-repo
-  markdown scratchpad.
----
+  A Claude Code skill that gives the agent persistent memory of its mistakes
+  via a per-repo markdown scratchpad.
 github:
   - url: https://github.com/blader/napkin

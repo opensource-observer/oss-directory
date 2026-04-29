@@ -1,11 +1,9 @@
 version: 7
 name: js-reverse-mcp-zhizhuodemao
-display_name: Js Reverse Mcp
----
+display_name: Js Reverse Mcp Zhizhuodemao
 description:
-  "\u4E3A AI Agent \u8BBE\u8BA1\u7684 JS \u9006\u5411 MCP Server\uFF0C\u5185\u7F6E\u53CD\
-  \u68C0\u6D4B\uFF0C\u57FA\u4E8E chrome-devtools-mcp \u91CD\u6784 | JS reverse engineering\
-  \ MCP server with agent-first tool design and built-in anti-detection. Rebuilt from\
-  \ chrome-devtools-mcp."
+  为 AI Agent 设计的 JS 逆向 MCP Server，内置反检测，基于 chrome-devtools-mcp 重构 | JS
+  reverse engineering MCP server with agent-first tool design and built-in anti-detection.
+  Rebuilt from chrome-devtools-mcp.
 github:
   - url: https://github.com/zhizhuodemao/js-reverse-mcp

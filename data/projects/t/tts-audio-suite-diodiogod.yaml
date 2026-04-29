@@ -1,12 +1,11 @@
 version: 7
 name: tts-audio-suite-diodiogod
-display_name: Tts Audio Suite
----
+display_name: Tts Audio Suite Diodiogod
 description:
-  "A ComfyUI custom node integration for local multi-engine multi-language Text-to-Speech
-  and Voice Conversion. Supports: RVC, Echo-TTS, Qwen3-TTS, Cozy Voice 3, Step Audio
-  EditX, IndexTTS-2, Chatterbox (classic and multilingual), F5-TTS, Higgs Audio 2
-  and VibeVoice with unlimited text length, SRT timing, Character support, and many
-  audio tools"
+  "A ComfyUI custom node integration for local multi-engine multi-language
+  Text-to-Speech and Voice Conversion. Supports: RVC, Echo-TTS, Qwen3-TTS, Cozy Voice
+  3, Step Audio EditX, IndexTTS-2, Chatterbox (classic and multilingual), F5-TTS,
+  Higgs Audio 2 and VibeVoice with unlimited text length, SRT timing, Character support,
+  and many audio tools"
 github:
   - url: https://github.com/diodiogod/TTS-Audio-Suite

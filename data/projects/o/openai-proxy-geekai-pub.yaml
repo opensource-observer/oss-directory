@@ -1,9 +1,6 @@
 version: 7
 name: openai-proxy-geekai-pub
-display_name: Openai Proxy
----
-description:
-  "\u57FA\u4E8E Go \u5B9E\u73B0\u7684 OpenAI HTTP \u4EE3\u7406\uFF08\u4E91\u51FD\u6570\
-  \u3001lambda \u51FD\u6570\u3001\u81EA\u5DF1\u90E8\u7F72\u5747\u53EF\uFF09"
+display_name: Openai Proxy Geekai Pub
+description: 基于 Go 实现的 OpenAI HTTP 代理（云函数、lambda 函数、自己部署均可）
 github:
   - url: https://github.com/geekai-pub/openai-proxy

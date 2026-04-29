@@ -1,11 +1,8 @@
 version: 7
 name: cnstd-breezedeus
-display_name: Cnstd
----
+display_name: Cnstd Breezedeus
 description:
-  "CnSTD: \u57FA\u4E8E PyTorch/MXNet \u7684 \u4E2D\u6587/\u82F1\u6587 \u573A\u666F\u6587\
-  \u5B57\u68C0\u6D4B\uFF08Scene Text Detection\uFF09\u3001\u6570\u5B66\u516C\u5F0F\
-  \u68C0\u6D4B\uFF08Mathematical Formula Detection, MFD\uFF09\u3001\u7BC7\u7AE0\u5206\
-  \u6790\uFF08Layout Analysis\uFF09\u7684Python3 \u5305"
+  "CnSTD: 基于 PyTorch/MXNet 的 中文/英文 场景文字检测（Scene Text Detection）、数学公式检测（Mathematical
+  Formula Detection, MFD）、篇章分析（Layout Analysis）的Python3 包"
 github:
   - url: https://github.com/breezedeus/CnSTD

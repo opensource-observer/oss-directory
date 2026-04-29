@@ -1,12 +1,6 @@
 version: 7
 name: sinkfinder-phelaine
-display_name: Sinkfinder
----
-description:
-  "\u95ED\u6E90\u7CFB\u7EDF\u534A\u81EA\u52A8\u6F0F\u6D1E\u6316\u6398\u5DE5\u5177\uFF0C\
-  \u9488\u5BF9 jar/war/zip \u8FDB\u884C\u9759\u6001\u4EE3\u7801\u5206\u6790\uFF0C\u8F93\
-  \u51FA\u4ECEsource\u5230sink\u7684\u53EF\u8FBE\u8DEF\u5F84\u3002LLM\u5C06\u9A8C\u8BC1\
-  \u8DEF\u5F84\u53EF\u8FBE\u6027\uFF0C\u5E76\u6839\u636E\u4E0A\u4E0B\u6587\u7ED9\u51FA\
-  \u8BE5\u8DEF\u5F84\u53EF\u4FE1\u5206\u6570"
+display_name: Sinkfinder Phelaine
+description: 闭源系统半自动漏洞挖掘工具，针对 jar/war/zip 进行静态代码分析，输出从source到sink的可达路径。LLM将验证路径可达性，并根据上下文给出该路径可信分数
 github:
   - url: https://github.com/Phelaine/SinkFinder

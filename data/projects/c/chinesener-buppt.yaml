@@ -1,9 +1,6 @@
 version: 7
 name: chinesener-buppt
-display_name: Chinesener
----
-description:
-  "\u4E2D\u6587\u547D\u540D\u5B9E\u4F53\u8BC6\u522B\uFF0C\u5B9E\u4F53\u62BD\u53D6\uFF0C\
-  tensorflow\uFF0Cpytorch\uFF0CBiLSTM+CRF"
+display_name: Chinesener Buppt
+description: 中文命名实体识别，实体抽取，tensorflow，pytorch，BiLSTM+CRF
 github:
   - url: https://github.com/buppt/ChineseNER

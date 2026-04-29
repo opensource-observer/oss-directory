@@ -1,15 +1,6 @@
 version: 7
 name: fastllm-ztxz16
-display_name: Fastllm
----
-description:
-  "fastllm\u662F\u540E\u7AEF\u65E0\u4F9D\u8D56\u7684\u9AD8\u6027\u80FD\u5927\u6A21\u578B\
-  \u63A8\u7406\u5E93\u3002\u540C\u65F6\u652F\u6301\u5F20\u91CF\u5E76\u884C\u63A8\u7406\
-  \u7A20\u5BC6\u6A21\u578B\u548C\u6DF7\u5408\u6A21\u5F0F\u63A8\u7406MOE\u6A21\u578B\
-  \uFF0C\u4EFB\u610F10G\u4EE5\u4E0A\u663E\u5361\u5373\u53EF\u63A8\u7406\u6EE1\u8840\
-  DeepSeek\u3002\u53CC\u8DEF9004/9005\u670D\u52A1\u5668+\u5355\u663E\u5361\u90E8\u7F72\
-  DeepSeek\u6EE1\u8840\u6EE1\u7CBE\u5EA6\u539F\u7248\u6A21\u578B\uFF0C\u5355\u5E76\
-  \u53D120tps\uFF1BINT4\u91CF\u5316\u6A21\u578B\u5355\u5E76\u53D130tps\uFF0C\u591A\
-  \u5E76\u53D1\u53EF\u8FBE60+\u3002"
+display_name: Fastllm Ztxz16
+description: fastllm是后端无依赖的高性能大模型推理库。同时支持张量并行推理稠密模型和混合模式推理MOE模型，任意10G以上显卡即可推理满血DeepSeek。双路9004/9005服务器+单显卡部署DeepSeek满血满精度原版模型，单并发20tps；INT4量化模型单并发30tps，多并发可达60+。
 github:
   - url: https://github.com/ztxz16/fastllm

@@ -1,16 +1,10 @@
 version: 7
 name: comfyui-prompt-assistant-yawiii
-display_name: Comfyui Prompt Assistant
----
+display_name: Comfyui Prompt Assistant Yawiii
 description:
-  "\u63D0\u793A\u8BCD\u5C0F\u52A9\u624B\u53EF\u4EE5\u4E00\u952E\u8C03\u7528\u667A\u8C31\
-  \u3001\u7845\u57FA\u6D41\u52A8\u3001gemini\u3001\u672C\u5730ollama\u3001\u767E\u5EA6\
-  \u7B49\u5927\u8BED\u8A00\u6A21\u578B\u670D\u52A1\uFF0C\u5B9E\u73B0\u63D0\u793A\u8BCD\
-  \u7FFB\u8BD1\u3001\u6DA6\u8272\u6269\u5199\u3001\u56FE\u7247\u53CD\u63A8\u3002\u652F\
-  \u6301\u63D0\u793A\u8BCD\u9884\u8BBE\u5B9E\u73B0\u4E00\u952E\u63D2\u5165\u3001\u5386\
-  \u53F2\u63D0\u793A\u8BCD\u67E5\u627E\u7B49\u529F\u80FD\u3002\u662F\u4E00\u4E2A\u5168\
-  \u80FD\u578B\u63D0\u793A\u8BCD\u63D2\u4EF6\u3002The Prompt Assistant enables one-click\
-  \ access to LLMs/VLMs for prompt translation, expansion, and image captioning. It\
-  \ also supports one-click preset insertion and historical prompt search."
+  提示词小助手可以一键调用智谱、硅基流动、gemini、本地ollama、百度等大语言模型服务，实现提示词翻译、润色扩写、图片反推。支持提示词预设实现一键插入、历史提示词查找等功能。是一个全能型提示词插件。The
+  Prompt Assistant enables one-click access to LLMs/VLMs for prompt translation, expansion,
+  and image captioning. It also supports one-click preset insertion and historical
+  prompt search.
 github:
   - url: https://github.com/yawiii/ComfyUI-Prompt-Assistant

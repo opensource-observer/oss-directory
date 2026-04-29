@@ -1,12 +1,10 @@
 version: 7
 name: notebooklm-skill-pleaseprompto
-display_name: Notebooklm Skill
----
+display_name: Notebooklm Skill Pleaseprompto
 description:
-  Use this skill to enable Claude Code to communicate directly with your Google NotebookLM
-  notebooks. Query your uploaded documents and get source-grounded, citation-backed
-  answers from Gemini. Features browser automation, library management, persistent
-  authentication, and answers exclusively from your own knowledge base.
----
+  Use this skill to enable Claude Code to communicate directly with your
+  Google NotebookLM notebooks. Query your uploaded documents and get source-grounded,
+  citation-backed answers from Gemini. Features browser automation, library management,
+  persistent authentication, and answers exclusively from your own knowledge base.
 github:
   - url: https://github.com/PleasePrompto/notebooklm-skill

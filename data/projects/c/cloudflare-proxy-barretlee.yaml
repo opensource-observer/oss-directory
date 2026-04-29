@@ -1,9 +1,6 @@
 version: 7
 name: cloudflare-proxy-barretlee
-display_name: Cloudflare Proxy
----
-description:
-  "Cloudflare Worker \u4EE3\u7406\u8BF7\u6C42 ChatGPT API\uFF0C\u652F\u6301 Stream \u6D41\
-  \u5F0F\u8F93\u51FA"
+display_name: Cloudflare Proxy Barretlee
+description: Cloudflare Worker 代理请求 ChatGPT API，支持 Stream 流式输出
 github:
   - url: https://github.com/barretlee/cloudflare-proxy

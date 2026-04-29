@@ -1,10 +1,6 @@
 version: 7
 name: grok2api-chenyme
-display_name: Grok2Api
----
-description:
-  "Grok2API \u662F\u4E00\u4E2A\u57FA\u4E8E FastAPI \u6784\u5EFA\u7684 Grok \u7F51\u5173\
-  \uFF0C\u652F\u6301\u5C06 Grok Web \u80FD\u529B\u4EE5 OpenAI \u517C\u5BB9 API \u7684\
-  \u65B9\u5F0F\u8F6C\u6362\u3002"
+display_name: Grok2Api Chenyme
+description: Grok2API 是一个基于 FastAPI 构建的 Grok 网关，支持将 Grok Web 能力以 OpenAI 兼容 API 的方式转换。
 github:
   - url: https://github.com/chenyme/grok2api

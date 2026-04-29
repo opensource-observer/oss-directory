@@ -1,13 +1,6 @@
 version: 7
 name: k8m-weibaohui
-display_name: K8M
----
-description:
-  "\u4E00\u6B3E\u8F7B\u91CF\u7EA7\u3001\u8DE8\u5E73\u53F0\u7684 Mini Kubernetes AI Dashboard\uFF0C\
-  \u652F\u6301\u5927\u6A21\u578B+\u667A\u80FD\u4F53+MCP(\u652F\u6301\u8BBE\u7F6E\u64CD\
-  \u4F5C\u6743\u9650)\uFF0C\u96C6\u6210\u591A\u96C6\u7FA4\u7BA1\u7406\u3001\u667A\u80FD\
-  \u5206\u6790\u3001\u5B9E\u65F6\u5F02\u5E38\u68C0\u6D4B\u7B49\u529F\u80FD\uFF0C\u652F\
-  \u6301\u591A\u67B6\u6784\u5E76\u53EF\u5355\u6587\u4EF6\u90E8\u7F72\uFF0C\u52A9\u529B\
-  \u9AD8\u6548\u96C6\u7FA4\u7BA1\u7406\u4E0E\u8FD0\u7EF4\u4F18\u5316\u3002"
+display_name: K8M Weibaohui
+description: 一款轻量级、跨平台的 Mini Kubernetes AI Dashboard，支持大模型+智能体+MCP(支持设置操作权限)，集成多集群管理、智能分析、实时异常检测等功能，支持多架构并可单文件部署，助力高效集群管理与运维优化。
 github:
   - url: https://github.com/weibaohui/k8m

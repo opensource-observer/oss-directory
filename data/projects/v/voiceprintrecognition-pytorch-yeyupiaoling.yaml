@@ -1,12 +1,10 @@
 version: 7
 name: voiceprintrecognition-pytorch-yeyupiaoling
-display_name: Voiceprintrecognition Pytorch
----
+display_name: Voiceprintrecognition Pytorch Yeyupiaoling
 description:
-  This project uses a variety of advanced voiceprint recognition models such as EcapaTdnn,
-  ResNetSE, ERes2Net, CAM++, etc. It is not excluded that more models will be supported
-  in the future. At the same time, this project also supports MelSpectrogram, Spectrogram
-  data preprocessing methods
----
+  This project uses a variety of advanced voiceprint recognition models
+  such as EcapaTdnn, ResNetSE, ERes2Net, CAM++, etc. It is not excluded that more
+  models will be supported in the future. At the same time, this project also supports
+  MelSpectrogram, Spectrogram data preprocessing methods
 github:
   - url: https://github.com/yeyupiaoling/VoiceprintRecognition-Pytorch

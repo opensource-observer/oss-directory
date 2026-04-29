@@ -1,12 +1,10 @@
 version: 7
 name: kafka-streams-machine-learning-examples-kaiwaehner
-display_name: Kafka Streams Machine Learning Examples
----
+display_name: Kafka Streams Machine Learning Examples Kaiwaehner
 description:
-  This project contains examples which demonstrate how to deploy analytic models to
-  mission-critical, scalable production environments leveraging Apache Kafka and its
-  Streams API. Models are built with Python, H2O, TensorFlow, Keras, DeepLearning4
+  This project contains examples which demonstrate how to deploy analytic
+  models to mission-critical, scalable production environments leveraging Apache Kafka
+  and its Streams API. Models are built with Python, H2O, TensorFlow, Keras, DeepLearning4
   and other technologies.
----
 github:
   - url: https://github.com/kaiwaehner/kafka-streams-machine-learning-examples

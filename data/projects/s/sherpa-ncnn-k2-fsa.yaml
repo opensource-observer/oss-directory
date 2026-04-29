@@ -1,11 +1,9 @@
 version: 7
 name: sherpa-ncnn-k2-fsa
-display_name: Sherpa Ncnn
----
+display_name: Sherpa Ncnn K2 Fsa
 description:
-  Real-time speech recognition and voice activity detection (VAD) using next-gen Kaldi
-  with ncnn without Internet connection. Support iOS, Android, Linux, macOS, Windows,
-  Raspberry Pi, VisionFive2, LicheePi4A etc.
----
+  Real-time speech recognition and voice activity detection (VAD) using
+  next-gen Kaldi with ncnn without Internet connection. Support iOS, Android, Linux,
+  macOS, Windows, Raspberry Pi, VisionFive2, LicheePi4A etc.
 github:
   - url: https://github.com/k2-fsa/sherpa-ncnn

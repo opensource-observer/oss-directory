@@ -1,11 +1,6 @@
 version: 7
 name: comfyui-index-tts-chenpipi0807
-display_name: Comfyui Index Tts
----
-description:
-  "\u4F7F\u7528IndexTTS\u6A21\u578B\u5728ComfyUI\u4E2D\u5B9E\u73B0\u9AD8\u8D28\u91CF\
-  \u6587\u672C\u5230\u8BED\u97F3\u8F6C\u6362\u7684\u81EA\u5B9A\u4E49\u8282\u70B9\u3002\
-  \u652F\u6301\u4E2D\u6587\u548C\u82F1\u6587\u6587\u672C\uFF0C\u53EF\u4EE5\u57FA\u4E8E\
-  \u53C2\u8003\u97F3\u9891\u590D\u523B\u58F0\u97F3\u7279\u5F81\u3002"
+display_name: Comfyui Index Tts Chenpipi0807
+description: 使用IndexTTS模型在ComfyUI中实现高质量文本到语音转换的自定义节点。支持中文和英文文本，可以基于参考音频复刻声音特征。
 github:
   - url: https://github.com/chenpipi0807/ComfyUI-Index-TTS
