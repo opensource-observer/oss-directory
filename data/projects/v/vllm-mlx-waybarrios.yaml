@@ -1,0 +1,10 @@
+version: 7
+name: vllm-mlx-waybarrios
+display_name: Vllm Mlx Waybarrios
+description:
+  OpenAI and Anthropic compatible server for Apple Silicon. Run LLMs and
+  vision-language models (Llama, Qwen-VL, LLaVA) with continuous batching, MCP tool
+  calling, and multimodal support. Native MLX backend, 400+ tok/s. Works with Claude
+  Code.
+github:
+  - url: https://github.com/waybarrios/vllm-mlx

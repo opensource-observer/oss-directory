@@ -1,0 +1,6 @@
+version: 7
+name: text-classification-lizhen0628
+display_name: Text Classification Lizhen0628
+description: 使用rnn,lstm,gru,fasttext,textcnn,dpcnn,rnn-att,lstm-att,兼容huggleface/transformers，以及以transforemrs作为词嵌入模型，后面接入cnn、rnn、attention等等做文本分类。以及各个模型的对比
+github:
+  - url: https://github.com/Lizhen0628/text_classification

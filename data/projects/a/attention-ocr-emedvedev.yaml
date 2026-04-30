@@ -1,0 +1,8 @@
+version: 7
+name: attention-ocr-emedvedev
+display_name: Attention Ocr Emedvedev
+description:
+  A Tensorflow model for text recognition (CNN + seq2seq with visual attention)
+  available as a Python package and compatible with Google Cloud ML Engine.
+github:
+  - url: https://github.com/emedvedev/attention-ocr

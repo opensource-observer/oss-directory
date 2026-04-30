@@ -1,0 +1,8 @@
+version: 7
+name: video-features-v-iashin
+display_name: Video Features V Iashin
+description:
+  Extract video features from raw videos using multiple GPUs. We support
+  RAFT flow frames as well as S3D, I3D, R(2+1)D, VGGish, CLIP, and TIMM models.
+github:
+  - url: https://github.com/v-iashin/video_features

@@ -1,0 +1,9 @@
+version: 7
+name: mujoco-rl-ur5-pauldanielml
+display_name: Mujoco Rl Ur5 Pauldanielml
+description:
+  A MuJoCo/Gym environment for robot control using Reinforcement Learning.
+  The task of agents in this environment is pixel-wise prediction of grasp success
+  chances.
+github:
+  - url: https://github.com/PaulDanielML/MuJoCo_RL_UR5

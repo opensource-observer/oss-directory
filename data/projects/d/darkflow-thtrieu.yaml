@@ -1,0 +1,8 @@
+version: 7
+name: darkflow-thtrieu
+display_name: Darkflow Thtrieu
+description:
+  Translate darknet to tensorflow. Load trained weights, retrain/fine-tune
+  using tensorflow, export constant graph def to mobile devices
+github:
+  - url: https://github.com/thtrieu/darkflow

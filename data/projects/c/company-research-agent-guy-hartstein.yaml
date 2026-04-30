@@ -1,0 +1,9 @@
+version: 7
+name: company-research-agent-guy-hartstein
+display_name: Company Research Agent Guy Hartstein
+description:
+  An agentic company research tool powered by LangGraph and Tavily that
+  conducts deep diligence on companies using a multi-agent framework. It leverages
+  Google's Gemini 2.5 Flash and OpenAI's GPT-5.1 on the backend for inference.
+github:
+  - url: https://github.com/guy-hartstein/company-research-agent

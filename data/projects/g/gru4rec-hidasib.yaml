@@ -1,0 +1,10 @@
+version: 7
+name: gru4rec-hidasib
+display_name: Gru4Rec Hidasib
+description:
+  GRU4Rec is the original Theano implementation of the algorithm in "Session-based
+  Recommendations with Recurrent Neural Networks" paper, published at ICLR 2016 and
+  its follow-up "Recurrent Neural Networks with Top-k Gains for Session-based Recommendations".
+  The code is optimized for execution on the GPU.
+github:
+  - url: https://github.com/hidasib/GRU4Rec

@@ -1,0 +1,10 @@
+version: 7
+name: verbalized-sampling-chats-lab
+display_name: Verbalized Sampling Chats Lab
+description:
+  Verbalized Sampling, a training-free prompting strategy to mitigate mode
+  collapse in LLMs by requesting responses with probabilities. Achieves 2-3x diversity
+  improvement while maintaining quality. Model-agnostic framework with CLI/API for
+  creative writing, synthetic data generation, and dialogue simulation.
+github:
+  - url: https://github.com/CHATS-lab/verbalized-sampling

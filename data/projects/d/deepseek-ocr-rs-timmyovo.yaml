@@ -1,0 +1,9 @@
+version: 7
+name: deepseek-ocr-rs-timmyovo
+display_name: Deepseek Ocr Rs Timmyovo
+description:
+  Rust multi‑backend OCR/VLM engine (DeepSeek‑OCR-1/2, PaddleOCR‑VL, DotsOCR)
+  with DSQ quantization and an OpenAI‑compatible server & CLI – run locally without
+  Python.
+github:
+  - url: https://github.com/TimmyOVO/deepseek-ocr.rs

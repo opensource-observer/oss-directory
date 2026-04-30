@@ -1,0 +1,8 @@
+version: 7
+name: aistudioproxyapi-cjackhwang
+display_name: Aistudioproxyapi Cjackhwang
+description:
+  FastAPI + Playwright + Camoufox 中间层代理服务器，兼容OpenAI API且支持参数转发。项目通过浏览器自动化将API请求转发到
+  Google AI Studio 网页，并同样按照OpenAI标准格式返回的工具。内置调试WebUI面板。
+github:
+  - url: https://github.com/CJackHwang/AIstudioProxyAPI

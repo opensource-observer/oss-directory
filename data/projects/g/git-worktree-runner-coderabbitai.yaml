@@ -1,0 +1,9 @@
+version: 7
+name: git-worktree-runner-coderabbitai
+display_name: Git Worktree Runner Coderabbitai
+description:
+  Bash-based Git worktree manager with editor and AI tool integration.
+  Automates per-branch worktree creation, configuration copying, dependency installation,
+  and workspace setup for efficient parallel development.
+github:
+  - url: https://github.com/coderabbitai/git-worktree-runner

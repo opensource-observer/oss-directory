@@ -1,0 +1,9 @@
+version: 7
+name: kubeshark
+display_name: Kubeshark
+description:
+  eBPF-powered network observability for Kubernetes. Indexes L4/L7 traffic
+  with full K8s context, decrypts TLS without keys. Queryable by AI agents via MCP
+  and humans via dashboard.
+github:
+  - url: https://github.com/kubeshark

@@ -1,0 +1,10 @@
+version: 7
+name: drl-robot-navigation-reiniscimurs
+display_name: Drl Robot Navigation Reiniscimurs
+description:
+  Deep Reinforcement Learning for mobile robot navigation in ROS Gazebo
+  simulator. Using Twin Delayed Deep Deterministic Policy Gradient (TD3) neural network,
+  a robot learns to navigate to a random goal point in a simulated environment while
+  avoiding obstacles.
+github:
+  - url: https://github.com/reiniscimurs/DRL-robot-navigation

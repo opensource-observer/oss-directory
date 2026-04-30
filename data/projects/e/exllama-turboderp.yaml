@@ -1,0 +1,8 @@
+version: 7
+name: exllama-turboderp
+display_name: Exllama Turboderp
+description:
+  A more memory-efficient rewrite of the HF transformers implementation
+  of Llama for use with quantized weights.
+github:
+  - url: https://github.com/turboderp/exllama

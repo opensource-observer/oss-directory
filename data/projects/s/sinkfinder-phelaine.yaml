@@ -1,0 +1,6 @@
+version: 7
+name: sinkfinder-phelaine
+display_name: Sinkfinder Phelaine
+description: 闭源系统半自动漏洞挖掘工具，针对 jar/war/zip 进行静态代码分析，输出从source到sink的可达路径。LLM将验证路径可达性，并根据上下文给出该路径可信分数
+github:
+  - url: https://github.com/Phelaine/SinkFinder

@@ -1,0 +1,9 @@
+version: 7
+name: continuous-claude-v3-parcadei
+display_name: Continuous Claude V3 Parcadei
+description:
+  Context management for Claude Code. Hooks maintain state via ledgers
+  and handoffs. MCP execution without context pollution. Agent orchestration with
+  isolated context windows.
+github:
+  - url: https://github.com/parcadei/Continuous-Claude-v3

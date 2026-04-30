@@ -1,0 +1,10 @@
+version: 7
+name: azure-open-ai-embeddings-qna-ruoccofabrizio
+display_name: Azure Open Ai Embeddings Qna Ruoccofabrizio
+description:
+  A simple web application for a OpenAI-enabled document search. This repo
+  uses Azure OpenAI Service for creating embeddings vectors from documents. For answering
+  the question of a user, it retrieves the most relevant document and then uses GPT-3,
+  GPT-3.5 or GPT-4 to extract the matching answer for the question.
+github:
+  - url: https://github.com/ruoccofabrizio/azure-open-ai-embeddings-qna

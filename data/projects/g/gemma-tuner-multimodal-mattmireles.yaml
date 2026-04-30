@@ -1,0 +1,8 @@
+version: 7
+name: gemma-tuner-multimodal-mattmireles
+display_name: Gemma Tuner Multimodal Mattmireles
+description:
+  Fine-tune Gemma 4 and 3n with audio, images and text on Apple Silicon,
+  using PyTorch and Metal Performance Shaders.
+github:
+  - url: https://github.com/mattmireles/gemma-tuner-multimodal

@@ -1,0 +1,8 @@
+version: 7
+name: gptqmodel-modelcloud
+display_name: Gptqmodel Modelcloud
+description:
+  LLM model quantization (compression) toolkit with HW acceleration support
+  for Nvidia, AMD, Intel GPU and Intel/AMD/Apple CPU via HF, vLLM, and SGLang.
+github:
+  - url: https://github.com/ModelCloud/GPTQModel

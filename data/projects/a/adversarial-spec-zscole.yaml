@@ -1,0 +1,8 @@
+version: 7
+name: adversarial-spec-zscole
+display_name: Adversarial Spec Zscole
+description:
+  A Claude Code plugin that iteratively refines product specifications
+  by debating between multiple LLMs until all models reach consensus.
+github:
+  - url: https://github.com/zscole/adversarial-spec

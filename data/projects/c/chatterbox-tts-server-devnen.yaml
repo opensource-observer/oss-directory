@@ -1,0 +1,10 @@
+version: 7
+name: chatterbox-tts-server-devnen
+display_name: Chatterbox Tts Server Devnen
+description:
+  Self-host the powerful Chatterbox TTS model. This server offers a user-friendly
+  Web UI, flexible API endpoints (incl. OpenAI compatible), predefined voices, voice
+  cloning, and large audiobook-scale text processing. Runs accelerated on NVIDIA (CUDA),
+  AMD (ROCm), and CPU.
+github:
+  - url: https://github.com/devnen/Chatterbox-TTS-Server

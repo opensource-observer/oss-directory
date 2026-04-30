@@ -1,0 +1,6 @@
+version: 7
+name: baby-llama2-chinese-dllxw
+display_name: Baby Llama2 Chinese Dllxw
+description: 用于从头预训练+SFT一个小参数量的中文LLaMa2的仓库；24G单卡即可运行得到一个具备简单中文问答能力的chat-llama2.
+github:
+  - url: https://github.com/DLLXW/baby-llama2-chinese

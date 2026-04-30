@@ -1,0 +1,8 @@
+version: 7
+name: kokoro-fastapi-remsky
+display_name: Kokoro Fastapi Remsky
+description:
+  Dockerized FastAPI wrapper for Kokoro-82M text-to-speech model w/CPU
+  ONNX and NVIDIA GPU PyTorch support, handling, and auto-stitching
+github:
+  - url: https://github.com/remsky/Kokoro-FastAPI

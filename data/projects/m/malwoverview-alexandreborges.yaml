@@ -1,0 +1,11 @@
+version: 7
+name: malwoverview-alexandreborges
+display_name: Malwoverview Alexandreborges
+description:
+  Malwoverview is a first response tool for threat hunting across VirusTotal,
+  Hybrid Analysis, URLHaus, Polyswarm, Malshare, Alien Vault, Malpedia, Malware Bazaar,
+  ThreatFox, Triage, IPInfo, Shodan, AbuseIPDB, GreyNoise, URLScan.io, Whois/RDAP,
+  NIST, and VulnCheck. Supports LLM enrichment, IOC extraction, YARA scanning, and
+  Android analysis.
+github:
+  - url: https://github.com/alexandreborges/malwoverview

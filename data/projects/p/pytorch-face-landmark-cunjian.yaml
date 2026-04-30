@@ -1,0 +1,10 @@
+version: 7
+name: pytorch-face-landmark-cunjian
+display_name: Pytorch Face Landmark Cunjian
+description:
+  Fast and accurate face landmark detection library using PyTorch; Support
+  68-point semi-frontal and 39-point profile landmark detection; Support both coordinate-based
+  and heatmap-based inference; Up to 100 FPS landmark inference speed with SOTA face
+  detector on CPU.
+github:
+  - url: https://github.com/cunjian/pytorch_face_landmark

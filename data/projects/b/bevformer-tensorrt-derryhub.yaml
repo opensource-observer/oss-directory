@@ -1,0 +1,8 @@
+version: 7
+name: bevformer-tensorrt-derryhub
+display_name: Bevformer Tensorrt Derryhub
+description:
+  BEVFormer inference on TensorRT, including INT8 Quantization and Custom
+  TensorRT Plugins (float/half/half2/int8).
+github:
+  - url: https://github.com/DerryHub/BEVFormer_tensorrt

@@ -1,0 +1,8 @@
+version: 7
+name: cf-openai-azure-proxy-haibbo
+display_name: Cf Openai Azure Proxy Haibbo
+description:
+  A Cloudflare worker script to proxy OpenAI‘s request to Azure OpenAI
+  Service
+github:
+  - url: https://github.com/haibbo/cf-openai-azure-proxy

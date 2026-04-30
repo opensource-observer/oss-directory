@@ -1,0 +1,9 @@
+version: 7
+name: opencode-antigravity-auth-noefabris
+display_name: Opencode Antigravity Auth Noefabris
+description:
+  Enable Opencode to authenticate against Antigravity (Google's IDE) via
+  OAuth so you can use Antigravity rate limits and access models like gemini-3-pro
+  and claude-opus-4-5-thinking with your Google credentials.
+github:
+  - url: https://github.com/NoeFabris/opencode-antigravity-auth

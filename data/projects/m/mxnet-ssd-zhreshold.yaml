@@ -1,0 +1,8 @@
+version: 7
+name: mxnet-ssd-zhreshold
+display_name: Mxnet Ssd Zhreshold
+description:
+  "MXNet port of SSD: Single Shot MultiBox Object Detector.  Reimplementation
+  of https://github.com/weiliu89/caffe/tree/ssd"
+github:
+  - url: https://github.com/zhreshold/mxnet-ssd

@@ -1,0 +1,9 @@
+version: 7
+name: contextualized-topic-models-milanlproc
+display_name: Contextualized Topic Models Milanlproc
+description:
+  A python package to run contextualized topic modeling. CTMs combine contextualized
+  embeddings (e.g., BERT) with topic models to get coherent topics. Published at EACL
+  and ACL 2021 (Bianchi et al.).
+github:
+  - url: https://github.com/MilaNLProc/contextualized-topic-models

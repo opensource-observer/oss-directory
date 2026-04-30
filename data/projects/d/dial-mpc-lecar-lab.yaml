@@ -1,0 +1,10 @@
+version: 7
+name: dial-mpc-lecar-lab
+display_name: Dial Mpc Lecar Lab
+description:
+  Official implementation for the paper "Full-Order Sampling-Based MPC
+  for Torque-Level Locomotion Control via Diffusion-Style Annealing". DIAL-MPC is
+  a novel sampling-based MPC framework for legged robot full-order torque-level control
+  with both precision and agility in a training-free manner.
+github:
+  - url: https://github.com/LeCAR-Lab/dial-mpc

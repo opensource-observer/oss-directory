@@ -1,0 +1,9 @@
+version: 7
+name: fofamap-asaotomo
+display_name: Fofamap Asaotomo
+description:
+  FofaMap v2.0 是一款基于 Python3 开发的全网首个 AI 驱动红队资产测绘智能体。在延续原有 FOFA 数据采集、存活检测、统计聚合、图标
+  Hash 及批量查询等核心功能的基础上，2.0 版本原生支持 MCP 协议，可无缝接入 Cursor、Claude 等 AI 平台。其核心内置了 AI 自我反思机制，能根据查询结果自动调优语法，并智能联动
+  Nuclei 推荐精准扫描策略，实现从“被动采集”到“主动智能决策”的红队作业进化。
+github:
+  - url: https://github.com/asaotomo/FofaMap

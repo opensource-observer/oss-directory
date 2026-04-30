@@ -1,0 +1,8 @@
+version: 7
+name: fft-conv-pytorch-fkodom
+display_name: Fft Conv Pytorch Fkodom
+description:
+  Implementation of 1D, 2D, and 3D FFT convolutions in PyTorch.  Much faster
+  than direct convolutions for large kernel sizes.
+github:
+  - url: https://github.com/fkodom/fft-conv-pytorch

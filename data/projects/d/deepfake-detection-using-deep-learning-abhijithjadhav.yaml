@@ -1,0 +1,10 @@
+version: 7
+name: deepfake-detection-using-deep-learning-abhijithjadhav
+display_name: Deepfake Detection Using Deep Learning Abhijithjadhav
+description:
+  This projects aims in detection of video deepfakes using deep learning
+  techniques like RestNext and LSTM. We have achived deepfake detection by using transfer
+  learning where the pretrained RestNext CNN is used to obtain a feature vector, further
+  the LSTM layer is trained using the features. For more details follow the documentaion.
+github:
+  - url: https://github.com/abhijithjadhav/Deepfake_detection_using_deep_learning

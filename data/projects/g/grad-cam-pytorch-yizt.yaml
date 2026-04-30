@@ -1,0 +1,8 @@
+version: 7
+name: grad-cam-pytorch-yizt
+display_name: Grad Cam Pytorch Yizt
+description:
+  pytorch实现Grad-CAM和Grad-CAM++,可以可视化任意分类网络的Class Activation Map (CAM)图,包括自定义的网络;同时也实现了目标检测faster
+  r-cnn和retinanet两个网络的CAM图;欢迎试用、关注并反馈问题...
+github:
+  - url: https://github.com/yizt/Grad-CAM.pytorch

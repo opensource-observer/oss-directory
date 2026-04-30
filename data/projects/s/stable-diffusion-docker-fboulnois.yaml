@@ -1,0 +1,8 @@
+version: 7
+name: stable-diffusion-docker-fboulnois
+display_name: Stable Diffusion Docker Fboulnois
+description:
+  Run the official Stable Diffusion releases in a Docker container with
+  txt2img, img2img, depth2img, pix2pix, upscale4x, and inpaint.
+github:
+  - url: https://github.com/fboulnois/stable-diffusion-docker

@@ -1,0 +1,6 @@
+version: 7
+name: cifar10-tensorflow-persistforever
+display_name: Cifar10 Tensorflow Persistforever
+description: cifar10数据集上进行图片分类，基于tensorflow框架，旨在探究不同的改进策略对分类准确率的影响，如何一步步得提高准确率
+github:
+  - url: https://github.com/persistforever/cifar10-tensorflow

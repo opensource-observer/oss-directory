@@ -1,0 +1,8 @@
+version: 7
+name: gpt-llama-cpp-keldenl
+display_name: Gpt Llama Cpp Keldenl
+description:
+  A llama.cpp drop-in replacement for OpenAI's GPT endpoints, allowing
+  GPT-powered apps to run off local llama.cpp models instead of OpenAI.
+github:
+  - url: https://github.com/keldenl/gpt-llama.cpp

@@ -1,0 +1,8 @@
+version: 7
+name: mmdetection-to-tensorrt-grimoire
+display_name: Mmdetection To Tensorrt Grimoire
+description:
+  convert mmdetection model to tensorrt, support fp16, int8, batch input,
+  dynamic shape etc.
+github:
+  - url: https://github.com/grimoire/mmdetection-to-tensorrt

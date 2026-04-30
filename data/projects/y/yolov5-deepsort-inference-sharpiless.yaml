@@ -1,0 +1,6 @@
+version: 7
+name: yolov5-deepsort-inference-sharpiless
+display_name: Yolov5 Deepsort Inference Sharpiless
+description: Yolov5 deepsort inference，使用YOLOv5+Deepsort实现车辆行人追踪和计数，代码封装成一个Detector类，更容易嵌入到自己的项目中
+github:
+  - url: https://github.com/Sharpiless/Yolov5-deepsort-inference

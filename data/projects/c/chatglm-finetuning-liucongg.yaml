@@ -1,0 +1,6 @@
+version: 7
+name: chatglm-finetuning-liucongg
+display_name: Chatglm Finetuning Liucongg
+description: 基于ChatGLM-6B、ChatGLM2-6B、ChatGLM3-6B模型，进行下游具体任务微调，涉及Freeze、Lora、P-tuning、全参微调等
+github:
+  - url: https://github.com/liucongg/ChatGLM-Finetuning

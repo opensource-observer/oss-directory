@@ -1,0 +1,10 @@
+version: 7
+name: claude-code-tips-ykdojo
+display_name: Claude Code Tips Ykdojo
+description:
+  45 tips for getting the most out of Claude Code, from basics to advanced
+  - includes a custom status line script, cutting the system prompt in half, using
+  Gemini CLI as Claude Code's minion, and Claude Code running itself in a container.
+  Also includes the dx plugin.
+github:
+  - url: https://github.com/ykdojo/claude-code-tips

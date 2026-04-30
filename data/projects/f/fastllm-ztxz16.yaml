@@ -1,0 +1,6 @@
+version: 7
+name: fastllm-ztxz16
+display_name: Fastllm Ztxz16
+description: fastllm是后端无依赖的高性能大模型推理库。同时支持张量并行推理稠密模型和混合模式推理MOE模型，任意10G以上显卡即可推理满血DeepSeek。双路9004/9005服务器+单显卡部署DeepSeek满血满精度原版模型，单并发20tps；INT4量化模型单并发30tps，多并发可达60+。
+github:
+  - url: https://github.com/ztxz16/fastllm

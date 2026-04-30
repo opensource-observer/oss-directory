@@ -1,0 +1,10 @@
+version: 7
+name: paddler-intentee
+display_name: Paddler Intentee
+description:
+  Open-source LLM/VLM load balancer and serving platform for self-hosting
+  LLMs (and VLMs) at scale 🏓🦙 Alternative to projects like llm-d, Docker Model Runner,
+  etc but with less moving parts and simple deployments built around ggml ecosystem.
+  Runs on CPU and GPU.
+github:
+  - url: https://github.com/intentee/paddler
