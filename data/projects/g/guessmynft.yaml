@@ -1,0 +1,19 @@
+version: 7
+name: guessmynft
+display_name: GuessMyNFT
+description: |-
+  GuessMyNFT is a two-player game where you and your opponent each secretly choose an NFT from a collection. 
+  You take turns asking binary trait questions and the answers are enforced by zero-knowledge proofs on-chain. Nobody can lie.
+
+  First player to correctly guess the opponent's NFT wins.
+
+  Solo mode available to compete on deductive skills against NFT bosses. Guess the Boss with as less questions as posible.
+websites:
+  - url: https://www.guessmynft.com/
+social:
+  twitter:
+    - url: https://x.com/GuessmyNft
+  telegram:
+    - url: https://t.me/guessmynft
+github:
+  - url: https://github.com/RUFiStudio/RUFi-Studio
