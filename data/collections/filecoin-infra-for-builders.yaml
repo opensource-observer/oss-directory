@@ -2,19 +2,25 @@ version: 7
 name: filecoin-infra-for-builders
 display_name: Infra for Filecoin Builders
 projects:
+  - blockscience
   - blockscout
   - checker-network
+  - consensys
   - digital-mob-filecoin
+  - edgevana
   - fidlabs
   - filecoin-checker-beck-8
   - filecoin-data-portal-davidgasquez
+  - fission-codes
   - ipfs-force-community-filscan
   - lynx-26dos
+  - n0-computer
   - open-telemetry
   - opensource-observer
   - piknik
   - probe-lab
   - starboard-ventures
   - supranational-filecoin
+  - trufflesuite
   - yellowstone-faithful-rpcpool
   - zondax
