@@ -1,0 +1,13 @@
+version: 7
+name: supranational-filecoin
+display_name: Supranational (Filecoin Projects)
+description: >-
+  Supranational's Filecoin-specific work including hardware-accelerated sealing,
+  PreCommit operations, and SNARK proof generation.
+websites:
+  - url: https://supranational.net
+github:
+  - url: https://github.com/supranational/supra_seal
+  - url: https://github.com/supranational/filecoin_pc1
+  - url: https://github.com/supranational/filecoin_pc2
+  - url: https://github.com/supranational/pc2_cuda
