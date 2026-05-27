@@ -1,0 +1,18 @@
+version: 7
+name: base-pay-desk-site-oskarasi
+display_name: Base Pay Desk
+description: Independent ETH-on-Base payment-link checkout for creators, agencies, and service sellers, with transparent fee math and accountless merchant intake.
+websites:
+  - url: https://oskarasi.github.io/base-pay-desk-site/
+github:
+  - url: https://github.com/oskarasi/base-pay-desk-site
+blockchain:
+  - address: "0x28b5faaaf9d2be18c4cdb9d9dbdc2753c594572e"
+    networks:
+      - base
+    tags:
+      - eoa
+      - wallet
+comments:
+  - Public static deployment repo; private source repo is not listed.
+  - Independent merchant tool; not affiliated with Base, Coinbase, or official Base Pay.
