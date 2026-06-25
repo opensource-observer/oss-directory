@@ -1,0 +1,18 @@
+version: 7
+name: grove-finance
+display_name: Grove Protocol
+description: Grove Protocol is institutional-grade DeFi credit infrastructure operating as a Prime Agent (Star) within the Sky Ecosystem, routing USDS and stablecoin liquidity into diversified, non-custodial credit strategies. Products include Grove Savings (sUSDS / Sky Savings Rate), Grove Allocator, Grove Basin, and Grove Financing. Incubated by Grove Labs; GROVE is its Ethereum ERC-20 governance token.
+websites:
+  - url: https://grove.finance
+  - url: https://app.grove.finance
+  - url: https://docs.grove.finance
+social:
+  twitter:
+    - url: https://x.com/grovedotfinance
+blockchain:
+  - address: "0xb30fe1cf884b48a22a50d22a9282004f2c5e9406"
+    name: GROVE Token
+    networks:
+      - mainnet
+    tags:
+      - contract
