@@ -1,0 +1,63 @@
+version: 7
+name: kerne
+display_name: Kerne
+description: Kerne is a delta-neutral synthetic dollar protocol on Base. kUSD is minted 1:1 against USDC through an on-chain Peg Stability Module, and skUSD is the staked, yield-bearing ERC-4626 wrapper. The strategy runs a delta-neutral basis trade hedged on Hyperliquid. Kerne publishes an hourly signed proof of reserves that anyone can recompute in their own browser, and has engaged Hexens for its first external smart-contract audit (fieldwork begins 2026-07-13).
+websites:
+  - url: https://kerne.fi/
+social:
+  twitter:
+    - url: https://x.com/KerneProtocol
+github:
+  - url: https://github.com/kerne-protocol
+defillama:
+  - url: https://defillama.com/protocol/kerne
+blockchain:
+  - address: "0x14f04ce02f35b29af564a98544dd7e2393993946"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x09a2780ac8be6d5d2d1f85a8d92b09d40c9ca37e"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+  - address: "0x52d3e450ba6c299b1b07298f1e87dd74732d4877"
+    networks:
+      - base
+    tags:
+      - safe
+      - wallet
+    name: Protocol Admin Safe (2-of-3)
+  - address: "0x5c2efdf0d8d286959b42308966bc2b97f5680aa3"
+    networks:
+      - base
+    tags:
+      - contract
+    name: kUSD (synthetic dollar)
+  - address: "0x96f5102c15b839757f811a98cec3725ac21dfa14"
+    networks:
+      - base
+    tags:
+      - contract
+    name: skUSD (staked kUSD, ERC-4626)
+  - address: "0x07ebb486e11bd217e6085eb5ab663e4517595993"
+    networks:
+      - base
+    tags:
+      - contract
+    name: KUSDPSM v3 (Peg Stability Module)
+  - address: "0x8ccc56b5624e2fdb592f6609d81f4c3798e3292b"
+    networks:
+      - base
+    tags:
+      - contract
+    name: KerneVault v2 (ERC-4626)
+  - address: "0x230f3a63e8413d42bee9103b98a204030206186c"
+    networks:
+      - base
+    tags:
+      - contract
+    name: KERNE (governance token)
