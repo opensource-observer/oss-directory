@@ -1,0 +1,11 @@
+version: 7
+name: openchainbench
+display_name: OpenChainBench
+description: OpenChainBench publishes open, reproducible, live benchmarks for crypto infrastructure. It measures free RPC provider latency across EVM chains and regions, L1 finality, L2 block times, bridge quote latency and fees, gas oracle accuracy, perp DEX all-in costs, and prediction market APIs. Every number is a public Prometheus query, harnesses are open source (MIT) and data is CC-BY-4.0.
+websites:
+  - url: https://openchainbench.com
+social:
+  twitter:
+    - url: https://x.com/OpenChainBench
+github:
+  - url: https://github.com/ChainBench

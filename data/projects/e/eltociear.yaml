@@ -1,0 +1,25 @@
+version: 7
+name: eltociear
+display_name: eltociear - AI-agent security & x402 tools
+description: Open-source security scanners and pay-per-call x402 APIs for AI agents — MCP/skill/prompt malicious-pattern detection, ERC-20 token and EVM contract safety checks, and leaked-secret scanning. Settled in USDC on Base via HTTP 402.
+websites:
+  - url: https://eltociear-tokenguard.hf.space
+  - url: https://eltociear-skill-audit.hf.space
+  - url: https://eltociear-contract-guard.hf.space
+github:
+  - url: https://github.com/eltociear/skill-audit-mcp
+  - url: https://github.com/eltociear/tokenguard-mcp
+  - url: https://github.com/eltociear/contract-guard-mcp
+  - url: https://github.com/eltociear/secrets-audit-mcp
+  - url: https://github.com/eltociear/x402-approval-guard
+  - url: https://github.com/eltociear/mcp-security-audit-action
+  - url: https://github.com/eltociear/awesome-molt-ecosystem
+npm:
+  - url: https://www.npmjs.com/package/@eltociear/mcp-security-audit
+blockchain:
+  - address: "0x5bcda55247b238a573a968b234f788a2d35664dd"
+    networks:
+      - base
+    tags:
+      - eoa
+      - wallet

@@ -1,0 +1,15 @@
+version: 7
+name: cash-cat
+display_name: Cash Cat
+description: Cash Cat (CASHCAT) is a community meme token on Robinhood Chain.
+websites:
+  - url: https://cashcattoken.xyz/
+social:
+  twitter:
+    - url: https://x.com/cashcat_token
+blockchain:
+  - address: "0x020bfc650a365f8bb26819deaabf3e21291018b4"
+    networks:
+      - any_evm
+    tags:
+      - contract
