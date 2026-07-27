@@ -1,0 +1,11 @@
+version: 7
+name: ophis
+display_name: Ophis
+description: Ophis is an intent-based, MEV-protected DEX aggregator. Describe a trade in natural language; Ophis parses the intent, fetches a best-execution quote, and batch-settles it on supported EVM chains, with Solana and Bitcoin destinations via NEAR Intents. Orders are gasless, off-chain, EIP-712-signed intents; the trader or agent signs with its own key and the keys never leave the signer. An agent signs a bounded capability with a hard limit price, not an arbitrary transaction.
+websites:
+  - url: https://swap.ophis.fi
+social:
+  twitter:
+    - url: https://twitter.com/ophisfi
+github:
+  - url: https://github.com/ophis-fi
