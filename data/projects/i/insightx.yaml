@@ -1,0 +1,19 @@
+version: 7
+name: insightx
+display_name: InsightX
+description: InsightX is an AI-native prediction market on Mantle where forecasts on crypto, macro, sports and real-world events trade as binary outcome shares. Orders are matched off-chain in a central order book and each one is confirmed on-chain by calling the trading contract with a backend-issued signature, so every position has a verifiable onchain record.
+websites:
+  - url: https://www.insightx.finance
+social:
+  twitter:
+    - url: https://x.com/InsightXHQ
+  telegram:
+    - url: https://t.me/InsightXHQ
+blockchain:
+  - address: "0xd22a5ffdb71221b7b2f081e2679c8a0149d58be9"
+    networks:
+      - mantle
+    tags:
+      - contract
+defillama:
+  - url: https://defillama.com/protocol/insightx
