@@ -1,0 +1,19 @@
+version: 7
+name: schuman-financial
+display_name: Schuman Financial
+description: Schuman Financial is a licensed stablecoin issuer behind EURØP, a euro-denominated stablecoin that is MiCA compliant and redeemable 1:1 for euro.
+websites:
+  - url: https://schuman.io
+social:
+  twitter:
+    - url: https://x.com/Schuman_io
+github:
+  - url: https://github.com/schuman-financial
+token_coingecko_api_id: schuman-europ
+blockchain:
+  - address: "0x888883b5f5d21fb10dfeb70e8f9722b9fb0e5e51"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: EUROP
