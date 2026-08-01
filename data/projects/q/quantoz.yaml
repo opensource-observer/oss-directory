@@ -1,0 +1,23 @@
+version: 7
+name: quantoz
+display_name: Quantoz Payments
+description: Quantoz Payments is a Dutch Electronic Money Institution that issues USDQ and EURQ, fiat-backed stablecoins pegged 1:1 to the US dollar and the euro respectively. Both tokens are issued under MiCA and redeemable 1:1 for the underlying fiat currency.
+websites:
+  - url: https://quantozpay.com
+social:
+  twitter:
+    - url: https://x.com/quantoz
+token_coingecko_api_id: quantoz-usdq
+blockchain:
+  - address: "0xc83e27f270cce0a3a3a29521173a83f402c1768b"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: USDQ
+  - address: "0x8df723295214ea6f21026eeeb4382d475f146f9f"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: EURQ
