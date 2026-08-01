@@ -1,0 +1,17 @@
+version: 7
+name: audxtoken
+display_name: AUDX Token
+description: AUDX is a fully backed Australian dollar stablecoin issued by AUSTRAC-registered Tau Pty Ltd, trading as AUDX Token, with reserves held 1:1 in regulated financial institutions.
+websites:
+  - url: https://www.audxtoken.com
+social:
+  twitter:
+    - url: https://x.com/audxtoken
+token_coingecko_api_id: aussie-dollar-token
+blockchain:
+  - address: "0xd687759f35bb747a29246a4b9495c8f52c49e00c"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: AUDX
