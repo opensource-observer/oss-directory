@@ -1,0 +1,25 @@
+version: 7
+name: rocksolid
+display_name: RockSolid
+description: RockSolid builds one-click yield vaults that route deposits into ecosystem strategies and incentives. Its MegaETH USDm vault is entered by depositing on Ethereum, with the vault contracts holding user deposits and issuing shares onchain.
+websites:
+  - url: https://rocksolid.network
+social:
+  twitter:
+    - url: https://x.com/rocksolidHQ
+blockchain:
+  - address: "0x936facdf10c8c36294e7b9d28345255539d81bc7"
+    networks:
+      - mainnet
+    tags:
+      - contract
+  - address: "0xba71097e426983d840569edfa1a01396b56d86ad"
+    networks:
+      - mainnet
+    tags:
+      - contract
+  - address: "0x7a12d4b719f5aa479ecd60defed909fb2a37e428"
+    networks:
+      - mainnet
+    tags:
+      - contract
