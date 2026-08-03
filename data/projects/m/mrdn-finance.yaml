@@ -1,0 +1,22 @@
+version: 7
+name: mrdn-finance
+display_name: Meridian
+description: Meridian is an x402 payments protocol that lets users send tokens to any address without paying gas. A facilitator applies a signed EIP-2612 permit on the user's behalf and pays the gas, so transfers settle onchain without the sender holding the native token. MRDN is bridged between networks as a LayerZero omnichain fungible token.
+websites:
+  - url: https://mrdn.finance
+social:
+  twitter:
+    - url: https://x.com/mrdn_finance
+  telegram:
+    - url: https://t.me/mrdnfinance
+blockchain:
+  - address: "0xe57e601c06689d3e2bf7db7bebb14b4ff28400c6"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x6dd74a4b532659ce2f82e85cccd2e5989cea3589"
+    networks:
+      - base
+    tags:
+      - contract
