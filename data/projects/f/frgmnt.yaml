@@ -1,0 +1,20 @@
+version: 7
+name: frgmnt
+display_name: Frgmnt
+description: Frgmnt is a yield-bearing stablecoin protocol on Base. Users mint fUSD, a 1:1 USD-pegged stablecoin, and stake it into sfUSD to earn yield. The protocol allocates deposits across lending and liquidity venues through a guard-based permission system that restricts which external contracts and assets the pool can interact with.
+websites:
+  - url: https://frgmnt.fi
+social:
+  twitter:
+    - url: https://x.com/frgmnt
+blockchain:
+  - address: "0xeb82611a2b2dc9fbeaf5903d5decdf801765b759"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x704c56974e0ca4bf8ff8fe8acc51fbf1e053878e"
+    networks:
+      - base
+    tags:
+      - contract
