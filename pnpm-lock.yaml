@@ -30,9 +30,6 @@ importers:
       dayjs:
         specifier: ^1.11.21
         version: 1.11.21
-      dotenv:
-        specifier: ^16.6.1
-        version: 16.6.1
       glob:
         specifier: ^10.5.0
         version: 10.5.0
@@ -1781,13 +1778,6 @@ packages:
         integrity: sha512-yS+Q5i3hBf7GBkd4KG8a7eBNNWNGLTaEwwYWUijIYM7zrlYDM0BFXHjjPWlWZ1Rg7UaddZeIDmi9jF3HmqiQ2w==,
       }
     engines: { node: ">=6.0.0" }
-
-  dotenv@16.6.1:
-    resolution:
-      {
-        integrity: sha512-uBq4egWHTcTt33a72vpSG0z3HnPuIl6NqYcTrKEg2azoEyl2hpW0zqlxysq2pK9HlDIHyHyakeYaYnSAwd8bow==,
-      }
-    engines: { node: ">=12" }
 
   duplexer@0.1.2:
     resolution:
@@ -5351,8 +5341,6 @@ snapshots:
   doctrine@3.0.0:
     dependencies:
       esutils: 2.0.3
-
-  dotenv@16.6.1: {}
 
   duplexer@0.1.2: {}
 
