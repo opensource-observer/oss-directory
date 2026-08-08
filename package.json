@@ -20,6 +20,7 @@
   "engines": {
     "node": ">=16"
   },
+  "packageManager": "pnpm@9.15.9",
   "scripts": {
     "build": "pnpm types && tsc",
     "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
