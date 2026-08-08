@@ -5,6 +5,11 @@ env:
   TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
   DOCKER_PLATFORM: "amd64"
 
+# Least privilege for GITHUB_TOKEN. This job only builds, lints and validates
+# — it never writes back to the repo.
+permissions:
+  contents: read
+
 # Trigger the workflow when:
 on:
   # A push occurs to one of the matched branches.
