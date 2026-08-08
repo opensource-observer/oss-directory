@@ -14,7 +14,6 @@ export interface SocialProfile {
   mirror?: URL[];
   telegram?: URL[];
   twitter?: URL[];
-  [k: string]: unknown;
 }
 /**
  * A generic URL

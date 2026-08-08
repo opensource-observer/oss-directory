@@ -23,6 +23,7 @@ export interface Project {
   open_collective?: URL[];
   blockchain?: BlockchainAddress[];
   defillama?: URL[];
+  token_coingecko_api_id?: string;
   comments?: string[];
   [k: string]: unknown;
 }
@@ -42,7 +43,6 @@ export interface SocialProfile {
   mirror?: URL[];
   telegram?: URL[];
   twitter?: URL[];
-  [k: string]: unknown;
 }
 /**
  * An address on a blockchain
