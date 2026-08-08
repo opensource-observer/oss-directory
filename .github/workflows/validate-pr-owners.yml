@@ -11,6 +11,17 @@ env:
 
   PR_TOOLS_REPO: ${{ github.repository }}
 
+# Least privilege for GITHUB_TOKEN. This runs on pull_request_target, so the
+# token is the base repo's — it must never be writable from a fork PR.
+# Read-only across the board; the CLI's write operations (check runs, comments)
+# go through the PR_TOOLS GitHub App, not GITHUB_TOKEN.
+permissions:
+  contents: read
+  pull-requests: read
+  issues: read
+  checks: read
+  statuses: read
+
 # Trigger the workflow when:
 on:
   pull_request_target:

@@ -112,7 +112,7 @@ const agoraToOsoProject = (agoraProj: AgoraProject): Project => {
   const strToUrlObj = (url: string) => ({ url });
   const strArrToUrlArr = (urls: string[]) => urls.map(strToUrlObj);
   const githubUrls = agoraProj.artifacts.filter((x) =>
-    x.startsWith("https://github.com"),
+    x.startsWith("https://github.com/"),
   );
   const npmUrls = agoraProj.artifacts.filter(
     (x) =>

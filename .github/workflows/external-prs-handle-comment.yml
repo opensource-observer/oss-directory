@@ -6,6 +6,16 @@ env:
   PR_TOOLS_ADMIN_TEAM_NAME: ${{ secrets.PR_TOOLS_ADMIN_TEAM_NAME }}
   PR_TOOLS_REPO: ${{ github.repository }}
 
+# Least privilege for GITHUB_TOKEN. Triggered by issue_comment, so the input is
+# untrusted. Read-only across the board; the CLI's write operations go through
+# the PR_TOOLS GitHub App, not GITHUB_TOKEN.
+permissions:
+  contents: read
+  pull-requests: read
+  issues: read
+  checks: read
+  statuses: read
+
 on:
   issue_comment:
     types:
