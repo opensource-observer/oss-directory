@@ -89,241 +89,241 @@ npm:
   - url: https://www.npmjs.com/package/@zoralabs/protocol-deployments
   - url: https://www.npmjs.com/package/@zoralabs/zdk
 blockchain:
-  - address: '0xf69fec6d858c77e969509843852178bd24cad2b6'
+  - address: "0xf69fec6d858c77e969509843852178bd24cad2b6"
     tags:
       - eoa
       - deployer
     networks:
       - any_evm
-  - address: '0x680e26b472d8cae8148ee21fcad6a69d73766436'
+  - address: "0x680e26b472d8cae8148ee21fcad6a69d73766436"
     tags:
       - eoa
       - deployer
     networks:
       - zora
-  - address: '0xad031eee55f595df6dbd61e9ef3b908fad1b3671'
+  - address: "0xad031eee55f595df6dbd61e9ef3b908fad1b3671"
     networks:
       - any_evm
     tags:
       - deployer
       - eoa
-  - address: '0x12125c8a52b8e4ed1a28e1f964023b4477f11300'
+  - address: "0x12125c8a52b8e4ed1a28e1f964023b4477f11300"
     networks:
       - any_evm
     tags:
       - deployer
       - eoa
-  - address: '0x1b28a04b7eb7b93f920ddf2021aa3fae065395f2'
+  - address: "0x1b28a04b7eb7b93f920ddf2021aa3fae065395f2"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: ZoraCreatorRedeemMinterFactory
-  - address: '0x78b524931e9d847c40bcbf225c25e154a7b05fda'
+  - address: "0x78b524931e9d847c40bcbf225c25e154a7b05fda"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: Zora1155Factory
-  - address: '0x7d1a46c6e614a0091c39e102f2798c27c1fa8892'
+  - address: "0x7d1a46c6e614a0091c39e102f2798c27c1fa8892"
     networks:
       - optimism
     tags:
       - contract
       - factory
     name: ZoraNFTCreatorProxy
-  - address: '0x899ce31df6c6af81203acaad285bf539234ef4b8'
+  - address: "0x899ce31df6c6af81203acaad285bf539234ef4b8"
     networks:
       - optimism
     tags:
       - contract
     name: ZoraCreatorMerkleMinterStrategy
-  - address: '0x46e772210f01647fa573b915be287ff9b65ad4b0'
+  - address: "0x46e772210f01647fa573b915be287ff9b65ad4b0"
     networks:
       - mainnet
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
-  - address: '0x677f06c6a93e167c1ebd4eafa3a3f9370dfc665a'
+  - address: "0x677f06c6a93e167c1ebd4eafa3a3f9370dfc665a"
     networks:
       - optimism
     tags:
       - contract
     name: ZoraCreator1155FactoryImpl
-  - address: '0xd1cba36d92b052079523f471eb891563f2e5df5c'
+  - address: "0xd1cba36d92b052079523f471eb891563f2e5df5c"
     networks:
       - mainnet
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
-  - address: '0x3678862f04290e565cca2ef163baeb92bb76790c'
+  - address: "0x3678862f04290e565cca2ef163baeb92bb76790c"
     networks:
       - optimism
     tags:
       - contract
     name: ZoraCreatorFixedPriceSaleStrategy
-  - address: '0x192d663c3d6813a24a24582a76b8d872c4f6f7f9'
+  - address: "0x192d663c3d6813a24a24582a76b8d872c4f6f7f9"
     networks:
       - mainnet
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
-  - address: '0xa02fc0fc9b0b3e23ac26eb0f2d392fd5cda58514'
+  - address: "0xa02fc0fc9b0b3e23ac26eb0f2d392fd5cda58514"
     networks:
       - optimism
     tags:
       - contract
     name: ProxyShim
-  - address: '0x2fbdbc34b6015e7b40638179aa05a2d2267452c7'
+  - address: "0x2fbdbc34b6015e7b40638179aa05a2d2267452c7"
     networks:
       - optimism
     tags:
       - contract
     name: ZoraCreator1155Impl
-  - address: '0xa2a7d8bce0bf58d177137ecb94f3fa6aa06aa7a1'
+  - address: "0xa2a7d8bce0bf58d177137ecb94f3fa6aa06aa7a1"
     networks:
       - mainnet
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
-  - address: '0x96ccf205a366e15e261d77b14586389f80a029e9'
+  - address: "0x96ccf205a366e15e261d77b14586389f80a029e9"
     networks:
       - optimism
     tags:
       - contract
     name: DropMetadataRenderer
-  - address: '0x3e8524770add176be381a0529e09f1c6c3502a5a'
+  - address: "0x3e8524770add176be381a0529e09f1c6c3502a5a"
     networks:
       - optimism
     tags:
       - contract
     name: ERC721Drop
-  - address: '0x805e0a08de70f85c01f7848370d5e3fc08aad0ea'
+  - address: "0x805e0a08de70f85c01f7848370d5e3fc08aad0ea"
     networks:
       - mainnet
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
-  - address: '0x8ca5e648c5dfefcdda06d627f4b490b719ccfd98'
+  - address: "0x8ca5e648c5dfefcdda06d627f4b490b719ccfd98"
     networks:
       - optimism
     tags:
       - contract
     name: ZoraCreator1155FactoryImpl
-  - address: '0xeb29a4e5b84fef428c072deba2444e93c080ce87'
+  - address: "0xeb29a4e5b84fef428c072deba2444e93c080ce87"
     networks:
       - mainnet
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
-  - address: '0xf0fd838913e9407edac7e51629de21eaf748b50a'
+  - address: "0xf0fd838913e9407edac7e51629de21eaf748b50a"
     networks:
       - mainnet
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
-  - address: '0x2e0c148c1aed0360df9a86112fd7c4eab8045779'
+  - address: "0x2e0c148c1aed0360df9a86112fd7c4eab8045779"
     networks:
       - optimism
     tags:
       - contract
     name: ZoraNFTCreatorV1
-  - address: '0x0abdd5aa61e9107519db7cd626442b905284b7eb'
+  - address: "0x0abdd5aa61e9107519db7cd626442b905284b7eb"
     networks:
       - mainnet
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
-  - address: '0x824dd1ccd0824a15913b454a7e5d3bf0c6b2beed'
+  - address: "0x824dd1ccd0824a15913b454a7e5d3bf0c6b2beed"
     networks:
       - optimism
     tags:
       - contract
     name: ERC721Drop
-  - address: '0x0fbab7302f9351dd1db6674cc3bb855f0c55840b'
+  - address: "0x0fbab7302f9351dd1db6674cc3bb855f0c55840b"
     networks:
       - mainnet
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
-  - address: '0x421b6ad0cdd20be3636f3511b6ae244d8f668db1'
+  - address: "0x421b6ad0cdd20be3636f3511b6ae244d8f668db1"
     networks:
       - mainnet
       - optimism
     tags:
       - contract
     name: various:DiffersByChain
-  - address: '0x7a810dcd0f8d83b20212326813db6ef7e9fd030c'
+  - address: "0x7a810dcd0f8d83b20212326813db6ef7e9fd030c"
     networks:
       - optimism
     tags:
       - safe
       - wallet
-  - address: '0x3e2ea9b92b7e48a52296fd261dc26fd995284631'
+  - address: "0x3e2ea9b92b7e48a52296fd261dc26fd995284631"
     networks:
       - mainnet
     tags:
       - bridge
       - contract
       - proxy
-    name: 'Zora: L1StandardBridge'
-  - address: '0x4200000000000000000000000000000000000010'
+    name: "Zora: L1StandardBridge"
+  - address: "0x4200000000000000000000000000000000000010"
     networks:
       - zora
     tags:
       - bridge
       - contract
       - proxy
-    name: 'Zora: L2StandardBridge'
-  - address: '0x77777770ca269366c7208afcf36fe2c6f7f7608b'
+    name: "Zora: L2StandardBridge"
+  - address: "0x77777770ca269366c7208afcf36fe2c6f7f7608b"
     networks:
       - zora
     tags:
       - contract
-  - address: '0x777777c338d93e2c7adf08d102d45ca7cc4ed021'
-    networks:
-      - zora
-    tags:
-      - contract
-      - factory
-  - address: '0x777777e8850d8d6d98de2b5f64fae401f96eff31'
-    networks:
-      - zora
-    tags:
-      - contract
-  - address: '0x7777773606e7e46c8ba8b98c08f5cd218e31d340'
-    networks:
-      - zora
-    tags:
-      - contract
-  - address: '0xabcdefed93200601e1dfe26d6644758801d732e8'
-    networks:
-      - zora
-    tags:
-      - contract
-  - address: '0x35ca784918bf11692708c1d530691704aacea95e'
+  - address: "0x777777c338d93e2c7adf08d102d45ca7cc4ed021"
     networks:
       - zora
     tags:
       - contract
       - factory
-  - address: '0x7777777f279eba3d3ad8f4e708545291a6fdba8b'
+  - address: "0x777777e8850d8d6d98de2b5f64fae401f96eff31"
     networks:
       - zora
     tags:
       - contract
-  - address: '0xa2c2a96a232113dd4993e8b048eebc3371ae8d85'
+  - address: "0x7777773606e7e46c8ba8b98c08f5cd218e31d340"
+    networks:
+      - zora
+    tags:
+      - contract
+  - address: "0xabcdefed93200601e1dfe26d6644758801d732e8"
+    networks:
+      - zora
+    tags:
+      - contract
+  - address: "0x35ca784918bf11692708c1d530691704aacea95e"
+    networks:
+      - zora
+    tags:
+      - contract
+      - factory
+  - address: "0x7777777f279eba3d3ad8f4e708545291a6fdba8b"
+    networks:
+      - zora
+    tags:
+      - contract
+  - address: "0xa2c2a96a232113dd4993e8b048eebc3371ae8d85"
     networks:
       - base
       - zora
