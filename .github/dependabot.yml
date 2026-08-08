@@ -1,43 +1,42 @@
 version: 2
+
+# This repo is mostly curated YAML; the npm and pip dependencies exist only to
+# run the validation CLI. Routine version bumps aren't worth a PR each, so
+# they're off — but security fixes still come through, batched into one PR per
+# ecosystem rather than one per advisory.
 updates:
-  # Node dependencies (pnpm-lock.yaml)
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 5
+    # 0 disables routine version updates. Security updates are exempt from this
+    # limit and are unaffected.
+    open-pull-requests-limit: 0
     groups:
-      npm-production:
-        dependency-type: "production"
-        update-types:
-          - "minor"
-          - "patch"
-      npm-development:
-        dependency-type: "development"
-        update-types:
-          - "minor"
-          - "patch"
+      npm-security:
+        applies-to: security-updates
+        patterns:
+          - "*"
 
-  # Python dependencies (poetry.lock)
   - package-ecosystem: "pip"
     directory: "/"
     schedule:
       interval: "weekly"
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 0
     groups:
-      pip-all:
+      pip-security:
+        applies-to: security-updates
         patterns:
           - "*"
-        update-types:
-          - "minor"
-          - "patch"
 
-  # GitHub Actions used by the workflows in .github/workflows
+  # Actions are the exception: there are only a handful, and a version update is
+  # the only way they get refreshed. One grouped PR a month.
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "monthly"
+    open-pull-requests-limit: 1
     groups:
-      actions-all:
+      github-actions:
         patterns:
           - "*"
