@@ -12,6 +12,14 @@ runs:
 
     - name: Setup pnpm
       uses: pnpm/action-setup@v6
+      with:
+        # An explicit version is required here, and packageManager cannot
+        # replace it. Callers of this composite check the repo out into ./main,
+        # so there is no package.json at the workspace root for action-setup to
+        # read. This step also installs a standalone CLI from npm rather than
+        # operating on this repo, so it has no package.json context at all.
+        # Keep in sync with the packageManager field in package.json.
+        version: 9.15.9
 
     - name: Install external-prs CLI
       shell: bash
