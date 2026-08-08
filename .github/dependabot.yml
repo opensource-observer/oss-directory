@@ -31,8 +31,16 @@ updates:
 
   # Actions are the exception: there are only a handful, and a version update is
   # the only way they get refreshed. One grouped PR a month.
+  #
+  # "/" covers .github/workflows/*.yml and a root action.yml, but NOT composite
+  # actions nested in subdirectories — those have to be listed explicitly, or
+  # they silently never get updated (which is how they drifted to v4 while the
+  # workflows moved on).
   - package-ecosystem: "github-actions"
-    directory: "/"
+    directories:
+      - "/"
+      - "/.github/workflows/setup-external-pr-tools"
+      - "/.github/workflows/validate"
     schedule:
       interval: "monthly"
     open-pull-requests-limit: 1
