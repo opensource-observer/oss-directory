@@ -1,0 +1,14 @@
+version: 7
+name: mach-exchange
+display_name: Mach
+description: Mach is an intents-based cross-chain DEX built by Tristero Research. It settles
+  swaps between chains using an optimistic escrow contract deployed on each supported network,
+  with LayerZero for cross-chain messaging, so trades fill without waiting for a canonical
+  bridge.
+websites:
+  - url: https://www.mach.exchange
+social:
+  twitter:
+    - url: https://x.com/mach_exchange
+github:
+  - url: https://github.com/tristeroresearch
