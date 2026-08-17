@@ -1,0 +1,20 @@
+version: 7
+name: anchorpoint
+display_name: Anchorpoint
+description: Anchorpoint Financial Limited is a Hong Kong-based stablecoin issuer and a joint venture of Standard Chartered Bank (Hong Kong), HKT and Animoca Brands. It issues HKDAP (Hong Kong Dollar At Par), a Hong Kong dollar-pegged stablecoin redeemable 1:1 for HKD, under stablecoin issuer licence FRS01 granted by the Hong Kong Monetary Authority in April 2026.
+websites:
+  - url: https://anchorpoint.hk/
+blockchain:
+  - address: "0x87622385F960fcCB3121d6D0A9513bd1D9Bed6cA"
+    networks:
+      - mainnet
+    tags:
+      - contract
+      - proxy
+    name: HKDAP
+  - address: "0xa9315aaDC89BA681f1FE5DF3375ab1a87D37eCa2"
+    networks:
+      - mainnet
+    tags:
+      - eoa
+      - deployer
