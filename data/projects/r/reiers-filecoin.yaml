@@ -2,10 +2,14 @@ version: 7
 name: reiers-filecoin
 display_name: Reiers
 description: >-
-  Filecoin network tooling including epoch clock, drainer detection, and
-  Calibnet stability monitoring
+  Filecoin network tooling including epoch clock, drainer detection, Calibration
+  stability infrastructure, public testnet faucet operations, and monitoring
+  dashboards.
 github:
   - url: https://github.com/reiers/epochclock
   - url: https://github.com/reiers/filecoin-drainer
   - url: https://github.com/reiers/filecoin-slack-admin-program
   - url: https://github.com/reiers/the-calibrationnet-stability-project
+  - url: https://github.com/Reiers/plumbline
+  - url: https://github.com/Reiers/plumbline-faucet
+  - url: https://github.com/Reiers/calix
