@@ -1,0 +1,11 @@
+version: 7
+name: sieve-slvdev
+display_name: Sieve
+description: A self-hosted Rust indexer for Ethereum and OP-Stack chains that
+  syncs directly from devp2p peers without an RPC provider, verifies canonical
+  data by peer quorum, and writes configured events, calls, and native transfers
+  to Postgres with GraphQL and streaming outputs.
+websites:
+  - url: https://sieve.sh
+github:
+  - url: https://github.com/slvDev/sieve
