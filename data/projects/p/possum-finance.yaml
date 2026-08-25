@@ -1,0 +1,12 @@
+version: 7
+name: possum-finance
+display_name: Possum Finance
+description:
+  Possum Finance builds TopCut, a prediction market where traders submit price forecasts
+  for a fixed cohort and the closest predictions share the pot.
+  Each market round is its own contract, settled through a shared vault.
+websites:
+  - url: https://www.possum.finance
+social:
+  twitter:
+    - url: https://x.com/Possum_Finance
