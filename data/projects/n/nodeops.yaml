@@ -1,0 +1,84 @@
+version: 7
+name: nodeops
+display_name: NodeOps
+description: NodeOps Network is a chain-agnostic DePIN orchestration layer for general-purpose, economically-secured compute. Providers bond collateral to register machines, users subscribe to containerized one-click node deployments through the NodeOps Console, and the $NODE token settles the marketplace — with an order registry publishing revenue onchain and a dynamic mint-and-burn model tying emissions to verified network usage.
+websites:
+  - url: https://nodeops.network
+social:
+  twitter:
+    - url: https://x.com/NodeOpsHQ
+github:
+  - url: https://github.com/NodeOps-app
+blockchain:
+  - address: "0x2f714d7b9a035d4ce24af8d9b6091c07e37f43fb"
+    name: $NODE Token
+    networks:
+      - mainnet
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0xc0d2af6d32240494742ae486b9b73ec6dcc54aa1"
+    name: $NODE Wave-1 Airdrop Token (legacy)
+    networks:
+      - mainnet
+      - base
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0xff51a51f38f26bc03085642aa1a7082d7845c94d"
+    name: iAgent NFT
+    networks:
+      - mainnet
+      - base
+    tags:
+      - contract
+  - address: "0x2080fee444118afce30fcb749802c18c0a980db7"
+    name: Airdrop pool contract
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0xc02add3d60af95bd7652d68c7d510f0d52f994ef"
+    name: Order registry contract
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0x808a4650e2e27e0051db16c3089888cc92662e52"
+    name: Staking contract
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0xcdfc2cc484e5cf5669d34ba44260c83c4279f7b2"
+    name: Provider bonding contract (Arbitrum) / Ecosystem vesting (Ethereum)
+    networks:
+      - mainnet
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0x1bce1330e93d08f2996fdaed23a9168b9e3ed090"
+    name: NODE to credits (Arbitrum) / Incentives vesting (Ethereum)
+    networks:
+      - mainnet
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0x746038a17ebbb4298f0946cade01d80c09858240"
+    name: IDO contract
+    networks:
+      - mainnet
+    tags:
+      - contract
+  - address: "0xcba485746fe9a96e56f264c750c4025b135129df"
+    name: Airdrop vesting contract
+    networks:
+      - mainnet
+    tags:
+      - contract
+  - address: "0x708aa8eae215f9369c1caab30f259c4e193cd426"
+    name: Early backers vesting contract
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
