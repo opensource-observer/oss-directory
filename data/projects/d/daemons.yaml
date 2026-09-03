@@ -1,0 +1,25 @@
+version: 7
+name: daemons
+display_name: Dæmons
+description: Dæmons is an AI-powered blockchain game by Ikigai Studios that turns a wallet's onchain history into a personalized interactive companion, in the spirit of Tamagotchi crossed with Pokémon. DMN is the game token and Daemons Playables are its omnichain (ONFT) character collection.
+websites:
+  - url: https://daemons.app
+social:
+  twitter:
+    - url: https://x.com/daemons_gamefi
+blockchain:
+  - address: "0x60c878d639593d3a2752182ac602ba7a4f5fdf02"
+    name: DMN Token
+    networks:
+      - base
+    tags:
+      - contract
+      - proxy
+  - address: "0x843b1327ef56d35dd71144cd256e76202f7406db"
+    name: Daemons Playables (ONFT Characters)
+    networks:
+      - optimism
+      - matic
+      - arbitrum_one
+    tags:
+      - contract
