@@ -1,0 +1,60 @@
+version: 7
+name: strata-markets
+display_name: Strata
+description: Strata is a structured-yield protocol that splits the return of a yield-bearing asset into two tokenized tranches — a senior tranche (srTOKEN) taking a fixed, protected yield and a junior tranche (jrTOKEN) taking the variable remainder — so depositors can pick a risk-reward profile instead of accepting a single blended rate. Markets run on Ethereum over Ethena USDe, Neutrl NUSD, Midas mHYPER and mM1-USD, Saturn USDat, Hastra PRIME and Nest nOPAL.
+websites:
+  - url: https://strata.markets
+social:
+  twitter:
+    - url: https://x.com/strata_markets
+github:
+  - url: https://github.com/Strata-Markets
+blockchain:
+  - address: "0x3d7d6fdf07ee548b939a80edbc9b2256d0cdc003"
+    name: srUSDe
+    networks:
+      - mainnet
+    tags:
+      - contract
+  - address: "0xc58d044404d8b14e953c115e67823784dea53d8f"
+    name: jrUSDe
+    networks:
+      - mainnet
+    tags:
+      - contract
+  - address: "0x908b3921aae4fc17191d382bb61020f2ee6c0e20"
+    name: StrataCDO
+    networks:
+      - mainnet
+    tags:
+      - contract
+  - address: "0x1d19e18ecac4ef332a0d5d6aa3a0f0f772605f60"
+    name: AccessControlManager
+    networks:
+      - mainnet
+    tags:
+      - contract
+  - address: "0xa27ca9292268ee0f0258b749f1d5740c9bb68b50"
+    name: Admin Multisig (3/4)
+    networks:
+      - mainnet
+    tags:
+      - safe
+  - address: "0x4be3749a0f6557b8fd98f3967e859dbd7c694ef4"
+    name: Operational Multisig (2/3)
+    networks:
+      - mainnet
+    tags:
+      - safe
+  - address: "0xb2a3cf69c97afd4de7882e5fee120e4efc77b706"
+    name: Timelock (48hr)
+    networks:
+      - mainnet
+    tags:
+      - contract
+  - address: "0x4f2682b78f37910704fb1aff29358a1da07e022d"
+    name: Timelock (24hr)
+    networks:
+      - mainnet
+    tags:
+      - contract
