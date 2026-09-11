@@ -1,7 +1,7 @@
 version: 7
 name: kerne
 display_name: Kerne
-description: Kerne is a delta-neutral synthetic dollar protocol on Base. kUSD is minted 1:1 against USDC through an on-chain Peg Stability Module, and skUSD is the staked, yield-bearing ERC-4626 wrapper. The strategy runs a delta-neutral basis trade hedged on Hyperliquid. Kerne publishes an hourly signed proof of reserves that anyone can recompute in their own browser, and has engaged Hexens for its first external smart-contract audit (fieldwork begins 2026-07-13).
+description: Kerne is a delta-neutral synthetic dollar protocol on Base. kUSD is minted 1:1 against USDC through an on-chain Peg Stability Module, and skUSD is the staked, yield-bearing ERC-4626 wrapper. The strategy runs a delta-neutral basis trade hedged on Hyperliquid. Kerne publishes an hourly signed proof of reserves that anyone can recompute in their own browser. Its first external smart-contract audit, by Hexens, was published on 2026-07-31 (10 findings, 0 critical, 2 high; 8 fixed in source and 2 acknowledged by design). Kerne separately publishes the places where its deployed bytecode still differs from current source at kerne.fi/security/deployed-vs-source.
 websites:
   - url: https://kerne.fi/
 social:
@@ -43,12 +43,24 @@ blockchain:
     tags:
       - contract
     name: skUSD (staked kUSD, ERC-4626)
+  - address: "0xabde1138aa1ce88d1df06422c0c3b05d70569803"
+    networks:
+      - base
+    tags:
+      - contract
+    name: KUSDPSM v3 (live mint module, sole holder of kUSD MINTER_ROLE)
   - address: "0x07ebb486e11bd217e6085eb5ab663e4517595993"
     networks:
       - base
     tags:
       - contract
-    name: KUSDPSM v3 (Peg Stability Module)
+    name: KUSDPSM v3 (retired mint module, MINTER_ROLE revoked 2026-07-13, still holds reserve)
+  - address: "0xff3025ec18e301855ab0f36ec6eca115a29a5fbc"
+    networks:
+      - base
+    tags:
+      - contract
+    name: KUSDPSM (redeem reserve module, pre-v3 build)
   - address: "0x8ccc56b5624e2fdb592f6609d81f4c3798e3292b"
     networks:
       - base
