@@ -283,20 +283,33 @@ git push
 gh pr review [PR_NUMBER] --approve --body "LGTM! Applied formatting fixes."
 ```
 
-#### If Ready to Merge (Without Blockchain Addresses)
+#### If Ready to Merge (Always Run /validate First)
 
-If everything looks good and PR has **no blockchain addresses or DefiLlama URLs**:
+**Run `/validate` on every PR before merging** — not only ones with blockchain addresses.
+The repo's `validate` check sits at `ACTION_REQUIRED` until the bot is invoked, so merging
+without it leaves CI un-green on the branch.
+
+Once the check is green, approve and add the PR to the merge queue. Note that
+`gh pr merge --squash` fails on this repo even for a green PR — auto-merge is disabled
+behind the merge queue, so it errors with "Auto merge is not allowed for this repository".
+That is not a signal to reach for `gh pr merge --admin`, which bypasses checks instead of
+satisfying them. Enqueue via GraphQL instead:
 
 ```bash
 gh pr review [PR_NUMBER] --approve --body "LGTM! Thanks for contributing."
 
-# Optionally merge if you have permission
-gh pr merge [PR_NUMBER] --squash
+id=$(gh pr view [PR_NUMBER] --json id --jq .id)
+gh api graphql -f query='mutation($pr:ID!){enqueuePullRequest(input:{pullRequestId:$pr}){mergeQueueEntry{position state}}}' -f pr="$id"
 ```
 
-#### If Ready but Has Blockchain Addresses (Run /validate)
+The queue merges it within a minute or two; confirm with
+`gh pr view [PR_NUMBER] --json state,mergedAt`.
 
-If everything passes local validation but PR contains **blockchain addresses or DefiLlama URLs**, run automated validation first:
+#### Running /validate
+
+For PRs with **blockchain addresses or DefiLlama URLs**, the bot additionally checks address
+tags, networks, and DefiLlama slugs — review those results carefully (see below). For all
+other PRs it just needs to run and go green.
 
 **Step 1: Get the commit SHA**
 
@@ -375,6 +388,23 @@ If **only warnings (⚠️)**: Usually acceptable, use judgment whether to merge
 - ✅ is a valid DefiLlama URL
 - ✅ is a valid DefiLlama slug
 ```
+
+**Known false negatives:** the bot has reported "is not a contract on base" for addresses
+that are live, verified contracts (seen on PR #1176, reproducible across re-runs). Before
+treating a contract error as real, confirm independently:
+
+```bash
+# Non-empty result = contract. Base chain id is 0x2105.
+curl -s -X POST https://mainnet.base.org -H 'Content-Type: application/json' \
+  -d '{"jsonrpc":"2.0","id":1,"method":"eth_getCode","params":["[ADDRESS]","latest"]}'
+
+# Cross-check on Blockscout
+curl -s "https://base.blockscout.com/api/v2/addresses/[ADDRESS]"
+```
+
+If the address is genuinely a contract, the bot is wrong — approve with a comment recording
+what you verified and why, then enqueue as normal. `validate` is not a required status
+check, so the merge queue will still accept the PR.
 
 ### 8. Cleanup
 
@@ -655,7 +685,7 @@ Use this checklist for each PR (in priority order):
 
 - [ ] `pnpm run validate` passes
 - [ ] `pnpm lint` passes
-- [ ] If PR has blockchain addresses or DefiLlama URLs, run `/validate` command
+- [ ] Run `/validate` on the PR and confirm the check goes green (every PR, not just blockchain ones)
 
 ## When to Request Changes
 
