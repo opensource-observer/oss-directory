@@ -1,0 +1,12 @@
+version: 7
+name: open-multi-agent
+display_name: Open Multi-Agent
+description: Open-source infrastructure for controlled, inspectable agent teams, with TypeScript-native dynamic task-DAG orchestration, approvals, tracing, evaluation, checkpointing, and resume support.
+websites:
+  - url: https://open-multi-agent.com
+github:
+  - url: https://github.com/open-multi-agent/open-multi-agent
+npm:
+  - url: https://www.npmjs.com/package/@open-multi-agent/core
+  - url: https://www.npmjs.com/package/@open-multi-agent/otel
+  - url: https://www.npmjs.com/package/create-oma-app
