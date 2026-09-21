@@ -1,5 +1,37 @@
 version: 7
 name: ampleforth
 display_name: Ampleforth
+description: >-
+  Ampleforth is a decentralized protocol built around AMPL, a rebasing unit of
+  account that targets the CPI-adjusted dollar. The ecosystem also includes
+  FORTH (DAO governance) and SPOT (a perpetual note collateralized by AMPL
+  derivatives).
+websites:
+  - url: https://www.ampleforth.org
+  - url: https://docs.ampleforth.org
+  - url: https://www.spot.cash
+social:
+  twitter:
+    - url: https://twitter.com/ampleforthorg
+  discord:
+    - url: https://discord.gg/mptQ49m
+  telegram:
+    - url: https://t.me/Ampleforth
 github:
-  - url: https://github.com/ampleforth
+  - url: https://github.com/fragmentsorg
+blockchain:
+  # Deployer of AMPL (proxy 0xD46bA6D942050d489DBd938a2C909A5d5039A161)
+  - address: "0xd8461BD73F19E3d789Ac0E5dbF1AD62FBBd15C22"
+    networks:
+      - mainnet
+    tags:
+      - deployer
+      - eoa
+  # Deployer of FORTH (0x77FbA179C79De5B7653F68b5039Af940AdA60ce0) and the
+  # FORTH DAO Timelock/treasury (0x223592a191ECfC7FDC38a9256c3BD96E771539A9)
+  - address: "0xfe2321D7DFA492dFC39330e8b85E7c49161e7F98"
+    networks:
+      - mainnet
+    tags:
+      - deployer
+      - eoa
