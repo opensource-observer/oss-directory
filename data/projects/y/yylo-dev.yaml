@@ -1,0 +1,11 @@
+version: 7
+name: yylo-dev
+display_name: YYLO
+description: YYLO is a command-line orchestrator for coding agents, repeatable workflows, and receipt-backed repository changes, with typed task, validation, merge, and release-readiness boundaries. The project also ships YYLO Ledger, an independent Git-native task store, and YYLO Benchmark, an independent evaluation and evidence package for coding-agent runs.
+websites:
+  - url: https://yylo.dev
+github:
+  - url: https://github.com/yylo-dev
+npm:
+  - url: https://www.npmjs.com/package/@yylo/benchmark
+  - url: https://www.npmjs.com/package/@yylo/cli
