@@ -1,0 +1,46 @@
+version: 7
+name: ai-arena
+display_name: AI Arena
+description: AI Arena is a player-versus-player fighting game on Arbitrum One in which the characters are AI models rather than scripted opponents. Players train an NFT fighter by demonstration — the model learns the player's own combat style through imitation learning — and then enter it into autonomous ranked battles. NRN (Neuron) is the in-game token used for staking on ranked play and for rewards.
+websites:
+  - url: https://www.aiarena.io
+social:
+  twitter:
+    - url: https://twitter.com/aiarena_
+blockchain:
+  - address: "0xdadeca1167fe47499e53eb50f261103630974905"
+    name: Neuron (NRN)
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0x6371f51bd82d5e0eb2a01b942157cb45ab2d8ebe"
+    name: FighterFarm
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0xa4734bf76f511357d4353d88b84204957972ac84"
+    name: AAMintPass
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0xe5dd545c5be078f5e3f655db28e1de085fc5b26d"
+    name: AiArenaHelper
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0xb063f2af926af95f08515fd9d5f2397ce97148bf"
+    name: AirdropClaiming
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+  - address: "0xb0c41b1094120c9714bb8b9ec78bda5c464f628c"
+    name: ClaimingPatches
+    networks:
+      - arbitrum_one
+    tags:
+      - contract

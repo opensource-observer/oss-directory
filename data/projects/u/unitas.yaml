@@ -1,0 +1,21 @@
+version: 7
+name: unitas
+display_name: Unitas
+description: Unitas issues USDu, an overcollateralized yield-bearing stablecoin, along with its savings token sUSDu and XGLD (Unitas Gold), a gold-backed token redeemable against XAUt. USDu and sUSDu launched on Solana and BNB Smart Chain; XGLD mints natively on BNB Smart Chain and is bridged to other networks as a LayerZero OFT. Formerly Unipay.
+websites:
+  - url: https://unitas.so
+github:
+  - url: https://github.com/Unipayfi
+blockchain:
+  - address: "0xea953ea6634d55dac6697c436b1e81a679db5882"
+    name: XGLD (Unitas Gold)
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0x385c279445581a186a4182a5503094ebb652ec71"
+    name: XGLD (Unitas Gold)
+    networks:
+      - mantle
+    tags:
+      - contract

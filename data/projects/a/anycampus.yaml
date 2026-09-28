@@ -1,0 +1,20 @@
+version: 7
+name: anycampus
+display_name: AnyCampus
+description: AnyCampus is a Web3 learn-to-earn platform where users earn rewards for studying and for contributing to the community. Learning activity and contributions accrue AnyCampus Points, and the platform accepts payment in ETH, USDC, USDT and NFTs through a payment contract deployed on each supported network.
+websites:
+  - url: https://anycampus.io
+social:
+  twitter:
+    - url: https://twitter.com/anycampus_io
+blockchain:
+  - address: "0x37f3855ef805739189cc2dd9f1435a6cd8af87ce"
+    name: AnyCampus Payment Contract
+    networks:
+      - mainnet
+      - optimism
+      - base
+      - arbitrum_one
+      - scroll
+    tags:
+      - contract

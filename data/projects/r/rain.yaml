@@ -1,0 +1,17 @@
+version: 7
+name: rain
+display_name: Rain
+description:
+  Rain is a decentralized prediction markets protocol on Arbitrum One that lets anyone permissionlessly create and trade markets on verifiable events.
+  Markets are modeled as Diamond Proxy pools with both an AMM and an order book, settled through oracle and AI-assisted resolution with a multi-layered dispute and appeal process.
+  Its Entropy Layer adds shared-liquidity randomness markets backed by Chainlink VRF.
+websites:
+  - url: https://www.rain.one
+social:
+  twitter:
+    - url: https://x.com/Rain__Protocol
+defillama:
+  - url: https://defillama.com/protocol/rain
+npm:
+  - url: https://www.npmjs.com/package/rain-sdk-v2
+token_coingecko_api_id: rain
