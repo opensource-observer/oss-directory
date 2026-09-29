@@ -1,0 +1,17 @@
+version: 7
+name: tori-finance
+display_name: Tori Finance
+description: Tori Finance brings delta-neutral trading strategies onchain and issues trUSD, a synthetic dollar collateralized by the protocol's trading positions, which can be staked as strUSD to earn yield.
+websites:
+  - url: https://tori.finance
+social:
+  twitter:
+    - url: https://x.com/tori_finance
+github:
+  - url: https://github.com/Tori-Finance
+blockchain:
+  - address: "0xd0580192e98ea6ceb9c7b6191ed2e27560911697"
+    networks:
+      - mainnet
+    tags:
+      - contract

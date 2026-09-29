@@ -1,0 +1,15 @@
+version: 7
+name: main-street-finance
+display_name: Main Street Finance
+description: Main Street runs delta-neutral options trading strategies and issues msUSD, a synthetic dollar whose yield is distributed to the staked smsUSD token.
+websites:
+  - url: https://mainstreet.finance
+social:
+  twitter:
+    - url: https://x.com/Main_St_Finance
+blockchain:
+  - address: "0x4ba01f22827018b4772cd326c7627fb4956a7c00"
+    networks:
+      - mainnet
+    tags:
+      - contract

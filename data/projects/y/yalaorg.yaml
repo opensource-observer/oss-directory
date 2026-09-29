@@ -1,0 +1,22 @@
+version: 7
+name: yalaorg
+display_name: Yala
+description: Yala is a Bitcoin liquidity protocol that lets BTC holders mint YU, a BTC-backed stablecoin, through self-custodial, liquidation-free borrowing.
+websites:
+  - url: https://yala.org
+social:
+  twitter:
+    - url: https://x.com/yalaorg
+  telegram:
+    - url: https://t.me/yala_org
+  medium:
+    - url: https://medium.com/yalabtc
+github:
+  - url: https://github.com/yalaorg
+blockchain:
+  - address: "0xe868084cf08f3c3db11f4b73a95473762d9463f7"
+    networks:
+      - mainnet
+      - base
+    tags:
+      - contract
