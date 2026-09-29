@@ -1,0 +1,19 @@
+version: 7
+name: resupplyfi
+display_name: Resupply
+description: Resupply is a CDP protocol that issues reUSD, a decentralized stablecoin minted against interest-bearing stablecoin collateral from lending markets.
+websites:
+  - url: https://resupply.fi
+social:
+  twitter:
+    - url: https://x.com/ResupplyFi
+  mirror:
+    - url: https://mirror.xyz/resupply.eth
+github:
+  - url: https://github.com/resupplyfi
+blockchain:
+  - address: "0x57ab1e0003f623289cd798b1824be09a793e4bec"
+    networks:
+      - mainnet
+    tags:
+      - contract

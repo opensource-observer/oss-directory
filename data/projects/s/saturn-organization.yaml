@@ -1,0 +1,17 @@
+version: 7
+name: saturn-organization
+display_name: Saturn
+description: Saturn issues USDat, a stablecoin fully backed by tokenized U.S. Treasuries, alongside sUSDat, its yield-bearing staked form.
+websites:
+  - url: https://saturn.credit
+social:
+  twitter:
+    - url: https://x.com/saturn_credit
+github:
+  - url: https://github.com/saturn-organization
+blockchain:
+  - address: "0x23238f20b894f29041f48d88ee91131c395aaa71"
+    networks:
+      - mainnet
+    tags:
+      - contract

@@ -1,0 +1,24 @@
+version: 7
+name: apyx-labs
+display_name: Apyx
+description: Apyx issues apxUSD, a dividend-backed stablecoin collateralized by preferred equity from publicly listed digital asset treasury companies, with dividends passed to the separate yield-bearing apyUSD token.
+websites:
+  - url: https://apyx.fi
+social:
+  twitter:
+    - url: https://x.com/apyx_fi
+  telegram:
+    - url: https://t.me/apyx_announcements
+github:
+  - url: https://github.com/apyx-labs
+blockchain:
+  - address: "0x98a878b1cd98131b271883b390f68d2c90674665"
+    networks:
+      - mainnet
+    tags:
+      - contract
+  - address: "0xd993935e13851dd7517af10687ec7e5022127228"
+    networks:
+      - base
+    tags:
+      - contract

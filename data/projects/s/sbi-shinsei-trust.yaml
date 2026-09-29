@@ -1,0 +1,15 @@
+version: 7
+name: sbi-shinsei-trust
+display_name: SBI Shinsei Trust & Banking
+description: SBI Shinsei Trust & Banking issues JPYSC, a trust bank-backed Japanese yen stablecoin under Japan's Electronic Payment Instruments framework, in partnership with Startale Group.
+websites:
+  - url: https://www.shinseitrust.com/stablecoin/jpysc.html
+social:
+  twitter:
+    - url: https://x.com/JPYStableCoin
+blockchain:
+  - address: "0x6781d5631bfe47432b089e64e3eab3b6edd26177"
+    networks:
+      - mainnet
+    tags:
+      - contract
