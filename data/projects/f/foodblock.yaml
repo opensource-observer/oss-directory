@@ -1,0 +1,15 @@
+version: 7
+name: foodblock
+display_name: FoodBlock
+description: Content-addressed protocol for representing food-economy data as linked JSON blocks, covering provenance, traceability, certifications, transfers, and reviews.
+websites:
+  - url: https://foodx.network
+github:
+  - url: https://github.com/FoodXDevelopment/FoodBlock
+npm:
+  - url: https://www.npmjs.com/package/@foodxdev/foodblock
+  - url: https://www.npmjs.com/package/foodblock-mcp
+pypi:
+  - url: https://pypi.org/project/foodblock
+comments:
+  - MIT-licensed (SPDX MIT on GitHub; npm and PyPI packages declare MIT).
