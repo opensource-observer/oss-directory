@@ -63,6 +63,9 @@ importers:
         specifier: ^17.7.3
         version: 17.7.3
     devDependencies:
+      "@types/jest":
+        specifier: ^29.5.14
+        version: 29.5.14
       "@types/lodash":
         specifier: ^4.17.25
         version: 4.17.25
@@ -832,6 +835,16 @@ packages:
       {
         integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==,
       }
+
+  "@types/jest@29.5.14":
+    resolution:
+      {
+        integrity: sha512-CmcIdPPGhu66J1unBwMWNAnoaeVpndlhwtBHnN4ipStJthumU48H1nbPj692aA848gS854aEEm/9712q0XoFmg==,
+      }
+
+    dependencies:
+      expect: 29.7.0
+      pretty-format: 29.7.0
 
   "@types/lodash@4.17.25":
     resolution:
@@ -4419,6 +4432,11 @@ snapshots:
       "@types/istanbul-lib-report": 3.0.0
 
   "@types/json-schema@7.0.15": {}
+
+  "@types/jest@29.5.14":
+    dependencies:
+      expect: 29.7.0
+      pretty-format: 29.7.0
 
   "@types/lodash@4.17.25": {}
 
