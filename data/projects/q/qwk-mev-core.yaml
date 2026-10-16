@@ -1,0 +1,24 @@
+version: 7
+name: qwk-mev-core
+display_name: QWK Autonomous MEV Infrastructure
+description: >-
+  Autonomous Multi-Chain EVM MEV Infrastructure & Smart Contract Resource Escrow
+  (QWKResourceEscrow.sol) backed by $400,000+ in verified enterprise infrastructure
+  commitments (Google Cloud, NVIDIA, Cloudflare) with A2A v1.0 and x402 support.
+websites:
+  - url: https://chase-tqg.github.io/QWIK-MEV-Core/
+github:
+  - url: https://github.com/chase-tqg/QWIK-MEV-Core
+blockchain:
+  - address: "0x1ecf3736eb1a7a2f71980cc520da592bf0124a16"
+    networks:
+      - any_evm
+    tags:
+      - deployer
+      - eoa
+      - wallet
+  - address: "0x1cc436b4d9316ee623cfeb760c44f84c9bd9c20a"
+    networks:
+      - any_evm
+    tags:
+      - contract
