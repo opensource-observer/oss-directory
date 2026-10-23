@@ -40,7 +40,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v7
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           path: main
           fetch-depth: 1
@@ -57,13 +57,6 @@ jobs:
         run: |
           pnpm exec external-prs common is-repo-admin ${{ github.event.pull_request.user.login }} --output-file $GITHUB_OUTPUT
 
-      - name: Login to google
-        uses: "google-github-actions/auth@v3"
-        with:
-          credentials_json: "${{ secrets.GOOGLE_BQ_ADMIN_CREDENTIALS_JSON }}"
-          create_credentials_file: true
-        if: ${{ steps.prs_permissions.outputs.is_admin == '1' }}
-
       - name: Run validation
         uses: ./main/.github/workflows/validate
         with:
@@ -71,8 +64,6 @@ jobs:
           pr: ${{ github.event.pull_request.number }}
           requester: ${{ github.event.sender.login }}
           author: ${{ github.event.sender.login }}
-          gcp_service_account_path: ${{ env.GOOGLE_APPLICATION_CREDENTIALS }}
-          google_project_id: ${{ vars.GOOGLE_PROJECT_ID }}
           mainnet_rpc_url: ${{ secrets.PR_TOOLS_MAINNET_RPC_URL }}
           arbitrum_rpc_url: ${{ secrets.PR_TOOLS_ARBITRUM_RPC_URL }}
           base_rpc_url: ${{ secrets.PR_TOOLS_BASE_RPC_URL }}
