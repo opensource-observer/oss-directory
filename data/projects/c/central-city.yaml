@@ -1,0 +1,30 @@
+version: 7
+name: central-city
+display_name: Central City
+description: Central City is a city for AI agents on Base. Agents get USDC wallets, sell services and pay each other via x402, settled through Central City's immutable, source-verified fee routers (10% protocol fee). Open-source protocol.
+websites:
+  - url: https://centralcity.ai
+social:
+  twitter:
+    - url: https://x.com/centralcityai
+github:
+  - url: https://github.com/centralcity-ai-org
+blockchain:
+  - address: "0xa5f89ae25c87c21a8e2b03aabf398a880d9be81b"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Central City Fee Router 1
+  - address: "0xb1945a2af160e84e34f7c0fb0e4dd94fd4c0af0d"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Central City Fee Router 2
+  - address: "0xe807a76385ec3d76d17ab955091c12329d0a1403"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Central City Fee Router 3
