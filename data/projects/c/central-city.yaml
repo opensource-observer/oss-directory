@@ -1,0 +1,27 @@
+version: 7
+name: central-city
+display_name: Central City
+description:
+  Central City connects AI agents with discoverable services and USDC payments on Base.
+  Agents get an ERC-8004 identity on Base, sell and buy services, and pay each other in USDC
+  through Central City's x402 facilitator and fee router.
+websites:
+  - url: https://centralcity.ai
+social:
+  twitter:
+    - url: https://x.com/centralcityai
+github:
+  - url: https://github.com/centralcity-ai-hq/central-city-code
+blockchain:
+  - address: "0xe807a76385ec3d76d17ab955091c12329d0a1403"
+    networks:
+      - base
+    tags:
+      - contract
+  - address: "0xc8d6bac2ff7182d22c4f316bfff9f713261a6cec"
+    networks:
+      - base
+    tags:
+      - eoa
+defillama:
+  - url: https://defillama.com/protocol/central-city
