@@ -1,7 +1,7 @@
 version: 7
 name: lcx-liberty
 display_name: LCX Liberty DEX
-description: LCX Liberty DEX is a non-custodial DEX aggregator that prices swaps against its own index of 1.2M+ pools across 60+ venues on twelve EVM chains, routing each order to the best net price after gas with no added fee. It also offers cross-chain swaps, a multi-chain portfolio tracker, and a public Swap API, SDK and MCP server for builders.
+description: LCX Liberty DEX is a non-custodial DEX aggregator that prices swaps against its own index of 1.5M+ pools across 80+ venues on EVM chains, routing each order to the best net price after gas with no added fee. It also offers cross-chain swaps, a multi-chain portfolio tracker, and a public Swap API, SDK and MCP server for builders.
 websites:
   - url: https://dex.lcx.com
 social:
@@ -26,6 +26,7 @@ blockchain:
     networks:
       - matic
       - unichain
+      - worldchain
     tags:
       - contract
       - proxy
