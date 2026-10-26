@@ -1,0 +1,24 @@
+version: 7
+name: quantum-pools
+display_name: QuantumPools
+description: Self-withdrawable managed vaults for Uniswap V3 and PancakeSwap V3 concentrated liquidity. Each depositor keeps their own position NFT, and the keeper snuggles ranges to stay in range.
+websites:
+  - url: https://quantumpools.io
+social:
+  twitter:
+    - url: https://twitter.com/QuantumPoolsIO
+  telegram:
+    - url: https://t.me/QuantumPools
+github:
+  - url: https://github.com/Kittrian/quantumpools-public
+defillama:
+  - url: https://defillama.com/protocol/quantum-pools
+blockchain:
+  - address: "0x9597f68203d1bc85744a5fc11d890aa7777e386b"
+    networks: [base]
+    tags: [contract]
+    name: QuantumPools Vault V2
+  - address: "0x0e8a7c9fd76e718202b3c3530f3b587ba52fb1a8"
+    networks: [base]
+    tags: [contract]
+    name: QuantumPools Vault V2.1
