@@ -1,0 +1,21 @@
+version: 7
+name: getchordlabs
+display_name: Chord
+description: Chord is a non-custodial swap router and on-chain trade data API for apps and AI agents, with a hosted MCP server. It routes swaps across DEXs on Ethereum, Base, Arbitrum and other EVM networks and returns the unsigned transaction for the caller's wallet to sign.
+websites:
+  - url: https://getchord.xyz
+social:
+  twitter:
+    - url: https://x.com/getchord_xyz
+github:
+  - url: https://github.com/getchordlabs
+blockchain:
+  - address: "0x1b1fee89a381e595fe6536b99ba91f3e16e9601a"
+    name: ChordRouter
+    networks:
+      - mainnet
+      - base
+      - arbitrum_one
+    tags:
+      - contract
+      - proxy
