@@ -1,0 +1,120 @@
+version: 7
+name: cleave-protocol
+display_name: Cleave
+description:
+  Cleave is a DEX aggregator on Ethereum, Optimism, BNB Chain, Polygon, Base and Arbitrum with split routing across
+  pools and paths and one-step swaps between chains, with Cleave's own fees included in the quoted price. AI agents
+  use the same quotes through its API and MCP server.
+websites:
+  - url: https://cleave.fi
+social:
+  twitter:
+    - url: https://x.com/cleaveprotocol
+github:
+  - url: https://github.com/cleave-protocol/cleave-swap
+blockchain:
+  - address: "0x016750b998aab0b4b07aa6a2276335053a798758"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: Cleave Swap
+  - address: "0x5aff91027390f731058acc15e0a3f927b250c9fe"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: Cleave Measured Swap
+  - address: "0x30809f82f8df91e976b02f09dc64e0da8efb1e92"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: Cleave Cross-Chain Router
+  - address: "0x436ac858fd25706a8380b8afb38bc7538b852409"
+    networks:
+      - mainnet
+    tags:
+      - contract
+    name: Cleave Composer
+  - address: "0xb08f28a3575805ee1e3729fc19ab7e869cbaf563"
+    networks:
+      - optimism
+      - base
+    tags:
+      - contract
+    name: Cleave Swap
+  - address: "0x003d4c95756608ed4c11c5d0ad9ca4c4076caf20"
+    networks:
+      - optimism
+      - base
+    tags:
+      - contract
+    name: Cleave Measured Swap
+  - address: "0x34fcca283211224877f89f814eea0a3a912fd354"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Cleave Cross-Chain Router
+  - address: "0xab708aed94a07b9da06d92b4796988ee6ed0d32c"
+    networks:
+      - optimism
+    tags:
+      - contract
+    name: Cleave Composer
+  - address: "0x545fef65c37ecee32309d879abafaa959e9f114c"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Cleave Cross-Chain Router
+  - address: "0x58b73b40b5ed797833955397df989aa2dedd50a4"
+    networks:
+      - base
+    tags:
+      - contract
+    name: Cleave Composer
+  - address: "0x5b4a223d8489a3b97d4ebe8fe93c6a7ac3ec1ad6"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: Cleave Swap
+  - address: "0xa06ee4d57a2e6ea9213ab4bce2c055fd09bb43a1"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: Cleave Measured Swap
+  - address: "0xea0e8cae2dba07d3bc828f42fd6219ff93ddce97"
+    networks:
+      - matic
+      - arbitrum_one
+    tags:
+      - contract
+    name: Cleave Cross-Chain Router
+  - address: "0x6cbc5c7aa249edd719001786b6e0a07d44027693"
+    networks:
+      - matic
+    tags:
+      - contract
+    name: Cleave Composer
+  - address: "0x4052700f83324be5710d187b7bbea9837dffa8fc"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: Cleave Swap
+  - address: "0x78d851d8bc6a9b9739549e7515bf02d6394e1794"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: Cleave Measured Swap
+  - address: "0xe484191bff3e4ded3520d1d8e0fcf098caef4ce4"
+    networks:
+      - arbitrum_one
+    tags:
+      - contract
+    name: Cleave Composer
