@@ -1,0 +1,16 @@
+version: 7
+name: rvess
+display_name: RVESS Pay
+description: |-
+  Rvess is a savings wallet. One passkey or wallet is one account. People save toward a goal, and that goal can be a balance or a stream. 
+  A stream is a steady income: money they do not use can be restreamed, so they keep a supply while they save. A lock holds a part of that until a date. Leaving early costs 3%, and that penalty goes into a bonus pool shared by locks that finish.
+  A group with Each person pays in, then takes a turn receiving the pot. A missed window is taken from collateral. The same account can hold money on Celo and on Base.
+websites:
+  - url: https://rvess.xyz
+social:
+  twitter:
+    - url: https://x.com/rvessapp
+  telegram:
+    - url: https://t.me/olisehgenesis
+github:
+  - url: https://github.com/Olisehgenesis/rvessflow.git
