@@ -1,0 +1,13 @@
+version: 7
+name: siftingio-open-source-sdks
+display_name: SiftingIO Open Source SDKs
+description: MIT-licensed Python, TypeScript and Go clients for real-time and historical market data from SiftingIO. The hosted API covers US stocks and ETFs, forex, commodities and crypto; access to the API requires an account and API key.
+websites:
+  - url: https://sifting.io/sdks
+  - url: https://sifting.io/docs
+github:
+  - url: https://github.com/SiftingIO/sdk-python
+  - url: https://github.com/SiftingIO/sdk-typescript
+  - url: https://github.com/SiftingIO/sdk-go
+pypi:
+  - url: https://pypi.org/project/siftingio/
