@@ -1,0 +1,15 @@
+version: 7
+name: simfinity-js-simtlix
+display_name: Simfinity.js
+description: >-
+  Node.js library that generates GraphQL APIs from GraphQLObjectType definitions,
+  with PostgreSQL or MongoDB adapters and optional MCP integration.
+websites:
+  - url: https://simtlix.github.io/simfinity.js/
+github:
+  - url: https://github.com/simtlix/simfinity.js
+npm:
+  - url: https://www.npmjs.com/package/@simtlix/simfinity-js
+  - url: https://www.npmjs.com/package/@simtlix/simfinity-core
+  - url: https://www.npmjs.com/package/@simtlix/simfinity-postgres
+  - url: https://www.npmjs.com/package/@simtlix/simfinity-mcp
