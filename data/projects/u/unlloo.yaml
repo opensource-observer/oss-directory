@@ -1,0 +1,26 @@
+version: 7
+name: unlloo
+display_name: Unlloo
+description: Unlloo is a peer-to-peer crowd lending protocol on Ethereum. Borrowers raise a loan from a group of lenders without collateral, backed by their onchain reputation, and lenders choose which loans to fund and at what rate.
+websites:
+  - url: https://www.unlloo.com
+  - url: https://app.unlloo.com
+social:
+  twitter:
+    - url: https://x.com/unlloo_protocol
+  telegram:
+    - url: https://t.me/unlloo_protocol
+blockchain:
+  - address: "0x48d65f88244e45f2cf8e4c4a7e414e94b923e3db"
+    name: CrowdLoanManager
+    networks:
+      - mainnet
+    tags:
+      - contract
+      - proxy
+  - address: "0xf0c77cd3b1098b851a8a6142f12b8c6c2a60cd0f"
+    name: CrowdLoanManagerV1
+    networks:
+      - mainnet
+    tags:
+      - contract
