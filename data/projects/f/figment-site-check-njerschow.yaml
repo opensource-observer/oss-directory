@@ -1,0 +1,8 @@
+version: 7
+name: figment-site-check-njerschow
+display_name: Figment Site Check
+description: Checks static website folders for missing entry files, sensitive paths, symlinks, size limits, and unbuilt source files. Provides JavaScript and Python libraries and command-line tools with no runtime dependencies.
+websites:
+  - url: https://figment.so
+github:
+  - url: https://github.com/njerschow/figment-site-check
