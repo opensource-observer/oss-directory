@@ -1,0 +1,11 @@
+version: 7
+name: ai-language-partner-duct-tape2
+display_name: AI Language Partner
+description: >
+  A local-first Japanese speaking-practice app for Korean learners, combining an Expo/React Native client,
+  a FastAPI backend, curated dialogue-bank content, and optional local speech engines without requiring a
+  runtime LLM or paid model API for the core Daily Talk path.
+websites:
+  - url: https://duct-tape2.github.io/ai-language-partner/
+github:
+  - url: https://github.com/duct-tape2/ai-language-partner
