@@ -1,11 +1,13 @@
 version: 7
 name: daimo-pay
 display_name: Daimo Pay
-description: Daimo Pay enables seamless crypto payments for your app. Onboard users from any chain, any coin into your app with one click and maximize your conversion.
+description: Daimo Pay is a stablecoin deposit ramp for apps that accepts deposits from any wallet, chain, token or supported exchange and settles them non-custodially as the stablecoin and chain the app chooses. It is integrated through a React modal SDK or a REST API.
 websites:
-  - url: https://pay.daimo.com
+  - url: https://daimo.com
+social:
+  twitter:
+    - url: https://x.com/daimo
 github:
-  - url: https://github.com/daimo-eth/pay
   - url: https://github.com/daimo-eth/pretix-eth-payment-plugin
 npm:
   - url: https://www.npmjs.com/package/@daimo/pay
