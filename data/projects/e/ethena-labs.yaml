@@ -1,9 +1,7 @@
 version: 7
 name: ethena-labs
 display_name: Ethena
-description: Ethena is a synthetic dollar protocol built on Ethereum that
-  provides a crypto-native solution for money not reliant on traditional banking
-  system
+description: Ethena is a synthetic dollar protocol that issues USDe, a fully backed dollar-denominated digital asset, and sUSDe, its savings asset.
 websites:
   - url: https://ethena.fi/
 defillama:
@@ -12,6 +10,7 @@ defillama:
 social:
   twitter:
     - url: https://twitter.com/ethena_labs
+    - url: https://x.com/ethena
   telegram:
     - url: https://t.me/ethena_labs
 github:

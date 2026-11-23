@@ -1,11 +1,14 @@
 version: 7
 name: eywa-protocol
-display_name: EYWA Protocol
-description:
-  EYWA is a cross-chain liquidity protocol that enables seamless token swaps and liquidity provision across multiple blockchains. It utilizes a novel AMM algorithm and a decentralized network of liquidity pools to facilitate efficient trading and maximize capital utilization for liquidity providers.
-  between blockchains and creating aggregated cross-chain assets.
+display_name: CrossCurve
+description: CrossCurve (formerly EYWA) is a cross-chain DeFi protocol for swaps and liquidity across multiple blockchains, governed by the CrossCurve DAO through the EYWA token.
 websites:
-  - url: https://eywa.fi
+  - url: https://crosscurve.fi/
+social:
+  twitter:
+    - url: https://x.com/crosscurvefi
+  telegram:
+    - url: https://t.me/CrossCurveMetaLayer
 github:
   - url: https://github.com/eywa-protocol
 defillama:
