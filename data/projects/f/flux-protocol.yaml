@@ -1,11 +1,15 @@
 version: 7
 name: flux-protocol
-display_name: Flux Protocol
-description: SEDA is an oracle protocol that enables creating application-specific oracle programs to access data from any source. It offers an Interoperability Verification Module (IVM) to provide secure verification for bridges and chain abstraction frameworks. SEDA aims to support interoperability and chain abstraction with a single integration.
+display_name: SEDA
+description: SEDA (formerly Flux Protocol) is programmable oracle infrastructure for 24/7 market applications. Developers can configure custom oracle feeds for equities, FX, rates, commodities, indices and other assets.
 websites:
-  - url: https://fluxprotocol.org
+  - url: https://www.seda.xyz
+social:
+  twitter:
+    - url: https://x.com/sedaprotocol
 github:
   - url: https://github.com/fluxprotocol
+  - url: https://github.com/sedaprotocol
 blockchain:
   - address: "0xbf42f27077014b91031c54751baaacf1d6e79e8e"
     networks:
