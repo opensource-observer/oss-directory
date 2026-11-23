@@ -1,7 +1,7 @@
 version: 7
 name: arcx
 display_name: ArcX
-description: ArcX is a DeFi protocol for perpetual DEX strategies. It uses vault tokens, strategy tokens, and expected points tokens to separate yield and rewards-side exposure. Users can deposit USDC, trade ST or EPT, and manage positions through maturity.
+description: ArcX is a points marketplace built by Karnot. Its protocol splits vault deposits into Strategy Tokens (ST) and Expected Points Tokens (EPT) so the underlying and points exposure trade independently, with CreditTokens issued to EPT holders once point weights are submitted on-chain.
 websites:
   - url: https://www.arcx.trade/
 social:

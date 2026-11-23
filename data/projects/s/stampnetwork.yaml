@@ -1,10 +1,9 @@
 version: 7
 name: stampnetwork
 display_name: Stamp Network
+description: Stamp Network is an attestation engine powering web-of-trust (WoT) systems for communities.
 websites:
   - url: https://stamp.network/
-github:
-  - url: https://github.com/stampnetwork
 blockchain:
   - address: "0x289f935e88f7ff7648b2189b949c29f5cc90123b"
     networks:
