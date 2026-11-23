@@ -1,13 +1,17 @@
 version: 7
 name: theopenxproject
 display_name: The Open X Project
-description: OpenXSwap is a decentralized exchange protocol that enables trustless cross-chain swaps between EVM and non-EVM chains. It utilizes a novel bridging mechanism and a multi-chain liquidity pool model to facilitate efficient asset transfers. The protocol is built with a modular architecture, allowing for easy integration of new chains and customizable fee structures.
+description: The Open X Project builds OpenXSwap, a set of smart contracts for exchanging value onchain, including a multi-chain swap aggregator, vaults, an NFT marketplace and a liquid wrapper for vote-escrow positions.
 websites:
   - url: https://app.openxswap.exchange/#/
   - url: https://marketplace.openxswap.exchange/
 social:
   farcaster:
     - url: https://warpcast.com/openxproject
+  twitter:
+    - url: https://x.com/OpenXSwap
+  telegram:
+    - url: https://t.me/OpenXSwap
 github:
   - url: https://github.com/theopenxproject
 blockchain:
