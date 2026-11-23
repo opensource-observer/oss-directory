@@ -1,0 +1,15 @@
+version: 7
+name: x-ray-web3
+display_name: X-RAY
+description: X-RAY maps the Web3 market as a board of players (companies, protocols, exchanges, funds, chains and DAOs) with who controls them, what capital they hold, their licences and sanctions, and their moves. Its open readers parse public crypto registers (Korea's KoFIU, Japan's FSA, Lido's node operators) and publish register samples under CC BY 4.0.
+websites:
+  - url: https://x-ray.me
+social:
+  twitter:
+    - url: https://twitter.com/xrayWeb3
+github:
+  - url: https://github.com/xrayme1337/x-ray-registers
+  - url: https://github.com/xrayme1337/kofiu-vasp-register
+  - url: https://github.com/xrayme1337/jfsa-crypto-registers
+  - url: https://github.com/xrayme1337/lido-node-operators
+  - url: https://github.com/xrayme1337/x-ray-agent-kit
