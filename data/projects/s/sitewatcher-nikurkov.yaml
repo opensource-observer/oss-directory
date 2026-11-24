@@ -1,0 +1,8 @@
+version: 7
+name: sitewatcher-nikurkov
+display_name: SiteWatcher
+description: Self-hosted monitoring for website uptime, response times, TLS certificates, and domain registration expiry.
+websites:
+  - url: https://monitoring.kurkov.dev/demo
+github:
+  - url: https://github.com/NikKurkov/sitewatcher
